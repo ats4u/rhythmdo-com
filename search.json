@@ -1,0 +1,163 @@
+[
+  {
+    "objectID": "templates/default-of-thoughts.html#頃-本日の業務を開始致します",
+    "href": "templates/default-of-thoughts.html#頃-本日の業務を開始致します",
+    "title": "<% tp.date.now(“YYYY年MM月DD日”) %>",
+    "section": "09:00:00 頃 本日の業務を開始致します。",
+    "text": "09:00:00 頃 本日の業務を開始致します。"
+  },
+  {
+    "objectID": "templates/default-of-thoughts.html#頃-昼休みを開始致します",
+    "href": "templates/default-of-thoughts.html#頃-昼休みを開始致します",
+    "title": "<% tp.date.now(“YYYY年MM月DD日”) %>",
+    "section": "12:00:00 頃 昼休みを開始致します。",
+    "text": "12:00:00 頃 昼休みを開始致します。"
+  },
+  {
+    "objectID": "templates/default-of-thoughts.html#頃-昼休みを終了致します",
+    "href": "templates/default-of-thoughts.html#頃-昼休みを終了致します",
+    "title": "<% tp.date.now(“YYYY年MM月DD日”) %>",
+    "section": "13:00:00 頃 昼休みを終了致します。",
+    "text": "13:00:00 頃 昼休みを終了致します。"
+  },
+  {
+    "objectID": "templates/default-of-thoughts.html#頃-本日の作業振り返りを開始します",
+    "href": "templates/default-of-thoughts.html#頃-本日の作業振り返りを開始します",
+    "title": "<% tp.date.now(“YYYY年MM月DD日”) %>",
+    "section": "18:30:00 頃 本日の作業振り返りを開始します。",
+    "text": "18:30:00 頃 本日の作業振り返りを開始します。"
+  },
+  {
+    "objectID": "templates/default-of-thoughts.html#頃-本日の業務を終了致します",
+    "href": "templates/default-of-thoughts.html#頃-本日の業務を終了致します",
+    "title": "<% tp.date.now(“YYYY年MM月DD日”) %>",
+    "section": "19:00:00 頃 本日の業務を終了致します。",
+    "text": "19:00:00 頃 本日の業務を終了致します。"
+  },
+  {
+    "objectID": "templates/default-of-thoughts.html#作業上の注意点",
+    "href": "templates/default-of-thoughts.html#作業上の注意点",
+    "title": "<% tp.date.now(“YYYY年MM月DD日”) %>",
+    "section": "作業上の注意点",
+    "text": "作業上の注意点\n\n[v] 簡単な作業から片付ける。\n[v] 改善の余地を残しながら開発する。\n[v] 最初から最高を目指さない。\n[v] 細かな点を気にしすぎないこと\n[v] まず全体の流れを通すことを優先すること\n[v] 動くようになってから効率の改善を行う。\n[v] 最小のSQLを実現しようとしてはならない (Premature Optimization)\n[v] HTMLで出来ないことはやらない。\n[v] 画面を表示する為に必要なテーブルとシステムが稼働する為に必要なテーブルは、必ず分ける。"
+  },
+  {
+    "objectID": "templates/default-of-thoughts.html#テクニック上の注意点",
+    "href": "templates/default-of-thoughts.html#テクニック上の注意点",
+    "title": "<% tp.date.now(“YYYY年MM月DD日”) %>",
+    "section": "テクニック上の注意点",
+    "text": "テクニック上の注意点\n\n[v] ひたすらSQLを書いて、ひたすらAPIを書いて、ひたすらReact.jsを書く。\n[v] 考えない！ 手を動かす。\n[v] 動作の違うAPIはメソッド名を変える。できるかぎり API に条件判定を入れない！"
+  },
+  {
+    "objectID": "templates/default-of-thoughts.html#メンタル上の注意点",
+    "href": "templates/default-of-thoughts.html#メンタル上の注意点",
+    "title": "<% tp.date.now(“YYYY年MM月DD日”) %>",
+    "section": "メンタル上の注意点",
+    "text": "メンタル上の注意点\n\n[v] 集中力を落とさない様に注意する。\n[v] 集中力を上げる事を意識する。\n[v] 疲れる前に休む。\n[v] 今後の作業は繰り返し作業が多い為、作業の効率向上を考える。\n[v] 集中し過ぎによるコンディション悪化に注意する。"
+  },
+  {
+    "objectID": "templates/default-of-journal.html#頃-本日の業務を開始致します",
+    "href": "templates/default-of-journal.html#頃-本日の業務を開始致します",
+    "title": "<% tp.date.now(“YYYY年MM月DD日”) %>",
+    "section": "09:00:00 頃 本日の業務を開始致します。",
+    "text": "09:00:00 頃 本日の業務を開始致します。"
+  },
+  {
+    "objectID": "templates/default-of-journal.html#頃-昼休みを開始致します",
+    "href": "templates/default-of-journal.html#頃-昼休みを開始致します",
+    "title": "<% tp.date.now(“YYYY年MM月DD日”) %>",
+    "section": "12:00:00 頃 昼休みを開始致します。",
+    "text": "12:00:00 頃 昼休みを開始致します。"
+  },
+  {
+    "objectID": "templates/default-of-journal.html#頃-昼休みを終了致します",
+    "href": "templates/default-of-journal.html#頃-昼休みを終了致します",
+    "title": "<% tp.date.now(“YYYY年MM月DD日”) %>",
+    "section": "13:00:00 頃 昼休みを終了致します。",
+    "text": "13:00:00 頃 昼休みを終了致します。"
+  },
+  {
+    "objectID": "templates/default-of-journal.html#頃-本日の作業振り返りを開始します",
+    "href": "templates/default-of-journal.html#頃-本日の作業振り返りを開始します",
+    "title": "<% tp.date.now(“YYYY年MM月DD日”) %>",
+    "section": "18:30:00 頃 本日の作業振り返りを開始します。",
+    "text": "18:30:00 頃 本日の作業振り返りを開始します。"
+  },
+  {
+    "objectID": "templates/default-of-journal.html#頃-本日の業務を終了致します",
+    "href": "templates/default-of-journal.html#頃-本日の業務を終了致します",
+    "title": "<% tp.date.now(“YYYY年MM月DD日”) %>",
+    "section": "19:00:00 頃 本日の業務を終了致します。",
+    "text": "19:00:00 頃 本日の業務を終了致します。"
+  },
+  {
+    "objectID": "templates/default-of-journal.html#作業上の注意点",
+    "href": "templates/default-of-journal.html#作業上の注意点",
+    "title": "<% tp.date.now(“YYYY年MM月DD日”) %>",
+    "section": "作業上の注意点",
+    "text": "作業上の注意点\n\n[v] 簡単な作業から片付ける。\n[v] 改善の余地を残しながら開発する。\n[v] 最初から最高を目指さない。\n[v] 細かな点を気にしすぎないこと\n[v] まず全体の流れを通すことを優先すること\n[v] 動くようになってから効率の改善を行う。\n[v] 最小のSQLを実現しようとしてはならない (Premature Optimization)\n[v] HTMLで出来ないことはやらない。\n[v] 画面を表示する為に必要なテーブルとシステムが稼働する為に必要なテーブルは、必ず分ける。"
+  },
+  {
+    "objectID": "templates/default-of-journal.html#テクニック上の注意点",
+    "href": "templates/default-of-journal.html#テクニック上の注意点",
+    "title": "<% tp.date.now(“YYYY年MM月DD日”) %>",
+    "section": "テクニック上の注意点",
+    "text": "テクニック上の注意点\n\n[v] ひたすらSQLを書いて、ひたすらAPIを書いて、ひたすらReact.jsを書く。\n[v] 考えない！ 手を動かす。\n[v] 動作の違うAPIはメソッド名を変える。できるかぎり API に条件判定を入れない！"
+  },
+  {
+    "objectID": "templates/default-of-journal.html#メンタル上の注意点",
+    "href": "templates/default-of-journal.html#メンタル上の注意点",
+    "title": "<% tp.date.now(“YYYY年MM月DD日”) %>",
+    "section": "メンタル上の注意点",
+    "text": "メンタル上の注意点\n\n[v] 集中力を落とさない様に注意する。\n[v] 集中力を上げる事を意識する。\n[v] 疲れる前に休む。\n[v] 今後の作業は繰り返し作業が多い為、作業の効率向上を考える。\n[v] 集中し過ぎによるコンディション悪化に注意する。"
+  },
+  {
+    "objectID": "tatenori/index.md.html",
+    "href": "tatenori/index.md.html",
+    "title": "Untitled",
+    "section": "",
+    "text": "日本人だけが見えていない世界がある ─── この日本人だけが持つ盲点の存在を御紹介致します。"
+  },
+  {
+    "objectID": "tatenori/index.md.html#日本人が日本語のリズムで詠む俳句",
+    "href": "tatenori/index.md.html#日本人が日本語のリズムで詠む俳句",
+    "title": "Untitled",
+    "section": "日本人が日本語のリズムで詠む俳句",
+    "text": "日本人が日本語のリズムで詠む俳句\n\n─── なにわずに　さくやこのはな　ふゆごもり ───"
+  },
+  {
+    "objectID": "tatenori/index.md.html#外国人が外国語のリズムで詠む俳句",
+    "href": "tatenori/index.md.html#外国人が外国語のリズムで詠む俳句",
+    "title": "Untitled",
+    "section": "外国人が外国語のリズムで詠む俳句",
+    "text": "外国人が外国語のリズムで詠む俳句\n\n「ナニワツあるよニー！ タクィャコーノパナあるよ！フユｯコモリあるよ！」\n\n日本語話者からすると、せっかくの日本語のリズムが崩れてしまい、美しさが破壊されたように感じます。それは日本人の心の冒涜と取られても致し方がないことでもあります。しかしながら、これは外国人が必死に日本語を真似しようとしている結果であり、ある意味では仕方のないことかも知れません。\nしかし一方で、\n\n「ワタチ！ニポンチンあるよ！」\n\nもしもこのようにその外国人が『私は日本人です』と宣言しているとしたら、このような日本語の崩れは許容される範囲を超えてしまうでしょう。同じことが日本人の縦乗りが与える違和感にも当てはまります。\n\nI play jazz!\n\nジャズは、米国が生み出した唯一の伝統文化です。ジャズは米国にとって特殊な意味を持つ音楽なのです。それは日本の俳句と同じくナショナリズムと深く結びついた概念でもあります。日本独自文化の俳句を詠むことと、米国独自文化ジャズを演奏することにはほぼ同じ意味合いがあります。つまり外人がジャズを演奏するということには、外人が俳句を詠むときと同じ深い覚悟が必要といえます。\n日本人の縦乗りを残したまま、米国独自文化の横乗りの音楽をジャズ を『本格的に演奏する』と言い切る事は、米国人にとっては一種の冒涜といえます。\n日本人の縦乗りを残したまま 本格ジャズ 本格ラップ 本格クラシック を謳ってしまうと、海外の人々からは強い違和感をもって受け止められるのです。"
+  },
+  {
+    "objectID": "tatenori/index.md.html#公に批判しづらい風潮",
+    "href": "tatenori/index.md.html#公に批判しづらい風潮",
+    "title": "Untitled",
+    "section": "1. 公に批判しづらい風潮",
+    "text": "1. 公に批判しづらい風潮\nまず、外国人が日本人の演奏に対して「変だ」とか「おかしい」と直接的に指摘しづらいのは、それが差別的な発言と取られる可能性があるからです。特に近年は、国際社会において「文化の違いを尊重する」という考え方が強く根付いており、他文化の表現方法を“批判”する行為が不寛容とみなされることが多くなっています。このため、もし演奏に違和感を覚えたとしても、それを堂々と口にすることは避けられがちです。"
+  },
+  {
+    "objectID": "tatenori/index.md.html#リズム感覚や表現方法の相違",
+    "href": "tatenori/index.md.html#リズム感覚や表現方法の相違",
+    "title": "Untitled",
+    "section": "2. リズム感覚や表現方法の相違",
+    "text": "2. リズム感覚や表現方法の相違\n日本の音楽、特にリズムの取り方には、欧米の音楽とは異なる「縦乗り」や「タテノリ」的な感覚があると指摘されることがあります。これは、ポップスやジャズ、ロックといった西洋由来のジャンルが持つ“横に流れるグルーヴ”とはやや違うものです。こうした独特のリズム感は、欧米的な耳からすると馴染みにくい場合があるため、違和感として捉えられることがあります。しかし、そうした意見を声高に主張すると、価値観の押し付けや偏見と受け取られかねないため、あまり表立って言われることは多くありません。"
+  },
+  {
+    "objectID": "tatenori/index.md.html#批判する人々の動機",
+    "href": "tatenori/index.md.html#批判する人々の動機",
+    "title": "Untitled",
+    "section": "3. 批判する人々の動機",
+    "text": "3. 批判する人々の動機\nそれでも一部の外国人がはっきりと「日本の音楽は変だ」と言及するのは、自分の素直な感覚を共有することで、相互理解や音楽的発展につながると考えているからかもしれません。彼らの多くは、単に苦言を呈するのではなく、「こういう部分を改善すればより良くなるのでは」という積極的な意図を持っている場合もあります。また、他国のリズム感や表現手法に慣れた経験豊富なミュージシャンや評論家ほど、より率直な意見を発信しがちです。"
+  },
+  {
+    "objectID": "tatenori/index.md.html#縦乗りの音楽を選ばない理由",
+    "href": "tatenori/index.md.html#縦乗りの音楽を選ばない理由",
+    "title": "Untitled",
+    "section": "4. “縦乗りの音楽”を選ばない理由",
+    "text": "4. “縦乗りの音楽”を選ばない理由\n一方で、「縦乗りの音楽がおかしい」とは直接言わないまでも、外国人が積極的にそれを選択しないことがあるのも事実です。これは単に「嫌い」というより、むしろ慣れの問題や好みの問題が大きく関係しています。幼い頃から身についた音楽の感覚や定番のリズムスタイルになじんでいるため、あえて“縦乗り”を取り入れた音楽に手を伸ばそうとはあまり思わないのです。要するに、彼らの無言の選択からも、聴き慣れたリズムや表現を好む傾向が読み取れます。"
+  }
+]
