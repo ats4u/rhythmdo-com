@@ -3,7 +3,7 @@ project:
   type: website
   output-dir: .site
   preview:
-    port: 4141
+    port: 5150
     browser: false
   resources:
     - ads.txt
@@ -23,7 +23,7 @@ website:
 #    dismissable: false
   navbar:
     right:
-      - href: index.md
+      - href: index.qmd
         text: "リズムペディアホーム"
     logo: attachments/rhythmpedia-header2.png
   sidebar:
@@ -31,32 +31,32 @@ website:
     search: true
     contents:
       - section: "リズムペディア"
-        href: index.md
+        href: index.qmd
         contents:
           - text: ホーム
-            href: index.md
+            href: index.qmd
       - section: "縦乗り理論"
-        href: tatenori-theory/index.md
+        href: tatenori-theory/about.md
         contents:
-          - tatenori-theory/index.md
+          - tatenori-theory/about.md
           - tatenori-theory/tatenori-to-reigi.md
           - tatenori-theory/tatenori-no-gogen.md
       - section: "オフビートカウント理論"
-        href: offbeatcount-theory/index.md
+        href: offbeat-count-theory/about.md
         contents:
-          - offbeatcount-theory/index.md
-          - offbeatcount-theory/offbeat-oriented-rhythm-theory.md
-          - offbeatcount-theory/metadivision-theory.md
-          - offbeatcount-theory/three-n-rhythm-theory.md
-          - offbeatcount-theory/offbeat-oriented-polyrhythm-theory.md
+          - offbeat-count-theory/about.md
+          - offbeat-count-theory/beat-orientation.md
+          - offbeat-count-theory/metadivision.md
+          - offbeat-count-theory/three-n-rhythm.md
+          - offbeat-count-theory/polyrhythm.md
       - section: "エッセイ"
         href: essays/*.md
     logo: /attachments/rhythmpedia-header5v2.png
 format:
   html:
     theme:
-      light : [ cosmo, theme.scss, theme-light.scss ]
-      dark  : [ darkly, theme.scss, theme-dark.scss ]
+      light : [ cosmo,  .assets/websites/theme.scss, .assets/websites/theme-light.scss ]
+      dark  : [ darkly, .assets/websites/theme.scss, .assets/websites/theme-dark.scss ]
     filters:
       - filters/include-files.lua
 #      - filters/obsidian-image-dimensions.lua
@@ -68,6 +68,9 @@ format:
     include-in-header:
       - text: |
           <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6838486775293179" crossorigin="anonymous"></script>
+          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     grid:
       sidebar-width: 300px
-
+      body-width: 800px
+      margin-width: 600px
+      gutter-width: 1.5rem
