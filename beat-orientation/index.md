@@ -701,7 +701,8 @@ tags:
 
 モーラ拍リズム以外の言語を母国語とする人々はしばしば逆の認識を持っています。つまり、しばしば彼らは「**弱拍で日が昇り、強拍で日が沈む**」と認識しています。 「波は打ち寄せては引いていく」もしばしば同様に「**弱拍で波が打ち寄せて、強拍で波が引いていく**」と認識しています。
 
-<!-- コメント →→ --><div style="display:none"><!--
+<!-- コメント →→ -->
+<!--
 ストレス拍言語を話す人が必ずしもグルーヴする訳ではないので、英語で説明するときは別な説明が必要になる。
 
 モーラ拍リズム言語話者
@@ -711,7 +712,7 @@ tags:
 ストレス拍言語
 　　　↑↑↑
 シラブル拍言語
---></div>
+-->
 
 弱拍は英語でしばしば「**アップビート**」と呼ばれることがあります。これは指揮者の指揮棒になぞらえた表現です。指揮者は壇上で指揮するにあたって弱拍で指揮棒を振り上げ、強拍で指揮棒を振り下ろすでしょう。この動きになぞらえて、弱拍は英語で「**アップビート**」と呼ばれるのです。モーラ拍リズム言語である日本語を母国語とするとしばしばこの認識は逆になります。
 
@@ -918,19 +919,31 @@ tags:
 
 多層の拍の上で弱拍先行が起こると**尻合わせ**という非常に特徴的なリズム上の現象が起こります。この節ではこの尻合わせが起こるメカニズムを説明します。
 
-#### 尻合わせと頭あ合わせ
+#### 尻合わせと頭合わせ
 モーラ拍リズムのリズム認識をここでは**頭合わせ**と、そしてストレス拍リズムのリズム認識を**尻合わせ** と呼びます。
 
 #### 尻合わせ
-
+海外の音楽・・・ジャズやR&B、ロックではしばしばメロディーの開始点がはっきり決まっておらず、メロディーは任意の地点から漠然と開始されます。開始点ははっきり決まっていませんが、終了地点は必ず決まっており、その地点で大きな音でアクセントを入れる手法がしばしば用いられます。このリズム構成の構造をここでは **尻合わせ** と呼びます。
 
 ![](attachments/Pasted%20image%2020250609002541.png)
 
-<div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">尻合わせリズム（海外の音楽ジャズ／ファンク）<br>頭合わせリズム（日本人が陥りがちなリズム)<br>… の違い<br><br>【尻合わせ】 <a href="https://t.co/vryyK4SjMC">pic.twitter.com/vryyK4SjMC</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1612304475347390466?ref_src=twsrc%5Etfw">January 9, 2023</a></blockquote></div>
+[尻合わせ](https://x.com/ats4u/status/1612304475347390466)
+
+尻合わせリズム構成では４分音符の演奏順序がしばしば１２３４ではなく２３４１という順序で演奏されます。この様に必ず最後が１になるようにメロディーが配置されます。１６ビートの曲では８分音符で数えることが一般的ですが、この場合では２３４５６７８１と同様に必ず１が最後になるようにメロディーが配置されます。
 
 #### 頭合わせ
+
+中国の伝統音楽や、日本・イランなどモーラ拍言語を母国語とする国々の音楽では、しばしば繰り返しのなかでメロディーの開始地点がはっきりと決まっており、そこで大きな音でアクセントを入れる手法がしばしば用いられます。ほとんどの場合、終了地点ははっきり決まっておらず、メロディーは漠然と終わります。このリズム構成の構造をここでは **頭合わせ** と呼びます。
+
 ![](attachments/Pasted%20image%2020250609002708.png)
-<div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560" data-lang="en"><p lang="ja" dir="ltr">尻合わせリズム（海外の音楽ジャズ／ファンク）<br>頭合わせリズム（日本人が陥りがちなリズム)<br>… の違い<br><br>【頭合わせ】 <a href="https://t.co/Eij6Uuqi5G">pic.twitter.com/Eij6Uuqi5G</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1612304530502451201?ref_src=twsrc%5Etfw">January 9, 2023</a></blockquote></div>
+[頭合わせ](https://twitter.com/ats4u/status/1612304530502451201)
+
+頭合わせリズム構成では、４分音符の演奏順序がしばしば１２３休という順序で演奏されます。この時４はしばしば演奏されずに休符が演奏されます。１６ビートの曲では「１２３休４５６休」（１２３休を２回繰り返し）や「１２３４５６休休」（１２３休を２倍に延長）という様に１２３休を変形した形を保ちます。
+
+#### 多層拍構造での強拍先行
+頭合わせ・尻合わせリズム構成が生まれることには、はっきりした理由があります。メロディーのリズム構成が頭合わせになるか尻合わせになるかは、リズムが弱拍先行であるか強拍先行であるかによって決まります。
+
+以下で頭合わせ・尻合わせが起こるメカニズムを見ていきます。
 
 <style>
   table.offbeat-onbeat-table {
@@ -946,20 +959,34 @@ tags:
     border: 1px solid black;
   }
 
-  table.offbeat-onbeat-table th {
+  table.offbeat-onbeat-table tr th {
     width: 5em;
     overflow: hidden;
     font-size: smaller;
-    background-color: yellow;
+    font-weight:1000;
+    background-color: green;
+    color: white;
+    white-space: nowrap;
   }
+  table.offbeat-onbeat-table tr th:not(:first-of-type) {
+    background-color: orange;
+    color: white;
+  }
+  
   body.quarto-dark  table.offbeat-onbeat-table th  {
     background-color: green;
+    color: white;
+    font-weight:1000;
+  }
+  .offbeat-td {
+    background-color:orange;
+    color:white;
+    font-weight:1000;
   }
 </style>
 
-#### 多層拍構造での強拍先行
 
-次のように4分音符が1小節に4つあったとします。ここで音符を２個ずつのグループに分け、先に現れる方を強拍、後に現れる方を弱拍と定義します
+次のように4分音符が1小節に4つあったとします。ここで音符を２個ずつのグループに分け、先に現れる方を強拍、後に現れる方を弱拍と定義します。
 
 <table class="offbeat-onbeat-table">
   <tbody>
@@ -980,12 +1007,11 @@ tags:
   </tbody>
 </table>
 
-
-同じ様に全ての音価に対して強拍弱拍を割り当てていくことが出来ます。ここでは２分音符・４分音符８分音符・１６分音符を対象に、割り当てて行きます。結果は次のようになります。
+これに先頭から強拍弱拍を順番に割り当てていくと次のようになります。
 
 <table class="offbeat-onbeat-table">
   <tbody>
-    <tr>
+    <tr class="header">
       <th>位置</th>
       <td>１拍目</td>
       <td class="offbeat-td">２拍目</td>
@@ -1008,6 +1034,8 @@ tags:
     </tr>
   </tbody>
 </table>
+
+同じ様に全ての音価に対して強拍弱拍を割り当てていくことが出来ます。 ここでは２分音符・４分音符８分音符・１６分音符を対象に、割り当てて行きます。結果は次のようになります。
 
 <table class="offbeat-onbeat-table">
   <tbody>
@@ -1161,6 +1189,8 @@ tags:
 
 このRMOPを多層の拍層に適用するとどうなるかを見ていきます。
 
+次のように４分音符があったとします。
+
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
@@ -1215,15 +1245,39 @@ tags:
   </tbody>
 </table>
 
-##### 横乗りの弱拍には複数の階層がある
+このように４拍目が先に演奏されるようになり１２３４から**４１２３**という順序に変わりました。
 
-  前章では横乗りでは４分音符の弱拍がその強拍よりも先に演奏されるということを見てきました。この横乗りの弱拍が先に演奏される習慣は4分音符以外の拍でも行われます。例えば2分音符で見てみます。
+このことを**弱拍の先行**と呼びます。 
 
-<style>
-  .offbeat-td {
-    color:red;
-  }
-</style>
+#### 弱拍先行には複数の階層がある
+
+前章では弱拍先行するリズムの例として４分音符に於いて弱拍が強拍よりも先に演奏される場合をグラフ化して俯瞰しました。**この弱拍の先行は4分音符以外の全ての音価の拍で同時に起こり** ます。例えば2分音符で見てみましょう。
+
+##### 2分音符の場合
+
+次のように2分音符があったとします。
+
+<table class="offbeat-onbeat-table">
+  <tbody>
+    <tr>
+      <th>位置</th>
+      <td>１拍目</td>
+      <td class="offbeat-td">２拍目</td>
+    </tr>
+    <tr>
+      <th>２分音符</th>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+    </tr>
+    <tr>
+      <th>強弱</th>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+    </tr>
+  </tbody>
+</table>
+
+先に述べた様に、2分音符も4分音符と同様に弱拍の先行が起こります。2分音符で弱拍先行が起こると次のようになります。
 
 <table class="offbeat-onbeat-table">
   <tbody>
@@ -1245,32 +1299,43 @@ tags:
   </tbody>
 </table>
 
+この様に2分音符でも弱拍が先に演奏され、強拍がその後ろに演奏されるようになりました。弱拍の先行は8分音符16分音符などの他の全ての音価で同様に起こります。
 
+そして弱拍の先行は**常に同時に起こる**のです。
 
-  この様に2分音符も弱拍が先に演奏され、強拍がその後ろに演奏されます。同じことは8分音符16分音符でも起こります。次で2分音符4分音符8分音符16分音符の弱拍が先になった様子を見てみます。
+##### 4分音符の場合
 
-##### 横乗り ─── 弱拍が前になる場合の音符の一覧強
+前節で4分音符で弱拍先行が起こった時のグラフを見てきました。その4分音符弱拍先行のグラフの上にそれぞれの4分音符に対応する2分音符のグラフを重ねてみると興味深いことがわかるのです。
+
+まず次のように4分音符があったとします。
 
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
       <th>位置</th>
-      <td class="offbeat-td">２拍目</td>
       <td>１拍目</td>
+      <td class="offbeat-td">２拍目</td>
+      <td>３拍目</td>
+      <td class="offbeat-td">４拍目</td>
     </tr>
     <tr>
-      <th>2分音符</th>
+      <th>4分音符</th>
+      <td>◯</td>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
+      <td class="offbeat-td">◯</td>
     </tr>
     <tr>
       <th>強弱</th>
+      <td>強</td>
       <td class="offbeat-td">弱</td>
       <td>強</td>
+      <td class="offbeat-td">弱</td>
     </tr>
   </tbody>
 </table>
 
+この4分音符が弱拍先行になると次の様になります。
 
 <table class="offbeat-onbeat-table">
   <tbody>
@@ -1294,6 +1359,861 @@ tags:
       <td>強</td>
       <td class="offbeat-td">弱</td>
       <td>強</td>
+    </tr>
+  </tbody>
+</table>
+
+これで４分音符の弱拍が先行しました。 しかしこの弱拍先行は完全ではありません。上に対応する2分音符のグラフを重ねてみると、２分音符で見たときには依然として強拍が先行していることがわかります。次のグラフを御覧下さい。
+
+<table class="offbeat-onbeat-table">
+  <tbody>
+    <tr>
+      <th>位置</th>
+      <td>１拍目</td>
+      <td class="offbeat-td">２拍目</td>
+    </tr>
+    <tr>
+      <th>2分音符</th>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+    </tr>
+    <tr>
+      <th>強弱</th>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="offbeat-onbeat-table">
+  <tbody>
+    <tr>
+      <th>位置</th>
+      <td class="offbeat-td">４拍目</td>
+      <td>１拍目</td>
+      <td class="offbeat-td">２拍目</td>
+      <td>３拍目</td>
+    </tr>
+    <tr>
+      <th>4分音符</th>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+    </tr>
+    <tr>
+      <th>強弱</th>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+    </tr>
+  </tbody>
+</table>
+
+４分音符で弱拍を倒置しても、２分音符で見ると依然として強拍が先になっていることがわかります ここで２分音符に関しても弱拍の倒置を起こしたらどうなるでしょうか。
+
+<table class="offbeat-onbeat-table">
+  <tbody>
+    <tr>
+      <th>位置</th>
+      <td class="offbeat-td">２拍目</td>
+      <td>１拍目</td>
+    </tr>
+    <tr>
+      <th>2分音符</th>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+    </tr>
+    <tr>
+      <th>強弱</th>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="offbeat-onbeat-table">
+  <tbody>
+    <tr>
+      <th>位置</th>
+      <td class="offbeat-td">２拍目</td>
+      <td>３拍目</td>
+      <td class="offbeat-td">４拍目</td>
+      <td>１拍目</td>
+    </tr>
+    <tr>
+      <th>4分音符</th>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+    </tr>
+    <tr>
+      <th>強弱</th>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+    </tr>
+  </tbody>
+</table>
+
+4分音符の順番がまる一周回転した状態になりました。このリズムを２３４１リズムと呼びます。これがいわゆる**横乗りリズム**の世界の数の数え方です。この世界では4分音符の順番が小節中を回転し完全に一周回って１が終了地点に来る状態になっています。
+
+この様に、**全ての音価で弱拍が先行すると結果として、全ての音価の音符の序数の列は、必ず１が最後に来る様に回転します。これが弱拍先行で尻合わせが構成されるメカニズムです。** これが２３４１リズムが出来上がるメカニズムです。
+
+１から始まるリズムは、弱拍が先行することにより、１で終わるリズムへと形を変えるのです。  この１で終わるリズムのことを**尻合わせリズム**と呼びます。これに対して１で始まるリズムのことを**頭合わせリズム**と呼びます。
+
+この様にすると2分音符4分音符だけでなく、全音符／2全音符を含む考えうる全ての音符でこの現象が起こります。次に8分音符で見てみましょう。
+
+##### ８分音符の場合
+
+<table class="offbeat-onbeat-table">
+  <tbody>
+    <tr>
+      <th>位置</th>
+      <td>1拍目</td>
+      <td class="offbeat-td">2拍目</td>
+      <td>3拍目</td>
+      <td class="offbeat-td">4拍目</td>
+      <td>5拍目</td>
+      <td class="offbeat-td">6拍目</td>
+      <td>7拍目</td>
+      <td class="offbeat-td">8拍目</td>
+    </tr>
+    <tr>
+      <th>8分音符</th>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+    </tr>
+    <tr>
+      <th>強弱</th>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+    </tr>
+  </tbody>
+</table>
+
+この様に、８分音符が並んでいるものを、弱拍先行として並べ替えてみます。すると以下の様になります。
+
+<table class="offbeat-onbeat-table">
+  <tbody>
+    <tr>
+      <th>位置</th>
+      <td class="offbeat-td">8拍目</td>
+      <td>1拍目</td>
+      <td class="offbeat-td">2拍目</td>
+      <td>3拍目</td>
+      <td class="offbeat-td">4拍目</td>
+      <td>5拍目</td>
+      <td class="offbeat-td">6拍目</td>
+      <td>7拍目</td>
+    </tr>
+    <tr>
+      <th>8分音符</th>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+    </tr>
+    <tr>
+      <th>強弱</th>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+    </tr>
+  </tbody>
+</table>
+
+これで弱拍が先行した形になりました。 しかし４分音符を重ねてみると違った様相が見えてきます。
+
+<table class="offbeat-onbeat-table">
+  <tbody>
+    <tr>
+      <th>位置</th>
+      <td>１拍目</td>
+      <td class="offbeat-td">２拍目</td>
+      <td>３拍目</td>
+      <td class="offbeat-td">４拍目</td>
+    </tr>
+    <tr>
+      <th>4分音符</th>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+    </tr>
+    <tr>
+      <th>強弱</th>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="offbeat-onbeat-table">
+  <tbody>
+    <tr>
+      <th>位置</th>
+      <td class="offbeat-td">8拍目</td>
+      <td>1拍目</td>
+      <td class="offbeat-td">2拍目</td>
+      <td>3拍目</td>
+      <td class="offbeat-td">4拍目</td>
+      <td>5拍目</td>
+      <td class="offbeat-td">6拍目</td>
+      <td>7拍目</td>
+    </tr>
+    <tr>
+      <th>8分音符</th>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+    </tr>
+    <tr>
+      <th>強弱</th>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+    </tr>
+  </tbody>
+</table>
+
+こうしてみてみると、4分音符は依然として強拍先行になっていることがわかります。 つまり4分音符として見たときでも弱拍先行にしなければ、全ての音価で弱拍先行になっていないと言えます。 次に4分音符に関しても弱拍が先行する様に変えたものを見てみましょう。
+
+<table class="offbeat-onbeat-table">
+  <tbody>
+    <tr>
+      <th>位置</th>
+      <td class="offbeat-td">４拍目</td>
+      <td>１拍目</td>
+      <td class="offbeat-td">２拍目</td>
+      <td>３拍目</td>
+    </tr>
+    <tr>
+      <th>4分音符</th>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+    </tr>
+    <tr>
+      <th>強弱</th>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="offbeat-onbeat-table">
+  <tbody>
+    <tr>
+      <th>位置</th>
+      <td class="offbeat-td">6拍目</td>
+      <td>7拍目</td>
+      <td class="offbeat-td">8拍目</td>
+      <td>1拍目</td>
+      <td class="offbeat-td">2拍目</td>
+      <td>3拍目</td>
+      <td class="offbeat-td">4拍目</td>
+      <td>5拍目</td>
+    </tr>
+    <tr>
+      <th>8分音符</th>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+    </tr>
+    <tr>
+      <th>強弱</th>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+    </tr>
+  </tbody>
+</table>
+
+これで4分音符も弱拍先行になりました。しかしこれも再度2分音符を重ねると、実はこれもまだ強拍先行になっていることがわかります。
+
+<table class="offbeat-onbeat-table">
+  <tbody>
+    <tr>
+      <th>位置</th>
+      <td>１拍目</td>
+      <td class="offbeat-td">２拍目</td>
+    </tr>
+    <tr>
+      <th>2分音符</th>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+    </tr>
+    <tr>
+      <th>強弱</th>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="offbeat-onbeat-table">
+  <tbody>
+    <tr>
+      <th>位置</th>
+      <td class="offbeat-td">４拍目</td>
+      <td>１拍目</td>
+      <td class="offbeat-td">２拍目</td>
+      <td>３拍目</td>
+    </tr>
+    <tr>
+      <th>4分音符</th>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+    </tr>
+    <tr>
+      <th>強弱</th>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="offbeat-onbeat-table">
+  <tbody>
+    <tr>
+      <th>位置</th>
+      <td class="offbeat-td">6拍目</td>
+      <td>7拍目</td>
+      <td class="offbeat-td">8拍目</td>
+      <td>1拍目</td>
+      <td class="offbeat-td">2拍目</td>
+      <td>3拍目</td>
+      <td class="offbeat-td">4拍目</td>
+      <td>5拍目</td>
+    </tr>
+    <tr>
+      <th>8分音符</th>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+    </tr>
+    <tr>
+      <th>強弱</th>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+    </tr>
+  </tbody>
+</table>
+
+ここで2分音符も先行するように並べ替えてみます。
+
+<table class="offbeat-onbeat-table">
+  <tbody>
+    <tr>
+      <th>位置</th>
+      <td class="offbeat-td">２拍目</td>
+      <td>１拍目</td>
+    </tr>
+    <tr>
+      <th>2分音符</th>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+    </tr>
+    <tr>
+      <th>強弱</th>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="offbeat-onbeat-table">
+  <tbody>
+    <tr>
+      <th>位置</th>
+      <td class="offbeat-td">２拍目</td>
+      <td>３拍目</td>
+      <td class="offbeat-td">４拍目</td>
+      <td>１拍目</td>
+    </tr>
+    <tr>
+      <th>4分音符</th>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+    </tr>
+    <tr>
+      <th>強弱</th>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="offbeat-onbeat-table">
+  <tbody>
+    <tr>
+      <th>位置</th>
+      <td class="offbeat-td">2拍目</td>
+      <td>3拍目</td>
+      <td class="offbeat-td">4拍目</td>
+      <td>5拍目</td>
+      <td class="offbeat-td">6拍目</td>
+      <td>7拍目</td>
+      <td class="offbeat-td">8拍目</td>
+      <td>1拍目</td>
+    </tr>
+    <tr>
+      <th>8分音符</th>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+    </tr>
+    <tr>
+      <th>強弱</th>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+    </tr>
+  </tbody>
+</table>
+
+これで小節内の全ての音価が弱拍先行になりました。すると最初12345678と並んでいた8分音符が23456781という様に１が最後に来るように並び替わったことがわかります。 これが**23456781リズム**です。 これがいわゆる**横乗りリズム**の世界での8分音符の数え方です。この世界でも、8分音符の順番が小節中を回転し完全に一周回って１が終了地点に来る状態になったのです。
+
+##### 16分音符の場合
+
+16分音符でも全く同じ事が言えます。 次の様に16分音符が並んでいた時を考えます。
+
+<table class="offbeat-onbeat-table">
+  <tbody>
+    <tr>
+      <th>位置</th>
+      <td>1</td>
+      <td class="offbeat-td">2</td>
+      <td>3</td>
+      <td class="offbeat-td">4</td>
+      <td>5</td>
+      <td class="offbeat-td">6</td>
+      <td>7</td>
+      <td class="offbeat-td">8</td>
+      <td>9</td>
+      <td class="offbeat-td">10</td>
+      <td>11</td>
+      <td class="offbeat-td">12</td>
+      <td>13</td>
+      <td class="offbeat-td">14</td>
+      <td>15</td>
+      <td class="offbeat-td">16</td>
+    </tr>
+    <tr>
+      <th>16分音符</th>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+    </tr>
+    <tr>
+      <th>強弱</th>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+    </tr>
+  </tbody>
+</table>
+
+これを弱拍先行に並べ替えてみます。
+
+<table class="offbeat-onbeat-table">
+  <tbody>
+    <tr>
+      <th>位置</th>
+      <td class="offbeat-td">16</td>
+      <td>1</td>
+      <td class="offbeat-td">2</td>
+      <td>3</td>
+      <td class="offbeat-td">4</td>
+      <td>5</td>
+      <td class="offbeat-td">6</td>
+      <td>7</td>
+      <td class="offbeat-td">8</td>
+      <td>9</td>
+      <td class="offbeat-td">10</td>
+      <td>11</td>
+      <td class="offbeat-td">12</td>
+      <td>13</td>
+      <td class="offbeat-td">14</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <th>16分音符</th>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+    </tr>
+    <tr>
+      <th>強弱</th>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+    </tr>
+  </tbody>
+</table>
+
+しかしこれも8分音符から見てみると実はまだ強拍先行になっています。
+
+<table class="offbeat-onbeat-table">
+  <tbody>
+    <tr>
+      <th>位置</th>
+      <td>1拍目</td>
+      <td class="offbeat-td">2拍目</td>
+      <td>3拍目</td>
+      <td class="offbeat-td">4拍目</td>
+      <td>5拍目</td>
+      <td class="offbeat-td">6拍目</td>
+      <td>7拍目</td>
+      <td class="offbeat-td">8拍目</td>
+    </tr>
+    <tr>
+      <th>8分音符</th>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+    </tr>
+    <tr>
+      <th>強弱</th>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="offbeat-onbeat-table">
+  <tbody>
+    <tr>
+      <th>位置</th>
+      <td class="offbeat-td">16</td>
+      <td>1</td>
+      <td class="offbeat-td">2</td>
+      <td>3</td>
+      <td class="offbeat-td">4</td>
+      <td>5</td>
+      <td class="offbeat-td">6</td>
+      <td>7</td>
+      <td class="offbeat-td">8</td>
+      <td>9</td>
+      <td class="offbeat-td">10</td>
+      <td>11</td>
+      <td class="offbeat-td">12</td>
+      <td>13</td>
+      <td class="offbeat-td">14</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <th>16分音符</th>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+    </tr>
+    <tr>
+      <th>強弱</th>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+    </tr>
+  </tbody>
+</table>
+
+これも4分音符でやった時と同じ様に、8分音符弱拍先行で並べ替えてみます。
+
+
+<table class="offbeat-onbeat-table">
+  <tbody>
+    <tr>
+      <th>位置</th>
+      <td class="offbeat-td">8拍目</td>
+      <td>1拍目</td>
+      <td class="offbeat-td">2拍目</td>
+      <td>3拍目</td>
+      <td class="offbeat-td">4拍目</td>
+      <td>5拍目</td>
+      <td class="offbeat-td">6拍目</td>
+      <td>7拍目</td>
+    </tr>
+    <tr>
+      <th>8分音符</th>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+    </tr>
+    <tr>
+      <th>強弱</th>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="offbeat-onbeat-table">
+  <tbody>
+    <tr>
+      <th>位置</th>
+      <td class="offbeat-td">14</td>
+      <td>15</td>
+      <td class="offbeat-td">16</td>
+      <td>1</td>
+      <td class="offbeat-td">2</td>
+      <td>3</td>
+      <td class="offbeat-td">4</td>
+      <td>5</td>
+      <td class="offbeat-td">6</td>
+      <td>7</td>
+      <td class="offbeat-td">8</td>
+      <td>9</td>
+      <td class="offbeat-td">10</td>
+      <td>11</td>
+      <td class="offbeat-td">12</td>
+      <td>13</td>
+    </tr>
+    <tr>
+      <th>16分音符</th>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+    </tr>
+    <tr>
+      <th>強弱</th>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+    </tr>
+  </tbody>
+</table>
+
+これで8分音符・16分音符共に弱拍先行になりました。
+
+しかしこれも4分音符の世界から見ると強拍先行になっていることがわかります。
+
+<table class="offbeat-onbeat-table">
+  <tbody>
+    <tr>
+      <th>位置</th>
+      <td>１拍目</td>
+      <td class="offbeat-td">２拍目</td>
+      <td>３拍目</td>
+      <td class="offbeat-td">４拍目</td>
+    </tr>
+    <tr>
+      <th>4分音符</th>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+    </tr>
+    <tr>
+      <th>強弱</th>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
     </tr>
   </tbody>
 </table>
@@ -1337,11 +2257,12 @@ tags:
   </tbody>
 </table>
 
-
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
       <th>位置</th>
+      <td class="offbeat-td">14</td>
+      <td>15</td>
       <td class="offbeat-td">16</td>
       <td>1</td>
       <td class="offbeat-td">2</td>
@@ -1356,8 +2277,6 @@ tags:
       <td>11</td>
       <td class="offbeat-td">12</td>
       <td>13</td>
-      <td class="offbeat-td">14</td>
-      <td>15</td>
     </tr>
     <tr>
       <th>16分音符</th>
@@ -1400,9 +2319,138 @@ tags:
   </tbody>
 </table>
 
-#### 縦乗り ─── 弱拍が後ろになる場合の音符の一覧強
+ 8分音符16分音符で見た時に弱拍先行になっていても、4分音符では強拍先行になっていることがわかります。 そこで4分音符も弱拍先行として並べ替えてみます。
 
-縦乗りの強弱順番と比較してみましょう。
+ <table class="offbeat-onbeat-table">
+  <tbody>
+    <tr>
+      <th>位置</th>
+      <td class="offbeat-td">４拍目</td>
+      <td>１拍目</td>
+      <td class="offbeat-td">２拍目</td>
+      <td>３拍目</td>
+    </tr>
+    <tr>
+      <th>4分音符</th>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+    </tr>
+    <tr>
+      <th>強弱</th>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+    </tr>
+  </tbody>
+</table>
+
+
+<table class="offbeat-onbeat-table">
+  <tbody>
+    <tr>
+      <th>位置</th>
+      <td class="offbeat-td">6拍目</td>
+      <td>7拍目</td>
+      <td class="offbeat-td">8拍目</td>
+      <td>1拍目</td>
+      <td class="offbeat-td">2拍目</td>
+      <td>3拍目</td>
+      <td class="offbeat-td">4拍目</td>
+      <td>5拍目</td>
+    </tr>
+    <tr>
+      <th>8分音符</th>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+    </tr>
+    <tr>
+      <th>強弱</th>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="offbeat-onbeat-table">
+  <tbody>
+    <tr>
+      <th>位置</th>
+      <td class="offbeat-td">10</td>
+      <td>11</td>
+      <td class="offbeat-td">12</td>
+      <td>13</td>
+      <td class="offbeat-td">14</td>
+      <td>15</td>
+      <td class="offbeat-td">16</td>
+      <td>1</td>
+      <td class="offbeat-td">2</td>
+      <td>3</td>
+      <td class="offbeat-td">4</td>
+      <td>5</td>
+      <td class="offbeat-td">6</td>
+      <td>7</td>
+      <td class="offbeat-td">8</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <th>16分音符</th>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+    </tr>
+    <tr>
+      <th>強弱</th>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+    </tr>
+  </tbody>
+</table>
+
+これで4分音符も弱拍先行になりました。
+
+しかしこれも今までと同様に2分音符で見ると依然として強拍先行になっていることがわかります。  次の表を見て下さい。
 
 <table class="offbeat-onbeat-table">
   <tbody>
@@ -1423,50 +2471,48 @@ tags:
     </tr>
   </tbody>
 </table>
-
-
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
       <th>位置</th>
+      <td class="offbeat-td">４拍目</td>
       <td>１拍目</td>
       <td class="offbeat-td">２拍目</td>
       <td>３拍目</td>
-      <td class="offbeat-td">４拍目</td>
     </tr>
     <tr>
       <th>4分音符</th>
-      <td>◯</td>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
+      <td>◯</td>
     </tr>
     <tr>
       <th>強弱</th>
-      <td>強</td>
       <td class="offbeat-td">弱</td>
       <td>強</td>
       <td class="offbeat-td">弱</td>
+      <td>強</td>
     </tr>
   </tbody>
 </table>
+
 
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
       <th>位置</th>
-      <td>１</td>
-      <td class="offbeat-td">２</td>
-      <td>３</td>
-      <td class="offbeat-td">４</td>
-      <td>５</td>
-      <td class="offbeat-td">６</td>
-      <td>７</td>
-      <td class="offbeat-td">８</td>
+      <td class="offbeat-td">6拍目</td>
+      <td>7拍目</td>
+      <td class="offbeat-td">8拍目</td>
+      <td>1拍目</td>
+      <td class="offbeat-td">2拍目</td>
+      <td>3拍目</td>
+      <td class="offbeat-td">4拍目</td>
+      <td>5拍目</td>
     </tr>
     <tr>
       <th>8分音符</th>
-      <td>◯</td>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
@@ -1474,9 +2520,71 @@ tags:
       <td class="offbeat-td">◯</td>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
+      <td>◯</td>
     </tr>
     <tr>
       <th>強弱</th>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="offbeat-onbeat-table">
+  <tbody>
+    <tr>
+      <th>位置</th>
+      <td class="offbeat-td">10</td>
+      <td>11</td>
+      <td class="offbeat-td">12</td>
+      <td>13</td>
+      <td class="offbeat-td">14</td>
+      <td>15</td>
+      <td class="offbeat-td">16</td>
+      <td>1</td>
+      <td class="offbeat-td">2</td>
+      <td>3</td>
+      <td class="offbeat-td">4</td>
+      <td>5</td>
+      <td class="offbeat-td">6</td>
+      <td>7</td>
+      <td class="offbeat-td">8</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <th>16分音符</th>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+    </tr>
+    <tr>
+      <th>強弱</th>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
       <td>強</td>
       <td class="offbeat-td">弱</td>
       <td>強</td>
@@ -1485,6 +2593,54 @@ tags:
       <td class="offbeat-td">弱</td>
       <td>強</td>
       <td class="offbeat-td">弱</td>
+      <td>強</td>
+    </tr>
+  </tbody>
+</table>
+
+2分音符も弱拍先行として並べ替えると以下の様になります。
+
+<table class="offbeat-onbeat-table">
+  <tbody>
+    <tr>
+      <th>位置</th>
+      <td class="offbeat-td">２拍目</td>
+      <td>１拍目</td>
+    </tr>
+    <tr>
+      <th>2分音符</th>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+    </tr>
+    <tr>
+      <th>強弱</th>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+    </tr>
+  </tbody>
+</table>
+<table class="offbeat-onbeat-table">
+  <tbody>
+    <tr>
+      <th>位置</th>
+      <td class="offbeat-td">２拍目</td>
+      <td>３拍目</td>
+      <td class="offbeat-td">４拍目</td>
+      <td>１拍目</td>
+    </tr>
+    <tr>
+      <th>4分音符</th>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+    </tr>
+    <tr>
+      <th>強弱</th>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
     </tr>
   </tbody>
 </table>
@@ -1494,7 +2650,44 @@ tags:
   <tbody>
     <tr>
       <th>位置</th>
-      <td>1</td>
+      <td class="offbeat-td">2拍目</td>
+      <td>3拍目</td>
+      <td class="offbeat-td">4拍目</td>
+      <td>5拍目</td>
+      <td class="offbeat-td">6拍目</td>
+      <td>7拍目</td>
+      <td class="offbeat-td">8拍目</td>
+      <td>1拍目</td>
+    </tr>
+    <tr>
+      <th>8分音符</th>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+    </tr>
+    <tr>
+      <th>強弱</th>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="offbeat-onbeat-table">
+  <tbody>
+    <tr>
+      <th>位置</th>
       <td class="offbeat-td">2</td>
       <td>3</td>
       <td class="offbeat-td">4</td>
@@ -1510,10 +2703,10 @@ tags:
       <td class="offbeat-td">14</td>
       <td>15</td>
       <td class="offbeat-td">16</td>
+      <td>1</td>
     </tr>
     <tr>
       <th>16分音符</th>
-      <td>◯</td>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
@@ -1526,47 +2719,6 @@ tags:
       <td>◯</td>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
-      <td class="offbeat-td">◯</td>
-      <td>◯</td>
-      <td class="offbeat-td">◯</td>
-    </tr>
-    <tr>
-      <th>強弱</th>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-    </tr>
-  </tbody>
-</table>
-
-#### 2種類の音符の弱拍が同時に前に来るリズム／尻合わせと頭合わせへの序章
-
-前章で、4分音符で4拍目2拍目が1拍3拍目よりも先に現れる事、そして2分音符の2拍目が1拍目よりも先に現れることの２つを見ました。  ─── この２つはしばしば同時に起こります。これはどういうことでしょうか。 4分音符の弱拍は次のように前に現れます。
-
-<table class="offbeat-onbeat-table">
-  <tbody>
-    <tr>
-      <th>位置</th>
-      <td class="offbeat-td">４拍目</td>
-      <td>１拍目</td>
-      <td class="offbeat-td">２拍目</td>
-      <td>３拍目</td>
-    </tr>
-    <tr>
-      <th>4分音符</th>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
@@ -1574,6 +2726,18 @@ tags:
     </tr>
     <tr>
       <th>強弱</th>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
       <td class="offbeat-td">弱</td>
       <td>強</td>
       <td class="offbeat-td">弱</td>
@@ -1582,211 +2746,12 @@ tags:
   </tbody>
 </table>
 
-そして2分音符の弱拍も先に現れます。
+これで小節内の全ての音価が弱拍先行になりました。すると最初に `[ 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16 ]` のように並んでいた8分音符が `[ 2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,1 ]` という様に１が最後に来るように並び替わったことがわかります。 これが23456781リズムです。 これがいわゆる横乗りリズムの世界での8分音符の数え方です。この世界でも、8分音符の順番が小節中を回転し完全に一周回って１が終了地点に来る状態になったのです。
 
-<table class="offbeat-onbeat-table">
-  <tbody>
-    <tr>
-      <th>位置</th>
-      <td class="offbeat-td">２拍目</td>
-      <td>１拍目</td>
-    </tr>
-    <tr>
-      <th>2分音符</th>
-      <td class="offbeat-td">◯</td>
-      <td>◯</td>
-    </tr>
-    <tr>
-      <th>強弱</th>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-    </tr>
-  </tbody>
-</table>
+##### まとめ
 
-この2分音符の弱拍が前につくことと、4分音符の弱拍が前につくこと ─── この２つが同時に起こるとどういうことは、どういうことでしょうか。順を追って見ていきましょう。
+強拍先行で1から始まっていたリズムが、弱拍先行に移行することで１で終わるリズムに変化することを見てきました。  この１で終わるリズムが**尻合わせリズム**です。これに対して１で始まるリズムが **頭合わせリズム**です。
 
-まずこの弱拍4拍2拍が先に来る4分音符の上で2分音符はどの位置にあるでしょうか。
-
-<table class="offbeat-onbeat-table">
-  <tbody>
-    <tr>
-      <th>4分音符</th>
-      <td class="offbeat-td">４拍目</td>
-      <td>１拍目</td>
-      <td class="offbeat-td">２拍目</td>
-      <td>３拍目</td>
-    </tr>
-    <tr>
-      <th>4分音符</th>
-      <td class="offbeat-td">◯</td>
-      <td>◯</td>
-      <td class="offbeat-td">◯</td>
-      <td>◯</td>
-    </tr>
-    <tr>
-      <th>強弱</th>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-    </tr>
-    <tr>
-      <th>2分音符</th>
-      <td colspan="2">１拍目</td>
-      <td class="offbeat-td" colspan="2">２拍目</td>
-    </tr>
-    <tr>
-      <th>2分音符</th>
-      <td colspan="2">◯</td>
-      <td class="offbeat-td" colspan="2">◯</td>
-    </tr>
-    <tr>
-      <th>強弱</th>
-      <td colspan="2">強</td>
-      <td class="offbeat-td" colspan="2">弱</td>
-    </tr>
-  </tbody>
-</table>
-
-この様に4分音符で見た時に弱拍が強拍よりも前についていると考えると、2分音符で見るとそれは4分音符1個前にずれた2分音符の様になります。
-
-そして、その2分音符は強拍が先で弱拍が先に現れる順番になっていることがわかります。
-
-この2分音符の順番は縦乗り（強拍が先）と同じ法則です。つまり恐らくですが、横乗りで演奏する時はこの順番で演奏することは出来ません。そこで試しに2分音符も横乗りに変えてみたいと思います。
-
-<table class="offbeat-onbeat-table">
-  <tbody>
-    <tr>
-      <th>4分音符</th>
-      <td class="offbeat-td">２拍目</td>
-      <td>３拍目</td>
-      <td class="offbeat-td">４拍目</td>
-      <td>１拍目</td>
-    </tr>
-    <tr>
-      <th>4分音符</th>
-      <td class="offbeat-td">◯</td>
-      <td>◯</td>
-      <td class="offbeat-td">◯</td>
-      <td>◯</td>
-    </tr>
-    <tr>
-      <th>強弱</th>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-    </tr>
-    <tr>
-      <th>2分音符</th>
-      <td class="offbeat-td" colspan="2">２拍目</td>
-      <td colspan="2">１拍目</td>
-    </tr>
-    <tr>
-      <th>2分音符</th>
-      <td class="offbeat-td" colspan="2">◯</td>
-      <td colspan="2">◯</td>
-    </tr>
-    <tr>
-      <th>強弱</th>
-      <td class="offbeat-td" colspan="2">弱</td>
-      <td colspan="2">強</td>
-    </tr>
-  </tbody>
-</table>
-
-4分音符の順番がほぼ一周入れ替わった状態になりました。これが横乗りリズムの世界の4分音符の順番です。私はこのリズムの事を<b>２３４１リズム</b>と呼んでいます。
-
-
-これまで１から始まっていたリズムが、１で終わるリズムになった事がわかります。つまり弱拍が前に付くというルール変更が生じた影響でこれまで１から始まって４で終わると認識していた４分音符の順番が２から始まって１で終わるという順番で認識するように変化したことがわかります。
-
-この１で終わるリズムのことを「尻合わせリズム」と私は呼んでいます。これに対して１で始まるリズムのことを「頭合わせリズム」と私は呼んでいます。
-
-この様にすると2分音符4分音符だけでなく、全音符／2全音符を含む考えうる全ての音符でこの現象が起こります。次で8分音符を加えてみましょう。
-
-<table class="offbeat-onbeat-table">
-  <tbody>
-    <tr>
-      <th>2分音符</th>
-      <td class="offbeat-td" colspan="8">２拍目</td>
-      <td colspan="8">１拍目</td>
-    </tr>
-    <tr>
-      <th>2分音符</th>
-      <td class="offbeat-td" colspan="8">◯</td>
-      <td colspan="8">◯</td>
-    </tr>
-    <tr>
-      <th>強弱</th>
-      <td class="offbeat-td" colspan="8">弱</td>
-      <td colspan="8">強</td>
-    </tr>
-    <tr>
-      <th>4分音符</th>
-      <td class="offbeat-td" colspan="4">２拍目</td>
-      <td colspan="4">３拍目</td>
-      <td class="offbeat-td" colspan="4">４拍目</td>
-      <td colspan="4">１拍目</td>
-    </tr>
-    <tr>
-      <th>4分音符</th>
-      <td class="offbeat-td" colspan="4">◯</td>
-      <td colspan="4">◯</td>
-      <td class="offbeat-td" colspan="4">◯</td>
-      <td colspan="4">◯</td>
-    </tr>
-    <tr>
-      <th>強弱</th>
-      <td class="offbeat-td" colspan="4">弱</td>
-      <td colspan="4">強</td>
-      <td class="offbeat-td" colspan="4">弱</td>
-      <td colspan="4">強</td>
-    </tr>
-
-    <tr>
-      <th>8分音符</th>
-      <td class="offbeat-td" colspan="2">2拍目</td>
-      <td colspan="2">3拍目</td>
-      <td class="offbeat-td" colspan="2">4拍目</td>
-      <td colspan="2">5拍目</td>
-      <td class="offbeat-td" colspan="2">6拍目</td>
-      <td colspan="2">7拍目</td>
-      <td class="offbeat-td" colspan="2">8拍目</td>
-      <td colspan="2">1拍目</td>
-    </tr>
-    <tr>
-      <th>8分音符</th>
-      <td class="offbeat-td" colspan="2">◯</td>
-      <td colspan="2">◯</td>
-      <td class="offbeat-td" colspan="2">◯</td>
-      <td colspan="2">◯</td>
-      <td class="offbeat-td" colspan="2">◯</td>
-      <td colspan="2">◯</td>
-      <td class="offbeat-td" colspan="2">◯</td>
-      <td colspan="2">◯</td>
-    </tr>
-    <tr>
-      <th>強弱</th>
-      <td class="offbeat-td" colspan="2">弱</td>
-      <td colspan="2">強</td>
-      <td class="offbeat-td" colspan="2">弱</td>
-      <td colspan="2">強</td>
-      <td class="offbeat-td" colspan="2">裏</td>
-      <td colspan="2">強</td>
-      <td class="offbeat-td" colspan="2">裏</td>
-      <td colspan="2">強</td>
-    </tr>
-  </tbody>
-</table>
-
-12345678 という順番で現れていた 8分音符も 23456781
-  と1で終わる様に変わったことがわかります。
-
-
-この様に<b>拍の順番が常に尻合わせ</b>で構成されるリズムが<b>横乗りリズム</b>です。
-
-ややこしいですが、なんとか理解して頂けましたでしょうか…。もしかすると理解すること自体はそんなに難しくなかったかも知れません。この縦乗りと横乗りの間に横たわる本当の問題は、私達日本人の様にclass="bouten">日本語を母国語として子供の頃から日本語のリズムに慣れ親しんできた人々にとって、この横乗りのリズムを感覚的に認識する事がとても難しいという点にあります。
 
 ### リズム解釈の本質
 
@@ -1831,13 +2796,12 @@ tags:
 #### 音が２つあれば必ず強拍と弱拍ができる
 音が２つあった場合、そのどちらかは必ず弱拍でそのどちらかは必ず強拍になります。先行拍が**弱拍**なら後行拍は**強拍**です。先行拍が**強拍**なら後行拍は**弱拍**です。
 
-#### 先行拍が強拍だったとみなす場合、それは必ず１拍目強拍になる
+#### 先行拍が強拍だったなら、それは必ず１拍目強拍になる
 * 例としてその音符が４分音符だった時のことを考えます。
 * もし、その拍が２拍目か４拍目だったらそれは弱拍なのでここでは除外されます。
 * もし、それが４分音符３拍目強拍だったとしたら、それは２分音符の弱拍ということになります。
 * つまりもし、その拍が強拍だったとすると、それは必ず１拍目強拍ということになります。
 * これは４分音符だけでなく、全ての音価の音符に対して成立します。
-
 
 ![](attachments/strong-beat-orientation-1.png)
 
@@ -1847,10 +2811,13 @@ tags:
 
 ![](attachments/strong-beat-orientation-8.png)
 
-#### 先行拍が弱拍だった場合あらゆる音価の弱拍である可能性を検証しなければならない
-もしも先行拍が弱拍だった場合、それは１拍目強拍以外の音でしかありえません。
+> 💡 もしも強拍が１拍目ではなかった場合、それは必ず弱拍として約分が出来ます。つまり必ず弱拍なのです。 [参照：弱拍強拍は分数で表すことが出来る]( #弱拍強拍は分数で表すことが出来る )
 
-そしてその場合、その音符は４分音符の弱拍かも知れませんし、８分音符・１６分音符などのより細かな音価の弱拍かも知れません。或いはより長い２分音符や全音符、二全音符などの音符での弱拍かも知れません。可能性として考えられる音符は無数にあります。数ある可能性のなかでどの音符の弱拍なのかを判別するためには、音楽をしばらく聴いて前後の文脈から判別する必要があるでしょう。
+#### 先行拍が弱拍だった場合あらゆる音価の弱拍である可能性を検証しなければならない
+
+もしも先行拍が強拍ではなかった場合、それは必ず弱拍です。弱拍は強拍とは異なり、無限に存在します。
+
+もしその拍が弱拍だったとすると、その音符は４分音符の弱拍かも知れませんし、８分音符の弱拍かも知れません。１６分音符などのより細かな音価の弱拍かも知れません。或いはより長い２分音符・全音符・２全音符などの音符での弱拍かも知れません。可能性として考えられる音符は無限に存在します。無限に存在する可能性のなかでどの音符の弱拍なのかを判別するためには、予想と修正が必要になります。 まず予想を立てた上で、音楽をしばらく聴き前後の文脈から判別しながら、予想を修正しながら、実際の音価を特定する必要が発生します。
 
 #### 先行する弱拍は緊迫感を生み出す
 この様に先行する弱拍をを聴く人は、限られた時間内で、どちらが弱拍かでどちらが強拍かを判定する必要に迫られます。この作業の難しさがリズムの緊張感の源に存在します。
@@ -1902,6 +2869,7 @@ tags:
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">4分音符、8分音符及び16分音符の強拍先行（日本語などのモーラ拍リズム）( モーラ拍リズムの頭合わせリズム認識を適用した Can&#39;t Hide Love / Earth, Wind &amp; Fire ) <a href="https://t.co/Nx5G8rBc4f">pic.twitter.com/Nx5G8rBc4f</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1944026780706521146?ref_src=twsrc%5Etfw">July 12, 2025</a></blockquote> </div>
 
+
 ![](attachments/beat-offset-offset-0.png)
 
 ### ８分音符の弱拍先行
@@ -1943,6 +2911,10 @@ tags:
 この様に、ストレス拍リズムの人々が演奏する弱強リズムが前提で構成されたリズムパターンを、モーラ拍リズムの人々は、強弱リズムとして１つずれた形で間違って解釈します。
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">ストレス拍リズム（英語）のスイング ─── ベースが1/9早めのタイミングに移動しライドシンバルの8分弱拍が4分音符に対して5/9の位置に配置されている。また4分音符は全て1/9遅れている。 <a href="https://twitter.com/hashtag/%E3%82%AA%E3%83%95%E3%83%93%E3%83%BC%E3%83%88%E3%81%A7%E6%80%9D%E8%80%83%E3%81%99%E3%82%8B%E8%AA%9E%E5%AD%A6?src=hash&amp;ref_src=twsrc%5Etfw">#オフビートで思考する語学</a> (訂正版) <a href="https://t.co/QajecpWuqP">pic.twitter.com/QajecpWuqP</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1932739193438146682?ref_src=twsrc%5Etfw">June 11, 2025</a></blockquote></div>
+
+
+<div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">モーラ拍リズム（日本語）のスイング ─── 俗に「頭重心」「縦乗り」という。ライドシンバルの4分音符が基準位置になっているため移動しない。ベースが1/32 遅めのタイミングに移動し遅れる等々、全ての打点が4分音符よりも後ろに遅れて配置され音量が小さい。 <a href="https://twitter.com/hashtag/%E3%82%AA%E3%83%95%E3%83%93%E3%83%BC%E3%83%88%E3%81%A7%E6%80%9D%E8%80%83%E3%81%99%E3%82%8B%E8%AA%9E%E5%AD%A6?src=hash&amp;ref_src=twsrc%5Etfw">#オフビートで思考する語学</a> <a href="https://t.co/KMnIJYQXmC">pic.twitter.com/KMnIJYQXmC</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1932139175647850918?ref_src=twsrc%5Etfw">June 9, 2025</a></blockquote></div>
+
 
 ## 時間認識の指向性について
 
