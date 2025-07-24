@@ -3,6 +3,7 @@ title: 多層弱拍基軸リズム理論
 created: 2025-05-24T00:17
 tags:
   - foo
+RHYME: <ruby><rb>ライム</rb><rt>英語の俳句</rt></ruby>
 ---
 *※2025/06/16 11:16:35 更新*
 
@@ -325,7 +326,7 @@ tags:
 
 次のビデオで実際の音声を確認してください。
 
-<div style="center-box"><iframe width="560" height="315" src="https://www.youtube.com/embed/VXHxtpvRacc?si=nOJ9rsU44BqROp7R&amp;start=450" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+<div style="center-box"><iframe class="rhythmpedia-iframe" src="https://www.youtube.com/embed/VXHxtpvRacc?si=nOJ9rsU44BqROp7R&amp;start=450" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 #### ストレス拍ではアクセントなしシラブルが省略される
 
@@ -667,10 +668,10 @@ tags:
     * アクセントのない母音と子音を縮小してアクセントのある母音の等間隔性を守る。
     * 頭音節最大化原則 （MPOP＝Maximal Prosodic Onset Principle)
         * 末音節は頭音節にできるだけまとめて発音する。
-* モーラ拍言語 (**拍の順番→ 強弱) 注意！逆**
+* モーラ拍言語 (**拍の順番→ 強弱、又は強強… **) 
     * 母音ないしは子音が等間隔に並んでいる。
     * 頭子音最小化原則 (MiOP = Minimum Onset Principle)
-        * 末子音、及び多重子音は、新たにシラブルを作って必ずばらして発音する。
+        * 末子音、及び多重子音は、前シラブルの後方に追従するように新たにシラブルを作成し、それぞれの子音をばらしてから発音する。
 
 この様に、言語によって、頭子音をまとめる位置を決める方向の違いがあります。これが頭子音構成軸 (OSA=Onset Structuring Axis)です。
 
@@ -678,7 +679,7 @@ tags:
 
  **再帰的韻律同一性原理**  **RPEP (Recursive Prosodic Equivalence Principle)** によって、頭子音構成軸(OSA) も再帰的に適用が出来るという仮説によって、言語を超えて音楽のリズムにもOSAを適用したものが <ruby><rb>律動</rb><rt>リズム</rt></ruby>的頭子音最大化原則(RMOP=Maximal Prosodic Onset Principle)  及び <ruby><rb>律動</rb><rt>リズム</rt></ruby>的頭子音最小化原則(RMiOP=Minimum Prosodic Onset Principle)  です。
 
-そして言語と音楽だけでなく、更に歩き方やスポーツ格闘などその他の行動原理にも反映させたものをここでは **能動的事前分割主義 ( PD＝Proactive Divisionism )**  **受動的事後追随主義 ( Reactive Appendism )** と呼びます。
+そして言語と音楽だけでなく、更に歩き方やスポーツ格闘などその他の行動原理にも反映させたものをここでは **能動的事前分割主義 ( PD＝Proactive Divisionism )**  **受動的事後追従主義 ( RA=Reactive Appendism )** と呼びます。
 
 * シラブル拍/ストレス拍のMOP、及びストレス拍のMPOP
     * → **弱強リズム認識**が音楽にも適用される
@@ -687,9 +688,9 @@ tags:
 * モーラ拍のMiOP
     * → **強弱リズム認識**が音楽にも適用される
         * → <ruby><rb>律動</rb><rt>リズム</rt></ruby>的頭子音最小化原則(RMiOP) 
-            * → 受動的事後追随主義 ( Reactive Appendism )
+            * → 受動的事後追従主義 ( Reactive Appendism )
 
-### 能動的事前分割主義 (Proactive Divisionism )と受動的事後追随主義（Reactive Appndism )  
+### 能動的事前分割主義 (PD=Proactive Divisionism )と受動的事後追従主義（RA=Reactive Appndism )  
 
 **核 Nucleus** と **頭子音 Onset** の位置関係 ── これこそが日本語と他言語との根本的な違いです。 言語における核 Nucleus は、音楽における**強拍**のような役割を果たします。 各言語が聴覚上で核(Nucleus)の**前**に頭子音(Onset)を配置しているか、あるいは**後**に配置しているかという認知上の傾向の違いが、音楽におけるリズム認識 ── すなわち、**強拍の前に弱拍を置くか、後に置くか** ── というリズム順序の違いへと反映されるのです。この強拍弱拍の順番認識が言語発音構造上の拍リズム認識と相関関係があるという仮説を、ここでは**<ruby><rb>律動</rb><rt>リズム</rt></ruby>的頭子音最大化原則（RMOP = Rhythmic Maximal Onset Principle ）** と呼びます。
 
@@ -697,23 +698,146 @@ tags:
 
 シラブル拍・ストレス拍では音節核と同時に母音を発音します。つまり母音が強拍の様なものです。そして子音は弱拍の様なものです。そして、子音は母音の前後にあります。しかし**頭子音最大化原則＝MOP** によって末子音は全て頭子音にまとめられます。つまり**子音は必ず母音の前に配置**されます。ここから<span style="font-size:200%">シラブル拍・ストレス拍は、弱拍を先にくるものとして認識し、強拍を弱拍の後ろとして認識している</span>のです。
 
-モーラ拍では、音節核と同時に子音を発音します。つまり子音自体が強拍の様なものになります。そしてその後に続く母音が弱拍のようなものです。そしてモーラ拍には末子音がなく頭子音最大化原則＝MOPももちません。つまり<span style="font-size:200%">**モーラ拍では強拍が先に来るものとして認識しており、弱拍がその後に続いていると認識している**</span>のです。
+モーラ拍では、音節核と同時に子音を発音します。つまり子音自体が強拍の様なものになります。そして子音が極度に短く、母音を子音の直後に発音します。子音がない場合は、母音を音節核と同時に発音します。 そしてモーラ拍には末子音がなく頭子音最大化原則＝MOPを持ちません。その代わりに頭子音最小化原則=MiOP によって全ての子音・末子音をバラバラにしたうえでそれぞれに新たにシラブルを作成し、どんどん後方に追従するように追加して、シラブル数がどんどんと後方に伸びていきます。 つまり<span style="font-size:200%">**モーラ拍には強拍しかありません。全ては後方へと伸びていく強拍の連続**</span>なのです。 <span style="font-size:200%">**弱拍を持たないために、後ろに続く強拍と弱拍の区別がつきません**</span>。
 
-更に、モーラ拍では子音と母音の区別をせず別々の要素として扱いません。つまり弱拍という概念自体が希薄だといえます。頭子音がない場合は音節核で同時に母音を発音するという習慣があるのは、弱拍と強拍を区別しないからこそだといえます。いわばモーラ拍には強拍しかありません。これが弱拍を持つシラブル拍・ストレス拍との大きな違いです。
+これが弱拍を持つシラブル拍・ストレス拍との大きな違いです。
 
-<span style="font-size:200%">弱拍が前だと認識することの本質は強拍の位置の予想</span>です。弱拍の後に続くまだない強拍の位置を予想する為には、現在のテンポがどの程度なのかを予想する必要があります。そしてそれだけでなく次の音符の音価が何なのか…八分音符なのか四分音符なのか二分音符なのか…全てを前もって予想している必要があります。予想であるからこそ、外れることがあります。外れた場合には修正も必要となります。こうして演奏中に強拍の位置を修正しながら弱拍を演奏し続けるという行為を恒常的に行い続ける必要があります。
+<span style="font-size:200%">弱拍が強拍の前にあると認識することの本質は、強拍の位置の予想</span>です。 手を叩く時に、そこにまだない強拍の存在を仮定してその位置を予想しているからこそ、自分の叩く弱拍が強拍よりも前に聴こえるのです。
 
-弱拍が後ろだと認識すると<span style="font-size:200%">**これらの全ての予想が不要になります**</span>。  そして<span style="font-size:200%">弱拍が後ろだと認識することの本質は、追従</span>です。強拍が聞こえてから行動を起こす。強拍が聞こえてから一定時間待って手を動かす。強拍が聞こえてから一定時間待って、次の強拍を演奏する。 ─── 全ての行動が何らかのトリガを聞いてから追従して開始するという原理に基づいているのです。
+弱拍の後に続くまだない強拍の位置を予想する為には、現在のテンポがどの程度なのかを予想する必要があります。そしてそれだけでなく次の音符の音価が何なのか…八分音符なのか四分音符なのか二分音符なのか…全てを前もって予想している必要があります。予想であるからこそ、外れることがあります。外れた場合には修正も必要となります。こうして演奏中に強拍の位置を修正しながら弱拍を演奏し続けるという行為を恒常的に行い続ける必要があります。
+
+弱拍が強拍よりも後ろにあると認識することの本質は、受動的な追従です。次に起こる未来のまだ起きていない拍の位置を予想するのではなく、既に起こった既に存在する拍に対して反応しながら行動する受動的に追従して弱拍の位置を決めているため、既に存在する強拍の後ろに弱拍があると感じるのです。
+
+強拍が聞こえてから行動を起こし、強拍が聞こえてから一定時間待って手を動かす。強拍が聞こえてから一定時間待って、次の強拍を演奏する。 ─── 全ての行動が何らかのトリガを聞いてから追従して開始するという原理に基づいているのです。
 
 これは<span style="font-size:200%">日本人が時間を分割するという感覚を持っていない</span>ことを隠喩しています ─── このことは観察によって簡単に証明することができます。その方法は、 二人でペアになって、交互に手を叩くことです。しばらくやってみるとわかりますが、日本人は交互のタイミングを維持することが出来ず同時に収束してしまいます。これは日本人以外の人にはとても容易いことですが、日本人だけが交互手叩きを行うことが出来ないのです。
 
-### <ruby><rb>日本的追従律動</rb><rt>タテノリ</rt></ruby>とは
+この追従の感覚は、分割にはなり得ません。何故ならば、次の拍を予想している人は、未来の拍の位置を知って、過去の拍の位置を知っている為に、中間地点を決定することが出来るからです。追従の感覚で弱拍を認識すると、過去の拍の位置だけを知っており、未来の拍の位置を知らないため、中間地点を決定することが出来ません。
 
-このことをここでは<ruby><rb>日本的追従律動</rb><rt>タテノリ</rt></ruby>  <!--<ruby><rb>日本的</rb><rt>にほんてき</rt><rb>追従</rb><rt>ついじゅう</rt><rb>律動</rb><rt>リズム</rt></ruby>--> と呼びます。
+ストレス拍・シラブル拍の分割のあるリズム概念をここでは **能動的事前分割主義(PD=Proactive Divisionism)** と呼びます。またモーラ拍の分割のないリズム概念をここでは**受動的事後追随主義(RA=Reactive Appendism)** と呼びます。
 
-この<ruby><rb>日本的追従律動</rb><rt>タテノリ</rt></ruby> は、日本人の全ての行動の原理に深く影響を与えています。例えば終わらない残業などがこれに当たります。始まる時間はとても正確なのに終わる時間は全く正確ではないことは日本人の悪しき習慣と言われて久しいですが直る気配も直す気配も全くありません。これこそが <ruby><rb>日本的追従律動</rb><rt>タテノリ</rt></ruby> の一例です。 コンビニで１人がレジに行くと全員レジに行ってレジが混みだす ─── これも<ruby><rb>日本的追従律動</rb><rt>タテノリ</rt></ruby> の一例です。１人トイレに行くとみんなで一緒にトイレにいかないと気がすまない。これも<ruby><rb>日本的追従律動</rb><rt>タテノリ</rt></ruby> です。 広い道端で、鉢合わせになった二人・・・右に避けると右に避ける、左に避けると左に避ける。何度避けてもぶつかりそうになる。日本にいると「お前が見ていないからだ！」と責任転嫁することも可能ですが、海外の人混みでこの挙動は極度に目立ちます。これも<ruby><rb>日本的追従律動</rb><rt>タテノリ</rt></ruby> の典型的な例です。他にもたくさんの例があります。 日本人の全ての挙動を<ruby><rb>日本的追従律動</rb><rt>タテノリ</rt></ruby> が支配しています。 ─── このことについては、稿を改めて [**日本語が人間の動作の認識に与える影響の仮説**](japanese-phonetic-hypothesys/index.md) にて詳細に議論します。
+### 分裂拍(Schizorhythmos）と孤立拍(solirhythmos)
+
+強拍と弱拍が存在する為には必ず２拍が必要になります。そこに１拍しかなければ、それは強拍にも弱拍にもなりません。強拍がそこにありそれを分割する拍が表れて初めてそれは強拍と弱拍になります。強拍と弱拍は、ストレス拍リズム・シラブル拍リズムの発音構造自体が持っているリズム構造の本質です。 このリズムは必ず２拍が対になって演奏されるのは、シラブルは必ず頭子音を持っており、母音を持っており、末子音を頭子音につなげて必ず頭子音・母音の順番で二拍に分けて発音するという習慣から来ています。
+
+<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">二手に分かれて交互に手を叩きあうパターンが特徴的な演奏ですが、この交互に手を叩くリズムは、日本語が持っていないリズムで、日本人はしばこのリズムを演奏出来ません。<a href="https://twitter.com/hashtag/%E3%82%AA%E3%83%95%E3%83%93%E3%83%BC%E3%83%88%E3%81%A7%E6%80%9D%E8%80%83%E3%81%99%E3%82%8B%E8%AA%9E%E5%AD%A6?src=hash&amp;ref_src=twsrc%5Etfw">#オフビートで思考する語学</a><br><br>Palmas por Siguiriya - Alberto Garcia en Alexandre Tharaud <a href="https://t.co/dWHEhDa3rB">https://t.co/dWHEhDa3rB</a> <a href="https://t.co/0smzAPa6Lo">pic.twitter.com/0smzAPa6Lo</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1707718860319891633?ref_src=twsrc%5Etfw">September 29, 2023</a></blockquote> 
+
+しかしモーラ拍リズム（日本語）には２拍以上を連続して演奏するという習慣自体を持っていません。モーラ拍リズムの拍は常に孤立しています。
+
+<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">日本のリズムには１拍しかない。弱拍強拍が成立する為には２拍必要だが日本語は１拍しか持たないので弱拍強拍という概念自体が存在しない ── 日本文化には動きのない美しさ…雅楽の笙（しょう）の様に無限に続く様な世界観がある。<a href="https://twitter.com/hashtag/%E3%82%AA%E3%83%95%E3%83%93%E3%83%BC%E3%83%88%E3%81%A7%E6%80%9D%E8%80%83%E3%81%99%E3%82%8B%E8%AA%9E%E5%AD%A6?src=hash&amp;ref_src=twsrc%5Etfw">#オフビートで思考する語学</a> <a href="https://t.co/wJklGwmWN3">pic.twitter.com/wJklGwmWN3</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1948142143668990071?ref_src=twsrc%5Etfw">July 23, 2025</a></blockquote>
+
+日本の相撲の土俵入りなどを見るとわかるように、日本のリズムは等間隔に連続しておらず、しばしば孤立しています。これはモーラ拍リズムの発音構造から来ていると考えられます。二重子音末子音を持たず、可能な限り１シラブル（１モーラ）１頭子音に分割して、それぞれを単独の拍として発音しようとするモーラ拍リズムは、それぞれの拍が孤立しています。 強拍弱拍という分割の概念ではなく、飽くまでもそれぞれが孤立しており、前拍に追従していくリズムです。
+
+ストレス拍リズム・シラブル拍リズムの音楽に現れる、強拍と弱拍の様に分割が前提となっているリズムをここでは、**分裂拍( Schizorhythmos)** と呼びます。またモーラ拍リズムの分割されず孤立している拍のことをここでは **孤立拍（solirhythmos)** と呼びます。
+
+### <ruby><rb>日本的追従律動</rb><rt>タテノリ</rt></ruby>について
+
+受動的事後追従主義（RA=Reactive Appndism) は、言語だけでなく音楽にも影響を与えていることを見てきました。受動的事後追従主義は音楽だけでなく、音楽を含めた日本人の全ての習慣に深い影響を与えています。これが <ruby><rb>日本的追従律動</rb><rt>タテノリ</rt></ruby> です。
+
+例えば、終わらない残業などがこれに当たります。始まる時間はとても正確なのに終わる時間は全く正確ではないことは日本人の悪しき習慣と言われて久しいですが直る気配も直す気配も全くありません。これこそが <ruby><rb>日本的追従律動</rb><rt>タテノリ</rt></ruby> の一例です。 コンビニで１人がレジに行くと全員レジに行ってレジが混みだす ─── これも<ruby><rb>日本的追従律動</rb><rt>タテノリ</rt></ruby> の一例です。１人トイレに行くとみんなで一緒にトイレにいかないと気がすまない。これも<ruby><rb>日本的追従律動</rb><rt>タテノリ</rt></ruby> です。 広い道端で、鉢合わせになった二人・・・右に避けると右に避ける、左に避けると左に避ける。何度避けてもぶつかりそうになる。日本にいると「お前が見ていないからだ！」と責任転嫁することも可能ですが、海外の人混みでこの挙動は極度に目立ちます。これも<ruby><rb>日本的追従律動</rb><rt>タテノリ</rt></ruby> の典型的な例です。他にもたくさんの例があります。 日本人の全ての挙動を<ruby><rb>日本的追従律動</rb><rt>タテノリ</rt></ruby> が支配しています。 ─── このことについては、稿を改めて [**日本語が人間の動作の認識に与える影響の仮説**](japanese-phonetic-hypothesys/index.md) にて詳細に議論します。
 
 ここでは <ruby><rb>日本的追従律動</rb><rt>タテノリ</rt></ruby> が音楽のリズムに対して与えている大きな影響について次節以降で見ていきます。そしてこれが日本人の英語音痴の本質に横たわっていることを見ていきます。
+
+## <ruby><rb>韻律</rb><rt>ミータ/Metre</rt></ruby>とは
+
+### <ruby><rb>韻律</rb><rt>ミータ/Metre</rt></ruby>の重要性
+
+<ruby><rb>韻律</rb><rt>ミータ/Metre</rt></ruby>とは英語での俳句の五七五形式の様なもので、英語という言語の非常に重要な表現手法のひとつです。英語のストレス拍リズムの発音構造と密接に絡み合っており、<ruby><rb>韻律</rb><rt>ミータ/Metre</rt></ruby> を理解することが英語の発音を理解することを言って過言ではない重要性があります。<ruby><rb>韻律</rb><rt>ミータ/Metre</rt></ruby>は英語を理解する為の最も基礎的な知識であるだけでなく、英語の全知的活動の根源であり、それは英文学だけでなく科学哲学など全ての領域に及び、英語の音楽文化の全ての大きな影響を与えるだけでなく、音楽文化の基幹そのものであり英語の理解の最も基礎的な知識と言えます。ライムは英語の魂です。
+
+英語には重厚な詩吟文化があります。これらの詩吟文化の重要な要素を占めているのは <ruby><rb>韻律</rb><rt>ミータ/Metre</rt></ruby> です。 シェークスピアが書いた詩吟の多くは<ruby><rb>韻律</rb><rt>ミータ/Metre</rt></ruby> が活用されています。 科学の論文や技術解説書などでもしばしば詩吟が引用されて発音上の差が理解できないと理解できないような内容に触れられている事は稀ではありません。
+
+日本では、この<ruby><rb>韻律</rb><rt>ミータ/Metre</rt></ruby>の重要性は全く認識されていません。英語は、漢字によって形式化される**表意文字**の言語で、発音が軽視される傾向がありますが、英語は**表音文字**の言語であり文字自体に発音上の遊びの要素が多分に含まれています。科学論文などにもしばしば発音上の違いがわからないと理解出来ない表現が現れることも稀ではありません。
+
+この英語の学習の一番最初に学ぶべき<ruby><rb>韻律</rb><rt>ミータ/Metre</rt></ruby>は、日本では、英文科大学院の論文で研究する様な高度な内容として取り扱われています。一番最初に学ぶべき基礎知識を、一番最後に学んでいるのが日本の英語教育と言えます。
+
+<ruby><rb>韻律</rb><rt>ミータ/Metre</rt></ruby>との出会いは、幼少期に見聞きするナーザリライム (Nursery Rhyme) から始まります。ナーザリライムは「童謡」と一般的には訳されますが、これも童謡を遥かに超えた深い意味のある文化です。文字も読めない様な幼少期からナーザリライムを聴くことにより、英語のストレス拍リズムの発音構造を深く内面化するという効果があります。
+
+### <ruby><rb>韻律</rb><rt>ミータ/Metre</rt></ruby>の基礎知識＝ストレス拍（英語のアクセント）
+
+<ruby><rb>韻律</rb><rt>ミータ/Metre</rt></ruby> の基礎は、アクセントに始まりアクセントに終わると言って過言ではありません。
+
+アクセントは「強弱」と訳されたり「強勢」「弱勢」と訳されることもありますが、一般的に音の強弱・音の高低とは何も関係がありません。英語（ストレス拍言語）では、**アクセントのあるシラブルを長く発音する** そして **アクセントのないシラブルは短く発音する** というルールがあります。そして次のルールが英語の最も重要なルールです。
+
+* 英語（ストレス拍リズム）では・・・
+    * アクセントのある拍をメトロノームの様に一定間隔で発音する。
+    * アクセントのない拍を短く発音することでアクセントのある拍の一定間隔を維持する。
+
+
+次の例を見てみます。
+
+|     |     |          |         |          |          |           |
+| :-: | :-: | :------: | :-----: | :------: | :------: | :-------: |
+|  3  |     | **Boys** |         | **play** |          | **games** |
+|  4  | The | **boys** |         | **play** |          | **games** |
+|  5  | The | **boys** |  will   | **play** |          | **games** |
+|  7  | The | **boys** | will be | **play** |   -ing   | **games** |
+|  8  | The | **boys** | will be | **play** | -ing the | **games** |
+
+Boys play games の３シラブルにアクセントがあります。この３つのシラブルが一定間隔で発音されます。そしてこの間にアクセントのないシラブルが短く挟まれます。 これが英語の発音の最も基礎的なルールです。
+
+このルールを<ruby><rb>韻律</rb><rt>ミータ/Metre</rt></ruby> を学ぶことにより、順番に習得して行きます。
+
+### <ruby><rb>韻律</rb><rt>ミータ/Metre</rt></ruby>には多くの形式がある
+
+ <ruby><rb>韻律</rb><rt>ミータ/Metre</rt></ruby> には３０程度の形式があります。それぞれの形式は、強弱の組み合わせ順によって定義されます。そのなかでも最も基礎的な形式は、弱強格（アイアンビック＝iambic) と強弱格（トロキーク＝trochaic)と呼ばれています。以下は、ウィキペディアの<ruby><rb>韻律</rb><rt>ミータ/Metre</rt></ruby> について説明する記事の韻律一覧の日本語抄訳です。
+
+#### 二音節韻律( ダイシラブルズ・Disyllables）
+
+_[Macron and breve](https://en.wikipedia.org/wiki/Systems_of_scansion#Classical_scansion_--_macron_and_breve "Systems of scansion") notation:_ 強= stressed/long syllable, 弱= unstressed/short syllable
+
+| 弱     | 弱     | [pyrrhus](https://en.wikipedia.org/wiki/Pyrrhic "Pyrrhic")        |
+| ----- | ----- | ----------------------------------------------------------------- |
+| 弱     | **強** | [iamb](https://en.wikipedia.org/wiki/Iamb_\(foot\) "Iamb (foot)") |
+| **強** | 弱     | [trochee](https://en.wikipedia.org/wiki/Trochee "Trochee")        |
+| **強** | **強** | [spondee](https://en.wikipedia.org/wiki/Spondee "Spondee")        |
+
+#### 三音説韻律（トリシラブルズ・Trisyllables）
+
+| 弱     | 弱     | 弱     | [tribrach](https://en.wikipedia.org/wiki/Tribrach_\(poetry\) "Tribrach (poetry)") |
+| ----- | ----- | ----- | --------------------------------------------------------------------------------- |
+| **強** | 弱     | 弱     | [dactyl](https://en.wikipedia.org/wiki/Dactyl_\(poetry\) "Dactyl (poetry)")       |
+| 弱     | **強** | 弱     | [amphibrach](https://en.wikipedia.org/wiki/Amphibrach "Amphibrach")               |
+| 弱     | 弱     | **強** | [anapaest](https://en.wikipedia.org/wiki/Anapaest "Anapaest"),                    |
+| 弱     | **強** | **強** | [bacchius](https://en.wikipedia.org/wiki/Bacchius "Bacchius")                     |
+| **強** | 弱     | **強** | [cretic,amphimacer](https://en.wikipedia.org/wiki/Cretic "Cretic"),               |
+| **強** | **強** | 弱     | [antibacchius](https://en.wikipedia.org/wiki/Antibacchius "Antibacchius")         |
+| **強** | **強** | **強** | [molossus](https://en.wikipedia.org/wiki/Molossus_\(poetry\) "Molossus (poetry)") |
+
+#### 四音節韻律（テトラシラブルズ・Tetrasyllables）
+
+| 弱     | 弱     | 弱     | 弱     | tetrabrach, proceleusmatic                                                             |
+| ----- | ----- | ----- | ----- | -------------------------------------------------------------------------------------- |
+|       |       |       |       |                                                                                        |
+| **強** | 弱     | 弱     | 弱     | primus [paeon](https://en.wikipedia.org/wiki/Paeon_\(prosody\) "Paeon (prosody)")      |
+| 弱     | **強** | 弱     | 弱     | secundus paeon                                                                         |
+| 弱     | 弱     | **強** | 弱     | tertius paeon                                                                          |
+| 弱     | 弱     | 弱     | **強** | quartus paeon                                                                          |
+|       |       |       |       |                                                                                        |
+| **強** | **強** | 弱     | 弱     | major [ionic](https://en.wikipedia.org/wiki/Ionic_meter "Ionic meter"), double trochee |
+| 弱     | 弱     | **強** | **強** | minor ionic, double iamb                                                               |
+| **強** | 弱     | **強** | 弱     | ditrochee                                                                              |
+| 弱     | **強** | 弱     | **強** | diiamb                                                                                 |
+| **強** | 弱     | 弱     | **強** | [choriamb](https://en.wikipedia.org/wiki/Choriamb "Choriamb")                          |
+| 弱     | **強** | **強** | 弱     | antispast                                                                              |
+|       |       |       |       |                                                                                        |
+| 弱     | **強** | **強** | **強** | first epitrite                                                                         |
+| **強** | 弱     | **強** | **強** | second epitrite                                                                        |
+| **強** | **強** | 弱     | **強** | third epitrite                                                                         |
+| **強** | **強** | **強** | 弱     | fourth epitrite                                                                        |
+|       |       |       |       |                                                                                        |
+| **強** | **強** | **強** | **強** | dispondee                                                                              |
+
+### <ruby><rb>童謡</rb><rt>ナーザリライム</rt></ruby> について
+
+<ruby><rb>韻律</rb><rt>ミータ/Metre</rt></ruby>は英語の基礎的な弱強リズムを全パターン含んでいるため、これに慣れ親しむことによって、ストレス拍リズムのリズムの概念を効率よく身につけることが出来ます。  <ruby><rb>韻律</rb><rt>ミータ/Metre</rt></ruby>が実際に使われている実例で、もっとも学習に適しているものは<ruby><rb>童謡</rb><rt>ナーザリライム</rt></ruby> です。
+
+<ruby><rb>童謡</rb><rt>ナーザリライム</rt></ruby> の歌詞を聴いて聴き取りの練習をしたり、覚えて一緒に歌える用にしたりすることで、ストレス拍リズムに特徴的なリンキングや弱拍先行などのリズムを体得していくことが出来ます。
+
+
+<div style="center-box"><iframe  class="rhythmpedia-iframe" src="https://www.youtube.com/embed/Gmrj5-70xV4?si=SUOz6xR-GLKGOi0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
+
+<div style="center-box"><iframe class="rhythmpedia-iframe" src="https://www.youtube.com/embed/5gZOYKHXwyQ?si=IU87MAlbWB343re6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 ## 多層弱拍先行について
 
@@ -737,23 +861,9 @@ tags:
 
 よってそこに拍が一拍しかなければ、それは強拍か弱拍か判別出来ず、強拍/弱拍の関係が成立しません。 つまり強拍と弱拍は、そこに２つの音があって初めて成立する相対的な関係といえます。 ─── このことをここでは **弱強二拍単位説** と呼びます。この**弱強二拍単位説**は、ジャズやファンクなどの音楽で特徴的なバックビートを説明する時の重要なキーワードとなります。
 
-<!-- ABOUT_RMOP -->
-
 モーラ拍リズム言語（日本語）を母国語とする人は、言語の発音構造上１モーラに１拍しか持たないという制約を持っています。つまりモーラ拍リズムの言語にはリズムが存在しません。
 
-<blockquote class="twitter-tweet" data-media-max-width="560">
-
-<p lang="ja" dir="ltr">
-
-日本のリズムには１拍しかない。弱拍強拍が成立する為には２拍必要だが日本語は１拍しか持たないので弱拍強拍という概念自体が存在しない ── 日本文化には動きのない美しさ…雅楽の笙（しょう）の様に無限に続く様な世界観がある。<a href="https://twitter.com/hashtag/%E3%82%AA%E3%83%95%E3%83%93%E3%83%BC%E3%83%88%E3%81%A7%E6%80%9D%E8%80%83%E3%81%99%E3%82%8B%E8%AA%9E%E5%AD%A6?src=hash&amp;ref_src=twsrc%5Etfw">#オフビートで思考する語学</a> <a href="https://t.co/4zBePkuQvv">pic.twitter.com/4zBePkuQvv</a>
-
-</p>
-
-— 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1946690247380897798?ref_src=twsrc%5Etfw">July 19, 2025</a>
-
-</blockquote>
-
-<!-- ABOUT_RMOP -->
+<div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">日本のリズムには１拍しかない。弱拍強拍が成立する為には２拍必要だが日本語は１拍しか持たないので弱拍強拍という概念自体が存在しない ── 日本文化には動きのない美しさ…雅楽の笙（しょう）の様に無限に続く様な世界観がある。<a href="https://twitter.com/hashtag/%E3%82%AA%E3%83%95%E3%83%93%E3%83%BC%E3%83%88%E3%81%A7%E6%80%9D%E8%80%83%E3%81%99%E3%82%8B%E8%AA%9E%E5%AD%A6?src=hash&amp;ref_src=twsrc%5Etfw">#オフビートで思考する語学</a> <a href="https://t.co/wJklGwmWN3">pic.twitter.com/wJklGwmWN3</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1948142143668990071?ref_src=twsrc%5Etfw">July 23, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
 
 ストレス拍リズム言語・シラブル拍リズム言語の音楽を演奏する人々は、そこに１拍しかないかのように演奏していても、心の中でその拍を無意識のうちに分割して２拍として演奏しています。つまり**１拍しかなくてもその拍を弱拍として認識したり、或いは１拍しかなくてもその前に弱拍の休符があると認識**していたりします。これが**弱強二拍単位説**です。
 
@@ -1022,6 +1132,7 @@ tags:
 中国の伝統音楽や、日本・イランなどモーラ拍言語を母国語とする国々の音楽では、しばしば繰り返しのなかでメロディーの開始地点がはっきりと決まっており、そこで大きな音でアクセントを入れる手法がしばしば用いられます。ほとんどの場合、終了地点ははっきり決まっておらず、メロディーは漠然と終わります。このリズム構成の構造をここでは **頭合わせ** と呼びます。
 
 ![](attachments/Pasted%20image%2020250609002708.png)
+
 [頭合わせ](https://twitter.com/ats4u/status/1612304530502451201)
 
 頭合わせリズム構成では、４分音符の演奏順序がしばしば１２３休という順序で演奏されます。この時４はしばしば演奏されずに休符が演奏されます。１６ビートの曲では「１２３休４５６休」（１２３休を２回繰り返し）や「１２３４５６休休」（１２３休を２倍に延長）という様に１２３休を変形した形を保ちます。
@@ -3128,3 +3239,17 @@ tags:
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">【外人が演奏する縦乗り】この方は日本語のリズムと英語のリズムの違いに気付いている ── が見事なまでに縦乗りに失敗している。これは彼が日本語話者でないことを表している。リエゾンによって倒置するオフビートがあり、オンビートは全てレイドバックして遅れている。<br><br> <a href="https://t.co/5MrK0hKUHo">https://t.co/5MrK0hKUHo</a> <a href="https://t.co/oJnPHqAaza">pic.twitter.com/oJnPHqAaza</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1573036257588178944?ref_src=twsrc%5Etfw">September 22, 2022</a></blockquote></div>
 -->
 
+
+<style>
+.stressed-bak {
+border : solid 1px black;
+padding : 1px;
+bordre-radius:1px;
+}
+  .rhythmpedia-iframe {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      border: 0;
+      max-width:540px;
+  }
+</style>
