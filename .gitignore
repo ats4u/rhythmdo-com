@@ -6,4 +6,6 @@
 .venv
 .obsidian
 .vscode/
-
+__pycache__
+*_files
+.gitignore
