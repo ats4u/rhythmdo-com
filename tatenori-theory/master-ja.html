@@ -1,0 +1,1434 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.31">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>縦乗りとは何か – 律動図鑑(リズムペディア)</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-8ef56b68f8fa1e9d2ba328e99e439f80.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-84062878e9c5b266d485e4d58c0d6aa6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-613491130788ed35ec55cb31a4daf792.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-84062878e9c5b266d485e4d58c0d6aa6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6838486775293179" crossorigin="anonymous"></script>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script type="module" src="../assets/toc-ul.mjs"></script>
+
+
+<link rel="stylesheet" href="../assets/styles.css">
+</head>
+
+<body class="nav-sidebar docked nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">律動図鑑(リズムペディア)</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="../index.html" aria-current="page"> 
+<span class="menu-text">トップに戻る</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">縦乗りとは何か</li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+      <a href="../index.html" class="sidebar-logo-link">
+      <img src="../attachments/rhythmpedia-logo-dark.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">律動図鑑トップ</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tatenori-theory/ja/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">縦乗りとは何か</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
+ <span class="menu-text"><ruby><rb>多層弱拍基軸律動</rb><rt>グルーヴィダンスミュージック</rt></ruby>理論</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../beat-orientation/benefits-of-multi-layered-weak-beat-oriented-rhythm-theory/ja/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><ruby><rb>多層弱拍基軸律動</rb><rt>グルーヴィダンスミュージック</rt></ruby>理論で得られるもの</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../beat-orientation/headians-and-bottomians-of-beat-orientation/ja/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">強拍弱拍の順序に対する認識の違い</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../beat-orientation/phonological-analysis-of-rhythm-types-in-languages/ja/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">言語の拍リズムと音韻学的分析</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../beat-orientation/letter-to-native-mora-timed-speakers/ja/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">モーラ拍リズム言語を母国語とする方々への手紙</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../beat-orientation/the-crossing-point-of-language-and-music/ja/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">言語のリズムと音楽のリズムの交差点</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../beat-orientation/multi-layered-weak-beat-precedence/ja/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><ruby>多層弱拍先行<rt>グルーヴ</rt></ruby>について</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../beat-orientation/multi-layered-weak-beat-oriented-rhythm-theory-summary/ja/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><ruby><rb>多層弱拍基軸律動</rb><rt>グルーヴィダンスミュージック</rt></ruby>理論まとめ</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../beat-orientation/mechanism-of-tatenori/ja/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">縦乗りのメカニズム</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../offbeat-count-theory/ja/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">声出しオフビートカウント法</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../metadivision-theory/ja/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">メタディヴィジョン理論</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../three-to-n-groove-theory/ja/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">3ⁿグルーヴ理論とは</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../distributed-groove-theory/ja/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">分散グルーヴ理論</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../weak-beat-as-sun-strong-beat-as-earth/ja/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">弱拍天動説と弱拍地動説</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tatenori-and-psychology/ja/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">縦乗りの心理学</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../mechanism-behind-tatenori/ja/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">縦乗りのメカニズム</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="1">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#縦乗りとは" id="toc-縦乗りとは" class="nav-link active" data-scroll-target="#縦乗りとは">縦乗りとは</a></li>
+  <li><a href="#縦乗りが与える影響" id="toc-縦乗りが与える影響" class="nav-link" data-scroll-target="#縦乗りが与える影響">縦乗りが与える影響</a></li>
+  <li><a href="#縦乗りという盲点" id="toc-縦乗りという盲点" class="nav-link" data-scroll-target="#縦乗りという盲点">縦乗りという盲点</a>
+  <ul>
+  <li><a href="#バダムツーとは" id="toc-バダムツーとは" class="nav-link" data-scroll-target="#バダムツーとは">バダムツーとは</a></li>
+  <li><a href="#リズムの解釈の違い" id="toc-リズムの解釈の違い" class="nav-link" data-scroll-target="#リズムの解釈の違い">リズムの解釈の違い</a></li>
+  <li><a href="#リズムの解釈の違いによって生まれる音楽解釈の違い" id="toc-リズムの解釈の違いによって生まれる音楽解釈の違い" class="nav-link" data-scroll-target="#リズムの解釈の違いによって生まれる音楽解釈の違い">リズムの解釈の違いによって生まれる音楽解釈の違い</a></li>
+  <li><a href="#リズム解釈の違いによって生まれる言語解釈の違い" id="toc-リズム解釈の違いによって生まれる言語解釈の違い" class="nav-link" data-scroll-target="#リズム解釈の違いによって生まれる言語解釈の違い">リズム解釈の違いによって生まれる言語解釈の違い</a></li>
+  <li><a href="#言語によって異なるリズム解釈" id="toc-言語によって異なるリズム解釈" class="nav-link" data-scroll-target="#言語によって異なるリズム解釈">言語によって異なるリズム解釈</a></li>
+  </ul></li>
+  <li><a href="#縦乗りとモーラ拍リズム" id="toc-縦乗りとモーラ拍リズム" class="nav-link" data-scroll-target="#縦乗りとモーラ拍リズム">縦乗りとモーラ拍リズム</a>
+  <ul>
+  <li><a href="#モーラ拍とは何か" id="toc-モーラ拍とは何か" class="nav-link" data-scroll-target="#モーラ拍とは何か">モーラ拍とは何か</a></li>
+  <li><a href="#シラブル拍とは何か" id="toc-シラブル拍とは何か" class="nav-link" data-scroll-target="#シラブル拍とは何か">シラブル拍とは何か</a></li>
+  <li><a href="#ストレス拍とは何か" id="toc-ストレス拍とは何か" class="nav-link" data-scroll-target="#ストレス拍とは何か">ストレス拍とは何か</a></li>
+  <li><a href="#グルーヴとは何か" id="toc-グルーヴとは何か" class="nav-link" data-scroll-target="#グルーヴとは何か">グルーヴとは何か</a></li>
+  <li><a href="#日本語を母国語とするハンデ" id="toc-日本語を母国語とするハンデ" class="nav-link" data-scroll-target="#日本語を母国語とするハンデ">日本語を母国語とするハンデ</a></li>
+  </ul></li>
+  <li><a href="#縦乗りと横乗りの比較" id="toc-縦乗りと横乗りの比較" class="nav-link" data-scroll-target="#縦乗りと横乗りの比較">縦乗りと横乗りの比較</a>
+  <ul>
+  <li><a href="#縦乗りと横乗りの比較その1" id="toc-縦乗りと横乗りの比較その1" class="nav-link" data-scroll-target="#縦乗りと横乗りの比較その1">縦乗りと横乗りの比較その1</a></li>
+  <li><a href="#縦乗りと横乗りの比較その2" id="toc-縦乗りと横乗りの比較その2" class="nav-link" data-scroll-target="#縦乗りと横乗りの比較その2">縦乗りと横乗りの比較その2</a></li>
+  <li><a href="#縦乗りと横乗りの比較その3" id="toc-縦乗りと横乗りの比較その3" class="nav-link" data-scroll-target="#縦乗りと横乗りの比較その3">縦乗りと横乗りの比較その3</a></li>
+  <li><a href="#縦乗りと横乗りの比較その4" id="toc-縦乗りと横乗りの比較その4" class="nav-link" data-scroll-target="#縦乗りと横乗りの比較その4">縦乗りと横乗りの比較その4</a></li>
+  </ul></li>
+  <li><a href="#横乗りの人は縦乗りにすぐに気付く" id="toc-横乗りの人は縦乗りにすぐに気付く" class="nav-link" data-scroll-target="#横乗りの人は縦乗りにすぐに気付く">横乗りの人は縦乗りにすぐに気付く</a></li>
+  <li><a href="#縦乗りの人は縦乗りに気付かない" id="toc-縦乗りの人は縦乗りに気付かない" class="nav-link" data-scroll-target="#縦乗りの人は縦乗りに気付かない">縦乗りの人は縦乗りに気付かない</a></li>
+  <li><a href="#縦乗りははっきりと定量化出来る" id="toc-縦乗りははっきりと定量化出来る" class="nav-link" data-scroll-target="#縦乗りははっきりと定量化出来る">縦乗りははっきりと定量化出来る</a></li>
+  <li><a href="#縦乗りの人には見えないことがある" id="toc-縦乗りの人には見えないことがある" class="nav-link" data-scroll-target="#縦乗りの人には見えないことがある">縦乗りの人には見えないことがある</a></li>
+  <li><a href="#縦乗りの人には出来ないことがある" id="toc-縦乗りの人には出来ないことがある" class="nav-link" data-scroll-target="#縦乗りの人には出来ないことがある">縦乗りの人には出来ないことがある</a></li>
+  <li><a href="#縦乗りが起こす問題" id="toc-縦乗りが起こす問題" class="nav-link" data-scroll-target="#縦乗りが起こす問題">縦乗りが起こす問題</a>
+  <ul>
+  <li><a href="#縦乗りだと横乗り音楽が聴き取れない" id="toc-縦乗りだと横乗り音楽が聴き取れない" class="nav-link" data-scroll-target="#縦乗りだと横乗り音楽が聴き取れない">縦乗りだと横乗り音楽が聴き取れない</a></li>
+  <li><a href="#縦乗りだと日本語以外の外国語は全て聴き取れない" id="toc-縦乗りだと日本語以外の外国語は全て聴き取れない" class="nav-link" data-scroll-target="#縦乗りだと日本語以外の外国語は全て聴き取れない">縦乗りだと日本語以外の外国語は全て聴き取れない</a></li>
+  <li><a href="#縦乗りは英語外国語習得する上での最初で最大のハードル" id="toc-縦乗りは英語外国語習得する上での最初で最大のハードル" class="nav-link" data-scroll-target="#縦乗りは英語外国語習得する上での最初で最大のハードル">縦乗りは英語(外国語)習得する上での最初で最大のハードル</a></li>
+  <li><a href="#縦乗りは日本人の礼儀の精神に反する" id="toc-縦乗りは日本人の礼儀の精神に反する" class="nav-link" data-scroll-target="#縦乗りは日本人の礼儀の精神に反する">縦乗りは日本人の礼儀の精神に反する</a></li>
+  </ul></li>
+  <li><a href="#縦乗りの主な原因" id="toc-縦乗りの主な原因" class="nav-link" data-scroll-target="#縦乗りの主な原因">縦乗りの主な原因</a>
+  <ul>
+  <li><a href="#日本語のモーラ拍リズムの構造" id="toc-日本語のモーラ拍リズムの構造" class="nav-link" data-scroll-target="#日本語のモーラ拍リズムの構造">日本語のモーラ拍リズムの構造</a></li>
+  <li><a href="#間違った英語教育" id="toc-間違った英語教育" class="nav-link" data-scroll-target="#間違った英語教育">間違った英語教育</a></li>
+  <li><a href="#間違った音楽教育" id="toc-間違った音楽教育" class="nav-link" data-scroll-target="#間違った音楽教育">間違った音楽教育</a></li>
+  <li><a href="#リズム音痴コンプレックス" id="toc-リズム音痴コンプレックス" class="nav-link" data-scroll-target="#リズム音痴コンプレックス">リズム音痴コンプレックス</a></li>
+  <li><a href="#リズムに対する社会的同調圧力" id="toc-リズムに対する社会的同調圧力" class="nav-link" data-scroll-target="#リズムに対する社会的同調圧力">リズムに対する社会的同調圧力</a></li>
+  <li><a href="#日本差別と取られる恐れ" id="toc-日本差別と取られる恐れ" class="nav-link" data-scroll-target="#日本差別と取られる恐れ">日本差別と取られる恐れ</a></li>
+  </ul></li>
+  <li><a href="#縦乗りを克服するにはどうすればよいか" id="toc-縦乗りを克服するにはどうすればよいか" class="nav-link" data-scroll-target="#縦乗りを克服するにはどうすればよいか">縦乗りを克服するにはどうすればよいか</a>
+  <ul>
+  <li><a href="#リズムコンプレックスを意識する" id="toc-リズムコンプレックスを意識する" class="nav-link" data-scroll-target="#リズムコンプレックスを意識する">リズム・コンプレックスを意識する</a>
+  <ul>
+  <li><a href="#自分自身のリズムコンプレックスと向き合う" id="toc-自分自身のリズムコンプレックスと向き合う" class="nav-link" data-scroll-target="#自分自身のリズムコンプレックスと向き合う">自分自身のリズムコンプレックスと向き合う</a></li>
+  <li><a href="#社会的なリズムコンプレックスと向き合う" id="toc-社会的なリズムコンプレックスと向き合う" class="nav-link" data-scroll-target="#社会的なリズムコンプレックスと向き合う">社会的なリズムコンプレックスと向き合う</a></li>
+  <li><a href="#世界的なリズムコンプレックスと向き合う" id="toc-世界的なリズムコンプレックスと向き合う" class="nav-link" data-scroll-target="#世界的なリズムコンプレックスと向き合う">世界的なリズムコンプレックスと向き合う</a></li>
+  <li><a href="#普遍的なグルーヴコンプレックスと向き合う" id="toc-普遍的なグルーヴコンプレックスと向き合う" class="nav-link" data-scroll-target="#普遍的なグルーヴコンプレックスと向き合う">普遍的なグルーヴコンプレックスと向き合う</a></li>
+  </ul></li>
+  <li><a href="#モーラ拍リズムとストレス拍リズムの違いを良く知る" id="toc-モーラ拍リズムとストレス拍リズムの違いを良く知る" class="nav-link" data-scroll-target="#モーラ拍リズムとストレス拍リズムの違いを良く知る">モーラ拍リズムとストレス拍リズムの違いを良く知る</a></li>
+  <li><a href="#オフビートカウント理論を習得する" id="toc-オフビートカウント理論を習得する" class="nav-link" data-scroll-target="#オフビートカウント理論を習得する">オフビートカウント理論を習得する</a></li>
+  <li><a href="#オフビートカウント練習法を実践する" id="toc-オフビートカウント練習法を実践する" class="nav-link" data-scroll-target="#オフビートカウント練習法を実践する">オフビートカウント練習法を実践する</a></li>
+  </ul></li>
+  <li><a href="#まとめ" id="toc-まとめ" class="nav-link" data-scroll-target="#まとめ">まとめ</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">縦乗りとは何か</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p><em>更新 2025/06/02 15:04:53</em></p>
+<section id="縦乗りとは" class="level2">
+<h2 class="anchored" data-anchor-id="縦乗りとは">縦乗りとは</h2>
+<p>縦乗りとは何でしょうか。それは全く見えない存在です。しかし縦乗りは常にそこに存在しています。それは今この文章を読んでいる今この瞬間も存在しています。縦乗りは見えない存在ですが、今も正に貴方は縦乗りを見ています。縦乗りは常にそこに存在する空気のような存在です。そして空気がなければ生きていくことが出来ないように、縦乗りがなくなると人は生きていくことができません。人は、生まれてから縦乗りと出会い、そのまま縦乗りの存在に気付かず、縦乗りの存在に気付かぬまま死んでいきます。</p>
+<p>しかし縦乗りは常に私達の行動を規定しています。私達は常に縦乗りに束縛されているのです。</p>
+<p>縦乗りに気付くかどうかは貴方次第です。そのまま縦乗りの存在に気付かずに生涯を全うするか、あるいは縦乗りに気付いて火のついた様な激しい真実の世界で生きていくか。それは貴方の選択次第です。</p>
+<p><a href="../tatenori-theory/attachments/blue-pill-and-red-pill-v2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="../tatenori-theory/attachments/blue-pill-and-red-pill-v2.png" class="img-fluid"></a></p>
+<p>それは映画マトリックスに登場する赤いカプセルと青いカプセルの様です。もちろん、このまま縦乗りに気付かないで生きていくことも可能です。もしもここで、縦乗りに気付くことを選んだらどうなるでしょうか。 …縦乗りに気付くことにより大きな自由が得られると同時に、大きなリスクのある世界で生きていく事になります。</p>
+<p>ここで縦乗りだと出来なくなることを御説明致しましょう。</p>
+<ul>
+<li>英語のリスニング</li>
+<li>英会話</li>
+<li>その他、日本語以外の会話能力全て</li>
+<li>クラシック演奏活動で世界の壁を打ち破る</li>
+<li>ジャズの演奏活動で世界の壁を打ち破る</li>
+<li>IT業界で世界の壁を打ち破る</li>
+<li>ビジネスで世界の壁を打ち破る</li>
+<li>格闘技で世界の壁を打ち破る</li>
+<li>レースで世界の壁を打ち破る</li>
+<li>サッカーなどの球技全般のスポーツの世界で世界の壁を打ち破る</li>
+<li>『世界』ではなく『東京』の壁を打ち破ることも含まれるかも知れません。</li>
+</ul>
+<p>大きな夢のある世界で生きて行きたい… もしも貴方がそうお考えでしたら、縦乗りに気付くことは大きなチャンスとなるでしょう。</p>
+<p>貴方は、世界の壁を打ち破り大きな人間になりたくありませんか？ ─── もちろんそれは強制ではありません。</p>
+<p>世界の壁を打ち破る事に興味はないけども、縦乗りが何なのかちょっと興味があるな… そういう方でも結構です。</p>
+<p>この縦乗りに気付き、縦乗りから自立し、縦乗りがなくても生きていく能力を身につける、その為の理論と実践的練習方法があります。</p>
+<p>その方法をここで御紹介したいと思います。順を追って御説明致します。</p>
+</section>
+<section id="縦乗りが与える影響" class="level2">
+<h2 class="anchored" data-anchor-id="縦乗りが与える影響">縦乗りが与える影響</h2>
+<p><strong>縦乗り</strong>とは、日本語を母語とする人々に特有の、リズム感覚の微妙で深刻なズレを表す概念です。縦乗りは、日本語を母語とする人自身には感じとることが出来ません。しかしこのズレは、音楽、言語、身体感覚などのあらゆる場面で、色々な問題を引き起こしています。それは常に世界中の人々に「何かがおかしい」と感じさせていますが、その違和感はとても言葉で表すことが難しく、世界中の人々を常にモヤモヤさせつづけています。</p>
+<p>縦乗りは一見すると些細な問題に思えるかも知れません。しかし日本語を母語とする人々が全く意識していないにも関わらず、日本人の身体動作、時間認識、音楽演奏、英語発音、さらにはコミュニケーション全体に深い影響を与えています。</p>
+<p>もともと「縦乗り」は日本でのジャズ用語でした。スイングしないリズムを表現する用語で、文字通り「拍を縦に踏む」ようなリズムの演奏の仕方を指します。楽器を演奏する時などに、極端にビートを正確に区切り、表拍に重心を置き、タイミングを機械的に揃える傾向を表す概念です。一見正確で真面目な演奏方法と思えるかも知れませんがジャズを始め、ファンク、ソウルのようなジャンルの音楽に独特な「うねり」や「ノリ」が生まれにくくなります。このうねりの感覚の欠如が「縦乗り」です。</p>
+<p>一方、縦乗りでない人をここでは<strong>横乗り</strong>と呼びたいと思います。</p>
+<p>この縦乗りは、実は音楽以外のあらゆる面で様々な影響を与えています。</p>
+<ul>
+<li>英語やその他の外国語を聴き取ることができない。</li>
+<li>英語やその他の外国語を相手に伝わる形で発音することができない。
+<ul>
+<li>→ ラップを歌った時にグルーヴしないという現象の原因になる。</li>
+</ul></li>
+<li>音楽の即興演奏を行う時に、共演者の演奏内容を予想することが上手くできない。
+<ul>
+<li>→ グルーヴしないという現象の原因になる。</li>
+</ul></li>
+<li>即興ダンスを行う時に、共演者の動作を予想することが上手くできない。
+<ul>
+<li>→ グルーヴしないという現象の原因になる。</li>
+</ul></li>
+<li>格闘技などで敵の動作予想を直感的に予想する事が上手くできない。</li>
+<li>サッカーやバスケットボールなどのスポーツで敵や見方ボールなどの動作予想を直感的に予想する事が上手くできない。</li>
+<li>海外で街を歩く時に人とぶつかりやすくなる。
+<ul>
+<li>→ 海外で犯罪に巻き込まれやすくなる。</li>
+</ul></li>
+</ul>
+<p>本当にそんなことが起こっているでしょうか。具体例を交えて御説明致します。</p>
+</section>
+<section id="縦乗りという盲点" class="level2">
+<h2 class="anchored" data-anchor-id="縦乗りという盲点">縦乗りという盲点</h2>
+<section id="バダムツーとは" class="level3">
+<h3 class="anchored" data-anchor-id="バダムツーとは">バダムツーとは</h3>
+<p>英語で良く使われる慣用表現で「バダムツー」というオノマトペがあります。次のような音です。</p>
+<blockquote class="twitter-tweet blockquote" data-media-max-width="560">
+<p lang="ja" dir="ltr">
+バダムツー（英語での「ちゃんちゃん」のような効果音） Credit : <a href="https://t.co/1pMfDuY1S3">https://t.co/1pMfDuY1S3</a> <a href="https://t.co/qdcGm8P81M">pic.twitter.com/qdcGm8P81M</a>
+</p>
+— 岡敦/Ats🇯🇵 (<span class="citation" data-cites="ats4u">@ats4u</span>) <a href="https://twitter.com/ats4u/status/1928811162042507281?ref_src=twsrc%5Etfw">May 31, 2025</a>
+</blockquote>
+<p>バダムツーはとてもポピュラーでネット上を探すと沢山の例を見つけることが出来ます。</p>
+<blockquote class="twitter-tweet blockquote" data-media-max-width="560">
+<p lang="ja" dir="ltr">
+【 Ba Dum Tss / バダムツー 】 ─── 日本人はこのリズムを必ず聴き間違える。このリズムを何故日本人は、必ず聴き間違えるのか。そこに日本人の縦乗りの最も根本的な原理を観察することができる。<a href="https://twitter.com/hashtag/%E3%82%AA%E3%83%95%E3%83%93%E3%83%BC%E3%83%88%E3%81%A7%E6%80%9D%E8%80%83%E3%81%99%E3%82%8B%E8%AA%9E%E5%AD%A6?src=hash&amp;ref_src=twsrc%5Etfw">#オフビートで思考する語学</a> <a href="https://t.co/IWibkjxhj3">pic.twitter.com/IWibkjxhj3</a>
+</p>
+— 岡敦/Ats🇯🇵 (<span class="citation" data-cites="ats4u">@ats4u</span>) <a href="https://twitter.com/ats4u/status/1918313900753514678?ref_src=twsrc%5Etfw">May 2, 2025</a>
+</blockquote>
+<p>このリズムを、何かの面白い事（おち）が起こった直後に演奏します。</p>
+<blockquote class="twitter-tweet blockquote" data-media-max-width="560">
+<p lang="ja" dir="ltr">
+バダムツーの実際に実践で使われている例：Credit : <a href="https://t.co/9YyvfCjSX1">https://t.co/9YyvfCjSX1</a> <a href="https://t.co/NBE4a3FB7d">pic.twitter.com/NBE4a3FB7d</a>
+</p>
+— 岡敦/Ats🇯🇵 (<span class="citation" data-cites="ats4u">@ats4u</span>) <a href="https://twitter.com/ats4u/status/1928826772281233678?ref_src=twsrc%5Etfw">May 31, 2025</a>
+</blockquote>
+<p>これは日本語ではしばしば「ちゃんちゃん」と訳されます。</p>
+<p><a href="../tatenori-theory/attachments/ba-dum-tss.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="../tatenori-theory/attachments/ba-dum-tss.png" class="img-fluid" width="560"></a></p>
+<p>これは日本語のちゃんちゃんの様な位置にあり、コントの終わりなどで効果音として使われます。</p>
+<blockquote class="twitter-tweet blockquote" data-media-max-width="560">
+<p lang="ja" dir="ltr">
+日本の「ちゃんちゃん」は英語で ba dum tss と翻訳されている。ジョジョの不思議な冒険「マニッシュ・ボーイ」Credit : <a href="https://t.co/hRYKOraxdq">https://t.co/hRYKOraxdq</a> <a href="https://t.co/Oym4ZIsLUD">pic.twitter.com/Oym4ZIsLUD</a>
+</p>
+— 岡敦/Ats🇯🇵 (<span class="citation" data-cites="ats4u">@ats4u</span>) <a href="https://twitter.com/ats4u/status/1928814004308185233?ref_src=twsrc%5Etfw">May 31, 2025</a>
+</blockquote>
+<p>もし貴方が音楽の訓練を受けている方で、譜面を読み書きすることができる方でしたら、次の様に聴き取ったかも知れません。</p>
+<p><a href="../tatenori-theory/attachments/ba-dum-tss-incorrect.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="../tatenori-theory/attachments/ba-dum-tss-incorrect.png" class="img-fluid"></a></p>
+<p>しかしこれは本来次の様に記譜すべきなのです。</p>
+<p><a href="../tatenori-theory/attachments/ba-dum-tss-score-correct.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="../tatenori-theory/attachments/ba-dum-tss-score-correct.png" class="img-fluid"></a></p>
+</section>
+<section id="リズムの解釈の違い" class="level3">
+<h3 class="anchored" data-anchor-id="リズムの解釈の違い">リズムの解釈の違い</h3>
+<p>もしも前者の解釈でジャズの演奏を行うと次のようになる筈です。</p>
+<blockquote class="twitter-tweet blockquote" data-media-max-width="560">
+<p lang="ja" dir="ltr">
+バダムツーの縦乗りでの解釈 <a href="https://twitter.com/hashtag/%E3%82%AA%E3%83%95%E3%83%93%E3%83%BC%E3%83%88%E3%81%A7%E6%80%9D%E8%80%83%E3%81%99%E3%82%8B%E8%AA%9E%E5%AD%A6?src=hash&amp;ref_src=twsrc%5Etfw">#オフビートで思考する語学</a> <a href="https://t.co/KN5gMaKMdE">https://t.co/KN5gMaKMdE</a> <a href="https://t.co/TCvZoJEMqw">pic.twitter.com/TCvZoJEMqw</a>
+</p>
+— 岡敦/Ats🇯🇵 (<span class="citation" data-cites="ats4u">@ats4u</span>) <a href="https://twitter.com/ats4u/status/1928070176341164344?ref_src=twsrc%5Etfw">May 29, 2025</a>
+</blockquote>
+<p>もしも後者の解釈でジャズの演奏を行うと次の様になります。</p>
+<blockquote class="twitter-tweet blockquote" data-media-max-width="560">
+<p lang="ja" dir="ltr">
+バダムツーの横乗りでの解釈 <a href="https://twitter.com/hashtag/%E3%82%AA%E3%83%95%E3%83%93%E3%83%BC%E3%83%88%E3%81%A7%E6%80%9D%E8%80%83%E3%81%99%E3%82%8B%E8%AA%9E%E5%AD%A6?src=hash&amp;ref_src=twsrc%5Etfw">#オフビートで思考する語学</a> <a href="https://t.co/KN5gMaKMdE">https://t.co/KN5gMaKMdE</a> <a href="https://t.co/C5x0FYgXLk">pic.twitter.com/C5x0FYgXLk</a>
+</p>
+— 岡敦/Ats🇯🇵 (<span class="citation" data-cites="ats4u">@ats4u</span>) <a href="https://twitter.com/ats4u/status/1928070026998755806?ref_src=twsrc%5Etfw">May 29, 2025</a>
+</blockquote>
+<p>ここに日本語を母国語とする人と、そうでない人のリズムの認識に、大きな違いが見つかります。</p>
+</section>
+<section id="リズムの解釈の違いによって生まれる音楽解釈の違い" class="level3">
+<h3 class="anchored" data-anchor-id="リズムの解釈の違いによって生まれる音楽解釈の違い">リズムの解釈の違いによって生まれる音楽解釈の違い</h3>
+<p>次の例を見てみてください。</p>
+<blockquote class="twitter-tweet blockquote" data-media-max-width="560">
+<p lang="ja" dir="ltr">
+【モーラ拍リズムの言語（日本語）を母語として話す人が聴き取れないリズム】 16分音符1つが弱起として入っている基本リフパターン ─── マイケル・ジャクソンのヒューマン・ネイチャー Live at Wembley 1988 Credit : <a href="https://t.co/eQ1e6WjElH">https://t.co/eQ1e6WjElH</a> <a href="https://t.co/mBAaWxTeSj">pic.twitter.com/mBAaWxTeSj</a>
+</p>
+— 岡敦/Ats🇯🇵 (<span class="citation" data-cites="ats4u">@ats4u</span>) <a href="https://twitter.com/ats4u/status/1928820285270024211?ref_src=twsrc%5Etfw">May 31, 2025</a>
+</blockquote>
+<p>この曲は、マイケル・ジャクソンのヒット曲『<a href="https://www.youtube.com/watch?v=ElN_4vUvTPs">ヒューマン・ネイチャー</a>』です。この曲の冒頭でマイケル・ジャクソンが「チーチキ・チーチキ」と歌っていますが、この記事を読んで下さっている皆様は、このリズムをどの様に聴き取りましたでしょうか。</p>
+<p><a href="../tatenori-theory/attachments/human-nature-score-incorrect.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src="../tatenori-theory/attachments/human-nature-score-incorrect.png" class="img-fluid"></a></p>
+<p>この様に解釈されたのではないでしょうか。しかし曲が始まると間もなくこの解釈が間違っていることが明らかになります ─── 実は次のようになっています。</p>
+<p><a href="../tatenori-theory/attachments/human-nature-score-correct.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img src="../tatenori-theory/attachments/human-nature-score-correct.png" class="img-fluid"></a></p>
+<p>このように８分音符１つ分ずれた形でリズムが始まっています。</p>
+<p><strong>ここからわかることは、日本語を母国語とする人はある音を聞いた瞬間、当然のようにそれを８分音符の表拍として認識しているところを、外人は当然の様にそれを８分音符の裏拍として認識しているということです。</strong></p>
+<p>これは些細なことと見えるかも知れません。しかしここに大きな盲点が存在します。</p>
+</section>
+<section id="リズム解釈の違いによって生まれる言語解釈の違い" class="level3">
+<h3 class="anchored" data-anchor-id="リズム解釈の違いによって生まれる言語解釈の違い">リズム解釈の違いによって生まれる言語解釈の違い</h3>
+<p>この盲点こそが、日本語を母国語とする人が英語が聴き取れなくなる理由なのです。次の動画を見てみてください。これは映画ハイスクール・ミュージカル（2006年）の主題歌です。 この動画のなかで日本語母国語話者が聴き落とす地点をアニメーションで表現しました。</p>
+<blockquote class="twitter-tweet blockquote" data-media-max-width="560">
+<p lang="ja" dir="ltr">
+【日本人のリズムの盲点】映画ハイスクール・ミュージカルの音楽にはオフビートから始まるリズムが現れます。<br><br>日本人には1拍目表拍から文章を解釈しその前にある音を全て無視するという性質がある為、そこに音があることに気付きません。 <br><br>その地点を見える化しました。<a href="https://twitter.com/hashtag/%E3%82%AA%E3%83%95%E3%83%93%E3%83%BC%E3%83%88%E3%81%A7%E6%80%9D%E8%80%83%E3%81%99%E3%82%8B%E8%AA%9E%E5%AD%A6?src=hash&amp;ref_src=twsrc%5Etfw">#オフビートで思考する語学</a> <a href="https://t.co/qpvR56b6tG">pic.twitter.com/qpvR56b6tG</a>
+</p>
+— 岡敦/Ats🇯🇵 (<span class="citation" data-cites="ats4u">@ats4u</span>) <a href="https://twitter.com/ats4u/status/1661582852574806021?ref_src=twsrc%5Etfw">May 25, 2023</a>
+</blockquote>
+<p>この歌詞は次の様になっています。</p>
+<pre><code>We're all in this together  
+Once we know that we are, we're all stars  
+And we see that</code></pre>
+<p>この様に、小節の開始地点に先駆けて開始地点前の位置から勢いをつけてメロディーが始まることを、音楽の楽典の用語で<span style="font-size:3em">弱起</span>と呼びます。</p>
+<p>この最初の we’re が <strong>弱起</strong> で発音されていることに注目してください。この弱起こそが日本語母国語話者の盲点です。</p>
+<p>ここで弱起の存在を前提としないリズム解釈のことを<strong>縦乗り</strong>と呼びたいと思います。そしてこの弱起の存在を前提しない縦乗りに対し、弱起の存在を前提としたリズム解釈のことを横乗りと呼びます。</p>
+<p>この曲では最初の部分だけが弱起になっている非常に短い弱起なので、全ての意味が理解できないことはないかも知れません。しかし英語の詩では、<strong>歌詞の全て弱起になっている</strong>ことは稀なことではありません。そうなると、全ての音が聴き取れないという現象が実際に起こるのです。</p>
+<blockquote class="twitter-tweet blockquote" data-media-max-width="560">
+<p lang="ja" dir="ltr">
+その後、リハンナが2007年に Don’t Stop the Music でマイケルジャクソンのママセイママサーママクサを素材にしたリフを使ったことで、ママセイママサーママクサは更に広く知られる様になりました。<br><br>Credit : <a href="https://t.co/4XdSx8kHp0">https://t.co/4XdSx8kHp0</a> <a href="https://t.co/BGQnWLvpzp">pic.twitter.com/BGQnWLvpzp</a>
+</p>
+— 岡敦/Ats🇯🇵 (<span class="citation" data-cites="ats4u">@ats4u</span>) <a href="https://twitter.com/ats4u/status/1646892656285618176?ref_src=twsrc%5Etfw">April 14, 2023</a>
+</blockquote>
+<p>このサビ部分の歌詞は<strong>全てが弱起で構成</strong>されています。</p>
+<pre><code>I wanna take you away
+Let's escape into the music, DJ, let it play
+I just can't refuse it, like the way you do this, keep on rockin' to it  
+Please don't stop the, please don't stop the music</code></pre>
+<p>この歌詞を、小節単位で行区切して、文章の切れ目を色で表示しました。</p>
+<pre style="border-radius:15px; border: 3px solid silver; padding:15px; font-size:1.6em;color:white;font-weight:bolder;line-height:1.5em;background-color:black; white-space: pre;"><span style="background-color:red ">I wanna take you 
+away</span> <span style="background-color:blue">Let's escape into the 
+music</span>  <span style="background-color:green">DJ, let it
+play</span>  <span style="background-color:red">I just can't  re- 
+-fuse it, </span> <span style="background-color:blue">like the way you 
+do this,</span> <span style="background-color:green">keep on rockin' 
+to it</span> <span style="background-color:red">Please don't stop the, please don't stop the 
+music</span> 
+</pre>
+<p>歌詞は完全に中学英語の範囲内です。しかしこの様に<span style="font-size:3em">文章の切れ目の位置が弱起によって変わってしまうことにより文章全体が理解できなくなる</span>という現象が起こります。</p>
+<p>これこそが<span style="font-size:3em">日本語母国語話者が、英語が理解できなくなる理由の正体</span>です。</p>
+<p>どんなに R の発音を練習しても、どんなに TH の発音を練習しても、リズム解釈方法が異なることにより、全てが理解できなくなってしまうのです。 リズム解釈の違いがある限り、日本人の全ての努力は水泡に帰すのです。</p>
+<p>そしてこの弱起によって文章の切れ目位置が変わるということは、<span style="font-size:3em">アフリカ系の諸言語の影響を強く受けている米国英語では特に顕著</span>に起こります。</p>
+<p>そしてこの<span style="font-size:3em">言語上のリズム解釈の違いこそが、日本人の演奏がグルーヴしない原因の正体</span>なのです。</p>
+</section>
+<section id="言語によって異なるリズム解釈" class="level3">
+<h3 class="anchored" data-anchor-id="言語によって異なるリズム解釈">言語によって異なるリズム解釈</h3>
+<p>次の曲は２０１４年頃にタイで流行していた曲です。</p>
+<div style="display:flex">
+<div style="flex: 0 0 auto; margin:auto">
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/w1y19rSAlGk?si=SmAUtZb1-qdjzGHT&amp;start=57" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe></p>
+</div>
+</div>
+<p>2014年当時のタイのミュージックシーンの感性にフィットし爆発的にヒットしましたが、タイのミュージシャンという訳ではありません。これは <a href="https://www.youtube.com/channel/UC30QowTrCEeqr4L4R5zH8cA">Mc Jair Da Rocha</a> というサンパウロのミュージシャンによる『A Minha Amiga Fran (Franという名の友達)』という名の曲です。彼は世界的に著名なミュージシャンというわけではありませんが、どういう経緯によってかタイでヒットしました。</p>
+<p>この曲の歌詞を貴方は、どういう風に聞き取りましたでしょうか。この曲はサビの部分で「ウォカ・ウォカ」と連呼しておりとてもキャッチーですが、私達はこの歌詞を当然の様に「ウォカ・ウォカ」と解釈していた筈です。 しかし実は、この曲は、タイでは กาโว กาโว (kawo kawo ) と呼ばれているのです。 <a href="https://www.google.com/search?q=%E0%B8%81%E0%B8%B2%E0%B9%82%E0%B8%A7+%E0%B8%81%E0%B8%B2%E0%B9%82%E0%B8%A7">カウォ・カウォというキーワード</a> で検索すると沢山のタイ版リミックスが見つかります。</p>
+<p>日本人が当然の様にウォカウォカと聴き取る同じ音声をタイ人は当然の様にカウォカウォと解釈している ─── この現象は、発音とリズムの解釈に大きな示唆を与えてくれます。 ここでタイ解釈では「カ」が先にくるカウォは弱起（小節頭より前から始まるメロディ）が前提となって解釈されていると見ることができます。そして日本解釈では「ウォ」が先にくる強起（小節頭より後ろから始まるメロディ）が前提となって解釈されていると見ることができます。</p>
+<p>つまり、<strong>言語の発音上のリズム解釈は、言語によって大きく異なる</strong>ということが、少なくともここから観察出来ます。</p>
+<p>民族音楽は、民族の言語と深く結びついています。日本の民族音楽（音頭や演歌）には弱起（アナクルーシス／アウフタクト）がありませんが、タイの民族音楽には弱起があります。この言語による<strong>リズムの解釈の違いの存在</strong>にまず気付くことが大切といえそうです。</p>
+<p>なお、この曲の中盤のサビ部分の歌詞はポルトガル語で louca ( 英語のcrazy )と連呼している為、タイ解釈（カウォ）と日本語解釈（ウォカ）のどちらがポルトガル語解釈と一致しているか考えると、日本語の解釈の方が正しいといえます。</p>
+<p>しかしタイ人の人はほとんどの場合、前提となる知識が全くない状態でも英語圏・ラテン語圏の人々とコミュニケーションを取ることが出来ることに対して、日本人は長い期間前提知識を学んだ状態でも、英語圏・ラテン語圏の人々とコミュニケーションを取ることが出来ないという点に注意が必要です。</p>
+<p>彼らタイ人は全く知らない未知の言語でも、聴いた単語をそのままオウム返しに発音することが出来ます。しかし日本人は多くの発音を聞き落としてしまうため、オウム返しに発音することができません ─── ここに日本人が英語が苦手になる理由の本質が隠れています。</p>
+<p>タイ人は「カウォでなくウォカだよ！」と訂正されるとすぐに発音解釈を切り換えることが出来ます ─── もし日本人が同じ様にして「これはウォカではなくカウォだよ！」と訂正された場合、すぐに解釈を「カウォ」に切り換えることが出来るでしょうか。答えはNOです。ここに日本語の不思議な性質を観察することが出来ます。</p>
+</section>
+</section>
+<section id="縦乗りとモーラ拍リズム" class="level2">
+<h2 class="anchored" data-anchor-id="縦乗りとモーラ拍リズム">縦乗りとモーラ拍リズム</h2>
+<p><strong>縦乗り</strong>とは、日本語を母国語とする人だけが持っているある種の<strong>リズム感覚の欠落</strong>といえます。縦乗りは、単なる個人の資質や音楽の好みの問題ではありません。実は縦乗りは、日本語の発音構造が起因して起こる<strong>構造的な現象</strong>です。日本語のリズム認識のことを学術的に<strong>モーラ拍リズム</strong>と呼びます。</p>
+<section id="モーラ拍とは何か" class="level3">
+<h3 class="anchored" data-anchor-id="モーラ拍とは何か">モーラ拍とは何か</h3>
+<p>モーラ拍リズムとは日本語を母国語とする人が当たり前のように行っている「あーいーうーえーおー」と発音を一定の長さに区切って認識する発音認識方法のことを指します。この一定の長さに区切った発音要素のことをモーラと呼びます。モーラ ─── これは日本語を話す人にとっては当たり前なことですが、実はこのモーラ拍リズムを持った言語は、世界的に探してみても日本語しかないと言われています。</p>
+<p>世界中の大半の言語は<strong>ストレス拍リズム</strong>または<strong>シラブル拍リズム</strong>と呼ばれるリズム認識を持っています。 例えばスペイン語・フランス語・イタリア語・中国語・韓国語は、<strong>シラブル拍リズム</strong> に、英語・ロシア語・ドイツ語・アラビア語・タイ語・ラオ語は、<strong>ストレス拍リズム</strong>に分類されています。</p>
+</section>
+<section id="シラブル拍とは何か" class="level3">
+<h3 class="anchored" data-anchor-id="シラブル拍とは何か">シラブル拍とは何か</h3>
+<p>シラブル拍リズムとは、多くの言語で見られるリズム構造の一種で、言語上の音素が「シラブル」と呼ばれる単位で区切られ、それぞれのシラブルがほぼ同じ長さで強弱の区別なく発音される発音構造のことを指します。このリズムでは、英語のような「強拍・弱拍」に基づくリズムは存在せず、単純にシラブルの数だけでリズムが構成されるのが特徴です。このことから発話全体が機械的に均等に刻まれるような印象を与えることもあります。</p>
+</section>
+<section id="ストレス拍とは何か" class="level3">
+<h3 class="anchored" data-anchor-id="ストレス拍とは何か">ストレス拍とは何か</h3>
+<p>ストレス拍リズムとは、一定時間ごとにストレス拍＝強調されたシラブルが現れ、ストレスによって強調されないシラブルはストレス拍の間に短く等分に発音されることをいいます。（<a href="https://digitalcommons.wayne.edu/cgi/viewcontent.cgi?article=1025&amp;context=honorstheses">参照</a>） 例えば、fourteen, fifteen, sixteen と発音したとします。 この時 teen は必ず同じ間隔の時間をもって強調されて発音します。 しかし four | fif | six はそれぞれ fo fif siks と異なる数の音素を持っていても、必ず同じ長さの範囲内で時間分配されて発音されます。 これがストレス拍リズムです。</p>
+<p>ここでいう、<strong>日本人に欠落しているある種のリズム感覚=横乗り</strong>とは、<strong>ストレス拍リズムないしはシラブル拍リズムに基づいた言語を母国語として話す人々が自然に持っている</strong>リズム感覚**です。</p>
+</section>
+<section id="グルーヴとは何か" class="level3">
+<h3 class="anchored" data-anchor-id="グルーヴとは何か">グルーヴとは何か</h3>
+<figure class="figure">
+<blockquote class="twitter-tweet blockquote" data-media-max-width="560">
+<p lang="ja" dir="ltr">
+【言語とリズム】カマラ・ハリスの「ザ・パッセージ・オヴ・タイム」という演説に合わせてジャズを演奏したら、それに同調したネット上のミュージシャンがドラムやベースをつけたものらしいです。<br><br>９０年代のジョン・スコフィールドとジョー・ロヴァーノの音楽みたいです。 <a href="https://twitter.com/hashtag/%E3%82%AA%E3%83%95%E3%83%93%E3%83%BC%E3%83%88%E3%81%A7%E6%80%9D%E8%80%83%E3%81%99%E3%82%8B%E8%AA%9E%E5%AD%A6?src=hash&amp;ref_src=twsrc%5Etfw">#オフビートで思考する語学</a>… <a href="https://t.co/CuW5Q3XaOF">pic.twitter.com/CuW5Q3XaOF</a>
+</p>
+— 岡敦/Ats🇯🇵 (<span class="citation" data-cites="ats4u">@ats4u</span>) <a href="https://twitter.com/ats4u/status/1838097695032160721?ref_src=twsrc%5Etfw">September 23, 2024</a>
+</blockquote>
+<figcaption>
+米国政治家のカマラ・ハリスのスピーチに合わせてジャズを演奏している人々
+</figcaption>
+</figure>
+<p>現在、世界中で広く親しまれているポピュラー音楽の多くは、アメリカのジャズにその源流を持ちます。ジャズからブルースが生まれ、ブルースはやがてR&amp;Bやロックンロールへと発展し、さらにロック、ハードロック、ヘヴィメタルなど、現代における多様な音楽ジャンルへと枝分かれしていきました。つまり、これらのポップス音楽の根底には、今なおジャズのリズムが脈々と息づいているのです。</p>
+<p>そしてそのジャズのリズムは敢えて言えば<strong>アメリカの俳句</strong>とでも喩えられるようなアメリカ英語の発音や抑揚と深く結びついた表現形式なのです。日本語の『言葉のリズム』を凝縮されたものが俳句ならば、米国英語の『言葉のリズム』が凝縮されたものがジャズです。</p>
+<p>俳句が日本語のモーラ拍リズムから生まれた詩の形式であるように、ジャズはアメリカ英語のストレス拍タイミングに根ざした詩の形式です。表面上は異なるように見えても、両者はそれぞれの言語のリズム構造と音韻体系に深く結びついています。ジャズは米国英語のリズムと抑揚を身体的に表現するものです。その意味でジャズは「米国英語版の俳句」ともいえる表現文化なのです。</p>
+<p>つまりこれらのポップス音楽で最も重要な要素であるグルーヴの正体は、この米国英語のリズムそのものです。</p>
+</section>
+<section id="日本語を母国語とするハンデ" class="level3">
+<h3 class="anchored" data-anchor-id="日本語を母国語とするハンデ">日本語を母国語とするハンデ</h3>
+<p>日本語話者がこの<strong>グルーヴ</strong>を体得しにくい理由は、この言語リズムの違いが無意識のうちに身体感覚に影響しているからです。ストレス拍リズムを持つ言語を話す人々（日本人以外の地球上のほぼ全ての人々）から見ると、明らかにそこにあるべき何かがないことがはっきり明瞭に観察されます。しかしもともとその<strong>ストレス拍リズム</strong>という概念を持たない日本人は、そこに何かがある筈だったという認識自体が共有出来ないのです。つまり<font style="font-size:3em">リズムが欠けているという意識そのものが欠けているのです。</font> このリズム感上の感覚差は大変に大きく、この感覚差が原因で、日本人とそれ以外の人々のコミュニケーションを決定的に困難にしています。 相手の「感じている違和感自体」が、こちら側に存在しないのです。これは文化間コミュニケーション齟齬の最大のものです。</p>
+<p>そしてこの発音構造の違いが、日本の教育・敗戦・戦後の歴史・高度経済発展・日本独特な心理「甘え」などの歴史的背景・心理学的背景と深く絡み合って多様な問題を生み出しています。</p>
+</section>
+</section>
+<section id="縦乗りと横乗りの比較" class="level2">
+<h2 class="anchored" data-anchor-id="縦乗りと横乗りの比較">縦乗りと横乗りの比較</h2>
+<p>以下は縦乗りと横乗りを理論化し、理論に従って機械的に演奏させたものです。</p>
+<section id="縦乗りと横乗りの比較その1" class="level3">
+<h3 class="anchored" data-anchor-id="縦乗りと横乗りの比較その1">縦乗りと横乗りの比較その1</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-mHk5FfhFas?si=4CQjOE1Fi5ap3Cc5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+</iframe>
+</section>
+<section id="縦乗りと横乗りの比較その2" class="level3">
+<h3 class="anchored" data-anchor-id="縦乗りと横乗りの比較その2">縦乗りと横乗りの比較その2</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BvpIcUBT418?si=jOhnlsRvhCYB-O_W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+</iframe>
+</section>
+<section id="縦乗りと横乗りの比較その3" class="level3">
+<h3 class="anchored" data-anchor-id="縦乗りと横乗りの比較その3">縦乗りと横乗りの比較その3</h3>
+<ul>
+<li>横乗りの場合
+<ul>
+<li>ベース音と伴奏コードが常に互い違いに鳴っている</li>
+</ul></li>
+</ul>
+<blockquote class="twitter-tweet blockquote" data-media-max-width="560">
+<p lang="ja" dir="ltr">
+【コード進行の先取りについて】 <a href="https://t.co/nqrVkVIhNy">pic.twitter.com/nqrVkVIhNy</a>
+</p>
+— 岡敦/Ats🇯🇵 (<span class="citation" data-cites="ats4u">@ats4u</span>) <a href="https://twitter.com/ats4u/status/1496443349540413440?ref_src=twsrc%5Etfw">February 23, 2022</a>
+</blockquote>
+<ul>
+<li>縦乗りの場合
+<ul>
+<li>ベース音と伴奏コードが常に同時に鳴っている</li>
+</ul></li>
+</ul>
+<blockquote class="twitter-tweet blockquote" data-media-max-width="560">
+<p lang="ja" dir="ltr">
+【縦乗りの例】全拍がオンビートを起点にして演奏されている。全く同じ音楽、全く同じベースライン、全く同じコード進行でもリズムが縦乗りだとこういう風に響く ─── これが縦乗りだ。 <a href="https://t.co/OArl8tpUWf">pic.twitter.com/OArl8tpUWf</a>
+</p>
+— 岡敦/Ats🇯🇵 (<span class="citation" data-cites="ats4u">@ats4u</span>) <a href="https://twitter.com/ats4u/status/1496820563201114112?ref_src=twsrc%5Etfw">February 24, 2022</a>
+</blockquote>
+</section>
+<section id="縦乗りと横乗りの比較その4" class="level3">
+<h3 class="anchored" data-anchor-id="縦乗りと横乗りの比較その4">縦乗りと横乗りの比較その4</h3>
+<blockquote class="twitter-tweet blockquote" data-media-max-width="560">
+<p lang="ja" dir="ltr">
+７イレブンで買い物したら、ものすごい縦乗りのヒューマンネーチャー（マイケル・ジャクソンの曲）がＢＧＭに掛かっていた。あまりに凄かったので、家に帰って譜面に起こしてみた。こんな感じだった。<br><br>前半４小節がオリジナル。後半４小節が縦乗りバージョン。 <a href="https://t.co/Vl9s9DWgh8">pic.twitter.com/Vl9s9DWgh8</a>
+</p>
+— 岡敦/Ats🇯🇵 (<span class="citation" data-cites="ats4u">@ats4u</span>) <a href="https://twitter.com/ats4u/status/975051946552827904?ref_src=twsrc%5Etfw">March 17, 2018</a>
+</blockquote>
+</section>
+</section>
+<section id="横乗りの人は縦乗りにすぐに気付く" class="level2">
+<h2 class="anchored" data-anchor-id="横乗りの人は縦乗りにすぐに気付く">横乗りの人は縦乗りにすぐに気付く</h2>
+<p>この<strong>リズム感覚</strong>を持たない日本語を母国語とする人が演奏や作曲を行うと、その作品に<strong>独特なリズム感覚の欠落</strong>が残ります。この欠落は、そのリズム感覚を持つ人から見た時、とてもはっきりとわかる非常に明瞭なものです。この欠落は日本語以外の言語を母国語とする人々に対して常に一定の違和感を与えます。</p>
+<figure class="figure">
+<blockquote class="twitter-tweet blockquote" data-media-max-width="560">
+<p lang="ja" dir="ltr">
+【音無しで手を叩くだけでわかる横乗りと縦乗り】<br><br>1. 裏拍が先行している<br>2. 拍の多層構造がある<br>3. 動きが尻合わせで配置されている<br><br>どんなに海外で高度な横乗りを会得しても、横乗りと縦乗りの違いをはっきり区別しない限り日本帰国と同時に縦乗りに戻ってしまいます。<a href="https://twitter.com/hashtag/%E3%82%AA%E3%83%95%E3%83%93%E3%83%BC%E3%83%88%E3%81%A7%E6%80%9D%E8%80%83%E3%81%99%E3%82%8B%E8%AA%9E%E5%AD%A6?src=hash&amp;ref_src=twsrc%5Etfw">#オフビートで思考する語学</a> <a href="https://t.co/j0lB7w9RT4">pic.twitter.com/j0lB7w9RT4</a>
+</p>
+— 岡敦/Ats🇯🇵 (<span class="citation" data-cites="ats4u">@ats4u</span>) <a href="https://twitter.com/ats4u/status/1866840258450690275?ref_src=twsrc%5Etfw">December 11, 2024</a>
+</blockquote>
+<figcaption>
+縦乗りと横乗りの違いを動きだけを使って表現したもの
+</figcaption></figure>
+<p>踊りを踊っても、それはすぐに日本人の動作だとわかる痕跡が残ります。例えそれが VTuber の映像で外見からその人が日本人であることがわからなくても、その動きだけからその人が日本人だとわかる特徴が見られます。それが例え振り付けで完全に日本人だということが部外者から見えない状態でも、それは日本人の振り付けだと即座にわかる特徴が残ります。</p>
+<p>歩いても、走っても、歌っても、踊っても、ギターを弾いても、ドラムを叩いても、ピアノを弾いても、クラシックを演奏しても、ジャズを演奏しても、何をやっても全てに、日本人の認識欠落の痕跡が残ります。</p>
+<p>問題は、このリズム感覚を持たない人が、そもそも彼が持っている<strong>リズム感覚</strong>の欠落自体を認識できないことです。</p>
+</section>
+<section id="縦乗りの人は縦乗りに気付かない" class="level2">
+<h2 class="anchored" data-anchor-id="縦乗りの人は縦乗りに気付かない">縦乗りの人は縦乗りに気付かない</h2>
+<p>問題は、このリズム感覚を持たない人は、そもそも彼が持っている<strong>リズム感覚</strong>が欠落していること自体を認識できないことです。つまり<strong>あるリズム感覚をもつものと、あるリズム感覚をもたないものとの間に、違いがあること自体を認識できない</strong>のです。リズム感覚を持たない人たちは、感覚を持たないがために、無意識のうちにその感覚を持たないものだけを選んでしまうのです。そしてこの偏りを、そのリズム感覚を持つ人は明白に認識しています。しかしリズム感覚を持たない人は、その偏り自体を認識出来ません。</p>
+<p>日本語を母国語とする人だけがもつ独特なリズム感覚の盲点 ─── それが<strong>縦乗り</strong>です。</p>
+</section>
+<section id="縦乗りははっきりと定量化出来る" class="level2">
+<h2 class="anchored" data-anchor-id="縦乗りははっきりと定量化出来る">縦乗りははっきりと定量化出来る</h2>
+<p>縦乗りの人が作った曲を採譜するとはっきりとそれと指摘できる特徴が見られます。例えば、縦乗りの人が作った曲には弱起がない為、必ず文書作成ソフトで文を左寄せにしたように音符が左側に偏って配置されます。一方横乗り（縦乗りではない人）の作った曲を採譜するとしばしば、文書作成ソフトで文を右寄せにしたように音符が右側に偏って配置されます。この様に縦乗りは、決して感覚的なものではなく、定量化してはっきりと目に見える形で観察することが出来ます。</p>
+</section>
+<section id="縦乗りの人には見えないことがある" class="level2">
+<h2 class="anchored" data-anchor-id="縦乗りの人には見えないことがある">縦乗りの人には見えないことがある</h2>
+<p>縦乗りの人は、認識出来ないリズム型が多数あります。問題は縦乗りの人がその認識できないリズムの存在自体を認識出来ないことです。そのようななか具体的に縦乗りの人が高い再現性をもって聴き間違えるリズムパターンがあります。リズムペディアでは、そのリズムパターンにもついても言及します。</p>
+</section>
+<section id="縦乗りの人には出来ないことがある" class="level2">
+<h2 class="anchored" data-anchor-id="縦乗りの人には出来ないことがある">縦乗りの人には出来ないことがある</h2>
+<p>縦乗りの人は、時間の認識の原理上「2人で交互に手を叩くことが出来ない」という特徴があります。 もしかするとメトロノームに合わせて交互に手を叩くことは出来るかも知れません。しかし不正確な人間を相手に交互に手を叩くことが出来ません。</p>
+<p>しかし、相手が人間の場合、人間のリズムには微妙な揺らぎがあることから、その揺らぎに対して柔軟に対応する必要が発生します。つまり交互にリズムを合わせ続けるには「相手のゆらぎを感じ取りながら、自分のタイミングを調整する」という、より複雑な時間感覚が求められます。 ─── この人間同士で交互手叩きを行う場面で、時間認識の違いをはっきりと観察できる現象が観察出来るのです。</p>
+<p>縦乗りの人は、時間認識の原理上、一定の間隔で鳴っているパルスと距離を取って同時ではない状態を維持することがとても難しく、結果として、人間同士での即時的なリズムのやりとり──すなわち交互に手を叩くような行為──が出来ないという現象となって観察されます。</p>
+<p>一方縦乗りの人は、交互に手を叩くことは出来ませんが、不規則になっている手拍子に合わせて同時に叩くことなら即座に行う事ができます。これはむしろ、縦乗りの人に特徴的な能力で縦乗りの人以外には出来ない行為です。</p>
+<p>これは些細なこと…と思われるかも知れません。しかし、ロック・ジャズ・クラシック・ファンク問わず、2人の奏者が交互に音を出すリズムが繰り返し現れることには注意が必要です。西洋音楽の最も基礎にバスドラムとスネアドラムを交互に演奏するリズムが現れます。特に現代あるアメリカ起源のポピュラー音楽は必ずこのリズムが登場します。</p>
+</section>
+<section id="縦乗りが起こす問題" class="level2">
+<h2 class="anchored" data-anchor-id="縦乗りが起こす問題">縦乗りが起こす問題</h2>
+<section id="縦乗りだと横乗り音楽が聴き取れない" class="level3">
+<h3 class="anchored" data-anchor-id="縦乗りだと横乗り音楽が聴き取れない">縦乗りだと横乗り音楽が聴き取れない</h3>
+<p>縦乗りの人が演奏する上で最も顕著になる問題は、弱起が認識出来ないことです。これが横乗りの人にとって、縦乗りの人との演奏を決定的に難しくします。</p>
+<p>縦乗りの人は弱起を認識できません。自分が演奏出来ない事はもちろんですが、相手が弱起を演奏した時に聴き間違えて演奏位置がずれてしまうという現象が起こります。これは、縦乗りの人が弱起を耳にすると無条件にその位置を1小節目1拍目と認識してしまうことによります。 このことを <a href="https://oka-ats.blogspot.com/2021/01/oka01-ubjkgrbexmeuwzjj.html"><strong>最初に聞いた音が1拍目表に聞こえる症候群</strong></a> と呼びます。最初に聴いた音が一拍目に聞こえる症候群の人は、本人が弱起を演奏できないだけでなく、共演者が弱起を演奏を行う際にも自分自身の演奏位置を正常に維持することができず、合奏が崩壊してしまうという現象が起こります。</p>
+<p>ジャズでは「ピックアップ」と言って伴奏が止まった場所でソロパートの長い弱起を演奏する習慣があります。縦乗りの人はこれを演奏する事が出来ません。 特に譜面であらかじめ何を演奏するか決まっていない即興演奏を行う時では、これが大きな問題となります。</p>
+<p>その他、ジャズを始めとするアメリカのポピュラー音楽で多用される次の様なリズム表現手法は全て、 縦乗りの人の認識上で <a href="https://oka-ats.blogspot.com/2021/01/oka01-ubjkgrbexmeuwzjj.html"><strong>最初に聞いた音が1拍目表に聞こえる症候群</strong></a> が発動してしまうため、横乗りの人とリズムの認識を共通にすることが出来ません。</p>
+<ul>
+<li>裏拍先行</li>
+<li>ラッシング</li>
+<li>レイドバック</li>
+</ul>
+</section>
+<section id="縦乗りだと日本語以外の外国語は全て聴き取れない" class="level3">
+<h3 class="anchored" data-anchor-id="縦乗りだと日本語以外の外国語は全て聴き取れない">縦乗りだと日本語以外の外国語は全て聴き取れない</h3>
+<p>この <a href="https://oka-ats.blogspot.com/2021/01/oka01-ubjkgrbexmeuwzjj.html"><strong>最初に聞いた音が1拍目に聞こえる症候群</strong></a> は日本人が英語を聴き取る事が出来なくなる原因と共通です。縦乗りの人は、最初に聴いた強拍を何の疑いもなく文頭の音と仮定して文章の解釈を開始する為、日常会話上で音楽の弱起のように軽く発音されることが多い主節・冠詞・接続詞などを全て無警戒に聞き逃してしまうという現象が起こります。</p>
+<p>特に、英語の南部方言やニューヨーク方言など早口で話す傾向が強い方言では、文章の大半が弱起の様に軽く発音し、文末だけややはっきり発音する傾向があります。この様な発音になると、日本人は発音の大半を聞き漏らしてしまうため、全く何を言っているか判別がつかなくなってしまいます。</p>
+<p>これは英語だけでなく、日本人が日本語以外の言語を学習する時に最初に直面する問題となります。これが最初の問題であり、最大の問題であり、克服が極めて難しい最難の問題となります。日本人はこうして語学の入口で躓いてしまう為、語学がとても苦手になる傾向があります。</p>
+</section>
+<section id="縦乗りは英語外国語習得する上での最初で最大のハードル" class="level3">
+<h3 class="anchored" data-anchor-id="縦乗りは英語外国語習得する上での最初で最大のハードル">縦乗りは英語(外国語)習得する上での最初で最大のハードル</h3>
+<p>つまり、縦乗りは日本人にとって英語(等の外国語)を習得する上で最も大きな障壁です。英語を聞き取ったり話したりする際に、必要となる発話や音声要素の順番が、日本語のリズムをベースとする人から見ると真逆の順番になっているからです。</p>
+<p>日本人が英語を聞き取ろうとする時、英語話者はすでに文章の重要な要素を言い終えてしまっており、逆に日本人が何かを言おうとした頃には、英語話者の感覚では全てが過ぎ去った後になってしまう、というようなすれ違いが起きます。 多くの日本人が「英語の発音が聞き取れない」と感じるのは、実は<strong>音の質</strong>そのものではなく、英語特有の<strong>発音のリズムや順番</strong>を捉えることができないからなのです。<strong>英語特有の発音のリズムや順番</strong>が認識出来なければ、発音自体を聞き分ける土台に立つことが出来ません。</p>
+</section>
+<section id="縦乗りは日本人の礼儀の精神に反する" class="level3">
+<h3 class="anchored" data-anchor-id="縦乗りは日本人の礼儀の精神に反する">縦乗りは日本人の礼儀の精神に反する</h3>
+<p>ジャズ・R&amp;B・ファンク・ラップ・ロック・ヘビメタ等々の音楽は、しばしば英語では、日本の俳句と全く同じ文学的要素をもっています。日本語の発音を色濃く残したまま英文学に足を踏み入れることは、日本人が気付かぬ内に他者に対する大きな失礼となって相手に伝わっています。</p>
+</section>
+</section>
+<section id="縦乗りの主な原因" class="level2">
+<h2 class="anchored" data-anchor-id="縦乗りの主な原因">縦乗りの主な原因</h2>
+<section id="日本語のモーラ拍リズムの構造" class="level3">
+<h3 class="anchored" data-anchor-id="日本語のモーラ拍リズムの構造">日本語のモーラ拍リズムの構造</h3>
+<p>縦乗りの原因は日本語の発音構造にあります。 縦乗りの直接的な原因となる発音要素は、大きく分けて５つあります。</p>
+<ul>
+<li>子音と母音を区別しない</li>
+<li>末子音がない</li>
+<li>多重子音がない</li>
+<li>子音が短い</li>
+<li>母音しか意識しておらず子音が意識できない</li>
+</ul>
+<p>言語学ではこれらの特徴を総合して<strong>モーラ拍リズム言語</strong>と呼びます。</p>
+<p>一方、横乗りつまりモーラ拍リズム言語ではない<strong>ストレス拍リズム</strong>の言語には</p>
+<ul>
+<li>子音と母音をはっきり区別している</li>
+<li>子音が長い（子音も母音と同じ用に長く発音出来る）</li>
+<li>末子音がある</li>
+<li>多重子音がある</li>
+<li>リエゾンがある</li>
+</ul>
+<p>ほとんどの場合この様な特徴があります。</p>
+<p>モーラ拍リズムはほぼ日本語だけに見られる特徴である為、モーラ拍リズムが母国語となることで、モーラ拍リズム以外の言語＝世界中の大半の言語が理解できなくなるという日本語話者独特な盲点を持つことになります。</p>
+</section>
+<section id="間違った英語教育" class="level3">
+<h3 class="anchored" data-anchor-id="間違った英語教育">間違った英語教育</h3>
+<p><strong>英語のリズムが身体に入ってこない理由は、音の時間認識が日本語の縦揃えで固定されているからであり、教える側も教わる側も縦揃えが矯正されないままで、長年にわたる英語教育が実施されています。</strong></p>
+<p>日本語と英語の発音の間に横たわる大きな違いは、既に既知の問題です。 ─── インターネットを英語で検索すると、日本語と英語の発音の構造的な違いを説明する記事がたくさん見つかります。しかし日本人は、英語を見てもちんぷんかんぷんなので、そこに日本語と英語の発音差が説明されている事自体に気が付きません。日本にはこの様な白ヤギさんから黒ヤギさんに送られた手紙の様な手紙が、世界から無数に届いていますが、日本人はこれを全て情報として読まずに食料として食べてしまっているのと同じ状態です。つまりその手紙の存在自体に気付きません。</p>
+<p>日本社会では、日本語と英語の間に横たわるリズム認識の根本的な違いを無視した状態で１０年以上教育を行っています。日本語を母国語とする人は、そのリズム認識の違いによって、英語の発音を聴いた時に、間違った区切り位置で音声を解釈してしまうため、発音自体を聴き取ることができません。これはつまり <em>“Can I ask you?”</em> と聴いた時でも <em>“ケ ナイ アス キュ?”</em> と全く違う区切り位置で解釈してしまう為、それが Can / I / ask / you という既に知っている単語と同定すること自体が出来ないことを表しています。これは発音を学ぶ以前の問題なのです。これはつまり、単語自体が聞き取れないのではなく、<strong>音の区切り方（プロソディ）が身体にインストールされていない</strong>ために、単語の存在自体が<strong>そもそも認識ルートに乗らない</strong>という深刻な認知的断絶を意味しているのです。</p>
+<p>この状態では、ボキャブラリも増えようがなく、文法知識も増えようがありません。運転したことがないペーパードライバー状態のまま１０年以上学習をを行っても運転が出来ない現実に何も変化は生まれません。</p>
+</section>
+<section id="間違った音楽教育" class="level3">
+<h3 class="anchored" data-anchor-id="間違った音楽教育">間違った音楽教育</h3>
+<p>日本の音楽教育でも、日本語の発話リズムと西洋言語の発話リズムの違いを無視したまま、<strong>「拍の頭をそろえる」ことに重点を置いた訓練</strong>が行われてきました。読譜の効率化ばかりに偏重した２拍子メトロノームを徹底する日本のリトミック教育は、リズム感のロボトミー手術とでもいうべき深刻な人権侵害です。</p>
+<p>西洋音楽のストレス拍リズムの身体感覚を持たない日本語話者に、このような厳格な読譜トレーニングを行うことは、音楽的効果という面から見た時にむしろ逆効果となります。本来であれば楽しいはずのリズムに対し、日本人は『無力感』『劣等感』を覚えるようになってしまうからです。</p>
+<p>言語によって違うリズム認識の存在を度外視したまま考案されたリズムトレーニングを長年にわたって行うことにより、音楽がグルーヴしないことが常態化し身体動作として固定化されることになります。こうした環境の中で育った人々は、無意識のうちに『リズムに乗る』という行為に対して<strong>劣等感や無力感</strong>を抱くようになります。本来であれば比較的容易に身につけられるはずだった<strong>グルーヴの感覚</strong>を、心のどこかで「自分には無理だ」と諦めてしまう心理的ブロックを形成してしまうのです。</p>
+<p>当然、本来必要なリズムの違いに気付くための理論の教育、乗り越える為の理論的な教育も圧倒的に不足しています。</p>
+</section>
+<section id="リズム音痴コンプレックス" class="level3">
+<h3 class="anchored" data-anchor-id="リズム音痴コンプレックス">リズム音痴コンプレックス</h3>
+<p>リズム感の欠落は、しばしば指摘が困難なだけでなく、話題として出すこと自体が不適切とみなされる傾向があります。これは<strong>リズム感の欠落が人々が根本的にもっている様々な劣等感と結びついている</strong>事によります。</p>
+<ul>
+<li>欧米コンプレックス</li>
+<li>敗戦コンプレックス</li>
+<li>肉体的コンプレックス</li>
+<li>精神的コンプレックス</li>
+<li>英語コンプレックス</li>
+</ul>
+<p>リズム感に関する問題点を話題として出すことにより、これらの劣等感が刺激を受け、本来のリズム論とは全く関係ない人格問題などに話題が発展しやすい傾向があります。このためリズム感に関する話題は、社会生活上でしばしばタブー視される傾向があります。</p>
+</section>
+<section id="リズムに対する社会的同調圧力" class="level3">
+<h3 class="anchored" data-anchor-id="リズムに対する社会的同調圧力">リズムに対する社会的同調圧力</h3>
+<p>これらのリズム感覚の欠落は、これらのコンプレックスと結びつくことにより、様々な防衛機制を生み出します。 これらの演奏者の防衛機制は、社会学的に見た時に、様々な <strong>風当たり (unspoken resistance)</strong> となって観察されます。横乗りリズムで演奏するだけですら風当たりが生じ、あまり風当たりを無視しすぎると、演奏内容だけで人間関係トラブルに発展することも稀なことではありません。これは社会学的に <strong>同調圧力（どうちょうあつりょく, pressure to conform）</strong> と呼ばれます。</p>
+</section>
+<section id="日本差別と取られる恐れ" class="level3">
+<h3 class="anchored" data-anchor-id="日本差別と取られる恐れ">日本差別と取られる恐れ</h3>
+<p>実は海外では、日本人が西洋を模倣した<strong>縦乗り西洋音楽</strong>には賛否両論があります。しかし私達日本人が世界を見た時、賛成意見はすぐに見つかっても否定する意見は滅多に見つけることが出来ません ─── 見つからないからといって、否定する意見が存在しない訳ではありません。 むしろ否定意見は、潜在的に賛成意見よりも多く存在します。</p>
+<p>特に欧米では、人種差別に対する感受性が高く、わずかな批判であっても差別とみなされ糾弾されることがあります。一方、日本では人種差別に対する感受性が比較的低いとされており、そのギャップが日欧間の認識のずれを生み出しています。</p>
+<p>よって、海外の人々は日本人の縦乗りジャズに対して違和感を感じていても、それを公然と発言することはほとんどありません。</p>
+<p>この為、日本人は自分自身の縦乗りに気付く機会がとても少なくなっているといえます。</p>
+</section>
+</section>
+<section id="縦乗りを克服するにはどうすればよいか" class="level2">
+<h2 class="anchored" data-anchor-id="縦乗りを克服するにはどうすればよいか">縦乗りを克服するにはどうすればよいか</h2>
+<p>縦乗りの克服は、３つのステップに分かれます。</p>
+<section id="リズムコンプレックスを意識する" class="level3">
+<h3 class="anchored" data-anchor-id="リズムコンプレックスを意識する">リズム・コンプレックスを意識する</h3>
+<p>まず最初に行うべきは、自身の中に潜んでいる<strong>リズム・コンプレックス</strong>に気付くことです。多くの人は、リズム感が乏しいことを単なる『不得意』や『身体能力の差』として捉えがちですが、実際にはそれらは <strong>言語的・文化的・歴史的な要因</strong>と深く結びついています。</p>
+<p>リズムに対する感覚の欠落には、とてもはっきりした原因があります。それらは身体能力や精神性とは全く無関係なものです。これらの感覚欠落は、機械的なトレーニングによって修正することが可能なことです。リズム感覚の欠落が身体能力の欠陥ではないという事実に気付くことが大切です。</p>
+<p>『自分はリズム感がない』と感じている原因は、実のところ単に<strong>縦乗り(モーラ拍）と横乗り（ストレス拍）のあいだに横たわるリズム認識の違いに関する知識の欠如</strong>にすぎません。そしてその知識の欠如は、多くの場合、<strong>教育システムの構造的な欠陥</strong> によって生じています。</p>
+<section id="自分自身のリズムコンプレックスと向き合う" class="level4">
+<h4 class="anchored" data-anchor-id="自分自身のリズムコンプレックスと向き合う">自分自身のリズムコンプレックスと向き合う</h4>
+<p>まず自分自身のリズムコンプレックスを意識して向き合うところから始めます。これはリズムコンプレックスが単なる知識の欠如だと知ることによって簡単に克服出来るでしょう。そしてこの形式知を訓練を通じて身体知へと変換していきます。</p>
+</section>
+<section id="社会的なリズムコンプレックスと向き合う" class="level4">
+<h4 class="anchored" data-anchor-id="社会的なリズムコンプレックスと向き合う">社会的なリズムコンプレックスと向き合う</h4>
+<p>次に社会的なリズムコンプレックスを意識します。日本社会において、リズムコンプレックスに対する克服が進めば進むほど、強い社会的同調圧力を受ける様になります。リズムコンプレックスを克服すればするほど『勝手だ』『わがままだ』『傲慢だ』と非難を受ける様になります。これは貴方が悪い訳でもなく、彼らが悪いわけでもありません。リズムという肉体的恐怖に直面した人が取る典型的なリアクションといえます。ここでは『縦乗りを憎んで人を憎まず』という冷静な気落ちが大切になります。肉体的恐怖に対する人々の一般的なリアクションに対する正しい知識を持ち、縦乗りについての情報を少しずつ共有していく事が必要となります。</p>
+<!--
+『自分はリズム感がない』と感じている原因は、単に **縦乗りと横乗りの間に横たわるリズム差に対する知識** の欠落にあります。それは単なる **教育システム**上の欠陥が原因となって発生する問題です。学校教育では、日本語の発話リズムと西洋の発話リズムの違いを度外視した「拍頭」を追いかける訓練に重点が置かれており、発話リズムの違いに意識を向ける為の理論教育と訓練が圧倒的に不足しています。その結果、無意識のうちに「リズムに乗る」という行為に対して劣等感を植え付けられてしまい、本来であれば容易に身につけられる筈だったグルーヴを練習することに対する諦めにもにた心理的なブロックが形成されてしまいます。
+-->
+</section>
+<section id="世界的なリズムコンプレックスと向き合う" class="level4">
+<h4 class="anchored" data-anchor-id="世界的なリズムコンプレックスと向き合う">世界的なリズムコンプレックスと向き合う</h4>
+<p>ストレス拍リズム言語を母語として話しているからといって、必ずしもグルーヴの原理をはっきり意識してその存在を理論的に理解している訳ではありません。むしろほとんどのネイティブ・スピーカーの人々は、グルーヴの存在にすら気付いていません。日本語話者がその縦乗りの存在を意識できずに気付かないことと同様に、英語話者もその横乗りの存在を意識できないのです。 そして日本語話者だからといって誰もが必ずしも話し上手ではないのと同様に、英語話者でも人によってグルーヴに対する認識は異なり、結果として個人差としてその認識差が現れてきます。米国社会で起きていることも本質的に日本社会で起こっていることと共通です。</p>
+</section>
+<section id="普遍的なグルーヴコンプレックスと向き合う" class="level4">
+<h4 class="anchored" data-anchor-id="普遍的なグルーヴコンプレックスと向き合う">普遍的なグルーヴコンプレックスと向き合う</h4>
+<p>縦乗りを克服するということは <strong>『自己及び他者に存在する内面的なリズム認知に対するリフレーミング（再構築)』</strong> といえます。 自分自身が『何故リズムに乗れないのか』という原因を自分自身の身体上の欠陥ではなく単なる知識／練習で解決できる単純な問題だと気付き、かつそれが他者に対しても同じ恐怖を与えている事に気付き、受け入れていくという行程が必要になるのです。</p>
+</section>
+</section>
+<section id="モーラ拍リズムとストレス拍リズムの違いを良く知る" class="level3">
+<h3 class="anchored" data-anchor-id="モーラ拍リズムとストレス拍リズムの違いを良く知る">モーラ拍リズムとストレス拍リズムの違いを良く知る</h3>
+<p>縦乗り理論を良く学び、モーラ拍リズムとストレス拍リズムの違いに慣れ親しむ事が縦乗り克服の土台となります。</p>
+<ul>
+<li><a href="../beat-orientation/index.md"><strong>裏拍地動説</strong></a></li>
+</ul>
+</section>
+<section id="オフビートカウント理論を習得する" class="level3">
+<h3 class="anchored" data-anchor-id="オフビートカウント理論を習得する">オフビートカウント理論を習得する</h3>
+<p>オフビートカウント理論は、ストレス拍リズムを理論的に分析した結果生まれたリズムを分析する為の体系だった基礎理論になっています。これを良く習得する事が次のステップです。</p>
+</section>
+<section id="オフビートカウント練習法を実践する" class="level3">
+<h3 class="anchored" data-anchor-id="オフビートカウント練習法を実践する">オフビートカウント練習法を実践する</h3>
+<p>オフビートカウント理論は同時に、ドリル練習として実践することでストレス拍リズムへの体感的な理解を深める大きな手助けとすることができます。</p>
+</section>
+</section>
+<section id="まとめ" class="level2">
+<h2 class="anchored" data-anchor-id="まとめ">まとめ</h2>
+<p>縦乗りとは、日本語を母語とする日本人だけが陥りやすいリズム感覚の『欠落』を指す概念です。但し縦乗りは必ずしも悪ではなく、外国人からは日本独自のエキゾチックな魅力として捉えられる場合も多々あります。 一方で、クラシックやジャズ、R&amp;Bなど、ストレス時間リズムを基盤にした音楽を『本格的』に模倣しようとした時に限っては、日本人が気付かないうちに縦乗りが原因で強い違和感を与えてしまうことも事実です。</p>
+<p>この違和感を例えるならば、外国人が日本語を使って俳句を詠もうとしたときに生じるリズムのずれに近いといえます。日本語にはモーラ時間リズムという特別な性質があり、英語などのストレス時間リズムをもつ言語とは根本的にリズム構造が異なるからです。</p>
+<p>この日本人にとっては当たり前に感じられるこの言語感覚ですが、英語話者には<strong>リズム感の欠落</strong>として認識される場合があります。この感覚の違いが、音楽表現にも大きな影響を与え、英語の習得面でもハードルとなってしまうことを見てきました。</p>
+<p>しかし、こうしたギャップを少しでも埋めるための方法として、オフビートカウント練習が考案されました。もしも『本格的』な英語リズムを身につけたい、あるいはジャズやクラシック、R&amp;Bをより本格的に演奏したいと願うのであれば、縦乗りと横乗りの違いを理解し、適切な練習を通じてその差を意識的に補う必要があるでしょう。</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/rhythmpedia\.com\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
+
+
+
+
+</body></html>

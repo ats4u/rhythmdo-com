@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>toc – 律動図鑑(リズムペディア)</title>
+<title>qmdspl-exec – 律動図鑑(リズムペディア)</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -75,35 +110,6 @@ ul.task-list li input[type="checkbox"] {
 <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <script type="module" src="../assets/toc-ul.mjs"></script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../assets/styles.css">
 </head>
@@ -401,32 +407,44 @@ window.Quarto = {
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../offbeat-count-theory/ja/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">声出しオフビートカウント法</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../metadivision-theory/ja/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">メタディヴィジョン理論</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../three-to-n-groove-theory/ja/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">3ⁿグルーヴ理論とは</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../distributed-groove-theory/ja/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">分散グルーヴ理論</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../offbeat-count-theory/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">声出しオフビートカウント法</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../weak-beat-as-sun-strong-beat-as-earth/master-ja.html" class="sidebar-item-text sidebar-link">
+  <a href="../weak-beat-as-sun-strong-beat-as-earth/ja/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">弱拍天動説と弱拍地動説</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../tatenori-and-psychology/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../tatenori-and-psychology/ja/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">縦乗りの心理学</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../mechanism-behind-tatenori/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">縦乗りが起こるメカニズム</span></a>
+  <a href="../mechanism-behind-tatenori/ja/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">縦乗りのメカニズム</span></a>
   </div>
 </li>
     </ul>
@@ -434,8 +452,58 @@ window.Quarto = {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="1">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#quarto-section-splitter-program-full-specification" id="toc-quarto-section-splitter-program-full-specification" class="nav-link active" data-scroll-target="#quarto-section-splitter-program-full-specification">✅ <strong>Quarto Section Splitter Program – Full Specification</strong></a>
+  <ul>
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">🧭 Overview</a></li>
+  <li><a href="#input" id="toc-input" class="nav-link" data-scroll-target="#input">📥 Input</a>
+  <ul>
+  <li><a href="#input-files" id="toc-input-files" class="nav-link" data-scroll-target="#input-files">1. <strong>Input Files</strong></a></li>
+  <li><a href="#expected-content-format" id="toc-expected-content-format" class="nav-link" data-scroll-target="#expected-content-format">2. <strong>Expected Content Format</strong></a></li>
+  </ul></li>
+  <li><a href="#parsing-logic" id="toc-parsing-logic" class="nav-link" data-scroll-target="#parsing-logic">🔍 Parsing Logic</a>
+  <ul>
+  <li><a href="#header-detection" id="toc-header-detection" class="nav-link" data-scroll-target="#header-detection">1. <strong>Header Detection</strong></a>
+  <ul>
+  <li><a href="#level-2-headers" id="toc-level-2-headers" class="nav-link" data-scroll-target="#level-2-headers">Level-2 (<code>##</code>) Headers</a></li>
+  <li><a href="#level-3-headers" id="toc-level-3-headers" class="nav-link" data-scroll-target="#level-3-headers">Level-3 (<code>###</code>) Headers</a></li>
+  </ul></li>
+  <li><a href="#auto-id-generation" id="toc-auto-id-generation" class="nav-link" data-scroll-target="#auto-id-generation">2. <strong>Auto ID Generation</strong></a></li>
+  <li><a href="#ruby-annotation-handling" id="toc-ruby-annotation-handling" class="nav-link" data-scroll-target="#ruby-annotation-handling">3. <strong>Ruby Annotation Handling</strong></a></li>
+  </ul></li>
+  <li><a href="#output" id="toc-output" class="nav-link" data-scroll-target="#output">📦 Output</a>
+  <ul>
+  <li><a href="#directory-structure" id="toc-directory-structure" class="nav-link" data-scroll-target="#directory-structure">1. <strong>Directory Structure</strong></a></li>
+  <li><a href="#file-contents" id="toc-file-contents" class="nav-link" data-scroll-target="#file-contents">2. <strong>File Contents</strong></a>
+  <ul>
+  <li><a href="#a.-section-file-index.qmd" id="toc-a.-section-file-index.qmd" class="nav-link" data-scroll-target="#a.-section-file-index.qmd">a. Section File (<code>index.qmd</code>)</a></li>
+  <li><a href="#b.-master-index-lang_idindex.qmd" id="toc-b.-master-index-lang_idindex.qmd" class="nav-link" data-scroll-target="#b.-master-index-lang_idindex.qmd">b. Master Index (<code>&lt;lang_id&gt;/index.qmd</code>)</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#behavioral-summary" id="toc-behavioral-summary" class="nav-link" data-scroll-target="#behavioral-summary">🧠 Behavioral Summary</a></li>
+  <li><a href="#program-flow" id="toc-program-flow" class="nav-link" data-scroll-target="#program-flow">⚙️ Program Flow</a>
+  <ul>
+  <li><a href="#discover-input-files" id="toc-discover-input-files" class="nav-link" data-scroll-target="#discover-input-files">1. Discover input files</a></li>
+  <li><a href="#for-each-file" id="toc-for-each-file" class="nav-link" data-scroll-target="#for-each-file">2. For each file:</a></li>
+  <li><a href="#in-split_qmd..." id="toc-in-split_qmd..." class="nav-link" data-scroll-target="#in-split_qmd...">3. In <code>split_qmd(...)</code>:</a></li>
+  </ul></li>
+  <li><a href="#limitations-to-do" id="toc-limitations-to-do" class="nav-link" data-scroll-target="#limitations-to-do">⚠️ Limitations / To-Do</a></li>
+  <li><a href="#example-case" id="toc-example-case" class="nav-link" data-scroll-target="#example-case">🧪 Example Case</a>
+  <ul>
+  <li><a href="#input-master-ja.qmd" id="toc-input-master-ja.qmd" class="nav-link" data-scroll-target="#input-master-ja.qmd">Input: <code>master-ja.qmd</code></a></li>
+  <li><a href="#output-1" id="toc-output-1" class="nav-link" data-scroll-target="#output-1">Output:</a>
+  <ul>
+  <li><a href="#directory-structure-1" id="toc-directory-structure-1" class="nav-link" data-scroll-target="#directory-structure-1">Directory Structure:</a></li>
+  <li><a href="#jaindex.qmd" id="toc-jaindex.qmd" class="nav-link" data-scroll-target="#jaindex.qmd"><code>ja/index.qmd</code>:</a></li>
+  </ul></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
@@ -444,9 +512,311 @@ window.Quarto = {
 
 
 
-<p><span class="math inline">\(toc\)</span></p>
+<p>Absolutely. Below is a <strong>comprehensive, exhaustive, and up-to-date specification</strong> of your latest Quarto Markdown splitter program, reflecting the exact behavior of the code you provided.</p>
+<hr>
+<section id="quarto-section-splitter-program-full-specification" class="level1">
+<h1>✅ <strong>Quarto Section Splitter Program – Full Specification</strong></h1>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">🧭 Overview</h2>
+<p>This Python program parses and splits a <strong>Quarto <code>.qmd</code> master file</strong> (<code>master-&lt;lang&gt;.qmd</code>) into multiple section-based files based on <code>##</code> (level-2) headers. It automatically generates nested output directories and index files suitable for multilingual Quarto websites. Additionally, it supports <strong>Ruby annotation parsing</strong> and <strong>auto-ID generation</strong> from Japanese or multilingual headers.</p>
+<hr>
+</section>
+<section id="input" class="level2">
+<h2 class="anchored" data-anchor-id="input">📥 Input</h2>
+<section id="input-files" class="level3">
+<h3 class="anchored" data-anchor-id="input-files">1. <strong>Input Files</strong></h3>
+<ul>
+<li><p>Must be named with the pattern:</p>
+<pre><code>master-&lt;lang_id&gt;.qmd</code></pre>
+<ul>
+<li>Example: <code>master-ja.qmd</code>, <code>master-en.qmd</code></li>
+</ul></li>
+</ul>
+</section>
+<section id="expected-content-format" class="level3">
+<h3 class="anchored" data-anchor-id="expected-content-format">2. <strong>Expected Content Format</strong></h3>
+<p>Each input <code>.qmd</code> file may contain:</p>
+<ul>
+<li><strong>Preamble</strong> (optional content before the first <code>##</code>)</li>
+<li>One or more <strong>level-2 headers</strong> (<code>## Title {#id}</code> or <code>## Title</code>)</li>
+<li>Optional <strong>level-3 headers</strong> (<code>### Subsection</code>)</li>
+<li>Headers may include <strong>Ruby annotations</strong> (e.g., <code>&lt;ruby&gt;漢字&lt;rt&gt;ふりがな&lt;/rt&gt;&lt;/ruby&gt;</code>)</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="parsing-logic" class="level2">
+<h2 class="anchored" data-anchor-id="parsing-logic">🔍 Parsing Logic</h2>
+<section id="header-detection" class="level3">
+<h3 class="anchored" data-anchor-id="header-detection">1. <strong>Header Detection</strong></h3>
+<section id="level-2-headers" class="level4">
+<h4 class="anchored" data-anchor-id="level-2-headers">Level-2 (<code>##</code>) Headers</h4>
+<ul>
+<li><p>Matched with:</p>
+<pre class="regex"><code>^## (.+?)(?:\s*\{#([^\}]+)\})?\s*$</code></pre></li>
+<li><p>Extracted:</p>
+<ul>
+<li><code>Title</code>: Group 1</li>
+<li><code>ID</code>: Group 2 (if present); otherwise auto-generated</li>
+</ul></li>
+</ul>
+</section>
+<section id="level-3-headers" class="level4">
+<h4 class="anchored" data-anchor-id="level-3-headers">Level-3 (<code>###</code>) Headers</h4>
+<ul>
+<li><p>Matched with:</p>
+<pre class="regex"><code>^### (.+?)(?:\s*\{#([^\}]+)\})?\s*$</code></pre></li>
+</ul>
+</section>
+</section>
+<section id="auto-id-generation" class="level3">
+<h3 class="anchored" data-anchor-id="auto-id-generation">2. <strong>Auto ID Generation</strong></h3>
+<p>If no <code>{#id}</code> is given:</p>
+<ul>
+<li><p>ID is <strong>generated</strong> from base text (after stripping Ruby):</p>
+<ul>
+<li><p>Removes non-word characters except:</p>
+<ul>
+<li>Japanese (<code>\u4e00–\u9fff</code>, <code>\u3040–\u30ff</code>)</li>
+<li>CJK punctuation (<code>\u3000–\u303f</code>)</li>
+</ul></li>
+<li><p>Normalizes to:</p>
+<pre><code>slugified-id = re.sub( disallowed, '-', ruby_base_text ).strip('-')</code></pre></li>
+</ul></li>
+</ul>
+</section>
+<section id="ruby-annotation-handling" class="level3">
+<h3 class="anchored" data-anchor-id="ruby-annotation-handling">3. <strong>Ruby Annotation Handling</strong></h3>
+<p>Ruby is stripped using an <code>HTMLParser</code> subclass:</p>
+<ul>
+<li><code>&lt;rt&gt;</code> content (furigana) is removed</li>
+<li>Only <strong>visible text</strong> (base of the ruby) is preserved</li>
+<li>Supports both <code>&lt;ruby&gt;&lt;rb&gt;…&lt;/rb&gt;&lt;rt&gt;…&lt;/rt&gt;&lt;/ruby&gt;</code> and <code>&lt;ruby&gt;…&lt;rt&gt;…&lt;/rt&gt;&lt;/ruby&gt;</code> styles</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="output" class="level2">
+<h2 class="anchored" data-anchor-id="output">📦 Output</h2>
+<section id="directory-structure" class="level3">
+<h3 class="anchored" data-anchor-id="directory-structure">1. <strong>Directory Structure</strong></h3>
+<p>For each <code>##</code> section in <code>master-&lt;lang_id&gt;.qmd</code>, output is:</p>
+<pre><code>&lt;base_dir&gt;/
+├── &lt;section_id&gt;/
+│   └── &lt;lang_id&gt;/
+│       └── index.qmd      ← full section contents
+├── &lt;lang_id&gt;/
+│   └── index.qmd          ← master TOC + preamble</code></pre>
+</section>
+<section id="file-contents" class="level3">
+<h3 class="anchored" data-anchor-id="file-contents">2. <strong>File Contents</strong></h3>
+<section id="a.-section-file-index.qmd" class="level4">
+<h4 class="anchored" data-anchor-id="a.-section-file-index.qmd">a. Section File (<code>index.qmd</code>)</h4>
+<p>Each file contains:</p>
+<ul>
+<li>The full content of the <code>##</code> block (including body and any <code>###</code> children)</li>
+</ul>
+</section>
+<section id="b.-master-index-lang_idindex.qmd" class="level4">
+<h4 class="anchored" data-anchor-id="b.-master-index-lang_idindex.qmd">b. Master Index (<code>&lt;lang_id&gt;/index.qmd</code>)</h4>
+<p>Auto-generated <code>## Contents</code> section:</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">## Contents</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="fu">### [Section Title](section-id/)</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>Section description (text between <span class="in">`##`</span> and first <span class="in">`###`</span>, if any)</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a><span class="fu">### [Next Section](...)</span></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>...</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>If any <strong>preamble</strong> text exists (before first <code>##</code>), it is placed before <code>## Contents</code>.</p>
+<hr>
+</section>
+</section>
+</section>
+<section id="behavioral-summary" class="level2">
+<h2 class="anchored" data-anchor-id="behavioral-summary">🧠 Behavioral Summary</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 34%">
+<col style="width: 65%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Feature</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>🗂️ Multi-section splitting</td>
+<td>Each level-2 section becomes a file</td>
+</tr>
+<tr class="even">
+<td>🏷️ ID extraction + fallback</td>
+<td>Uses <code>{#id}</code> or auto-generates from base text</td>
+</tr>
+<tr class="odd">
+<td>🔤 Ruby stripping support</td>
+<td>Properly ignores <code>&lt;rt&gt;</code> (furigana)</td>
+</tr>
+<tr class="even">
+<td>🌐 Multilingual support</td>
+<td>Detected via file name (<code>master-ja.qmd</code> → <code>ja</code>)</td>
+</tr>
+<tr class="odd">
+<td>📁 Recursive mkdir</td>
+<td>Uses <code>mkdir(parents=True, exist_ok=True)</code> for safe creation</td>
+</tr>
+<tr class="even">
+<td>📑 Subsection awareness</td>
+<td>Captures presence of <code>###</code> but doesn’t yet write them separately</td>
+</tr>
+<tr class="odd">
+<td>📄 Section description extraction</td>
+<td>Captures paragraph between <code>##</code> and first <code>###</code></td>
+</tr>
+<tr class="even">
+<td>🔄 Re-entrant</td>
+<td>Can run multiple times without errors (safe overwrite)</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="program-flow" class="level2">
+<h2 class="anchored" data-anchor-id="program-flow">⚙️ Program Flow</h2>
+<section id="discover-input-files" class="level3">
+<h3 class="anchored" data-anchor-id="discover-input-files">1. Discover input files</h3>
+<div class="sourceCode" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>Path(<span class="st">'.'</span>).glob(<span class="st">'master-*.qmd'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="for-each-file" class="level3">
+<h3 class="anchored" data-anchor-id="for-each-file">2. For each file:</h3>
+<ul>
+<li>Extract <code>lang_id</code> from filename</li>
+<li>Call <code>split_qmd(input_file, lang_id)</code></li>
+</ul>
+</section>
+<section id="in-split_qmd..." class="level3">
+<h3 class="anchored" data-anchor-id="in-split_qmd...">3. In <code>split_qmd(...)</code>:</h3>
+<ul>
+<li><p>Parse input file</p></li>
+<li><p>For each <code>##</code> section:</p>
+<ul>
+<li><p>Extract <code>h2_title</code>, <code>h2_id</code>, <code>h2_block</code></p></li>
+<li><p>Detect child <code>###</code> blocks</p></li>
+<li><p>Extract <code>h2_description</code> (pre-<code>###</code> content)</p></li>
+<li><p>Write to:</p>
+<pre><code>./&lt;h2_id&gt;/&lt;lang_id&gt;/index.qmd</code></pre></li>
+</ul></li>
+<li><p>Write <code>index.qmd</code> under <code>./&lt;lang_id&gt;/</code> with links</p></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="limitations-to-do" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-to-do">⚠️ Limitations / To-Do</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 15%">
+<col style="width: 53%">
+<col style="width: 30%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Area</th>
+<th>Limitation</th>
+<th>Possible Solution</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>###</code> splitting</td>
+<td><code>###</code> blocks are detected but not split into files</td>
+<td>Add per-subsection split mode</td>
+</tr>
+<tr class="even">
+<td>Duplicate IDs</td>
+<td>No check for ID collisions</td>
+<td>Add validation or auto-suffix</td>
+</tr>
+<tr class="odd">
+<td>Header nesting</td>
+<td>Only <code>##</code> and <code>###</code> are processed</td>
+<td>Extend for deeper levels</td>
+</tr>
+<tr class="even">
+<td>CLI usability</td>
+<td>No CLI arguments</td>
+<td>Add <code>argparse</code> or CLI wrapper</td>
+</tr>
+<tr class="odd">
+<td>Quarto YAML</td>
+<td>No automatic <code>_quarto.yml</code> generation</td>
+<td>Add sidebar + TOC automation</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="example-case" class="level2">
+<h2 class="anchored" data-anchor-id="example-case">🧪 Example Case</h2>
+<section id="input-master-ja.qmd" class="level3">
+<h3 class="anchored" data-anchor-id="input-master-ja.qmd">Input: <code>master-ja.qmd</code></h3>
+<div class="sourceCode" id="cb9"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># 前書き</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>これはイントロです。</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="fu">## 日本語のリズムとは {#japanese-rhythm}</span></span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>イントロ段落。</span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a><span class="fu">### タイミングの問題</span></span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a>説明...</span>
+<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a><span class="fu">## 第二章</span></span>
+<span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-15"><a href="#cb9-15" aria-hidden="true" tabindex="-1"></a>別のセクション</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="output-1" class="level3">
+<h3 class="anchored" data-anchor-id="output-1">Output:</h3>
+<section id="directory-structure-1" class="level4">
+<h4 class="anchored" data-anchor-id="directory-structure-1">Directory Structure:</h4>
+<pre><code>.
+├── japanese-rhythm/
+│   └── ja/
+│       └── index.qmd
+├── 第二章/
+│   └── ja/
+│       └── index.qmd
+├── ja/
+│   └── index.qmd</code></pre>
+</section>
+<section id="jaindex.qmd" class="level4">
+<h4 class="anchored" data-anchor-id="jaindex.qmd"><code>ja/index.qmd</code>:</h4>
+<div class="sourceCode" id="cb11"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># 前書き</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>これはイントロです。</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a><span class="fu">## Contents</span></span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a><span class="fu">### [日本語のリズムとは](japanese-rhythm/)</span></span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>イントロ段落。</span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a><span class="fu">### [第二章](第二章/)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<hr>
+<p>If you want, I can generate:</p>
+<ul>
+<li>A test fixture set</li>
+<li>A sample CLI wrapper (<code>split-qmd.py --input master-ja.qmd</code>)</li>
+<li><code>_quarto.yml</code> auto-updater script for navigation linking</li>
+</ul>
+<p>Would you like that?</p>
 
 
+</section>
+</section>
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
