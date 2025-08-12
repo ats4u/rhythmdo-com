@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
+from __future__ import annotations
 
 from pathlib import Path
-import sys, pathlib; import argparse
-sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1]));
-from lib import rhythmpedia
+import sys, pathlib
+import argparse
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1]))
+from lib import rhythmpedia  # noqa: E402
 
-# CLI
 def main() -> int:
     ap = argparse.ArgumentParser(
-        description="Split master-<lang>.qmd into <slug>/<lang>/index.qmd and generate language index + YAML."
+        description="Copy master-<lang>.qmd -> <lang>/index.qmd and emit sidebar YAML."
     )
     ap.add_argument(
         "paths",
@@ -32,11 +33,15 @@ def main() -> int:
         roots.append(p)
 
     for root in roots:
-        rhythmpedia.qmd_all_masters(rhythmpedia.split_master_qmd, root)  # v3.2: explicit Path dir
-        print(f"[DONE] Split masters in: {root}")
+        rhythmpedia.qmd_all_masters(
+            rhythmpedia.copy_lang_qmd,
+            root,  # v3.2: explicit Path dir
+        )
+        print(f"[DONE] Copied language files in: {root}")
 
     return 0
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
 

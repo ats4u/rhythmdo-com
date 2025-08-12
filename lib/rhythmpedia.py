@@ -1,4 +1,3 @@
-
 def greet(name):
     return f"Hello, {name}! This is mymodule speaking."
 
@@ -37,20 +36,41 @@ import subprocess
 import re 
 from pathlib import Path
 
-def create_toc_v1( input_md, link_target_md ):
-    # Run pandoc to get TOC as Markdown
-    toc_md = subprocess.run(
+def create_toc_v1( input_md: Path, link_target_md: str ):
+    # v3.2: input_md must be a Path to an existing file; template fixed at ./lib/templates/toc
+    if not isinstance(input_md, Path):
+        raise ValueError("input_md must be a pathlib.Path")
+    if not input_md.is_file():
+        raise FileNotFoundError(f"input_md not found: {input_md}")
+
+    # resolve template path relative to this module (./lib/templates/toc)
+    module_dir = Path(__file__).resolve().parent
+    template = module_dir / "templates" / "toc.markdown"
+    if not template.exists():
+        raise FileNotFoundError(f"pandoc template not found: {template}")
+
+    # ensure pandoc exists (no CWD dependence)
+    import shutil  # local import to avoid reordering global imports
+    if shutil.which("pandoc") is None:
+        raise RuntimeError("pandoc not found on PATH")
+
+    # Run pandoc to get TOC as Markdown (use absolute paths)
+    proc = subprocess.run(
         [
             "pandoc",
-            input_md,
+            str(input_md),
             "--toc",
             "--toc-depth=6",
             "--to=markdown",  # ← output pure Markdown TOC
-            "--template=templates/toc"  # optional: avoids front/back matter
+            f"--template={str(template)}"  # avoid front/back matter
         ],
         capture_output=True,
         text=True
-    ).stdout
+    )
+    if proc.returncode != 0:
+        raise RuntimeError(f"pandoc failed ({proc.returncode}): {proc.stderr.strip()}")
+
+    toc_md = proc.stdout
 
     # Patch all links to include the HTML filename prefix
     # [Title](#section-id) → [Title](tatenori-theory/index.html#section-id)
@@ -120,8 +140,8 @@ def parse_qmd_teasers(
     5. Return the list.
 
     **Summary:**
-    Scan QMD for level-2+ headers, extract each title, optional slug, and the
-    section’s opening content until the first child or sibling header, and
+    Scan QMD for level-2+ headers, extract each title, optional slug, and
+    the section’s opening content until the first child or sibling header, and
     return them as a list of dictionaries.
     """
 
@@ -351,7 +371,7 @@ def _slug_for_item(title_raw: str, explicit: Optional[str]) -> str:
     rb = _ruby_base_or_none(title_raw)
     return _slugify_unicode(rb if rb else title_raw)
 
-def proc_qmd_teasers(items, basedir: str | Path, lang: str):
+def proc_qmd_teasers(items, basedir: str | Path, lang: str, link_prefix= "/" ):
     """
     Decorate parsed heading items with file/link metadata.
 
@@ -372,6 +392,12 @@ def proc_qmd_teasers(items, basedir: str | Path, lang: str):
     if base_name in ("", ".", "/"):
         base_name = base.resolve().name
 
+    # normalize link_prefix to end with one slash
+    if link_prefix == "":
+        link_prefix = "./"
+    if not link_prefix.endswith("/"):
+        link_prefix += "/"
+
     current_lv2_slug: Optional[str] = None
 
     for it in items:
@@ -387,25 +413,25 @@ def proc_qmd_teasers(items, basedir: str | Path, lang: str):
         it["lang_index_path"] = base / lang / "index.qmd" 
         if lvl == 2:
             current_lv2_slug = slug
-            it["link"] = f"./{base_name}/{slug}/{lang}/"
+            it["link"] = f"{link_prefix}{base_name}/{slug}/{lang}/"
         else:
             ancestor = current_lv2_slug or slug
-            it["link"] = f"./{base_name}/{ancestor}/{lang}/#{slug}"
+            it["link"] = f"{link_prefix}{base_name}/{ancestor}/{lang}/#{slug}"
 
     return items
 
 #######################
 
-def call_create_toc( input_qmd, create_toc ):
+def call_create_toc( create_toc, input_qmd, **kwargs ):
     p = Path(input_qmd)
     basedir = str( p.parent ) # directory path as string
     lang = _lang_id_from_filename(p)
     text = p.read_text(encoding="utf-8")
-    return create_toc(text, basedir, lang)
+    return create_toc(text, basedir, lang, **kwargs)
 
 #######################
 
-def _create_toc_v3(text: str, basedir: str, lang: str) -> None:
+def _create_toc_v3(text: str, basedir: str, lang: str, **_) -> str:
     items = parse_qmd_teasers(
         text,
         min_level=2,
@@ -427,7 +453,7 @@ def _create_toc_v3(text: str, basedir: str, lang: str) -> None:
 
     return "\n".join(lines_out)
 
-def _create_toc_v4(text: str, basedir: str, lang: str) -> None:
+def _create_toc_v4(text: str, basedir: str, lang: str, **_) -> str:
     items = parse_qmd_teasers(
         text,
         min_level=2,
@@ -462,7 +488,7 @@ def _create_toc_v4(text: str, basedir: str, lang: str) -> None:
 # _create_toc_v5
 # =========================================
 # Added on Sun, 10 Aug 2025 19:20:03 +0900 by Ats
-def _create_toc_v5(text: str, basedir: str, lang: str) -> None:
+def _create_toc_v5(text: str, basedir: str, lang: str, *, link_prefix: str = "/" ) -> str:
     items = parse_qmd_teasers(
         text,
         min_level=2,
@@ -471,7 +497,7 @@ def _create_toc_v5(text: str, basedir: str, lang: str) -> None:
         normalize_ws=False,
         respect_frontmatter=True,
     )
-    items = proc_qmd_teasers( items, basedir, lang )
+    items = proc_qmd_teasers( items, basedir, lang, link_prefix )
 
     lines_out = []
     for it in items:
@@ -482,18 +508,20 @@ def _create_toc_v5(text: str, basedir: str, lang: str) -> None:
         indent_level = " " * (2 * max(0, lvl - 2))
 
         if link is not None:
-            if description and lvl == 2:
+            if lvl == 2:
                 # description = dedent(description).strip()
                 # description = indent(description, indent_level)
                 lines_out.append("")
                 lines_out.append( f"#### {title}" )
-                lines_out.append( "" )
-                lines_out.append( "<!-- -->" )
-                lines_out.append( description )
-                lines_out.append( "<!-- -->" )
-                lines_out.append( "" )
-                lines_out.append( "---" )
-                lines_out.append( "" )
+                if description:
+                    lines_out.append( "" )
+                    lines_out.append( "<!-- -->" )
+                    lines_out.append( description )
+                    lines_out.append( "<!-- -->" )
+                    lines_out.append( "" )
+                    lines_out.append( "---" )
+                    lines_out.append( "" )
+
                 lines_out.append( "<!-- -->" )
                 lines_out.append( f"{indent_level}- [{title}]({link})" )
             elif lvl == 3:
@@ -504,14 +532,14 @@ def _create_toc_v5(text: str, basedir: str, lang: str) -> None:
 
 
 
-def create_toc_v3( input_qmd ):
-    return call_create_toc( input_qmd, _create_toc_v3 )
+def create_toc_v3( input_qmd, **kwargs ):
+    return call_create_toc( _create_toc_v3, input_qmd, **kwargs )
 
-def create_toc_v4( input_qmd ):
-    return call_create_toc( input_qmd, _create_toc_v4 )
+def create_toc_v4( input_qmd, **kwargs ):
+    return call_create_toc( _create_toc_v4, input_qmd, **kwargs )
 
-def create_toc_v5( input_qmd ):
-    return call_create_toc( input_qmd, _create_toc_v5 )
+def create_toc_v5( input_qmd, **kwargs ):
+    return call_create_toc( _create_toc_v5, input_qmd, **kwargs )
 
 
 #######################
@@ -553,33 +581,24 @@ def split_master_qmd(master_path: Path) -> None:
         title_raw = it["title_raw"]
         # title_clean = TAG_RE.sub("", it["title_raw"]).strip()
         fm = f"---\ntitle: \"{title_raw}\"\n---\n\n"
+        # {{< include /_sidebar.generated.md >}}
+        footer =  '\n{{< include /_sidebar.generated.md >}}\n'
         p: Path = it["out_path"]
         p.parent.mkdir(parents=True, exist_ok=True)
-        p.write_text(fm + section, encoding="utf-8")
+        p.write_text(fm + section + footer, encoding="utf-8")
         print(f"  ✅ {p}")
 
-    # language index
+
+    # Language index via create_toc_v5 (absolute links)
     idx: Path = h2s[0]["lang_index_path"]
-    lines = []
-    if preamble.strip(): lines += [preamble.rstrip(), ""]
-    lines += ["## Contents", ""]
-    for it in h2s:
-        base_name = it["base_name"]
-        title = it["header_title"]
-        slug  = it["slug"]
-        desc  = (it["description"] or "").strip()
-        # href  = f"../{slug}/{lang}/"   # <-- lang at the end
-        href  = f"/{base_name}/{slug}/{lang}/"   # <-- lang at the end
-
-        lines.append(f"### [{title}]({href})")
-
-        if desc: lines.append(desc)
-        lines.append("")
-
+    toc_md = create_toc_v5(str(master_path), link_prefix="/")
+    idx_lines: List[str] = []
+    if preamble.strip():
+        idx_lines += [preamble.rstrip(), ""]
+    idx_lines += ["## Contents💦 ", "", toc_md]
     idx.parent.mkdir(parents=True, exist_ok=True)
-    idx.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
+    idx.write_text("\n".join(idx_lines).rstrip() + "\n", encoding="utf-8")
     print(f"  ✅ {idx}")
-
 
     # section_title = ""
     # yml_lang_path = master_path.parent / f"_quarto.index.{lang}.yml"
@@ -618,11 +637,76 @@ def split_master_qmd(master_path: Path) -> None:
     print(f"  ✅ {yml_lang_path}")
 
 
+# --- new: copy master-<lang>.qmd -> ./<lang>/index.qmd using split_all_masters ---
+#######################
+# Master QMD SPlitter
+# Added by Ats on Mon, 11 Aug 2025 23:13:20 +0900
+#######################
+
+from pathlib import Path
+import shutil
+
+def copy_lang_qmd(master_path: Path) -> None:
+    """
+    Copy ./master-<lang>.qmd -> ./<lang>/index.qmd and emit
+    ./_quarto.index.<lang>.yml with a single contents entry.
+    Touch files only when content changed (prevents preview loops).
+    """
+    print(f"\n→ {master_path}")
+    lang = _lang_id_from_filename(master_path)
+    dst  = master_path.parent / lang / "index.qmd"
+    dst.parent.mkdir(parents=True, exist_ok=True)
+
+    # Copy master -> <lang>/index.qmd (idempotent)
+    src_text = master_path.read_text(encoding="utf-8")
+    src_text = src_text + '\n{{< include /_sidebar.generated.md >}}\n'
+
+    if not dst.exists() or dst.read_text(encoding="utf-8") != src_text:
+        dst.write_text(src_text, encoding="utf-8")
+        print(f"  ✅ {dst}")
+    else:
+        print(f"  =  {dst} (unchanged)")
+
+    base_name = str(master_path.parent.name)
+
+    # Minimal sidebar include: no 'section', just the file path.
+    yml_path = master_path.parent / f"_quarto.index.{lang}.yml"
+    yml_text = f"website:\n  sidebar:\n    contents:\n      - {base_name}/{lang}/index.qmd\n"
+    if not yml_path.exists() or yml_path.read_text(encoding="utf-8") != yml_text:
+        yml_path.write_text(yml_text, encoding="utf-8")
+        print(f"  ✅ {yml_path}")
+    else:
+        print(f"  =  {yml_path} (unchanged)")
+
+def clean_directories_except_attachments_qmd( root: Path ):
+    # v3.2: require Path; explicit; root must be an existing directory (error if file/nonexistent)
+    if not isinstance(root, Path):
+        raise ValueError("root must be a pathlib.Path")
+    if not root.exists():
+        raise ValueError(f"root must exist: {root}")
+    if root.is_file() or not root.is_dir():
+        raise ValueError(f"root must be a directory, not a file: {root}")
+
+    base = root
+    for item in base.iterdir():
+        if item.is_dir():
+            if item.name.startswith("attachments"):
+                print(f"🛡️  Skipping: {item}")
+                continue
+            print(f"🧹 Removing: {item}")
+            shutil.rmtree(item)
 
 
+def qmd_all_masters( qmd_splitter , root: Path ) -> None:
+    # v3.2: require Path; explicit; root must be an existing directory (error if file/nonexistent)
+    if not isinstance(root, Path):
+        raise ValueError("root must be a pathlib.Path")
+    if not root.exists():
+        raise ValueError(f"root must exist: {root}")
+    if root.is_file() or not root.is_dir():
+        raise ValueError(f"root must be a directory: {root}")
 
-def split_all_masters( qmd_splitter , root: str | Path = ".") -> None:
-    for p in sorted(Path(root).glob("master-*.qmd")):
+    for p in sorted(root.glob("master-*.qmd")):
         try: qmd_splitter(p)
         except Exception as e: print(f"  ✗ {p.name}: {e}")
 
@@ -633,3 +717,4 @@ def split_all_masters( qmd_splitter , root: str | Path = ".") -> None:
 #     lang = _lang_id_from_filename(p)
 #     text = p.read_text(encoding="utf-8")
 #     return _create_toc_v4(text, basedir, lang)
+

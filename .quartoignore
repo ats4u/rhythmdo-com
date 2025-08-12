@@ -1,3 +1,14 @@
-_sidebar.generated.md
-_sidebar.generated.yml
+# Restore Quarto defaults
+.quarto/
+.site/
+_site/
+.ipynb_checkpoints/
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
 
+# Your own ignores
+_sidebar.generated.*
+*.swp
+.venv/
