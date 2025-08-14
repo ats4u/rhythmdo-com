@@ -4,8 +4,8 @@ project:
   output-dir: .site
   preview:
     port: 5150
-    browser: false
-    watch-inputs: false
+#    browser: false
+#    watch-inputs: false
   resources:
     - Ads.txt
 
@@ -13,6 +13,15 @@ website:
   title: "律動図鑑(リズムペディア)"
   description: "グルーヴを科学する律動図鑑〜リズムペディア"
   site-url: "https://rhythmpedia.com/"
+  page-footer:
+    left: "© 2018-2025 律動図鑑リズムペディア — All rights reserved."
+    right: |
+      [運営者](/about/ja/) |
+      [連絡先](/contact/ja/) |
+      [問い合わせ](/contact-form/ja/)
+      [免責事項](/disclaimer/ja/) |
+      [プライバシーポリシー](/privacy-policy/ja/) |
+
   page-navigation: true     # show Previous / Next buttons in the footer
   bread-crumbs: true
 #  site-url: "https://ats4u.github.io/jpn-master-workinglog-markdown/"
@@ -36,8 +45,8 @@ website:
     logo: /attachments/rhythmpedia-logo-dark.png
     collapse-level: 1
     contents: []
-execute:
-  freeze: auto            # optional: avoids re-execution unless sources change
+# execute:
+#  freeze: auto            # optional: avoids re-execution unless sources change
 format:
   html:
     theme:
