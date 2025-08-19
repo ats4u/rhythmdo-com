@@ -100,7 +100,7 @@ print( rhythmpedia.create_toc_v5( 'beat-orientation/master-ja.qmd' ) )
 v1(  "metadivision-theory" )
 ```
 
-
+<!--
 ### 3ⁿリズム理論
 - [**3ⁿリズム理論**](./three-to-n-groove-theory/ja/)  
 
@@ -109,6 +109,7 @@ v1(  "metadivision-theory" )
 #| output: asis
 v1(  "three-to-n-groove-theory" )
 ```
+-->
 
 ### 分散グルーヴ理論
 - [**分散グルーヴ理論**](./distributed-groove-theory/ja/)  
