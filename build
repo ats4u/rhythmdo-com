@@ -2,58 +2,58 @@ set -euxo pipefail
 
 . ./bin/activate
 
-rhythmpedia clean     tatenori-theory  --apply --force
-rhythmpedia copy-lang tatenori-theory
+rhythmpedia preproc-clean  tatenori-theory  --apply --force
+rhythmpedia preproc        tatenori-theory
 
-rhythmpedia clean     beat-orientation --apply --force
-rhythmpedia split     beat-orientation
+rhythmpedia preproc-clean  beat-orientation --apply --force
+rhythmpedia preproc        beat-orientation
 
-rhythmpedia clean     offbeat-count-theory --apply --force
-rhythmpedia copy-lang offbeat-count-theory
+rhythmpedia preproc-clean  offbeat-count-theory --apply --force
+rhythmpedia preproc        offbeat-count-theory
 
-rhythmpedia clean     offbeat-count-phonetics --apply --force
-rhythmpedia copy-lang offbeat-count-phonetics
+rhythmpedia preproc-clean  offbeat-count-phonetics --apply --force
+rhythmpedia preproc        offbeat-count-phonetics
 
-rhythmpedia clean     metadivision-theory --apply --force
-rhythmpedia copy-lang metadivision-theory
+rhythmpedia preproc-clean  metadivision-theory --apply --force
+rhythmpedia preproc        metadivision-theory
 
-rhythmpedia clean     three-to-n-groove-theory --apply --force
-rhythmpedia copy-lang three-to-n-groove-theory
+rhythmpedia preproc-clean  three-to-n-groove-theory --apply --force
+rhythmpedia preproc        three-to-n-groove-theory
 
-rhythmpedia clean     distributed-groove-theory --apply --force
-rhythmpedia copy-lang distributed-groove-theory
+rhythmpedia preproc-clean  distributed-groove-theory --apply --force
+rhythmpedia preproc        distributed-groove-theory
 
-rhythmpedia clean     weak-beat-as-sun-strong-beat-as-earth --apply --force
-rhythmpedia copy-lang weak-beat-as-sun-strong-beat-as-earth
+rhythmpedia preproc-clean  weak-beat-as-sun-strong-beat-as-earth --apply --force
+rhythmpedia preproc        weak-beat-as-sun-strong-beat-as-earth
 
-rhythmpedia clean     offbeat-count-polyrhythm --apply --force
-rhythmpedia copy-lang offbeat-count-polyrhythm
+rhythmpedia preproc-clean  offbeat-count-polyrhythm --apply --force
+rhythmpedia preproc        offbeat-count-polyrhythm
 
-rhythmpedia clean     tatenori-and-psychology --apply --force
-rhythmpedia copy-lang tatenori-and-psychology
+rhythmpedia preproc-clean  tatenori-and-psychology --apply --force
+rhythmpedia preproc        tatenori-and-psychology
 
-rhythmpedia clean     mechanism-behind-tatenori --apply --force
-rhythmpedia copy-lang mechanism-behind-tatenori
+rhythmpedia preproc-clean  mechanism-behind-tatenori --apply --force
+rhythmpedia preproc        mechanism-behind-tatenori
 
-rhythmpedia clean     influence-of-japanese-language-on-cognition --apply --force
-rhythmpedia copy-lang influence-of-japanese-language-on-cognition
+rhythmpedia preproc-clean  influence-of-japanese-language-on-cognition --apply --force
+rhythmpedia preproc        influence-of-japanese-language-on-cognition
 
-rhythmpedia clean     about          --apply --force
-rhythmpedia split     about          --no-toc
+rhythmpedia preproc-clean  about          --apply --force
+rhythmpedia preproc        about
 
-rhythmpedia clean     disclaimer     --apply --force
-rhythmpedia copy-lang disclaimer     --no-toc
+rhythmpedia preproc-clean  disclaimer     --apply --force
+rhythmpedia preproc        disclaimer
 
-rhythmpedia clean     contact        --apply --force
-rhythmpedia copy-lang contact        --no-toc
+rhythmpedia preproc-clean  contact        --apply --force
+rhythmpedia preproc        contact
 
-rhythmpedia clean     contact-form   --apply --force
-rhythmpedia copy-lang contact-form   --no-toc
+rhythmpedia preproc-clean  contact-form   --apply --force
+rhythmpedia preproc        contact-form
 
-rhythmpedia clean     privacy-policy --apply --force
-rhythmpedia copy-lang privacy-policy --no-toc
+rhythmpedia preproc-clean  privacy-policy --apply --force
+rhythmpedia preproc        privacy-policy
 
-rhythmpedia clean     cookies        --apply --force
-rhythmpedia copy-lang cookies        --no-toc
+rhythmpedia preproc-clean  cookies        --apply --force
+rhythmpedia preproc        cookies
 
-rhythmpedia render-sidebar
+rhythmpedia render-sidebar _sidebar-ja.conf

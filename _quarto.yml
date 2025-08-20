@@ -42,11 +42,8 @@ website:
     right:
       - href: index.qmd
         text: "トップに戻る"
-#    logo: /attachments/rhythmpedia-logo-dark.png
-#    logo: attachments/rhythmpedia-header2.png
   sidebar:
     style: "docked"
-    search: true
     logo: /attachments/rhythmpedia-logo-dark.png
     collapse-level: 1
     contents: []
@@ -94,4 +91,4 @@ format:
       gutter-width: 1.5rem
 
 metadata-files:
-  - _sidebar.generated.yml
+  - _sidebar-ja.generated.yml

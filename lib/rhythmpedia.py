@@ -26,6 +26,16 @@ def parse_frontmatter(text: str) -> Dict[str, Any]:
     except Exception as e:
         raise RuntimeError(f"Error parsing YAML front matter: {e}")
 
+def as_bool(v, default=True):
+    if v is None:
+        return default
+    if isinstance(v, bool):
+        return v
+    if isinstance(v, str):
+        return v.strip().lower() in {"1","true","yes","on"}
+    if isinstance(v, int):
+        return v != 0
+    return bool(v)
 
 # ======================
 # version 1
@@ -36,12 +46,32 @@ import subprocess
 import re 
 from pathlib import Path
 
-def create_toc_v1( input_md: Path, link_target_md: str ):
+def _create_toc_v1( input_md: Path, text: str, basedir: str, lang: str ):
     # v3.2: input_md must be a Path to an existing file; template fixed at ./lib/templates/toc
     if not isinstance(input_md, Path):
         raise ValueError("input_md must be a pathlib.Path")
     if not input_md.is_file():
         raise FileNotFoundError(f"input_md not found: {input_md}")
+
+    # Now create_toc_v1 also parse the current QMD. But we don't use its `link`
+    # field yet; we will migrate `parse_qmd_teasers` fully in future.
+    # Wed, 20 Aug 2025 19:05:52 +0900
+    items = parse_qmd_teasers(
+        text,
+        min_level=2,
+        max_level=6,
+        strip_html_in_title=False,  # keep HTML to read <ruby> base
+        normalize_ws=False,
+        respect_frontmatter=True,
+    )
+    items = proc_qmd_teasers( items, basedir, lang )
+
+    # Now it reads frontmatter in order to check its title
+    frontmatter = parse_frontmatter(text)
+    section_title = frontmatter.get("title") or "Untitled"
+
+    h0s   = [it for it in items if int(it["level"]) == 0] # ADDED BY ATS Wed, 20 Aug 2025 19:06:14 +0900
+    preamble = h0s[0] if 0 < len(h0s) else None # ADDED BY ATS Wed, 20 Aug 2025 19:06:26 +0900
 
     # resolve template path relative to this module (./lib/templates/toc)
     module_dir = Path(__file__).resolve().parent
@@ -74,7 +104,7 @@ def create_toc_v1( input_md: Path, link_target_md: str ):
 
     # Patch all links to include the HTML filename prefix
     # [Title](#section-id) → [Title](tatenori-theory/index.html#section-id)
-    patched = re.sub(r'\]\(#', f']({link_target_md}#', toc_md)
+    patched = re.sub(r'\]\(#', f']({basedir}/{lang}#', toc_md)
 
     # Add 2 extra spaces to every indented line
     shifted = '\n'.join(
@@ -82,7 +112,21 @@ def create_toc_v1( input_md: Path, link_target_md: str ):
         for line in patched.splitlines()
         if line.strip() != ''
     )
-    return shifted
+
+    output = shifted
+    if preamble is not None:
+        link        : str = preamble["link"]
+        description : str = preamble["description"].rstrip()
+        title       : str = preamble["header_title"]
+
+        if link is not None:
+            output = f"### {title}\n- [**{title}**]({link})\n{description}\n\n" + output
+        else:
+            output = f"### {title}\n- [**{title}**](#)\n{description}\n\n" + output
+
+    return output
+
+
 
 # ======================
 # version 2 and later
@@ -110,42 +154,38 @@ def parse_qmd_teasers(
     max_description_chars: Optional[int] = None,
 ) -> List[Dict[str, str]]:
     """
-    Parse a QMD/Markdown document and return an ordered list of dicts:
-      { "header_title": str, "header_slug": str|None, "description": str }
-    - Matches ATX headers ##..###### only (not Setext).
-    - Ignores headers inside fenced code blocks and YAML front matter (optional).
-    - The description is the leading run of content after the header until
-      the first subsequent header line; does not cut through a code fence.
+    Parse a QMD/Markdown document and return an ordered list of dicts describing
+    the file-level teaser (level==0) and each section teaser (levels 2..6):
 
-    I want a simple QMD parser function:
+      {
+        "header_title": str | None,   # frontmatter's ttile for master teaser
+        "header_slug" : str | None,   # explicit {#id} if present (sections only)
+        "description" : str,          # teaser text (trimmed/normalized)
+        "level"       : int,          # 0 (file) or 2..6 (sections)
+        "title_raw"   : str,          # original header text ("" for file-level)
+        "section_start_line": int,    # first content line in teaser slice
+        "section_end_line"  : int,    # first line after teaser slice
+        "section_start_char": int,    # char offset of start
+        "section_end_char"  : int,    # char offset of end
+      }
 
-    1. Match each header using:
-       ```python
-       match = re.match(r'^(#{2,6})\\s+(.*?)\\s*(?:\\{#([^\\}]+)\\})?\\s*$', header_line)
-       ```
-    2. For each match, get the header title, the optional slug (if present),
-       and the first part of the section — from the line after the header
-       until the first child header if it exists, otherwise until the next
-       sibling header.
-    3. Create a dictionary:
+    Rules
+    - Skips YAML front matter at top (--- … --- or ...), if respect_frontmatter=True.
+    - Recognizes ATX headers ##..###### only (not Setext).
+    - Honors fenced code blocks (``` or ~~~ of any length ≥3) so we never split a fence.
+    - The file-level “master teaser” spans from end of front matter to just before the
+      first header (or EOF if no headers).
+    - Each section’s teaser spans from the header line’s next line up to (but not
+      including) the next header of level <= current level; teaser text stops early
+      if any header is encountered before that (unless inside an open fence).
 
-       ```python
-       {
-            "header_title": header_title,
-            "header_slug" : header_slug,
-            "description" : first_part_of_section 
-       }
-       ```
-    4. Append each dictionary to a list.
-    5. Return the list.
-
-    **Summary:**
-    Scan QMD for level-2+ headers, extract each title, optional slug, and
-    the section’s opening content until the first child or sibling header, and
-    return them as a list of dictionaries.
+    Title normalization
+    - If strip_html_in_title=True, header titles have HTML tags removed and are
+      HTML-unescaped for display; raw header text is preserved in "title_raw".
     """
 
-
+    frontmatter = parse_frontmatter(text)
+    section_title = frontmatter.get("title") or "Untitled"
     lines = text.splitlines()
 
     # 1) Skip YAML front matter at file head (--- ... --- or ...)
@@ -160,14 +200,59 @@ def parse_qmd_teasers(
         if end is not None:
             start_idx = end + 1
 
-    # 2) Scan for headers while respecting fenced code blocks
+    # 2) Build a "master teaser": from after front matter to before first header
+    out: List[Dict[str, str]] = []
+    in_fence_mt = False
+    fence_close_mt = None
+    first_header_line = None
+    j = start_idx
+    while j < len(lines):
+        ln = lines[j]
+        if not in_fence_mt:
+            m = FENCE_OPEN_RE.match(ln)
+            if m:
+                seq = m.group(1)
+                fence_close_mt = FENCE_CLOSE_RE(seq[0], len(seq))
+                in_fence_mt = True
+                j += 1
+                continue
+            if HEADER_RE.match(ln):
+                first_header_line = j
+                break
+            j += 1
+        else:
+            if fence_close_mt and fence_close_mt.match(ln):
+                in_fence_mt = False
+                fence_close_mt = None
+            j += 1
+
+    mt_end = first_header_line if first_header_line is not None else len(lines)
+    master_block = "\n".join(lines[start_idx:mt_end])
+    if normalize_ws:
+        master_block = _normalize_ws(master_block)
+    if max_description_chars is not None and len(master_block) > max_description_chars:
+        master_block = master_block[:max_description_chars].rstrip()
+    if master_block.strip():
+        out.append({
+            "header_title"      : section_title,
+            "header_slug"       : None,
+            "description"       : master_block,
+            "level"             : 0,
+            "title_raw"         : section_title,
+            "section_start_line": start_idx,
+            "section_end_line"  : mt_end,
+            "section_start_char": sum(len(lines[i]) + 1 for i in range(start_idx)),
+            "section_end_char"  : sum(len(lines[i]) + 1 for i in range(mt_end)),
+        })
+
+    # 3) Scan for headers while respecting fenced code blocks
     headers = []  # list of dicts with index, level, title_raw, slug, title_norm
     in_fence = False
     fence_char = ""
     fence_len = 0
     fence_close_re = None
 
-    for i in range(start_idx, len(lines)):
+    for i in range(mt_end, len(lines)):  # start after master teaser slice
         line = lines[i]
 
         # Fence open/close detection
@@ -198,19 +283,18 @@ def parse_qmd_teasers(
                 continue
         else:
             # inside fence; look for closing fence of same kind/length
-            if fence_close_re.match(line):
+            if fence_close_re and fence_close_re.match(line):
                 in_fence = False
                 fence_char = ""
                 fence_len = 0
                 fence_close_re = None
             continue
 
-    # Early exit if no headers
+    # Early exit if no headers: return only the master teaser (if any)
     if not headers:
-        return []
+        return out
 
-    # 3) Build teaser/description for each header
-    out: List[Dict[str, str]] = []
+    # 4) Build teaser/description for each header
     total_lines = len(lines)
 
     for idx, h in enumerate(headers):
@@ -261,7 +345,7 @@ def parse_qmd_teasers(
                 j += 1
             else:
                 teaser_lines.append(line)
-                if fence_close_re.match(line):
+                if fence_close_re and fence_close_re.match(line):
                     in_fence = False
                     fence_char = ""
                     fence_len = 0
@@ -284,8 +368,8 @@ def parse_qmd_teasers(
             "header_title"      : h["title_norm"],
             "header_slug"       : h["slug"],           # explicit only; may be None
             "description"       : description,
-            "level"             : h["level"],          # ← add
-            "title_raw"         : h["title_raw"],      # ← add
+            "level"             : h["level"],
+            "title_raw"         : h["title_raw"],
             "section_start_line": section_start,       # first content line after header
             "section_end_line"  : next_bound,          # first line after section
             "section_start_char": section_start_char,  # char offset of section_start
@@ -411,7 +495,9 @@ def proc_qmd_teasers(items, basedir: str | Path, lang: str, link_prefix= "/" ):
         it["out_path"] = base / slug / lang / "index.qmd"
         # convenience: same for all items
         it["lang_index_path"] = base / lang / "index.qmd" 
-        if lvl == 2:
+        if lvl == 0:
+            it["link"] = f"{link_prefix}{base_name}/{lang}/"
+        elif lvl == 2:
             current_lv2_slug = slug
             it["link"] = f"{link_prefix}{base_name}/{slug}/{lang}/"
         else:
@@ -427,11 +513,11 @@ def call_create_toc( create_toc, input_qmd, **kwargs ):
     basedir = str( p.parent ) # directory path as string
     lang = _lang_id_from_filename(p)
     text = p.read_text(encoding="utf-8")
-    return create_toc(text, basedir, lang, **kwargs)
+    return create_toc( input_qmd, text, basedir, lang, **kwargs )
 
 #######################
 
-def _create_toc_v3(text: str, basedir: str, lang: str, **_) -> str:
+def _create_toc_v3(input_qmd: Path, text: str, basedir: str, lang: str, **_) -> str:
     items = parse_qmd_teasers(
         text,
         min_level=2,
@@ -453,7 +539,7 @@ def _create_toc_v3(text: str, basedir: str, lang: str, **_) -> str:
 
     return "\n".join(lines_out)
 
-def _create_toc_v4(text: str, basedir: str, lang: str, **_) -> str:
+def _create_toc_v4(input_qmd: Path, text: str, basedir: str, lang: str, **_) -> str:
     items = parse_qmd_teasers(
         text,
         min_level=2,
@@ -488,7 +574,7 @@ def _create_toc_v4(text: str, basedir: str, lang: str, **_) -> str:
 # _create_toc_v5
 # =========================================
 # Added on Sun, 10 Aug 2025 19:20:03 +0900 by Ats
-def _create_toc_v5(text: str, basedir: str, lang: str, *, link_prefix: str = "/" ) -> str:
+def _create_toc_v5(input_qmd: Path, text: str, basedir: str, lang: str, *, link_prefix: str = "/" ) -> str:
     items = parse_qmd_teasers(
         text,
         min_level=2,
@@ -500,6 +586,7 @@ def _create_toc_v5(text: str, basedir: str, lang: str, *, link_prefix: str = "/"
     items = proc_qmd_teasers( items, basedir, lang, link_prefix )
 
     lines_out = []
+
     for it in items:
         lvl         : int = it["level"]
         link        : str = it["link"]
@@ -508,7 +595,20 @@ def _create_toc_v5(text: str, basedir: str, lang: str, *, link_prefix: str = "/"
         indent_level = " " * (2 * max(0, lvl - 2))
 
         if link is not None:
-            if lvl == 2:
+            if lvl == 0:
+                lines_out.append("")
+                lines_out.append( f"### {title}" )
+                if description:
+                    lines_out.append( "" )
+                    lines_out.append( f"{indent_level}- [**{title}**]({link})" )
+                    lines_out.append( "" )
+                    lines_out.append( "<!-- -->" )
+                    lines_out.append( description )
+                    lines_out.append( "<!-- -->" )
+                    lines_out.append( "" )
+
+                lines_out.append( "<!-- -->" )
+            elif lvl == 2:
                 # description = dedent(description).strip()
                 # description = indent(description, indent_level)
                 lines_out.append("")
@@ -532,6 +632,9 @@ def _create_toc_v5(text: str, basedir: str, lang: str, *, link_prefix: str = "/"
 
 
 
+def create_toc_v1( input_qmd, **kwargs ):
+    return call_create_toc( _create_toc_v1, input_qmd, **kwargs )
+
 def create_toc_v3( input_qmd, **kwargs ):
     return call_create_toc( _create_toc_v3, input_qmd, **kwargs )
 
@@ -554,7 +657,7 @@ def _hdr_start(text: str, it) -> int:
     # start of the header line (prev '\n' before section_start_char; -1→0)
     return text.rfind("\n", 0, int(it["section_start_char"])) + 1
 
-def split_master_qmd(master_path: Path, *, toc: bool = True) -> None:
+def split_master_qmd(master_path: Path, *, toc: bool = True ) -> None:
     print(f"\n→ {master_path}")
     lang = _lang_id_from_filename(master_path)
     text = master_path.read_text(encoding="utf-8")
@@ -568,11 +671,13 @@ def split_master_qmd(master_path: Path, *, toc: bool = True) -> None:
     if not items: print("  (no headers)"); return
 
     items = proc_qmd_teasers(items, str(master_path.parent), lang)
+    h0s   = [it for it in items if int(it["level"]) == 0] # ADDED BY ATS Wed, 20 Aug 2025 17:48:44 +0900
     h2s   = [it for it in items if int(it["level"]) == 2]
     if not h2s: print("  (no H2)"); return
 
     # preamble (everything before earliest H2 header)
-    preamble = text[:min(_hdr_start(text, it) for it in h2s)]
+    # preamble = text[:min(_hdr_start(text, it) for it in h2s)]
+    preamble = h0s[0] if 0 < len(h0s) else "" # ADDED BY ATS Wed, 20 Aug 2025 18:02:26 +0900
 
     # 3-liner per section: slice → mkdir → write (H2 only per spec)
     for it in h2s:
@@ -585,7 +690,7 @@ def split_master_qmd(master_path: Path, *, toc: bool = True) -> None:
         # Optionally append sidebar include as a TOC block
         if toc:
             # {{< include /_sidebar.generated.md >}}
-            footer =  '\n{{< include /_sidebar.generated.md >}}\n'
+            footer =  f"\n{{{{< include /_sidebar-{lang}.generated.md >}}}}\n"
         else:
             footer =  ''
 
@@ -601,13 +706,13 @@ def split_master_qmd(master_path: Path, *, toc: bool = True) -> None:
     idx_lines: List[str] = []
     if preamble.strip():
         idx_lines += [preamble.rstrip(), ""]
-    idx_lines += ["## Contents💦 ", "", toc_md]
+    # idx_lines += ["## Contents💦 ", "", toc_md]
     idx.parent.mkdir(parents=True, exist_ok=True)
     idx.write_text("\n".join(idx_lines).rstrip() + "\n", encoding="utf-8")
     print(f"  ✅ {idx}")
 
     # section_title = ""
-    # yml_lang_path = master_path.parent / f"_quarto.index.{lang}.yml"
+    # yml_lang_path = master_path.parent / f"_quarto-{lang}.yml"
     # yml_lang_lines = [
     #     "website:",
     #     "  sidebar:",
@@ -624,9 +729,9 @@ def split_master_qmd(master_path: Path, *, toc: bool = True) -> None:
     # print(f"  ✅ {yml_lang_path}")
 
 
-    # --- NEW: per-language YAML include: _quarto.index.<lang>.yml ---
-    section_title = frontmatter.get("title") or "untitled"
-    yml_lang_path = master_path.parent / f"_quarto.index.{lang}.yml"
+    # --- NEW: per-language YAML include: _sidebar.index.<lang>.yml ---
+    section_title = frontmatter.get("title") or "Untitled"
+    yml_lang_path = master_path.parent / f"_sidebar-{lang}.yml"
     yml_lang_lines = [
         "website:",
         "  sidebar:",
@@ -639,8 +744,15 @@ def split_master_qmd(master_path: Path, *, toc: bool = True) -> None:
         slug      = it["slug"]
         href      = f"{base_name}/{slug}/{lang}/index.qmd"
         yml_lang_lines.append(f"          - {href}")
-    yml_lang_path.write_text("\n".join(yml_lang_lines) + "\n", encoding="utf-8")
-    print(f"  ✅ {yml_lang_path}")
+
+    sidebar = as_bool( frontmatter.get("rhythmpedia-preproc-sidebar", None), default=True )
+    print(f"[DEBUG] {yml_lang_path} sidebar = {sidebar}")
+
+    if sidebar:
+        yml_lang_path.write_text("\n".join(yml_lang_lines) + "\n", encoding="utf-8")
+        print(f"  ✅ {yml_lang_path}")
+    else:
+        print(f"  = {yml_lang_path} (suppressed)")
 
 
 # --- new: copy master-<lang>.qmd -> ./<lang>/index.qmd using split_all_masters ---
@@ -655,7 +767,7 @@ import shutil
 def copy_lang_qmd(master_path: Path, *, toc: bool = True ) -> None:
     """
     Copy ./master-<lang>.qmd -> ./<lang>/index.qmd and emit
-    ./_quarto.index.<lang>.yml with a single contents entry.
+    ./_sidebar-<lang>.yml with a single contents entry.
     Touch files only when content changed (prevents preview loops).
     """
     print(f"\n→ {master_path}")
@@ -663,12 +775,17 @@ def copy_lang_qmd(master_path: Path, *, toc: bool = True ) -> None:
     dst  = master_path.parent / lang / "index.qmd"
     dst.parent.mkdir(parents=True, exist_ok=True)
 
-    # Copy master -> <lang>/index.qmd (idempotent)
+    # Copy master -> <lang>/index.qmd (idempotent) & read front matter
     src_text = master_path.read_text(encoding="utf-8")
+
+    frontmatter = parse_frontmatter(src_text)
+    # Follow front matter flag (default True, explicit false suppresses YAML)
+    sidebar = as_bool( frontmatter.get("rhythmpedia-preproc-sidebar", None), default=True )
+    print(f"[DEBUG] {dst} sidebar = {sidebar}")
 
     # Optionally append sidebar include as a TOC block
     if toc:
-        src_text = src_text + '\n{{< include /_sidebar.generated.md >}}\n'
+        src_text = src_text + f"\n{{{{< include /_sidebar-{lang}.generated.md >}}}}\n"
 
     if not dst.exists() or dst.read_text(encoding="utf-8") != src_text:
         dst.write_text(src_text, encoding="utf-8")
@@ -679,13 +796,17 @@ def copy_lang_qmd(master_path: Path, *, toc: bool = True ) -> None:
     base_name = str(master_path.parent.name)
 
     # Minimal sidebar include: no 'section', just the file path.
-    yml_path = master_path.parent / f"_quarto.index.{lang}.yml"
-    yml_text = f"website:\n  sidebar:\n    contents:\n      - {base_name}/{lang}/index.qmd\n"
-    if not yml_path.exists() or yml_path.read_text(encoding="utf-8") != yml_text:
-        yml_path.write_text(yml_text, encoding="utf-8")
-        print(f"  ✅ {yml_path}")
+    yml_path = master_path.parent / f"_sidebar-{lang}.yml"
+    if sidebar:
+        yml_text = f"website:\n  sidebar:\n    contents:\n      - {base_name}/{lang}/index.qmd\n"
+        if not yml_path.exists() or yml_path.read_text(encoding="utf-8") != yml_text:
+            yml_path.write_text(yml_text, encoding="utf-8")
+            print(f"  ✅ {yml_path}")
+        else:
+            print(f"  =  {yml_path} (unchanged)")
     else:
-        print(f"  =  {yml_path} (unchanged)")
+        print(f"  =  {yml_path} (suppressed)")
+
 
 def clean_directories_except_attachments_qmd( root: Path ):
     # v3.2: require Path; explicit; root must be an existing directory (error if file/nonexistent)
@@ -716,9 +837,17 @@ def qmd_all_masters( qmd_splitter, root: Path, *args, **kwargs) -> None:
     if root.is_file() or not root.is_dir():
         raise ValueError(f"root must be a directory: {root}")
 
-    for p in sorted(root.glob("master-*.qmd")):
-        try: qmd_splitter(p, *args, **kwargs )
-        except Exception as e: print(f"  ✗ {p.name}: {e}")
+    # Include both Quarto and Markdown masters; prefer .qmd if both exist.
+    masters = {}
+    for pat in ("master-*.qmd", "master-*.md"):
+        for pth in root.glob(pat):
+            key = (pth.parent, pth.stem)  # e.g., (dir, "master-ja")
+            masters.setdefault(key, pth)  # .qmd wins because it’s added first
+    for p in sorted(masters.values()):
+        try:
+            qmd_splitter(p, *args, **kwargs)
+        except Exception as e:
+            print(f"  ✗ {p.name}: {e}")
 
 
 # def create_toc( input_qmd ):
@@ -799,8 +928,7 @@ def create_article_page(target: Path, *, lang: str = "ja") -> list[Path]:
         ".site/",
         "*/",
         "!attachments*/",
-        "_quarto.index*",
-        "_sidebar.index*",
+        "_sidebar-*",
         "",
     ]) + "\n"
     if _write_if_absent(gi, gi_body):
@@ -836,6 +964,154 @@ def create_article_page(target: Path, *, lang: str = "ja") -> list[Path]:
 def create_page(target: Path, *, lang: str = "ja") -> list[Path]:
     """Thin alias for create_article_page for script callers."""
     return create_article_page(target, lang=lang)
+
+
+# =========================================
+# Global Navigation Generator 
+# ADDED Thu, 21 Aug 2025 02:22:13 +0900
+# =========================================
+#
+import os, sys
+
+from typing import List, Tuple
+
+def create_global_navigation(input_conf, lang_id: str, *, strict: bool = True, logger=None) -> str:
+    """
+    Assemble a single Markdown navigation by concatenating TOCs from each
+    article directory listed in `input_conf`.
+
+    For each directory:
+      - Pick master-{lang_id}.qmd (preferred) or master-{lang_id}.md.
+      - Read front matter key `rhythmpedia-preproc`:
+          "split" -> use create_toc_v5 (split layout)
+          "copy"  -> use create_toc_v1 (copy-as-is layout)
+        If the key is absent, default to "copy".
+
+    Parameters
+    ----------
+    input_conf : str | os.PathLike
+        Path to a conf file with one directory per line. Lines may contain
+        inline comments after '#' and blank lines are ignored. Order is
+        preserved and defines output order.
+    lang_id : str
+        Language id used to choose the master file (mandatory).
+    strict : bool, default True
+        If True, unknown/invalid lines, YAML entries, missing dirs/masters,
+        and unknown preproc values raise. If False, they are warned and
+        skipped when possible.
+    logger : logging.Logger | None
+        Optional logger to emit info/warning/debug messages.
+
+    Returns
+    -------
+    str
+        Concatenated Markdown suitable for direct inclusion (e.g., in a Quarto page).
+    """
+    from pathlib import Path
+    import re
+
+    def _log(level: str, msg: str):
+        if logger is not None:
+            getattr(logger, level, logger.info)(msg)
+        #else:
+        #    import sys
+        #    # print(f"[{level.upper()}] {msg}", file=sys.stderr)
+
+    conf_path = Path(input_conf).expanduser().resolve()
+    if not conf_path.exists():
+        raise FileNotFoundError(f"conf not found: {conf_path}")
+    if not conf_path.is_file():
+        raise ValueError(f"conf is not a file: {conf_path}")
+    conf_dir = conf_path.parent
+
+    # Parse lines (sed 's/#.*//' style): strip inline comments and blanks
+    entries: List[Tuple[int, str]] = []
+    for i, raw_line in enumerate(conf_path.read_text(encoding="utf-8").splitlines(), start=1):
+        line = re.sub(r"#.*$", "", raw_line).strip()
+        if line:
+            entries.append((i, line))
+
+    out_parts: List[str] = []
+    seen_dirs = set()
+
+    for lineno, rel in entries:
+        # Directories only — YAML entries are errors
+        low = rel.lower()
+        if low.endswith(".yml") or low.endswith(".yaml"):
+            msg = f"{conf_path.name}:{lineno}: expected a directory path, got a YAML file: {rel}"
+            if strict:
+                raise ValueError(msg)
+            _log("warning", msg)
+            continue
+
+        d = (conf_dir / rel).resolve() if not Path(rel).is_absolute() else Path(rel)
+        if not d.exists() or not d.is_dir():
+            msg = f"{conf_path.name}:{lineno}: not a directory: {rel} -> {d}"
+            if strict:
+                raise FileNotFoundError(msg)
+            _log("warning", msg)
+            continue
+
+        # Deduplicate directories while preserving first occurrence
+        key = str(d)
+        if key in seen_dirs:
+            _log("warning", f"{conf_path.name}:{lineno}: duplicate directory ignored: {d}")
+            continue
+        seen_dirs.add(key)
+
+        # Choose master for lang_id
+        qmd = d / f"master-{lang_id}.qmd"
+        md  = d / f"master-{lang_id}.md"
+        master = qmd if qmd.exists() else (md if md.exists() else None)
+        if master is None:
+            msg = f"{d}: master file not found (tried {qmd.name} and {md.name})"
+            if strict:
+                raise FileNotFoundError(msg)
+            _log("warning", msg)
+            continue
+
+        # Decide mode from front matter (default: copy)
+        text = master.read_text(encoding="utf-8")
+        fm = parse_frontmatter(text) if text else {}
+
+        # Respect per-article sidebar opt-out
+        # If front matter has: rhythmpedia-preproc-sidebar: false → skip this directory
+        sidebar_opt = fm.get("rhythmpedia-preproc-sidebar", None)
+        if sidebar_opt is False:
+            _log("info", f"[{d.name}] {master.name} → sidebar=false (skipped)")
+            continue
+
+        raw_mode = fm.get("rhythmpedia-preproc", None)
+        if isinstance(raw_mode, bool):
+            mode = "split" if raw_mode else "copy"
+        elif isinstance(raw_mode, str):
+            mode = raw_mode.strip().lower()
+        else:
+            mode = "copy"
+
+        if mode not in {"copy", "split"}:
+            msg = f"{d.name}: unknown rhythmpedia-preproc='{raw_mode}'; falling back to 'copy'"
+            if strict:
+                raise ValueError(msg)
+            _log("warning", msg)
+            mode = "copy"
+
+        _log("info", f"[{d.name}] {master.name} → mode={mode}")
+
+        # Delegate
+        try:
+            block = create_toc_v5(master) if mode == "split" else create_toc_v1(master)
+        except Exception as e:
+            if strict:
+                raise
+            _log("warning", f"{d.name}: TOC generation failed: {e}")
+            continue
+
+        block = (block or "").rstrip()
+        if block:
+            out_parts.append(block)
+
+    return "\n\n".join(out_parts) + ("\n" if out_parts else "")
 
 
 

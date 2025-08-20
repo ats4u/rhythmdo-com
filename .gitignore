@@ -12,3 +12,6 @@ __pycache__
 *.generated.yml
 *.generated.md
 .toc_title_cache.json
+_sidebar-*.yml
+*.generated.conf
+rhythmpedia.tar.gz
