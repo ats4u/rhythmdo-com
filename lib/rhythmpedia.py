@@ -508,11 +508,13 @@ def proc_qmd_teasers(items, basedir: str | Path, lang: str, link_prefix= "/" ):
 
 #######################
 
+from lib.strip_header_comments import strip_header_comments
 def call_create_toc( create_toc, input_qmd, **kwargs ):
     p = Path(input_qmd)
     basedir = str( p.parent ) # directory path as string
     lang = _lang_id_from_filename(p)
     text = p.read_text(encoding="utf-8")
+    text = strip_header_comments(text)
     return create_toc( input_qmd, text, basedir, lang, **kwargs )
 
 #######################
@@ -649,9 +651,15 @@ def create_toc_v5( input_qmd, **kwargs ):
 # Master QMD SPlitter
 #######################
 
+import pathlib
+import os
 from pathlib import Path
-import sys, pathlib;
+
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1]));
+sys.path.append(os.path.dirname(__file__))
+
+import sys, pathlib;
+from lib.strip_header_comments import strip_header_comments
 
 def _hdr_start(text: str, it) -> int:
     # start of the header line (prev '\n' before section_start_char; -1→0)
@@ -661,6 +669,7 @@ def split_master_qmd(master_path: Path, *, toc: bool = True ) -> None:
     print(f"\n→ {master_path}")
     lang = _lang_id_from_filename(master_path)
     text = master_path.read_text(encoding="utf-8")
+    text = strip_header_comments(text)
 
     frontmatter = parse_frontmatter(text)
 
@@ -677,7 +686,7 @@ def split_master_qmd(master_path: Path, *, toc: bool = True ) -> None:
 
     # preamble (everything before earliest H2 header)
     # preamble = text[:min(_hdr_start(text, it) for it in h2s)]
-    preamble = h0s[0] if 0 < len(h0s) else "" # ADDED BY ATS Wed, 20 Aug 2025 18:02:26 +0900
+    preamble = h0s[0] if 0 < len(h0s) else None # ADDED BY ATS Wed, 20 Aug 2025 18:02:26 +0900
 
     # 3-liner per section: slice → mkdir → write (H2 only per spec)
     for it in h2s:
@@ -695,21 +704,30 @@ def split_master_qmd(master_path: Path, *, toc: bool = True ) -> None:
             footer =  ''
 
         p: Path = it["out_path"]
-        p.parent.mkdir(parents=True, exist_ok=True)
-        p.write_text(fm + section + footer, encoding="utf-8")
-        print(f"  ✅ {p}")
+        sub_text = fm + section + footer
+        if not p.exists() or p.read_text(encoding="utf-8") != sub_text:
+            p.parent.mkdir(parents=True, exist_ok=True)
+            p.write_text(sub_text, encoding="utf-8")
+            print(f"  ✅ {p}")
+        else:
+            print(f"  ✅ {p} skipped")
 
 
     # Language index via create_toc_v5 (absolute links)
     idx: Path = h2s[0]["lang_index_path"]
     toc_md = create_toc_v5(str(master_path), link_prefix="/")
     idx_lines: List[str] = []
-    if preamble.strip():
-        idx_lines += [preamble.rstrip(), ""]
-    # idx_lines += ["## Contents💦 ", "", toc_md]
-    idx.parent.mkdir(parents=True, exist_ok=True)
-    idx.write_text("\n".join(idx_lines).rstrip() + "\n", encoding="utf-8")
-    print(f"  ✅ {idx}")
+    if preamble and preamble["description"].strip():
+        idx_lines += [preamble["description"].rstrip(), ""]
+
+    idx_lines += [ toc_md ]
+    idx_text = "\n".join(idx_lines).rstrip() + "\n"
+    if not idx.exists() or idx.read_text(encoding="utf-8") != idx_text:
+        idx.parent.mkdir(parents=True, exist_ok=True)
+        idx.write_text(idx_text, encoding="utf-8")
+        print(f"  ✅ SUB INDEX {idx}")
+    else:
+        print(f"  ✅ SUB INDEX {idx} skipped")
 
     # section_title = ""
     # yml_lang_path = master_path.parent / f"_quarto-{lang}.yml"
@@ -749,8 +767,13 @@ def split_master_qmd(master_path: Path, *, toc: bool = True ) -> None:
     print(f"[DEBUG] {yml_lang_path} sidebar = {sidebar}")
 
     if sidebar:
-        yml_lang_path.write_text("\n".join(yml_lang_lines) + "\n", encoding="utf-8")
-        print(f"  ✅ {yml_lang_path}")
+
+        yml_text = "\n".join(yml_lang_lines) + "\n"
+        if not yml_lang_path.exists() or yml_lang_path.read_text(encoding="utf-8") != yml_text:
+            yml_lang_path.write_text(yml_text, encoding="utf-8")
+            print(f"  ✅ {yml_lang_path}")
+        else:
+            print(f"  =  {yml_lang_path} (unchanged)")
     else:
         print(f"  = {yml_lang_path} (suppressed)")
 
@@ -763,6 +786,7 @@ def split_master_qmd(master_path: Path, *, toc: bool = True ) -> None:
 
 from pathlib import Path
 import shutil
+from lib.strip_header_comments import strip_header_comments
 
 def copy_lang_qmd(master_path: Path, *, toc: bool = True ) -> None:
     """
@@ -773,10 +797,10 @@ def copy_lang_qmd(master_path: Path, *, toc: bool = True ) -> None:
     print(f"\n→ {master_path}")
     lang = _lang_id_from_filename(master_path)
     dst  = master_path.parent / lang / "index.qmd"
-    dst.parent.mkdir(parents=True, exist_ok=True)
 
     # Copy master -> <lang>/index.qmd (idempotent) & read front matter
     src_text = master_path.read_text(encoding="utf-8")
+    src_text = strip_header_comments(src_text)
 
     frontmatter = parse_frontmatter(src_text)
     # Follow front matter flag (default True, explicit false suppresses YAML)
@@ -788,6 +812,7 @@ def copy_lang_qmd(master_path: Path, *, toc: bool = True ) -> None:
         src_text = src_text + f"\n{{{{< include /_sidebar-{lang}.generated.md >}}}}\n"
 
     if not dst.exists() or dst.read_text(encoding="utf-8") != src_text:
+        dst.parent.mkdir(parents=True, exist_ok=True)
         dst.write_text(src_text, encoding="utf-8")
         print(f"  ✅ {dst}")
     else:
@@ -827,6 +852,8 @@ def clean_directories_except_attachments_qmd( root: Path ):
             shutil.rmtree(item)
 
 
+import traceback
+
 def qmd_all_masters( qmd_splitter, root: Path, *args, **kwargs) -> None:
 
     # v3.2: require Path; explicit; root must be an existing directory (error if file/nonexistent)
@@ -848,6 +875,7 @@ def qmd_all_masters( qmd_splitter, root: Path, *args, **kwargs) -> None:
             qmd_splitter(p, *args, **kwargs)
         except Exception as e:
             print(f"  ✗ {p.name}: {e}")
+            traceback.print_exc()
 
 
 # def create_toc( input_qmd ):
