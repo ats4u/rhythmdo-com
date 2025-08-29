@@ -43,9 +43,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-20f0bb15563355c1e44f617af1c12445.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-0c4f99ca063732cdea1ea94a4cfbb502.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../site_libs/bootstrap/bootstrap-20f0bb15563355c1e44f617af1c12445.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-9157e248c6cc26d3f48c44c061cf9eac.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-ef1fe764e2cdb7979e9dbfdd83454407.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-9157e248c6cc26d3f48c44c061cf9eac.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -76,6 +76,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="../../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 <script async="" type="module" src="../../assets/ats4u-twitter-video.mjs"></script>
 <link href="../../assets/groovespace.css" rel="stylesheet">
 <script async="" type="module" src="../../assets/groovespace.mjs"></script>
@@ -478,25 +481,46 @@ ul.task-list li input[type="checkbox"] {
   </ul></li>
   <li><a href="#英語の発音の基礎" id="toc-英語の発音の基礎" class="nav-link" data-scroll-target="#英語の発音の基礎">英語の発音の基礎</a>
   <ul>
-  <li><a href="#凡例" id="toc-凡例" class="nav-link" data-scroll-target="#凡例">凡例</a>
+  <li><a href="#英語の方言の一覧" id="toc-英語の方言の一覧" class="nav-link" data-scroll-target="#英語の方言の一覧">英語の方言の一覧</a></li>
+  <li><a href="#方言の略称" id="toc-方言の略称" class="nav-link" data-scroll-target="#方言の略称">方言の略称</a></li>
+  <li><a href="#英語の方言の一覧英語での説明" id="toc-英語の方言の一覧英語での説明" class="nav-link" data-scroll-target="#英語の方言の一覧英語での説明">英語の方言の一覧(英語での説明)</a></li>
+  <li><a href="#方言による子音変化一覧" id="toc-方言による子音変化一覧" class="nav-link" data-scroll-target="#方言による子音変化一覧">方言による子音変化一覧</a></li>
+  <li><a href="#方言別-子音変化マトリクス" id="toc-方言別-子音変化マトリクス" class="nav-link" data-scroll-target="#方言別-子音変化マトリクス">方言別 子音変化マトリクス</a></li>
+  <li><a href="#方言による発音変化一覧-overview-of-dialectal-pronunciation-changes" id="toc-方言による発音変化一覧-overview-of-dialectal-pronunciation-changes" class="nav-link" data-scroll-target="#方言による発音変化一覧-overview-of-dialectal-pronunciation-changes">方言による発音変化一覧 (Overview of Dialectal Pronunciation Changes)</a></li>
+  <li><a href="#英語で使われる発音のipa一覧" id="toc-英語で使われる発音のipa一覧" class="nav-link" data-scroll-target="#英語で使われる発音のipa一覧">英語で使われる発音のIPA一覧</a>
   <ul>
-  <li><a href="#略称" id="toc-略称" class="nav-link" data-scroll-target="#略称">略称</a></li>
+  <li><a href="#破裂音-plosives" id="toc-破裂音-plosives" class="nav-link" data-scroll-target="#破裂音-plosives">1. 破裂音 (Plosives)</a></li>
+  <li><a href="#鼻音-nasals" id="toc-鼻音-nasals" class="nav-link" data-scroll-target="#鼻音-nasals">2. 鼻音 (Nasals)</a></li>
+  <li><a href="#震え音-trills" id="toc-震え音-trills" class="nav-link" data-scroll-target="#震え音-trills">3. 震え音 (Trills)</a></li>
+  <li><a href="#はじき音-tapsflaps" id="toc-はじき音-tapsflaps" class="nav-link" data-scroll-target="#はじき音-tapsflaps">4. はじき音 (Taps/Flaps)</a></li>
+  <li><a href="#摩擦音-fricatives" id="toc-摩擦音-fricatives" class="nav-link" data-scroll-target="#摩擦音-fricatives">5. 摩擦音 (Fricatives)</a></li>
+  <li><a href="#側面摩擦音-lateral-fricatives" id="toc-側面摩擦音-lateral-fricatives" class="nav-link" data-scroll-target="#側面摩擦音-lateral-fricatives">6. 側面摩擦音 (Lateral Fricatives)</a></li>
+  <li><a href="#接近音-approximants" id="toc-接近音-approximants" class="nav-link" data-scroll-target="#接近音-approximants">7. 接近音 (Approximants)</a></li>
+  <li><a href="#側面接近音-lateral-approximants" id="toc-側面接近音-lateral-approximants" class="nav-link" data-scroll-target="#側面接近音-lateral-approximants">8. 側面接近音 (Lateral Approximants)</a></li>
   </ul></li>
-  <li><a href="#母音" id="toc-母音" class="nav-link" data-scroll-target="#母音">母音</a>
+  <li><a href="#音韻規則を表す表記法spe" id="toc-音韻規則を表す表記法spe" class="nav-link" data-scroll-target="#音韻規則を表す表記法spe">音韻規則を表す表記法(SPE)</a></li>
+  <li><a href="#音韻規則を表す時の発音変化位置の用語" id="toc-音韻規則を表す時の発音変化位置の用語" class="nav-link" data-scroll-target="#音韻規則を表す時の発音変化位置の用語">音韻規則を表す時の発音変化位置の用語</a></li>
+  <li><a href="#発音用語集" id="toc-発音用語集" class="nav-link" data-scroll-target="#発音用語集">発音用語集</a>
+  <ul>
+  <li><a href="#調音点places-of-articulation" id="toc-調音点places-of-articulation" class="nav-link" data-scroll-target="#調音点places-of-articulation">調音点（Places of Articulation）</a></li>
+  <li><a href="#調音様式manners-of-articulation" id="toc-調音様式manners-of-articulation" class="nav-link" data-scroll-target="#調音様式manners-of-articulation">調音様式（Manners of Articulation）</a></li>
+  <li><a href="#音声過程phonological-processes" id="toc-音声過程phonological-processes" class="nav-link" data-scroll-target="#音声過程phonological-processes">音声過程（Phonological Processes）</a></li>
+  <li><a href="#その他の基本用語other-key-terms" id="toc-その他の基本用語other-key-terms" class="nav-link" data-scroll-target="#その他の基本用語other-key-terms">その他の基本用語（Other Key Terms）</a></li>
+  </ul></li>
+  <li><a href="#英語で使われる主な母音" id="toc-英語で使われる主な母音" class="nav-link" data-scroll-target="#英語で使われる主な母音">英語で使われる主な母音</a>
   <ul>
   <li><a href="#単母音" id="toc-単母音" class="nav-link" data-scroll-target="#単母音">単母音</a></li>
   <li><a href="#二重母音滑り音" id="toc-二重母音滑り音" class="nav-link" data-scroll-target="#二重母音滑り音">二重母音（滑り音）</a></li>
   <li><a href="#r-付きr-colored複合" id="toc-r-付きr-colored複合" class="nav-link" data-scroll-target="#r-付きr-colored複合">r 付き（r-colored）複合</a></li>
   </ul></li>
-  <li><a href="#子音" id="toc-子音" class="nav-link" data-scroll-target="#子音">子音</a>
+  <li><a href="#英語で使われる主な子音" id="toc-英語で使われる主な子音" class="nav-link" data-scroll-target="#英語で使われる主な子音">英語で使われる主な子音</a>
   <ul>
-  <li><a href="#破裂音-plosives" id="toc-破裂音-plosives" class="nav-link" data-scroll-target="#破裂音-plosives">破裂音 (Plosives)</a></li>
+  <li><a href="#破裂音-plosives-1" id="toc-破裂音-plosives-1" class="nav-link" data-scroll-target="#破裂音-plosives-1">破裂音 (Plosives)</a></li>
   <li><a href="#破擦音-affricates" id="toc-破擦音-affricates" class="nav-link" data-scroll-target="#破擦音-affricates">破擦音 (Affricates)</a></li>
   <li><a href="#歯摩擦音-fricatives" id="toc-歯摩擦音-fricatives" class="nav-link" data-scroll-target="#歯摩擦音-fricatives">歯摩擦音 (Fricatives)</a></li>
-  <li><a href="#鼻音-nasals" id="toc-鼻音-nasals" class="nav-link" data-scroll-target="#鼻音-nasals">鼻音 (Nasals)</a></li>
-  <li><a href="#接近音-approximants" id="toc-接近音-approximants" class="nav-link" data-scroll-target="#接近音-approximants">接近音 (Approximants)</a></li>
+  <li><a href="#鼻音-nasals-1" id="toc-鼻音-nasals-1" class="nav-link" data-scroll-target="#鼻音-nasals-1">鼻音 (Nasals)</a></li>
+  <li><a href="#接近音-approximants-1" id="toc-接近音-approximants-1" class="nav-link" data-scroll-target="#接近音-approximants-1">接近音 (Approximants)</a></li>
   <li><a href="#側面接近音-lateral" id="toc-側面接近音-lateral" class="nav-link" data-scroll-target="#側面接近音-lateral">側面接近音 (Lateral)</a></li>
-  <li><a href="#英語の-子音転訛一覧" id="toc-英語の-子音転訛一覧" class="nav-link" data-scroll-target="#英語の-子音転訛一覧">英語の 子音転訛一覧</a></li>
   </ul></li>
   <li><a href="#使い分けの要点最小セット" id="toc-使い分けの要点最小セット" class="nav-link" data-scroll-target="#使い分けの要点最小セット">使い分けの要点（最小セット）</a></li>
   <li><a href="#方言別子音入れ替わりまとめ" id="toc-方言別子音入れ替わりまとめ" class="nav-link" data-scroll-target="#方言別子音入れ替わりまとめ">方言別子音入れ替わりまとめ</a></li>
@@ -619,6 +643,16 @@ ul.task-list li input[type="checkbox"] {
 <p>ここで起こっている相違の対応表を作ると次の様になります。</p>
 <style>
 
+  /* 1) Let tables scroll horizontally instead of breaking layout */
+  .quarto-container table.table {
+    display: block;          /* enables overflow on the element itself */
+    width :100%;
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-gutter: stable both-edges;
+  }
+
   table.pron {
     width:100%;
     height:auto;
@@ -654,7 +688,41 @@ ul.task-list li input[type="checkbox"] {
     background-color: #330;
   }
 
-  .pron2 :is( th, td ) {
+  .tbl-second-column-wrapping td:nth-child(2) {
+    white-space:wrap;
+  }
+  .tbl-third-column-wrapping td:nth-child(3) {
+    white-space:wrap;
+  }
+  .tbl-forth-column-wrapping td:nth-child(4) {
+    white-space:wrap;
+  }
+  .tbl-header-center th {
+    text-align : center !important;
+  }
+  .tbl-pron2 :is( th, td ) {
+    font-size: 0.8em;
+    min-height:40px;
+    margin : 2px;
+    padding : 5px;
+    vertical-align: center;
+    white-space:nowrap;
+  }
+  body.quarto-light .tbl-pron2 :is( th, td ) {
+    border: solid 1px black;
+    background-color:auto;
+  }
+  body.quarto-dark .tbl-pron2 :is( th, td ) {
+    border: solid 1px lightgreen;
+    background-color:auto;
+  }
+
+/*
+  table.pron3 { 
+    table-layout: fixed; /* prevents auto expansion */
+  }
+*/
+  .pron3 :is( th, td ) {
     font-size: 0.8em;
     min-height:40px;
     margin : 10px;
@@ -662,15 +730,10 @@ ul.task-list li input[type="checkbox"] {
     vertical-align: center;
     white-space:nowrap;
   }
-  body.quarto-light .pron2 :is( th, td ) {
-    border: solid 1px black;
-    background-color:auto;
+  table.pron3 thead :is( td, th ) {
   }
-  body.quarto-dark .pron2 :is( th, td ) {
-    border: solid 1px lightgreen;
-    background-color:auto;
+  table.pron3 tbody :is( td ) {
   }
-
 
 </style>
 <table class="pron">
@@ -839,56 +902,1744 @@ ul.task-list li input[type="checkbox"] {
 <p>これに対処するためには「英語を学び始めた最初から訛りに対する知識を身につける」しかありません。こういうととても難しいことのように思えますが、実は英語の訛りの規則は、とてもよく研究されており、コンパクトにまとまっています。</p>
 <p>ジャズのリズムと米国南部方言には強い関連性があります。そしてAAVEと呼ばれる『黒人英語』は、ジャズのリズムとは切っても切り離せない深い関連性があります。ジャズを学ぶためには英語の発音を学ぶ事が大切ですが、特にこの米国南部方言と黒人英語の２つの英語の方言を学ぶことはとても重要です。</p>
 <p>ここでは標準的な英語と数多く存在する英語の方言の理解に必要な発音を順に学んでいきます。</p>
-<section id="凡例" class="level3">
-<h3 class="anchored" data-anchor-id="凡例">凡例</h3>
-<section id="略称" class="level4">
-<h4 class="anchored" data-anchor-id="略称">略称</h4>
-<table class="caption-top table">
+<section id="英語の方言の一覧" class="level3">
+<h3 class="anchored" data-anchor-id="英語の方言の一覧">英語の方言の一覧</h3>
+<table class="tbl-pron2 tbl-header-center tbl-second-column-wrapping caption-top table">
 <colgroup>
-<col style="width: 20%">
-<col style="width: 79%">
+<col style="width: 1%">
+<col style="width: 9%">
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: center;">略記</th>
-<th style="text-align: center;">解説</th>
+<th>日本語名</th>
+<th>日本語の解説</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>アメリカ英語 <span id="GA-ja"></span></td>
+<td>全米で広く使われる標準的な発音。地域色が薄く、中立的なアクセント。</td>
+</tr>
+<tr class="even">
+<td>ニューヨーク英語 <span id="NYCE-ja"></span></td>
+<td>ニューヨーク市を中心とする都市型の英語。高めの /ɔ/（<em>coffee</em> など）、短母音 /æ/ の分裂（<em>bad</em> と <em>bat</em> の対立）、独特のイントネーション。高齢層は非R音声、若年層ではR音声化が進む。</td>
+</tr>
+<tr class="odd">
+<td>ユダヤ系米国英語 <span id="JAE-ja"></span></td>
+<td>ユダヤ系米国人に結びつく英語。語彙・談話標識・イントネーションにイディッシュ語やヘブライ語の影響。地域差が大きく、NYC英語との重なりも見られる。</td>
+</tr>
+<tr class="even">
+<td>アメリカ南部方言 <span id="SAmE-ja"></span></td>
+<td>米国南部で話される英語。古い世代では非R音声が多く、二重母音の単母音化や特徴的な母音変化が見られる。</td>
+</tr>
+<tr class="odd">
+<td>アフリカ系米国英語/黒人英語 <span id="AAVE-ja"></span></td>
+<td>アフリカ系アメリカ人の共同体で発達した体系的な変種。子音連結の簡略化、<em>be</em> の習慣的用法、独特の発音体系が特徴。</td>
+</tr>
+<tr class="even">
+<td>オーストラリア英語 <span id="AusE-ja"></span></td>
+<td>オーストラリアで話される国家的変種。非R音声で、イギリス英語の影響を受けつつ独自の母音変化がある。</td>
+</tr>
+<tr class="odd">
+<td>カナダ英語 <span id="CanE-ja"></span></td>
+<td>カナダで話される英語。R音声を保持し、GAに近いが、<em>about</em> が [əˈbʌʊt] となるなどカナダ特有の母音上げがある。</td>
+</tr>
+<tr class="even">
+<td>スコットランド英語 <span id="ScotE-ja"></span></td>
+<td>スコットランドで話されるR音声の英語。ゲール語とは別で、[ʍ] と [w] の対立や、弾音 /r/ の保持、独特の母音体系がある。</td>
+</tr>
+<tr class="odd">
+<td>アイルランド英語 <span id="IrE-ja"></span></td>
+<td>アイルランドで話される英語。一般にR音声を保持し、/θ/→[t] の変化、二重母音の単母音化、歌うようなイントネーションが特徴。</td>
+</tr>
+<tr class="even">
+<td>容認発音英語 <span id="RP-ja"></span></td>
+<td>イギリスの伝統的な標準発音。上流階級やBBCで用いられたが、現在は使用者が減少している。</td>
+</tr>
+<tr class="odd">
+<td>多文化ロンドン英語 <span id="MLE-ja"></span></td>
+<td>ロンドンの若者文化から生まれた多民族混交の変種。コックニーやエスチュアリの特徴に加え、カリブ系・アフリカ系・南アジア系の影響を含む。</td>
+</tr>
+<tr class="even">
+<td>コックニー英語 <span id="Cockney-ja"></span></td>
+<td>ロンドン東部の労働者階級に根ざした伝統的な方言。ライミングスラング、h脱落、Tの声門化、非R音声が特徴。</td>
+</tr>
+<tr class="odd">
+<td>河口域英語/エスチュアリ英語 <span id="Estuary-ja"></span></td>
+<td>テムズ川河口域を中心に広まった英語。RPとコックニーの中間的な特徴を持ち、Tの声門化や非R音声が見られる。</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="方言の略称" class="level3">
+<h3 class="anchored" data-anchor-id="方言の略称">方言の略称</h3>
+<table class="tbl-pron2 tbl-header-center caption-top table">
+<colgroup>
+<col style="width: 1%">
+<col style="width: 1%">
+<col style="width: 4%">
+<col style="width: 4%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">英語</th>
+<th style="text-align: center;">日本語</th>
+<th>日本語名</th>
+<th>英語名</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td style="text-align: center;"><strong>GA</strong></td>
-<td style="text-align: center;">アメリカ英語 (General American)</td>
+<td style="text-align: center;"><strong>アメ般</strong></td>
+<td><a href="#GA-ja">アメリカ英語</a></td>
+<td><a href="#GA">General American</a></td>
 </tr>
 <tr class="even">
-<td style="text-align: center;"><strong>MLE</strong></td>
-<td style="text-align: center;">多文化ロンドン英語 (Multicultural London English</td>
+<td style="text-align: center;"><strong>NYCE</strong></td>
+<td style="text-align: center;"><strong>アメNY</strong></td>
+<td><a href="#NYCE-ja">ニューヨーク英語</a></td>
+<td><a href="#NYCE">New York City English</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><strong>JAE</strong></td>
+<td style="text-align: center;"><strong>アメユ</strong></td>
+<td><a href="#JAE-ja">ユダヤ系米国英語</a></td>
+<td><a href="#JAE">Jewish American English</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><strong>SAmE</strong></td>
+<td style="text-align: center;"><strong>アメ南</strong></td>
+<td><a href="#SAmE-ja">アメリカ南部方言</a></td>
+<td><a href="#SAmE">Southern American English</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;"><strong>AAVE</strong></td>
-<td style="text-align: center;">黒人英語 (African American Vernacular English)</td>
+<td style="text-align: center;"><strong>アメ黒</strong></td>
+<td><a href="#AAVE-ja">アフリカ系米国英語/黒人英語</a></td>
+<td><a href="#AAVE">African American Vernacular English</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><strong>AusE</strong></td>
+<td style="text-align: center;"><strong>オス英</strong></td>
+<td><a href="#AusE-ja">オーストラリア英語</a></td>
+<td><a href="#AusE">Australian English</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><strong>CanE</strong></td>
+<td style="text-align: center;"><strong>カナ英</strong></td>
+<td><a href="#CanE-ja">カナダ英語</a></td>
+<td><a href="#CanE">Canadian English</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><strong>ScotE</strong></td>
+<td style="text-align: center;"><strong>スコ英</strong></td>
+<td><a href="#ScotE-ja">スコットランド英語</a></td>
+<td><a href="#ScotE">Scottish English</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><strong>IrE</strong></td>
+<td style="text-align: center;"><strong>アイ英</strong></td>
+<td><a href="#IrE-ja">アイルランド英語</a></td>
+<td><a href="#IrE">Irish English</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><strong>RP</strong></td>
+<td style="text-align: center;"><strong>ブリ英</strong></td>
+<td><a href="#RP-ja">容認発音英語</a></td>
+<td><a href="#RP">Received Pronunciation</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"><strong>MLE</strong></td>
+<td style="text-align: center;"><strong>多英</strong></td>
+<td><a href="#MLE-ja">多文化ロンドン英語</a></td>
+<td><a href="#MLE">Multicultural London English</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: center;"><strong>Cockney</strong></td>
-<td style="text-align: center;">コックニー英語（東ロンドンの労働者階級英語）</td>
+<td style="text-align: center;"><strong>コク英</strong></td>
+<td><a href="#Cockney-ja">コックニー英語</a></td>
+<td><a href="#Cockney">Cockney</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;"><strong>Estuary</strong></td>
-<td style="text-align: center;">現代ロンドン英語(イギリス西南部テムズ川流域の英語)</td>
+<td style="text-align: center;"><strong>エス英</strong></td>
+<td><a href="#Estuary-ja">河口域英語/エスチュアリ英語</a></td>
+<td><a href="#Estuary">Estuary English</a></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="英語の方言の一覧英語での説明" class="level3">
+<h3 class="anchored" data-anchor-id="英語の方言の一覧英語での説明">英語の方言の一覧(英語での説明)</h3>
+<table class="tbl-pron2 tbl-header-center tbl-second-column-wrapping caption-top table">
+<colgroup>
+<col style="width: 1%">
+<col style="width: 1%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>English Name</th>
+<th>English Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>General American <span id="GA"></span></td>
+<td>General American (neutralized, “newscaster” type American accent).</td>
+</tr>
+<tr class="even">
+<td>New York City English <span id="NYCE"></span></td>
+<td>Urban variety centered in New York City; raised THOUGHT vowel [ɔ] (<em>coffee</em>), split short-a system (e.g., <em>bad</em> vs <em>bat</em>), distinctive intonation; older speakers often non-rhotic, younger speakers increasingly rhotic.</td>
+</tr>
+<tr class="odd">
+<td>Jewish American English <span id="JAE"></span></td>
+<td>American English associated with Jewish Americans; influenced by Yiddish and Hebrew in lexicon, discourse markers, and prosody; overlaps with NYC English in some communities; highly variable by region and community.</td>
+</tr>
+<tr class="even">
+<td>Southern American English <span id="SAmE"></span></td>
+<td>Varieties spoken in the U.S. South; noted for non-rhoticity in older speech, monophthongal diphthongs, and distinctive vowel shifts.</td>
+</tr>
+<tr class="odd">
+<td>African American Vernacular English <span id="AAVE"></span></td>
+<td>A systematic, rule-governed variety of English historically associated with African American communities. Known for consonant cluster reduction, habitual <em>be</em>, and distinctive phonology.</td>
+</tr>
+<tr class="even">
+<td>Australian English <span id="AusE"></span></td>
+<td>National variety of English in Australia; shares features with BrE but with unique vowel shifts and a non-rhotic system.</td>
+</tr>
+<tr class="odd">
+<td>Canadian English <span id="CanE"></span></td>
+<td>English spoken in Canada; often rhotic, close to GA but with unique features like Canadian Raising (<em>about → [əˈbʌʊt]</em>).</td>
+</tr>
+<tr class="even">
+<td>Scottish English <span id="ScotE"></span></td>
+<td>Encompasses rhotic varieties spoken in Scotland, distinct from Scottish Gaelic. Retains [ʍ] vs [w] contrast, has tapped /r/, and unique vowel system.</td>
+</tr>
+<tr class="odd">
+<td>Irish English <span id="IrE"></span></td>
+<td>Varieties spoken in Ireland; generally rhotic, with TH-stopping (<em>think → tink</em>), monophthongal FACE/GOAT vowels, and a “sing-song” intonation.</td>
+</tr>
+<tr class="even">
+<td>Received Pronunciation <span id="RP"></span></td>
+<td>Received Pronunciation (the “standard” prestige British accent, though less common today).</td>
+</tr>
+<tr class="odd">
+<td>Multicultural London English <span id="MLE"></span></td>
+<td>Multiethnolect developed in London; combines Cockney/Estuary features with Caribbean, African, and South Asian influences.</td>
+</tr>
+<tr class="even">
+<td>Cockney <span id="Cockney"></span></td>
+<td>Traditional working-class dialect of East London; famous for rhyming slang, h-dropping, T-glottalization, and non-rhoticity.</td>
+</tr>
+<tr class="odd">
+<td>Estuary English <span id="Estuary"></span></td>
+<td>Southeastern British variety along the Thames Estuary; intermediate between RP and Cockney, with features like T-glottalization and non-rhoticity.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="方言による子音変化一覧" class="level3">
+<h3 class="anchored" data-anchor-id="方言による子音変化一覧">方言による子音変化一覧</h3>
+<table class="tbl-pron2 tbl-header-center tbl-forth-column-wrapping caption-top table">
+<colgroup>
+<col style="width: 1%">
+<col style="width: 1%">
+<col style="width: 1%">
+<col style="width: 10%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>英語名</th>
+<th>日本語名</th>
+<th style="text-align: center;">発音変化(IPA)</th>
+<th>日本語での解説</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>TH-fronting</td>
+<td>THフロンティング</td>
+<td style="text-align: center;">/θ/ → [f]</td>
+<td><strong>無声歯擦音</strong> /θ/ が <strong>無声唇歯摩擦音</strong> [f] に置き換わる。「thin」→ [fɪn]。</td>
+</tr>
+<tr class="even">
+<td>TH-stopping</td>
+<td>THストッピング</td>
+<td style="text-align: center;">/ð/ → [d]</td>
+<td><strong>有声歯擦音</strong> /ð/ が <strong>有声歯茎破裂音</strong> [d] に変化する。「this」→ [dɪs]。</td>
+</tr>
+<tr class="odd">
+<td>TH-fronting (voiced)</td>
+<td>有声THフロンティング</td>
+<td style="text-align: center;">/ð/ → [v]</td>
+<td><strong>有声歯擦音</strong> /ð/ が <strong>有声唇歯摩擦音</strong> [v] に変化する。「brother」→ [brʌvə]。</td>
+</tr>
+<tr class="even">
+<td>T-glottalization</td>
+<td>T声門化</td>
+<td style="text-align: center;">/t/ → [ʔ]</td>
+<td><strong>無声歯茎破裂音</strong> /t/ が <strong>声門閉鎖音</strong> [ʔ] に置き換わる。「butter」→ [bʌʔə]。</td>
+</tr>
+<tr class="odd">
+<td>Flapping</td>
+<td>フラッピング</td>
+<td style="text-align: center;">/t, d/ → [ɾ]</td>
+<td>母音間の <strong>無声/有声歯茎破裂音</strong> /t, d/ が <strong>歯茎はじき音</strong> [ɾ] として実現される。「water」→ [wɔɾə]。</td>
+</tr>
+<tr class="even">
+<td>-ing dropping</td>
+<td>-ing 脱落</td>
+<td style="text-align: center;">/ŋ/ → [n]</td>
+<td>語末の <strong>軟口蓋鼻音</strong> /ŋ/ が <strong>歯茎鼻音</strong> [n] に変化する。「walking」→ [wɔːkɪn]。</td>
+</tr>
+<tr class="odd">
+<td>L-vocalization</td>
+<td>Lヴォーカリゼーション</td>
+<td style="text-align: center;">/l/ → [w, o]</td>
+<td>音節末の <strong>歯茎側面接近音</strong> /l/ が母音的な音（[w], [o]）に変わる。「people」→ [piːpo]。</td>
+</tr>
+<tr class="even">
+<td>h-dropping</td>
+<td>h脱落</td>
+<td style="text-align: center;">/h/ → ∅</td>
+<td>語頭の <strong>声門摩擦音</strong> /h/ が脱落する。「house」→ [aʊs]。</td>
+</tr>
+<tr class="odd">
+<td>Yod-coalescence</td>
+<td>ヨッド合流</td>
+<td style="text-align: center;">/tj, dj/ → [tʃ, dʒ]</td>
+<td>/tj/, /dj/ が <strong>後部歯茎破擦音</strong> [tʃ], [dʒ] に変化する。「tune」→ [tʃuːn]。</td>
+</tr>
+<tr class="even">
+<td>Yod-dropping</td>
+<td>ヨッド脱落</td>
+<td style="text-align: center;">/juː/ → [uː]</td>
+<td>/juː/ の <strong>硬口蓋接近音</strong> /j/ が脱落する。「new」→ [nuː]。</td>
+</tr>
+<tr class="odd">
+<td>wh–w contrast</td>
+<td>wh-wコントラスト</td>
+<td style="text-align: center;">/hw/ → [ʍ]</td>
+<td><strong>無声両唇軟口蓋接近音</strong> [ʍ] と <strong>有声両唇軟口蓋接近音</strong> [w] の対立を保持する。「which」 [ʍɪtʃ] ≠ 「witch」 [wɪtʃ]。</td>
+</tr>
+<tr class="even">
+<td>Final cluster simplification</td>
+<td>多重末子音脱落</td>
+<td style="text-align: center;">e.g.&nbsp;/-st/ → /-s/</td>
+<td>語末の <strong>子音群</strong> が簡略化される。「test」→ [tɛs]。</td>
+</tr>
+<tr class="odd">
+<td>t-deletion</td>
+<td>t脱落</td>
+<td style="text-align: center;">/nt/ → [n]</td>
+<td>/n/ の後の <strong>無声歯茎破裂音</strong> /t/ が脱落する。「winter」→ [wɪnə]。</td>
+</tr>
+<tr class="even">
+<td>Linking r</td>
+<td>リンキングr</td>
+<td style="text-align: center;">∅ → [ɹ] (word boundary)</td>
+<td>語境界で母音間に <strong>歯茎接近音</strong> [ɹ] が挿入される。「law and order」→ [lɔːɹ ənd ɔːdə]。</td>
+</tr>
+<tr class="odd">
+<td>Intrusive r</td>
+<td>侵襲的R</td>
+<td style="text-align: center;">∅ → [ɹ] (epenthetic)</td>
+<td>本来ない箇所に <strong>歯茎接近音</strong> [ɹ] が挿入される。「idea of」→ [aɪˈdɪəɹ əv]。</td>
+</tr>
+<tr class="even">
+<td>Non-rhoticity</td>
+<td>非R音声</td>
+<td style="text-align: center;">/ɹ/ → ∅</td>
+<td>音節末の <strong>歯茎接近音</strong> /ɹ/ が発音されない。「car」→ [kɑː]。</td>
+</tr>
+<tr class="odd">
+<td>Retroflex/bunched r</td>
+<td>Rの反り舌/盛り舌</td>
+<td style="text-align: center;">(different [ɹ] types)</td>
+<td>/r/ が <strong>そり舌接近音</strong>（舌先を後方に反らす）や <strong>束状接近音</strong>（舌全体を盛り上げる）で実現される。</td>
+</tr>
+<tr class="even">
+<td>Dentalization</td>
+<td>歯音化</td>
+<td style="text-align: center;">/t, d, n/ → [t̪, d̪, n̪]</td>
+<td><strong>歯茎破裂音/鼻音</strong> /t, d, n/ が <strong>歯音</strong> [t̪, d̪, n̪] として実現される。「tenth」→ [tɛn̪θ]。</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="方言別-子音変化マトリクス" class="level3">
+<h3 class="anchored" data-anchor-id="方言別-子音変化マトリクス">方言別 子音変化マトリクス</h3>
+<p>Got it — thanks for the precision. So:</p>
+<ul>
+<li>Every <strong>“yes”</strong> = plain <strong>●</strong>.</li>
+<li>Every <strong>“yes, but limited”</strong> = <strong>●[^id]</strong> (with the footnote marker, but no inline explanation).</li>
+<li>The table body shows only dots and markers, no text clutter.</li>
+<li>Footnotes section (after table) holds the full explanations.</li>
+</ul>
+<p>Here’s the corrected version:</p>
+</section>
+<section id="方言による発音変化一覧-overview-of-dialectal-pronunciation-changes" class="level3">
+<h3 class="anchored" data-anchor-id="方言による発音変化一覧-overview-of-dialectal-pronunciation-changes">方言による発音変化一覧 (Overview of Dialectal Pronunciation Changes)</h3>
+<table class="tbl-pron2 tbl-header-center caption-top table">
+<colgroup>
+<col style="width: 17%">
+<col style="width: 13%">
+<col style="width: 9%">
+<col style="width: 11%">
+<col style="width: 11%">
+<col style="width: 13%">
+<col style="width: 13%">
+<col style="width: 10%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>変化名</th>
+<th>変化</th>
+<th style="text-align: center;"><p>アメ般</p></th>
+<th style="text-align: center;"><p>アメ南</p></th>
+<th style="text-align: center;"><p>アメ黒</p></th>
+<th style="text-align: center;"><p>コク英</p></th>
+<th style="text-align: center;"><p>エス英</p></th>
+<th style="text-align: center;"><p>多英</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>TH-fronting</td>
+<td>/θ/ → [f]</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">●<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></td>
+<td style="text-align: center;">●<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></td>
+<td style="text-align: center;">●</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">●</td>
+</tr>
+<tr class="even">
+<td>TH-stopping</td>
+<td>/ð/ → [d]</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">●</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td>TH-fronting (voiced)</td>
+<td>/ð/ → [v]</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">●</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">●</td>
+</tr>
+<tr class="even">
+<td>T-glottalization</td>
+<td>/t/ → [ʔ]</td>
+<td style="text-align: center;">●<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">●<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a></td>
+<td style="text-align: center;">●</td>
+<td style="text-align: center;">●</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td>Flapping</td>
+<td>/t, d/ → [ɾ]</td>
+<td style="text-align: center;">●</td>
+<td style="text-align: center;">●</td>
+<td style="text-align: center;">●</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td>-ing → -in’</td>
+<td>/ŋ/ → [n]</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">●</td>
+<td style="text-align: center;">●</td>
+<td style="text-align: center;">●</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td>L-vocalization</td>
+<td>/l/ → [w, o]</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">●</td>
+<td style="text-align: center;">●</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td>h-dropping</td>
+<td>/h/ → ∅</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">●</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td>Yod-coalescence</td>
+<td>/tj, dj/ → [tʃ, dʒ]</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">●</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">●</td>
+</tr>
+<tr class="even">
+<td>Yod-dropping</td>
+<td>/juː/ → [uː]</td>
+<td style="text-align: center;">●</td>
+<td style="text-align: center;">●</td>
+<td style="text-align: center;">●<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td>wh–w contrast</td>
+<td>/hw/ → [ʍ]</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">●<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a></td>
+<td style="text-align: center;">●<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td>Final cluster simplification</td>
+<td>(e.g., /-st/ → /-s/)</td>
+<td style="text-align: center;">●</td>
+<td style="text-align: center;">●</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td>t-deletion</td>
+<td>/nt/ → [n]</td>
+<td style="text-align: center;">●</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">●</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td>Linking r</td>
+<td>∅ → [ɹ]</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">●</td>
+<td style="text-align: center;">●</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td>Intrusive r</td>
+<td>∅ → [ɹ] (epenthetic)</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">●</td>
+<td style="text-align: center;">●</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td>Non-rhoticity</td>
+<td>/ɹ/ → ∅</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">●</td>
+<td style="text-align: center;">●</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td>Retroflex/bunched r</td>
+<td>(r-coloring type)</td>
+<td style="text-align: center;">●</td>
+<td style="text-align: center;">●</td>
+<td style="text-align: center;">●</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td>Dentalization</td>
+<td>t, d, n → [t̪, d̪, n̪]</td>
+<td style="text-align: center;">●</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">●</td>
+<td style="text-align: center;">●</td>
+<td style="text-align: center;">●</td>
+</tr>
+</tbody>
+</table>
+<aside id="footnotes" class="footnotes footnotes-end-of-block" role="doc-footnote">
+<ol>
+<li id="fn1"><p><strong>TH-fronting (Southern, AAVE)</strong> — occurs mainly <strong>word-finally</strong> (e.g., <em>mouth → mouf</em>), not across all positions.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p><strong>TH-fronting (Southern, AAVE)</strong> — occurs mainly <strong>word-finally</strong> (e.g., <em>mouth → mouf</em>), not across all positions.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p><strong>T-glottalization (GA, AAVE)</strong> — appears in restricted positions, esp.&nbsp;<strong>word-final before consonants</strong> (<em>button</em> [ˈbʌʔn̩], <em>cat</em> [kæʔ]).<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p><strong>T-glottalization (GA, AAVE)</strong> — appears in restricted positions, esp.&nbsp;<strong>word-final before consonants</strong> (<em>button</em> [ˈbʌʔn̩], <em>cat</em> [kæʔ]).<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p><strong>Yod-dropping (AAVE)</strong> — some varieties reduce /juː/ to [uː], though not systematic.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p><strong>wh–w contrast (Southern, AAVE)</strong> — preservation of [ʍ] vs [w] found in older Southern and some AAVE speech; mostly lost elsewhere.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p><strong>wh–w contrast (Southern, AAVE)</strong> — preservation of [ʍ] vs [w] found in older Southern and some AAVE speech; mostly lost elsewhere.<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</aside>
+<ul>
+<li><strong>●</strong> = strong/characteristic</li>
+<li>( ) = limited / environment-restricted presence</li>
+</ul>
+</section>
+<section id="英語で使われる発音のipa一覧" class="level3">
+<h3 class="anchored" data-anchor-id="英語で使われる発音のipa一覧">英語で使われる発音のIPA一覧</h3>
+<section id="破裂音-plosives" class="level4">
+<h4 class="anchored" data-anchor-id="破裂音-plosives">1. 破裂音 (Plosives)</h4>
+<table class="tbl-pron2 pron3 tbl-header-center caption-top table">
+<colgroup>
+<col style="width: 3%">
+<col style="width: 36%">
+<col style="width: 20%">
+<col style="width: 38%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>IPA</th>
+<th>English Name</th>
+<th>日本語訳</th>
+<th>ひらがな</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>p</td>
+<td>voiceless bilabial plosive</td>
+<td>無声両唇破裂音</td>
+<td>むせいりょうしんはれつおん</td>
+</tr>
+<tr class="even">
+<td>b</td>
+<td>voiced bilabial plosive</td>
+<td>有声両唇破裂音</td>
+<td>ゆうせいりょうしんはれつおん</td>
+</tr>
+<tr class="odd">
+<td>t</td>
+<td>voiceless alveolar plosive</td>
+<td>無声歯茎破裂音</td>
+<td>むせいしけいはれつおん</td>
+</tr>
+<tr class="even">
+<td>d</td>
+<td>voiced alveolar plosive</td>
+<td>有声歯茎破裂音</td>
+<td>ゆうせいしけいはれつおん</td>
+</tr>
+<tr class="odd">
+<td>ʈ</td>
+<td>voiceless retroflex plosive</td>
+<td>無声そり舌破裂音</td>
+<td>むせいそりじたはれつおん</td>
+</tr>
+<tr class="even">
+<td>ɖ</td>
+<td>voiced retroflex plosive</td>
+<td>有声そり舌破裂音</td>
+<td>ゆうせいそりじたはれつおん</td>
+</tr>
+<tr class="odd">
+<td>c</td>
+<td>voiceless palatal plosive</td>
+<td>無声硬口蓋破裂音</td>
+<td>むせいこうこうがいはれつおん</td>
+</tr>
+<tr class="even">
+<td>ɟ</td>
+<td>voiced palatal plosive</td>
+<td>有声硬口蓋破裂音</td>
+<td>ゆうせいこうこうがいはれつおん</td>
+</tr>
+<tr class="odd">
+<td>k</td>
+<td>voiceless velar plosive</td>
+<td>無声軟口蓋破裂音</td>
+<td>むせいなんこうがいはれつおん</td>
+</tr>
+<tr class="even">
+<td>g</td>
+<td>voiced velar plosive</td>
+<td>有声軟口蓋破裂音</td>
+<td>ゆうせいなんこうがいはれつおん</td>
+</tr>
+<tr class="odd">
+<td>q</td>
+<td>voiceless uvular plosive</td>
+<td>無声口蓋垂破裂音</td>
+<td>むせいこうがいすいはれつおん</td>
+</tr>
+<tr class="even">
+<td>ɢ</td>
+<td>voiced uvular plosive</td>
+<td>有声口蓋垂破裂音</td>
+<td>ゆうせいこうがいすいはれつおん</td>
+</tr>
+<tr class="odd">
+<td>ʡ</td>
+<td>voiceless epiglottal plosive</td>
+<td>無声喉頭蓋破裂音</td>
+<td>むせいこうとうがいはれつおん</td>
+</tr>
+<tr class="even">
+<td>ʔ</td>
+<td>glottal stop</td>
+<td>声門閉鎖音</td>
+<td>せいもんへいさおん</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="鼻音-nasals" class="level4">
+<h4 class="anchored" data-anchor-id="鼻音-nasals">2. 鼻音 (Nasals)</h4>
+<table class="tbl-pron2 pron3 tbl-header-center caption-top table">
+<thead>
+<tr class="header">
+<th>IPA</th>
+<th>English Name</th>
+<th>日本語訳</th>
+<th>ひらがな</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>m</td>
+<td>bilabial nasal</td>
+<td>両唇鼻音</td>
+<td>りょうしんびおん</td>
+</tr>
+<tr class="even">
+<td>ɱ</td>
+<td>labiodental nasal</td>
+<td>唇歯鼻音</td>
+<td>しんしびおん</td>
+</tr>
+<tr class="odd">
+<td>n</td>
+<td>alveolar nasal</td>
+<td>歯茎鼻音</td>
+<td>しけいびおん</td>
+</tr>
+<tr class="even">
+<td>ɳ</td>
+<td>retroflex nasal</td>
+<td>そり舌鼻音</td>
+<td>そりじたびおん</td>
+</tr>
+<tr class="odd">
+<td>ɲ</td>
+<td>palatal nasal</td>
+<td>硬口蓋鼻音</td>
+<td>こうこうがいびおん</td>
+</tr>
+<tr class="even">
+<td>ŋ</td>
+<td>velar nasal</td>
+<td>軟口蓋鼻音</td>
+<td>なんこうがいびおん</td>
+</tr>
+<tr class="odd">
+<td>ɴ</td>
+<td>uvular nasal</td>
+<td>口蓋垂鼻音</td>
+<td>こうがいすいびおん</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="震え音-trills" class="level4">
+<h4 class="anchored" data-anchor-id="震え音-trills">3. 震え音 (Trills)</h4>
+<table class="tbl-pron2 pron3 tbl-header-center caption-top table">
+<thead>
+<tr class="header">
+<th>IPA</th>
+<th>English Name</th>
+<th>日本語訳</th>
+<th>ひらがな</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ʙ</td>
+<td>bilabial trill</td>
+<td>両唇ふるえ音</td>
+<td>りょうしんふるえおん</td>
+</tr>
+<tr class="even">
+<td>r</td>
+<td>alveolar trill</td>
+<td>歯茎ふるえ音</td>
+<td>しけいふるえおん</td>
+</tr>
+<tr class="odd">
+<td>ʀ</td>
+<td>uvular trill</td>
+<td>口蓋垂ふるえ音</td>
+<td>こうがいすいふるえおん</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="はじき音-tapsflaps" class="level4">
+<h4 class="anchored" data-anchor-id="はじき音-tapsflaps">4. はじき音 (Taps/Flaps)</h4>
+<table class="tbl-pron2 pron3 tbl-header-center caption-top table">
+<thead>
+<tr class="header">
+<th>IPA</th>
+<th>English Name</th>
+<th>日本語訳</th>
+<th>ひらがな</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ⱱ</td>
+<td>labiodental flap</td>
+<td>唇歯はじき音</td>
+<td>しんしはじきおん</td>
+</tr>
+<tr class="even">
+<td>ɾ</td>
+<td>alveolar tap/flap</td>
+<td>歯茎はじき音</td>
+<td>しけいはじきおん</td>
+</tr>
+<tr class="odd">
+<td>ɽ</td>
+<td>retroflex flap</td>
+<td>そり舌はじき音</td>
+<td>そりじたはじきおん</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="摩擦音-fricatives" class="level4">
+<h4 class="anchored" data-anchor-id="摩擦音-fricatives">5. 摩擦音 (Fricatives)</h4>
+<table class="tbl-pron2 pron3 tbl-header-center caption-top table">
+<colgroup>
+<col style="width: 3%">
+<col style="width: 38%">
+<col style="width: 21%">
+<col style="width: 36%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>IPA</th>
+<th>English Name</th>
+<th>日本語訳</th>
+<th>ひらがな</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ɸ</td>
+<td>voiceless bilabial fricative</td>
+<td>無声両唇摩擦音</td>
+<td>むせいりょうしんまさつおん</td>
+</tr>
+<tr class="even">
+<td>β</td>
+<td>voiced bilabial fricative</td>
+<td>有声両唇摩擦音</td>
+<td>ゆうせいりょうしんまさつおん</td>
+</tr>
+<tr class="odd">
+<td>f</td>
+<td>voiceless labiodental fricative</td>
+<td>無声唇歯摩擦音</td>
+<td>むせいしんしまさつおん</td>
+</tr>
+<tr class="even">
+<td>v</td>
+<td>voiced labiodental fricative</td>
+<td>有声唇歯摩擦音</td>
+<td>ゆうせいしんしまさつおん</td>
+</tr>
+<tr class="odd">
+<td>θ</td>
+<td>voiceless dental fricative</td>
+<td>無声歯摩擦音</td>
+<td>むせいしまさつおん</td>
+</tr>
+<tr class="even">
+<td>ð</td>
+<td>voiced dental fricative</td>
+<td>有声歯摩擦音</td>
+<td>ゆうせいしまさつおん</td>
+</tr>
+<tr class="odd">
+<td>s</td>
+<td>voiceless alveolar fricative</td>
+<td>無声歯茎摩擦音</td>
+<td>むせいしけいまさつおん</td>
+</tr>
+<tr class="even">
+<td>z</td>
+<td>voiced alveolar fricative</td>
+<td>有声歯茎摩擦音</td>
+<td>ゆうせいしけいまさつおん</td>
+</tr>
+<tr class="odd">
+<td>ʃ</td>
+<td>voiceless postalveolar fricative</td>
+<td>無声後部歯茎摩擦音</td>
+<td>むせいこうぶしけいまさつおん</td>
+</tr>
+<tr class="even">
+<td>ʒ</td>
+<td>voiced postalveolar fricative</td>
+<td>有声後部歯茎摩擦音</td>
+<td>ゆうせいこうぶしけいまさつおん</td>
+</tr>
+<tr class="odd">
+<td>ʂ</td>
+<td>voiceless retroflex fricative</td>
+<td>無声そり舌摩擦音</td>
+<td>むせいそりじたまさつおん</td>
+</tr>
+<tr class="even">
+<td>ʐ</td>
+<td>voiced retroflex fricative</td>
+<td>有声そり舌摩擦音</td>
+<td>ゆうせいそりじたまさつおん</td>
+</tr>
+<tr class="odd">
+<td>ç</td>
+<td>voiceless palatal fricative</td>
+<td>無声硬口蓋摩擦音</td>
+<td>むせいこうこうがいまさつおん</td>
+</tr>
+<tr class="even">
+<td>ʝ</td>
+<td>voiced palatal fricative</td>
+<td>有声硬口蓋摩擦音</td>
+<td>ゆうせいこうこうがいまさつおん</td>
+</tr>
+<tr class="odd">
+<td>x</td>
+<td>voiceless velar fricative</td>
+<td>無声軟口蓋摩擦音</td>
+<td>むせいなんこうがいまさつおん</td>
+</tr>
+<tr class="even">
+<td>ɣ</td>
+<td>voiced velar fricative</td>
+<td>有声軟口蓋摩擦音</td>
+<td>ゆうせいなんこうがいまさつおん</td>
+</tr>
+<tr class="odd">
+<td>χ</td>
+<td>voiceless uvular fricative</td>
+<td>無声口蓋垂摩擦音</td>
+<td>むせいこうがいすいまさつおん</td>
+</tr>
+<tr class="even">
+<td>ʁ</td>
+<td>voiced uvular fricative</td>
+<td>有声口蓋垂摩擦音</td>
+<td>ゆうせいこうがいすいまさつおん</td>
+</tr>
+<tr class="odd">
+<td>ħ</td>
+<td>voiceless pharyngeal fricative</td>
+<td>無声咽頭摩擦音</td>
+<td>むせいいんとうまさつおん</td>
+</tr>
+<tr class="even">
+<td>ʕ</td>
+<td>voiced pharyngeal fricative</td>
+<td>有声咽頭摩擦音</td>
+<td>ゆうせいいんとうまさつおん</td>
+</tr>
+<tr class="odd">
+<td>ʜ</td>
+<td>voiceless epiglottal fricative</td>
+<td>無声喉頭蓋摩擦音</td>
+<td>むせいこうとうがいまさつおん</td>
+</tr>
+<tr class="even">
+<td>ʢ</td>
+<td>voiced epiglottal fricative</td>
+<td>有声喉頭蓋摩擦音</td>
+<td>ゆうせいこうとうがいまさつおん</td>
+</tr>
+<tr class="odd">
+<td>h</td>
+<td>voiceless glottal fricative</td>
+<td>無声声門摩擦音</td>
+<td>むせいせいもんまさつおん</td>
+</tr>
+<tr class="even">
+<td>ɦ</td>
+<td>voiced glottal fricative</td>
+<td>有声声門摩擦音</td>
+<td>ゆうせいせいもんまさつおん</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="側面摩擦音-lateral-fricatives" class="level4">
+<h4 class="anchored" data-anchor-id="側面摩擦音-lateral-fricatives">6. 側面摩擦音 (Lateral Fricatives)</h4>
+<table class="tbl-pron2 pron3 tbl-header-center caption-top table">
+<colgroup>
+<col style="width: 3%">
+<col style="width: 40%">
+<col style="width: 20%">
+<col style="width: 35%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>IPA</th>
+<th>English Name</th>
+<th>日本語訳</th>
+<th>ひらがな</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ɬ</td>
+<td>voiceless alveolar lateral fricative</td>
+<td>無声歯茎側面摩擦音</td>
+<td>むせいしけいそくめんまさつおん</td>
+</tr>
+<tr class="even">
+<td>ɮ</td>
+<td>voiced alveolar lateral fricative</td>
+<td>有声歯茎側面摩擦音</td>
+<td>ゆうせいしけいそくめんまさつおん</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="接近音-approximants" class="level4">
+<h4 class="anchored" data-anchor-id="接近音-approximants">7. 接近音 (Approximants)</h4>
+<table class="tbl-pron2 pron3 tbl-header-center caption-top table">
+<colgroup>
+<col style="width: 4%">
+<col style="width: 37%">
+<col style="width: 19%">
+<col style="width: 38%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>IPA</th>
+<th>English Name</th>
+<th>日本語訳</th>
+<th>ひらがな</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ʋ</td>
+<td>labiodental approximant</td>
+<td>唇歯接近音</td>
+<td>しんしせっきんおん</td>
+</tr>
+<tr class="even">
+<td>ɹ</td>
+<td>alveolar approximant</td>
+<td>歯茎接近音</td>
+<td>しけいせっきんおん</td>
+</tr>
+<tr class="odd">
+<td>ɻ</td>
+<td>retroflex approximant</td>
+<td>そり舌接近音</td>
+<td>そりじたせっきんおん</td>
+</tr>
+<tr class="even">
+<td>j</td>
+<td>palatal approximant</td>
+<td>硬口蓋接近音</td>
+<td>こうこうがいせっきんおん</td>
+</tr>
+<tr class="odd">
+<td>ɰ</td>
+<td>velar approximant</td>
+<td>軟口蓋接近音</td>
+<td>なんこうがいせっきんおん</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="側面接近音-lateral-approximants" class="level4">
+<h4 class="anchored" data-anchor-id="側面接近音-lateral-approximants">8. 側面接近音 (Lateral Approximants)</h4>
+<table class="tbl-pron2 pron3 tbl-header-center caption-top table">
+<colgroup>
+<col style="width: 3%">
+<col style="width: 36%">
+<col style="width: 20%">
+<col style="width: 40%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>IPA</th>
+<th>English Name</th>
+<th>日本語訳</th>
+<th>ひらがな</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>l</td>
+<td>alveolar lateral approximant</td>
+<td>歯茎側面接近音</td>
+<td>しけいそくめんせっきんおん</td>
+</tr>
+<tr class="even">
+<td>ɭ</td>
+<td>retroflex lateral approximant</td>
+<td>そり舌側面接近音</td>
+<td>そりじたそくめんせっきんおん</td>
+</tr>
+<tr class="odd">
+<td>ʎ</td>
+<td>palatal lateral approximant</td>
+<td>硬口蓋側面接近音</td>
+<td>こうこうがいそくめんせっきんおん</td>
+</tr>
+<tr class="even">
+<td>ʟ</td>
+<td>velar lateral approximant</td>
+<td>軟口蓋側面接近音</td>
+<td>なんこうがいそくめんせっきんおん</td>
 </tr>
 </tbody>
 </table>
 </section>
 </section>
-<section id="母音" class="level3">
-<h3 class="anchored" data-anchor-id="母音">母音</h3>
+<section id="音韻規則を表す表記法spe" class="level3">
+<h3 class="anchored" data-anchor-id="音韻規則を表す表記法spe">音韻規則を表す表記法(SPE)</h3>
+<p>音韻学で使われる発音規則を書き表す表記法に SPE表記法(SPE notation) というものがあります。</p>
+<p>SPE表記法は音韻学の研究が立ち遅れている我が国日本では全く使われていません。<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a></p>
+<aside id="footnotes-2" class="footnotes footnotes-end-of-block" role="doc-footnote">
+<ol start="8">
+<li id="fn8"><p>Some specialist generative-phonology works do use SPE-style rules, but this guide targets general readers.<a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</aside>
+<p>そこでここではSPE表記法を避け、漢語の訳語を当てて表現します。</p>
+<table class="tbl-pron2 tbl-header-center caption-top table">
+<colgroup>
+<col style="width: 1%">
+<col style="width: 1%">
+<col style="width: 1%">
+<col style="width: 1%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>SPE表記法</th>
+<th>日本語の呼び方</th>
+<th>英語の呼び方</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>_</code></td>
+<td>規則適用位置</td>
+<td><strong>Site of Application</strong></td>
+<td>規則が適用される位置（X _ Y） <a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a></td>
+</tr>
+<tr class="even">
+<td><code>#</code></td>
+<td>語界</td>
+<td><strong>Word Boundary</strong></td>
+<td>単語と単語の境界を表す</td>
+</tr>
+<tr class="odd">
+<td><code>C</code></td>
+<td>任意の子音</td>
+<td><strong>Consonant</strong></td>
+<td>包括記号( <strong>Cover Symbols</strong> ) のひとつ<a href="#fn10" class="footnote-ref" id="fnref10" role="doc-noteref"><sup>10</sup></a></td>
+</tr>
+<tr class="even">
+<td><code>V</code></td>
+<td>任意の母音</td>
+<td><strong>Vowel</strong></td>
+<td>包括記号( <strong>Cover Symbols</strong> ) のひとつ<a href="#fn11" class="footnote-ref" id="fnref11" role="doc-noteref"><sup>11</sup></a></td>
+</tr>
+<tr class="odd">
+<td><code>{ … }</code></td>
+<td>特定のセグメントの集合</td>
+<td><strong>Set of Specific Segments</strong></td>
+<td>※ 例：{t, d, n} の <strong>segments</strong></td>
+</tr>
+<tr class="even">
+<td><code>[ … ]</code></td>
+<td>特徴束</td>
+<td><strong>Feature Bundle</strong></td>
+<td>例：<code>[+syllabic]</code>、<code>[-voice]</code></td>
+</tr>
+<tr class="odd">
+<td><code>( … )</code></td>
+<td>省略可能</td>
+<td><strong>Optional</strong></td>
+<td>任意要素の括弧</td>
+</tr>
+<tr class="even">
+<td><code>+</code></td>
+<td>形態素境界</td>
+<td><strong>Morpheme Boundary</strong></td>
+<td>語内部</td>
+</tr>
+<tr class="odd">
+<td><code>##</code></td>
+<td>発話境界</td>
+<td><strong>Utterance Boundary</strong></td>
+<td>発話全体の端</td>
+</tr>
+<tr class="even">
+<td><code>V́</code></td>
+<td>強勢母音</td>
+<td><strong>Stressed Vowel</strong></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><code>V̆</code></td>
+<td>無強勢母音</td>
+<td><strong>Unstressed Vowel</strong></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><code>N̩</code></td>
+<td>音節的子音</td>
+<td><strong>Syllabic Consonant</strong></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><code>O</code></td>
+<td>音節頭</td>
+<td><strong>Onset</strong></td>
+<td><code>σ</code> <strong>sigma</strong>(後述)の構成要素のひとつ。</td>
+</tr>
+<tr class="even">
+<td><code>N</code></td>
+<td>音節核</td>
+<td><strong>Nucleus</strong></td>
+<td><code>σ</code> <strong>sigma</strong>(後述)の構成要素のひとつ。</td>
+</tr>
+<tr class="odd">
+<td><code>Co</code></td>
+<td>音節末</td>
+<td><strong>Coda</strong></td>
+<td><code>σ</code> <strong>sigma</strong>(後述)の構成要素のひとつ。</td>
+</tr>
+<tr class="even">
+<td><code>σ</code> <strong>sigma</strong></td>
+<td>音節</td>
+<td><strong>Syllable</strong></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><code>ω</code> <strong>omega</strong></td>
+<td>韻律語</td>
+<td><strong>Prosodic Word</strong></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><code>φ</code> <strong>phi</strong></td>
+<td>音韻句</td>
+<td><strong>Phonological Phrase</strong></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><code>ι</code> <strong>iota</strong></td>
+<td>イントネーション句</td>
+<td><strong>Intonational Phrase</strong></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><code>μ</code> <strong>mu</strong></td>
+<td>モーラ</td>
+<td><strong>Mora</strong></td>
+<td>日本語発音分析で必須</td>
+</tr>
+<tr class="odd">
+<td><code>∅</code></td>
+<td>空列（ゼロ音）</td>
+<td><strong>Null</strong> / <strong>Zero</strong></td>
+<td>挿入・脱落規則に使う（例：<code>∅ → t / V _ V</code>）</td>
+</tr>
+<tr class="even">
+<td><code>α</code>（変数）</td>
+<td>アルファ変数</td>
+<td><strong>Alpha Notation</strong></td>
+<td>同値特徴（例：C → [αvoice] / _ [αvoice]）</td>
+</tr>
+<tr class="odd">
+<td><code>.</code></td>
+<td>音節境界</td>
+<td><strong>Syllable Boundary</strong></td>
+<td>転写や環境に用いることがある</td>
+</tr>
+<tr class="even">
+<td><code>R</code> / <code>ρ</code></td>
+<td>ライム(核＋末)</td>
+<td><strong>Rime</strong></td>
+<td><code>R = N + Coda</code></td>
+</tr>
+<tr class="odd">
+<td><code>Ft</code></td>
+<td>フット</td>
+<td><strong>Foot</strong></td>
+<td><code>σ</code>の上位単位</td>
+</tr>
+<tr class="even">
+<td><code>U</code></td>
+<td>発話</td>
+<td><strong>Utterance</strong></td>
+<td><code>ι</code>の上位；<code>##</code>の実体</td>
+</tr>
+</tbody>
+</table>
+<aside id="footnotes-3" class="footnotes footnotes-end-of-block" role="doc-footnote">
+<ol start="9">
+<li id="fn9"><p>挿入・脱落にも用いる。<a href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn10"><p>CとVは、CV用語の<strong>タイミング・スロット (timing slots)</strong>とは異なる概念。混同に注意。<a href="#fnref10" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn11"><p>CとVは、CV用語の<strong>タイミング・スロット (timing slots)</strong>とは異なる概念。混同に注意。<a href="#fnref11" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</aside>
+<ul>
+<li>🗣️ 1 <code>A → B / X _ Y</code> は「X と Y のあいだ（<strong>between</strong>）で A が B に変わる（<strong>becomes</strong>）」と読む。</li>
+</ul>
+</section>
+<section id="音韻規則を表す時の発音変化位置の用語" class="level3">
+<h3 class="anchored" data-anchor-id="音韻規則を表す時の発音変化位置の用語">音韻規則を表す時の発音変化位置の用語</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 32%">
+<col style="width: 52%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>カテゴリ</th>
+<th>名称</th>
+<th>SPE</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>語 (Word)</td>
+<td>語頭 (Word-initial)</td>
+<td><code># _</code> / <code>ω[ _</code></td>
+</tr>
+<tr class="even">
+<td>語 (Word)</td>
+<td>語末 (Word-final)</td>
+<td><code>_ #</code> / <code>_ ]ω</code></td>
+</tr>
+<tr class="odd">
+<td>語 (Word)</td>
+<td>語中 (Word-medial)</td>
+<td>(no <code>#</code>)</td>
+</tr>
+<tr class="even">
+<td>音節 (Syllable)</td>
+<td>音節頭 (Syllable onset)</td>
+<td><code>σ[ _</code> / <code>O _</code></td>
+</tr>
+<tr class="odd">
+<td>音節 (Syllable)</td>
+<td>音節末 (Syllable coda)</td>
+<td><code>_ ]σ</code> / <code>_ Co</code></td>
+</tr>
+<tr class="even">
+<td>要素間 (Segmental)</td>
+<td>母音間 (Intervocalic)</td>
+<td><code>V _ V</code></td>
+</tr>
+<tr class="odd">
+<td>要素間 (Segmental)</td>
+<td>子音間 (Interconsonantal)</td>
+<td><code>C _ C</code></td>
+</tr>
+<tr class="even">
+<td>要素間 (Segmental)</td>
+<td>母音前 (Before a vowel)</td>
+<td><code>_ V</code></td>
+</tr>
+<tr class="odd">
+<td>要素間 (Segmental)</td>
+<td>子音前 (Before a consonant)</td>
+<td><code>_ C</code></td>
+</tr>
+<tr class="even">
+<td>要素間 (Segmental)</td>
+<td>母音後 (After a vowel)</td>
+<td><code>V _</code></td>
+</tr>
+<tr class="odd">
+<td>要素間 (Segmental)</td>
+<td>子音後 (After a consonant)</td>
+<td><code>C _</code></td>
+</tr>
+<tr class="even">
+<td>形態素・韻律 (Morphology)</td>
+<td>語素界 (Morpheme boundary)</td>
+<td><code>+</code></td>
+</tr>
+<tr class="odd">
+<td>形態素・韻律 (Morphology)</td>
+<td>話語界 (Utterance boundary)</td>
+<td><code>##</code></td>
+</tr>
+<tr class="even">
+<td>形態素・韻律 (Morphology)</td>
+<td>短語頭 (Phonological-phrase initial)</td>
+<td><code>φ[ _</code></td>
+</tr>
+<tr class="odd">
+<td>形態素・韻律 (Morphology)</td>
+<td>短語末 (Phonological-phrase final)</td>
+<td><code>_ ]φ</code></td>
+</tr>
+<tr class="even">
+<td>形態素・韻律 (Morphology)</td>
+<td>語調短語頭 (Intonational-phrase initial)</td>
+<td><code>ι[ _</code></td>
+</tr>
+<tr class="odd">
+<td>形態素・韻律 (Morphology)</td>
+<td>語調短語末 (Intonational-phrase final)</td>
+<td><code>_ ]ι</code></td>
+</tr>
+<tr class="even">
+<td>ストレス・成音節性 (Syllabicity)</td>
+<td>重音後・非重音前 (After stressed, before unstressed)</td>
+<td><code>V́ _ V̆</code></td>
+</tr>
+<tr class="odd">
+<td>ストレス・成音節性 (Syllabicity)</td>
+<td>成音節子音前 (Before a syllabic consonant)</td>
+<td><code>_ N̩</code></td>
+</tr>
+<tr class="even">
+<td>集合 (Sets)</td>
+<td>音集 (Set of segments)</td>
+<td><code>{…}</code></td>
+</tr>
+<tr class="odd">
+<td>類 (Classes)</td>
+<td>子音 (Consonant)</td>
+<td><code>C</code></td>
+</tr>
+<tr class="even">
+<td>類 (Classes)</td>
+<td>母音 (Vowel)</td>
+<td><code>V</code></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>🗣️ When you want <strong>syllable-initial</strong> in prosodic notation, write <strong><code>σ[ _</code></strong> (not <code>[σ _</code>).</li>
+<li>🗣️ <strong>C/V here are class shorthands</strong>, not CV-skeleton timing slots. If you switch to true CV-skeleton talk, use <strong>O/N/Co</strong> or <strong>C/V-slots</strong> explicitly.</li>
+<li>🗣️ For <strong>linking/intrusive r</strong> in non-rhotic accents, the context is <strong>V # V</strong> (i.e., <strong>語末 + 語頭</strong> with vowels on both sides).</li>
+<li>🗣️ Use <strong><code>_ ]σ</code></strong> (or <code>_ Co</code>) for “in coda,” and <strong><code>σ[ _</code></strong> (or <code>O _</code>) for “in onset.”</li>
+</ul>
+</section>
+<section id="発音用語集" class="level3">
+<h3 class="anchored" data-anchor-id="発音用語集">発音用語集</h3>
+<section id="調音点places-of-articulation" class="level4">
+<h4 class="anchored" data-anchor-id="調音点places-of-articulation">調音点（Places of Articulation）</h4>
+<table class="tbl-pron2 tbl-header-center tbl-third-column-wrapping caption-top table">
+<colgroup>
+<col style="width: 1%">
+<col style="width: 1%">
+<col style="width: 1%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>英語用語 (Term)</th>
+<th>日本語名</th>
+<th>日本語説明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Alveolar</td>
+<td>歯茎音</td>
+<td>舌を上前歯のすぐ後ろの歯茎に当てて発音する音。例: /t, d, n, s, l/</td>
+</tr>
+<tr class="even">
+<td>Dental</td>
+<td>歯音</td>
+<td>舌を歯に当てて発音する音。例: /θ, ð/</td>
+</tr>
+<tr class="odd">
+<td>Labiodental</td>
+<td>唇歯音</td>
+<td>下唇を上の歯に当てて発音する音。例: /f, v/</td>
+</tr>
+<tr class="even">
+<td>Velar</td>
+<td>軟口蓋音</td>
+<td>舌の後部を軟口蓋に当てて発音する音。例: /k, g, ŋ/</td>
+</tr>
+<tr class="odd">
+<td>Glottal</td>
+<td>声門音</td>
+<td>声門で作られる音。例: [ʔ]（声門閉鎖音）</td>
+</tr>
+<tr class="even">
+<td>Retroflex</td>
+<td>そり舌音</td>
+<td>舌先を後ろに反らせて口蓋方向に近づけて発音する音。例: [ɻ]</td>
+</tr>
+<tr class="odd">
+<td>Palatal</td>
+<td>硬口蓋音</td>
+<td>舌を硬口蓋に近づけて発音する音。例: [j]</td>
+</tr>
+<tr class="even">
+<td>Palato-alveolar</td>
+<td>歯茎硬口蓋音</td>
+<td>舌の中部を歯茎の後ろで硬口蓋寄りに当てて発音する音。例: [tʃ], [dʒ]</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="調音様式manners-of-articulation" class="level4">
+<h4 class="anchored" data-anchor-id="調音様式manners-of-articulation">調音様式（Manners of Articulation）</h4>
+<table class="tbl-pron2 tbl-header-center tbl-third-column-wrapping caption-top table">
+<colgroup>
+<col style="width: 1%">
+<col style="width: 1%">
+<col style="width: 1%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>英語用語 (Term)</th>
+<th>日本語名</th>
+<th>日本語説明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Stop (Plosive)</td>
+<td>破裂音</td>
+<td>息の流れを完全に止めて破裂させて出す音。例: /p, t, k/</td>
+</tr>
+<tr class="even">
+<td>Fricative</td>
+<td>摩擦音</td>
+<td>狭い隙間を通る息が摩擦して出る音。例: /f, s, θ/</td>
+</tr>
+<tr class="odd">
+<td>Affricate</td>
+<td>破擦音</td>
+<td>破裂音から摩擦音に移行して発音される音。例: [tʃ], [dʒ]</td>
+</tr>
+<tr class="even">
+<td>Nasal</td>
+<td>鼻音</td>
+<td>息が鼻から流れて出る音。例: /m, n, ŋ/</td>
+</tr>
+<tr class="odd">
+<td>Approximant</td>
+<td>接近音</td>
+<td>調音器官が接近するが閉鎖や摩擦は起きない、母音に似た子音。例: /l, ɹ, j, w/</td>
+</tr>
+<tr class="even">
+<td>Tap/Flap</td>
+<td>はじき音</td>
+<td>ごく短い接触で発音される音。例: アメリカ英語 <em>water</em> の [ɾ]</td>
+</tr>
+<tr class="odd">
+<td>Glottal stop</td>
+<td>声門閉鎖音</td>
+<td>声門を閉じて発音する音。例: [ʔ]</td>
+</tr>
+<tr class="even">
+<td>Vowel</td>
+<td>母音</td>
+<td>声道が開いて発音され、音節の核となる音。</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="音声過程phonological-processes" class="level4">
+<h4 class="anchored" data-anchor-id="音声過程phonological-processes">音声過程（Phonological Processes）</h4>
+<table class="tbl-pron2 tbl-header-center tbl-third-column-wrapping caption-top table">
+<colgroup>
+<col style="width: 1%">
+<col style="width: 1%">
+<col style="width: 1%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>英語用語 (Term)</th>
+<th>日本語名</th>
+<th>日本語説明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Deletion (∅)</td>
+<td>脱落</td>
+<td>音が発音されなくなる現象。例: h-dropping</td>
+</tr>
+<tr class="even">
+<td>Insertion / Epenthetic</td>
+<td>挿入（介入音）</td>
+<td>本来ない音が加えられる現象。例: intrusive r</td>
+</tr>
+<tr class="odd">
+<td>Assimilation</td>
+<td>同化</td>
+<td>隣接する音に影響されて似た音に変化する現象。例: /t/ → [t̪]（/θ/ の前）</td>
+</tr>
+<tr class="even">
+<td>Vocalization</td>
+<td>母音化</td>
+<td>子音が母音的な音に変化する現象。例: /l/ → [o]</td>
+</tr>
+<tr class="odd">
+<td>Palatalization</td>
+<td>硬口蓋化</td>
+<td>調音位置が硬口蓋寄りに移動する現象。例: /tj/ → [tʃ]</td>
+</tr>
+<tr class="even">
+<td>Cluster simplification</td>
+<td>子音連続簡略化</td>
+<td>子音の連続が単純化される現象。例: /-st/ → /-s/</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="その他の基本用語other-key-terms" class="level4">
+<h4 class="anchored" data-anchor-id="その他の基本用語other-key-terms">その他の基本用語（Other Key Terms）</h4>
+<table class="tbl-pron2 tbl-header-center tbl-third-column-wrapping caption-top table">
+<colgroup>
+<col style="width: 1%">
+<col style="width: 1%">
+<col style="width: 1%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>英語用語 (Term)</th>
+<th>日本語名</th>
+<th>日本語説明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Voiced</td>
+<td>有声</td>
+<td>声帯が振動して発音される音。例: /b, d, v/</td>
+</tr>
+<tr class="even">
+<td>Voiceless</td>
+<td>無声</td>
+<td>声帯が振動しない音。例: /p, t, f/</td>
+</tr>
+<tr class="odd">
+<td>Rhoticity</td>
+<td>R音性</td>
+<td>/r/ 音が発音されるかどうかの性質</td>
+</tr>
+<tr class="even">
+<td>Linking</td>
+<td>リンキング</td>
+<td>語の境界で母音と母音の間に /r/ が挿入される現象</td>
+</tr>
+<tr class="odd">
+<td>Contrast</td>
+<td>対立</td>
+<td>音の違いによって意味が変わる現象。例: <em>witch</em> と <em>which</em></td>
+</tr>
+</tbody>
+</table>
+<!--
+### 英語でのCore Glossary for Describing Pronunciation Alterations
+
+#### Places of Articulation
+
+| Term            | Japanese Name | Explanation                                                                                                       |
+| --------------- | ------------- | ----------------------------------------------------------------------------------------------------------------- |
+| Alveolar        | 歯茎音         | sounds made with the tongue at the alveolar ridge (just behind the upper front teeth). Examples: /t, d, n, s, l/. |
+| Dental          | 歯音           | tongue against the teeth. Examples: /θ, ð/.                                                                     |
+| Labiodental     | 唇歯音         | lower lip against upper teeth. Examples: /f, v/.                                                                  |
+| Velar           | 軟口蓋音       | back of tongue against soft palate. Examples: /k, g, ŋ/.                                                         |
+| Glottal         | 声門音         | sound at the vocal folds. Example: \[ʔ] (glottal stop).                                                           |
+| Retroflex       | そり舌音       | tongue tip curled back toward palate. Example: \[ɻ].                                                              |
+| Palatal         | 硬口蓋音       | tongue against hard palate. Example: \[j].                                                                        |
+| Palato-alveolar | 歯茎硬口蓋音   | tongue blade just behind alveolar ridge, slightly toward palate. Examples: \[tʃ], \[dʒ].                          |
+
+:  {.tbl-pron2 .tbl-header-center .tbl-second-column-wrapping tbl-colwidths=[1,1,1,1,1] }
+
+#### Manners of Articulation
+
+| Term           | Japanese Name | Explanation                                                       |
+| -------------- | ------------- | ----------------------------------------------------------------- |
+| Stop (Plosive) | 破裂音         | complete closure and release of airflow. Examples: /p, t, k/.     |
+| Fricative      | 摩擦音         | narrow constriction with turbulent airflow. Examples: /f, s, θ/. |
+| Affricate      | 破擦音         | stop released into a fricative. Examples: \[tʃ], \[dʒ].           |
+| Nasal          | 鼻音           | airflow through the nose. Examples: /m, n, ŋ/.                   |
+| Approximant    | 接近音         | open constriction, vowel-like consonant. Examples: /l, ɹ, j, w/.  |
+| Tap/Flap       | はじき音       | very quick contact, like \[ɾ] in American *water*.                |
+| Glottal stop   | 声門閉鎖音     | closure at the vocal folds, \[ʔ].                                 |
+| Vowel          | 母音           | open vocal tract sound, nucleus of a syllable.                    |
+
+:  {.tbl-pron2 .tbl-header-center .tbl-second-column-wrapping tbl-colwidths=[1,1,1,1,1] }
+
+#### Phonological Processes
+
+| Term                   | Japanese Name | Explanation                                                          |
+| ---------------------- | ------------- | -------------------------------------------------------------------- |
+| Deletion (∅)           | 脱落           | sound omitted (e.g. h-dropping).                                     |
+| Insertion / Epenthetic | 挿入（介入音） | sound added (e.g. intrusive r).                                      |
+| Assimilation           | 同化           | sound changes to resemble a neighbor (e.g. /t/ → \[t̪] before /θ/). |
+| Vocalization           | 母音化         | consonant turns into a vowel-like sound (e.g. /l/ → \[o]).          |
+| Palatalization         | 硬口蓋化       | sound shifts toward palatal region (e.g. /tj/ → \[tʃ]).             |
+| Cluster simplification | 子音連続簡略化 | consonant groups reduced (e.g. /-st/ → /-s/).                       |
+
+:  {.tbl-pron2 .tbl-header-center .tbl-second-column-wrapping tbl-colwidths=[1,1,1,1,1] }
+
+#### Other Key Terms
+
+| Term      | Japanese Name | Explanation                                                          |
+| --------- | ------------- | -------------------------------------------------------------------- |
+| Voiced    | 有声           | vocal folds vibrate (e.g. /b, d, v/).                                |
+| Voiceless | 無声           | no vocal fold vibration (e.g. /p, t, f/).                            |
+| Rhoticity | R音性         | presence/absence of /r/ sounds.                                      |
+| Linking   | リンキング     | insertion of /r/ between vowels across word boundaries.              |
+| Contrast  | 対立           | difference in sounds changes word meaning (e.g. *witch* vs *which*). |
+
+:  {.tbl-pron2 .tbl-header-center .tbl-second-column-wrapping tbl-colwidths=[1,1,1,1,1] }
+-->
+</section>
+</section>
+<section id="英語で使われる主な母音" class="level3">
+<h3 class="anchored" data-anchor-id="英語で使われる主な母音">英語で使われる主な母音</h3>
 <section id="単母音" class="level4">
 <h4 class="anchored" data-anchor-id="単母音">単母音</h4>
-<table class="pron2 caption-top table">
+<table class="tbl-pron2 tbl-header-center tbl-forth-column-wrapping caption-top table">
 <colgroup>
-<col style="width: 10%">
-<col style="width: 17%">
-<col style="width: 10%">
-<col style="width: 60%">
+<col style="width: 1%">
+<col style="width: 1%">
+<col style="width: 1%">
+<col style="width: 1%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -976,12 +2727,12 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="二重母音滑り音" class="level4">
 <h4 class="anchored" data-anchor-id="二重母音滑り音">二重母音（滑り音）</h4>
-<table class="pron2 caption-top table">
+<table class="tbl-pron2 caption-top table">
 <colgroup>
-<col style="width: 18%">
-<col style="width: 22%">
+<col style="width: 12%">
 <col style="width: 15%">
-<col style="width: 43%">
+<col style="width: 12%">
+<col style="width: 59%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -1027,12 +2778,12 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="r-付きr-colored複合" class="level4">
 <h4 class="anchored" data-anchor-id="r-付きr-colored複合">r 付き（r-colored）複合</h4>
-<table class="pron2 caption-top table">
+<table class="tbl-pron2 caption-top table">
 <colgroup>
-<col style="width: 10%">
-<col style="width: 13%">
-<col style="width: 22%">
-<col style="width: 53%">
+<col style="width: 8%">
+<col style="width: 9%">
+<col style="width: 18%">
+<col style="width: 63%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -1077,17 +2828,17 @@ ul.task-list li input[type="checkbox"] {
 </table>
 </section>
 </section>
-<section id="子音" class="level3">
-<h3 class="anchored" data-anchor-id="子音">子音</h3>
-<section id="破裂音-plosives" class="level4">
-<h4 class="anchored" data-anchor-id="破裂音-plosives">破裂音 (Plosives)</h4>
-<table class="pron2 caption-top table">
+<section id="英語で使われる主な子音" class="level3">
+<h3 class="anchored" data-anchor-id="英語で使われる主な子音">英語で使われる主な子音</h3>
+<section id="破裂音-plosives-1" class="level4">
+<h4 class="anchored" data-anchor-id="破裂音-plosives-1">破裂音 (Plosives)</h4>
+<table class="tbl-pron2 caption-top table">
 <colgroup>
-<col style="width: 5%">
-<col style="width: 13%">
-<col style="width: 8%">
-<col style="width: 25%">
-<col style="width: 46%">
+<col style="width: 4%">
+<col style="width: 11%">
+<col style="width: 11%">
+<col style="width: 24%">
+<col style="width: 47%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -1150,17 +2901,16 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
-<hr>
 </section>
 <section id="破擦音-affricates" class="level4">
 <h4 class="anchored" data-anchor-id="破擦音-affricates">破擦音 (Affricates)</h4>
-<table class="pron2 caption-top table">
+<table class="caption-top table">
 <colgroup>
-<col style="width: 19%">
+<col style="width: 16%">
+<col style="width: 15%">
 <col style="width: 18%">
-<col style="width: 12%">
 <col style="width: 32%">
-<col style="width: 17%">
+<col style="width: 18%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -1202,16 +2952,15 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
-<hr>
 </section>
 <section id="歯摩擦音-fricatives" class="level4">
 <h4 class="anchored" data-anchor-id="歯摩擦音-fricatives">歯摩擦音 (Fricatives)</h4>
-<table class="pron2 caption-top table">
+<table class="tbl-pron2 caption-top table">
 <colgroup>
-<col style="width: 9%">
-<col style="width: 14%">
-<col style="width: 17%">
-<col style="width: 25%">
+<col style="width: 6%">
+<col style="width: 10%">
+<col style="width: 20%">
+<col style="width: 31%">
 <col style="width: 32%">
 </colgroup>
 <thead>
@@ -1289,17 +3038,16 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
-<hr>
 </section>
-<section id="鼻音-nasals" class="level4">
-<h4 class="anchored" data-anchor-id="鼻音-nasals">鼻音 (Nasals)</h4>
-<table class="pron2 caption-top table">
+<section id="鼻音-nasals-1" class="level4">
+<h4 class="anchored" data-anchor-id="鼻音-nasals-1">鼻音 (Nasals)</h4>
+<table class="tbl-pron2 caption-top table">
 <colgroup>
-<col style="width: 6%">
-<col style="width: 7%">
-<col style="width: 8%">
-<col style="width: 22%">
-<col style="width: 53%">
+<col style="width: 4%">
+<col style="width: 5%">
+<col style="width: 9%">
+<col style="width: 29%">
+<col style="width: 50%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -1334,17 +3082,16 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
-<hr>
 </section>
-<section id="接近音-approximants" class="level4">
-<h4 class="anchored" data-anchor-id="接近音-approximants">接近音 (Approximants)</h4>
-<table class="pron2 caption-top table">
+<section id="接近音-approximants-1" class="level4">
+<h4 class="anchored" data-anchor-id="接近音-approximants-1">接近音 (Approximants)</h4>
+<table class="tbl-pron2 caption-top table">
 <colgroup>
-<col style="width: 6%">
-<col style="width: 15%">
-<col style="width: 12%">
+<col style="width: 4%">
+<col style="width: 10%">
+<col style="width: 14%">
 <col style="width: 36%">
-<col style="width: 29%">
+<col style="width: 33%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -1368,7 +3115,7 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">(<em>yes</em>)</td>
 <td style="text-align: left;"><strong>硬口蓋近接</strong></td>
 <td style="text-align: left;">「<strong>y</strong>」音；舌前部を上げる。</td>
-<td style="text-align: left;">全般<br>英の一部で<br>/tj,dj/ と合流→上欄</td>
+<td style="text-align: left;">全般<br>英の一部で<br>/tj,dj/ と合流→Yod合流</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;"><strong>/w/</strong></td>
@@ -1393,17 +3140,16 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
-<hr>
 </section>
 <section id="側面接近音-lateral" class="level4">
 <h4 class="anchored" data-anchor-id="側面接近音-lateral">側面接近音 (Lateral)</h4>
-<table class="pron2 caption-top table">
+<table class="tbl-pron2 caption-top table">
 <colgroup>
-<col style="width: 26%">
-<col style="width: 17%">
-<col style="width: 8%">
-<col style="width: 32%">
-<col style="width: 15%">
+<col style="width: 21%">
+<col style="width: 14%">
+<col style="width: 10%">
+<col style="width: 40%">
+<col style="width: 12%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -1438,80 +3184,6 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
-<hr>
-</section>
-<section id="英語の-子音転訛一覧" class="level4">
-<h4 class="anchored" data-anchor-id="英語の-子音転訛一覧">英語の 子音転訛一覧</h4>
-<table class="pron2 caption-top table">
-<colgroup>
-<col style="width: 29%">
-<col style="width: 15%">
-<col style="width: 26%">
-<col style="width: 28%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">記号・交替</th>
-<th style="text-align: left;">例</th>
-<th style="text-align: left;">説明</th>
-<th style="text-align: left;">地方</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><strong>[ɾ]（flap）</strong></td>
-<td style="text-align: left;">(<em>wa[ɾ]er</em>)</td>
-<td style="text-align: left;"><strong>/t, d/</strong> が母音間で<strong>弾音化</strong>。</td>
-<td style="text-align: left;"><strong>北米英全般・AAVE</strong><br>英では稀</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>[ʔ]<br>（glottal stop）</strong></td>
-<td style="text-align: left;">(<em>ki[ʔ]en ≈ kitten</em>)</td>
-<td style="text-align: left;"><strong>T-glottalization</strong><br>/t/ が [ʔ] 置換／強化。</td>
-<td style="text-align: left;"><strong>Cockney/Estuary/MLE；<br>米の一部でも語末・子音前</strong></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>/θ/→[f]<br>（TH-fronting）</strong></td>
-<td style="text-align: left;">(<em>three → free</em>)</td>
-<td style="text-align: left;">歯摩擦の<strong>前唇歯化</strong>。</td>
-<td style="text-align: left;"><strong>Cockney, MLE；<br>AAVE/南部/カリブ系では語末中心</strong></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>/ð/→[v]／[d]<br>（TH-front./stopping）</strong></td>
-<td style="text-align: left;">(<em>brother → brovah / d-</em>)</td>
-<td style="text-align: left;">有声歯摩擦の<strong>前唇歯化</strong><br>または<strong>破裂化</strong>。</td>
-<td style="text-align: left;"><strong>Cockney（[v]）<br>AAVE/アイルランド/カリブ系（[d] 初頭）</strong></td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>/h/→∅<br>（h-dropping）</strong></td>
-<td style="text-align: left;">(<em>house → ’ouse</em>)</td>
-<td style="text-align: left;">語頭 <strong>h 脱落</strong>。</td>
-<td style="text-align: left;"><strong>Cockney, 都市英の一部</strong></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>/ŋ/→[n]<br>（-ing → -in’）</strong></td>
-<td style="text-align: left;">(<em>walking → walkin’</em>)</td>
-<td style="text-align: left;">語末 <strong>ng</strong> の前舌化。</td>
-<td style="text-align: left;">AAVE, 南部英, <br>Cockney など口語</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>/tj, dj/ → [t͡ʃ, d͡ʒ]<br>（Yod-coalescence）</strong></td>
-<td style="text-align: left;">(<em>tune/due</em>)</td>
-<td style="text-align: left;">子音＋/j/ が<strong>破擦化</strong>。</td>
-<td style="text-align: left;"><strong>英（Cockney/都市英）</strong></td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Linking Intrusive r<br> [ɹ]</strong></td>
-<td style="text-align: left;">(<em>law[r] and…</em>)</td>
-<td style="text-align: left;">非ローティック英語<br>母音連結時に <strong>r</strong>を <strong>挿入</strong>。</td>
-<td style="text-align: left;"><strong>英（Cockney/Estuary/RP系）</strong></td>
-</tr>
-</tbody>
-</table>
-<blockquote class="blockquote">
-<p><strong>方言名の略記</strong>：MLE=Multicultural London English, GA=General American, RP=英標準寄り</p>
-</blockquote>
-<hr>
 </section>
 </section>
 <section id="使い分けの要点最小セット" class="level3">
@@ -1521,180 +3193,652 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Southern American English（米南部）</strong>：<strong>[ʍ]</strong>（whine–wine対立の保持）、語末 <strong>-in’</strong>、クラスター簡略化（子音脱落）など。</li>
 <li><strong>AAVE</strong>：語末 <strong>-in’</strong>、<strong>TH-stopping/fronting</strong>の分布、クラスター簡略化、<strong>flap [ɾ]</strong>は北米一般同様に出現（/t,d/間）。基本は<strong>R音声（rhotic）</strong>。</li>
 </ul>
-<hr>
 </section>
 <section id="方言別子音入れ替わりまとめ" class="level3">
 <h3 class="anchored" data-anchor-id="方言別子音入れ替わりまとめ">方言別子音入れ替わりまとめ</h3>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 16%">
-<col style="width: 14%">
-<col style="width: 17%">
-<col style="width: 18%">
-<col style="width: 22%">
-<col style="width: 10%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Phenomenon</th>
-<th>Exchange (Input → Output)</th>
-<th>Typical Environment</th>
-<th>Examples</th>
-<th>地方 (Dialects)</th>
-<th>Notes</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>TH-fronting</strong></td>
-<td>/θ/ → <strong>[f]</strong></td>
-<td>Coda &gt; elsewhere</td>
-<td><em>three → free</em>, <em>mouth → mouf</em></td>
-<td><strong>Cockney, MLE</strong>；（語末のみ）<strong>AAVE/米南部/カリブ系都市</strong></td>
-<td>Cockneyは広範、他方言は語末中心</td>
-</tr>
-<tr class="even">
-<td><strong>TH-stopping (voiced)</strong></td>
-<td>/ð/ → <strong>[d]</strong></td>
-<td>Word-initial</td>
-<td><em>this → dis</em>, <em>them → dem</em></td>
-<td><strong>AAVE</strong>, <strong>Irish/Caribbean英</strong>, 都市変種</td>
-<td>語中・語末では [d]/[v] 可変</td>
-</tr>
-<tr class="odd">
-<td><strong>TH-fronting (voiced)</strong></td>
-<td>/ð/ → <strong>[v]</strong></td>
-<td>Medial/Final</td>
-<td><em>brother → bruvva</em></td>
-<td><strong>Cockney, MLE</strong></td>
-<td>Cockneyで顕著</td>
-</tr>
-<tr class="even">
-<td><strong>T-glottalization</strong></td>
-<td>/t/ → <strong>[ʔ]</strong></td>
-<td>Coda / 子音前 / 弱勢音節</td>
-<td><em>bottle → boʔ(ɫ)</em>, <em>kitten → kɪʔn̩</em></td>
-<td><strong>Cockney, Estuary</strong>；（限定的に）<strong>GA/AAVE</strong></td>
-<td>英で強勢、米は語末・子音前可変</td>
-</tr>
-<tr class="odd">
-<td><strong>Flapping</strong></td>
-<td>/t, d/ → <strong>[ɾ]</strong></td>
-<td>Vowel_V́ __ V̆</td>
-<td><em>water → waɾer</em>, <em>city → sɪɾi</em></td>
-<td><strong>GA 全般</strong>, <strong>AAVE</strong></td>
-<td>強勢母音後＋弱勢母音前</td>
-</tr>
-<tr class="even">
-<td><strong>-ing 弱化</strong></td>
-<td>/ŋ/ → <strong>[n]</strong></td>
-<td>-ing coda</td>
-<td><em>walking → walkin’</em></td>
-<td><strong>AAVE</strong>, <strong>米南部</strong>, <strong>Cockney</strong>（口語）</td>
-<td>スタイル依存で広範</td>
-</tr>
-<tr class="odd">
-<td><strong>L-vocalization</strong></td>
-<td>/l/ → <strong>[w ~ ʊ̯ ~ o]</strong></td>
-<td>Coda</td>
-<td><em>ball → baw</em>, <em>people → peopʊ̯</em></td>
-<td><strong>Cockney, Estuary</strong></td>
-<td>ロンドン周辺で顕著</td>
-</tr>
-<tr class="even">
-<td><strong>h-dropping</strong></td>
-<td>/h/ → <strong>∅</strong></td>
-<td>Word-initial</td>
-<td><em>house → ’ouse</em>, <em>have → ’ave</em></td>
-<td><strong>Cockney</strong>, 都市英の一部</td>
-<td>機能語で頻度↑</td>
-</tr>
-<tr class="odd">
-<td><strong>Yod-coalescence</strong></td>
-<td>/tj, dj/ → <strong>[t͡ʃ, d͡ʒ]</strong></td>
-<td>t/d + /j/</td>
-<td><em>tune → choon</em>, <em>duty → jooty</em></td>
-<td><strong>Cockney, 都市英（MLE等）</strong></td>
-<td>連続音化（破擦化）</td>
-</tr>
-<tr class="even">
-<td><strong>Yod-dropping</strong></td>
-<td>/juː/ → <strong>[uː]</strong></td>
-<td>After alveolars (t, d, n, s, z, l)</td>
-<td><em>tune → toon</em>, <em>news → nooz</em></td>
-<td><strong>GA</strong>, <strong>米南部</strong>, 一部 <strong>AAVE</strong></td>
-<td>北米で一般的</td>
-</tr>
-<tr class="odd">
-<td><strong>/hw/ 対立保持</strong></td>
-<td>/hw/ → <strong>[ʍ]</strong> (≠ /w/)</td>
-<td>Word-initial</td>
-<td><em>which [ʍɪtʃ]</em> vs <em>witch [wɪtʃ]</em></td>
-<td><strong>米南部の一部</strong>, <strong>Scots</strong>, <strong>Irish</strong>，一部 <strong>AAVE</strong></td>
-<td>“息混じりの w”</td>
-</tr>
-<tr class="even">
-<td><strong>Final cluster simplification</strong></td>
-<td>Coda clusters → simplified</td>
-<td>Word-final（次語子音で強化）</td>
-<td><em>hand → han</em>, <em>cold → col’</em></td>
-<td><strong>AAVE</strong>, <strong>米南部</strong>（口語）</td>
-<td>有声阻害音で顕著</td>
-</tr>
-<tr class="odd">
-<td><strong>/t/ 省略（NT クラスタ）</strong></td>
-<td>/nt/ → <strong>[n]</strong>（しばしば鼻母音化/延長）</td>
-<td>Intervocalic / 早口</td>
-<td><em>internet → innernet</em></td>
-<td><strong>GA</strong>, <strong>AAVE</strong>（口語）</td>
-<td>flap共存も</td>
-</tr>
-<tr class="even">
-<td><strong>Linking r</strong></td>
-<td>∅ → <strong>[ɹ]</strong></td>
-<td>Vowel#Vowel</td>
-<td><em>law(r) and</em>, <em>idea(r) of</em></td>
-<td><strong>非r方言</strong>：<strong>Cockney/Estuary/RP系</strong></td>
-<td>語彙的 r 連結</td>
-</tr>
-<tr class="odd">
-<td><strong>Intrusive r</strong></td>
-<td>∅ → <strong>[ɹ]</strong></td>
-<td>Vowel#Vowel (無語源 r)</td>
-<td><em>saw(r) it</em></td>
-<td><strong>非r方言</strong>：<strong>Cockney/Estuary/RP系</strong></td>
-<td>語源に r 無しでも挿入</td>
-</tr>
-<tr class="even">
-<td><strong>Non-rhoticity (R-loss)</strong></td>
-<td>/ɹ/ → <strong>∅</strong></td>
-<td>Coda</td>
-<td><em>car → caː</em></td>
-<td><strong>Cockney/Estuary/RP系</strong></td>
-<td>r は母音前のみ発音</td>
-</tr>
-<tr class="odd">
-<td><strong>Retroflex/bunched r</strong></td>
-<td>/ɹ/ → <strong>[ɻ ~ ɚ]</strong></td>
-<td>General</td>
-<td><em>right, bird</em></td>
-<td><strong>GA</strong>, <strong>AAVE</strong></td>
-<td>後舌/巻き舌傾向</td>
-</tr>
-<tr class="even">
-<td><strong>Dentalization</strong></td>
-<td>/t, d, n/ → <strong>[t̪, d̪, n̪]</strong></td>
-<td>before /θ, ð/</td>
-<td><em>eighth [eɪt̪θ]</em></td>
-<td><strong>英全般</strong>, <strong>GA</strong></td>
-<td>接触同化（学術的補足）</td>
-</tr>
-</tbody>
-</table>
+<ul>
+<li>THの唇歯化 (TH-fronting)
+<ul>
+<li>Exchange (Input → Output)
+<ul>
+<li>/θ/ → <strong>[f]</strong></li>
+</ul></li>
+<li>Typical Environment
+<ul>
+<li>Coda &gt; elsewhere</li>
+</ul></li>
+<li>Examples
+<ul>
+<li><em>three → free</em>, <em>mouth → mouf</em></li>
+</ul></li>
+<li>地方 (Dialects)
+<ul>
+<li><strong>Cockney, MLE</strong>；（語末のみ）<strong>AAVE/米南部/カリブ系都市</strong></li>
+</ul></li>
+<li>Notes
+<ul>
+<li>Cockneyは広範、他方言は語末中心</li>
+</ul></li>
+</ul></li>
+<li>有声THの破裂化 (TH-stopping (voiced))
+<ul>
+<li>Exchange (Input → Output)
+<ul>
+<li>/ð/ → <strong>[d]</strong></li>
+</ul></li>
+<li>Typical Environment
+<ul>
+<li>Word-initial</li>
+</ul></li>
+<li>Examples
+<ul>
+<li><em>this → dis</em>, <em>them → dem</em></li>
+</ul></li>
+<li>地方 (Dialects)
+<ul>
+<li><strong>AAVE</strong>、<strong>Irish/Caribbean英</strong>、都市変種</li>
+</ul></li>
+<li>Notes
+<ul>
+<li>語中・語末では [d]/[v] 可変</li>
+</ul></li>
+</ul></li>
+<li>有声THの唇歯化 (TH-fronting (voiced))
+<ul>
+<li>Exchange (Input → Output)
+<ul>
+<li>/ð/ → <strong>[v]</strong></li>
+</ul></li>
+<li>Typical Environment
+<ul>
+<li>Medial/Final</li>
+</ul></li>
+<li>Examples
+<ul>
+<li><em>brother → bruvva</em></li>
+</ul></li>
+<li>地方 (Dialects)
+<ul>
+<li><strong>Cockney, MLE</strong></li>
+</ul></li>
+<li>Notes
+<ul>
+<li>Cockneyで顕著</li>
+</ul></li>
+</ul></li>
+<li>Tの声門化（グロッタル化） (T-glottalization)
+<ul>
+<li>Exchange (Input → Output)
+<ul>
+<li>/t/ → <strong>[ʔ]</strong></li>
+</ul></li>
+<li>Typical Environment
+<ul>
+<li>Coda / 子音前 / 弱勢音節</li>
+</ul></li>
+<li>Examples
+<ul>
+<li><em>bottle → boʔ(ɫ)</em>, <em>kitten → kɪʔn̩</em></li>
+</ul></li>
+<li>地方 (Dialects)
+<ul>
+<li><strong>Cockney, Estuary</strong>；（限定的に）<strong>GA/AAVE</strong></li>
+</ul></li>
+<li>Notes
+<ul>
+<li>英で強勢、米は語末・子音前可変</li>
+</ul></li>
+</ul></li>
+<li>T/Dのフラッピング (Flapping)
+<ul>
+<li>Exchange (Input → Output)
+<ul>
+<li>/t, d/ → <strong>[ɾ]</strong></li>
+</ul></li>
+<li>Typical Environment
+<ul>
+<li>Vowel_V́ __ V̆</li>
+</ul></li>
+<li>Examples
+<ul>
+<li><em>water → waɾer</em>, <em>city → sɪɾi</em></li>
+</ul></li>
+<li>地方 (Dialects)
+<ul>
+<li><strong>GA 全般</strong>, <strong>AAVE</strong></li>
+</ul></li>
+<li>Notes
+<ul>
+<li>強勢母音後＋弱勢母音前</li>
+</ul></li>
+</ul></li>
+<li>-ing弱化 (g-dropping)
+<ul>
+<li>Exchange (Input → Output)
+<ul>
+<li>/ŋ/ → <strong>[n]</strong></li>
+</ul></li>
+<li>Typical Environment
+<ul>
+<li>-ing coda</li>
+</ul></li>
+<li>Examples
+<ul>
+<li><em>walking → walkin’</em></li>
+</ul></li>
+<li>地方 (Dialects)
+<ul>
+<li><strong>AAVE</strong>、<strong>米南部</strong>、<strong>Cockney</strong>（口語）</li>
+</ul></li>
+<li>Notes
+<ul>
+<li>スタイル依存で広範</li>
+</ul></li>
+</ul></li>
+<li>Lの母音化 (L-vocalization)
+<ul>
+<li>Exchange (Input → Output)
+<ul>
+<li>/l/ → <strong>[w ~ ʊ̯ ~ o]</strong></li>
+</ul></li>
+<li>Typical Environment
+<ul>
+<li>Coda</li>
+</ul></li>
+<li>Examples
+<ul>
+<li><em>ball → baw</em>, <em>people → peopʊ̯</em></li>
+</ul></li>
+<li>地方 (Dialects)
+<ul>
+<li><strong>Cockney, Estuary</strong></li>
+</ul></li>
+<li>Notes
+<ul>
+<li>ロンドン周辺で顕著</li>
+</ul></li>
+</ul></li>
+<li>h脱落 (h-dropping)
+<ul>
+<li>Exchange (Input → Output)
+<ul>
+<li>/h/ → <strong>∅</strong></li>
+</ul></li>
+<li>Typical Environment
+<ul>
+<li>Word-initial</li>
+</ul></li>
+<li>Examples
+<ul>
+<li><em>house → ’ouse</em>, <em>have → ’ave</em></li>
+</ul></li>
+<li>地方 (Dialects)
+<ul>
+<li><strong>Cockney</strong>、都市英の一部</li>
+</ul></li>
+<li>Notes
+<ul>
+<li>機能語で頻度↑</li>
+</ul></li>
+</ul></li>
+<li>ヨッド合流 (Yod-coalescence)
+<ul>
+<li>Exchange (Input → Output)
+<ul>
+<li>/tj, dj/ → <strong>[t͡ʃ, d͡ʒ]</strong></li>
+</ul></li>
+<li>Typical Environment
+<ul>
+<li>t/d + /j/</li>
+</ul></li>
+<li>Examples
+<ul>
+<li><em>tune → choon</em>, <em>duty → jooty</em></li>
+</ul></li>
+<li>地方 (Dialects)
+<ul>
+<li><strong>Cockney、都市英（MLE等）</strong></li>
+</ul></li>
+<li>Notes
+<ul>
+<li>連続音化（破擦化）</li>
+</ul></li>
+</ul></li>
+<li>ヨッド脱落 (Yod-dropping)
+<ul>
+<li>Exchange (Input → Output)
+<ul>
+<li>/juː/ → <strong>[uː]</strong></li>
+</ul></li>
+<li>Typical Environment
+<ul>
+<li>After alveolars (t, d, n, s, z, l)</li>
+</ul></li>
+<li>Examples
+<ul>
+<li><em>tune → toon</em>, <em>news → nooz</em></li>
+</ul></li>
+<li>地方 (Dialects)
+<ul>
+<li><strong>GA</strong>、<strong>米南部</strong>、一部 <strong>AAVE</strong></li>
+</ul></li>
+<li>Notes
+<ul>
+<li>北米で一般的</li>
+</ul></li>
+</ul></li>
+<li>/hw/と/w/の対立保持 (wh–w contrast maintained)
+<ul>
+<li>Exchange (Input → Output)
+<ul>
+<li>/hw/ → <strong>[ʍ]</strong> (≠ /w/)</li>
+</ul></li>
+<li>Typical Environment
+<ul>
+<li>Word-initial</li>
+</ul></li>
+<li>Examples
+<ul>
+<li><em>which [ʍɪtʃ]</em> vs <em>witch [wɪtʃ]</em></li>
+</ul></li>
+<li>地方 (Dialects)
+<ul>
+<li><strong>米南部の一部</strong>、<strong>Scots</strong>、<strong>Irish</strong>，一部 <strong>AAVE</strong></li>
+</ul></li>
+<li>Notes
+<ul>
+<li>“息混じりの w”</li>
+</ul></li>
+</ul></li>
+<li>語末子音群の単純化 (Final cluster simplification)
+<ul>
+<li>Exchange (Input → Output)
+<ul>
+<li>Coda clusters → simplified</li>
+</ul></li>
+<li>Typical Environment
+<ul>
+<li>Word-final（次語子音で強化）</li>
+</ul></li>
+<li>Examples
+<ul>
+<li><em>hand → han</em>, <em>cold → col’</em></li>
+</ul></li>
+<li>地方 (Dialects)
+<ul>
+<li><strong>AAVE</strong>、<strong>米南部</strong>（口語）</li>
+</ul></li>
+<li>Notes
+<ul>
+<li>有声阻害音で顕著</li>
+</ul></li>
+</ul></li>
+<li>/t/ 省略（NTクラスタ） (t-deletion (NT cluster))
+<ul>
+<li>Exchange (Input → Output)
+<ul>
+<li>/nt/ → <strong>[n]</strong>（しばしば鼻母音化/延長）</li>
+</ul></li>
+<li>Typical Environment
+<ul>
+<li>Intervocalic / 早口</li>
+</ul></li>
+<li>Examples
+<ul>
+<li><em>internet → innernet</em></li>
+</ul></li>
+<li>地方 (Dialects)
+<ul>
+<li><strong>GA</strong>、<strong>AAVE</strong>（口語）</li>
+</ul></li>
+<li>Notes
+<ul>
+<li>flap共存も</li>
+</ul></li>
+</ul></li>
+<li>リンキングr (Linking r)
+<ul>
+<li>Exchange (Input → Output)
+<ul>
+<li>∅ → <strong>[ɹ]</strong></li>
+</ul></li>
+<li>Typical Environment
+<ul>
+<li>Vowel#Vowel</li>
+</ul></li>
+<li>Examples
+<ul>
+<li><em>law(r) and</em>, <em>idea(r) of</em></li>
+</ul></li>
+<li>地方 (Dialects)
+<ul>
+<li><strong>非r方言</strong>：<strong>Cockney/Estuary/RP系</strong></li>
+</ul></li>
+<li>Notes
+<ul>
+<li>語彙的 r 連結</li>
+</ul></li>
+</ul></li>
+<li>イントルーシブr (Intrusive r)
+<ul>
+<li>Exchange (Input → Output)
+<ul>
+<li>∅ → <strong>[ɹ]</strong></li>
+</ul></li>
+<li>Typical Environment
+<ul>
+<li>Vowel#Vowel（無語源 r）</li>
+</ul></li>
+<li>Examples
+<ul>
+<li><em>saw(r) it</em></li>
+</ul></li>
+<li>地方 (Dialects)
+<ul>
+<li><strong>非r方言</strong>：<strong>Cockney/Estuary/RP系</strong></li>
+</ul></li>
+<li>Notes
+<ul>
+<li>語源に r 無しでも挿入</li>
+</ul></li>
+</ul></li>
+<li>非r音性（r脱落） (Non-rhoticity (R-loss))
+<ul>
+<li>Exchange (Input → Output)
+<ul>
+<li>/ɹ/ → <strong>∅</strong></li>
+</ul></li>
+<li>Typical Environment
+<ul>
+<li>Coda</li>
+</ul></li>
+<li>Examples
+<ul>
+<li><em>car → caː</em></li>
+</ul></li>
+<li>地方 (Dialects)
+<ul>
+<li><strong>Cockney/Estuary/RP系</strong></li>
+</ul></li>
+<li>Notes
+<ul>
+<li>r は母音前のみ発音</li>
+</ul></li>
+</ul></li>
+<li>反り舌/バンチドr (Retroflex/bunched r)
+<ul>
+<li>Exchange (Input → Output)
+<ul>
+<li>/ɹ/ → <strong>[ɻ ~ ɚ]</strong></li>
+</ul></li>
+<li>Typical Environment
+<ul>
+<li>General</li>
+</ul></li>
+<li>Examples
+<ul>
+<li><em>right, bird</em></li>
+</ul></li>
+<li>地方 (Dialects)
+<ul>
+<li><strong>GA</strong>, <strong>AAVE</strong></li>
+</ul></li>
+<li>Notes
+<ul>
+<li>後舌/巻き舌傾向</li>
+</ul></li>
+</ul></li>
+<li>歯音化 (Dentalization)
+<ul>
+<li>Exchange (Input → Output)
+<ul>
+<li>/t, d, n/ → <strong>[t̪, d̪, n̪]</strong></li>
+</ul></li>
+<li>Typical Environment
+<ul>
+<li>before /θ, ð/</li>
+</ul></li>
+<li>Examples
+<ul>
+<li><em>eighth [eɪt̪θ]</em></li>
+</ul></li>
+<li>地方 (Dialects)
+<ul>
+<li><strong>英全般</strong>, <strong>GA</strong></li>
+</ul></li>
+<li>Notes
+<ul>
+<li>接触同化（学術的補足）</li>
+</ul></li>
+</ul></li>
+</ul>
 </section>
 </section>
 <section id="オフビートカウントでの正しい発音の為の基礎" class="level2">
 <h2 class="anchored" data-anchor-id="オフビートカウントでの正しい発音の為の基礎">オフビートカウントでの正しい発音の為の基礎</h2>
+<svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" version="1.2" width="76.67mm" height="20.62mm" viewbox="8.5358 -0.0250 43.6282 11.7350">
+<style type="text/css">
+
+tspan { white-space: pre; }
+
+</style>
+<g transform="translate(8.5358, 3.3750)">
+<line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="43.6282" y2="0"></line>
+</g>
+<g transform="translate(43.6114, 3.3750)">
+<rect x="0.0000" y="-1.0000" width="0.1900" height="2.0000" ry="0.0000" fill="currentColor"></rect>
+</g>
+<g transform="translate(15.5714, 3.3750)">
+<rect x="0.0000" y="-1.0000" width="0.1900" height="2.0000" ry="0.0000" fill="currentColor"></rect>
+</g>
+<g transform="translate(39.7840, 3.3750)">
+<rect x="-0.0650" y="-3.0000" width="0.1300" height="2.8139" ry="0.0400" fill="currentColor"></rect>
+</g>
+<g transform="translate(41.0490, 3.3750)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c66 0 108 -36 108 -89c0 -89 -113 -183 -218 -183c-66 0 -108 36 -108 89c0 89 113 183 218 183z" fill="currentColor"></path>
+</g>
+<g transform="translate(42.2883, 3.3750)">
+<rect x="-0.0650" y="-3.0000" width="0.1300" height="2.8139" ry="0.0400" fill="currentColor"></rect>
+</g>
+<g transform="translate(44.7014, 3.3750)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c66 0 108 -36 108 -89c0 -89 -113 -183 -218 -183c-66 0 -108 36 -108 89c0 89 113 183 218 183z" fill="currentColor"></path>
+</g>
+<g transform="translate(45.9406, 3.3750)">
+<rect x="-0.0650" y="-3.0000" width="0.1300" height="2.8139" ry="0.0400" fill="currentColor"></rect>
+</g>
+<g transform="translate(45.8756, 0.3750)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="5.0984 -0.2000 5.0984 0.2000 0.0400 0.2000 0.0400 -0.2000"></polygon>
+</g>
+<g transform="translate(31.4391, 3.3750)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c66 0 108 -36 108 -89c0 -89 -113 -183 -218 -183c-66 0 -108 36 -108 89c0 89 113 183 218 183z" fill="currentColor"></path>
+</g>
+<g transform="translate(30.0084, 8.8750)">
+<text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>thr</tspan>
+</text>
+</g>
+<g transform="translate(30.0084, 11.6750)">
+<text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>thr</tspan>
+</text>
+</g>
+<g transform="translate(32.6783, 3.3750)">
+<rect x="-0.0650" y="-3.0000" width="0.1300" height="2.8139" ry="0.0400" fill="currentColor"></rect>
+</g>
+<g transform="translate(38.5448, 3.3750)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c66 0 108 -36 108 -89c0 -89 -113 -183 -218 -183c-66 0 -108 36 -108 89c0 89 113 183 218 183z" fill="currentColor"></path>
+</g>
+<g transform="translate(35.6448, 3.3750)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c66 0 108 -36 108 -89c0 -89 -113 -183 -218 -183c-66 0 -108 36 -108 89c0 89 113 183 218 183z" fill="currentColor"></path>
+</g>
+<g transform="translate(34.6239, 8.8750)">
+<text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>ee</tspan>
+</text>
+</g>
+<g transform="translate(34.6239, 11.6750)">
+<text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>ee</tspan>
+</text>
+</g>
+<g transform="translate(36.8840, 3.3750)">
+<rect x="-0.0650" y="-3.0000" width="0.1300" height="2.8139" ry="0.0400" fill="currentColor"></rect>
+</g>
+<g transform="translate(17.8356, 0.3750)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="5.9322 -0.2000 5.9322 0.2000 0.0400 0.2000 0.0400 -0.2000"></polygon>
+</g>
+<g transform="translate(14.6000, 8.8750)">
+<rect x="0.0000" y="-0.5500" width="0.6600" height="0.1300" ry="0.0400" fill="currentColor"></rect>
+</g>
+<g transform="translate(15.0865, 11.6750)">
+<rect x="0.0000" y="-0.5500" width="0.6600" height="0.1300" ry="0.0400" fill="currentColor"></rect>
+</g>
+<g transform="translate(18.3566, 11.6750)">
+<rect x="0.0000" y="-0.5500" width="0.6600" height="0.1300" ry="0.0400" fill="currentColor"></rect>
+</g>
+<g transform="translate(26.7227, 0.3750)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="5.9805 -0.2000 5.9805 0.2000 0.0400 0.2000 0.0400 -0.2000"></polygon>
+</g>
+<g transform="translate(36.8190, 0.3750)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="5.4942 -0.2000 5.4942 0.2000 0.0400 0.2000 0.0400 -0.2000"></polygon>
+</g>
+<g transform="translate(47.2056, 3.3750)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c66 0 108 -36 108 -89c0 -89 -113 -183 -218 -183c-66 0 -108 36 -108 89c0 89 113 183 218 183z" fill="currentColor"></path>
+</g>
+<g transform="translate(48.4448, 3.3750)">
+<rect x="-0.0650" y="-3.0000" width="0.1300" height="2.8139" ry="0.0400" fill="currentColor"></rect>
+</g>
+<g transform="translate(49.7098, 3.3750)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c66 0 108 -36 108 -89c0 -89 -113 -183 -218 -183c-66 0 -108 36 -108 89c0 89 113 183 218 183z" fill="currentColor"></path>
+</g>
+<g transform="translate(50.9490, 3.3750)">
+<rect x="-0.0650" y="-3.0000" width="0.1300" height="2.8139" ry="0.0400" fill="currentColor"></rect>
+</g>
+<g transform="translate(12.9562, 8.8750)">
+<text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>ʔ</tspan>
+</text>
+</g>
+<g transform="translate(19.4417, 3.3750)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c66 0 108 -36 108 -89c0 -89 -113 -183 -218 -183c-66 0 -108 36 -108 89c0 89 113 183 218 183z" fill="currentColor"></path>
+</g>
+<g transform="translate(19.2231, 8.8750)">
+<text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>n</tspan>
+</text>
+</g>
+<g transform="translate(19.2231, 11.6750)">
+<text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>n</tspan>
+</text>
+</g>
+<g transform="translate(20.6809, 3.3750)">
+<rect x="-0.0650" y="-3.0000" width="0.1300" height="2.8139" ry="0.0400" fill="currentColor"></rect>
+</g>
+<g transform="translate(9.5870, 3.3750)">
+<path transform="scale(0.0040, -0.0040)" d="M170 241c51 0 53 43 53 100v18v18c0 57 -2 100 -53 100c-57 0 -61 -51 -61 -118s4 -118 61 -118zM223 234c-15 -10 -33 -16 -53 -16c-101 0 -170 46 -170 141s69 141 170 141c112 0 170 -124 170 -250c0 -128 -72 -250 -190 -250c-70 0 -136 39 -136 103
+c0 36 29 66 65 66s66 -30 66 -66c0 -24 -40 -25 -40 -49c0 -20 23 -31 45 -31c66 0 75 65 75 139c0 24 -2 48 -2 72z" fill="currentColor"></path>
+</g>
+<g transform="translate(9.5358, 5.3750)">
+<path transform="scale(0.0040, -0.0040)" d="M261 287c25 30 44 64 44 103c0 54 -55 87 -114 87c-46 0 -73 -36 -73 -71c0 -21 10 -42 31 -54zM292 269c23 -13 80 -54 80 -125c0 -73 -66 -144 -189 -144c-94 0 -183 54 -183 140c0 50 36 87 72 123c-37 28 -55 66 -55 103c0 68 60 134 174 134c80 0 157 -39 157 -110
+c0 -46 -25 -86 -56 -121zM103 244c-31 -30 -59 -61 -59 -104c0 -69 66 -117 139 -117c54 0 86 42 86 83c0 24 -10 48 -35 62z" fill="currentColor"></path>
+</g>
+<g transform="translate(13.0040, 3.3750)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c66 0 108 -36 108 -89c0 -89 -113 -183 -218 -183c-66 0 -108 36 -108 89c0 89 113 183 218 183z" fill="currentColor"></path>
+</g>
+<g transform="translate(14.3082, 0.0400)">
+<path transform="scale(0.0040, -0.0040)" d="M0 0v-250h-16v250h16zM0 0c0 -197 207 -336 207 -533c0 -71 -15 -141 -41 -207c-5 -8 -13 -12 -20 -12c-13 0 -26 11 -23 27c26 61 42 126 42 192c0 103 -94 208 -165 283v250z" fill="currentColor"></path>
+</g>
+<g transform="translate(14.2432, 3.3750)">
+<rect x="-0.0650" y="-3.3750" width="0.1300" height="3.1889" ry="0.0400" fill="currentColor"></rect>
+</g>
+<g transform="translate(12.9562, 11.6750)">
+<text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>ʔ</tspan>
+</text>
+</g>
+<g transform="translate(16.6614, 3.3750)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c66 0 108 -36 108 -89c0 -89 -113 -183 -218 -183c-66 0 -108 36 -108 89c0 89 113 183 218 183z" fill="currentColor"></path>
+</g>
+<g transform="translate(15.5039, 8.8750)">
+<text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>ɔɚ</tspan>
+</text>
+</g>
+<g transform="translate(16.4770, 11.6750)">
+<text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>a</tspan>
+</text>
+</g>
+<g transform="translate(17.9006, 3.3750)">
+<rect x="-0.0650" y="-3.0000" width="0.1300" height="2.8139" ry="0.0400" fill="currentColor"></rect>
+</g>
+<g transform="translate(25.3471, 8.8750)">
+<text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>o</tspan>
+</text>
+</g>
+<g transform="translate(25.3471, 11.6750)">
+<text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>o</tspan>
+</text>
+</g>
+<g transform="translate(26.7877, 3.3750)">
+<rect x="-0.0650" y="-3.0000" width="0.1300" height="2.8139" ry="0.0400" fill="currentColor"></rect>
+</g>
+<g transform="translate(25.5485, 3.3750)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c66 0 108 -36 108 -89c0 -89 -113 -183 -218 -183c-66 0 -108 36 -108 89c0 89 113 183 218 183z" fill="currentColor"></path>
+</g>
+<g transform="translate(28.0527, 3.3750)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c66 0 108 -36 108 -89c0 -89 -113 -183 -218 -183c-66 0 -108 36 -108 89c0 89 113 183 218 183z" fill="currentColor"></path>
+</g>
+<g transform="translate(27.8513, 8.8750)">
+<text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>o</tspan>
+</text>
+</g>
+<g transform="translate(27.8513, 11.6750)">
+<text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>o</tspan>
+</text>
+</g>
+<g transform="translate(29.2920, 3.3750)">
+<rect x="-0.0650" y="-3.0000" width="0.1300" height="2.8139" ry="0.0400" fill="currentColor"></rect>
+</g>
+<g transform="translate(23.7429, 3.3750)">
+<rect x="-0.0650" y="-3.0000" width="0.1300" height="2.8139" ry="0.0400" fill="currentColor"></rect>
+</g>
+<g transform="translate(21.4144, 11.6750)">
+<text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>tw</tspan>
+</text>
+</g>
+<g transform="translate(21.4144, 8.8750)">
+<text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>tw</tspan>
+</text>
+</g>
+<g transform="translate(22.5036, 3.3750)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c66 0 108 -36 108 -89c0 -89 -113 -183 -218 -183c-66 0 -108 36 -108 89c0 89 113 183 218 183z" fill="currentColor"></path>
+</g>
+</svg>
+
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+  A[Hard edge] --&gt; B(Round edge)
+  B --&gt; C{Decision}
+  C --&gt; D[Result one]
+  C --&gt; E[Result two]
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
 <p>オフビートカウントは、数字と簡単な単語と記号を使って数えるだけの作業です。必要な単語を最小限にとどめることでストレス拍リズム・シラブル拍リズムのリズム構造を集中して練習することが可能になります。</p>
 <ul>
 <li>数字

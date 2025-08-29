@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-20f0bb15563355c1e44f617af1c12445.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-0c4f99ca063732cdea1ea94a4cfbb502.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-20f0bb15563355c1e44f617af1c12445.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-9157e248c6cc26d3f48c44c061cf9eac.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-ef1fe764e2cdb7979e9dbfdd83454407.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-9157e248c6cc26d3f48c44c061cf9eac.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -832,20 +832,78 @@ ul ul {
 <li><a href="./offbeat-count-phonetics/ja/"><strong>音韻学とオフビートカウント</strong></a></li>
 </ul>
 <p>この節ではオフビートカウントと音韻学の関係を説明し、オフビートカウントを行う上での適切な発音方法について学びます。 リズムに合わせて英語で数字の数えるときのその発音とリズムだけに絞って完璧に習得すると、英語全体の話す能力と聞き取る能力が完璧になります。またこの練習方法はジャズなどの音楽でのグルーヴ能力を大幅に向上させます。</p>
-<pre class="{python}"><code>#| output: asis
-from pathlib import Path
-import sys
-
-# Go one directory up from the current working dir
-parent = Path.cwd().parent.parent
-
-if str(parent) not in sys.path:
-    sys.path.insert(0, str(parent))
-
-# now imports from project root work
-
-from lib.groovespace import *</code></pre>
 <ul>
+<li><a href="offbeat-count-phonetics/ja#リズム認識型とリズム感" id="toc-リズム認識型とリズム感">リズム認識型とリズム感</a>
+<ul>
+<li><a href="offbeat-count-phonetics/ja#リズム認識型とは" id="toc-リズム認識型とは">リズム認識型とは</a>
+<ul>
+<li><a href="offbeat-count-phonetics/ja#シラブル拍リズム弱拍先行リズム認識型" id="toc-シラブル拍リズム弱拍先行リズム認識型">シラブル拍リズム弱拍先行リズム認識型</a></li>
+<li><a href="offbeat-count-phonetics/ja#ストレス拍リズム弱拍先行リズム認識型" id="toc-ストレス拍リズム弱拍先行リズム認識型">ストレス拍リズム弱拍先行リズム認識型</a></li>
+<li><a href="offbeat-count-phonetics/ja#アフリカ型リズム弱拍先行リズム認識型" id="toc-アフリカ型リズム弱拍先行リズム認識型">アフリカ型リズム弱拍先行リズム認識型</a></li>
+<li><a href="offbeat-count-phonetics/ja#シラブル拍リズム等時性リズム認識型" id="toc-シラブル拍リズム等時性リズム認識型">シラブル拍リズム等時性リズム認識型</a></li>
+<li><a href="offbeat-count-phonetics/ja#アフリカ拍リズム等時性リズム認識型" id="toc-アフリカ拍リズム等時性リズム認識型">アフリカ拍リズム等時性リズム認識型</a></li>
+</ul></li>
+<li><a href="offbeat-count-phonetics/ja#オフビートカウントで英語リスニング能力向上のは何故か" id="toc-オフビートカウントで英語リスニング能力向上のは何故か">オフビートカウントで英語リスニング能力向上のは何故か</a>
+<ul>
+<li><a href="offbeat-count-phonetics/ja#オフビートカウントと音韻学の一致" id="toc-オフビートカウントと音韻学の一致">オフビートカウントと音韻学の一致</a></li>
+<li><a href="offbeat-count-phonetics/ja#つの等時性isochrony-をオフビートカウントによって鍛錬する" id="toc-つの等時性isochrony-をオフビートカウントによって鍛錬する">２つの等時性(Isochrony) をオフビートカウントによって鍛錬する</a></li>
+</ul></li>
+</ul></li>
+<li><a href="offbeat-count-phonetics/ja#モーラ拍リズム言語話者の為のエチュード" id="toc-モーラ拍リズム言語話者の為のエチュード">モーラ拍リズム言語話者の為のエチュード</a>
+<ul>
+<li><a href="offbeat-count-phonetics/ja#モーラ拍リズムから見たストレス拍リズム" id="toc-モーラ拍リズムから見たストレス拍リズム">モーラ拍リズムから見たストレス拍リズム</a></li>
+<li><a href="offbeat-count-phonetics/ja#ストレス拍リズム発音のモーラ拍リズムでの解釈" id="toc-ストレス拍リズム発音のモーラ拍リズムでの解釈">ストレス拍リズム発音のモーラ拍リズムでの解釈</a></li>
+<li><a href="offbeat-count-phonetics/ja#末子音のないモーラ拍の末子音矯正法" id="toc-末子音のないモーラ拍の末子音矯正法">末子音のないモーラ拍の末子音矯正法</a></li>
+</ul></li>
+<li><a href="offbeat-count-phonetics/ja#英語の発音の基礎" id="toc-英語の発音の基礎">英語の発音の基礎</a>
+<ul>
+<li><a href="offbeat-count-phonetics/ja#英語の方言の一覧" id="toc-英語の方言の一覧">英語の方言の一覧</a></li>
+<li><a href="offbeat-count-phonetics/ja#方言の略称" id="toc-方言の略称">方言の略称</a></li>
+<li><a href="offbeat-count-phonetics/ja#英語の方言の一覧英語での説明" id="toc-英語の方言の一覧英語での説明">英語の方言の一覧(英語での説明)</a></li>
+<li><a href="offbeat-count-phonetics/ja#方言による子音変化一覧" id="toc-方言による子音変化一覧">方言による子音変化一覧</a></li>
+<li><a href="offbeat-count-phonetics/ja#方言別-子音変化マトリクス" id="toc-方言別-子音変化マトリクス">方言別 子音変化マトリクス</a></li>
+<li><a href="offbeat-count-phonetics/ja#方言による発音変化一覧-overview-of-dialectal-pronunciation-changes" id="toc-方言による発音変化一覧-overview-of-dialectal-pronunciation-changes">方言による発音変化一覧 (Overview of Dialectal Pronunciation Changes)</a></li>
+<li><a href="offbeat-count-phonetics/ja#英語で使われる発音のipa一覧" id="toc-英語で使われる発音のipa一覧">英語で使われる発音のIPA一覧</a>
+<ul>
+<li><a href="offbeat-count-phonetics/ja#破裂音-plosives" id="toc-破裂音-plosives">1. 破裂音 (Plosives)</a></li>
+<li><a href="offbeat-count-phonetics/ja#鼻音-nasals" id="toc-鼻音-nasals">2. 鼻音 (Nasals)</a></li>
+<li><a href="offbeat-count-phonetics/ja#震え音-trills" id="toc-震え音-trills">3. 震え音 (Trills)</a></li>
+<li><a href="offbeat-count-phonetics/ja#はじき音-tapsflaps" id="toc-はじき音-tapsflaps">4. はじき音 (Taps/Flaps)</a></li>
+<li><a href="offbeat-count-phonetics/ja#摩擦音-fricatives" id="toc-摩擦音-fricatives">5. 摩擦音 (Fricatives)</a></li>
+<li><a href="offbeat-count-phonetics/ja#側面摩擦音-lateral-fricatives" id="toc-側面摩擦音-lateral-fricatives">6. 側面摩擦音 (Lateral Fricatives)</a></li>
+<li><a href="offbeat-count-phonetics/ja#接近音-approximants" id="toc-接近音-approximants">7. 接近音 (Approximants)</a></li>
+<li><a href="offbeat-count-phonetics/ja#側面接近音-lateral-approximants" id="toc-側面接近音-lateral-approximants">8. 側面接近音 (Lateral Approximants)</a></li>
+</ul></li>
+<li><a href="offbeat-count-phonetics/ja#音韻規則を表す表記法spe" id="toc-音韻規則を表す表記法spe">音韻規則を表す表記法(SPE)</a></li>
+<li><a href="offbeat-count-phonetics/ja#音韻規則を表す時の発音変化位置の用語" id="toc-音韻規則を表す時の発音変化位置の用語">音韻規則を表す時の発音変化位置の用語</a></li>
+<li><a href="offbeat-count-phonetics/ja#発音用語集" id="toc-発音用語集">発音用語集</a>
+<ul>
+<li><a href="offbeat-count-phonetics/ja#調音点places-of-articulation" id="toc-調音点places-of-articulation">調音点（Places of Articulation）</a></li>
+<li><a href="offbeat-count-phonetics/ja#調音様式manners-of-articulation" id="toc-調音様式manners-of-articulation">調音様式（Manners of Articulation）</a></li>
+<li><a href="offbeat-count-phonetics/ja#音声過程phonological-processes" id="toc-音声過程phonological-processes">音声過程（Phonological Processes）</a></li>
+<li><a href="offbeat-count-phonetics/ja#その他の基本用語other-key-terms" id="toc-その他の基本用語other-key-terms">その他の基本用語（Other Key Terms）</a></li>
+</ul></li>
+<li><a href="offbeat-count-phonetics/ja#英語で使われる主な母音" id="toc-英語で使われる主な母音">英語で使われる主な母音</a>
+<ul>
+<li><a href="offbeat-count-phonetics/ja#単母音" id="toc-単母音">単母音</a></li>
+<li><a href="offbeat-count-phonetics/ja#二重母音滑り音" id="toc-二重母音滑り音">二重母音（滑り音）</a></li>
+<li><a href="offbeat-count-phonetics/ja#r-付きr-colored複合" id="toc-r-付きr-colored複合">r 付き（r-colored）複合</a></li>
+</ul></li>
+<li><a href="offbeat-count-phonetics/ja#英語で使われる主な子音" id="toc-英語で使われる主な子音">英語で使われる主な子音</a>
+<ul>
+<li><a href="offbeat-count-phonetics/ja#破裂音-plosives-1" id="toc-破裂音-plosives-1">破裂音 (Plosives)</a></li>
+<li><a href="offbeat-count-phonetics/ja#破擦音-affricates" id="toc-破擦音-affricates">破擦音 (Affricates)</a></li>
+<li><a href="offbeat-count-phonetics/ja#歯摩擦音-fricatives" id="toc-歯摩擦音-fricatives">歯摩擦音 (Fricatives)</a></li>
+<li><a href="offbeat-count-phonetics/ja#鼻音-nasals-1" id="toc-鼻音-nasals-1">鼻音 (Nasals)</a></li>
+<li><a href="offbeat-count-phonetics/ja#接近音-approximants-1" id="toc-接近音-approximants-1">接近音 (Approximants)</a></li>
+<li><a href="offbeat-count-phonetics/ja#側面接近音-lateral" id="toc-側面接近音-lateral">側面接近音 (Lateral)</a></li>
+</ul></li>
+<li><a href="offbeat-count-phonetics/ja#使い分けの要点最小セット" id="toc-使い分けの要点最小セット">使い分けの要点（最小セット）</a></li>
+<li><a href="offbeat-count-phonetics/ja#方言別子音入れ替わりまとめ" id="toc-方言別子音入れ替わりまとめ">方言別子音入れ替わりまとめ</a></li>
+</ul></li>
+<li><a href="offbeat-count-phonetics/ja#オフビートカウントでの正しい発音の為の基礎" id="toc-オフビートカウントでの正しい発音の為の基礎">オフビートカウントでの正しい発音の為の基礎</a></li>
+<li><a href="offbeat-count-phonetics/ja#三連符オフビートカウントの発音" id="toc-三連符オフビートカウントの発音">三連符オフビートカウントの発音</a></li>
+<li><a href="offbeat-count-phonetics/ja#九連符オフビートカウントの発音" id="toc-九連符オフビートカウントの発音">九連符オフビートカウントの発音</a></li>
 <li><a href="offbeat-count-phonetics/ja#go-one-directory-up-from-the-current-working-dir" id="toc-go-one-directory-up-from-the-current-working-dir">Go one directory up from the current working dir</a></li>
 <li><a href="offbeat-count-phonetics/ja#now-imports-from-project-root-work" id="toc-now-imports-from-project-root-work">now imports from project root work</a></li>
 </ul>
