@@ -560,27 +560,6 @@
     "text": "律動図鑑リズムペディア へのご質問、ご意見、ご感想などは、以下の方法でお寄せください。\n\n\n\n\nx.com/ats4u\n\nfacebook.com/whatsupAts\n\n\n\n\n\n\ninfo@rhythmpedia.com\n※内容によっては返信に数日いただく場合があります。ご了承ください。\n\n\n\n\n\n\nお問い合わせフォームはこちら\n\n※ 通常 ３〜４営業日以内に御返答致します。\n\n\n\n\n\nお問い合わせ内容によっては、回答できない場合があります。\n個人情報は、お問い合わせ対応以外の目的では使用しません。\n詳細はプライバシーポリシーをご確認ください。"
   },
   {
-    "objectID": "bookmarklet.html",
-    "href": "bookmarklet.html",
-    "title": "What it is",
-    "section": "",
-    "text": "Here’s a clean, accurate spec distilled from that bookmarklet."
-  },
-  {
-    "objectID": "bookmarklet.html#related-things-you-might-want-next",
-    "href": "bookmarklet.html#related-things-you-might-want-next",
-    "title": "What it is",
-    "section": "Related things you might want next",
-    "text": "Related things you might want next\n\nA userscript (Tampermonkey) version with UI button and settings (file naming, language tag source, include/exclude sections).\nA Node/CLI exporter that consumes the conversation JSON from ChatGPT’s export archive and emits Markdown with the same structure.\nA Quarto post‑processor: convert this Markdown into your site’s page(s), auto‑splitting by “## Human/Assistant” boundaries."
-  },
-  {
-    "objectID": "bookmarklet.html#background-that-may-help",
-    "href": "bookmarklet.html#background-that-may-help",
-    "title": "What it is",
-    "section": "Background that may help",
-    "text": "Background that may help\n\nTurndown is a widely used HTML→Markdown engine. Custom rules (like the pre handler here) are the key to preserving code blocks and languages cleanly.\nChatGPT’s DOM wrappers for code often vary; relying primarily on code[class*=\"language-\"] is more stable than class names like .overflow-y-auto.\n\n\n\nNative‑style rewrites of your ask (for reuse)\n\n\n\n\n\n\n\nStyle\nRewrite\n\n\n\n\nTone‑matched\n“This is a bookmarklet. Can you analyze its spec?”\n\n\nCasual\n“Got this bookmarklet—can you tell me what it does, exactly?”\n\n\nAcademic\n“Please provide a formal specification and behavioral analysis of this bookmarklet.”\n\n\nGen‑Z\n“Can u break down what this bookmarklet actually does, like for real?”\n\n\nPolite\n“Could you analyze the specification of this bookmarklet, please?”\n\n\nBusiness\n“Please review the bookmarklet and summarize its functional specification.”\n\n\nMinimalist\n“Analyze this bookmarklet’s spec.”\n\n\nSocratic\n“If this bookmarklet runs on a ChatGPT page, what evidence in the code shows how it extracts and formats content?”\n\n\nPoetic\n“Unfold this folded script; tell me how it harvests words and binds them into Markdown.”\n\n\nProvocative\n“If this bookmarklet mangles my chat, where does the spec fail?”\n\n\nChild‑friendly\n“This tiny tool saves your chat as a text file. Can you explain how it works?”\n\n\nOld‑school\n“Pray examine this bookmarklet and enumerate its operations.”\n\n\nJournalistic\n“What does the bookmarklet capture, how does it process the page, and what file does it produce?”\n\n\nTweetable\n“Bookmarklet that turns ChatGPT chats into a Markdown file via custom Turndown rules. Spec breakdown?”"
-  },
-  {
     "objectID": "beat-orientation/phonological-analysis-of-rhythm-types-in-languages/ja/index.html",
     "href": "beat-orientation/phonological-analysis-of-rhythm-types-in-languages/ja/index.html",
     "title": "言語の拍リズムと音韻学的分析",
@@ -913,8 +892,8 @@
     ]
   },
   {
-    "objectID": "mechanism-behind-tatenori/縦乗りのメカニズム/ja/index.html",
-    "href": "mechanism-behind-tatenori/縦乗りのメカニズム/ja/index.html",
+    "objectID": "mechanism-behind-tatenori/mechanism-behind-tatenori /ja/index.html",
+    "href": "mechanism-behind-tatenori/mechanism-behind-tatenori /ja/index.html",
     "title": "縦乗りのメカニズム",
     "section": "",
     "text": "モーラ拍ネイティブが陥りがちなリズム習癖\n\n\n\n縦乗りと横乗りの違いを完全に把握した。縦乗り解釈する時に音符の位置がずれる。これがいわゆる『日本人の頭重心リズム』のメカニズムだ。縦乗り（モーラ拍リズム）横乗り（ストレス拍リズム）#オフビートで思考する語学 pic.twitter.com/o3RILE8EMy\n\n— 岡敦/Ats🇯🇵 (@ats4u) June 6, 2025\n\n\n\n\n縦乗りに気付く\n貴方は、誰かとペアになってその人と交互に手を叩くことは出来ますでしょうか。「何をそんな簡単なことを」とおっしゃるかも知れません。しかしこれは実際にやってみると非常に難しいことだとお気付きになることと思います。\nもしかするとメトロノームに合わせて交互に手を叩くことは出来るかも知れません。しかし人間が相手の場合、その手拍子の感覚は揺れ動きます。この様な揺れ動くリズムを相手にして交互に手を叩くことは、とても難しいこととお気付きになるかも知れません。\n次にメトロノームを弱拍に合わせて即興演奏や特定の楽曲を演奏することは出来ますでしょうか。ここでいう弱拍とは、4分音符でしたら2拍目／4拍目のことです。或いは8分音符でしたら2拍4拍6拍8拍のことです。この弱拍にメトロノームを合わせて演奏することは出来ますでしょうか ─── これは更に難しいことだとお気付きになると思います。\nもしかしたら「そんな難しいことは出来ないのが当然だ！」と仰るかも知れません ─── しかしここに、日本語を母国語とする人だけが持っている特殊な時間認識の偏りを観察出来るのです。\n弱拍にメトロノームを鳴らすことは決して簡単なことではありませんが、日本語以外の言語を母国語とする人…特に英語を母国語とする人は、これを多少練習すれば習得することが出来るのです。しかし日本語を母国語とする人は長い年月 ─── 場合によっては20年近い年月を要することも稀ではありません。\nこれにははっきりした理由があります ─── その違いは言語によるリズム認識の違いにあります。\n\n\n交互手叩き不可能性\n縦乗りの人は、時間の認識の原理上「2人で交互に手を叩くことが出来ない」という特徴があります。 もしかするとメトロノームに合わせて交互に手を叩くことは出来るかも知れません。しかし不正確な人間を相手に交互に手を叩くことが出来ません。\nしかし、相手が人間の場合、人間のリズムには微妙な揺らぎがあることから、その揺らぎに対して柔軟に対応する必要が発生します。つまり交互にリズムを合わせ続けるには「相手のゆらぎを感じ取りながら、自分のタイミングを調整する」という、より複雑な時間感覚が求められます。 ─── この人間同士で交互手叩きを行う場面で、時間認識の違いをはっきりと観察できる現象が観察出来るのです。\n縦乗りの人は、時間認識の原理上、一定の間隔で鳴っているパルスと距離を取って同時ではない状態を維持することがとても難しく、結果として、人間同士での即時的なリズムのやりとり──すなわち交互に手を叩くような行為──が出来ないという現象となって観察されます。\n一方縦乗りの人は、交互に手を叩くことは出来ませんが、不規則になっている手拍子に合わせて同時に叩くことなら即座に行う事ができます。これはむしろ、縦乗りの人に特徴的な能力で縦乗りの人以外には出来ない行為です。\nこれは些細なこと…と思われるかも知れません。しかし、ロック・ジャズ・クラシック・ファンク問わず、2人の奏者が交互に音を出すリズムが繰り返し現れることには注意が必要です。西洋音楽の最も基礎にバスドラムとスネアドラムを交互に演奏するリズムが現れます。特に現代あるアメリカ起源のポピュラー音楽は必ずこのリズムが登場します。\n\n\n強拍先行は存在しない\n『強弱』の様に聴こえるリズムでも、そこに隠れた暗黙の弱拍を演奏してから強拍を演奏します。海外の音楽には強拍先行は存在しません。一瞥すると強拍が先行する様に見えるリズムでも、実はその前に休符として先に弱拍を演奏する習慣があります。\n\n\nリズム解釈の違い\nこの言語自体が持っているリズム認識の違いは、同じ単語の発音の解釈の違いとして現れます。\n\n\n\n\n\n\n\n\n\n\n拍リズム\nバナナ\nコンピューター\nチョコレート\nカメラ\n\n\n\n\nモーラ拍 🇯🇵\n/ba-na-na /\n/ko-m-pyu-u-ta-a/\n/cho-ko-re-to/\n/ka-me-ra/\n\n\nシラブル拍🇪🇸🇫🇷\n/ba-na-na /\n/com-pyu-ter/\n/cho-co-late/\n/ca-me-ra/\n\n\nストレス拍🇺🇸🇬🇧\n/ba-NA-na /\n/kəm-ˈPYU-ter/\n/ˈCHOK-lət/\n/KAM-ruh/\n\n\n\nこのリズム解釈の違いは、言語だけでなく、音楽での強拍と弱拍の前後関係の違いとして現れます。この認識の違いは、即興演奏時や作曲時の無意識の音符の配置の仕方にはっきりとした偏りを生み出します。そしてこの認識の違いは、音楽だけにとどまらず日常的に行う動作と動きの認識、行動全体に対して大きな影響を与えています。\n特にこのリズム認識の違いは、無意識の内に音楽を演奏する時の強拍弱拍の順序の違いとして現れます。\n\n\n強拍弱拍は単独では存在しない\n前述の通り強拍と弱拍が存在するためには、当たり前なことですが、最低でも２つ以上の音符が必要です。この事は特筆に値します。海外の音楽には必ず強拍弱拍があります。これは裏を返すと、単独の拍を単独で演奏することがほとんどないということを隠喩しています。 単独の拍を単独で演奏している様に見えても、演奏者及び聴者は、そこに暗黙の弱拍があることを聴き取っています。\nしかし日本語のようなモーラ拍リズムの言語を母国語とする人は、しばしば音楽を演奏する時に音符を単独で演奏する習慣を持っています。ここから日本語話者は音符を聞いた時、そこに暗黙の弱拍があることは愚か、そこに強弱の区別がある事にすら気付かないという、日本語話者に独特な盲点が生まれます。\n強拍弱拍は単独では存在できなません。 そして海外の音楽では単独の音符は存在しません。 このことをここで指摘すると共に今後常にこのことを喚起していく必要があるでしょう。\n強拍でも弱拍でもない単独の音符が現れてしまう ─── これがモーラ拍リズム（日本語）話者が持っている１つ目の盲点です。\n\n\n拍リズムによって頭合わせ尻合わせの違いが生まれるメカニズム\n\nモーラ拍リズムのリボ払い\n\n\nシラブル拍リズムの月末締め一括払い\n\n\n\n桃太郎さん現象について\n\n\n最初に聴こえた拍が１拍目強拍に聞こえる症候群について\n\n目次\n\n律動図鑑 〜 リズムペディア\n縦乗りリズム理論\n多層弱拍基軸律動グルーヴィダンスミュージック理論\n\n多層弱拍基軸律動グルーヴィダンスミュージック理論で得られるもの\n強拍弱拍の順序に対する認識の違い\n言語の拍リズムと音韻学的分析\nモーラ拍リズム言語を母国語とする方々への手紙\n言語のリズムと音楽のリズムの交差点\n多層弱拍先行グルーヴについて\n多層弱拍基軸律動グルーヴィダンスミュージック理論まとめ\n縦乗りのメカニズム\n\n声出しオフビートカウント法\n音韻学とオフビートカウント\n多次元グルーヴ空間理論\n分散グルーヴ理論\n弱拍天動説と弱拍地動説\n多層弱拍先行ポリリズム\n縦乗りの心理学\n縦乗りのメカニズム\n\n縦乗りのメカニズム\n\n日本語が動作認知に与える影響",
