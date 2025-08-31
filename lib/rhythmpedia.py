@@ -37,6 +37,97 @@ def as_bool(v, default=True):
         return v != 0
     return bool(v)
 
+
+from typing import Any, Mapping
+from pathlib import Path
+from datetime import date, datetime
+
+#------------------------------------------------
+# Added on Mon, 01 Sep 2025 01:55:08 +0900
+#------------------------------------------------
+def dump_frontmatter(data: Mapping[str, Any] | None, *, line_ending: str = "\n", allow_empty: bool = False) -> str:
+    """
+    Serialize a front-matter object to a YAML front-matter block.
+
+    Inverse of `parse_frontmatter`:
+
+        parse_frontmatter(dump_frontmatter(M)) == M
+        # and for non-mapping payloads:
+        parse_frontmatter(dump_frontmatter({"_frontmatter": X})) == {"_frontmatter": X}
+
+    Behavior:
+    - If `data` is falsy (None or {}), returns "" unless `allow_empty=True`
+      (then returns an empty front matter block).
+    - If `data` is exactly {"_frontmatter": X}, emits a bare YAML document `X`
+      (not wrapped in a mapping) to faithfully invert `parse_frontmatter`.
+
+    Parameters:
+      line_ending: "\n" by default. Use "\r\n" on Windows if you prefer.
+      allow_empty: If True and data is falsy, emit:
+                   "---\\n---\\n" (with your chosen line ending)
+    """
+    if not data:
+        return f"---{line_ending}---{line_ending}" if allow_empty else ""
+
+    try:
+        import yaml
+    except ModuleNotFoundError:
+        raise RuntimeError(
+            "PyYAML is required to dump front matter. "
+            "Install it with: python -m pip install pyyaml"
+        )
+
+    # Use a custom SafeDumper that:
+    # - preserves key order (sort_keys=False)
+    # - avoids YAML anchors/aliases (ignore_aliases)
+    # - formats multiline strings in block style (|)
+    class _Dumper(yaml.SafeDumper):
+        pass
+
+    # Avoid anchors/aliases to keep FM clean
+    _Dumper.ignore_aliases = lambda self, data: True  # type: ignore[method-assign]
+
+    # Multiline strings -> block style (|)
+    def _repr_str(dumper: yaml.SafeDumper, value: str):
+        style = '|' if '\n' in value else None
+        return dumper.represent_scalar('tag:yaml.org,2002:str', value, style=style)
+
+    # Path -> string
+    def _repr_path(dumper: yaml.SafeDumper, value: Path):
+        return dumper.represent_scalar('tag:yaml.org,2002:str', str(value))
+
+    # Dates/DateTimes -> ISO8601 (Quarto/Pandoc friendly)
+    def _repr_date(dumper: yaml.SafeDumper, value: date):
+        # date only (YYYY-MM-DD)
+        return dumper.represent_scalar('tag:yaml.org,2002:timestamp', value.isoformat())
+
+    def _repr_datetime(dumper: yaml.SafeDumper, value: datetime):
+        # keep timezone info if present
+        return dumper.represent_scalar('tag:yaml.org,2002:timestamp', value.isoformat())
+
+    _Dumper.add_representer(str, _repr_str)
+    _Dumper.add_representer(Path, _repr_path)
+    _Dumper.add_representer(date, _repr_date)
+    _Dumper.add_representer(datetime, _repr_datetime)
+
+    # If the caller passed {"_frontmatter": X}, emit X as the root (bare document)
+    payload: Any = data["_frontmatter"] if (isinstance(data, dict) and set(data.keys()) == {"_frontmatter"}) else data
+
+    yaml_text = yaml.dump(
+        payload,
+        Dumper=_Dumper,
+        default_flow_style=False,  # block style
+        sort_keys=False,           # preserve insertion order
+        allow_unicode=True
+    )
+
+    # Ensure trailing newline inside the block
+    if not yaml_text.endswith(line_ending):
+        yaml_text += line_ending
+
+    return f"---{line_ending}{yaml_text}---{line_ending}"
+
+
 # ======================
 # version 1
 # ======================
@@ -660,6 +751,7 @@ sys.path.append(os.path.dirname(__file__))
 
 import sys, pathlib;
 from lib.strip_header_comments import strip_header_comments
+from lib.git_dates import get_git_dates, GitDatesError  # add near other imports
 
 def _hdr_start(text: str, it) -> int:
     # start of the header line (prev '\n' before section_start_char; -1→0)
@@ -688,15 +780,30 @@ def split_master_qmd(master_path: Path, *, toc: bool = True ) -> None:
     # preamble = text[:min(_hdr_start(text, it) for it in h2s)]
     preamble = h0s[0] if 0 < len(h0s) else None # ADDED BY ATS Wed, 20 Aug 2025 18:02:26 +0900
 
+    # Resolve dates once per master (policy: all sections inherit master’s Git dates)
+    try:
+        _cdate, _mdate = get_git_dates(str(master_path))
+    except GitDatesError as e:
+        raise  # strict; if you prefer permissive, replace with a WARN + fallback
+
     # 3-liner per section: slice → mkdir → write (H2 only per spec)
     for it in h2s:
         beg, end = _hdr_start(text, it), int(it["section_end_char"])
         section = text[beg:end]
         title_raw = it["title_raw"]
-        # title_clean = TAG_RE.sub("", it["title_raw"]).strip()
-        fm = f"---\ntitle: \"{title_raw}\"\n---\n\n"
 
-        # Optionally append sidebar include as a TOC block
+        # Inject cdate/mdate into section front matter via the serializer
+        fm = dump_frontmatter({
+            **frontmatter,   # shallow copy all keys/values
+            "title": title_raw,
+            "cdate": _cdate,   # assume already YYYY-MM-DD or ISO8601 strings
+            "mdate": _mdate,
+        })
+
+        # ensure exactly one blank line after FM
+        if not fm.endswith("\n\n"):
+            fm = fm.rstrip("\n") + "\n\n"
+
         if toc:
             # {{< include /_sidebar.generated.md >}}
             footer =  f"\n{{{{< include /_sidebar-{lang}.generated.md >}}}}\n"
@@ -712,6 +819,7 @@ def split_master_qmd(master_path: Path, *, toc: bool = True ) -> None:
         else:
             print(f"  ✅ {p} skipped")
 
+    # (rest of function unchanged…)
 
     # Language index via create_toc_v5 (absolute links)
     idx: Path = h2s[0]["lang_index_path"]
@@ -787,6 +895,7 @@ def split_master_qmd(master_path: Path, *, toc: bool = True ) -> None:
 from pathlib import Path
 import shutil
 from lib.strip_header_comments import strip_header_comments
+from lib.git_dates import get_git_dates, GitDatesError  # add near other imports
 
 def copy_lang_qmd(master_path: Path, *, toc: bool = True ) -> None:
     """
@@ -803,20 +912,57 @@ def copy_lang_qmd(master_path: Path, *, toc: bool = True ) -> None:
     src_text = strip_header_comments(src_text)
 
     frontmatter = parse_frontmatter(src_text)
+
     # Follow front matter flag (default True, explicit false suppresses YAML)
     sidebar = as_bool( frontmatter.get("rhythmpedia-preproc-sidebar", None), default=True )
     print(f"[DEBUG] {dst} sidebar = {sidebar}")
 
-    # Optionally append sidebar include as a TOC block
-    if toc:
-        src_text = src_text + f"\n{{{{< include /_sidebar-{lang}.generated.md >}}}}\n"
+    # Resolve dates from Git (single source of truth)
+    try:
+        _cdate, _mdate = get_git_dates(str(master_path))
+    except GitDatesError as e:
+        raise  # strict; switch to permissive with fallback if desired
 
-    if not dst.exists() or dst.read_text(encoding="utf-8") != src_text:
+    # Parse and update/insert YAML front matter
+    m = _FM_RE.match(src_text)
+    if m:
+        body = src_text[m.end():]
+    else:
+        body = src_text
+
+    if "title" not in frontmatter:
+        frontmatter[ "title" ] = "Untitled"
+
+    # Inject cdate/mdate into section front matter via the serializer
+    new_yaml = dump_frontmatter({
+        **frontmatter,   # shallow copy all keys/values
+        # "title": title_raw,
+        "cdate": _cdate,   # assume already YYYY-MM-DD or ISO8601 strings
+        "mdate": _mdate,
+    })
+
+    # ensure exactly one blank line after FM
+    if not new_yaml.endswith("\n\n"):
+        new_yaml = new_yaml.rstrip("\n") + "\n\n"
+
+    new_text = new_yaml + body
+
+
+
+    # Optionally append sidebar include as a TOC block (preserve existing behavior)
+    if toc:
+        new_text = new_text + f"\n{{{{< include /_sidebar-{lang}.generated.md >}}}}\n"
+
+    if not dst.exists() or dst.read_text(encoding="utf-8") != new_text:
         dst.parent.mkdir(parents=True, exist_ok=True)
-        dst.write_text(src_text, encoding="utf-8")
+        dst.write_text(new_text, encoding="utf-8")
         print(f"  ✅ {dst}")
     else:
         print(f"  =  {dst} (unchanged)")
+
+    # (rest of function unchanged…)
+
+
 
     base_name = str(master_path.parent.name)
 
