@@ -153,39 +153,39 @@ idNum    = #(define-scheme-function (x) (number?) x)   % identity for numbers
       }
 
       \new Lyrics \with { instrumentName = "" } \lyricsto "aligner2" {
-        \bl   \bl \bl      \bl     \bl 
+        \bl   \bl  \bl      \bl     \bl 
 
-        \bl   \bl \bl      \bl     \bl \bl     \bl  \bl  \bl
-        \bl   \bl \bl      \bl     \bl \bl     \bl   \bl \bl
-        \bl   \bl \bl      \bl     \bl \bl     \bl   \bl \bl
+        \bl   \bl  \bl      \bl     \bl \bl     \bl   \bl  \bl
+        \bl   \bl  \bl      \bl     \bl \bl     \bl   \bl  \bl
+        \bl   \bl  \bl      \bl     \bl \bl     \bl   \bl  \bl
 
-        \bl   \bl  \bl     \bl   \bl \bl     \bl   \bl \bl
-        \bl   \bl  \bl     \bl     \bl \bl     \bl  \bl  \bl
-        \bl   \bl \bl      \bl     \bl \bl     \bl   \bl \bl
+        \bl   \bl  \bl      \bl     \bl \bl     \bl   \bl  \bl
+        \bl   \bl  \bl      \bl     \bl \bl     \bl   \bl  \bl
+        \bl   \bl  \bl      \bl     \bl \bl     \bl   \bl  \bl
 
-        \bl   \bl  \bl      \bl   \bl \bl     \bl   \bl \bl
-        \bl   \bl  \bl      \bl     \bl \bl     \bl   \bl \bl
-        \bl   \bl  \bl      \bl     \bl \bl     \bl   \bl \bl
+        \bl   \bl  \bl      \bl     \bl \bl     \bl   \bl  \bl
+        \bl   \bl  \bl      \bl     \bl \bl     \bl   \bl  \bl
+        \bl   \bl  \bl      \bl     \bl \bl     \bl   \bl  \bl
 
-        \bl   \bl  \bl      \bl    \bl \bl     \bl  \bl  \bl
-        \bl   \bl  \bl      \bl     \bl \bl     \bl  \bl  \bl
-        \bl   \bl  \bl      \bl     \bl \bl     \bl   \bl \bl
+        \bl   \bl  \bl      \bl     \bl \bl     \bl   \bl  \bl
+        \bl   \bl  \bl      \bl     \bl \bl     \bl   \bl  \bl
+        \bl   \bl  \bl      \bl     \bl \bl     \bl   \bl  \bl
 
-        \bl   \bl  \bl      \bl     \bl \bl     \bl  \bl  \bl
-        \bl   \bl \bl      \bl     \bl \bl     \bl  \bl  \bl
-        \bl   \bl \bl      \bl     \bl \bl     \bl   \bl \bl
+        \bl   \bl  \bl      \bl     \bl \bl     \bl   \bl  \bl
+        \bl   \bl  \bl      \bl     \bl \bl     \bl   \bl  \bl
+        \bl   \bl  \bl      \bl     \bl \bl     \bl   \bl  \bl
 
-        \bl   \bl  \bl      \bl     \bl \bl     \bl  \bl  \bl
-        \bl   \bl \bl      \bl     \bl \bl     \bl  \bl  \bl
-        \bl   \bl \bl      \bl     \bl \bl     \bl  \bl  \bl
+        \bl   \bl  \bl      \bl     \bl \bl     \bl   \bl  \bl
+        \bl   \bl  \bl      \bl     \bl \bl     \bl   \bl  \bl
+        \bl   \bl  \bl      \bl     \bl \bl     \bl   \bl  \bl
 
-        \bl   \bl  \bl      \bl     \bl \bl     \bl  \bl  \bl
-        \bl   \bl \bl      \bl     \bl \bl     \bl  \bl  \bl
-        \bl   \bl \bl      \bl     \bl \bl     \bl  \bl  \bl
+        \bl   \bl  \bl      \bl     \bl \bl     \bl   \bl  \bl
+        \bl   \bl  \bl      \bl     \bl \bl     \bl   \bl  \bl
+        \bl   \bl  \bl      \bl     \bl \bl     \bl   \bl  \bl
 
-        \bl   \bl  \bl    \bl     \bl \bl     \bl  \bl  \bl
-        "l"   \bl \bl      \bl     \bl \bl     \bl  \bl  \bl
-        \bl   \bl \bl      \bl     \bl \bl     \bl  \bl  \bl
+        \bl   \bl  \bl      \bl     \bl \bl     \bl   \bl  \bl
+        "l"   \bl  \bl      \bl     \bl \bl     \bl   \bl  \bl
+        \bl   \bl  \bl      \bl     \bl \bl     \bl   \bl  \bl
 
         \bl    \bl \bl       \bl     \bl \bl     \bl   \bl \bl
       }
