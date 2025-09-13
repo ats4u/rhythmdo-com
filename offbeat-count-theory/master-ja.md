@@ -946,9 +946,11 @@ Bobo Stenson Trio -Dormattan 北欧ジャズのフリーテンポの様に聴こ
 ##| output: asis
 from pathlib import Path
 import sys
+import os
 
 ## Go one directory up from the current working dir
-parent = Path.cwd().parent.parent
+# parent = Path.cwd().parent.parent
+parent = os.getenv( "RHYTHMPRESS_ROOT" )
 
 if str(parent) not in sys.path:
     sys.path.insert(0, str(parent))
