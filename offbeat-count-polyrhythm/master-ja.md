@@ -5,11 +5,13 @@ tags:
   - foo
 ---
 
+## 多層弱拍先行ポリリズム <!-- {#offbeat-count-polyrhythm} -->
+
 ポリリズムは興味深いが難解で聴覚的な魅力に乏しい  ─── これまでポリリズムの練習は、楽典のルールに則って **頭合わせリズム認識**に基づいて行われてきました。結果としてリズムが本来持っているグルーヴの再現に失敗していたのです。こうしてポリリズムは「複雑で興味深いが聴覚的な魅力に乏しい」と誤った評価を受けてきました。この問題を解決する為に、ポリリズムの構築方法に、多層弱拍基軸理論の観点を取り入れて応用しポリリズムを網羅的に再構成しました。
 
 この章では、ポリリズムにリズム本来のグルーヴを回復する為の理論と方法を提示します。
 
-## <span id="anchor"></span>はじめに
+### <span id="anchor"></span>はじめに
 
 <style>
     table { 
@@ -24,7 +26,7 @@ tags:
     }
 </style>
 
-### <span id="anchor-1"></span>ダビディバ・カウントとは
+#### <span id="anchor-1"></span>ダビディバ・カウントとは
 
 ダビディバ・カウントとは４拍子スイング（通称４ビート）と呼ばれるリズムパターンでの各音の役割に「**ダ**」「**バ**」「**ディ**」「**ビ**」などの音声を割り当てることで理解しやすくした上で、スイングで演奏される各種のリズムを習得するためのメソッドです。
 
@@ -33,7 +35,7 @@ tags:
 ポリリズムとはある連符のなかで異なる長さのフレーズを叩くことで複数のテンポが同時に鳴っている様な効果を得るリズムのことです。ポリリズムはリズムを構成する数字によって全く違うリズムが生まれる面白さがあります。
 以下で四音（ダビディバと発音を割り当てたスイング）の上で構成される各種のポリリズムを順に練習していきます。
 
-### <span id="anchor-2"></span>ダビディバ四音基底リズムと四音スイング
+#### <span id="anchor-2"></span>ダビディバ四音基底リズムと四音スイング
 
 ４拍子スイングは８つの音が含まれています。
 
@@ -67,7 +69,7 @@ tags:
 
 このダビディバは４つの音を含んでいますが、他にも３つ／５つ等々の異なる数の音を含むものがあります。ここでは４音のダビディバを特に**四音基底リズム**と呼びます。
 
-### <span id="anchor-3"></span>ダビディバの表記法
+#### <span id="anchor-3"></span>ダビディバの表記法
 
 以降でダビディバという発音を組み合わせた様々なパターンを説明していくことになります。説明に当たってカタカナでダビディバと発音を表記すると字数が不規則になり紙面も多く消費するため、今後は**ダビディバ等の発音をローマ字で表記**します。
 
@@ -75,7 +77,7 @@ tags:
 |------------|-------------|
 | ダビディバ | da bi di ba |
 
-### <span id="anchor-4"></span>ダビディバの発音変化
+#### <span id="anchor-4"></span>ダビディバの発音変化
 
 da bi di ba は、ダビディバ
 ****と発音するのが基本です。これを上達するにしたがって速く発音する必要があるため、実践上ではしばしばダビディバの発音がダベデバ
@@ -117,9 +119,9 @@ da bi di ba は、ダビディバ
 </tbody>
 </table>
 
-## <span id="anchor-5"></span>四音基底リズム
+### <span id="anchor-5"></span>四音基底リズム
 
-### <span id="anchor-6"></span>四音基底の発音
+#### <span id="anchor-6"></span>四音基底の発音
 
 四音基底では、四音に対して次のような発音を割り当てます。
 
@@ -128,7 +130,7 @@ da bi di ba は、ダビディバ
 3.  di
 4.  ba
 
-#### <span id="anchor-7"></span>練習
+##### <span id="anchor-7"></span>練習
 
 ２拍目表と４拍目表()で手を叩きながらda bi di ba を唱えてみましょう。
 
@@ -138,7 +140,7 @@ da bi di ba は、ダビディバ
 |     |     |     |     |     |     |     |     |
 | da  | bi  | di  | ba  | da  | bi  | di  | ba  |
 
-### <span id="anchor-8"></span>四音基底の転回形
+#### <span id="anchor-8"></span>四音基底の転回形
 
 スイングのリズムは開始音が転回して違う音が開始音として聞こえてしまうところがその聴感上のスリリングな雰囲気を醸し出す原動力になっています。その転回に慣れる為にその全転回パターンを数学的に列挙した上で暗記しましょう。
 
@@ -149,7 +151,7 @@ da bi di ba は、ダビディバ
 | 第三転回形 | di ba da bi |
 | 第四転回形 | bi di ba da |
 
-#### <span id="anchor-9"></span>練習
+##### <span id="anchor-9"></span>練習
 
 音楽に合わせてda bi di ba
 を唱えつつ二拍目表と四拍目表で手を叩きましょう。この時、da
@@ -158,7 +160,7 @@ di
 として聞こえる様になるまで唱え続けます。これが第二転回形です。同様にして第三転回形di
 ba da bi ・第四転回形bi di ba da も練習しましょう。
 
-### <span id="anchor-10"></span>四音基底の基礎
+#### <span id="anchor-10"></span>四音基底の基礎
 
 メトロノームを二拍目・四拍目のに合わせて次の様にダビディバを歌いましょう。その際に注意点が２点あります。
 
@@ -170,7 +172,7 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 
 なお以下のドリルを１から順番に練習する必要はありません。人によって得意なドリル／苦手なドリルが異なるからです。あるドリルが難しいと感じたら、そのドリルを飛ばして次のドリルに進んでできるドリルから順に練習してください。最終的に全てのドリルが完了すれば結構です。
 
-#### ドリル１
+##### ドリル１
 
 |     |     |     |     |     |     |     |     |
 |-----|-----|-----|-----|-----|-----|-----|-----|
@@ -178,7 +180,7 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 |     |     |     |     |     |     |     |     |
 | da  | bi  | di  | ba  | da  | bi  | di  | ba  |
 
-#### ドリル２
+##### ドリル２
 
 |     |     |     |     |     |     |     |     |
 |-----|-----|-----|-----|-----|-----|-----|-----|
@@ -186,7 +188,7 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 |     |     |     |     |     |     |     |     |
 | da  |     | di  |     | da  |     | di  |     |
 
-#### ドリル３
+##### ドリル３
 
 |     |     |     |     |     |     |     |     |
 |-----|-----|-----|-----|-----|-----|-----|-----|
@@ -194,7 +196,7 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 |     |     |     |     |     |     |     |     |
 | da  |     |     |     | da  |     |     |     |
 
-#### ドリル４
+##### ドリル４
 
 |     |     |     |     |     |     |     |     |
 |-----|-----|-----|-----|-----|-----|-----|-----|
@@ -202,7 +204,7 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 |     |     |     |     |     |     |     |     |
 |     |     | di  |     |     |     | di  |     |
 
-#### ドリル５
+##### ドリル５
 
 |     |     |     |     |     |     |     |     |
 |-----|-----|-----|-----|-----|-----|-----|-----|
@@ -210,7 +212,7 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 |     |     |     |     |     |     |     |     |
 | da  | bi  |     |     | da  | bi  |     |     |
 
-#### ドリル６
+##### ドリル６
 
 |     |     |     |     |     |     |     |     |
 |-----|-----|-----|-----|-----|-----|-----|-----|
@@ -218,7 +220,7 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 |     |     |     |     |     |     |     |     |
 |     |     | di  | ba  |     |     | di  | ba  |
 
-#### ドリル７
+##### ドリル７
 
 |     |     |     |     |     |     |     |     |
 |-----|-----|-----|-----|-----|-----|-----|-----|
@@ -226,7 +228,7 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 |     |     |     |     |     |     |     |     |
 | da  |     |     | ba  | da  |     |     | ba  |
 
-#### ドリル８
+##### ドリル８
 
 |     |     |     |     |     |     |     |     |
 |-----|-----|-----|-----|-----|-----|-----|-----|
@@ -234,7 +236,7 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 |     |     |     |     |     |     |     |     |
 |     | bi  | di  |     |     | bi  | di  |     |
 
-#### ドリル９
+##### ドリル９
 
 |     |     |     |     |     |     |     |     |
 |-----|-----|-----|-----|-----|-----|-----|-----|
@@ -242,7 +244,7 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 |     |     |     |     |     |     |     |     |
 |     | bi  |     | ba  |     | bi  |     | ba  |
 
-#### ドリル１０
+##### ドリル１０
 
 |     |     |     |     |     |     |     |     |
 |-----|-----|-----|-----|-----|-----|-----|-----|
@@ -250,7 +252,7 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 |     |     |     |     |     |     |     |     |
 |     |     |     | ba  |     |     |     | ba  |
 
-#### ドリル１１
+##### ドリル１１
 
 |     |     |     |     |     |     |     |     |
 |-----|-----|-----|-----|-----|-----|-----|-----|
@@ -258,7 +260,7 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 |     |     |     |     |     |     |     |     |
 |     | bi  |     |     |     | bi  |     |     |
 
-#### ドリル１２
+##### ドリル１２
 
 |     |     |     |     |     |     |     |     |
 |-----|-----|-----|-----|-----|-----|-----|-----|
@@ -266,7 +268,7 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 |     |     |     |     |     |     |     |     |
 | da  | bi  | di  |     | da  | bi  | di  |     |
 
-#### ドリル１３
+##### ドリル１３
 
 |     |     |     |     |     |     |     |     |
 |-----|-----|-----|-----|-----|-----|-----|-----|
@@ -274,7 +276,7 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 |     |     |     |     |     |     |     |     |
 | da  |     | di  | ba  | da  |     | di  | ba  |
 
-#### ドリル１４
+##### ドリル１４
 
 |     |     |     |     |     |     |     |     |
 |-----|-----|-----|-----|-----|-----|-----|-----|
@@ -282,7 +284,7 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 |     |     |     |     |     |     |     |     |
 | da  | bi  |     | ba  | da  | bi  |     | ba  |
 
-#### ドリル１５
+##### ドリル１５
 
 |     |     |     |     |     |     |     |     |
 |-----|-----|-----|-----|-----|-----|-----|-----|
@@ -290,7 +292,7 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 |     |     |     |     |     |     |     |     |
 |     | bi  | di  | ba  |     | bi  | di  | ba  |
 
-### <span id="anchor-11"></span>四音基底 三音分割
+#### <span id="anchor-11"></span>四音基底 三音分割
 
 次のパターンを音楽に合わせて唱えましょう。
 
@@ -298,7 +300,7 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 |-----------|-----------|-----------|-----------|
 | da bi di  | ba da bi  | di ba da  | bi di ba  |
 
-### <span id="anchor-12"></span>四音基底 五音分割
+#### <span id="anchor-12"></span>四音基底 五音分割
 
 次のパターンを音楽に合わせて唱えましょう。
 
@@ -306,7 +308,7 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 |-----------------|-----------------|-----------------|-----------------|
 | da bi di ba da  | bi di ba da bi  | di ba da bi di  | ba da bi di ba  |
 
-### <span id="anchor-13"></span>四音基底 七音分割
+#### <span id="anchor-13"></span>四音基底 七音分割
 
 次のパターンを音楽に合わせて唱えましょう。
 
@@ -315,7 +317,7 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 | da bi di ba / da bi di  | ba da bi di / ba da bi  |
 | di ba da bi / di ba da  | bi di ba da / bi di ba  |
 
-### <span id="anchor-14"></span>四音基底 九音五四分割
+#### <span id="anchor-14"></span>四音基底 九音五四分割
 
 次のパターンを音楽に合わせて唱えましょう。
 
@@ -324,7 +326,7 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 | da bi di ba da / bi di ba da  | bi di ba da bi / di ba da bi  |
 | di ba da bi di / ba da bi di  | ba da bi di ba / da bi di ba  |
 
-### <span id="anchor-15"></span>四音基底 九音三三三分割
+#### <span id="anchor-15"></span>四音基底 九音三三三分割
 
 次のパターンを音楽に合わせて唱えましょう。
 
@@ -333,7 +335,7 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 | da bi di / ba da bi / di ba da  | bi di ba / da bi di / ba da bi  |
 | di ba da / bi di ba / da bi di  | ba da bi / di ba da / bi di ba  |
 
-### <span id="anchor-16"></span>四音基底 十一音四四三分割
+#### <span id="anchor-16"></span>四音基底 十一音四四三分割
 
 次のパターンを音楽に合わせて唱えましょう。
 
@@ -342,7 +344,7 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 | da bi di ba / da bi di ba / da bi di | ba da bi di / ba da bi di / ba da bi |
 | di ba da bi / di ba da bi / di ba da | bi di ba da / bi di ba da / bi di ba |
 
-### <span id="anchor-17"></span>四音基底 十一音五三三分割
+#### <span id="anchor-17"></span>四音基底 十一音五三三分割
 
 次のパターンを音楽に合わせて唱えましょう。
 
@@ -351,7 +353,7 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 | da bi di ba da / bi di ba / da bi di | ba da bi di ba / da bi di / ba da bi |
 | di ba da bi di / ba da bi / di ba da | bi di ba da bi / di ba da / bi di ba |
 
-### <span id="anchor-18"></span>四音基底 十五音四四四三分割
+#### <span id="anchor-18"></span>四音基底 十五音四四四三分割
 
 次のパターンを音楽に合わせて唱えましょう。
 
@@ -362,9 +364,9 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 | di ba da bi / di ba da bi / di ba da bi / di ba da  |
 | bi di ba da / bi di ba da / bi di ba da / bi di ba  |
 
-## 六音基底リズム
+### 六音基底リズム
 
-### <span id="anchor-19"></span>六音基底の発音
+#### <span id="anchor-19"></span>六音基底の発音
 
 六音基底では、六音に対して次のような発音を割り当てます。
 
@@ -375,7 +377,7 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 5.  la
 6.  ba
 
-#### <span id="anchor-20"></span>練習
+##### <span id="anchor-20"></span>練習
 
 音楽に合わせてda li bi di la ba
 を唱えてみましょう。同時に２拍目表と４拍目表()で手を叩きます。
@@ -386,7 +388,7 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 |     |     |     |     |     |     |     |     |     |     |     |     |
 | da  | li  | bi  | di  | la  | da  | da  | li  | bi  | di  | la  | ba  |
 
-### <span id="anchor-21"></span>六音基底の転回形
+#### <span id="anchor-21"></span>六音基底の転回形
 
 スイングのリズムは開始音が転回して違う音が開始音として聞こえてしまうところがその聴感上のスリリングな雰囲気を醸し出す原動力になっています。その転回に慣れる為にその全転回パターンを数学的に列挙した上で暗記しましょう。
 
@@ -399,7 +401,7 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 | 第五転回形 | bi di la ba da li |
 | 第六転回形 | li bi di la ba da |
 
-#### <span id="anchor-22"></span>練習
+##### <span id="anchor-22"></span>練習
 
 音楽に合わせてda li bi di la ba
 を唱えつつ二拍目表(di)と四拍目表(di)で手を叩きましょう。この時da
@@ -410,7 +412,7 @@ ba da li bi di 第四転回形 di la ba da li bi 第五転回形 bi di la ba da 
 も練習しましょう。最後の第六転回形 li bi di la ba
 daが難しいですが、ここが最も大切なパターンですのでしっかり練習しましょう。
 
-### <span id="anchor-23"></span>六音基底の基礎
+#### <span id="anchor-23"></span>六音基底の基礎
 
 メトロノームを二拍目・四拍目のに合わせて次の様にダビディバを歌いましょう。その際に注意点が３点あります。
 
@@ -427,12 +429,12 @@ daが難しいですが、ここが最も大切なパターンですのでしっ
 |     |     |     |     |     |     |     |     |     |     |     |     |
 | da  | li  | bi  | di  | la  | da  | da  | li  | bi  | di  | la  | ba  |
 
-## <span id="anchor-24"></span>基底リズムの作り方
+### <span id="anchor-24"></span>基底リズムの作り方
 
 次節以降で四音／六音以外の基底リズムについて説明します。三音・五音などの変則的な基底リズムを扱う際に必要となる基底リズムの作り方を説明します。da
 bi di ba の発音を割り当てる法則を説明します。
 
-### <span id="anchor-25"></span>標準基底リズム発音
+#### <span id="anchor-25"></span>標準基底リズム発音
 
 法則は次の通りです。
 
@@ -455,7 +457,7 @@ bi di ba の発音を割り当てる法則を説明します。
 
 この割り当て方法をここでは**標準基底リズム発音**と呼びます。
 
-### <span id="anchor-26"></span>複合基底リズム
+#### <span id="anchor-26"></span>複合基底リズム
 
 実際の基底リズムは複数の基底リズムの組み合わせとして表すことが一般的です。これをここでは**複合基底リズム**と呼びます。例えば八音は四音基底リズムの二回繰り返しなので、通常はda
 li di ba da bi di ba ではなく da bi di ba / da bi di ba
@@ -468,11 +470,11 @@ li di ba da bi di ba ではなく da bi di ba / da bi di ba
 九音五四基底（da li bi di ba / da bi di ba ）  
 九音三三三基底（da la ba / da la ba / da la ba ）
 
-## <span id="anchor-27"></span>三音基底リズム
+### <span id="anchor-27"></span>三音基底リズム
 
 これまでは四音で構成される基本リズムパターン（スイング）の上で成り立つポリリズムを見てきました。ここでは三音で構成されるリズムパターンの上で成り立つポリリズムを見ていきましょう。
 
-### <span id="anchor-28"></span>三音基底リズムの発音
+#### <span id="anchor-28"></span>三音基底リズムの発音
 
 ここでは三音に対して次のような発音を割り当てます。
 
@@ -480,11 +482,11 @@ li di ba da bi di ba ではなく da bi di ba / da bi di ba
 2.  la
 3.  ba
 
-#### <span id="anchor-29"></span>練習
+##### <span id="anchor-29"></span>練習
 
 音楽に合わせてda la ba を唱えてみましょう。
 
-### <span id="anchor-30"></span>三音基底リズムの転回形
+#### <span id="anchor-30"></span>三音基底リズムの転回形
 
 |            |           |
 |------------|-----------|
@@ -492,14 +494,14 @@ li di ba da bi di ba ではなく da bi di ba / da bi di ba
 | 第二転回形 | ba da la  |
 | 第三転回形 | la ba da  |
 
-#### <span id="anchor-31"></span>練習
+##### <span id="anchor-31"></span>練習
 
 音楽に合わせてda la ba を唱えましょう。この時、da
 を１拍目表に合わせて唱えながら、同時にba が最初の音として聞こえ ba da li
 として聞こえる様になるまで唱え続けます。これが第二転回形です。同様にして第三転回形
 la ba da も練習しましょう。
 
-### <span id="anchor-32"></span>三音基底 四音分割
+#### <span id="anchor-32"></span>三音基底 四音分割
 
 次のパターンを音楽に合わせて唱えましょう。
 
@@ -517,7 +519,7 @@ la ba da も練習しましょう。
 </tbody>
 </table>
 
-### <span id="anchor-33"></span>三音基底 八音分割
+#### <span id="anchor-33"></span>三音基底 八音分割
 
 １小節８つある８分音符を３つで分割すると３小節の繰り返しパターンになります。通常曲は４小節で進んでいくため１２小節で元に戻る繰り返しパターンができあがります。ここでは３小節のパターンを示すので、各自１２小節練習してみて下さい。
 
@@ -531,7 +533,7 @@ la ba da も練習しましょう。
 
 これを８分音符に見立てて２拍４拍で手を叩きながら読んでみましょう。
 
-### <span id="anchor-34"></span>三音基底 十六音分割
+#### <span id="anchor-34"></span>三音基底 十六音分割
 
 次のパターンを音楽に合わせて唱えましょう。
 
@@ -541,7 +543,7 @@ la ba da も練習しましょう。
 | la ba da la ba da la ba / da la ba da la ba da la  |
 | ba da la ba da la ba da / la ba da la ba da la ba  |
 
-### <span id="anchor-35"></span>三音基底 五音分割
+#### <span id="anchor-35"></span>三音基底 五音分割
 
 次のパターンを音楽に合わせて唱えましょう。
 
@@ -549,13 +551,13 @@ la ba da も練習しましょう。
 |-----------------|-----------------|-----------------|
 | da la ba da li  | ba da la ba da  | la ba da la ba  |
 
-#### <span id="anchor-36"></span>練習
+##### <span id="anchor-36"></span>練習
 
 1.  5音毎に手を鳴らしましょう。
 2.  5音毎に足を鳴らしda に合わせて手を鳴らしましょう。
 3.  5音毎に足を鳴らしba に合わせて手を鳴らしましょう。
 
-### <span id="anchor-37"></span>三音基底 十音分割
+#### <span id="anchor-37"></span>三音基底 十音分割
 
 次のパターンを音楽に合わせて唱えましょう。
 
@@ -565,7 +567,7 @@ la ba da も練習しましょう。
 | la ba da la ba / da la ba da la  |
 | ba da la ba da / la ba da la ba  |
 
-### <span id="anchor-38"></span>三音基底 七音分割
+#### <span id="anchor-38"></span>三音基底 七音分割
 
 次のパターンを音楽に合わせて唱えましょう。
 
@@ -573,13 +575,13 @@ la ba da も練習しましょう。
 |-----------------------|-----------------------|-----------------------|
 | da la ba da la ba da  | la ba da la ba da li  | ba da la ba da la ba  |
 
-#### <span id="anchor-39"></span>練習
+##### <span id="anchor-39"></span>練習
 
 1.  7音毎に手を鳴らしましょう。
 2.  7音毎に足を鳴らしda に合わせて手を鳴らしましょう。
 3.  7音毎に足を鳴らしba に合わせて手を鳴らしましょう。
 
-### <span id="anchor-40"></span>三音基底 十四音分割
+#### <span id="anchor-40"></span>三音基底 十四音分割
 
 次のパターンを音楽に合わせて唱えましょう。
 
@@ -589,7 +591,7 @@ la ba da も練習しましょう。
 | ba da la ba da la ba / da la ba da la ba da  |
 | la ba da la ba da la / ba da la ba da la ba  |
 
-### <span id="anchor-41"></span>三音基底 十五音四四四三分割
+#### <span id="anchor-41"></span>三音基底 十五音四四四三分割
 
 次のパターンを音楽に合わせて唱えましょう。
 
@@ -597,9 +599,9 @@ la ba da も練習しましょう。
 |-----------------------------------------------------|
 | da la ba da / la ba da la / ba da la ba / da la ba  |
 
-## <span id="anchor-42"></span>五音基底リズム
+### <span id="anchor-42"></span>五音基底リズム
 
-### <span id="anchor-43"></span>五音基底リズムの発音
+#### <span id="anchor-43"></span>五音基底リズムの発音
 
 ここでは五音に対して次のような発音を割り当てます。
 
@@ -609,11 +611,11 @@ la ba da も練習しましょう。
 4.  di
 5.  ba
 
-#### <span id="anchor-44"></span>練習
+##### <span id="anchor-44"></span>練習
 
 音楽に合わせてda li bi di ba を唱えてみましょう。
 
-### <span id="anchor-45"></span>三音基底リズムの転回形
+#### <span id="anchor-45"></span>三音基底リズムの転回形
 
 |            |                 |
 |------------|-----------------|
@@ -623,7 +625,7 @@ la ba da も練習しましょう。
 | 第四転回形 | bi di ba da li  |
 | 第五転回形 | li bi di ba da  |
 
-#### <span id="anchor-46"></span>練習
+##### <span id="anchor-46"></span>練習
 
 音楽に合わせてda li bi di ba を唱えましょう。この時da
 を１拍目表に合わせて唱えながら、同時にba が最初の音として聞こえ ba da li
@@ -633,19 +635,19 @@ ba da li bi 第四転回形 bi di ba da li
 も練習しましょう。最終転回形である第五転回形 li bi di ba da
 が難しいので頑張って下さい。
 
-### <span id="anchor-47"></span>五音基底 四音分割
+#### <span id="anchor-47"></span>五音基底 四音分割
 
 |              |              |              |              |              |
 |--------------|--------------|--------------|--------------|--------------|
 | da li bi di  | ba da li bi  | di ba da li  | bi di ba da  | li bi di ba  |
 
-#### <span id="anchor-48"></span>練習
+##### <span id="anchor-48"></span>練習
 
 1.  ４音毎に手を鳴らしましょう。
 2.  ４音毎に足を鳴らしda に合わせて手を鳴らしましょう。
 3.  ４音毎に足を鳴らしba に合わせて手を鳴らしましょう。
 
-### <span id="anchor-49"></span>五音基底 八音分割
+#### <span id="anchor-49"></span>五音基底 八音分割
 
 |                            |
 |----------------------------|
@@ -655,13 +657,13 @@ ba da li bi 第四転回形 bi di ba da li
 | ba da li bi / di ba da li  |
 | bi di ba da / li bi di ba  |
 
-### <span id="anchor-50"></span>五音基底 三音分割
+#### <span id="anchor-50"></span>五音基底 三音分割
 
 |           |           |           |           |           |
 |-----------|-----------|-----------|-----------|-----------|
 | da li bi  | di ba da  | li bi di  | ba da li  | bi di ba  |
 
-### <span id="anchor-51"></span>五音基底 六音分割
+#### <span id="anchor-51"></span>五音基底 六音分割
 
 |                      |
 |----------------------|
@@ -671,7 +673,7 @@ ba da li bi 第四転回形 bi di ba da li
 | di ba da / li bi di  |
 | ba da li / bi di ba  |
 
-### <span id="anchor-52"></span>五音基底 七音分割
+#### <span id="anchor-52"></span>五音基底 七音分割
 
 |                       |
 |-----------------------|
@@ -681,7 +683,7 @@ ba da li bi 第四転回形 bi di ba da li
 | li bi di ba da li bi  |
 | di ba da li bi di ba  |
 
-### <span id="anchor-53"></span>五音基底 十四音分割
+#### <span id="anchor-53"></span>五音基底 十四音分割
 
 |                                              |
 |----------------------------------------------|
@@ -691,13 +693,13 @@ ba da li bi 第四転回形 bi di ba da li
 | bi di ba da li bi di / ba da li bi di ba da  |
 | li bi di ba da li bi / di ba da li bi di ba  |
 
-### <span id="anchor-54"></span>五音基底 十五音四四四三分割
+#### <span id="anchor-54"></span>五音基底 十五音四四四三分割
 
 |              |              |              |           |
 |--------------|--------------|--------------|-----------|
 | da li bi di  | ba da li bi  | di ba da li  | bi di ba  |
 
-#### <span id="anchor-55"></span>練習
+##### <span id="anchor-55"></span>練習
 
 このパターンは短くシンプルですが重要なのでよく練習しましょう。
 
@@ -705,9 +707,9 @@ ba da li bi 第四転回形 bi di ba da li
 2.  各マスの先頭音で足を鳴らし、da にあわせ手を鳴らしましょう。
 3.  各マスの先頭音で足を鳴らし、da にあわせ手を鳴らしましょう。
 
-## <span id="anchor-56"></span>七音基底リズム
+### <span id="anchor-56"></span>七音基底リズム
 
-### <span id="anchor-57"></span>七音基底リズムの発音
+#### <span id="anchor-57"></span>七音基底リズムの発音
 
 ここでは七音に対して次のような発音を割り当てます。
 
@@ -719,11 +721,11 @@ ba da li bi 第四転回形 bi di ba da li
 6.  di
 7.  ba
 
-#### <span id="anchor-58"></span>練習
+##### <span id="anchor-58"></span>練習
 
 音楽に合わせてda la ba da bi di ba を唱えてみましょう。
 
-### <span id="anchor-59"></span>七音基底リズムの転回形
+#### <span id="anchor-59"></span>七音基底リズムの転回形
 
 |            |                       |
 |------------|-----------------------|
@@ -735,7 +737,7 @@ ba da li bi 第四転回形 bi di ba da li
 | 第六転回形 | ba da bi di ba da li  |
 | 第七転回形 | la ba da bi di ba da  |
 
-#### <span id="anchor-60"></span>練習
+##### <span id="anchor-60"></span>練習
 
 音楽に合わせてda la ba da bi di ba を唱えましょう。この時da
 を１拍目表に合わせて唱えながら、同時にba が最初の音として聞こえba da la
@@ -746,31 +748,31 @@ da la ba 第六転回形 ba da bi di ba da li
 も練習しましょう。最終転回形である第七転回形 la ba da bi di ba da
 が難しいので頑張って下さい。
 
-### <span id="anchor-61"></span>七音基底 四音分割
+#### <span id="anchor-61"></span>七音基底 四音分割
 
 |  |  |  |  |  |  |  |
 |----|----|----|----|----|----|----|
 | da la ba da | bi di ba da | la ba da bi | di ba da la | ba da bi di | ba da la ba | da bi di ba |
 
-#### <span id="anchor-62"></span>練習
+##### <span id="anchor-62"></span>練習
 
 1.  各マスの先頭音で手を鳴らしましょう。
 2.  各マスの先頭音で足を、1つ目のda にあわせ手を鳴らしましょう。
 3.  各マスの先頭音で足を、1つ目のda にあわせ手を鳴らしましょう。
 
-### <span id="anchor-63"></span>七音基底 三音分割
+#### <span id="anchor-63"></span>七音基底 三音分割
 
 |           |           |          |           |           |           |           |
 |-----------|-----------|----------|-----------|-----------|-----------|-----------|
 | da la ba  | da bi di  | ba da la | ba da bi  | di ba da  | la ba da  | bi di ba  |
 
-#### <span id="anchor-64"></span>練習
+##### <span id="anchor-64"></span>練習
 
 1.  各マスの先頭音で手を鳴らしましょう。
 2.  各マスの先頭音で足を、1つ目のda にあわせ手を鳴らしましょう。
 3.  各マスの先頭音で足を、1つ目のda にあわせ手を鳴らしましょう。
 
-### <span id="anchor-65"></span>七音基底 六音三三分割
+#### <span id="anchor-65"></span>七音基底 六音三三分割
 
 |                      |
 |----------------------|
@@ -782,7 +784,7 @@ da la ba 第六転回形 ba da bi di ba da li
 | ba da bi / di ba da  |
 | la ba da / bi di ba  |
 
-### <span id="anchor-66"></span>七音基底 五音分割
+#### <span id="anchor-66"></span>七音基底 五音分割
 
 |                |
 |----------------|
@@ -794,13 +796,13 @@ da la ba 第六転回形 ba da bi di ba da li
 | bi di ba da la |
 | ba da bi di ba |
 
-#### <span id="anchor-67"></span>練習
+##### <span id="anchor-67"></span>練習
 
 1.  各マスの先頭音で手を鳴らしましょう。
 2.  各マスの先頭音で足を、1つ目のda にあわせ手を鳴らしましょう。
 3.  各マスの先頭音で足を、1つ目のda にあわせ手を鳴らしましょう。
 
-### <span id="anchor-68"></span>七音基底 十音五五分割
+#### <span id="anchor-68"></span>七音基底 十音五五分割
 
 |                                  |
 |----------------------------------|
@@ -812,9 +814,9 @@ da la ba 第六転回形 ba da bi di ba da li
 | la ba da bi di / ba da la ba da  |
 | bi di ba da la / ba da bi di ba  |
 
-## <span id="anchor-69"></span>九音五四基底リズム
+### <span id="anchor-69"></span>九音五四基底リズム
 
-### <span id="anchor-70"></span>九音五四基底リズムの発音
+#### <span id="anchor-70"></span>九音五四基底リズムの発音
 
 九音に対して次のような発音を割り当てます。
 
@@ -824,7 +826,7 @@ da la ba 第六転回形 ba da bi di ba da li
 
 参考：[ラヴィ・コルトレーンの26-2（５＋４拍子）](https://www.youtube.com/watch?v=jI7RbAf4Dks)
 
-### <span id="anchor-71"></span>九音五四基底リズムの転回形
+#### <span id="anchor-71"></span>九音五四基底リズムの転回形
 
 |            |                             |
 |------------|-----------------------------|
@@ -838,13 +840,13 @@ da la ba 第六転回形 ba da bi di ba da li
 | 第八転回形 | bi di ba da bi di ba da li  |
 | 第九転回形 | li bi di ba da bi di ba da  |
 
-### <span id="anchor-72"></span>九音五四基底 三音分割
+#### <span id="anchor-72"></span>九音五四基底 三音分割
 
 |                                 |
 |---------------------------------|
 | da li bi / di ba da / bi di ba  |
 
-### <span id="anchor-73"></span>九音五四基底 四音分割
+#### <span id="anchor-73"></span>九音五四基底 四音分割
 
 |              |
 |--------------|
@@ -858,7 +860,7 @@ da la ba 第六転回形 ba da bi di ba da li
 | li bi di ba  |
 | da bi di ba  |
 
-### <span id="anchor-74"></span>九音五四基底 五音分割
+#### <span id="anchor-74"></span>九音五四基底 五音分割
 
 |                 |
 |-----------------|
@@ -872,9 +874,9 @@ da la ba 第六転回形 ba da bi di ba da li
 | ba da li bi di  |
 | ba da bi di ba  |
 
-## <span id="anchor-75"></span>十一音基底リズム
+### <span id="anchor-75"></span>十一音基底リズム
 
-### <span id="anchor-76"></span>十一音基底リズムの発音
+#### <span id="anchor-76"></span>十一音基底リズムの発音
 
 ここでは十一音に対して次のような発音を割り当てます。
 
@@ -882,11 +884,11 @@ da la ba 第六転回形 ba da bi di ba da li
 |-----------------------------------|
 | da la ba da bi di ba da bi di ba  |
 
-#### <span id="anchor-77"></span>練習
+##### <span id="anchor-77"></span>練習
 
 音楽に合わせてda la ba da bi di ba da bi di ba を唱えてみましょう。
 
-### <span id="anchor-78"></span>十一音基底リズムの転回形
+#### <span id="anchor-78"></span>十一音基底リズムの転回形
 
 |              |                                   |
 |--------------|-----------------------------------|
@@ -902,7 +904,7 @@ da la ba 第六転回形 ba da bi di ba da li
 | 第十転回形   | ba da bi di ba da bi di ba da li  |
 | 第十一転回形 | la ba da bi di ba da bi di ba da  |
 
-#### <span id="anchor-79"></span>練習
+##### <span id="anchor-79"></span>練習
 
 音楽に合わせてda la ba da bi di ba da bi di ba を唱えましょう。この時da
 を１拍目表に合わせて唱えながら、同時にba が最初の音として聞こえ「ba da
@@ -911,7 +913,7 @@ la ba da bi di ba da bi di
 〜 第十一転回形まで全て練習しましょう。最終転回形である第十一転回形「la
 ba da bi di ba da 」が難しいので頑張って下さい。
 
-### <span id="anchor-80"></span>十一音基底 四音分割
+#### <span id="anchor-80"></span>十一音基底 四音分割
 
 |              |              |              |              |
 |--------------|--------------|--------------|--------------|
@@ -923,7 +925,7 @@ ba da bi di ba da 」が難しいので頑張って下さい。
 2.  各マスの先頭音で足を鳴らし、da にあわせ手を鳴らしましょう。
 3.  各マスの先頭音で足を鳴らし、ba にあわせ手を鳴らしましょう。
 
-### <span id="anchor-81"></span>十一音基底 三音分割
+#### <span id="anchor-81"></span>十一音基底 三音分割
 
 |           |           |           |           |
 |-----------|-----------|-----------|-----------|
@@ -931,7 +933,7 @@ ba da bi di ba da 」が難しいので頑張って下さい。
 | la ba da  | bi di ba  | da bi di  | ba da li  |
 | ba da bi  | di ba da  | bi di ba  |           |
 
-### <span id="anchor-82"></span>十一音基底 五音分割
+#### <span id="anchor-82"></span>十一音基底 五音分割
 
 |                 |                 |                 |                 |
 |-----------------|-----------------|-----------------|-----------------|
@@ -939,7 +941,7 @@ ba da bi di ba da 」が難しいので頑張って下さい。
 | di ba da la ba  | da bi di ba da  | bi di ba da li  | ba da bi di ba  |
 | da bi di ba da  | la ba da bi di  | ba da bi di ba  |                 |
 
-### <span id="anchor-83"></span>十一音基底 七音分割
+#### <span id="anchor-83"></span>十一音基底 七音分割
 
 |  |  |  |  |
 |----|----|----|----|
@@ -947,9 +949,9 @@ ba da bi di ba da 」が難しいので頑張って下さい。
 | ba da bi di ba da li | ba da bi di ba da bi | di ba da la ba da bi | di ba da bi di ba da |
 | la ba da bi di ba da | bi di ba da la ba da | bi di ba da bi di ba |  |
 
-## <span id="anchor-84"></span>十五音四四四三基底リズム
+### <span id="anchor-84"></span>十五音四四四三基底リズム
 
-### <span id="anchor-85"></span>十五音四四四三基底リズムの発音
+#### <span id="anchor-85"></span>十五音四四四三基底リズムの発音
 
 音に対して次のような発音を割り当てます。
 
@@ -957,7 +959,7 @@ ba da bi di ba da 」が難しいので頑張って下さい。
 |------------------------------------------------|
 | da bi di ba da bi di ba da bi di ba da la ba   |
 
-### <span id="anchor-86"></span>十五音四四四三基底リズムの転回形
+#### <span id="anchor-86"></span>十五音四四四三基底リズムの転回形
 
 |              |                                               |
 |--------------|-----------------------------------------------|
@@ -980,21 +982,21 @@ ba da bi di ba da 」が難しいので頑張って下さい。
 ※
 注：十五音四四四三基底リズムは、尻合わせを前提としていない為転回形を覚える意味はないかも知れません。
 
-### <span id="anchor-87"></span>十五音四四四三基底 五音分割
+#### <span id="anchor-87"></span>十五音四四四三基底 五音分割
 
 |                 |                  |                 |
 |-----------------|------------------|-----------------|
 | da bi di ba da  |  bi di ba da bi  | di ba da la ba  |
 
-### <span id="anchor-88"></span>十五音四四四三基底 三音分割
+#### <span id="anchor-88"></span>十五音四四四三基底 三音分割
 
 |           |           |           |           |           |
 |-----------|-----------|-----------|-----------|-----------|
 | da bi di  | ba da bi  | di ba da  | bi di ba  | da la ba  |
 
-## <span id="anchor-89"></span>二十一音基底リズム
+### <span id="anchor-89"></span>二十一音基底リズム
 
-### <span id="anchor-90"></span>二十一音 五五五三三基底 七音分割
+#### <span id="anchor-90"></span>二十一音 五五五三三基底 七音分割
 
 次のように基底リズムを定義する。
 
@@ -1008,7 +1010,7 @@ ba da bi di ba da 」が難しいので頑張って下さい。
 |---------------------------------------------------------------------|
 | da li bi di ba da li / bi di ba da li bi di / ba da la ba da la ba  |
 
-### <span id="anchor-91"></span>二十一音四四四四五音基底 七音分割
+#### <span id="anchor-91"></span>二十一音四四四四五音基底 七音分割
 
 次のように基底リズムを定義する。
 
@@ -1022,9 +1024,9 @@ ba da bi di ba da 」が難しいので頑張って下さい。
 |---------------------------------------------------------------------|
 | da bi di ba da bi di / ba da bi di ba da bi / di ba da li bi de ba  |
 
-## <span id="anchor-92"></span>多重拍子・拍子置換・グルーヴ保持について
+### <span id="anchor-92"></span>多重拍子・拍子置換・グルーヴ保持について
 
-### <span id="anchor-93"></span>多重拍子の演奏方法
+#### <span id="anchor-93"></span>多重拍子の演奏方法
 
 多重拍子とは複数の拍子を同時に演奏することです。
 
@@ -1033,7 +1035,7 @@ ba da bi di ba da 」が難しいので頑張って下さい。
 この時
 １拍をm等分した連符をn分割するというテクニックがあります。例えば４拍子を演奏中に３連符を４つ毎に区切りったポリリズムを演奏するとこれが3拍子の１拍と同じ長さのリズムになります。
 
-### <span id="anchor-94"></span>拍子入れ替えの方法
+#### <span id="anchor-94"></span>拍子入れ替えの方法
 
 この状態で、3拍子だけを演奏して４拍子の演奏をやめると、音楽はそのまま3拍子に切り替わることになります。これが**拍子入れ替え**です。
 
@@ -1047,27 +1049,27 @@ Are](https://www.youtube.com/watch?v=S9pYtA01ToM)
 
 この演奏で5拍子と7拍子の入れ替えが行われています。
 
-### <span id="anchor-95"></span>グルーヴ維持
+#### <span id="anchor-95"></span>グルーヴ維持
 
 前述の多重拍子演奏方法は必ず１拍目（オンビート）を基準として演奏していることを前提とした方法論で実現されています。この方法はスイングの２拍４拍（オフビート）を基準として１拍3拍を弱く演奏したり、或いは演奏しなかったり、意図的にずらしたりして演奏するスタイルとの整合性が取れないという問題があります。つまり多重拍子を演奏しながら同時にスイングを演奏することはできません。この問題を解決する技術をここでは**グルーヴ維持**と呼ぶことにします。
 
-### <span id="anchor-96"></span>最終拍基準法
+#### <span id="anchor-96"></span>最終拍基準法
 
 最終拍基準法は２０１８年頃に僕が自分で考案した**グルーヴ維持法**です。
 
 通常は複数の拍子のそれぞれ先頭拍を合わせる様に多重拍子を演奏します。
 
-<img src="Pictures/10000001000001C7000000A753FAC89C.png"
+<img src="offbeat-count-polyrhythm-10000001000001C7000000A753FAC89C.png"
 style="width:4.7366in;height:1.7398in" />図上の上段は４拍子、下段は５拍子です。これを最終拍を基準に合わせて連符を演奏するようにしたのが最終拍基準法です。
 
-<img src="Pictures/1000000100000243000000A7E805A4BE.png"
+<img src="offbeat-count-polyrhythm-1000000100000243000000A7E805A4BE.png"
 style="width:6.0339in;height:1.7398in" />この様に４拍子の４拍目と５拍子の５拍目を合わせて演奏します。この様にすると１拍目は５拍子上の全ての拍と一致しなくなります。しかし４拍子上の最終拍と５拍子上の最終拍が一致するため、次の小節に向けて演奏する弱起（アウフタクト・アナクルーシス）のタイミングを合わせやすくなります。
 
 安定したグルーヴを演奏する上で連続した弱起を維持することは大切ですが、前述の先頭拍基準法では最終拍の位置が一致しないためグルーヴを維持することができません。しかし最終拍基準法はどの拍子を重ねても必ず最終拍が一致するため、どんな多重拍子を演奏してもグルーヴを維持することが可能になります。
 
 最終拍基準法のタイミングは、譜面上正確に表記できません。シーケンサなどで自動演奏を行う時は１拍ずらして記譜するとよいようです。実音上の最終拍（４拍子なら４拍目／５拍子なら５拍目）１拍目として入力したうえで、連符（４拍５連／４拍７連等々）を入力します。
 
-## <span id="anchor-97"></span>おわりに
+### <span id="anchor-97"></span>おわりに
 
 いかがでしたでしょうか。色々なポリリズムが出てきました。これらは飽くまでもよりよいグルーヴを作り出すためのテクニックです。テクニックに走りすぎてグルーヴすることを忘れてしまえば本末転倒です。
 
