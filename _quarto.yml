@@ -67,6 +67,8 @@ metadata:
   lilypond-preamble: "rhythmpedia-ly/lilypond-preamble.ly"
 format:
   html:
+    pandoc:
+      from: markdown+raw_html
     theme:
       light : [ cosmo,  .assets/websites/theme.scss, .assets/websites/theme-light.scss ]
       dark  : [ darkly, .assets/websites/theme.scss, .assets/websites/theme-dark.scss  ]

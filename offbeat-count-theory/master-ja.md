@@ -943,7 +943,7 @@ Bobo Stenson Trio -Dormattan 北欧ジャズのフリーテンポの様に聴こ
 そしてこの４つのグルーヴ空間の特徴を説明致します。
 
 ```{python}
-##| output: asis
+#| output: asis
 from pathlib import Path
 import sys
 import os
@@ -969,7 +969,7 @@ from lib.groovespace import *
 次の表は、ディヴィジョンの例です。
 
 ```{python}
-##| output: asis
+#| output: asis
 print(
     show_beat(
         [
@@ -987,7 +987,7 @@ print(
 多次元化とは、次の様に数を数えるときの**桁数** を増やすことをいいます。前章の例で挙げた様にディヴィジョン（拍数）を数える際、次の様に小節数を同時に数えると次のようになります。
 
 ```{python}
-##| output: asis
+#| output: asis
 print(
     show_beat(
         [
@@ -1011,7 +1011,7 @@ print(
 ここでディヴィジョン自体を多次元化すること考えてみます。次の図は前章で見た図と全く同じディヴィジョンの図です。
 
 ```{python}
-##| output: asis
+#| output: asis
 print(
     show_beat(
         [
@@ -1027,7 +1027,7 @@ print(
 このディヴィジョンを多次元化すると次の図になります。これも前章で見た図と全く同じ図です。
 
 ```{python}
-##| output: asis
+#| output: asis
 print(
     show_beat(
         [
@@ -1047,7 +1047,7 @@ print(
 このように、小節数入りで数えている時、ある数の小節のまとまりに対して更にもうひとつ次元を増やして数えると次の様になります。
 
 ```{python}
-##| output: asis
+#| output: asis
 print(
     show_beat(
         [
@@ -1073,7 +1073,7 @@ print(
 既に多次元化したマクロディヴィジョンを更に多次元化することも可能です。 次の様に更にもう一次元増やすことで**三次元マクロディヴィジョン(Triple-Layered Macrodivision)** を構築できます。
 
 ```{python}
-##| output: asis
+#| output: asis
 print(
     show_beat(
         [
@@ -1142,7 +1142,7 @@ print(
 次の様に数えることを**一次元マクロディヴィジョン(One-Dimensional Macrodivision)**と呼びます。
 
 ```{python}
-##| output: asis
+#| output: asis
 print(
     show_beat(
         [
@@ -1166,7 +1166,7 @@ print(
 次の様に数えることを**二次元マクロディヴィジョン(Two-Dimensional Macrodivision)** と呼びます。
 
 ```{python}
-##| output: asis
+#| output: asis
 print(
     show_beat(
         [
@@ -1190,7 +1190,7 @@ print(
 次の様に数えることを**三次元マクロディヴィジョン(Three-Dimensional Macrodivision)** と呼びます。
 
 ```{python}
-##| output: asis
+#| output: asis
 print(
     show_beat(
         [
@@ -1258,7 +1258,7 @@ print(
 サブディヴィジョンとは、声出しカウントを行う時に数字の間にいれるアルファベットと記号のことです。
 
 ```{python}
-##| output: asis
+#| output: asis
 print(
     show_beat(
         split2d( """
@@ -1286,7 +1286,7 @@ print(
 次のようにサブディヴィジョンがあったとします。
 
 ```{python}
-##| output: asis
+#| output: asis
 print(
     show_beat(
         split2d( """
@@ -1306,7 +1306,7 @@ print(
 この 1 e & a を 4回繰り返して読み、更に先頭の記号アルファベットを 1 e & a の順番で入れ替えることにより、あたかも一次元に並んでいる記号アルファベットを、二次元化した上で再度一次元に投影展開するのと同じ処理を行うことが出来ます。
 
 ```{python}
-##| output: asis
+#| output: asis
 print(
     show_beat(
         split2d( """
@@ -1328,7 +1328,7 @@ print(
 横に並べると次の様になります。
 
 ```{python}
-##| output: asis
+#| output: asis
 print(
     show_beat(
         split2d( """
@@ -1348,7 +1348,7 @@ print(
 既に多次元化したサブディヴィジョンを更に多次元化することも可能です。 次の様に更にもう一次元増やすことで**三次元マクロディヴィジョン(Triple-Layered Macrodivision)** を構築できます。
 
 ```{python}
-##| output: asis
+#| output: asis
 print(
     show_beat(
         split2d( """
@@ -1371,7 +1371,7 @@ print(
 
 <div class="perspwrap" style="z-index:40"><div class="perspinner">
 ```{python}
-##| output: asis
+#| output: asis
 print(
     show_beat(
         split2d( """
@@ -1392,7 +1392,7 @@ print(
 
 <div class="perspwrap" style="z-index:30"><div class="perspinner">
 ```{python}
-##| output: asis
+#| output: asis
 print(
     show_beat(
         split2d( """
@@ -1413,7 +1413,7 @@ print(
 
 <div class="perspwrap" style="z-index:20"><div class="perspinner">
 ```{python}
-##| output: asis
+#| output: asis
 print(
     show_beat(
         split2d( """
@@ -1434,7 +1434,7 @@ print(
 
 <div class="perspwrap" style="z-index:10"><div class="perspinner">
 ```{python}
-##| output: asis
+#| output: asis
 print(
     show_beat(
         split2d( """
@@ -1459,7 +1459,7 @@ print(
 
 次の様に数えることを**一次元サブディヴィジョン(One-Dimensional Subdivision)**と呼びます。
 ```{python}
-##| output: asis
+#| output: asis
 print(
     show_beat(
         split2d( """
@@ -1477,7 +1477,7 @@ print(
 次の様に数えることを**二次元サブディヴィジョン(Two-Dimensional Subdivision)**と呼びます。
 
 ```{python}
-##| output: asis
+#| output: asis
 print(
     show_beat(
         split2d( """
@@ -1496,7 +1496,7 @@ print(
 
 
 ```{python}
-##| output: asis
+#| output: asis
 print(
     show_beat(
         split2d( """
