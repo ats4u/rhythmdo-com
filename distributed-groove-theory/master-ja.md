@@ -5,9 +5,12 @@ tags:
   - foo
 ---
 
+
+## 分散グルーヴ理論 <!-- {#distributed-groove-theory} -->
+
 メタディヴィジョン理論を踏まえた上で、拍子やポリリズムの限界を超え、階層的で動的な時間構造を持つ新しいリズム理論を提案します。
 
-## はじめに
+### はじめに
 
 リズム感と裏拍に関する理論的な背景を説明する。リズム感とは、**分割された時間を認知する（乗る）能力**と、**時間を一定間隔で分割する（叩く）能力**のことを指す。これは音楽を演奏するときにとても重要な役割を果たす能力だ。しかし人間はクオーツではないので色々な制約がある。
 
@@ -21,19 +24,19 @@ tags:
   
 そしてそれがこそが、アフリカ系アメリカ人の音楽、即ちゴスペル音楽・黒人教会音楽やＲ＆Ｂ・ファンク・ヒップホップ・そしてジャズのリズムの取り方の本質であることを見ていく。
 
-## 単純なリズムと複雑なリズム
+### 単純なリズムと複雑なリズム
 
 リズムを叩くにあたって制約１『一定周期で叩くことしかできない』を知ることはとても重要だ。例えばこういう複雑なリズムがあったとする。
 
-![](/distributed-groove-theory/attachments/distributed-groove-20250805190006.png)
+![](/offbeat-count-theory/attachments/distributed-groove-20250805190006.png)
 
 人間は直接このリズムを叩くことはできない。何故なら人間は時間を一定周期で分割する能力しか持たないからだ。だが次のように工夫することで叩くことができる。
 
-![](/distributed-groove-theory/attachments/distributed-groove-20250805190035.png)
+![](/offbeat-count-theory/attachments/distributed-groove-20250805190035.png)
 
 譜面上ではこれが一定周期の組み合わせだということがわかりにくいので、グラフを使って見てみよう。
 
-![](/distributed-groove-theory/attachments/distributed-groove-20250805190115.png)
+![](/offbeat-count-theory/attachments/distributed-groove-20250805190115.png)
 
 これなら一定周期の組み合わせだから人間でも叩くことができる。このようにして人間は複雑なリズムを叩くことができる。
 
@@ -43,62 +46,62 @@ tags:
 
 ここでは１つだけの周期でできたリズムを**単純なリズム(compound pattern)**と呼ぶ。また２つ以上の周期が複合したリズムのことを**複雑なリズム(simple pattern)**と呼ぶ。
 
-## 単純なリズムの分解
+### 単純なリズムの分解
 
 制約２『あまり速く叩けない』を考えてみよう。  
   
 次の単純なリズムを考えてみる。
 
-![](/distributed-groove-theory/attachments/distributed-groove-20250805190159.png)
+![](/offbeat-count-theory/attachments/distributed-groove-20250805190159.png)
 
 １２０ＢＰＭ程度なら十分叩けるだろう。だが２００〜３００ＢＰＭになれば徐々に難しくなってくる。８分音符や１６分音符などの細かな音符を考えると、２００ＢＰＭで８分音符を演奏するなら２倍の４００ＢＰＭ相当、１６分音符なら８００ＢＰＭに到達するリズムを叩かなければならない。これは到底人間には叩くことができないリズムだ。
 
 そこでこれを分割することを考えてみる。
 
-![](/distributed-groove-theory/attachments/distributed-groove-20250805190228.png)
+![](/offbeat-count-theory/attachments/distributed-groove-20250805190228.png)
 
 全く同じリズムでもこの様に分解すれば半分のＢＰＭで演奏できる。グラフでも確認してみよう。
 
-![](/distributed-groove-theory/attachments/distributed-groove-20250805190240.png)
+![](/offbeat-count-theory/attachments/distributed-groove-20250805190240.png)
 
 この処理のことを**単純リズムの分解**と呼ぼう。
 
-## 分解された単純なリズムと拍シフト量
+### 分解された単純なリズムと拍シフト量
 
 前章で単純なリズムを分解することで倍の速度で演奏することができることを見てきた。実は、この２つの拍の距離を変化させることで倍以外のリズムを演奏することができる。この距離のことを**拍シフト量(beat shifting distance)**と呼ぼう。  
   
 前章の例では２つの拍の距離は１／２だったが、これをもし１／４にしたらどうなるだろうか。
 
-![](/distributed-groove-theory/attachments/distributed-groove-20250805190259.png)
+![](/offbeat-count-theory/attachments/distributed-groove-20250805190259.png)
 
 この様に２つの拍の距離が１／４になるとそれは１／４の長さを持つ音符＝８分音符と同じ細かさを持つ。
 
-![](/distributed-groove-theory/attachments/distributed-groove-20250805190309.png)
+![](/offbeat-count-theory/attachments/distributed-groove-20250805190309.png)
 
 同じ様にして２つの拍の距離が１／３になったらどうなるかを見てみよう。
 
-![](/distributed-groove-theory/attachments/distributed-groove-20250805190445.png)
+![](/offbeat-count-theory/attachments/distributed-groove-20250805190445.png)
 
-![](/distributed-groove-theory/attachments/distributed-groove-20250805190454.png)
+![](/offbeat-count-theory/attachments/distributed-groove-20250805190454.png)
 
 ２つの拍の距離が２／３になるとそれは２／３のの長さを持つ２拍３連２個分の細かさを持つことになる。  
   
 ここで音符の細かさのことを**拍解像度(beat resolution)**と呼ぶことにする。この様に**２つの拍の距離＝拍シフト量を変化させることで全ての******拍解像度を表現**する**ことができる。ところで拍解像度とは何か。
 
-## 拍解像度とは
+### 拍解像度とは
 
 拍解像度とはその小節内にある音の位置の細かさだ。これはリズムのスピード感と関係している。拍解像度が高ければ高いほどリズムのスピード感は高くなる。拍解像度は音価（音の長さ）と似ているが異なる概念だ。音価は音の長さのことを指すが、拍解像度はその小節内にある音の位置の細かさだ。  
   
 具体的に言うと、拍解像度はその小節内にある全ての音符の位置を数値として表した時の全ての数の最大公約数となる。例えば、１６分音符（音価が１／１６）があったとしても、拍解像度は必ずしも１／１６にならない。何故ならもしその１６分音符が４分音符と同じ位置にあったら拍解像度は１／４にしかならないからだ。  
   
 **例１**  
-![](/distributed-groove-theory/attachments/distributed-groove-20250805190525.png)
+![](/offbeat-count-theory/attachments/distributed-groove-20250805190525.png)
 
-![](/distributed-groove-theory/attachments/distributed-groove-20250805190532.png)
+![](/offbeat-count-theory/attachments/distributed-groove-20250805190532.png)
 
 １６分音符が全て４分音符と同じ場所にあれば拍解像度としては４分音符と同じになる。
 
-![](/distributed-groove-theory/attachments/distributed-groove-20250805190546.png)
+![](/offbeat-count-theory/attachments/distributed-groove-20250805190546.png)
 
 この１６分音符は４分音符とおなじ拍解像度しか持たない。
 
@@ -106,7 +109,7 @@ tags:
 
 **例２**
 
-![](/distributed-groove-theory/attachments/distributed-groove-20250805190646.png)
+![](/offbeat-count-theory/attachments/distributed-groove-20250805190646.png)
 
 この例２の拍解像度は２分音符が \[ 0/2, 1/2, 3/2, 4/2 \] ８分音符が\[ 3/8, 7/8, 11/8, 15/8 \] なので、最大公約数は 1/8 だ。よって拍解像度は1/8になる。  
   
@@ -114,15 +117,15 @@ tags:
   
 つまり例１よりも例２のほうがスピード感が高い演奏ということができる。
 
-## 裏拍（既約拍）・表拍（加約拍）
+### 裏拍（既約拍）・表拍（加約拍）
 
 ８分音符でも４分音符と同じ位置にあれば４分音符と同じ拍解像度しか持たない。拍解像度を効率よく上げるには、４分音符と同じ位置にある８分音符を省いて考えたほうが簡単だ。 同様にして１６分音符でも８分音符と同じ位置にある１６分音符を省いて考えたほうが簡単になる。
 
-![](/distributed-groove-theory/attachments/distributed-groove-20250805190721.png)
+![](/offbeat-count-theory/attachments/distributed-groove-20250805190721.png)
 
 このように重なった音符を一番拍解像度が高いものを残して省くと次のようになる。
 
-![](/distributed-groove-theory/attachments/distributed-groove-20250805190731.png)
+![](/offbeat-count-theory/attachments/distributed-groove-20250805190731.png)
 
 これはつまり全ての音価の音符から裏拍だけを残したものだ。  
   
@@ -130,25 +133,25 @@ tags:
   
 **可約拍は表拍のことだ。**
 
-![](/distributed-groove-theory/attachments/distributed-groove-20250805190745.png)
+![](/offbeat-count-theory/attachments/distributed-groove-20250805190745.png)
 
 **既約拍は裏拍のことだ。**
 
-![](/distributed-groove-theory/attachments/distributed-groove-20250805190759.png)
+![](/offbeat-count-theory/attachments/distributed-groove-20250805190759.png)
 
 裏拍の意味についての詳しくは [裏拍の大切さ](https://oka-ats.blogspot.com/2019/01/oka01-gdqoqxundapoaemf.html) で説明した。
 
-## 拍層
+### 拍層
 
 [裏拍の大切さ](https://oka-ats.blogspot.com/2019/01/oka01-gdqoqxundapoaemf.html) で説明した通り表拍を叩くとそれは裏拍の存在感を減らす結果になり、音楽の拍解像度が下がったような印象（スピード感を失った）を与える。この拍解像度が下がった印象のことを**縦乗り(vertical riding)**という。縦乗りについては [何故、日本人は縦乗りなのか](https://oka-ats.blogspot.com/2018/01/oka01-qioaafwfeykuqiuj.html)で説明した。縦乗りを避けるためには裏拍だけを選択的に叩かなければいけない。
 
-![](/distributed-groove-theory/attachments/distributed-groove-20250805190820.png)
+![](/offbeat-count-theory/attachments/distributed-groove-20250805190820.png)
 
 この様に音価ごとに無駄な音（表拍）を整理すると、音価が層になって横方向に広がり重なり合っている様子が観察できる。またそれぞれの音かの拍が異なる音価の拍と重なりあうことなく避けあっている点も観察できる。  
   
 これが裏拍を強調（シンコペート）した音楽のリズムの構造だ。このシンコペーションの構成法は、アフリカ系アメリカ人の音楽、即ちゴスペル音楽・黒人教会音楽やＲ＆Ｂ・ファンク・ヒップホップ・そしてジャズで多用される。
 
-## 拍ドリフト量
+### 拍ドリフト量
 
 拍層を構成したリズムは表拍が省略されていることから他の拍層の音と衝突する音が存在しな いため、多少拍の位置が変わってしまっても聴者に拍の位置がずれたことがはっきり認識されることがない。これを応用して意図的にずらすことで表情に変化を与えるここでは**ドリフト(drifting)**と呼ぼう。ここでは**拍ドリフト量(beat drifting distance)**とは拍層全体がずれて移動したときの距離をあらわすこととする。  
   
@@ -157,13 +160,13 @@ tags:
 前章で拍シフト量によって拍解像度が変わることを見た。拍ドリフト量も拍シフト量と同じく拍層のずれを表す数値だ。拍シフト量は必ず単純な整数の分数で表されるが、拍ドリフト量は単純な整数で表される位置から実数範囲にずれる場合が多い。  
   
 
-## 拍のずれ
+### 拍のずれ
 
 拍層を構成したリズムは、冒頭で挙げた制約３『ほとんど正確に叩けない』に対して緩衝を与える。表拍を省略しない演奏は少しでも位置がずれると他の拍層の表拍の位置と揃わなくなってしまう為、それが認知上で目立った存在となって浮かび上がってしまう。ところが表拍を省略した演奏は、位置がずれてもそれがはっきりと認知されることはなく、むしろ積極的にずらすことで表情に変化を与えることができる。  
   
 表拍とは『揃うことを前提とした拍』であり、裏拍とは『ずれることを前提とした拍』といえる。  
 
-## 拍の倒置（裏拍の叩き方）
+### 拍の倒置（裏拍の叩き方）
 
 これまで見てきた様に裏拍を中心にリズムを構成する為には**自分が聞いている音の半分の位置で拍を打つ**作業が必要になる。だがこれは制約１『人間は一定周期で叩くことしかできない』の制約を受ける。この困難にどう対処すべきなのかをここで説明する。  
   
@@ -179,7 +182,7 @@ tags:
   
 拍の倒置を使うと３００ＢＰＭといった非常に速いテンポでもある程度安定して裏拍が出せるようになる。  
 
-## 拍倒置と拍乗法
+### 拍倒置と拍乗法
 
 ３００ＢＰＭの様な速いテンポなると毎拍を全て完璧に合わせるのは困難だ。何故ならばこの行為には制約２『人間はあまり速く叩けない』及び制約３『ほとんど正確に叩けない』の両方の制約を受けるからだ。  
   
@@ -195,7 +198,7 @@ tags:
   
 何故先頭拍ではなく最終拍でタイミングを取るようにする必要があるのかについては頭合わせ乗りと尻合わせ乗りで説明することとする（未校）。  
 
-## 結論
+### 結論
 
 効果的な演奏をするためには裏拍を中心にリズムを構成することが大切だ。そのために**拍の倒置**を理解／習得することは非常に重要な課題だ。  
   
