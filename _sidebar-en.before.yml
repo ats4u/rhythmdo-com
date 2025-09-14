@@ -1,0 +1,5 @@
+website:
+  sidebar:
+    contents:
+      - text: "Rhythmpedia"
+        href: index.qmd
