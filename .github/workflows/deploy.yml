@@ -45,7 +45,7 @@ jobs:
       - name: Clone rhythmpress
         uses: actions/checkout@v4
         with:
-          repository: git@github.com:ats4u/rhythmpress.git   # <-- change me
+          repository: ats4u/rhythmpress.git   # <-- change me
           ref: master                                        # <-- change if needed
           path: vendor/rhythmpress
           token: ${{ secrets.GITHUB_TOKEN }}
