@@ -13,13 +13,13 @@ rhythmpedia-preproc: split
 rhythmpedia-preproc-args: []
 ---
 
+## 縦乗りのメカニズム <!-- {#mechanism-behind-tatenori}-->
+
 これまでに御紹介したグルーヴ理論を使うことで、日本人が何故縦乗りになるのか、縦乗りの背後に横たわるそのメカニズムを御説明致します。
 
-## 縦乗りのメカニズム <!-- {#mechanism-behind-tatenori }-->
+## 縦乗りの精神分析 <!-- {#tatenori-and-psychology}-->
 
-## 縦乗りの精神分析 <!-- {#mechanism-behind-tatenori }-->
-
-縦乗りという現象が起こる原理を説明します。
+縦乗りに関連して起こる精神的な現象について説明します。
 
 ### 自分自身の縦乗りに気付かない
 
