@@ -67,7 +67,7 @@ jobs:
       - name: Build with rhythmpress
         run: |
           # If you require its env shim, uncomment next line:
-          # eval "$(rhythmpress env)"
+          eval "$(rhythmpress env)"
           rhythmpress build
 
       - name: Render Quarto project
