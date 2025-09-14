@@ -1,9 +1,9 @@
 ---
 title: 運営者情報 
 created: 2025-08-14T08:16 
-rhythmpedia-preproc: split
-rhythmpedia-preproc-args: ['--no-toc']
-rhythmpedia-preproc-sidebar: false
+rhythmpress-preproc: split
+rhythmpress-preproc-args: ['--no-toc']
+rhythmpress-preproc-sidebar: false
 ---
 
 ## リズムペディアについて {#rhythmpedia}

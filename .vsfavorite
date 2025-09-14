@@ -33,10 +33,6 @@
       "group": "Default"
     },
     {
-      "filePath": "tatenori-and-psychology",
-      "group": "Default"
-    },
-    {
       "filePath": "mechanism-behind-tatenori",
       "group": "Default"
     },
@@ -52,6 +48,6 @@
   "groups": [
     "Default"
   ],
-  "refreshTime": "8/22/2025, 9:07:30 PM 859",
+  "refreshTime": "9/14/2025, 7:38:37 AM 862",
   "sortOrder": "MANUAL"
 }

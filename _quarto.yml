@@ -14,7 +14,7 @@ project:
     - "!**/master*.qmd" # explicitly ignore master*.md anywhere 
     - "!drafts/*"       # exclude paths
   post-render:
-    - bin/rhythmpedia-sitemap.py   # Sun, 31 Aug 2025 03:22:23 +0900 runs after every build
+    - rhythmpress sitemap   # Sun, 31 Aug 2025 03:22:23 +0900 runs after every build
 
 resources:
   - Ads.txt
@@ -63,8 +63,12 @@ website:
     contents: []
 # execute:
 #  freeze: auto            # optional: avoids re-execution unless sources change
+metadata:
+  lilypond-preamble: "rhythmpedia-ly/lilypond-preamble.ly"
 format:
   html:
+    pandoc:
+      from: markdown+raw_html
     theme:
       light : [ cosmo,  .assets/websites/theme.scss, .assets/websites/theme-light.scss ]
       dark  : [ darkly, .assets/websites/theme.scss, .assets/websites/theme-dark.scss  ]
@@ -73,7 +77,9 @@ format:
     filters:
       - filters/meta-dates.lua
       - filters/include-files.lua
-      - lilypond.lua
+      - filters/lilypond.lua
+      - filters/remove-softbreaks.lua
+#      - filters/expand-vars.lua
 #      - filters/obsidian-image-dimensions.lua
     css: assets/styles.css
     toc: true

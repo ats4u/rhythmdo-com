@@ -5,9 +5,9 @@ lang: ja
 format:
   html:
     toc: true
-rhythmpedia-preproc: copy
-rhythmpedia-preproc-args: ['--no-toc']
-rhythmpedia-preproc-sidebar: false
+rhythmpress-preproc: copy
+rhythmpress-preproc-args: ['--no-toc']
+rhythmpress-preproc-sidebar: false
 ---
 
 ※内容によっては返信に数日いただく場合があります。ご了承ください。
