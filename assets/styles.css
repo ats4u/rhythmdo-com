@@ -119,3 +119,13 @@ img.lilypond {
   width :100% !important;
   max-width :100% !important;
 }
+
+
+
+/* 
+ * Hide the large hamburger (navbar toggle) 
+ * Tue, 16 Sep 2025 11:05:07 +0900
+ */
+.navbar-toggler {
+  display: none !important;
+}
