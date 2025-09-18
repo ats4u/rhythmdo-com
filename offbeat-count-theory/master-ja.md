@@ -3994,15 +3994,3 @@ style="width:6.0339in;height:1.7398in" />この様に４拍子の４拍目と５
 
 <!-- vim: set wrap ts=2 sw=2 isk+=- breakat= ve=all : -->
 
-
-
-
-
-
-
-
-
-
-
-
-
