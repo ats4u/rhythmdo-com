@@ -4802,62 +4802,12 @@ print(
 
 -->
 
-## 3ⁿグルーヴ理論 <!-- {#three-to-n-groove-theory} -->
+## 世界は3ⁿ拍子で出来ている
 
-メタディヴィジョン理論を踏まえた上で、拍子やポリリズムの限界を超え、階層的で動的な時間構造を持つ新しいリズム理論を提案します。
+*グルーヴの本質は多重になった3拍子である* ─── {{<var RUBY-3TON>}} の序論として世界中の3拍子の音楽を御紹介致します。ジャズの起源となったゲーリック及び黒人教会音楽リズムへの理解を深めることが演奏上のグルーヴ力を向上させます。そしてこれは英語のリズムの起源を知る旅と言い換えることも可能です。 ジャズのリズムの起源、そして英語のリズムの起源を感覚的に理解するための礎として、ここで世界中の3拍子/9拍子/27拍子の音楽を御紹介致します。
 
-### 世界は3拍子で出来ている
+これらの音楽は決して理解が容易いものではありませんが、ジャズのスイングやR&B、ファンクなどのグルーヴとその本質は共通です。何度も聴いて聴き馴染むことで、現代的なグルーヴの感覚を養いましょう。
 
-世界は３拍子で出来ている  ─── 世界の音楽＝ジャズ・クラシック・中世ヨーロッパ以降の民族音楽は勿論のこと世界各地の民族音楽は、ほとんどは**３拍子**で出来ています。中には 表面上３拍子ではなくても、サブディヴィジョンに３連符構造を持っていたりする音楽もあります。このような曲は記譜上では一般的に 12/8 や 9/8 と記されます。これらは３を底に持っているリズムの仲間という意味で、ここでは **３拍子** と呼びます。
-
-３拍子には色々な形があります。シャッフルなどの中抜きがある形で３連符構造を持っている場合や、多重化して３×３＝９拍子＝９／８になっている場合もあります。中には３重に多重化して３×３×３＝２７拍子になっているものもあります。
-
-このようにグルーヴする音楽は必ず**３を基底に持った**リズム構造を持っています ─── ここでいう基底とは、リズム数（マクロディヴィジョン×ディヴィジョン×サブディヴィジョン×マイクロディヴィジョン＝リズム数）の因数として持っているという意味です。
-
-<span style="font-size:200%">リズム数の因数として持っている3の数が多ければ多いほど、グルーヴが強くなる</span>  ─── これは飽くまでも、観察から導き出された予想です。この予想を  <span style="font-size:200%">グルーヴの3^n予想</span> と呼びます。 そしてこの予想に基づいて作られたリズムに注目した作曲理論を<span style="font-size:200%">3^nグルーヴ理論</span> と呼びます。
-
-![](/offbeat-count-theory/attachments/three-to-n-mora-and-syllable-or-stress.png)
-
-#### 0.37 の謎
-
-音楽作成ソフト MuseScore3 にはタイミングをずらす機能があります。この機能を使ってグルーヴする為のタイミングニュアンスを調整していくと、0.37 という数字にしばしば出会います。或いは 0.111, 0.222, 0.333 …という様な 0.111 の倍数になっているとグルーヴしやすいということに気付くでしょう。
-
-#### 何故3のべき乗はグルーヴするのか
-
-３のべき乗を因数として持っているリズム数がグルーヴしやすいことを説明する理論は、シラブル拍・ストレス拍が持っているシラブルの音素数が３つだからというものです。
-
-![](/offbeat-count-theory/attachments/three-to-n-groove-description-01.png)
-
-世界中で使われている言語の大半は、シラブル拍リズム又はストレス拍リズムです。これらのシラブル（音節）あたりの音素数は３です  ─── つまり 「何故３だとグルーヴしやすいのか』 ─── この視点は実は日本のとても独特な視点であり、むしろ『何故２だとグルーヴしないのか』『何故日本語のシラブルの音素数は例外的に２なのか』『何故日本語はグルーヴしないのか』という視点のほうがより、この問題の本質をよく捉えていると言えます。
-
-#### 何故世界の音楽は三拍子で出来ているのか。そして何故日本人は三拍子が聴き取れないのか。
-
-![](/offbeat-count-theory/attachments/three-to-n-groove-01.png)
-
-<!--
-
-#### 1
-【Adriano Celentano!】 何でみんなアメリカ音楽にかぶれるのか ───  この現象が起こる理由について従来米国の覇権と結びつけて語られる事が多かったが、実は米国音楽は音韻学的に見るとリズムが音楽的に優れているからではないか。
-
-シラブル拍リズムよりも後に生まれてより複雑化しているストレス拍リズムが更にアフリカやラテン、ゲールと混合する事でより多様なリズムを持つことになった米国リズムが他の言語より複雑で興味深いリズムを持っている事は音韻学的にも説明できる。 多様で複雑な方がリズムの娯楽としての性能が高い。 だからみんな米国の音楽が好きなのではないか。これは実は、覇権の様な政治的理由だけではないのではないか。 [参照](https://x.com/ats4u/status/1949731441870549140)
-
-#### 2
-米国音楽は更に奴隷貿易があり奴隷解放があり、残念な歴史を乗り越えて、多様性を受け入れ、色々な民族の音楽を融合して来ている…それがグルーヴにも繋がっている。
-
-ストレス拍に加えて、ゲールがあり東アフリカがあり南アフリカがありラテンも加わり、変化したものが米国英語であり米国音楽と…[参照](https://x.com/ats4u/status/1954097519157260736)
-
-#### 3
-[CV Phonology A Generative Theory of the Syllable](https://mitpress.mit.edu/9780262530477/cv-phonology/)
-
-[日本人と外人のリズム解釈の違い（3^n リズム理論）](https://x.com/ats4u/status/1878808994623713704)
-
-[参考：３拍子を身につけるとグルーヴする理由](https://x.com/ats4u/status/1766696559637647609)
-
-[ChatGPT:Your Tatenori theory is deeply relevant to CV phonological analysis](https://chatgpt.com/c/684050f7-d864-8013-a6d8-cc29274882b3)
--->
-
-### ３拍子で出来ている世界の音楽集
-現在ある音楽のグルーヴ ─── 特に歴史的に見て、ジャズのスイングの起源となったと推測される音楽のリンク集です。
 <script>
   document.addEventListener("DOMContentLoaded", () => {
     document.querySelectorAll(".ats4u-twitter-video").forEach((el) => {
@@ -5106,6 +5056,635 @@ Bobo Stenson Trio -Dormattan 北欧ジャズのフリーテンポの様に聴こ
 
 ##### She's Leaving Home
 <div class="center-box"><iframe class="rhythmpedia-iframe" src="https://www.youtube.com/embed/VaBPY78D88g?si=Ieqgk5xIgJYrSIzz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
+
+## 3ⁿグルーヴ理論 <!-- {#three-to-n-groove-theory} -->
+
+メタディヴィジョン理論を踏まえた上で、拍子やポリリズムの限界を超え、階層的で動的な時間構造を持つ新しいリズム理論を提案します。
+
+### 世界は3拍子で出来ている
+
+
+世界は３拍子で出来ている  ─── 世界の音楽＝ジャズ・クラシック・中世ヨーロッパ以降の民族音楽は勿論のこと世界各地の民族音楽は、ほとんどは**３拍子**で出来ています。中には 表面上３拍子ではなくても、サブディヴィジョンに３連符構造を持っていたりする音楽もあります。このような曲は記譜上では一般的に 12/8 や 9/8 と記されます。これらは３を底に持っているリズムの仲間という意味で、ここでは **３拍子** と呼びます。
+
+３拍子には色々な形があります。シャッフルなどの中抜きがある形で３連符構造を持っている場合や、多重化して３×３＝９拍子＝９／８になっている場合もあります。中には３重に多重化して３×３×３＝２７拍子になっているものもあります。
+
+このようにグルーヴする音楽は必ず**３を基底に持った**リズム構造を持っています ─── ここでいう基底とは、リズム数（マクロディヴィジョン×ディヴィジョン×サブディヴィジョン×マイクロディヴィジョン＝リズム数）の因数として持っているという意味です。
+
+
+<span style="font-size:200%">リズム数の因数として持っている3の数が多ければ多いほど、グルーヴが強くなる</span>  ─── これは飽くまでも、観察から導き出された予想です。この予想を  <span style="font-size:200%">グルーヴの3^n予想</span> と呼びます。 そしてこの予想に基づいて作られたリズムに注目した作曲理論を<span style="font-size:200%">3^nグルーヴ理論</span> と呼びます。
+
+
+#### 何故3のべき乗を分母とする分数のずれがあるとグルーヴするのか
+
+もしもこの文章を読んでいる貴方が、日本語を母国語とする日本人でしたなら、「何故グルーヴするリズムは3拍子になるのか」という疑問をお持ちではないかと思います。この疑問を追求していくと、この疑問は「何故日本語話者は、2拍子を自然だと感じるのか。」という逆の疑問に帰結します。
+
+結論を先にいうと、何故日本人は2拍子を自然だと感じるのか ─── それは音節(モーラ)が頭子音と母音という2要素で構成されているからです。 そして何故日本人以外の人々は、3拍子を自然だと感じるのか ─── これは音節(シラブル)が頭子音・母音・末子音という3要素で構成されているからです。
+
+![](/offbeat-count-theory/attachments/three-to-n-mora-and-syllable-or-stress.png)
+
+ ─── つまり 「何故３だとグルーヴしやすいのか』 ─── この視点は実は日本のとても独特な視点であり、むしろ『何故２だとグルーヴしないのか』『何故日本語のシラブルの音素数は例外的に２なのか』『何故日本語はグルーヴしないのか』という視点のほうがより、この問題の本質をよく捉えていると言い換えることも出来ます。
+
+![](/offbeat-count-theory/attachments/three-to-n-groove-description-01.png)
+
+シラブル拍・ストレス拍が持っているシラブルの音素数が３つになっていることから、１つの音符を３に分割して発音が割り当てられることに繋がり、また複雑な歌詞を歌う場合は、その分割された音符を更に３つに分けたり、３つずつ束ねたりする習慣に繋がったのではないかと考えられます。
+
+![](/offbeat-count-theory/attachments/three-to-n-groove-01.png)
+
+このように、３のべき乗を因数として持っているリズム数がグルーヴしやすいと考える理論を3ⁿ仮説と呼びます。
+
+
+#### 3ⁿ仮説が生まれた背景 〜 0.037 の謎
+
+ジャズのスイングのニュアンスをDAWなどのコンピュータ上で再現することはとても難しいことが知られています。しかし筆者は、日本でジャズらしいリズムを維持して日本的な縦乗りリズムに陥ることなく、適切にジャズの演奏活動を行う難しさとぶつかり、コンピュータでスイングを再現したうえでソロを演奏する必要性を感じていました。ここから一般的なDAW上でどのようにしたら適切なスイングのニュアンスを実現できるか模索が始まりました。
+
+ ─── 音楽作成ソフト MuseScore3 にはタイミングをずらす機能があります。筆者は、これを使って様々な実験を行いました。実験を行うなかでいくつかの興味深い事象を観察しました。
+
+スイングのタイミングニュアンスを調整してグルーヴするように最適化していくと 0.037 という数字にしばしば収束するという現象が起こります。他にも 0.111, 0.222, 0.333 …という様な 0.111 の倍数になっているときに最もグルーヴが強くなるのです。
+
+ここからタイミングのずれが **３のべき乗を分母とする任意の分数になっている時に最も強くグルーヴするようになる**という仮説が生まれました。これが 3ⁿグルーヴ仮説です。
+
+次の例は、実際に MuseScore3 を使って0.111(1/9) や 0.037(1/27) と言った数字を使ってタイミングを調整した上で自動演奏させた例です。
+
+<div class="ats4u-twitter-video" >https://x.com/ats4u/status/1496443349540413440</div>
+
+次の例は、音符を 1/81 分割した上で、1/27 や 1/9 などの位置を中心に音を分散させることで作成したドラムのリズムパターンです。
+<div class="ats4u-twitter-video" >https://x.com/ats4u/status/1966221330233327741</div>
+
+
+次の例は、数値的にベースの打点を 1/9 ずらして演奏させた例です。
+<div class="ats4u-twitter-video" >https://x.com/ats4u/status/1783146385904456053</div>
+
+<div class="ats4u-twitter-video" >https://x.com/ats4u/status/1764436392199995739</div>
+
+これも数値的にベース打点を1/3^n の位置でずらすことで入力した例です。
+<div class="ats4u-twitter-video" >https://x.com/ats4u/status/1755234511661711840</div>
+
+これは弱拍を強拍位置に合わせてコンピングを演奏させた上で、その上で強拍をマニュアルで入力するという手法で録音したものです。 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1802351933975679006</div>
+
+
+#### ゲーリック及び黒人教会音楽リズムがジャズ起源であるという仮説
+
+3ⁿグルーヴ仮説を検証していくなかで筆者は、恐らくジャズの起源となった音楽に、9拍子や27拍子の音楽が存在するだろうという予想を行いました。  ─── 9拍子・27拍子の音楽は、ジャズの起源となった黒人教会音楽のなかで見つかりました。 他にもスコットランドとアイルランドにいるケルト民族の一派であるゲール民族の民族音楽の中にも存在することがわかりました。
+
+そこから、このような黒人教会音楽・ゲール民族の民族音楽のリズムに慣れ親しむことが、グルーヴを理解する助けになるはずだという予想が生まれました。
+
+
+<!--
+
+#### 1
+【Adriano Celentano!】 何でみんなアメリカ音楽にかぶれるのか ───  この現象が起こる理由について従来米国の覇権と結びつけて語られる事が多かったが、実は米国音楽は音韻学的に見るとリズムが音楽的に優れているからではないか。
+
+シラブル拍リズムよりも後に生まれてより複雑化しているストレス拍リズムが更にアフリカやラテン、ゲールと混合する事でより多様なリズムを持つことになった米国リズムが他の言語より複雑で興味深いリズムを持っている事は音韻学的にも説明できる。 多様で複雑な方がリズムの娯楽としての性能が高い。 だからみんな米国の音楽が好きなのではないか。これは実は、覇権の様な政治的理由だけではないのではないか。 [参照](https://x.com/ats4u/status/1949731441870549140)
+
+#### 2
+米国音楽は更に奴隷貿易があり奴隷解放があり、残念な歴史を乗り越えて、多様性を受け入れ、色々な民族の音楽を融合して来ている…それがグルーヴにも繋がっている。
+
+ストレス拍に加えて、ゲールがあり東アフリカがあり南アフリカがありラテンも加わり、変化したものが米国英語であり米国音楽と…[参照](https://x.com/ats4u/status/1954097519157260736)
+
+#### 3
+[CV Phonology A Generative Theory of the Syllable](https://mitpress.mit.edu/9780262530477/cv-phonology/)
+
+[日本人と外人のリズム解釈の違い（3^n リズム理論）](https://x.com/ats4u/status/1878808994623713704)
+
+[参考：３拍子を身につけるとグルーヴする理由](https://x.com/ats4u/status/1766696559637647609)
+
+[ChatGPT:Your Tatenori theory is deeply relevant to CV phonological analysis](https://chatgpt.com/c/684050f7-d864-8013-a6d8-cc29274882b3)
+-->
+
+
+
+### 多層弱拍先行の基本単位を3に拡張する
+
+これまで **{{< var RUBY-MLWBOR>}}** を解析するにあたって強拍と弱拍の２つの拍をつかって分析して来ました。 これまでの3ⁿ仮説が正しいと仮定するとこれは本来３つなければいけないことになります。
+
+<table class="offbeat-onbeat-table">
+  <tbody>
+    <tr class="header">
+      <th>位置</th>
+      <td>１拍目</td>
+      <td class="offbeat-td">２拍目</td>
+      <td>３拍目</td>
+      <td class="offbeat-td">４拍目</td>
+    </tr>
+    <tr>
+      <th>4分音符</th>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+    </tr>
+    <tr>
+      <th>強弱</th>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+    </tr>
+  </tbody>
+</table>
+
+これまではこのように分析してきました。しかし3ⁿ仮説を鑑みて再度分析すると次のようになると考えられます。
+
+<table class="offbeat-onbeat-table">
+  <tbody>
+    <tr class="header">
+      <th>位置</th>
+      <td>１拍目</td>
+      <td class="offbeat-td">２拍目</td>
+      <td class="offbeat-td">３拍目</td>
+      <td>４拍目</td>
+      <td class="offbeat-td">５拍目</td>
+      <td class="offbeat-td">６拍目</td>
+    </tr>
+    <tr>
+      <th>4分音符</th>
+      <td>◯</td>
+      <td class="offbeat-td">&nbsp;</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">&nbsp;</td>
+      <td class="offbeat-td">◯</td>
+    </tr>
+    <tr>
+      <th>強弱</th>
+      <td>強</td>
+      <td class="offbeat-td">&nbsp;</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">&nbsp;</td>
+      <td class="offbeat-td">弱</td>
+    </tr>
+  </tbody>
+</table>
+
+これはリズムパターン「シャッフル」に相当します。
+
+Aretha Franklin - Cold, Cold Heart
+<div class="center-box"><iframe class="rhythmpedia-iframe" width="560" height="315" src="https://www.youtube.com/embed/-AtHNsgy1Cs?si=mfAyYAYTinjvx2wx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
+８分音符に関しても同様にして強拍・弱拍の２つだけだったものを、３連符のスイング８分音符に置き換えましょう。
+
+
+<table class="offbeat-onbeat-table">
+  <tbody>
+    <tr class="header">
+      <th>位置</th>
+      <td>１拍目</td>
+      <td class="offbeat-td">２拍目</td>
+      <td>３拍目</td>
+      <td class="offbeat-td">４拍目</td>
+    </tr>
+    <tr>
+      <th>4分音符</th>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+    </tr>
+    <tr>
+      <th>強弱</th>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+    </tr>
+  </tbody>
+</table>
+<table class="offbeat-onbeat-table">
+  <tbody>
+    <tr>
+      <th>位置</th>
+      <td>１</td>
+      <td class="offbeat-td">２</td>
+      <td>３</td>
+      <td class="offbeat-td">４</td>
+      <td>５</td>
+      <td class="offbeat-td">６</td>
+      <td>７</td>
+      <td class="offbeat-td">８</td>
+    </tr>
+    <tr>
+      <th>8分音符</th>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+    </tr>
+    <tr>
+      <th>強弱</th>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">弱</td>
+    </tr>
+  </tbody>
+</table>
+
+これまでこのように強拍弱拍の２を基底としたリズム構成だったものを、次のように３連符の３を基底としたリズムとして置き換えて見ます。
+
+<table class="offbeat-onbeat-table">
+  <tbody>
+    <tr class="header">
+      <th>位置</th>
+      <td>１拍目</td>
+      <td class="offbeat-td">２拍目</td>
+      <td class="offbeat-td">３拍目</td>
+      <td>４拍目</td>
+      <td class="offbeat-td">５拍目</td>
+      <td class="offbeat-td">６拍目</td>
+    </tr>
+    <tr>
+      <th>4分音符</th>
+      <td>◯</td>
+      <td class="offbeat-td">&nbsp;</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">&nbsp;</td>
+      <td class="offbeat-td">◯</td>
+    </tr>
+    <tr>
+      <th>強弱</th>
+      <td>強</td>
+      <td class="offbeat-td">&nbsp;</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">&nbsp;</td>
+      <td class="offbeat-td">弱</td>
+    </tr>
+  </tbody>
+</table>
+<table class="offbeat-onbeat-table">
+  <tbody>
+    <tr>
+      <th>位置</th>
+      <td>１</td>
+      <td class="offbeat-td">２</td>
+      <td class="offbeat-td">３</td>
+      <td>４</td>
+      <td class="offbeat-td">５</td>
+      <td class="offbeat-td">６</td>
+      <td>７</td>
+      <td class="offbeat-td">８</td>
+      <td class="offbeat-td">９</td>
+      <td>１０</td>
+      <td class="offbeat-td">１１</td>
+      <td class="offbeat-td">１２</td>
+      <td>１３</td>
+      <td class="offbeat-td">１４</td>
+      <td class="offbeat-td">１５</td>
+      <td>１６</td>
+      <td class="offbeat-td">１７</td>
+      <td class="offbeat-td">１８</td>
+    </tr>
+    <tr>
+      <th>8分音符</th>
+      <td>◯</td>
+      <td class="offbeat-td">&nbsp;</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">&nbsp;</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">&nbsp;</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">&nbsp;</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">&nbsp;</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">&nbsp;</td>
+      <td class="offbeat-td">◯</td>
+    </tr>
+    <tr>
+      <th>強弱</th>
+      <td>強</td>
+      <td class="offbeat-td">&nbsp;</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">&nbsp;</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">&nbsp;</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">&nbsp;</td>
+      <td class="offbeat-td">弱</td>
+      <td >強</td>
+      <td class="offbeat-td">&nbsp;</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">&nbsp;</td>
+      <td class="offbeat-td">弱</td>
+    </tr>
+  </tbody>
+</table>
+
+そしてこのように３連符に置き換えられた多層リズムについても、**{{< var RUBY-MLWBOR>}}**で行った処理と全く同じように弱拍先行を適用します。
+
+<table class="offbeat-onbeat-table">
+  <tbody>
+    <tr class="header">
+      <th>位置</th>
+      <td class="offbeat-td">３拍目</td>
+      <td>４拍目</td>
+      <td class="offbeat-td">５拍目</td>
+      <td class="offbeat-td">６拍目</td>
+      <td>１拍目</td>
+      <td class="offbeat-td">２拍目</td>
+    </tr>
+    <tr>
+      <th>4分音符</th>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">&nbsp;</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">&nbsp;</td>
+    </tr>
+    <tr>
+      <th>強弱</th>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">&nbsp;</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+<table class="offbeat-onbeat-table">
+  <tbody>
+    <tr>
+      <th>位置</th>
+      <td class="offbeat-td">３</td>
+      <td>４</td>
+      <td class="offbeat-td">５</td>
+      <td class="offbeat-td">６</td>
+      <td>７</td>
+      <td class="offbeat-td">８</td>
+      <td class="offbeat-td">９</td>
+      <td>１０</td>
+      <td class="offbeat-td">１１</td>
+      <td class="offbeat-td">１２</td>
+      <td>１３</td>
+      <td class="offbeat-td">１４</td>
+      <td class="offbeat-td">１５</td>
+      <td>１６</td>
+      <td class="offbeat-td">１７</td>
+      <td class="offbeat-td">１８</td>
+      <td>１</td>
+      <td class="offbeat-td">２</td>
+    </tr>
+    <tr>
+      <th>8分音符</th>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">&nbsp;</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">&nbsp;</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">&nbsp;</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">&nbsp;</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">&nbsp;</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">&nbsp;</td>
+    </tr>
+    <tr>
+      <th>強弱</th>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">&nbsp;</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">&nbsp;</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">&nbsp;</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">&nbsp;</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">&nbsp;</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+
+これは一般的な記譜法で表現すると 18/8 に近いリズムとなります。
+
+```{.lilypond}
+\include "lilypond-book-preamble.ly"
+
+gone = { \tuplet 3/2 { do16   do16_~ do16] }  }
+gtwo = { \tuplet 3/2 { do16_~ do16 do16] }  }
+gthr = { \tuplet 3/2 { do16   do16 do16] }  }
+
+\score {
+  <<
+    \new RhythmicStaff = "rhythm"  <<
+      \new Voice = "counting" {
+        \voiceOne
+        \time 9/8
+        \partial 2
+        \autoLineBreaksOff
+
+                             do8 do4 do8 \bar "||"
+        do4          r8 r4   do8 do4 do8 |
+        do4_\accent  r8 r4   do8 do4 do8 | \break
+        do4          r8 r4   do8 do4 do8 |
+        do4_\accent  r8 r4   do8 do4 do8 
+        do4          r8  
+        \bar "|."
+      }
+    >>
+  >>
+}
+```
+
+しかしこれではまだ完全ではありません。サブディヴィジョンとして弱拍強拍の２つしかなかった時と違い、3連符には3つの音があることにより、尻合わせを更にもう1段階進めることが可能だからです。
+
+<table class="offbeat-onbeat-table">
+  <tbody>
+    <tr class="header">
+      <th>位置</th>
+      <td class="offbeat-td">２拍目</td>
+      <td class="offbeat-td">３拍目</td>
+      <td>４拍目</td>
+      <td class="offbeat-td">５拍目</td>
+      <td class="offbeat-td">６拍目</td>
+      <td>１拍目</td>
+    </tr>
+    <tr>
+      <th>4分音符</th>
+      <td class="offbeat-td">&nbsp;</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">&nbsp;</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+    </tr>
+    <tr>
+      <th>強弱</th>
+      <td class="offbeat-td">&nbsp;</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">&nbsp;</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+    </tr>
+  </tbody>
+</table>
+<table class="offbeat-onbeat-table">
+  <tbody>
+    <tr>
+      <th>位置</th>
+      <td class="offbeat-td">２</td>
+      <td class="offbeat-td">３</td>
+      <td>４</td>
+      <td class="offbeat-td">５</td>
+      <td class="offbeat-td">６</td>
+      <td>７</td>
+      <td class="offbeat-td">８</td>
+      <td class="offbeat-td">９</td>
+      <td>１０</td>
+      <td class="offbeat-td">１１</td>
+      <td class="offbeat-td">１２</td>
+      <td>１３</td>
+      <td class="offbeat-td">１４</td>
+      <td class="offbeat-td">１５</td>
+      <td>１６</td>
+      <td class="offbeat-td">１７</td>
+      <td class="offbeat-td">１８</td>
+      <td>１</td>
+    </tr>
+    <tr>
+      <th>8分音符</th>
+      <td class="offbeat-td">&nbsp;</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">&nbsp;</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">&nbsp;</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">&nbsp;</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">&nbsp;</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">&nbsp;</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+    </tr>
+    <tr>
+      <th>強弱</th>
+      <td class="offbeat-td">&nbsp;</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">&nbsp;</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">&nbsp;</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">&nbsp;</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">&nbsp;</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+      <td class="offbeat-td">&nbsp;</td>
+      <td class="offbeat-td">弱</td>
+      <td>強</td>
+    </tr>
+  </tbody>
+</table>
+
+これで3連符上での尻合わせ最適化が完了しました。
+
+```{.lilypond}
+\include "lilypond-book-preamble.ly"
+
+gone = { \tuplet 3/2 { do16   do16_~ do16] }  }
+gtwo = { \tuplet 3/2 { do16_~ do16 do16] }  }
+gthr = { \tuplet 3/2 { do16   do16 do16] }  }
+
+\score {
+  <<
+    \new RhythmicStaff = "rhythm"  <<
+      \new Voice = "counting" {
+        \relative do' {
+          \voiceOne
+          \time 9/8
+          \partial 2.
+          \autoLineBreaksOff
+
+                         r8 r8  do8 do8_\accent r8 do8 \bar "||"
+          do4._\accent   r8 r8  do8 do8_\accent r8 do8 |
+          do4._\accent   r8 r8  do8 do8_\accent r8 do8 | \break
+          do4._\accent   r8 r8  do8 do8_\accent r8 do8 |
+          do4._\accent   r8 r8  do8 do8_\accent r8 do8 
+          do4._\accent  
+          \bar "|."
+        }
+      }
+
+      \new NullVoice = "aligner" {
+        \relative do' {
+          \voiceOne
+          \time 9/8
+          \partial 2.
+                        do8 do8 do8   do8 do8 do8 \bar "||"
+          do8 do8 do8   do8 do8 do8   do8 do8 do8 |
+          do8 do8 do8   do8 do8 do8   do8 do8 do8 | \break
+          do8 do8 do8   do8 do8 do8   do8 do8 do8 |
+          do8 do8 do8   do8 do8 do8   do8 do8 do8 
+          do8 do8 do8
+          \bar "|."
+        }
+      }
+
+      \new Lyrics \with { instrumentName = "" } \lyricsto "aligner" {
+                        " " la8 ba8   da8 la8 ba8
+          da8 " " " "   " " la8 ba8   da8 la8 ba8
+          da8 " " " "   " " la8 ba8   da8 la8 ba8
+          da8 " " " "   " " la8 ba8   da8 la8 ba8
+          da8 " " " "   " " la8 ba8   da8 la8 ba8
+          da8 " " " "
+      }
+    >>
+  >>
+}
+```
+
+
+上記の二重の弱拍先行がある３が基底にあるリズムを自動演奏させると次のようになります。
+
+<div class="ats4u-twitter-video" >https://x.com/ats4u/status/1966221330233327741</div>
+
 
 
 <!--

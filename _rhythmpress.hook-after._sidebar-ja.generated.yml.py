@@ -98,6 +98,7 @@ def main() -> None:
     # 2) Wrap under a single section
     wrapped = {
         "section": section_title_for(lang_id),
+        "href": "/",
         "contents": body,
     }
     sidebar["contents"] = [wrapped]
