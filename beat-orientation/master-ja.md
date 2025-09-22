@@ -1,5 +1,5 @@
 ---
-title: <ruby><rb>多層弱拍基軸律動</rb><rt>グルーヴィダンスミュージック</rt></ruby>理論
+title:  ハイパーグルーヴ理論
 created: 2025-05-24T00:17
 format: html
 execute:
