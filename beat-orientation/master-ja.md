@@ -988,11 +988,12 @@ _[Macron and breve](https://en.wikipedia.org/wiki/Systems_of_scansion#Classical_
 
 <div class="center-box"><iframe class="rhythmpedia-iframe" src="https://www.youtube.com/embed/5gZOYKHXwyQ?si=IU87MAlbWB343re6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
-## <ruby>多層弱拍先行<rt>グルーヴ</rt></ruby>について <!-- {#multi-layered-weak-beat-precedence} -->
+## {{< var RUBY-MLWBOR>}}理論とは <!-- {#multi-layered-weak-beat-precedence} -->
 
 拍には強拍と弱拍の2種類があることを見ていきます。そして強拍は必ずしも先に現れるわけではなく、しばしば弱拍が先に演奏されることを見ていきます。次に弱拍・強拍は、4分音符だけではなく全ての音価の音符に存在することを見てみます。各音価の強拍弱拍は、結果的に弱拍に多層構造を生み出します。この弱拍の多層構造に弱拍先行が加わると、リズムが**頭合わせ構造**から**尻合わせ構造**へと移行することを見てみます。
 
 ### 強拍弱拍とは
+
 #### １拍だけではリズムは生まれない
 
 もしもそこに拍が一つしか存在しなければ、それはリズムとして成立しません。なぜなら、リズムという時間的な構造は、**対比の上に成立する感覚**だからです。次の例を見てみます。
@@ -1264,7 +1265,8 @@ _[Macron and breve](https://en.wikipedia.org/wiki/Systems_of_scansion#Classical_
 
 この弱起の認識は、その人が母国語として話す言語に大きな影響を受けます。音楽を世界全体で見回してみると弱起が起こる頻度は非常に高いことに気付きます。音楽の種類によっては弱起の頻度は非常に高く、ほぼ毎回必弱起を演奏する場合もあります。弱起の頻度を更に踏み込んで調べてみると、実は逆に、日本だけが作曲や即興演奏で弱起をほとんど使わないということに気がつくでしょう。日本は音楽に弱起を使わないという非常に珍しい習慣を持っていることがわかります。 この習慣には理由があります ─── これは日本語が持っているモーラ拍リズムというリズム認識が引き起こす現象だからです。
 
-### <ruby>多層弱拍先行<rt>グルーヴ</rt></ruby>と尻合わせ
+
+### {{< var RUBY-MLWBOR>}}と尻合わせ <!-- {#multi-layered-weak-beat-precedence-and-tail-aligning} -->
 
 弱拍には多層性があります。そして多層の拍の上で弱拍先行が起こると**尻合わせ** という非常に興味深いリズム上の現象が起こります。この**尻合わせ**が、**音楽グルーヴの正体**です。この節ではまず多層性が何か、尻合わせとは何か、そして尻合わせが何故起こるのかそのメカニズムを見ていきます。
 
@@ -3576,9 +3578,9 @@ _[Macron and breve](https://en.wikipedia.org/wiki/Systems_of_scansion#Classical_
 
 **弱拍が属する音価の判定** の訓練として考え出された方法が **声出しオフビートカウント練習法**です。
 
-## <ruby><rb>多層弱拍基軸律動</rb><rt>グルーヴィダンスミュージック</rt></ruby>理論まとめ <!-- {#multi-layered-weak-beat-oriented-rhythm-theory-summary} -->
+### まとめ <!-- {#multi-layered-weak-beat-oriented-rhythm-theory-summary} -->
 
-### バダムツーは二層弱拍先行認識
+#### バダムツーは二層弱拍先行認識
 
 これまで、弱拍先行の意味、弱拍先行の多層性、そして多層弱拍先行を聴き分ける困難の理由について見てきました。ここでようやくバダムツーを理解する為に必要な武器が揃った状態になったと言えます。
 
@@ -3586,7 +3588,7 @@ _[Macron and breve](https://en.wikipedia.org/wiki/Systems_of_scansion#Classical_
 
 [音楽のリズム解釈には言語によって違いがある](#音楽のリズム解釈には言語によって違いがある) で御紹介したバダムツーは、4分音符も弱強で解釈し、8分音符も弱強で解釈するという二層同時の弱強解釈を必要とするからです。
 
-#### バダムツーの解釈＝8分音符弱拍先行なし4分音符弱拍先行なし
+##### バダムツーの解釈＝8分音符弱拍先行なし4分音符弱拍先行なし
 
 もしもこの音に関して弱拍先行が全ての音価がないという前提で解釈すると次のようになります。
 
@@ -3658,7 +3660,7 @@ _[Macron and breve](https://en.wikipedia.org/wiki/Systems_of_scansion#Classical_
   </tbody>
 </table>
 
-#### バダムツーの解釈＝8分音符弱拍先行あり4分音符弱拍先行なし
+##### バダムツーの解釈＝8分音符弱拍先行あり4分音符弱拍先行なし
 
 次の解釈を見てみます。
 
@@ -3730,7 +3732,7 @@ _[Macron and breve](https://en.wikipedia.org/wiki/Systems_of_scansion#Classical_
   </tbody>
 </table>
 
-#### バダムツーの解釈＝8分音符弱拍先行あり4分音符弱拍先行あり
+##### バダムツーの解釈＝8分音符弱拍先行あり4分音符弱拍先行あり
 
 次の解釈を見てみます。
 
@@ -3803,7 +3805,7 @@ _[Macron and breve](https://en.wikipedia.org/wiki/Systems_of_scansion#Classical_
 </table>
 
 
-### 言語による多層レベルの違い
+#### 言語による多層レベルの違い
 
 これまで見てきた<ruby>多層弱拍先行<rt>グルーヴ</rt></ruby>の認識は、その人が母国語として話す言語の拍リズムの影響を受けます。つまり言語の拍リズムによって、どの音価での弱拍先行を認識しやすいか、或いは<ruby>多層弱拍先行<rt>グルーヴ</rt></ruby>を認識しやすいしにくいか…といった違いが生じます。 その傾向の一覧を以下で示します。
 
@@ -3825,7 +3827,7 @@ _[Macron and breve](https://en.wikipedia.org/wiki/Systems_of_scansion#Classical_
 
 つまり**モーラ拍リズムは無層リズム**と解釈することが可能です。
 
-### 時代を経るごとに増加する多層レベル
+#### 時代を経るごとに増加する多層レベル
 
 マイルス・デイヴィスの演奏する Four のように二重の弱拍先行が現れる音楽は、米国にしか存在しません。
 
@@ -3847,7 +3849,7 @@ _[Macron and breve](https://en.wikipedia.org/wiki/Systems_of_scansion#Classical_
 
 <div class="center-box"><iframe class="rhythmpedia-iframe" src="https://www.youtube.com/embed/tLAJSQR8V9Q?si=6LFljO26x9olfPeB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
-### ストレス拍音楽の娯楽性能としてみた性能の高さ
+#### ストレス拍音楽の娯楽性能としてみた性能の高さ
 
 リズムは複雑な方が娯楽性能が高いと仮定します。 これまで<ruby>多層弱拍先行<rt>グルーヴ</rt></ruby>は、ストレス拍リズムという英語・ドイツ語で特有な言語上のリズムが生み出したリズムということを見てきました。ストレス拍リズムが米国で南米やアフリカの各種民族音楽と混ざり合うことにより更に複雑化し発展し、リズムの娯楽としての性能が高いと言うことも出来るでしょう。ストレス拍リズムから生まれた米国音楽の娯楽性能の高さは、音韻学的に説明することが出来ます。
 
@@ -3857,13 +3859,13 @@ _[Macron and breve](https://en.wikipedia.org/wiki/Systems_of_scansion#Classical_
 
 米国音楽は前述のMundian の Bach Keすら [Jay-Zによる Bach Ke リミックス](https://www.youtube.com/watch?v=N6_uYzX6Xj8) によって米国音楽として吸収していることが実例として挙げられるでしょう。
 
-### ジャズは究極の世界音楽
+#### ジャズは究極の世界音楽
 
 バッハが作り出した四度進行の音楽か始まりマーチ、ロンド、ミニュエット、印象派、ロマン派などの過去の手法を全て取り入れただけでなく、ゲールの民族音楽、アフリカの民族音楽等々、ラテンアメリカのリズム等々… 世界中のリズムを全て吸収した**ジャズ**は、いわば **究極の世界音楽** であり、圧倒的な娯楽性能の高さを誇ることは政治力ではなく飽くまでも音韻学的に説明が可能だということが結論付けられるのではないでしょうか。
 
 これは飽くまでもシラブル拍リズムの発展型として生まれたストレス拍リズムだからこそ可能だった発展と言えます。
 
-### 誰でもグルーヴする為の方法論
+#### 誰でもグルーヴする為の方法論
 
 シラブル拍リズムの発展型として生まれたストレス拍リズムだからこそ可能だった発展でした。そしてモーラ拍リズムは特異点でありストレス拍・シラブル拍リズムと真逆の性質を持っています。このシラブル拍・ストレス拍の世界に入ることが出来ないという宿命を背負っています。
 
