@@ -26,7 +26,7 @@ rhythmpress-preproc-args: []
 
 縦乗りに気付くかどうかは貴方次第です。そのまま縦乗りの存在に気付かずに生涯を全うするか、あるいは縦乗りに気付いて火のついた様な激しい真実の世界で生きていくか。それは貴方の選択次第です。
 
-![](/tatenori-theory/attachments/vertical-blue-pill-and-red-pill-v2.png)
+![](/beat-orientation/attachments/vertical-blue-pill-and-red-pill-v2.png)
 
 それは映画マトリックスに登場する赤いカプセルと青いカプセルの様です。もちろん、このまま縦乗りに気付かないで生きていくことも可能です。もしもここで、縦乗りに気付くことを選んだらどうなるでしょうか。 …縦乗りに気付くことにより大きな自由が得られると同時に、大きなリスクのある世界で生きていく事になります。
 
@@ -86,42 +86,42 @@ rhythmpress-preproc-args: []
 
 英語で良く使われる慣用表現で「バダムツー」というオノマトペがあります。次のような音です。
 
-<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">バダムツー（英語での「ちゃんちゃん」のような効果音） Credit : <a href="https://t.co/1pMfDuY1S3">https://t.co/1pMfDuY1S3</a> <a href="https://t.co/qdcGm8P81M">pic.twitter.com/qdcGm8P81M</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1928811162042507281?ref_src=twsrc%5Etfw">May 31, 2025</a></blockquote> 
+<div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">バダムツー（英語での「ちゃんちゃん」のような効果音） Credit : <a href="https://t.co/1pMfDuY1S3">https://t.co/1pMfDuY1S3</a> <a href="https://t.co/qdcGm8P81M">pic.twitter.com/qdcGm8P81M</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1928811162042507281?ref_src=twsrc%5Etfw">May 31, 2025</a></blockquote></div>
 
 バダムツーはとてもポピュラーでネット上を探すと沢山の例を見つけることが出来ます。
 
-<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">【 Ba Dum Tss / バダムツー 】 ─── 日本人はこのリズムを必ず聴き間違える。このリズムを何故日本人は、必ず聴き間違えるのか。そこに日本人の縦乗りの最も根本的な原理を観察することができる。<a href="https://twitter.com/hashtag/%E3%82%AA%E3%83%95%E3%83%93%E3%83%BC%E3%83%88%E3%81%A7%E6%80%9D%E8%80%83%E3%81%99%E3%82%8B%E8%AA%9E%E5%AD%A6?src=hash&amp;ref_src=twsrc%5Etfw">#オフビートで思考する語学</a> <a href="https://t.co/IWibkjxhj3">pic.twitter.com/IWibkjxhj3</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1918313900753514678?ref_src=twsrc%5Etfw">May 2, 2025</a></blockquote> 
+<div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">【 Ba Dum Tss / バダムツー 】 ─── 日本人はこのリズムを必ず聴き間違える。このリズムを何故日本人は、必ず聴き間違えるのか。そこに日本人の縦乗りの最も根本的な原理を観察することができる。<a href="https://twitter.com/hashtag/%E3%82%AA%E3%83%95%E3%83%93%E3%83%BC%E3%83%88%E3%81%A7%E6%80%9D%E8%80%83%E3%81%99%E3%82%8B%E8%AA%9E%E5%AD%A6?src=hash&amp;ref_src=twsrc%5Etfw">#オフビートで思考する語学</a> <a href="https://t.co/IWibkjxhj3">pic.twitter.com/IWibkjxhj3</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1918313900753514678?ref_src=twsrc%5Etfw">May 2, 2025</a></blockquote> </div>
 
 このリズムを、何かの面白い事（おち）が起こった直後に演奏します。
 
-<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">バダムツーの実際に実践で使われている例：Credit : <a href="https://t.co/9YyvfCjSX1">https://t.co/9YyvfCjSX1</a> <a href="https://t.co/NBE4a3FB7d">pic.twitter.com/NBE4a3FB7d</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1928826772281233678?ref_src=twsrc%5Etfw">May 31, 2025</a></blockquote> 
+<div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">バダムツーの実際に実践で使われている例：Credit : <a href="https://t.co/9YyvfCjSX1">https://t.co/9YyvfCjSX1</a> <a href="https://t.co/NBE4a3FB7d">pic.twitter.com/NBE4a3FB7d</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1928826772281233678?ref_src=twsrc%5Etfw">May 31, 2025</a></blockquote></div>
 
 
 これは日本語ではしばしば「ちゃんちゃん」と訳されます。
 
-![](/tatenori-theory/attachments/vertical-ba-dum-tss.png){width=560px }
+![](/beat-orientation/attachments/vertical-ba-dum-tss.png){width=560px }
 
 これは日本語のちゃんちゃんの様な位置にあり、コントの終わりなどで効果音として使われます。
 
-<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">日本の「ちゃんちゃん」は英語で ba dum tss と翻訳されている。ジョジョの不思議な冒険「マニッシュ・ボーイ」Credit : <a href="https://t.co/hRYKOraxdq">https://t.co/hRYKOraxdq</a> <a href="https://t.co/Oym4ZIsLUD">pic.twitter.com/Oym4ZIsLUD</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1928814004308185233?ref_src=twsrc%5Etfw">May 31, 2025</a></blockquote> 
+<div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">日本の「ちゃんちゃん」は英語で ba dum tss と翻訳されている。ジョジョの不思議な冒険「マニッシュ・ボーイ」Credit : <a href="https://t.co/hRYKOraxdq">https://t.co/hRYKOraxdq</a> <a href="https://t.co/Oym4ZIsLUD">pic.twitter.com/Oym4ZIsLUD</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1928814004308185233?ref_src=twsrc%5Etfw">May 31, 2025</a></blockquote> </div>
 
 もし貴方が音楽の訓練を受けている方で、譜面を読み書きすることができる方でしたら、次の様に聴き取ったかも知れません。
 
-![](/tatenori-theory/attachments/vertical-ba-dum-tss-incorrect.png)
+![](/beat-orientation/attachments/vertical-ba-dum-tss-incorrect.png)
 
 しかしこれは本来次の様に記譜すべきなのです。
 
-![](/tatenori-theory/attachments/vertical-ba-dum-tss-score-correct.png)
+![](/beat-orientation/attachments/vertical-ba-dum-tss-score-correct.png)
 
 #### リズムの解釈の違い
 
 もしも前者の解釈でジャズの演奏を行うと次のようになる筈です。
 
-<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">バダムツーの縦乗りでの解釈 <a href="https://twitter.com/hashtag/%E3%82%AA%E3%83%95%E3%83%93%E3%83%BC%E3%83%88%E3%81%A7%E6%80%9D%E8%80%83%E3%81%99%E3%82%8B%E8%AA%9E%E5%AD%A6?src=hash&amp;ref_src=twsrc%5Etfw">#オフビートで思考する語学</a> <a href="https://t.co/KN5gMaKMdE">https://t.co/KN5gMaKMdE</a> <a href="https://t.co/TCvZoJEMqw">pic.twitter.com/TCvZoJEMqw</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1928070176341164344?ref_src=twsrc%5Etfw">May 29, 2025</a></blockquote>
+<div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">バダムツーの縦乗りでの解釈 <a href="https://twitter.com/hashtag/%E3%82%AA%E3%83%95%E3%83%93%E3%83%BC%E3%83%88%E3%81%A7%E6%80%9D%E8%80%83%E3%81%99%E3%82%8B%E8%AA%9E%E5%AD%A6?src=hash&amp;ref_src=twsrc%5Etfw">#オフビートで思考する語学</a> <a href="https://t.co/KN5gMaKMdE">https://t.co/KN5gMaKMdE</a> <a href="https://t.co/TCvZoJEMqw">pic.twitter.com/TCvZoJEMqw</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1928070176341164344?ref_src=twsrc%5Etfw">May 29, 2025</a></blockquote></div>
 
 もしも後者の解釈でジャズの演奏を行うと次の様になります。
 
-<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">バダムツーの横乗りでの解釈 <a href="https://twitter.com/hashtag/%E3%82%AA%E3%83%95%E3%83%93%E3%83%BC%E3%83%88%E3%81%A7%E6%80%9D%E8%80%83%E3%81%99%E3%82%8B%E8%AA%9E%E5%AD%A6?src=hash&amp;ref_src=twsrc%5Etfw">#オフビートで思考する語学</a> <a href="https://t.co/KN5gMaKMdE">https://t.co/KN5gMaKMdE</a> <a href="https://t.co/C5x0FYgXLk">pic.twitter.com/C5x0FYgXLk</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1928070026998755806?ref_src=twsrc%5Etfw">May 29, 2025</a></blockquote>
+<div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">バダムツーの横乗りでの解釈 <a href="https://twitter.com/hashtag/%E3%82%AA%E3%83%95%E3%83%93%E3%83%BC%E3%83%88%E3%81%A7%E6%80%9D%E8%80%83%E3%81%99%E3%82%8B%E8%AA%9E%E5%AD%A6?src=hash&amp;ref_src=twsrc%5Etfw">#オフビートで思考する語学</a> <a href="https://t.co/KN5gMaKMdE">https://t.co/KN5gMaKMdE</a> <a href="https://t.co/C5x0FYgXLk">pic.twitter.com/C5x0FYgXLk</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1928070026998755806?ref_src=twsrc%5Etfw">May 29, 2025</a></blockquote></div>
 
 ここに日本語を母国語とする人と、そうでない人のリズムの認識に、大きな違いが見つかります。
 
@@ -129,16 +129,16 @@ rhythmpress-preproc-args: []
 
 次の例を見てみてください。
 
-<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">【モーラ拍リズムの言語（日本語）を母語として話す人が聴き取れないリズム】 16分音符1つが弱起として入っている基本リフパターン ─── マイケル・ジャクソンのヒューマン・ネイチャー Live at Wembley 1988 Credit : <a href="https://t.co/eQ1e6WjElH">https://t.co/eQ1e6WjElH</a> <a href="https://t.co/mBAaWxTeSj">pic.twitter.com/mBAaWxTeSj</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1928820285270024211?ref_src=twsrc%5Etfw">May 31, 2025</a></blockquote>
+<div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">【モーラ拍リズムの言語（日本語）を母語として話す人が聴き取れないリズム】 16分音符1つが弱起として入っている基本リフパターン ─── マイケル・ジャクソンのヒューマン・ネイチャー Live at Wembley 1988 Credit : <a href="https://t.co/eQ1e6WjElH">https://t.co/eQ1e6WjElH</a> <a href="https://t.co/mBAaWxTeSj">pic.twitter.com/mBAaWxTeSj</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1928820285270024211?ref_src=twsrc%5Etfw">May 31, 2025</a></blockquote></div>
 
 この曲は、マイケル・ジャクソンのヒット曲『[ヒューマン・ネイチャー](https://www.youtube.com/watch?v=ElN_4vUvTPs)』です。この曲の冒頭でマイケル・ジャクソンが「チーチキ・チーチキ」と歌っていますが、この記事を読んで下さっている皆様は、このリズムをどの様に聴き取りましたでしょうか。
 
 
-![](/tatenori-theory/attachments/vertical-human-nature-score-incorrect.png)
+![](/beat-orientation/attachments/vertical-human-nature-score-incorrect.png)
 
 この様に解釈されたのではないでしょうか。しかし曲が始まると間もなくこの解釈が間違っていることが明らかになります ─── 実は次のようになっています。
 
-![](/tatenori-theory/attachments/vertical-human-nature-score-correct.png)
+![](/beat-orientation/attachments/vertical-human-nature-score-correct.png)
 
 このように８分音符１つ分ずれた形でリズムが始まっています。
 
@@ -150,7 +150,7 @@ rhythmpress-preproc-args: []
 
 この盲点こそが、日本語を母国語とする人が英語が聴き取れなくなる理由なのです。次の動画を見てみてください。これは映画ハイスクール・ミュージカル（2006年）の主題歌です。 この動画のなかで日本語母国語話者が聴き落とす地点をアニメーションで表現しました。
 
-<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">【日本人のリズムの盲点】映画ハイスクール・ミュージカルの音楽にはオフビートから始まるリズムが現れます。<br><br>日本人には1拍目表拍から文章を解釈しその前にある音を全て無視するという性質がある為、そこに音があることに気付きません。 <br><br>その地点を見える化しました。<a href="https://twitter.com/hashtag/%E3%82%AA%E3%83%95%E3%83%93%E3%83%BC%E3%83%88%E3%81%A7%E6%80%9D%E8%80%83%E3%81%99%E3%82%8B%E8%AA%9E%E5%AD%A6?src=hash&amp;ref_src=twsrc%5Etfw">#オフビートで思考する語学</a> <a href="https://t.co/qpvR56b6tG">pic.twitter.com/qpvR56b6tG</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1661582852574806021?ref_src=twsrc%5Etfw">May 25, 2023</a></blockquote>
+<div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">【日本人のリズムの盲点】映画ハイスクール・ミュージカルの音楽にはオフビートから始まるリズムが現れます。<br><br>日本人には1拍目表拍から文章を解釈しその前にある音を全て無視するという性質がある為、そこに音があることに気付きません。 <br><br>その地点を見える化しました。<a href="https://twitter.com/hashtag/%E3%82%AA%E3%83%95%E3%83%93%E3%83%BC%E3%83%88%E3%81%A7%E6%80%9D%E8%80%83%E3%81%99%E3%82%8B%E8%AA%9E%E5%AD%A6?src=hash&amp;ref_src=twsrc%5Etfw">#オフビートで思考する語学</a> <a href="https://t.co/qpvR56b6tG">pic.twitter.com/qpvR56b6tG</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1661582852574806021?ref_src=twsrc%5Etfw">May 25, 2023</a></blockquote></div>
 
 この歌詞は次の様になっています。
 
@@ -168,7 +168,7 @@ rhythmpress-preproc-args: []
 
 この曲では最初の部分だけが弱起になっている非常に短い弱起なので、全ての意味が理解できないことはないかも知れません。しかし英語の詩では、**歌詞の全て弱起になっている**ことは稀なことではありません。そうなると、全ての音が聴き取れないという現象が実際に起こるのです。
 
-<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">その後、リハンナが2007年に Don’t Stop the Music でマイケルジャクソンのママセイママサーママクサを素材にしたリフを使ったことで、ママセイママサーママクサは更に広く知られる様になりました。<br><br>Credit : <a href="https://t.co/4XdSx8kHp0">https://t.co/4XdSx8kHp0</a> <a href="https://t.co/BGQnWLvpzp">pic.twitter.com/BGQnWLvpzp</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1646892656285618176?ref_src=twsrc%5Etfw">April 14, 2023</a></blockquote> 
+<div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">その後、リハンナが2007年に Don’t Stop the Music でマイケルジャクソンのママセイママサーママクサを素材にしたリフを使ったことで、ママセイママサーママクサは更に広く知られる様になりました。<br><br>Credit : <a href="https://t.co/4XdSx8kHp0">https://t.co/4XdSx8kHp0</a> <a href="https://t.co/BGQnWLvpzp">pic.twitter.com/BGQnWLvpzp</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1646892656285618176?ref_src=twsrc%5Etfw">April 14, 2023</a></blockquote> </div>
 
 このサビ部分の歌詞は**全てが弱起で構成**されています。
 
@@ -246,8 +246,8 @@ music</span>
 
 #### グルーヴとは何か
 
-<figure>
-<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">【言語とリズム】カマラ・ハリスの「ザ・パッセージ・オヴ・タイム」という演説に合わせてジャズを演奏したら、それに同調したネット上のミュージシャンがドラムやベースをつけたものらしいです。<br><br>９０年代のジョン・スコフィールドとジョー・ロヴァーノの音楽みたいです。 <a href="https://twitter.com/hashtag/%E3%82%AA%E3%83%95%E3%83%93%E3%83%BC%E3%83%88%E3%81%A7%E6%80%9D%E8%80%83%E3%81%99%E3%82%8B%E8%AA%9E%E5%AD%A6?src=hash&amp;ref_src=twsrc%5Etfw">#オフビートで思考する語学</a>… <a href="https://t.co/CuW5Q3XaOF">pic.twitter.com/CuW5Q3XaOF</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1838097695032160721?ref_src=twsrc%5Etfw">September 23, 2024</a></blockquote>
+<figure class="center-box">
+<div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">【言語とリズム】カマラ・ハリスの「ザ・パッセージ・オヴ・タイム」という演説に合わせてジャズを演奏したら、それに同調したネット上のミュージシャンがドラムやベースをつけたものらしいです。<br><br>９０年代のジョン・スコフィールドとジョー・ロヴァーノの音楽みたいです。 <a href="https://twitter.com/hashtag/%E3%82%AA%E3%83%95%E3%83%93%E3%83%BC%E3%83%88%E3%81%A7%E6%80%9D%E8%80%83%E3%81%99%E3%82%8B%E8%AA%9E%E5%AD%A6?src=hash&amp;ref_src=twsrc%5Etfw">#オフビートで思考する語学</a>… <a href="https://t.co/CuW5Q3XaOF">pic.twitter.com/CuW5Q3XaOF</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1838097695032160721?ref_src=twsrc%5Etfw">September 23, 2024</a></blockquote></div>
 <figcaption>米国政治家のカマラ・ハリスのスピーチに合わせてジャズを演奏している人々</figcaption>
 </figure>
 
@@ -270,35 +270,35 @@ music</span>
 
 #### 縦乗りと横乗りの比較その1
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-mHk5FfhFas?si=4CQjOE1Fi5ap3Cc5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="center-box"><iframe class="rhythmpedia-iframe" src="https://www.youtube.com/embed/-mHk5FfhFas?si=4CQjOE1Fi5ap3Cc5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 #### 縦乗りと横乗りの比較その2
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BvpIcUBT418?si=jOhnlsRvhCYB-O_W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="center-box"><iframe class="rhythmpedia-iframe" src="https://www.youtube.com/embed/BvpIcUBT418?si=jOhnlsRvhCYB-O_W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 #### 縦乗りと横乗りの比較その3
 
 * 横乗りの場合
     * ベース音と伴奏コードが常に互い違いに鳴っている
 
-<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">【コード進行の先取りについて】 <a href="https://t.co/nqrVkVIhNy">pic.twitter.com/nqrVkVIhNy</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1496443349540413440?ref_src=twsrc%5Etfw">February 23, 2022</a></blockquote>
+<div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">【コード進行の先取りについて】 <a href="https://t.co/nqrVkVIhNy">pic.twitter.com/nqrVkVIhNy</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1496443349540413440?ref_src=twsrc%5Etfw">February 23, 2022</a></blockquote></div>
 
 
 * 縦乗りの場合
     * ベース音と伴奏コードが常に同時に鳴っている
 
-<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">【縦乗りの例】全拍がオンビートを起点にして演奏されている。全く同じ音楽、全く同じベースライン、全く同じコード進行でもリズムが縦乗りだとこういう風に響く ─── これが縦乗りだ。 <a href="https://t.co/OArl8tpUWf">pic.twitter.com/OArl8tpUWf</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1496820563201114112?ref_src=twsrc%5Etfw">February 24, 2022</a></blockquote>
+<div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">【縦乗りの例】全拍がオンビートを起点にして演奏されている。全く同じ音楽、全く同じベースライン、全く同じコード進行でもリズムが縦乗りだとこういう風に響く ─── これが縦乗りだ。 <a href="https://t.co/OArl8tpUWf">pic.twitter.com/OArl8tpUWf</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1496820563201114112?ref_src=twsrc%5Etfw">February 24, 2022</a></blockquote></div>
 
 #### 縦乗りと横乗りの比較その4
 
-<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">７イレブンで買い物したら、ものすごい縦乗りのヒューマンネーチャー（マイケル・ジャクソンの曲）がＢＧＭに掛かっていた。あまりに凄かったので、家に帰って譜面に起こしてみた。こんな感じだった。<br><br>前半４小節がオリジナル。後半４小節が縦乗りバージョン。 <a href="https://t.co/Vl9s9DWgh8">pic.twitter.com/Vl9s9DWgh8</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/975051946552827904?ref_src=twsrc%5Etfw">March 17, 2018</a></blockquote> 
+<div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">７イレブンで買い物したら、ものすごい縦乗りのヒューマンネーチャー（マイケル・ジャクソンの曲）がＢＧＭに掛かっていた。あまりに凄かったので、家に帰って譜面に起こしてみた。こんな感じだった。<br><br>前半４小節がオリジナル。後半４小節が縦乗りバージョン。 <a href="https://t.co/Vl9s9DWgh8">pic.twitter.com/Vl9s9DWgh8</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/975051946552827904?ref_src=twsrc%5Etfw">March 17, 2018</a></blockquote> </div>
 
 ### 横乗りの人は縦乗りにすぐに気付く
 
 この**リズム感覚**を持たない日本語を母国語とする人が演奏や作曲を行うと、その作品に**独特なリズム感覚の欠落**が残ります。この欠落は、そのリズム感覚を持つ人から見た時、とてもはっきりとわかる非常に明瞭なものです。この欠落は日本語以外の言語を母国語とする人々に対して常に一定の違和感を与えます。 
 
 <figure>
-<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">【音無しで手を叩くだけでわかる横乗りと縦乗り】<br><br>1. 裏拍が先行している<br>2. 拍の多層構造がある<br>3. 動きが尻合わせで配置されている<br><br>どんなに海外で高度な横乗りを会得しても、横乗りと縦乗りの違いをはっきり区別しない限り日本帰国と同時に縦乗りに戻ってしまいます。<a href="https://twitter.com/hashtag/%E3%82%AA%E3%83%95%E3%83%93%E3%83%BC%E3%83%88%E3%81%A7%E6%80%9D%E8%80%83%E3%81%99%E3%82%8B%E8%AA%9E%E5%AD%A6?src=hash&amp;ref_src=twsrc%5Etfw">#オフビートで思考する語学</a> <a href="https://t.co/j0lB7w9RT4">pic.twitter.com/j0lB7w9RT4</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1866840258450690275?ref_src=twsrc%5Etfw">December 11, 2024</a></blockquote> 
+<div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">【音無しで手を叩くだけでわかる横乗りと縦乗り】<br><br>1. 裏拍が先行している<br>2. 拍の多層構造がある<br>3. 動きが尻合わせで配置されている<br><br>どんなに海外で高度な横乗りを会得しても、横乗りと縦乗りの違いをはっきり区別しない限り日本帰国と同時に縦乗りに戻ってしまいます。<a href="https://twitter.com/hashtag/%E3%82%AA%E3%83%95%E3%83%93%E3%83%BC%E3%83%88%E3%81%A7%E6%80%9D%E8%80%83%E3%81%99%E3%82%8B%E8%AA%9E%E5%AD%A6?src=hash&amp;ref_src=twsrc%5Etfw">#オフビートで思考する語学</a> <a href="https://t.co/j0lB7w9RT4">pic.twitter.com/j0lB7w9RT4</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1866840258450690275?ref_src=twsrc%5Etfw">December 11, 2024</a></blockquote></div>
 <figcaption>縦乗りと横乗りの違いを動きだけを使って表現したもの</figcatption>
 </figure>
 
@@ -575,7 +575,7 @@ music</span>
 
 もしかしたら次の様に解釈したかも知れません。
 
-![](/tatenori-theory/attachments/ba-dum-tss-incorrect.png)
+![](/beat-orientation/attachments/vertical-ba-dum-tss-incorrect.png)
 
 果たしてバダムツーは、本当にこういうリズムの音楽からやってきたのでしょうか ─── 実際に試してみるとわかるかも知れません。このリズム解釈を使って音楽を作って見て、実際に聴いてみましょう。
 
@@ -587,7 +587,7 @@ music</span>
 
 この上記リズム解釈を譜面として表現した場合、恐らく次のようになるでしょう。
 
-![](/tatenori-theory/attachments/ba-dum-tss-score-correct.png)
+![](/beat-orientation/attachments/vertical-ba-dum-tss-score-correct.png)
 
 
 ここに存在する違いは一体何でしょうか ───  これが**強拍弱拍の順序認識**です。
@@ -1525,7 +1525,7 @@ _[Macron and breve](https://en.wikipedia.org/wiki/Systems_of_scansion#Classical_
 シラブル拍言語
 -->
 
-弱拍は英語でしばしば「**アップビート**」と呼ばれることがあります。これは指揮者の指揮棒になぞらえた表現です。指揮者は壇上で指揮するにあたって弱拍で指揮棒を振り上げ、強拍で指揮棒を振り下ろすでしょう。この動きになぞらえて、弱拍は英語で「**アップビート**」と呼ばれるのです。モーラ拍リズム言語である日本語を母国語とするとしばしばこの認識は逆になります。
+弱拍は英語でしばしば「**アップビート**」と呼ばれることがあります。これは指揮者の指揮棒になぞらえた表現です。指揮者は壇上で指揮するにあたって弱拍で指揮棒を振り上げ、強拍で指揮棒を振り下ろすでしょう。この動きになぞらえて、弱拍は英語で「**アップビート**」と呼ばれるのです。モーラ拍リズム言語である日本語を母国語とする人では、しばしばこの認識は逆になります。つまり、強拍で指揮棒を振り上げ、弱拍で指揮棒を振り下ろす…と認識するでしょう。
 
 このモーラ拍リズム言語の順序認識が逆転するメカニズムを<ruby><rb>律動</rb><rt>リズム</rt></ruby>的頭子音最大化原則（RMOP = Rhythmic Maximal Onset Principle ）と呼びます。律動リズム的頭子音最大化原則については [音節核と頭子音との位置関係が強拍弱拍順序認識を決める](#音節核と頭子音との位置関係が強拍弱拍順序認識を決める) で説明しました。
 
@@ -4068,7 +4068,7 @@ _[Macron and breve](https://en.wikipedia.org/wiki/Systems_of_scansion#Classical_
 
 もしもこの音に関して弱拍先行が全ての音価がないという前提で解釈すると次のようになります。
 
-![](/tatenori-theory/attachments/ba-dum-tss-incorrect.png)
+![](/beat-orientation/attachments/vertical-ba-dum-tss-incorrect.png)
 
 この解釈は、4分音符の弱拍先行なし、8分音符の弱拍先行なしを前提としたリズム解釈と言えます。 ─── この解釈は正しくないということも[音楽のリズム解釈には言語によって違いがある](#音楽のリズム解釈には言語によって違いがある)で御説明致しました。
 
@@ -4140,7 +4140,7 @@ _[Macron and breve](https://en.wikipedia.org/wiki/Systems_of_scansion#Classical_
 
 次の解釈を見てみます。
 
-![](/tatenori-theory/attachments/ba-dum-tss-incorrect-8th.png)
+![](/beat-orientation/attachments/vertical-ba-dum-tss-incorrect-8th.png)
 
 この解釈は、8分音符の弱拍先行が存在することを前提として解釈していると言えます。しかし、4分音符の弱拍先行はなしとみなしている為、１つずれた形で認識していることを観察することが出来ます。
 
@@ -4212,7 +4212,7 @@ _[Macron and breve](https://en.wikipedia.org/wiki/Systems_of_scansion#Classical_
 
 次の解釈を見てみます。
 
-![](/tatenori-theory/attachments/ba-dum-tss-score-correct.png)
+![](/beat-orientation/attachments/vertical-ba-dum-tss-score-correct.png)
 
 この解釈は、8分音符の弱拍先行が存在することを前提としおり、同時に4分音符の弱拍先行も存在することを前提として解釈していることがわかります。
 
