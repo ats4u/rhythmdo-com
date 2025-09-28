@@ -42,6 +42,7 @@ ul ul {
 ---
 
 ## 超グルーヴ理論
+
 超グルーヴ理論とは、リズムによって立体的/多次元的な空間を作り出し静けさや激しさを表現する**グルーヴ**を最適化する為の理論です。
 
 最適なグルーヴのあり方を**オフビートカウント法**という実践主義的手法を使って理論的に定義し、感覚だけでは認識することが難しい**グルーヴ**を最適化する方法を御紹介致します。
@@ -58,7 +59,6 @@ from rhythmpress import rhythmpress
 out = rhythmpress.create_global_navigation( '_rhythmpress.conf', 'ja', strict=False )
 print(out)
 ```
-
 
 -------
 

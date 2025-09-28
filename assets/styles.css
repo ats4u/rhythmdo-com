@@ -85,10 +85,17 @@ body.quarto-dark  table.offbeat-onbeat-table th  {
   font-weight:1000;
 }
 
-.offbeat-td {
+table.offbeat-onbeat-table td {
+  font-size: small;
   background-color:orange;
   color:white;
   font-weight:1000;
+}
+
+table.offbeat-onbeat-table td.offbeat-td {
+  background-color:white !important;
+  color:black !important;
+  font-weight:400;
 }
 
 .ats4u-twitter-video-caption {

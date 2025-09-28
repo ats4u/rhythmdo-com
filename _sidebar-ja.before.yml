@@ -1,5 +1,4 @@
 website:
   sidebar:
     contents:
-      - text: "律動図鑑トップ"
-        href: index.qmd
+      []
