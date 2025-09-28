@@ -1,5 +1,5 @@
 ---
-title:  ハイパーグルーヴ理論
+title:  超グルーヴ理論
 created: 2025-05-24T00:17
 format: html
 execute:
@@ -14,7 +14,7 @@ rhythmpress-preproc: split
 rhythmpress-preproc-args: []
 ---
 
-## 縦乗りリズム理論
+## 縦乗りリズム理論 <!-- {#tatenori-theory} -->
 
 *(最終更新日 2025/06/02 15:04:53)* 日本語を母国語とするミュージシャンならば必ず一度は経験する謎 ─── 『何故日本人はグルーヴしないのか』この問題について考察した記事です。考察中にて、日本人がグルーヴしない理由が日本人が英語が聞き取れない理由と等しいことを明らかにします。日本語と日本の音楽に潜む『縦乗り』の正体を明らかにし、その影響と限界を科学的・文化的に考察します。 
 
@@ -1357,7 +1357,7 @@ music</span>
 
 受動的事後追従主義（RA=Reactive Appndism) は、言語だけでなく音楽にも影響を与えていることを見てきました。受動的事後追従主義は音楽だけでなく、音楽を含めた日本人の全ての習慣に深い影響を与えています。これが <ruby><rb>日本的追従律動</rb><rt>タテノリ</rt></ruby> です。
 
-例えば、終わらない残業などがこれに当たります。始まる時間はとても正確なのに終わる時間は全く正確ではないことは日本人の悪しき習慣と言われて久しいですが直る気配も直す気配も全くありません。これこそが <ruby><rb>日本的追従律動</rb><rt>タテノリ</rt></ruby> の一例です。 コンビニで１人がレジに行くと全員レジに行ってレジが混みだす ─── これも<ruby><rb>日本的追従律動</rb><rt>タテノリ</rt></ruby> の一例です。１人トイレに行くとみんなで一緒にトイレにいかないと気がすまない。これも<ruby><rb>日本的追従律動</rb><rt>タテノリ</rt></ruby> です。 広い道端で、鉢合わせになった二人・・・右に避けると右に避ける、左に避けると左に避ける。何度避けてもぶつかりそうになる。日本にいると「お前が見ていないからだ！」と責任転嫁することも可能ですが、海外の人混みでこの挙動は極度に目立ちます。これも<ruby><rb>日本的追従律動</rb><rt>タテノリ</rt></ruby> の典型的な例です。他にもたくさんの例があります。 日本人の全ての挙動を<ruby><rb>日本的追従律動</rb><rt>タテノリ</rt></ruby> が支配しています。 ─── このことについては、稿を改めて [**日本語が人間の動作の認識に与える影響の仮説**](/influence-of-japanese-language-on-cognition/ja/) にて詳細に議論します。
+例えば、終わらない残業などがこれに当たります。始まる時間はとても正確なのに終わる時間は全く正確ではないことは日本人の悪しき習慣と言われて久しいですが直る気配も直す気配も全くありません。これこそが <ruby><rb>日本的追従律動</rb><rt>タテノリ</rt></ruby> の一例です。 コンビニで１人がレジに行くと全員レジに行ってレジが混みだす ─── これも<ruby><rb>日本的追従律動</rb><rt>タテノリ</rt></ruby> の一例です。１人トイレに行くとみんなで一緒にトイレにいかないと気がすまない。これも<ruby><rb>日本的追従律動</rb><rt>タテノリ</rt></ruby> です。 広い道端で、鉢合わせになった二人・・・右に避けると右に避ける、左に避けると左に避ける。何度避けてもぶつかりそうになる。日本にいると「お前が見ていないからだ！」と責任転嫁することも可能ですが、海外の人混みでこの挙動は極度に目立ちます。これも<ruby><rb>日本的追従律動</rb><rt>タテノリ</rt></ruby> の典型的な例です。他にもたくさんの例があります。 日本人の全ての挙動を<ruby><rb>日本的追従律動</rb><rt>タテノリ</rt></ruby> が支配しています。 ─── このことについては、稿を改めて [**日本語が人間の動作の認識に与える影響の仮説**](/hypergroove/influence-of-japanese-language-on-cognition/ja/) にて詳細に議論します。
 
 ここでは <ruby><rb>日本的追従律動</rb><rt>タテノリ</rt></ruby> が音楽のリズムに対して与えている大きな影響について次節以降で見ていきます。そしてこれが日本人の英語音痴の本質に横たわっていることを見ていきます。
 
@@ -5280,7 +5280,7 @@ print(
 
 -->
 
-## 世界は3ⁿ拍子で出来ている
+## 世界は3ⁿ拍子で出来ている <!-- {#the-universe-is-made-of-3n-beats} -->
 
 *グルーヴの本質は多重になった3拍子である* ─── {{<var RUBY-3TON>}} の序論として世界中の3拍子の音楽を御紹介致します。ジャズの起源となったゲーリック及び黒人教会音楽リズムへの理解を深めることが演奏上のグルーヴ力を向上させます。そしてこれは英語のリズムの起源を知る旅と言い換えることも可能です。 ジャズのリズムの起源、そして英語のリズムの起源を感覚的に理解するための礎として、ここで世界中の3拍子/9拍子/27拍子の音楽を御紹介致します。
 
@@ -6196,15 +6196,15 @@ gthr = { \tuplet 3/2 { do16   do16 do16] }  }
 
 リズムを叩くにあたって制約１『一定周期で叩くことしかできない』を知ることはとても重要だ。例えばこういう複雑なリズムがあったとする。
 
-![](/offbeat-count-theory/attachments/distributed-groove-20250805190006.png)
+![](/hypergroove/attachments/distributed-groove-20250805190006.png)
 
 人間は直接このリズムを叩くことはできない。何故なら人間は時間を一定周期で分割する能力しか持たないからだ。だが次のように工夫することで叩くことができる。
 
-![](/offbeat-count-theory/attachments/distributed-groove-20250805190035.png)
+![](/hypergroove/attachments/distributed-groove-20250805190035.png)
 
 譜面上ではこれが一定周期の組み合わせだということがわかりにくいので、グラフを使って見てみよう。
 
-![](/offbeat-count-theory/attachments/distributed-groove-20250805190115.png)
+![](/hypergroove/attachments/distributed-groove-20250805190115.png)
 
 これなら一定周期の組み合わせだから人間でも叩くことができる。このようにして人間は複雑なリズムを叩くことができる。
 
@@ -6220,17 +6220,17 @@ gthr = { \tuplet 3/2 { do16   do16 do16] }  }
   
 次の単純なリズムを考えてみる。
 
-![](/offbeat-count-theory/attachments/distributed-groove-20250805190159.png)
+![](/hypergroove/attachments/distributed-groove-20250805190159.png)
 
 １２０ＢＰＭ程度なら十分叩けるだろう。だが２００〜３００ＢＰＭになれば徐々に難しくなってくる。８分音符や１６分音符などの細かな音符を考えると、２００ＢＰＭで８分音符を演奏するなら２倍の４００ＢＰＭ相当、１６分音符なら８００ＢＰＭに到達するリズムを叩かなければならない。これは到底人間には叩くことができないリズムだ。
 
 そこでこれを分割することを考えてみる。
 
-![](/offbeat-count-theory/attachments/distributed-groove-20250805190228.png)
+![](/hypergroove/attachments/distributed-groove-20250805190228.png)
 
 全く同じリズムでもこの様に分解すれば半分のＢＰＭで演奏できる。グラフでも確認してみよう。
 
-![](/offbeat-count-theory/attachments/distributed-groove-20250805190240.png)
+![](/hypergroove/attachments/distributed-groove-20250805190240.png)
 
 この処理のことを**単純リズムの分解**と呼ぼう。
 
@@ -6240,17 +6240,17 @@ gthr = { \tuplet 3/2 { do16   do16 do16] }  }
   
 前章の例では２つの拍の距離は１／２だったが、これをもし１／４にしたらどうなるだろうか。
 
-![](/offbeat-count-theory/attachments/distributed-groove-20250805190259.png)
+![](/hypergroove/attachments/distributed-groove-20250805190259.png)
 
 この様に２つの拍の距離が１／４になるとそれは１／４の長さを持つ音符＝８分音符と同じ細かさを持つ。
 
-![](/offbeat-count-theory/attachments/distributed-groove-20250805190309.png)
+![](/hypergroove/attachments/distributed-groove-20250805190309.png)
 
 同じ様にして２つの拍の距離が１／３になったらどうなるかを見てみよう。
 
-![](/offbeat-count-theory/attachments/distributed-groove-20250805190445.png)
+![](/hypergroove/attachments/distributed-groove-20250805190445.png)
 
-![](/offbeat-count-theory/attachments/distributed-groove-20250805190454.png)
+![](/hypergroove/attachments/distributed-groove-20250805190454.png)
 
 ２つの拍の距離が２／３になるとそれは２／３のの長さを持つ２拍３連２個分の細かさを持つことになる。  
   
@@ -6263,13 +6263,13 @@ gthr = { \tuplet 3/2 { do16   do16 do16] }  }
 具体的に言うと、拍解像度はその小節内にある全ての音符の位置を数値として表した時の全ての数の最大公約数となる。例えば、１６分音符（音価が１／１６）があったとしても、拍解像度は必ずしも１／１６にならない。何故ならもしその１６分音符が４分音符と同じ位置にあったら拍解像度は１／４にしかならないからだ。  
   
 **例１**  
-![](/offbeat-count-theory/attachments/distributed-groove-20250805190525.png)
+![](/hypergroove/attachments/distributed-groove-20250805190525.png)
 
-![](/offbeat-count-theory/attachments/distributed-groove-20250805190532.png)
+![](/hypergroove/attachments/distributed-groove-20250805190532.png)
 
 １６分音符が全て４分音符と同じ場所にあれば拍解像度としては４分音符と同じになる。
 
-![](/offbeat-count-theory/attachments/distributed-groove-20250805190546.png)
+![](/hypergroove/attachments/distributed-groove-20250805190546.png)
 
 この１６分音符は４分音符とおなじ拍解像度しか持たない。
 
@@ -6277,7 +6277,7 @@ gthr = { \tuplet 3/2 { do16   do16 do16] }  }
 
 **例２**
 
-![](/offbeat-count-theory/attachments/distributed-groove-20250805190646.png)
+![](/hypergroove/attachments/distributed-groove-20250805190646.png)
 
 この例２の拍解像度は２分音符が \[ 0/2, 1/2, 3/2, 4/2 \] ８分音符が\[ 3/8, 7/8, 11/8, 15/8 \] なので、最大公約数は 1/8 だ。よって拍解像度は1/8になる。  
   
@@ -6289,11 +6289,11 @@ gthr = { \tuplet 3/2 { do16   do16 do16] }  }
 
 ８分音符でも４分音符と同じ位置にあれば４分音符と同じ拍解像度しか持たない。拍解像度を効率よく上げるには、４分音符と同じ位置にある８分音符を省いて考えたほうが簡単だ。 同様にして１６分音符でも８分音符と同じ位置にある１６分音符を省いて考えたほうが簡単になる。
 
-![](/offbeat-count-theory/attachments/distributed-groove-20250805190721.png)
+![](/hypergroove/attachments/distributed-groove-20250805190721.png)
 
 このように重なった音符を一番拍解像度が高いものを残して省くと次のようになる。
 
-![](/offbeat-count-theory/attachments/distributed-groove-20250805190731.png)
+![](/hypergroove/attachments/distributed-groove-20250805190731.png)
 
 これはつまり全ての音価の音符から裏拍だけを残したものだ。  
   
@@ -6301,11 +6301,11 @@ gthr = { \tuplet 3/2 { do16   do16 do16] }  }
   
 **可約拍は表拍のことだ。**
 
-![](/offbeat-count-theory/attachments/distributed-groove-20250805190745.png)
+![](/hypergroove/attachments/distributed-groove-20250805190745.png)
 
 **既約拍は裏拍のことだ。**
 
-![](/offbeat-count-theory/attachments/distributed-groove-20250805190759.png)
+![](/hypergroove/attachments/distributed-groove-20250805190759.png)
 
 裏拍の意味についての詳しくは [裏拍の大切さ](https://oka-ats.blogspot.com/2019/01/oka01-gdqoqxundapoaemf.html) で説明した。
 
@@ -6313,7 +6313,7 @@ gthr = { \tuplet 3/2 { do16   do16 do16] }  }
 
 [裏拍の大切さ](https://oka-ats.blogspot.com/2019/01/oka01-gdqoqxundapoaemf.html) で説明した通り表拍を叩くとそれは裏拍の存在感を減らす結果になり、音楽の拍解像度が下がったような印象（スピード感を失った）を与える。この拍解像度が下がった印象のことを**縦乗り(vertical riding)**という。縦乗りについては [何故、日本人は縦乗りなのか](https://oka-ats.blogspot.com/2018/01/oka01-qioaafwfeykuqiuj.html)で説明した。縦乗りを避けるためには裏拍だけを選択的に叩かなければいけない。
 
-![](/offbeat-count-theory/attachments/distributed-groove-20250805190820.png)
+![](/hypergroove/attachments/distributed-groove-20250805190820.png)
 
 この様に音価ごとに無駄な音（表拍）を整理すると、音価が層になって横方向に広がり重なり合っている様子が観察できる。またそれぞれの音かの拍が異なる音価の拍と重なりあうことなく避けあっている点も観察できる。  
   
@@ -6379,11 +6379,11 @@ gthr = { \tuplet 3/2 { do16   do16 do16] }  }
 
 
 
-## 弱拍天動説と弱拍地動説 {#weak-beat-as-sun-strong-beat-as-earth}
+## 弱拍天動説と弱拍地動説 <!-- {#weak-beat-as-sun-strong-beat-as-earth} -->
 
 人はかつて地球が宇宙の中心に存在すると信じていました。人間が、自分が立っている場所が動いているということを理解するまでに何百年もの時間が必要でした。これと同じことが音楽のリズムでも起こっています。 音楽のリズムでも「 弱拍の位置は動かない「強拍の位置が動いている」しかし強拍の上に立っている人は、そのことが認識できず弱拍の不可解な動きに頭を悩ませるのです。 ─── この弱拍の不可解な動きを簡単に説明するものがこの弱拍天動説です。
 
-### 弱拍天動説と弱拍地動説 {#weakbeat-geocentrism-vs-heliocentrism}
+### 弱拍天動説と弱拍地動説 <!-- {#weakbeat-geocentrism-vs-heliocentrism} -->
 
 弱強リズム認識を持つ人（＝ストレス拍リズム言語を母国語として話す人）は、リズムニュアンスを演奏する時に、弱拍位置を基準位置として固定し強拍位置を移動することでニュアンスを醸し出す習慣を持っています。
 
@@ -7172,7 +7172,7 @@ gthr = { \tuplet 3/2 { do16   do16 do16] }  }
 
 この音楽の歌詞の最初の部分をモーラ拍リズムで解釈すると『メナガテｯｽウェーッグ』と言っている様に聴こえます。これはストレス拍リズムでは『 man, I got that swag 』と解釈されます。この解釈の違いを図として表すと次の様になります。
 
-![](/offbeat-count-theory/attachments/phonetics-man-i-got-that-swag.png)
+![](/hypergroove/attachments/phonetics-man-i-got-that-swag.png)
 
 ここで起こっている相違の対応表を作ると次の様になります。
 
@@ -8440,7 +8440,7 @@ SPE表記法は音韻学の研究が立ち遅れている我が国日本では�
 ### 三連符オフビートカウントの発音
 
 
-![](/offbeat-count-theory/attachments/phonetics-triplet-offbeat-count.png)
+![](/hypergroove/attachments/phonetics-triplet-offbeat-count.png)
 
 
 * 1 & A 
@@ -8466,7 +8466,7 @@ SPE表記法は音韻学の研究が立ち遅れている我が国日本では�
 これを８拍単位で数えると次のようになります。
 
 
-![](/offbeat-count-theory/attachments/phonetics-nonuplets-offbeat-count.png)
+![](/hypergroove/attachments/phonetics-nonuplets-offbeat-count.png)
 
 
 | 1   | &   | a   |
@@ -9715,7 +9715,7 @@ style="width:6.0339in;height:1.7398in" />この様に４拍子の４拍目と５
   -->
 
 
-##  日本語が動作認知に与える影響 {#influence-of-japanese-language-on-cognition}
+##  日本語が動作認知に与える影響 <!-- {#influence-of-japanese-language-on-cognition} -->
 
 日本語には、モーラ拍リズムという世界的に見るととても珍しいリズム認識を持っています。その日本語を母国語として話す日本人は、言語の発音構造の影響を受けることにより、その行動上起こる認知偏りに大きな特徴が見られます。その認知偏りの特徴とその偏りが起こるメカニズムをひとつの大きな仮説として提唱します。
 
@@ -9836,18 +9836,18 @@ style="width:6.0339in;height:1.7398in" />この様に４拍子の４拍目と５
 </style>
 <table class="ten-bulls-table"><tbody>
 <tr>
-<td><img src="/influence-of-japanese-language-on-cognition/attachments/ten-bulls-01-尋牛.jpg"/></td>
-<td><img src="/influence-of-japanese-language-on-cognition/attachments/ten-bulls-02-見跡.jpg"/></td>
-<td><img src="/influence-of-japanese-language-on-cognition/attachments/ten-bulls-03-見牛.jpg"/></td>
-<td><img src="/influence-of-japanese-language-on-cognition/attachments/ten-bulls-04-得牛.jpg"/></td>
-<td><img src="/influence-of-japanese-language-on-cognition/attachments/ten-bulls-05-牧牛.jpg"/></td>
+<td><img src="/hypergroove/attachments/ten-bulls-01-尋牛.jpg"/></td>
+<td><img src="/hypergroove/attachments/ten-bulls-02-見跡.jpg"/></td>
+<td><img src="/hypergroove/attachments/ten-bulls-03-見牛.jpg"/></td>
+<td><img src="/hypergroove/attachments/ten-bulls-04-得牛.jpg"/></td>
+<td><img src="/hypergroove/attachments/ten-bulls-05-牧牛.jpg"/></td>
 </tr>
 <tr>
-<td><img src="/influence-of-japanese-language-on-cognition/attachments/ten-bulls-06-騎牛帰家.jpg" /></td>
-<td><img src="/influence-of-japanese-language-on-cognition/attachments/ten-bulls-07-忘牛存人.jpg" /></td>
-<td><img src="/influence-of-japanese-language-on-cognition/attachments/ten-bulls-08-人牛倶忘.jpg" /></td>
-<td><img src="/influence-of-japanese-language-on-cognition/attachments/ten-bulls-09-返本還源.jpg" /></td>
-<td><img src="/influence-of-japanese-language-on-cognition/attachments/ten-bulls-10-入鄽垂手.jpg" /></td>
+<td><img src="/hypergroove/attachments/ten-bulls-06-騎牛帰家.jpg" /></td>
+<td><img src="/hypergroove/attachments/ten-bulls-07-忘牛存人.jpg" /></td>
+<td><img src="/hypergroove/attachments/ten-bulls-08-人牛倶忘.jpg" /></td>
+<td><img src="/hypergroove/attachments/ten-bulls-09-返本還源.jpg" /></td>
+<td><img src="/hypergroove/attachments/ten-bulls-10-入鄽垂手.jpg" /></td>
 </tr>
 </tbody></table>
 
@@ -9860,70 +9860,70 @@ style="width:6.0339in;height:1.7398in" />この様に４拍子の４拍目と５
 この十段階は、単なる順番的な修行ではなく、**あらゆる瞬間に悟りのチャンスがある**ことを示しています。文字や形式にとらわれず、心の本質に立ち返ることが重要であると説いています。
 
 ##### 1. **尋牛（じんぎゅう）**
-<img src="/influence-of-japanese-language-on-cognition/attachments/ten-bulls-01-尋牛.jpg"/>
+<img src="/hypergroove/attachments/ten-bulls-01-尋牛.jpg"/>
 
 - 仏性を象徴する「牛」を探し求めて修行を始めたが、まだその牛を見つけることができない状態です。人間は本来仏性を備えているものの、それを忘れてしまい、煩悩や分別の世界に陥って真実の自己から遠ざかっています。
 
 迷いの中で、自分の本心を探し求めている段階です。牛（＝本心）は実は常にそこにあるのですが、私たちはそれに気づかず、外に求め続けます。仏法に出会い、ようやく「本心を探す」必要性に目覚めます。
 
 #####  2. **見跡（けんせき）**
-<img src="/influence-of-japanese-language-on-cognition/attachments/ten-bulls-02-見跡.jpg"/>
+<img src="/hypergroove/attachments/ten-bulls-02-見跡.jpg"/>
 
 - 経典や師の教えを手がかりとして仏性を探そうとしても、依然として煩悩や分別の世界から抜け出すことができず、牛そのものではなく牛の足跡しか見えていない状態です。
 
 ようやく牛の足跡（＝本心の痕跡）を見つけます。日常生活の中の見聞触覚や感情のすべてに、本心の働きが現れていることに気づき始めます。ですが、多くの人はまだ文字や形式に執着し、真実の自心を見失っています。
 
 #####  3. **見牛（けんぎゅう）**
-<img src="/influence-of-japanese-language-on-cognition/attachments/ten-bulls-03-見牛.jpg"/>
+<img src="/hypergroove/attachments/ten-bulls-03-見牛.jpg"/>
 
 - 修行を積み重ねていくうちに、ついに牛の姿を実際に目の当たりにする段階です。真実の自己、仏性を実感し始める境地です。
 
 牛の姿がはっきりと見えてきます。つまり、仏性や本心を直接感じ始める段階です。六根（目・耳・鼻・舌・身・意）を通じて、あらゆる現象の中に仏性の働きを見出します。
 
 #####  4. **得牛（とくぎゅう）**
-<img src="/influence-of-japanese-language-on-cognition/attachments/ten-bulls-04-得牛.jpg"/>
+<img src="/hypergroove/attachments/ten-bulls-04-得牛.jpg"/>
 
 - 牛（仏性）を一度捉えたとしても、それを完全にコントロールするのは容易ではなく、時には逃げ出してしまうこともあるでしょう。修行の難しさと忍耐の必要性を象徴しています。
 
 ようやく牛を捕まえることができました。悟りの感覚が明確になりますが、まだ心は安定しておらず、妄想や習気（くせ）が強く、修行の努力が必要です。
 
 ##### 5. **牧牛（ぼくぎゅう）**
-<img src="/influence-of-japanese-language-on-cognition/attachments/ten-bulls-05-牧牛.jpg"/>
+<img src="/hypergroove/attachments/ten-bulls-05-牧牛.jpg"/>
 
 - 牛をしっかりと飼いならす段階を表します。自分の本性（仏性）を確かに手に入れたら、それを失わないよう注意深く見守り制御する必要があります。修行が深まるにつれ牛は徐々に従順になります。
 
 牛をしっかりと調教していく段階です。日常生活の中で心を見守り、妄想が起きたらすぐに気づくようにします。この「牧牛」の修行が、実際の修行の核心です。
 
 ##### 6. **騎牛帰家（きぎゅうきか）**
-<img src="/influence-of-japanese-language-on-cognition/attachments/ten-bulls-06-騎牛帰家.jpg" />
+<img src="/hypergroove/attachments/ten-bulls-06-騎牛帰家.jpg" />
 
 - 牛と牧童（修行者）が完全に一体化し、心の平安が得られた状態を表します。もはや牛を制御する必要はなくなり本来あるべき場所へと穏やかに帰ってきたことを表します。
 
 牛に乗って、ゆったりと家に帰る段階です。心の安定と解放感があり、無理せずとも心が本質と調和しています。悟りの余韻の中で、自然体で生きることができるようになります。
 
 ##### 7. **忘牛存人（ぼうぎゅうそんじん）**
-<img src="/influence-of-japanese-language-on-cognition/attachments/ten-bulls-07-忘牛存人.jpg" />
+<img src="/hypergroove/attachments/ten-bulls-07-忘牛存人.jpg" />
 
 - 心の本来の場所に戻った修行者は、牛を捉えたことすら忘れてしまう状態を表しています。この段階では、牛（仏性）は自然なものとなり、特別な意識の対象ではなくなります。
 
 牛（仏性）を忘れて、人（主体）だけが残ります。すでに牛は完全に調伏され、意識せずとも心は乱れず、平常心で生活できるようになります。悟りへの執着も消え、「無為自然」の境地に至ります。
 
 ##### 8. **人牛倶忘（にんぎゅうぐぼう）**
-<img src="/influence-of-japanese-language-on-cognition/attachments/ten-bulls-08-人牛倶忘.jpg" />
+<img src="/hypergroove/attachments/ten-bulls-08-人牛倶忘.jpg" />
 
 - 牛を捉えようとした理由も、牛を捉えたことも、そしてその行為そのものも忘れ去られた状態を表します。主体と対象の区別が消え、忘れること自体もない完全な無我・無心の境地を表します。
 
 人も牛も共に忘れ去られる段階です。修行の対象や主体すら意識から消え、「無心」「無我」の状態となります。知や言葉の働きも超えており、言葉では言い表せない悟りの深みに達します。
 
 ##### 9. **返本還源（へんぽんかんげん）**
-<img src="/influence-of-japanese-language-on-cognition/attachments/ten-bulls-09-返本還源.jpg" />
+<img src="/hypergroove/attachments/ten-bulls-09-返本還源.jpg" />
 
 - あらゆる執着や分別が消え去った清浄無垢な境地に戻った状態を表します。ありのままの世界をあるがままに受け入れ、真実の自己と世界の根源的な姿を認識する状態になったことを示しています。
 
 悟りを得た後、さらに「本来のあり方」へと帰っていきます。悟った人は、世俗にとらわれず、また悟りにもとらわれません。ただ静かに、自然のままに生きる姿が描かれます。
 
 ##### 10. **入鄽垂手（にってんすいしゅ）**
-<img src="/influence-of-japanese-language-on-cognition/attachments/ten-bulls-10-入鄽垂手.jpg" />
+<img src="/hypergroove/attachments/ten-bulls-10-入鄽垂手.jpg" />
 
 - 悟りを得たとしても、その境地に留まっているだけでは無意味ということを表しています。再び俗世の中に入り、人々と共に生き、人々に安らぎを与え、慈悲と智慧をもって導くことこそが究極の目的だということを表しています。
 
