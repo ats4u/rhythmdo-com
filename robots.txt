@@ -1,1 +1,1 @@
-Sitemap: https://rhythmpedia.com/sitemap.xml
+Sitemap: https://lab.rhythmpedia.com/sitemap.xml
