@@ -118,3 +118,4 @@ format:
 
 metadata-files:
   - _sidebar-ja.generated.yml
+  - _metadata.yml
