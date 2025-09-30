@@ -1,5 +1,5 @@
 project:
-  title: "リズムペディア.com"
+  title: "律武道(リツブドウ)"
   type: website
   output-dir: .site
 #  execute-dir: project
@@ -22,15 +22,15 @@ resources:
   - 404.html
 
 website:
-  title: "律動図鑑(リズムペディア)"
-  description: "グルーヴを科学する律動図鑑〜リズムペディア"
-  site-url: "https://lab.rhythmpedia.com/"
+  title: "律武道(リツブドウ)"
+  description: "リズムを武道として究めよ〜律武道（リツブドウ）"
+  site-url: "https://rhythmdo.com/"
   site-path: /
   page-footer:
-    left: "© 2018-2025 律動図鑑リズムペディア — All rights reserved."
+    left: "© 2018-2025 律武道(リツブドウ) — All rights reserved."
     right: |
       \|
-      [リズムペディアについて](/about/rhythmpedia/ja/) |
+      [律武道について](/about/rhythmpedia/ja/) |
       [運営者](/about/publisher/ja/) |
       [連絡先](/contact/ja/) |
       [問い合わせ](/contact-form/ja/) |

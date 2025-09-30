@@ -23,7 +23,7 @@ body {}
   content: "";
   display: inline-block;
   // text-indent: -9999px;
-  background-image: url("attachments/rhythmpedia-logo-light.png");
+  background-image: url("attachments/rhythmdo-logo-light.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -34,7 +34,7 @@ body {}
 }
 
 body.quarto-dark .quarto-title h1:first-of-type::before {
-  background-image: url("attachments/rhythmpedia-logo-dark.png");
+  background-image: url("attachments/rhythmdo-logo-dark.png");
 }
 
 
@@ -42,7 +42,7 @@ body.quarto-dark .quarto-title h1:first-of-type::before {
 
 /*
 .navbar-logo {
-  background-image: url("attachments/rhythmpedia-logo-dark.png");
+  background-image: url("attachments/rhythmdo-logo-dark.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -51,7 +51,7 @@ body.quarto-dark .quarto-title h1:first-of-type::before {
 }
 .body.quarto-dark .navbar-logo {
   background-color: red;
-  background-image: url("attachments/rhythmpedia-logo-dark.png");
+  background-image: url("attachments/rhythmdo-logo-dark.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -63,12 +63,12 @@ body.quarto-dark .quarto-title h1:first-of-type::before {
 
 /* Light mode default */
 .logo {
-  background-image: url("attachments/rhythmpedia-logo-light.png");
+  background-image: url("attachments/rhythmdo-logo-light.png");
 }
 
 /* When Quarto switches to dark mode, it adds `.quarto-dark` to <body> */
 body.quarto-dark .logo {
-  background-image: url("attachments/rhythmpedia-logo-dark.png");
+  background-image: url("attachments/rhythmdo-logo-dark.png");
 }
 
 
