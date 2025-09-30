@@ -23,7 +23,7 @@ body {}
   content: "";
   display: inline-block;
   // text-indent: -9999px;
-  background-image: url("attachments/rhythmpedia-logo-light.png");
+  background-image: url("attachments/rhythmdo-logo-light.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -34,7 +34,7 @@ body {}
 }
 
 body.quarto-dark .quarto-title h1:first-of-type::before {
-  background-image: url("attachments/rhythmpedia-logo-dark.png");
+  background-image: url("attachments/rhythmdo-logo-dark.png");
 }
 
 
@@ -42,7 +42,7 @@ body.quarto-dark .quarto-title h1:first-of-type::before {
 
 /*
 .navbar-logo {
-  background-image: url("attachments/rhythmpedia-logo-dark.png");
+  background-image: url("attachments/rhythmdo-logo-dark.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -51,7 +51,7 @@ body.quarto-dark .quarto-title h1:first-of-type::before {
 }
 .body.quarto-dark .navbar-logo {
   background-color: red;
-  background-image: url("attachments/rhythmpedia-logo-dark.png");
+  background-image: url("attachments/rhythmdo-logo-dark.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -61,17 +61,41 @@ body.quarto-dark .quarto-title h1:first-of-type::before {
 */
 
 
-/* Light mode default */
-.logo {
-  background-image: url("attachments/rhythmpedia-logo-light.png");
+/*
+ *
+ * Manage Sidebar's Logo
+ *
+ */
+/* Hide the default <img> Quarto renders */
+.sidebar-logo-link img.sidebar-logo {
+  display: none !important;
 }
 
-/* When Quarto switches to dark mode, it adds `.quarto-dark` to <body> */
-body.quarto-dark .logo {
-  background-image: url("attachments/rhythmpedia-logo-dark.png");
+/* Paint the link itself */
+.sidebar-logo-link {
+  display: block;
+  width:  220px;          /* <-- set to your logo width */
+  height: 100px;          /* <-- set to your logo height */
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
 }
 
+/* Light mode */
+.quarto-light .sidebar-logo-link {
+  background-image: url("/attachments/rhythmdo-logo-light.png");
+}
 
+/* Dark mode */
+.quarto-dark .sidebar-logo-link {
+  background-image: url("/attachments/rhythmdo-logo-dark.png");
+}
+
+/*
+ *
+ *
+ *
+ */
 
 
 /* Center-align images, tweets, youtube videos within the container */

@@ -1,5 +1,5 @@
 ---
-title: 律動図鑑 〜 リズムペディア
+title: 武道としてのリズムの道
 format: html
 execute:
   enabled: true
