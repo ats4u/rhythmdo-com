@@ -92,11 +92,51 @@ body.quarto-dark .quarto-title h1:first-of-type::before {
 }
 
 /*
+ * Setting the Navbar Icon
+ * Wed, 01 Oct 2025 19:26:28 +0900
+ */
+.navbar-brand-container {
+  width: 250px;
+  height: 50px;
+  vertical-align: middle;
+}
+.navbar-brand {
+  display: none;
+}
+.navbar-brand-container::before {
+  --src: url( "/attachments/rhythmdo-logo-light.png" ); /* full image */
+  --x: 200px;   /* left of crop in source image */
+  --y: 0px;    /* top of crop in source image */
+  --w: 800px;    /* crop width  */
+  --h: 250px;    /* crop height */
+  --orig-w: 1000px;    /* crop width  */
+  --orig-h: 400px;    /* crop height */
+  --scale: calc( 1 / 4 );   /* 2 for @2x images, etc. */
+
+  content:           "";
+  display:           inline-block;
+  width:             calc(var(--w) * var(--scale));
+  height:            calc(var(--h) * var(--scale));
+  background-image : var(--src);
+  background-repeat: no-repeat;
+
+  /* Move the desired region under the box */
+  background-position:
+    calc(-1 * var(--x) * var(--scale))
+    calc(-1 * var(--y) * var(--scale));
+
+  /* If the source will be scaled, set the scaled size here. 
+     Omit if using natural pixel size. */
+  background-size: calc( var(--orig-w) * var(--scale)) calc( var(--orig-h) * var(--scale));
+  margin-right: 0px;
+  vertical-align: middle;
+}
+
+/*
  *
  *
  *
  */
-
 
 /* Center-align images, tweets, youtube videos within the container */
 .center-box {
