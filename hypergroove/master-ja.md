@@ -5398,6 +5398,11 @@ God will Supply サブディヴィジョンが 3x3x3 で構成される 27/8 拍
 
 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1767900994594329066</div>
 
+#### ザオウリの踊りの9拍子音楽
+
+アフリカの象牙海岸周辺地域の文化であるザオウリの踊りの音楽は9拍子です。
+<div class="ats4u-twitter-video" >https://x.com/ats4u/status/1973227618389610506</div>
+
 #### ホーリー・ワン Dominique Johnson / Holy one
 無名のB3オルガンの名人・ドミニク・ジョンソン氏の演奏でホーリーワンです。
 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1738530936629702844</div>
@@ -5488,6 +5493,12 @@ Bobo Stenson Trio -Dormattan 北欧ジャズのフリーテンポの様に聴こ
 ตามน้องกลับสารคาม（君を探してサラカムへ帰る） ตามน้องกลับสารคาม（マイ・ピロンポン）の演奏です。 
 
 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1957178671028150315</div>
+
+#### Ceann Dubh Dilis
+
+Ceann Dubh Dilis (My Sweet, Dark-Haired Love), arranged by Michael McGlynn and performed by Spokanki.
+
+<div class="ats4u-twitter-video" >https://x.com/Rainmaker1973/status/1966169283102400933</div>
 
 #### ビートルズ
 
