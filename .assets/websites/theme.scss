@@ -95,15 +95,13 @@ body.quarto-dark .quarto-title h1:first-of-type::before {
  * Setting the Navbar Icon
  * Wed, 01 Oct 2025 19:26:28 +0900
  */
-.navbar-brand-container {
-  width: 250px;
-  height: 50px;
-  vertical-align: middle;
-}
-.navbar-brand {
+.navbar-title {
   display: none;
 }
-.navbar-brand-container::before {
+.navbar-logo {
+  display: none;
+}
+.navbar-brand-logo {
   --src: url( "/attachments/rhythmdo-logo-light.png" ); /* full image */
   --x: 200px;   /* left of crop in source image */
   --y: 0px;    /* top of crop in source image */
@@ -115,15 +113,18 @@ body.quarto-dark .quarto-title h1:first-of-type::before {
 
   content:           "";
   display:           inline-block;
-  width:             calc(var(--w) * var(--scale));
-  height:            calc(var(--h) * var(--scale));
+  width:             calc( var(--w) * var(--scale) );
+  height:            calc( var(--h) * var(--scale) );
   background-image : var(--src);
   background-repeat: no-repeat;
+  margin:0px;
+  padding:0px;
+  border:0px;
 
   /* Move the desired region under the box */
   background-position:
-    calc(-1 * var(--x) * var(--scale))
-    calc(-1 * var(--y) * var(--scale));
+    calc(-1 * var(--x) * var(--scale) * 0.5 )
+    calc(-1 * var(--y) * var(--scale) * 0.5 );
 
   /* If the source will be scaled, set the scaled size here. 
      Omit if using natural pixel size. */
