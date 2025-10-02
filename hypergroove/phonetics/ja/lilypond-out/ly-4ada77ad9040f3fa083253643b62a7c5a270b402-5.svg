@@ -1,527 +1,508 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.2" width="207.96mm" height="24.73mm" viewBox="-2.2535 -0.0000 118.3407 14.0727">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.2" width="205.89mm" height="28.63mm" viewBox="-1.1267 -0.0000 117.1640 16.2903">
 <style type="text/css">
 <![CDATA[
 tspan { white-space: pre; }
 ]]>
 </style>
-<g transform="translate(58.2930, 5.1903)">
-<rect x="0.0000" y="-1.0000" width="0.1900" height="2.0000" ry="0.0000" fill="currentColor"/>
-</g>
-<g transform="translate(87.0951, 5.1903)">
-<rect x="0.0000" y="-1.0000" width="0.1900" height="2.0000" ry="0.0000" fill="currentColor"/>
-</g>
-<g transform="translate(29.4908, 5.1903)">
-<rect x="0.0000" y="-1.0000" width="0.1900" height="2.0000" ry="0.0000" fill="currentColor"/>
-</g>
-<g transform="translate(115.8972, 5.1903)">
-<rect x="0.0000" y="-1.0000" width="0.1900" height="2.0000" ry="0.0000" fill="currentColor"/>
-</g>
 <g transform="translate(0.0000, 5.1903)">
 <line stroke-linejoin="round" stroke-linecap="round" stroke-width="0.1000" stroke="currentColor" x1="0.0500" y1="0" x2="116.0372" y2="0"/>
 </g>
-<g transform="translate(92.7400, 5.1903)">
+<g transform="translate(61.7406, 5.1903)">
+<rect x="0.0000" y="-1.0000" width="0.1900" height="2.0000" ry="0.0000" fill="currentColor"/>
+</g>
+<g transform="translate(70.5137, 5.1903)">
 <rect x="-0.0650" y="-3.1900" width="0.1300" height="3.0039" ry="0.0400" fill="currentColor"/>
 </g>
-<g transform="translate(91.6408, 13.4903)">
-<text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
-<tspan>-</tspan>
-</text>
-</g>
-<g transform="translate(91.5008, 5.1903)">
-<path transform="scale(0.0040, -0.0040)" d="M218 136c66 0 108 -36 108 -89c0 -89 -113 -183 -218 -183c-66 0 -108 36 -108 89c0 89 113 183 218 183z" fill="currentColor"/>
-</g>
-<g transform="translate(93.9788, 13.4903)">
-<text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
-<tspan>-</tspan>
-</text>
-</g>
-<g transform="translate(89.6456, 5.1903)">
-<rect x="-0.0650" y="-3.1900" width="0.1300" height="3.0039" ry="0.0400" fill="currentColor"/>
-</g>
-<g transform="translate(87.7782, 13.4903)">
-<text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
-<tspan>|ə</tspan>
-</text>
-</g>
-<g transform="translate(87.5392, 10.6903)">
-<text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
-<tspan>|&amp;</tspan>
-</text>
-</g>
-<g transform="translate(107.7951, 5.1903)">
-<rect x="-0.0650" y="-3.1900" width="0.1300" height="3.0039" ry="0.0400" fill="currentColor"/>
-</g>
-<g transform="translate(106.3374, 13.4903)">
+<g transform="translate(69.0559, 13.4903)">
 <text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
 <tspan>n</tspan>
 </text>
 </g>
-<g transform="translate(106.5559, 5.1903)">
+<g transform="translate(69.2745, 5.1903)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c66 0 108 -36 108 -89c0 -89 -113 -183 -218 -183c-66 0 -108 36 -108 89c0 89 113 183 218 183z" fill="currentColor"/>
 </g>
-<g transform="translate(104.7007, 5.1903)">
+<g transform="translate(66.6204, 13.4903)">
+<text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>-</tspan>
+</text>
+</g>
+<g transform="translate(66.2299, 5.1903)">
 <rect x="-0.0650" y="-3.1900" width="0.1300" height="3.0039" ry="0.0400" fill="currentColor"/>
 </g>
-<g transform="translate(103.6015, 13.4903)">
+<g transform="translate(65.1307, 13.4903)">
 <text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
 <tspan>-</tspan>
 </text>
 </g>
-<g transform="translate(103.4615, 5.1903)">
+<g transform="translate(64.9907, 5.1903)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c66 0 108 -36 108 -89c0 -89 -113 -183 -218 -183c-66 0 -108 36 -108 89c0 89 113 183 218 183z" fill="currentColor"/>
 </g>
-<g transform="translate(99.9592, 13.4903)">
-<text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
-<tspan>-</tspan>
-</text>
-</g>
-<g transform="translate(98.7204, 5.1903)">
+<g transform="translate(79.9210, 5.1903)">
 <rect x="-0.0650" y="-3.1900" width="0.1300" height="3.0039" ry="0.0400" fill="currentColor"/>
 </g>
-<g transform="translate(97.6211, 13.4903)">
-<text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
-<tspan>-</tspan>
-</text>
-</g>
-<g transform="translate(97.4812, 5.1903)">
+<g transform="translate(78.6817, 5.1903)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c66 0 108 -36 108 -89c0 -89 -113 -183 -218 -183c-66 0 -108 36 -108 89c0 89 113 183 218 183z" fill="currentColor"/>
 </g>
-<g transform="translate(77.7538, 5.1903)">
-<path transform="scale(0.0040, -0.0040)" d="M218 136c66 0 108 -36 108 -89c0 -89 -113 -183 -218 -183c-66 0 -108 36 -108 89c0 89 113 183 218 183z" fill="currentColor"/>
-</g>
-<g transform="translate(75.8986, 5.1903)">
+<g transform="translate(77.6748, 5.1903)">
 <rect x="-0.0650" y="-3.1900" width="0.1300" height="3.0039" ry="0.0400" fill="currentColor"/>
 </g>
-<g transform="translate(74.7994, 13.4903)">
-<text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
-<tspan>-</tspan>
-</text>
-</g>
-<g transform="translate(74.6594, 5.1903)">
+<g transform="translate(76.4356, 5.1903)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c66 0 108 -36 108 -89c0 -89 -113 -183 -218 -183c-66 0 -108 36 -108 89c0 89 113 183 218 183z" fill="currentColor"/>
 </g>
-<g transform="translate(71.1571, 13.4903)">
-<text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
-<tspan>-</tspan>
-</text>
-</g>
-<g transform="translate(69.9182, 5.1903)">
+<g transform="translate(75.1405, 5.1903)">
 <rect x="-0.0650" y="-3.1900" width="0.1300" height="3.0039" ry="0.0400" fill="currentColor"/>
 </g>
-<g transform="translate(68.8190, 13.4903)">
+<g transform="translate(74.0412, 13.4903)">
 <text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
 <tspan>-</tspan>
 </text>
 </g>
-<g transform="translate(68.6790, 5.1903)">
+<g transform="translate(73.9013, 5.1903)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c66 0 108 -36 108 -89c0 -89 -113 -183 -218 -183c-66 0 -108 36 -108 89c0 89 113 183 218 183z" fill="currentColor"/>
 </g>
-<g transform="translate(65.1767, 13.4903)">
+<g transform="translate(71.2472, 13.4903)">
 <text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
 <tspan>-</tspan>
 </text>
 </g>
-<g transform="translate(88.4064, 5.1903)">
+<g transform="translate(57.1903, 5.1903)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c66 0 108 -36 108 -89c0 -89 -113 -183 -218 -183c-66 0 -108 36 -108 89c0 89 113 183 218 183z" fill="currentColor"/>
 </g>
-<g transform="translate(85.1818, 5.1903)">
+<g transform="translate(56.1834, 5.1903)">
 <rect x="-0.0650" y="-3.1900" width="0.1300" height="3.0039" ry="0.0400" fill="currentColor"/>
 </g>
-<g transform="translate(84.0825, 13.4903)">
+<g transform="translate(54.4525, 13.4903)">
+<text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>w</tspan>
+</text>
+</g>
+<g transform="translate(54.9442, 5.1903)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c66 0 108 -36 108 -89c0 -89 -113 -183 -218 -183c-66 0 -108 36 -108 89c0 89 113 183 218 183z" fill="currentColor"/>
+</g>
+<g transform="translate(53.9373, 5.1903)">
+<rect x="-0.0650" y="-3.1900" width="0.1300" height="3.0039" ry="0.0400" fill="currentColor"/>
+</g>
+<g transform="translate(52.8380, 13.4903)">
 <text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
 <tspan>-</tspan>
 </text>
 </g>
-<g transform="translate(83.9426, 5.1903)">
+<g transform="translate(52.6981, 5.1903)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c66 0 108 -36 108 -89c0 -89 -113 -183 -218 -183c-66 0 -108 36 -108 89c0 89 113 183 218 183z" fill="currentColor"/>
 </g>
-<g transform="translate(82.0874, 5.1903)">
-<rect x="-0.0650" y="-3.1900" width="0.1300" height="3.0039" ry="0.0400" fill="currentColor"/>
-</g>
-<g transform="translate(80.7662, 13.4903)">
+<g transform="translate(50.0440, 13.4903)">
 <text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
-<tspan>s</tspan>
+<tspan>-</tspan>
 </text>
 </g>
-<g transform="translate(80.8482, 5.1903)">
+<g transform="translate(79.3576, 1.2959)">
+<text font-family="serif" font-style="italic" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>3</tspan>
+</text>
+</g>
+<g transform="translate(63.9838, 5.1903)">
+<rect x="-0.0650" y="-3.1900" width="0.1300" height="3.0039" ry="0.0400" fill="currentColor"/>
+</g>
+<g transform="translate(62.1163, 13.4903)">
+<text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>|a</tspan>
+</text>
+</g>
+<g transform="translate(62.0993, 10.6903)">
+<text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>|1</tspan>
+</text>
+</g>
+<g transform="translate(62.7446, 5.1903)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c66 0 108 -36 108 -89c0 -89 -113 -183 -218 -183c-66 0 -108 36 -108 89c0 89 113 183 218 183z" fill="currentColor"/>
 </g>
-<g transform="translate(78.9930, 5.1903)">
+<g transform="translate(60.6756, 5.1903)">
 <rect x="-0.0650" y="-3.1900" width="0.1300" height="3.0039" ry="0.0400" fill="currentColor"/>
 </g>
-<g transform="translate(77.5865, 13.4903)">
+<g transform="translate(59.5763, 13.4903)">
 <text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
-<tspan>k</tspan>
+<tspan>-</tspan>
 </text>
 </g>
-<g transform="translate(69.8532, 2.0003)">
-<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="6.0704 -0.2000 6.0704 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
+<g transform="translate(59.4364, 5.1903)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c66 0 108 -36 108 -89c0 -89 -113 -183 -218 -183c-66 0 -108 36 -108 89c0 89 113 183 218 183z" fill="currentColor"/>
 </g>
-<g transform="translate(74.7986, 2.8103)">
+<g transform="translate(58.4295, 5.1903)">
+<rect x="-0.0650" y="-3.1900" width="0.1300" height="3.0039" ry="0.0400" fill="currentColor"/>
+</g>
+<g transform="translate(57.3302, 13.4903)">
+<text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>-</tspan>
+</text>
+</g>
+<g transform="translate(38.0680, 1.2959)">
+<text font-family="serif" font-style="italic" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>3</tspan>
+</text>
+</g>
+<g transform="translate(49.5885, 2.0003)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="4.3738 -0.2000 4.3738 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
+</g>
+<g transform="translate(52.8373, 2.8103)">
 <polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="1.1250 -0.2000 1.1250 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
 </g>
-<g transform="translate(61.8273, 1.2959)">
+<g transform="translate(43.6833, 1.2959)">
 <text font-family="serif" font-style="italic" font-size="1.7459" text-anchor="start" fill="currentColor">
 <tspan>3</tspan>
 </text>
 </g>
-<g transform="translate(52.7219, 1.2959)">
+<g transform="translate(51.2320, 1.2959)">
 <text font-family="serif" font-style="italic" font-size="1.7459" text-anchor="start" fill="currentColor">
 <tspan>3</tspan>
 </text>
 </g>
-<g transform="translate(72.3451, 1.2959)">
-<text font-family="serif" font-style="italic" font-size="1.7459" text-anchor="start" fill="currentColor">
-<tspan>3</tspan>
-</text>
+<g transform="translate(36.3203, 2.0003)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="4.5822 -0.2000 4.5822 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
 </g>
-<g transform="translate(50.1259, 2.0003)">
-<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="6.2788 -0.2000 6.2788 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
+<g transform="translate(36.3203, 2.8103)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="4.5822 -0.2000 4.5822 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
 </g>
-<g transform="translate(50.1259, 2.8103)">
-<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="6.2788 -0.2000 6.2788 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
+<g transform="translate(23.2605, 2.0003)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="2.3361 -0.2000 2.3361 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
 </g>
-<g transform="translate(31.9764, 2.0003)">
-<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="3.1844 -0.2000 3.1844 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
-</g>
-<g transform="translate(31.9764, 2.8103)">
+<g transform="translate(23.2605, 2.8103)">
 <polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="1.1250 -0.2000 1.1250 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
 </g>
-<g transform="translate(43.5429, 1.2959)">
+<g transform="translate(31.4339, 1.2959)">
 <text font-family="serif" font-style="italic" font-size="1.7459" text-anchor="start" fill="currentColor">
 <tspan>3</tspan>
 </text>
 </g>
-<g transform="translate(41.0511, 2.0003)">
-<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="6.0704 -0.2000 6.0704 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
+<g transform="translate(29.7904, 2.0003)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="4.3738 -0.2000 4.3738 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
 </g>
-<g transform="translate(45.9965, 2.8103)">
+<g transform="translate(33.0392, 2.8103)">
 <polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="1.1250 -0.2000 1.1250 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
 </g>
-<g transform="translate(90.6295, 1.2959)">
+<g transform="translate(64.5435, 1.2959)">
 <text font-family="serif" font-style="italic" font-size="1.7459" text-anchor="start" fill="currentColor">
 <tspan>3</tspan>
 </text>
 </g>
-<g transform="translate(107.7301, 2.0003)">
-<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="6.2788 -0.2000 6.2788 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
+<g transform="translate(77.6098, 2.0003)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="4.5822 -0.2000 4.5822 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
 </g>
-<g transform="translate(107.7301, 2.8103)">
-<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="6.2788 -0.2000 6.2788 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
+<g transform="translate(77.6098, 2.8103)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="4.5822 -0.2000 4.5822 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
 </g>
-<g transform="translate(89.5806, 2.0003)">
-<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="3.1844 -0.2000 3.1844 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
+<g transform="translate(63.9188, 2.0003)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="2.3361 -0.2000 2.3361 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
 </g>
-<g transform="translate(89.5806, 2.8103)">
+<g transform="translate(63.9188, 2.8103)">
 <polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="1.1250 -0.2000 1.1250 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
 </g>
-<g transform="translate(101.1472, 1.2959)">
+<g transform="translate(72.2637, 1.2959)">
 <text font-family="serif" font-style="italic" font-size="1.7459" text-anchor="start" fill="currentColor">
 <tspan>3</tspan>
 </text>
 </g>
-<g transform="translate(98.6554, 2.0003)">
-<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="6.0704 -0.2000 6.0704 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
+<g transform="translate(70.4487, 2.0003)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="4.7168 -0.2000 4.7168 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
 </g>
-<g transform="translate(103.6007, 2.8103)">
+<g transform="translate(74.0405, 2.8103)">
 <polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="1.1250 -0.2000 1.1250 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
 </g>
-<g transform="translate(81.5240, 1.2959)">
+<g transform="translate(57.8661, 1.2959)">
 <text font-family="serif" font-style="italic" font-size="1.7459" text-anchor="start" fill="currentColor">
 <tspan>3</tspan>
 </text>
 </g>
-<g transform="translate(78.9280, 2.0003)">
-<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="6.2788 -0.2000 6.2788 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
+<g transform="translate(56.1184, 2.0003)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="4.5822 -0.2000 4.5822 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
 </g>
-<g transform="translate(78.9280, 2.8103)">
-<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="6.2788 -0.2000 6.2788 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
+<g transform="translate(56.1184, 2.8103)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="4.5822 -0.2000 4.5822 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
 </g>
-<g transform="translate(60.7785, 2.0003)">
-<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="3.1844 -0.2000 3.1844 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
+<g transform="translate(43.0586, 2.0003)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="2.3361 -0.2000 2.3361 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
 </g>
-<g transform="translate(60.7785, 2.8103)">
+<g transform="translate(43.0586, 2.8103)">
 <polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="1.1250 -0.2000 1.1250 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
 </g>
-<g transform="translate(112.7447, 5.1903)">
-<path transform="scale(0.0040, -0.0040)" d="M218 136c66 0 108 -36 108 -89c0 -89 -113 -183 -218 -183c-66 0 -108 36 -108 89c0 89 113 183 218 183z" fill="currentColor"/>
-</g>
-<g transform="translate(110.3262, 1.2959)">
-<text font-family="serif" font-style="italic" font-size="1.7459" text-anchor="start" fill="currentColor">
-<tspan>3</tspan>
-</text>
-</g>
-<g transform="translate(113.9839, 5.1903)">
+<g transform="translate(82.1671, 5.1903)">
 <rect x="-0.0650" y="-3.1900" width="0.1300" height="3.0039" ry="0.0400" fill="currentColor"/>
 </g>
-<g transform="translate(112.8847, 13.4903)">
-<text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
-<tspan>-</tspan>
-</text>
-</g>
-<g transform="translate(110.8895, 5.1903)">
-<rect x="-0.0650" y="-3.1900" width="0.1300" height="3.0039" ry="0.0400" fill="currentColor"/>
-</g>
-<g transform="translate(109.7903, 13.4903)">
-<text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
-<tspan>-</tspan>
-</text>
-</g>
-<g transform="translate(109.6503, 5.1903)">
+<g transform="translate(80.9278, 5.1903)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c66 0 108 -36 108 -89c0 -89 -113 -183 -218 -183c-66 0 -108 36 -108 89c0 89 113 183 218 183z" fill="currentColor"/>
+</g>
+<g transform="translate(23.8852, 1.2959)">
+<text font-family="serif" font-style="italic" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>3</tspan>
+</text>
+</g>
+<g transform="translate(18.2700, 1.2959)">
+<text font-family="serif" font-style="italic" font-size="1.7459" text-anchor="start" fill="currentColor">
+<tspan>3</tspan>
+</text>
+</g>
+<g transform="translate(16.5222, 2.0003)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="4.5822 -0.2000 4.5822 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
+</g>
+<g transform="translate(16.5222, 2.8103)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="4.5822 -0.2000 4.5822 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
 </g>
 <g transform="translate(3.1742, 2.0003)">
-<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="3.1844 -0.2000 3.1844 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="2.4862 -0.2000 2.4862 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
 </g>
 <g transform="translate(3.1742, 2.8103)">
 <polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="1.1250 -0.2000 1.1250 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
 </g>
-<g transform="translate(33.0252, 1.2959)">
+<g transform="translate(11.6359, 1.2959)">
 <text font-family="serif" font-style="italic" font-size="1.7459" text-anchor="start" fill="currentColor">
 <tspan>3</tspan>
 </text>
 </g>
-<g transform="translate(23.9197, 1.2959)">
-<text font-family="serif" font-style="italic" font-size="1.7459" text-anchor="start" fill="currentColor">
-<tspan>3</tspan>
-</text>
+<g transform="translate(9.9923, 2.0003)">
+<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="4.3738 -0.2000 4.3738 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
 </g>
-<g transform="translate(21.3237, 2.0003)">
-<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="6.2788 -0.2000 6.2788 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
-</g>
-<g transform="translate(21.3237, 2.8103)">
-<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="6.2788 -0.2000 6.2788 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
-</g>
-<g transform="translate(14.7408, 1.2959)">
-<text font-family="serif" font-style="italic" font-size="1.7459" text-anchor="start" fill="currentColor">
-<tspan>3</tspan>
-</text>
-</g>
-<g transform="translate(12.2490, 2.0003)">
-<polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="6.0704 -0.2000 6.0704 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
-</g>
-<g transform="translate(17.1943, 2.8103)">
+<g transform="translate(13.2411, 2.8103)">
 <polygon stroke-linejoin="round" stroke-linecap="round" stroke-width="0.0800" fill="currentColor" stroke="currentColor" points="1.1250 -0.2000 1.1250 0.2000 0.0400 0.2000 0.0400 -0.2000"/>
 </g>
-<g transform="translate(4.2230, 1.2959)">
+<g transform="translate(3.8739, 1.2959)">
 <text font-family="serif" font-style="italic" font-size="1.7459" text-anchor="start" fill="currentColor">
 <tspan>3</tspan>
 </text>
 </g>
-<g transform="translate(24.4831, 5.1903)">
+<g transform="translate(15.4026, 13.4903)">
+<text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>t</tspan>
+</text>
+</g>
+<g transform="translate(18.8333, 5.1903)">
 <rect x="-0.0650" y="-3.1900" width="0.1300" height="3.0039" ry="0.0400" fill="currentColor"/>
 </g>
-<g transform="translate(23.3839, 13.4903)">
+<g transform="translate(17.7341, 13.4903)">
 <text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
 <tspan>-</tspan>
 </text>
 </g>
-<g transform="translate(23.2439, 5.1903)">
+<g transform="translate(17.5941, 5.1903)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c66 0 108 -36 108 -89c0 -89 -113 -183 -218 -183c-66 0 -108 36 -108 89c0 89 113 183 218 183z" fill="currentColor"/>
 </g>
-<g transform="translate(21.3887, 5.1903)">
+<g transform="translate(16.5872, 5.1903)">
 <rect x="-0.0650" y="-3.1900" width="0.1300" height="3.0039" ry="0.0400" fill="currentColor"/>
 </g>
-<g transform="translate(19.9310, 13.4903)">
-<text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
-<tspan>n</tspan>
-</text>
-</g>
-<g transform="translate(20.1495, 5.1903)">
+<g transform="translate(15.3480, 5.1903)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c66 0 108 -36 108 -89c0 -89 -113 -183 -218 -183c-66 0 -108 36 -108 89c0 89 113 183 218 183z" fill="currentColor"/>
 </g>
-<g transform="translate(18.2943, 5.1903)">
+<g transform="translate(14.3411, 5.1903)">
 <rect x="-0.0650" y="-3.1900" width="0.1300" height="3.0039" ry="0.0400" fill="currentColor"/>
 </g>
-<g transform="translate(17.1951, 13.4903)">
+<g transform="translate(13.2419, 13.4903)">
 <text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
 <tspan>-</tspan>
 </text>
 </g>
-<g transform="translate(17.0551, 5.1903)">
+<g transform="translate(13.1019, 5.1903)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c66 0 108 -36 108 -89c0 -89 -113 -183 -218 -183c-66 0 -108 36 -108 89c0 89 113 183 218 183z" fill="currentColor"/>
 </g>
-<g transform="translate(13.5528, 13.4903)">
+<g transform="translate(10.4479, 13.4903)">
 <text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
 <tspan>-</tspan>
 </text>
 </g>
-<g transform="translate(32.0414, 5.1903)">
+<g transform="translate(25.5716, 5.1903)">
 <rect x="-0.0650" y="-3.1900" width="0.1300" height="3.0039" ry="0.0400" fill="currentColor"/>
 </g>
-<g transform="translate(30.1739, 13.4903)">
+<g transform="translate(24.4724, 13.4903)">
+<text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>-</tspan>
+</text>
+</g>
+<g transform="translate(24.3324, 5.1903)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c66 0 108 -36 108 -89c0 -89 -113 -183 -218 -183c-66 0 -108 36 -108 89c0 89 113 183 218 183z" fill="currentColor"/>
+</g>
+<g transform="translate(23.3255, 5.1903)">
+<rect x="-0.0650" y="-3.1900" width="0.1300" height="3.0039" ry="0.0400" fill="currentColor"/>
+</g>
+<g transform="translate(21.4580, 13.4903)">
 <text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
 <tspan>|ə</tspan>
 </text>
 </g>
-<g transform="translate(30.6177, 10.6903)">
+<g transform="translate(21.6629, 10.6903)">
 <text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
-<tspan>a</tspan>
+<tspan>&amp;</tspan>
 </text>
 </g>
-<g transform="translate(30.8021, 5.1903)">
-<path transform="scale(0.0040, -0.0040)" d="M218 136c66 0 108 -36 108 -89c0 -89 -113 -183 -218 -183c-66 0 -108 36 -108 89c0 89 113 183 218 183z" fill="currentColor"/>
-</g>
-<g transform="translate(27.5775, 5.1903)">
+<g transform="translate(49.6535, 5.1903)">
 <rect x="-0.0650" y="-3.1900" width="0.1300" height="3.0039" ry="0.0400" fill="currentColor"/>
 </g>
-<g transform="translate(26.4783, 13.4903)">
+<g transform="translate(22.0863, 5.1903)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c66 0 108 -36 108 -89c0 -89 -113 -183 -218 -183c-66 0 -108 36 -108 89c0 89 113 183 218 183z" fill="currentColor"/>
+</g>
+<g transform="translate(21.0794, 5.1903)">
+<rect x="-0.0650" y="-3.1900" width="0.1300" height="3.0039" ry="0.0400" fill="currentColor"/>
+</g>
+<g transform="translate(19.9802, 13.4903)">
 <text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
 <tspan>-</tspan>
 </text>
 </g>
-<g transform="translate(26.3383, 5.1903)">
+<g transform="translate(19.8402, 5.1903)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c66 0 108 -36 108 -89c0 -89 -113 -183 -218 -183c-66 0 -108 36 -108 89c0 89 113 183 218 183z" fill="currentColor"/>
+</g>
+<g transform="translate(1.3547, 10.6903)">
+<text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>|8</tspan>
+</text>
 </g>
 <g transform="translate(2.0000, 5.1903)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c66 0 108 -36 108 -89c0 -89 -113 -183 -218 -183c-66 0 -108 36 -108 89c0 89 113 183 218 183z" fill="currentColor"/>
 </g>
-<g transform="translate(-2.2535, 4.1156)">
+<g transform="translate(-1.1267, 4.1156)">
 <text font-family="serif" font-size="1.7459" text-anchor="start" fill="currentColor">
-<tspan>15</tspan>
+<tspan>8</tspan>
 </text>
 </g>
-<g transform="translate(1.1327, 10.6903)">
+<g transform="translate(1.3717, 13.4903)">
 <text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
-<tspan>|&amp;</tspan>
+<tspan>|e</tspan>
 </text>
 </g>
-<g transform="translate(12.3140, 5.1903)">
+<g transform="translate(10.0573, 5.1903)">
 <rect x="-0.0650" y="-3.1900" width="0.1300" height="3.0039" ry="0.0400" fill="currentColor"/>
 </g>
-<g transform="translate(11.2147, 13.4903)">
+<g transform="translate(8.9581, 13.4903)">
 <text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
 <tspan>-</tspan>
 </text>
 </g>
-<g transform="translate(11.0748, 5.1903)">
+<g transform="translate(8.8181, 5.1903)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c66 0 108 -36 108 -89c0 -89 -113 -183 -218 -183c-66 0 -108 36 -108 89c0 89 113 183 218 183z" fill="currentColor"/>
 </g>
-<g transform="translate(7.5724, 13.4903)">
+<g transform="translate(6.1641, 13.4903)">
 <text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
 <tspan>-</tspan>
 </text>
 </g>
-<g transform="translate(6.3336, 5.1903)">
+<g transform="translate(5.6354, 5.1903)">
 <rect x="-0.0650" y="-3.1900" width="0.1300" height="3.0039" ry="0.0400" fill="currentColor"/>
 </g>
-<g transform="translate(5.2343, 13.4903)">
+<g transform="translate(4.3825, 13.4903)">
 <text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
-<tspan>-</tspan>
+<tspan>ɪ</tspan>
 </text>
 </g>
-<g transform="translate(5.0944, 5.1903)">
+<g transform="translate(4.3962, 5.1903)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c66 0 108 -36 108 -89c0 -89 -113 -183 -218 -183c-66 0 -108 36 -108 89c0 89 113 183 218 183z" fill="currentColor"/>
 </g>
 <g transform="translate(3.2392, 5.1903)">
 <rect x="-0.0650" y="-3.1900" width="0.1300" height="3.0039" ry="0.0400" fill="currentColor"/>
 </g>
-<g transform="translate(1.3717, 13.4903)">
+<g transform="translate(34.9275, 13.4903)">
+<text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>n</tspan>
+</text>
+</g>
+<g transform="translate(35.1461, 5.1903)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c66 0 108 -36 108 -89c0 -89 -113 -183 -218 -183c-66 0 -108 36 -108 89c0 89 113 183 218 183z" fill="currentColor"/>
+</g>
+<g transform="translate(41.8844, 5.1903)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c66 0 108 -36 108 -89c0 -89 -113 -183 -218 -183c-66 0 -108 36 -108 89c0 89 113 183 218 183z" fill="currentColor"/>
+</g>
+<g transform="translate(41.7000, 10.6903)">
+<text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>a</tspan>
+</text>
+</g>
+<g transform="translate(34.1392, 5.1903)">
+<rect x="-0.0650" y="-3.1900" width="0.1300" height="3.0039" ry="0.0400" fill="currentColor"/>
+</g>
+<g transform="translate(41.2561, 13.4903)">
 <text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
 <tspan>|ə</tspan>
 </text>
 </g>
-<g transform="translate(48.8697, 13.4903)">
-<text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
-<tspan>s</tspan>
-</text>
-</g>
-<g transform="translate(59.1467, 13.4903)">
-<text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
-<tspan>|ɪ</tspan>
-</text>
-</g>
-<g transform="translate(60.8435, 5.1903)">
-<rect x="-0.0650" y="-3.1900" width="0.1300" height="3.0039" ry="0.0400" fill="currentColor"/>
-</g>
-<g transform="translate(50.1909, 5.1903)">
-<rect x="-0.0650" y="-3.1900" width="0.1300" height="3.0039" ry="0.0400" fill="currentColor"/>
-</g>
-<g transform="translate(52.0460, 5.1903)">
-<path transform="scale(0.0040, -0.0040)" d="M218 136c66 0 108 -36 108 -89c0 -89 -113 -183 -218 -183c-66 0 -108 36 -108 89c0 89 113 183 218 183z" fill="currentColor"/>
-</g>
-<g transform="translate(48.9516, 5.1903)">
-<path transform="scale(0.0040, -0.0040)" d="M218 136c66 0 108 -36 108 -89c0 -89 -113 -183 -218 -183c-66 0 -108 36 -108 89c0 89 113 183 218 183z" fill="currentColor"/>
-</g>
-<g transform="translate(45.9972, 13.4903)">
+<g transform="translate(33.0399, 13.4903)">
 <text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
 <tspan>-</tspan>
 </text>
 </g>
-<g transform="translate(56.3796, 5.1903)">
+<g transform="translate(43.1236, 5.1903)">
 <rect x="-0.0650" y="-3.1900" width="0.1300" height="3.0039" ry="0.0400" fill="currentColor"/>
 </g>
-<g transform="translate(59.6043, 5.1903)">
+<g transform="translate(32.9000, 5.1903)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c66 0 108 -36 108 -89c0 -89 -113 -183 -218 -183c-66 0 -108 36 -108 89c0 89 113 183 218 183z" fill="currentColor"/>
 </g>
-<g transform="translate(55.2804, 13.4903)">
-<text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
-<tspan>-</tspan>
-</text>
-</g>
-<g transform="translate(55.1404, 5.1903)">
-<path transform="scale(0.0040, -0.0040)" d="M218 136c66 0 108 -36 108 -89c0 -89 -113 -183 -218 -183c-66 0 -108 36 -108 89c0 89 113 183 218 183z" fill="currentColor"/>
-</g>
-<g transform="translate(47.0965, 5.1903)">
+<g transform="translate(38.6314, 5.1903)">
 <rect x="-0.0650" y="-3.1900" width="0.1300" height="3.0039" ry="0.0400" fill="currentColor"/>
 </g>
-<g transform="translate(59.4028, 10.6903)">
-<text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
-<tspan>6</tspan>
-</text>
-</g>
-<g transform="translate(53.2853, 5.1903)">
-<rect x="-0.0650" y="-3.1900" width="0.1300" height="3.0039" ry="0.0400" fill="currentColor"/>
-</g>
-<g transform="translate(52.1860, 13.4903)">
-<text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
-<tspan>-</tspan>
-</text>
-</g>
-<g transform="translate(39.8769, 5.1903)">
+<g transform="translate(39.6383, 5.1903)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c66 0 108 -36 108 -89c0 -89 -113 -183 -218 -183c-66 0 -108 36 -108 89c0 89 113 183 218 183z" fill="currentColor"/>
 </g>
-<g transform="translate(62.6987, 5.1903)">
-<path transform="scale(0.0040, -0.0040)" d="M218 136c66 0 108 -36 108 -89c0 -89 -113 -183 -218 -183c-66 0 -108 36 -108 89c0 89 113 183 218 183z" fill="currentColor"/>
-</g>
-<g transform="translate(36.3746, 13.4903)">
+<g transform="translate(39.7783, 13.4903)">
 <text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
 <tspan>-</tspan>
 </text>
 </g>
-<g transform="translate(35.1357, 5.1903)">
+<g transform="translate(40.8775, 5.1903)">
 <rect x="-0.0650" y="-3.1900" width="0.1300" height="3.0039" ry="0.0400" fill="currentColor"/>
 </g>
-<g transform="translate(62.8386, 13.4903)">
+<g transform="translate(37.5322, 13.4903)">
 <text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
 <tspan>-</tspan>
 </text>
 </g>
-<g transform="translate(63.9379, 5.1903)">
-<rect x="-0.0650" y="-3.1900" width="0.1300" height="3.0039" ry="0.0400" fill="currentColor"/>
-</g>
-<g transform="translate(34.0365, 13.4903)">
-<text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
-<tspan>-</tspan>
-</text>
-</g>
-<g transform="translate(33.8965, 5.1903)">
+<g transform="translate(37.3922, 5.1903)">
 <path transform="scale(0.0040, -0.0040)" d="M218 136c66 0 108 -36 108 -89c0 -89 -113 -183 -218 -183c-66 0 -108 36 -108 89c0 89 113 183 218 183z" fill="currentColor"/>
 </g>
-<g transform="translate(42.3549, 13.4903)">
-<text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
-<tspan>-</tspan>
-</text>
-</g>
-<g transform="translate(45.8573, 5.1903)">
-<path transform="scale(0.0040, -0.0040)" d="M218 136c66 0 108 -36 108 -89c0 -89 -113 -183 -218 -183c-66 0 -108 36 -108 89c0 89 113 183 218 183z" fill="currentColor"/>
-</g>
-<g transform="translate(41.1161, 5.1903)">
+<g transform="translate(36.3853, 5.1903)">
 <rect x="-0.0650" y="-3.1900" width="0.1300" height="3.0039" ry="0.0400" fill="currentColor"/>
 </g>
-<g transform="translate(40.0169, 13.4903)">
+<g transform="translate(45.7603, 13.4903)">
 <text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
 <tspan>-</tspan>
 </text>
+</g>
+<g transform="translate(29.8554, 5.1903)">
+<rect x="-0.0650" y="-3.1900" width="0.1300" height="3.0039" ry="0.0400" fill="currentColor"/>
+</g>
+<g transform="translate(28.6162, 16.2903)">
+<text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>l</tspan>
+</text>
+</g>
+<g transform="translate(28.7562, 13.4903)">
+<text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>-</tspan>
+</text>
+</g>
+<g transform="translate(28.6162, 5.1903)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c66 0 108 -36 108 -89c0 -89 -113 -183 -218 -183c-66 0 -108 36 -108 89c0 89 113 183 218 183z" fill="currentColor"/>
+</g>
+<g transform="translate(25.9622, 13.4903)">
+<text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>-</tspan>
+</text>
+</g>
+<g transform="translate(48.4143, 5.1903)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c66 0 108 -36 108 -89c0 -89 -113 -183 -218 -183c-66 0 -108 36 -108 89c0 89 113 183 218 183z" fill="currentColor"/>
+</g>
+<g transform="translate(48.5543, 13.4903)">
+<text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>-</tspan>
+</text>
+</g>
+<g transform="translate(30.2459, 13.4903)">
+<text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>-</tspan>
+</text>
+</g>
+<g transform="translate(44.1305, 5.1903)">
+<path transform="scale(0.0040, -0.0040)" d="M218 136c66 0 108 -36 108 -89c0 -89 -113 -183 -218 -183c-66 0 -108 36 -108 89c0 89 113 183 218 183z" fill="currentColor"/>
+</g>
+<g transform="translate(44.2705, 13.4903)">
+<text font-family="Charis SIL" font-weight="bold" font-style="italic" font-size="2.4697" text-anchor="start" fill="currentColor">
+<tspan>-</tspan>
+</text>
+</g>
+<g transform="translate(45.3697, 5.1903)">
+<rect x="-0.0650" y="-3.1900" width="0.1300" height="3.0039" ry="0.0400" fill="currentColor"/>
 </g>
 </svg>
