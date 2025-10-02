@@ -8328,7 +8328,7 @@ SPE表記法は音韻学の研究が立ち遅れている我が国日本では�
 
 ```{.lilypond}
 \include "lilypond-book-preamble.ly"
-\include "rhythmpedia-ly/shared/rhythmp-000.ly"
+\include "rhythmpedia-ly/shared/rhythmdo-000.ly"
 ```
 
 英語を母国語とする人々は、特別な訓練をしない状態でもこの１拍１単語を割り当てる
