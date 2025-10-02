@@ -8543,7 +8543,7 @@ RUBY-PNI >}} を行う必要があります。
 % bx/+Uzn54FezLD2lCPTzPQ==
 ```
 
-######  ２階層版レベル１ {{< var RUBY-NI>}} 
+###### ２階層版レベル１ {{< var RUBY-NI>}} 
 
 ```{.lilypond}
 \include "lilypond-book-preamble.ly"
@@ -8556,26 +8556,63 @@ RUBY-PNI >}} を行う必要があります。
 ```{.lilypond}
 \include "lilypond-book-preamble.ly"
 \include "rhythmpedia-ly/shared/rhythmdo-001-lv2.ly"
-%  0ek7QpoFuL7WQFPSbKn9+A==
+% whX0x3T9aEuiq77riEwZLQ==
 ```
 
-###### ２階層版レベル３
+###### ２階層版レベル３ {{< var RUBY-MOP>}} 
+
+ここまででレベル２までの{{<var RUBY-PNS>}}が完了しました。ようやく次がこのレベ
+ルの要点であるレベル３ {{< var RUBY-PNI >}} を適用する行程に入ります。
+
+ここまでは以下の様に、階層を１つ増やした二層カウントに対して{{<var RUBY-PNS>}}
+を行って来ました。
+
+```{.lilypond}
+\include "lilypond-book-preamble.ly"
+\include "rhythmpedia-ly/shared/rhythmdo-lv3-000.ly"
+% feYzEFVxwo1+EeumMUpGQw==
+```
+
+二層カウントに対してレベル３の趣旨である**{{< var RUBY-PNI >}}**を適用します。
+具体的には **音符を１つずらし&が強拍に来る様に配置** する事で**弱拍先行**の配置
+にします。
+
+```{.lilypond}
+\include "lilypond-book-preamble.ly"
+\include "rhythmpedia-ly/shared/rhythmdo-lv3-001.ly"
+% 4LH9TXuz1hivqz4PkIjG+Q==
+```
+
+上記の様な二層弱拍先行カウントに対してこれまで行ったレベル２までの{{<var
+RUBY-PNS>}} を行うことで レベル３ {{< var RUBY-PNI >}} を実現します。
+
+
 ```{.lilypond}
 \include "lilypond-book-preamble.ly"
 \include "rhythmpedia-ly/shared/rhythmdo-001-lv3.ly"
-\layout {
-  \context {
-    \Score
-    proportionalNotationDuration = #(ly:make-moment 1/32) % tighter
-    % try 1/4 for looser, 1/8 default-ish
-  }
-}
-%  qJlicsLotBKwp79O/ZAe3A==
+% kQ+MOn1ee8Z9EcH0DMpl5A==
 ```
 
+##### レベル４ {{< var RUBY-MPOP >}}
+
+レベル４は更に弱拍先行を更に推し進めます。
+
+レベル３で弱拍先行を実現する為、オフセット（ずれ）を付加することでカウントを早めました。
+
+```{.lilypond}
+\include "lilypond-book-preamble.ly"
+\include "rhythmpedia-ly/shared/rhythmdo-lv3-001.ly"
+% 4LH9TXuz1hivqz4PkIjG+Q==
+```
+
+このずれをつけた状態で a を先に読むことで二重の弱拍先行（頭音節最大化）を行います。
 
 
-##### レベル３ {{< var RUBY-MPOP >}}
+```{.lilypond}
+\include "lilypond-book-preamble.ly"
+\include "rhythmpedia-ly/shared/rhythmdo-lv4-000.ly"
+% c45uKGy1snAYS4TsXhqXLQ==
+```
 
 
 ### 三連符オフビートカウントの発音

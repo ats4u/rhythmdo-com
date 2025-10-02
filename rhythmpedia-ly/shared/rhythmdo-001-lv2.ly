@@ -42,9 +42,9 @@ idNum    = #(define-scheme-function (x) (number?) x)   % identity for numbers
       \new Voice = "counting" {
         \voiceOne
         \time 9/8
-        \partial 4.
+        \partial 8
 
-          s8    s8   \gthr              % 1
+                     \gthr              % 1
         | \gsco  \gdot \gthr              % &
         | \gsco  \gdot \gthr              % a
         | \gsco  \gdot \gthr              % 2
@@ -84,7 +84,7 @@ idNum    = #(define-scheme-function (x) (number?) x)   % identity for numbers
       \new NullVoice = "aligner" {
         \relative do' {
           \voiceOne
-                    s4.
+                     s8
           do4. do4. do4.
           do4. do4. do4.
           do4. do4. do4.
@@ -126,14 +126,13 @@ idNum    = #(define-scheme-function (x) (number?) x)   % identity for numbers
       }
 
       \new Lyrics \with { instrumentName = "" } \lyricsto "aligner2" {
-        \sp  \sp  \sp      \sp      \sp \sp
 
-        "w"   \sp  \sp     "|a"     \sp \sp     \sp  \sp  \sp
+        "w"   \sp  \sp     "|a"     \sp \sp     \sp   \sp \sp
         "n"   \sp \sp      "|ə"     \sp \sp     \sp   \sp \sp
         "n"   \sp \sp      "|ə"     \sp \sp     \sp   \sp \sp
 
         "t"  \sp  \sp      "|uː"  \sp \sp      \sp   \sp \sp
-        "(w)"  \sp  \sp    "|ə"     \sp \sp     \sp  \sp  \sp
+        "(w)"  \sp  \sp    "|ə"     \sp \sp     \sp   \sp \sp
         "n"   \sp \sp      "|ə"     \sp \sp     \sp   \sp \sp
 
         "θ" "ɹ"  \sp      "|iː"  \sp \sp      \sp   \sp \sp

@@ -6,6 +6,13 @@ gthr = { \tuplet 3/2 {  do16[  do16   do16] }  }
 gdot = { \tuplet 3/2 {  do8[          do16] }  }
 gura = { \tuplet 3/2 {   r8[          do16] }  }
 gsco = { \tuplet 3/2 {  do16 do8            }  }
+
+% gnin = {
+%   | do8 \gdot \tuplet 3/2 {  do16   do16   do16] }             % 1
+%     do8 \gdot \tuplet 3/2 {  do16   do16   do16] }             %
+%     do8 \gdot \tuplet 3/2 {  do16   do16   do16] }             %
+% }
+
 gnin = {
   \tuplet 3/2 { do16[  do16  do16] } \tuplet 3/2 { do16[   do16  do16] } \tuplet 3/2 { do16[   do16  do16] }
 }
@@ -16,12 +23,15 @@ id = #(define-music-function (m) (ly:music?)
   (begin
     (display m)
     m))
+
+
 rv = #(define-music-function (mus) (ly:music?)
     (make-sequential-music
      (reverse (ly:music-property mus 'elements))))
 
 sw = #(define-music-function (a b) (ly:music? ly:music?)
       (make-sequential-music (list b a)))
+
 
 idMarkup = #(define-scheme-function (x) (markup?) x)   % identity for markup
 idNum    = #(define-scheme-function (x) (number?) x)   % identity for numbers
@@ -31,17 +41,23 @@ idNum    = #(define-scheme-function (x) (number?) x)   % identity for numbers
     \new RhythmicStaff = "rhythm"  <<
       \new Voice = "counting" {
         \voiceOne
-        \time 3/8
+        \time 9/8
+        \partial 2
 
-          r8     \gdot \gthr              % 1
+                       \gthr              % 1
+        | \gsco  \gdot \gthr              % 1
         | \gsco  \gdot \gthr              % &
         | \gsco  \gdot \gthr              % a
+
         | \gsco  \gdot \gthr              % 2
         | \gsco  \gdot \gthr              % &
         | \gsco  \gdot \gthr              % a
+
         | \gsco  \gdot \gthr              % 3
         | \gsco  \gdot \gthr              % &
         | \gsco  \gdot \gthr              % a
+
+        \break
 
         | \gsco  \gdot \gthr              % 4
         | \gsco  \gdot \gthr              % &
@@ -65,6 +81,10 @@ idNum    = #(define-scheme-function (x) (number?) x)   % identity for numbers
         | \gsco  \gdot \gthr              % &
         | \gsco  \gdot \gthr              % a
 
+        | \gsco  \gdot \gthr              % 9
+        | \gsco  \gdot \gthr              % &
+        | \gsco  \gdot \gthr              % a
+
         | \gsco  \gdot \gthr              % 1
         | \gsco  \gdot \gthr              % 1
 
@@ -73,7 +93,8 @@ idNum    = #(define-scheme-function (x) (number?) x)   % identity for numbers
       \new NullVoice = "aligner" {
         \relative do' {
           \voiceOne
-                    s4.
+                     s8
+          do4. do4. do4.
           do4. do4. do4.
           do4. do4. do4.
           do4. do4. do4.
@@ -95,7 +116,8 @@ idNum    = #(define-scheme-function (x) (number?) x)   % identity for numbers
           "6" "|&" "a"
           "7" "|&" "a"
           "8" "|&" "a"
-          "1"
+          "9" "|&" "a"
+          "1" "|&"
       }
 
       \new NullVoice = "aligner2" {
@@ -115,80 +137,42 @@ idNum    = #(define-scheme-function (x) (number?) x)   % identity for numbers
       }
 
       \new Lyrics \with { instrumentName = "" } \lyricsto "aligner2" {
-        \sp  \sp  \sp      \sp      \sp
 
-        "w"   \sp \sp      \sw   "|a"    \sp   \sp     \sp  \sp  \sp
-        "n"   \sp \sp      \sw   "|ə"    \sp   \sp     \sp   \sp \sp
-        "n"   \sp \sp      \sw   "|ə"    \sp   \sp     \sp   \sp \sp
+        "w"   \sp  \sp     "|a"     \sp \sp     \sp   \sp \sp
+        "n"   \sp \sp      "|ə"     \sp \sp     \sp   \sp \sp
+        "n"   \sp \sp      "|ə"     \sp \sp     \sp   \sp \sp
 
-        "t"   \sp  \sp     \sw   "|uː"  \sp   \sp     \sp   \sp \sp
-        "(w)" \sp  \sp     \sw   "|ə"    \sp   \sp     \sp  \sp  \sp
-        "n"   \sp \sp      \sw   "|ə"    \sp   \sp     \sp   \sp \sp
+        "t"  \sp  \sp      "|uː"  \sp \sp      \sp   \sp \sp
+        "(w)"  \sp  \sp    "|ə"     \sp \sp     \sp   \sp \sp
+        "n"   \sp \sp      "|ə"     \sp \sp     \sp   \sp \sp
 
-        "θ"  "ɹ"  \sp     \sw   "|iː"  \sp   \sp     \sp   \sp \sp
-        (j)   \sp  \sp     \sw   "|ə"    \sp   \sp     \sp   \sp \sp
-        "n"   \sp  \sp     \sw   "|ə"    \sp   \sp     \sp   \sp \sp
+        "θ" "ɹ"  \sp      "|iː"  \sp \sp      \sp   \sp \sp
+        (j)  \sp  \sp      "|ə"     \sp \sp     \sp   \sp \sp
+        "n"  \sp  \sp      "|ə"     \sp \sp     \sp   \sp \sp
 
-        "f"   \sp  \sp     \sw   "| ɔ"   \sp   \sp     \sp  \sp  \sp
-        "ɹ"   \sp  \sp     \sw   "|ə"    \sp   \sp     \sp  \sp  \sp
-        "n"   \sp  \sp     \sw   "|ə"    \sp   \sp     \sp  \sp  \sp
+        "f"  \sp  \sp      "| ɔ"   \sp \sp      \sp  \sp  \sp
+        "ɹ" \sp   \sp      "|ə"     \sp \sp     \sp  \sp  \sp
+        "n"   \sp \sp      "|ə"     \sp \sp     \sp   \sp \sp
 
-        "f"   \sp \sp      \sw { "|a"    "ɪ" } \sp     \sp  \sp  \sp
-        "v"   \sp \sp      \sw   "|ə"    \sp   \sp     \sp  \sp  \sp
-        "n"   \sp \sp      \sw   "|ə"    \sp   \sp     \sp   \sp \sp
+        "f"  \sp  \sp      "|a"    "ɪ" \sp      \sp  \sp  \sp
+        "v"   \sp \sp      "|ə"     \sp \sp     \sp  \sp  \sp
+        "n"   \sp \sp      "|ə"     \sp \sp     \sp   \sp \sp
 
-        "s"   \sp \sp      \sw   "|ɪ"    \sp   \sp     \sp  \sp  \sp
-        "k"   "s" \sp      \sw   "|ə"    \sp   \sp     \sp  \sp  \sp
-        "n"   \sp \sp      \sw   "|ə"    \sp   \sp     \sp  \sp  \sp
+        "s"  \sp  \sp      "|ɪ"    \sp \sp      \sp  \sp  \sp
+        "k"   "s" \sp      "|ə"     \sp \sp     \sp  \sp  \sp
+        "n"   \sp \sp      "|ə"     \sp \sp     \sp  \sp  \sp
 
-        "s"   \sp \sp      \sw   "|ɛ"    \sp   \sp     \sp  \sp  \sp
-        "v"   "ə" "n"      \sw   "|ə"    \sp   \sp     \sp  \sp  \sp
-        "n"   \sp \sp      \sw   "|ə"    \sp   \sp     \sp  \sp  \sp
+        "s"  \sp  \sp      "|ɛ"    \sp \sp      \sp  \sp  \sp
+        "v"   "ə" "n"      "|ə"     \sp \sp     \sp  \sp  \sp
+        "n"   \sp \sp      "|ə"     \sp \sp     \sp  \sp  \sp
 
-        "(ɹ)" \sp \sp      \sw  {"|e"    "ɪ"}  \sp     \sp  \sp  \sp
-        "t"   \sp \sp      \sw   "|ə"    \sp   \sp     \sp  \sp  \sp
-        "n"   \sp \sp      \sw   "|ə"    \sp   \sp     \sp  \sp  \sp
+        "(ɹ)"  \sp  \sp    "|e"    "ɪ" \sp      \sp  \sp  \sp
+        "t"   \sp \sp      "|ə"    \sp \sp      \sp  \sp  \sp
+        "n"   \sp \sp      "|ə"    \sp \sp      \sp  \sp  \sp
 
-        "w"   \sp \sp      \sw   "|a"    \sp   \sp     "n"   \sp \sp
+        "w"  \sp \sp       "|a"    \sp \sp      "n"   \sp \sp
       }
 
-      \new Lyrics \with { instrumentName = "" } \lyricsto "aligner2" {
-        \bl   \bl  \bl      \bl     \bl 
-
-        \bl   \bl  \bl      \bl     \bl \bl     \bl   \bl  \bl
-        \bl   \bl  \bl      \bl     \bl \bl     \bl   \bl  \bl
-        \bl   \bl  \bl      \bl     \bl \bl     \bl   \bl  \bl
-
-        \bl   \bl  \bl      \bl     \bl \bl     \bl   \bl  \bl
-        \bl   \bl  \bl      \bl     \bl \bl     \bl   \bl  \bl
-        \bl   \bl  \bl      \bl     \bl \bl     \bl   \bl  \bl
-
-        \bl   \bl  \bl      \bl     \bl \bl     \bl   \bl  \bl
-        \bl   \bl  \bl      \bl     \bl \bl     \bl   \bl  \bl
-        \bl   \bl  \bl      \bl     \bl \bl     \bl   \bl  \bl
-
-        \bl   \bl  \bl      \bl     \bl \bl     \bl   \bl  \bl
-        \bl   \bl  \bl      \bl     \bl \bl     \bl   \bl  \bl
-        \bl   \bl  \bl      \bl     \bl \bl     \bl   \bl  \bl
-
-        \bl   \bl  \bl      \bl     \bl \bl     \bl   \bl  \bl
-        \bl   \bl  \bl      \bl     \bl \bl     \bl   \bl  \bl
-        \bl   \bl  \bl      \bl     \bl \bl     \bl   \bl  \bl
-
-        \bl   \bl  \bl      \bl     \bl \bl     \bl   \bl  \bl
-        \bl   \bl  \bl      \bl     \bl \bl     \bl   \bl  \bl
-        \bl   \bl  \bl      \bl     \bl \bl     \bl   \bl  \bl
-
-        \bl   \bl  \bl      \bl     \bl \bl     \bl   \bl  \bl
-        \bl   \bl  \bl      \bl     \bl \bl     \bl   \bl  \bl
-        \bl   \bl  \bl      \bl     \bl \bl     \bl   \bl  \bl
-
-        \bl   \bl  \bl      \bl     \bl \bl     \bl   \bl  \bl
-        "l"   \bl  \bl      \bl     \bl \bl     \bl   \bl  \bl
-        \bl   \bl  \bl      \bl     \bl \bl     \bl   \bl  \bl
-
-        \bl    \bl \bl       \bl     \bl \bl     \bl   \bl \bl
-      }
     >>
   >>
 }
