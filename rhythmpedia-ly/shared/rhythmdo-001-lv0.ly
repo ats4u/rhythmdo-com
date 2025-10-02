@@ -26,7 +26,7 @@ sp = "-"
     \new RhythmicStaff = "rhythm"  <<
       \new Voice = "counting" {
         \voiceOne
-        \time 3/8
+        \time 9/8
 
 %          s8    s8     s8                 % 1
         | \gsco  \gdot \gone              % &
@@ -82,15 +82,15 @@ sp = "-"
       }
 
       \new Lyrics \with { instrumentName = "" } \lyricsto "aligner" {
-          "1" "|&" "a"
-          "2" "|&" "a"
-          "3" "|&" "a"
-          "4" "|&" "a"
-          "5" "|&" "a"
-          "6" "|&" "a"
-          "7" "|&" "a"
-          "8" "|&" "a"
-          "1"
+          "|1" "&" "a"
+          "|2" "&" "a"
+          "|3" "&" "a"
+          "|4" "&" "a"
+          "|5" "&" "a"
+          "|6" "&" "a"
+          "|7" "&" "a"
+          "|8" "&" "a"
+          "|1"
       }
 
       \new NullVoice = "aligner2" {

@@ -53,6 +53,7 @@ website:
 #    position: above-navbar
 #    dismissable: false
   navbar:
+    logo: /attachments/rhythmdo-logo-light.png
     right:
       - href: index.qmd
         text: "トップに戻る"

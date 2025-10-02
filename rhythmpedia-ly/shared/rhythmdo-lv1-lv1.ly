@@ -24,17 +24,22 @@ sp = "-"
     \new RhythmicStaff = "rhythm"  <<
       \new Voice = "counting" {
         \voiceOne
-        \time 3/8
+        \time 9/8
+        \partial 8
 
-          s8    s8   \gthr              % 1
+                       \gthr              % 1
         | \gsco  \gdot \gone              % &
         | \gsco  \gdot \gthr              % a
+
         | \gsco  \gdot \gone              % 2
         | \gsco  \gdot \gone              % &
         | \gsco  \gdot \gone              % a
+
         | \gsco  \gdot \gthr              % 3
         | \gsco  \gdot \gthr              % &
         | \gsco  \gdot \gone              % a
+
+        \break
 
         | \gsco  \gdot \gthr              % 4
         | \gsco  \gdot \gthr              % &
@@ -65,14 +70,17 @@ sp = "-"
 
       \new NullVoice = "aligner" {
         \relative do' {
+          \time 9/8
           \voiceOne
-                    s4.
+                    s8
           do4. do4. do4.
           do4. do4. do4.
           do4. do4. do4.
+
           do4. do4. do4.
           do4. do4. do4.
           do4. do4. do4.
+
           do4. do4. do4.
           do4. do4. do4.
           do4.
@@ -80,15 +88,15 @@ sp = "-"
       }
 
       \new Lyrics \with { instrumentName = "" } \lyricsto "aligner" {
-          "1" "|&" "a"
-          "2" "|&" "a"
-          "3" "|&" "a"
-          "4" "|&" "a"
-          "5" "|&" "a"
-          "6" "|&" "a"
-          "7" "|&" "a"
-          "8" "|&" "a"
-          "1"
+          "|1" "&" "a"
+          "|2" "&" "a"
+          "|3" "&" "a"
+          "|4" "&" "a"
+          "|5" "&" "a"
+          "|6" "&" "a"
+          "|7" "&" "a"
+          "|8" "&" "a"
+          "|1"
       }
 
       \new NullVoice = "aligner2" {
@@ -108,7 +116,6 @@ sp = "-"
       }
 
       \new Lyrics \with { instrumentName = "" } \lyricsto "aligner2" {
-        \sp  \sp  \sp      \sp     \sp \sp
         "w"  \sp  \sp      "a"     \sp \sp     "n"   \sp \sp
 
         \sp  \sp  \sp      "ə"     \sp \sp     "n"   \sp \sp

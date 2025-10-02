@@ -41,17 +41,23 @@ idNum    = #(define-scheme-function (x) (number?) x)   % identity for numbers
     \new RhythmicStaff = "rhythm"  <<
       \new Voice = "counting" {
         \voiceOne
-        \time 3/8
+        \time 9/8
+        \partial 2
 
-          s8    s8   \gthr              % 1
+                       \gthr              % 1
+        | \gsco  \gdot \gthr              % 1
         | \gsco  \gdot \gthr              % &
         | \gsco  \gdot \gthr              % a
+
         | \gsco  \gdot \gthr              % 2
         | \gsco  \gdot \gthr              % &
         | \gsco  \gdot \gthr              % a
+
         | \gsco  \gdot \gthr              % 3
         | \gsco  \gdot \gthr              % &
         | \gsco  \gdot \gthr              % a
+
+        \break
 
         | \gsco  \gdot \gthr              % 4
         | \gsco  \gdot \gthr              % &
@@ -75,6 +81,10 @@ idNum    = #(define-scheme-function (x) (number?) x)   % identity for numbers
         | \gsco  \gdot \gthr              % &
         | \gsco  \gdot \gthr              % a
 
+        | \gsco  \gdot \gthr              % 9
+        | \gsco  \gdot \gthr              % &
+        | \gsco  \gdot \gthr              % a
+
         | \gsco  \gdot \gthr              % 1
         | \gsco  \gdot \gthr              % 1
 
@@ -83,7 +93,8 @@ idNum    = #(define-scheme-function (x) (number?) x)   % identity for numbers
       \new NullVoice = "aligner" {
         \relative do' {
           \voiceOne
-                    s4.
+                     s8
+          do4. do4. do4.
           do4. do4. do4.
           do4. do4. do4.
           do4. do4. do4.
@@ -105,7 +116,8 @@ idNum    = #(define-scheme-function (x) (number?) x)   % identity for numbers
           "6" "|&" "a"
           "7" "|&" "a"
           "8" "|&" "a"
-          "1"
+          "9" "|&" "a"
+          "1" "|&"
       }
 
       \new NullVoice = "aligner2" {
@@ -125,14 +137,13 @@ idNum    = #(define-scheme-function (x) (number?) x)   % identity for numbers
       }
 
       \new Lyrics \with { instrumentName = "" } \lyricsto "aligner2" {
-        \sp  \sp  \sp      \sp      \sp \sp
 
-        "w"   \sp  \sp     "|a"     \sp \sp     \sp  \sp  \sp
+        "w"   \sp  \sp     "|a"     \sp \sp     \sp   \sp \sp
         "n"   \sp \sp      "|ə"     \sp \sp     \sp   \sp \sp
         "n"   \sp \sp      "|ə"     \sp \sp     \sp   \sp \sp
 
         "t"  \sp  \sp      "|uː"  \sp \sp      \sp   \sp \sp
-        "(w)"  \sp  \sp    "|ə"     \sp \sp     \sp  \sp  \sp
+        "(w)"  \sp  \sp    "|ə"     \sp \sp     \sp   \sp \sp
         "n"   \sp \sp      "|ə"     \sp \sp     \sp   \sp \sp
 
         "θ" "ɹ"  \sp      "|iː"  \sp \sp      \sp   \sp \sp
@@ -161,45 +172,6 @@ idNum    = #(define-scheme-function (x) (number?) x)   % identity for numbers
 
         "w"  \sp \sp       "|a"    \sp \sp      "n"   \sp \sp
       }
-
-      \new Lyrics \with { instrumentName = "" } \lyricsto "aligner2" {
-        \bl  \bl  \bl      \bl     \bl \bl
-
-        \bl   \bl  \bl      \bl     \bl \bl     \bl  \bl  \bl
-        \bl   \bl \bl      \bl     \bl \bl     \bl   \bl \bl
-        \bl   \bl \bl      \bl     \bl \bl     \bl   \bl \bl
-
-        \bl    \bl  \bl      \bl   \bl \bl     \bl   \bl \bl
-        \bl  \bl  \bl    \bl     \bl \bl     \bl  \bl  \bl
-        \bl    \bl \bl      \bl     \bl \bl     \bl   \bl \bl
-
-        \bl   \bl  \bl      \bl   \bl \bl     \bl   \bl \bl
-        \bl    \bl  \bl      \bl     \bl \bl     \bl   \bl \bl
-        \bl    \bl  \bl      \bl     \bl \bl     \bl   \bl \bl
-
-        \bl    \bl  \bl      \bl    \bl \bl     \bl  \bl  \bl
-        \bl    \bl  \bl      \bl     \bl \bl     \bl  \bl  \bl
-        \bl    \bl  \bl      \bl     \bl \bl     \bl   \bl \bl
-
-        \bl    \bl  \bl      \bl     \bl \bl     \bl  \bl  \bl
-        \bl    \bl \bl      \bl     \bl \bl     \bl  \bl  \bl
-        \bl    \bl \bl      \bl     \bl \bl     \bl   \bl \bl
-
-        \bl    \bl  \bl      \bl     \bl \bl     \bl  \bl  \bl
-        \bl    \bl \bl      \bl     \bl \bl     \bl  \bl  \bl
-        \bl    \bl \bl      \bl     \bl \bl     \bl  \bl  \bl
-
-        \bl    \bl  \bl      \bl     \bl \bl     \bl  \bl  \bl
-        \bl    \bl \bl      \bl     \bl \bl     \bl  \bl  \bl
-        \bl    \bl \bl      \bl     \bl \bl     \bl  \bl  \bl
-
-        \bl  \bl  \bl    \bl     \bl \bl     \bl  \bl  \bl
-        "l"    \bl \bl      \bl     \bl \bl     \bl  \bl  \bl
-        \bl    \bl \bl      \bl     \bl \bl     \bl  \bl  \bl
-
-        \bl    \bl \bl       \bl     \bl \bl     \bl   \bl \bl
-      }
-
 
     >>
   >>
