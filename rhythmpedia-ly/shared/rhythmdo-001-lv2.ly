@@ -41,7 +41,8 @@ idNum    = #(define-scheme-function (x) (number?) x)   % identity for numbers
     \new RhythmicStaff = "rhythm"  <<
       \new Voice = "counting" {
         \voiceOne
-        \time 3/8
+        \time 9/8
+        \partial 4.
 
           s8    s8   \gthr              % 1
         | \gsco  \gdot \gthr              % &
@@ -97,15 +98,15 @@ idNum    = #(define-scheme-function (x) (number?) x)   % identity for numbers
       }
 
       \new Lyrics \with { instrumentName = "" } \lyricsto "aligner" {
-          "1" "|&" "a"
-          "2" "|&" "a"
-          "3" "|&" "a"
-          "4" "|&" "a"
-          "5" "|&" "a"
-          "6" "|&" "a"
-          "7" "|&" "a"
-          "8" "|&" "a"
-          "1"
+          "|1" "&" "a"
+          "|2" "&" "a"
+          "|3" "&" "a"
+          "|4" "&" "a"
+          "|5" "&" "a"
+          "|6" "&" "a"
+          "|7" "&" "a"
+          "|8" "&" "a"
+          "|1"
       }
 
       \new NullVoice = "aligner2" {
