@@ -8476,7 +8476,7 @@ RUBY-MI>}}**は、音の始まりという視点で見ると等間隔ではあ�
 
 ```{.lilypond}
 \include "lilypond-book-preamble.ly"
-\include "rhythmpedia-ly/shared/rhythmdo-000-lv1.ly"
+\include "rhythmpedia-ly/shared/rhythmdo-lv1-000.ly"
 % JzhO72YfJNeoqT2fUGwZhg==
 ```
 
@@ -8539,7 +8539,7 @@ RUBY-PNI >}} を行う必要があります。
 
 ```{.lilypond}
 \include "lilypond-book-preamble.ly"
-\include "rhythmpedia-ly/shared/rhythmdo-001-lv0.ly"
+\include "rhythmpedia-ly/shared/rhythmdo-lv3-lv0.ly"
 % bx/+Uzn54FezLD2lCPTzPQ==
 ```
 
@@ -8547,7 +8547,7 @@ RUBY-PNI >}} を行う必要があります。
 
 ```{.lilypond}
 \include "lilypond-book-preamble.ly"
-\include "rhythmpedia-ly/shared/rhythmdo-lv1-lv1.ly"
+\include "rhythmpedia-ly/shared/rhythmdo-lv3-lv1.ly"
 % hp9tEemKzSWyz3cECsY9cg==
 ```
 
@@ -8555,7 +8555,7 @@ RUBY-PNI >}} を行う必要があります。
 
 ```{.lilypond}
 \include "lilypond-book-preamble.ly"
-\include "rhythmpedia-ly/shared/rhythmdo-001-lv2.ly"
+\include "rhythmpedia-ly/shared/rhythmdo-lv3-lv2.ly"
 % whX0x3T9aEuiq77riEwZLQ==
 ```
 
