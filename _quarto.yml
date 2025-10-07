@@ -20,6 +20,7 @@ resources:
   - Ads.txt
   - _redirects
   - 404.html
+  - attachments/*
 
 website:
   title: "律武道"
