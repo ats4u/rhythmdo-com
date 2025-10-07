@@ -133,6 +133,9 @@ body.quarto-dark .quarto-title h1:first-of-type::before {
   vertical-align: middle;
 }
 
+.quarto-dark .navbar-brand-logo {
+  --src: url( "/attachments/rhythmdo-logo-dark.png" ); /* full image */
+}
 /*
  *
  *
