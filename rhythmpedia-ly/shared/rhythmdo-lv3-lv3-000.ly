@@ -4,9 +4,9 @@
       \new Voice = "v" {
         \voiceOne
         \time 9/8
-        do8 do8 do8 do8 do8 do8 do8 do8 do8 |
-        do8 do8 do8 do8 do8 do8 do8 do8 do8 |
-        do8 do8 do8 do8 do8 do8 do8 do8 do8 |
+        do8 do8 do8 do8 do8 do8 do8 do8 do8 \bar "||"
+        do8 do8 do8 do8 do8 do8 do8 do8 do8 \bar "||"
+        do8 do8 do8 do8 do8 do8 do8 do8 do8 \bar "||"
         do8 do8 do8
       }
       \new NullVoice = "aligner" {
