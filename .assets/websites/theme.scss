@@ -171,7 +171,7 @@ $h2-font-size: calc($font-size-base + 1.00em); // 0.10rem
 $h3-font-size: calc($font-size-base + 0.50em); // 0.08rem 
 $h4-font-size: calc($font-size-base + 0.15em); // 0.06rem 
 $h5-font-size: calc($font-size-base + 0.00em); // 0.04rem 
-$h6-font-size: calc($font-size-base + 0.25em); // 0.02rem 
+$h6-font-size: calc($font-size-base - 0.15em); // 0.02rem 
 
 /*-- scss:rules --*/
 body {
