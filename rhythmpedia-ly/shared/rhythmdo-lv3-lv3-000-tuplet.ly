@@ -1,29 +1,38 @@
+three = \tuplet 3/2 { do8[ do8 do8] }
+tuplet-three= \tuplet 3/2 {
+  \override TupletBracket.bracket-visibility = ##t
+  \autoBeamOff
+  do8[ do8 do8]
+}
+
 \score {
   <<
     \new RhythmicStaff = "rhythm"  <<
       \new Voice = "v" {
         \voiceOne
         \time 3/4
-        \tuplet 3/2 { do8 do8 do8 } \tuplet 3/2 { do8 do8 do8 } \tuplet 3/2 { do8 do8 do8 } \bar "|"
-        \tuplet 3/2 { do8 do8 do8 } \tuplet 3/2 { do8 do8 do8 } \tuplet 3/2 { do8 do8 do8 } \bar "|"
-        \tuplet 3/2 { do8 do8 do8 } \tuplet 3/2 { do8 do8 do8 } \tuplet 3/2 { do8 do8 do8 } \bar "|"
-        \tuplet 3/2 { do8 do8 do8 }
+        \tuplet-three \tuplet-three \tuplet-three \bar "|"
+        \once \override TupletBracket.bracket-visibility = ##t
+        \autoBeamOff % do this once per Voice, not per tuplet
+        \tuplet-three \tuplet-three \tuplet-three \bar "|"
+        \tuplet-three \tuplet-three \tuplet-three \bar "||"
+        \tuplet-three
       }
+
       \new NullVoice = "aligner" {
         \relative do' {
           \voiceOne
           % \partial 8
           % do8
-
-          do4 do4 do4
-          do4 do4 do4
-          do4 do4 do4
-          do4
+          \three \three \three
+          \three \three \three
+          \three \three \three
+          \three
         }
       }
     >>
 
-    \new Lyrics  \lyricsto "v" {
+    \new Lyrics  \lyricsto "aligner" {
        % _
        \markup { | 1 } & a
        \markup { | 2 } & a

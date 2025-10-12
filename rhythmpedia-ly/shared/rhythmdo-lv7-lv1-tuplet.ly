@@ -1,44 +1,60 @@
+nine = \tuplet 9/2 { do8[ do8 do8 do8 do8 do8 do8 do8 do8] }
+nine-end = \tuplet 9/2 { do8[ do8 do8 do8] s4 s4 }
+
+tuplet-nine =
+        \tuplet 3/1 {
+          \override TupletBracket.bracket-visibility = ##t
+          \autoBeamOff
+          \tuplet 3/2 { do8[ do8 do8] } \tuplet 3/2 { do8[ do8 do8] } \tuplet 3/2 { do8[ do8 do8] }
+        }
+
+tuplet-nine-end =
+        \tuplet 3/1 {
+          \override TupletBracket.bracket-visibility = ##t
+          \autoBeamOff
+          \tuplet 3/2 { do8[ do8 do8] } s4 s4
+        }
+
 \score {
   <<
     \new RhythmicStaff = "rhythm"  <<
       \new Voice = "v" {
         \voiceOne
         \time 3/4
-        \tuplet 3/2 { do8 do8 do8 } \tuplet 3/2 { do8 do8 do8 } \tuplet 3/2 { do8 do8 do8 } |
-        \tuplet 3/2 { do8 do8 do8 } \tuplet 3/2 { do8 do8 do8 } \tuplet 3/2 { do8 do8 do8 } |
-        \tuplet 3/2 { do8 do8 do8 } \tuplet 3/2 { do8 do8 do8 } \tuplet 3/2 { do8 do8 do8 } \bar "||"
+        \tuplet-nine \tuplet-nine \tuplet-nine |
+        \tuplet-nine \tuplet-nine \tuplet-nine |
+        \tuplet-nine \tuplet-nine \tuplet-nine \bar "||"
 
-        \tuplet 3/2 { do8 do8 do8 } \tuplet 3/2 { do8 do8 do8 } \tuplet 3/2 { do8 do8 do8 } |
-        \tuplet 3/2 { do8 do8 do8 } \tuplet 3/2 { do8 do8 do8 } \tuplet 3/2 { do8 do8 do8 } |
-        \tuplet 3/2 { do8 do8 do8 } \tuplet 3/2 { do8 do8 do8 } \tuplet 3/2 { do8 do8 do8 } \bar "||"
-
-        \tuplet 3/2 { do8 do8 do8 } \tuplet 3/2 { do8 do8 do8 } \tuplet 3/2 { do8 do8 do8 } |
-        \tuplet 3/2 { do8 do8 do8 } \tuplet 3/2 { do8 do8 do8 } \tuplet 3/2 { do8 do8 do8 } |
-        \tuplet 3/2 { do8 do8 do8 } \tuplet 3/2 { do8 do8 do8 } \tuplet 3/2 { do8 do8 do8 } \bar "||"
-
-        \tuplet 3/2 { do8 do8 do8 }
+        % \partial 4
+        \tuplet-nine
       }
+
       \new NullVoice = "aligner" {
         \relative do' {
           \voiceOne
           % \partial 8
           % do8
+          \nine
+          \nine
+          \nine
 
-          do4 do4 do4
-          do4 do4 do4
-          do4 do4 do4
-          do4 do4 do4
-          do4 do4 do4
-          do4 do4 do4
-          do4 do4 do4
-          do4 do4 do4
-          do4 do4 do4
-          do4
+          \nine
+          \nine
+          \nine
+
+          \nine
+          \nine
+          \nine
+
+          % \partial 4
+          \nine
+
         }
       }
+
     >>
 
-    \new Lyrics  \lyricsto "v" {
+    \new Lyrics  \lyricsto "aligner" {
        % _
        \markup { | 1 } & a
        \markup { | & } & a
