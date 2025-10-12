@@ -8314,12 +8314,12 @@ SPE表記法は音韻学の研究が立ち遅れている我が国日本では�
 もたない日本語では認識上のリズムが必ず８分音符(２連符)の2⁻ⁿリズムに収束してし
 まうからです。
 
-[フォノリズマトロジー理論](#phonorhythmatological-theory) で説明した様に、ひと
-つの音符に１音節を割り当てるとその音符は３つに分割されます。英語の音節は３つの
-音素持っているからです。そして フォノリズマトロジー理論で説明した様に、複数の音
-節が集まると韻律節を構成し、１つの韻律節の中で頭音節、核音節、末音節と３つの要
-素に分類されます。よって１つの音符の上に２つ以上のシラブルを載せようとすると、
-次々に繰り返し三分割される結果となります。これが 3⁻ⁿ理論の基本的な原理です。
+[フォノリズマトロジー理論](/phonorhythmatological-theory/ja/) で説明した様に、
+ひとつの音符に１音節を割り当てるとその音符は３つに分割されます。英語の音節は３
+つの音素持っているからです。そして フォノリズマトロジー理論で説明した様に、複数
+の音節が集まると韻律節を構成し、１つの韻律節の中で頭音節、核音節、末音節と３つ
+の要素に分類されます。よって１つの音符の上に２つ以上のシラブルを載せようとする
+と、次々に繰り返し三分割される結果となります。これが 3⁻ⁿ理論の基本的な原理です。
 
 #### 日本人が聴き取れない６つの音韻規則＝リズム認識型 <!-- {#six-rhythm-recognition-types} -->
 
@@ -8387,7 +8387,7 @@ SPE表記法は音韻学の研究が立ち遅れている我が国日本では�
 ＆、Ｅ、Ａの３つの記号とアルファベットを使って数えるものです。
 
 * 数字
-    * 1,2,3,4,5,6,7,8,9
+    * 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20
 * 記号
     * & ( and )
 * アルファベット
@@ -8422,26 +8422,36 @@ SPE表記法は音韻学の研究が立ち遅れている我が国日本では�
 語数はとても少ないですが、これらが組み合わさると様々な発音変化が起こります。こ
 こで起こる発音変化を徹底的に学ぶことで {{< var RUBY-MOP >}} 、 {{< var RUBY-NI
 >}} 、{{< var RUBY-MPOP >}}、 及び {{< var RUBY-PNI >}} を身につけることが出来
->ます。
+ます。
 
 
-| 記号（数） | 英語表記 | IPA                                                                                                                                                       |
-| ---------: | :------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|          0 |  *zero*  | <span class="ipa" >/ˈzɪəɹoʊ/ 又は /ˈziːɹoʊ/ </span>                                                                                                      |
-|          1 |  *one*   | <span class="ipa" >/wʌn/                     </span>                                                                                                      |
-|          2 |  *two*   | <span class="ipa" >/tuː/                    </span>                                                                                                      |
-|          3 | *three*  | <span class="ipa" >/θɹiː/                  </span>                                                                                                      |
-|          4 |  *four*  | <span class="ipa" >/fɔɹ/ 又は /foʊɹ/         </span>                                                                                                      |
-|          5 |  *five*  | <span class="ipa" >/faɪv/                    </span>                                                                                                      |
-|          6 |  *six*   | <span class="ipa" >/sɪks/                    </span>                                                                                                      |
-|          7 | *seven*  | <span class="ipa" >/ˈsɛvən/                  </span>                                                                                                      |
-|          8 | *eight*  | <span class="ipa" >/eɪt/                     </span>                                                                                                      |
-|          9 |  *nine*  | <span class="ipa" >/naɪn/                    </span>                                                                                                      |
-|         10 |  *ten*   | <span class="ipa" >/tɛn/                     </span>                                                                                                      |
-|          & |  *and*   | <span class="ipa">/ænd/</span> ※ 非アクセント時 <span class="ipa">/ən/</span> 又は     <span class="ipa">/n̩/</span>                                     |
-|          e |   *e*    | <span class="ipa">/iː/</span > ※ 非アクセント時 <span class="ipa">/i/</span > )                                                                         |
-|          a |   *a*    | <span class="ipa">/eɪ/</span  > ※ 非アクセント時 <span class="ipa">/ə/</span >(シュワ), <span class="ipa">/əː/</span> 又は <span class="ipa">/ʌ/</span> |
-:  {.tbl-pron2 .tbl-header-center .tbl-third-column-wrapping .tbl-spacy tbl-colwidths=[8,8,40] }
+| 記号 |  英語表記   | IPA                                                                            | メモ                                                                                                          |
+| ---: | :---------: | :----------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------ |
+|    0 |   *zero*    | <span class="ipa" >/ˈzɪəɹoʊ/</span> 又は <span class="ipa" >/ˈziːɹoʊ/ </span> | also <span class="ipa">/ˈziɹoʊ/</span> (“zee-ro”)                                                                                    |
+|    1 |    *one*    | <span class="ipa" >/wʌn/</span>                                                | ʌ as in “cup”                                                                                               |
+|    2 |    *two*    | <span class="ipa" >/tuː/</span>                                               | long <span class="ipa">/uː/</span> as in “boot”                                                                                     |
+|    3 |   *three*   | <span class="ipa" >/θɹiː/</span>                                             | initial <span class="ipa">/θ/</span> (voiceless “th”)                                                                               |
+|    4 |   *four*    | <span class="ipa" >/fɔɹ/</span> 又は <span class="ipa" >/foʊɹ/</span>          | <span class="ipa">/ɔɹ/</span> as in “for”                                                                                              |
+|    5 |   *five*    | <span class="ipa" >/faɪv/</span>                                               | diphthong <span class="ipa">/aɪ/</span>                                                                                                |
+|    6 |    *six*    | <span class="ipa" >/sɪks/</span>                                               | short <span class="ipa">/ɪ/</span>                                                                                                     |
+|    7 |   *seven*   | <span class="ipa" >/ˈsɛvən/</span>                                             | first syllable stressed                                                                                       |
+|    8 |   *eight*   | <span class="ipa" >/eɪt/</span>                                                | diphthong <span class="ipa">/eɪ/</span>                                                                                                |
+|    9 |   *nine*    | <span class="ipa" >/naɪn/</span>                                               | diphthong <span class="ipa">/aɪ/</span>                                                                                                |
+|   10 |    *ten*    | <span class="ipa" >/tɛn/</span>                                                | short <span class="ipa">/ɛ/</span>                                                                                                     |
+|   11 |  *eleven*   | <span class="ipa" >/ɪˈlɛvən/</span>                                            | stress on second syllable                                                                                     |
+|   12 |  *twelve*   | <span class="ipa" >/twɛlv/</span>                                              | dark <span class="ipa">/l/</span>                                                                                                      |
+|   13 | *thirteen*  | <span class="ipa" >/ˌθɝˈtiːn/</span>                                         | secondary stress on first                                                                                     |
+|   14 | *fourteen*  | <span class="ipa" >/ˌfɔɹˈtiːn/</span>                                         | secondary stress on first                                                                                     |
+|   15 |  *fifteen*  | <span class="ipa" >/ˌfɪfˈtiːn/</span>                                         | note <span class="ipa">/fɪf/</span>, not <span class="ipa">/faɪv/</span>                                                                                        |
+|   16 |  *sixteen*  | <span class="ipa" >/ˌsɪkˈstiːn/</span>                                        | stress shift pattern same                                                                                     |
+|   17 | *seventeen* | <span class="ipa" >/ˌsɛvənˈtiːn/</span>                                       | schwa in 2nd syllable                                                                                         |
+|   18 | *eighteen*  | <span class="ipa" >/ˌeɪˈtiːn/</span>                                          | may reduce to <span class="ipa">[ˈeɪtin]</span>                                                                                        |
+|   19 | *nineteen*  | <span class="ipa" >/ˌnaɪnˈtiːn/</span>                                        | sometimes <span class="ipa">[ˈnaɪntin]</span>                                                                                          |
+|   20 |  *twenty*   | <span class="ipa" >/ˈtwɛnti/</span>                                            | <span class="ipa">/t/</span> may flap → <span class="ipa">[ˈtwɛnɾi]</span>                                                                                     |
+|    & |    *and*    | <span class="ipa">/ænd/</span>                                                | 弱化時<span class="ipa">/ən/</span> 又は     <span class="ipa">/n̩/</span>                                     |
+|    e |     *e*     | <span class="ipa">/iː/</span>                                                 | 弱化時<span class="ipa">/i/</span > )                                                                         |
+|    a |     *a*     | <span class="ipa">/eɪ/</span>                                                  | 弱化時<span class="ipa">/ə/</span >(シュワ), <span class="ipa">/əː/</span> 又は <span class="ipa">/ʌ/</span> |
+:  {.tbl-pron2 .tbl-header-center  .tbl-spacy tbl-colwidths=[8,8,40] }
 
 
 ##### 声門閉鎖音(ʔ)について
@@ -8455,9 +8465,21 @@ SPE表記法は音韻学の研究が立ち遅れている我が国日本では�
 特にジャズのスキャットやラップなど、音楽の上で発音される英語では特に多用され、
 リズムを表現する為の重要な発音のひとつといえます。
 
-#### 3ⁿリズムのカウントへのマッピング
+#### カウントとリズム
+
+リズム中の多次元構造を表現する為に、この **0~20** 及び **&,e,a** の文字を並べるこ
+とでことで様々な並びの羅列が出来上がります。この組み合わせのことを**カウントセ
+ット** と呼びます。
+
+- **カウントセットの例**
+  - *1,2,3,4,2,2,3,4*
+  - *1,&,2,&,3,&,4,&,2,&,2,&,3,&,4,&*
+  - *1,e,&,a,2,e,&,a,3,e,&,a,4,e,&,a,*
+  - ...
+
 
 <!--
+＃＃＃＃ カウント上での2⁻ⁿリズム及び3⁻ⁿリズム
 
 - 3ⁿグルーヴ理論で音節が３音素からなることを説明した。
 - 3レベルが必要なことを説明する必要がある→ 3レベルって何？
@@ -8475,12 +8497,11 @@ SPE表記法は音韻学の研究が立ち遅れている我が国日本では�
 <td><img src="/hypergroove/attachments/cat-coda.png"/></td>
 </tr>
 </table>
-
 -->
 
 
 
-#### カウントの{{< var RUBY-PNS>}}について
+#### 音韻表記厳密化とは何か
 
 英語を母国語とする人々は、特別な訓練をしない状態でもこの１拍１単語を割り当てる
 表記方法から自然にグルーヴするリズム解釈を抽出することができます。何故なら英語
@@ -8501,52 +8522,57 @@ SPE表記法は音韻学の研究が立ち遅れている我が国日本では�
 
 この手法をここでは**{{< var RUBY-PNS>}}**と呼びます。
 
-ここでは音韻厳密化の深度を９つのリズム認識型を元に９つのレベルに分けて考えます。
+#### 音韻表記厳密化の７つのレベル <!-- {#prosodic-notation-strictification} -->
+**{{< var RUBY-PNS>}}** には７つのレベルがあります。これは音韻表記厳密化の深度
+を７つのリズム認識型を元に７つのレベルに分けることで導き出したものです。
 
 - {{< var RUBY-PNS>}}レベル
-  - レベル１: {{< var RUBY-MiOP>}}
-  - レベル２: {{< var RUBY-NI>}}
-  - レベル３: {{< var RUBY-MOP>}}
-  - レベル４: {{< var RUBY-MiPOP>}}
-  - レベル５: {{< var RUBY-PNI>}}
-  - レベル６: {{< var RUBY-MPOP>}}
-  - レベル７: {{< var RUBY-MiPOP>}}
-  - レベル８: {{< var RUBY-MNI>}}
-  - レベル９: {{< var RUBY-MMOP>}}
+  - レベル0: {{< var RUBY-MiOP>}}
+  - レベル1: {{< var RUBY-NI>}}
+  - レベル2: {{< var RUBY-MOP>}}
+  - レベル3: {{< var RUBY-PNI>}}
+  - レベル4: {{< var RUBY-MPOP>}}
+  - レベル5: {{< var RUBY-MNI>}}
+  - レベル6: {{< var RUBY-MMOP>}}
 
-この９つのリズム認識型を考慮した上で譜割りに反映します。
+これら７つのリズム認識型を考慮した上で譜割りに反映します。
 
 | 音韻厳密化LV |    最適化する要素     | 音韻規則LV | 必要なサブディヴィジョンLV |
-| :--------------: | :-------------------: | :------------: | :------------------: |
-|        １        | {{< var RUBY-MiOP>}}  |       １       |    **3⁻¹=1/3**      |
-|        ２        |  {{< var RUBY-NI>}}   |       １       |    **3⁻¹=1/3**      |
-|        ３        |  {{< var RUBY-MOP>}}  |       １       |    **3⁻¹=1/3**      |
-|        ４        | {{< var RUBY-MiPOP>}} |       ２       |    **3⁻²=1/9**      |
-|        ５        |  {{< var RUBY-PNI>}}  |       ２       |    **3⁻²=1/9**      |
-|        ６        | {{< var RUBY-MPOP>}}  |       ２       |    **3⁻²=1/9**      |
-|        ７        | {{< var RUBY-MiMOP>}} |       ３       |    **3⁻³=1/27**     |
-|        ８        |  {{< var RUBY-MNI>}}  |       ３       |    **3⁻³=1/27**     |
-|        ９        | {{< var RUBY-MMOP>}}  |       ３       |    **3⁻³=1/27**     |
+| :----------: | :-------------------: | :--------: | :------------------------: |
+|      ０      | {{< var RUBY-MiOP>}}  |     ０     |        **3⁻¹=1/3**        |
+|      １      |  {{< var RUBY-NI>}}   |     １     |        **3⁻¹=1/3**        |
+|      ２      |  {{< var RUBY-MOP>}}  |     １     |        **3⁻¹=1/3**        |
+|      ３      |  {{< var RUBY-PNI>}}  |     ２     |        **3⁻²=1/9**        |
+|      ４      | {{< var RUBY-MPOP>}}  |     ２     |        **3⁻²=1/9**        |
+|      ５      |  {{< var RUBY-MNI>}}  |     ３     |       **3⁻³=1/27**        |
+|      ６      | {{< var RUBY-MMOP>}}  |     ３     |       **3⁻³=1/27**        |
 :  {.tbl-pron2 .tbl-header-center   tbl-colwidths=[10,1,1,1] }
 
+#### 音韻規則の３つのレベルについて
 
-ここで必要な音韻厳密化レベルによって、必要となる音韻規則レベルが異なることに注
-意します。音韻規則レベルによって必要なサブディヴィジョン数が決まるからです。
+７つの音韻表記厳密化にはそれぞれ、必要となる音韻規則レベルが異なることに注意し
+て下さい。この音韻規則レベルによって、必要なサブディヴィジョン数が決まります。
 
 - **音韻規則レベル１ 音素レベル = 3⁻¹=1/3**
 - **音韻規則レベル２ 音節レベル = 3⁻²=1/9**
 - **音韻規則レベル３ 韻律レベル = 3⁻³=1/27**
 
-これらを踏まえて定義したカウントを譜面として表すと次のようになります。次節以降
-でこれらのカウントを音韻厳密化します。
-
-※ 以下の譜面は音韻厳密化を行う前の譜面であることに注意して下さい。１音節に３音
-素ある為、音符１つに対して１音節を割り当てると、その音符は３分割されます。以下
-の譜面は、３分割される前の表記になっています。つまり必要なサブディヴィジョンが
-３ならばそれは４分音符１つとして表記されます。
+これを**音韻規則の３つのレベル**と呼びます。
 
 
-##### 音韻規則レベル１ 音素レベル
+#### ３つの基本カウントセットについて
+
+これらの音韻規則レベルが要求するサブディヴィジョン数を踏まえた上で**カウントセ
+ット**を定義したものを譜面として表すと次のようになります。これを基本カウントセ
+ットと呼びます。 基本カウントセットは、現在のところ全部で３種類あります。
+
+なお、これらの譜面は音韻厳密化を行う前の譜面であることに注意して下さい。１音節
+に３音素ある為、音符１つに対して１音節を割り当てると、その音符は３分割されます。
+以下の譜面は、３分割される前の表記になっています。つまり必要なサブディヴィジョ
+ンが３ならばそれは４分音符１つとして表記されます。
+
+##### 音韻規則レベル１=音素レベル
+
 **サブディヴィジョンレベル = 3⁻¹=1/3**
 
 ```{.lilypond}
@@ -8555,29 +8581,48 @@ SPE表記法は音韻学の研究が立ち遅れている我が国日本では�
 % X9KrQ+HRqEh26eGAI4TXNA==
 ```
 
-##### 音韻規則レベル２ 音節レベル
+##### 音韻規則レベル２=音節レベル
 **サブディヴィジョンレベル = 3⁻²=1/9**
 
 ```{.lilypond}
 \include "lilypond-book-preamble.ly"
-\include "rhythmpedia-ly/shared/rhythmdo-lv3-lv3-000.ly"
-%  2025/10/09 20:31:30
+% \include "rhythmpedia-ly/shared/rhythmdo-lv3-lv3-000.ly"
+\include "rhythmpedia-ly/shared/rhythmdo-lv3-lv3-000-tuplet.ly"
+%AZDOdTG0Hqjo0FVZGz6jMA==
 ```
 
-##### 音韻規則レベル３ 韻律レベル
+##### 音韻規則レベル３=韻律レベル
  **サブディヴィジョンレベル = 3⁻³=1/27**
 
 ```{.lilypond}
 \include "lilypond-book-preamble.ly"
-\include "rhythmpedia-ly/shared/rhythmdo-lv7-lv1.ly"
-% 89tl+ctoDLbo9EUJUPCj5w==
+% \include "rhythmpedia-ly/shared/rhythmdo-lv7-lv1.ly"
+\include "rhythmpedia-ly/shared/rhythmdo-lv7-lv1-tuplet.ly"
+% rH39gT8Svtq27HDuq1ZaWQ==
 ```
 
+#### 実際の音韻表記厳密化
 
+これから実際にカウントセットに対して実際に音韻表記厳密化を行います。これまでに
+御紹介致しました３つの音韻規則レベルに沿って作られたカウントに対して７つの音韻
+表記厳密化を順番に行います。
 
-##### レベル０ {{< var RUBY-MiOP>}} {#notation-by-minimum-prosodic-onset-principle}
+##### 音韻規則レベル１=音素レベル
 
-単純に先頭から音韻を順番に割り当てる表記方法がこの**レベル０音韻厳密化**です。
+音韻規則レベル１のカウントを音韻表記厳密化していきます。音韻規則レベル１のカウ
+ントは音韻規則レベル１＝音韻表記厳密化レベル３までの音韻表記厳密化しか行うこと
+が出来ません。ここからレベル３までの音韻厳密化を行います。
+
+```{.lilypond}
+\include "lilypond-book-preamble.ly"
+\include "rhythmpedia-ly/shared/rhythmdo-001.ly"
+% X9KrQ+HRqEh26eGAI4TXNA==
+```
+
+###### レベル0 {{< var RUBY-MiOP>}} {#notation-by-minimum-prosodic-onset-principle}
+
+まず音符を音素に分解したのちに、単純に先頭から音韻を順番に割り当てる表記方法が
+この**レベル0音韻厳密化**です。
 
 ```{.lilypond}
 \include "lilypond-book-preamble.ly"
@@ -8589,7 +8634,7 @@ SPE表記法は音韻学の研究が立ち遅れている我が国日本では�
 1. 音韻厳密化がない抽象的なゼロ音韻厳密化
 2. 頭子音最小化原則に対する音韻厳密化
 
-レベル０はレベル１以降で行う音韻厳密化を行いません。ここからレベル０を抽象的な
+レベル0はレベル１以降で行う音韻厳密化を行いません。ここからレベル0を抽象的な
 **ゼロ{{< var RUBY-PNS>}}**と考えることができます。 これが１つ目の解釈です。
 
 ２つ目の解釈は、このゼロ{{< var RUBY-PNS>}}を **{{< var RUBY-MiOP>}} に対して音
@@ -8599,7 +8644,7 @@ SPE表記法は音韻学の研究が立ち遅れている我が国日本では�
 ス拍リズム言語で書かれた歌詞の歌を歌おうとしたり、スペイン語フランス語ギリシャ
 語などのシラブル拍リズム言語で書かれた歌詞の歌を歌おうとすると、日本語のモーラ
 拍リズムのリズム解釈が表出することによって、リズム解釈に独特な間違いが生じます。
-レベル０音韻厳密化は、この**日本語での間違ったリズム解釈を譜面化したもの**とい
+レベル0音韻厳密化は、この**日本語での間違ったリズム解釈を譜面化したもの**とい
 えます。
 
 その日本語での独特な間違いとは**{{< var RUBY-NI >}}が守られない**ことです。
@@ -8650,13 +8695,13 @@ SPE表記法は音韻学の研究が立ち遅れている我が国日本では�
 RUBY-MI>}}**は、音の始まりという視点で見ると等間隔ではありません。これが日本人
 がグルーヴしない理由の正体です。
 
-###### 譜面に対する忠実さの違い
+**譜面に対する忠実さの違い**
 
-このレベル０、**ゼロ{{< var RUBY-PNS>}} **は、日本人が譜面に対する忠実さを最大
-限に守った結果としてしばしば現れます。シラブル拍リズム言語やストレス拍リズム言
-語を母国語とする人々が、譜面に書かれていなくとも暗黙の了解として守っているルー
-ルの存在を知らない状態で守る譜面に対する忠実さは、音楽に対する破壊行為と断じて
-も過言ではありません。
+このレベル0**ゼロ{{< var RUBY-PNS>}}**は、日本人が譜面に対する忠実さを最大限に
+守った結果としてしばしば現れます。シラブル拍リズム言語やストレス拍リズム言語を
+母国語とする人々が、譜面に書かれていなくとも暗黙の了解として守っているルールの
+存在を知らない状態で守る譜面に対する忠実さは、音楽に対する破壊行為と断じても過
+言ではありません。
 
 日本人として発音の違いに対して謙虚になり、違いに興味を持ち、音韻学をよく学んで
 海外で一般的な譜面の解釈を学ぶことの大切さはいくら強調しても強調しすぎることは
@@ -8665,7 +8710,7 @@ RUBY-MI>}}**は、音の始まりという視点で見ると等間隔ではあ�
 以下のレベル１以降はそういう譜面の解釈の一例を形式化したものです。貴方の志を世
 界中の人々に届ける為の淀みない発音を実現する為にこれらのレベルは存在します。
 
-##### レベル１ {{< var RUBY-NI >}}
+###### レベル1 {{< var RUBY-NI >}}
 
 モーラ拍リズムを母国語とする人が最初に直面する問題は、{{< var RUBY-NI >}}リズム
 認識型を持たないことにより、子音の位置を強拍よりも前に発音できないことです。
@@ -8681,8 +8726,7 @@ RUBY-MI>}}**は、音の始まりという視点で見ると等間隔ではあ�
 
 この様にシラブル拍リズム言語を話す人々は、子音を弱拍位置で発音する習慣を持っています。
 
-
-##### レベル２ {{< var RUBY-MOP >}}
+###### レベル2 {{< var RUBY-MOP >}}
 
 シラブル拍リズム言語は更に{{< var RUBY-MOP >}}リズム認識型を持っており、子音を
 弱拍位置で発音するだけでなく、その直前の末子音を全て可能な限りまとめて発音する
@@ -8705,12 +8749,25 @@ RUBY-MI>}}**は、音の始まりという視点で見ると等間隔ではあ�
 % ejQTU5OlDKzaYh1qSRDOHg==
 ```
 
-##### レベル３ {{< var RUBY-PNI >}}
+**音韻規則レベル１ 音素レベル = 3⁻¹=1/3** で可能な音韻表記厳密化はレベル2まで
+です。これ以降の音韻表記厳密化は音韻規則レベル2以上のカウント上で行う必要があり
+ます。
 
-レベル３ {{< var RUBY-PNS>}} からはこれまでの音素のみの厳密化だけでなく音節の厳
-密化を行います。音素だけでなく音節に対する厳密化を行うために弱拍基軸の階層を１
-つ増やす必要があります。
 
+##### 音韻規則レベル２=音節レベル
+
+レベル3 {{< var RUBY-PNS>}} からはこれまでの音韻規則レベル1=音素のみの厳密化だ
+けでなく音節レベルでの音韻表記厳密化を行います。
+
+音韻規則レベル1のカウントでは音韻表記厳密化レベル2までの音韻表記厳密化しか行う
+ことが出来ません。音素だけでなく音節に対する厳密化を行うために弱拍基軸の階層を
+１つ増やした音韻レベル2のカウントを利用する必要があります。音韻表記厳密化レベル
+3からは音韻規則レベル2のカウントに移行した上で音韻表記厳密化レベル3及び4の音韻
+厳密化を行います。
+
+音韻規則レベル2での音韻表記厳密化の基本的な考え方は次の通りです。
+
+音韻規則レベル2のカウントセットを見てみます。
 
 ```{.lilypond}
 \include "lilypond-book-preamble.ly"
@@ -8718,7 +8775,7 @@ RUBY-MI>}}**は、音の始まりという視点で見ると等間隔ではあ�
 % feYzEFVxwo1+EeumMUpGQw==
 ```
 
-そして階層を１つ増やした上でレベル３の趣旨である**{{< var RUBY-PNI >}}**を適用します。
+これに対して音韻表記厳密化**レベル３{{< var RUBY-PNI >}}**を適用します。
 
 ```{.lilypond}
 \include "lilypond-book-preamble.ly"
@@ -8726,23 +8783,32 @@ RUBY-MI>}}**は、音の始まりという視点で見ると等間隔ではあ�
 % 4LH9TXuz1hivqz4PkIjG+Q==
 ```
 
-これでレベル３ {{< var RUBY-PNI >}} が完了しました。しかしここに、これまでに行
-ってきたレベル１ {{< var RUBY-NI >}}とレベル２ {{< var RUBY-MOP >}} の {{< var
-RUBY-PNI >}} を行う必要があります。
+これで**レベル3 {{< var RUBY-PNI >}}** が完了しました。
 
-まずこの２階層のカウントに対してレベル１とレベル２を{{<var RUBY-PNS>}}を行いま
-す。
+しかしここで同時に、これまでに行ってきたレベル1 {{< var RUBY-NI >}}とレベル2
+{{< var RUBY-MOP >}} の {{< var RUBY-PNI >}} を行う必要があります。次節からこの
+２階層カウントに対してレベル1とレベル2を{{<var RUBY-PNS>}}を行います。
 
 
-###### ２階層版レベル０ {{< var RUBY-MiOP>}} 
+###### レベル0 {{< var RUBY-MiOP>}} 
 
 ```{.lilypond}
 \include "lilypond-book-preamble.ly"
-\include "rhythmpedia-ly/shared/rhythmdo-lv3-lv0.ly"
-% bx/+Uzn54FezLD2lCPTzPQ==
+% \include "rhythmpedia-ly/shared/rhythmdo-lv0-000.ly"
+% \include "rhythmpedia-ly/shared/rhythmdo-lv2-lv0-000.ly"
+\include "rhythmpedia-ly/shared/rhythmdo-2-lv2-lv0-000.ly"
+% HwkCa+fvqS7mRdNhlJzxrA==
 ```
 
-###### ２階層版レベル１ {{< var RUBY-NI>}} 
+<!--
+```{.lilypond}
+\include "lilypond-book-preamble.ly"
+% \include "rhythmpedia-ly/shared/rhythmdo-lv3-lv0.ly"
+% bx/+Uzn54FezLD2lCPTzPQ==
+```
+-->
+
+###### レベル1 {{< var RUBY-NI>}} 
 
 ```{.lilypond}
 \include "lilypond-book-preamble.ly"
@@ -8750,7 +8816,7 @@ RUBY-PNI >}} を行う必要があります。
 % hp9tEemKzSWyz3cECsY9cg==
 ```
 
-###### ２階層版レベル２ {{< var RUBY-MOP>}} 
+###### レベル2 {{< var RUBY-MOP>}} 
 
 ```{.lilypond}
 \include "lilypond-book-preamble.ly"
@@ -8758,7 +8824,7 @@ RUBY-PNI >}} を行う必要があります。
 % whX0x3T9aEuiq77riEwZLQ==
 ```
 
-###### ２階層版レベル３ {{< var RUBY-MOP>}} 
+###### レベル４ {{< var RUBY-MiPOP>}}
 
 ここまででレベル２までの{{<var RUBY-PNS>}}が完了しました。ようやく次がこのレベ
 ルの要点であるレベル３ {{< var RUBY-PNI >}} を適用する行程に入ります。
@@ -8792,7 +8858,9 @@ RUBY-PNS>}} を行うことで レベル３ {{< var RUBY-PNI >}} を実現しま
 % kQ+MOn1ee8Z9EcH0DMpl5A==
 ```
 
-##### レベル４ {{< var RUBY-MPOP >}}
+###### レベル５ {{< var RUBY-PNI >}}
+
+###### レベル６ {{< var RUBY-MPOP >}}
 
 レベル４は更に弱拍先行を更に推し進めます。
 
@@ -8812,6 +8880,21 @@ RUBY-PNS>}} を行うことで レベル３ {{< var RUBY-PNI >}} を実現しま
 \include "rhythmpedia-ly/shared/rhythmdo-lv4-000.ly"
 % c45uKGy1snAYS4TsXhqXLQ==
 ```
+
+##### 音韻規則レベル３=韻律レベル
+
+音韻規則レベル３のカウントを音韻表記厳密化していきます。音韻規則レベル１のカウ
+ントは音韻規則レベル１＝音韻表記厳密化レベル３までの音韻表記厳密化しか行うこと
+が出来ません。ここからレベル３までの音韻厳密化を行います。
+
+
+```{.lilypond}
+\include "lilypond-book-preamble.ly"
+% \include "rhythmpedia-ly/shared/rhythmdo-lv7-lv1.ly"
+\include "rhythmpedia-ly/shared/rhythmdo-lv7-lv1-tuplet.ly"
+% YzptHWXuuSWwYFzSw/Vp2g==
+```
+
 
 
 ### 三連符オフビートカウントの発音
