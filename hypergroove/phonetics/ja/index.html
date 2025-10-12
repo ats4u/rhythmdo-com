@@ -43,9 +43,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-5c212009cef5e5085d6901d8ff831ddb.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../../site_libs/bootstrap/bootstrap-dark-d7e737b76c4030e5dfa93ed75991027b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../../site_libs/bootstrap/bootstrap-5c212009cef5e5085d6901d8ff831ddb.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-c7b657e0b42024917fbb45638aab1b4b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark-79abf4aa573a34d2a850395b4a395f7e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../../site_libs/bootstrap/bootstrap-c7b657e0b42024917fbb45638aab1b4b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -94,8 +94,8 @@ ul.task-list li input[type="checkbox"] {
     enable_page_level_ads: true
   });
 </script>
-<meta name="mdate" content="2025-10-09T17:48:52Z">
-<meta property="article:modified_time" content="2025-10-09T17:48:52Z">
+<meta name="mdate" content="2025-10-12T04:16:01Z">
+<meta property="article:modified_time" content="2025-10-12T04:16:01Z">
 <meta name="cdate" content="2025-06-08">
 <meta property="article:published_time" content="2025-06-08">
 
@@ -527,26 +527,34 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#字句のipa表記一覧" id="toc-字句のipa表記一覧" class="nav-link" data-scroll-target="#字句のipa表記一覧">字句のIPA表記一覧</a></li>
   <li><a href="#声門閉鎖音ʔについて" id="toc-声門閉鎖音ʔについて" class="nav-link" data-scroll-target="#声門閉鎖音ʔについて">声門閉鎖音(ʔ)について</a></li>
   </ul></li>
-  <li><a href="#ⁿリズムのカウントへのマッピング" id="toc-ⁿリズムのカウントへのマッピング" class="nav-link" data-scroll-target="#ⁿリズムのカウントへのマッピング">3ⁿリズムのカウントへのマッピング</a></li>
-  <li><a href="#カウントの-について" id="toc-カウントの-について" class="nav-link" data-scroll-target="#カウントの-について">カウントの<ruby>音韻表記厳密化<rt>PNI = Prosodic Notation Strictification</rt></ruby>について</a>
+  <li><a href="#カウントとリズム" id="toc-カウントとリズム" class="nav-link" data-scroll-target="#カウントとリズム">カウントとリズム</a></li>
+  <li><a href="#音韻表記厳密化とは何か" id="toc-音韻表記厳密化とは何か" class="nav-link" data-scroll-target="#音韻表記厳密化とは何か">音韻表記厳密化とは何か</a></li>
+  <li><a href="#prosodic-notation-strictification" id="toc-prosodic-notation-strictification" class="nav-link" data-scroll-target="#prosodic-notation-strictification">音韻表記厳密化の７つのレベル</a></li>
+  <li><a href="#音韻規則の３つのレベルについて" id="toc-音韻規則の３つのレベルについて" class="nav-link" data-scroll-target="#音韻規則の３つのレベルについて">音韻規則の３つのレベルについて</a></li>
+  <li><a href="#つの基本カウントセットについて" id="toc-つの基本カウントセットについて" class="nav-link" data-scroll-target="#つの基本カウントセットについて">３つの基本カウントセットについて</a>
   <ul>
-  <li><a href="#音韻規則レベル１-音素レベル" id="toc-音韻規則レベル１-音素レベル" class="nav-link" data-scroll-target="#音韻規則レベル１-音素レベル">音韻規則レベル１ 音素レベル</a></li>
-  <li><a href="#音韻規則レベル２-音節レベル" id="toc-音韻規則レベル２-音節レベル" class="nav-link" data-scroll-target="#音韻規則レベル２-音節レベル">音韻規則レベル２ 音節レベル</a></li>
-  <li><a href="#音韻規則レベル３-韻律レベル" id="toc-音韻規則レベル３-韻律レベル" class="nav-link" data-scroll-target="#音韻規則レベル３-韻律レベル">音韻規則レベル３ 韻律レベル</a></li>
-  <li><a href="#notation-by-minimum-prosodic-onset-principle" id="toc-notation-by-minimum-prosodic-onset-principle" class="nav-link" data-scroll-target="#notation-by-minimum-prosodic-onset-principle">レベル０ <ruby>頭子音最小化原則<rt>MiOP = Minimum Onset Principle</rt></ruby></a>
-  <ul>
-  <li><a href="#譜面に対する忠実さの違い" id="toc-譜面に対する忠実さの違い" class="nav-link" data-scroll-target="#譜面に対する忠実さの違い">譜面に対する忠実さの違い</a></li>
+  <li><a href="#音韻規則レベル１音素レベル" id="toc-音韻規則レベル１音素レベル" class="nav-link" data-scroll-target="#音韻規則レベル１音素レベル">音韻規則レベル１=音素レベル</a></li>
+  <li><a href="#音韻規則レベル２音節レベル" id="toc-音韻規則レベル２音節レベル" class="nav-link" data-scroll-target="#音韻規則レベル２音節レベル">音韻規則レベル２=音節レベル</a></li>
+  <li><a href="#音韻規則レベル３韻律レベル" id="toc-音韻規則レベル３韻律レベル" class="nav-link" data-scroll-target="#音韻規則レベル３韻律レベル">音韻規則レベル３=韻律レベル</a></li>
   </ul></li>
-  <li><a href="#レベル１" id="toc-レベル１" class="nav-link" data-scroll-target="#レベル１">レベル１ <ruby>音節核の等時性<rt>NI = Nuclear Isochrony</rt></ruby></a></li>
-  <li><a href="#レベル２" id="toc-レベル２" class="nav-link" data-scroll-target="#レベル２">レベル２ <ruby>頭子音最大化原則<rt>MOP = Maximal Onset Principle</rt></ruby></a></li>
-  <li><a href="#レベル３" id="toc-レベル３" class="nav-link" data-scroll-target="#レベル３">レベル３ <ruby>核音節の等時性<rt>PNI = Prosodic Nuclear Isochrony</rt></ruby></a>
+  <li><a href="#実際の音韻表記厳密化" id="toc-実際の音韻表記厳密化" class="nav-link" data-scroll-target="#実際の音韻表記厳密化">実際の音韻表記厳密化</a>
   <ul>
-  <li><a href="#階層版レベル０" id="toc-階層版レベル０" class="nav-link" data-scroll-target="#階層版レベル０">２階層版レベル０ <ruby>頭子音最小化原則<rt>MiOP = Minimum Onset Principle</rt></ruby></a></li>
-  <li><a href="#階層版レベル１" id="toc-階層版レベル１" class="nav-link" data-scroll-target="#階層版レベル１">２階層版レベル１ <ruby>音節核の等時性<rt>NI = Nuclear Isochrony</rt></ruby></a></li>
-  <li><a href="#階層版レベル２" id="toc-階層版レベル２" class="nav-link" data-scroll-target="#階層版レベル２">２階層版レベル２ <ruby>頭子音最大化原則<rt>MOP = Maximal Onset Principle</rt></ruby></a></li>
-  <li><a href="#階層版レベル３" id="toc-階層版レベル３" class="nav-link" data-scroll-target="#階層版レベル３">２階層版レベル３ <ruby>頭子音最大化原則<rt>MOP = Maximal Onset Principle</rt></ruby></a></li>
+  <li><a href="#音韻規則レベル１音素レベル-1" id="toc-音韻規則レベル１音素レベル-1" class="nav-link" data-scroll-target="#音韻規則レベル１音素レベル-1">音韻規則レベル１=音素レベル</a>
+  <ul>
+  <li><a href="#notation-by-minimum-prosodic-onset-principle" id="toc-notation-by-minimum-prosodic-onset-principle" class="nav-link" data-scroll-target="#notation-by-minimum-prosodic-onset-principle">レベル0 <ruby>頭子音最小化原則<rt>MiOP = Minimum Onset Principle</rt></ruby></a></li>
+  <li><a href="#レベル1" id="toc-レベル1" class="nav-link" data-scroll-target="#レベル1">レベル1 <ruby>音節核の等時性<rt>NI = Nuclear Isochrony</rt></ruby></a></li>
+  <li><a href="#レベル2" id="toc-レベル2" class="nav-link" data-scroll-target="#レベル2">レベル2 <ruby>頭子音最大化原則<rt>MOP = Maximal Onset Principle</rt></ruby></a></li>
   </ul></li>
-  <li><a href="#レベル４" id="toc-レベル４" class="nav-link" data-scroll-target="#レベル４">レベル４ <ruby>頭音節最大化原則<rt>MPOP = Maximal Prosodic Onset Principle</rt></ruby></a></li>
+  <li><a href="#音韻規則レベル２音節レベル-1" id="toc-音韻規則レベル２音節レベル-1" class="nav-link" data-scroll-target="#音韻規則レベル２音節レベル-1">音韻規則レベル２=音節レベル</a>
+  <ul>
+  <li><a href="#レベル0" id="toc-レベル0" class="nav-link" data-scroll-target="#レベル0">レベル0 <ruby>頭子音最小化原則<rt>MiOP = Minimum Onset Principle</rt></ruby></a></li>
+  <li><a href="#レベル1-1" id="toc-レベル1-1" class="nav-link" data-scroll-target="#レベル1-1">レベル1 <ruby>音節核の等時性<rt>NI = Nuclear Isochrony</rt></ruby></a></li>
+  <li><a href="#レベル2-1" id="toc-レベル2-1" class="nav-link" data-scroll-target="#レベル2-1">レベル2 <ruby>頭子音最大化原則<rt>MOP = Maximal Onset Principle</rt></ruby></a></li>
+  <li><a href="#レベル４" id="toc-レベル４" class="nav-link" data-scroll-target="#レベル４">レベル４ <ruby>頭音節最小化原則<rt>MiPOP = Minimum Prosodic Onset Principle</rt></ruby></a></li>
+  <li><a href="#レベル５" id="toc-レベル５" class="nav-link" data-scroll-target="#レベル５">レベル５ <ruby>核音節の等時性<rt>PNI = Prosodic Nuclear Isochrony</rt></ruby></a></li>
+  <li><a href="#レベル６" id="toc-レベル６" class="nav-link" data-scroll-target="#レベル６">レベル６ <ruby>頭音節最大化原則<rt>MPOP = Maximal Prosodic Onset Principle</rt></ruby></a></li>
+  </ul></li>
+  <li><a href="#音韻規則レベル３韻律レベル-1" id="toc-音韻規則レベル３韻律レベル-1" class="nav-link" data-scroll-target="#音韻規則レベル３韻律レベル-1">音韻規則レベル３=韻律レベル</a></li>
   </ul></li>
   </ul></li>
   <li><a href="#三連符オフビートカウントの発音" id="toc-三連符オフビートカウントの発音" class="nav-link" data-scroll-target="#三連符オフビートカウントの発音">三連符オフビートカウントの発音</a></li>
@@ -4112,7 +4120,7 @@ SPE表記法は音韻学の研究が立ち遅れている我が国日本では�
 <p>日本語は、末子音がないので１音節が『頭子音＋母音』の２要素で構成され、それをレゴブロックの様に繰り返し並べることでリズムを作るので、どうやっても必ず２連符４連符８連符１６連符になり、だから８分音符構成＝厳密に言うと2⁻ⁿリズム(1/2,1/4,1/8,1/16…) 構成になって、音符がずれる距離も２の倍数で割り切れる位置に収束しますが、しかし英語は末子音があるので、１音節が『頭子音＋母音＋末子音』の３要素で構成され、それを音符１つ１つに２〜３音節を割り当てた状態で母音を等間隔に並べるので、どうやっても必ず９連符とか２７連符８１連符になり、だから3連符構成＝厳密に言うと3⁻ⁿリズム(1/3,1/9,1/27,1/81…)構成になり、音符のずれも3⁻ⁿで割り切れる位置に収束します。</p>
 <p>日本人がグルーヴを感覚的に理解できない理由はここにあります。─── 英語の音楽が何故3⁻ⁿになるのか…と表現するより、日本語の音楽が何故2⁻ⁿになるのかと表現した方がより本質を言い当てています。世界中のリズムの大半はシラブル拍リズムで末子音を持っています。末子音をもたない日本語のリズムの方がずっと奇異なのです。</p>
 <p>日本語を話す人は、スイングの様に跳ねた３連符の3⁻ⁿリズムを演奏しようとしてもどこか硬さがのこり３連符独特な重みを持って跳ねる感じが出なません。それは末子音をもたない日本語では認識上のリズムが必ず８分音符(２連符)の2⁻ⁿリズムに収束してしまうからです。</p>
-<p><a href="#phonorhythmatological-theory">フォノリズマトロジー理論</a> で説明した様に、ひとつの音符に１音節を割り当てるとその音符は３つに分割されます。英語の音節は３つの音素持っているからです。そして フォノリズマトロジー理論で説明した様に、複数の音節が集まると韻律節を構成し、１つの韻律節の中で頭音節、核音節、末音節と３つの要素に分類されます。よって１つの音符の上に２つ以上のシラブルを載せようとすると、次々に繰り返し三分割される結果となります。これが 3⁻ⁿ理論の基本的な原理です。</p>
+<p><a href="../../../phonorhythmatological-theory/ja/">フォノリズマトロジー理論</a> で説明した様に、ひとつの音符に１音節を割り当てるとその音符は３つに分割されます。英語の音節は３つの音素持っているからです。そして フォノリズマトロジー理論で説明した様に、複数の音節が集まると韻律節を構成し、１つの韻律節の中で頭音節、核音節、末音節と３つの要素に分類されます。よって１つの音符の上に２つ以上のシラブルを載せようとすると、次々に繰り返し三分割される結果となります。これが 3⁻ⁿ理論の基本的な原理です。</p>
 </section>
 <section id="six-rhythm-recognition-types" class="level4">
 <h4 class="anchored" data-anchor-id="six-rhythm-recognition-types">日本人が聴き取れない６つの音韻規則＝リズム認識型</h4>
@@ -4160,7 +4168,7 @@ SPE表記法は音韻学の研究が立ち遅れている我が国日本では�
 <ul>
 <li>数字
 <ul>
-<li>1,2,3,4,5,6,7,8,9</li>
+<li>0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20</li>
 </ul></li>
 <li>記号
 <ul>
@@ -4184,90 +4192,166 @@ SPE表記法は音韻学の研究が立ち遅れている我が国日本では�
 </section>
 <section id="字句のipa表記一覧" class="level5">
 <h5 class="anchored" data-anchor-id="字句のipa表記一覧">字句のIPA表記一覧</h5>
-<p>オフビートカウントを行う時に必要となる単語の発音は以下の通りです。 覚えるべき単語数はとても少ないですが、これらが組み合わさると様々な発音変化が起こります。ここで起こる発音変化を徹底的に学ぶことで <ruby>頭子音最大化原則<rt>MOP = Maximal Onset Principle</rt></ruby> 、 <ruby>音節核の等時性<rt>NI = Nuclear Isochrony</rt></ruby> 、<ruby>頭音節最大化原則<rt>MPOP = Maximal Prosodic Onset Principle</rt></ruby>、 及び <ruby>核音節の等時性<rt>PNI = Prosodic Nuclear Isochrony</rt></ruby> を身につけることが出来&gt;ます。</p>
-<table class="tbl-pron2 tbl-header-center tbl-third-column-wrapping tbl-spacy caption-top table">
+<p>オフビートカウントを行う時に必要となる単語の発音は以下の通りです。 覚えるべき単語数はとても少ないですが、これらが組み合わさると様々な発音変化が起こります。ここで起こる発音変化を徹底的に学ぶことで <ruby>頭子音最大化原則<rt>MOP = Maximal Onset Principle</rt></ruby> 、 <ruby>音節核の等時性<rt>NI = Nuclear Isochrony</rt></ruby> 、<ruby>頭音節最大化原則<rt>MPOP = Maximal Prosodic Onset Principle</rt></ruby>、 及び <ruby>核音節の等時性<rt>PNI = Prosodic Nuclear Isochrony</rt></ruby> を身につけることが出来ます。</p>
+<table class="tbl-pron2 tbl-header-center tbl-spacy caption-top table">
 <colgroup>
 <col style="width: 8%">
 <col style="width: 8%">
 <col style="width: 40%">
+<col style="width: 40%">
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: right;">記号（数）</th>
+<th style="text-align: right;">記号</th>
 <th style="text-align: center;">英語表記</th>
 <th style="text-align: left;">IPA</th>
+<th style="text-align: left;">メモ</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td style="text-align: right;">0</td>
 <td style="text-align: center;"><em>zero</em></td>
-<td style="text-align: left;"><span class="ipa">/ˈzɪəɹoʊ/ 又は /ˈziːɹoʊ/ </span></td>
+<td style="text-align: left;"><span class="ipa">/ˈzɪəɹoʊ/</span> 又は <span class="ipa">/ˈziːɹoʊ/ </span></td>
+<td style="text-align: left;">also <span class="ipa">/ˈziɹoʊ/</span> (“zee-ro”)</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">1</td>
 <td style="text-align: center;"><em>one</em></td>
-<td style="text-align: left;"><span class="ipa">/wʌn/ </span></td>
+<td style="text-align: left;"><span class="ipa">/wʌn/</span></td>
+<td style="text-align: left;">ʌ as in “cup”</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">2</td>
 <td style="text-align: center;"><em>two</em></td>
-<td style="text-align: left;"><span class="ipa">/tuː/ </span></td>
+<td style="text-align: left;"><span class="ipa">/tuː/</span></td>
+<td style="text-align: left;">long <span class="ipa">/uː/</span> as in “boot”</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">3</td>
 <td style="text-align: center;"><em>three</em></td>
-<td style="text-align: left;"><span class="ipa">/θɹiː/ </span></td>
+<td style="text-align: left;"><span class="ipa">/θɹiː/</span></td>
+<td style="text-align: left;">initial <span class="ipa">/θ/</span> (voiceless “th”)</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">4</td>
 <td style="text-align: center;"><em>four</em></td>
-<td style="text-align: left;"><span class="ipa">/fɔɹ/ 又は /foʊɹ/ </span></td>
+<td style="text-align: left;"><span class="ipa">/fɔɹ/</span> 又は <span class="ipa">/foʊɹ/</span></td>
+<td style="text-align: left;"><span class="ipa">/ɔɹ/</span> as in “for”</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">5</td>
 <td style="text-align: center;"><em>five</em></td>
-<td style="text-align: left;"><span class="ipa">/faɪv/ </span></td>
+<td style="text-align: left;"><span class="ipa">/faɪv/</span></td>
+<td style="text-align: left;">diphthong <span class="ipa">/aɪ/</span></td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">6</td>
 <td style="text-align: center;"><em>six</em></td>
-<td style="text-align: left;"><span class="ipa">/sɪks/ </span></td>
+<td style="text-align: left;"><span class="ipa">/sɪks/</span></td>
+<td style="text-align: left;">short <span class="ipa">/ɪ/</span></td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">7</td>
 <td style="text-align: center;"><em>seven</em></td>
-<td style="text-align: left;"><span class="ipa">/ˈsɛvən/ </span></td>
+<td style="text-align: left;"><span class="ipa">/ˈsɛvən/</span></td>
+<td style="text-align: left;">first syllable stressed</td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">8</td>
 <td style="text-align: center;"><em>eight</em></td>
-<td style="text-align: left;"><span class="ipa">/eɪt/ </span></td>
+<td style="text-align: left;"><span class="ipa">/eɪt/</span></td>
+<td style="text-align: left;">diphthong <span class="ipa">/eɪ/</span></td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">9</td>
 <td style="text-align: center;"><em>nine</em></td>
-<td style="text-align: left;"><span class="ipa">/naɪn/ </span></td>
+<td style="text-align: left;"><span class="ipa">/naɪn/</span></td>
+<td style="text-align: left;">diphthong <span class="ipa">/aɪ/</span></td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">10</td>
 <td style="text-align: center;"><em>ten</em></td>
-<td style="text-align: left;"><span class="ipa">/tɛn/ </span></td>
+<td style="text-align: left;"><span class="ipa">/tɛn/</span></td>
+<td style="text-align: left;">short <span class="ipa">/ɛ/</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">11</td>
+<td style="text-align: center;"><em>eleven</em></td>
+<td style="text-align: left;"><span class="ipa">/ɪˈlɛvən/</span></td>
+<td style="text-align: left;">stress on second syllable</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">12</td>
+<td style="text-align: center;"><em>twelve</em></td>
+<td style="text-align: left;"><span class="ipa">/twɛlv/</span></td>
+<td style="text-align: left;">dark <span class="ipa">/l/</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">13</td>
+<td style="text-align: center;"><em>thirteen</em></td>
+<td style="text-align: left;"><span class="ipa">/ˌθɝˈtiːn/</span></td>
+<td style="text-align: left;">secondary stress on first</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">14</td>
+<td style="text-align: center;"><em>fourteen</em></td>
+<td style="text-align: left;"><span class="ipa">/ˌfɔɹˈtiːn/</span></td>
+<td style="text-align: left;">secondary stress on first</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">15</td>
+<td style="text-align: center;"><em>fifteen</em></td>
+<td style="text-align: left;"><span class="ipa">/ˌfɪfˈtiːn/</span></td>
+<td style="text-align: left;">note <span class="ipa">/fɪf/</span>, not <span class="ipa">/faɪv/</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">16</td>
+<td style="text-align: center;"><em>sixteen</em></td>
+<td style="text-align: left;"><span class="ipa">/ˌsɪkˈstiːn/</span></td>
+<td style="text-align: left;">stress shift pattern same</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">17</td>
+<td style="text-align: center;"><em>seventeen</em></td>
+<td style="text-align: left;"><span class="ipa">/ˌsɛvənˈtiːn/</span></td>
+<td style="text-align: left;">schwa in 2nd syllable</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">18</td>
+<td style="text-align: center;"><em>eighteen</em></td>
+<td style="text-align: left;"><span class="ipa">/ˌeɪˈtiːn/</span></td>
+<td style="text-align: left;">may reduce to <span class="ipa">[ˈeɪtin]</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">19</td>
+<td style="text-align: center;"><em>nineteen</em></td>
+<td style="text-align: left;"><span class="ipa">/ˌnaɪnˈtiːn/</span></td>
+<td style="text-align: left;">sometimes <span class="ipa">[ˈnaɪntin]</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">20</td>
+<td style="text-align: center;"><em>twenty</em></td>
+<td style="text-align: left;"><span class="ipa">/ˈtwɛnti/</span></td>
+<td style="text-align: left;"><span class="ipa">/t/</span> may flap → <span class="ipa">[ˈtwɛnɾi]</span></td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">&amp;</td>
 <td style="text-align: center;"><em>and</em></td>
-<td style="text-align: left;"><span class="ipa">/ænd/</span> ※ 非アクセント時 <span class="ipa">/ən/</span> 又は <span class="ipa">/n̩/</span></td>
+<td style="text-align: left;"><span class="ipa">/ænd/</span></td>
+<td style="text-align: left;">弱化時<span class="ipa">/ən/</span> 又は <span class="ipa">/n̩/</span></td>
 </tr>
 <tr class="odd">
 <td style="text-align: right;">e</td>
 <td style="text-align: center;"><em>e</em></td>
-<td style="text-align: left;"><span class="ipa">/iː/</span> ※ 非アクセント時 <span class="ipa">/i/</span> )</td>
+<td style="text-align: left;"><span class="ipa">/iː/</span></td>
+<td style="text-align: left;">弱化時<span class="ipa">/i/</span> )</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">a</td>
 <td style="text-align: center;"><em>a</em></td>
-<td style="text-align: left;"><span class="ipa">/eɪ/</span> ※ 非アクセント時 <span class="ipa">/ə/</span>(シュワ), <span class="ipa">/əː/</span> 又は <span class="ipa">/ʌ/</span></td>
+<td style="text-align: left;"><span class="ipa">/eɪ/</span></td>
+<td style="text-align: left;">弱化時<span class="ipa">/ə/</span>(シュワ), <span class="ipa">/əː/</span> 又は <span class="ipa">/ʌ/</span></td>
 </tr>
 </tbody>
 </table>
@@ -4279,9 +4363,20 @@ SPE表記法は音韻学の研究が立ち遅れている我が国日本では�
 <p>特にジャズのスキャットやラップなど、音楽の上で発音される英語では特に多用され、リズムを表現する為の重要な発音のひとつといえます。</p>
 </section>
 </section>
-<section id="ⁿリズムのカウントへのマッピング" class="level4">
-<h4 class="anchored" data-anchor-id="ⁿリズムのカウントへのマッピング">3ⁿリズムのカウントへのマッピング</h4>
+<section id="カウントとリズム" class="level4">
+<h4 class="anchored" data-anchor-id="カウントとリズム">カウントとリズム</h4>
+<p>リズム中の多次元構造を表現する為に、この <strong>0~20</strong> 及び <strong>&amp;,e,a</strong> の文字を並べることでことで様々な並びの羅列が出来上がります。この組み合わせのことを<strong>カウントセット</strong> と呼びます。</p>
+<ul>
+<li><strong>カウントセットの例</strong>
+<ul>
+<li><em>1,2,3,4,2,2,3,4</em></li>
+<li><em>1,&amp;,2,&amp;,3,&amp;,4,&amp;,2,&amp;,2,&amp;,3,&amp;,4,&amp;</em></li>
+<li><em>1,e,&amp;,a,2,e,&amp;,a,3,e,&amp;,a,4,e,&amp;,a,</em></li>
+<li>…</li>
+</ul></li>
+</ul>
 <!--
+＃＃＃＃ カウント上での2⁻ⁿリズム及び3⁻ⁿリズム
 
 - 3ⁿグルーヴ理論で音節が３音素からなることを説明した。
 - 3レベルが必要なことを説明する必要がある→ 3レベルって何？
@@ -4303,31 +4398,31 @@ SPE表記法は音韻学の研究が立ち遅れている我が国日本では�
 </tbody>
 </table>
 
-
 -->
 </section>
-<section id="カウントの-について" class="level4">
-<h4 class="anchored" data-anchor-id="カウントの-について">カウントの<ruby>音韻表記厳密化<rt>PNI = Prosodic Notation Strictification</rt></ruby>について</h4>
+<section id="音韻表記厳密化とは何か" class="level4">
+<h4 class="anchored" data-anchor-id="音韻表記厳密化とは何か">音韻表記厳密化とは何か</h4>
 <p>英語を母国語とする人々は、特別な訓練をしない状態でもこの１拍１単語を割り当てる表記方法から自然にグルーヴするリズム解釈を抽出することができます。何故なら英語の発音には<strong>ストレス拍リズム</strong>と呼ばれるグルーヴの元となるリズムルールが存在するからです。このことから英語を母国語とする人々は、グルーヴを演奏する為に必要なリズム認識型を全て持っている場合が多いと考えられています。</p>
 <p>しかし英語を母国語としない人たち ─── 特に日本語を母国語とする人たちは、１拍１音を割り当てる表記方法から正しくグルーヴするリズムを抽出することができません。それは日本語の発音の背後には<strong>モーラ拍リズム</strong>と呼ばれるグルーヴとは逆の要素を持ったリズムルールが存在するからです。このことから日本語を母国語とする人々は、グルーヴ抽出する作業に必要な全てのリズム認識型を持たないと考えられています。これが <ruby>モーラ拍の６つの欠落音韻規則<rt>Japanese Invisible Dog Poop</rt></ruby> です。</p>
 <p>学習者が元から持っているリズム認識型によらずにこの問題に対処する為に、ここでは英語を母国語とする人々話者が無意識のうちに行っている音符として表記しない発音の配置を、敢えて音符の割り当てとして厳密に表記するという手法を利用します。</p>
 <p>この手法をここでは<strong><ruby>音韻表記厳密化<rt>PNI = Prosodic Notation Strictification</rt></ruby></strong>と呼びます。</p>
-<p>ここでは音韻厳密化の深度を９つのリズム認識型を元に９つのレベルに分けて考えます。</p>
+</section>
+<section id="prosodic-notation-strictification" class="level4">
+<h4 class="anchored" data-anchor-id="prosodic-notation-strictification">音韻表記厳密化の７つのレベル</h4>
+<p><strong><ruby>音韻表記厳密化<rt>PNI = Prosodic Notation Strictification</rt></ruby></strong> には７つのレベルがあります。これは音韻表記厳密化の深度を７つのリズム認識型を元に７つのレベルに分けることで導き出したものです。</p>
 <ul>
 <li><ruby>音韻表記厳密化<rt>PNI = Prosodic Notation Strictification</rt></ruby>レベル
 <ul>
-<li>レベル１: <ruby>頭子音最小化原則<rt>MiOP = Minimum Onset Principle</rt></ruby></li>
-<li>レベル２: <ruby>音節核の等時性<rt>NI = Nuclear Isochrony</rt></ruby></li>
-<li>レベル３: <ruby>頭子音最大化原則<rt>MOP = Maximal Onset Principle</rt></ruby></li>
-<li>レベル４: <ruby>頭音節最小化原則<rt>MiPOP = Minimum Prosodic Onset Principle</rt></ruby></li>
-<li>レベル５: <ruby>核音節の等時性<rt>PNI = Prosodic Nuclear Isochrony</rt></ruby></li>
-<li>レベル６: <ruby>頭音節最大化原則<rt>MPOP = Maximal Prosodic Onset Principle</rt></ruby></li>
-<li>レベル７: <ruby>頭音節最小化原則<rt>MiPOP = Minimum Prosodic Onset Principle</rt></ruby></li>
-<li>レベル８: <ruby>韻律的核音節の等時性<rt>MNI = Metric Nuclear Isochrony</rt></ruby></li>
-<li>レベル９: <ruby>韻律的頭音節最大化原則<rt>MMOP = Maximal Metric Onset Principle</rt></ruby></li>
+<li>レベル0: <ruby>頭子音最小化原則<rt>MiOP = Minimum Onset Principle</rt></ruby></li>
+<li>レベル1: <ruby>音節核の等時性<rt>NI = Nuclear Isochrony</rt></ruby></li>
+<li>レベル2: <ruby>頭子音最大化原則<rt>MOP = Maximal Onset Principle</rt></ruby></li>
+<li>レベル3: <ruby>核音節の等時性<rt>PNI = Prosodic Nuclear Isochrony</rt></ruby></li>
+<li>レベル4: <ruby>頭音節最大化原則<rt>MPOP = Maximal Prosodic Onset Principle</rt></ruby></li>
+<li>レベル5: <ruby>韻律的核音節の等時性<rt>MNI = Metric Nuclear Isochrony</rt></ruby></li>
+<li>レベル6: <ruby>韻律的頭音節最大化原則<rt>MMOP = Maximal Metric Onset Principle</rt></ruby></li>
 </ul></li>
 </ul>
-<p>この９つのリズム認識型を考慮した上で譜割りに反映します。</p>
+<p>これら７つのリズム認識型を考慮した上で譜割りに反映します。</p>
 <table class="tbl-pron2 tbl-header-center caption-top table">
 <colgroup>
 <col style="width: 10%">
@@ -4345,195 +4440,216 @@ SPE表記法は音韻学の研究が立ち遅れている我が国日本では�
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: center;">１</td>
+<td style="text-align: center;">０</td>
 <td style="text-align: center;"><p><ruby>頭子音最小化原則<rt>MiOP = Minimum Onset Principle</rt></ruby></p></td>
-<td style="text-align: center;">１</td>
+<td style="text-align: center;">０</td>
 <td style="text-align: center;"><strong>3⁻¹=1/3</strong></td>
 </tr>
 <tr class="even">
-<td style="text-align: center;">２</td>
+<td style="text-align: center;">１</td>
 <td style="text-align: center;"><p><ruby>音節核の等時性<rt>NI = Nuclear Isochrony</rt></ruby></p></td>
 <td style="text-align: center;">１</td>
 <td style="text-align: center;"><strong>3⁻¹=1/3</strong></td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;">３</td>
+<td style="text-align: center;">２</td>
 <td style="text-align: center;"><p><ruby>頭子音最大化原則<rt>MOP = Maximal Onset Principle</rt></ruby></p></td>
 <td style="text-align: center;">１</td>
 <td style="text-align: center;"><strong>3⁻¹=1/3</strong></td>
 </tr>
 <tr class="even">
-<td style="text-align: center;">４</td>
-<td style="text-align: center;"><p><ruby>頭音節最小化原則<rt>MiPOP = Minimum Prosodic Onset Principle</rt></ruby></p></td>
-<td style="text-align: center;">２</td>
-<td style="text-align: center;"><strong>3⁻²=1/9</strong></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">５</td>
+<td style="text-align: center;">３</td>
 <td style="text-align: center;"><p><ruby>核音節の等時性<rt>PNI = Prosodic Nuclear Isochrony</rt></ruby></p></td>
 <td style="text-align: center;">２</td>
 <td style="text-align: center;"><strong>3⁻²=1/9</strong></td>
 </tr>
-<tr class="even">
-<td style="text-align: center;">６</td>
+<tr class="odd">
+<td style="text-align: center;">４</td>
 <td style="text-align: center;"><p><ruby>頭音節最大化原則<rt>MPOP = Maximal Prosodic Onset Principle</rt></ruby></p></td>
 <td style="text-align: center;">２</td>
 <td style="text-align: center;"><strong>3⁻²=1/9</strong></td>
 </tr>
-<tr class="odd">
-<td style="text-align: center;">７</td>
-<td style="text-align: center;"><p><ruby>韻律的頭音節最小化原則<rt>MiMOP = Minimum Metric Onset Principle</rt></ruby></p></td>
-<td style="text-align: center;">３</td>
-<td style="text-align: center;"><strong>3⁻³=1/27</strong></td>
-</tr>
 <tr class="even">
-<td style="text-align: center;">８</td>
+<td style="text-align: center;">５</td>
 <td style="text-align: center;"><p><ruby>韻律的核音節の等時性<rt>MNI = Metric Nuclear Isochrony</rt></ruby></p></td>
 <td style="text-align: center;">３</td>
 <td style="text-align: center;"><strong>3⁻³=1/27</strong></td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;">９</td>
+<td style="text-align: center;">６</td>
 <td style="text-align: center;"><p><ruby>韻律的頭音節最大化原則<rt>MMOP = Maximal Metric Onset Principle</rt></ruby></p></td>
 <td style="text-align: center;">３</td>
 <td style="text-align: center;"><strong>3⁻³=1/27</strong></td>
 </tr>
 </tbody>
 </table>
-<p>ここで必要な音韻厳密化レベルによって、必要となる音韻規則レベルが異なることに注意します。音韻規則レベルによって必要なサブディヴィジョン数が決まるからです。</p>
+</section>
+<section id="音韻規則の３つのレベルについて" class="level4">
+<h4 class="anchored" data-anchor-id="音韻規則の３つのレベルについて">音韻規則の３つのレベルについて</h4>
+<p>７つの音韻表記厳密化にはそれぞれ、必要となる音韻規則レベルが異なることに注意して下さい。この音韻規則レベルによって、必要なサブディヴィジョン数が決まります。</p>
 <ul>
 <li><strong>音韻規則レベル１ 音素レベル = 3⁻¹=1/3</strong></li>
 <li><strong>音韻規則レベル２ 音節レベル = 3⁻²=1/9</strong></li>
 <li><strong>音韻規則レベル３ 韻律レベル = 3⁻³=1/27</strong></li>
 </ul>
-<p>これらを踏まえて定義したカウントを譜面として表すと次のようになります。次節以降でこれらのカウントを音韻厳密化します。</p>
-<p>※ 以下の譜面は音韻厳密化を行う前の譜面であることに注意して下さい。１音節に３音素ある為、音符１つに対して１音節を割り当てると、その音符は３分割されます。以下の譜面は、３分割される前の表記になっています。つまり必要なサブディヴィジョンが３ならばそれは４分音符１つとして表記されます。</p>
-<section id="音韻規則レベル１-音素レベル" class="level5">
-<h5 class="anchored" data-anchor-id="音韻規則レベル１-音素レベル">音韻規則レベル１ 音素レベル</h5>
+<p>これを<strong>音韻規則の３つのレベル</strong>と呼びます。</p>
+</section>
+<section id="つの基本カウントセットについて" class="level4">
+<h4 class="anchored" data-anchor-id="つの基本カウントセットについて">３つの基本カウントセットについて</h4>
+<p>これらの音韻規則レベルが要求するサブディヴィジョン数を踏まえた上で<strong>カウントセット</strong>を定義したものを譜面として表すと次のようになります。これを基本カウントセットと呼びます。 基本カウントセットは、現在のところ全部で３種類あります。</p>
+<p>なお、これらの譜面は音韻厳密化を行う前の譜面であることに注意して下さい。１音節に３音素ある為、音符１つに対して１音節を割り当てると、その音符は３分割されます。以下の譜面は、３分割される前の表記になっています。つまり必要なサブディヴィジョンが３ならばそれは４分音符１つとして表記されます。</p>
+<section id="音韻規則レベル１音素レベル" class="level5">
+<h5 class="anchored" data-anchor-id="音韻規則レベル１音素レベル">音韻規則レベル１=音素レベル</h5>
 <p><strong>サブディヴィジョンレベル = 3⁻¹=1/3</strong></p>
 <p><a href="lilypond-out/ly-5e1d6517c4d45bfa0302443280381f592693da8f.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-5e1d6517c4d45bfa0302443280381f592693da8f.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
 </section>
-<section id="音韻規則レベル２-音節レベル" class="level5">
-<h5 class="anchored" data-anchor-id="音韻規則レベル２-音節レベル">音韻規則レベル２ 音節レベル</h5>
+<section id="音韻規則レベル２音節レベル" class="level5">
+<h5 class="anchored" data-anchor-id="音韻規則レベル２音節レベル">音韻規則レベル２=音節レベル</h5>
 <p><strong>サブディヴィジョンレベル = 3⁻²=1/9</strong></p>
-<p><a href="lilypond-out/ly-69451f04badee71233e371c057a7513a454069e1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-69451f04badee71233e371c057a7513a454069e1.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
+<p><a href="lilypond-out/ly-182d3e22299c4c8bd3cc7ca64df7fe6c98e0862b.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-182d3e22299c4c8bd3cc7ca64df7fe6c98e0862b.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
 </section>
-<section id="音韻規則レベル３-韻律レベル" class="level5">
-<h5 class="anchored" data-anchor-id="音韻規則レベル３-韻律レベル">音韻規則レベル３ 韻律レベル</h5>
+<section id="音韻規則レベル３韻律レベル" class="level5">
+<h5 class="anchored" data-anchor-id="音韻規則レベル３韻律レベル">音韻規則レベル３=韻律レベル</h5>
 <p><strong>サブディヴィジョンレベル = 3⁻³=1/27</strong></p>
-<p><a href="lilypond-out/ly-3ebcce0eb5b33fe1d4ea6fdb2c25f30f6f7f0d00-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-3ebcce0eb5b33fe1d4ea6fdb2c25f30f6f7f0d00-1.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
-<p><a href="lilypond-out/ly-3ebcce0eb5b33fe1d4ea6fdb2c25f30f6f7f0d00-2.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-3ebcce0eb5b33fe1d4ea6fdb2c25f30f6f7f0d00-2.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
-<p><a href="lilypond-out/ly-3ebcce0eb5b33fe1d4ea6fdb2c25f30f6f7f0d00-3.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-3ebcce0eb5b33fe1d4ea6fdb2c25f30f6f7f0d00-3.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
+<p><a href="lilypond-out/ly-1752aa1ca7ea7da1899f6da0bb250e312d1e99c4-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-1752aa1ca7ea7da1899f6da0bb250e312d1e99c4-1.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
+<p><a href="lilypond-out/ly-1752aa1ca7ea7da1899f6da0bb250e312d1e99c4-2.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-1752aa1ca7ea7da1899f6da0bb250e312d1e99c4-2.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
+<p><a href="lilypond-out/ly-1752aa1ca7ea7da1899f6da0bb250e312d1e99c4-3.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-1752aa1ca7ea7da1899f6da0bb250e312d1e99c4-3.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
 </section>
-<section id="notation-by-minimum-prosodic-onset-principle" class="level5">
-<h5 class="anchored" data-anchor-id="notation-by-minimum-prosodic-onset-principle">レベル０ <ruby>頭子音最小化原則<rt>MiOP = Minimum Onset Principle</rt></ruby></h5>
-<p>単純に先頭から音韻を順番に割り当てる表記方法がこの<strong>レベル０音韻厳密化</strong>です。</p>
-<p><a href="lilypond-out/ly-b0689aeaef6a9bcacba9feb9fddfd4ecf6da4b18.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-7" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-b0689aeaef6a9bcacba9feb9fddfd4ecf6da4b18.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
+</section>
+<section id="実際の音韻表記厳密化" class="level4">
+<h4 class="anchored" data-anchor-id="実際の音韻表記厳密化">実際の音韻表記厳密化</h4>
+<p>これから実際にカウントセットに対して実際に音韻表記厳密化を行います。これまでに御紹介致しました３つの音韻規則レベルに沿って作られたカウントに対して７つの音韻表記厳密化を順番に行います。</p>
+<section id="音韻規則レベル１音素レベル-1" class="level5">
+<h5 class="anchored" data-anchor-id="音韻規則レベル１音素レベル-1">音韻規則レベル１=音素レベル</h5>
+<p>音韻規則レベル１のカウントを音韻表記厳密化していきます。音韻規則レベル１のカウントは音韻規則レベル１＝音韻表記厳密化レベル３までの音韻表記厳密化しか行うことが出来ません。ここからレベル３までの音韻厳密化を行います。</p>
+<p><a href="lilypond-out/ly-5e1d6517c4d45bfa0302443280381f592693da8f.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-7" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-5e1d6517c4d45bfa0302443280381f592693da8f.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
+<section id="notation-by-minimum-prosodic-onset-principle" class="level6">
+<h6 class="anchored" data-anchor-id="notation-by-minimum-prosodic-onset-principle">レベル0 <ruby>頭子音最小化原則<rt>MiOP = Minimum Onset Principle</rt></ruby></h6>
+<p>まず音符を音素に分解したのちに、単純に先頭から音韻を順番に割り当てる表記方法がこの<strong>レベル0音韻厳密化</strong>です。</p>
+<p><a href="lilypond-out/ly-b0689aeaef6a9bcacba9feb9fddfd4ecf6da4b18.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-8" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-b0689aeaef6a9bcacba9feb9fddfd4ecf6da4b18.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
 <p>この表記方法には２つの解釈が考えられます。</p>
 <ol type="1">
 <li>音韻厳密化がない抽象的なゼロ音韻厳密化</li>
 <li>頭子音最小化原則に対する音韻厳密化</li>
 </ol>
-<p>レベル０はレベル１以降で行う音韻厳密化を行いません。ここからレベル０を抽象的な<strong>ゼロ<ruby>音韻表記厳密化<rt>PNI = Prosodic Notation Strictification</rt></ruby></strong>と考えることができます。 これが１つ目の解釈です。</p>
+<p>レベル0はレベル１以降で行う音韻厳密化を行いません。ここからレベル0を抽象的な<strong>ゼロ<ruby>音韻表記厳密化<rt>PNI = Prosodic Notation Strictification</rt></ruby></strong>と考えることができます。 これが１つ目の解釈です。</p>
 <p>２つ目の解釈は、このゼロ<ruby>音韻表記厳密化<rt>PNI = Prosodic Notation Strictification</rt></ruby>を <strong><ruby>頭子音最小化原則<rt>MiOP = Minimum Onset Principle</rt></ruby> に対して音韻厳密化を行ったもの</strong>と解釈する方法です。</p>
-<p>モーラ拍リズムを持つ言語である日本語話者が英語・ドイツ語・ロシア語などのストレス拍リズム言語で書かれた歌詞の歌を歌おうとしたり、スペイン語フランス語ギリシャ語などのシラブル拍リズム言語で書かれた歌詞の歌を歌おうとすると、日本語のモーラ拍リズムのリズム解釈が表出することによって、リズム解釈に独特な間違いが生じます。レベル０音韻厳密化は、この<strong>日本語での間違ったリズム解釈を譜面化したもの</strong>といえます。</p>
+<p>モーラ拍リズムを持つ言語である日本語話者が英語・ドイツ語・ロシア語などのストレス拍リズム言語で書かれた歌詞の歌を歌おうとしたり、スペイン語フランス語ギリシャ語などのシラブル拍リズム言語で書かれた歌詞の歌を歌おうとすると、日本語のモーラ拍リズムのリズム解釈が表出することによって、リズム解釈に独特な間違いが生じます。レベル0音韻厳密化は、この<strong>日本語での間違ったリズム解釈を譜面化したもの</strong>といえます。</p>
 <p>その日本語での独特な間違いとは<strong><ruby>音節核の等時性<rt>NI = Nuclear Isochrony</rt></ruby>が守られない</strong>ことです。</p>
 <p>海外の言語（シラブル拍リズム・ストレス拍リズム）では、音節ごとに現れる母音を拍の先頭として母音同士の間隔を一定に保つという暗黙のルールが守られます。このことを<strong><ruby>音節核の等時性<rt>NI = Nuclear Isochrony</rt></ruby></strong> と呼びます。</p>
 <p>更に海外の言語は多重子音や子音の接続を持っていることから、日本語よりも圧倒的に長い子音が現れます。長い子音が現れても母音の拍の等時性を守るためには子音を母音よりも先に言い終わっている必要があります。</p>
 <p>このことから母音に拍を置いた上で子音を<strong>弱拍</strong>として母音よりも前に子音を発音する必要が生じます。これは弱拍の起源と言い換えることも出来ます。</p>
 <p>しかし日本語（モーラ拍リズム）では、子音母音を含むマス目自体に等時性があります。このことを <strong><ruby>モーラ拍の等時性<rt>MI = Mora Isochrony</rt></ruby></strong> と呼びます。<strong><ruby>モーラ拍の等時性<rt>MI = Mora Isochrony</rt></ruby></strong> では、マス目自体に子音が含まれているという特徴があります。このため海外の言語と異なり日本の言語では、子音が拍の後ろで発音される特徴があります。</p>
 <p>これはそのモーラ拍内に子音がない場合に更に目立つ問題となって表出します。それはそのモーラ内に子音がない場合、次の譜面で表される様に子音が前進することです。</p>
-<p><a href="lilypond-out/ly-556ef05f86576fb9fc85a3da0d9a22cf7e0df641.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-8" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-556ef05f86576fb9fc85a3da0d9a22cf7e0df641.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
+<p><a href="lilypond-out/ly-556ef05f86576fb9fc85a3da0d9a22cf7e0df641.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-9" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-556ef05f86576fb9fc85a3da0d9a22cf7e0df641.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
 <p>この譜面は、モーラ拍リズムの<strong>頭合わせリズム認識型</strong>が発動した状態を模式的に表現しているものです。<strong>Eight(8)</strong> の部分に注目して下さい。ここでは２つの問題が起きています。１つ目は、日本語などのモーラ拍リズムの言語を話す人が、母音から始まる単語で英語話者が<strong>暗黙のうちに発音する子音＝声門閉鎖音</strong>を認識出来ない為に脱落が起こることです。</p>
 <p>そして次にその脱落が起きた時、そのもともとモーラ拍内中央におかれていた母音が、脱落した子音位置を待つことなく発音されることです。このことから母音の位置が見かけ上前進した様に見えます。 このことを <strong><ruby>音節核の前進<rt>NA=Nuclear Advancement</rt></ruby></strong> と呼びます。</p>
 <p>この様に全ての音素がそのモーラ拍の先頭に揃う性質のことを <strong><ruby>音素の頭合わせ<rt>HAP=Head Aligned Phonomes</rt></ruby></strong>と呼びます。</p>
 <p><strong><ruby>音素の頭合わせ<rt>HAP=Head Aligned Phonomes</rt></ruby></strong>は、日本人がグルーヴしない理由の最も根本的な理由と言えます。音程の出始めである母音の位置が変化する為に、音の発音位置が一定しなくなり、グルーヴの条件である「音が一定間隔で演奏される」が満たされなくなります。</p>
 <p>これが日本人がグルーヴしない理由です。日本語話者の感覚での等間隔 <strong><ruby>モーラ拍の等時性<rt>MI = Mora Isochrony</rt></ruby></strong>は、音の始まりという視点で見ると等間隔ではありません。これが日本人がグルーヴしない理由の正体です。</p>
-<section id="譜面に対する忠実さの違い" class="level6">
-<h6 class="anchored" data-anchor-id="譜面に対する忠実さの違い">譜面に対する忠実さの違い</h6>
-<p>このレベル０、<strong>ゼロ<ruby>音韻表記厳密化<rt>PNI = Prosodic Notation Strictification</rt></ruby> </strong>は、日本人が譜面に対する忠実さを最大限に守った結果としてしばしば現れます。シラブル拍リズム言語やストレス拍リズム言語を母国語とする人々が、譜面に書かれていなくとも暗黙の了解として守っているルールの存在を知らない状態で守る譜面に対する忠実さは、音楽に対する破壊行為と断じても過言ではありません。</p>
+<p><strong>譜面に対する忠実さの違い</strong></p>
+<p>このレベル0<strong>ゼロ<ruby>音韻表記厳密化<rt>PNI = Prosodic Notation Strictification</rt></ruby></strong>は、日本人が譜面に対する忠実さを最大限に守った結果としてしばしば現れます。シラブル拍リズム言語やストレス拍リズム言語を母国語とする人々が、譜面に書かれていなくとも暗黙の了解として守っているルールの存在を知らない状態で守る譜面に対する忠実さは、音楽に対する破壊行為と断じても過言ではありません。</p>
 <p>日本人として発音の違いに対して謙虚になり、違いに興味を持ち、音韻学をよく学んで海外で一般的な譜面の解釈を学ぶことの大切さはいくら強調しても強調しすぎることはありません。</p>
 <p>以下のレベル１以降はそういう譜面の解釈の一例を形式化したものです。貴方の志を世界中の人々に届ける為の淀みない発音を実現する為にこれらのレベルは存在します。</p>
 </section>
-</section>
-<section id="レベル１" class="level5">
-<h5 class="anchored" data-anchor-id="レベル１">レベル１ <ruby>音節核の等時性<rt>NI = Nuclear Isochrony</rt></ruby></h5>
+<section id="レベル1" class="level6">
+<h6 class="anchored" data-anchor-id="レベル1">レベル1 <ruby>音節核の等時性<rt>NI = Nuclear Isochrony</rt></ruby></h6>
 <p>モーラ拍リズムを母国語とする人が最初に直面する問題は、<ruby>音節核の等時性<rt>NI = Nuclear Isochrony</rt></ruby>リズム認識型を持たないことにより、子音の位置を強拍よりも前に発音できないことです。</p>
 <p>この問題を解決する為に専用の練習方法が必要です。以下の譜は、シラブル拍リズムの<ruby>音節核の等時性<rt>NI = Nuclear Isochrony</rt></ruby>リズム認識方が発動した状態を模式的に表しています。</p>
-<p><a href="lilypond-out/ly-96d3f42e75bba9ce3f7e304961d70e08c76750aa.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-9" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-96d3f42e75bba9ce3f7e304961d70e08c76750aa.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
+<p><a href="lilypond-out/ly-96d3f42e75bba9ce3f7e304961d70e08c76750aa.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-10" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-96d3f42e75bba9ce3f7e304961d70e08c76750aa.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
 <p>この様にシラブル拍リズム言語を話す人々は、子音を弱拍位置で発音する習慣を持っています。</p>
 </section>
-<section id="レベル２" class="level5">
-<h5 class="anchored" data-anchor-id="レベル２">レベル２ <ruby>頭子音最大化原則<rt>MOP = Maximal Onset Principle</rt></ruby></h5>
+<section id="レベル2" class="level6">
+<h6 class="anchored" data-anchor-id="レベル2">レベル2 <ruby>頭子音最大化原則<rt>MOP = Maximal Onset Principle</rt></ruby></h6>
 <p>シラブル拍リズム言語は更に<ruby>頭子音最大化原則<rt>MOP = Maximal Onset Principle</rt></ruby>リズム認識型を持っており、子音を弱拍位置で発音するだけでなく、その直前の末子音を全て可能な限りまとめて発音する習慣を持っています。</p>
 <p>次の譜は、シラブル拍リズム言語に於いて、末子音が頭子音にまとめられて発音される様子を模式的に表したものです。</p>
-<p><a href="lilypond-out/ly-35bf38c23cd54fd8b5a6f8c69ef3d70791bff993.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-10" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-35bf38c23cd54fd8b5a6f8c69ef3d70791bff993.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
+<p><a href="lilypond-out/ly-35bf38c23cd54fd8b5a6f8c69ef3d70791bff993.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-11" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-35bf38c23cd54fd8b5a6f8c69ef3d70791bff993.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
 <p><strong>拡大表示</strong></p>
-<p><a href="lilypond-out/ly-4ed3ac10e00ca6f64b4338f69df3190088ae134a-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-11" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-4ed3ac10e00ca6f64b4338f69df3190088ae134a-1.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
-<p><a href="lilypond-out/ly-4ed3ac10e00ca6f64b4338f69df3190088ae134a-2.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-12" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-4ed3ac10e00ca6f64b4338f69df3190088ae134a-2.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
+<p><a href="lilypond-out/ly-4ed3ac10e00ca6f64b4338f69df3190088ae134a-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-12" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-4ed3ac10e00ca6f64b4338f69df3190088ae134a-1.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
+<p><a href="lilypond-out/ly-4ed3ac10e00ca6f64b4338f69df3190088ae134a-2.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-13" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-4ed3ac10e00ca6f64b4338f69df3190088ae134a-2.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
+<p><strong>音韻規則レベル１ 音素レベル = 3⁻¹=1/3</strong> で可能な音韻表記厳密化はレベル2までです。これ以降の音韻表記厳密化は音韻規則レベル2以上のカウント上で行う必要があります。</p>
 </section>
-<section id="レベル３" class="level5">
-<h5 class="anchored" data-anchor-id="レベル３">レベル３ <ruby>核音節の等時性<rt>PNI = Prosodic Nuclear Isochrony</rt></ruby></h5>
-<p>レベル３ <ruby>音韻表記厳密化<rt>PNI = Prosodic Notation Strictification</rt></ruby> からはこれまでの音素のみの厳密化だけでなく音節の厳密化を行います。音素だけでなく音節に対する厳密化を行うために弱拍基軸の階層を１つ増やす必要があります。</p>
-<p><a href="lilypond-out/ly-df7be4eefbb96862cfa6d62e9190133bb631cb62.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-13" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-df7be4eefbb96862cfa6d62e9190133bb631cb62.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
-<p>そして階層を１つ増やした上でレベル３の趣旨である<strong><ruby>核音節の等時性<rt>PNI = Prosodic Nuclear Isochrony</rt></ruby></strong>を適用します。</p>
-<p><a href="lilypond-out/ly-a3da1fe8c2c2fcb2aad576699f799426e131179e.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-14" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-a3da1fe8c2c2fcb2aad576699f799426e131179e.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
-<p>これでレベル３ <ruby>核音節の等時性<rt>PNI = Prosodic Nuclear Isochrony</rt></ruby> が完了しました。しかしここに、これまでに行ってきたレベル１ <ruby>音節核の等時性<rt>NI = Nuclear Isochrony</rt></ruby>とレベル２ <ruby>頭子音最大化原則<rt>MOP = Maximal Onset Principle</rt></ruby> の <ruby>核音節の等時性<rt>PNI = Prosodic Nuclear Isochrony</rt></ruby> を行う必要があります。</p>
-<p>まずこの２階層のカウントに対してレベル１とレベル２を<ruby>音韻表記厳密化<rt>PNI = Prosodic Notation Strictification</rt></ruby>を行います。</p>
-<section id="階層版レベル０" class="level6">
-<h6 class="anchored" data-anchor-id="階層版レベル０">２階層版レベル０ <ruby>頭子音最小化原則<rt>MiOP = Minimum Onset Principle</rt></ruby></h6>
-<p><a href="lilypond-out/ly-2e6edb37fffe5cb0832f8953efa77cedbadd558d-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-15" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-2e6edb37fffe5cb0832f8953efa77cedbadd558d-1.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
-<p><a href="lilypond-out/ly-2e6edb37fffe5cb0832f8953efa77cedbadd558d-2.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-16" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-2e6edb37fffe5cb0832f8953efa77cedbadd558d-2.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
-<p><a href="lilypond-out/ly-2e6edb37fffe5cb0832f8953efa77cedbadd558d-3.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-17" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-2e6edb37fffe5cb0832f8953efa77cedbadd558d-3.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
-<p><a href="lilypond-out/ly-2e6edb37fffe5cb0832f8953efa77cedbadd558d-4.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-18" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-2e6edb37fffe5cb0832f8953efa77cedbadd558d-4.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
-<p><a href="lilypond-out/ly-2e6edb37fffe5cb0832f8953efa77cedbadd558d-5.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-19" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-2e6edb37fffe5cb0832f8953efa77cedbadd558d-5.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
 </section>
-<section id="階層版レベル１" class="level6">
-<h6 class="anchored" data-anchor-id="階層版レベル１">２階層版レベル１ <ruby>音節核の等時性<rt>NI = Nuclear Isochrony</rt></ruby></h6>
-<p><a href="lilypond-out/ly-70b5476d75e82bdaf3a48e33beee1df3f05ecafa-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-20" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-70b5476d75e82bdaf3a48e33beee1df3f05ecafa-1.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
-<p><a href="lilypond-out/ly-70b5476d75e82bdaf3a48e33beee1df3f05ecafa-2.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-21" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-70b5476d75e82bdaf3a48e33beee1df3f05ecafa-2.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
-<p><a href="lilypond-out/ly-70b5476d75e82bdaf3a48e33beee1df3f05ecafa-3.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-22" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-70b5476d75e82bdaf3a48e33beee1df3f05ecafa-3.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
-<p><a href="lilypond-out/ly-70b5476d75e82bdaf3a48e33beee1df3f05ecafa-4.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-23" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-70b5476d75e82bdaf3a48e33beee1df3f05ecafa-4.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
-<p><a href="lilypond-out/ly-70b5476d75e82bdaf3a48e33beee1df3f05ecafa-5.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-24" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-70b5476d75e82bdaf3a48e33beee1df3f05ecafa-5.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
-<p><a href="lilypond-out/ly-70b5476d75e82bdaf3a48e33beee1df3f05ecafa-6.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-25" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-70b5476d75e82bdaf3a48e33beee1df3f05ecafa-6.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
+<section id="音韻規則レベル２音節レベル-1" class="level5">
+<h5 class="anchored" data-anchor-id="音韻規則レベル２音節レベル-1">音韻規則レベル２=音節レベル</h5>
+<p>レベル3 <ruby>音韻表記厳密化<rt>PNI = Prosodic Notation Strictification</rt></ruby> からはこれまでの音韻規則レベル1=音素のみの厳密化だけでなく音節レベルでの音韻表記厳密化を行います。</p>
+<p>音韻規則レベル1のカウントでは音韻表記厳密化レベル2までの音韻表記厳密化しか行うことが出来ません。音素だけでなく音節に対する厳密化を行うために弱拍基軸の階層を１つ増やした音韻レベル2のカウントを利用する必要があります。音韻表記厳密化レベル3からは音韻規則レベル2のカウントに移行した上で音韻表記厳密化レベル3及び4の音韻厳密化を行います。</p>
+<p>音韻規則レベル2での音韻表記厳密化の基本的な考え方は次の通りです。</p>
+<p>音韻規則レベル2のカウントセットを見てみます。</p>
+<p><a href="lilypond-out/ly-df7be4eefbb96862cfa6d62e9190133bb631cb62.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-14" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-df7be4eefbb96862cfa6d62e9190133bb631cb62.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
+<p>これに対して音韻表記厳密化<strong>レベル３<ruby>核音節の等時性<rt>PNI = Prosodic Nuclear Isochrony</rt></ruby></strong>を適用します。</p>
+<p><a href="lilypond-out/ly-a3da1fe8c2c2fcb2aad576699f799426e131179e.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-15" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-a3da1fe8c2c2fcb2aad576699f799426e131179e.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
+<p>これで<strong>レベル3 <ruby>核音節の等時性<rt>PNI = Prosodic Nuclear Isochrony</rt></ruby></strong> が完了しました。</p>
+<p>しかしここで同時に、これまでに行ってきたレベル1 <ruby>音節核の等時性<rt>NI = Nuclear Isochrony</rt></ruby>とレベル2<ruby>頭子音最大化原則<rt>MOP = Maximal Onset Principle</rt></ruby> の <ruby>核音節の等時性<rt>PNI = Prosodic Nuclear Isochrony</rt></ruby> を行う必要があります。次節からこの２階層カウントに対してレベル1とレベル2を<ruby>音韻表記厳密化<rt>PNI = Prosodic Notation Strictification</rt></ruby>を行います。</p>
+<section id="レベル0" class="level6">
+<h6 class="anchored" data-anchor-id="レベル0">レベル0 <ruby>頭子音最小化原則<rt>MiOP = Minimum Onset Principle</rt></ruby></h6>
+<p><a href="lilypond-out/ly-8e5cf823fb63b2410e2a72ff97b1bdc85b094445-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-16" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-8e5cf823fb63b2410e2a72ff97b1bdc85b094445-1.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
+<p><a href="lilypond-out/ly-8e5cf823fb63b2410e2a72ff97b1bdc85b094445-2.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-17" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-8e5cf823fb63b2410e2a72ff97b1bdc85b094445-2.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
+<p><a href="lilypond-out/ly-8e5cf823fb63b2410e2a72ff97b1bdc85b094445-3.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-18" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-8e5cf823fb63b2410e2a72ff97b1bdc85b094445-3.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
+<!--
+```{.lilypond}
+\include "lilypond-book-preamble.ly"
+% \include "rhythmpedia-ly/shared/rhythmdo-lv3-lv0.ly"
+% bx/+Uzn54FezLD2lCPTzPQ==
+```
+-->
 </section>
-<section id="階層版レベル２" class="level6">
-<h6 class="anchored" data-anchor-id="階層版レベル２">２階層版レベル２ <ruby>頭子音最大化原則<rt>MOP = Maximal Onset Principle</rt></ruby></h6>
-<p><a href="lilypond-out/ly-3473c2ae6628ffb83004881081cb8d94413a7ce6-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-26" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-3473c2ae6628ffb83004881081cb8d94413a7ce6-1.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
-<p><a href="lilypond-out/ly-3473c2ae6628ffb83004881081cb8d94413a7ce6-2.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-27" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-3473c2ae6628ffb83004881081cb8d94413a7ce6-2.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
-<p><a href="lilypond-out/ly-3473c2ae6628ffb83004881081cb8d94413a7ce6-3.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-28" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-3473c2ae6628ffb83004881081cb8d94413a7ce6-3.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
-<p><a href="lilypond-out/ly-3473c2ae6628ffb83004881081cb8d94413a7ce6-4.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-29" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-3473c2ae6628ffb83004881081cb8d94413a7ce6-4.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
-<p><a href="lilypond-out/ly-3473c2ae6628ffb83004881081cb8d94413a7ce6-5.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-30" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-3473c2ae6628ffb83004881081cb8d94413a7ce6-5.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
+<section id="レベル1-1" class="level6">
+<h6 class="anchored" data-anchor-id="レベル1-1">レベル1 <ruby>音節核の等時性<rt>NI = Nuclear Isochrony</rt></ruby></h6>
+<p><a href="lilypond-out/ly-70b5476d75e82bdaf3a48e33beee1df3f05ecafa-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-19" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-70b5476d75e82bdaf3a48e33beee1df3f05ecafa-1.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
+<p><a href="lilypond-out/ly-70b5476d75e82bdaf3a48e33beee1df3f05ecafa-2.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-20" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-70b5476d75e82bdaf3a48e33beee1df3f05ecafa-2.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
+<p><a href="lilypond-out/ly-70b5476d75e82bdaf3a48e33beee1df3f05ecafa-3.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-21" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-70b5476d75e82bdaf3a48e33beee1df3f05ecafa-3.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
+<p><a href="lilypond-out/ly-70b5476d75e82bdaf3a48e33beee1df3f05ecafa-4.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-22" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-70b5476d75e82bdaf3a48e33beee1df3f05ecafa-4.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
+<p><a href="lilypond-out/ly-70b5476d75e82bdaf3a48e33beee1df3f05ecafa-5.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-23" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-70b5476d75e82bdaf3a48e33beee1df3f05ecafa-5.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
+<p><a href="lilypond-out/ly-70b5476d75e82bdaf3a48e33beee1df3f05ecafa-6.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-24" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-70b5476d75e82bdaf3a48e33beee1df3f05ecafa-6.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
 </section>
-<section id="階層版レベル３" class="level6">
-<h6 class="anchored" data-anchor-id="階層版レベル３">２階層版レベル３ <ruby>頭子音最大化原則<rt>MOP = Maximal Onset Principle</rt></ruby></h6>
+<section id="レベル2-1" class="level6">
+<h6 class="anchored" data-anchor-id="レベル2-1">レベル2 <ruby>頭子音最大化原則<rt>MOP = Maximal Onset Principle</rt></ruby></h6>
+<p><a href="lilypond-out/ly-3473c2ae6628ffb83004881081cb8d94413a7ce6-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-25" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-3473c2ae6628ffb83004881081cb8d94413a7ce6-1.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
+<p><a href="lilypond-out/ly-3473c2ae6628ffb83004881081cb8d94413a7ce6-2.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-26" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-3473c2ae6628ffb83004881081cb8d94413a7ce6-2.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
+<p><a href="lilypond-out/ly-3473c2ae6628ffb83004881081cb8d94413a7ce6-3.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-27" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-3473c2ae6628ffb83004881081cb8d94413a7ce6-3.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
+<p><a href="lilypond-out/ly-3473c2ae6628ffb83004881081cb8d94413a7ce6-4.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-28" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-3473c2ae6628ffb83004881081cb8d94413a7ce6-4.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
+<p><a href="lilypond-out/ly-3473c2ae6628ffb83004881081cb8d94413a7ce6-5.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-29" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-3473c2ae6628ffb83004881081cb8d94413a7ce6-5.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
+</section>
+<section id="レベル４" class="level6">
+<h6 class="anchored" data-anchor-id="レベル４">レベル４ <ruby>頭音節最小化原則<rt>MiPOP = Minimum Prosodic Onset Principle</rt></ruby></h6>
 <p>ここまででレベル２までの<ruby>音韻表記厳密化<rt>PNI = Prosodic Notation Strictification</rt></ruby>が完了しました。ようやく次がこのレベルの要点であるレベル３ <ruby>核音節の等時性<rt>PNI = Prosodic Nuclear Isochrony</rt></ruby> を適用する行程に入ります。</p>
 <p>ここまでは以下の様に、階層を１つ増やした二層カウントに対して<ruby>音韻表記厳密化<rt>PNI = Prosodic Notation Strictification</rt></ruby>を行って来ました。</p>
-<p><a href="lilypond-out/ly-df7be4eefbb96862cfa6d62e9190133bb631cb62.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-31" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-df7be4eefbb96862cfa6d62e9190133bb631cb62.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
+<p><a href="lilypond-out/ly-df7be4eefbb96862cfa6d62e9190133bb631cb62.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-30" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-df7be4eefbb96862cfa6d62e9190133bb631cb62.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
 <p>二層カウントに対してレベル３の趣旨である<strong><ruby>核音節の等時性<rt>PNI = Prosodic Nuclear Isochrony</rt></ruby></strong>を適用します。具体的には <strong>音符を１つずらし&amp;が強拍に来る様に配置</strong> する事で<strong>弱拍先行</strong>の配置にします。</p>
-<p><a href="lilypond-out/ly-a3da1fe8c2c2fcb2aad576699f799426e131179e.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-32" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-a3da1fe8c2c2fcb2aad576699f799426e131179e.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
+<p><a href="lilypond-out/ly-a3da1fe8c2c2fcb2aad576699f799426e131179e.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-31" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-a3da1fe8c2c2fcb2aad576699f799426e131179e.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
 <p>上記の様な二層弱拍先行カウントに対してこれまで行ったレベル２までの<ruby>音韻表記厳密化<rt>PNI = Prosodic Notation Strictification</rt></ruby> を行うことで レベル３ <ruby>核音節の等時性<rt>PNI = Prosodic Nuclear Isochrony</rt></ruby> を実現します。</p>
-<p><a href="lilypond-out/ly-03a5e3767875e26c0127ce3d97b1ab17c724ee39-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-33" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-03a5e3767875e26c0127ce3d97b1ab17c724ee39-1.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
-<p><a href="lilypond-out/ly-03a5e3767875e26c0127ce3d97b1ab17c724ee39-2.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-34" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-03a5e3767875e26c0127ce3d97b1ab17c724ee39-2.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
-<p><a href="lilypond-out/ly-03a5e3767875e26c0127ce3d97b1ab17c724ee39-3.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-35" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-03a5e3767875e26c0127ce3d97b1ab17c724ee39-3.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
-<p><a href="lilypond-out/ly-03a5e3767875e26c0127ce3d97b1ab17c724ee39-4.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-36" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-03a5e3767875e26c0127ce3d97b1ab17c724ee39-4.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
-<p><a href="lilypond-out/ly-03a5e3767875e26c0127ce3d97b1ab17c724ee39-5.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-37" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-03a5e3767875e26c0127ce3d97b1ab17c724ee39-5.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
-<p><a href="lilypond-out/ly-03a5e3767875e26c0127ce3d97b1ab17c724ee39-6.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-38" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-03a5e3767875e26c0127ce3d97b1ab17c724ee39-6.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
+<p><a href="lilypond-out/ly-03a5e3767875e26c0127ce3d97b1ab17c724ee39-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-32" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-03a5e3767875e26c0127ce3d97b1ab17c724ee39-1.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
+<p><a href="lilypond-out/ly-03a5e3767875e26c0127ce3d97b1ab17c724ee39-2.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-33" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-03a5e3767875e26c0127ce3d97b1ab17c724ee39-2.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
+<p><a href="lilypond-out/ly-03a5e3767875e26c0127ce3d97b1ab17c724ee39-3.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-34" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-03a5e3767875e26c0127ce3d97b1ab17c724ee39-3.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
+<p><a href="lilypond-out/ly-03a5e3767875e26c0127ce3d97b1ab17c724ee39-4.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-35" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-03a5e3767875e26c0127ce3d97b1ab17c724ee39-4.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
+<p><a href="lilypond-out/ly-03a5e3767875e26c0127ce3d97b1ab17c724ee39-5.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-36" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-03a5e3767875e26c0127ce3d97b1ab17c724ee39-5.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
+<p><a href="lilypond-out/ly-03a5e3767875e26c0127ce3d97b1ab17c724ee39-6.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-37" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-03a5e3767875e26c0127ce3d97b1ab17c724ee39-6.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
 </section>
+<section id="レベル５" class="level6">
+<h6 class="anchored" data-anchor-id="レベル５">レベル５ <ruby>核音節の等時性<rt>PNI = Prosodic Nuclear Isochrony</rt></ruby></h6>
 </section>
-<section id="レベル４" class="level5">
-<h5 class="anchored" data-anchor-id="レベル４">レベル４ <ruby>頭音節最大化原則<rt>MPOP = Maximal Prosodic Onset Principle</rt></ruby></h5>
+<section id="レベル６" class="level6">
+<h6 class="anchored" data-anchor-id="レベル６">レベル６ <ruby>頭音節最大化原則<rt>MPOP = Maximal Prosodic Onset Principle</rt></ruby></h6>
 <p>レベル４は更に弱拍先行を更に推し進めます。</p>
 <p>レベル３で弱拍先行を実現する為、オフセット（ずれ）を付加することでカウントを早めました。</p>
-<p><a href="lilypond-out/ly-a3da1fe8c2c2fcb2aad576699f799426e131179e.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-39" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-a3da1fe8c2c2fcb2aad576699f799426e131179e.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
+<p><a href="lilypond-out/ly-a3da1fe8c2c2fcb2aad576699f799426e131179e.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-38" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-a3da1fe8c2c2fcb2aad576699f799426e131179e.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
 <p>このずれをつけた状態で a を先に読むことで二重の弱拍先行（頭音節最大化）を行います。</p>
-<p><a href="lilypond-out/ly-d88ded999e021053cad500112163b8b9f4e54f76.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-40" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-d88ded999e021053cad500112163b8b9f4e54f76.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
+<p><a href="lilypond-out/ly-d88ded999e021053cad500112163b8b9f4e54f76.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-39" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-d88ded999e021053cad500112163b8b9f4e54f76.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
+</section>
+</section>
+<section id="音韻規則レベル３韻律レベル-1" class="level5">
+<h5 class="anchored" data-anchor-id="音韻規則レベル３韻律レベル-1">音韻規則レベル３=韻律レベル</h5>
+<p>音韻規則レベル３のカウントを音韻表記厳密化していきます。音韻規則レベル１のカウントは音韻規則レベル１＝音韻表記厳密化レベル３までの音韻表記厳密化しか行うことが出来ません。ここからレベル３までの音韻厳密化を行います。</p>
+<p><a href="lilypond-out/ly-d167f44f95c9a660934bfaa5ff143150805b1d3d-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-40" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-d167f44f95c9a660934bfaa5ff143150805b1d3d-1.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
+<p><a href="lilypond-out/ly-d167f44f95c9a660934bfaa5ff143150805b1d3d-2.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-41" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-d167f44f95c9a660934bfaa5ff143150805b1d3d-2.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
+<p><a href="lilypond-out/ly-d167f44f95c9a660934bfaa5ff143150805b1d3d-3.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-42" title="\include &quot;lilypond-book-preamble.ly&quot;"><img src="lilypond-out/ly-d167f44f95c9a660934bfaa5ff143150805b1d3d-3.svg" class="lilypond img-fluid" alt="\include &quot;lilypond-book-preamble.ly&quot;"></a></p>
 </section>
 </section>
 </section>
 <section id="三連符オフビートカウントの発音" class="level3">
 <h3 class="anchored" data-anchor-id="三連符オフビートカウントの発音">三連符オフビートカウントの発音</h3>
-<p><a href="../../../hypergroove/attachments/phonetics-triplet-offbeat-count.png" class="lightbox" data-gallery="quarto-lightbox-gallery-41"><img src="../../../hypergroove/attachments/phonetics-triplet-offbeat-count.png" class="img-fluid"></a></p>
+<p><a href="../../../hypergroove/attachments/phonetics-triplet-offbeat-count.png" class="lightbox" data-gallery="quarto-lightbox-gallery-43"><img src="../../../hypergroove/attachments/phonetics-triplet-offbeat-count.png" class="img-fluid"></a></p>
 <ul>
 <li>1 &amp; A</li>
 <li>2 &amp; A</li>
@@ -4571,7 +4687,7 @@ SPE表記法は音韻学の研究が立ち遅れている我が国日本では�
 </table>
 <p>このように「横に読んでも」 1 &amp; a 「縦に読んでも」 1 &amp; a になっています。</p>
 <p>これを８拍単位で数えると次のようになります。</p>
-<p><a href="../../../hypergroove/attachments/phonetics-nonuplets-offbeat-count.png" class="lightbox" data-gallery="quarto-lightbox-gallery-42"><img src="../../../hypergroove/attachments/phonetics-nonuplets-offbeat-count.png" class="img-fluid"></a></p>
+<p><a href="../../../hypergroove/attachments/phonetics-nonuplets-offbeat-count.png" class="lightbox" data-gallery="quarto-lightbox-gallery-44"><img src="../../../hypergroove/attachments/phonetics-nonuplets-offbeat-count.png" class="img-fluid"></a></p>
 <table class="caption-top table">
 <thead>
 <tr class="header">
