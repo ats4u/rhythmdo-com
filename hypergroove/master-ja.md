@@ -8775,7 +8775,9 @@ RUBY-MI>}}**は、音の始まりという視点で見ると等間隔ではあ�
 % feYzEFVxwo1+EeumMUpGQw==
 ```
 
-これに対して音韻表記厳密化**レベル３{{< var RUBY-PNI >}}**を適用します。
+二層カウントに対してレベル3の本来の目的である音韻表記厳密化**レベル３{{< var
+RUBY-PNI >}}**を適用します。具体的には**音符を１つずらし&が強拍に来る様に配置**
+する事で**弱拍先行**の配置にします。
 
 ```{.lilypond}
 \include "lilypond-book-preamble.ly"
@@ -8783,11 +8785,13 @@ RUBY-MI>}}**は、音の始まりという視点で見ると等間隔ではあ�
 % 4LH9TXuz1hivqz4PkIjG+Q==
 ```
 
-これで**レベル3 {{< var RUBY-PNI >}}** が完了しました。
+これで**レベル3 {{< var RUBY-PNI >}}** が完了しました。これと同時に、これまでに
+行ってきたレベル1 {{< var RUBY-NI >}}とレベル2 {{< var RUBY-MOP >}} の {{< var
+RUBY-PNI >}} を行う必要があります。
 
-しかしここで同時に、これまでに行ってきたレベル1 {{< var RUBY-NI >}}とレベル2
-{{< var RUBY-MOP >}} の {{< var RUBY-PNI >}} を行う必要があります。次節からこの
-２階層カウントに対してレベル1とレベル2を{{<var RUBY-PNS>}}を行います。
+
+次節からこの２階層カウントに対してレベル1とレベル2を{{<var RUBY-PNS>}}を行いま
+す。
 
 
 ###### レベル0 {{< var RUBY-MiOP>}} 
@@ -8797,7 +8801,7 @@ RUBY-MI>}}**は、音の始まりという視点で見ると等間隔ではあ�
 % \include "rhythmpedia-ly/shared/rhythmdo-lv0-000.ly"
 % \include "rhythmpedia-ly/shared/rhythmdo-lv2-lv0-000.ly"
 \include "rhythmpedia-ly/shared/rhythmdo-2-lv2-lv0-000.ly"
-% HwkCa+fvqS7mRdNhlJzxrA==
+%  2025/10/13 15:33:48
 ```
 
 <!--
@@ -8812,35 +8816,41 @@ RUBY-MI>}}**は、音の始まりという視点で見ると等間隔ではあ�
 
 ```{.lilypond}
 \include "lilypond-book-preamble.ly"
-\include "rhythmpedia-ly/shared/rhythmdo-lv3-lv1.ly"
-% hp9tEemKzSWyz3cECsY9cg==
+% \include "rhythmpedia-ly/shared/rhythmdo-lv3-lv1.ly"
+\include "rhythmpedia-ly/shared/rhythmdo-lv2-lv1.ly"
+%NDzk2XbkmS/s1M2mZF4dUQ==
 ```
 
 ###### レベル2 {{< var RUBY-MOP>}} 
 
-```{.lilypond}
-\include "lilypond-book-preamble.ly"
-\include "rhythmpedia-ly/shared/rhythmdo-lv3-lv2.ly"
-% whX0x3T9aEuiq77riEwZLQ==
-```
-
-###### レベル４ {{< var RUBY-MiPOP>}}
-
-ここまででレベル２までの{{<var RUBY-PNS>}}が完了しました。ようやく次がこのレベ
-ルの要点であるレベル３ {{< var RUBY-PNI >}} を適用する行程に入ります。
-
-ここまでは以下の様に、階層を１つ増やした二層カウントに対して{{<var RUBY-PNS>}}
-を行って来ました。
+レベル2{{< var RUBY-MOP>}}を実現する為に、今まで3連符2つ目で発音していた末子音
+を次の音節の頭子音(つまり2階層目の3連符の3つ目)にまとめます。これをここでは**頭
+子音最大化処理** と呼びます。
 
 ```{.lilypond}
 \include "lilypond-book-preamble.ly"
-\include "rhythmpedia-ly/shared/rhythmdo-lv3-lv3-000.ly"
-% feYzEFVxwo1+EeumMUpGQw==
+% \include "rhythmpedia-ly/shared/rhythmdo-lv3-lv2.ly"
+\include "rhythmpedia-ly/shared/rhythmdo-lv2-lv2.ly"
+%XErbLofEJcYBlcXmer/OEQ==
 ```
 
-二層カウントに対してレベル３の趣旨である**{{< var RUBY-PNI >}}**を適用します。
-具体的には **音符を１つずらし&が強拍に来る様に配置** する事で**弱拍先行**の配置
-にします。
+###### レベル3 {{< var RUBY-PNI >}}
+
+レベル3 {{< var RUBY-PNI >}}を実現する為に、この章の冒頭で御説明した通り、これま
+で数字を拍先頭に配置していたものを、数字が前拍の1階層目の3連符の3拍目くるように
+全体を移動します。結果として&が拍の先頭にくる様に配置されます。
+
+
+```{.lilypond}
+\include "lilypond-book-preamble.ly"
+% \include "rhythmpedia-ly/shared/rhythmdo-001-lv3.ly"
+\include "rhythmpedia-ly/shared/rhythmdo-lv2-lv3.ly"
+%HMNEX19uLDaotvWFKP88UA==
+```
+
+これは譜面を見ると複雑に見えますが、この章の冒頭で御説明した通り、レベル1レベル
+2の音韻表記厳密化を取り除くと単に1階層目の3連符1つ分を左に移動しただけももので
+す。
 
 ```{.lilypond}
 \include "lilypond-book-preamble.ly"
@@ -8848,19 +8858,7 @@ RUBY-MI>}}**は、音の始まりという視点で見ると等間隔ではあ�
 % 4LH9TXuz1hivqz4PkIjG+Q==
 ```
 
-上記の様な二層弱拍先行カウントに対してこれまで行ったレベル２までの{{<var
-RUBY-PNS>}} を行うことで レベル３ {{< var RUBY-PNI >}} を実現します。
-
-
-```{.lilypond}
-\include "lilypond-book-preamble.ly"
-\include "rhythmpedia-ly/shared/rhythmdo-001-lv3.ly"
-% kQ+MOn1ee8Z9EcH0DMpl5A==
-```
-
-###### レベル５ {{< var RUBY-PNI >}}
-
-###### レベル６ {{< var RUBY-MPOP >}}
+###### レベル4 {{< var RUBY-MPOP >}}
 
 レベル４は更に弱拍先行を更に推し進めます。
 
@@ -8874,12 +8872,26 @@ RUBY-PNS>}} を行うことで レベル３ {{< var RUBY-PNI >}} を実現しま
 
 このずれをつけた状態で a を先に読むことで二重の弱拍先行（頭音節最大化）を行います。
 
-
 ```{.lilypond}
 \include "lilypond-book-preamble.ly"
 \include "rhythmpedia-ly/shared/rhythmdo-lv4-000.ly"
 % c45uKGy1snAYS4TsXhqXLQ==
 ```
+
+この状態でレベル1レベル2の音韻表記厳密化を行うと次の様になります。
+
+---
+
+```{.lilypond}
+\include "lilypond-book-preamble.ly"
+\include "rhythmpedia-ly/shared/rhythmdo-lv2-lv4.ly"
+% SPtkLGKekQdqekKXnxd2LA==
+```
+
+---
+
+音韻規則レベル２で可能な音韻表記厳密化はここまでです。
+
 
 ##### 音韻規則レベル３=韻律レベル
 
