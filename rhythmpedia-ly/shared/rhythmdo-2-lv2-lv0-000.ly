@@ -15,10 +15,10 @@ tuplet-nine = \tuplet 9/2 8 {
       \new Voice = "v" {
         \voiceOne
         \time 3/4
+        \override TupletBracket.bracket-visibility = ##t
+        \autoBeamOff % do this once per Voice, not per tuplet
         % \partial 8
         %                               do8 |
-        \once \override TupletBracket.bracket-visibility = ##t
-        \autoBeamOff % do this once per Voice, not per tuplet
         \tuplet-three \tuplet-three \tuplet-three
         \tuplet-three \tuplet-three \tuplet-three
         \tuplet-three \tuplet-three \tuplet-three
