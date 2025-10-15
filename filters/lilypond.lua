@@ -308,11 +308,9 @@ local function build_image_block(svg_path, cb)
   return para
 end
 
+
 -- ---------- main handler ----------
 local function handle_codeblock(cb)
-  if META.disabled then return nil end
-  if not cb.classes:includes("lilypond") then return nil end
-
   mkdir_p(CFG.outdir)
 
   -- local mv = PANDOC_DOCUMENT.meta["lilypond-preamble"]
@@ -381,8 +379,103 @@ local function handle_codeblock(cb)
   end
 end
 
+-- ---------- new handler: lilypond-file (no refactor; standalone) ----------
+local function handle_lilypond_file(cb)
+  mkdir_p(CFG.outdir)
+
+  -- path is the first non-empty line
+  local raw = cb.text or ""
+  local path = first_nonempty_line(raw)
+  if path == "" then
+    return pandoc.CodeBlock("# lilypond-file: empty path", pandoc.Attr("", {"lilypond-error"}, {}))
+  end
+
+  -- resolve relative to current input file directory
+  local SRC_FILE = realpath(PANDOC_STATE.input_files[1] or ".")
+  local SRC_DIR  = SRC_FILE:match("^(.*)/[^/]+$") or "."
+  local abs_path = path
+  if not path:match("^/") then abs_path = (SRC_DIR .. "/" .. path):gsub("//+","/") end
+  abs_path = realpath(abs_path)
+
+  local bytes = read_file(abs_path)
+  if not bytes then
+    local msg = "# lilypond-file: cannot read file: " .. abs_path
+    return pandoc.CodeBlock(msg, pandoc.Attr("", {"lilypond-error"}, {}))
+  end
+
+  -- Effective source = preamble + file contents
+  local effective = (META.preamble or "") .. bytes
+
+  -- identical caching & compile path as handle_codeblock
+  local hash_input = effective .. "\n-- compile_opts:" .. (CFG.compile_opts or "")
+  local H = sha1_hex(hash_input)
+  local base_h = CFG.outdir .. "/ly-" .. H
+  local ly_path = base_h .. ".ly"
+
+  -- write .ly if missing or content changed
+  local need_write = true
+  if file_exists(ly_path) then
+    local cur = read_file(ly_path)
+    if cur == effective then need_write = false end
+  end
+  if need_write then
+    local ok, err = write_file(ly_path, effective)
+    if not ok then
+      local msg = ("[lilypond.lua] failed to write %s\n%s"):format(ly_path, err or "")
+      io.stderr:write(msg.."\n")
+      return pandoc.CodeBlock(msg, pandoc.Attr("", {"lilypond-error"}, {}))
+    end
+  end
+
+  local must_compile = need_write or (#(collect_svgs(base_h)) == 0)
+  if must_compile then
+    local ok, err = compile_svg(base_h)
+    if not ok then
+      local cmd_disp = ("lilypond --svg -o %s %s"):format(base_h, ly_path)
+      local err_head = (err or "unknown error"):gsub("%s+$","")
+      local lines, shown, limit = {}, 0, 20
+      for line in (err_head .. "\n"):gmatch("([^\n]*)\n") do
+        shown = shown + 1
+        if shown > limit then
+          table.insert(lines, "… (truncated) …")
+          break
+        end
+        table.insert(lines, line)
+      end
+      local msg = ("# lilypond compile failed\n$ %s\n%s"):format(cmd_disp, table.concat(lines, "\n"))
+      io.stderr:write("[lilypond.lua] compile error: " .. err_head .. "\n")
+      return pandoc.CodeBlock(msg, pandoc.Attr("", {"lilypond-error"}, {}))
+    end
+  end
+
+  local svg_paths = collect_svgs(base_h)
+  if #svg_paths == 0 then
+    io.stderr:write("[lilypond] no SVG produced for " .. base_h .. "\n")
+    return pandoc.CodeBlock("# lilypond: no SVG produced", pandoc.Attr("", {"lilypond-error"}, {}))
+  end
+
+  local blocks = {}
+  for _, p in ipairs(svg_paths) do
+    blocks[#blocks+1] = build_image_block(p, cb)
+  end
+  return blocks
+end
+
+
+local function CodeBlock(cb)
+  if META.disabled then return nil end
+  if cb.classes:includes("lilypond") then
+    return handle_codeblock(cb)
+  end
+  if cb.classes:includes("lilypond-file") then
+    return handle_lilypond_file(cb)
+  end
+  return nill;
+end
+
+
 return {
   { Meta=Meta },
-  { CodeBlock = handle_codeblock },
+  { CodeBlock = CodeBlock },
 }
 
