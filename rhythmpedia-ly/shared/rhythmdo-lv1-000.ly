@@ -1,4 +1,4 @@
-
+\include "lilypond-book-preamble.ly"
 \score {
   <<
     \new RhythmicStaff = "rhythm"  <<

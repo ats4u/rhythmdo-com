@@ -1,5 +1,4 @@
-
-
+\include "lilypond-book-preamble.ly"
 \include "rhythmpedia-ly/lilypond-preamble.ly"
 
 gone = { \tuplet 3/2 {  do16   do16_~ do16] }  }

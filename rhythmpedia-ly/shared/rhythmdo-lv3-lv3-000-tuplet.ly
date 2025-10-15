@@ -1,3 +1,4 @@
+\include "lilypond-book-preamble.ly"
 three = \tuplet 3/2 { do8[ do8 do8] }
 tuplet-three= \tuplet 3/2 {
   \override TupletBracket.bracket-visibility = ##t

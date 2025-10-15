@@ -1,3 +1,4 @@
+\include "lilypond-book-preamble.ly"
 
 \score {
   <<

@@ -1,3 +1,4 @@
+\include "lilypond-book-preamble.ly"
 nine = \tuplet 9/2 { do8[ do8 do8 do8 do8 do8 do8 do8 do8] }
 nine-end = \tuplet 9/2 { do8[ do8 do8 do8] s4 s4 }
 
