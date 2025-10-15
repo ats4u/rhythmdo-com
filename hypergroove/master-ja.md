@@ -6006,6 +6006,7 @@ Aretha Franklin - Cold, Cold Heart
 
 ```{.lilypond}
 \include "lilypond-book-preamble.ly"
+\include "common-ly/lilypond-preamble.ly"
 
 gone = { \tuplet 3/2 { do16   do16_~ do16] }  }
 gtwo = { \tuplet 3/2 { do16_~ do16 do16] }  }
@@ -6138,6 +6139,7 @@ gthr = { \tuplet 3/2 { do16   do16 do16] }  }
 
 ```{.lilypond}
 \include "lilypond-book-preamble.ly"
+\include "common-ly/lilypond-preamble.ly"
 
 gone = { \tuplet 3/2 { do16   do16_~ do16] }  }
 gtwo = { \tuplet 3/2 { do16_~ do16 do16] }  }
@@ -8954,7 +8956,7 @@ SPE表記法は音韻学の研究が立ち遅れている我が国日本では�
 
 ```{.lilypond}
 \include "rhythmpedia-ly/shared/rhythmdo-001.ly"
-% X9KrQ+HRqEh26eGAI4TXNA==
+% FYeFVMp/AvQV9Y9V6UC8hA==
 ```
 
 ###### レベル0 {{< var RUBY-MiOP>}} <!-- {#ppns-1-0} --> 
@@ -9007,7 +9009,7 @@ SPE表記法は音韻学の研究が立ち遅れている我が国日本では�
 
 ```{.lilypond}
 \include "rhythmpedia-ly/shared/rhythmdo-lv0-001.ly"
-% NSAHnuEDK0o0peGlAyNROw==
+% ailORODTtC7qDwbiZAM2rw==
 ```
 
 この譜面は、モーラ拍リズムの**頭合わせリズム認識型**が発動した状態を模式的に表
