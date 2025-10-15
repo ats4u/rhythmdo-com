@@ -1,5 +1,5 @@
 % \include "lilypond-book-preamble.ly"
-\include "rhythmpedia-ly/chromatic-solfege.ly"
+\include "common-ly/chromatic-solfege.ly"
 \language "chromatic-solfege"
 \paper {
   left-margin   = 3\mm
