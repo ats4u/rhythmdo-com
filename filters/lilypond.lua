@@ -115,11 +115,21 @@ local function realpath(path)
   end
 end
 
-local function project_root(outdir_abs)
-  local env = os.getenv("QUARTO_PROJECT_DIR")
-  if env and env ~= "" then return env end
-  io.stderr:write("[lilypond] ERROR: QUARTO_PROJECT_DIR not set. Please export it in your build.\n")
-  error("lilypond.lua: missing QUARTO_PROJECT_DIR")
+-- local function project_root(outdir_abs)
+--   local env = os.getenv("QUARTO_PROJECT_DIR")
+--   if env and env ~= "" then return env end
+--   io.stderr:write("[lilypond] ERROR: QUARTO_PROJECT_DIR not set. Please export it in your build.\n")
+--   error("lilypond.lua: missing QUARTO_PROJECT_DIR")
+-- end
+
+-- Rhythmpress protocol: prefer RHYTHMPRESS_ROOT, then QUARTO_PROJECT_DIR.
+local function project_root()
+  local rp = os.getenv("RHYTHMPRESS_ROOT")
+  if rp and rp ~= "" then return rp end
+  local qd = os.getenv("QUARTO_PROJECT_DIR")
+  if qd and qd ~= "" then return qd end
+  io.stderr:write("[lilypond] ERROR: RHYTHMPRESS_ROOT (or QUARTO_PROJECT_DIR) not set. Please export it (see rhythmpress_env).\n")
+  error("lilypond.lua: missing project root environment")
 end
 
 -- ---------- lilypond compile ----------
@@ -134,10 +144,15 @@ local function compile_svg(base_h)
   -- local PROJECT_ROOT = find_project_root(SRC_DIR)                           -- absolute
   -- local OUTDIR_ABS = pandoc.path.make_absolute(CFG.outdir)                  -- absolute
 
+  --   local OUTDIR_ABS   = realpath(CFG.outdir)
+  --   local SRC_FILE     = realpath(PANDOC_STATE.input_files[1] or ".")
+  --   local SRC_DIR      = SRC_FILE:match("^(.*)/[^/]+$") or "."
+  --   local PROJECT_ROOT = realpath(project_root(SRC_DIR))
+
   local OUTDIR_ABS   = realpath(CFG.outdir)
   local SRC_FILE     = realpath(PANDOC_STATE.input_files[1] or ".")
   local SRC_DIR      = SRC_FILE:match("^(.*)/[^/]+$") or "."
-  local PROJECT_ROOT = realpath(project_root(SRC_DIR))
+  local PROJECT_ROOT = realpath(project_root())
 
   io.stderr:write( "[lilypond] PROJECT_ROOT =" .. PROJECT_ROOT  .. "\n" );
   io.stderr:write( "[lilypond] OUTPUTDIR_ABS=" .. OUTDIR_ABS  .. "\n" );
@@ -390,11 +405,19 @@ local function handle_lilypond_file(cb)
     return pandoc.CodeBlock("# lilypond-file: empty path", pandoc.Attr("", {"lilypond-error"}, {}))
   end
 
-  -- resolve relative to current input file directory
-  local SRC_FILE = realpath(PANDOC_STATE.input_files[1] or ".")
-  local SRC_DIR  = SRC_FILE:match("^(.*)/[^/]+$") or "."
+--   -- resolve relative to current input file directory
+--   local SRC_FILE = realpath(PANDOC_STATE.input_files[1] or ".")
+--   local SRC_DIR  = SRC_FILE:match("^(.*)/[^/]+$") or "."
+--   local abs_path = path
+--   if not path:match("^/") then abs_path = (SRC_DIR .. "/" .. path):gsub("//+","/") end
+--   abs_path = realpath(abs_path)
+
+  -- resolve relative to **project root** per rhythmpress protocol
+  local PROJECT_ROOT = realpath(project_root())
   local abs_path = path
-  if not path:match("^/") then abs_path = (SRC_DIR .. "/" .. path):gsub("//+","/") end
+  if not path:match("^/") then
+    abs_path = (PROJECT_ROOT .. "/" .. path):gsub("//+","/")
+  end
   abs_path = realpath(abs_path)
 
   local bytes = read_file(abs_path)

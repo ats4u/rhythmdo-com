@@ -9224,10 +9224,8 @@ RUBY-PNI >}} を行う必要があります。
 が出来ません。ここからレベル３までの音韻厳密化を行います。
 
 
-```{.lilypond}
-% \include "common-ly/shared/rhythmdo-lv7-lv1.ly"
-\include "common-ly/shared/rhythmdo-lv7-lv1-tuplet.ly"
-% 7ASs96I4/liV6ypqwD8KqA==
+```{.lilypond-file}
+common-ly/shared/rhythmdo-lv7-lv1-tuplet.ly
 ```
 
 
