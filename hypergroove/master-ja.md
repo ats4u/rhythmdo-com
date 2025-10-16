@@ -9230,6 +9230,8 @@ common-ly/shared/rhythmdo-lv7-lv1-tuplet.ly
 
 
 ###### レベル0 {{< var RUBY-MiOP>}}  <!-- {#ppns-3-0} -->
+元となった **3⁻²=1/9** の9つの音符に音節を割り当てたことにより更に3分割され、
+** 3⁻³=1/27**の27つの音符に分割されたものです。
 
 詳細の説明は[レベル0](#ppns-1-0)に譲ります。
 
@@ -9239,6 +9241,8 @@ common-ly/shared/rhythmdo-lv7-lv1-tuplet.ly
 ```
 
 ###### レベル1 {{< var RUBY-NI>}}     <!-- {#ppns-3-1} -->
+{{< var RUBY-NI >}} を適用したものです。
+
 詳細の説明は[レベル1](#ppns-1-1)に譲ります。
 
 ```{.lilypond-file}
@@ -9246,6 +9250,8 @@ common-ly/shared/rhythmdo-lv3-lv1-000.ly
 ```
 
 ###### レベル2 {{< var RUBY-MOP>}}    <!-- {#ppns-3-2} -->
+{{< var RUBY-MOP >}} を適用したものです。
+
 詳細の説明は[レベル2](#ppns-2-2)に譲ります。
 
 ```{.lilypond-file}
@@ -9253,32 +9259,129 @@ common-ly/shared/rhythmdo-lv3-lv2-000.ly
 ```
 
 ###### レベル3 {{< var RUBY-PNI >}}   <!-- {#ppns-3-3} -->
+
+これまでレベル１〜レベル２で表記法厳密化を行ったカウントセットは次のようなもの
+でした。
+
+---
+
+```{.lilypond-file}
+common-ly/shared/rhythmdo-lv7-lv1-tuplet.ly
+```
+
+これに対して{{< var RUBY-PNI >}}厳密化を行うと次のようになります。
+
+---
+
+```{.lilypond-file}
+common-ly/shared/rhythmdo-lv3-001.ly
+```
+
+---
+
+この１つずれたカウントセットに対してレベル1レベル2の厳密化を加えたものが最終的
+なレベル3の完成形となります。
+
 詳細の説明は[レベル3](#ppns-2-3)に譲ります。
 
+---
+
+**レベル3完成形**
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv3-lv3-002.ly
 ```
 
 ###### レベル4 {{< var RUBY-MPOP >}}  <!-- {#ppns-3-4} -->
+
+これまでレベル3で表記法厳密化を行ったカウントセット原型は次のようなもの
+でした。
+
+---
+
+```{.lilypond-file}
+common-ly/shared/rhythmdo-lv3-001.ly
+```
+---
+
+これに対して{{< var RUBY-MPOP >}}厳密化を行うと次のようになります。
+
+---
+
+```{.lilypond-file}
+common-ly/shared/rhythmdo-lv3-002.ly
+```
+
+<!-- gXVPCyCcr8q4R4xc7qRdug== -->
+
+---
+
+これがレベル4のカウントセット原型です。この１つずれたカウントセット原型に対して
+レベル1、レベル2の厳密化を加えたものが最終的なレベル4の完成形となります。
+
 詳細の説明は[レベル4](#ppns-2-4)に譲ります。
+
+**レベル4完成形**
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv3-lv4-000.ly
 ```
 
 ###### レベル5 {{< var RUBY-MNI >}}   <!-- {#ppns-3-5} -->
+
+これまでレベル4で表記法厳密化を行ったカウントセット原型は次のようなもの
+でした。
+
+---
+
+```{.lilypond-file}
+common-ly/shared/rhythmdo-lv3-002.ly
+```
+---
+
+これに対して{{< var RUBY-MNI >}}厳密化を行うと次のようになります。
+
+---
+
+```{.lilypond-file}
+common-ly/shared/rhythmdo-lv3-003.ly
+```
+---
+
+これがレベル5のカウントセット原型です。この１つずれたカウントセット原型に対して
+レベル1、レベル2の厳密化を加えたものが最終的なレベル5の完成形となります。
+
+---
+
+**レベル5完成形**
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv3-lv5-000.ly
 ```
 
 ###### レベル6 {{< var RUBY-MMOP >}}  <!-- {#ppns-3-6} -->
 
+これまでレベル5で表記法厳密化を行ったカウントセット原型は次のようなもの
+でした。
+
+```{.lilypond-file}
+common-ly/shared/rhythmdo-lv3-003.ly
+```
+
+これに対して{{< var RUBY-MMOP >}}厳密化を行うと次のようになります。
+
+```{.lilypond-file}
+common-ly/shared/rhythmdo-lv3-004.ly
+```
+
+---
+
+これがレベル5のカウントセット原型です。この１つずれたカウントセット原型に対して
+レベル1、レベル2の厳密化を加えたものが最終的なレベル5の完成形となります。
+
+**レベル6完成形**
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv3-lv6-000.ly
 ```
 
-<!-- 7e8t0zMkvukasWdpom0+5w== -->
-
-
+<!-- tnccerY91FUWg8OQLyzadQ== -->
 
 
 ### 三連符オフビートカウントの発音
