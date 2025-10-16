@@ -21,6 +21,8 @@ resources:
   - _redirects
   - 404.html
   - attachments/*
+  - common-ly/*.ly
+  - common-ly/shared/*.ly
 
 website:
   title: "律武道"

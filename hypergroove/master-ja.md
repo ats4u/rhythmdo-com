@@ -6006,6 +6006,7 @@ Aretha Franklin - Cold, Cold Heart
 
 ```{.lilypond}
 \include "lilypond-book-preamble.ly"
+\include "common-ly/lilypond-preamble.ly"
 
 gone = { \tuplet 3/2 { do16   do16_~ do16] }  }
 gtwo = { \tuplet 3/2 { do16_~ do16 do16] }  }
@@ -6138,6 +6139,7 @@ gthr = { \tuplet 3/2 { do16   do16 do16] }  }
 
 ```{.lilypond}
 \include "lilypond-book-preamble.ly"
+\include "common-ly/lilypond-preamble.ly"
 
 gone = { \tuplet 3/2 { do16   do16_~ do16] }  }
 gtwo = { \tuplet 3/2 { do16_~ do16 do16] }  }
@@ -8501,7 +8503,7 @@ SPE表記法は音韻学の研究が立ち遅れている我が国日本では�
 
 
 
-#### 音韻表記厳密化とは何か
+#### 音韻表記厳密化とは何か <!-- {#prosodic-notation-strictification} -->
 
 英語を母国語とする人々は、特別な訓練をしない状態でもこの１拍１単語を割り当てる
 表記方法から自然にグルーヴするリズム解釈を抽出することができます。何故なら英語
@@ -8522,7 +8524,7 @@ SPE表記法は音韻学の研究が立ち遅れている我が国日本では�
 
 この手法をここでは**{{< var RUBY-PNS>}}**と呼びます。
 
-#### 音韻表記厳密化の７つのレベル <!-- {#prosodic-notation-strictification} -->
+#### 音韻表記厳密化の７つのレベル <!-- {#seven-levels-of-prosodic-notation-strictification} -->
 **{{< var RUBY-PNS>}}** には７つのレベルがあります。これは音韻表記厳密化の深度
 を７つのリズム認識型を元に７つのレベルに分けることで導き出したものです。
 
@@ -8548,7 +8550,7 @@ SPE表記法は音韻学の研究が立ち遅れている我が国日本では�
 |      ６      | {{< var RUBY-MMOP>}}  |     ３     |       **3⁻³=1/27**        |
 :  {.tbl-pron2 .tbl-header-center   tbl-colwidths=[10,1,1,1] }
 
-#### 音韻規則の３つのレベルについて
+#### 音韻規則の３つのレベルについて <!-- {#three-hierarchical-levels-of-phonological-rules} -->
 
 ７つの音韻表記厳密化にはそれぞれ、必要となる音韻規則レベルが異なることに注意し
 て下さい。この音韻規則レベルによって、必要なサブディヴィジョン数が決まります。
@@ -8571,62 +8573,399 @@ SPE表記法は音韻学の研究が立ち遅れている我が国日本では�
 以下の譜面は、３分割される前の表記になっています。つまり必要なサブディヴィジョ
 ンが３ならばそれは４分音符１つとして表記されます。
 
+このことを次の**音韻表記厳密化**の節で見ていきます。
+
 ##### 音韻規則レベル１=音素レベル
 
 **サブディヴィジョンレベル = 3⁻¹=1/3**
 
 ```{.lilypond}
-\include "lilypond-book-preamble.ly"
-\include "rhythmpedia-ly/shared/rhythmdo-001.ly"
-% X9KrQ+HRqEh26eGAI4TXNA==
+\include "common-ly/shared/rhythmdo-001.ly"
+% LnaEUPNPYG0g8xE4DIOzvg==
 ```
 
 ##### 音韻規則レベル２=音節レベル
 **サブディヴィジョンレベル = 3⁻²=1/9**
 
+これは１ディヴィジョンに３つのサブディヴィジョンを割り当てる数え方です。
+
 ```{.lilypond}
-\include "lilypond-book-preamble.ly"
-% \include "rhythmpedia-ly/shared/rhythmdo-lv3-lv3-000.ly"
-\include "rhythmpedia-ly/shared/rhythmdo-lv3-lv3-000-tuplet.ly"
+% \include "common-ly/shared/rhythmdo-lv3-lv3-000.ly"
+\include "common-ly/shared/rhythmdo-lv3-lv3-000-tuplet.ly"
 %AZDOdTG0Hqjo0FVZGz6jMA==
 ```
 
 ##### 音韻規則レベル３=韻律レベル
  **サブディヴィジョンレベル = 3⁻³=1/27**
 
+これは１ディヴィジョンに２７つのサブディヴィジョンを割り当てる数え方です。
+
 ```{.lilypond}
-\include "lilypond-book-preamble.ly"
-% \include "rhythmpedia-ly/shared/rhythmdo-lv7-lv1.ly"
-\include "rhythmpedia-ly/shared/rhythmdo-lv7-lv1-tuplet.ly"
+% \include "common-ly/shared/rhythmdo-lv7-lv1.ly"
+\include "common-ly/shared/rhythmdo-lv7-lv1-tuplet.ly"
 % rH39gT8Svtq27HDuq1ZaWQ==
 ```
+これは一瞥では理解が難しいですが、次のような法則になっています。
 
-#### 実際の音韻表記厳密化
+- **1 & A & & A A & A** 
+- **2 & A & & A A & A** 
+- **3 & A & & A A & A** 
+
+これは一瞥では理解が難しいですが **1 & A** を先頭の文字を変えながら3回繰り返し
+て読んでいるのです。それを数字だけで表現すると次のようになります。
+
+- **1 2 3 2 2 3 3 2 3** 
+- **2 2 3 2 2 3 3 2 3** 
+- **3 2 3 2 2 3 3 2 3** 
+
+この時、1 を 1、2を&、3をa に割り当てて同じ様に読むと
+
+- **1 & A & & A A & A** 
+- **2 & A & & A A & A** 
+- **3 & A & & A A & A** 
+
+になります。この様に数字を多層にして読む必要があるリズムをここでは**多次元グル
+ーヴ**と呼びます。 詳しくは[多次元グルーヴ空間理論](/hypergroove/multidimensional-rhythm/ja/)を参照して下さい。
+
+---
+
+次のグラフは、1拍を1テーブルとして表し、横書き（列を先に左から右に読み、行を次
+に上から下に読む）で表したものです。
+
+<style>
+  :root {
+    --border: #d0d7de;
+    --bg-head: #f6f8fa;
+  }
+  .tables-wrap {
+    display: flex;
+    flex-wrap: wrap;       /* ✅ allows wrapping to next row */
+    gap: 12px;             /* space between tables */
+    align-items: flex-start;
+    justify-content: flex-start;  /* ✅ left-aligned row */
+  }
+  .count-card {
+    flex: 0 0 auto;        /* ✅ keep natural width; don’t stretch */
+  }
+  .tables-wrap table {
+    border-collapse: collapse;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    line-height: 1.3;
+    background: white;
+  }
+  .tables-wrap thead th {
+    background: var(--bg-head);
+    font-weight: 600;
+  }
+  .tables-wrap th, 
+  .tables-wrap td {
+    border: 1px solid var(--border);
+    padding: 4px 8px;
+    text-align: left;  /* ✅ left-align cells */
+    white-space: nowrap;
+  }
+  .count-card-panel {
+    min-width:1.5em;
+    min-height:1.5em;
+    width:auto;
+    height:auto;
+    font-size:3em;
+    text-align:center;
+    border:1px silver solid;
+  }
+</style>
+
+<div class="tables-wrap">
+<!-- 1 -->
+
+<table class="count-card">
+  <tr><td>1</td><td>&amp;</td><td>a</td></tr>
+  <tr><td>&amp;</td><td>&amp;</td><td>a</td></tr>
+  <tr><td>a</td><td>&amp;</td><td>a</td></tr>
+</table>
+
+<!-- 2 -->
+<table class="count-card">
+  <tr><td>2</td><td>&amp;</td><td>a</td></tr>
+  <tr><td>&amp;</td><td>&amp;</td><td>a</td></tr>
+  <tr><td>a</td><td>&amp;</td><td>a</td></tr>
+</table>
+
+<!-- 3 -->
+<table class="count-card">
+  <tr><td>3</td><td>&amp;</td><td>a</td></tr>
+  <tr><td>&amp;</td><td>&amp;</td><td>a</td></tr>
+  <tr><td>a</td><td>&amp;</td><td>a</td></tr>
+</table>
+
+<!-- 4 -->
+<table class="count-card">
+  <tr><td>4</td><td>&amp;</td><td>a</td></tr>
+  <tr><td>&amp;</td><td>&amp;</td><td>a</td></tr>
+  <tr><td>a</td><td>&amp;</td><td>a</td></tr>
+</table>
+
+<!-- 5 -->
+<table class="count-card">
+  <tr><td>5</td><td>&amp;</td><td>a</td></tr>
+  <tr><td>&amp;</td><td>&amp;</td><td>a</td></tr>
+  <tr><td>a</td><td>&amp;</td><td>a</td></tr>
+</table>
+
+<!-- 6 -->
+<table class="count-card">
+  <tr><td>6</td><td>&amp;</td><td>a</td></tr>
+  <tr><td>&amp;</td><td>&amp;</td><td>a</td></tr>
+  <tr><td>a</td><td>&amp;</td><td>a</td></tr>
+</table>
+
+<!-- 7 -->
+<table class="count-card">
+  <tr><td>7</td><td>&amp;</td><td>a</td></tr>
+  <tr><td>&amp;</td><td>&amp;</td><td>a</td></tr>
+  <tr><td>a</td><td>&amp;</td><td>a</td></tr>
+</table>
+
+<!-- 8 -->
+<table class="count-card">
+  <tr><td>8</td><td>&amp;</td><td>a</td></tr>
+  <tr><td>&amp;</td><td>&amp;</td><td>a</td></tr>
+  <tr><td>a</td><td>&amp;</td><td>a</td></tr>
+</table>
+
+<!-- 9 -->
+<table class="count-card">
+  <tr><td>9</td><td>&amp;</td><td>a</td></tr>
+  <tr><td>&amp;</td><td>&amp;</td><td>a</td></tr>
+  <tr><td>a</td><td>&amp;</td><td>a</td></tr>
+</table>
+
+<!-- 1 (repeat) -->
+<table class="count-card">
+  <tr><td>1</td><td>&amp;</td><td>a</td></tr>
+  <tr><td>&amp;</td><td>&amp;</td><td>a</td></tr>
+  <tr><td>a</td><td>&amp;</td><td>a</td></tr>
+</table>
+
+</div>
+
+---
+
+これを数字だけで表すと次のようになります。
+
+<div class="tables-wrap">
+<!-- 1 -->
+
+<table class="count-card">
+  <tr><td>1</td><td>2</td><td>3</td></tr>
+  <tr><td>2</td><td>2</td><td>3</td></tr>
+  <tr><td>3</td><td>2</td><td>3</td></tr>
+</table>
+
+<!-- 2 -->
+<table class="count-card">
+  <tr><td>2</td><td>2</td><td>3</td></tr>
+  <tr><td>2</td><td>2</td><td>3</td></tr>
+  <tr><td>3</td><td>2</td><td>3</td></tr>
+</table>
+
+<!-- 3 -->
+<table class="count-card">
+  <tr><td>3</td><td>2</td><td>3</td></tr>
+  <tr><td>2</td><td>2</td><td>3</td></tr>
+  <tr><td>3</td><td>2</td><td>3</td></tr>
+</table>
+
+<!-- 4 -->
+<table class="count-card">
+  <tr><td>4</td><td>2</td><td>3</td></tr>
+  <tr><td>2</td><td>2</td><td>3</td></tr>
+  <tr><td>3</td><td>2</td><td>3</td></tr>
+</table>
+
+<!-- 5 -->
+<table class="count-card">
+  <tr><td>5</td><td>2</td><td>3</td></tr>
+  <tr><td>2</td><td>2</td><td>3</td></tr>
+  <tr><td>3</td><td>2</td><td>3</td></tr>
+</table>
+
+<!-- 6 -->
+<table class="count-card">
+  <tr><td>6</td><td>2</td><td>3</td></tr>
+  <tr><td>2</td><td>2</td><td>3</td></tr>
+  <tr><td>3</td><td>2</td><td>3</td></tr>
+</table>
+
+<!-- 7 -->
+<table class="count-card">
+  <tr><td>7</td><td>2</td><td>3</td></tr>
+  <tr><td>2</td><td>2</td><td>3</td></tr>
+  <tr><td>3</td><td>2</td><td>3</td></tr>
+</table>
+
+<!-- 8 -->
+<table class="count-card">
+  <tr><td>8</td><td>2</td><td>3</td></tr>
+  <tr><td>2</td><td>2</td><td>3</td></tr>
+  <tr><td>3</td><td>2</td><td>3</td></tr>
+</table>
+
+<!-- 9 -->
+<table class="count-card">
+  <tr><td>9</td><td>2</td><td>3</td></tr>
+  <tr><td>2</td><td>2</td><td>3</td></tr>
+  <tr><td>3</td><td>2</td><td>3</td></tr>
+</table>
+
+<!-- 1 (repeat) -->
+<table class="count-card">
+  <tr><td>1</td><td>2</td><td>3</td></tr>
+  <tr><td>2</td><td>2</td><td>3</td></tr>
+  <tr><td>3</td><td>2</td><td>3</td></tr>
+</table>
+
+</div>
+
+---
+
+テーブルを読む順番は次の通りです。
+
+<div class="tables-wrap">
+<!-- 1 -->
+<div class="count-card count-card-panel" > 1 </div>
+<div class="count-card count-card-panel" > 2 </div>
+<div class="count-card count-card-panel" > 3 </div>
+<div class="count-card count-card-panel" > 4 </div>
+<div class="count-card count-card-panel" > 5 </div>
+<div class="count-card count-card-panel" > 6 </div>
+<div class="count-card count-card-panel" > 7 </div>
+<div class="count-card count-card-panel" > 8 </div>
+<div class="count-card count-card-panel" > 9 </div>
+</div>
+
+---
+
+それぞれのテーブル内の数字を読む順番は次の通りです。
+
+<div class="tables-wrap">
+
+<!-- 1 -->
+
+<table class="count-card">
+  <tr><td>1</td><td>2</td><td>3</td></tr>
+  <tr><td>4</td><td>5</td><td>6</td></tr>
+  <tr><td>7</td><td>8</td><td>9</td></tr>
+</table>
+
+<!-- 2 -->
+
+<table class="count-card">
+  <tr><td>2</td><td>2</td><td>3</td></tr>
+  <tr><td>4</td><td>5</td><td>6</td></tr>
+  <tr><td>7</td><td>8</td><td>9</td></tr>
+</table>
+
+<!-- 3 -->
+
+<table class="count-card">
+  <tr><td>3</td><td>2</td><td>3</td></tr>
+  <tr><td>4</td><td>5</td><td>6</td></tr>
+  <tr><td>7</td><td>8</td><td>9</td></tr>
+</table>
+
+<!-- 4 -->
+
+<table class="count-card">
+  <tr><td>4</td><td>2</td><td>3</td></tr>
+  <tr><td>4</td><td>5</td><td>6</td></tr>
+  <tr><td>7</td><td>8</td><td>9</td></tr>
+</table>
+
+<!-- 5 -->
+
+<table class="count-card">
+  <tr><td>5</td><td>2</td><td>3</td></tr>
+  <tr><td>4</td><td>5</td><td>6</td></tr>
+  <tr><td>7</td><td>8</td><td>9</td></tr>
+</table>
+
+<!-- 6 -->
+
+<table class="count-card">
+  <tr><td>6</td><td>2</td><td>3</td></tr>
+  <tr><td>4</td><td>5</td><td>6</td></tr>
+  <tr><td>7</td><td>8</td><td>9</td></tr>
+</table>
+
+<!-- 7 -->
+
+<table class="count-card">
+  <tr><td>7</td><td>2</td><td>3</td></tr>
+  <tr><td>4</td><td>5</td><td>6</td></tr>
+  <tr><td>7</td><td>8</td><td>9</td></tr>
+</table>
+
+<!-- 8 -->
+
+<table class="count-card">
+  <tr><td>8</td><td>2</td><td>3</td></tr>
+  <tr><td>4</td><td>5</td><td>6</td></tr>
+  <tr><td>7</td><td>8</td><td>9</td></tr>
+</table>
+
+<!-- 9 -->
+
+<table class="count-card">
+  <tr><td>9</td><td>2</td><td>3</td></tr>
+  <tr><td>4</td><td>5</td><td>6</td></tr>
+  <tr><td>7</td><td>8</td><td>9</td></tr>
+</table>
+
+<!-- 9 -->
+
+<table class="count-card">
+  <tr><td>9</td><td>2</td><td>3</td></tr>
+  <tr><td>4</td><td>5</td><td>6</td></tr>
+  <tr><td>7</td><td>8</td><td>9</td></tr>
+</table>
+
+<!-- 1 (repeat) -->
+
+<table class="count-card">
+  <tr><td>1</td><td>2</td><td>3</td></tr>
+  <tr><td>4</td><td>5</td><td>6</td></tr>
+  <tr><td>7</td><td>8</td><td>9</td></tr>
+</table>
+
+</div>
+
+
+#### 実際の音韻表記厳密化 <!-- {#practical-prosodic-notation-strictification-in-three} -->
 
 これから実際にカウントセットに対して実際に音韻表記厳密化を行います。これまでに
 御紹介致しました３つの音韻規則レベルに沿って作られたカウントに対して７つの音韻
 表記厳密化を順番に行います。
 
-##### 音韻規則レベル１=音素レベル
+##### 音韻規則レベル１=音素レベル  <!-- {#ppns-1} -->
 
 音韻規則レベル１のカウントを音韻表記厳密化していきます。音韻規則レベル１のカウ
 ントは音韻規則レベル１＝音韻表記厳密化レベル３までの音韻表記厳密化しか行うこと
 が出来ません。ここからレベル３までの音韻厳密化を行います。
 
 ```{.lilypond}
-\include "lilypond-book-preamble.ly"
-\include "rhythmpedia-ly/shared/rhythmdo-001.ly"
-% X9KrQ+HRqEh26eGAI4TXNA==
+\include "common-ly/shared/rhythmdo-001.ly"
+% FYeFVMp/AvQV9Y9V6UC8hA==
 ```
 
-###### レベル0 {{< var RUBY-MiOP>}} {#notation-by-minimum-prosodic-onset-principle}
+###### レベル0 {{< var RUBY-MiOP>}} <!-- {#ppns-1-0} --> 
 
 まず音符を音素に分解したのちに、単純に先頭から音韻を順番に割り当てる表記方法が
 この**レベル0音韻厳密化**です。
 
 ```{.lilypond}
-\include "lilypond-book-preamble.ly"
-\include "rhythmpedia-ly/shared/rhythmdo-lv0-000.ly"
+\include "common-ly/shared/rhythmdo-lv0-000.ly"
 ```
 
 この表記方法には２つの解釈が考えられます。
@@ -8669,9 +9008,8 @@ SPE表記法は音韻学の研究が立ち遅れている我が国日本では�
 そのモーラ内に子音がない場合、次の譜面で表される様に子音が前進することです。
 
 ```{.lilypond}
-\include "lilypond-book-preamble.ly"
-\include "rhythmpedia-ly/shared/rhythmdo-lv0-001.ly"
-% NSAHnuEDK0o0peGlAyNROw==
+\include "common-ly/shared/rhythmdo-lv0-001.ly"
+% ailORODTtC7qDwbiZAM2rw==
 ```
 
 この譜面は、モーラ拍リズムの**頭合わせリズム認識型**が発動した状態を模式的に表
@@ -8710,7 +9048,7 @@ RUBY-MI>}}**は、音の始まりという視点で見ると等間隔ではあ�
 以下のレベル１以降はそういう譜面の解釈の一例を形式化したものです。貴方の志を世
 界中の人々に届ける為の淀みない発音を実現する為にこれらのレベルは存在します。
 
-###### レベル1 {{< var RUBY-NI >}}
+###### レベル1 {{< var RUBY-NI >}}  <!-- {#ppns-1-1} --> 
 
 モーラ拍リズムを母国語とする人が最初に直面する問題は、{{< var RUBY-NI >}}リズム
 認識型を持たないことにより、子音の位置を強拍よりも前に発音できないことです。
@@ -8719,14 +9057,13 @@ RUBY-MI>}}**は、音の始まりという視点で見ると等間隔ではあ�
 {{< var RUBY-NI >}}リズム認識方が発動した状態を模式的に表しています。
 
 ```{.lilypond}
-\include "lilypond-book-preamble.ly"
-\include "rhythmpedia-ly/shared/rhythmdo-lv1-000.ly"
+\include "common-ly/shared/rhythmdo-lv1-000.ly"
 % JzhO72YfJNeoqT2fUGwZhg==
 ```
 
 この様にシラブル拍リズム言語を話す人々は、子音を弱拍位置で発音する習慣を持っています。
 
-###### レベル2 {{< var RUBY-MOP >}}
+###### レベル2 {{< var RUBY-MOP >}}  <!-- {#ppns-1-2} --> 
 
 シラブル拍リズム言語は更に{{< var RUBY-MOP >}}リズム認識型を持っており、子音を
 弱拍位置で発音するだけでなく、その直前の末子音を全て可能な限りまとめて発音する
@@ -8736,16 +9073,14 @@ RUBY-MI>}}**は、音の始まりという視点で見ると等間隔ではあ�
 様子を模式的に表したものです。
 
 ```{.lilypond}
-\include "lilypond-book-preamble.ly"
-\include "rhythmpedia-ly/shared/rhythmdo-lv2-tuplets-1.ly"
+\include "common-ly/shared/rhythmdo-lv2-tuplets-1.ly"
 % Thu, 02 Oct 2025 19:55:40 +0900
 ```
 
 **拡大表示**
 
 ```{.lilypond}
-\include "lilypond-book-preamble.ly"
-\include "rhythmpedia-ly/shared/rhythmdo-lv2-tuplets-2.ly"
+\include "common-ly/shared/rhythmdo-lv2-tuplets-2.ly"
 % ejQTU5OlDKzaYh1qSRDOHg==
 ```
 
@@ -8754,7 +9089,7 @@ RUBY-MI>}}**は、音の始まりという視点で見ると等間隔ではあ�
 ます。
 
 
-##### 音韻規則レベル２=音節レベル
+##### 音韻規則レベル２=音節レベル <!-- {#ppns-2} --> 
 
 レベル3 {{< var RUBY-PNS>}} からはこれまでの音韻規則レベル1=音素のみの厳密化だ
 けでなく音節レベルでの音韻表記厳密化を行います。
@@ -8770,8 +9105,7 @@ RUBY-MI>}}**は、音の始まりという視点で見ると等間隔ではあ�
 音韻規則レベル2のカウントセットを見てみます。
 
 ```{.lilypond}
-\include "lilypond-book-preamble.ly"
-\include "rhythmpedia-ly/shared/rhythmdo-lv3-lv3-000.ly"
+\include "common-ly/shared/rhythmdo-lv3-lv3-000.ly"
 % feYzEFVxwo1+EeumMUpGQw==
 ```
 
@@ -8780,8 +9114,7 @@ RUBY-PNI >}}**を適用します。具体的には**音符を１つずらし&が
 する事で**弱拍先行**の配置にします。
 
 ```{.lilypond}
-\include "lilypond-book-preamble.ly"
-\include "rhythmpedia-ly/shared/rhythmdo-lv3-lv3-001.ly"
+\include "common-ly/shared/rhythmdo-lv3-lv3-001.ly"
 % 4LH9TXuz1hivqz4PkIjG+Q==
 ```
 
@@ -8794,47 +9127,43 @@ RUBY-PNI >}} を行う必要があります。
 す。
 
 
-###### レベル0 {{< var RUBY-MiOP>}} 
+###### レベル0 {{< var RUBY-MiOP>}} <!-- {#ppns-2-0} -->
 
 ```{.lilypond}
-\include "lilypond-book-preamble.ly"
-% \include "rhythmpedia-ly/shared/rhythmdo-lv0-000.ly"
-% \include "rhythmpedia-ly/shared/rhythmdo-lv2-lv0-000.ly"
-\include "rhythmpedia-ly/shared/rhythmdo-2-lv2-lv0-000.ly"
-%  2025/10/13 15:33:48
+% \include "common-ly/shared/rhythmdo-lv0-000.ly"
+% \include "common-ly/shared/rhythmdo-lv2-lv0-000.ly"
+\include "common-ly/shared/rhythmdo-2-lv2-lv0-000.ly"
+%  0tUT34uBX/4FZ8IwxhwrcQ==
 ```
 
 <!--
 ```{.lilypond}
-\include "lilypond-book-preamble.ly"
-% \include "rhythmpedia-ly/shared/rhythmdo-lv3-lv0.ly"
+% \include "common-ly/shared/rhythmdo-lv3-lv0.ly"
 % bx/+Uzn54FezLD2lCPTzPQ==
 ```
 -->
 
-###### レベル1 {{< var RUBY-NI>}} 
+###### レベル1 {{< var RUBY-NI>}}    <!-- {#ppns-2-1} -->
 
 ```{.lilypond}
-\include "lilypond-book-preamble.ly"
-% \include "rhythmpedia-ly/shared/rhythmdo-lv3-lv1.ly"
-\include "rhythmpedia-ly/shared/rhythmdo-lv2-lv1.ly"
+% \include "common-ly/shared/rhythmdo-lv3-lv1.ly"
+\include "common-ly/shared/rhythmdo-lv2-lv1.ly"
 %NDzk2XbkmS/s1M2mZF4dUQ==
 ```
 
-###### レベル2 {{< var RUBY-MOP>}} 
+###### レベル2 {{< var RUBY-MOP>}}    <!-- {#ppns-2-2} -->
 
 レベル2{{< var RUBY-MOP>}}を実現する為に、今まで3連符2つ目で発音していた末子音
 を次の音節の頭子音(つまり2階層目の3連符の3つ目)にまとめます。これをここでは**頭
 子音最大化処理** と呼びます。
 
 ```{.lilypond}
-\include "lilypond-book-preamble.ly"
-% \include "rhythmpedia-ly/shared/rhythmdo-lv3-lv2.ly"
-\include "rhythmpedia-ly/shared/rhythmdo-lv2-lv2.ly"
+% \include "common-ly/shared/rhythmdo-lv3-lv2.ly"
+\include "common-ly/shared/rhythmdo-lv2-lv2.ly"
 %XErbLofEJcYBlcXmer/OEQ==
 ```
 
-###### レベル3 {{< var RUBY-PNI >}}
+###### レベル3 {{< var RUBY-PNI >}}    <!-- {#ppns-2-3} -->
 
 レベル3 {{< var RUBY-PNI >}}を実現する為に、この章の冒頭で御説明した通り、これま
 で数字を拍先頭に配置していたものを、数字が前拍の1階層目の3連符の3拍目くるように
@@ -8842,9 +9171,8 @@ RUBY-PNI >}} を行う必要があります。
 
 
 ```{.lilypond}
-\include "lilypond-book-preamble.ly"
-% \include "rhythmpedia-ly/shared/rhythmdo-001-lv3.ly"
-\include "rhythmpedia-ly/shared/rhythmdo-lv2-lv3.ly"
+% \include "common-ly/shared/rhythmdo-001-lv3.ly"
+\include "common-ly/shared/rhythmdo-lv2-lv3.ly"
 %HMNEX19uLDaotvWFKP88UA==
 ```
 
@@ -8853,28 +9181,25 @@ RUBY-PNI >}} を行う必要があります。
 す。
 
 ```{.lilypond}
-\include "lilypond-book-preamble.ly"
-\include "rhythmpedia-ly/shared/rhythmdo-lv3-lv3-001.ly"
+\include "common-ly/shared/rhythmdo-lv3-lv3-001.ly"
 % 4LH9TXuz1hivqz4PkIjG+Q==
 ```
 
-###### レベル4 {{< var RUBY-MPOP >}}
+###### レベル4 {{< var RUBY-MPOP >}}    <!-- {#ppns-2-4} -->
 
 レベル４は更に弱拍先行を更に推し進めます。
 
 レベル３で弱拍先行を実現する為、オフセット（ずれ）を付加することでカウントを早めました。
 
 ```{.lilypond}
-\include "lilypond-book-preamble.ly"
-\include "rhythmpedia-ly/shared/rhythmdo-lv3-lv3-001.ly"
+\include "common-ly/shared/rhythmdo-lv3-lv3-001.ly"
 % 4LH9TXuz1hivqz4PkIjG+Q==
 ```
 
 このずれをつけた状態で a を先に読むことで二重の弱拍先行（頭音節最大化）を行います。
 
 ```{.lilypond}
-\include "lilypond-book-preamble.ly"
-\include "rhythmpedia-ly/shared/rhythmdo-lv4-000.ly"
+\include "common-ly/shared/rhythmdo-lv4-000.ly"
 % c45uKGy1snAYS4TsXhqXLQ==
 ```
 
@@ -8883,8 +9208,7 @@ RUBY-PNI >}} を行う必要があります。
 ---
 
 ```{.lilypond}
-\include "lilypond-book-preamble.ly"
-\include "rhythmpedia-ly/shared/rhythmdo-lv2-lv4.ly"
+\include "common-ly/shared/rhythmdo-lv2-lv4.ly"
 % SPtkLGKekQdqekKXnxd2LA==
 ```
 
@@ -8893,24 +9217,71 @@ RUBY-PNI >}} を行う必要があります。
 音韻規則レベル２で可能な音韻表記厳密化はここまでです。
 
 
-##### 音韻規則レベル３=韻律レベル
+##### 音韻規則レベル３=韻律レベル   <!-- {#ppns-3} -->
 
 音韻規則レベル３のカウントを音韻表記厳密化していきます。音韻規則レベル１のカウ
 ントは音韻規則レベル１＝音韻表記厳密化レベル３までの音韻表記厳密化しか行うこと
 が出来ません。ここからレベル３までの音韻厳密化を行います。
 
 
-```{.lilypond}
-\include "lilypond-book-preamble.ly"
-% \include "rhythmpedia-ly/shared/rhythmdo-lv7-lv1.ly"
-\include "rhythmpedia-ly/shared/rhythmdo-lv7-lv1-tuplet.ly"
-% YzptHWXuuSWwYFzSw/Vp2g==
+```{.lilypond-file}
+common-ly/shared/rhythmdo-lv7-lv1-tuplet.ly
 ```
+
+
+###### レベル0 {{< var RUBY-MiOP>}}  <!-- {#ppns-3-0} -->
+
+詳細の説明は[レベル0](#ppns-1-0)に譲ります。
+
+```{.lilypond}
+\include "common-ly/shared/rhythmdo-lv3-lv0-000.ly"
+%  2025/10/16 14:45:07
+```
+
+###### レベル1 {{< var RUBY-NI>}}     <!-- {#ppns-3-1} -->
+詳細の説明は[レベル1](#ppns-1-1)に譲ります。
+
+```{.lilypond-file}
+common-ly/shared/rhythmdo-lv3-lv1-000.ly
+```
+
+###### レベル2 {{< var RUBY-MOP>}}    <!-- {#ppns-3-2} -->
+詳細の説明は[レベル2](#ppns-2-2)に譲ります。
+
+```{.lilypond-file}
+common-ly/shared/rhythmdo-lv3-lv2-000.ly
+```
+
+###### レベル3 {{< var RUBY-PNI >}}   <!-- {#ppns-3-3} -->
+詳細の説明は[レベル3](#ppns-2-3)に譲ります。
+
+```{.lilypond-file}
+common-ly/shared/rhythmdo-lv3-lv3-002.ly
+```
+
+###### レベル4 {{< var RUBY-MPOP >}}  <!-- {#ppns-3-4} -->
+詳細の説明は[レベル4](#ppns-2-4)に譲ります。
+```{.lilypond-file}
+common-ly/shared/rhythmdo-lv3-lv4-000.ly
+```
+
+###### レベル5 {{< var RUBY-MNI >}}   <!-- {#ppns-3-5} -->
+```{.lilypond-file}
+common-ly/shared/rhythmdo-lv3-lv5-000.ly
+```
+
+###### レベル6 {{< var RUBY-MMOP >}}  <!-- {#ppns-3-6} -->
+
+```{.lilypond-file}
+common-ly/shared/rhythmdo-lv3-lv6-000.ly
+```
+
+<!-- 7e8t0zMkvukasWdpom0+5w== -->
+
 
 
 
 ### 三連符オフビートカウントの発音
-
 
 ![](/hypergroove/attachments/phonetics-triplet-offbeat-count.png)
 

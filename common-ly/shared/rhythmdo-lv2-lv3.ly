@@ -1,3 +1,5 @@
+\include "lilypond-book-preamble.ly"
+\include "common-ly/lilypond-preamble.ly"
 
 tuplet-three = \tuplet 3/2 {
   \tuplet 3/1 8 { do8[ do8 do8] }

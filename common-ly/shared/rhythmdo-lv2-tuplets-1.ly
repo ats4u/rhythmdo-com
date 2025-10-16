@@ -1,4 +1,5 @@
-
+\include "lilypond-book-preamble.ly"
+\include "common-ly/lilypond-preamble.ly"
 gone = { \tuplet 3/2 { do16   do16_~ do16] }  }
 gtwo = { \tuplet 3/2 { do16_~ do16 do16] }  }
 gthr = { \tuplet 3/2 { do16   do16 do16] }  }
@@ -10,6 +11,7 @@ gthr = { \tuplet 3/2 { do16   do16 do16] }  }
         \voiceOne
         \time 3/8
         \partial 8
+        \autoLineBreaksOff
 
                       do8              % 1
         | do8[  do8 \gone              % 2
@@ -24,11 +26,9 @@ gthr = { \tuplet 3/2 { do16   do16 do16] }  }
         | do8[  do8 \gone
       }
 
-
       \new NullVoice = "aligner" {
         \relative do' {
           \voiceOne
-          \time 3/8
           \partial 8
           do8
 
