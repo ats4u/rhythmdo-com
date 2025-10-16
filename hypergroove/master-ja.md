@@ -8581,7 +8581,7 @@ SPE表記法は音韻学の研究が立ち遅れている我が国日本では�
 
 ```{.lilypond}
 \include "common-ly/shared/rhythmdo-001.ly"
-% X9KrQ+HRqEh26eGAI4TXNA==
+% LnaEUPNPYG0g8xE4DIOzvg==
 ```
 
 ##### 音韻規則レベル２=音節レベル
@@ -9133,7 +9133,7 @@ RUBY-PNI >}} を行う必要があります。
 % \include "common-ly/shared/rhythmdo-lv0-000.ly"
 % \include "common-ly/shared/rhythmdo-lv2-lv0-000.ly"
 \include "common-ly/shared/rhythmdo-2-lv2-lv0-000.ly"
-%  2025/10/13 15:33:48
+%  0tUT34uBX/4FZ8IwxhwrcQ==
 ```
 
 <!--
@@ -9229,40 +9229,59 @@ common-ly/shared/rhythmdo-lv7-lv1-tuplet.ly
 ```
 
 
-
 ###### レベル0 {{< var RUBY-MiOP>}}  <!-- {#ppns-3-0} -->
 
 詳細の説明は[レベル0](#ppns-1-0)に譲ります。
 
 ```{.lilypond}
 \include "common-ly/shared/rhythmdo-lv3-lv0-000.ly"
-% RjNXYrRm/d/CUhBI6WlweQ==
+%  2025/10/16 14:45:07
 ```
 
 ###### レベル1 {{< var RUBY-NI>}}     <!-- {#ppns-3-1} -->
 詳細の説明は[レベル1](#ppns-1-1)に譲ります。
 
-```{.lilypond}
-\include "common-ly/shared/rhythmdo-lv3-lv1-000.ly"
-% RjNXYrRm/d/CUhBI6WlweQ==
+```{.lilypond-file}
+common-ly/shared/rhythmdo-lv3-lv1-000.ly
 ```
 
 ###### レベル2 {{< var RUBY-MOP>}}    <!-- {#ppns-3-2} -->
 詳細の説明は[レベル2](#ppns-2-2)に譲ります。
 
+```{.lilypond-file}
+common-ly/shared/rhythmdo-lv3-lv2-000.ly
+```
+
 ###### レベル3 {{< var RUBY-PNI >}}   <!-- {#ppns-3-3} -->
 詳細の説明は[レベル3](#ppns-2-3)に譲ります。
 
+```{.lilypond-file}
+common-ly/shared/rhythmdo-lv3-lv3-002.ly
+```
+
 ###### レベル4 {{< var RUBY-MPOP >}}  <!-- {#ppns-3-4} -->
 詳細の説明は[レベル4](#ppns-2-4)に譲ります。
+```{.lilypond-file}
+common-ly/shared/rhythmdo-lv3-lv4-000.ly
+```
 
 ###### レベル5 {{< var RUBY-MNI >}}   <!-- {#ppns-3-5} -->
+```{.lilypond-file}
+common-ly/shared/rhythmdo-lv3-lv5-000.ly
+```
 
 ###### レベル6 {{< var RUBY-MMOP >}}  <!-- {#ppns-3-6} -->
 
+```{.lilypond-file}
+common-ly/shared/rhythmdo-lv3-lv6-000.ly
+```
+
+<!-- 7e8t0zMkvukasWdpom0+5w== -->
+
+
+
 
 ### 三連符オフビートカウントの発音
-
 
 ![](/hypergroove/attachments/phonetics-triplet-offbeat-count.png)
 

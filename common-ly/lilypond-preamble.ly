@@ -1,6 +1,15 @@
 % \include "lilypond-book-preamble.ly"
 \include "common-ly/chromatic-solfege.ly"
 \language "chromatic-solfege"
+padX =
+#(define-music-function (L R) (number? number?)
+  #{
+    % Make the mark exist in all break contexts
+    \once \override Score.RehearsalMark.break-visibility = #'#(#t #t #t)
+    % Add a zero-height, fixed-width markup at x=0
+    \mark \markup \with-dimensions #'(-$L . $R) #'(0 . 0) \null
+  #})
+
 \paper {
   left-margin   = 3\mm
   right-margin  = 3\mm

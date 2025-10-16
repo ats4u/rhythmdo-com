@@ -31,6 +31,9 @@ local META = {
   disabled = false,
 }
 
+-- Files to watch (relative to project root)
+local WATCH_FILES = {}
+
 local is_windows = package.config:sub(1,1) == "\\"
 
 -- ---------- tiny fs helpers ----------
@@ -131,6 +134,22 @@ local function project_root()
   io.stderr:write("[lilypond] ERROR: RHYTHMPRESS_ROOT (or QUARTO_PROJECT_DIR) not set. Please export it (see rhythmpress_env).\n")
   error("lilypond.lua: missing project root environment")
 end
+
+
+local function rel_from_root(abs)
+  local root = realpath(project_root())
+  if abs:sub(1, #root) == root then
+    local r = abs:sub(#root + 1)
+    return (r:gsub("^/+", ""))  -- strip leading /
+  end
+  return abs
+end
+
+local function add_watch(abs_path)
+  local rel = rel_from_root(abs_path)
+  WATCH_FILES[rel] = true
+end
+
 
 -- ---------- lilypond compile ----------
 local function compile_svg(base_h)
@@ -394,6 +413,14 @@ local function handle_codeblock(cb)
   end
 end
 
+local function watch_hint(rel)
+  if FORMAT:match("html") then
+    return pandoc.RawBlock("html", ('<link rel="preload" href="%s" as="fetch">'):format(rel))
+  end
+  -- non-HTML (PDF) still benefits because dependency is tracked; return a meta string fallback
+  return pandoc.Para({ pandoc.Str(" ") })  -- harmless noop
+end
+
 -- ---------- new handler: lilypond-file (no refactor; standalone) ----------
 local function handle_lilypond_file(cb)
   mkdir_p(CFG.outdir)
@@ -425,6 +452,19 @@ local function handle_lilypond_file(cb)
     local msg = "# lilypond-file: cannot read file: " .. abs_path
     return pandoc.CodeBlock(msg, pandoc.Attr("", {"lilypond-error"}, {}))
   end
+
+  -- 1
+  -- mark this source file as a dependency so Quarto watches it
+  add_watch(abs_path)
+  io.stderr:write("[lilypond.lua] add_watch: " .. abs_path .. "\n")
+
+  -- 2
+  -- compute rel path from project root
+  local rel = rel_from_root(abs_path)
+  local w = watch_hint(rel)
+  -- when you return the blocks for the image(s), append w:
+  -- blocks[#blocks+1] = w  (if w ~= nil)
+
 
   -- Effective source = preamble + file contents
   local effective = (META.preamble or "") .. bytes
@@ -481,6 +521,9 @@ local function handle_lilypond_file(cb)
   for _, p in ipairs(svg_paths) do
     blocks[#blocks+1] = build_image_block(p, cb)
   end
+  if w ~= nil then
+    blocks[#blocks + 1] = w
+  end
   return blocks
 end
 
@@ -496,8 +539,26 @@ local function CodeBlock(cb)
   return nill;
 end
 
+-- After processing blocks, inject watched files into page metadata resources
+function Pandoc(doc)
+  if next(WATCH_FILES) ~= nil then
+    io.stderr:write("[lilypond.lua] Pandoc: " )
+    local res = {}
+    -- start from existing resources if present
+    if doc.meta and doc.meta.resources and doc.meta.resources.t == "MetaList" then
+      for _, it in ipairs(doc.meta.resources) do table.insert(res, it) end
+    end
+    -- append our watched files (dedup via table set)
+    for rel, _ in pairs(WATCH_FILES) do
+      table.insert(res, pandoc.MetaString(rel))
+    end
+    doc.meta.resources = pandoc.MetaList(res)
+  end
+  return doc
+end
 
 return {
+  { Pandoc=Pandoc },
   { Meta=Meta },
   { CodeBlock = CodeBlock },
 }
