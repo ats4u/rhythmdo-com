@@ -8937,7 +8937,7 @@ common-ly/shared/rhythmdo-countset-n-3.ly
 </div>
 
 
-#### 実際の音韻表記厳密化 <!-- {#practical-prosodic-notation-strictification-in-three} -->
+#### 基底3⁻ⁿに於ける音韻表記厳密化 <!-- {#practical-prosodic-notation-strictification-in-three} -->
 
 これから実際にカウントセットに対して実際に音韻表記厳密化を行います。これまでに
 御紹介致しました３つの音韻規則レベルに沿って作られたカウントに対して７つの音韻
@@ -9121,6 +9121,7 @@ RUBY-PNI >}} を行う必要があります。
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-2-lv2-lv0-000.ly
 ```
+<!-- XVxETWgLnwCBjn4sfZX86g== -->
 
 <!--
 ```{.lilypond}
@@ -9145,7 +9146,7 @@ common-ly/shared/rhythmdo-lv2-lv1.ly
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv2-lv2.ly
 ```
-<!--liZYAV0I5pLVx2ns5L9HCw== -->
+<!-- DjP07omgzmg47kjmALzX/w== -->
 
 ###### レベル3 {{< var RUBY-PNI >}}    <!-- {#ppns-2-3} -->
 
@@ -9359,6 +9360,90 @@ common-ly/shared/rhythmdo-lv3-lv6-000.ly
 ```
 
 <!-- tnccerY91FUWg8OQLyzadQ== -->
+
+##### まとめ
+
+###### 音韻規則レベル１=音素レベル  <!-- {#ppns-1-summary} -->
+
+**原カウントセット**
+```{.lilypond-file}
+common-ly/shared/rhythmdo-countset-n-1.ly
+```
+
+---
+
+**レベル0 {{< var RUBY-MiOP>}}**
+```{.lilypond-file}
+common-ly/shared/rhythmdo-lv1-lv0-000.ly
+```
+
+---
+
+**レベル1 {{< var RUBY-NI >}}**
+```{.lilypond-file}
+common-ly/shared/rhythmdo-lv1-lv1-000.ly
+```
+
+---
+
+**レベル2 {{< var RUBY-MOP >}}**
+```{.lilypond-file}
+common-ly/shared/rhythmdo-lv1-lv2-tuplets-1.ly
+```
+
+---
+
+###### 音韻規則レベル２=音節レベル <!-- {#ppns-2-summary} --> 
+
+**原カウントセット**
+```{.lilypond-file}
+common-ly/shared/rhythmdo-countset-n-2-orig.ly
+```
+
+---
+
+**レベル3 {{< var RUBY-PNI >}}**
+```{.lilypond-file}
+common-ly/shared/rhythmdo-countset-n-2-lv1.ly
+```
+
+---
+
+**レベル4 {{< var RUBY-MPOP >}}**
+```{.lilypond-file}
+common-ly/shared/rhythmdo-countset-n-2-lv2.ly
+```
+
+
+###### 音韻規則レベル３=韻律レベル   <!-- {#ppns-3-summary} -->
+
+**原カウントセット**
+```{.lilypond-file}
+common-ly/shared/rhythmdo-countset-n-3-orig.ly
+```
+
+**レベル3 {{< var RUBY-PNI >}}**
+```{.lilypond-file}
+common-ly/shared/rhythmdo-countset-n-3-lv3.ly
+```
+
+**レベル4 {{< var RUBY-MPOP >}}**
+```{.lilypond-file}
+common-ly/shared/rhythmdo-countset-n-3-lv4.ly
+```
+
+**レベル5 {{< var RUBY-MNI >}}**
+```{.lilypond-file}
+common-ly/shared/rhythmdo-countset-n-3-lv5.ly
+```
+
+**レベル6 {{< var RUBY-MMOP >}}**
+
+```{.lilypond-file}
+common-ly/shared/rhythmdo-countset-n-3-lv6.ly
+```
+
+<!-- wPXhmYZ12SdV39jMVCxPZA==  -->
 
 
 ### 三連符オフビートカウントの発音

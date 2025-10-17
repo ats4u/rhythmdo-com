@@ -15,6 +15,9 @@ tuplet-nine = \tuplet 9/2 8 {
   #(set-paper-size "a5" 'landscape)
   % paper-width = 205\mm
   paper-height = 90\mm
+  indent = 0
+  tagline = ##f
+  page-color = #(x11-color 'white)
 }
 \score {
   <<
