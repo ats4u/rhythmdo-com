@@ -8579,9 +8579,8 @@ SPE表記法は音韻学の研究が立ち遅れている我が国日本では�
 
 **サブディヴィジョンレベル = 3⁻¹=1/3**
 
-```{.lilypond}
-\include "common-ly/shared/rhythmdo-001.ly"
-% LnaEUPNPYG0g8xE4DIOzvg==
+```{.lilypond-file}
+common-ly/shared/rhythmdo-001.ly
 ```
 
 ##### 音韻規則レベル２=音節レベル
@@ -8589,10 +8588,8 @@ SPE表記法は音韻学の研究が立ち遅れている我が国日本では�
 
 これは１ディヴィジョンに３つのサブディヴィジョンを割り当てる数え方です。
 
-```{.lilypond}
-% \include "common-ly/shared/rhythmdo-lv3-lv3-000.ly"
-\include "common-ly/shared/rhythmdo-lv3-lv3-000-tuplet.ly"
-%AZDOdTG0Hqjo0FVZGz6jMA==
+```{.lilypond-file}
+common-ly/shared/rhythmdo-lv3-lv3-000-tuplet.ly
 ```
 
 ##### 音韻規則レベル３=韻律レベル
@@ -8600,10 +8597,8 @@ SPE表記法は音韻学の研究が立ち遅れている我が国日本では�
 
 これは１ディヴィジョンに２７つのサブディヴィジョンを割り当てる数え方です。
 
-```{.lilypond}
-% \include "common-ly/shared/rhythmdo-lv7-lv1.ly"
-\include "common-ly/shared/rhythmdo-lv7-lv1-tuplet.ly"
-% rH39gT8Svtq27HDuq1ZaWQ==
+```{.lilypond-file}
+common-ly/shared/rhythmdo-lv7-lv1-tuplet.ly
 ```
 これは一瞥では理解が難しいですが、次のような法則になっています。
 
@@ -8954,9 +8949,8 @@ SPE表記法は音韻学の研究が立ち遅れている我が国日本では�
 ントは音韻規則レベル１＝音韻表記厳密化レベル３までの音韻表記厳密化しか行うこと
 が出来ません。ここからレベル３までの音韻厳密化を行います。
 
-```{.lilypond}
-\include "common-ly/shared/rhythmdo-001.ly"
-% FYeFVMp/AvQV9Y9V6UC8hA==
+```{.lilypond-file}
+common-ly/shared/rhythmdo-001.ly
 ```
 
 ###### レベル0 {{< var RUBY-MiOP>}} <!-- {#ppns-1-0} --> 
@@ -8964,8 +8958,8 @@ SPE表記法は音韻学の研究が立ち遅れている我が国日本では�
 まず音符を音素に分解したのちに、単純に先頭から音韻を順番に割り当てる表記方法が
 この**レベル0音韻厳密化**です。
 
-```{.lilypond}
-\include "common-ly/shared/rhythmdo-lv0-000.ly"
+```{.lilypond-file}
+common-ly/shared/rhythmdo-lv0-000.ly
 ```
 
 この表記方法には２つの解釈が考えられます。
@@ -9007,9 +9001,8 @@ SPE表記法は音韻学の研究が立ち遅れている我が国日本では�
 これはそのモーラ拍内に子音がない場合に更に目立つ問題となって表出します。それは
 そのモーラ内に子音がない場合、次の譜面で表される様に子音が前進することです。
 
-```{.lilypond}
-\include "common-ly/shared/rhythmdo-lv0-001.ly"
-% ailORODTtC7qDwbiZAM2rw==
+```{.lilypond-file}
+common-ly/shared/rhythmdo-lv0-001.ly
 ```
 
 この譜面は、モーラ拍リズムの**頭合わせリズム認識型**が発動した状態を模式的に表
@@ -9056,9 +9049,8 @@ RUBY-MI>}}**は、音の始まりという視点で見ると等間隔ではあ�
 この問題を解決する為に専用の練習方法が必要です。以下の譜は、シラブル拍リズムの
 {{< var RUBY-NI >}}リズム認識方が発動した状態を模式的に表しています。
 
-```{.lilypond}
-\include "common-ly/shared/rhythmdo-lv1-000.ly"
-% JzhO72YfJNeoqT2fUGwZhg==
+```{.lilypond-file}
+common-ly/shared/rhythmdo-lv1-000.ly
 ```
 
 この様にシラブル拍リズム言語を話す人々は、子音を弱拍位置で発音する習慣を持っています。
@@ -9072,16 +9064,14 @@ RUBY-MI>}}**は、音の始まりという視点で見ると等間隔ではあ�
 次の譜は、シラブル拍リズム言語に於いて、末子音が頭子音にまとめられて発音される
 様子を模式的に表したものです。
 
-```{.lilypond}
-\include "common-ly/shared/rhythmdo-lv2-tuplets-1.ly"
-% Thu, 02 Oct 2025 19:55:40 +0900
+```{.lilypond-file}
+shared/rhythmdo-lv2-tuplets-1.ly
 ```
 
 **拡大表示**
 
-```{.lilypond}
-\include "common-ly/shared/rhythmdo-lv2-tuplets-2.ly"
-% ejQTU5OlDKzaYh1qSRDOHg==
+```{.lilypond-file}
+common-ly/shared/rhythmdo-lv2-tuplets-2.ly
 ```
 
 **音韻規則レベル１ 音素レベル = 3⁻¹=1/3** で可能な音韻表記厳密化はレベル2まで
@@ -9104,18 +9094,16 @@ RUBY-MI>}}**は、音の始まりという視点で見ると等間隔ではあ�
 
 音韻規則レベル2のカウントセットを見てみます。
 
-```{.lilypond}
-\include "common-ly/shared/rhythmdo-lv3-lv3-000.ly"
-% feYzEFVxwo1+EeumMUpGQw==
+```{.lilypond-file}
+common-ly/shared/rhythmdo-lv3-lv3-000.ly
 ```
 
 二層カウントに対してレベル3の本来の目的である音韻表記厳密化**レベル３{{< var
 RUBY-PNI >}}**を適用します。具体的には**音符を１つずらし&が強拍に来る様に配置**
 する事で**弱拍先行**の配置にします。
 
-```{.lilypond}
-\include "common-ly/shared/rhythmdo-lv3-lv3-001.ly"
-% 4LH9TXuz1hivqz4PkIjG+Q==
+```{.lilypond-file}
+common-ly/shared/rhythmdo-lv3-lv3-001.ly
 ```
 
 これで**レベル3 {{< var RUBY-PNI >}}** が完了しました。これと同時に、これまでに
@@ -9129,11 +9117,8 @@ RUBY-PNI >}} を行う必要があります。
 
 ###### レベル0 {{< var RUBY-MiOP>}} <!-- {#ppns-2-0} -->
 
-```{.lilypond}
-% \include "common-ly/shared/rhythmdo-lv0-000.ly"
-% \include "common-ly/shared/rhythmdo-lv2-lv0-000.ly"
-\include "common-ly/shared/rhythmdo-2-lv2-lv0-000.ly"
-%  0tUT34uBX/4FZ8IwxhwrcQ==
+```{.lilypond-file}
+common-ly/shared/rhythmdo-2-lv2-lv0-000.ly
 ```
 
 <!--
@@ -9145,10 +9130,8 @@ RUBY-PNI >}} を行う必要があります。
 
 ###### レベル1 {{< var RUBY-NI>}}    <!-- {#ppns-2-1} -->
 
-```{.lilypond}
-% \include "common-ly/shared/rhythmdo-lv3-lv1.ly"
-\include "common-ly/shared/rhythmdo-lv2-lv1.ly"
-%NDzk2XbkmS/s1M2mZF4dUQ==
+```{.lilypond-file}
+common-ly/shared/rhythmdo-lv2-lv1.ly
 ```
 
 ###### レベル2 {{< var RUBY-MOP>}}    <!-- {#ppns-2-2} -->
@@ -9157,10 +9140,8 @@ RUBY-PNI >}} を行う必要があります。
 を次の音節の頭子音(つまり2階層目の3連符の3つ目)にまとめます。これをここでは**頭
 子音最大化処理** と呼びます。
 
-```{.lilypond}
-% \include "common-ly/shared/rhythmdo-lv3-lv2.ly"
-\include "common-ly/shared/rhythmdo-lv2-lv2.ly"
-%XErbLofEJcYBlcXmer/OEQ==
+```{.lilypond-file}
+common-ly/shared/rhythmdo-lv2-lv2.ly
 ```
 
 ###### レベル3 {{< var RUBY-PNI >}}    <!-- {#ppns-2-3} -->
@@ -9170,19 +9151,16 @@ RUBY-PNI >}} を行う必要があります。
 全体を移動します。結果として&が拍の先頭にくる様に配置されます。
 
 
-```{.lilypond}
-% \include "common-ly/shared/rhythmdo-001-lv3.ly"
-\include "common-ly/shared/rhythmdo-lv2-lv3.ly"
-%HMNEX19uLDaotvWFKP88UA==
+```{.lilypond-file}
+common-ly/shared/rhythmdo-lv2-lv3.ly
 ```
 
 これは譜面を見ると複雑に見えますが、この章の冒頭で御説明した通り、レベル1レベル
 2の音韻表記厳密化を取り除くと単に1階層目の3連符1つ分を左に移動しただけももので
 す。
 
-```{.lilypond}
-\include "common-ly/shared/rhythmdo-lv3-lv3-001.ly"
-% 4LH9TXuz1hivqz4PkIjG+Q==
+```{.lilypond-file}
+common-ly/shared/rhythmdo-lv3-lv3-001.ly
 ```
 
 ###### レベル4 {{< var RUBY-MPOP >}}    <!-- {#ppns-2-4} -->
@@ -9191,25 +9169,22 @@ RUBY-PNI >}} を行う必要があります。
 
 レベル３で弱拍先行を実現する為、オフセット（ずれ）を付加することでカウントを早めました。
 
-```{.lilypond}
-\include "common-ly/shared/rhythmdo-lv3-lv3-001.ly"
-% 4LH9TXuz1hivqz4PkIjG+Q==
+```{.lilypond-file}
+common-ly/shared/rhythmdo-lv3-lv3-001.ly
 ```
 
 このずれをつけた状態で a を先に読むことで二重の弱拍先行（頭音節最大化）を行います。
 
-```{.lilypond}
-\include "common-ly/shared/rhythmdo-lv4-000.ly"
-% c45uKGy1snAYS4TsXhqXLQ==
+```{.lilypond-file}
+common-ly/shared/rhythmdo-lv4-000.ly
 ```
 
 この状態でレベル1レベル2の音韻表記厳密化を行うと次の様になります。
 
 ---
 
-```{.lilypond}
-\include "common-ly/shared/rhythmdo-lv2-lv4.ly"
-% SPtkLGKekQdqekKXnxd2LA==
+```{.lilypond-file}
+common-ly/shared/rhythmdo-lv2-lv4.ly
 ```
 
 ---
@@ -9235,9 +9210,8 @@ common-ly/shared/rhythmdo-lv7-lv1-tuplet.ly
 
 詳細の説明は[レベル0](#ppns-1-0)に譲ります。
 
-```{.lilypond}
-\include "common-ly/shared/rhythmdo-lv3-lv0-000.ly"
-%  2025/10/16 14:45:07
+```{.lilypond-file}
+common-ly/shared/rhythmdo-lv3-lv0-000.ly
 ```
 
 ###### レベル1 {{< var RUBY-NI>}}     <!-- {#ppns-3-1} -->
