@@ -9145,6 +9145,7 @@ common-ly/shared/rhythmdo-lv2-lv1.ly
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv2-lv2.ly
 ```
+<!--liZYAV0I5pLVx2ns5L9HCw== -->
 
 ###### レベル3 {{< var RUBY-PNI >}}    <!-- {#ppns-2-3} -->
 

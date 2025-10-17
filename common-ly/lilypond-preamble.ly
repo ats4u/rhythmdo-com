@@ -18,6 +18,7 @@ padX =
   indent = 0
   tagline = ##f
   page-color = #(x11-color 'white)
+  clip-systems = ##t
 }
 \layout {
   \context {
