@@ -9376,6 +9376,7 @@ common-ly/shared/rhythmdo-countset-n-1.ly
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv1-lv0.ly
 ```
+
 ---
 
 **レベル1 {{< var RUBY-NI >}}**
@@ -9383,14 +9384,18 @@ common-ly/shared/rhythmdo-lv1-lv0.ly
 common-ly/shared/rhythmdo-lv1-lv1.ly
 ```
 
-<!-- IwdJe1vTCMdSRIyYu1lexw==  -->
-
 ---
 
 **レベル2 {{< var RUBY-MOP >}}**
+
+```{.lilypond-file}
+common-ly/shared/rhythmdo-lv1-lv2.ly
+```
+
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv1-lv2-tuplets-1.ly
 ```
+<!-- t653YlpZFKWhoSDRblCE0w==  -->
 
 ---
 
@@ -9404,6 +9409,7 @@ common-ly/shared/rhythmdo-countset-n-2-orig.ly
 ---
 
 **レベル3 {{< var RUBY-PNI >}}**
+*※ レベル3から 1,2 を除いた版です。*
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-countset-n-2-lv3.ly
 ```
@@ -9411,6 +9417,7 @@ common-ly/shared/rhythmdo-countset-n-2-lv3.ly
 ---
 
 **レベル4 {{< var RUBY-MPOP >}}**
+*※ レベル4から 1,2 を除いた版です。*
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-countset-n-2-lv43.ly
 ```
@@ -9434,17 +9441,48 @@ common-ly/shared/rhythmdo-countset-n-3-lv43.ly
 ```
 
 **レベル5 {{< var RUBY-MNI >}}**
+
+
+*※ レベル5から 1,2,3,4 を除いた版です。*
+
+```{.lilypond-file}
+common-ly/shared/rhythmdo-countset-n-3-lv5.ly
+```
+
+*※ レベル5から 1,2,4 を除いた版です。*
+
+```{.lilypond-file}
+common-ly/shared/rhythmdo-countset-n-3-lv53.ly
+```
+
+*※ レベル5から 1,2 を除いた版です。*
+
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-countset-n-3-lv543.ly
 ```
 
+
 **レベル6 {{< var RUBY-MMOP >}}**
+
+*※ レベル6から 1,2 を除いた版です。*
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-countset-n-3-lv6543.ly
 ```
 
-<!-- wPXhmYZ12SdV39jMVCxPZA==  -->
+*※ レベル6から 1,2,4 を除いた版です。*
+
+```{.lilypond-file}
+common-ly/shared/rhythmdo-countset-n-3-lv653.ly
+```
+
+*※ レベル6から 1,2,3,4 を除いた版です。*
+
+```{.lilypond-file}
+common-ly/shared/rhythmdo-countset-n-3-lv65.ly
+```
+
+<!-- DnPLEgQNJKRim4z7mDqFBg== -->
 
 
 
