@@ -1,5 +1,14 @@
 \include "lilypond-book-preamble.ly"
 \include "common-ly/lilypond-preamble.ly"
+
+%{
+\paper {
+  #(set-paper-size "a5" 'landscape)
+  % paper-width = 205\mm
+  paper-height = 90\mm
+}
+%}
+
 \score {
   <<
     \new RhythmicStaff = "rhythm"  <<
