@@ -9374,15 +9374,16 @@ common-ly/shared/rhythmdo-countset-n-1.ly
 
 **レベル0 {{< var RUBY-MiOP>}}**
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv1-lv0-000.ly
+common-ly/shared/rhythmdo-lv1-lv0.ly
 ```
-
 ---
 
 **レベル1 {{< var RUBY-NI >}}**
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv1-lv1-000.ly
+common-ly/shared/rhythmdo-lv1-lv1.ly
 ```
+
+<!-- IwdJe1vTCMdSRIyYu1lexw==  -->
 
 ---
 
@@ -9404,14 +9405,14 @@ common-ly/shared/rhythmdo-countset-n-2-orig.ly
 
 **レベル3 {{< var RUBY-PNI >}}**
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-countset-n-2-lv1.ly
+common-ly/shared/rhythmdo-countset-n-2-lv3.ly
 ```
 
 ---
 
 **レベル4 {{< var RUBY-MPOP >}}**
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-countset-n-2-lv2.ly
+common-ly/shared/rhythmdo-countset-n-2-lv43.ly
 ```
 
 
@@ -9429,18 +9430,18 @@ common-ly/shared/rhythmdo-countset-n-3-lv3.ly
 
 **レベル4 {{< var RUBY-MPOP >}}**
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-countset-n-3-lv4.ly
+common-ly/shared/rhythmdo-countset-n-3-lv43.ly
 ```
 
 **レベル5 {{< var RUBY-MNI >}}**
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-countset-n-3-lv5.ly
+common-ly/shared/rhythmdo-countset-n-3-lv543.ly
 ```
 
 **レベル6 {{< var RUBY-MMOP >}}**
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-countset-n-3-lv6.ly
+common-ly/shared/rhythmdo-countset-n-3-lv6543.ly
 ```
 
 <!-- wPXhmYZ12SdV39jMVCxPZA==  -->
