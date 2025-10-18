@@ -11,10 +11,14 @@ padX =
   #})
 
 \paper {
-  left-margin   = 3\mm
-  right-margin  = 3\mm
-  top-margin    = 10\mm
-  bottom-margin = 10\mm
+  % left-margin   = 3\mm
+  % right-margin  = 3\mm
+  % top-margin    = 10\mm
+  % bottom-margin = 10\mm
+  left-margin   = 0\mm
+  right-margin  = 0\mm
+  top-margin    = 0\mm
+  bottom-margin = 0\mm
   indent = 0
   tagline = ##f
   page-color = #(x11-color 'white)

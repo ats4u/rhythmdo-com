@@ -1,4 +1,4 @@
-\include "lilypond-book-preamble.ly"
+% \include "lilypond-book-preamble.ly"
 \include "common-ly/lilypond-preamble.ly"
 tuplet-three = \tuplet 3/2 {
   \tuplet 3/1 8 { do8[ do8 do8] }
@@ -11,6 +11,14 @@ tuplet-nine = \tuplet 9/2 8 {
   do8[ do8 do8]
 }
 
+\paper {
+  #(set-paper-size "a5" 'landscape)
+  % paper-width = 205\mm
+  paper-height = 90\mm
+  indent = 0
+  tagline = ##f
+  page-color = #(x11-color 'white)
+}
 \score {
   <<
     \new RhythmicStaff = "rhythm"  <<

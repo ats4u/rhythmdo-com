@@ -43,9 +43,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-c7b657e0b42024917fbb45638aab1b4b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../../site_libs/bootstrap/bootstrap-dark-79abf4aa573a34d2a850395b4a395f7e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../../site_libs/bootstrap/bootstrap-c7b657e0b42024917fbb45638aab1b4b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-e2192d979b99b644e7aeda3447897242.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark-e660349984d37d91fb2ecff0e3169956.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../../site_libs/bootstrap/bootstrap-e2192d979b99b644e7aeda3447897242.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -94,8 +94,8 @@ ul.task-list li input[type="checkbox"] {
     enable_page_level_ads: true
   });
 </script>
-<meta name="mdate" content="2025-10-16T11:56:15Z">
-<meta property="article:modified_time" content="2025-10-16T11:56:15Z">
+<meta name="mdate" content="2025-10-18T01:36:26Z">
+<meta property="article:modified_time" content="2025-10-18T01:36:26Z">
 <meta name="cdate" content="2025-06-08">
 <meta property="article:published_time" content="2025-06-08">
 
@@ -537,7 +537,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#音韻規則レベル２音節レベル" id="toc-音韻規則レベル２音節レベル" class="nav-link" data-scroll-target="#音韻規則レベル２音節レベル">音韻規則レベル２=音節レベル</a></li>
   <li><a href="#音韻規則レベル３韻律レベル" id="toc-音韻規則レベル３韻律レベル" class="nav-link" data-scroll-target="#音韻規則レベル３韻律レベル">音韻規則レベル３=韻律レベル</a></li>
   </ul></li>
-  <li><a href="#practical-prosodic-notation-strictification-in-three" id="toc-practical-prosodic-notation-strictification-in-three" class="nav-link" data-scroll-target="#practical-prosodic-notation-strictification-in-three">実際の音韻表記厳密化</a>
+  <li><a href="#practical-prosodic-notation-strictification-in-three" id="toc-practical-prosodic-notation-strictification-in-three" class="nav-link" data-scroll-target="#practical-prosodic-notation-strictification-in-three">基底3⁻ⁿに於ける音韻表記厳密化</a>
   <ul>
   <li><a href="#ppns-1" id="toc-ppns-1" class="nav-link" data-scroll-target="#ppns-1">音韻規則レベル１=音素レベル</a>
   <ul>
@@ -563,10 +563,14 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#ppns-3-5" id="toc-ppns-3-5" class="nav-link" data-scroll-target="#ppns-3-5">レベル5 <ruby>韻律的核音節の等時性<rt>MNI = Metric Nuclear Isochrony</rt></ruby></a></li>
   <li><a href="#ppns-3-6" id="toc-ppns-3-6" class="nav-link" data-scroll-target="#ppns-3-6">レベル6 <ruby>韻律的頭音節最大化原則<rt>MMOP = Maximal Metric Onset Principle</rt></ruby></a></li>
   </ul></li>
+  <li><a href="#まとめ" id="toc-まとめ" class="nav-link" data-scroll-target="#まとめ">まとめ</a>
+  <ul>
+  <li><a href="#ppns-1-summary" id="toc-ppns-1-summary" class="nav-link" data-scroll-target="#ppns-1-summary">音韻規則レベル１=音素レベル</a></li>
+  <li><a href="#ppns-2-summary" id="toc-ppns-2-summary" class="nav-link" data-scroll-target="#ppns-2-summary">音韻規則レベル２=音節レベル</a></li>
+  <li><a href="#ppns-3-summary" id="toc-ppns-3-summary" class="nav-link" data-scroll-target="#ppns-3-summary">音韻規則レベル３=韻律レベル</a></li>
   </ul></li>
   </ul></li>
-  <li><a href="#三連符オフビートカウントの発音" id="toc-三連符オフビートカウントの発音" class="nav-link" data-scroll-target="#三連符オフビートカウントの発音">三連符オフビートカウントの発音</a></li>
-  <li><a href="#九連符オフビートカウントの発音" id="toc-九連符オフビートカウントの発音" class="nav-link" data-scroll-target="#九連符オフビートカウントの発音">九連符オフビートカウントの発音</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -4510,21 +4514,24 @@ SPE表記法は音韻学の研究が立ち遅れている我が国日本では�
 <section id="音韻規則レベル１音素レベル" class="level5">
 <h5 class="anchored" data-anchor-id="音韻規則レベル１音素レベル">音韻規則レベル１=音素レベル</h5>
 <p><strong>サブディヴィジョンレベル = 3⁻¹=1/3</strong></p>
-<p><a href="lilypond-out/ly-b928e3d3371703f6eb31e3436e62a31220c8158c.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="\include &quot;common-ly/shared/rhythmdo-001.ly&quot;"><img src="lilypond-out/ly-b928e3d3371703f6eb31e3436e62a31220c8158c.svg" class="lilypond img-fluid" alt="\include &quot;common-ly/shared/rhythmdo-001.ly&quot;"></a></p>
+<p><a href="lilypond-out/ly-d32d2ea5978faf39de555994cedb162eb54b1681.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="common-ly/shared/rhythmdo-countset-n-1.ly"><img src="lilypond-out/ly-d32d2ea5978faf39de555994cedb162eb54b1681.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-countset-n-1.ly"></a></p>
+<link rel="preload" href="common-ly/shared/rhythmdo-countset-n-1.ly" as="fetch">
 </section>
 <section id="音韻規則レベル２音節レベル" class="level5">
 <h5 class="anchored" data-anchor-id="音韻規則レベル２音節レベル">音韻規則レベル２=音節レベル</h5>
 <p><strong>サブディヴィジョンレベル = 3⁻²=1/9</strong></p>
 <p>これは１ディヴィジョンに３つのサブディヴィジョンを割り当てる数え方です。</p>
-<p><a href="lilypond-out/ly-22e2c4c4785f74969781dce9174d8207bdb5c31b.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="% \include &quot;common-ly/shared/rhythmdo-lv3-lv3-000.ly&quot;"><img src="lilypond-out/ly-22e2c4c4785f74969781dce9174d8207bdb5c31b.svg" class="lilypond img-fluid" alt="% \include &quot;common-ly/shared/rhythmdo-lv3-lv3-000.ly&quot;"></a></p>
+<p><a href="lilypond-out/ly-a1bde7038be7ca0a596cbb1a8d2d11bec64779e5.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="common-ly/shared/rhythmdo-countset-n-2.ly"><img src="lilypond-out/ly-a1bde7038be7ca0a596cbb1a8d2d11bec64779e5.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-countset-n-2.ly"></a></p>
+<link rel="preload" href="common-ly/shared/rhythmdo-countset-n-2.ly" as="fetch">
 </section>
 <section id="音韻規則レベル３韻律レベル" class="level5">
 <h5 class="anchored" data-anchor-id="音韻規則レベル３韻律レベル">音韻規則レベル３=韻律レベル</h5>
 <p><strong>サブディヴィジョンレベル = 3⁻³=1/27</strong></p>
 <p>これは１ディヴィジョンに２７つのサブディヴィジョンを割り当てる数え方です。</p>
-<p><a href="lilypond-out/ly-97af1496852f178f9a2866392b06ad17b87d756b-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="% \include &quot;common-ly/shared/rhythmdo-lv7-lv1.ly&quot;"><img src="lilypond-out/ly-97af1496852f178f9a2866392b06ad17b87d756b-1.svg" class="lilypond img-fluid" alt="% \include &quot;common-ly/shared/rhythmdo-lv7-lv1.ly&quot;"></a></p>
-<p><a href="lilypond-out/ly-97af1496852f178f9a2866392b06ad17b87d756b-2.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="% \include &quot;common-ly/shared/rhythmdo-lv7-lv1.ly&quot;"><img src="lilypond-out/ly-97af1496852f178f9a2866392b06ad17b87d756b-2.svg" class="lilypond img-fluid" alt="% \include &quot;common-ly/shared/rhythmdo-lv7-lv1.ly&quot;"></a></p>
-<p><a href="lilypond-out/ly-97af1496852f178f9a2866392b06ad17b87d756b-3.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="% \include &quot;common-ly/shared/rhythmdo-lv7-lv1.ly&quot;"><img src="lilypond-out/ly-97af1496852f178f9a2866392b06ad17b87d756b-3.svg" class="lilypond img-fluid" alt="% \include &quot;common-ly/shared/rhythmdo-lv7-lv1.ly&quot;"></a></p>
+<p><a href="lilypond-out/ly-fa9d83a5f98a26bdc65fc85aa44f3ce4f036addb-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="common-ly/shared/rhythmdo-countset-n-3.ly"><img src="lilypond-out/ly-fa9d83a5f98a26bdc65fc85aa44f3ce4f036addb-1.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-countset-n-3.ly"></a></p>
+<p><a href="lilypond-out/ly-fa9d83a5f98a26bdc65fc85aa44f3ce4f036addb-2.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="common-ly/shared/rhythmdo-countset-n-3.ly"><img src="lilypond-out/ly-fa9d83a5f98a26bdc65fc85aa44f3ce4f036addb-2.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-countset-n-3.ly"></a></p>
+<p><a href="lilypond-out/ly-fa9d83a5f98a26bdc65fc85aa44f3ce4f036addb-3.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="common-ly/shared/rhythmdo-countset-n-3.ly"><img src="lilypond-out/ly-fa9d83a5f98a26bdc65fc85aa44f3ce4f036addb-3.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-countset-n-3.ly"></a></p>
+<link rel="preload" href="common-ly/shared/rhythmdo-countset-n-3.ly" as="fetch">
 <p>これは一瞥では理解が難しいですが、次のような法則になっています。</p>
 <ul>
 <li><strong>1 &amp; A &amp; &amp; A A &amp; A</strong></li>
@@ -5750,16 +5757,18 @@ a
 </section>
 </section>
 <section id="practical-prosodic-notation-strictification-in-three" class="level4">
-<h4 class="anchored" data-anchor-id="practical-prosodic-notation-strictification-in-three">実際の音韻表記厳密化</h4>
+<h4 class="anchored" data-anchor-id="practical-prosodic-notation-strictification-in-three">基底3⁻ⁿに於ける音韻表記厳密化</h4>
 <p>これから実際にカウントセットに対して実際に音韻表記厳密化を行います。これまでに御紹介致しました３つの音韻規則レベルに沿って作られたカウントに対して７つの音韻表記厳密化を順番に行います。</p>
 <section id="ppns-1" class="level5">
 <h5 class="anchored" data-anchor-id="ppns-1">音韻規則レベル１=音素レベル</h5>
 <p>音韻規則レベル１のカウントを音韻表記厳密化していきます。音韻規則レベル１のカウントは音韻規則レベル１＝音韻表記厳密化レベル３までの音韻表記厳密化しか行うことが出来ません。ここからレベル３までの音韻厳密化を行います。</p>
-<p><a href="lilypond-out/ly-425d6ed19af53b3a9ba0282a0437947147d61577.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-7" title="\include &quot;common-ly/shared/rhythmdo-001.ly&quot;"><img src="lilypond-out/ly-425d6ed19af53b3a9ba0282a0437947147d61577.svg" class="lilypond img-fluid" alt="\include &quot;common-ly/shared/rhythmdo-001.ly&quot;"></a></p>
+<p><a href="lilypond-out/ly-d32d2ea5978faf39de555994cedb162eb54b1681.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-7" title="common-ly/shared/rhythmdo-countset-n-1.ly"><img src="lilypond-out/ly-d32d2ea5978faf39de555994cedb162eb54b1681.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-countset-n-1.ly"></a></p>
+<link rel="preload" href="common-ly/shared/rhythmdo-countset-n-1.ly" as="fetch">
 <section id="ppns-1-0" class="level6">
 <h6 class="anchored" data-anchor-id="ppns-1-0">レベル0 <ruby>頭子音最小化原則<rt>MiOP = Minimum Onset Principle</rt></ruby></h6>
 <p>まず音符を音素に分解したのちに、単純に先頭から音韻を順番に割り当てる表記方法がこの<strong>レベル0音韻厳密化</strong>です。</p>
-<p><a href="lilypond-out/ly-37c3ad0c028830b971bd02a1a8b6caf045088ea0.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-8" title="\include &quot;common-ly/shared/rhythmdo-lv0-000.ly&quot;"><img src="lilypond-out/ly-37c3ad0c028830b971bd02a1a8b6caf045088ea0.svg" class="lilypond img-fluid" alt="\include &quot;common-ly/shared/rhythmdo-lv0-000.ly&quot;"></a></p>
+<p><a href="lilypond-out/ly-a9f244dc791dc6c95226624704c55a244d1f3b74.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-8" title="common-ly/shared/rhythmdo-lv1-lv0-000.ly"><img src="lilypond-out/ly-a9f244dc791dc6c95226624704c55a244d1f3b74.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv1-lv0-000.ly"></a></p>
+<link rel="preload" href="common-ly/shared/rhythmdo-lv1-lv0-000.ly" as="fetch">
 <p>この表記方法には２つの解釈が考えられます。</p>
 <ol type="1">
 <li>音韻厳密化がない抽象的なゼロ音韻厳密化</li>
@@ -5774,7 +5783,8 @@ a
 <p>このことから母音に拍を置いた上で子音を<strong>弱拍</strong>として母音よりも前に子音を発音する必要が生じます。これは弱拍の起源と言い換えることも出来ます。</p>
 <p>しかし日本語（モーラ拍リズム）では、子音母音を含むマス目自体に等時性があります。このことを <strong><ruby>モーラ拍の等時性<rt>MI = Mora Isochrony</rt></ruby></strong> と呼びます。<strong><ruby>モーラ拍の等時性<rt>MI = Mora Isochrony</rt></ruby></strong> では、マス目自体に子音が含まれているという特徴があります。このため海外の言語と異なり日本の言語では、子音が拍の後ろで発音される特徴があります。</p>
 <p>これはそのモーラ拍内に子音がない場合に更に目立つ問題となって表出します。それはそのモーラ内に子音がない場合、次の譜面で表される様に子音が前進することです。</p>
-<p><a href="lilypond-out/ly-14ec1113cb62326625fb12c3bf4c8532abdf5b02.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-9" title="\include &quot;common-ly/shared/rhythmdo-lv0-001.ly&quot;"><img src="lilypond-out/ly-14ec1113cb62326625fb12c3bf4c8532abdf5b02.svg" class="lilypond img-fluid" alt="\include &quot;common-ly/shared/rhythmdo-lv0-001.ly&quot;"></a></p>
+<p><a href="lilypond-out/ly-a431a7fb5b826deac9c206e1b8b0adad2118a3b3.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-9" title="common-ly/shared/rhythmdo-lv1-lv0-001.ly"><img src="lilypond-out/ly-a431a7fb5b826deac9c206e1b8b0adad2118a3b3.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv1-lv0-001.ly"></a></p>
+<link rel="preload" href="common-ly/shared/rhythmdo-lv1-lv0-001.ly" as="fetch">
 <p>この譜面は、モーラ拍リズムの<strong>頭合わせリズム認識型</strong>が発動した状態を模式的に表現しているものです。<strong>Eight(8)</strong> の部分に注目して下さい。ここでは２つの問題が起きています。１つ目は、日本語などのモーラ拍リズムの言語を話す人が、母音から始まる単語で英語話者が<strong>暗黙のうちに発音する子音＝声門閉鎖音</strong>を認識出来ない為に脱落が起こることです。</p>
 <p>そして次にその脱落が起きた時、そのもともとモーラ拍内中央におかれていた母音が、脱落した子音位置を待つことなく発音されることです。このことから母音の位置が見かけ上前進した様に見えます。 このことを <strong><ruby>音節核の前進<rt>NA=Nuclear Advancement</rt></ruby></strong> と呼びます。</p>
 <p>この様に全ての音素がそのモーラ拍の先頭に揃う性質のことを <strong><ruby>音素の頭合わせ<rt>HAP=Head Aligned Phonomes</rt></ruby></strong>と呼びます。</p>
@@ -5789,17 +5799,20 @@ a
 <h6 class="anchored" data-anchor-id="ppns-1-1">レベル1 <ruby>音節核の等時性<rt>NI = Nuclear Isochrony</rt></ruby></h6>
 <p>モーラ拍リズムを母国語とする人が最初に直面する問題は、<ruby>音節核の等時性<rt>NI = Nuclear Isochrony</rt></ruby>リズム認識型を持たないことにより、子音の位置を強拍よりも前に発音できないことです。</p>
 <p>この問題を解決する為に専用の練習方法が必要です。以下の譜は、シラブル拍リズムの<ruby>音節核の等時性<rt>NI = Nuclear Isochrony</rt></ruby>リズム認識方が発動した状態を模式的に表しています。</p>
-<p><a href="lilypond-out/ly-70bb3247420dec4c52c15b7cb42637a30e64795d.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-10" title="\include &quot;common-ly/shared/rhythmdo-lv1-000.ly&quot;"><img src="lilypond-out/ly-70bb3247420dec4c52c15b7cb42637a30e64795d.svg" class="lilypond img-fluid" alt="\include &quot;common-ly/shared/rhythmdo-lv1-000.ly&quot;"></a></p>
+<p><a href="lilypond-out/ly-4f825f6b309f8705465568de2d2fbfa94f17d847.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-10" title="common-ly/shared/rhythmdo-lv1-lv1-000.ly"><img src="lilypond-out/ly-4f825f6b309f8705465568de2d2fbfa94f17d847.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv1-lv1-000.ly"></a></p>
+<link rel="preload" href="common-ly/shared/rhythmdo-lv1-lv1-000.ly" as="fetch">
 <p>この様にシラブル拍リズム言語を話す人々は、子音を弱拍位置で発音する習慣を持っています。</p>
 </section>
 <section id="ppns-1-2" class="level6">
 <h6 class="anchored" data-anchor-id="ppns-1-2">レベル2 <ruby>頭子音最大化原則<rt>MOP = Maximal Onset Principle</rt></ruby></h6>
 <p>シラブル拍リズム言語は更に<ruby>頭子音最大化原則<rt>MOP = Maximal Onset Principle</rt></ruby>リズム認識型を持っており、子音を弱拍位置で発音するだけでなく、その直前の末子音を全て可能な限りまとめて発音する習慣を持っています。</p>
 <p>次の譜は、シラブル拍リズム言語に於いて、末子音が頭子音にまとめられて発音される様子を模式的に表したものです。</p>
-<p><a href="lilypond-out/ly-0c4cec10978e6aeffb05ee74756129bdc99e1c03.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-11" title="\include &quot;common-ly/shared/rhythmdo-lv2-tuplets-1.ly&quot;"><img src="lilypond-out/ly-0c4cec10978e6aeffb05ee74756129bdc99e1c03.svg" class="lilypond img-fluid" alt="\include &quot;common-ly/shared/rhythmdo-lv2-tuplets-1.ly&quot;"></a></p>
+<p><a href="lilypond-out/ly-0c2c0536c7d98334c7e4d0997ce64d6e69f37829.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-11" title="common-ly/shared/rhythmdo-lv1-lv2-tuplets-1.ly"><img src="lilypond-out/ly-0c2c0536c7d98334c7e4d0997ce64d6e69f37829.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv1-lv2-tuplets-1.ly"></a></p>
+<link rel="preload" href="common-ly/shared/rhythmdo-lv1-lv2-tuplets-1.ly" as="fetch">
 <p><strong>拡大表示</strong></p>
-<p><a href="lilypond-out/ly-86fcf609670d6fa1c4beb88b2f4b6f5e18e72ee3-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-12" title="\include &quot;common-ly/shared/rhythmdo-lv2-tuplets-2.ly&quot;"><img src="lilypond-out/ly-86fcf609670d6fa1c4beb88b2f4b6f5e18e72ee3-1.svg" class="lilypond img-fluid" alt="\include &quot;common-ly/shared/rhythmdo-lv2-tuplets-2.ly&quot;"></a></p>
-<p><a href="lilypond-out/ly-86fcf609670d6fa1c4beb88b2f4b6f5e18e72ee3-2.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-13" title="\include &quot;common-ly/shared/rhythmdo-lv2-tuplets-2.ly&quot;"><img src="lilypond-out/ly-86fcf609670d6fa1c4beb88b2f4b6f5e18e72ee3-2.svg" class="lilypond img-fluid" alt="\include &quot;common-ly/shared/rhythmdo-lv2-tuplets-2.ly&quot;"></a></p>
+<p><a href="lilypond-out/ly-b7195badd2855b9e448ab18a8a4f3d7a8282d75d-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-12" title="common-ly/shared/rhythmdo-lv1-lv2-tuplets-2.ly"><img src="lilypond-out/ly-b7195badd2855b9e448ab18a8a4f3d7a8282d75d-1.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv1-lv2-tuplets-2.ly"></a></p>
+<p><a href="lilypond-out/ly-b7195badd2855b9e448ab18a8a4f3d7a8282d75d-2.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-13" title="common-ly/shared/rhythmdo-lv1-lv2-tuplets-2.ly"><img src="lilypond-out/ly-b7195badd2855b9e448ab18a8a4f3d7a8282d75d-2.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv1-lv2-tuplets-2.ly"></a></p>
+<link rel="preload" href="common-ly/shared/rhythmdo-lv1-lv2-tuplets-2.ly" as="fetch">
 <p><strong>音韻規則レベル１ 音素レベル = 3⁻¹=1/3</strong> で可能な音韻表記厳密化はレベル2までです。これ以降の音韻表記厳密化は音韻規則レベル2以上のカウント上で行う必要があります。</p>
 </section>
 </section>
@@ -5809,14 +5822,19 @@ a
 <p>音韻規則レベル1のカウントでは音韻表記厳密化レベル2までの音韻表記厳密化しか行うことが出来ません。音素だけでなく音節に対する厳密化を行うために弱拍基軸の階層を１つ増やした音韻レベル2のカウントを利用する必要があります。音韻表記厳密化レベル3からは音韻規則レベル2のカウントに移行した上で音韻表記厳密化レベル3及び4の音韻厳密化を行います。</p>
 <p>音韻規則レベル2での音韻表記厳密化の基本的な考え方は次の通りです。</p>
 <p>音韻規則レベル2のカウントセットを見てみます。</p>
-<p><a href="lilypond-out/ly-022b57dcb8f1c59199a6d645aaa6f2e2398789e8.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-14" title="\include &quot;common-ly/shared/rhythmdo-lv3-lv3-000.ly&quot;"><img src="lilypond-out/ly-022b57dcb8f1c59199a6d645aaa6f2e2398789e8.svg" class="lilypond img-fluid" alt="\include &quot;common-ly/shared/rhythmdo-lv3-lv3-000.ly&quot;"></a></p>
+<p><a href="lilypond-out/ly-4c7770cd94667b50adfd80bb2f334a409cbdb88a.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-14" title="common-ly/shared/rhythmdo-lv2-lv3-000.ly"><img src="lilypond-out/ly-4c7770cd94667b50adfd80bb2f334a409cbdb88a.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv2-lv3-000.ly"></a></p>
+<link rel="preload" href="common-ly/shared/rhythmdo-lv2-lv3-000.ly" as="fetch">
 <p>二層カウントに対してレベル3の本来の目的である音韻表記厳密化<strong>レベル３<ruby>核音節の等時性<rt>PNI = Prosodic Nuclear Isochrony</rt></ruby></strong>を適用します。具体的には<strong>音符を１つずらし&amp;が強拍に来る様に配置</strong>する事で<strong>弱拍先行</strong>の配置にします。</p>
-<p><a href="lilypond-out/ly-10f550fadd977b079240a6933c0c8baeb30631bd.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-15" title="\include &quot;common-ly/shared/rhythmdo-lv3-lv3-001.ly&quot;"><img src="lilypond-out/ly-10f550fadd977b079240a6933c0c8baeb30631bd.svg" class="lilypond img-fluid" alt="\include &quot;common-ly/shared/rhythmdo-lv3-lv3-001.ly&quot;"></a></p>
+<p><a href="lilypond-out/ly-05f830d703308df53ca8c1d6adf0d187e4dfb9f5.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-15" title="common-ly/shared/rhythmdo-lv2-lv3-001.ly"><img src="lilypond-out/ly-05f830d703308df53ca8c1d6adf0d187e4dfb9f5.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv2-lv3-001.ly"></a></p>
+<link rel="preload" href="common-ly/shared/rhythmdo-lv2-lv3-001.ly" as="fetch">
 <p>これで<strong>レベル3 <ruby>核音節の等時性<rt>PNI = Prosodic Nuclear Isochrony</rt></ruby></strong> が完了しました。これと同時に、これまでに行ってきたレベル1 <ruby>音節核の等時性<rt>NI = Nuclear Isochrony</rt></ruby>とレベル2 <ruby>頭子音最大化原則<rt>MOP = Maximal Onset Principle</rt></ruby> の <ruby>核音節の等時性<rt>PNI = Prosodic Nuclear Isochrony</rt></ruby> を行う必要があります。</p>
 <p>次節からこの２階層カウントに対してレベル1とレベル2を<ruby>音韻表記厳密化<rt>PNI = Prosodic Notation Strictification</rt></ruby>を行います。</p>
 <section id="ppns-2-0" class="level6">
 <h6 class="anchored" data-anchor-id="ppns-2-0">レベル0 <ruby>頭子音最小化原則<rt>MiOP = Minimum Onset Principle</rt></ruby></h6>
-<p><a href="lilypond-out/ly-4859ece3aa344422d1c605b503ef7473d0afc291.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-16" title="% \include &quot;common-ly/shared/rhythmdo-lv0-000.ly&quot;"><img src="lilypond-out/ly-4859ece3aa344422d1c605b503ef7473d0afc291.svg" class="lilypond img-fluid" alt="% \include &quot;common-ly/shared/rhythmdo-lv0-000.ly&quot;"></a></p>
+<p>詳細の説明は<a href="#ppns-1-0">レベル0</a>に譲ります。</p>
+<p><a href="lilypond-out/ly-b731e826d168e720aa4e7367a083eae63c5387ac.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-16" title="common-ly/shared/rhythmdo-2-lv2-lv0-000.ly"><img src="lilypond-out/ly-b731e826d168e720aa4e7367a083eae63c5387ac.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-2-lv2-lv0-000.ly"></a></p>
+<link rel="preload" href="common-ly/shared/rhythmdo-2-lv2-lv0-000.ly" as="fetch">
+<!-- XVxETWgLnwCBjn4sfZX86g== -->
 <!--
 ```{.lilypond}
 % \include "common-ly/shared/rhythmdo-lv3-lv0.ly"
@@ -5826,38 +5844,43 @@ a
 </section>
 <section id="ppns-2-1" class="level6">
 <h6 class="anchored" data-anchor-id="ppns-2-1">レベル1 <ruby>音節核の等時性<rt>NI = Nuclear Isochrony</rt></ruby></h6>
-<p><a href="lilypond-out/ly-8613d01037cf2696731143bc6d756fad4ce8812f-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-17" title="% \include &quot;common-ly/shared/rhythmdo-lv3-lv1.ly&quot;"><img src="lilypond-out/ly-8613d01037cf2696731143bc6d756fad4ce8812f-1.svg" class="lilypond img-fluid" alt="% \include &quot;common-ly/shared/rhythmdo-lv3-lv1.ly&quot;"></a></p>
-<p><a href="lilypond-out/ly-8613d01037cf2696731143bc6d756fad4ce8812f-2.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-18" title="% \include &quot;common-ly/shared/rhythmdo-lv3-lv1.ly&quot;"><img src="lilypond-out/ly-8613d01037cf2696731143bc6d756fad4ce8812f-2.svg" class="lilypond img-fluid" alt="% \include &quot;common-ly/shared/rhythmdo-lv3-lv1.ly&quot;"></a></p>
-<p><a href="lilypond-out/ly-8613d01037cf2696731143bc6d756fad4ce8812f-3.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-19" title="% \include &quot;common-ly/shared/rhythmdo-lv3-lv1.ly&quot;"><img src="lilypond-out/ly-8613d01037cf2696731143bc6d756fad4ce8812f-3.svg" class="lilypond img-fluid" alt="% \include &quot;common-ly/shared/rhythmdo-lv3-lv1.ly&quot;"></a></p>
+<p>詳細の説明は<a href="#ppns-1-1">レベル1</a>に譲ります。</p>
+<p><a href="lilypond-out/ly-9816b5a1013fc674f463fcd19bd2951a1dabc697.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-17" title="common-ly/shared/rhythmdo-lv2-lv1.ly"><img src="lilypond-out/ly-9816b5a1013fc674f463fcd19bd2951a1dabc697.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv2-lv1.ly"></a></p>
+<link rel="preload" href="common-ly/shared/rhythmdo-lv2-lv1.ly" as="fetch">
 </section>
 <section id="ppns-2-2" class="level6">
 <h6 class="anchored" data-anchor-id="ppns-2-2">レベル2 <ruby>頭子音最大化原則<rt>MOP = Maximal Onset Principle</rt></ruby></h6>
 <p>レベル2<ruby>頭子音最大化原則<rt>MOP = Maximal Onset Principle</rt></ruby>を実現する為に、今まで3連符2つ目で発音していた末子音を次の音節の頭子音(つまり2階層目の3連符の3つ目)にまとめます。これをここでは<strong>頭子音最大化処理</strong> と呼びます。</p>
-<p><a href="lilypond-out/ly-8ec04edb93f044e05490da2bf7579c32f1508de7-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-20" title="% \include &quot;common-ly/shared/rhythmdo-lv3-lv2.ly&quot;"><img src="lilypond-out/ly-8ec04edb93f044e05490da2bf7579c32f1508de7-1.svg" class="lilypond img-fluid" alt="% \include &quot;common-ly/shared/rhythmdo-lv3-lv2.ly&quot;"></a></p>
-<p><a href="lilypond-out/ly-8ec04edb93f044e05490da2bf7579c32f1508de7-2.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-21" title="% \include &quot;common-ly/shared/rhythmdo-lv3-lv2.ly&quot;"><img src="lilypond-out/ly-8ec04edb93f044e05490da2bf7579c32f1508de7-2.svg" class="lilypond img-fluid" alt="% \include &quot;common-ly/shared/rhythmdo-lv3-lv2.ly&quot;"></a></p>
-<p><a href="lilypond-out/ly-8ec04edb93f044e05490da2bf7579c32f1508de7-3.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-22" title="% \include &quot;common-ly/shared/rhythmdo-lv3-lv2.ly&quot;"><img src="lilypond-out/ly-8ec04edb93f044e05490da2bf7579c32f1508de7-3.svg" class="lilypond img-fluid" alt="% \include &quot;common-ly/shared/rhythmdo-lv3-lv2.ly&quot;"></a></p>
+<p><a href="lilypond-out/ly-ce594ec98fe34119a59444c3e44436ed7b1e2f02.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-18" title="common-ly/shared/rhythmdo-lv2-lv2.ly"><img src="lilypond-out/ly-ce594ec98fe34119a59444c3e44436ed7b1e2f02.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv2-lv2.ly"></a></p>
+<link rel="preload" href="common-ly/shared/rhythmdo-lv2-lv2.ly" as="fetch">
+<!-- DjP07omgzmg47kjmALzX/w== -->
 </section>
 <section id="ppns-2-3" class="level6">
 <h6 class="anchored" data-anchor-id="ppns-2-3">レベル3 <ruby>核音節の等時性<rt>PNI = Prosodic Nuclear Isochrony</rt></ruby></h6>
 <p>レベル3 <ruby>核音節の等時性<rt>PNI = Prosodic Nuclear Isochrony</rt></ruby>を実現する為に、この章の冒頭で御説明した通り、これまで数字を拍先頭に配置していたものを、数字が前拍の1階層目の3連符の3拍目くるように全体を移動します。結果として&amp;が拍の先頭にくる様に配置されます。</p>
-<p><a href="lilypond-out/ly-a08a63d2cbf58e1d88838c54ab219dd6ce28f366-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-23" title="% \include &quot;common-ly/shared/rhythmdo-001-lv3.ly&quot;"><img src="lilypond-out/ly-a08a63d2cbf58e1d88838c54ab219dd6ce28f366-1.svg" class="lilypond img-fluid" alt="% \include &quot;common-ly/shared/rhythmdo-001-lv3.ly&quot;"></a></p>
-<p><a href="lilypond-out/ly-a08a63d2cbf58e1d88838c54ab219dd6ce28f366-2.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-24" title="% \include &quot;common-ly/shared/rhythmdo-001-lv3.ly&quot;"><img src="lilypond-out/ly-a08a63d2cbf58e1d88838c54ab219dd6ce28f366-2.svg" class="lilypond img-fluid" alt="% \include &quot;common-ly/shared/rhythmdo-001-lv3.ly&quot;"></a></p>
-<p><a href="lilypond-out/ly-a08a63d2cbf58e1d88838c54ab219dd6ce28f366-3.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-25" title="% \include &quot;common-ly/shared/rhythmdo-001-lv3.ly&quot;"><img src="lilypond-out/ly-a08a63d2cbf58e1d88838c54ab219dd6ce28f366-3.svg" class="lilypond img-fluid" alt="% \include &quot;common-ly/shared/rhythmdo-001-lv3.ly&quot;"></a></p>
+<p><a href="lilypond-out/ly-2bccfdaf099adf1100d7ac23fd63bc3c3164613f-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-19" title="common-ly/shared/rhythmdo-lv2-lv3.ly"><img src="lilypond-out/ly-2bccfdaf099adf1100d7ac23fd63bc3c3164613f-1.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv2-lv3.ly"></a></p>
+<p><a href="lilypond-out/ly-2bccfdaf099adf1100d7ac23fd63bc3c3164613f-2.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-20" title="common-ly/shared/rhythmdo-lv2-lv3.ly"><img src="lilypond-out/ly-2bccfdaf099adf1100d7ac23fd63bc3c3164613f-2.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv2-lv3.ly"></a></p>
+<p><a href="lilypond-out/ly-2bccfdaf099adf1100d7ac23fd63bc3c3164613f-3.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-21" title="common-ly/shared/rhythmdo-lv2-lv3.ly"><img src="lilypond-out/ly-2bccfdaf099adf1100d7ac23fd63bc3c3164613f-3.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv2-lv3.ly"></a></p>
+<link rel="preload" href="common-ly/shared/rhythmdo-lv2-lv3.ly" as="fetch">
 <p>これは譜面を見ると複雑に見えますが、この章の冒頭で御説明した通り、レベル1レベル2の音韻表記厳密化を取り除くと単に1階層目の3連符1つ分を左に移動しただけもものです。</p>
-<p><a href="lilypond-out/ly-10f550fadd977b079240a6933c0c8baeb30631bd.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-26" title="\include &quot;common-ly/shared/rhythmdo-lv3-lv3-001.ly&quot;"><img src="lilypond-out/ly-10f550fadd977b079240a6933c0c8baeb30631bd.svg" class="lilypond img-fluid" alt="\include &quot;common-ly/shared/rhythmdo-lv3-lv3-001.ly&quot;"></a></p>
+<p><a href="lilypond-out/ly-05f830d703308df53ca8c1d6adf0d187e4dfb9f5.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-22" title="common-ly/shared/rhythmdo-lv2-lv3-001.ly"><img src="lilypond-out/ly-05f830d703308df53ca8c1d6adf0d187e4dfb9f5.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv2-lv3-001.ly"></a></p>
+<link rel="preload" href="common-ly/shared/rhythmdo-lv2-lv3-001.ly" as="fetch">
 </section>
 <section id="ppns-2-4" class="level6">
 <h6 class="anchored" data-anchor-id="ppns-2-4">レベル4 <ruby>頭音節最大化原則<rt>MPOP = Maximal Prosodic Onset Principle</rt></ruby></h6>
 <p>レベル４は更に弱拍先行を更に推し進めます。</p>
 <p>レベル３で弱拍先行を実現する為、オフセット（ずれ）を付加することでカウントを早めました。</p>
-<p><a href="lilypond-out/ly-10f550fadd977b079240a6933c0c8baeb30631bd.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-27" title="\include &quot;common-ly/shared/rhythmdo-lv3-lv3-001.ly&quot;"><img src="lilypond-out/ly-10f550fadd977b079240a6933c0c8baeb30631bd.svg" class="lilypond img-fluid" alt="\include &quot;common-ly/shared/rhythmdo-lv3-lv3-001.ly&quot;"></a></p>
+<p><a href="lilypond-out/ly-05f830d703308df53ca8c1d6adf0d187e4dfb9f5.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-23" title="common-ly/shared/rhythmdo-lv2-lv3-001.ly"><img src="lilypond-out/ly-05f830d703308df53ca8c1d6adf0d187e4dfb9f5.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv2-lv3-001.ly"></a></p>
+<link rel="preload" href="common-ly/shared/rhythmdo-lv2-lv3-001.ly" as="fetch">
 <p>このずれをつけた状態で a を先に読むことで二重の弱拍先行（頭音節最大化）を行います。</p>
-<p><a href="lilypond-out/ly-43f7ed550191afbbd24aa2893180726d26a4aa63.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-28" title="\include &quot;common-ly/shared/rhythmdo-lv4-000.ly&quot;"><img src="lilypond-out/ly-43f7ed550191afbbd24aa2893180726d26a4aa63.svg" class="lilypond img-fluid" alt="\include &quot;common-ly/shared/rhythmdo-lv4-000.ly&quot;"></a></p>
+<p><a href="lilypond-out/ly-d3aed635ee875e99c7ef5fd66ac5c0cd1a2d8a53.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-24" title="common-ly/shared/rhythmdo-lv2-lv4-000.ly"><img src="lilypond-out/ly-d3aed635ee875e99c7ef5fd66ac5c0cd1a2d8a53.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv2-lv4-000.ly"></a></p>
+<link rel="preload" href="common-ly/shared/rhythmdo-lv2-lv4-000.ly" as="fetch">
 <p>この状態でレベル1レベル2の音韻表記厳密化を行うと次の様になります。</p>
 <hr>
-<p><a href="lilypond-out/ly-fe8acf908d559186b8807577fa5a02e363da9a91-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-29" title="\include &quot;common-ly/shared/rhythmdo-lv2-lv4.ly&quot;"><img src="lilypond-out/ly-fe8acf908d559186b8807577fa5a02e363da9a91-1.svg" class="lilypond img-fluid" alt="\include &quot;common-ly/shared/rhythmdo-lv2-lv4.ly&quot;"></a></p>
-<p><a href="lilypond-out/ly-fe8acf908d559186b8807577fa5a02e363da9a91-2.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-30" title="\include &quot;common-ly/shared/rhythmdo-lv2-lv4.ly&quot;"><img src="lilypond-out/ly-fe8acf908d559186b8807577fa5a02e363da9a91-2.svg" class="lilypond img-fluid" alt="\include &quot;common-ly/shared/rhythmdo-lv2-lv4.ly&quot;"></a></p>
-<p><a href="lilypond-out/ly-fe8acf908d559186b8807577fa5a02e363da9a91-3.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-31" title="\include &quot;common-ly/shared/rhythmdo-lv2-lv4.ly&quot;"><img src="lilypond-out/ly-fe8acf908d559186b8807577fa5a02e363da9a91-3.svg" class="lilypond img-fluid" alt="\include &quot;common-ly/shared/rhythmdo-lv2-lv4.ly&quot;"></a></p>
+<p><a href="lilypond-out/ly-2513b1f03e77648b113c1bfdad282b66783391d6-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-25" title="common-ly/shared/rhythmdo-lv2-lv4.ly"><img src="lilypond-out/ly-2513b1f03e77648b113c1bfdad282b66783391d6-1.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv2-lv4.ly"></a></p>
+<p><a href="lilypond-out/ly-2513b1f03e77648b113c1bfdad282b66783391d6-2.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-26" title="common-ly/shared/rhythmdo-lv2-lv4.ly"><img src="lilypond-out/ly-2513b1f03e77648b113c1bfdad282b66783391d6-2.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv2-lv4.ly"></a></p>
+<p><a href="lilypond-out/ly-2513b1f03e77648b113c1bfdad282b66783391d6-3.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-27" title="common-ly/shared/rhythmdo-lv2-lv4.ly"><img src="lilypond-out/ly-2513b1f03e77648b113c1bfdad282b66783391d6-3.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv2-lv4.ly"></a></p>
+<link rel="preload" href="common-ly/shared/rhythmdo-lv2-lv4.ly" as="fetch">
 <hr>
 <p>音韻規則レベル２で可能な音韻表記厳密化はここまでです。</p>
 </section>
@@ -5865,349 +5888,195 @@ a
 <section id="ppns-3" class="level5">
 <h5 class="anchored" data-anchor-id="ppns-3">音韻規則レベル３=韻律レベル</h5>
 <p>音韻規則レベル３のカウントを音韻表記厳密化していきます。音韻規則レベル１のカウントは音韻規則レベル１＝音韻表記厳密化レベル３までの音韻表記厳密化しか行うことが出来ません。ここからレベル３までの音韻厳密化を行います。</p>
-<p><a href="lilypond-out/ly-fa9d83a5f98a26bdc65fc85aa44f3ce4f036addb-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-32" title="common-ly/shared/rhythmdo-lv7-lv1-tuplet.ly"><img src="lilypond-out/ly-fa9d83a5f98a26bdc65fc85aa44f3ce4f036addb-1.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv7-lv1-tuplet.ly"></a></p>
-<p><a href="lilypond-out/ly-fa9d83a5f98a26bdc65fc85aa44f3ce4f036addb-2.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-33" title="common-ly/shared/rhythmdo-lv7-lv1-tuplet.ly"><img src="lilypond-out/ly-fa9d83a5f98a26bdc65fc85aa44f3ce4f036addb-2.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv7-lv1-tuplet.ly"></a></p>
-<p><a href="lilypond-out/ly-fa9d83a5f98a26bdc65fc85aa44f3ce4f036addb-3.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-34" title="common-ly/shared/rhythmdo-lv7-lv1-tuplet.ly"><img src="lilypond-out/ly-fa9d83a5f98a26bdc65fc85aa44f3ce4f036addb-3.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv7-lv1-tuplet.ly"></a></p>
-<link rel="preload" href="common-ly/shared/rhythmdo-lv7-lv1-tuplet.ly" as="fetch">
+<p><a href="lilypond-out/ly-fa9d83a5f98a26bdc65fc85aa44f3ce4f036addb-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-28" title="common-ly/shared/rhythmdo-countset-n-3.ly"><img src="lilypond-out/ly-fa9d83a5f98a26bdc65fc85aa44f3ce4f036addb-1.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-countset-n-3.ly"></a></p>
+<p><a href="lilypond-out/ly-fa9d83a5f98a26bdc65fc85aa44f3ce4f036addb-2.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-29" title="common-ly/shared/rhythmdo-countset-n-3.ly"><img src="lilypond-out/ly-fa9d83a5f98a26bdc65fc85aa44f3ce4f036addb-2.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-countset-n-3.ly"></a></p>
+<p><a href="lilypond-out/ly-fa9d83a5f98a26bdc65fc85aa44f3ce4f036addb-3.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-30" title="common-ly/shared/rhythmdo-countset-n-3.ly"><img src="lilypond-out/ly-fa9d83a5f98a26bdc65fc85aa44f3ce4f036addb-3.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-countset-n-3.ly"></a></p>
+<link rel="preload" href="common-ly/shared/rhythmdo-countset-n-3.ly" as="fetch">
 <section id="ppns-3-0" class="level6">
 <h6 class="anchored" data-anchor-id="ppns-3-0">レベル0 <ruby>頭子音最小化原則<rt>MiOP = Minimum Onset Principle</rt></ruby></h6>
 <p>元となった <strong>3⁻²=1/9</strong> の9つの音符に音節を割り当てたことにより更に3分割され、** 3⁻³=1/27**の27つの音符に分割されたものです。</p>
 <p>詳細の説明は<a href="#ppns-1-0">レベル0</a>に譲ります。</p>
-<p><a href="lilypond-out/ly-13014318bce598b1e06f98ddf193a3ad9c9f7ca8.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-35" title="\include &quot;common-ly/shared/rhythmdo-lv3-lv0-000.ly&quot;"><img src="lilypond-out/ly-13014318bce598b1e06f98ddf193a3ad9c9f7ca8.svg" class="lilypond img-fluid" alt="\include &quot;common-ly/shared/rhythmdo-lv3-lv0-000.ly&quot;"></a></p>
+<p><a href="lilypond-out/ly-672e7ca7bc7b8090ecd3c8ac7ec6a2c2f906e934.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-31" title="common-ly/shared/rhythmdo-lv3-lv0-000.ly"><img src="lilypond-out/ly-672e7ca7bc7b8090ecd3c8ac7ec6a2c2f906e934.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv3-lv0-000.ly"></a></p>
+<link rel="preload" href="common-ly/shared/rhythmdo-lv3-lv0-000.ly" as="fetch">
 </section>
 <section id="ppns-3-1" class="level6">
 <h6 class="anchored" data-anchor-id="ppns-3-1">レベル1 <ruby>音節核の等時性<rt>NI = Nuclear Isochrony</rt></ruby></h6>
 <p><ruby>音節核の等時性<rt>NI = Nuclear Isochrony</rt></ruby> を適用したものです。</p>
 <p>詳細の説明は<a href="#ppns-1-1">レベル1</a>に譲ります。</p>
-<p><a href="lilypond-out/ly-2a7f508dec0ade54e598047cb53a0110c3796dd0.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-36" title="common-ly/shared/rhythmdo-lv3-lv1-000.ly"><img src="lilypond-out/ly-2a7f508dec0ade54e598047cb53a0110c3796dd0.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv3-lv1-000.ly"></a></p>
+<p><a href="lilypond-out/ly-2a7f508dec0ade54e598047cb53a0110c3796dd0.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-32" title="common-ly/shared/rhythmdo-lv3-lv1-000.ly"><img src="lilypond-out/ly-2a7f508dec0ade54e598047cb53a0110c3796dd0.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv3-lv1-000.ly"></a></p>
 <link rel="preload" href="common-ly/shared/rhythmdo-lv3-lv1-000.ly" as="fetch">
 </section>
 <section id="ppns-3-2" class="level6">
 <h6 class="anchored" data-anchor-id="ppns-3-2">レベル2 <ruby>頭子音最大化原則<rt>MOP = Maximal Onset Principle</rt></ruby></h6>
 <p><ruby>頭子音最大化原則<rt>MOP = Maximal Onset Principle</rt></ruby> を適用したものです。</p>
 <p>詳細の説明は<a href="#ppns-2-2">レベル2</a>に譲ります。</p>
-<p><a href="lilypond-out/ly-0c7076dbb5d7d5dcf281dc6ae4e661852bb61082.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-37" title="common-ly/shared/rhythmdo-lv3-lv2-000.ly"><img src="lilypond-out/ly-0c7076dbb5d7d5dcf281dc6ae4e661852bb61082.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv3-lv2-000.ly"></a></p>
+<p><a href="lilypond-out/ly-0c7076dbb5d7d5dcf281dc6ae4e661852bb61082.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-33" title="common-ly/shared/rhythmdo-lv3-lv2-000.ly"><img src="lilypond-out/ly-0c7076dbb5d7d5dcf281dc6ae4e661852bb61082.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv3-lv2-000.ly"></a></p>
 <link rel="preload" href="common-ly/shared/rhythmdo-lv3-lv2-000.ly" as="fetch">
 </section>
 <section id="ppns-3-3" class="level6">
 <h6 class="anchored" data-anchor-id="ppns-3-3">レベル3 <ruby>核音節の等時性<rt>PNI = Prosodic Nuclear Isochrony</rt></ruby></h6>
 <p>これまでレベル１〜レベル２で表記法厳密化を行ったカウントセットは次のようなものでした。</p>
 <hr>
-<p><a href="lilypond-out/ly-fa9d83a5f98a26bdc65fc85aa44f3ce4f036addb-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-38" title="common-ly/shared/rhythmdo-lv7-lv1-tuplet.ly"><img src="lilypond-out/ly-fa9d83a5f98a26bdc65fc85aa44f3ce4f036addb-1.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv7-lv1-tuplet.ly"></a></p>
-<p><a href="lilypond-out/ly-fa9d83a5f98a26bdc65fc85aa44f3ce4f036addb-2.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-39" title="common-ly/shared/rhythmdo-lv7-lv1-tuplet.ly"><img src="lilypond-out/ly-fa9d83a5f98a26bdc65fc85aa44f3ce4f036addb-2.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv7-lv1-tuplet.ly"></a></p>
-<p><a href="lilypond-out/ly-fa9d83a5f98a26bdc65fc85aa44f3ce4f036addb-3.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-40" title="common-ly/shared/rhythmdo-lv7-lv1-tuplet.ly"><img src="lilypond-out/ly-fa9d83a5f98a26bdc65fc85aa44f3ce4f036addb-3.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv7-lv1-tuplet.ly"></a></p>
-<link rel="preload" href="common-ly/shared/rhythmdo-lv7-lv1-tuplet.ly" as="fetch">
+<p><a href="lilypond-out/ly-fa9d83a5f98a26bdc65fc85aa44f3ce4f036addb-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-34" title="common-ly/shared/rhythmdo-countset-n-3.ly"><img src="lilypond-out/ly-fa9d83a5f98a26bdc65fc85aa44f3ce4f036addb-1.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-countset-n-3.ly"></a></p>
+<p><a href="lilypond-out/ly-fa9d83a5f98a26bdc65fc85aa44f3ce4f036addb-2.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-35" title="common-ly/shared/rhythmdo-countset-n-3.ly"><img src="lilypond-out/ly-fa9d83a5f98a26bdc65fc85aa44f3ce4f036addb-2.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-countset-n-3.ly"></a></p>
+<p><a href="lilypond-out/ly-fa9d83a5f98a26bdc65fc85aa44f3ce4f036addb-3.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-36" title="common-ly/shared/rhythmdo-countset-n-3.ly"><img src="lilypond-out/ly-fa9d83a5f98a26bdc65fc85aa44f3ce4f036addb-3.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-countset-n-3.ly"></a></p>
+<link rel="preload" href="common-ly/shared/rhythmdo-countset-n-3.ly" as="fetch">
 <p>これに対して<ruby>核音節の等時性<rt>PNI = Prosodic Nuclear Isochrony</rt></ruby>厳密化を行うと次のようになります。</p>
 <hr>
-<p><a href="lilypond-out/ly-edb64a4e716cfda789d11497f9bde77bd1ca3fe0-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-41" title="common-ly/shared/rhythmdo-lv3-001.ly"><img src="lilypond-out/ly-edb64a4e716cfda789d11497f9bde77bd1ca3fe0-1.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv3-001.ly"></a></p>
-<p><a href="lilypond-out/ly-edb64a4e716cfda789d11497f9bde77bd1ca3fe0-2.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-42" title="common-ly/shared/rhythmdo-lv3-001.ly"><img src="lilypond-out/ly-edb64a4e716cfda789d11497f9bde77bd1ca3fe0-2.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv3-001.ly"></a></p>
-<p><a href="lilypond-out/ly-edb64a4e716cfda789d11497f9bde77bd1ca3fe0-3.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-43" title="common-ly/shared/rhythmdo-lv3-001.ly"><img src="lilypond-out/ly-edb64a4e716cfda789d11497f9bde77bd1ca3fe0-3.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv3-001.ly"></a></p>
+<p><a href="lilypond-out/ly-edb64a4e716cfda789d11497f9bde77bd1ca3fe0-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-37" title="common-ly/shared/rhythmdo-lv3-001.ly"><img src="lilypond-out/ly-edb64a4e716cfda789d11497f9bde77bd1ca3fe0-1.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv3-001.ly"></a></p>
+<p><a href="lilypond-out/ly-edb64a4e716cfda789d11497f9bde77bd1ca3fe0-2.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-38" title="common-ly/shared/rhythmdo-lv3-001.ly"><img src="lilypond-out/ly-edb64a4e716cfda789d11497f9bde77bd1ca3fe0-2.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv3-001.ly"></a></p>
+<p><a href="lilypond-out/ly-edb64a4e716cfda789d11497f9bde77bd1ca3fe0-3.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-39" title="common-ly/shared/rhythmdo-lv3-001.ly"><img src="lilypond-out/ly-edb64a4e716cfda789d11497f9bde77bd1ca3fe0-3.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv3-001.ly"></a></p>
 <link rel="preload" href="common-ly/shared/rhythmdo-lv3-001.ly" as="fetch">
 <hr>
 <p>この１つずれたカウントセットに対してレベル1レベル2の厳密化を加えたものが最終的なレベル3の完成形となります。</p>
 <p>詳細の説明は<a href="#ppns-2-3">レベル3</a>に譲ります。</p>
 <hr>
 <p><strong>レベル3完成形</strong></p>
-<p><a href="lilypond-out/ly-3f4922da74feb3d14d8803c91457fb59fdb4237e.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-44" title="common-ly/shared/rhythmdo-lv3-lv3-002.ly"><img src="lilypond-out/ly-3f4922da74feb3d14d8803c91457fb59fdb4237e.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv3-lv3-002.ly"></a></p>
+<p><a href="lilypond-out/ly-3f4922da74feb3d14d8803c91457fb59fdb4237e.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-40" title="common-ly/shared/rhythmdo-lv3-lv3-002.ly"><img src="lilypond-out/ly-3f4922da74feb3d14d8803c91457fb59fdb4237e.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv3-lv3-002.ly"></a></p>
 <link rel="preload" href="common-ly/shared/rhythmdo-lv3-lv3-002.ly" as="fetch">
 </section>
 <section id="ppns-3-4" class="level6">
 <h6 class="anchored" data-anchor-id="ppns-3-4">レベル4 <ruby>頭音節最大化原則<rt>MPOP = Maximal Prosodic Onset Principle</rt></ruby></h6>
 <p>これまでレベル3で表記法厳密化を行ったカウントセット原型は次のようなものでした。</p>
 <hr>
-<p><a href="lilypond-out/ly-edb64a4e716cfda789d11497f9bde77bd1ca3fe0-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-45" title="common-ly/shared/rhythmdo-lv3-001.ly"><img src="lilypond-out/ly-edb64a4e716cfda789d11497f9bde77bd1ca3fe0-1.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv3-001.ly"></a></p>
-<p><a href="lilypond-out/ly-edb64a4e716cfda789d11497f9bde77bd1ca3fe0-2.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-46" title="common-ly/shared/rhythmdo-lv3-001.ly"><img src="lilypond-out/ly-edb64a4e716cfda789d11497f9bde77bd1ca3fe0-2.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv3-001.ly"></a></p>
-<p><a href="lilypond-out/ly-edb64a4e716cfda789d11497f9bde77bd1ca3fe0-3.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-47" title="common-ly/shared/rhythmdo-lv3-001.ly"><img src="lilypond-out/ly-edb64a4e716cfda789d11497f9bde77bd1ca3fe0-3.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv3-001.ly"></a></p>
+<p><a href="lilypond-out/ly-edb64a4e716cfda789d11497f9bde77bd1ca3fe0-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-41" title="common-ly/shared/rhythmdo-lv3-001.ly"><img src="lilypond-out/ly-edb64a4e716cfda789d11497f9bde77bd1ca3fe0-1.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv3-001.ly"></a></p>
+<p><a href="lilypond-out/ly-edb64a4e716cfda789d11497f9bde77bd1ca3fe0-2.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-42" title="common-ly/shared/rhythmdo-lv3-001.ly"><img src="lilypond-out/ly-edb64a4e716cfda789d11497f9bde77bd1ca3fe0-2.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv3-001.ly"></a></p>
+<p><a href="lilypond-out/ly-edb64a4e716cfda789d11497f9bde77bd1ca3fe0-3.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-43" title="common-ly/shared/rhythmdo-lv3-001.ly"><img src="lilypond-out/ly-edb64a4e716cfda789d11497f9bde77bd1ca3fe0-3.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv3-001.ly"></a></p>
 <link rel="preload" href="common-ly/shared/rhythmdo-lv3-001.ly" as="fetch">
 <hr>
 <p>これに対して<ruby>頭音節最大化原則<rt>MPOP = Maximal Prosodic Onset Principle</rt></ruby>厳密化を行うと次のようになります。</p>
 <hr>
-<p><a href="lilypond-out/ly-693c21d3251378702520e8f1f32a7b9cd872416d-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-48" title="common-ly/shared/rhythmdo-lv3-002.ly"><img src="lilypond-out/ly-693c21d3251378702520e8f1f32a7b9cd872416d-1.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv3-002.ly"></a></p>
-<p><a href="lilypond-out/ly-693c21d3251378702520e8f1f32a7b9cd872416d-2.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-49" title="common-ly/shared/rhythmdo-lv3-002.ly"><img src="lilypond-out/ly-693c21d3251378702520e8f1f32a7b9cd872416d-2.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv3-002.ly"></a></p>
-<p><a href="lilypond-out/ly-693c21d3251378702520e8f1f32a7b9cd872416d-3.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-50" title="common-ly/shared/rhythmdo-lv3-002.ly"><img src="lilypond-out/ly-693c21d3251378702520e8f1f32a7b9cd872416d-3.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv3-002.ly"></a></p>
+<p><a href="lilypond-out/ly-693c21d3251378702520e8f1f32a7b9cd872416d-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-44" title="common-ly/shared/rhythmdo-lv3-002.ly"><img src="lilypond-out/ly-693c21d3251378702520e8f1f32a7b9cd872416d-1.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv3-002.ly"></a></p>
+<p><a href="lilypond-out/ly-693c21d3251378702520e8f1f32a7b9cd872416d-2.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-45" title="common-ly/shared/rhythmdo-lv3-002.ly"><img src="lilypond-out/ly-693c21d3251378702520e8f1f32a7b9cd872416d-2.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv3-002.ly"></a></p>
+<p><a href="lilypond-out/ly-693c21d3251378702520e8f1f32a7b9cd872416d-3.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-46" title="common-ly/shared/rhythmdo-lv3-002.ly"><img src="lilypond-out/ly-693c21d3251378702520e8f1f32a7b9cd872416d-3.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv3-002.ly"></a></p>
 <link rel="preload" href="common-ly/shared/rhythmdo-lv3-002.ly" as="fetch">
 <!-- gXVPCyCcr8q4R4xc7qRdug== -->
 <hr>
 <p>これがレベル4のカウントセット原型です。この１つずれたカウントセット原型に対してレベル1、レベル2の厳密化を加えたものが最終的なレベル4の完成形となります。</p>
 <p>詳細の説明は<a href="#ppns-2-4">レベル4</a>に譲ります。</p>
 <p><strong>レベル4完成形</strong></p>
-<p><a href="lilypond-out/ly-ca062cda1bacb88e9837e818363a32af1b4c241c.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-51" title="common-ly/shared/rhythmdo-lv3-lv4-000.ly"><img src="lilypond-out/ly-ca062cda1bacb88e9837e818363a32af1b4c241c.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv3-lv4-000.ly"></a></p>
+<p><a href="lilypond-out/ly-ca062cda1bacb88e9837e818363a32af1b4c241c.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-47" title="common-ly/shared/rhythmdo-lv3-lv4-000.ly"><img src="lilypond-out/ly-ca062cda1bacb88e9837e818363a32af1b4c241c.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv3-lv4-000.ly"></a></p>
 <link rel="preload" href="common-ly/shared/rhythmdo-lv3-lv4-000.ly" as="fetch">
 </section>
 <section id="ppns-3-5" class="level6">
 <h6 class="anchored" data-anchor-id="ppns-3-5">レベル5 <ruby>韻律的核音節の等時性<rt>MNI = Metric Nuclear Isochrony</rt></ruby></h6>
 <p>これまでレベル4で表記法厳密化を行ったカウントセット原型は次のようなものでした。</p>
 <hr>
-<p><a href="lilypond-out/ly-693c21d3251378702520e8f1f32a7b9cd872416d-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-52" title="common-ly/shared/rhythmdo-lv3-002.ly"><img src="lilypond-out/ly-693c21d3251378702520e8f1f32a7b9cd872416d-1.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv3-002.ly"></a></p>
-<p><a href="lilypond-out/ly-693c21d3251378702520e8f1f32a7b9cd872416d-2.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-53" title="common-ly/shared/rhythmdo-lv3-002.ly"><img src="lilypond-out/ly-693c21d3251378702520e8f1f32a7b9cd872416d-2.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv3-002.ly"></a></p>
-<p><a href="lilypond-out/ly-693c21d3251378702520e8f1f32a7b9cd872416d-3.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-54" title="common-ly/shared/rhythmdo-lv3-002.ly"><img src="lilypond-out/ly-693c21d3251378702520e8f1f32a7b9cd872416d-3.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv3-002.ly"></a></p>
+<p><a href="lilypond-out/ly-693c21d3251378702520e8f1f32a7b9cd872416d-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-48" title="common-ly/shared/rhythmdo-lv3-002.ly"><img src="lilypond-out/ly-693c21d3251378702520e8f1f32a7b9cd872416d-1.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv3-002.ly"></a></p>
+<p><a href="lilypond-out/ly-693c21d3251378702520e8f1f32a7b9cd872416d-2.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-49" title="common-ly/shared/rhythmdo-lv3-002.ly"><img src="lilypond-out/ly-693c21d3251378702520e8f1f32a7b9cd872416d-2.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv3-002.ly"></a></p>
+<p><a href="lilypond-out/ly-693c21d3251378702520e8f1f32a7b9cd872416d-3.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-50" title="common-ly/shared/rhythmdo-lv3-002.ly"><img src="lilypond-out/ly-693c21d3251378702520e8f1f32a7b9cd872416d-3.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv3-002.ly"></a></p>
 <link rel="preload" href="common-ly/shared/rhythmdo-lv3-002.ly" as="fetch">
 <hr>
 <p>これに対して<ruby>韻律的核音節の等時性<rt>MNI = Metric Nuclear Isochrony</rt></ruby>厳密化を行うと次のようになります。</p>
 <hr>
-<p><a href="lilypond-out/ly-53823079820b823d478ec38feea96d64d503d1b5-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-55" title="common-ly/shared/rhythmdo-lv3-003.ly"><img src="lilypond-out/ly-53823079820b823d478ec38feea96d64d503d1b5-1.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv3-003.ly"></a></p>
-<p><a href="lilypond-out/ly-53823079820b823d478ec38feea96d64d503d1b5-2.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-56" title="common-ly/shared/rhythmdo-lv3-003.ly"><img src="lilypond-out/ly-53823079820b823d478ec38feea96d64d503d1b5-2.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv3-003.ly"></a></p>
-<p><a href="lilypond-out/ly-53823079820b823d478ec38feea96d64d503d1b5-3.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-57" title="common-ly/shared/rhythmdo-lv3-003.ly"><img src="lilypond-out/ly-53823079820b823d478ec38feea96d64d503d1b5-3.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv3-003.ly"></a></p>
+<p><a href="lilypond-out/ly-53823079820b823d478ec38feea96d64d503d1b5-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-51" title="common-ly/shared/rhythmdo-lv3-003.ly"><img src="lilypond-out/ly-53823079820b823d478ec38feea96d64d503d1b5-1.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv3-003.ly"></a></p>
+<p><a href="lilypond-out/ly-53823079820b823d478ec38feea96d64d503d1b5-2.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-52" title="common-ly/shared/rhythmdo-lv3-003.ly"><img src="lilypond-out/ly-53823079820b823d478ec38feea96d64d503d1b5-2.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv3-003.ly"></a></p>
+<p><a href="lilypond-out/ly-53823079820b823d478ec38feea96d64d503d1b5-3.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-53" title="common-ly/shared/rhythmdo-lv3-003.ly"><img src="lilypond-out/ly-53823079820b823d478ec38feea96d64d503d1b5-3.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv3-003.ly"></a></p>
 <link rel="preload" href="common-ly/shared/rhythmdo-lv3-003.ly" as="fetch">
 <hr>
 <p>これがレベル5のカウントセット原型です。この１つずれたカウントセット原型に対してレベル1、レベル2の厳密化を加えたものが最終的なレベル5の完成形となります。</p>
 <hr>
 <p><strong>レベル5完成形</strong></p>
-<p><a href="lilypond-out/ly-7b381b705b6e3a4f4793def66eb7c3911d8ac936.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-58" title="common-ly/shared/rhythmdo-lv3-lv5-000.ly"><img src="lilypond-out/ly-7b381b705b6e3a4f4793def66eb7c3911d8ac936.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv3-lv5-000.ly"></a></p>
+<p><a href="lilypond-out/ly-7b381b705b6e3a4f4793def66eb7c3911d8ac936.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-54" title="common-ly/shared/rhythmdo-lv3-lv5-000.ly"><img src="lilypond-out/ly-7b381b705b6e3a4f4793def66eb7c3911d8ac936.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv3-lv5-000.ly"></a></p>
 <link rel="preload" href="common-ly/shared/rhythmdo-lv3-lv5-000.ly" as="fetch">
 </section>
 <section id="ppns-3-6" class="level6">
 <h6 class="anchored" data-anchor-id="ppns-3-6">レベル6 <ruby>韻律的頭音節最大化原則<rt>MMOP = Maximal Metric Onset Principle</rt></ruby></h6>
 <p>これまでレベル5で表記法厳密化を行ったカウントセット原型は次のようなものでした。</p>
-<p><a href="lilypond-out/ly-53823079820b823d478ec38feea96d64d503d1b5-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-59" title="common-ly/shared/rhythmdo-lv3-003.ly"><img src="lilypond-out/ly-53823079820b823d478ec38feea96d64d503d1b5-1.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv3-003.ly"></a></p>
-<p><a href="lilypond-out/ly-53823079820b823d478ec38feea96d64d503d1b5-2.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-60" title="common-ly/shared/rhythmdo-lv3-003.ly"><img src="lilypond-out/ly-53823079820b823d478ec38feea96d64d503d1b5-2.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv3-003.ly"></a></p>
-<p><a href="lilypond-out/ly-53823079820b823d478ec38feea96d64d503d1b5-3.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-61" title="common-ly/shared/rhythmdo-lv3-003.ly"><img src="lilypond-out/ly-53823079820b823d478ec38feea96d64d503d1b5-3.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv3-003.ly"></a></p>
+<p><a href="lilypond-out/ly-53823079820b823d478ec38feea96d64d503d1b5-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-55" title="common-ly/shared/rhythmdo-lv3-003.ly"><img src="lilypond-out/ly-53823079820b823d478ec38feea96d64d503d1b5-1.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv3-003.ly"></a></p>
+<p><a href="lilypond-out/ly-53823079820b823d478ec38feea96d64d503d1b5-2.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-56" title="common-ly/shared/rhythmdo-lv3-003.ly"><img src="lilypond-out/ly-53823079820b823d478ec38feea96d64d503d1b5-2.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv3-003.ly"></a></p>
+<p><a href="lilypond-out/ly-53823079820b823d478ec38feea96d64d503d1b5-3.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-57" title="common-ly/shared/rhythmdo-lv3-003.ly"><img src="lilypond-out/ly-53823079820b823d478ec38feea96d64d503d1b5-3.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv3-003.ly"></a></p>
 <link rel="preload" href="common-ly/shared/rhythmdo-lv3-003.ly" as="fetch">
 <p>これに対して<ruby>韻律的頭音節最大化原則<rt>MMOP = Maximal Metric Onset Principle</rt></ruby>厳密化を行うと次のようになります。</p>
-<p><a href="lilypond-out/ly-75dbe103dc76f7322c168ee0b05c9c112c2a8bdc-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-62" title="common-ly/shared/rhythmdo-lv3-004.ly"><img src="lilypond-out/ly-75dbe103dc76f7322c168ee0b05c9c112c2a8bdc-1.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv3-004.ly"></a></p>
-<p><a href="lilypond-out/ly-75dbe103dc76f7322c168ee0b05c9c112c2a8bdc-2.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-63" title="common-ly/shared/rhythmdo-lv3-004.ly"><img src="lilypond-out/ly-75dbe103dc76f7322c168ee0b05c9c112c2a8bdc-2.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv3-004.ly"></a></p>
-<p><a href="lilypond-out/ly-75dbe103dc76f7322c168ee0b05c9c112c2a8bdc-3.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-64" title="common-ly/shared/rhythmdo-lv3-004.ly"><img src="lilypond-out/ly-75dbe103dc76f7322c168ee0b05c9c112c2a8bdc-3.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv3-004.ly"></a></p>
+<p><a href="lilypond-out/ly-75dbe103dc76f7322c168ee0b05c9c112c2a8bdc-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-58" title="common-ly/shared/rhythmdo-lv3-004.ly"><img src="lilypond-out/ly-75dbe103dc76f7322c168ee0b05c9c112c2a8bdc-1.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv3-004.ly"></a></p>
+<p><a href="lilypond-out/ly-75dbe103dc76f7322c168ee0b05c9c112c2a8bdc-2.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-59" title="common-ly/shared/rhythmdo-lv3-004.ly"><img src="lilypond-out/ly-75dbe103dc76f7322c168ee0b05c9c112c2a8bdc-2.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv3-004.ly"></a></p>
+<p><a href="lilypond-out/ly-75dbe103dc76f7322c168ee0b05c9c112c2a8bdc-3.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-60" title="common-ly/shared/rhythmdo-lv3-004.ly"><img src="lilypond-out/ly-75dbe103dc76f7322c168ee0b05c9c112c2a8bdc-3.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv3-004.ly"></a></p>
 <link rel="preload" href="common-ly/shared/rhythmdo-lv3-004.ly" as="fetch">
 <hr>
 <p>これがレベル5のカウントセット原型です。この１つずれたカウントセット原型に対してレベル1、レベル2の厳密化を加えたものが最終的なレベル5の完成形となります。</p>
 <p><strong>レベル6完成形</strong></p>
-<p><a href="lilypond-out/ly-fdb60df3c235edba56da6ad1501b4f85092039a0.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-65" title="common-ly/shared/rhythmdo-lv3-lv6-000.ly"><img src="lilypond-out/ly-fdb60df3c235edba56da6ad1501b4f85092039a0.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv3-lv6-000.ly"></a></p>
+<p><a href="lilypond-out/ly-fdb60df3c235edba56da6ad1501b4f85092039a0.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-61" title="common-ly/shared/rhythmdo-lv3-lv6-000.ly"><img src="lilypond-out/ly-fdb60df3c235edba56da6ad1501b4f85092039a0.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv3-lv6-000.ly"></a></p>
 <link rel="preload" href="common-ly/shared/rhythmdo-lv3-lv6-000.ly" as="fetch">
 <!-- tnccerY91FUWg8OQLyzadQ== -->
 </section>
 </section>
+<section id="まとめ" class="level5">
+<h5 class="anchored" data-anchor-id="まとめ">まとめ</h5>
+<section id="ppns-1-summary" class="level6">
+<h6 class="anchored" data-anchor-id="ppns-1-summary">音韻規則レベル１=音素レベル</h6>
+<p><strong>原カウントセット</strong></p>
+<p><a href="lilypond-out/ly-d32d2ea5978faf39de555994cedb162eb54b1681.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-62" title="common-ly/shared/rhythmdo-countset-n-1.ly"><img src="lilypond-out/ly-d32d2ea5978faf39de555994cedb162eb54b1681.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-countset-n-1.ly"></a></p>
+<link rel="preload" href="common-ly/shared/rhythmdo-countset-n-1.ly" as="fetch">
+<hr>
+<p><strong>レベル0 <ruby>頭子音最小化原則<rt>MiOP = Minimum Onset Principle</rt></ruby></strong></p>
+<p><a href="lilypond-out/ly-a9f244dc791dc6c95226624704c55a244d1f3b74.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-63" title="common-ly/shared/rhythmdo-lv1-lv0-000.ly"><img src="lilypond-out/ly-a9f244dc791dc6c95226624704c55a244d1f3b74.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv1-lv0-000.ly"></a></p>
+<link rel="preload" href="common-ly/shared/rhythmdo-lv1-lv0-000.ly" as="fetch">
+<hr>
+<p><strong>レベル1 <ruby>音節核の等時性<rt>NI = Nuclear Isochrony</rt></ruby></strong></p>
+<p><a href="lilypond-out/ly-4f825f6b309f8705465568de2d2fbfa94f17d847.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-64" title="common-ly/shared/rhythmdo-lv1-lv1-000.ly"><img src="lilypond-out/ly-4f825f6b309f8705465568de2d2fbfa94f17d847.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv1-lv1-000.ly"></a></p>
+<link rel="preload" href="common-ly/shared/rhythmdo-lv1-lv1-000.ly" as="fetch">
+<hr>
+<p><strong>レベル2 <ruby>頭子音最大化原則<rt>MOP = Maximal Onset Principle</rt></ruby></strong></p>
+<p><a href="lilypond-out/ly-0c2c0536c7d98334c7e4d0997ce64d6e69f37829.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-65" title="common-ly/shared/rhythmdo-lv1-lv2-tuplets-1.ly"><img src="lilypond-out/ly-0c2c0536c7d98334c7e4d0997ce64d6e69f37829.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-lv1-lv2-tuplets-1.ly"></a></p>
+<link rel="preload" href="common-ly/shared/rhythmdo-lv1-lv2-tuplets-1.ly" as="fetch">
+<hr>
 </section>
+<section id="ppns-2-summary" class="level6">
+<h6 class="anchored" data-anchor-id="ppns-2-summary">音韻規則レベル２=音節レベル</h6>
+<p><strong>原カウントセット</strong></p>
+<p><a href="lilypond-out/ly-e3424397c7457b1fad002240d2e4b5bb6fcf3536.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-66" title="common-ly/shared/rhythmdo-countset-n-2-orig.ly"><img src="lilypond-out/ly-e3424397c7457b1fad002240d2e4b5bb6fcf3536.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-countset-n-2-orig.ly"></a></p>
+<link rel="preload" href="common-ly/shared/rhythmdo-countset-n-2-orig.ly" as="fetch">
+<hr>
+<p><strong>レベル3 <ruby>核音節の等時性<rt>PNI = Prosodic Nuclear Isochrony</rt></ruby></strong></p>
+<p><a href="lilypond-out/ly-409220e42af19b1cdcef4263462344927c305b87.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-67" title="common-ly/shared/rhythmdo-countset-n-2-lv1.ly"><img src="lilypond-out/ly-409220e42af19b1cdcef4263462344927c305b87.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-countset-n-2-lv1.ly"></a></p>
+<link rel="preload" href="common-ly/shared/rhythmdo-countset-n-2-lv1.ly" as="fetch">
+<hr>
+<p><strong>レベル4 <ruby>頭音節最大化原則<rt>MPOP = Maximal Prosodic Onset Principle</rt></ruby></strong></p>
+<p><a href="lilypond-out/ly-30ea8e3fbbc04f10e016b749e820b5a3fa4fea7c.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-68" title="common-ly/shared/rhythmdo-countset-n-2-lv2.ly"><img src="lilypond-out/ly-30ea8e3fbbc04f10e016b749e820b5a3fa4fea7c.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-countset-n-2-lv2.ly"></a></p>
+<link rel="preload" href="common-ly/shared/rhythmdo-countset-n-2-lv2.ly" as="fetch">
 </section>
-<section id="三連符オフビートカウントの発音" class="level3">
-<h3 class="anchored" data-anchor-id="三連符オフビートカウントの発音">三連符オフビートカウントの発音</h3>
-<p><a href="../../../hypergroove/attachments/phonetics-triplet-offbeat-count.png" class="lightbox" data-gallery="quarto-lightbox-gallery-66"><img src="../../../hypergroove/attachments/phonetics-triplet-offbeat-count.png" class="img-fluid"></a></p>
-<ul>
-<li>1 &amp; A</li>
-<li>2 &amp; A</li>
-<li>3 &amp; A</li>
-<li>4 &amp; A</li>
-<li>5 &amp; A</li>
-<li>6 &amp; A</li>
-<li>7 &amp; A</li>
-<li>8 &amp; A</li>
-</ul>
-</section>
-<section id="九連符オフビートカウントの発音" class="level3">
-<h3 class="anchored" data-anchor-id="九連符オフビートカウントの発音">九連符オフビートカウントの発音</h3>
-<p>九連符オフビートカウントとは、三連符オフビートカウントを 3ⁿ 理論にしたがって三連符で二重の弱拍先行を構築したものです。 次の様に１拍３連符を先頭の音を変えながら３回読むことで９を表現します。</p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>1</th>
-<th>&amp;</th>
-<th>a</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>&amp;</td>
-<td>&amp;</td>
-<td>a</td>
-</tr>
-<tr class="even">
-<td>a</td>
-<td>&amp;</td>
-<td>a</td>
-</tr>
-</tbody>
-</table>
-<p>このように「横に読んでも」 1 &amp; a 「縦に読んでも」 1 &amp; a になっています。</p>
-<p>これを８拍単位で数えると次のようになります。</p>
-<p><a href="../../../hypergroove/attachments/phonetics-nonuplets-offbeat-count.png" class="lightbox" data-gallery="quarto-lightbox-gallery-67"><img src="../../../hypergroove/attachments/phonetics-nonuplets-offbeat-count.png" class="img-fluid"></a></p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>1</th>
-<th>&amp;</th>
-<th>a</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>&amp;</td>
-<td>&amp;</td>
-<td>a</td>
-</tr>
-<tr class="even">
-<td>a</td>
-<td>&amp;</td>
-<td>a</td>
-</tr>
-</tbody>
-</table>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>2</th>
-<th>&amp;</th>
-<th>a</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>&amp;</td>
-<td>&amp;</td>
-<td>a</td>
-</tr>
-<tr class="even">
-<td>a</td>
-<td>&amp;</td>
-<td>a</td>
-</tr>
-</tbody>
-</table>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>3</th>
-<th>&amp;</th>
-<th>a</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>&amp;</td>
-<td>&amp;</td>
-<td>a</td>
-</tr>
-<tr class="even">
-<td>a</td>
-<td>&amp;</td>
-<td>a</td>
-</tr>
-</tbody>
-</table>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>4</th>
-<th>&amp;</th>
-<th>a</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>&amp;</td>
-<td>&amp;</td>
-<td>a</td>
-</tr>
-<tr class="even">
-<td>a</td>
-<td>&amp;</td>
-<td>a</td>
-</tr>
-</tbody>
-</table>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>5</th>
-<th>&amp;</th>
-<th>a</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>&amp;</td>
-<td>&amp;</td>
-<td>a</td>
-</tr>
-<tr class="even">
-<td>a</td>
-<td>&amp;</td>
-<td>a</td>
-</tr>
-</tbody>
-</table>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>6</th>
-<th>&amp;</th>
-<th>a</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>&amp;</td>
-<td>&amp;</td>
-<td>a</td>
-</tr>
-<tr class="even">
-<td>a</td>
-<td>&amp;</td>
-<td>a</td>
-</tr>
-</tbody>
-</table>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>7</th>
-<th>&amp;</th>
-<th>a</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>&amp;</td>
-<td>&amp;</td>
-<td>a</td>
-</tr>
-<tr class="even">
-<td>a</td>
-<td>&amp;</td>
-<td>a</td>
-</tr>
-</tbody>
-</table>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>8</th>
-<th>&amp;</th>
-<th>a</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>&amp;</td>
-<td>&amp;</td>
-<td>a</td>
-</tr>
-<tr class="even">
-<td>a</td>
-<td>&amp;</td>
-<td>a</td>
-</tr>
-</tbody>
-</table>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>1</th>
-<th>&amp;</th>
-<th>a</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>&amp;</td>
-<td>&amp;</td>
-<td>a</td>
-</tr>
-<tr class="even">
-<td>a</td>
-<td>&amp;</td>
-<td>a</td>
-</tr>
-</tbody>
-</table>
+<section id="ppns-3-summary" class="level6">
+<h6 class="anchored" data-anchor-id="ppns-3-summary">音韻規則レベル３=韻律レベル</h6>
+<p><strong>原カウントセット</strong></p>
+<p><a href="lilypond-out/ly-2c4e42b6c4ef0e604670a4ccbf842a27be16bba2-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-69" title="common-ly/shared/rhythmdo-countset-n-3-orig.ly"><img src="lilypond-out/ly-2c4e42b6c4ef0e604670a4ccbf842a27be16bba2-1.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-countset-n-3-orig.ly"></a></p>
+<p><a href="lilypond-out/ly-2c4e42b6c4ef0e604670a4ccbf842a27be16bba2-2.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-70" title="common-ly/shared/rhythmdo-countset-n-3-orig.ly"><img src="lilypond-out/ly-2c4e42b6c4ef0e604670a4ccbf842a27be16bba2-2.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-countset-n-3-orig.ly"></a></p>
+<p><a href="lilypond-out/ly-2c4e42b6c4ef0e604670a4ccbf842a27be16bba2-3.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-71" title="common-ly/shared/rhythmdo-countset-n-3-orig.ly"><img src="lilypond-out/ly-2c4e42b6c4ef0e604670a4ccbf842a27be16bba2-3.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-countset-n-3-orig.ly"></a></p>
+<link rel="preload" href="common-ly/shared/rhythmdo-countset-n-3-orig.ly" as="fetch">
+<p><strong>レベル3 <ruby>核音節の等時性<rt>PNI = Prosodic Nuclear Isochrony</rt></ruby></strong></p>
+<p><a href="lilypond-out/ly-962895f2437d6b6d838961da84afbc3c242bdeba-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-72" title="common-ly/shared/rhythmdo-countset-n-3-lv3.ly"><img src="lilypond-out/ly-962895f2437d6b6d838961da84afbc3c242bdeba-1.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-countset-n-3-lv3.ly"></a></p>
+<p><a href="lilypond-out/ly-962895f2437d6b6d838961da84afbc3c242bdeba-2.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-73" title="common-ly/shared/rhythmdo-countset-n-3-lv3.ly"><img src="lilypond-out/ly-962895f2437d6b6d838961da84afbc3c242bdeba-2.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-countset-n-3-lv3.ly"></a></p>
+<p><a href="lilypond-out/ly-962895f2437d6b6d838961da84afbc3c242bdeba-3.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-74" title="common-ly/shared/rhythmdo-countset-n-3-lv3.ly"><img src="lilypond-out/ly-962895f2437d6b6d838961da84afbc3c242bdeba-3.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-countset-n-3-lv3.ly"></a></p>
+<link rel="preload" href="common-ly/shared/rhythmdo-countset-n-3-lv3.ly" as="fetch">
+<p><strong>レベル4 <ruby>頭音節最大化原則<rt>MPOP = Maximal Prosodic Onset Principle</rt></ruby></strong></p>
+<p><a href="lilypond-out/ly-b47894e1ebb897cb224af36376919a593870055c-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-75" title="common-ly/shared/rhythmdo-countset-n-3-lv4.ly"><img src="lilypond-out/ly-b47894e1ebb897cb224af36376919a593870055c-1.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-countset-n-3-lv4.ly"></a></p>
+<p><a href="lilypond-out/ly-b47894e1ebb897cb224af36376919a593870055c-2.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-76" title="common-ly/shared/rhythmdo-countset-n-3-lv4.ly"><img src="lilypond-out/ly-b47894e1ebb897cb224af36376919a593870055c-2.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-countset-n-3-lv4.ly"></a></p>
+<p><a href="lilypond-out/ly-b47894e1ebb897cb224af36376919a593870055c-3.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-77" title="common-ly/shared/rhythmdo-countset-n-3-lv4.ly"><img src="lilypond-out/ly-b47894e1ebb897cb224af36376919a593870055c-3.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-countset-n-3-lv4.ly"></a></p>
+<link rel="preload" href="common-ly/shared/rhythmdo-countset-n-3-lv4.ly" as="fetch">
+<p><strong>レベル5 <ruby>韻律的核音節の等時性<rt>MNI = Metric Nuclear Isochrony</rt></ruby></strong></p>
+<p><a href="lilypond-out/ly-7113e7e81d276f4efd856a6cd7ad11154896c7d0-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-78" title="common-ly/shared/rhythmdo-countset-n-3-lv5.ly"><img src="lilypond-out/ly-7113e7e81d276f4efd856a6cd7ad11154896c7d0-1.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-countset-n-3-lv5.ly"></a></p>
+<p><a href="lilypond-out/ly-7113e7e81d276f4efd856a6cd7ad11154896c7d0-2.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-79" title="common-ly/shared/rhythmdo-countset-n-3-lv5.ly"><img src="lilypond-out/ly-7113e7e81d276f4efd856a6cd7ad11154896c7d0-2.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-countset-n-3-lv5.ly"></a></p>
+<p><a href="lilypond-out/ly-7113e7e81d276f4efd856a6cd7ad11154896c7d0-3.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-80" title="common-ly/shared/rhythmdo-countset-n-3-lv5.ly"><img src="lilypond-out/ly-7113e7e81d276f4efd856a6cd7ad11154896c7d0-3.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-countset-n-3-lv5.ly"></a></p>
+<link rel="preload" href="common-ly/shared/rhythmdo-countset-n-3-lv5.ly" as="fetch">
+<p><strong>レベル6 <ruby>韻律的頭音節最大化原則<rt>MMOP = Maximal Metric Onset Principle</rt></ruby></strong></p>
+<p><a href="lilypond-out/ly-6f563cf973ddb1b6cb47c47867f2e1f47c1ab583-1.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-81" title="common-ly/shared/rhythmdo-countset-n-3-lv6.ly"><img src="lilypond-out/ly-6f563cf973ddb1b6cb47c47867f2e1f47c1ab583-1.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-countset-n-3-lv6.ly"></a></p>
+<p><a href="lilypond-out/ly-6f563cf973ddb1b6cb47c47867f2e1f47c1ab583-2.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-82" title="common-ly/shared/rhythmdo-countset-n-3-lv6.ly"><img src="lilypond-out/ly-6f563cf973ddb1b6cb47c47867f2e1f47c1ab583-2.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-countset-n-3-lv6.ly"></a></p>
+<p><a href="lilypond-out/ly-6f563cf973ddb1b6cb47c47867f2e1f47c1ab583-3.svg" class="lightbox" data-gallery="quarto-lightbox-gallery-83" title="common-ly/shared/rhythmdo-countset-n-3-lv6.ly"><img src="lilypond-out/ly-6f563cf973ddb1b6cb47c47867f2e1f47c1ab583-3.svg" class="lilypond img-fluid" alt="common-ly/shared/rhythmdo-countset-n-3-lv6.ly"></a></p>
+<link rel="preload" href="common-ly/shared/rhythmdo-countset-n-3-lv6.ly" as="fetch">
+<!-- wPXhmYZ12SdV39jMVCxPZA==  -->
+<!--
+  --
+ --
+  --
+ --
+  --
+ --
+  --
+ --
+  --
+ --
+  --
+  --
+  -->
 <!--
 #### 付録
 ```{.lilypond}
@@ -6330,6 +6199,9 @@ a
 </ul>
 
 
+</section>
+</section>
+</section>
 </section>
 
 </main> <!-- /main -->
