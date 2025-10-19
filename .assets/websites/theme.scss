@@ -323,3 +323,39 @@ dl:not(dl dl):not(dl ul):not(dl ol) {
  * Counter to double showing search icons
  */
 #quarto-search .aa-Autocomplete + .aa-Autocomplete { display: none !important; }
+
+
+
+
+/* 
+ * Hide the large hamburger (navbar toggle) 
+ * Tue, 16 Sep 2025 11:05:07 +0900
+ */
+.navbar-toggler {
+  display: none !important;
+}
+
+
+/* Limit maximum width of main content Sun, 19 Oct 2025 13:42:17 +0900 */
+// main.content {
+//   max-width: 600px;      /* adjust to taste: 800-1000px typical */
+//   min-width: 400px;
+//   margin-left: 0 !important;
+//   margin-right: 0 !important;
+// }
+
+#quarto-sidebar {
+  // width: 400px;      /* adjust to taste: 800-1000px typical */
+  max-width: 400px;      /* adjust to taste: 800-1000px typical */
+  margin-left: auto;
+  margin-right: 0;
+}
+// #quarto-margin-sidebar {
+//   left:auto;
+//   // width: 400px;      /* adjust to taste: 800-1000px typical */
+//   max-width: 400px;      /* adjust to taste: 800-1000px typical */
+//   margin-left: 0;
+//   margin-right: auto;
+// }
+
+

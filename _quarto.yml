@@ -114,11 +114,12 @@ format:
             });
           </script>
 
+    page-layout: full      # still allows custom width via CSS
     grid:
-      sidebar-width: 300px
-      body-width: 1000px
-      margin-width: 600px
-      gutter-width: 1.5rem
+      sidebar-width: 400px
+      body-width: 600px
+      margin-width: 400px
+      gutter-width: 1em
 
 metadata-files:
   - _sidebar-ja.generated.yml
