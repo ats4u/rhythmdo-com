@@ -41,7 +41,7 @@ rhythmpress-preproc-args: []
 
 このユニークな**{{<var RUBY-HGT>}}**という技術を以下で御紹介致します。
 
-<nav id="toc"></nav>
+<!-- <nav id="toc"></nav> -->
 
 以下で順に見ていきましょう。
 
