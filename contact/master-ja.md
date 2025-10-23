@@ -13,18 +13,18 @@ rhythmpress-preproc-sidebar: false
 
 ## お問い合わせ
 
-**律動図鑑リズムペディア** へのご質問、ご意見、ご感想などは、以下の方法でお寄せください。
+**律武道 rhythmdo.com** へのご質問、ご意見、ご感想などは、以下の方法でお寄せください。
 
 ---
 
-### 🌎 各種SNDからのお問い合わせ
+### 🌎 各種SNSからのお問い合わせ
 - [x.com/ats4u](https://x.com/ats4u)  
 - [facebook.com/whatsupAts](https://facebook.com/whatsupAts)  
 
 ---
 
 ### 📧 メールでのお問い合わせ
-- [info@rhythmpedia.com](mailto:info@rhythmpedia.com)  
+- [info@rhythmdo.com](mailto:info@rhythmdo.com)  
   ※内容によっては返信に数日いただく場合があります。ご了承ください。
 
 ---
