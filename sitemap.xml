@@ -2,19 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://rhythmdo.com/</loc>
+    <lastmod>2025-10-25</lastmod>
+  </url>
+  <url>
+    <loc>https://rhythmdo.com/about/about-rhythmdo/ja/</loc>
     <lastmod>2025-10-23</lastmod>
   </url>
   <url>
     <loc>https://rhythmdo.com/about/ja/</loc>
-    <lastmod>2025-10-23</lastmod>
+    <lastmod>2025-10-25</lastmod>
   </url>
   <url>
     <loc>https://rhythmdo.com/about/publisher/ja/</loc>
-    <lastmod>2025-09-14</lastmod>
-  </url>
-  <url>
-    <loc>https://rhythmdo.com/about/rhythmpedia/ja/</loc>
-    <lastmod>2025-09-14</lastmod>
+    <lastmod>2025-10-23</lastmod>
   </url>
   <url>
     <loc>https://rhythmdo.com/contact-form/ja/</loc>
@@ -22,7 +22,7 @@
   </url>
   <url>
     <loc>https://rhythmdo.com/contact/ja/</loc>
-    <lastmod>2025-09-14</lastmod>
+    <lastmod>2025-10-23</lastmod>
   </url>
   <url>
     <loc>https://rhythmdo.com/cookies/en/</loc>
@@ -31,6 +31,30 @@
   <url>
     <loc>https://rhythmdo.com/disclaimer/ja/</loc>
     <lastmod>2025-09-14</lastmod>
+  </url>
+  <url>
+    <loc>https://rhythmdo.com/dojo/description/ja/</loc>
+    <lastmod>2025-10-25</lastmod>
+  </url>
+  <url>
+    <loc>https://rhythmdo.com/dojo/ja/</loc>
+    <lastmod>2025-10-25</lastmod>
+  </url>
+  <url>
+    <loc>https://rhythmdo.com/dojo/origin/ja/</loc>
+    <lastmod>2025-10-25</lastmod>
+  </url>
+  <url>
+    <loc>https://rhythmdo.com/dojo/rhythmdo-practice/ja/</loc>
+    <lastmod>2025-10-25</lastmod>
+  </url>
+  <url>
+    <loc>https://rhythmdo.com/dojo/rhythmdo-spirit/ja/</loc>
+    <lastmod>2025-10-25</lastmod>
+  </url>
+  <url>
+    <loc>https://rhythmdo.com/dojo/rhythmdo-structure/ja/</loc>
+    <lastmod>2025-10-25</lastmod>
   </url>
   <url>
     <loc>https://rhythmdo.com/hypergroove/%E4%B8%96%E7%95%8C%E3%81%AF3%E2%81%BB%E2%81%BF%E6%8B%8D%E5%AD%90%E3%81%A7%E5%87%BA%E6%9D%A5%E3%81%A6%E3%81%84%E3%82%8B/ja/</loc>
@@ -54,7 +78,7 @@
   </url>
   <url>
     <loc>https://rhythmdo.com/hypergroove/ja/</loc>
-    <lastmod>2025-10-23</lastmod>
+    <lastmod>2025-10-25</lastmod>
   </url>
   <url>
     <loc>https://rhythmdo.com/hypergroove/know-yourself/ja/</loc>
@@ -89,7 +113,7 @@
     <lastmod>2025-10-23</lastmod>
   </url>
   <url>
-    <loc>https://rhythmdo.com/hypergroove/phonorhythmatological-theory%20/ja/</loc>
+    <loc>https://rhythmdo.com/hypergroove/phonorhythmatological-theory/ja/</loc>
     <lastmod>2025-10-23</lastmod>
   </url>
   <url>
@@ -118,6 +142,6 @@
   </url>
   <url>
     <loc>https://rhythmdo.com/privacy-policy/ja/</loc>
-    <lastmod>2025-09-14</lastmod>
+    <lastmod>2025-10-23</lastmod>
   </url>
 </urlset>
