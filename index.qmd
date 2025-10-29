@@ -30,7 +30,7 @@ title-block: false
 
 [**{{<var RUBY-RDOJ>}}**入門の御案内](/join/ja/)
 
-<!-- LZlyRE21LyTSOq+JgfcXlw== -->
+<!-- fUqE1Y1hEbEj49gaaUaKtA== -->
 
 ```{python}
 #| output: asis
