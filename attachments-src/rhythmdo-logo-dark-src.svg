@@ -27,14 +27,14 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
      inkscape:zoom="0.5"
-     inkscape:cx="469"
-     inkscape:cy="512"
+     inkscape:cx="117"
+     inkscape:cy="-18"
      inkscape:window-width="1920"
-     inkscape:window-height="971"
+     inkscape:window-height="943"
      inkscape:window-x="1920"
      inkscape:window-y="25"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer2"
      inkscape:export-bgcolor="#00000000"
      showgrid="false" />
   <defs
@@ -83,28 +83,114 @@
        id="rect10" />
   </defs>
   <g
-     inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer2"
+     inkscape:label="An Eye"
+     style="display:inline;opacity:1;mix-blend-mode:normal">
+    <g
+       id="g18"
+       style="opacity:0.08;mix-blend-mode:exclusion;stroke-width:7.9375;stroke-dasharray:none"
+       inkscape:label="eye">
+      <path
+         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:7.9375;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:111;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         d="m 217.84399,79.169608 c 0,0 -24.05448,-49.90278 -80.41244,-51.781987 C 79.45614,25.454482 35.339305,80.346468 35.339305,80.346468"
+         id="path1"
+         sodipodi:nodetypes="csc" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:7.9375;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:111;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         d="m 54.94969,64.326702 c 10.248644,10.199481 50.06069,45.113088 156.09472,9.414906"
+         id="path2"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:7.9375;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:111;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         d="m 129.05527,30.197666 c 18.72712,-0.588384 35.02211,10.517793 35.08189,28.637007 0.0598,18.119214 -6.0172,28.678645 -29.95757,28.244718 C 110.23922,86.645464 96.110997,80.194314 95.944263,61.972975 95.777529,43.751636 110.32814,30.78605 129.05527,30.197666 Z"
+         id="path3"
+         sodipodi:nodetypes="zzzzz" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:7.9375;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:111;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         d="m 129.48795,42.756993 c 10.50041,-0.328513 17.66621,5.872417 17.69973,15.988945 0.0335,10.11653 -1.40299,16.012194 -14.82649,15.769919 -13.4235,-0.242276 -18.19185,-4.236444 -18.28533,-14.409993 -0.0935,-10.173549 4.91169,-17.020357 15.41209,-17.348871 z"
+         id="path4"
+         sodipodi:nodetypes="zzzzz" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:7.9375;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:111;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         d="M 57.314762,58.050097 47.066119,51.381205"
+         id="path5" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:7.9375;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:111;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         d="M 72.293548,47.458327 60.862369,34.512832"
+         id="path6" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:7.9375;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:111;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         d="M 85.301441,38.435709 C 83.330548,37.651133 75.841155,23.921062 75.841155,23.921062"
+         id="path7" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:7.9375;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:111;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         d="M 99.886047,32.551393 95.944263,19.605897"
+         id="path8" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:7.9375;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:111;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         d="M 115.65319,28.628515 112.10559,12.15243"
+         id="path9"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:7.9375;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:111;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         d="M 125.11348,26.667076 124.32512,10.583279"
+         id="path10"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:7.9375;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:111;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         d="M 138.51555,26.667076 138.90973,12.15243"
+         id="path11" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:7.9375;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:111;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         d="m 147.18748,27.843939 6.70104,-14.906934"
+         id="path12" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:7.9375;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:111;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         d="m 161.77209,30.589954 5.91267,-14.122359"
+         id="path13" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:7.9375;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:111;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         d="m 174.38581,35.297407 7.09521,-12.553208"
+         id="path14"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:7.9375;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:111;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         d="m 181.8752,41.181724 9.85446,-10.199482"
+         id="path15" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:7.9375;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:111;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         d="m 193.70056,47.850615 8.27775,-8.63033"
+         id="path16" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:7.9375;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:111;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         d="m 201.97831,56.480946 11.82536,-9.022619"
+         id="path17" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:7.9375;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:111;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         d="m 209.07352,64.326702 10.24864,-7.845756"
+         id="path18" />
+    </g>
+  </g>
+  <g
+     inkscape:label="Rhythmdo"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline;opacity:1">
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:46.8962px;line-height:0.8;font-family:DFPKoIn-W4;-inkscape-font-specification:'DFPKoIn-W4, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0.883412px;word-spacing:0.035056px;text-transform:none;writing-mode:lr-tb;direction:rtl;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#cfcfcf;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:111;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000;stop-opacity:1"
-       x="206.46533"
+       x="204.48611"
        y="60.752209"
        id="text1"><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:46.8962px;line-height:0.8;font-family:DFPKoIn-W4;-inkscape-font-specification:'DFPKoIn-W4, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0.883412px;word-spacing:0.035056px;text-transform:none;writing-mode:lr-tb;direction:rtl;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:normal;fill:#ffffff;fill-opacity:1;stroke:#cfcfcf;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:111;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000;stop-opacity:1"
-         x="207.34875"
+         x="205.36954"
          y="60.752209"
          id="tspan7">律武道</tspan></text>
     <text
        xml:space="preserve"
-       transform="scale(0.26458333)"
-       id="text3"
-       style="font-weight:900;font-size:16px;line-height:1.3;font-family:'Rounded Mplus 1c';-inkscape-font-specification:'Rounded Mplus 1c Heavy';text-align:center;text-decoration-color:#000000;letter-spacing:0.544789px;word-spacing:0.078096px;writing-mode:tb-rl;direction:ltr;white-space:pre;shape-inside:url(#rect3);display:inline;fill:#5e8100;stroke:#000000;stroke-width:8.1789;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:111;stroke-dasharray:none;paint-order:markers stroke fill" />
-    <text
-       xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,-56.21886,-1.8171457)"
+       transform="matrix(0.26458333,0,0,0.26458333,-55.001807,65.387023)"
        id="text6"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:64px;line-height:0.8;font-family:DFPKoIn-W4;-inkscape-font-specification:'DFPKoIn-W4, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:3.61246px;word-spacing:0.143351px;text-transform:none;writing-mode:lr-tb;direction:rtl;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:normal;shape-inside:url(#rect6);display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#cfcfcf;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:111;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000;stop-opacity:1"
        x="0"
@@ -116,28 +202,28 @@
            id="tspan1">Rhythmdo</tspan></tspan></text>
     <text
        xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,-53.295599,87.049975)"
+       transform="matrix(0.26458333,0,0,0.26458333,-53.036727,87.049975)"
        id="text8"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:0.8;font-family:DFPKoIn-W4;-inkscape-font-specification:'DFPKoIn-W4, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:3.61246px;word-spacing:0.143351px;text-transform:none;writing-mode:lr-tb;direction:rtl;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:normal;shape-inside:url(#rect9);display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#cfcfcf;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:111;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000;stop-opacity:1"
        x="0"
        y="0"><tspan
-         x="1071.1064"
+         x="1092.7876"
          y="51.675415"
          id="tspan5"><tspan
            style="baseline-shift:baseline;stroke-linejoin:round;stop-color:#000000;stop-opacity:1"
            id="tspan3"> </tspan><tspan
-           dx="-738.00098 0 0 -0.14335172 0.14335084 0 0 -0.14334409 0.14334321 0 -0.14334981 0.14334321 0 0 0 0 0 -0.14333837 0.14335847 0 -0.143346 0.14332795"
+           dx="-781.36346 0 0 -0.14335172 0.14335084 0 0 0 -0.14336507 0.14335847 0 -0.14334981 0.14332795 0 0 0 0 0 -0.14336888 0.14335847 0 -0.143346 0.14332795"
            style="baseline-shift:baseline;stroke-linejoin:round;stop-color:#000000;stop-opacity:1"
-           id="tspan4">The Way of Rhythm as Discipline</tspan></tspan></text>
+           id="tspan4">The Path of Rhythm as Asceticism</tspan></tspan></text>
     <text
        xml:space="preserve"
-       transform="matrix(0.26458333,0,0,0.26458333,-53.295599,68.92576)"
+       transform="matrix(0.40798,0,0,0.41428887,-158.05636,-4.014269)"
        id="text9"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:0.8;font-family:DFPKoIn-W4;-inkscape-font-specification:'DFPKoIn-W4, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:3.61246px;word-spacing:0.143351px;text-transform:none;writing-mode:lr-tb;direction:rtl;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:normal;shape-inside:url(#rect10);display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#cfcfcf;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:111;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000;stop-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;line-height:0.8;font-family:DFPKoIn-W4;-inkscape-font-specification:'DFPKoIn-W4, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;text-indent:0;text-align:center;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:3.61246px;word-spacing:0.143351px;text-transform:none;writing-mode:lr-tb;direction:rtl;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:normal;shape-inside:url(#rect10);display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#cfcfcf;stroke-width:1.28712;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:111;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000;stop-opacity:1"
        x="0"
        y="0"><tspan
-         x="458.12047"
+         x="596.95794"
          y="51.675415"
-         id="tspan6">武道としてのリズムの道</tspan></text>
+         id="tspan6">リズムドー</tspan></text>
   </g>
 </svg>
