@@ -1,5 +1,5 @@
 ---
-title: リズムドー律武道入門の御案内
+title: "<ruby>律武道<rt>リズムドウ</rt></ruby>入門の御案内"
 created: 2025-05-24T00:17
 format: html
 execute:
@@ -10,12 +10,19 @@ execute:
   cache: false
 title-block: false
 rhythmpress-preproc: split
+rem-rhythmpress-preproc: copy
 rhythmpress-preproc-args: []
 ---
 
-## 一緒にリズムドーを学びませんか？
+{{<var RUBY-RDOJ>}}入門の御案内
 
-リズムドー律武道は、練習生を募集しています。
+## {{<var RUBY-RDOJ>}}練習生募集 {#join-us}
+
+{{<var RUBY-RDOJ>}}は、練習生を募集しています。
+
+### 募集要項
+
+{{<var RUBY-RDOJ>}}は、練習生を募集しています。
 
 月謝２０００円で練習会に参加することが可能です。
 
