@@ -1,5 +1,5 @@
 ---
-title:  超グルーヴ理論
+title:  <ruby>超グルーヴ<rt>ハイパーグルーヴ</rt>理論</ruby>
 created: 2025-05-24T00:17
 format: html
 execute:
