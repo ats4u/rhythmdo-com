@@ -125,7 +125,7 @@ rhythmpress-preproc-args: []
 **多層弱拍基軸リズム理論** は、この状況に一石を投じます。
 
 
-## 縦乗りリズム理論 <!-- {#tatenori-theory} -->
+## 何故日本人は縦乗りなのか <!-- {#tatenori-theory} -->
 
 日本語を母国語とするミュージシャンならば必ず一度は経験する謎 ─── 『何故日本人はグルーヴしないのか』この問題について考察した記事です。考察中にて、日本人がグルーヴしない理由が日本人が英語が聞き取れない理由と等しいことを明らかにします。日本語と日本の音楽に潜む『縦乗り』の正体を明らかにし、その影響と限界を科学的・文化的に考察します。 
 
@@ -700,7 +700,7 @@ music</span>
 
 このシラブル拍リズム、ストレス拍リズムについてを以降の節で見ていきます。
 
-## <ruby>音韻学的音楽分析<rt>フォノリズマトロジー</rt></ruby>理論  <!-- {#phonorhythmatological-theory } -->
+## <ruby>音韻学的音楽分析<rt>フォノリズマトロジー</rt></ruby>  <!-- {#phonorhythmatological-theory } -->
 
 日本人が演奏する音楽のリズムは、海外の人が演奏する音楽と比べて何かが違います。この違いは、海外の人々が弱拍が強拍の前に来ていると認識している事に対し、日本人は強拍が弱拍の前に来ていると認識している事が原因として起こります。この認識の違いは言語自体が持っているリズム認識の違いから生まれます。このリズム認識の事を音韻学(Phonetics)で**拍リズム**(timed-rhythm)と呼びます。
 
@@ -1506,7 +1506,7 @@ _[Macron and breve](https://en.wikipedia.org/wiki/Systems_of_scansion#Classical_
 <div class="center-box"><iframe class="rhythmpedia-iframe" src="https://www.youtube.com/embed/5gZOYKHXwyQ?si=IU87MAlbWB343re6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 
-## {{< var RUBY-MLWBOR>}}理論とは <!-- {#multi-layered-weak-beat-precedence} -->
+## {{< var RUBY-MLWBOR>}} <!-- {#multi-layered-weak-beat-precedence} -->
 
 拍には強拍と弱拍の2種類があることを見ていきます。そして強拍は必ずしも先に現れるわけではなく、しばしば弱拍が先に演奏されることを見ていきます。次に弱拍・強拍は、4分音符だけではなく全ての音価の音符に存在することを見てみます。各音価の強拍弱拍は、結果的に弱拍に多層構造を生み出します。この弱拍の多層構造に弱拍先行が加わると、リズムが**頭合わせ構造**から**尻合わせ構造**へと移行することを見てみます。
 
