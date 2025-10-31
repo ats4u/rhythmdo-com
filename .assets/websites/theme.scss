@@ -196,7 +196,14 @@ body {
   font-weight: 400;
   font-style: normal;
   font-size: 1.00em;
-  line-height:2.0em;
+  line-height:1.5em;
+}
+
+@supports (-moz-appearance: none) {
+  rt {
+    line-height:1.0em;
+    margin-bottom: -0.5em;
+  }
 }
 
 h1,
@@ -355,7 +362,7 @@ dl:not(dl dl):not(dl ul):not(dl ol) {
 
 #quarto-sidebar {
   // width: 400px;      /* adjust to taste: 800-1000px typical */
-  max-width: 400px;      /* adjust to taste: 800-1000px typical */
+  max-width: 500px;      /* adjust to taste: 800-1000px typical */
   margin-left: auto;
   margin-right: 0;
 }
