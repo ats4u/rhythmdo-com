@@ -6888,6 +6888,7 @@ gthr = { \tuplet 3/2 { do16   do16 do16] }  }
 ### 弱拍基準
 
 **弱拍に**基準を置き弱拍の位置を固定したうで、弱拍位置から強拍の位置を測り、強拍の位置を移動しようとすることを、**弱拍基準** と呼びます。
+
 ![](/hypergroove/attachments/leading-offbeat-far.png){width=50%}
 
 ### 弱拍基準の特徴
