@@ -117,10 +117,10 @@ format:
 
     page-layout: full      # still allows custom width via CSS
     grid:
-      sidebar-width: 500px
-      body-width: 600px
-      margin-width: 400px
-      gutter-width: 1em
+      sidebar-width: 450px
+      body-width: 500px
+      margin-width: 450px
+      gutter-width: 0.5em
 
 metadata-files:
   - _sidebar-ja.generated.yml
