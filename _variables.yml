@@ -51,8 +51,16 @@ PROACTIVE_DIVISIONISM_ENG: "<ruby><rb>能動的事前予期裁ち割り主義</r
 REACTIVE_APPENDISM_ENG: "<ruby><rb>受動的事後追従付け足し主義</rb><rt>Reactive Appendism</rt></ruby>"
 
 ## === VVV ===
-NUCLEUS_ANCHORED: "<ruby><rb>音節核基軸</rb></rt>Nucleus-Anchored</rt></ruby>"
-ONSET_ANCHORED: "<ruby><rb>頭子音基軸</rb></rt>Onset-Anchored</rt></ruby>"
+# SYLLABIC_ANCHORING_AXIS: "<ruby><rb>音節基軸</rb><rt>Syllabic Anchoring Axis</rt></ruby>"
+# PHONOTEMPORAL_ORDERING: "<ruby><rb>k</rb><rt>Phonotemporal Ordering</rt></ruby>"
+# NUCLEUS_ANCHORED: "<ruby><rb>音節核基軸</rb><rt>Nucleus-Anchored</rt></ruby>"
+# ONSET_ANCHORED: "<ruby><rb>頭子音基軸</rb><rt>Onset-Anchored</rt></ruby>"
+PHONOTEMPORAL_ORDERING_AXIS: "<ruby><rb>音節順序認識軸</rb><rt>Phonotemporal Ordering Axis</rt></ruby>"
+LEADING_CONSONANT_PHONOTEMPORAL_ORDERING: "<ruby><rb>子音先行順序認識</rb><rt>Leading-Consonant Phonotemporal Ordering</rt></ruby>"
+FOLLOWING_CONSONANT_PHONOTEMPORAL_ORDERING: "<ruby><rb>子音後行順序認識</rb><rt>Following-Consonant Phonotemporal Ordering</rt></ruby>"
+MULTI_ANCHORED_SYLLABLE_INITIATION : "<ruby><rb>複基軸音節起動</rb><rt>Multi Anchored Syllable Initiation</rt></ruby>"
+MONO_ANCHORED_SYLLABLE_INITIATION  : "<ruby><rb>単基軸音節起動</rb><rt>Mono Anchored  Syllable Initiation</rt></ruby>"
+
 
 # === Rhythmdo Series ===
 3TON: "<ruby>3⁻ⁿグルーヴ<rt>スリー・ツー・エヌ</rt>理論</ruby>"
@@ -68,7 +76,7 @@ NURSERY_RHYME: "<ruby><rb>童謡</rb><rt>ナーザリライム</rt></ruby>"
 
 
 # === Temporal Ordering Framework (TOP Series) ===
-TOP:   "<ruby><rb>韻律的順序認識仮説</rb><rt>Temporal Ordering from Prosody</rt></ruby>"
+TOP:   "<ruby><rb>順序認識韻律寄与仮説</rb><rt>Temporal Ordering from Prosody</rt></ruby>"
 PRTOA: "<ruby><rb>能動予期/受動追従・順序認識軸</rb><rt>Proactive-Reactive Temporal Ordering Axis</rt></ruby>"
 MOB:   "<ruby><rb>モーラ順序偏向</rb><rt>Moraic Ordering Bias</rt></ruby>"
 PHI:   "<ruby><rb>予期地平指数</rb><rt>Proactivity Horizon Index</rt></ruby>"
