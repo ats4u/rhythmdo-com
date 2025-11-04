@@ -172,17 +172,62 @@ body.quarto-dark .quarto-title h1:first-of-type::before {
 }
 
 
-$font-size-base: 1.20em; // calc( 1em / 30 ); // 1.20rem;
+$font-size-base: 0.9em; // calc( 1em / 30 ); // 1.20rem;
 $font-size-step: calc(1em / 30); // 1.20rem;
-$h1-font-size: calc($font-size-base + 1.80em); // 0.5rem  
+$h1-font-size: calc($font-size-base + 1.50em); // 0.5rem  
 $h2-font-size: calc($font-size-base + 1.00em); // 0.10rem 
 $h3-font-size: calc($font-size-base + 0.50em); // 0.08rem 
 $h4-font-size: calc($font-size-base + 0.15em); // 0.06rem 
 $h5-font-size: calc($font-size-base + 0.00em); // 0.04rem 
 $h6-font-size: calc($font-size-base - 0.15em); // 0.02rem 
 
+$line-height : 1.5em;
+
+:root{
+  --bs-font-weight-bold: 1000;
+}
+
+.quarto-article b,
+.quarto-article strong {
+  font-weight: var(--bs-font-weight-bold) !important;
+}
+
+// root {
+//   --bs-body-font-size:  $font-size-base;
+// }
+/* apply it to sidebar nav text */
+// .quarto-sidebar,
+// .sidebar,
+// .sidebar-navigation .sidebar-item,
+// .sidebar-section    .sidebar-item
+// .sidebar-navigation .sidebar-item,
+// .sidebar-section    .sidebar-item,
+
+.quarto-sidebar,
+.sidebar ul,
+.sidebar li,
+{
+  line-height: $line-height;
+}
+
+.nav-link,
+/* 
+ * Quarto's margin (right) sidebar TOC list. The built-in stylesheet sets
+ * `font-size: 0.875rem` on this <ul>, which forces all nested links in the
+ * "On this page" menu to stay small. Overriding this selector restores normal
+ * (body) font size and line height.
+ */
+.sidebar nav[role="doc-toc"] > ul,
+.quarto-title-breadcrumbs .breadcrumb,
+.margin-sidebar ,
+.sidebar-item
+{
+  font-size: inherit !important;
+  line-height: $line-height;
+}
 /*-- scss:rules --*/
 body {
+  // --bs-body-font-size : $font-size-base;
   // font-family: 'M PLUS 1p';
 
   /*
@@ -195,8 +240,8 @@ body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-size: 1.00em;
-  line-height:1.5em;
+  // font-size: $font-size-base ;
+  line-height: $line-height;
 }
 
 @supports (-moz-appearance: none) {
@@ -300,7 +345,7 @@ dl:not(dl dl):not(dl ul):not(dl ol) {
   background: var(--bs-primary);
   color: white !important;
   padding: 0.6rem 1.2rem;
-  font-size: 1.1rem;
+  // font-size: 0.9em;
   font-weight: 600;
   border-radius: 0.5rem;
   text-decoration: none;
@@ -361,10 +406,10 @@ dl:not(dl dl):not(dl ul):not(dl ol) {
 // }
 
 #quarto-sidebar {
-  // width: 400px;      /* adjust to taste: 800-1000px typical */
-  max-width: 500px;      /* adjust to taste: 800-1000px typical */
-  margin-left: auto;
-  margin-right: 0;
+  // width: 600px;      /* adjust to taste: 800-1000px typical */
+  //  max-width: 600px;      /* adjust to taste: 800-1000px typical */
+  // margin-left: auto;
+  // margin-right: 0;
 }
 // #quarto-margin-sidebar {
 //   left:auto;
@@ -373,5 +418,6 @@ dl:not(dl dl):not(dl ul):not(dl ol) {
 //   margin-left: 0;
 //   margin-right: auto;
 // }
+
 
 
