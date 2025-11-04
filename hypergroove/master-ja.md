@@ -1469,17 +1469,17 @@ music</span>
 
 {{<var ONSET_STRUCTURING_AXIS>}}は音楽の強拍弱拍の順序を決めます。 このことをここでは {{<var LINGUISTIC_RHYTHM_PROJECTION_THEORY>}} と呼びます。
 
- {{<var  RECURSIVE_PROSODIC_EQUIVALENCE_PRINCIPLE>}} によって、{{<var ONSET_STRUCTURING_AXIS>}} も再帰的に適用が出来るという仮説によって、言語を超えて音楽のリズムにもOSAを適用したものが <ruby><rb>律動</rb><rt>リズム</rt></ruby>的頭子音最大化原則(RMOP=Maximal Prosodic Onset Principle)  及び <ruby><rb>律動</rb><rt>リズム</rt></ruby>的頭子音最小化原則(RMiOP=Minimum Prosodic Onset Principle)  です。
+ {{<var  RECURSIVE_PROSODIC_EQUIVALENCE_PRINCIPLE>}} によって、{{<var ONSET_STRUCTURING_AXIS>}} も再帰的に適用が出来るという仮説によって、言語を超えて音楽のリズムにもOSAを適用したものが {{<var MMOP>}}  及び {{<var MiMOP>}}  です。
 
-そして言語と音楽だけでなく、更に歩き方やスポーツ格闘などその他の行動原理にも反映させたものをここでは **能動的事前分割主義 ( PD＝Proactive Divisionism )**  **受動的事後追従主義 ( RA=Reactive Appendism )** と呼びます。
+そして言語と音楽だけでなく、更に歩き方やスポーツ格闘などその他の行動原理にも反映させたものをここでは **{{<var PROACTIVE_DIVISIONISM>}} ( PD＝Proactive Divisionism )**  **{{<var REACTIVE_APPENDISM>}} ( RA=Reactive Appendism )** と呼びます。
 
 * シラブル拍/ストレス拍のMOP、及びストレス拍のMPOP
     * → **弱強リズム認識**が音楽にも適用される
-        * → <ruby><rb>律動</rb><rt>リズム</rt></ruby>的頭子音最大化原則(RMOP) 
+        * → {{<var MMOP>}}
             * → {{<var PROACTIVE_DIVISIONISM>}}
 * モーラ拍のMiOP
     * → **強弱リズム認識**が音楽にも適用される
-        * → <ruby><rb>律動</rb><rt>リズム</rt></ruby>的頭子音最小化原則(RMiOP) 
+        * → {{<var MiMOP>}}
             * → {{<var REACTIVE_APPENDISM>}}
 
 ### {{<var PROACTIVE_DIVISIONISM>}}と{{<var REACTIVE_APPENDISM>}} <!-- {#proactive-divisionism-and-reactive-appendism} -->
