@@ -141,7 +141,7 @@ rhythmpress-preproc-args: []
 
 これを**グルーヴ四要素(The Four Axes of Groove)**と呼びます。
 
-###  グルーヴ四条件
+### {{<var CONDITIONS_OF_GROOVE>}}
 
 音楽にグルーヴを感じる時、それは必ず
 
@@ -156,7 +156,7 @@ rhythmpress-preproc-args: []
 
 つまり如何にして、弱拍先行、尻合わせ、弱拍基軸、3⁻ⁿリズムの４つを体得するかがグルーヴを身につける為の焦点となります。
 
-### 縦乗り四条件
+### {{<var CONDITIONS_OF_TATENORI>}}
 
 海外の文脈から、日本人の音楽が醸し出すリズムは、しばしば **堅苦しい**、**躍動感がない**、**四角い**、**息遣いが感じられない**、**ニュアンスがない**、**スイングしない**、**毎回着地する**、 **好みに合わない**、**機械的**、**アニソンみたい**、**ゲーム音楽みたい** などと評されます。それは必ずしも否定的な見解として発せられる訳ではありませんが、クラシックやジャズなど海外の地場文化として評価される場面では、しばしば人々の眉をひそめさせているものです。
 
@@ -1317,6 +1317,27 @@ music</span>
 **シラブル拍リズム言語を話す人は、一定間隔でやってくる強拍（音節基）を聴く前に弱拍（頭子音）を認識**しています。
 
 対して**モーラ拍リズム言語を話す人は、一定間隔でやってくる強拍（音節基）を聴いた後に弱拍（頭子音）を認識**しています。
+
+この様に強拍(音節基)に対して弱拍(頭子音)を前と認識するか後ろと認識するかの区別をここでは**{{<var PHONOTEMPORAL_ORDERING_AXIS>}}**と呼びます。
+
+
+シラブル拍リズム言語/ストレス拍リズム言語を話す人が、強拍(音節基)に対して弱拍(頭子音)を前と認識することをここでは**{{<var LEADING_CONSONANT_PHONOTEMPORAL_ORDERING>}}** と呼びます。
+
+モーラ拍リズム言語を話す人が、強拍(音節基)に対して弱拍(頭子音)を後ろと認識することをここでは**{{<var FOLLOWING_CONSONANT_PHONOTEMPORAL_ORDERING>}}** と呼びます。
+
+つまり **{{<var LEADING_CONSONANT_PHONOTEMPORAL_ORDERING>}}** は、子音が音節核を予期しており、子音が母音を起動する役割を果たしているといえます。 このことを**{{<var MULTI_ANCHORED_SYLLABLE_INITIATION>}}** と呼びます。
+
+そして **{{<var FOLLOWING_CONSONANT_PHONOTEMPORAL_ORDERING>}}** は、音節核を予期するものがなく、最初に表れた子音ないしは母音が音節核を起動する役割を果たしているといえます。 このことをここでは、**{{<var MONO_ANCHORED_SYLLABLE_INITIATION>}}** と呼びます。
+
+このように音節核は単独で起動するか、或いは複数の先行する頭子音が音節を起動のか。
+
+
+**{{<var MULTI_ANCHORED_SYLLABLE_INITIATION>}}** は、**{{<var SCHIZORHYTHMOS>}}**に大きな概念へとつながります。
+
+**{{<var MONO_ANCHORED_SYLLABLE_INITIATION>}}** は、**{{<var SOLIRHYTHMOS>}}**というより大きな概念へとつながります。
+
+**{{<var SCHIZORHYTHMOS>}}** と **{{<var SOLIRHYTHMOS>}}** に関しましては {{<var LINK_SCHIZORHYTHMOS_AND_SOLIRHYTHMOS>}} の章でより詳しく見ていきます。
+
 
 このシラブル拍リズム言語が持っている強拍よりも前に弱拍があるという感覚は、強拍よりも後ろに弱拍があると認識しているモーラ拍リズムの言語を話している人にとって、大変に不可解でつかみにくい感覚です。
 
@@ -5764,7 +5785,7 @@ Daft Punk や Basement Jaxx などにも見られる手法です。
 
 ## 世界は3⁻ⁿ拍子で出来ている <!-- {#world-is-three-to-negative-n} -->
 
-*グルーヴの本質は多重になった3拍子である* ───  {{<var 3TON>}} の序論として世界中の3拍子の音楽を御紹介致します。ジャズの起源となったゲーリック及び黒人教会音楽リズムへの理解を深めることが演奏上のグルーヴ力を向上させます。そしてこれは英語のリズムの起源を知る旅と言い換えることも可能です。 ジャズのリズムの起源、そして英語のリズムの起源を感覚的に理解するための礎として、ここで世界中の3拍子/9拍子/27拍子の音楽を御紹介致します。これらの音楽は決して理解が容易いものではありませんが、ジャズのスイングやR&B、ファンクなどのグルーヴとその本質は共通です。何度も聴いて聴き馴染むことで、現代的なグルーヴの感覚を養いましょう。
+*グルーヴの本質は多重になった3拍子である* ───  {{<var 3TONT>}} の序論として世界中の3拍子の音楽を御紹介致します。ジャズの起源となったゲーリック及び黒人教会音楽リズムへの理解を深めることが演奏上のグルーヴ力を向上させます。そしてこれは英語のリズムの起源を知る旅と言い換えることも可能です。 ジャズのリズムの起源、そして英語のリズムの起源を感覚的に理解するための礎として、ここで世界中の3拍子/9拍子/27拍子の音楽を御紹介致します。これらの音楽は決して理解が容易いものではありませんが、ジャズのスイングやR&B、ファンクなどのグルーヴとその本質は共通です。何度も聴いて聴き馴染むことで、現代的なグルーヴの感覚を養いましょう。
 
 <script>
   document.addEventListener("DOMContentLoaded", () => {
@@ -8273,7 +8294,7 @@ common-ly/shared/rhythmdo-count-drift-offset-1.ly
 
 ##### 字句のIPA表記一覧
 
-オフビートカウントを行う時に必要となる単語の発音は以下の通りです。 覚えるべき単語数はとても少ないですが、これらが組み合わさると様々な発音変化が起こります。ここで起こる発音変化を徹底的に学ぶことで {{< var MOP >}} 、 {{< var NI }} 、{{< var MPOP >}}、 及び {{< var PNI >}} を身につけることが出来ます。
+オフビートカウントを行う時に必要となる単語の発音は以下の通りです。 覚えるべき単語数はとても少ないですが、これらが組み合わさると様々な発音変化が起こります。ここで起こる発音変化を徹底的に学ぶことで {{<var MOP>}} 、 {{<var NI>}} 、{{<var MPOP >}}、 及び {{<var PNI >}} を身につけることが出来ます。
 
 
 | 記号 |  英語表記   | IPA                                                                            | メモ                                                                                                          |
@@ -11427,67 +11448,38 @@ style="width:6.0339in;height:1.7398in" />この様に４拍子の４拍目と５
 モーラ拍リズム・強拍先行・頭合わせ・強拍基軸・同方向に避ける人・・・等々が{{<var REACTIVE_TEMPORAL_ORDERING>}}に相当します。
 
 #### {{<var PRTOA>}}
-人の時間順序認識を{{<var PROACTIVE_TEMPORAL_ORDERING>}} と{{<var REACTIVE_TEMPORAL_ORDERING>}}の二軸に分けて考えることを、ここでは{{<var PROACTIVE_REACTIVE_TEMPORAL_ORDERING_AXIS>}}と呼ぶことにします。
-
-#### {{<var POB>}}
-
-その人が母国語としている言語の言語リズムによって生まれた認知上の順序の認識の偏りのことを、ここでは {{<var POB>}} と呼びます。
-
-次で説明する{{<var MOB>}}、{{<var SOB>}}、{{<var NOB>}} の3種類が存在します。
-
-#### {{<var MOB>}}
-
-モーラ拍リズム言語(日本語)に特有の時間順序偏向をここでは{{<var MOB>}} と呼びます。
-
-シラブル拍リズム・ストレス拍リズムとは異なり、その音節（モーラ）の始まり位置を基準に時間を認識し、頭子音（オンセット）を基準に時間を評価し、反応的・頭合わせ的な知覚傾向を示します。
- {{<var REACTIVE_TEMPORAL_ORDERING>}} が相当します。
-
----
-
-#### {{<var SOB>}}
-
-**Syllabic Ordering Bias**
-音節を基準とする時間順序偏向である。
-母音核を中心に時間を予測し、能動的・尻合わせ的な認識を行う。
-音節拍および強勢拍言語（英語・スペイン語など）に見られる。{{<var PROACTIVE_TEMPORAL_ORDERING>}} に対応する。
-
----
-
-#### {{<var NOB>}}
-
-**Nuclear Ordering Bias**
-音節核（母音・強勢）を基点とした最も階層的な時間順序偏向である。
-リズムを核で先取りし、将来の拍を予測する高度な時間構造を持つ。
-典型例：英語・ロシア語など。{{<var PROACTIVE_TEMPORAL_ORDERING>}} に整合的である。
-
----
-
-#### {{<var PHI>}}
-
-**Proactivity Horizon Index**
-能動的予測の範囲を定量化する指標である。
-次に起こる事象をどの程度先取りして知覚・行動するかを測定する。
-
----
+人の時間順序認識を{{<var PROACTIVE_TEMPORAL_ORDERING>}} と{{<var REACTIVE_TEMPORAL_ORDERING>}}の二軸に分けて考えることを、ここでは{{<var PRTOA>}}と呼ぶことにします。
 
 #### {{<var PROACTIVE_DIVISIONISM>}}
 
-**Proactive Divisionism**
-{{<var PROACTIVE_TEMPORAL_ORDERING>}} の運動的・リズム的表現型に相当する概念である。
-時間を先取りして空間・拍を分割し、弱拍先行・尻合わせのタイミングを志向する。
-能動的・協働的グルーヴに基づくリズム形成を特徴とする。
-
----
+音楽理論上、音韻学上で{{<var PROACTIVE_TEMPORAL_ORDERING>}}に相当する概念。 未来で起こる事象を予期して空間・時間を分割し {{<var CONDITIONS_OF_GROOVE>}} 弱拍先行・弱拍基軸、尻合わせ、3⁻ⁿリズムを形成する。 協働グルーヴに基づくリズムを形成する。
 
 #### {{<var REACTIVE_APPENDISM>}}
 
-**Reactive Appendism**
-{{<var REACTIVE_TEMPORAL_ORDERING>}} の運動的・リズム的表現型に相当する概念である。
-直前の拍や出来事をトリガとして追従し、強拍追随・頭合わせのタイミングを志向する。
-反応的・孤立的グルーヴを特徴とする。
+音楽理論上、音韻学上で{{<var REACTIVE_TEMPORAL_ORDERING>}} に相当する概念。 何らかの出来事をトリガとして行動を開始する。何らかの形で追従する動作を取る偏りが観察される。強拍先行・強拍基軸、頭合わせ、2⁻ⁿリズムを形成する。 単独グルーヴに基づくリズムを形成する。
 
----
 
+#### {{<var PROSODIC_ORDERING_BIAS>}}
+
+その人が母国語としている言語の言語リズムによって生まれた認知上の順序の認識の偏りのことを、ここでは {{<var PROSODIC_ORDERING_BIAS>}} と呼びます。
+
+次で説明する{{<var MORAIC_ORDERING_BIAS>}}、{{<var SYLLABIC_ORDERING_BIAS>}}、{{<var ACCENTUATED_ORDERING_BIAS>}} の3種類が存在します。
+
+#### {{<var MORAIC_ORDERING_BIAS>}}
+
+モーラ拍リズム言語(日本語)に特有の{{<var PROSODIC_ORDERING_BIAS>}}をここでは{{<var MORAIC_ORDERING_BIAS>}} と呼びます。 {{<var REACTIVE_TEMPORAL_ORDERING>}} が相当します。
+
+#### {{<var SYLLABIC_ORDERING_BIAS>}}
+
+シラブル拍およびストレス拍言語（英語・スペイン語など）に見られます。 {{<var PROACTIVE_TEMPORAL_ORDERING>}} と関連して観察されることが予想されます。
+
+#### {{<var ACCENTUATED_ORDERING_BIAS>}}
+
+典型例：英語・ロシア語などに見られる{{<var PROSODIC_ORDERING_BIAS>}}をここでは{{<var ACCENTUATED_ORDERING_BIAS>}}と呼びます。 {{<var PROACTIVE_TEMPORAL_ORDERING>}} と関連して観察されることが予想されます。
+
+#### {{<var PROACTIVITY_HORIZON_INDEX>}}
+
+能動的予測の範囲を定量化する指標。次に起こる事象をどの程度先取りして知覚・行動するかを測定する。
 
 
 ### 未来を予想して動く人と過去に対して反応する人

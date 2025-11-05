@@ -13,6 +13,18 @@ HGT: "<ruby><rb>超グルーヴ</rb><rt>ハイパーグルーヴ</rt>理論</rub
 
 # === Multi-Layered Weak-Beat Precedence ===
 MLWBOR: "<ruby><rb>多層弱拍基軸律動</rb><rt>Multi-Layered Weak-Beat Precedence</rt></ruby>"
+BOTTOM_ALIGNING: "尻合わせ"
+SBL: "強拍先行"
+WBL: "強拍先行"
+HAL: "頭合わせ"
+BAL: "尻合わせ"
+SAA: "<ruby><rb>強拍基軸</rb><rt>Strong-Beat Anchoring Axis</rt></ruby>"
+WAA: "<ruby><rb>弱拍基軸</rb><rt>Weak-Beat Anchoring Axis</rt></ruby>"
+2TONR: "2⁻ⁿリズム"
+3TONR: "3⁻ⁿリズム"
+CONDITIONS_OF_GROOVE:   "<ruby><rb>グルーヴ四条件</rb><rt></rt></ruby>"
+CONDITIONS_OF_TATENORI: "<ruby><rb>縦乗り四条件</rb><rt></rt></ruby>"
+
 
 # === Phonorhythmatology ===
 PHONORHYTHMATOLOGY: "<ruby>音韻学的音楽分析<rt>フォノリズマトロジー</rt></ruby>"
@@ -51,11 +63,19 @@ PROACTIVE_DIVISIONISM_ENG: "<ruby><rb>能動的事前予期裁ち割り主義</r
 REACTIVE_APPENDISM_ENG: "<ruby><rb>受動的事後追従付け足し主義</rb><rt>Reactive Appendism</rt></ruby>"
 
 ## === VVV ===
-NUCLEUS_ANCHORED: "<ruby><rb>音節核基軸</rb></rt>Nucleus-Anchored</rt></ruby>"
-ONSET_ANCHORED: "<ruby><rb>頭子音基軸</rb></rt>Onset-Anchored</rt></ruby>"
+# SYLLABIC_ANCHORING_AXIS: "<ruby><rb>音節基軸</rb><rt>Syllabic Anchoring Axis</rt></ruby>"
+# PHONOTEMPORAL_ORDERING: "<ruby><rb>k</rb><rt>Phonotemporal Ordering</rt></ruby>"
+# NUCLEUS_ANCHORED: "<ruby><rb>音節核基軸</rb><rt>Nucleus-Anchored</rt></ruby>"
+# ONSET_ANCHORED: "<ruby><rb>頭子音基軸</rb><rt>Onset-Anchored</rt></ruby>"
+PHONOTEMPORAL_ORDERING_AXIS: "<ruby><rb>音節順序認識軸</rb><rt>Phonotemporal Ordering Axis</rt></ruby>"
+LEADING_CONSONANT_PHONOTEMPORAL_ORDERING: "<ruby><rb>子音先行順序認識</rb><rt>Leading-Consonant Phonotemporal Ordering</rt></ruby>"
+FOLLOWING_CONSONANT_PHONOTEMPORAL_ORDERING: "<ruby><rb>子音後行順序認識</rb><rt>Following-Consonant Phonotemporal Ordering</rt></ruby>"
+MULTI_ANCHORED_SYLLABLE_INITIATION : "<ruby><rb>複基軸音節起動</rb><rt>Multi Anchored Syllable Initiation</rt></ruby>"
+MONO_ANCHORED_SYLLABLE_INITIATION  : "<ruby><rb>単基軸音節起動</rb><rt>Mono Anchored  Syllable Initiation</rt></ruby>"
+
 
 # === Rhythmdo Series ===
-3TON: "<ruby>3⁻ⁿグルーヴ<rt>スリー・ツー・エヌ</rt>理論</ruby>"
+3TONT: "<ruby>3⁻ⁿグルーヴ<rt>スリー・ツー・エヌ</rt>理論</ruby>"
 RKS: "<ruby>霊魂心<rt>れいこんしん</rt></ruby>"
 IRSK: "<ruby>一霊四魂<rt>いちれいしこん</rt></ruby>"
 SOUL: "<ruby>一霊四魂<rt>ソウル</rt></ruby>"
@@ -68,13 +88,13 @@ NURSERY_RHYME: "<ruby><rb>童謡</rb><rt>ナーザリライム</rt></ruby>"
 
 
 # === Temporal Ordering Framework (TOP Series) ===
-TOP:   "<ruby><rb>韻律的順序認識仮説</rb><rt>Temporal Ordering from Prosody</rt></ruby>"
+TOP:   "<ruby><rb>順序認識韻律寄与仮説</rb><rt>Temporal Ordering from Prosody</rt></ruby>"
 PRTOA: "<ruby><rb>能動予期/受動追従・順序認識軸</rb><rt>Proactive-Reactive Temporal Ordering Axis</rt></ruby>"
-MOB:   "<ruby><rb>モーラ順序偏向</rb><rt>Moraic Ordering Bias</rt></ruby>"
-PHI:   "<ruby><rb>予期地平指数</rb><rt>Proactivity Horizon Index</rt></ruby>"
-SOB:   "<ruby><rb>音節順序偏向</rb><rt>Ordering Bias</rt></ruby>"
-NOB:   "<ruby><rb>核順序偏向</rb><rt>Nuclear Ordering Bias</rt></ruby>"
-POB:   "<ruby><rb>韻律順序偏向</rb><rt>Prosodic Ordering Bias</rt></ruby>"
+MORAIC_ORDERING_BIAS:   "<ruby><rb>モーラ順序偏向</rb><rt>Moraic Ordering Bias</rt></ruby>"
+PROACTIVITY_HORIZON_INDEX:   "<ruby><rb>予期地平指数</rb><rt>Proactivity Horizon Index</rt></ruby>"
+SYLLABIC_ORDERING_BIAS:   "<ruby><rb>音節順序偏向</rb><rt>Syllabic Ordering Bias</rt></ruby>"
+ACCENTUATED_ORDERING_BIAS:   "<ruby><rb>核順序偏向</rb><rt>Accentuated Ordering Bias</rt></ruby>"
+PROSODIC_ORDERING_BIAS:   "<ruby><rb>韻律順序偏向</rb><rt>Prosodic Ordering Bias</rt></ruby>"
 PROACTIVE_TEMPORAL_ORDERING: "<ruby><rb>能動的事前予期的順序認識</rb><rt>Proactive Temporal Ordering</rt></ruby>"
 REACTIVE_TEMPORAL_ORDERING: "<ruby><rb>受動的事後追従的順序認識</rb><rt>Reactive Temporal Ordering</rt></ruby>"
 LINK_SCHIZORHYTHMOS_AND_SOLIRHYTHMOS: "[<ruby><rb>分裂拍</rb><rt>シゾリスモス</rt></ruby>と<ruby><rb>孤立拍</rb><rt>ソリリスモス</rt></ruby>](/hypergroove/schizorhythmos-and-solirhythmos/ja/#schizorhythmos-and-solirhythmos-again)"
