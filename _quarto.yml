@@ -25,7 +25,7 @@ resources:
   - common-ly/shared/*.ly
 
 website:
-  title: "リズムドウ rhythmdo.com 律武道"
+  title: "<ruby><rb>律武道</rb><rt>リズムドウ</rt></ruby> 〜 rhythmdo.com "
   description: "武道としてのリズムの道〜律武道"
   site-url: "https://rhythmdo.com/"
   site-path: /
