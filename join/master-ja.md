@@ -9,20 +9,18 @@ execute:
   eval: true
   cache: false
 title-block: false
-rhythmpress-preproc: split
-rem-rhythmpress-preproc: copy
+rem-rhythmpress-preproc: split
+rhythmpress-preproc: copy
 rhythmpress-preproc-args: []
 ---
 
-{{<var RDO>}}入門の御案内
-
-## {{<var RDO>}}練習生募集 {#join-us}
-
 {{<var RDO>}}は、練習生を募集しています。
+
+**{{<var RDO>}}**は、世界のグルーヴを進化させる取り組みを行っています。貴方も一緒にこの世界をグルーヴさせませんか？ グルーヴは、音楽を元気にするだけではありません。グルーヴは、語学を元気にします。 グルーヴはITを元気にします。グルーヴは、ビジネスを元気にします。グルーヴは世界を元気にします！
+
+まずは超グルーヴ理論を学ぶところから始めましょう！
 
 ### 募集要項
-
-{{<var RDO>}}は、練習生を募集しています。
 
 月謝２０００円で練習会に参加することが可能です。
 
