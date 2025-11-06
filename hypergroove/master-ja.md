@@ -706,7 +706,7 @@ music</span>
 
 
 
-## 強拍が先か弱拍が先か <!-- {#headians-and-bottomians-of-beat-orientation} -->
+## <ruby><rb>強拍が先か弱拍が先か</rb><rt>リズモクロニック・アナリシス</rt></ruby> <!-- {#headians-and-bottomians-of-beat-orientation} -->
 強拍弱拍の順序に対する認識は、その人が母国語とする言語が持つリズムによって大きな違いが生まれます。
 
 
