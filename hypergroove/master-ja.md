@@ -9063,6 +9063,7 @@ common-ly/shared/rhythmdo-lv3-lv1-000.ly
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv3-lv2-000.ly
+% yllHg4q8KHrWnbDJSbHpig==
 ```
 
 ##### レベル3 {{< var PNI >}}   <!-- {#ppns-3-3} -->

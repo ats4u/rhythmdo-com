@@ -149,8 +149,8 @@ tuplet-nine = \tuplet 9/2 8 {
         %
 
         \markup { t   } \markup {  |uː} \markup { _ }
-        \markup { (w) } \markup {  |ə  } \markup { n  }
-        \markup { _   } \markup {  |ə  } \markup { _  }
+        \markup { (w) } \markup {  |ə  } \markup { _  }
+        \markup { n   } \markup {  |ə  } \markup { _  }
 
         \markup { (r) } \markup {  |ə  } \markup { _  }
         \markup { n   } \markup {  |ə  } \markup { _  }
@@ -163,8 +163,8 @@ tuplet-nine = \tuplet 9/2 8 {
         %
 
         \markup { θɹ } \markup {  |iː} \markup { _ }
-        \markup { (y) } \markup {  |ə  } \markup { n  }
-        \markup { _   } \markup {  |ə  } \markup { _  }
+        \markup { (y) } \markup {  |ə  } \markup { _  }
+        \markup { n   } \markup {  |ə  } \markup { _  }
 
         \markup { (r) } \markup {  |ə  } \markup { _  }
         \markup { n   } \markup {  |ə  } \markup { _  }
@@ -260,9 +260,9 @@ tuplet-nine = \tuplet 9/2 8 {
 
         %
 
-        \markup { w   } \markup {  |ʌ  } \markup { n  }
-        \markup { _   } \markup {  |ə  } \markup { n  }
-        \markup { _   } \markup {  |ə  } \markup { _  }
+        \markup { w   } \markup {  |ʌ  } \markup { _  }
+        \markup { n   } \markup {  |ə  } \markup { _  }
+        \markup { n   } \markup {  |ə  } \markup { _  }
 
         _ _
     }
