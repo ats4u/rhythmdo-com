@@ -27,6 +27,8 @@ WAA: "<ruby><rb>弱拍基軸</rb><rt>Weak-Beat Anchoring Axis</rt></ruby>"
 CONDITIONS_OF_GROOVE:   "<ruby><rb>グルーヴ四条件</rb><rt></rt></ruby>"
 CONDITIONS_OF_TATENORI: "<ruby><rb>縦乗り四条件</rb><rt></rt></ruby>"
 
+THREE_LEVELS_OF_PHONOLOGICAL_RULES: "音韻規則の３つのレベル"
+PHONOLOGICAL_RULE_LEVELS: "音韻規則レベル"
 
 # === Phonorhythmatology ===
 PHONORHYTHMATOLOGY: "<ruby>音韻学的音楽分析<rt>フォノリズマトロジー</rt></ruby>"
