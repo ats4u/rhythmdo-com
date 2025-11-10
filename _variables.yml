@@ -27,8 +27,7 @@ WAA: "<ruby><rb>弱拍基軸</rb><rt>Weak-Beat Anchoring Axis</rt></ruby>"
 CONDITIONS_OF_GROOVE:   "<ruby><rb>グルーヴ四条件</rb><rt></rt></ruby>"
 CONDITIONS_OF_TATENORI: "<ruby><rb>縦乗り四条件</rb><rt></rt></ruby>"
 
-THREE_LEVELS_OF_PHONOLOGICAL_RULES: "音韻規則の３つのレベル"
-PHONOLOGICAL_RULE_LEVELS: "音韻規則レベル"
+
 
 # === Phonorhythmatology ===
 PHONORHYTHMATOLOGY: "<ruby>音韻学的音楽分析<rt>フォノリズマトロジー</rt></ruby>"
@@ -45,10 +44,15 @@ ANI:   "<ruby><rb>強勢音節核の等時性</rb><rt>ANI = Accented Nuclear Iso
 PNI:   "<ruby><rb>核音節の等時性</rb><rt>PNI = Prosodic Nuclear Isochrony</rt></ruby>"
 MNI:   "<ruby><rb>韻律的核音節の等時性</rb><rt>MNI = Metric Nuclear Isochrony</rt></ruby>"
 
+THREE_LEVELS_OF_PHONOLOGICAL_RULES: "音韻規則の３つのレベル"
+PHONOLOGICAL_RULE_LEVELS: "音韻規則レベル"
+
+
 # === Phonology of Offbeat Count
 MBS: "<ruby>モーラ拍の６つの欠落音韻規則<rt>Japanese Invisible Dog Poop</rt></ruby>"
 HAP: "<ruby>音素の頭合わせ<rt>HAP=Head Aligned Phonomes</rt></ruby>"
 PNS: "<ruby>音韻表記厳密化<rt>PNI = Prosodic Notation Strictification</rt></ruby>"
+PNSPTI: "<ruby><rb>音韻表記厳密化の感覚理論逆行性</rb><rt>Phonological Notation Strictification Perceptual-Theoretical Inversion</rt></ruby>"
 
 # === PHONOLOGICAL ANCHORING PRINCIPLE ===
 RECURSIVE_PROSODIC_EQUIVALENCE_PRINCIPLE: "<ruby><rb>再帰的韻律同一性原理</rb><rt>RPEP=Recursive Prosodic Equivalence Principle</rt></ruby>"
