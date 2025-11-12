@@ -68,7 +68,7 @@ website:
 # execute:
 #  freeze: auto            # optional: avoids re-execution unless sources change
 metadata:
-  lilypond-preamble: "rhythmpedia-ly/lilypond-preamble.ly"
+  lilypond-preamble: "common-ly/lilypond-preamble.ly"
 format:
   html:
     pandoc:

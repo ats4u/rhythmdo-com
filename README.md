@@ -31,6 +31,10 @@
 
 全てのファイルは QMD ファイルで作成されています。 多くの図説（画像/譜面) はQuarto 上のフィルタとして書かれたプログラムによって自動的に生成されています。./filters/ ディレクトリに全てのフィルタが保存されていますので、そちらを参照して下さい。
 
+### メモ
+
+
+
 
 <!--
 We use a project-local virtual environment (`.venv`) to run Python in Quarto dynamic blocks.

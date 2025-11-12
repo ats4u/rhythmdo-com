@@ -52,7 +52,7 @@ PHONOLOGICAL_RULE_LEVELS: "音韻規則レベル"
 MBS: "<ruby>モーラ拍の６つの欠落音韻規則<rt>Japanese Invisible Dog Poop</rt></ruby>"
 HAP: "<ruby>音素の頭合わせ<rt>HAP=Head Aligned Phonomes</rt></ruby>"
 PNS: "<ruby>音韻表記厳密化<rt>PNI = Prosodic Notation Strictification</rt></ruby>"
-PNSPTI: "<ruby><rb>音韻表記厳密化の感覚理論逆行性</rb><rt>Phonological Notation Strictification Perceptual-Theoretical Inversion</rt></ruby>"
+PNSPTI: "<ruby><rb>音韻表記厳密化の感覚理論逆進性</rb><rt>Phonological Notation Strictification Perceptual-Theoretical Inversion</rt></ruby>"
 
 # === PHONOLOGICAL ANCHORING PRINCIPLE ===
 RECURSIVE_PROSODIC_EQUIVALENCE_PRINCIPLE: "<ruby><rb>再帰的韻律同一性原理</rb><rt>RPEP=Recursive Prosodic Equivalence Principle</rt></ruby>"
