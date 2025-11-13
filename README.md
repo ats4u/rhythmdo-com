@@ -33,7 +33,110 @@
 
 ### メモ
 
+#### How to Create a Rhythmpress project
 
+Currently the easiest way to create a repository is replicating preexisting project.
+
+```
+rsync -av $SRC/filters/             $DST/filters/
+rsync -av $SRC/.assets/             $DST/.assets/
+rsync -av $SRC/assets/              $DST/assets/
+rsync -av $SRC/.github/             $DST/.github/
+rsync -av $SRC/requirements.txt     $DST/requirements.txt
+rsync -av $SRC/_metadata.yml        $DST/_metadata.yml
+rsync -av $SRC/_variables.yml       $DST/_variables.yml
+rsync -av $SRC/_quarto.yml          $DST/_quarto.yml
+rsync -av $SRC/_redirects           $DST/_redirects
+rsync -av $SRC/_rhythmpress.conf    $DST/_rhythmpress.conf
+mkdir $SRC/attachments
+mkdir $SRC/attachments-src
+
+```
+
+```
+cat <EOF > .gitignore
+/_site
+/.site
+/.quarto/
+/_freeze/
+.DS_Store
+*.~undo-tree~
+.venv
+.obsidian
+.vscode/
+__pycache__
+*_files
+*.generated.yml
+*.generated.md
+.toc_title_cache.json
+_sidebar-*.yml
+*.generated.conf
+*.bak
+EOF
+```
+
+You have to installl its dependencies before activating it.
+```
+python3 -m venv .venv
+. .venv/bin/activate
+pip install -r requirements.txt
+git clone git@github.com:ats4u/rhythmpress.git $HOME/rhythmpress
+pip install -e $HOME/rhythmpress
+```
+
+#### How to Start a Preview Server on the Project
+
+In order to activate the project, do following:
+
+```
+. .venv/bin/activate
+eval "$(rhythmpress eval)"
+```
+
+There are two servers.
+
+One of them is automatic rebuilding server.
+
+```
+rhythmpress auto-rebuild
+```
+
+One of them is the preview server.
+```
+rhythmpress start
+```
+
+In order to deactivate the project, do following:
+```
+rhythmpress_deactivate
+deactivate
+```
+
+
+#### How to Add an Article
+
+```sh
+ARTICLE_NAME="foo-bar"
+
+# 1. Create a directory
+mkdir "$(ARTICLE_NAME)"
+cd "$(ARTICLE_NAME)"
+
+# 2. Create .gitignore and .article_dir
+# rhythmpress won't automatically clean the directory when there is no
+`.article_dir` in the directory
+
+touch .article_dir
+
+# 3. Create .gitignore
+echo <<EOF > .gitignore
+attachment/*
+attachment-src/*
+*/
+EOF
+```
+
+### hello
 
 
 <!--
