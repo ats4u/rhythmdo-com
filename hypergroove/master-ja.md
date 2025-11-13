@@ -5789,17 +5789,6 @@ Daft Punk や Basement Jaxx などにも見られる手法です。
 
 *グルーヴの本質は多重になった3拍子である* ───  {{<var 3TONT>}} の序論として世界中の3拍子の音楽を御紹介致します。ジャズの起源となったゲーリック及び黒人教会音楽リズムへの理解を深めることが演奏上のグルーヴ力を向上させます。そしてこれは英語のリズムの起源を知る旅と言い換えることも可能です。 ジャズのリズムの起源、そして英語のリズムの起源を感覚的に理解するための礎として、ここで世界中の3拍子/9拍子/27拍子の音楽を御紹介致します。これらの音楽は決して理解が容易いものではありませんが、ジャズのスイングやR&B、ファンクなどのグルーヴとその本質は共通です。何度も聴いて聴き馴染むことで、現代的なグルーヴの感覚を養いましょう。
 
-<script>
-  document.addEventListener("DOMContentLoaded", () => {
-    document.querySelectorAll(".ats4u-twitter-video").forEach((el) => {
-      const twitterId = (el.innerText)?.replaceAll?.( "x.com", "twitter.com" );
-      if (twitterId !== null) {
-        el.outerHTML = (`<blockquote class="twitter-tweet" data-conversation="none" data-media-max-width="560"><a href="${twitterId}">${twitterId}</a></blockquote>` );
-      }
-    });
-  });
-</script>
-
 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1660288431828918275</div>
 <div class="ats4u-twitter-video-caption">伝統的なジャズに近い『ザ・ビッグアップル』リンク先で情関連報を紹介</div>
 
