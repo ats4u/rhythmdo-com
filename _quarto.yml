@@ -1,12 +1,9 @@
 project:
-  title: "リズムドウ rhythmdo.com 律武道"
+  title: "リズム道 rhythmdo.com"
   type: website
   output-dir: .site
-#  execute-dir: project
   preview:
     port: 5150
-#    browser: false
-#    watch-inputs: false
     browser: false
   render:
     - "**/*.qmd"        # render only qmd
@@ -25,15 +22,15 @@ resources:
   - common-ly/shared/*.ly
 
 website:
-  title: "<ruby><rb>律武道</rb><rt>リズムドウ</rt></ruby> 〜 rhythmdo.com "
-  description: "武道としてのリズムの道〜律武道"
+  title: "リズム道 〜 rhythmdo.com "
+  description: "グルーヴを科学する道 リズム道"
   site-url: "https://rhythmdo.com/"
   site-path: /
   page-footer:
-    left: "© 2018-2025 律武道 — All rights reserved."
+    left: "© 2018-2026 リズム道 — All rights reserved."
     right: |
       \|
-      [律武道について](/about/rhythmdo/ja/) |
+      [リズム道について](/about/rhythmdo/ja/) |
       [運営者](/about/publisher/ja/) |
       [連絡先](/contact/ja/) |
       [問い合わせ](/contact-form/ja/) |
@@ -46,15 +43,6 @@ website:
 
   page-navigation: true     # show Previous / Next buttons in the footer
   bread-crumbs: true
-#  site-url: "https://ats4u.github.io/jpn-master-workinglog-markdown/"
-#  announcement:
-#    content: |
-#       <div class="top-banner">
-#       <img src="attachments/rhythmpedia-header3.png" style="width:100vw"/>
-#      </div>
-#    type: primary
-#    position: above-navbar
-#    dismissable: false
   navbar:
     logo: /attachments/rhythmdo-logo-light.png
     right:
