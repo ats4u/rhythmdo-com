@@ -13,7 +13,7 @@ rhythmpress-preproc-sidebar: false
 
 ## お問い合わせ
 
-**律武道 rhythmdo.com** へのご質問、ご意見、ご感想などは、以下の方法でお寄せください。
+**リズム道 rhythmdo.com** へのご質問、ご意見、ご感想などは、以下の方法でお寄せください。
 
 ---
 

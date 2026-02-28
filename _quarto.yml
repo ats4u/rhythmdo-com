@@ -21,6 +21,9 @@ resources:
   - common-ly/*.ly
   - common-ly/shared/*.ly
 
+metadata:
+  lilypond-preamble: "common-ly/lilypond-preamble.ly"
+
 website:
   title: "リズム道 〜 rhythmdo.com "
   description: "グルーヴを科学する道 リズム道"
@@ -55,8 +58,6 @@ website:
     contents: []
 # execute:
 #  freeze: auto            # optional: avoids re-execution unless sources change
-metadata:
-  lilypond-preamble: "common-ly/lilypond-preamble.ly"
 format:
   html:
     pandoc:

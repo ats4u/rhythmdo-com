@@ -211,6 +211,7 @@ $line-height : 1.5em;
 }
 
 .nav-link,
+
 /* 
  * Quarto's margin (right) sidebar TOC list. The built-in stylesheet sets
  * `font-size: 0.875rem` on this <ul>, which forces all nested links in the
@@ -225,6 +226,7 @@ $line-height : 1.5em;
   font-size: inherit !important;
   line-height: $line-height;
 }
+
 /*-- scss:rules --*/
 body {
   // --bs-body-font-size : $font-size-base;
