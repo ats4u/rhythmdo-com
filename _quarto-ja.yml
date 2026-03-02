@@ -9,7 +9,7 @@ project:
   - rhythmpress sitemap
   render:
   - index.md
-  - index.qmd
+  - ja/index.qmd
   - '**/ja/**/*.qmd'
   - '!**/master*.md'
   - '!**/master*.qmd'
@@ -47,7 +47,7 @@ website:
   navbar:
     logo: /attachments/rhythmdo-logo-ja-light.png
     right:
-    - href: index.qmd
+    - href: ja/index.qmd
       text: トップに戻る
   sidebar:
     style: docked
@@ -131,4 +131,4 @@ format:
       - .assets/websites/theme-dark.scss
     css: assets/styles.css
 _author: 岡敦
-lang: ja
+lang: ja-JP

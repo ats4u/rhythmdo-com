@@ -22,7 +22,7 @@ website:
   navbar:
     logo: /attachments/rhythmdo-logo-en-light.png
     right:
-      - href: index.qmd
+      - href: en/index.qmd
         text: "トップに戻る"
 
   sidebar:

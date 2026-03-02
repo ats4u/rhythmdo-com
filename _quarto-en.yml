@@ -9,7 +9,7 @@ project:
   - rhythmpress sitemap
   render:
   - index.md
-  - index.qmd
+  - en/index.qmd
   - '**/en/**/*.qmd'
   - '!**/master*.md'
   - '!**/master*.qmd'
@@ -47,7 +47,7 @@ website:
   navbar:
     logo: /attachments/rhythmdo-logo-en-light.png
     right:
-    - href: index.qmd
+    - href: en/index.qmd
       text: トップに戻る
   sidebar:
     style: docked
@@ -55,7 +55,7 @@ website:
     collapse-level: 1
     contents:
     - text: Rhythmpedia
-      href: index.qmd
+      href: en/index.qmd
     - section: <ruby>超グルーヴ<rt>ハイパーグルーヴ</rt>理論</ruby>
       href: hypergroove/en/index.qmd
       contents:
@@ -131,4 +131,4 @@ format:
       - .assets/websites/theme-dark.scss
     css: assets/styles.css
 _author: 岡敦
-lang: en
+lang: en-US

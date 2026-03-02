@@ -21,9 +21,8 @@ title-block: false
 
 ```{python}
 #| output: asis
-from pathlib import Path
 from rhythmpress import rhythmpress
-out = rhythmpress.create_global_navigation( '_rhythmpress.conf', 'en', strict=False )
+out = rhythmpress.create_global_navigation('../_rhythmpress.conf', 'en', strict=False)
 print(out)
 ```
 

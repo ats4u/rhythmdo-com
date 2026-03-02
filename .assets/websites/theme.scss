@@ -37,11 +37,11 @@ body.quarto-dark .quarto-title h1:first-of-type::before {
   background-image: url("/attachments/rhythmdo-logo-ja-dark.png");
 }
 
-html[lang="en"] .quarto-title h1:first-of-type::before {
+html[lang|="en"] .quarto-title h1:first-of-type::before {
   background-image: url("/attachments/rhythmdo-logo-en-light.png");
 }
 
-html[lang="en"] body.quarto-dark .quarto-title h1:first-of-type::before {
+html[lang|="en"] body.quarto-dark .quarto-title h1:first-of-type::before {
   background-image: url("/attachments/rhythmdo-logo-en-dark.png");
 }
 
@@ -99,11 +99,11 @@ html[lang="en"] body.quarto-dark .quarto-title h1:first-of-type::before {
   background-image: url("/attachments/rhythmdo-logo-ja-dark.png");
 }
 
-html[lang="en"] .quarto-light .sidebar-logo-link {
+html[lang|="en"] .quarto-light .sidebar-logo-link {
   background-image: url("/attachments/rhythmdo-logo-en-light.png");
 }
 
-html[lang="en"] .quarto-dark .sidebar-logo-link {
+html[lang|="en"] .quarto-dark .sidebar-logo-link {
   background-image: url("/attachments/rhythmdo-logo-en-dark.png");
 }
 
@@ -161,10 +161,10 @@ html[lang="en"] .quarto-dark .sidebar-logo-link {
   --src: url( "/attachments/rhythmdo-logo-ja-dark.png" ); /* full image */
 }
 
-html[lang="en"] .quarto-light .navbar-brand-logo {
+html[lang|="en"] .quarto-light .navbar-brand-logo {
   --src: url( "/attachments/rhythmdo-logo-en-light.png" ); /* full image */
 }
-html[lang="en"] .quarto-dark .navbar-brand-logo {
+html[lang|="en"] .quarto-dark .navbar-brand-logo {
   --src: url( "/attachments/rhythmdo-logo-en-dark.png" ); /* full image */
 }
 /*
@@ -257,14 +257,14 @@ body {
   line-height: $line-height;
 }
 
-html[lang="ja"] body {
+html[lang|="ja"] body {
   font-family: "M PLUS 1", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
 
-html[lang="en"] body {
+html[lang|="en"] body {
   font-family: "Charis SIL", Georgia, serif;
   font-weight: 400;
   font-style: normal;
