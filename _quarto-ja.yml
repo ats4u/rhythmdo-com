@@ -1,0 +1,134 @@
+project:
+  title: リズム道
+  type: website
+  output-dir: .site-ja
+  preview:
+    port: 5150
+    browser: false
+  post-render:
+  - rhythmpress sitemap
+  render:
+  - index.md
+  - index.qmd
+  - '**/ja/**/*.qmd'
+  - '!**/master*.md'
+  - '!**/master*.qmd'
+  - '!drafts/**'
+resources:
+- Ads.txt
+- _redirects
+- 404.html
+- attachments/*
+- common-ly/*.ly
+- common-ly/shared/*.ly
+metadata:
+  lilypond-preamble: common-ly/lilypond-preamble.ly
+website:
+  site-url: https://rhythmdo.com/
+  site-path: /
+  page-navigation: true
+  bread-crumbs: true
+  title: 'リズム道 〜 rhythmdo.com '
+  description: グルーヴを科学する道 リズム道
+  page-footer:
+    left: © 2018-2026 リズム道 — All rights reserved.
+    right: |
+      \|
+      [リズム道について](/about/rhythmdo/ja/) |
+      [運営者](/about/publisher/ja/) |
+      [連絡先](/contact/ja/) |
+      [問い合わせ](/contact-form/ja/) |
+      [免責事項](/disclaimer/ja/) |
+      <br/>
+      \|
+      [プライバシーポリシー](/privacy-policy/ja/) |
+      <a href="/cookies/en/">Cookie Policy</a> |
+      <a href="#" id="cookie-settings" rel="nofollow">Cookie Settings</a> |
+  navbar:
+    logo: /attachments/rhythmdo-logo-ja-light.png
+    right:
+    - href: index.qmd
+      text: トップに戻る
+  sidebar:
+    style: docked
+    logo: /attachments/rhythmdo-logo-ja-light.png
+    collapse-level: 3
+    contents:
+    - section: <ruby>超グルーヴ<rt>ハイパーグルーヴ</rt>理論</ruby>
+      href: hypergroove/ja/index.qmd
+      contents:
+      - hypergroove/benefits-of-hypergroove-theory/ja/index.qmd
+      - hypergroove/the-four-principles-of-groove/ja/index.qmd
+      - hypergroove/tatenori-theory/ja/index.qmd
+      - hypergroove/headians-and-bottomians-of-beat-orientation/ja/index.qmd
+      - hypergroove/phonorhythmatological-theory/ja/index.qmd
+      - hypergroove/letter-to-native-mora-timed-speakers/ja/index.qmd
+      - hypergroove/schizorhythmos-and-solirhythmos/ja/index.qmd
+      - hypergroove/the-crossing-point-of-language-and-music/ja/index.qmd
+      - hypergroove/multi-layered-weak-beat-precedence/ja/index.qmd
+      - hypergroove/multidimensional-division-spaces/ja/index.qmd
+      - hypergroove/rhythm-more-important-than-pronunciation/ja/index.qmd
+      - hypergroove/world-is-three-to-negative-n/ja/index.qmd
+      - hypergroove/three-to-n-groove-theory/ja/index.qmd
+      - hypergroove/distributed-groove-theory/ja/index.qmd
+      - hypergroove/weak-beat-as-sun-strong-beat-as-earth/ja/index.qmd
+      - hypergroove/offbeat-count-basic/ja/index.qmd
+      - hypergroove/rhythmochronic-competence-and-rhythmic-feeling/ja/index.qmd
+      - hypergroove/why-offbeat-counting-enhances-english-listening-skills/ja/index.qmd
+      - hypergroove/etudes-for-speakers-of-mora-timed-languages/ja/index.qmd
+      - hypergroove/phonetics/ja/index.qmd
+      - hypergroove/how-to-pronounce-the-offbeat-count-correctly/ja/index.qmd
+      - hypergroove/offbeat-count-polyrhythm/ja/index.qmd
+      - hypergroove/mechanism-behind-tatenori/ja/index.qmd
+      - hypergroove/influence-of-japanese-language-on-cognition/ja/index.qmd
+      - hypergroove/tatenori-and-psychology/ja/index.qmd
+      - hypergroove/know-yourself/ja/index.qmd
+    - join/ja/index.qmd
+    - dojo/ja/index.qmd
+format:
+  html:
+    pandoc:
+      from: markdown+raw_html
+    lightbox: true
+    reference-location: block
+    filters:
+    - filters/meta-dates.lua
+    - filters/include-files.lua
+    - filters/lilypond.lua
+    - filters/remove-softbreaks.lua
+    toc: true
+    toc-location: right
+    toc-depth: 7
+    toc-expand: 1
+    include-in-header:
+    - text: "<meta name=\"google-site-verification\" content=\"JE4bBo-b8pDcRaa8nLTGBnzJ1cFsovnaxr0iAjefqBg\"\
+        \ />\n<script async type=\"module\" src=\"/assets/ats4u-twitter-video.mjs\"\
+        ></script>\n<link href=\"/assets/groovespace.css\" rel=\"stylesheet\" />\n\
+        <script async type=\"module\" src=\"/assets/groovespace.mjs\"></script>\n\
+        <script async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6838486775293179\"\
+        \ crossorigin=\"anonymous\"></script>\n<script async src=\"https://platform.twitter.com/widgets.js\"\
+        \ charset=\"utf-8\"></script>\n<script async type=\"module\" src=\"/assets/toc-ul.mjs\"\
+        ></script>\n<script async type=\"module\" src=\"/assets/cookie-settings.mjs\"\
+        ></script>\n<script \n  async\n  id=\"Cookiebot\" \n  src=\"https://consent.cookiebot.com/uc.js\"\
+        \ \n  data-cbid=\"edc31cf5-a736-498e-916b-965351c95f41\" \n  data-blockingmode=\"\
+        auto\" \n  type=\"text/javascript\">\n</script>\n<script data-cookieconsent=\"\
+        marketing\">\n  (adsbygoogle = window.adsbygoogle || []).push({\n    google_ad_client:\
+        \ \"ca-pub-6838486775293179\",\n    enable_page_level_ads: true\n  });\n</script>\n"
+    page-layout: full
+    grid:
+      sidebar-width: 450px
+      body-width: 500px
+      margin-width: 450px
+      gutter-width: 0.5em
+    theme:
+      light:
+      - cosmo
+      - .assets/websites/theme.scss
+      - .assets/websites/theme-light.scss
+      dark:
+      - darkly
+      - .assets/websites/theme.scss
+      - .assets/websites/theme-dark.scss
+    css: assets/styles.css
+_author: 岡敦
+lang: ja

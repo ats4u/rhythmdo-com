@@ -1,15 +1,15 @@
 project:
-  title: "リズム道 rhythmdo.com"
+  title: "Rhythmdo"
   type: website
   output-dir: .site
   preview:
     port: 5150
     browser: false
-  render:
-    - "**/*.qmd"        # render only qmd
-    - "!**/master*.md"  # explicitly ignore master*.md anywhere 
-    - "!**/master*.qmd" # explicitly ignore master*.md anywhere 
-    - "!drafts/*"       # exclude paths
+#  render:
+#    - "**/*.qmd"        # render only qmd
+#    - "!**/master*.md"  # explicitly ignore master*.md anywhere 
+#    - "!**/master*.qmd" # explicitly ignore master*.md anywhere 
+#    - "!drafts/*"       # exclude paths
   post-render:
     - rhythmpress sitemap   # Sun, 31 Aug 2025 03:22:23 +0900 runs after every build
 
@@ -25,46 +25,14 @@ metadata:
   lilypond-preamble: "common-ly/lilypond-preamble.ly"
 
 website:
-  title: "リズム道 〜 rhythmdo.com "
-  description: "グルーヴを科学する道 リズム道"
   site-url: "https://rhythmdo.com/"
   site-path: /
-  page-footer:
-    left: "© 2018-2026 リズム道 — All rights reserved."
-    right: |
-      \|
-      [リズム道について](/about/rhythmdo/ja/) |
-      [運営者](/about/publisher/ja/) |
-      [連絡先](/contact/ja/) |
-      [問い合わせ](/contact-form/ja/) |
-      [免責事項](/disclaimer/ja/) |
-      <br/>
-      \|
-      [プライバシーポリシー](/privacy-policy/ja/) |
-      <a href="/cookies/en/">Cookie Policy</a> |
-      <a href="#" id="cookie-settings" rel="nofollow">Cookie Settings</a> |
-
   page-navigation: true     # show Previous / Next buttons in the footer
   bread-crumbs: true
-  navbar:
-    logo: /attachments/rhythmdo-logo-light.png
-    right:
-      - href: index.qmd
-        text: "トップに戻る"
-  sidebar:
-    style: "docked"
-    logo: /attachments/rhythmdo-logo-light.png
-    collapse-level: 1
-    contents: []
-# execute:
-#  freeze: auto            # optional: avoids re-execution unless sources change
 format:
   html:
     pandoc:
       from: markdown+raw_html
-    theme:
-      light : [ cosmo,  .assets/websites/theme.scss, .assets/websites/theme-light.scss ]
-      dark  : [ darkly, .assets/websites/theme.scss, .assets/websites/theme-dark.scss  ]
     lightbox: true
     reference-location: block
     filters:
@@ -73,7 +41,6 @@ format:
       - filters/lilypond.lua
       - filters/remove-softbreaks.lua
 #      - filters/obsidian-image-dimensions.lua
-    css: assets/styles.css
     toc: true
     toc-location: right
     toc-depth: 7
@@ -110,6 +77,3 @@ format:
       margin-width: 450px
       gutter-width: 0.5em
 
-metadata-files:
-  - _sidebar-ja.generated.yml
-  - _metadata.yml

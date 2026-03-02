@@ -1,5 +1,8 @@
 /_site
 /.site
+/.site-en/
+/.site-ja/
+/.site-*/
 /.quarto/
 /_freeze/
 .DS_Store

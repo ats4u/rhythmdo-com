@@ -1,0 +1,45 @@
+_author: "岡敦"
+project:
+  title: "リズム道"
+website:
+  title: "リズム道 〜 rhythmdo.com "
+  description: "グルーヴを科学する道 リズム道"
+  page-footer:
+    left: "© 2018-2026 リズム道 — All rights reserved."
+    right: |
+      \|
+      [リズム道について](/about/rhythmdo/ja/) |
+      [運営者](/about/publisher/ja/) |
+      [連絡先](/contact/ja/) |
+      [問い合わせ](/contact-form/ja/) |
+      [免責事項](/disclaimer/ja/) |
+      <br/>
+      \|
+      [プライバシーポリシー](/privacy-policy/ja/) |
+      <a href="/cookies/en/">Cookie Policy</a> |
+      <a href="#" id="cookie-settings" rel="nofollow">Cookie Settings</a> |
+
+  navbar:
+    logo: /attachments/rhythmdo-logo-ja-light.png
+    right:
+      - href: index.qmd
+        text: "トップに戻る"
+
+  sidebar:
+    style: "docked"
+    logo: /attachments/rhythmdo-logo-ja-light.png
+    collapse-level: 1
+    contents: []
+
+format:
+  html:
+    pandoc:
+      from: markdown+raw_html
+    theme:
+      light : [ cosmo,  .assets/websites/theme.scss, .assets/websites/theme-light.scss ]
+      dark  : [ darkly, .assets/websites/theme.scss, .assets/websites/theme-dark.scss  ]
+    css: assets/styles.css
+
+# you can also define arbitrary keys
+# RUBY-MLWBOR: "ルビーHELLO多層弱強拍理論"
+# PROJECT_TAGLINE: "Distributed Groove and Tatenori Theory"
