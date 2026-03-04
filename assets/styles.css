@@ -4,6 +4,7 @@
  *==========================================================
  */
 
+/*
 .top-banner {
   width: 100%;
   background-color: #0000ff;
@@ -18,6 +19,7 @@
 .top-banner p {
   margin: 0;
 }
+*/
 
 @media (min-width: 768px) {
   .lightbox img {
