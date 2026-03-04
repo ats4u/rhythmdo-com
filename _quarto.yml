@@ -1,18 +1,15 @@
 project:
-  title: "リズムドウ rhythmdo.com 律武道"
+  title: "Rhythmdo"
   type: website
   output-dir: .site
-#  execute-dir: project
   preview:
     port: 5150
-#    browser: false
-#    watch-inputs: false
     browser: false
-  render:
-    - "**/*.qmd"        # render only qmd
-    - "!**/master*.md"  # explicitly ignore master*.md anywhere 
-    - "!**/master*.qmd" # explicitly ignore master*.md anywhere 
-    - "!drafts/*"       # exclude paths
+#  render:
+#    - "**/*.qmd"        # render only qmd
+#    - "!**/master*.md"  # explicitly ignore master*.md anywhere 
+#    - "!**/master*.qmd" # explicitly ignore master*.md anywhere 
+#    - "!drafts/*"       # exclude paths
   post-render:
     - rhythmpress sitemap   # Sun, 31 Aug 2025 03:22:23 +0900 runs after every build
 
@@ -24,58 +21,22 @@ resources:
   - common-ly/*.ly
   - common-ly/shared/*.ly
 
+metadata:
+  lilypond-preamble: "common-ly/lilypond-preamble.ly"
+
 website:
-  title: "<ruby><rb>律武道</rb><rt>リズムドウ</rt></ruby> 〜 rhythmdo.com "
-  description: "武道としてのリズムの道〜律武道"
   site-url: "https://rhythmdo.com/"
   site-path: /
-  page-footer:
-    left: "© 2018-2025 律武道 — All rights reserved."
-    right: |
-      \|
-      [律武道について](/about/rhythmdo/ja/) |
-      [運営者](/about/publisher/ja/) |
-      [連絡先](/contact/ja/) |
-      [問い合わせ](/contact-form/ja/) |
-      [免責事項](/disclaimer/ja/) |
-      <br/>
-      \|
-      [プライバシーポリシー](/privacy-policy/ja/) |
-      <a href="/cookies/en/">Cookie Policy</a> |
-      <a href="#" id="cookie-settings" rel="nofollow">Cookie Settings</a> |
-
   page-navigation: true     # show Previous / Next buttons in the footer
   bread-crumbs: true
-#  site-url: "https://ats4u.github.io/jpn-master-workinglog-markdown/"
-#  announcement:
-#    content: |
-#       <div class="top-banner">
-#       <img src="attachments/rhythmpedia-header3.png" style="width:100vw"/>
-#      </div>
-#    type: primary
-#    position: above-navbar
-#    dismissable: false
   navbar:
-    logo: /attachments/rhythmdo-logo-light.png
     right:
-      - href: index.qmd
-        text: "トップに戻る"
-  sidebar:
-    style: "docked"
-    logo: /attachments/rhythmdo-logo-light.png
-    collapse-level: 1
-    contents: []
-# execute:
-#  freeze: auto            # optional: avoids re-execution unless sources change
-metadata:
-  lilypond-preamble: "rhythmpedia-ly/lilypond-preamble.ly"
+      - text: "<span id='rhythmpress-lang-switcher-slot'></span>"
+        href: "#"
 format:
   html:
     pandoc:
       from: markdown+raw_html
-    theme:
-      light : [ cosmo,  .assets/websites/theme.scss, .assets/websites/theme-light.scss ]
-      dark  : [ darkly, .assets/websites/theme.scss, .assets/websites/theme-dark.scss  ]
     lightbox: true
     reference-location: block
     filters:
@@ -83,9 +44,7 @@ format:
       - filters/include-files.lua
       - filters/lilypond.lua
       - filters/remove-softbreaks.lua
-#      - filters/expand-vars.lua
 #      - filters/obsidian-image-dimensions.lua
-    css: assets/styles.css
     toc: true
     toc-location: right
     toc-depth: 7
@@ -94,6 +53,7 @@ format:
       - text: |
           <meta name="google-site-verification" content="JE4bBo-b8pDcRaa8nLTGBnzJ1cFsovnaxr0iAjefqBg" />
           <script async type="module" src="/assets/ats4u-twitter-video.mjs"></script>
+          <script async type="module" src="/lang-switcher.generated.mjs"></script>
           <link href="/assets/groovespace.css" rel="stylesheet" />
           <script async type="module" src="/assets/groovespace.mjs"></script>
           <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6838486775293179" crossorigin="anonymous"></script>
@@ -122,6 +82,3 @@ format:
       margin-width: 450px
       gutter-width: 0.5em
 
-metadata-files:
-  - _sidebar-ja.generated.yml
-  - _metadata.yml

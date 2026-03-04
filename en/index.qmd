@@ -1,0 +1,32 @@
+---
+title: 武道としてのリズムの道
+format: html
+execute:
+  enabled: true
+  echo: false
+  output: true
+  eval: true
+  cache: false
+title-block: false
+---
+
+**{{<var RDO>}}** は、究極の**グルーヴ**を極める為の武道です。その基礎を共通として派生した、ジャズのインプロヴィゼーションを極める**旋律武道**、英語で完璧なリスニングとスピーキングを極める**韻律武道**、そして究極のダンスグルーヴを極める **動律武道**、そしてマスターマインドを極める **魅律武道** があります。習得には長い年月が掛かりますが初心者でも体力に関係なく習得できます。 
+
+- [**{{<var RDO>}}入門の御案内**](#律武道リズムドウ入門の御案内)
+- [**{{<var RDO>}}とは**](#律武道リズムドウとは)
+
+そして**{{<var RDO>}}**の究極奥義  ───それは  **{{<var HGT>}}** です。 
+
+<!-- Q2pl/9YPR+MKaTtE1LswGA==  -->
+
+```{python}
+#| output: asis
+from rhythmpress import rhythmpress
+out = rhythmpress.create_global_navigation('../_rhythmpress.conf', 'en', strict=False)
+print(out)
+```
+
+
+<!-- 2025/10/28 19:53:59 -->
+
+<!-- vim: set wrap ts=2 sw=2 isk+=- breakat= ve=all : -->

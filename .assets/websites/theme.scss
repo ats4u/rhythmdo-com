@@ -23,7 +23,7 @@ body {}
   content: "";
   display: inline-block;
   // text-indent: -9999px;
-  background-image: url("attachments/rhythmdo-logo-light.png");
+  background-image: url("/attachments/rhythmdo-logo-ja-light.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -34,7 +34,15 @@ body {}
 }
 
 body.quarto-dark .quarto-title h1:first-of-type::before {
-  background-image: url("attachments/rhythmdo-logo-dark.png");
+  background-image: url("/attachments/rhythmdo-logo-ja-dark.png");
+}
+
+html[lang|="en"] .quarto-title h1:first-of-type::before {
+  background-image: url("/attachments/rhythmdo-logo-en-light.png");
+}
+
+html[lang|="en"] body.quarto-dark .quarto-title h1:first-of-type::before {
+  background-image: url("/attachments/rhythmdo-logo-en-dark.png");
 }
 
 
@@ -42,7 +50,7 @@ body.quarto-dark .quarto-title h1:first-of-type::before {
 
 /*
 .navbar-logo {
-  background-image: url("attachments/rhythmdo-logo-dark.png");
+  background-image: url("/attachments/rhythmdo-logo-ja-dark.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -51,7 +59,7 @@ body.quarto-dark .quarto-title h1:first-of-type::before {
 }
 .body.quarto-dark .navbar-logo {
   background-color: red;
-  background-image: url("attachments/rhythmdo-logo-dark.png");
+  background-image: url("/attachments/rhythmdo-logo-ja-dark.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -83,12 +91,20 @@ body.quarto-dark .quarto-title h1:first-of-type::before {
 
 /* Light mode */
 .quarto-light .sidebar-logo-link {
-  background-image: url("/attachments/rhythmdo-logo-light.png");
+  background-image: url("/attachments/rhythmdo-logo-ja-light.png");
 }
 
 /* Dark mode */
 .quarto-dark .sidebar-logo-link {
-  background-image: url("/attachments/rhythmdo-logo-dark.png");
+  background-image: url("/attachments/rhythmdo-logo-ja-dark.png");
+}
+
+html[lang|="en"] .quarto-light .sidebar-logo-link {
+  background-image: url("/attachments/rhythmdo-logo-en-light.png");
+}
+
+html[lang|="en"] .quarto-dark .sidebar-logo-link {
+  background-image: url("/attachments/rhythmdo-logo-en-dark.png");
 }
 
 /*
@@ -104,7 +120,7 @@ body.quarto-dark .quarto-title h1:first-of-type::before {
 
 
 // .navbar-brand-logo {
-//   --src: url( "/attachments/rhythmdo-logo-light.png" ); /* full image */
+//   --src: url( "/attachments/rhythmdo-logo-ja-light.png" ); /* full image */
 //   --x: 200px;   /* left of crop in source image */
 //   --y: 0px;    /* top of crop in source image */
 //   --w: 800px;    /* crop width  */
@@ -139,10 +155,17 @@ body.quarto-dark .quarto-title h1:first-of-type::before {
 }
 
 .quarto-light .navbar-brand-logo {
-  --src: url( "/attachments/rhythmdo-logo-light.png" ); /* full image */
+  --src: url( "/attachments/rhythmdo-logo-ja-light.png" ); /* full image */
 }
 .quarto-dark .navbar-brand-logo {
-  --src: url( "/attachments/rhythmdo-logo-dark.png" ); /* full image */
+  --src: url( "/attachments/rhythmdo-logo-ja-dark.png" ); /* full image */
+}
+
+html[lang|="en"] .quarto-light .navbar-brand-logo {
+  --src: url( "/attachments/rhythmdo-logo-en-light.png" ); /* full image */
+}
+html[lang|="en"] .quarto-dark .navbar-brand-logo {
+  --src: url( "/attachments/rhythmdo-logo-en-dark.png" ); /* full image */
 }
 /*
  *
@@ -211,6 +234,7 @@ $line-height : 1.5em;
 }
 
 .nav-link,
+
 /* 
  * Quarto's margin (right) sidebar TOC list. The built-in stylesheet sets
  * `font-size: 0.875rem` on this <ul>, which forces all nested links in the
@@ -225,23 +249,25 @@ $line-height : 1.5em;
   font-size: inherit !important;
   line-height: $line-height;
 }
+
 /*-- scss:rules --*/
 body {
   // --bs-body-font-size : $font-size-base;
-  // font-family: 'M PLUS 1p';
+  // font-size: $font-size-base ;
+  line-height: $line-height;
+}
 
-  /*
-    font-family: 'M PLUS Rounded 1c';
-    font-weight: 700;
-    font-size : 0.85em;
-  */
-
+html[lang|="ja"] body {
   font-family: "M PLUS 1", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  // font-size: $font-size-base ;
-  line-height: $line-height;
+}
+
+html[lang|="en"] body {
+  font-family: "Charis SIL", Georgia, serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 @supports (-moz-appearance: none) {
@@ -418,6 +444,3 @@ dl:not(dl dl):not(dl ul):not(dl ol) {
 //   margin-left: 0;
 //   margin-right: auto;
 // }
-
-
-

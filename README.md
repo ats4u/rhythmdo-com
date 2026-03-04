@@ -1,14 +1,14 @@
-# リズム道 rhythmdo.com 律武道 奥義
+# リズム道奥義 rhythmdo.com
 
 ## このリポジトリの意味
 
-このリポジトリは、リズム道/律武道(https://rhythmdo.com/) の内容を管理しているリポジトリです。リズム道で扱う内容は全てこのリポジトリに保存されています。
+このリポジトリは、リズム道(https://rhythmdo.com/) の内容を管理しているリポジトリです。リズム道で扱う内容は全てこのリポジトリに保存されています。
 
 リズム道の奥義は全て公開されています。何も知識がない初心者の状態からニューヨークを飛び越えてアフリカで演奏活動することに充分な技量を身につける為に必要な知識を全てここで公開しています。
 
 しかしこの膨大な知識を身に付けることは全く容易なことでは有りません。それはまるで六法全書を全て暗記して理解するのと同じほどの努力が必要となるでしょう。そしてそうやって理解した知識を習得することには、更に想像を絶する長い年月が必要となる筈です。
 
-この長い道のりを極めるための武道として私は、**律武道**を創始しました。
+この長い道のりを極めるための武道として私は、**リズム道**を創始しました。
 
 この書に書いてあることはあたかも『ラジオ体操を毎日やって健康になろう』ということと同じことです。『ラジオ体操を毎日やって健康になろう』という言葉を読んでそれを暗記しても、健康になることはありません。
 
@@ -27,9 +27,116 @@
 
 ### 技術的な説明
 
-このリポジトリは基本的に Quarto と呼ばれるwebパブリッシング・システムを使って管理されています。 Quarto では管理しきれないライフサイクルなどを[Rhythmpress](https://github.com/ats4u/rhythmpress) と呼ばれるCMSシステムを使って管理しています。Rhythmpress は リズム道/律武道を管理する為に専用に作られたCMSシステムです。
+このリポジトリは基本的に Quarto と呼ばれるwebパブリッシング・システムを使って管理されています。 Quarto では管理しきれないライフサイクルなどを[Rhythmpress](https://github.com/ats4u/rhythmpress) と呼ばれるCMSシステムを使って管理しています。Rhythmpress は リズム道を管理する為に専用に作られたCMSシステムです。
 
 全てのファイルは QMD ファイルで作成されています。 多くの図説（画像/譜面) はQuarto 上のフィルタとして書かれたプログラムによって自動的に生成されています。./filters/ ディレクトリに全てのフィルタが保存されていますので、そちらを参照して下さい。
+
+### メモ
+
+#### How to Create a Rhythmpress project
+
+Currently the easiest way to create a repository is replicating preexisting project.
+
+```
+rsync -av $SRC/filters/             $DST/filters/
+rsync -av $SRC/.assets/             $DST/.assets/
+rsync -av $SRC/assets/              $DST/assets/
+rsync -av $SRC/.github/             $DST/.github/
+rsync -av $SRC/requirements.txt     $DST/requirements.txt
+rsync -av $SRC/_metadata.yml        $DST/_metadata.yml
+rsync -av $SRC/_variables.yml       $DST/_variables.yml
+rsync -av $SRC/_quarto.yml          $DST/_quarto.yml
+rsync -av $SRC/_redirects           $DST/_redirects
+rsync -av $SRC/_rhythmpress.conf    $DST/_rhythmpress.conf
+mkdir $SRC/attachments
+mkdir $SRC/attachments-src
+
+```
+
+```
+cat <EOF > .gitignore
+/_site
+/.site
+/.quarto/
+/_freeze/
+.DS_Store
+*.~undo-tree~
+.venv
+.obsidian
+.vscode/
+__pycache__
+*_files
+*.generated.yml
+*.generated.md
+.toc_title_cache.json
+_sidebar-*.yml
+*.generated.conf
+*.bak
+EOF
+```
+
+You have to installl its dependencies before activating it.
+```
+python3 -m venv .venv
+. .venv/bin/activate
+pip install -r requirements.txt
+git clone git@github.com:ats4u/rhythmpress.git $HOME/rhythmpress
+pip install -e $HOME/rhythmpress
+```
+
+#### How to Start a Preview Server on the Project
+
+In order to activate the project, do following:
+
+```
+. .venv/bin/activate
+eval "$(rhythmpress eval)"
+```
+
+There are two servers.
+
+One of them is automatic rebuilding server.
+
+```
+rhythmpress auto-rebuild
+```
+
+One of them is the preview server.
+```
+rhythmpress start
+```
+
+In order to deactivate the project, do following:
+```
+rhythmpress_deactivate
+deactivate
+```
+
+
+#### How to Add an Article
+
+```sh
+ARTICLE_NAME="foo-bar"
+
+# 1. Create a directory
+mkdir "$(ARTICLE_NAME)"
+cd "$(ARTICLE_NAME)"
+
+# 2. Create .gitignore and .article_dir
+# rhythmpress won't automatically clean the directory when there is no
+`.article_dir` in the directory
+
+touch .article_dir
+
+# 3. Create .gitignore
+echo <<EOF > .gitignore
+attachment/*
+attachment-src/*
+*/
+EOF
+```
+
+### hello
 
 
 <!--
