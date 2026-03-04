@@ -29,7 +29,7 @@ jobs:
       - name: Install system deps (Quarto + yq + LilyPond + pandoc)
         run: |
           sudo apt-get update
-          sudo apt-get install -y wget lilypond pandoc
+          sudo apt-get install -y wget lilypond pandoc rsync
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         with:
@@ -63,17 +63,9 @@ jobs:
           rhythmpress --help | head -n 20
           quarto --version
 
-      # -------- Build & Render --------
-      - name: Build with rhythmpress
-        run: |
-          # If you require its env shim, uncomment next line:
-          eval "$(rhythmpress eval)"
-          rhythmpress build
-
-      - name: Render Quarto project
-        env:
-          QUARTO_PROJECT_DIR: ${{ github.workspace }}
-        run: quarto render
+      # -------- Build + Render + Assemble --------
+      - name: Build all profiles with rhythmpress
+        run: rhythmpress run-all
 
       # -------- Deploy --------
       - name: Deploy to GitHub Pages
@@ -83,4 +75,3 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./.site
           publish_branch: gh-pages
-
