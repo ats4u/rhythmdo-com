@@ -29,6 +29,10 @@ website:
   site-path: /
   page-navigation: true     # show Previous / Next buttons in the footer
   bread-crumbs: true
+  navbar:
+    right:
+      - text: "<span id='rhythmpress-lang-switcher-slot'></span>"
+        href: "#"
 format:
   html:
     pandoc:
@@ -49,6 +53,7 @@ format:
       - text: |
           <meta name="google-site-verification" content="JE4bBo-b8pDcRaa8nLTGBnzJ1cFsovnaxr0iAjefqBg" />
           <script async type="module" src="/assets/ats4u-twitter-video.mjs"></script>
+          <script async type="module" src="/lang-switcher.generated.mjs"></script>
           <link href="/assets/groovespace.css" rel="stylesheet" />
           <script async type="module" src="/assets/groovespace.mjs"></script>
           <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6838486775293179" crossorigin="anonymous"></script>

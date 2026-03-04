@@ -14,6 +14,7 @@ __pycache__
 *_files
 *.generated.yml
 *.generated.md
+_quarto-*.yml
 .toc_title_cache.json
 _sidebar-*.yml
 *.generated.conf
