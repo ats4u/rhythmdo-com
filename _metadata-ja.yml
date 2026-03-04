@@ -28,7 +28,7 @@ website:
   sidebar:
     style: "docked"
     logo: /attachments/rhythmdo-logo-ja-light.png
-    collapse-level: 1
+    collapse-level: 3
     contents: []
 
 format:
