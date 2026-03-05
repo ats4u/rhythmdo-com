@@ -1,7 +1,9 @@
 # === Rhythmdo Series ===
 RDO: "<ruby>リズム道<rt>Rhythmdo</rt></ruby>"
 RDOE: "<ruby>リズム道<rt>Rhythmdo</rt></ruby>"
-HGT2: "<ruby>Hypergroove Theory<rt>超グルーヴ理論</rt></ruby>"
+OFBCT: "オフビートカウント理論"
+ONBC: "オンビートカウント"
+OFBC: "オフビートカウント"
 HGT: "<ruby><rb>超グルーヴ</rb><rt>ハイパーグルーヴ</rt>理論</ruby>"
 
 MORA_SPEAKERS: "<ruby>日本人<rt>モーラ拍リズム言語話者</rt></ruby>"

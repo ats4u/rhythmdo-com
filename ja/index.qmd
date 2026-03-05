@@ -1,5 +1,5 @@
 ---
-title: 武道としてのリズムの道
+title: リズム道とは
 format: html
 execute:
   enabled: true
@@ -10,12 +10,23 @@ execute:
 title-block: false
 ---
 
-**{{<var RDO>}}** は、究極の**グルーヴ**を極める為の武道です。その基礎を共通として派生した、ジャズのインプロヴィゼーションを極める**旋律武道**、英語で完璧なリスニングとスピーキングを極める**韻律武道**、そして究極のダンスグルーヴを極める **動律武道**、そしてマスターマインドを極める **魅律武道** があります。習得には長い年月が掛かりますが初心者でも体力に関係なく習得できます。 
+**{{<var RDO>}}**とはグルーヴを究める為の道場です。
 
-- [**{{<var RDO>}}入門の御案内**](#律武道リズムドウ入門の御案内)
-- [**{{<var RDO>}}とは**](#律武道リズムドウとは)
+<div class="center-box">
+<div class="ats4u-twitter-video" >https://twitter.com/ats4u/status/2016178861759987767?ref_src=twsrc%5Etfw</div>
+</div>
 
-そして**{{<var RDO>}}**の究極奥義  ───それは  **{{<var HGT>}}** です。 
+リズム道乱取り練習会の様子です。
+
+<div class="center-box">
+<div class="ats4u-twitter-video" >https://twitter.com/ats4u/status/2029452413749608552</div>
+</div>
+
+リズム道は、音楽のグルーヴを音韻学の見地から分析した<span style="font-size:120%">**{{<var OFBCT>}}**</span>という理論に従って練習する道場です。
+
+<div class="center-box">
+<div class="ats4u-twitter-video" >https://x.com/ats4u/status/2009911295362105437</div>
+</div>
 
 <!-- Q2pl/9YPR+MKaTtE1LswGA==  -->
 
@@ -25,7 +36,6 @@ from rhythmpress import rhythmpress
 out = rhythmpress.create_global_navigation('../_rhythmpress.conf', 'ja', strict=False)
 print(out)
 ```
-
 
 <!-- 2025/10/28 19:53:59 -->
 
