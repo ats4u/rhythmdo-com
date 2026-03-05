@@ -60,12 +60,6 @@
   function mount() {
     const existing = document.getElementById('rhythmpress-lang-switcher');
     if (existing) return;
-    const host =
-      document.querySelector('.navbar .navbar-nav.ms-auto') ||
-      document.querySelector('.navbar .navbar-nav') ||
-      document.querySelector('.navbar .navbar-collapse');
-    if (!host) return;
-
     const currentLang = detectCurrentLang(window.location.pathname || '/');
 
     const box = document.createElement('div');
@@ -99,6 +93,31 @@
     });
     select.addEventListener('click', function () { setTimeout(function () { persistCurrentSelection(select); }, 0); });
     if (currentLang && ROUTES[currentLang]) writeChoice(currentLang);
+
+    const slot = document.getElementById('rhythmpress-lang-switcher-slot');
+    const tools = document.querySelector('.navbar .quarto-navbar-tools');
+    const isMobile = !!(window.matchMedia && window.matchMedia('(max-width: 991.98px)').matches);
+    const slotInCollapsedNav = !!(slot && slot.closest('.navbar-collapse'));
+
+    if (slot && !(isMobile && slotInCollapsedNav)) {
+      while (slot.firstChild) slot.removeChild(slot.firstChild);
+      slot.appendChild(select);
+      return;
+    }
+
+    if (tools) {
+      const wrap = document.createElement('span');
+      wrap.className = 'quarto-navigation-tool px-1 rp-switcher-tools-inline';
+      wrap.appendChild(select);
+      tools.insertBefore(wrap, tools.firstChild);
+      return;
+    }
+
+    const host =
+      document.querySelector('.navbar .navbar-nav.ms-auto') ||
+      document.querySelector('.navbar .navbar-nav') ||
+      document.querySelector('.navbar .navbar-collapse');
+    if (!host) return;
 
     box.appendChild(label);
     box.appendChild(select);
