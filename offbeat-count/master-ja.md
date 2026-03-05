@@ -151,7 +151,7 @@ rhythmpress-preproc-args: []
 
 これを**縦乗りの四原則(The Four Principles of Groove)**と呼びます。
 
-何故日本人は縦乗りなのか、その理由に関しましては[何故日本人は縦乗りなのか](/hypergroove/tatenori-theory/ja/)で詳細を見ていきます。
+何故日本人は縦乗りなのか、その理由に関しましては[何故日本人は縦乗りなのか](/offbeat-count/tatenori-theory/ja/)で詳細を見ていきます。
 
 ではどのようにしたら縦乗りを克服することが出来るのでしょうか。それがこの**この書全編**の目的でもあります。縦乗りを克服する長い道のり=**{{<var RDO>}}** について今後長い時間を掛けて見つけ出して行きます。
 
@@ -164,13 +164,13 @@ rhythmpress-preproc-args: []
 
 日本人は弱拍先行で構成されたのリズムを耳にすると、それが理解できず混乱するという特徴があります。このことを縦乗りと呼びます。 日本人が何故縦乗りになるのかに関しましては、[何故日本人は縦乗りなのか](/tatenori-theory/ja/) で詳細を見ていきます。
 
-**強拍先行**と**弱拍先行** とは何かに関しましては、[強拍が先か弱拍が先か](/hypergroove/headians-and-bottomians-of-beat-orientation/ja/)で詳細を見ていきます。
+**強拍先行**と**弱拍先行** とは何かに関しましては、[強拍が先か弱拍が先か](/offbeat-count/headians-and-bottomians-of-beat-orientation/ja/)で詳細を見ていきます。
 
 強拍先行と弱拍先行は、グルーヴの本質に関わっています。立体的に響くグルーヴの本質はリズムの多次元性にあります。弱拍が先行するリズムでは異なる音価が高さという新しい軸としての役割を持つため多次元構造を持ちます。しかし強拍が先行するリズムでは、全てのリズムが重なり合ってしまうため異なる音価が新しい軸を生み出さず、結果としてリズムが多次元構造を持ちません。多次元構造をもたないリズムは平面的な印象のリズムになります。
 
-このリズムの多次元性に関しましては、[多層弱拍基軸律動](/hypergroove/multi-layered-weak-beat-precedence/ja/)で詳細を見ていきます。
+このリズムの多次元性に関しましては、[多層弱拍基軸律動](/offbeat-count/multi-layered-weak-beat-precedence/ja/)で詳細を見ていきます。
 
-そして何故 **強拍先行**と**弱拍先行** が起こるのかに関しましては、[多層弱拍基軸律動](/hypergroove/multi-layered-weak-beat-precedence/ja/)で詳細を見ていきます。
+そして何故 **強拍先行**と**弱拍先行** が起こるのかに関しましては、[多層弱拍基軸律動](/offbeat-count/multi-layered-weak-beat-precedence/ja/)で詳細を見ていきます。
 
 
 ### 頭合わせと尻合わせ
@@ -180,7 +180,7 @@ rhythmpress-preproc-args: []
 
 日本人は尻合わせ構成のリズムを耳にすると、それが理解できず混乱するという特徴があります。このことを縦乗りと呼びます。 日本人が何故縦乗りになるのかに関しましては、[何故日本人は縦乗りなのか](/tatenori-theory/ja/) で詳細を見ていきます。
 
- **頭合わせ**と**尻合わせ** とは何か。そして何故 **頭合わせ**と**尻合わせ**が起こるのかに関しましては、[多層弱拍基軸律動](/hypergroove/multi-layered-weak-beat-precedence/ja/)で詳細を見ていきます。
+ **頭合わせ**と**尻合わせ** とは何か。そして何故 **頭合わせ**と**尻合わせ**が起こるのかに関しましては、[多層弱拍基軸律動](/offbeat-count/multi-layered-weak-beat-precedence/ja/)で詳細を見ていきます。
 
 ### 強拍基軸と弱拍基軸
 スイングやシャッフルを演奏しようとした時に、**強拍の位置が常に固定**となり、毎回同じ位置に表れ、弱拍の位置を強拍からの相対距離として測りながら移動することでスイング・シャッフルのニュアンスを表現しようとする時、これを**強拍基軸**と呼びます。
@@ -193,7 +193,7 @@ rhythmpress-preproc-args: []
 
 リズムを客観的に捉え弱拍基軸のリズム認識を理解した上で合理的に受け入れることを**強拍地動説**と呼びます。
 
-**強拍基軸** と **弱拍基軸** に関しては、[弱拍天動説と強拍地動説](/hypergroove/weak-beat-as-sun-strong-beat-as-earth/ja/) で詳細を見ていきます。
+**強拍基軸** と **弱拍基軸** に関しては、[弱拍天動説と強拍地動説](/offbeat-count/weak-beat-as-sun-strong-beat-as-earth/ja/) で詳細を見ていきます。
 
 ### 2⁻ⁿリズムと3⁻ⁿリズム
 スイングやシャッフルなどの３連符系のリズムを演奏する時だけでなく、8ビート16ビートなどのリズムを演奏する時も含めて、3拍子や3を基準にしたポリリズムを多用したり、リズムのずれニュアンスが必ず1/3 、1/9 、 1/27 などの 3の負のべき乗の大きさに収束するなど、リズム感覚が3に根ざしている人のリズムを **3⁻ⁿリズム**と呼びます。
@@ -204,9 +204,9 @@ rhythmpress-preproc-args: []
 
  ───この **2⁻ⁿリズム** は日本のゲームミュージックやアニメソング等々日本のあらゆる西洋音楽の影響を受けた音楽全ての本質に存在します。
 
- **3⁻ⁿリズム** とはどんな音かにつきましては、[世界は3⁻ⁿ拍子で出来ている](/hypergroove/the-four-principles-of-groove/ja/) でそれを実際に聴いてみます。
+ **3⁻ⁿリズム** とはどんな音かにつきましては、[世界は3⁻ⁿ拍子で出来ている](/offbeat-count/the-four-principles-of-groove/ja/) でそれを実際に聴いてみます。
 
- **3⁻ⁿリズム** と **2⁻ⁿリズム** につきましては、[3⁻ⁿグルーヴと2⁻ⁿグルーヴ](/hypergroove/three-to-n-groove-theory/ja/) で理論的な詳細を見ていきます
+ **3⁻ⁿリズム** と **2⁻ⁿリズム** につきましては、[3⁻ⁿグルーヴと2⁻ⁿグルーヴ](/offbeat-count/three-to-n-groove-theory/ja/) で理論的な詳細を見ていきます
 
  **2⁻ⁿリズム** とはどんな音かにつきましては、[何故日本人は縦乗りなのか](/tatenori-theory/ja/) でいくつかのサンプルを用意しております。
 
@@ -223,7 +223,7 @@ rhythmpress-preproc-args: []
 
 縦乗りに気付くかどうかは貴方次第です。そのまま縦乗りの存在に気付かずに生涯を全うするか、あるいは縦乗りに気付いて火のついた様な激しい真実の世界で生きていくか。それは貴方の選択次第です。
 
-![](/hypergroove/attachments/vertical-blue-pill-and-red-pill-v2.png)
+![](/offbeat-count/attachments/vertical-blue-pill-and-red-pill-v2.png)
 
 それは映画マトリックスに登場する赤いカプセルと青いカプセルの様です。もちろん、このまま縦乗りに気付かないで生きていくことも可能です。もしもここで、縦乗りに気付くことを選んだらどうなるでしょうか。 …縦乗りに気付くことにより大きな自由が得られると同時に、大きなリスクのある世界で生きていく事になります。
 
@@ -296,7 +296,7 @@ rhythmpress-preproc-args: []
 
 これは日本語ではしばしば「ちゃんちゃん」と訳されます。
 
-![](/hypergroove/attachments/vertical-ba-dum-tss.png){width=560px }
+![](/offbeat-count/attachments/vertical-ba-dum-tss.png){width=560px }
 
 これは日本語のちゃんちゃんの様な位置にあり、コントの終わりなどで効果音として使われます。
 
@@ -304,11 +304,11 @@ rhythmpress-preproc-args: []
 
 もし貴方が音楽の訓練を受けている方で、譜面を読み書きすることができる方でしたら、次の様に聴き取ったかも知れません。
 
-![](/hypergroove/attachments/vertical-ba-dum-tss-incorrect.png)
+![](/offbeat-count/attachments/vertical-ba-dum-tss-incorrect.png)
 
 しかしこれは本来次の様に記譜すべきなのです。
 
-![](/hypergroove/attachments/vertical-ba-dum-tss-score-correct.png)
+![](/offbeat-count/attachments/vertical-ba-dum-tss-score-correct.png)
 
 #### リズムの解釈の違い
 
@@ -331,11 +331,11 @@ rhythmpress-preproc-args: []
 この曲は、マイケル・ジャクソンのヒット曲『[ヒューマン・ネイチャー](https://www.youtube.com/watch?v=ElN_4vUvTPs)』です。この曲の冒頭でマイケル・ジャクソンが「チーチキ・チーチキ」と歌っていますが、この記事を読んで下さっている皆様は、このリズムをどの様に聴き取りましたでしょうか。
 
 
-![](/hypergroove/attachments/vertical-human-nature-score-incorrect.png)
+![](/offbeat-count/attachments/vertical-human-nature-score-incorrect.png)
 
 この様に解釈されたのではないでしょうか。しかし曲が始まると間もなくこの解釈が間違っていることが明らかになります ─── 実は次のようになっています。
 
-![](/hypergroove/attachments/vertical-human-nature-score-correct.png)
+![](/offbeat-count/attachments/vertical-human-nature-score-correct.png)
 
 このように８分音符１つ分ずれた形でリズムが始まっています。
 
@@ -702,7 +702,7 @@ music</span>
 
 もしかしたら次の様に解釈したかも知れません。
 
-![](/hypergroove/attachments/vertical-ba-dum-tss-incorrect.png)
+![](/offbeat-count/attachments/vertical-ba-dum-tss-incorrect.png)
 
 果たしてバダムツーは、本当にこういうリズムの音楽からやってきたのでしょうか ─── 実際に試してみるとわかるかも知れません。このリズム解釈を使って音楽を作って見て、実際に聴いてみましょう。
 
@@ -714,7 +714,7 @@ music</span>
 
 この上記リズム解釈を譜面として表現した場合、恐らく次のようになるでしょう。
 
-![](/hypergroove/attachments/vertical-ba-dum-tss-score-correct.png)
+![](/offbeat-count/attachments/vertical-ba-dum-tss-score-correct.png)
 
 
 ここに存在する違いは一体何でしょうか ───  これが**強拍弱拍の順序認識**です。
@@ -728,11 +728,11 @@ music</span>
 
 この曲は、マイケル・ジャクソンのヒット曲『[ヒューマン・ネイチャー](https://www.youtube.com/watch?v=ElN_4vUvTPs)』です。この曲の冒頭でマイケル・ジャクソンが「チーチキ・チーチキ」と歌っていますが、この記事を読んで下さっている皆様は、このリズムをどの様に聴き取りましたでしょうか。
 
-![](/hypergroove/attachments/humannature-incorrect.png)
+![](/offbeat-count/attachments/humannature-incorrect.png)
 
 この様に解釈されたのではないでしょうか。しかし曲が始まると間もなくこの解釈が間違っていることが明らかになります ─── 実は次のようになっています。
 
-![](/hypergroove/attachments/humannature-correct.png)
+![](/offbeat-count/attachments/humannature-correct.png)
 
 このように８分音符１つ分ずれた形でリズムが始まっています。  ─── **ここからわかることは、日本人はある音を聞いた瞬間、当然のようにそれを８分音符の強拍として認識しているところを、日本人以外の人々は当然の様にそれを８分音符の弱拍として認識している**ということです。
 
@@ -754,7 +754,7 @@ music</span>
 
 これはシラブル拍リズム・ストレス拍リズム言語での拍の順序＝弱強というリズム認識を、モーラ拍リズム言語での拍の順序＝強弱というリズム認識で間違って認識してしまうことから起こります。
 
-![](/hypergroove/attachments/beat-orientation-liarson.png)
+![](/offbeat-count/attachments/beat-orientation-liarson.png)
 
 上記はストレス拍解釈の発音をモーラ拍リズム解釈で解釈し間違えた時の状態を図式化したものです。
 
@@ -790,17 +790,17 @@ music</span>
 
 **『弱拍が先に聞こえている』**という供述は、その人が次に来る強拍の位置を予想していることを示唆しています。次に来るべき強拍の位置が念頭にあるからこそ、弱拍が**それ**よりも前にあるという認識になるからです。
 
-![](/hypergroove/attachments/rp-proactive-dog.png)
+![](/offbeat-count/attachments/rp-proactive-dog.png)
 
 一方、**『弱拍が後に聞こえている』**という供述は、その人が次に来る強拍の位置を予想していないことを示唆しています。彼は強拍が聞こえたら弱拍を叩けばよいと考えているからこそ、弱拍は**それ**よりも後ろにあるという認識になるからです。
 
-![](/hypergroove/attachments/rp-reactive-dog.png)
+![](/offbeat-count/attachments/rp-reactive-dog.png)
 
 事前に予想した点を基準に考えることを**能動的事前予測(Proactive)** と呼びます。 そして予想することなく何か既に起こった事象を基準に考えることを**受動的事後追従(Reactive)**と呼びます。
 
-**能動的事前予測(Proactive)** と **受動的事後追従(Reactive)**につきましては[{{<var SCHIZORHYTHMOS>}}と{{<var SOLIRHYTHMOS>}}](/hypergroove/schizorhythmos-and-solirhythmos/ja/)で詳細に見ていきます。
+**能動的事前予測(Proactive)** と **受動的事後追従(Reactive)**につきましては[{{<var SCHIZORHYTHMOS>}}と{{<var SOLIRHYTHMOS>}}](/offbeat-count/schizorhythmos-and-solirhythmos/ja/)で詳細に見ていきます。
 
-またこれは、日本人の行動原理に大きな影響を与えています。このことにつきましては[日本語が動作認知に与える影響](/hypergroove/influence-of-japanese-language-on-cognition/ja/)で詳細に論じます。
+またこれは、日本人の行動原理に大きな影響を与えています。このことにつきましては[日本語が動作認知に与える影響](/offbeat-count/influence-of-japanese-language-on-cognition/ja/)で詳細に論じます。
 
 ### まとめ
 
@@ -856,59 +856,59 @@ music</span>
 
 シラブル／音節とは音韻学の重要な概念のひとつです。全ての単語は、シラブルの組み合わせで構成されています。
 
-![](/hypergroove/attachments/syllable-about.png)
+![](/offbeat-count/attachments/syllable-about.png)
 
 #### シラブルの構造
 全てのシラブルは、**頭子音(Onset)** **音節核(Nucleus)** **末子音(Coda)** の３つの要素で構成されています。
 
 音節核と末子音は、シラブルの本体になっています。この本体を **音節基(Rime)** と呼びます。
 
-![](/hypergroove/attachments/syllable-basic.png)
+![](/offbeat-count/attachments/syllable-basic.png)
 
 #### シラブルの頭子音はなくならない
 
 単語 **Cat** の頭子音は **C** です。**C** がなくなると **At** という位置を表す前置詞になります。 この場合このシラブルには頭子音がありません。英語では、このように頭子音がそこにない時でもしばしばそこに **声門閉鎖音** という特殊な子音が挿入されます。 このことを**声門閉鎖音挿入(Glottal Stop Insertion)**  と呼びます。
 
-![](/hypergroove/attachments/syllable-basic-without-onset.png)
+![](/offbeat-count/attachments/syllable-basic-without-onset.png)
 
 ネイティブ話者がほとんど声門閉鎖音挿入を意識していません。しかし日本人が、英語やスペイン語などのシラブル拍リズムやストレス拍リズムの言語を学ぶ場合、この**声門閉鎖音挿入をはっきり意識することはとても大切**です。これにはとても明快な理由があります。以下でその理由を見ていきましょう。
 
 #### シラブルの音節基は等間隔で配置される
 音節基は基本的に等間隔で発音されます。音節基の間に子音が何個あっても音節基は必ず等間隔に発音します。
 
-![](/hypergroove/attachments/syllable-equaldistant.png)
+![](/offbeat-count/attachments/syllable-equaldistant.png)
 
 #### シラブルの頭子音と末子音は音節基の間に配置される
 **頭子音** 及び **末子音** は、等間隔に並んでいる音節基と音節基の間に分散されます。頭子音と末子音の数が増えても音節基の間隔はかわりません。
 
-![](/hypergroove/attachments/syllable-distribution.png)
+![](/offbeat-count/attachments/syllable-distribution.png)
 
 #### シラブルの音節基に強拍が置かれる
 読み上げの際は音節基に強拍が置かれます。
 
-![](/hypergroove/attachments/syllable-division.png)
+![](/offbeat-count/attachments/syllable-division.png)
 
 #### シラブルの頭子音と末子音に弱拍が置かれる。
 音節基が強拍であることに対し **頭子音** 及び **末子音** は弱拍に対応します。
 
-![](/hypergroove/attachments/syllable-subdivision.png)
+![](/offbeat-count/attachments/syllable-subdivision.png)
 
 #### シラブルの末子音は頭子音に融合する＝リンキング
 
 ２つの音節が連続する場合、先に現れた音節の末子音は、可能な限り次の音節の頭子音としてまとめられて発音されます。このまとめる作業のことを**再音節化**・**再シラブル化** と呼びます。そしてこの末子音が頭子音にまとめられて発音される現象を<span>**リンキング**</span>と呼びます。**リンキングは英語の発音を学ぶうえで最も重要**と言っても過言ではない規則です。
 
-![](/hypergroove/attachments/syllable-linking.png)
+![](/offbeat-count/attachments/syllable-linking.png)
 
 #### シラブルには頭子音最大化原則(MOP=Maximize Onset Principle)がある <!-- {#シラブルには頭子音最大化原則がある} -->
 リンキングは、可能であれば可能な限り起こるという規則があります。このことを**頭子音最大化原則（とうしおんさいだいかげんそく）**、または英語表記「Maximal Onset Principle」の頭文字をとって**MOP原則**と呼びます。
 
 この図中で帽子が頭子音、猫が音節核、靴が末子音を表しています。
 
-![](/hypergroove/attachments/syllable-mop-1.png)
+![](/offbeat-count/attachments/syllable-mop-1.png)
 
 この図中の様に全ての末子音は出来るだけ次の頭子音に結びついてまとめて発音されます。これがリンキングです。
 
-![](/hypergroove/attachments/syllable-mop-2.png)
+![](/offbeat-count/attachments/syllable-mop-2.png)
 
 <span style="color:silver">※ 実例を追加する。</span>
 
@@ -936,7 +936,7 @@ music</span>
 * 母音は強拍と弱拍の両方がある。
 
 
-![](/hypergroove/attachments/stress-basic.png)
+![](/offbeat-count/attachments/stress-basic.png)
 
 #### モーラ拍リズムとストレス拍リズムの違い
 
@@ -1069,24 +1069,24 @@ music</span>
 
 **再帰**とは全体の構造がその一部の構造と一致することです。
 
-![](/hypergroove/attachments/recursion-japanese-recursive-girls.png)
+![](/offbeat-count/attachments/recursion-japanese-recursive-girls.png)
 
 この漫画には、自分自身の状況をそのまま漫画にするという再帰的な自己言及性が表現されています。
 
 この様な再帰的な構造は世界のあらゆる場所に現れます。
 
-![](/hypergroove/attachments/recursion-tree.png)
+![](/offbeat-count/attachments/recursion-tree.png)
 
-![](/hypergroove/attachments/recursion-de-reffye-tree.png)
+![](/offbeat-count/attachments/recursion-de-reffye-tree.png)
 
 
-![](/hypergroove/attachments/recursion-fractal-2.png)
+![](/offbeat-count/attachments/recursion-fractal-2.png)
 
-![](/hypergroove/attachments/recursion-fractal-1.png)
+![](/offbeat-count/attachments/recursion-fractal-1.png)
 
-![](/hypergroove/attachments/recursion-fractal-4.png)
+![](/offbeat-count/attachments/recursion-fractal-4.png)
 
-![](/hypergroove/attachments/recursion-fractal-3.png)
+![](/offbeat-count/attachments/recursion-fractal-3.png)
 
 再帰についての詳しい解説は[オンライン上の解説](https://www.google.com/search?gl=us&hl=en&gws_rd=cr&safe=off&q=%E5%86%8D%E5%B8%B0)などを参照してください。
 
@@ -1095,7 +1095,7 @@ music</span>
 ##### ストレス拍とシラブル拍の再帰的構造
 シラブル拍は、頭子音・音節核・末子音という要素を持っていることを見てきました。
 
-![](/hypergroove/attachments/syllable-basic.png)
+![](/offbeat-count/attachments/syllable-basic.png)
 
 そして [頭子音最大化原則(MOP=Maximum Onset Principle)](#シラブルには頭子音最大化原則がある) によって、末子音が頭子音にまとめられて発音されることを見てきました。
 
@@ -1104,7 +1104,7 @@ music</span>
 前述したシラブル拍の構造が、ストレス拍に関しても成立します。
 
 
-![](/hypergroove/attachments/stress-basic.png)
+![](/offbeat-count/attachments/stress-basic.png)
 
 ストレス拍のアクセント（すなわちストレスのある拍とストレスのない拍）を分析すると、中心に核となるストレスのあるシラブルが置かれ、その前後にストレスのないシラブルが前、及び後ろにある構造が浮かび上がります。 この構造は英語の音韻分析では従来、二分木構造などの階層モデルによって説明されてきました。 本稿が提唱する多層弱拍基軸理論は、**シラブル拍の分析手法は、そのままストレス拍にも再帰的に利用できる** という新しい視点を提案します。このことを本書では {{<var  RECURSIVE_PROSODIC_EQUIVALENCE_PRINCIPLE>}} と呼びます。 そしてストレス拍に適用された MOP原則のことをここでは **MPOP (Maximal Prosodic Onset Principle)** と呼びます。
 
@@ -1119,7 +1119,7 @@ music</span>
 
 {{<var  RECURSIVE_PROSODIC_EQUIVALENCE_PRINCIPLE>}} では、単語のなかのシラブルをアクセントの位置によって分類します。
 
-![](/hypergroove/attachments/stress-basic.png)
+![](/offbeat-count/attachments/stress-basic.png)
 
 単語のなかのアクセントのあるシラブルのことを核音節(Nucleus Syllable) と呼びます。
 
@@ -1139,33 +1139,33 @@ music</span>
 
 韻律節は、大抵単語と等しくなります。しかしこのあとで紹介する**再韻律節化**という法則が適用されることで一致しなくなることがあります。以下で見ていきます。
 
-![](/hypergroove/attachments/stress-prosodic-words.png)
+![](/offbeat-count/attachments/stress-prosodic-words.png)
 
 #### ストレス拍では基音節は等間隔で配置される
 基音節に等間隔で発音されます。基音節の間にある音節の数に関わらず、基音節は必ず等間隔に配置します。
 
-![](/hypergroove/attachments/stress-equaldistant.png)
+![](/offbeat-count/attachments/stress-equaldistant.png)
 
 #### ストレス拍では頭音節と末音節は基音節の間に配置される
 **頭子音** 及び **末子音** は、等間隔に並んでいる基音節と基音節の間に分散されます。頭音節と末音節の数が増えても基音節の間隔は変わりません。
 
-![](/hypergroove/attachments/stress-distribution.png)
+![](/offbeat-count/attachments/stress-distribution.png)
 
 #### ストレス拍では基音節に強拍が置かれる
 読み上げの際は基音節に強拍が置かれます。
 
-![](/hypergroove/attachments/stress-division.png)
+![](/offbeat-count/attachments/stress-division.png)
 
 #### ストレス拍では頭音節と末音節に弱拍が置かれる
 基音節が強拍であることに対し **頭子音** 及び **末子音** は弱拍に対応します。
 
-![](/hypergroove/attachments/stress-subdivision.png)
+![](/offbeat-count/attachments/stress-subdivision.png)
 
 #### ストレス拍では末音節は頭音節に融合する再韻律節化が起こる
 
 ２つの音節が連続する場合、先に現れた音節の末子音は、可能な限り次の音節の頭子音としてまとめられて発音されます。このまとめる作業のことを**再韻律節化 (Reprosodification)** と呼びます。そしてこの末音節が頭音節にまとめられて発音される現象を **音節リンキング** と呼びます。
 
-![](/hypergroove/attachments/stress-linking.png)
+![](/offbeat-count/attachments/stress-linking.png)
 
 #### ストレス拍には頭音節最大化原則＝MPOP原則がある
 
@@ -1179,11 +1179,11 @@ music</span>
 
 この図中で帽子が頭音節、猫が核音節、靴が末音節を表しています。
 
-![](/hypergroove/attachments/syllable-mop-1.png)
+![](/offbeat-count/attachments/syllable-mop-1.png)
 
 この図中の様に全ての末音節は出来るだけ次の頭音節に結びついてまとめて発音されます。これが音節リンキングです。
 
-![](/hypergroove/attachments/syllable-mop-2.png)
+![](/offbeat-count/attachments/syllable-mop-2.png)
 
 <span style="color:silver">※ 実例を追加する。</span>
 
@@ -1193,7 +1193,7 @@ music</span>
 
 #### モーラ拍の主な特徴
 
-![](/hypergroove/attachments/beat-orientation-basic.png)
+![](/offbeat-count/attachments/beat-orientation-basic.png)
 
 日本語のリズムは、学術的に **モーラ拍リズム** に分類されています。モーラ拍リズムは、**シラブル**音節ではなく**モーラ**音節という特殊な単位で発音すると定義されています。この**モーラ**音節の構造を**シラブル**音節と比較すると多くの根本的な違いがあります。 日本語のモーラ拍リズムには主に以下のような特徴があります。
 
@@ -1229,43 +1229,43 @@ music</span>
 | 子音を意識       |  しない  |    する    |
 
 
-![](/hypergroove/attachments/mora-timed-rhythm-01.png)
+![](/offbeat-count/attachments/mora-timed-rhythm-01.png)
 
 結果としてモーラ拍とシラブル拍には最初に挙げた図の様な違いが表れます。
 
-![](/hypergroove/attachments/beat-orientation-basic.png)
+![](/offbeat-count/attachments/beat-orientation-basic.png)
 
 以下でモーラ拍リズムとシラブル拍リズムの違いを詳細に見ていきましょう。
 
 #### モーラには末子音がない
 モーラ音節をシラブル音節と比較した時の最大の違いは、末子音がないことです。モーラ音節には末子音がない ─── これがモーラ拍リズムの最大の特徴です。モーラ音節に末子音がないことが発端となってモーラ音節にはシラブル音節とは全く違った性質が生み出されます。以下で見ていきます。
 
-![](/hypergroove/attachments/syllable-mora-1.png)
+![](/offbeat-count/attachments/syllable-mora-1.png)
 
 #### モーラの頭子音は音節基に含まれる
 シラブル音節では音節基に頭子音は含まれません。しかしモーラ音節では音節基に頭子音が含まれます。これがモーラ音節の2つ目の大きな特徴です。
 
-![](/hypergroove/attachments/syllable-mora-2.png)
+![](/offbeat-count/attachments/syllable-mora-2.png)
 
 #### モーラと音節基は同じ長さで区別がない
 
 シラブル音節では、頭子音と音節核はそれぞれ独立していますが、モーラ音節では、音節核に頭子音が含まれ、かつ末子音がない為、結果として音節核と音節が同じ長さになり区別がなくなります。
 
-![](/hypergroove/attachments/syllable-mora-mora-and-nucleus-are-equal-lenghed.png)
+![](/offbeat-count/attachments/syllable-mora-mora-and-nucleus-are-equal-lenghed.png)
 
 #### モーラの頭子音はとても短い
 
 日本語（モーラ拍）の子音は、シラブル拍ストレス拍の言語の子音の長さと比較して非常に短いという特徴があります。
 
-![](/hypergroove/attachments/syllable-mora-short-onset.png)
+![](/offbeat-count/attachments/syllable-mora-short-onset.png)
 
 これは母音優位な言語である日本語だけを話しているとほとんど意識できないことですが、一般的に日本語以外の言語では子音は母音と同じくらい長いものです。
 
-![](/hypergroove/attachments/trump.png)
+![](/offbeat-count/attachments/trump.png)
 
 これは米国政治家トランプ氏の有名な写真です。彼が正に今 **頭子音 F** を長く発音することでFで始まる単語を言おうとしていることがわかる写真です。この様に英語やその他の言語では**子音は長く発音する**ことができます。 ─── これは日本語がフを長く言おうとすると「ふううーーー」となってしまい**母音「う」** しか残らないことと対照的です。
 
-![](/hypergroove/attachments/comparison-ac-and-pv.png)
+![](/offbeat-count/attachments/comparison-ac-and-pv.png)
 
 引用：[言語と音楽のリズム的共通性：ジャズおよびブルーグラス奏者を対象とした事例研究 — ウディ・ワールサガー修士論文](https://www.academia.edu/50961691/Rhythmic_Similarities_between_Language_and_Music_Jazz_and_Bluegrass_Musicians_as_a_Case_Study_Udi_Wahrsagers_Thesis?utm_source=chatgpt.com) この論文は『言語と音楽のリズム的類似性』というタイトルの修士論文で、ジャズとブルーグラスの演奏家を比較対象にしています。（著：ウディ・ワールサガー）
 
@@ -1274,7 +1274,7 @@ music</span>
 #### モーラの頭子音はなくなる
 シラブル音節では、頭子音が音節核と独立しており、かつ音節核に音節基が置かれている為、**頭子音がなくなっても音節核の位置は変わりません。**  しかしモーラ音節では、頭子音が音節基に含まれている為、**頭子音がなくなると音節基がその分拡張します。** これがモーラ拍リズムの3番目の特徴です。
 
-![](/hypergroove/attachments/syllable-stretching-nucleus.png)
+![](/offbeat-count/attachments/syllable-stretching-nucleus.png)
 
 #### モーラには頭子音最小化原則 (MiOP = Minimum Onset Principle) がある
 
@@ -1284,7 +1284,7 @@ music</span>
 
 モーラ拍リズムは末子音を持ちません。 末子音があった場合、末子音が次の頭子音と結合することを避ける為に、その末子音が新しい母音のない音節（モーラ）を作り、そこの頭子音として発音されます。またモーラ拍リズムは多重子音を持ちません。多重子音が表れた場合、それぞれの子音がそれぞれ独立した音節（モーラ）を作り、そこの頭子音として発音されます。
 
-![](/hypergroove/attachments/syllable-mora-miop.png)
+![](/offbeat-count/attachments/syllable-mora-miop.png)
 
 この様にモーラ拍リズムでは、頭子音末子音が可能な限り独立してバラバラになるように発音されます。これはシラブル拍言語・ストレス拍言語が持っている**頭子音最大化原則(MOP=Maximize Onset Principle)** と真逆の性質です。 この性質を、ここでは **頭子音最小化原則 (MiOP = Minimum Onset Principle)** と呼びます。
 
@@ -1292,7 +1292,7 @@ music</span>
 
 モーラ拍とシラブル拍の違いは、頭子音（弱拍）が音節基（強拍）よりも前にあるか、後ろにあるかに集約されます。
 
-![](/hypergroove/attachments/syllable-syllable-mora-comparison.png)
+![](/offbeat-count/attachments/syllable-syllable-mora-comparison.png)
 
 **シラブル拍リズム言語を話す人は、一定間隔でやってくる強拍（音節基）を聴く前に弱拍（頭子音）を認識**しています。
 
@@ -1345,7 +1345,7 @@ music</span>
 
 次の図を御覧下さい。
 
-![](/hypergroove/attachments/beat-orientation-comparison.png)
+![](/offbeat-count/attachments/beat-orientation-comparison.png)
 
 この様に世界中の殆どの言語が、強拍(rime)よりも前に子音を配置する習慣を持っています。しかし日本語はこの点で非常に特殊な特徴として 強拍(rime) の後ろに子音を配置する習慣を持っています。よって子音のあるなしによって母音の位置が変化するという特徴を持っています。この母音位置の修正は日本人にとって完全な無意識下に行われており、**母音の位置を修正していることを全く意識することが出来ません**。そして**強拍よりも前に起こる拍を無意識のうちに雑音として無視し、そこにある拍が存在することすら認識することが出来ない**という非常に大きな特徴があるのです。
 
@@ -1527,7 +1527,7 @@ music</span>
 
 {{<var REACTIVE_APPENDISM>}}(Reactive Appndism) は、言語だけでなく音楽にも影響を与えていることを見てきました。{{<var REACTIVE_APPENDISM>}}は、音楽だけでなく、音楽を含めた日本人の全ての習慣に深い影響を与えています。これが <ruby><rb>日本的追従律動</rb><rt>タテノリ</rt></ruby> です。
 
-例えば、終わらない残業などがこれに当たります。始まる時間はとても正確なのに終わる時間は全く正確ではないことは日本人の悪しき習慣と言われて久しいですが直る気配も直す気配も全くありません。これこそが <ruby><rb>日本的追従律動</rb><rt>タテノリ</rt></ruby> の一例です。 コンビニで１人がレジに行くと全員レジに行ってレジが混みだす ─── これも<ruby><rb>日本的追従律動</rb><rt>タテノリ</rt></ruby> の一例です。１人トイレに行くとみんなで一緒にトイレにいかないと気がすまない。これも<ruby><rb>日本的追従律動</rb><rt>タテノリ</rt></ruby> です。 広い道端で、鉢合わせになった二人・・・右に避けると右に避ける、左に避けると左に避ける。何度避けてもぶつかりそうになる。日本にいると「お前が見ていないからだ！」と責任転嫁することも可能ですが、海外の人混みでこの挙動は極度に目立ちます。これも<ruby><rb>日本的追従律動</rb><rt>タテノリ</rt></ruby> の典型的な例です。他にもたくさんの例があります。 日本人の全ての挙動を<ruby><rb>日本的追従律動</rb><rt>タテノリ</rt></ruby> が支配しています。 ─── このことについては、稿を改めて [**日本語が人間の動作の認識に与える影響の仮説**](/hypergroove/influence-of-japanese-language-on-cognition/ja/) にて詳細に議論します。
+例えば、終わらない残業などがこれに当たります。始まる時間はとても正確なのに終わる時間は全く正確ではないことは日本人の悪しき習慣と言われて久しいですが直る気配も直す気配も全くありません。これこそが <ruby><rb>日本的追従律動</rb><rt>タテノリ</rt></ruby> の一例です。 コンビニで１人がレジに行くと全員レジに行ってレジが混みだす ─── これも<ruby><rb>日本的追従律動</rb><rt>タテノリ</rt></ruby> の一例です。１人トイレに行くとみんなで一緒にトイレにいかないと気がすまない。これも<ruby><rb>日本的追従律動</rb><rt>タテノリ</rt></ruby> です。 広い道端で、鉢合わせになった二人・・・右に避けると右に避ける、左に避けると左に避ける。何度避けてもぶつかりそうになる。日本にいると「お前が見ていないからだ！」と責任転嫁することも可能ですが、海外の人混みでこの挙動は極度に目立ちます。これも<ruby><rb>日本的追従律動</rb><rt>タテノリ</rt></ruby> の典型的な例です。他にもたくさんの例があります。 日本人の全ての挙動を<ruby><rb>日本的追従律動</rb><rt>タテノリ</rt></ruby> が支配しています。 ─── このことについては、稿を改めて [**日本語が人間の動作の認識に与える影響の仮説**](/offbeat-count/influence-of-japanese-language-on-cognition/ja/) にて詳細に議論します。
 
 ここでは <ruby><rb>日本的追従律動</rb><rt>タテノリ</rt></ruby> が音楽のリズムに対して与えている大きな影響について次節以降で見ていきます。そしてこれが日本人の英語音痴の本質に横たわっていることを見ていきます。
 
@@ -1706,15 +1706,15 @@ _[Macron and breve](https://en.wikipedia.org/wiki/Systems_of_scansion#Classical_
 
 例えば強拍弱拍を四分音符の上で見てみると次のようになります。
 
-![](/hypergroove/attachments/beat-orientation-explained-4th-with-caption.png)
+![](/offbeat-count/attachments/beat-orientation-explained-4th-with-caption.png)
 
 強拍弱拍を八分音符の上で見てみると次のようになります。
 
-![](/hypergroove/attachments/beat-orientation-explained-8th-with-caption.png)
+![](/offbeat-count/attachments/beat-orientation-explained-8th-with-caption.png)
 
 強拍弱拍を二分音符の上で見てみると次のようになります。
 
-![](/hypergroove/attachments/beat-orientation-explained-half-with-caption.png)
+![](/offbeat-count/attachments/beat-orientation-explained-half-with-caption.png)
 
 ### 多層拍とは
 
@@ -1722,35 +1722,35 @@ _[Macron and breve](https://en.wikipedia.org/wiki/Systems_of_scansion#Classical_
 
 ２分音符と２つの４分音符を例にとって考えてみます。
 
-![](/hypergroove/attachments/Pasted%20image%2020250716041121.png)
+![](/offbeat-count/attachments/Pasted%20image%2020250716041121.png)
 
 
 この図では、橙色の星印が打音（アタック）を表しています。赤色の線が持続音（サスティン）を表しています。２分音符と４分音符の違いの本質は音符の長さですが、このことを改めて考えてみると、**音の長さ**と**打点と打点の距離**という２つの要素がそこにあることがわかります。
 
 
-![](/hypergroove/attachments/Pasted%20image%2020250716043812.png)
+![](/offbeat-count/attachments/Pasted%20image%2020250716043812.png)
 
 ここで打点だけに注目して考えて見ると、四分音符の強拍の打点位置は、２分音符の打点位置と同じことがわかります。
 
-![](/hypergroove/attachments/Pasted%20image%2020250716044134.png)
+![](/offbeat-count/attachments/Pasted%20image%2020250716044134.png)
 
 打音（アタック音）だけを考えると、４分音符の強拍を演奏することと２分音符を演奏することは全く同じことと言えます。逆に弱拍こそが２分音符との違いを際立たせている４分音符の特徴であり最も４分音符らしさを持った拍ということが言えます。
 
 もしもこれをどら焼きに例えるならば、どら焼きが２分音符で弱拍が４分音符といえます。
 
-![](/hypergroove/attachments/splitting-notes.png)
+![](/offbeat-count/attachments/splitting-notes.png)
 
 強拍は拍と拍の境目と言えます。そして弱拍は、その拍の中央にあります。つまり弱拍は、その音価の拍を分割します。
 
 
 同じことが四分音符と８分音符にも言えます。
 
-![](/hypergroove/attachments/Pasted%20image%2020250716044354.png)
+![](/offbeat-count/attachments/Pasted%20image%2020250716044354.png)
 
 
 ここで打点だけに注目して考えて見ると、８分音符の強拍の打点位置は、四分音符の打点位置と同じことがわかります。
 
-![](/hypergroove/attachments/Pasted%20image%2020250716044134.png)
+![](/offbeat-count/attachments/Pasted%20image%2020250716044134.png)
 
 
 このことは、全ての音価の音符についていえます。
@@ -1764,7 +1764,7 @@ _[Macron and breve](https://en.wikipedia.org/wiki/Systems_of_scansion#Classical_
 
 このことを図で見てみます。
 
-![](/hypergroove/attachments/layered-strong-beats.png)
+![](/offbeat-count/attachments/layered-strong-beats.png)
 
 つまり <span style="font-size:200%;">**全ての音価の音符の強拍は必ず、その音価の倍の長さの音符と衝突する**</span> ということがわかります。
 
@@ -1772,7 +1772,7 @@ _[Macron and breve](https://en.wikipedia.org/wiki/Systems_of_scansion#Classical_
 
 音符の位置は、小節を一定の比率で分割したものなので、分数で小節先頭からの距離として表せるでしょう。 楽典では小節先頭拍を１拍目として数える序数を使って説明されていますが、ここでは数学の数直線のように基数を使って先頭の拍を０拍目として並べてみましょう。
 
-![](/hypergroove/attachments/Pasted%20image%2020250717165456.png)
+![](/offbeat-count/attachments/Pasted%20image%2020250717165456.png)
 
 ここから興味深い法則を見つけることが出来ます。
 
@@ -1780,13 +1780,13 @@ _[Macron and breve](https://en.wikipedia.org/wiki/Systems_of_scansion#Classical_
 
 この各音符列上で左から数えて偶数番目（０個目・２個目・４個目・・・）の音符が強拍になります。そして奇数番目（１個目・３個目・５個目・・・）が弱拍になります。 すると全ての強拍は約分できることがわかります。
 
-![](/hypergroove/attachments/Pasted%20image%2020250716050956.png)
+![](/offbeat-count/attachments/Pasted%20image%2020250716050956.png)
 
 #### 弱拍は約分できない
 
 更に全ての弱拍は、約分できない分数＝既約分数になっていることがわかります。
 
-![](/hypergroove/attachments/Pasted%20image%2020250716045505.png)
+![](/offbeat-count/attachments/Pasted%20image%2020250716045505.png)
 
 
 分数は１つの数を表すに当たって複数通りの書き方がありますが、2/8 や 2/4などの分数は約分できます。つまり他の小さな数の組み合わせで表現することができます。
@@ -1800,7 +1800,7 @@ _[Macron and breve](https://en.wikipedia.org/wiki/Systems_of_scansion#Classical_
 #### 先頭拍は必ず強拍だがより大きい音価で約分され弱拍になる
 また小節の先頭の拍は全ての音価で必ず強拍となることがわかります。
 
-![](/hypergroove/attachments/Pasted%20image%2020250716050850.png)
+![](/offbeat-count/attachments/Pasted%20image%2020250716050850.png)
 
 しかし小節先頭の拍は強拍だからといって、弱拍が存在しない訳ではありません。この場合も前述の強拍弱拍の最適化を行うことで弱拍として解釈することが出来ます。 例えば、もしこの小節が２つあったら全音も２つあることになります。つまり２つ目の全音が弱拍となります。この様に繰り返しを前提に考えた場合、全ての強拍には対応すべき大きな音価の弱拍があることになります。
 
@@ -1812,7 +1812,7 @@ _[Macron and breve](https://en.wikipedia.org/wiki/Systems_of_scansion#Classical_
 
 以上の様に考え進めると、**ある音価の強拍は、必ずその音価より大きい音価の弱拍に相当**していることがわかります。つまり全ての音価で弱拍だけを演奏すると全ての拍がお互いに衝突を回避しあって入れ違いの位置に配置されることがわかります。このことをグラフを使って見てみましょう。
 
-![](/hypergroove/attachments/layered-weak-beats-map.png)
+![](/offbeat-count/attachments/layered-weak-beats-map.png)
 
 #### 弱拍の多層性
 
@@ -1829,9 +1829,9 @@ _[Macron and breve](https://en.wikipedia.org/wiki/Systems_of_scansion#Classical_
 
 次のグラフは、弱拍基軸演奏テクニックを**使わず**に、強拍と弱拍を全て演奏した場合のグラフです。
 
-![](/hypergroove/attachments/layered-strong-beats.png)
+![](/offbeat-count/attachments/layered-strong-beats.png)
 
-![](/hypergroove/attachments/layered-strong-beats-graph.png)
+![](/offbeat-count/attachments/layered-strong-beats-graph.png)
 
 
 この様に強拍が重なりあってしまうことによってアンサンブルの瞬間音量が上がってしまうことがわかります。この音の重なりは音の濁りの原因となります。また加えて、各演奏者が演奏中に各自の自音がはっきり聞こえなくなる原因となり、無意識の内に更に音量を上げて演奏するようになり、聴者の耳が痛くなりやすくなる原因となります。
@@ -1840,9 +1840,9 @@ _[Macron and breve](https://en.wikipedia.org/wiki/Systems_of_scansion#Classical_
 
 こうならないようにする為には、強拍を演奏せず弱拍だけを演奏するようにすることです。次の図は、弱拍のみを演奏した場合のグラフです。
 
-![](/hypergroove/attachments/layered-weak-beats.png)
+![](/offbeat-count/attachments/layered-weak-beats.png)
 
-![](/hypergroove/attachments/layered-weak-beats-graph.png)
+![](/offbeat-count/attachments/layered-weak-beats-graph.png)
 
 全ての音価で拍が重ならず単音で鳴っています。重なりがないので全ての拍で一定の音量で抑えられています。この様に各拍が重ならずに分離していると、各パートの楽器音が大きくてもそれぞれの音が分離して聞き取りやすくなります。自音が聞こえず無意識の内に音量が上がるということがなくなり、音の濁りを減らすことができます。
 
@@ -1922,7 +1922,7 @@ _[Macron and breve](https://en.wikipedia.org/wiki/Systems_of_scansion#Classical_
 #### 尻合わせ
 海外の音楽・・・ジャズやR&B、ロックではしばしばメロディーの開始点がはっきり決まっておらず、メロディーは任意の地点から漠然と開始されます。開始点ははっきり決まっていませんが、終了地点は必ず決まっており、その地点で大きな音でアクセントを入れる手法がしばしば用いられます。このリズム構造をここでは **尻合わせ** と呼びます。
 
-![](/hypergroove/attachments/Pasted%20image%2020250609002541.png)
+![](/offbeat-count/attachments/Pasted%20image%2020250609002541.png)
 
 [尻合わせ(x/twitter)](https://x.com/ats4u/status/1612304475347390466)
 
@@ -1934,7 +1934,7 @@ _[Macron and breve](https://en.wikipedia.org/wiki/Systems_of_scansion#Classical_
 
 中国の伝統音楽や、日本・イランなどモーラ拍言語を母国語とする国々の音楽では、しばしば繰り返しのなかでメロディーの開始地点がはっきりと決まっており、そこで大きな音でアクセントを入れる手法がしばしば用いられます。ほとんどの場合、終了地点ははっきり決まっておらず、メロディーは漠然と終わります。このリズム構造をここでは **頭合わせ** と呼びます。
 
-![](/hypergroove/attachments/Pasted%20image%2020250609002708.png)
+![](/offbeat-count/attachments/Pasted%20image%2020250609002708.png)
 
 [頭合わせ(x/twitter)](https://twitter.com/ats4u/status/1612304530502451201)
 
@@ -4106,23 +4106,23 @@ _[Macron and breve](https://en.wikipedia.org/wiki/Systems_of_scansion#Classical_
 
 次の図の様に１小節のなかに4つの4分音符があったとします。
 
-![](/hypergroove/attachments/beat-orientation-explained-4th.png)
+![](/offbeat-count/attachments/beat-orientation-explained-4th.png)
 
 この時、4分音符は、次の図の様に強拍と弱拍に分かれることを説明しました。
 
-![](/hypergroove/attachments/beat-orientation-explained-4th-with-caption.png)
+![](/offbeat-count/attachments/beat-orientation-explained-4th-with-caption.png)
 
 
 ここでひとつの大きな問題が生まれます。もしも拍に強拍と弱拍の2種類が存在するとしたら、音楽の中で唐突に聴こえたある「最初の拍」は、弱拍なのでしょうか、それとも強拍なのでしょうか。
 
 もしも強拍が先行すると考えたとすると、その解釈は次のようになるでしょう。
 
-![](/hypergroove/attachments/beat-orientation-explained-4th-sw.png)
+![](/offbeat-count/attachments/beat-orientation-explained-4th-sw.png)
 
 
 もしも弱拍が先行すると考えたとすると、その解釈は次の様になるでしょう。
 
-![](/hypergroove/attachments/beat-orientation-explained-4th-ws.png)
+![](/offbeat-count/attachments/beat-orientation-explained-4th-ws.png)
 
 このように『**強拍**が先行するのが当然』と考える人が採譜した結果と『**弱拍**が先行するのが当然』と考える人が採譜した結果は、大きく異なります。
 
@@ -4162,15 +4162,15 @@ _[Macron and breve](https://en.wikipedia.org/wiki/Systems_of_scansion#Classical_
 * つまりもし、その拍が強拍だったとすると、それは必ず１拍目強拍ということになります。
 * これは４分音符だけでなく、全ての音価の音符に対して成立します。
 
-![](/hypergroove/attachments/single-beat-orientation-strong-1.png)
+![](/offbeat-count/attachments/single-beat-orientation-strong-1.png)
 
-![](/hypergroove/attachments/single-beat-orientation-strong-2.png)
+![](/offbeat-count/attachments/single-beat-orientation-strong-2.png)
 
-![](/hypergroove/attachments/single-beat-orientation-strong-4.png)
+![](/offbeat-count/attachments/single-beat-orientation-strong-4.png)
 
-![](/hypergroove/attachments/single-beat-orientation-strong-8.png)
+![](/offbeat-count/attachments/single-beat-orientation-strong-8.png)
 
-![](/hypergroove/attachments/single-beat-orientation-strong-16.png)
+![](/offbeat-count/attachments/single-beat-orientation-strong-16.png)
 
 > 💡 もしも強拍が１拍目ではなかった場合、それは必ず弱拍として約分が出来ます。つまり必ず弱拍なのです。 [参照：強拍弱拍は分数で表すことが出来る]( #強拍弱拍は分数で表すことが出来る )
 
@@ -4178,15 +4178,15 @@ _[Macron and breve](https://en.wikipedia.org/wiki/Systems_of_scansion#Classical_
 
 もし先行拍が強拍ではなかったとすると、それは必ず弱拍ということになります。その弱拍の位置として考えられる地点は、強拍とは異なりその弱拍の属する音価によって変化します。
 
-![](/hypergroove/attachments/single-beat-orientation-weak-1.png)
+![](/offbeat-count/attachments/single-beat-orientation-weak-1.png)
 
-![](/hypergroove/attachments/single-beat-orientation-weak-2.png)
+![](/offbeat-count/attachments/single-beat-orientation-weak-2.png)
 
-![](/hypergroove/attachments/single-beat-orientation-weak-4.png)
+![](/offbeat-count/attachments/single-beat-orientation-weak-4.png)
 
-![](/hypergroove/attachments/single-beat-orientation-weak-8.png)
+![](/offbeat-count/attachments/single-beat-orientation-weak-8.png)
 
-![](/hypergroove/attachments/single-beat-orientation-weak-16.png)
+![](/offbeat-count/attachments/single-beat-orientation-weak-16.png)
 
 もしその拍が弱拍だったとすると、その音符は４分音符の弱拍かも知れませんし、８分音符の弱拍かも知れません。１６分音符などのより細かな音価の弱拍かも知れません。或いはより長い２分音符・全音符・２全音符などの音符での弱拍かも知れません。可能性として考えられる音符は無限に存在します。無限に存在する可能性のなかでどの音符の弱拍なのかを判別するためには、予想と修正が必要になります。 まず予想を立てた上で、音楽をしばらく聴き前後の文脈から判別しながら、予想を修正しながら、実際の音価を特定する必要が発生します。
 
@@ -4238,7 +4238,7 @@ _[Macron and breve](https://en.wikipedia.org/wiki/Systems_of_scansion#Classical_
 
 もしもこの音に関して弱拍先行が全ての音価がないという前提で解釈すると次のようになります。
 
-![](/hypergroove/attachments/vertical-ba-dum-tss-incorrect.png)
+![](/offbeat-count/attachments/vertical-ba-dum-tss-incorrect.png)
 
 この解釈は、4分音符の弱拍先行なし、8分音符の弱拍先行なしを前提としたリズム解釈と言えます。 ─── この解釈は正しくないということも[音楽のリズム解釈には言語によって違いがある](#音楽のリズム解釈には言語によって違いがある)で御説明致しました。
 
@@ -4310,7 +4310,7 @@ _[Macron and breve](https://en.wikipedia.org/wiki/Systems_of_scansion#Classical_
 
 次の解釈を見てみます。
 
-![](/hypergroove/attachments/vertical-ba-dum-tss-incorrect-8th.png)
+![](/offbeat-count/attachments/vertical-ba-dum-tss-incorrect-8th.png)
 
 この解釈は、8分音符の弱拍先行が存在することを前提として解釈していると言えます。しかし、4分音符の弱拍先行はなしとみなしている為、１つずれた形で認識していることを観察することが出来ます。
 
@@ -4382,7 +4382,7 @@ _[Macron and breve](https://en.wikipedia.org/wiki/Systems_of_scansion#Classical_
 
 次の解釈を見てみます。
 
-![](/hypergroove/attachments/vertical-ba-dum-tss-score-correct.png)
+![](/offbeat-count/attachments/vertical-ba-dum-tss-score-correct.png)
 
 この解釈は、8分音符の弱拍先行が存在することを前提としおり、同時に4分音符の弱拍先行も存在することを前提として解釈していることがわかります。
 
@@ -6051,15 +6051,15 @@ Ceann Dubh Dilis (My Sweet, Dark-Haired Love), arranged by Michael McGlynn and p
 
 結論を先にいうと、何故日本人は2拍子を自然だと感じるのか ─── それは音節(モーラ)が頭子音と母音という2要素で構成されているからです。 そして何故日本人以外の人々は、3拍子を自然だと感じるのか ─── これは音節(シラブル)が頭子音・母音・末子音という3要素で構成されているからです。
 
-![](/hypergroove/attachments/three-to-n-mora-and-syllable-or-stress.png)
+![](/offbeat-count/attachments/three-to-n-mora-and-syllable-or-stress.png)
 
  ─── つまり 「何故３だとグルーヴしやすいのか』 ─── この視点は実は日本のとても独特な視点であり、むしろ『何故２だとグルーヴしないのか』『何故日本語のシラブルの音素数は例外的に２なのか』『何故日本語はグルーヴしないのか』という視点のほうがより、この問題の本質をよく捉えていると言い換えることも出来ます。
 
-![](/hypergroove/attachments/three-to-n-groove-description-01.png)
+![](/offbeat-count/attachments/three-to-n-groove-description-01.png)
 
 シラブル拍・ストレス拍が持っているシラブルの音素数が３つになっていることから、１つの音符を３に分割して発音が割り当てられることに繋がり、また複雑な歌詞を歌う場合は、その分割された音符を更に３つに分けたり、３つずつ束ねたりする習慣に繋がったのではないかと考えられます。
 
-![](/hypergroove/attachments/three-to-n-groove-01.png)
+![](/offbeat-count/attachments/three-to-n-groove-01.png)
 
 このように、３のべき乗を因数として持っているリズム数がグルーヴしやすいと考える理論を3⁻ⁿ仮説と呼びます。
 
@@ -6686,15 +6686,15 @@ gthr = { \tuplet 3/2 { do16   do16 do16] }  }
 
 リズムを叩くにあたって制約１『一定周期で叩くことしかできない』を知ることはとても重要だ。例えばこういう複雑なリズムがあったとする。
 
-![](/hypergroove/attachments/distributed-groove-20250805190006.png)
+![](/offbeat-count/attachments/distributed-groove-20250805190006.png)
 
 人間は直接このリズムを叩くことはできない。何故なら人間は時間を一定周期で分割する能力しか持たないからだ。だが次のように工夫することで叩くことができる。
 
-![](/hypergroove/attachments/distributed-groove-20250805190035.png)
+![](/offbeat-count/attachments/distributed-groove-20250805190035.png)
 
 譜面上ではこれが一定周期の組み合わせだということがわかりにくいので、グラフを使って見てみよう。
 
-![](/hypergroove/attachments/distributed-groove-20250805190115.png)
+![](/offbeat-count/attachments/distributed-groove-20250805190115.png)
 
 これなら一定周期の組み合わせだから人間でも叩くことができる。このようにして人間は複雑なリズムを叩くことができる。
 
@@ -6710,17 +6710,17 @@ gthr = { \tuplet 3/2 { do16   do16 do16] }  }
 
 次の単純なリズムを考えてみる。
 
-![](/hypergroove/attachments/distributed-groove-20250805190159.png)
+![](/offbeat-count/attachments/distributed-groove-20250805190159.png)
 
 １２０ＢＰＭ程度なら十分叩けるだろう。だが２００〜３００ＢＰＭになれば徐々に難しくなってくる。８分音符や１６分音符などの細かな音符を考えると、２００ＢＰＭで８分音符を演奏するなら２倍の４００ＢＰＭ相当、１６分音符なら８００ＢＰＭに到達するリズムを叩かなければならない。これは到底人間には叩くことができないリズムだ。
 
 そこでこれを分割することを考えてみる。
 
-![](/hypergroove/attachments/distributed-groove-20250805190228.png)
+![](/offbeat-count/attachments/distributed-groove-20250805190228.png)
 
 全く同じリズムでもこの様に分解すれば半分のＢＰＭで演奏できる。グラフでも確認してみよう。
 
-![](/hypergroove/attachments/distributed-groove-20250805190240.png)
+![](/offbeat-count/attachments/distributed-groove-20250805190240.png)
 
 この処理のことを**単純リズムの分解**と呼ぼう。
 
@@ -6730,17 +6730,17 @@ gthr = { \tuplet 3/2 { do16   do16 do16] }  }
 
 前章の例では２つの拍の距離は１／２だったが、これをもし１／４にしたらどうなるだろうか。
 
-![](/hypergroove/attachments/distributed-groove-20250805190259.png)
+![](/offbeat-count/attachments/distributed-groove-20250805190259.png)
 
 この様に２つの拍の距離が１／４になるとそれは１／４の長さを持つ音符＝８分音符と同じ細かさを持つ。
 
-![](/hypergroove/attachments/distributed-groove-20250805190309.png)
+![](/offbeat-count/attachments/distributed-groove-20250805190309.png)
 
 同じ様にして２つの拍の距離が１／３になったらどうなるかを見てみよう。
 
-![](/hypergroove/attachments/distributed-groove-20250805190445.png)
+![](/offbeat-count/attachments/distributed-groove-20250805190445.png)
 
-![](/hypergroove/attachments/distributed-groove-20250805190454.png)
+![](/offbeat-count/attachments/distributed-groove-20250805190454.png)
 
 ２つの拍の距離が２／３になるとそれは２／３のの長さを持つ２拍３連２個分の細かさを持つことになる。
 
@@ -6753,13 +6753,13 @@ gthr = { \tuplet 3/2 { do16   do16 do16] }  }
 具体的に言うと、拍解像度はその小節内にある全ての音符の位置を数値として表した時の全ての数の最大公約数となる。例えば、１６分音符（音価が１／１６）があったとしても、拍解像度は必ずしも１／１６にならない。何故ならもしその１６分音符が４分音符と同じ位置にあったら拍解像度は１／４にしかならないからだ。
 
 **例１**
-![](/hypergroove/attachments/distributed-groove-20250805190525.png)
+![](/offbeat-count/attachments/distributed-groove-20250805190525.png)
 
-![](/hypergroove/attachments/distributed-groove-20250805190532.png)
+![](/offbeat-count/attachments/distributed-groove-20250805190532.png)
 
 １６分音符が全て４分音符と同じ場所にあれば拍解像度としては４分音符と同じになる。
 
-![](/hypergroove/attachments/distributed-groove-20250805190546.png)
+![](/offbeat-count/attachments/distributed-groove-20250805190546.png)
 
 この１６分音符は４分音符とおなじ拍解像度しか持たない。
 
@@ -6767,7 +6767,7 @@ gthr = { \tuplet 3/2 { do16   do16 do16] }  }
 
 **例２**
 
-![](/hypergroove/attachments/distributed-groove-20250805190646.png)
+![](/offbeat-count/attachments/distributed-groove-20250805190646.png)
 
 この例２の拍解像度は２分音符が \[ 0/2, 1/2, 3/2, 4/2 \] ８分音符が\[ 3/8, 7/8, 11/8, 15/8 \] なので、最大公約数は 1/8 だ。よって拍解像度は1/8になる。
 
@@ -6779,11 +6779,11 @@ gthr = { \tuplet 3/2 { do16   do16 do16] }  }
 
 ８分音符でも４分音符と同じ位置にあれば４分音符と同じ拍解像度しか持たない。拍解像度を効率よく上げるには、４分音符と同じ位置にある８分音符を省いて考えたほうが簡単だ。 同様にして１６分音符でも８分音符と同じ位置にある１６分音符を省いて考えたほうが簡単になる。
 
-![](/hypergroove/attachments/distributed-groove-20250805190721.png)
+![](/offbeat-count/attachments/distributed-groove-20250805190721.png)
 
 このように重なった音符を一番拍解像度が高いものを残して省くと次のようになる。
 
-![](/hypergroove/attachments/distributed-groove-20250805190731.png)
+![](/offbeat-count/attachments/distributed-groove-20250805190731.png)
 
 これはつまり全ての音価の音符から裏拍だけを残したものだ。
 
@@ -6791,11 +6791,11 @@ gthr = { \tuplet 3/2 { do16   do16 do16] }  }
 
 **可約拍は表拍のことだ。**
 
-![](/hypergroove/attachments/distributed-groove-20250805190745.png)
+![](/offbeat-count/attachments/distributed-groove-20250805190745.png)
 
 **既約拍は裏拍のことだ。**
 
-![](/hypergroove/attachments/distributed-groove-20250805190759.png)
+![](/offbeat-count/attachments/distributed-groove-20250805190759.png)
 
 裏拍の意味についての詳しくは [裏拍の大切さ](https://oka-ats.blogspot.com/2019/01/oka01-gdqoqxundapoaemf.html) で説明した。
 
@@ -6803,7 +6803,7 @@ gthr = { \tuplet 3/2 { do16   do16 do16] }  }
 
 [裏拍の大切さ](https://oka-ats.blogspot.com/2019/01/oka01-gdqoqxundapoaemf.html) で説明した通り表拍を叩くとそれは裏拍の存在感を減らす結果になり、音楽の拍解像度が下がったような印象（スピード感を失った）を与える。この拍解像度が下がった印象のことを**縦乗り(vertical riding)**という。縦乗りについては [何故、日本人は縦乗りなのか](https://oka-ats.blogspot.com/2018/01/oka01-qioaafwfeykuqiuj.html)で説明した。縦乗りを避けるためには裏拍だけを選択的に叩かなければいけない。
 
-![](/hypergroove/attachments/distributed-groove-20250805190820.png)
+![](/offbeat-count/attachments/distributed-groove-20250805190820.png)
 
 この様に音価ごとに無駄な音（表拍）を整理すると、音価が層になって横方向に広がり重なり合っている様子が観察できる。またそれぞれの音かの拍が異なる音価の拍と重なりあうことなく避けあっている点も観察できる。
 
@@ -6878,29 +6878,29 @@ gthr = { \tuplet 3/2 { do16   do16 do16] }  }
 
 日本人はタイミングをずらして音符のニュアンスをつけようとする時に、無意識のうちに強拍に基準を置き強拍の位置を固定したうで、強拍位置から弱拍の位置を測り、弱拍の位置を移動しようとするのです。  ─── それはもしかすると日本人としては当然のことだと感じるかも知れませんが、実はそれは世界に目を向けてみると、全く違うのです。
 
-![](/hypergroove/attachments/leading-onbeat-far.png){width=50%}
+![](/offbeat-count/attachments/leading-onbeat-far.png){width=50%}
 
-![](/hypergroove/attachments/leading-onbeat-near.png){width=50%}
+![](/offbeat-count/attachments/leading-onbeat-near.png){width=50%}
 
 外国の人々はこの点について全く違った常識を持っています。
 
 外国の人々はタイミングをずらして音符のニュアンスをつけようとする時に、無意識のうちに**弱拍に**基準を置き弱拍の位置を固定したうで、弱拍位置から強拍の位置を測り、強拍の位置を移動しようとするのです。
 
-![](/hypergroove/attachments/leading-offbeat-far.png){width=50%}
+![](/offbeat-count/attachments/leading-offbeat-far.png){width=50%}
 
-![](/hypergroove/attachments/leading-offbeat-near.png){width=50%}
+![](/offbeat-count/attachments/leading-offbeat-near.png){width=50%}
 
 ### 強拍基準
 
 強拍に基準を置き強拍の位置を固定したうで、強拍位置から弱拍の位置を測り、弱拍の位置を移動しようとすることを、**強拍基準**と呼びます。
 
-![](/hypergroove/attachments/leading-onbeat-far.png){width=50%}
+![](/offbeat-count/attachments/leading-onbeat-far.png){width=50%}
 
 ### 弱拍基準
 
 **弱拍に**基準を置き弱拍の位置を固定したうで、弱拍位置から強拍の位置を測り、強拍の位置を移動しようとすることを、**弱拍基準** と呼びます。
 
-![](/hypergroove/attachments/leading-offbeat-far.png){width=50%}
+![](/offbeat-count/attachments/leading-offbeat-far.png){width=50%}
 
 ### 弱拍基準の特徴
 
@@ -7733,7 +7733,7 @@ gthr = { \tuplet 3/2 { do16   do16 do16] }  }
 
 この音楽の歌詞の最初の部分をモーラ拍リズムで解釈すると『メナガテｯｽウェーッグ』と言っている様に聴こえます。これはストレス拍リズムでは『 man, I got that swag 』と解釈されます。この解釈の違いを図として表すと次の様になります。
 
-![](/hypergroove/attachments/phonetics-man-i-got-that-swag.png)
+![](/offbeat-count/attachments/phonetics-man-i-got-that-swag.png)
 
 ここで起こっている相違の対応表を作ると次の様になります。
 
@@ -9055,9 +9055,9 @@ common-ly/shared/rhythmdo-count-drift-offset-1.ly
 
 <table>
 <tr>
-<td><img src="/hypergroove/attachments/cat-onset.png"/></td>
-<td><img src="/hypergroove/attachments/cat-nuclear.png"/></td>
-<td><img src="/hypergroove/attachments/cat-coda.png"/></td>
+<td><img src="/offbeat-count/attachments/cat-onset.png"/></td>
+<td><img src="/offbeat-count/attachments/cat-nuclear.png"/></td>
+<td><img src="/offbeat-count/attachments/cat-coda.png"/></td>
 </tr>
 </table>
 -->
@@ -9171,7 +9171,7 @@ common-ly/shared/rhythmdo-countset-n-3.ly
 - **3 & A & & A A & A**
 
 になります。この様に数字を多層にして読む必要があるリズムをここでは**多次元グル
-ーヴ**と呼びます。 詳しくは[多次元ディヴィジョン空間理論](/hypergroove/multidimensional-rhythm/ja/)を参照して下さい。
+ーヴ**と呼びます。 詳しくは[多次元ディヴィジョン空間理論](/offbeat-count/multidimensional-rhythm/ja/)を参照して下さい。
 
 ---
 
@@ -11224,7 +11224,7 @@ style="width:6.0339in;height:1.7398in" />この様に４拍子の４拍目と５
 
 {{<var OFBCT>}}では、これらは言語リズムが、運動する認知能力の時間の認識に深く関わっているからだという仮説を提唱します。─── つまり、縦乗りを治すためには自分が自分自身の運動をどう認識しているか深く内省し、それを改革する必要があります。
 
-前章 [{{<var SCHIZORHYTHMOS>}}と{{<var SOLIRHYTHMOS>}}](/hypergroove/schizorhythmos-and-solirhythmos/ja/) で、言語のリズム感覚には {{<var SCHIZORHYTHMOS>}}と{{<var SOLIRHYTHMOS>}}の２つに分けられることを見てきました。
+前章 [{{<var SCHIZORHYTHMOS>}}と{{<var SOLIRHYTHMOS>}}](/offbeat-count/schizorhythmos-and-solirhythmos/ja/) で、言語のリズム感覚には {{<var SCHIZORHYTHMOS>}}と{{<var SOLIRHYTHMOS>}}の２つに分けられることを見てきました。
 
 日本語には、モーラ拍リズムという世界的に見るととても珍しいリズム構造を持っています。その日本語を母国語として話す日本人は、言語の発音構造の影響を受けることにより、その行動上起こる認知偏りに大きな特徴が生まれます。この独特なリズム認識型をここでは{{<var SOLIRHYTHMOS>}}と呼びます。
 
@@ -11434,29 +11434,29 @@ style="width:6.0339in;height:1.7398in" />この様に４拍子の４拍目と５
 
 外国で道を横断する場合を説明します。
 
-![](/hypergroove/attachments/proactive-reactive-p1.png){width=50% }
+![](/offbeat-count/attachments/proactive-reactive-p1.png){width=50% }
 
 横断時に現在の動きから未来の位置を予想し、その予想地点に対して反応します。
 
-![](/hypergroove/attachments/proactive-reactive-p2.png){width=50% }
+![](/offbeat-count/attachments/proactive-reactive-p2.png){width=50% }
 
 すれ違うことが出来ます。
 
-![](/hypergroove/attachments/proactive-reactive-p3.png){width=50% }
+![](/offbeat-count/attachments/proactive-reactive-p3.png){width=50% }
 
 #### 日本の場合
 
 日本で道を横断する場合を説明します。
 
-![](/hypergroove/attachments/proactive-reactive-r1.png){width=50% }
+![](/offbeat-count/attachments/proactive-reactive-r1.png){width=50% }
 
 単純に現在地点に対して反応する。
 
-![](/hypergroove/attachments/proactive-reactive-r2.png){width=50% }
+![](/offbeat-count/attachments/proactive-reactive-r2.png){width=50% }
 
 ぶつかります。
 
-![](/hypergroove/attachments/proactive-reactive-r3.png){width=50% }
+![](/offbeat-count/attachments/proactive-reactive-r3.png){width=50% }
 
 ### 日本人の持つ時間認識の特徴
 
@@ -11475,11 +11475,11 @@ style="width:6.0339in;height:1.7398in" />この様に４拍子の４拍目と５
 
 **『弱拍が先に聞こえている』**という供述は、その人が次に来る強拍の位置を予想していることを示唆しています。次に来るべき強拍の位置が念頭にあるからこそ、弱拍が**それ**よりも前にあるという認識になるからです。
 
-![](/hypergroove/attachments/rp-proactive-dog.png)
+![](/offbeat-count/attachments/rp-proactive-dog.png)
 
 一方、**『弱拍が後に聞こえている』**という供述は、その人が次に来る強拍の位置を予想していないことを示唆しています。彼は強拍が聞こえたら弱拍を叩けばよいと考えているからこそ、弱拍は**それ**よりも後ろにあるという認識になるからです。
 
-![](/hypergroove/attachments/rp-reactive-dog.png)
+![](/offbeat-count/attachments/rp-reactive-dog.png)
 
 
 ### 時間認識の違いの本質
@@ -12239,18 +12239,18 @@ style="width:6.0339in;height:1.7398in" />この様に４拍子の４拍目と５
 </style>
 <table class="ten-bulls-table"><tbody>
 <tr>
-<td><img src="/hypergroove/attachments/ten-bulls-01-尋牛.jpg"/></td>
-<td><img src="/hypergroove/attachments/ten-bulls-02-見跡.jpg"/></td>
-<td><img src="/hypergroove/attachments/ten-bulls-03-見牛.jpg"/></td>
-<td><img src="/hypergroove/attachments/ten-bulls-04-得牛.jpg"/></td>
-<td><img src="/hypergroove/attachments/ten-bulls-05-牧牛.jpg"/></td>
+<td><img src="/offbeat-count/attachments/ten-bulls-01-尋牛.jpg"/></td>
+<td><img src="/offbeat-count/attachments/ten-bulls-02-見跡.jpg"/></td>
+<td><img src="/offbeat-count/attachments/ten-bulls-03-見牛.jpg"/></td>
+<td><img src="/offbeat-count/attachments/ten-bulls-04-得牛.jpg"/></td>
+<td><img src="/offbeat-count/attachments/ten-bulls-05-牧牛.jpg"/></td>
 </tr>
 <tr>
-<td><img src="/hypergroove/attachments/ten-bulls-06-騎牛帰家.jpg" /></td>
-<td><img src="/hypergroove/attachments/ten-bulls-07-忘牛存人.jpg" /></td>
-<td><img src="/hypergroove/attachments/ten-bulls-08-人牛倶忘.jpg" /></td>
-<td><img src="/hypergroove/attachments/ten-bulls-09-返本還源.jpg" /></td>
-<td><img src="/hypergroove/attachments/ten-bulls-10-入鄽垂手.jpg" /></td>
+<td><img src="/offbeat-count/attachments/ten-bulls-06-騎牛帰家.jpg" /></td>
+<td><img src="/offbeat-count/attachments/ten-bulls-07-忘牛存人.jpg" /></td>
+<td><img src="/offbeat-count/attachments/ten-bulls-08-人牛倶忘.jpg" /></td>
+<td><img src="/offbeat-count/attachments/ten-bulls-09-返本還源.jpg" /></td>
+<td><img src="/offbeat-count/attachments/ten-bulls-10-入鄽垂手.jpg" /></td>
 </tr>
 </tbody></table>
 
@@ -12263,70 +12263,70 @@ style="width:6.0339in;height:1.7398in" />この様に４拍子の４拍目と５
 この十段階は、単なる順番的な修行ではなく、**あらゆる瞬間に悟りのチャンスがある**ことを示しています。文字や形式にとらわれず、心の本質に立ち返ることが重要であると説いています。
 
 #### 1. **尋牛（じんぎゅう）**
-<img src="/hypergroove/attachments/ten-bulls-01-尋牛.jpg"/>
+<img src="/offbeat-count/attachments/ten-bulls-01-尋牛.jpg"/>
 
 - 仏性を象徴する「牛」を探し求めて修行を始めたが、まだその牛を見つけることができない状態です。人間は本来仏性を備えているものの、それを忘れてしまい、煩悩や分別の世界に陥って真実の自己から遠ざかっています。
 
 迷いの中で、自分の本心を探し求めている段階です。牛（＝本心）は実は常にそこにあるのですが、私たちはそれに気づかず、外に求め続けます。仏法に出会い、ようやく「本心を探す」必要性に目覚めます。
 
 #### 2. **見跡（けんせき）**
-<img src="/hypergroove/attachments/ten-bulls-02-見跡.jpg"/>
+<img src="/offbeat-count/attachments/ten-bulls-02-見跡.jpg"/>
 
 - 経典や師の教えを手がかりとして仏性を探そうとしても、依然として煩悩や分別の世界から抜け出すことができず、牛そのものではなく牛の足跡しか見えていない状態です。
 
 ようやく牛の足跡（＝本心の痕跡）を見つけます。日常生活の中の見聞触覚や感情のすべてに、本心の働きが現れていることに気づき始めます。ですが、多くの人はまだ文字や形式に執着し、真実の自心を見失っています。
 
 #### 3. **見牛（けんぎゅう）**
-<img src="/hypergroove/attachments/ten-bulls-03-見牛.jpg"/>
+<img src="/offbeat-count/attachments/ten-bulls-03-見牛.jpg"/>
 
 - 修行を積み重ねていくうちに、ついに牛の姿を実際に目の当たりにする段階です。真実の自己、仏性を実感し始める境地です。
 
 牛の姿がはっきりと見えてきます。つまり、仏性や本心を直接感じ始める段階です。六根（目・耳・鼻・舌・身・意）を通じて、あらゆる現象の中に仏性の働きを見出します。
 
 #### 4. **得牛（とくぎゅう）**
-<img src="/hypergroove/attachments/ten-bulls-04-得牛.jpg"/>
+<img src="/offbeat-count/attachments/ten-bulls-04-得牛.jpg"/>
 
 - 牛（仏性）を一度捉えたとしても、それを完全にコントロールするのは容易ではなく、時には逃げ出してしまうこともあるでしょう。修行の難しさと忍耐の必要性を象徴しています。
 
 ようやく牛を捕まえることができました。悟りの感覚が明確になりますが、まだ心は安定しておらず、妄想や習気（くせ）が強く、修行の努力が必要です。
 
 #### 5. **牧牛（ぼくぎゅう）**
-<img src="/hypergroove/attachments/ten-bulls-05-牧牛.jpg"/>
+<img src="/offbeat-count/attachments/ten-bulls-05-牧牛.jpg"/>
 
 - 牛をしっかりと飼いならす段階を表します。自分の本性（仏性）を確かに手に入れたら、それを失わないよう注意深く見守り制御する必要があります。修行が深まるにつれ牛は徐々に従順になります。
 
 牛をしっかりと調教していく段階です。日常生活の中で心を見守り、妄想が起きたらすぐに気づくようにします。この「牧牛」の修行が、実際の修行の核心です。
 
 #### 6. **騎牛帰家（きぎゅうきか）**
-<img src="/hypergroove/attachments/ten-bulls-06-騎牛帰家.jpg" />
+<img src="/offbeat-count/attachments/ten-bulls-06-騎牛帰家.jpg" />
 
 - 牛と牧童（修行者）が完全に一体化し、心の平安が得られた状態を表します。もはや牛を制御する必要はなくなり本来あるべき場所へと穏やかに帰ってきたことを表します。
 
 牛に乗って、ゆったりと家に帰る段階です。心の安定と解放感があり、無理せずとも心が本質と調和しています。悟りの余韻の中で、自然体で生きることができるようになります。
 
 #### 7. **忘牛存人（ぼうぎゅうそんじん）**
-<img src="/hypergroove/attachments/ten-bulls-07-忘牛存人.jpg" />
+<img src="/offbeat-count/attachments/ten-bulls-07-忘牛存人.jpg" />
 
 - 心の本来の場所に戻った修行者は、牛を捉えたことすら忘れてしまう状態を表しています。この段階では、牛（仏性）は自然なものとなり、特別な意識の対象ではなくなります。
 
 牛（仏性）を忘れて、人（主体）だけが残ります。すでに牛は完全に調伏され、意識せずとも心は乱れず、平常心で生活できるようになります。悟りへの執着も消え、「無為自然」の境地に至ります。
 
 #### 8. **人牛倶忘（にんぎゅうぐぼう）**
-<img src="/hypergroove/attachments/ten-bulls-08-人牛倶忘.jpg" />
+<img src="/offbeat-count/attachments/ten-bulls-08-人牛倶忘.jpg" />
 
 - 牛を捉えようとした理由も、牛を捉えたことも、そしてその行為そのものも忘れ去られた状態を表します。主体と対象の区別が消え、忘れること自体もない完全な無我・無心の境地を表します。
 
 人も牛も共に忘れ去られる段階です。修行の対象や主体すら意識から消え、「無心」「無我」の状態となります。知や言葉の働きも超えており、言葉では言い表せない悟りの深みに達します。
 
 #### 9. **返本還源（へんぽんかんげん）**
-<img src="/hypergroove/attachments/ten-bulls-09-返本還源.jpg" />
+<img src="/offbeat-count/attachments/ten-bulls-09-返本還源.jpg" />
 
 - あらゆる執着や分別が消え去った清浄無垢な境地に戻った状態を表します。ありのままの世界をあるがままに受け入れ、真実の自己と世界の根源的な姿を認識する状態になったことを示しています。
 
 悟りを得た後、さらに「本来のあり方」へと帰っていきます。悟った人は、世俗にとらわれず、また悟りにもとらわれません。ただ静かに、自然のままに生きる姿が描かれます。
 
 #### 10. **入鄽垂手（にってんすいしゅ）**
-<img src="/hypergroove/attachments/ten-bulls-10-入鄽垂手.jpg" />
+<img src="/offbeat-count/attachments/ten-bulls-10-入鄽垂手.jpg" />
 
 - 悟りを得たとしても、その境地に留まっているだけでは無意味ということを表しています。再び俗世の中に入り、人々と共に生き、人々に安らぎを与え、慈悲と智慧をもって導くことこそが究極の目的だということを表しています。
 
