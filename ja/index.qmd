@@ -22,11 +22,11 @@ title-block: false
 <div class="ats4u-twitter-video" >https://twitter.com/ats4u/status/2029452413749608552</div>
 </div>
 
-リズム道は、音楽のグルーヴを音韻学の見地から分析した<span style="font-size:120%">**{{<var OFBCT>}}**</span>という理論に従って練習する道場です。
-
 <div class="center-box">
 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/2009911295362105437</div>
 </div>
+
+リズム道は、音楽のグルーヴを音韻学の見地から分析した<span style="font-size:120%">**{{<var OFBCT>}}**</span>という理論に従って練習する道場です。
 
 <!-- Q2pl/9YPR+MKaTtE1LswGA==  -->
 
