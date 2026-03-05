@@ -1,5 +1,5 @@
 ---
-title: 武道としてのリズムの道
+title: リズム道
 format: html
 execute:
   enabled: true
