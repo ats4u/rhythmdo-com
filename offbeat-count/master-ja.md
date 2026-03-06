@@ -31,7 +31,7 @@ rhythmpress-preproc-args: []
 
 <!-- <nav id="toc"></nav> -->
 
-## はじめに <!-- {#benefits-of-hypergroove-theory} -->
+## はじめに <!-- {#benefits-of-offbeat-count-theory} -->
 
 **{{<var OFBCT>}}**は、全くグルーヴしない人がグルーヴするようになる為に必要な知識と技術、及びそれらを身に付ける為の方法を説明します。そしてこのグルーヴ能力と語学能力が等しいことを示します。ここでは **{{<var OFBCT>}}** で説明することの概要を説明し、これらの章をどのように読み進めることが良いかを説明致します。
 
