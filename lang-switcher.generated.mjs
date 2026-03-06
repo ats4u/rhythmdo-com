@@ -66,23 +66,45 @@
     box.className = 'rp-lang-switcher-toolbar d-flex align-items-center';
     box.style.marginLeft = '0.75rem';
 
-    const label = document.createElement('label');
-    label.setAttribute('for', 'rhythmpress-lang-switcher');
-    label.textContent = 'Language';
-    label.style.marginRight = '0.4rem';
+    const dropdown = document.createElement('div');
+    dropdown.className = 'dropdown rp-lang-switcher-dropdown';
 
-    const select = document.createElement('select');
-    select.id = 'rhythmpress-lang-switcher';
-    for (const lang of AVAILABLE) {
-      const opt = document.createElement('option');
-      opt.value = lang;
-      opt.textContent = LABELS[lang] || String(lang);
-      if (lang === currentLang) opt.selected = true;
-      select.appendChild(opt);
+    const toggle = document.createElement('button');
+    toggle.id = 'rhythmpress-lang-switcher';
+    toggle.type = 'button';
+    toggle.className = 'btn btn-sm dropdown-toggle';
+    toggle.setAttribute('data-bs-toggle', 'dropdown');
+    toggle.setAttribute('aria-expanded', 'false');
+    toggle.textContent = LABELS[currentLang] || String(currentLang || 'Language');
+
+    const menu = document.createElement('ul');
+    menu.className = 'dropdown-menu dropdown-menu-end';
+
+    toggle.classList.add('btn-outline-secondary');
+    toggle.style.backgroundColor = 'transparent';
+
+    function withAlpha(rgb, alpha) {
+      const m = String(rgb || '').match(/^\s*rgba?\(\s*([0-9.]+)\s*,\s*([0-9.]+)\s*,\s*([0-9.]+)(?:\s*,\s*([0-9.]+))?\s*\)\s*$/i);
+      if (!m) return null;
+      const r = Math.max(0, Math.min(255, Math.round(Number(m[1]))));
+      const g = Math.max(0, Math.min(255, Math.round(Number(m[2]))));
+      const b = Math.max(0, Math.min(255, Math.round(Number(m[3]))));
+      return 'rgba(' + r + ', ' + g + ', ' + b + ', ' + alpha + ')';
     }
 
-    select.addEventListener('change', function () {
-      const targetLang = canonicalize(select.value);
+    function applyToggleTone() {
+      const navbar = document.querySelector('.navbar');
+      if (!navbar) return;
+      const navStyle = window.getComputedStyle(navbar);
+      const navColor = navStyle && navStyle.color ? navStyle.color : '';
+      if (!navColor) return;
+      toggle.style.color = navColor;
+      toggle.style.borderColor = withAlpha(navColor, 0.6) || navColor;
+    }
+
+    applyToggleTone();
+
+    function navigateToLang(targetLang) {
       if (!targetLang || !ROUTES[targetLang]) return;
       writeChoice(targetLang);
       const p = window.location.pathname || '/';
@@ -90,38 +112,91 @@
       const targetUrl = nextPath + (window.location.search || '') + (window.location.hash || '');
       if (targetUrl === window.location.pathname + window.location.search + window.location.hash) return;
       window.location.assign(targetUrl);
-    });
-    select.addEventListener('click', function () { setTimeout(function () { persistCurrentSelection(select); }, 0); });
+    }
+
+    for (const lang of AVAILABLE) {
+      const li = document.createElement('li');
+      const item = document.createElement('button');
+      item.type = 'button';
+      item.className = 'dropdown-item';
+      if (lang === currentLang) item.classList.add('active');
+      item.textContent = LABELS[lang] || String(lang);
+      item.addEventListener('click', function () {
+        const targetLang = canonicalize(lang);
+        if (!targetLang) return;
+        navigateToLang(targetLang);
+      });
+      li.appendChild(item);
+      menu.appendChild(li);
+    }
+
+    dropdown.appendChild(toggle);
+    dropdown.appendChild(menu);
     if (currentLang && ROUTES[currentLang]) writeChoice(currentLang);
 
-    const slot = document.getElementById('rhythmpress-lang-switcher-slot');
-    const tools = document.querySelector('.navbar .quarto-navbar-tools');
-    const isMobile = !!(window.matchMedia && window.matchMedia('(max-width: 991.98px)').matches);
-    const slotInCollapsedNav = !!(slot && slot.closest('.navbar-collapse'));
+    const MOBILE_QUERY = '(max-width: 991.98px)';
+    const media = window.matchMedia ? window.matchMedia(MOBILE_QUERY) : null;
+    let toolsWrap = null;
 
-    if (slot && !(isMobile && slotInCollapsedNav)) {
-      while (slot.firstChild) slot.removeChild(slot.firstChild);
-      slot.appendChild(select);
-      return;
+    function ensureToolsWrap(tools) {
+      if (!tools) return null;
+      if (!toolsWrap || !toolsWrap.isConnected || toolsWrap.parentElement !== tools) {
+        const wrap = document.createElement('span');
+        wrap.className = 'rp-switcher-tools-inline';
+        wrap.style.display = 'inline-flex';
+        wrap.style.alignItems = 'center';
+        wrap.style.marginRight = '0.5rem';
+        tools.insertBefore(wrap, tools.firstChild);
+        toolsWrap = wrap;
+      }
+      return toolsWrap;
     }
 
-    if (tools) {
-      const wrap = document.createElement('span');
-      wrap.className = 'quarto-navigation-tool px-1 rp-switcher-tools-inline';
-      wrap.appendChild(select);
-      tools.insertBefore(wrap, tools.firstChild);
-      return;
+    function placeSwitcher() {
+      applyToggleTone();
+      const slot = document.getElementById('rhythmpress-lang-switcher-slot');
+      const tools = document.querySelector('.navbar .quarto-navbar-tools');
+      const isMobile = !!(media ? media.matches : (window.innerWidth <= 991.98));
+      const slotInCollapsedNav = !!(slot && slot.closest('.navbar-collapse'));
+
+      if (slot && !(isMobile && slotInCollapsedNav)) {
+        while (slot.firstChild) slot.removeChild(slot.firstChild);
+        slot.appendChild(dropdown);
+        if (toolsWrap && !toolsWrap.hasChildNodes() && toolsWrap.parentNode) toolsWrap.parentNode.removeChild(toolsWrap);
+        toolsWrap = null;
+        return;
+      }
+
+      if (tools) {
+        const wrap = ensureToolsWrap(tools);
+        if (wrap && dropdown.parentElement !== wrap) {
+          wrap.appendChild(dropdown);
+        }
+        return;
+      }
+
+      const host =
+        document.querySelector('.navbar .navbar-nav.ms-auto') ||
+        document.querySelector('.navbar .navbar-nav') ||
+        document.querySelector('.navbar .navbar-collapse');
+      if (!host) return;
+
+      if (dropdown.parentElement !== box) {
+        while (box.firstChild) box.removeChild(box.firstChild);
+        box.appendChild(dropdown);
+      }
+      if (box.parentElement !== host) {
+        host.appendChild(box);
+      }
     }
 
-    const host =
-      document.querySelector('.navbar .navbar-nav.ms-auto') ||
-      document.querySelector('.navbar .navbar-nav') ||
-      document.querySelector('.navbar .navbar-collapse');
-    if (!host) return;
-
-    box.appendChild(label);
-    box.appendChild(select);
-    host.appendChild(box);
+    placeSwitcher();
+    window.addEventListener('resize', placeSwitcher);
+    if (media && media.addEventListener) {
+      media.addEventListener('change', placeSwitcher);
+    } else if (media && media.addListener) {
+      media.addListener(placeSwitcher);
+    }
   }
 
   if (document.readyState === 'loading') {
