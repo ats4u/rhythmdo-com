@@ -19,7 +19,7 @@ MORA_SPEAKERS: "<ruby>日本人<rt>モーラ拍リズム言語話者</rt></ruby>
 MLWBOR: "<ruby><rb>多層弱拍基軸律動</rb><rt>Multi-Layered Weak-Beat Precedence</rt></ruby>"
 BOTTOM_ALIGNING: "尻合わせ"
 SBL: "強拍先行"
-WBL: "強拍先行"
+WBL: "弱拍先行"
 HAL: "頭合わせ"
 BAL: "尻合わせ"
 SAA: "<ruby><rb>強拍基軸</rb><rt>Strong-Beat Anchoring Axis</rt></ruby>"
@@ -28,8 +28,7 @@ WAA: "<ruby><rb>弱拍基軸</rb><rt>Weak-Beat Anchoring Axis</rt></ruby>"
 3TONR: "3⁻ⁿリズム"
 CONDITIONS_OF_GROOVE:   "<ruby><rb>グルーヴ四条件</rb><rt></rt></ruby>"
 CONDITIONS_OF_TATENORI: "<ruby><rb>縦乗り四条件</rb><rt></rt></ruby>"
-
-
+TATENORI_ONEWAY: "縦乗りの一方向性"
 
 # === Phonorhythmatology ===
 PHONORHYTHMATOLOGY: "<ruby>音韻学的音楽分析<rt>フォノリズマトロジー</rt></ruby>"
@@ -53,12 +52,12 @@ PHONOLOGICAL_RULE_LEVELS: "音韻規則レベル"
 # === Phonology of Offbeat Count
 MBS: "<ruby>モーラ拍の６つの欠落音韻規則<rt>Japanese Invisible Dog Poop</rt></ruby>"
 HAP: "<ruby>音素の頭合わせ<rt>HAP=Head Aligned Phonomes</rt></ruby>"
-PNS: "<ruby>音韻表記厳密化<rt>PNI = Prosodic Notation Strictification</rt></ruby>"
+PNS: "<ruby>音韻表記厳密化<rt>PNS = Prosodic Notation Strictification</rt></ruby>"
 PNSPTI: "<ruby><rb>音韻表記厳密化の感覚理論逆進性</rb><rt>Phonological Notation Strictification Perceptual-Theoretical Inversion</rt></ruby>"
 
 # === PHONOLOGICAL ANCHORING PRINCIPLE ===
 RECURSIVE_PROSODIC_EQUIVALENCE_PRINCIPLE: "<ruby><rb>再帰的韻律同一性原理</rb><rt>RPEP=Recursive Prosodic Equivalence Principle</rt></ruby>"
-RMOP: "<ruby><rb><律動的頭子音最大化原則</rb><rt>RMOP=Rhythmic Maximal Onset Principle</rt></ruby>"
+RMOP: "<ruby><rb>律動的頭子音最大化原則</rb><rt>RMOP=Rhythmic Maximal Onset Principle</rt></ruby>"
 
 # === Schizorhythmos And Solirhythmos ===
 ONSET_STRUCTURING_AXIS: "<ruby><rb>頭子音構成軸</rb><rt>Onset Structuring Axis</rt></ruby>"
@@ -68,7 +67,7 @@ SOLIRHYTHMOS: "<ruby><rb>孤立拍</rb><rt>ソリリスモス</rt></ruby>"
 SCHIZORHYTHMOS_ENG: "<ruby><rb>分裂拍</rb><rt>Schizorhythmos</rt></ruby>"
 SOLIRHYTHMOS_ENG: "<ruby><rb>孤立拍</rb><rt>Solirhythmos</rt></ruby>"
 PROACTIVE_DIVISIONISM: "<ruby><rb>能動的事前予期裁ち割り主義</rb><rt>PD=プロアクティヴ・ディヴィジョニズム</rt></ruby>"
-REACTIVE_APPENDISM: "<ruby><rb>受動的事後追従付け足し主義</rb><rt>RD=リアクティヴ・アペンディズム</rt></ruby>"
+REACTIVE_APPENDISM: "<ruby><rb>受動的事後追従付け足し主義</rb><rt>RA=リアクティヴ・アペンディズム</rt></ruby>"
 PROACTIVE_DIVISIONISM_ENG: "<ruby><rb>能動的事前予期裁ち割り主義</rb><rt>Proactive Divisionism</rt></ruby>"
 REACTIVE_APPENDISM_ENG: "<ruby><rb>受動的事後追従付け足し主義</rb><rt>Reactive Appendism</rt></ruby>"
 
