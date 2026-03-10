@@ -11163,7 +11163,7 @@ style="width:6.0339in;height:1.7398in" />この様に４拍子の４拍目と５
   --
   -->
 
-## 縦乗りのメカニズム <!-- {#mechanism-behind-tatenori}-->
+## 縦乗りが起こるメカニズム <!-- {#mechanism-behind-tatenori}-->
 
 
 ### 縦乗りと横乗りの本質的な違い要約
