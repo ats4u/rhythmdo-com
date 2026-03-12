@@ -1,0 +1,23 @@
+---
+title: ファイルが見つかりませんでした
+created: 2025-08-30T10:00
+format: html
+execute:
+  enabled: true
+  echo: false
+  output: true
+  eval: true
+  cache: false
+title-block: false
+toc: false
+metadata:
+    robots: "noindex,nofollow"
+tags:
+  - foo
+---
+
+ファイルが見つかりませんでした。
+
+::: { style="text-align:center" }
+[トップへ](/ja/){ style="font-size:3em" }
+:::

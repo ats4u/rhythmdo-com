@@ -18,6 +18,16 @@ tags:
 
 ファイルが見つかりませんでした。
 
-<span style="font-size:3em">
-[トップへ](/)
-</span>
+```{python}
+#| output: asis
+from rhythmpress import rhythmpress
+
+out = rhythmpress.create_runtime_404_entry(
+  input_conf   = "./_rhythmpress.conf",
+  current_lang = "en", # use "en" in ja/index.qmd
+  strict       = False
+)
+print(out)
+```
+
+[トップへ](/){ style="font-size:3em" }
