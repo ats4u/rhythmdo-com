@@ -43,8 +43,8 @@ rsync -av $SRC/.assets/             $DST/.assets/
 rsync -av $SRC/assets/              $DST/assets/
 rsync -av $SRC/.github/             $DST/.github/
 rsync -av $SRC/requirements.txt     $DST/requirements.txt
-rsync -av $SRC/_metadata.yml        $DST/_metadata.yml
-rsync -av $SRC/_variables.yml       $DST/_variables.yml
+rsync -av $SRC/_metadata-ja.yml     $DST/_metadata-ja.yml
+rsync -av $SRC/_metadata-en.yml     $DST/_metadata-en.yml
 rsync -av $SRC/_quarto.yml          $DST/_quarto.yml
 rsync -av $SRC/_redirects           $DST/_redirects
 rsync -av $SRC/_rhythmpress.conf    $DST/_rhythmpress.conf

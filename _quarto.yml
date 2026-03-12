@@ -11,6 +11,8 @@ project:
 #    - "!**/master*.qmd" # explicitly ignore master*.md anywhere 
 #    - "!drafts/*"       # exclude paths
   render:
+    - "/*.qmd"
+    - "!README.md"
     - "!AGENTS.md"
     - "!AGENTS.override.md"
   post-render:
