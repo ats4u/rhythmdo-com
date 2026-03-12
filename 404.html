@@ -521,7 +521,55 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>ファイルが見つかりませんでした。</p>
-<p><span style="font-size:3em"><a href="/.">トップへ</a></span></p>
+<script>
+(function () {
+  const AVAILABLE = ["en", "ja"];
+  const TARGETS = {"en": "/en/404.html", "ja": "/ja/404.html"};
+  const DEFAULT_LANG = "en";
+  const ENTRY_PATHS = new Set(["/404.html"]);
+  const PATH = window.location.pathname || "/";
+  if (!ENTRY_PATHS.has(PATH)) return;
+
+  const lowerToCanonical = Object.create(null);
+  for (const x of AVAILABLE) lowerToCanonical[String(x).toLowerCase()] = x;
+
+  function canonicalize(candidate) {
+    if (!candidate) return null;
+    const c = String(candidate).trim().toLowerCase();
+    if (!c) return null;
+    if (lowerToCanonical[c]) return lowerToCanonical[c];
+    const base = c.split('-')[0];
+    if (lowerToCanonical[base]) return lowerToCanonical[base];
+    return null;
+  }
+
+  function readCookie(name) {
+    const m = document.cookie.match(new RegExp('(?:^|;\\s*)' + name + '=([^;]+)'));
+    return m ? decodeURIComponent(m[1]) : null;
+  }
+
+  let preferred = null;
+  try { preferred = canonicalize(localStorage.getItem('rhythmpress_lang')); } catch (_) {}
+  if (!preferred) preferred = canonicalize(readCookie('rhythmpress_lang'));
+  if (!preferred) preferred = canonicalize(readCookie('lang'));
+  if (!preferred) {
+    const nav = navigator.languages || [];
+    for (const n of nav) {
+      preferred = canonicalize(n);
+      if (preferred) break;
+    }
+  }
+  if (!preferred) preferred = DEFAULT_LANG;
+
+  const target = TARGETS[preferred] || TARGETS[DEFAULT_LANG];
+  if (!target) return;
+
+  const normalizedPath = PATH.endsWith('/') ? PATH : (PATH + '/');
+  if (PATH === target || normalizedPath === target) return;
+  window.location.replace(target);
+})();
+</script>
+<p><a href="/." style="font-size:3em">トップへ</a></p>
 
 
 
