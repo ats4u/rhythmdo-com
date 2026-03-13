@@ -11017,46 +11017,48 @@ To explain the mechanism of tatenori, it is first necessary to define the terms 
   --
   -->
 
-## 縦乗りが起こるメカニズム <!-- {#mechanism-behind-tatenori}-->
+## The Mechanism by Which Tatenori Arises <!-- {#mechanism-behind-tatenori}-->
 
 
-### 縦乗りと横乗りの本質的な違い要約
+### Summary of the Essential Difference Between Tatenori and Yokonori
 
-縦乗りの本質は**モーラ拍リズム**が持つリズム認識方法にあります。
+The essence of tatenori lies in the way **mora-timed rhythm** recognizes rhythm.
 
-日本語→1音節が頭子音と母音の2音、または母音のみ。リズムは必ず2^n になる。音節の先頭自体を音節の先頭だと思っている→縦乗り
+Japanese:
+One syllable consists either of two sounds, an onset consonant and a vowel, or of a vowel alone. The rhythm therefore always becomes 2^n. The beginning of the syllable itself is felt to be the beginning of the syllable. This leads to tatenori.
 
-英語→1音節が常に頭子音と母音と末子音の3音。リズムは必ず3^nになる。音節の先頭を母音と感じており、子音はその間に漂う不定期なものと考えている。→横乗り
+English:
+One syllable always consists of three parts: onset consonant, vowel, and coda consonant. The rhythm therefore always becomes 3^n. The vowel is felt to be the beginning of the syllable, while consonants are regarded as irregular things drifting between vowels. This leads to yokonori.
 
-日本語と英語のリズムは、母音のみの音節の扱いに大きな違いが現れます。日本語は母音と子音を区別しないため、音節内に母音しかないと母音位置が子音位置を追い越して前進します。このことを{{<meta var.NA.en>}} と呼びます。
+The rhythm of Japanese and English differs most clearly in how syllables containing only a vowel are handled. Because Japanese does not distinguish consonants from vowels, if a syllable contains only a vowel, the vowel position advances past the consonant position. This is called {{<meta var.NA.en>}}.
 
-しかし英語のリズムは子音と母音を区別するため音節内に母音しかなくても母音の位置は常に一定になります。このことを音節核の等時性と言います。
+English rhythm, by contrast, distinguishes consonants from vowels, so even if a syllable contains only a vowel, the position of the vowel always remains fixed. This is called Nuclear Isochrony.
 
-これがアメリカ人の弱拍の認識に反映され、弱拍は強拍より前に入る装飾音として認識されています。これは弱拍を子音、強拍を母音とするアナロジーとして認識している事を表しています。
+This is reflected in how Americans perceive weak beats: weak beats are recognized as ornamental notes that enter before strong beats. This shows that they perceive them through an analogy in which weak beats correspond to consonants and strong beats correspond to vowels.
 
-しかし日本語は子音と母音を区別しないためこの習慣がありません。それらは飽くまでも2つの連続する音節として認識されます。つまり日本人はこの『先行する弱拍』を認識する事が出来ません。
+Japanese, however, has no such habit because it does not distinguish consonants from vowels. Such sounds are recognized merely as two successive syllables. In other words, Japanese people cannot perceive these "preceding weak beats."
 
-これはつまり、日本人には『弱拍』と言う概念自体が存在しない事を表しています。日本人にとっての弱拍はあくまでも連続する2つの拍でしかありません。 弱拍の本質は時間の分割にあります。この時間を分割すると言う概念自体が言語上に備わっていません。
+This means that, for Japanese people, the very concept of the weak beat does not exist. A weak beat is merely two successive beats. The essence of the weak beat lies in the division of time, but that very concept of dividing time is not built into the language.
 
-この認識の違いが実際に日本人がジャズを演奏する時に起こります。日本人はこの先行する弱拍を聞くと、そこが2つの連続する拍の先頭だと間違って認識してしまい、小節位置の認識がずれてしまうのです。これは日本語で母音しかない音節の時に母音位置が子音位置を追い抜かして移動する事に呼応しています。
+This difference in perception appears when Japanese musicians perform jazz. When Japanese listeners hear a preceding weak beat, they mistakenly recognize it as the beginning of two successive beats, and their sense of bar position slips out of place. This corresponds to how, in Japanese, the vowel position moves forward past the consonant position when a syllable contains only a vowel.
 
-この事を「オンビートスリップストリーム」と呼びます。
+I call this **On-Beat Slipstream**.
 
-これは日本人がレイドバックを理解出来ない事をも説明することができます。
+This also explains why Japanese people cannot understand laid-back timing.
 
-英語は子音が非常に長い言語として知られています。リンキングで接続した末子音をも含めると5重6重の子音が現れます。すると末子音の最後の子音が等時性を持ち母音がやや遅れるのです。
+English is known as a language with very long consonants. Once linked coda consonants are included, clusters of five or six consonants can appear. As a result, the last consonant of the coda acquires isochrony, and the vowel is delayed slightly.
 
-この習慣が音楽に反映されると、弱拍に複雑な修飾音を追加した上でどこでリズムを取り(等時性を確保し)強拍の位置がやや遅れた位置に現れるというレイドバックという表現手法となって現れます。
+When this habit is reflected in music, it appears as the expressive technique called laid-back timing: complex ornaments are added to the weak beat, the rhythm is taken at a point that preserves isochrony, and the strong beat appears slightly later than expected.
 
-日本人がこの遅れた強拍を聞くとそこを小説の開始位置だと錯覚してしまい、間違った小節位置として認識してしまうのです。
+When Japanese listeners hear this delayed strong beat, they mistakenly perceive it as the start of the bar and recognize the wrong bar position.
 
-この事を「オンビート渋滞」と呼びます。
+I call this **On-Beat Congestion**.
 
-テンポが走る、テンポがもたるという現象は、西洋音楽を演奏する日本人独特なリズムの錯覚が起こす日本人独特な現象です。
+The phenomena of tempo rushing and tempo dragging are uniquely Japanese rhythmic illusions that arise when Japanese performers play Western music.
 
-英語では母音に等時性があり子音には等時性がありません。しかし日本語では母音子音の両方に等時性があるばかりか無音にも等時性があります。この『音の入れ物』自体に等時性がある。これを**{{<meta var.MI.en>}}**と呼びます。
+In English, vowels have isochrony but consonants do not. In Japanese, however, not only vowels and consonants but even silence has isochrony. The "container of sound" itself has isochrony. I call this **{{<meta var.MI.en>}}**.
 
-縦乗りからの脱出は、このモーラという認識の限界からの脱出のドラマなのです。
+Escaping from tatenori is the drama of escaping from the perceptual limits of the mora.
 
 
 <!--
