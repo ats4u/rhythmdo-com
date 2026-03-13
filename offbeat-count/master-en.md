@@ -5711,40 +5711,40 @@ The blind spot about themselves that Japanese people do not notice at all — th
 That is the true nature of Tatenori.
 
 
-## 世界は3⁻ⁿ拍子で出来ている <!-- {#world-is-three-to-negative-n} -->
+## The World Is Made of 3⁻ⁿ Metres <!-- {#world-is-three-to-negative-n} -->
 
-*グルーヴの本質は多重になった3拍子である* ───  {{<meta var.3TONT.en>}} の序論として世界中の3拍子の音楽を御紹介致します。ジャズの起源となったゲーリック及び黒人教会音楽リズムへの理解を深めることが演奏上のグルーヴ力を向上させます。そしてこれは英語のリズムの起源を知る旅と言い換えることも可能です。 ジャズのリズムの起源、そして英語のリズムの起源を感覚的に理解するための礎として、ここで世界中の3拍子/9拍子/27拍子の音楽を御紹介致します。これらの音楽は決して理解が容易いものではありませんが、ジャズのスイングやR&B、ファンクなどのグルーヴとその本質は共通です。何度も聴いて聴き馴染むことで、現代的なグルーヴの感覚を養いましょう。
+*The essence of groove lies in layered triple metre.* As an introduction to {{<meta var.3TONT.en>}}, this section presents triple-metre music from around the world. Deepening our understanding of Gaelic rhythms and Black church rhythms, which became part of the roots of jazz, increases our practical ability to groove. It can also be described as a journey toward the origins of English rhythm. As a foundation for intuitively grasping the origins of jazz rhythm, and also the origins of English rhythm, we will look at music from around the world built on 3-beat, 9-beat, and 27-beat structures. None of this music is easy to understand at first, but it shares its essence with the groove of jazz swing, R&B, and funk. By listening repeatedly until it becomes familiar, let us cultivate a modern sense of groove.
 
 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1660288431828918275</div>
-<div class="ats4u-twitter-video-caption">伝統的なジャズに近い『ザ・ビッグアップル』リンク先で情関連報を紹介</div>
+<div class="ats4u-twitter-video-caption">"The Big Apple," close to traditional jazz. The linked post provides related background information.</div>
 
-ここで紹介している音楽は全て３拍子を多重化したリズムを持っています。これらの音楽のリズムはとても複雑でしばしば難解です。しかし、これらを何度も聴いて慣れ親しむことはグルーヴに対する深い造詣を与えてくれます。
+All the music introduced here uses rhythms built by layering triple metre. These rhythms are highly complex and often difficult to parse. But listening to them repeatedly and becoming familiar with them will give you a deeper understanding of groove.
 
-#### 月の光（チッコリーニ）
+#### Clair de lune (Ciccolini)
 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1680263197268520960</div>
 
-#### Terry Reiley の The Padova Concert から The Discovery
+#### "The Discovery" from Terry Riley's *The Padova Concert*
 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1680263993892700160</div>
 
-#### Philip Tagg 先生が作ったスコッチスナップを使ったリズムの音楽
-音楽史学者のフィリップ・タグ先生が作ったスコットランド民謡のリズムを使った音楽
+#### Music Using the Scotch Snap, Composed by Philip Tagg
+A piece by the music historian Philip Tagg using rhythms from Scottish folk music.
 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1680269367874060290</div>
 
-#### Inama - Diamond Platnumz ft Fally Ipupa
-2020年頃にインターネットで世界的に流行したタンザニアのミュージシャン・ダイアモンド・プラチナムさんの音楽・Fally Ipupa氏をボーカリストとしてフューチャした。
+#### Inama - Diamond Platnumz ft. Fally Ipupa
+A song by the Tanzanian musician Diamond Platnumz that became globally popular on the internet around 2020, featuring Fally Ipupa as vocalist.
 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1680270246333284354</div>
 
 #### Pray for Me - Moses Tyson Jr.
-ゴスペル音楽。モーゼス・タイソンJr. はスライ・ストーンのいとこで、スライストーン氏の進めでギターを弾き始めた12歳以来の長い経歴をもっている。
+A gospel performance. Moses Tyson Jr. is a cousin of Sly Stone and has had a long career since he began playing guitar at age twelve on Sly Stone's recommendation.
 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1680270910929125377</div>
 
-#### Pray for Me - Richard Mr.Clean White
-伝説的なゴスペルミュージシャンであり司教のリチャード・ミスタークリーン・ホワイト氏の演奏する Pray For Me
+#### Pray for Me - Richard Mr. Clean White
+"Pray for Me" performed by the legendary gospel musician and bishop Richard Mr. Clean White.
 
 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1680271219118182401</div>
 
 #### Footprints · Miles Davis
-マイルス・デイヴィスの名演・フットプリンツ
+Miles Davis's classic performance of "Footprints."
 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1680271791103811584</div>
 
 #### Virgo - Wayne Shorter
@@ -5755,420 +5755,420 @@ That is the true nature of Tatenori.
 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1680274200152653824</div>
 
 #### Moses Tyson Jr. / Near the Cross
-ゴスペルのスタンダード曲 Near the Cross は27/8拍子の曲です。
+The gospel standard "Near the Cross" is in 27/8.
 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1741136150394458596</div>
 
-#### Radiohead のCodex
-小節長は変化しないままで 12/8 及び 9/8 を入れ替える、アフリカ南部の音楽とヨーロッパの民族ケルト族の一派であるゲール族の音楽に共通して現れるジャズの起源となったリズムが、レディオヘッドのこの曲にも表れます。
+#### Radiohead's "Codex"
+Without changing the bar length, this piece alternates 12/8 and 9/8. The rhythm that lies at the roots of jazz, common to southern African music and the music of the Gaels, a Celtic people of Europe, also appears in this Radiohead song.
 
 #### Homecoming / John Abercrombie - The Gateway Trio
-ジョン・アバークロンビーの The Gateway Trio の演奏で Homecoming です。27/8拍子＝アフリカの鼓動とゲールの魂のハイブリッド音楽 ─── この英語の根底に流れているリズムがジャズに反映されています。
+This is "Homecoming," performed by John Abercrombie's The Gateway Trio. 27/8 is hybrid music of Africa's heartbeat and the Gaelic soul, and the rhythm underlying English itself is reflected here in jazz.
 
 <div class="ats4u-twitter-video" >https://x.com/raradiohead/status/1756867358457782735</div>
 
-#### ゴスペルのスタンダード曲 God will Supply
+#### Gospel Standard "God Will Supply"
 
-God will Supply サブディヴィジョンが 3x3x3 で構成される 27/8 拍子です。
+"God Will Supply" is in 27/8, with a subdivision structure of 3x3x3.
 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1766688387015360780</div>
 
-#### ニア・ザ・クロス／ミシシッピ・マス・クワイア（コーラス）
-ニア・ザ・クロス／ミシシッピ・マス・クワイア（コーラス）The Mississippi Mass Choir - Near The Cross ／Credit : Malaco Music [https://t.co/c2UXcARa8D](https://t.co/c2UXcARa8D)
+#### Near the Cross / Mississippi Mass Choir (Chorus)
+The Mississippi Mass Choir - "Near the Cross" / Credit: Malaco Music [https://t.co/c2UXcARa8D](https://t.co/c2UXcARa8D)
 
 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1766685980965355523</div>
 
-#### ウォーク・イン・ザ・ライト／モーゼス・タイソン・Ｊｒ
-【27/8拍子＝アフリカの鼓動とゲールの魂のハイブリッド音楽 ─── それがジャズ】 3小節/3拍子/3連符=27/8 拍子の名曲です。 モーゼス・タイソン・Ｊｒ ウォーク・イン・ザ・ライト Credit :Walk In The Light Moses Tyson Jr.
+#### Walk in the Light / Moses Tyson Jr.
+[27/8 = a hybrid music of Africa's heartbeat and the Gaelic soul; that is jazz.] A masterpiece in 27/8: 3 bars / triple metre / triplet subdivision. Moses Tyson Jr., "Walk in the Light." Credit: Walk In The Light Moses Tyson Jr.
 
 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1766798603752984792</div>
 
-#### ウォーク・イン・ザ・ライト／アレサ・フランクリン
-【27/8拍子＝アフリカの鼓動とゲールの魂のハイブリッド音楽 ─── それがジャズ】ウォーク・イン・ザ・ライト／アレサ・フランクリン（1987年のライブ演奏）
+#### Walk in the Light / Aretha Franklin
+[27/8 = a hybrid music of Africa's heartbeat and the Gaelic soul; that is jazz.] "Walk in the Light" performed by Aretha Franklin (live in 1987).
 
 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1766806553754267959</div>
 
-#### チャイコフスキー交響曲第4番第1楽章
-チャイコフスキー交響曲第4番第1楽章は、3拍子16分音符／スコッチスナップ／尻合わせリズムが多用されています。 ロシア国立交響楽団／指揮ターイェ・ミッケルセン（ノルウェー）State Academic Symphony Orchestra of Russia, conductor Terje Mikkelsen, Symphony No.4, 1st movement [https://youtube.com/watch?v=iE9LhoKEmBk](https://t.co/LYUADKSMG8)
+#### Tchaikovsky Symphony No. 4, First Movement
+Tchaikovsky's Symphony No. 4, first movement, makes extensive use of triple-metre sixteenth notes, the Scotch snap, and tail-aligned rhythm. State Academic Symphony Orchestra of Russia / conductor Terje Mikkelsen (Norway), Symphony No. 4, 1st movement [https://youtube.com/watch?v=iE9LhoKEmBk](https://t.co/LYUADKSMG8)
 
-#### Zone III (Live) / Then! / Then! (Remastered) Allan Holdsworth
+#### Zone III (Live) / Then! / Then! (Remastered) / Allan Holdsworth
 
-アラン・ホールズワースの Zone III という即興曲です。 アルバム Then! に収録されています。 これは 16分音符/3拍子/3小節で構成されるリズムです。これはつまり 72/16= 8x3x3/16 という拍子で 12/8 を拡張したリズムともいえます。 Zone III (Live) / Then! / Then! (Remastered) Allan Holdsworth [https://](https://t.co/DeQa8DiFG8)
+This is the improvisation "Zone III" by Allan Holdsworth, included on the album *Then!*. It is built from sixteenth notes / triple metre / 3 bars. In other words, it can also be described as 72/16 = 8x3x3/16, an expanded version of 12/8. Zone III (Live) / Then! / Then! (Remastered) Allan Holdsworth [https://](https://t.co/DeQa8DiFG8)
 
 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1767900994594329066</div>
 
-#### ザオウリの踊りの9拍子音楽
+#### 9-Beat Music for the Zaouli Dance
 
-アフリカの象牙海岸周辺地域の文化であるザオウリの踊りの音楽は9拍子です。
+The music of the Zaouli dance, a cultural tradition from the region around Ivory Coast in Africa, is in nine-beat metre.
 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1973227618389610506</div>
 
-#### ホーリー・ワン Dominique Johnson / Holy one
-無名のB3オルガンの名人・ドミニク・ジョンソン氏の演奏でホーリーワンです。
+#### Holy One / Dominique Johnson
+This is "Holy One" performed by the little-known B3 organ master Dominique Johnson.
 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1738530936629702844</div>
 
-#### アナイシャのホーリーワン
+#### Anaysha's "Holy One"
 Anaysha - Holy One
 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1738529775860559881</div>
 
-#### トラマイン・ホーキンスのホーリーワン
+#### Tramaine Hawkins's "Holy One"
 
-実は、HOLY ONE のオリジナル演奏者は、このトラマイン・ホーキンスなのだそうです。 この演奏は、更に、更にパワフルな演奏でしたしかも、もう遥か昔に絶版になり存在も確認出来ない様な無名のアルバムです。 Tramaine Hawkins Holy One [https://youtube.com/watch?v=QAbIVf](https://t.co/ZJ3HCpUkQc)
+Apparently Tramaine Hawkins was in fact the original performer of HOLY ONE. This performance is even more powerful, and it comes from an obscure album so old that it has long been out of print and is difficult even to verify. Tramaine Hawkins Holy One [https://youtube.com/watch?v=QAbIVf](https://t.co/ZJ3HCpUkQc)
 
 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1781164917103739124</div>
 
-#### ラオス民族音楽ラム・バンラン・シヤンラカントーンの孫を育てる老人
-ラオス民族音楽ラム ラムローンヤーオ・孫を育てる老人 タイ東北の監督・鬼才シーカンソーのプロデュース 歌・バンラン・シヤンラカントーン ลำล่องยาว ผู้เฒ่าเลี้ยงหลาน ชุด ติดไม้ติดมือ โดยสี คันโซ่ ลำโดย บันลังก์ เสียงระฆังทอง [https://youtube.com/watch?v=pNmazw](https://t.co/VQdGm4xWnp)
+#### Lao Lam Music: Banlang Siangrakanthong's "Old Man Raising His Grandchild"
+Lao lam music, "Old Man Raising His Grandchild," produced by the brilliant Isan director Si Kanso and sung by Banlang Siangrakanthong. ลำล่องยาว ผู้เฒ่าเลี้ยงหลาน ชุด ติดไม้ติดมือ โดยสี คันโซ่ ลำโดย บันลังก์ เสียงระฆังทอง [https://youtube.com/watch?v=pNmazw](https://t.co/VQdGm4xWnp)
 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1789647164345593947</div>
 
-#### ラオス民族音楽ラム スィウィト・チャオナー（農民の人生） 歌・チャウィワン・ダムヌン
-ラオス民族音楽ラム スィウィト・チャオナー（農民の人生） 歌・チャウィワン・ダムヌン（民謡ラムの名人） ฉวีวรรณ ดำเนิน - ชีวิตชาวนา
+#### Lao Lam Music: "Chiwit Chaona" (A Farmer's Life), Sung by Chawiwan Damnoen
+Lao lam music, "Chiwit Chaona" ("A Farmer's Life"), sung by Chawiwan Damnoen, a master of lam folk song. ฉวีวรรณ ดำเนิน - ชีวิตชาวนา
 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1789672874288333070</div>
 
-#### アラン・ホールズワースのプロトコスモス
+#### Allan Holdsworth's "Proto-Cosmos"
 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1821920572630298859</div>
 
 #### Radiohead / Daydreaming
 
-このRadiohead - Daydreaming の映像が他の Radiohead の映像と一線を画している様に感じるのは、決して気のせいではなく、実はこの作品は米国の鬼才フィルム作家 Paul Thomas Anderson とのコラボ。
+It is not just your imagination that Radiohead's "Daydreaming" feels markedly different from other Radiohead videos. In fact, this work was a collaboration with the brilliant American filmmaker Paul Thomas Anderson.
 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1625112830323347462</div>
 
-#### エンニオ・モリコーネ「インテルヴァッロ２」
-Ennio Morricone – Intervallo II
+#### Ennio Morricone "Intervallo II"
+Ennio Morricone - Intervallo II
 
 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1841084562312417471</div>
 
-#### Wrapped Around Your Finger Dianne Reeves With Bob Belden Ensemble
+#### Wrapped Around Your Finger / Dianne Reeves with Bob Belden Ensemble
 
-譜面上は8分音符だが、ずれによってその三倍の速さでの三連符三拍子を表現する。これがラテンに於けるベース打点のニュアンスの基礎になる。 16分音符の弱拍位置が基準となり、8分音符の強拍位置が遅れる。 弱拍は短く切られ音の止まる位置で標準的な強拍の位置を表現する一方、強拍は遅れて長く弛緩した表情を表現する。
+On the page it is written as eighth notes, but through displacement it expresses triple-metre triplets at three times that speed. This is foundational to the nuance of bass attack placement in Latin music. The weak-beat position of the sixteenth note becomes the reference point, and the strong-beat position of the eighth note is delayed. The weak beats are cut short, and the point where the sound stops expresses the standard strong-beat position, while the strong beats arrive late and create a long, relaxed expression.
 
 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1850896343910567959</div>
 
-#### ドン・プーレンのリッスン・トゥー・ザ・ピープル
+#### Don Pullen's "Listen to the People"
 
-譜面上は8分音符だが、ずれによってその三倍の速さでの三連符三拍子を表現する。これがラテンに於けるベース打点のニュアンスの基礎になる ─── その２ 【ラテンに於けるベース打点のニュアンスの基礎】16分音符の弱拍位置が基準となり、8分音符の強拍位置が遅れる。 弱拍は短く切られ、その音の止まる位置で標準的な強拍の位置を表現する一方、強拍は遅れて長く弛緩した表情を表現する。
+On the page it is written as eighth notes, but through displacement it expresses triple-metre triplets at three times that speed. This is foundational to the nuance of bass attack placement in Latin music, part 2. The weak-beat position of the sixteenth note becomes the reference point, and the strong-beat position of the eighth note is delayed. The weak beats are cut short, and the point where the sound stops expresses the standard strong-beat position, while the strong beats arrive late and create a long, relaxed expression.
 
 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1850907350695399730</div>
 
-#### チッコリーニのジムノペディ１
-チッコリーニのジムノペディ１ ─── 究極の三拍子のニュアンス チッコリーニのジムノペティ１ チッコリーニが85歳の時の演奏（2010年） ─── 極めて短い極めて衝撃的な演奏 [https://youtube.com/watch?v=0peXnO](https://t.co/cyItYnwDoO)
+#### Ciccolini's Gymnopédie No. 1
+Ciccolini's Gymnopédie No. 1: the ultimate nuance of triple metre. A performance by Ciccolini at age 85 (2010), extremely short and extremely striking [https://youtube.com/watch?v=0peXnO](https://t.co/cyItYnwDoO)
 
 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1850905277513789534</div>
 
 #### John Taylor - Speak to Me
-イギリスの天才ジャズ・ピアニスト (1942〜2015 ) 幻の名盤 Decipher から Speak to Me スイングバラードの3連符を3拍子に見立て、更にその中を3で分割する 3^n リズムの実例になっている。Credit : [https://youtube.com/watch?v=k7mRBdhAtZc](https://t.co/ZEDGsfMoDg)
+From *Decipher*, the legendary hidden masterpiece by the British genius jazz pianist John Taylor (1942-2015): "Speak to Me." It is an example of 3⁻ⁿ rhythm, where the swing-ballad triplets are treated as triple metre and then further subdivided by three. Credit: [https://youtube.com/watch?v=k7mRBdhAtZc](https://t.co/ZEDGsfMoDg)
 
 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1883461746985480443</div>
 
-#### ノルウェーのクランパスのマーチ
-9/8 (3拍子３連符) が現れています。このリズムはインド・東南アジア・東アジアの民族音楽には表れないリズムです。 9/8 (しばしば27/8や36/8)は、アフリカとゲール(現スコットランド・アイルランド)の音楽によく見られます。
+#### Norway's Krampus March
+9/8 (triple-metre triplets) appears here. This rhythm does not appear in the folk music of India, Southeast Asia, or East Asia. 9/8, often 27/8 or 36/8, is common in the music of Africa and the Gaels of modern Scotland and Ireland.
 
 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1885722201229594748</div>
 
 #### Aphex Twin - QKThr
 Aphex Twin - QKThr
 
-    （最初の1拍は休符）
+    (The first beat is a rest)
     3|3|3 =9=3*3 (INTRO)
     4|4|5|5 =18=3 * 6
     3|2|2|3|2 =12 = 3*4
     3|3|3|3|3|3 =18 = 3*6
     3|3|3|2|3|3 = 17 = 3* 6 -1
     3|3|3 =9=3*3 (OUTRO)
-    (最後の3拍は休符)
+    (The final three beats are rests)
 
 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1885728333415288979</div>
 
-#### Bobo Stenson Trio -Dormattan
-Bobo Stenson Trio -Dormattan 北欧ジャズのフリーテンポの様に聴こえるリズムはしばしば 9/8 拍子で演奏されます。
+#### Bobo Stenson Trio - Dormattan
+Rhythms that sound almost like free tempo in Nordic jazz are often performed in 9/8.
 
 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1885731982577217639</div>
 
-#### Spaceflight Simulator の旧テーマ曲
+#### The Former Theme Song of Spaceflight Simulator
 
 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1957084023928291419</div>
 
-#### 君を探してサラカムへ帰る
+#### Return to Sarakham Searching for You
 
-ตามน้องกลับสารคาม（君を探してサラカムへ帰る） ตามน้องกลับสารคาม（マイ・ピロンポン）の演奏です。
+ตามน้องกลับสารคาม ("Return to Sarakham Searching for You"), performed by Mai Piromporn.
 
 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1957178671028150315</div>
 
 #### Ceann Dubh Dilis
 
-Ceann Dubh Dilis (My Sweet, Dark-Haired Love), arranged by Michael McGlynn and performed by Spokanki.
+Ceann Dubh Dilis ("My Sweet, Dark-Haired Love"), arranged by Michael McGlynn and performed by Spokanki.
 
 <div class="ats4u-twitter-video" >https://x.com/Rainmaker1973/status/1966169283102400933</div>
 
-#### ビートルズ
+#### The Beatles
 
-ビートルズは、ゲール文化の影響を色濃く受けています。
+The Beatles were strongly shaped by Gaelic culture.
 
-##### 1. 家系的な背景
-**ポール・マッカートニー**の母（モヒン家）はアイルランド系です。リヴァプールには19世紀の「ジャガイモ飢饉」がきっかけで移民が起こったことから、現在でも多くのアイルランド系住民が暮らしており、カトリック文化を色濃く反映した労働者階級的な文化が根付いています。
+##### 1. Family Background
+**Paul McCartney**'s mother, from the Mohin family, was of Irish descent. Liverpool experienced major immigration in the nineteenth century as a result of the potato famine, and even today many Irish-descended residents live there. The city retains a working-class culture deeply marked by Catholic tradition.
 
-**ジョン・レノン**の祖父ジェームズ・レノンはダブリン出身です。ジョンレノンはアイルランド系の文化を受け継いでいると言えます。
+**John Lennon**'s grandfather, James Lennon, was from Dublin. It is fair to say that John Lennon inherited an Irish cultural background.
 
-**ジョージ・ハリスン**   **リンゴ・スター** については明確な記録はありませんが、アイルランド文化の影響が強いリヴァプール出身なのでアイルランド的な影響を受けていたと考えられます。
+There is no equally clear record for **George Harrison** or **Ringo Starr**, but both came from Liverpool, where Irish cultural influence is strong, so it is reasonable to think that they too were shaped by it.
 
-##### 2. リヴァプールとゲール文化
+##### 2. Liverpool and Gaelic Culture
 
-リヴァプールは**第二のアイルランド**と呼ばれるほどアイルランド移民が多く、ゲール文化の影響を強く受けている都市です。カトリック信仰、民謡や物語の伝統、そして労働者コミュニティの結束などが、この街独特なゲール文化を色濃く残す雰囲気を形成しています。
+Liverpool is a city so strongly marked by Irish immigration that it has been called a "second Ireland." Catholic faith, folk-song and storytelling traditions, and the cohesion of working-class communities all contributed to the city's distinctive atmosphere, one that retained a strong Gaelic coloring.
 
-##### 3. ビートルズの音楽とゲール的要素
-ビートルズは、ゲール音楽のバンドという訳では決してありませんが、その音楽にはアイルランド文化及びケルト文化が含まれています。
+##### 3. The Beatles' Music and Gaelic Elements
+The Beatles were not, of course, a Gaelic-music band, but their music does contain Irish and broader Celtic cultural elements.
 
-**ポールのメロディー感覚**には、アイルランド民謡のような歌いやすい抒情性があると言われています。
+**Paul's melodic sensibility** is often said to have the singable lyricism of Irish folk song.
 
-ポールのソロ曲「**Mull of Kintyre**」では、スコットランドのバグパイプが多用されており、ケルト文化の影響を思わせています。
+Paul's solo song "**Mull of Kintyre**" makes heavy use of Scottish bagpipes, strongly suggesting Celtic influence.
 
-##### 4. 文化的な象徴性
-ビートルズのメンバーはゲール語が話せる訳では決してありませんが、**英国ポップス文化と、アイルランド／ケルトの労働者階級文化**の融合を体現していたと言えます。ビートルズの国際的な躍進によって、アイルランド／スコットランドの民謡的伝統が世界に広まる契機となりました。
+##### 4. Cultural Symbolism
+The members of the Beatles did not speak Gaelic, but they can nevertheless be seen as embodying a fusion of British pop culture with Irish and Celtic working-class culture. The Beatles' international rise helped bring Irish and Scottish folk traditions to the wider world.
 
-ビートルズのメンバは公式な国籍としては英国ですが、出身地リヴァプールという場所柄がもたらす文化と血筋を通じて、ゲール／アイルランド文化の影響を受けており、これが音楽的感性にも受け継がれています。
+Officially the Beatles were British nationals, but through the culture and lineage associated with Liverpool, their place of origin, they were shaped by Gaelic and Irish influence, and that influence was inherited in their musical sensibility as well.
 
-##### アイルランド・スコットランドとゲール語の関係
+##### Ireland, Scotland, and the Gaelic Languages
 
-* **ゲール語** ： ケルト語派に属する言語群。
-* **アイルランド** ： ゲール語文化が多く残る地域。
-* **スコットランド** ： アイルランドからの移住を契機に独自のゲール語を発展。
-* **文化的意義**：両地域において、少数言語化しながらも民族的遺産・文化的誇りの象徴として保持されている。
+* **Gaelic languages**: a language group belonging to the Celtic branch.
+* **Ireland**: a region where Gaelic culture remains especially strong.
+* **Scotland**: a region where a distinct Gaelic language developed after migration from Ireland.
+* **Cultural significance**: in both regions, Gaelic survives as a symbol of ethnic heritage and cultural pride, even as it has become a minority language.
 
-###### 1. ゲール語の言語的位置づけ
+###### 1. The Linguistic Position of Gaelic
 
-ゲール語（Gaelic）は、インド・ヨーロッパ語族に属するケルト語派の一分枝である。現在も使用されている主なゲール語には以下がある。
+Gaelic belongs to a branch of the Celtic languages within the Indo-European language family. The principal Gaelic languages still in use today are as follows.
 
-* **アイルランド語（Irish Gaelic / Gaeilge）** ― アイルランドで話される。
-* **スコットランド・ゲール語（Scottish Gaelic / Gàidhlig）** ― スコットランド高地や西方諸島で話される。
-* **マン島語（Manx Gaelic / Gaelg）** ― マン島でかつて話され、20世紀に一時的に死語化したが、近年復興運動が進んでいる。
+* **Irish (Irish Gaelic / Gaeilge)**: spoken in Ireland.
+* **Scottish Gaelic (Scottish Gaelic / Gàidhlig)**: spoken in the Highlands and Western Isles of Scotland.
+* **Manx (Manx Gaelic / Gaelg)**: once spoken on the Isle of Man, it temporarily became extinct in the twentieth century, but revival efforts have advanced in recent years.
 
-###### 2. アイルランドとゲール語
+###### 2. Ireland and Gaelic
 
-アイルランドはゲール文化およびゲール語の起源地とされる。古代アイルランド語（Old Irish）は約1500年前に成立し、広く拡散した。現代のアイルランド語は現在もアイルランド共和国の公用語の一つであるが、日常生活では英語が優勢である。
+Ireland is regarded as the homeland of Gaelic culture and the Gaelic language. Old Irish was established around 1,500 years ago and spread widely. Modern Irish remains one of the official languages of the Republic of Ireland, although English dominates everyday life.
 
-###### 3. スコットランドとゲール語
+###### 3. Scotland and Gaelic
 
-5世紀から6世紀頃にかけて、アイルランドからスコットランド西部に移住したスコット人（Scoti）がゲール語を持ち込み、やがてスコットランド高地を中心に広まった。中世以降、ゲール語はスコットランドの主要言語の一つとなったが、現在ではヘブリディーズ諸島を中心に少数言語として存続している。なお、スコットランド政府は公式に言語的地位を認めている。
+Around the fifth to sixth centuries, the Scoti migrated from Ireland to western Scotland and brought Gaelic with them. It later spread mainly through the Highlands. From the Middle Ages onward, Gaelic was one of Scotland's major languages, though today it survives as a minority language centered especially in the Hebrides. The Scottish government officially recognizes its linguistic status.
 
-###### 4. 文化的関連性
+###### 4. Cultural Relationship
 
-アイルランド語とスコットランド・ゲール語は深い言語的親縁関係を持ち、語彙や文法に共通点が多い（スペイン語とポルトガル語の関係に近い）。また、ゲール文化は口承伝統、音楽、詩作などを重視しており、バラッド、バグパイプ、物語芸術などにその特徴が見られる。さらに、両地域においてゲール語は、英語化（Anglicization）に対抗する文化的アイデンティティの象徴ともなっている。
+Irish and Scottish Gaelic are closely related languages, sharing many similarities in vocabulary and grammar, roughly comparable to the relationship between Spanish and Portuguese. Gaelic culture also places strong emphasis on oral tradition, music, and poetry, with its character visible in ballads, bagpipes, and narrative arts. In both regions, Gaelic also functions as a symbol of cultural identity resisting Anglicization.
 
 
-##### Norwegian Wood - This Bird Has Flown (ノルウェーの森)
+##### Norwegian Wood (This Bird Has Flown)
 <div class="center-box"><iframe class="rhythmpedia-iframe" width="560" height="315" src="https://www.youtube.com/embed/Y_V6y1ZCg_8?si=wwZvMsbBGZCgozG_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
-##### You've Got To Hide Your Love Away (悲しみはぶっとばせ)
+##### You've Got To Hide Your Love Away
 <div class="center-box"><iframe class="rhythmpedia-iframe" src="https://www.youtube.com/embed/V8nLraecPRY?si=6NPWsSbOpmkWQnlR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
-##### Lucy In The Sky With Diamonds (ルーシーは宝石と空に)
+##### Lucy in the Sky with Diamonds
 <div class="center-box"><iframe class="rhythmpedia-iframe"src="https://www.youtube.com/embed/naoknj1ebqI?si=BR0GknuRHVv0Xro-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 ##### She's Leaving Home
 <div class="center-box"><iframe class="rhythmpedia-iframe" src="https://www.youtube.com/embed/VaBPY78D88g?si=Ieqgk5xIgJYrSIzz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
-## 3⁻ⁿグルーヴと2⁻ⁿグルーヴ <!-- {#three-to-n-groove-theory} -->
-人間のリズム感は、でたらめに演奏していると感じている時に最もはっきりとその本質が正体を表します。 私達日本語話者は、自由に演奏していると感じている時でも、その演奏するリズムは必ず、特定の数学的法則があらわれます。どんなに自由に演奏していると感じても、そこに必ず特定の数学的パターンが表れ、必ず特定の数パターンに収束します。
+## 3⁻ⁿ Groove and 2⁻ⁿ Groove <!-- {#three-to-n-groove-theory} -->
+Human rhythm perception reveals its true nature most clearly when we feel we are playing freely, even if it seems random. For us Japanese speakers, even when we feel we are playing freely, the rhythms we produce always reveal specific mathematical laws. No matter how freely we feel we are playing, certain mathematical patterns always emerge, and they always converge on specific numerical patterns.
 
-もちろん海外の人々が自由に演奏していると感じる時にも数学的パターンは表れます。しかしそのパターンは多層でありそこには多次元性があり、無数のパターンに発散します ─── 果たして日本人は、完全な音楽的自由を得ることは出来るのでしょうか。
+Of course, mathematical patterns also emerge when people outside Japan feel they are playing freely. But those patterns are multilayered and multidimensional, and they diverge into countless possibilities. Can Japanese people ever attain complete musical freedom?
 
-リズムが持つ数学的な法則と言語の関係を観察すると、日本語には 2⁻ⁿ英語その他のストレス拍言語には 3⁻ⁿと表現することがとてもふさわしいパターンがそこにあることがわかります。ここでは 2⁻ⁿグルーヴ と 3⁻ⁿグルーヴについて見ていきたいと思います。何故日本人だけにはこの様なパターンに収束するのでしょうか。 そして何故英語話者その他の言語の話者は、多様なパターンに発散するのでしょうか。
+When we observe the relationship between the mathematical laws of rhythm and language, we find that Japanese is aptly described by **{{<meta var.2TONR.en>}}**, while English and other stress-timed languages are aptly described by **{{<meta var.3TONR.en>}}**. Here I will examine 2⁻ⁿ groove and 3⁻ⁿ groove. Why do Japanese people alone converge on such patterns? And why do English speakers and speakers of other languages diverge into such a wide variety of patterns?
 
-#### 日本語の2⁻ⁿリズムから英語の3⁻ⁿリズムへ
+#### From Japanese 2⁻ⁿ Rhythm to English 3⁻ⁿ Rhythm
 
-日本語を母国語として話すミュージシャンはしばしば世界で**音が四角い**と評されます。これは何故でしょうか。それは日本語のリズムが **2⁻ⁿリズム** だからです。一方、海外のリズムは丸みがあるグルーヴしていると言われます。それは何故でしょうか。何故なら世界中の大半のリズムは3⁻ⁿリズムによって構成されているからです。**2⁻ⁿリズム**、**3⁻ⁿリズム**とは一体何でしょうか。まず、このことについてまず見てみましょう。
+Musicians whose native language is Japanese are often described around the world as **sounding square**. Why is that? Because Japanese rhythm is **{{<meta var.2TONR.en>}}**. By contrast, rhythms outside Japan are often said to be rounded and grooving. Why? Because most rhythms in the world are structured as **{{<meta var.3TONR.en>}}**. What exactly are **{{<meta var.2TONR.en>}}** and **{{<meta var.3TONR.en>}}**? Let us begin there.
 
-日本語は、末子音がないので１音節が『頭子音＋母音』の２要素で構成され、それをレゴブロックの様に繰り返し並べることでリズムを作るので、どうやっても必ず２連符４連符８連符１６連符になり、だから８分音符構成＝厳密に言うと2⁻ⁿリズム(1/2,1/4,1 /8,1/16...) 構成になって、音符がずれる距離も２の倍数で割り切れる位置に収束しますが、しかし英語は末子音があるので、１音節が『頭子音＋母音＋末子音』の３要素で構成され、それを音符１つ１つに２〜３音節を割り当てた状態で母音を等間隔に並べるので、どうやっても必ず９連符とか２７連符８１連符になり、だから3連符構成＝厳密に言うと3⁻ⁿリズム(1/3,1/9,1/27,1/81...)構成になり、音符のずれも3⁻ⁿで割り切れる位置に収束します。
+Because Japanese lacks final consonants, one syllable consists of two elements, onset consonant plus vowel, and rhythm is created by arranging these repeatedly like Lego blocks. As a result, it inevitably becomes duplets, quadruplets, eighths, sixteenths, and so on. In other words, its eighth-note-based organization is, strictly speaking, a **{{<meta var.2TONR.en>}}** structure (1/2, 1/4, 1/8, 1/16...), and note displacement also converges on positions divisible by powers of 2. English, however, has final consonants, so one syllable consists of three elements, onset consonant plus vowel plus final consonant. When two or three syllables are assigned across individual notes while vowels are arranged at equal intervals, the result inevitably becomes ninth-note, twenty-seventh-note, or eighty-first-note structures. In other words, it becomes a triplet-based structure, strictly speaking a **{{<meta var.3TONR.en>}}** structure (1/3, 1/9, 1/27, 1/81...), and note displacement also converges on positions divisible by powers of 3.
 
-日本人がグルーヴを感覚的に理解できない理由はここにあります。─── 英語の音楽が何故3⁻ⁿになるのか...と表現するより、日本語の音楽が何故2⁻ⁿになるのかと表現した方がより本質を言い当てています。世界中のリズムの大半はシラブル拍リズムで末子音を持っています。末子音をもたない日本語のリズムの方がずっと奇異なのです。
+This is why Japanese people cannot intuitively grasp groove. Rather than asking why English music becomes 3⁻ⁿ, it is more essential to ask why Japanese music becomes 2⁻ⁿ. Most rhythms in the world are syllable-timed rhythms with final consonants. Japanese rhythm, which lacks final consonants, is the much stranger case.
 
-日本語を話す人は、スイングの様に跳ねた３連符の3⁻ⁿリズムを演奏しようとしてもどこか硬さがのこり３連符独特な重みを持って跳ねる感じが出なません。それは末子音をもたない日本語では認識上のリズムが必ず８分音符(２連符)の2⁻ⁿリズムに収束してしまうからです。
+When Japanese speakers try to perform the bouncing triplet-based **{{<meta var.3TONR.en>}}** of swing, a certain stiffness remains, and the distinctive weighted bounce of triplets does not fully emerge. That is because in Japanese, which lacks final consonants, perceived rhythm inevitably converges on eighth-note, that is, duplet-based **{{<meta var.2TONR.en>}}**.
 
-[フォノリズマトロジー理論](/phonorhythmatological-theory/ja/) で説明した様に、ひとつの音符に１音節を割り当てるとその音符は３つに分割されます。英語の音節は３つの音素持っているからです。そして フォノリズマトロジー理論で説明した様に、複数の音節が集まると韻律節を構成し、１つの韻律節の中で頭音節、核音節、末音節と３つの要素に分類されます。よって１つの音符の上に２つ以上のシラブルを載せようとすると、次々に繰り返し三分割される結果となります。これが 3⁻ⁿ理論の基本的な原理です。
+As explained in [Phonorhythmatology](/phonorhythmatological-theory/ja/), when one syllable is assigned to one note, that note is divided into three, because English syllables contain three phonological elements. And as explained in Phonorhythmatology, when multiple syllables gather, they form a prosodic word, which is classified into three elements: onset syllable, nucleus syllable, and coda syllable. Therefore, when two or more syllables are placed on a single note, the result is repeated three-way subdivision. This is the basic principle of 3⁻ⁿ theory.
 
-#### 世界は3⁻ⁿ拍子で出来ている
+#### The World Is Made of 3⁻ⁿ Metres
 
-『世界は3⁻ⁿ拍子で出来ている』の章で見てきた様に、世界の音楽＝ジャズ・クラシック・中世ヨーロッパ以降の民族音楽は勿論のこと世界各地の民族音楽は、しばしば**3⁻ⁿ拍子**で出来ています。中には 表面上３拍子ではなくても、サブディヴィジョンに３連符構造を持っていたりする音楽もあります。このような曲は記譜上では一般的に 12/8 や 9/8 と記されます。これらは3⁻ⁿを底に持っているリズムの仲間という意味で、ここでは **3⁻ⁿ拍子** と呼びます。
+As we saw in the chapter "The World Is Made of 3⁻ⁿ Metres," music around the world, not only jazz, classical music, and folk music from post-medieval Europe but also folk music from many other regions, is often built on **{{<meta var.3TONM.en>}}**. Some music may not appear to be triple metre on the surface, yet still has a triplet structure in its subdivision. Such pieces are generally written as 12/8 or 9/8. Because they are rhythms based on 3, I refer to them here as **{{<meta var.3TONM.en>}}**.
 
-3⁻ⁿ拍子には色々な形があります。シャッフルなどの中抜きがある形で３連符構造を持っている場合や、多重化して３×３＝９拍子＝９／８になっている場合もあります。中には３重に多重化して３×３×３＝２７拍子になっているものもあります。
+There are many forms of **{{<meta var.3TONM.en>}}**. Some have a triplet structure with omissions, as in shuffle. Some are layered into 3x3 = 9 beats = 9/8. Some are even triply layered into 3x3x3 = 27 beats.
 
-このようにグルーヴする音楽は必ず**３を基底に持った**リズム構造を持っています ─── ここでいう基底とは、リズム数（マクロディヴィジョン×ディヴィジョン×サブディヴィジョン×マイクロディヴィジョン＝リズム数）の因数として持っているという意味です。
+In this way, music that grooves always has a rhythmic structure with **3 as a fundamental factor**. Here, "base" means that 3 appears as a factor of the rhythm number (macrodivision x division x subdivision x microdivision = rhythm number).
 
-リズム数の因数として持っている3の数が多ければ多いほど、グルーヴが強くなる ───これは飽くまでも、観察から導き出された予想です。この予想を**グルーヴの3⁻ⁿ予想**と呼びます。 そしてこの予想に基づいて作られたリズムに注目した作曲理論を**3⁻ⁿグルーヴ理論** と呼びます。
+The more factors of 3 a rhythm number contains, the stronger the groove becomes. This is, for now, only a hypothesis derived from observation. I call this the **{{<meta var.3TONGH.en>}}**. And the compositional theory that focuses on rhythms created on the basis of this hypothesis is called **{{<meta var.3TONT.en>}}**.
 
-#### 何故3のべき乗を分母とする分数のずれがあるとグルーヴするのか
+#### Why Does Groove Emerge When the Displacement Is a Fraction with a Power of 3 in the Denominator?
 
-もしもこの文章を読んでいる貴方が日本語を母国語とする日本語話者でしたら、「何故グルーヴするリズムは3拍子になるのか」という疑問をお持ちではないかと思います。この疑問を追求していくと、この疑問は「何故日本語話者は、2拍子を自然だと感じるのか。」という逆の疑問に帰結します。
+If you are a Japanese speaker reading this, you may be wondering, "Why do grooving rhythms become triple metre?" If you pursue that question far enough, it leads to the inverse question: "Why do Japanese speakers feel duple metre to be natural?"
 
-結論を先にいうと、何故日本人は2拍子を自然だと感じるのか ─── それは音節(モーラ)が頭子音と母音という2要素で構成されているからです。 そして何故日本人以外の人々は、3拍子を自然だと感じるのか ─── これは音節(シラブル)が頭子音・母音・末子音という3要素で構成されているからです。
+To state the conclusion first, Japanese people feel duple metre to be natural because a syllable, or mora, consists of two elements: onset consonant and vowel. And why do people outside Japan feel triple metre to be natural? Because a syllable consists of three elements: onset consonant, vowel, and final consonant.
 
 ![](/offbeat-count/attachments/three-to-n-mora-and-syllable-or-stress.png)
 
- ─── つまり 「何故３だとグルーヴしやすいのか』 ─── この視点は実は日本のとても独特な視点であり、むしろ『何故２だとグルーヴしないのか』『何故日本語のシラブルの音素数は例外的に２なのか』『何故日本語はグルーヴしないのか』という視点のほうがより、この問題の本質をよく捉えていると言い換えることも出来ます。
+In other words, the question "Why is 3 easy to groove with?" is actually a very uniquely Japanese perspective. It can even be said that the more essential questions are "Why does 2 fail to groove?", "Why is the number of phonological elements in Japanese syllables exceptionally two?", and "Why does Japanese not groove?"
 
 ![](/offbeat-count/attachments/three-to-n-groove-description-01.png)
 
-シラブル拍・ストレス拍が持っているシラブルの音素数が３つになっていることから、１つの音符を３に分割して発音が割り当てられることに繋がり、また複雑な歌詞を歌う場合は、その分割された音符を更に３つに分けたり、３つずつ束ねたりする習慣に繋がったのではないかと考えられます。
+Because syllable-timed rhythm and stress-timed rhythm use syllables with three phonological elements, one note tends to be divided into three so that pronunciation can be assigned across it. And when singing more complex lyrics, this may also have led to the habit of further dividing those already divided notes into three, or bundling them in groups of three.
 
 ![](/offbeat-count/attachments/three-to-n-groove-01.png)
 
-このように、３のべき乗を因数として持っているリズム数がグルーヴしやすいと考える理論を3⁻ⁿ仮説と呼びます。
+Thus, the theory that rhythms whose rhythm number contains powers of 3 as factors are easier to groove with is called the **{{<meta var.3TONH.en>}}**.
 
 
-#### 0.037 の謎 〜 3⁻ⁿグルーヴ理論の実証実験
+#### The Mystery of 0.037: An Experimental Demonstration of 3⁻ⁿ Groove Theory
 
-ジャズのスイングのニュアンスをDAWなどのコンピュータ上で再現することはとても難しいことが知られています。筆者は、日本社会のなかで、日本的な縦乗りリズムに陥ることなくジャズらしいリズムを維持したまま適切にジャズの演奏活動を行う難しさとぶつかり、コンピュータでスイングを再現したうえでソロを演奏する必要性を感じていました。ここから一般的なDAW上でどのようにしたら適切なスイングのニュアンスを実現できるか模索が始まりました。─── 音楽作成ソフト MuseScore3 にはタイミングをずらす機能があります。筆者は、これを使って様々な実験を行いました。実験を行うなかでいくつかの興味深い事象を観察しました。
+It is well known that reproducing the nuance of jazz swing on a computer, such as in a DAW, is very difficult. The author confronted the difficulty of performing jazz properly within Japanese society while avoiding Japanese-style tatenori rhythm and still preserving a jazz-like rhythmic feel. This led to the sense that it was necessary to reproduce swing on a computer and perform solos over it. From there, an exploration began into how to realize an appropriate swing nuance in ordinary DAWs. Music notation software such as MuseScore3 has a timing-shift function. The author used this to conduct various experiments, and in the course of those experiments several interesting phenomena were observed.
 
-最も興味を引いたことは、スイングのタイミングニュアンスを調整してグルーヴするように最適化していくと 0.037 という数字にしばしば収束するという現象が起こることでした。他にも 0.111, 0.222, 0.333 …という様な 0.111 の倍数になっているときに最もグルーヴが強くなるのです。ここからタイミングのずれが **３のべき乗を分母とする任意の分数になっている時に最も強くグルーヴするようになる**という仮説が生まれました。これが 3⁻ⁿグルーヴ仮説です。
+The most intriguing finding was that when the timing nuance of swing was adjusted and optimized for groove, it often converged on the number 0.037. Groove also became strongest at multiples of 0.111, such as 0.111, 0.222, and 0.333. From this arose the hypothesis that timing displacement grooves most strongly when it takes the form of an arbitrary fraction whose denominator is a power of 3. This is the **{{<meta var.3TONGH.en>}}**.
 
-次の例は、実際に MuseScore3 を使って0.111(1/9) や 0.037(1/27) と言った数字を使ってタイミングを調整した上で自動演奏させた例です。
+The following example was actually auto-played in MuseScore3 after the timing had been adjusted using values such as 0.111 (1/9) and 0.037 (1/27).
 
 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1496443349540413440</div>
 
-次の例は、音符を 1/81 分割した上で、1/27 や 1/9 などの位置を中心に音を分散させることで作成したドラムのリズムパターンです。
+The following example is a drum rhythm pattern created by dividing the note grid into 1/81 and distributing notes around positions such as 1/27 and 1/9.
 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1966221330233327741</div>
 
 
-次の例は、数値的にベースの打点を 1/9 ずらして演奏させた例です。
+The following example shifts the bass attack numerically by 1/9.
 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1783146385904456053</div>
 
 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1764436392199995739</div>
 
-これも数値的にベース打点を1/3^n の位置でずらすことで入力した例です。
+This is another example entered by numerically displacing the bass attack to positions of 1/3ⁿ.
 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1755234511661711840</div>
 
-これは弱拍を強拍位置に合わせてコンピングを演奏させた上で、その上で強拍をマニュアルで入力するという手法で録音したものです。 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1802351933975679006</div>
+This was recorded using a method in which the comping was performed by aligning weak beats to strong-beat positions, and then the strong beats were entered manually on top of that. <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1802351933975679006</div>
 
 
-#### ゲーリック及び黒人教会音楽リズムがジャズ起源であるという仮説
+#### Hypothesis That Gaelic and Black Church Rhythms Are Origins of Jazz
 
-3⁻ⁿグルーヴ仮説を検証していくなかで筆者は、恐らくジャズの起源となった音楽に、9拍子や27拍子の音楽が存在するだろうという予想を行いました。  ─── 9拍子・27拍子の音楽は、ジャズの起源となった黒人教会音楽のなかで見つかりました。 他にもスコットランドとアイルランドにいるケルト民族の一派であるゲール民族の民族音楽の中にも存在することがわかりました。
+As the author investigated the **{{<meta var.3TONGH.en>}}**, the author predicted that the music at the roots of jazz would probably include 9-beat and 27-beat music. Such 9-beat and 27-beat music was indeed found in Black church music, one of the roots of jazz. It was also found in the folk music of the Gaelic people, a branch of the Celtic peoples in Scotland and Ireland.
 
-そこから、このような黒人教会音楽・ゲール民族の民族音楽のリズムに慣れ親しむことが、グルーヴを理解する助けになるはずだという予想が生まれました。
+From this came the further expectation that becoming familiar with the rhythms of Black church music and Gaelic folk music would help people understand groove.
 
 
 <!--
 
 #### 1
-【Adriano Celentano!】 何でみんなアメリカ音楽にかぶれるのか ───  この現象が起こる理由について従来米国の覇権と結びつけて語られる事が多かったが、実は米国音楽は音韻学的に見るとリズムが音楽的に優れているからではないか。
+Adriano Celentano: Why Is Everyone So Taken with American Music? This phenomenon has often been discussed in connection with American hegemony, but perhaps American music is rhythmically superior from a phonological point of view.
 
-シラブル拍リズムよりも後に生まれてより複雑化しているストレス拍リズムが更にアフリカやラテン、ゲールと混合する事でより多様なリズムを持つことになった米国リズムが他の言語より複雑で興味深いリズムを持っている事は音韻学的にも説明できる。 多様で複雑な方がリズムの娯楽としての性能が高い。 だからみんな米国の音楽が好きなのではないか。これは実は、覇権の様な政治的理由だけではないのではないか。 [参照](https://x.com/ats4u/status/1949731441870549140)
+American rhythm, whose stress-timed basis arose later than syllable-timed rhythm and became more complex, then mixed further with African, Latin, and Gaelic influences, acquired rhythms more diverse than those of other languages. That American rhythm has more complex and more interesting rhythmic structures than other languages can also be explained phonologically. Greater diversity and greater complexity give rhythm higher entertainment value. Perhaps that is why everyone likes American music. The reason may not be political, such as hegemony, alone. [Reference](https://x.com/ats4u/status/1949731441870549140)
 
 #### 2
-米国音楽は更に奴隷貿易があり奴隷解放があり、残念な歴史を乗り越えて、多様性を受け入れ、色々な民族の音楽を融合して来ている…それがグルーヴにも繋がっている。
+American music also passed through the slave trade and emancipation, overcame tragic history, embraced diversity, and fused the music of many different peoples. That too is connected to groove.
 
-ストレス拍に加えて、ゲールがあり東アフリカがあり南アフリカがありラテンも加わり、変化したものが米国英語であり米国音楽と…[参照](https://x.com/ats4u/status/1954097519157260736)
+Added to stress-timed rhythm are Gaelic, East African, South African, and Latin elements, and what emerged in transformed form is American English and American music. [Reference](https://x.com/ats4u/status/1954097519157260736)
 
 #### 3
 [CV Phonology A Generative Theory of the Syllable](https://mitpress.mit.edu/9780262530477/cv-phonology/)
 
-[日本人と外人のリズム解釈の違い（3^n リズム理論）](https://x.com/ats4u/status/1878808994623713704)
+[Differences in Rhythm Interpretation Between Japanese and Foreign Musicians (3^n Rhythm Theory)](https://x.com/ats4u/status/1878808994623713704)
 
-[参考：３拍子を身につけるとグルーヴする理由](https://x.com/ats4u/status/1766696559637647609)
+[Reference: Why Acquiring Triple Metre Produces Groove](https://x.com/ats4u/status/1766696559637647609)
 
 [ChatGPT:Your Tatenori theory is deeply relevant to CV phonological analysis](https://chatgpt.com/c/684050f7-d864-8013-a6d8-cc29274882b3)
 -->
 
 
 
-### 多層弱拍先行の基本単位を3に拡張する
+### Extending the Basic Unit of Multi-Layered Weak-Beat Precedence to 3
 
-これまで **{{<meta var.MLWBOR.en>}}** を解析するにあたって強拍と弱拍の２つの拍をつかって分析して来ました。 これまでの3⁻ⁿ仮説が正しいと仮定するとこれは本来３つなければいけないことになります。
-
-<table class="offbeat-onbeat-table">
-  <tbody>
-    <tr class="header">
-      <th>位置</th>
-      <td>１拍目</td>
-      <td class="offbeat-td">２拍目</td>
-      <td>３拍目</td>
-      <td class="offbeat-td">４拍目</td>
-    </tr>
-    <tr>
-      <th>4分音符</th>
-      <td>◯</td>
-      <td class="offbeat-td">◯</td>
-      <td>◯</td>
-      <td class="offbeat-td">◯</td>
-    </tr>
-    <tr>
-      <th>強弱</th>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-    </tr>
-  </tbody>
-</table>
-
-これまではこのように分析してきました。しかし3⁻ⁿ仮説を鑑みて再度分析すると次のようになると考えられます。
+Up to now, when analyzing **{{<meta var.MLWBOR.en>}}**, we have done so using the two beat categories of strong and weak. If the **{{<meta var.3TONH.en>}}** is correct, then this number should originally be three.
 
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr class="header">
-      <th>位置</th>
-      <td>１拍目</td>
-      <td class="offbeat-td">２拍目</td>
-      <td class="offbeat-td">３拍目</td>
-      <td>４拍目</td>
-      <td class="offbeat-td">５拍目</td>
-      <td class="offbeat-td">６拍目</td>
+      <th>Position</th>
+      <td>Beat 1</td>
+      <td class="offbeat-td">Beat 2</td>
+      <td>Beat 3</td>
+      <td class="offbeat-td">Beat 4</td>
     </tr>
     <tr>
-      <th>4分音符</th>
+      <th>Quarter Note</th>
       <td>◯</td>
-      <td class="offbeat-td">&nbsp;</td>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
-      <td class="offbeat-td">&nbsp;</td>
       <td class="offbeat-td">◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td>強</td>
-      <td class="offbeat-td">&nbsp;</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">&nbsp;</td>
-      <td class="offbeat-td">弱</td>
+      <th>Strong/Weak</th>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
     </tr>
   </tbody>
 </table>
 
-これはリズムパターン「シャッフル」に相当します。
+Up to now, this is how we have analyzed it. But when we reconsider it in light of the **{{<meta var.3TONH.en>}}**, it seems the following analysis is more appropriate.
+
+<table class="offbeat-onbeat-table">
+  <tbody>
+    <tr class="header">
+      <th>Position</th>
+      <td>Beat 1</td>
+      <td class="offbeat-td">Beat 2</td>
+      <td class="offbeat-td">Beat 3</td>
+      <td>Beat 4</td>
+      <td class="offbeat-td">Beat 5</td>
+      <td class="offbeat-td">Beat 6</td>
+    </tr>
+    <tr>
+      <th>Quarter Note</th>
+      <td>◯</td>
+      <td class="offbeat-td">&nbsp;</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">&nbsp;</td>
+      <td class="offbeat-td">◯</td>
+    </tr>
+    <tr>
+      <th>Strong/Weak</th>
+      <td>Strong</td>
+      <td class="offbeat-td">&nbsp;</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">&nbsp;</td>
+      <td class="offbeat-td">Weak</td>
+    </tr>
+  </tbody>
+</table>
+
+This corresponds to the rhythm pattern called "shuffle."
 
 Aretha Franklin - Cold, Cold Heart
 <div class="center-box"><iframe class="rhythmpedia-iframe" width="560" height="315" src="https://www.youtube.com/embed/-AtHNsgy1Cs?si=mfAyYAYTinjvx2wx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
-８分音符に関しても同様にして強拍・弱拍の２つだけだったものを、３連符のスイング８分音符に置き換えましょう。
+Let us do the same for eighth notes, replacing what had been only the two categories of strong and weak with swing eighth notes in triplets.
 
 
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr class="header">
-      <th>位置</th>
-      <td>１拍目</td>
-      <td class="offbeat-td">２拍目</td>
-      <td>３拍目</td>
-      <td class="offbeat-td">４拍目</td>
+      <th>Position</th>
+      <td>Beat 1</td>
+      <td class="offbeat-td">Beat 2</td>
+      <td>Beat 3</td>
+      <td class="offbeat-td">Beat 4</td>
     </tr>
     <tr>
-      <th>4分音符</th>
+      <th>Quarter Note</th>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
+      <th>Strong/Weak</th>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
     </tr>
   </tbody>
 </table>
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
+      <th>Position</th>
       <td>１</td>
       <td class="offbeat-td">２</td>
       <td>３</td>
@@ -6179,7 +6179,7 @@ Aretha Franklin - Cold, Cold Heart
       <td class="offbeat-td">８</td>
     </tr>
     <tr>
-      <th>8分音符</th>
+      <th>Eighth Note</th>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
@@ -6190,34 +6190,34 @@ Aretha Franklin - Cold, Cold Heart
       <td class="offbeat-td">◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
+      <th>Strong/Weak</th>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
     </tr>
   </tbody>
 </table>
 
-これまでこのように強拍弱拍の２を基底としたリズム構成だったものを、次のように３連符の３を基底としたリズムとして置き換えて見ます。
+Up to now, this rhythmic construction had 2, that is, strong and weak, as its base. Let us now replace it with a rhythm based on the 3 of triplets, as follows.
 
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr class="header">
-      <th>位置</th>
-      <td>１拍目</td>
-      <td class="offbeat-td">２拍目</td>
-      <td class="offbeat-td">３拍目</td>
-      <td>４拍目</td>
-      <td class="offbeat-td">５拍目</td>
-      <td class="offbeat-td">６拍目</td>
+      <th>Position</th>
+      <td>Beat 1</td>
+      <td class="offbeat-td">Beat 2</td>
+      <td class="offbeat-td">Beat 3</td>
+      <td>Beat 4</td>
+      <td class="offbeat-td">Beat 5</td>
+      <td class="offbeat-td">Beat 6</td>
     </tr>
     <tr>
-      <th>4分音符</th>
+      <th>Quarter Note</th>
       <td>◯</td>
       <td class="offbeat-td">&nbsp;</td>
       <td class="offbeat-td">◯</td>
@@ -6226,20 +6226,20 @@ Aretha Franklin - Cold, Cold Heart
       <td class="offbeat-td">◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td>強</td>
+      <th>Strong/Weak</th>
+      <td>Strong</td>
       <td class="offbeat-td">&nbsp;</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
       <td class="offbeat-td">&nbsp;</td>
-      <td class="offbeat-td">弱</td>
+      <td class="offbeat-td">Weak</td>
     </tr>
   </tbody>
 </table>
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
+      <th>Position</th>
       <td>１</td>
       <td class="offbeat-td">２</td>
       <td class="offbeat-td">３</td>
@@ -6260,7 +6260,7 @@ Aretha Franklin - Cold, Cold Heart
       <td class="offbeat-td">１８</td>
     </tr>
     <tr>
-      <th>8分音符</th>
+      <th>Eighth Note</th>
       <td>◯</td>
       <td class="offbeat-td">&nbsp;</td>
       <td class="offbeat-td">◯</td>
@@ -6281,44 +6281,44 @@ Aretha Franklin - Cold, Cold Heart
       <td class="offbeat-td">◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td>強</td>
+      <th>Strong/Weak</th>
+      <td>Strong</td>
       <td class="offbeat-td">&nbsp;</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
       <td class="offbeat-td">&nbsp;</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
       <td class="offbeat-td">&nbsp;</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
       <td class="offbeat-td">&nbsp;</td>
-      <td class="offbeat-td">弱</td>
-      <td >強</td>
+      <td class="offbeat-td">Weak</td>
+      <td >Strong</td>
       <td class="offbeat-td">&nbsp;</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
       <td class="offbeat-td">&nbsp;</td>
-      <td class="offbeat-td">弱</td>
+      <td class="offbeat-td">Weak</td>
     </tr>
   </tbody>
 </table>
 
-そしてこのように３連符に置き換えられた多層リズムについても、**{{<meta var.MLWBOR.en>}}**で行った処理と全く同じように弱拍先行を適用します。
+And for the multilayer rhythm converted into triplets in this way as well, we apply weak-beat precedence in exactly the same way as in **{{<meta var.MLWBOR.en>}}**.
 
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr class="header">
-      <th>位置</th>
-      <td class="offbeat-td">３拍目</td>
-      <td>４拍目</td>
-      <td class="offbeat-td">５拍目</td>
-      <td class="offbeat-td">６拍目</td>
-      <td>１拍目</td>
-      <td class="offbeat-td">２拍目</td>
+      <th>Position</th>
+      <td class="offbeat-td">Beat 3</td>
+      <td>Beat 4</td>
+      <td class="offbeat-td">Beat 5</td>
+      <td class="offbeat-td">Beat 6</td>
+      <td>Beat 1</td>
+      <td class="offbeat-td">Beat 2</td>
     </tr>
     <tr>
-      <th>4分音符</th>
+      <th>Quarter Note</th>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
       <td class="offbeat-td">&nbsp;</td>
@@ -6327,12 +6327,12 @@ Aretha Franklin - Cold, Cold Heart
       <td class="offbeat-td">&nbsp;</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <th>Strong/Weak</th>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
       <td class="offbeat-td">&nbsp;</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
       <td class="offbeat-td">&nbsp;</td>
     </tr>
   </tbody>
@@ -6340,7 +6340,7 @@ Aretha Franklin - Cold, Cold Heart
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
+      <th>Position</th>
       <td class="offbeat-td">３</td>
       <td>４</td>
       <td class="offbeat-td">５</td>
@@ -6361,7 +6361,7 @@ Aretha Franklin - Cold, Cold Heart
       <td class="offbeat-td">２</td>
     </tr>
     <tr>
-      <th>8分音符</th>
+      <th>Eighth Note</th>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
       <td class="offbeat-td">&nbsp;</td>
@@ -6382,30 +6382,30 @@ Aretha Franklin - Cold, Cold Heart
       <td class="offbeat-td">&nbsp;</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <th>Strong/Weak</th>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
       <td class="offbeat-td">&nbsp;</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
       <td class="offbeat-td">&nbsp;</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
       <td class="offbeat-td">&nbsp;</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
       <td class="offbeat-td">&nbsp;</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
       <td class="offbeat-td">&nbsp;</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
       <td class="offbeat-td">&nbsp;</td>
     </tr>
   </tbody>
 </table>
 
-これは一般的な記譜法で表現すると 18/8 に近いリズムとなります。
+In ordinary notation, this becomes a rhythm close to 18/8.
 
 ```{.lilypond}
 \include "lilypond-book-preamble.ly"
@@ -6437,21 +6437,21 @@ gthr = { \tuplet 3/2 { do16   do16 do16] }  }
 }
 ```
 
-しかしこれではまだ完全ではありません。サブディヴィジョンとして弱拍強拍の２つしかなかった時と違い、3連符には3つの音があることにより、尻合わせを更にもう1段階進めることが可能だからです。
+But this is still not complete. Unlike the case where subdivision had only the two categories of weak and strong, triplets have three notes, so it is possible to carry tail alignment one stage further.
 
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr class="header">
-      <th>位置</th>
-      <td class="offbeat-td">２拍目</td>
-      <td class="offbeat-td">３拍目</td>
-      <td>４拍目</td>
-      <td class="offbeat-td">５拍目</td>
-      <td class="offbeat-td">６拍目</td>
-      <td>１拍目</td>
+      <th>Position</th>
+      <td class="offbeat-td">Beat 2</td>
+      <td class="offbeat-td">Beat 3</td>
+      <td>Beat 4</td>
+      <td class="offbeat-td">Beat 5</td>
+      <td class="offbeat-td">Beat 6</td>
+      <td>Beat 1</td>
     </tr>
     <tr>
-      <th>4分音符</th>
+      <th>Quarter Note</th>
       <td class="offbeat-td">&nbsp;</td>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
@@ -6460,20 +6460,20 @@ gthr = { \tuplet 3/2 { do16   do16 do16] }  }
       <td>◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
+      <th>Strong/Weak</th>
       <td class="offbeat-td">&nbsp;</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
       <td class="offbeat-td">&nbsp;</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
     </tr>
   </tbody>
 </table>
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
+      <th>Position</th>
       <td class="offbeat-td">２</td>
       <td class="offbeat-td">３</td>
       <td>４</td>
@@ -6494,7 +6494,7 @@ gthr = { \tuplet 3/2 { do16   do16 do16] }  }
       <td>１</td>
     </tr>
     <tr>
-      <th>8分音符</th>
+      <th>Eighth Note</th>
       <td class="offbeat-td">&nbsp;</td>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
@@ -6515,30 +6515,30 @@ gthr = { \tuplet 3/2 { do16   do16 do16] }  }
       <td>◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
+      <th>Strong/Weak</th>
       <td class="offbeat-td">&nbsp;</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
       <td class="offbeat-td">&nbsp;</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
       <td class="offbeat-td">&nbsp;</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
       <td class="offbeat-td">&nbsp;</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
       <td class="offbeat-td">&nbsp;</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
       <td class="offbeat-td">&nbsp;</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
     </tr>
   </tbody>
 </table>
 
-これで3連符上での尻合わせ最適化が完了しました。
+This completes tail-alignment optimization on the triplet grid.
 
 ```{.lilypond}
 \include "lilypond-book-preamble.ly"
@@ -6597,7 +6597,7 @@ gthr = { \tuplet 3/2 { do16   do16 do16] }  }
 ```
 
 
-上記の二重の弱拍先行がある３が基底にあるリズムを自動演奏させると次のようになります。
+If the above 3-based rhythm with double weak-beat precedence is auto-played, it sounds like this.
 
 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1966221330233327741</div>
 
@@ -6612,207 +6612,206 @@ gthr = { \tuplet 3/2 { do16   do16 do16] }  }
   -->
 
 
-## 分散グルーヴ理論  <!-- {#distributed-groove-theory} -->
+## Distributed Groove Theory  <!-- {#distributed-groove-theory} -->
 
-メタディヴィジョン理論を踏まえた上で、拍子やポリリズムの限界を超え、階層的で動的な時間構造を持つ新しいリズム理論を提案します。
+Building on Metadivision Theory, I propose a new rhythm theory that goes beyond the limits of metre and polyrhythm and describes hierarchical, dynamic temporal structures.
 
-### はじめに
+### Introduction
 
-リズム感と裏拍に関する理論的な背景を説明する。リズム感とは、**分割された時間を認知する（乗る）能力**と、**時間を一定間隔で分割する（叩く）能力**のことを指す。これは音楽を演奏するときにとても重要な役割を果たす能力だ。しかし人間はクオーツではないので色々な制約がある。
+Here I will explain the theoretical background of rhythm sense and offbeats. Rhythm sense refers to the ability to perceive divided time, that is, to ride it, and the ability to divide time into equal intervals, that is, to strike it. This ability plays a very important role in musical performance. But humans are not quartz oscillators, so various constraints apply.
 
--  **制約１・一定周期で叩くことしかできない**
--  **制約２・あまり速く叩けない**
--  **制約３・ほとんど正確に叩けない**
--  **制約４・但し手や足など２つの可動部分を組み合わせ倍速度で叩ける**
--  **制約５・乗ることにも叩くことと同じことがいえる**
+- **Constraint 1: Humans can only strike at constant periodic intervals**
+- **Constraint 2: Humans cannot strike very fast**
+- **Constraint 3: Humans can almost never strike perfectly accurately**
+- **Constraint 4: However, by combining two movable parts such as the hands or feet, humans can strike at double speed**
+- **Constraint 5: What applies to riding also applies to striking**
 
-これをここでは**人の時間分割能力制約 (the limitation of the human sense of subdivision)**と呼ぼう ─── 人間をリズム演奏装置としてみると、とても単純な装置だ。人間が音楽を演奏するためには、これを工夫して組み合わせてだましだまし使うしかない。人間が複雑なリズムを叩くことには根源的なアルゴリズムの問題が含まれる。 この装置を使ってどのように音楽を演奏すべきなのか考えてみる。
+Here I will call this the **{{<meta var.HUMAN_SUBDIVISION_LIMITATION.en>}}**. Seen as a rhythm-performing device, a human being is a very simple machine. To make music, we have no choice but to improvise with this device, combine its functions, and use it carefully. The act of playing complex rhythms contains a fundamental algorithmic problem. Let us think about how music should be performed using such a device.
 
-そしてそれがこそが、アフリカ系アメリカ人の音楽、即ちゴスペル音楽・黒人教会音楽やＲ＆Ｂ・ファンク・ヒップホップ・そしてジャズのリズムの取り方の本質であることを見ていく。
+And we will see that this is precisely the essence of how African American music, that is, gospel, Black church music, R&B, funk, hip-hop, and jazz, handles rhythm.
 
-### 単純なリズムと複雑なリズム
+### Simple Rhythms and Complex Rhythms
 
-リズムを叩くにあたって制約１『一定周期で叩くことしかできない』を知ることはとても重要だ。例えばこういう複雑なリズムがあったとする。
+When striking rhythm, it is very important to understand Constraint 1, that humans can only strike at constant periodic intervals. Suppose there is a complex rhythm like this.
 
 ![](/offbeat-count/attachments/distributed-groove-20250805190006.png)
 
-人間は直接このリズムを叩くことはできない。何故なら人間は時間を一定周期で分割する能力しか持たないからだ。だが次のように工夫することで叩くことができる。
+Humans cannot strike this rhythm directly, because humans possess only the ability to divide time into constant cycles. But with the following device, it can be struck.
 
 ![](/offbeat-count/attachments/distributed-groove-20250805190035.png)
 
-譜面上ではこれが一定周期の組み合わせだということがわかりにくいので、グラフを使って見てみよう。
+Because it is hard to see on the score that this is a combination of constant cycles, let us look at it using a graph.
 
 ![](/offbeat-count/attachments/distributed-groove-20250805190115.png)
 
-これなら一定周期の組み合わせだから人間でも叩くことができる。このようにして人間は複雑なリズムを叩くことができる。
+Now it is a combination of constant cycles, so even humans can strike it. This is how humans are able to perform complex rhythms.
 
-**複雑なリズムは必ず一定の法則で分解することで単純な一定周期のリズムの組み合わせとして表現し直すことができる。単純なリズムしか叩けない人間が複雑なリズムを叩くためには、複雑なリズムを分解することで単純なリズムの組み合わせに変換してから叩く必要がある。**変換方法は複数のやりかたが存在するので、どの変換を使うかによって異なるニュアンスが得られる。
+**Any complex rhythm can always be decomposed according to fixed laws and re-expressed as a combination of simple constant-period rhythms. Because humans can play only simple rhythms, to play complex rhythms we must first decompose them into combinations of simple rhythms.** There are multiple ways to perform this conversion, and different conversions yield different nuances.
 
-この変換のことを**リズムの分解**と呼ぼう。
+I call this transformation **{{<meta var.RHYTHM_DECOMPOSITION.en>}}**.
 
-ここでは１つだけの周期でできたリズムを**単純なリズム(compound pattern)**と呼ぶ。また２つ以上の周期が複合したリズムのことを**複雑なリズム(simple pattern)**と呼ぶ。
+Here, a rhythm made from only one cycle will be called a **simple rhythm**, and a rhythm compounded from two or more cycles will be called a **complex rhythm**.
 
-### 単純なリズムの分解
+### Decomposing a Simple Rhythm
 
-制約２『あまり速く叩けない』を考えてみよう。
+Let us consider Constraint 2, that humans cannot strike very fast.
 
-次の単純なリズムを考えてみる。
+Consider the following simple rhythm.
 
 ![](/offbeat-count/attachments/distributed-groove-20250805190159.png)
 
-１２０ＢＰＭ程度なら十分叩けるだろう。だが２００〜３００ＢＰＭになれば徐々に難しくなってくる。８分音符や１６分音符などの細かな音符を考えると、２００ＢＰＭで８分音符を演奏するなら２倍の４００ＢＰＭ相当、１６分音符なら８００ＢＰＭに到達するリズムを叩かなければならない。これは到底人間には叩くことができないリズムだ。
+At around 120 BPM it is easily playable. But at 200 to 300 BPM it gradually becomes difficult. If we consider finer note values such as eighth notes and sixteenth notes, then at 200 BPM, playing eighth notes means striking at an effective 400 BPM, and sixteenth notes reach 800 BPM. This is clearly a rhythm that humans cannot strike directly.
 
-そこでこれを分割することを考えてみる。
+So let us think about decomposing it.
 
 ![](/offbeat-count/attachments/distributed-groove-20250805190228.png)
 
-全く同じリズムでもこの様に分解すれば半分のＢＰＭで演奏できる。グラフでも確認してみよう。
+Even the exact same rhythm can be performed at half the BPM if it is decomposed in this way. Let us confirm this with a graph as well.
 
 ![](/offbeat-count/attachments/distributed-groove-20250805190240.png)
 
-この処理のことを**単純リズムの分解**と呼ぼう。
+I call this process **decomposition of a simple rhythm**.
 
-### 分解された単純なリズムと拍シフト量
+### Decomposed Simple Rhythm and Beat-Shifting Distance
 
-前章で単純なリズムを分解することで倍の速度で演奏することができることを見てきた。実は、この２つの拍の距離を変化させることで倍以外のリズムを演奏することができる。この距離のことを**拍シフト量(beat shifting distance)**と呼ぼう。
+In the previous section we saw that by decomposing a simple rhythm, it can be performed at double speed. In fact, by changing the distance between the two beats, rhythms other than doubling can also be performed. I call this distance **{{<meta var.BEAT_SHIFTING_DISTANCE.en>}}**.
 
-前章の例では２つの拍の距離は１／２だったが、これをもし１／４にしたらどうなるだろうか。
+In the previous example, the distance between the two beats was 1/2. What would happen if it were 1/4?
 
 ![](/offbeat-count/attachments/distributed-groove-20250805190259.png)
 
-この様に２つの拍の距離が１／４になるとそれは１／４の長さを持つ音符＝８分音符と同じ細かさを持つ。
+When the distance between the two beats becomes 1/4, it has the same fineness as a note with length 1/4, that is, an eighth note.
 
 ![](/offbeat-count/attachments/distributed-groove-20250805190309.png)
 
-同じ様にして２つの拍の距離が１／３になったらどうなるかを見てみよう。
+Let us likewise see what happens if the distance between the two beats becomes 1/3.
 
 ![](/offbeat-count/attachments/distributed-groove-20250805190445.png)
 
 ![](/offbeat-count/attachments/distributed-groove-20250805190454.png)
 
-２つの拍の距離が２／３になるとそれは２／３のの長さを持つ２拍３連２個分の細かさを持つことになる。
+When the distance between the two beats becomes 2/3, it has the fineness corresponding to two notes of a triplet spread across two beats.
 
-ここで音符の細かさのことを**拍解像度(beat resolution)**と呼ぶことにする。この様に**２つの拍の距離＝拍シフト量を変化させることで全ての******拍解像度を表現**する**ことができる。ところで拍解像度とは何か。
+Here I call the fineness of note placement **{{<meta var.BEAT_RESOLUTION.en>}}**. In this way, by changing the distance between the two beats, that is, the **{{<meta var.BEAT_SHIFTING_DISTANCE.en>}}**, all beat resolutions can be expressed. But what is beat resolution?
 
-### 拍解像度とは
+### What Is Beat Resolution?
 
-拍解像度とはその小節内にある音の位置の細かさだ。これはリズムのスピード感と関係している。拍解像度が高ければ高いほどリズムのスピード感は高くなる。拍解像度は音価（音の長さ）と似ているが異なる概念だ。音価は音の長さのことを指すが、拍解像度はその小節内にある音の位置の細かさだ。
+Beat resolution is the fineness of note positions within the measure. It is related to the felt speed of rhythm. The higher the beat resolution, the faster the rhythm feels. Beat resolution resembles note value, that is, note length, but it is a different concept. Note value refers to the length of a note, whereas beat resolution refers to the fineness of note positions within the measure.
 
-具体的に言うと、拍解像度はその小節内にある全ての音符の位置を数値として表した時の全ての数の最大公約数となる。例えば、１６分音符（音価が１／１６）があったとしても、拍解像度は必ずしも１／１６にならない。何故ならもしその１６分音符が４分音符と同じ位置にあったら拍解像度は１／４にしかならないからだ。
+More concretely, when the positions of all notes in a measure are expressed numerically, beat resolution is the greatest common divisor of all those values. For example, even if there are sixteenth notes whose note value is 1/16, the beat resolution is not necessarily 1/16. If those sixteenth notes all occupy the same positions as quarter notes, the beat resolution is only 1/4.
 
-**例１**
+**Example 1**
 ![](/offbeat-count/attachments/distributed-groove-20250805190525.png)
 
 ![](/offbeat-count/attachments/distributed-groove-20250805190532.png)
 
-１６分音符が全て４分音符と同じ場所にあれば拍解像度としては４分音符と同じになる。
+If all the sixteenth notes occupy the same positions as quarter notes, the beat resolution is the same as that of quarter notes.
 
 ![](/offbeat-count/attachments/distributed-groove-20250805190546.png)
 
-この１６分音符は４分音符とおなじ拍解像度しか持たない。
+These sixteenth notes have only the same beat resolution as quarter notes.
 
-この時の４分音符の位置は \[ 0/4, 1/4, 2/4, 3/4 \] で １６分音符の位置は \[ 0/16, 4/16, 8/16, 12/16 \] になる。この場合、全ての数の最大公約数は1/4だ。よって拍解像度は1/4だ。
+Here the positions of the quarter notes are \[ 0/4, 1/4, 2/4, 3/4 \], and the positions of the sixteenth notes are \[ 0/16, 4/16, 8/16, 12/16 \]. In this case the greatest common divisor of all the numbers is 1/4. Therefore, the beat resolution is 1/4.
 
-**例２**
+**Example 2**
 
 ![](/offbeat-count/attachments/distributed-groove-20250805190646.png)
 
-この例２の拍解像度は２分音符が \[ 0/2, 1/2, 3/2, 4/2 \] ８分音符が\[ 3/8, 7/8, 11/8, 15/8 \] なので、最大公約数は 1/8 だ。よって拍解像度は1/8になる。
+In Example 2, the positions of the half notes are \[ 0/2, 1/2, 3/2, 4/2 \] and the positions of the eighth notes are \[ 3/8, 7/8, 11/8, 15/8 \], so the greatest common divisor is 1/8. Therefore the beat resolution is 1/8.
 
-拍解像度は値が小さければ小さいほど拍解像度が高いと呼ぶ。拍解像度が高いほど拍のスピード感は高くなる。
+The smaller the value, the higher the beat resolution. The higher the beat resolution, the faster the rhythm feels.
 
-つまり例１よりも例２のほうがスピード感が高い演奏ということができる。
+In other words, Example 2 can be said to have a stronger feeling of speed than Example 1.
 
-### 裏拍（既約拍）・表拍（加約拍）
+### Offbeats (Irreducible Beats) and Onbeats (Reducible Beats)
 
-８分音符でも４分音符と同じ位置にあれば４分音符と同じ拍解像度しか持たない。拍解像度を効率よく上げるには、４分音符と同じ位置にある８分音符を省いて考えたほうが簡単だ。 同様にして１６分音符でも８分音符と同じ位置にある１６分音符を省いて考えたほうが簡単になる。
+Even if an eighth note occupies the same position as a quarter note, it has only the same beat resolution as a quarter note. To raise beat resolution efficiently, it is easier to ignore eighth notes that share positions with quarter notes. Likewise, for sixteenth notes it is easier to ignore those that share positions with eighth notes.
 
 ![](/offbeat-count/attachments/distributed-groove-20250805190721.png)
 
-このように重なった音符を一番拍解像度が高いものを残して省くと次のようになる。
+If overlapping notes are reduced in this way, leaving only the notes with the highest beat resolution, the result is as follows.
 
 ![](/offbeat-count/attachments/distributed-groove-20250805190731.png)
 
-これはつまり全ての音価の音符から裏拍だけを残したものだ。
+This means that only the offbeats remain from notes of all note values.
 
-ある拍の位置を分数で表したとき、その分数が約分可能だったらその拍を**可約拍(a reducible beat)**と呼ぶことにする。その分数が既約分数だったらその拍を**既約拍(an irreducible beat)**と呼ぶことにする。
+When a beat position is written as a fraction, if that fraction can be reduced, I call it a **{{<meta var.REDUCIBLE_BEAT.en>}}**. If it is an irreducible fraction, I call it an **{{<meta var.IRREDUCIBLE_BEAT.en>}}**.
 
-**可約拍は表拍のことだ。**
+**Reducible beats are onbeats.**
 
 ![](/offbeat-count/attachments/distributed-groove-20250805190745.png)
 
-**既約拍は裏拍のことだ。**
+**Irreducible beats are offbeats.**
 
 ![](/offbeat-count/attachments/distributed-groove-20250805190759.png)
 
-裏拍の意味についての詳しくは [裏拍の大切さ](https://oka-ats.blogspot.com/2019/01/oka01-gdqoqxundapoaemf.html) で説明した。
+For a more detailed explanation of the meaning of offbeats, see [The Importance of Offbeats](https://oka-ats.blogspot.com/2019/01/oka01-gdqoqxundapoaemf.html).
 
-### 拍層
+### Beat Layers
 
-[裏拍の大切さ](https://oka-ats.blogspot.com/2019/01/oka01-gdqoqxundapoaemf.html) で説明した通り表拍を叩くとそれは裏拍の存在感を減らす結果になり、音楽の拍解像度が下がったような印象（スピード感を失った）を与える。この拍解像度が下がった印象のことを**縦乗り(vertical riding)**という。縦乗りについては [何故、日本人は縦乗りなのか](https://oka-ats.blogspot.com/2018/01/oka01-qioaafwfeykuqiuj.html)で説明した。縦乗りを避けるためには裏拍だけを選択的に叩かなければいけない。
+As explained in [The Importance of Offbeats](https://oka-ats.blogspot.com/2019/01/oka01-gdqoqxundapoaemf.html), striking onbeats reduces the sense of presence of offbeats and gives the impression that the beat resolution of the music has fallen, that is, that it has lost speed. I call this lowered-beat-resolution impression **vertical riding (tatenori)**. Tatenori is explained in [Why Are Japanese People Tatenori?](https://oka-ats.blogspot.com/2018/01/oka01-qioaafwfeykuqiuj.html). To avoid tatenori, only offbeats must be selected and struck.
 
 ![](/offbeat-count/attachments/distributed-groove-20250805190820.png)
 
-この様に音価ごとに無駄な音（表拍）を整理すると、音価が層になって横方向に広がり重なり合っている様子が観察できる。またそれぞれの音かの拍が異なる音価の拍と重なりあうことなく避けあっている点も観察できる。
+When unnecessary notes, that is, onbeats, are removed in this way for each note value, we can observe note values spreading horizontally as layers and overlapping. We can also observe that the beats of each note value avoid overlapping with beats of different note values.
 
-これが裏拍を強調（シンコペート）した音楽のリズムの構造だ。このシンコペーションの構成法は、アフリカ系アメリカ人の音楽、即ちゴスペル音楽・黒人教会音楽やＲ＆Ｂ・ファンク・ヒップホップ・そしてジャズで多用される。
+This is the rhythmic structure of music that emphasizes offbeats, that is, syncopates. This method of constructing syncopation is widely used in African American music, that is, gospel, Black church music, R&B, funk, hip-hop, and jazz.
 
-### 拍ドリフト量
+### Beat-Drifting Distance
 
-拍層を構成したリズムは表拍が省略されていることから他の拍層の音と衝突する音が存在しな いため、多少拍の位置が変わってしまっても聴者に拍の位置がずれたことがはっきり認識されることがない。これを応用して意図的にずらすことで表情に変化を与えるここでは**ドリフト(drifting)**と呼ぼう。ここでは**拍ドリフト量(beat drifting distance)**とは拍層全体がずれて移動したときの距離をあらわすこととする。
+Because rhythms constructed as beat layers omit onbeats, there are no notes that collide with notes in other beat layers. Therefore, even if beat positions change somewhat, listeners do not clearly perceive that those beat positions have shifted. By exploiting this and shifting them intentionally to change expression, we obtain what I call **drifting**. Here, **{{<meta var.BEAT_DRIFTING_DISTANCE.en>}}** refers to the distance moved when the entire beat layer shifts.
 
-この拍ドリフト量を調整することで人間の時間分割認識の錯覚を呼び起こすことができる。ある拍ドリフト量に到達すると、人間の時間分割認知の世界に非現実的な程に高い拍解像度を創りあげることができる。この錯覚がリズムの持っている疾走感・前進感・スピード感の源泉となる。
+By adjusting the **{{<meta var.BEAT_DRIFTING_DISTANCE.en>}}**, it is possible to induce illusions in human perception of temporal subdivision. When a certain drifting distance is reached, it becomes possible to create in human time-division perception an unrealistically high beat resolution. This illusion is the source of the propulsion, forward motion, and speed that rhythm possesses.
 
-前章で拍シフト量によって拍解像度が変わることを見た。拍ドリフト量も拍シフト量と同じく拍層のずれを表す数値だ。拍シフト量は必ず単純な整数の分数で表されるが、拍ドリフト量は単純な整数で表される位置から実数範囲にずれる場合が多い。
+In the previous section we saw that the **{{<meta var.BEAT_SHIFTING_DISTANCE.en>}}** changes beat resolution. Like the beat-shifting distance, the beat-drifting distance is a value expressing displacement of beat layers. But whereas the beat-shifting distance is always expressed as a simple rational fraction, beat-drifting distance often deviates from simple rational positions into real-valued ranges.
 
+### Beat Displacement
 
-### 拍のずれ
+Rhythms constructed as beat layers buffer Constraint 3, that humans can almost never strike perfectly accurately. In performances that do not omit onbeats, even a slight displacement causes them to stop aligning with the onbeats of other beat layers, making those misalignments stand out clearly in perception. But in performances that omit onbeats, even if positions shift, that shift is not clearly perceived. Rather, by shifting them positively, expressive variation can be created.
 
-拍層を構成したリズムは、冒頭で挙げた制約３『ほとんど正確に叩けない』に対して緩衝を与える。表拍を省略しない演奏は少しでも位置がずれると他の拍層の表拍の位置と揃わなくなってしまう為、それが認知上で目立った存在となって浮かび上がってしまう。ところが表拍を省略した演奏は、位置がずれてもそれがはっきりと認知されることはなく、むしろ積極的にずらすことで表情に変化を与えることができる。
+An onbeat is a beat premised on alignment, whereas an offbeat is a beat premised on displacement.
 
-表拍とは『揃うことを前提とした拍』であり、裏拍とは『ずれることを前提とした拍』といえる。
+### Beat Inversion (How to Strike Offbeats)
 
-### 拍の倒置（裏拍の叩き方）
+As we have seen so far, to construct rhythm around offbeats it is necessary to **strike beats at the halfway positions between the sounds one is hearing**. But this is constrained by Constraint 1, that humans can only strike at constant periodic intervals. Here I will explain how that difficulty should be dealt with.
 
-これまで見てきた様に裏拍を中心にリズムを構成する為には**自分が聞いている音の半分の位置で拍を打つ**作業が必要になる。だがこれは制約１『人間は一定周期で叩くことしかできない』の制約を受ける。この困難にどう対処すべきなのかをここで説明する。
+When clapping offbeats to a metronome, if we let "ta" be the clap and "beep" be the metronome, it is easier to do it so that it sounds like ta-beep, ta-beep, and difficult to clap so that it sounds like beep-ta, beep-ta. If you wait to hear the metronome and then clap, you will be late and the clap will drift. To solve this, you must clap before hearing the metronome.
 
-メトロノームに合わせて裏拍で手を叩く時、ここで仮にタンが手拍子でピッがメトロノームだとすると、タピ・タピと聞こえる様にやった方が簡単でピタ、ピタと聞こえる様に叩くのは難しい。 メトロノーム音を聞いてから手を叩くと遅れてしまいずれてしまう ─── これを解決する為にはメトロノーム音を聞く前に手を叩かなければいけない。
+People often, when trying to clap offbeats to a metronome click, first hear the click's onbeat and then try to clap their own beat as an offbeat against it. More precisely, they first hear the click, confirm its position, and from there measure out a fixed span of time and try to clap their own beat. But with this method it is impossible to strike a stable beat. The reason is that it contains a fundamental difficulty. It falls under the Constraint 1 described at the beginning: humans can only strike at constant periodic intervals.
 
-人はしばしばメトロノームのクリック音に合わせて裏拍を叩こうとすると、クリック音の表拍を先に聞いてから自分の拍を裏拍としてにあわせて叩こうとする。より細かく描写すると、まずクリック音を聞きその位置を確認し、そこから一定の時間を区切って自分の拍を叩こうとする。だがこの方法では安定した拍を叩くことができない。何故かというと、それは原理的な困難があるからだ。これは冒頭で述べた制約１『人間は一定周期で叩くことしかできない』の制約を受ける。
+But if we recognize this in the reverse order, we can avoid Constraint 1. Let me explain that method here.
 
-だがこれを逆の順番で認識することで制約１を回避することができる。ここでその方法について述べる。
+**The method is to recognize it in the order that you strike your own beat first and hear the metronome click afterward. Using your own sense, clap at a constant interval while adjusting the displacement so that the click arrives at the place corresponding to the offbeat. While hearing the metronome sounding at a constant interval, keep striking your own beat at a constant interval, and in that state adjust your speed so that the metronome falls midway between your beats. Adjust the spacing of your own beats the way you would slightly press or release the accelerator when pulling your car alongside another car and matching its speed. By doing this, you can strike offbeats while avoiding Constraint 1, that humans can only strike at constant periodic intervals.**
 
-**その方法とはまず自分が先に拍を叩き、そのあとでメトロノームのクリック音を聞く様な順番で認識することだ。飽くまでも自分の感覚を使って一定間隔で手を叩き裏拍に相当する場所にクリック音が来るようにずれを調節しながら叩く。一定間隔で鳴っているメトロノーム音を聞きながら自分の拍の間隔を一定間隔で叩き、その状態でメトロノーム音が自分の拍の中間に来るように速度を調節する。自分の拍の間隔を、あたかも他人の走っている車の横に自分の車をつけて並走する時に車のアクセルをやや踏み込んだりやや緩めたりしながら調節するように、調節する。こうすることによって制約１『人間は一定周期で叩くことしかできない』の制約を回避しながら裏拍を叩くことができる。**
+Recognizing and performing in this way, with the offbeat first and the onbeat after, is called **{{<meta var.BEAT_INVERSION.en>}}**.
 
-この様に裏拍を先に表拍を後として認知しながら演奏することを**拍の倒置(beat inversion)**と呼ぶ。
+Using **{{<meta var.BEAT_INVERSION.en>}}**, it becomes possible to produce offbeats with some stability even at very fast tempos such as 300 BPM.
 
-拍の倒置を使うと３００ＢＰＭといった非常に速いテンポでもある程度安定して裏拍が出せるようになる。
+### Beat Inversion and Beat Multiplication
 
-### 拍倒置と拍乗法
+At very fast tempos such as 300 BPM, it is difficult to align every beat perfectly. That is because this action is constrained by both Constraint 2, that humans cannot strike very fast, and Constraint 3, that humans can almost never strike perfectly accurately.
 
-３００ＢＰＭの様な速いテンポなると毎拍を全て完璧に合わせるのは困難だ。何故ならばこの行為には制約２『人間はあまり速く叩けない』及び制約３『ほとんど正確に叩けない』の両方の制約を受けるからだ。
+This can be avoided by adjusting only every certain number of beats. In other words, focus on beats that appear every 8 beats or every 16 beats, and adjust the speed at which you strike your own beat against those points. Musicians often refer to this technique colloquially as **taking the bar in larger units**.
 
-これは一定拍数ごとに調節する様にすることで制約を回避することができる。つまり８拍ごと１６拍ごとに表れる拍に注目し、その拍に対して自分の拍を打つ速度を調節する。これはミュージシャンがつかう俗語でしばしば**小節を大きく取る**と呼ばれるテクニックだ。
+Even if your beat shifts while you are striking, allow that shift to remain and align only once every four bars or once every eight bars at the **{{<meta var.FINAL_BEAT.en>}}**. However, do adjust the speed of your own beat appropriately so that your beat and the other beat, such as the metronome click or the rhythm section of the band, do not drift too far apart. Using this method, it is possible to avoid Constraint 2, that humans cannot strike very fast.
 
-拍を叩く時に拍がずれてしまっても寛容にずらしたまま４小節に１度ないしは８小節に１度だけ**最終拍**で合わせる。但し自分の拍と他人の拍（メトロノームのクリック音やバンドのリズムセクションの拍）が過度に遠くなってしまわないよう、 自分の拍速度を適切に調整する。このような方法を使うことで制約２『人間はあまり速く叩けない』の制約を回避することができる。
+Note: in 4/4, the 4th beat, in 5/4, the 5th beat, and so on, the last beat within the bar is called the **{{<meta var.FINAL_BEAT.en>}}**.
 
-※ 4拍子なら４拍目、5拍子なら５拍子等々の小節内の最後の拍のことを**最終拍**と呼ぶ。
+Meeting on the offbeat once every few bars, like making an appointment, is in fact the very way jazz rhythm is taken.
 
-この数小節に一度裏拍で（待ち合わせをするように）合わせる というのは、これはジャズのリズムの取り方そのものでもある。
+Treating multiple beats together as though they were a single beat is what I call **{{<meta var.BEAT_MULTIPLICATION.en>}}**. **{{<meta var.BEAT_MULTIPLICATION.en>}}** is also a concept related to afterbeat. I will explain **{{<meta var.BEAT_MULTIPLICATION.en>}}** in more depth in Afterbeat Switching (unrevised).
 
-このように複数の拍をまとめて１つの拍の様に扱うことを**拍乗法**と呼ぼう。**拍乗法**はアフタービートとも聯関した概念になる。**拍乗法**についてはアフタービート乗り換えでもう少し踏み込んで説明することとする（未校）。
+Why it is necessary to take timing at the final beat rather than the initial beat will be explained in Head-Alignment Riding and Tail-Alignment Riding (unrevised).
 
-何故先頭拍ではなく最終拍でタイミングを取るようにする必要があるのかについては頭合わせ乗りと尻合わせ乗りで説明することとする（未校）。
+### Conclusion
 
-### 結論
+To perform effectively, it is important to construct rhythm around offbeats. For that reason, understanding and mastering **{{<meta var.BEAT_INVERSION.en>}}** is an extremely important task.
 
-効果的な演奏をするためには裏拍を中心にリズムを構成することが大切だ。そのために**拍の倒置**を理解／習得することは非常に重要な課題だ。
+The reason offbeats are important is explained in [The Importance of Offbeats](https://oka-ats.blogspot.com/2019/01/oka01-gdqoqxundapoaemf.html). Another important technique for performing around offbeats is afterbeat switching. Afterbeat switching is explained in [About Afterbeat Switching](https://oka-ats.blogspot.com/2020/01/oka01-xtjayjkcepoxfaat.html).
 
-裏拍が重要になる理由については[裏拍の大切さ](https://oka-ats.blogspot.com/2019/01/oka01-gdqoqxundapoaemf.html) で説明した。また裏拍を中心に演奏するにあたって重要なテクニックにアフタービート乗り換えがある。アフタービート乗り換えについては [アフタービート乗り換えについて](https://oka-ats.blogspot.com/2020/01/oka01-xtjayjkcepoxfaat.html) で説明した。
+In addition, as a practical counting method for maintaining afterbeat, **Equatorial Count** is effective. Equatorial Count is explained in [What Is Equatorial Count?](https://oka-ats.blogspot.com/2020/01/oka01-exdwjncpazylicpm.html).
 
-またアフタービートを維持するための実践的な数え方として「イクウェイトリアル・カウント」が有効だ。イクウェイトリアル・カウントについては[イクウェイトリアル・カウントとは](https://oka-ats.blogspot.com/2020/01/oka01-exdwjncpazylicpm.html) で説明した。
-
-これらを駆使することで効果的な演奏を行うことができる。
+By making use of these methods, it becomes possible to perform effectively.
 
 
 

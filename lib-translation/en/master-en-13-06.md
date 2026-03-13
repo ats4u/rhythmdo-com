@@ -1,5 +1,4 @@
 #### 1
-【Adriano Celentano!】 何でみんなアメリカ音楽にかぶれるのか ───  この現象が起こる理由について従来米国の覇権と結びつけて語られる事が多かったが、実は米国音楽は音韻学的に見るとリズムが音楽的に優れているからではないか。
+Adriano Celentano: Why Is Everyone So Taken with American Music? This phenomenon has often been discussed in connection with American hegemony, but perhaps American music is rhythmically superior from a phonological point of view.
 
-シラブル拍リズムよりも後に生まれてより複雑化しているストレス拍リズムが更にアフリカやラテン、ゲールと混合する事でより多様なリズムを持つことになった米国リズムが他の言語より複雑で興味深いリズムを持っている事は音韻学的にも説明できる。 多様で複雑な方がリズムの娯楽としての性能が高い。 だからみんな米国の音楽が好きなのではないか。これは実は、覇権の様な政治的理由だけではないのではないか。 [参照](https://x.com/ats4u/status/1949731441870549140)
-
+American rhythm, whose stress-timed basis arose later than syllable-timed rhythm and became more complex, then mixed further with African, Latin, and Gaelic influences, acquired rhythms more diverse than those of other languages. That American rhythm has more complex and more interesting rhythmic structures than other languages can also be explained phonologically. Greater diversity and greater complexity give rhythm higher entertainment value. Perhaps that is why everyone likes American music. The reason may not be political, such as hegemony, alone. [Reference](https://x.com/ats4u/status/1949731441870549140)

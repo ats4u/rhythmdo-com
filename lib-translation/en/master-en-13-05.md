@@ -1,9 +1,8 @@
-#### ゲーリック及び黒人教会音楽リズムがジャズ起源であるという仮説
+#### Hypothesis That Gaelic and Black Church Rhythms Are Origins of Jazz
 
-3⁻ⁿグルーヴ仮説を検証していくなかで筆者は、恐らくジャズの起源となった音楽に、9拍子や27拍子の音楽が存在するだろうという予想を行いました。  ─── 9拍子・27拍子の音楽は、ジャズの起源となった黒人教会音楽のなかで見つかりました。 他にもスコットランドとアイルランドにいるケルト民族の一派であるゲール民族の民族音楽の中にも存在することがわかりました。
+As the author investigated the **{{<meta var.3TONGH.en>}}**, the author predicted that the music at the roots of jazz would probably include 9-beat and 27-beat music. Such 9-beat and 27-beat music was indeed found in Black church music, one of the roots of jazz. It was also found in the folk music of the Gaelic people, a branch of the Celtic peoples in Scotland and Ireland.
 
-そこから、このような黒人教会音楽・ゲール民族の民族音楽のリズムに慣れ親しむことが、グルーヴを理解する助けになるはずだという予想が生まれました。
+From this came the further expectation that becoming familiar with the rhythms of Black church music and Gaelic folk music would help people understand groove.
 
 
 <!--
-

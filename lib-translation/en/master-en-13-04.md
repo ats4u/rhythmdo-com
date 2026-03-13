@@ -1,25 +1,23 @@
-#### 0.037 の謎 〜 3⁻ⁿグルーヴ理論の実証実験
+#### The Mystery of 0.037: An Experimental Demonstration of 3⁻ⁿ Groove Theory
 
-ジャズのスイングのニュアンスをDAWなどのコンピュータ上で再現することはとても難しいことが知られています。筆者は、日本社会のなかで、日本的な縦乗りリズムに陥ることなくジャズらしいリズムを維持したまま適切にジャズの演奏活動を行う難しさとぶつかり、コンピュータでスイングを再現したうえでソロを演奏する必要性を感じていました。ここから一般的なDAW上でどのようにしたら適切なスイングのニュアンスを実現できるか模索が始まりました。─── 音楽作成ソフト MuseScore3 にはタイミングをずらす機能があります。筆者は、これを使って様々な実験を行いました。実験を行うなかでいくつかの興味深い事象を観察しました。
+It is well known that reproducing the nuance of jazz swing on a computer, such as in a DAW, is very difficult. The author confronted the difficulty of performing jazz properly within Japanese society while avoiding Japanese-style tatenori rhythm and still preserving a jazz-like rhythmic feel. This led to the sense that it was necessary to reproduce swing on a computer and perform solos over it. From there, an exploration began into how to realize an appropriate swing nuance in ordinary DAWs. Music notation software such as MuseScore3 has a timing-shift function. The author used this to conduct various experiments, and in the course of those experiments several interesting phenomena were observed.
 
-最も興味を引いたことは、スイングのタイミングニュアンスを調整してグルーヴするように最適化していくと 0.037 という数字にしばしば収束するという現象が起こることでした。他にも 0.111, 0.222, 0.333 …という様な 0.111 の倍数になっているときに最もグルーヴが強くなるのです。ここからタイミングのずれが **３のべき乗を分母とする任意の分数になっている時に最も強くグルーヴするようになる**という仮説が生まれました。これが 3⁻ⁿグルーヴ仮説です。
+The most intriguing finding was that when the timing nuance of swing was adjusted and optimized for groove, it often converged on the number 0.037. Groove also became strongest at multiples of 0.111, such as 0.111, 0.222, and 0.333. From this arose the hypothesis that timing displacement grooves most strongly when it takes the form of an arbitrary fraction whose denominator is a power of 3. This is the **{{<meta var.3TONGH.en>}}**.
 
-次の例は、実際に MuseScore3 を使って0.111(1/9) や 0.037(1/27) と言った数字を使ってタイミングを調整した上で自動演奏させた例です。
+The following example was actually auto-played in MuseScore3 after the timing had been adjusted using values such as 0.111 (1/9) and 0.037 (1/27).
 
 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1496443349540413440</div>
 
-次の例は、音符を 1/81 分割した上で、1/27 や 1/9 などの位置を中心に音を分散させることで作成したドラムのリズムパターンです。
+The following example is a drum rhythm pattern created by dividing the note grid into 1/81 and distributing notes around positions such as 1/27 and 1/9.
 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1966221330233327741</div>
 
 
-次の例は、数値的にベースの打点を 1/9 ずらして演奏させた例です。
+The following example shifts the bass attack numerically by 1/9.
 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1783146385904456053</div>
 
 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1764436392199995739</div>
 
-これも数値的にベース打点を1/3^n の位置でずらすことで入力した例です。
+This is another example entered by numerically displacing the bass attack to positions of 1/3ⁿ.
 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1755234511661711840</div>
 
-これは弱拍を強拍位置に合わせてコンピングを演奏させた上で、その上で強拍をマニュアルで入力するという手法で録音したものです。 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1802351933975679006</div>
-
-
+This was recorded using a method in which the comping was performed by aligning weak beats to strong-beat positions, and then the strong beats were entered manually on top of that. <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1802351933975679006</div>

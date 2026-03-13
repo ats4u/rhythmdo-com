@@ -1,5 +1,4 @@
 #### 2
-米国音楽は更に奴隷貿易があり奴隷解放があり、残念な歴史を乗り越えて、多様性を受け入れ、色々な民族の音楽を融合して来ている…それがグルーヴにも繋がっている。
+American music also passed through the slave trade and emancipation, overcame tragic history, embraced diversity, and fused the music of many different peoples. That too is connected to groove.
 
-ストレス拍に加えて、ゲールがあり東アフリカがあり南アフリカがありラテンも加わり、変化したものが米国英語であり米国音楽と…[参照](https://x.com/ats4u/status/1954097519157260736)
-
+Added to stress-timed rhythm are Gaelic, East African, South African, and Latin elements, and what emerged in transformed form is American English and American music. [Reference](https://x.com/ats4u/status/1954097519157260736)

@@ -1,19 +1,18 @@
-#### 何故3のべき乗を分母とする分数のずれがあるとグルーヴするのか
+#### Why Does Groove Emerge When the Displacement Is a Fraction with a Power of 3 in the Denominator?
 
-もしもこの文章を読んでいる貴方が日本語を母国語とする日本語話者でしたら、「何故グルーヴするリズムは3拍子になるのか」という疑問をお持ちではないかと思います。この疑問を追求していくと、この疑問は「何故日本語話者は、2拍子を自然だと感じるのか。」という逆の疑問に帰結します。
+If you are a Japanese speaker reading this, you may be wondering, "Why do grooving rhythms become triple metre?" If you pursue that question far enough, it leads to the inverse question: "Why do Japanese speakers feel duple metre to be natural?"
 
-結論を先にいうと、何故日本人は2拍子を自然だと感じるのか ─── それは音節(モーラ)が頭子音と母音という2要素で構成されているからです。 そして何故日本人以外の人々は、3拍子を自然だと感じるのか ─── これは音節(シラブル)が頭子音・母音・末子音という3要素で構成されているからです。
+To state the conclusion first, Japanese people feel duple metre to be natural because a syllable, or mora, consists of two elements: onset consonant and vowel. And why do people outside Japan feel triple metre to be natural? Because a syllable consists of three elements: onset consonant, vowel, and final consonant.
 
 ![](/offbeat-count/attachments/three-to-n-mora-and-syllable-or-stress.png)
 
- ─── つまり 「何故３だとグルーヴしやすいのか』 ─── この視点は実は日本のとても独特な視点であり、むしろ『何故２だとグルーヴしないのか』『何故日本語のシラブルの音素数は例外的に２なのか』『何故日本語はグルーヴしないのか』という視点のほうがより、この問題の本質をよく捉えていると言い換えることも出来ます。
+In other words, the question "Why is 3 easy to groove with?" is actually a very uniquely Japanese perspective. It can even be said that the more essential questions are "Why does 2 fail to groove?", "Why is the number of phonological elements in Japanese syllables exceptionally two?", and "Why does Japanese not groove?"
 
 ![](/offbeat-count/attachments/three-to-n-groove-description-01.png)
 
-シラブル拍・ストレス拍が持っているシラブルの音素数が３つになっていることから、１つの音符を３に分割して発音が割り当てられることに繋がり、また複雑な歌詞を歌う場合は、その分割された音符を更に３つに分けたり、３つずつ束ねたりする習慣に繋がったのではないかと考えられます。
+Because syllable-timed rhythm and stress-timed rhythm use syllables with three phonological elements, one note tends to be divided into three so that pronunciation can be assigned across it. And when singing more complex lyrics, this may also have led to the habit of further dividing those already divided notes into three, or bundling them in groups of three.
 
 ![](/offbeat-count/attachments/three-to-n-groove-01.png)
 
-このように、３のべき乗を因数として持っているリズム数がグルーヴしやすいと考える理論を3⁻ⁿ仮説と呼びます。
-
+Thus, the theory that rhythms whose rhythm number contains powers of 3 as factors are easier to groove with is called the **{{<meta var.3TONH.en>}}**.
 

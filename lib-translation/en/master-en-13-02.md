@@ -1,10 +1,9 @@
-#### 世界は3⁻ⁿ拍子で出来ている
+#### The World Is Made of 3⁻ⁿ Metres
 
-『世界は3⁻ⁿ拍子で出来ている』の章で見てきた様に、世界の音楽＝ジャズ・クラシック・中世ヨーロッパ以降の民族音楽は勿論のこと世界各地の民族音楽は、しばしば**3⁻ⁿ拍子**で出来ています。中には 表面上３拍子ではなくても、サブディヴィジョンに３連符構造を持っていたりする音楽もあります。このような曲は記譜上では一般的に 12/8 や 9/8 と記されます。これらは3⁻ⁿを底に持っているリズムの仲間という意味で、ここでは **3⁻ⁿ拍子** と呼びます。
+As we saw in the chapter "The World Is Made of 3⁻ⁿ Metres," music around the world, not only jazz, classical music, and folk music from post-medieval Europe but also folk music from many other regions, is often built on **{{<meta var.3TONM.en>}}**. Some music may not appear to be triple metre on the surface, yet still has a triplet structure in its subdivision. Such pieces are generally written as 12/8 or 9/8. Because they are rhythms based on 3, I refer to them here as **{{<meta var.3TONM.en>}}**.
 
-3⁻ⁿ拍子には色々な形があります。シャッフルなどの中抜きがある形で３連符構造を持っている場合や、多重化して３×３＝９拍子＝９／８になっている場合もあります。中には３重に多重化して３×３×３＝２７拍子になっているものもあります。
+There are many forms of **{{<meta var.3TONM.en>}}**. Some have a triplet structure with omissions, as in shuffle. Some are layered into 3x3 = 9 beats = 9/8. Some are even triply layered into 3x3x3 = 27 beats.
 
-このようにグルーヴする音楽は必ず**３を基底に持った**リズム構造を持っています ─── ここでいう基底とは、リズム数（マクロディヴィジョン×ディヴィジョン×サブディヴィジョン×マイクロディヴィジョン＝リズム数）の因数として持っているという意味です。
+In this way, music that grooves always has a rhythmic structure with **3 as a fundamental factor**. Here, "base" means that 3 appears as a factor of the rhythm number (macrodivision x division x subdivision x microdivision = rhythm number).
 
-リズム数の因数として持っている3の数が多ければ多いほど、グルーヴが強くなる ───これは飽くまでも、観察から導き出された予想です。この予想を**グルーヴの3⁻ⁿ予想**と呼びます。 そしてこの予想に基づいて作られたリズムに注目した作曲理論を**3⁻ⁿグルーヴ理論** と呼びます。
-
+The more factors of 3 a rhythm number contains, the stronger the groove becomes. This is, for now, only a hypothesis derived from observation. I call this the **{{<meta var.3TONGH.en>}}**. And the compositional theory that focuses on rhythms created on the basis of this hypothesis is called **{{<meta var.3TONT.en>}}**.

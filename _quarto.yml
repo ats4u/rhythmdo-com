@@ -191,6 +191,15 @@ var:
   3TONR:
     ja: "3⁻ⁿリズム"
     en: "3⁻ⁿ Rhythm"
+  3TONM:
+    ja: "3⁻ⁿ拍子"
+    en: "3⁻ⁿ Metre"
+  3TONH:
+    ja: "3⁻ⁿ仮説"
+    en: "3⁻ⁿ Hypothesis"
+  3TONGH:
+    ja: "3⁻ⁿグルーヴ仮説"
+    en: "3⁻ⁿ Groove Hypothesis"
   CONDITIONS_OF_GROOVE:
     ja: "<ruby><rb>グルーヴ四条件</rb><rt></rt></ruby>"
     en: "Four Conditions of Groove"
@@ -238,6 +247,39 @@ var:
   DIVISION_SPACE_WARP:
     ja: "ディヴィジョン空間ワープ"
     en: "Division-Space Warp"
+  DISTRIBUTED_GROOVE_THEORY:
+    ja: "分散グルーヴ理論"
+    en: "Distributed Groove Theory"
+  HUMAN_SUBDIVISION_LIMITATION:
+    ja: "人の時間分割能力制約"
+    en: "Limitation of the Human Sense of Subdivision"
+  RHYTHM_DECOMPOSITION:
+    ja: "リズムの分解"
+    en: "Rhythm Decomposition"
+  BEAT_SHIFTING_DISTANCE:
+    ja: "拍シフト量"
+    en: "Beat-Shifting Distance"
+  BEAT_RESOLUTION:
+    ja: "拍解像度"
+    en: "Beat Resolution"
+  REDUCIBLE_BEAT:
+    ja: "可約拍"
+    en: "Reducible Beat"
+  IRREDUCIBLE_BEAT:
+    ja: "既約拍"
+    en: "Irreducible Beat"
+  BEAT_DRIFTING_DISTANCE:
+    ja: "拍ドリフト量"
+    en: "Beat-Drifting Distance"
+  BEAT_INVERSION:
+    ja: "拍の倒置"
+    en: "Beat Inversion"
+  BEAT_MULTIPLICATION:
+    ja: "拍乗法"
+    en: "Beat Multiplication"
+  FINAL_BEAT:
+    ja: "最終拍"
+    en: "Final Beat"
 
   # === Phonorhythmatology ===
   PHONORHYTHMATOLOGY:
