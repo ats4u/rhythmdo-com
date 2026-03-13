@@ -179,6 +179,9 @@ var:
   SPOKEN_OFBC:
     ja: "声出しオフビートカウント"
     en: "Spoken Offbeat Count"
+  RHYTHMOCHRONIC_COMPETENCE:
+    ja: "リズム認識型"
+    en: "Rhythmochronic Competence"
   SAA:
     ja: "<ruby><rb>強拍基軸</rb><rt>Strong-Beat Anchoring Axis</rt></ruby>"
     en: "Strong-Beat Anchoring Axis"

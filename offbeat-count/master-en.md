@@ -7585,81 +7585,81 @@ Oka Atsushi
 
 
 
-## リズム認識型とリズム感  <!-- {#rhythmochronic-competence-and-rhythmic-feeling } -->
+## Rhythmochronic Competence and Sense of Rhythm <!-- {#rhythmochronic-competence-and-rhythmic-feeling } -->
 
-８分音符１つ分はやくカウントするオフビートカウントを練習すると、すぐにできようになる人と、長期間に渡ってなかなかできないままの人の二手にはっきりと分かれます。「リズム感がある」「リズム感がない」と言ってしまえばそれまでですが、出来る様になる人はすぐ出来る様になるのに対して、出来る様にならない人は数年単位の時間を掛けてもあまり変化が表れません。
+When people practice Offbeat Count, which counts one eighth note early, they split clearly into two groups: those who can do it quickly, and those who remain unable to do it even over a long period of time. One could simply say that some people "have a sense of rhythm" and others "do not," but that does not really explain the phenomenon. Those who can do it tend to pick it up quickly, whereas those who cannot may show little change even after spending years on it.
 
-この様な違いが生まれる原因は、その人がもともと持っていた**リズム認識型** の種類の違いによると考えられます。 人間が持っているリズム認識型には様々な種類のものがあります。このリズム認識型は、あたかもポケモンカードの様に様々な種類があり、人によってそれらのカードを持っている数も異なります。
+The cause of this difference is thought to lie in the kind of **Rhythmochronic Competence** a person originally possessed. Human beings have many kinds of Rhythmochronic Competence. In that sense, Rhythmochronic Competence is like Pokemon cards: there are many kinds, and each person possesses a different set of them.
 
-この中でオフビートカウントに必要なリズム認識型を全て持っている人は、直ぐにオフビートカウントが出来るようになり、必要なリズム認識型を持っていなければ、なかなか出来るようになりません。
+People who already possess all of the kinds of Rhythmochronic Competence required for Offbeat Count can perform Offbeat Count immediately. If they do not possess the necessary ones, they cannot do it easily.
 
-つまりオフビートカウントに必要なリズム認識型を訓練によって順番に習得することによって、順序立ててオフビートカウントの習得することが出来ます。そしてオフビートカウントに習熟することで、更に様々なリズム認識型を身に付けて様々なグルーヴを演奏出来る様になります。
+In other words, by acquiring the kinds of Rhythmochronic Competence required for Offbeat Count one by one through training, Offbeat Count itself can be acquired step by step. And by becoming proficient in Offbeat Count, one can acquire still more kinds of Rhythmochronic Competence and become able to perform many different kinds of groove.
 
-では、リズム認識型とは一体どのようなものでしょうか。
+So what exactly is Rhythmochronic Competence?
 
-### リズム認識型とは <!-- {#the-definition-of-rhythmochronic-competence } -->
+### What Is Rhythmochronic Competence <!-- {#the-definition-of-rhythmochronic-competence } -->
 
-主だったリズム認識型にはいくつかの種類があります。
+There are several major kinds of Rhythmochronic Competence.
 
-* 弱拍先行リズム認識型
-    * １次元＝シラブル拍リズム弱拍先行リズム認識型
-    * ２次元=ストレス拍リズム弱拍先行リズム認識型
-    * ３次元=アフリカ型リズム弱拍先行リズム認識型
-* 強拍先行リズム認識型
-* 強拍先行弱拍先行切り替えリズム認識型
-* 尻合わせリズム認識型
-    * ※ 尻合わせリズム認識の最大長 １６分音符〜８小節まで
-* 頭合わせリズム認識型
-* 頭合わせ尻合わせ切り替えリズム認識型
-* 強拍基軸リズム認識型
-* 弱拍基軸リズム認識型
+* weak-beat-precedence competence
+    * 1-dimensional = syllable-timed-rhythm weak-beat-precedence competence
+    * 2-dimensional = stress-timed-rhythm weak-beat-precedence competence
+    * 3-dimensional = African-type-rhythm weak-beat-precedence competence
+* strong-beat-precedence competence
+* strong/weak-beat-precedence switching competence
+* tail-alignment competence
+    * Note: maximum span = from a sixteenth note to eight measures
+* head-alignment competence
+* head/tail-alignment switching competence
+* strong-beat-anchoring-axis competence
+* weak-beat-anchoring-axis competence
 
 
-オフビートカウントに必要なリズム認識型のなかで最も重要で、最も習得が難しいものは **弱拍先行** です。
+Among the kinds of Rhythmochronic Competence required for Offbeat Count, the most important and the hardest to acquire is **weak-beat precedence**.
 
-#### シラブル拍リズム弱拍先行リズム認識型
+#### Syllable-Timed-Rhythm Weak-Beat-Precedence Competence
 
-シラブル拍リズムには、**頭音節最大化原則(MPOP=Maximal Prosodic Onset Principle)** という発音規則があります。全ての末子音は、隣接する頭子音にまとめて発音するという規則です。 これはリンキングとも呼ばれます。これは音楽的に見ると弱拍先行と等しいと考えられます。 ここでは**シラブル拍リズム弱拍先行** と呼びます。 そしてこの**シラブル拍弱拍先行**を認識する能力をここでは **シラブル拍リズム弱拍先行リズム認識型**と呼びます。
+Syllable-timed rhythm has a pronunciation rule called the **Maximal Prosodic Onset Principle (MPOP)**. It is the rule that all final consonants are grouped together with adjacent onset consonants in pronunciation. This is also called linking. Musically, it can be regarded as equivalent to weak-beat precedence. Here I call this **syllable-timed-rhythm weak-beat precedence**. The ability to recognize this is called **syllable-timed-rhythm weak-beat-precedence competence**.
 
-#### ストレス拍リズム弱拍先行リズム認識型
+#### Stress-Timed-Rhythm Weak-Beat-Precedence Competence
 
-ストレス拍リズムには **頭音節最大化原則(MPOP=Maximal Prosodic Onset Principle)** という発音規則があります。全ての末音節は、隣接する頭音節にまとめて発音するという規則です。これも音楽的に見ると弱拍先行と等しいと考えられます。 このことをここでは **ストレス拍リズム弱拍先行** と呼びます。そしてこの **ストレス拍リズム弱拍先行** を認識する能力をここでは**ストレス拍リズム弱拍先行リズム認識型**と呼びます。
+Stress-timed rhythm has the pronunciation rule called the **Maximal Prosodic Onset Principle (MPOP)**. It is the rule that all final syllables are grouped together with adjacent onset syllables in pronunciation. This too can be regarded musically as equivalent to weak-beat precedence. Here I call this **stress-timed-rhythm weak-beat precedence**. The ability to recognize this is called **stress-timed-rhythm weak-beat-precedence competence**.
 
-#### アフリカ型リズム弱拍先行リズム認識型
+#### African-Type-Rhythm Weak-Beat-Precedence Competence
 
-これは音韻学としては存在しない拍リズムです。またアフリカの音楽には存在しないリズムでもあります。音楽には、音韻学で説明できる単層の拍リズム、複層の拍リズムだけでなく、３重４重の層になった拍リズムが存在します。 これらは７０年代以降にファンクというジャンルで発展し、その後の時代の音楽に影響を与えました。  ─── この３重以上の多層になった弱拍先行のことを、ここでは**アフリカ拍リズム弱拍先行**と呼びます。
+This is not a beat rhythm that exists in phonology. Nor is it a rhythm that exists in African music itself. Music contains not only single-layer beat rhythms and multi-layer beat rhythms that phonology can explain, but also beat rhythms with three or four layers. These developed in the genre of funk from the 1970s onward and influenced the music of later periods. Here I call this weak-beat precedence with three or more layers **African-type-rhythm weak-beat precedence**.
 
-アフリカ拍リズム弱拍先行は、言語のリズムを越えた領域にあると考えられており、発音練習では取り扱いません。メタディヴィジョン以降での練習で取り扱います。
+African-type-rhythm weak-beat precedence is thought to lie beyond the domain of language rhythm, so it is not handled in pronunciation practice. It is handled in practice from metadivision onward.
 
-#### シラブル拍リズム等時性リズム認識型
+#### Syllable-Timed-Rhythm Isochrony Competence
 
-シラブル拍リズムには、子音の数が増減しても母音が現れるタイミングは必ず等しいという規則です。 このことを**等時性( Isochrony )** と呼びます。 特にここでは、次で説明するストレス拍の等時性と区別し **シラブル拍リズム等時性** と呼びます。 これを認識するリズム認識型が **シラブル拍リズム等時性リズム認識型** です。
+Syllable-timed rhythm has the rule that even if the number of consonants increases or decreases, the timing at which vowels appear always remains equal. This is called **isochrony**. Here it is specifically called **syllable-timed-rhythm isochrony** in order to distinguish it from the stress-timed isochrony explained next. The Rhythmochronic Competence that recognizes this is **syllable-timed-rhythm isochrony competence**.
 
-#### アフリカ拍リズム等時性リズム認識型
+#### Stress-Timed-Rhythm Isochrony Competence
 
-ストレス拍リズムには、前後に付属するシラブルが増減してもストレスを持ったシラブルの間隔は必ず等しいという規則があります。このことを等時性と呼びます。特にここでは、前で説明したシラブル拍の等時性と区別し **ストレス拍リズム等時性** と呼びます。 これを認識するリズム認識型が **ストレス拍リズム等時性リズム認識型** です。
+Stress-timed rhythm has the rule that even if the number of syllables attached before and after changes, the interval between stressed syllables always remains equal. This is called isochrony. Here it is specifically called **stress-timed-rhythm isochrony** in order to distinguish it from the syllable-timed isochrony explained above. The Rhythmochronic Competence that recognizes this is **stress-timed-rhythm isochrony competence**.
 
-## オフビートカウントで英語リスニングを極める   <!-- {#why-offbeat-counting-enhances-english-listening-skills} -->
+## Master English Listening with Offbeat Count <!-- {#why-offbeat-counting-enhances-english-listening-skills} -->
 
-オフビートカウントを練習すると英語のリスニング能力が向上します。これはオフビートカウントを行うと、英語を聴き取る事に必要なリズム認識型を習得することの助けになっているからだと考えられます。オフビートカウントは、これまでがむしゃらに練習する以外に何の指針もなかった英語等々の発音聴き取り練習に、一定の指針を与えてくれます。
+Practicing Offbeat Count improves English listening ability. This is thought to be because carrying out Offbeat Count helps one acquire the kinds of Rhythmochronic Competence necessary for hearing English correctly. Offbeat Count gives a definite guide to English listening and pronunciation practice, which previously had no guidance except brute-force repetition.
 
-### オフビートカウントと音韻学の一致
+### The Correspondence Between Offbeat Count and Phonology
 
-オフビートカウントは、我々が音楽活動をする上でぶつかる様々なリズム上の問題を合理的に説明してくれる非常に良いツールです。 オフビートカウントは、グルーヴという得体の知れない音楽的現象を感覚的に理解する大きな手がかりを与えてくれるでしょう。
+Offbeat Count is an excellent tool for rationally explaining the various rhythmic problems we encounter in musical activity. Offbeat Count gives us a major clue for intuitively understanding the mysterious musical phenomenon called groove.
 
-まず、どんなにオフビートカウントで悪戦苦闘している人でも、カウントに必要な全ての発音を順番にひとつひとつ練習し、頭子音・末子音のリンキングに注目して特に**侵襲的末子音(Intrusive Consonant)** を含めて丁寧にリンキングを練習すると、即座にオフビートカウントが出来るようになります。 これは音韻学的に見ると、シラブル拍の発音練習に当たります。  ─── これが１つ目の弱拍先行です。ここでは**シラブル拍弱拍先行** と呼びます。
+First, no matter how much a person struggles with Offbeat Count, if they practice all of the pronunciations required for counting one by one in order, pay attention to the linking of onset consonants and final consonants, and carefully practice linking including **Intrusive Consonants**, they become able to do Offbeat Count immediately. Phonologically, this corresponds to pronunciation practice for syllable-timed rhythm. This is the first kind of weak-beat precedence. Here I call it **syllable-timed-rhythm weak-beat precedence**.
 
-そして同時にオフビートカウントは、音韻学的に言語発音上のストレス拍リズムを数字上で体現したものになっています。単層オフビートカウントの上で、多層弱拍先行オフビートカウントを練習することで、グルーヴ能力を身につけることができます。多層弱拍先行は音韻学的に見ると、ストレス拍の発音練習に相当しています。
+At the same time, Offbeat Count phonologically embodies the stress-timed rhythm of spoken language in numerical form. By practicing multi-layer weak-beat-precedence Offbeat Count on top of single-layer Offbeat Count, one can acquire groove ability. Viewed phonologically, multi-layer weak-beat precedence corresponds to pronunciation practice for stress-timed rhythm.
 
-### ２つの等時性(Isochrony) をオフビートカウントによって鍛錬する
+### Training Two Isochronies Through Offbeat Count
 
-**ストレス拍リズム等時性リズム認識** と**シラブル拍リズム等時性リズム認識**を同時の２つの等時性は、しばしば**同時に持っていることが求められ**ます。英語の方言を聴き取る為には、この２つの等時性を同時に持っていることが求められますし、またジャズなどのアメリカ伝統音楽を演奏する為にもこの２つの等時性を同時に持っている事が求められます。
+The two isochronic competences, **stress-timed-rhythm isochrony competence** and **syllable-timed-rhythm isochrony competence**, are often required simultaneously. To hear English dialects, one is required to possess both at the same time, and to perform American traditional music such as jazz, one is likewise required to possess both at once.
 
-漠然とリスニング練習や耳コピ練習を行ってもこれらのリズム認識型を習得する事は、とても困難です。しかしオフビートカウントを理論的に分析すると、この２つのリズム認識型を同時に働かせる作用があることがわかります。 オフビートカウントを行う作業の行程には、この２つの等時性リズム認識型にはっきりと意識を向ける必要が生じる為、オフビートカウントがこの２つを身につける為の練習法としての応用できることが期待されます。
+It is very difficult to acquire these kinds of Rhythmochronic Competence through vague listening practice or transcription-by-ear practice. But if Offbeat Count is analyzed theoretically, it becomes clear that it causes these two kinds of Rhythmochronic Competence to operate simultaneously. Because carrying out Offbeat Count necessarily directs clear attention to these two isochronic competences, it can be expected to function as a training method for acquiring both.
 
-オフビートカウントは、その他のシラブル拍言語 ─── フランス語やスペイン語のリスニング能力が向上することが期待されます。 オフビートカウントには **頭子音最大化原則(MOP=Maximize Onset Principle)**  に意識を向ける作用があるからです。
+Offbeat Count can also be expected to improve listening ability in other syllable-timed languages --- such as French and Spanish --- because it directs attention to the **Maximum Onset Principle (MOP)**.
 
-同時に英語のリスニング練習の効果を持っていることも期待されます。それは **頭音節最大化原則(MPOP=Maximal Prosodic Onset Principle)** を働かせる作用があると考えられるからです。
+At the same time, it can also be expected to function as English listening practice, because it is thought to activate the **Maximal Prosodic Onset Principle (MPOP)**.
 
 ## {{<meta var.MORA_SPEAKERS.en>}}の為のエチュード <!-- {#etudes-for-speakers-of-mora-timed-languages} -->
 

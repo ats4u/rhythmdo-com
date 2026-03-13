@@ -1,22 +1,21 @@
-## オフビートカウントで英語リスニングを極める   <!-- {#why-offbeat-counting-enhances-english-listening-skills} -->
+## Master English Listening with Offbeat Count <!-- {#why-offbeat-counting-enhances-english-listening-skills} -->
 
-オフビートカウントを練習すると英語のリスニング能力が向上します。これはオフビートカウントを行うと、英語を聴き取る事に必要なリズム認識型を習得することの助けになっているからだと考えられます。オフビートカウントは、これまでがむしゃらに練習する以外に何の指針もなかった英語等々の発音聴き取り練習に、一定の指針を与えてくれます。
+Practicing Offbeat Count improves English listening ability. This is thought to be because carrying out Offbeat Count helps one acquire the kinds of Rhythmochronic Competence necessary for hearing English correctly. Offbeat Count gives a definite guide to English listening and pronunciation practice, which previously had no guidance except brute-force repetition.
 
-### オフビートカウントと音韻学の一致
+### The Correspondence Between Offbeat Count and Phonology
 
-オフビートカウントは、我々が音楽活動をする上でぶつかる様々なリズム上の問題を合理的に説明してくれる非常に良いツールです。 オフビートカウントは、グルーヴという得体の知れない音楽的現象を感覚的に理解する大きな手がかりを与えてくれるでしょう。
+Offbeat Count is an excellent tool for rationally explaining the various rhythmic problems we encounter in musical activity. Offbeat Count gives us a major clue for intuitively understanding the mysterious musical phenomenon called groove.
 
-まず、どんなにオフビートカウントで悪戦苦闘している人でも、カウントに必要な全ての発音を順番にひとつひとつ練習し、頭子音・末子音のリンキングに注目して特に**侵襲的末子音(Intrusive Consonant)** を含めて丁寧にリンキングを練習すると、即座にオフビートカウントが出来るようになります。 これは音韻学的に見ると、シラブル拍の発音練習に当たります。  ─── これが１つ目の弱拍先行です。ここでは**シラブル拍弱拍先行** と呼びます。
+First, no matter how much a person struggles with Offbeat Count, if they practice all of the pronunciations required for counting one by one in order, pay attention to the linking of onset consonants and final consonants, and carefully practice linking including **Intrusive Consonants**, they become able to do Offbeat Count immediately. Phonologically, this corresponds to pronunciation practice for syllable-timed rhythm. This is the first kind of weak-beat precedence. Here I call it **syllable-timed-rhythm weak-beat precedence**.
 
-そして同時にオフビートカウントは、音韻学的に言語発音上のストレス拍リズムを数字上で体現したものになっています。単層オフビートカウントの上で、多層弱拍先行オフビートカウントを練習することで、グルーヴ能力を身につけることができます。多層弱拍先行は音韻学的に見ると、ストレス拍の発音練習に相当しています。
+At the same time, Offbeat Count phonologically embodies the stress-timed rhythm of spoken language in numerical form. By practicing multi-layer weak-beat-precedence Offbeat Count on top of single-layer Offbeat Count, one can acquire groove ability. Viewed phonologically, multi-layer weak-beat precedence corresponds to pronunciation practice for stress-timed rhythm.
 
-### ２つの等時性(Isochrony) をオフビートカウントによって鍛錬する
+### Training Two Isochronies Through Offbeat Count
 
-**ストレス拍リズム等時性リズム認識** と**シラブル拍リズム等時性リズム認識**を同時の２つの等時性は、しばしば**同時に持っていることが求められ**ます。英語の方言を聴き取る為には、この２つの等時性を同時に持っていることが求められますし、またジャズなどのアメリカ伝統音楽を演奏する為にもこの２つの等時性を同時に持っている事が求められます。
+The two isochronic competences, **stress-timed-rhythm isochrony competence** and **syllable-timed-rhythm isochrony competence**, are often required simultaneously. To hear English dialects, one is required to possess both at the same time, and to perform American traditional music such as jazz, one is likewise required to possess both at once.
 
-漠然とリスニング練習や耳コピ練習を行ってもこれらのリズム認識型を習得する事は、とても困難です。しかしオフビートカウントを理論的に分析すると、この２つのリズム認識型を同時に働かせる作用があることがわかります。 オフビートカウントを行う作業の行程には、この２つの等時性リズム認識型にはっきりと意識を向ける必要が生じる為、オフビートカウントがこの２つを身につける為の練習法としての応用できることが期待されます。
+It is very difficult to acquire these kinds of Rhythmochronic Competence through vague listening practice or transcription-by-ear practice. But if Offbeat Count is analyzed theoretically, it becomes clear that it causes these two kinds of Rhythmochronic Competence to operate simultaneously. Because carrying out Offbeat Count necessarily directs clear attention to these two isochronic competences, it can be expected to function as a training method for acquiring both.
 
-オフビートカウントは、その他のシラブル拍言語 ─── フランス語やスペイン語のリスニング能力が向上することが期待されます。 オフビートカウントには **頭子音最大化原則(MOP=Maximize Onset Principle)**  に意識を向ける作用があるからです。
+Offbeat Count can also be expected to improve listening ability in other syllable-timed languages --- such as French and Spanish --- because it directs attention to the **Maximum Onset Principle (MOP)**.
 
-同時に英語のリスニング練習の効果を持っていることも期待されます。それは **頭音節最大化原則(MPOP=Maximal Prosodic Onset Principle)** を働かせる作用があると考えられるからです。
-
+At the same time, it can also be expected to function as English listening practice, because it is thought to activate the **Maximal Prosodic Onset Principle (MPOP)**.
