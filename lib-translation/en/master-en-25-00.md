@@ -1,16 +1,15 @@
-## 縦乗りと動きの認識  <!-- {#influence-of-japanese-language-on-cognition} -->
+## Tatenori and the Perception of Movement  <!-- {#influence-of-japanese-language-on-cognition} -->
 
-日本語を母国語とする人には独特なリズムの癖があります ─── これが『縦乗り』です。これまでこの縦乗りとはどういうものか分析し、縦乗りとは何かを定義した上で、縦乗りにならない為にはどうすればいいのか、更に踏み込んでグルーヴするためにはどうすればいいのかを考えてきました。しかし縦乗りを直すことは容易ではありません ───克服する為にはどんなに短くても数年、長いと十年以上掛かります。
+Native speakers of Japanese have a distinctive rhythmic habit. That is what I call tatenori. Up to this point, I have analyzed what tatenori is, defined it, considered how to avoid falling into it, and gone further to ask how one can groove more deeply. But correcting tatenori is not easy. Even in the shortest cases it takes years to overcome, and in long cases it can take more than a decade.
 
-日本人には独特な歩行習慣があります ─── 日本人は動くものを避けられない ───これは日本人からほとんど認識されていない問題ですが、海外の人から見ると非常に目立つ特徴になっています。このことをここでは**進路被り**と呼ぶことにします。 この特徴も縦乗りと同様に、直すことが非常に難しく、また直すことが難しい以上に、この歩き方自体を意識すること自体がとても難しいという問題があります。この問題も、克服する為には長い年月を必要とします。
+Japanese people also have a distinctive walking habit: they cannot smoothly avoid moving objects. This is a problem that is barely recognized by Japanese people themselves, but from the perspective of people overseas it stands out very clearly. Here I will call this **Path Overlap**. Like tatenori, this trait is very difficult to correct, and more than that, it is extremely difficult even to become conscious of the walking style itself. Overcoming this problem likewise requires many years.
 
-{{<meta var.OFBCT.en>}}では、これらは言語リズムが、運動する認知能力の時間の認識に深く関わっているからだという仮説を提唱します。─── つまり、縦乗りを治すためには自分が自分自身の運動をどう認識しているか深く内省し、それを改革する必要があります。
+{{<meta var.OFBCT.en>}} proposes the hypothesis that these phenomena arise because language rhythm is deeply involved in how moving cognition perceives time. In other words, to cure tatenori, one must deeply introspect on how one recognizes one's own movement and then reform that recognition.
 
-前章 [{{<meta var.SCHIZORHYTHMOS.en>}}と{{<meta var.SOLIRHYTHMOS.en>}}](/offbeat-count/schizorhythmos-and-solirhythmos/ja/) で、言語のリズム感覚には {{<meta var.SCHIZORHYTHMOS.en>}}と{{<meta var.SOLIRHYTHMOS.en>}}の２つに分けられることを見てきました。
+In the previous chapter, [{{<meta var.SCHIZORHYTHMOS.en>}} and {{<meta var.SOLIRHYTHMOS.en>}}](/offbeat-count/schizorhythmos-and-solirhythmos/ja/), we saw that language rhythm can be divided into two types: {{<meta var.SCHIZORHYTHMOS.en>}} and {{<meta var.SOLIRHYTHMOS.en>}}.
 
-日本語には、モーラ拍リズムという世界的に見るととても珍しいリズム構造を持っています。その日本語を母国語として話す日本人は、言語の発音構造の影響を受けることにより、その行動上起こる認知偏りに大きな特徴が生まれます。この独特なリズム認識型をここでは{{<meta var.SOLIRHYTHMOS.en>}}と呼びます。
+Japanese has the very unusual rhythmic structure of mora-timed rhythm. Because Japanese people speak that language as their mother tongue, the language's pronunciation structure produces a characteristic bias in the cognition that governs their behavior. Here I call this distinctive rhythmic-cognition type {{<meta var.SOLIRHYTHMOS.en>}}.
 
-この{{<meta var.SOLIRHYTHMOS.en>}}が縦乗り（弱拍を聴くと強拍が認識出来ない）と進路被り(動くものを無難に避けられない)の両方を引き起こしている…それがこの章のテーマです。
+This {{<meta var.SOLIRHYTHMOS.en>}} causes both tatenori, in which hearing a weak beat prevents one from recognizing the strong beat, and Path Overlap, in which one cannot smoothly avoid moving things. That is the theme of this chapter.
 
-この日本人の{{<meta var.SOLIRHYTHMOS.en>}}は、他にも多くの日本人の奇妙な風習を説明することが出来ます。 ─── この様に日本語のモーラ拍リズム={{<meta var.SOLIRHYTHMOS.en>}}が、日本人の行動の様々な場面で日本人の気付かないうちに日本人の行動を支配している ─── そういう視点をこの章で提示したいと思います。
-
+This Japanese {{<meta var.SOLIRHYTHMOS.en>}} can also explain many other strange Japanese habits. In this chapter, I want to present the perspective that the mora-timed rhythm of Japanese, that is, {{<meta var.SOLIRHYTHMOS.en>}}, governs Japanese behavior in many different situations without Japanese people even noticing it.

@@ -1,20 +1,19 @@
-### 進路被りとは
+### What Is Path Overlap?
 
-日本人だけに見られる行動パターンがあります ─── 日本人は動くものを全く避けない ─── これは私が海外放浪を終えて日本に帰国した時にまず最初に気付いたことでもあります。
+There is a behavioral pattern found only among Japanese people: Japanese people do not avoid moving things at all. This was one of the first things I noticed when I returned to Japan after years of wandering abroad.
 
-以下の説は、筆者である私の個人的な体験に基づいた観察と、そこから導き出された仮説です。この仮説が本当に正しいかどうかには、多くの検証が必要でしょう。この仮説は、客観的に定量化された情報を基準にしていないという点では厳密性に欠けるものです。
+What follows is a hypothesis drawn from my own personal observations and experiences as the author. It would require a great deal of verification to determine whether this hypothesis is truly correct. In that sense, it lacks rigor, because it is not based on objectively quantified data.
 
-しかしながら、私が12年間の海外放浪をする前とした後で私自身の感覚が大きく変わったことにより、気付く様になったことがあります。それは日本語の感覚と海外の感覚を切り替えられる様になったから気付くようになったのではないかと思います。
+Even so, there are things I only began to notice because my own perceptions changed dramatically before and after my twelve years of wandering abroad. I believe I became able to notice them because I learned to switch between a Japanese mode of perception and an overseas one.
 
-複数の視点が重ね合うことで生まれた意見は、興味深い事実を浮かび上がらせる筈です。それは個人的な体験であったとしても、一定の価値があるはずではないかと、私は思います。
+When multiple perspectives are layered together, they should bring interesting facts to light. Even if something begins as personal experience, I believe it can still have a certain value.
 
-そしてそれは、私個人の体験記でしかないということは決してはなく、実は英語で語る日本在住者の話題として、実は非常に一般的なものだということにも気付きました。これは実は、日本人以外の人々は既に気付いていることでもあるのです。そしてこれらはインターネット上のSNSや掲示板などで具体的に文字として確認することが可能です。例えそれが、定量化されていない意見であったとしても、そこには日本人の認知に一定の偏りがあり、それが日本人以外の人に一定の違和感を与えているということは、少なくとも言えるでしょう。
+And I also came to realize that this is by no means merely my personal memoir. In fact, it is a very common topic among non-Japanese residents of Japan speaking in English. In other words, it is something that people other than Japanese have already noticed. These observations can be found concretely in writing on the internet, on social media, forums, and similar places. Even if such opinions are not quantified, one can at least say that there is a certain bias in Japanese cognition, and that it gives non-Japanese people a certain persistent sense of unease.
 
-<!-- 私は海外放浪を経たことにより英語が理解出来るようになりました。私が英語中国語タイ語ラオ語の学習を始めましたのは成人後です。そんななか映画やニュースを日本語字幕も英語字幕もない状態で見て理解することが出来るようになったことは特筆に値すべきではないかと私は考えています。 -->
+<!-- After wandering abroad, I became able to understand English. I began learning English, Chinese, Thai, and Lao only after becoming an adult. I believe it is worth noting that I eventually became able to watch films and news without either Japanese or English subtitles and still understand them. -->
 
-世界中の人が知っているのに日本人だけが気付かない日本人の特徴とは ───それは、「通路で日本人とぶつかりそうにならずにすれ違うことがとても難しい」ということです。私は海外放浪中、色々な人混みを歩きましたが、海外放浪中すれ違うことに失敗してぶつかりそうになる人がいると、それが必ず日本人であることに気付いたのです。最初は気の所為だと思っていたのですが、再現性が非常に高く、毎日人混みを歩いていると日に１〜２度は遭遇するような感覚でした。
+The trait that people around the world know, but that only Japanese people fail to notice about themselves, is this: it is very difficult to pass a Japanese person in a corridor without almost colliding with them. While traveling abroad, I walked through many kinds of crowds, and whenever I encountered someone who failed to pass smoothly and nearly collided with me, that person was always Japanese. At first I thought it might be my imagination, but the recurrence was so strong that, while walking through crowds every day, I would encounter it once or twice a day.
 
-右に避けると右に避ける、左に避けると左に避ける、必ずワンテンポ遅れて同じ方向に避けるので、すれ違うことが出来ないのです。
+If I moved right, they moved right. If I moved left, they moved left. They would always dodge in the same direction one beat late, which made it impossible to pass each other smoothly.
 
-その後興味を持って、海外の人混みで浮かび上がるこの日本人独特な行動パターンを観察するようになりました。すると実はこれは海外では比較的良く知られている日本人の習慣でもあるらしいことに気付きました。
-
+After that, I became interested and started observing this uniquely Japanese behavior pattern as it surfaced in overseas crowds. Then I realized that this was in fact a comparatively well-known Japanese habit overseas.

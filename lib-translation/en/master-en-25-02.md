@@ -1,16 +1,15 @@
-### 日本人がだけが知らない日本人の進路被り
+### The Japanese Path Overlap That Only Japanese People Do Not Notice
 
 <div class="center-box">
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">歩行者同士の進路被り解消システム <a href="https://t.co/2aFqVw2eQY">pic.twitter.com/2aFqVw2eQY</a></p>&mdash; テコまる (@tecomalupepepe) <a href="https://twitter.com/tecomalupepepe/status/1788841445513896109?ref_src=twsrc%5Etfw">May 10, 2024</a></blockquote>
 </div>
 
-上記はテコまる氏作成の「進路被り解消システム」のビデオです。この様に通路で進路が何度も被ってぶつかりそうになることはよくある問題ではないでしょうか。 ─── しかしこれが**日本独特な問題**だということを気付いたのです。
+The video above is Mr. Tekomaru's "Path Overlap Resolution System." Almost everyone has experienced the common problem of repeatedly overlapping paths with someone in a corridor and nearly colliding. But I came to realize that this is in fact a **distinctively Japanese problem**.
 
-海外の人々は、人混みを歩く時に人と衝突しないことに最も注意します。 人混みには色々な人がおり、スリやどろぼう酔っ払いなどの危険な人物も紛れていますし、どこにどのような予測不能な危険人物が紛れているかわからないので、人の進路を遮らない様なコースを無意識のうちに通ろうとする習慣があります。 ─── なので人と人が鉢合わせになったりぶつかりそうになったりすること自体がそもそもほとんどありません。
+When people overseas walk through crowds, what they pay the most attention to is not colliding with others. A crowd contains all kinds of people, including dangerous ones such as pickpockets, thieves, and drunks, and because no one knows what kind of unpredictable threat may be present or where, people develop the habit of unconsciously choosing a route that does not block anyone else's path. As a result, situations in which two people face off or nearly collide are rare to begin with.
 
-ところがこの**予め避けておく**という習慣が日本人にはないのです。海外の歩行者が必ず避ける人の通路を横切る様なコースをまず認識上で認識していない為、歩行者の前を横切るようなコースを無意識のうちにとってしまうのです。すると鉢合わせになってしまう可能性が高くなります。
+Japanese people, however, do not have this habit of **avoiding in advance**. Because they do not even cognitively register routes that cut across the paths that overseas pedestrians would automatically avoid, they unconsciously choose courses that cross in front of others. That makes face-to-face near-collisions far more likely.
 
-つまり海外の人はめったに鉢合わせにならないのに、日本人はしばしば鉢合わせになります。鉢合わせになると新たに次の問題が起こります。鉢合わせになった時に、相手と逆の方向に避けることが出来ないのです。 相手が右に避けると吸い込まれる様に右に避けてしまいぶつかりそうになる。 相手が左に避けるとやはり同様に吸い込まれる様に左に避けてしまいぶつかりそうになるのです。結局必ずワンテンポ遅れて同じ方向に避けるので、必ずぶつかりそうになり、すれ違うことが出来ないのです。 ─── しかもこれは定常的に２度〜３度と連続して起こるという特徴があります。
+In other words, overseas pedestrians rarely end up face to face, whereas Japanese people often do. And once they do, a new problem appears: they cannot dodge in the direction opposite to the other person. If the other person moves right, they are drawn into moving right as well, and almost collide. If the other person moves left, they are drawn into moving left in exactly the same way. In the end, they always dodge in the same direction one beat late, so they keep almost colliding and cannot pass each other. Moreover, this characteristically happens two or three times in a row.
 
-歩行者の速度が日本と比べて圧倒的に速い海外では、この歩き方は命取りになることも珍しくありません。この日本人の習性は、とても目立ちます。  ─── しかし、このことに気付いている日本人は非常に少ないという問題があります。
-
+In countries where pedestrians move far faster than in Japan, this style of walking can easily become dangerous. This Japanese habit stands out very clearly. Yet very few Japanese people seem to notice it.

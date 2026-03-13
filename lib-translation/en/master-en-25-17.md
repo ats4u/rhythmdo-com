@@ -1,11 +1,9 @@
-### まとめ
+### Summary
 
-日本人のもうひとつの大切な風習として**節目を大切にする**という風習があります。 これは**日本人として謙虚に {{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}} を反省した結果**として生まれたのではないでしょうか。
+Another important Japanese custom is the habit of **valuing milestones and junctures**. Might this not have arisen as **the result of humbly reflecting, as Japanese people, on {{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}}**?
 
-私はしばしば「日本文化を批判しすぎる」という批判を受けますが、私は単に日本人として**節目を大切にしましょう**という日本人としてごく当たり前なことを指摘しているだけなのかも知れません。
+I am often criticized for "criticizing Japanese culture too much," but perhaps I am merely pointing out something entirely ordinary for Japanese people: that **we should value milestones and junctures**.
 
-私は日本人としてこの日本人の「終了地点が認識出来ない」{{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}} という問題点の本質を明らかにしました。
+As a Japanese person, I believe I have clarified the essence of this Japanese problem of {{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}}: the inability to recognize the endpoint.
 
-私（筆者岡敦）は、この見識が、日本文化の素晴らしさを世界に伝え、日本文化のさらなる発展を支える基盤となることを心から祈っております。
-
-
+I, the author, sincerely hope that this insight will serve as a foundation for conveying the excellence of Japanese culture to the world and supporting the further development of Japanese culture.

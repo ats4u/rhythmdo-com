@@ -1,6 +1,5 @@
-### 日本人の持つ時間認識の特徴
+### The Characteristics of Japanese Time Perception
 
-この観察から、<span style="font-size:1.2em;font-weight:800">日本人は現在起きた何らかのトリガーに反応する形で動作を開始するが、海外の人は、現在の動きの軌跡から近い未来の期待位置を予想し、その期待位置に対して動作を開始する</span>ということが言えます。
+From these observations, we can say the following: <span style="font-size:1.2em;font-weight:800">Japanese people begin action by reacting to some trigger that has already occurred in the present, whereas people overseas predict a near-future expected position from the current trajectory of movement and begin action toward that expected position.</span>
 
-何故これが重要なのかというと、これが音楽の演奏時に共演者とのリズム上のコミュニケーションを行う上で、もはや致命的と断言出来る程に、極めて大きな違いとなって表れるからです。
-
+Why is this important? Because in musical performance, this difference appears so strongly in rhythmic communication with other performers that it is no exaggeration to call it fatal.

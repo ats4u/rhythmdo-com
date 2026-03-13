@@ -11069,134 +11069,134 @@ Escaping from tatenori is the drama of escaping from the perceptual limits of th
   --
   -->
 
-## 縦乗りと動きの認識  <!-- {#influence-of-japanese-language-on-cognition} -->
+## Tatenori and the Perception of Movement  <!-- {#influence-of-japanese-language-on-cognition} -->
 
-日本語を母国語とする人には独特なリズムの癖があります ─── これが『縦乗り』です。これまでこの縦乗りとはどういうものか分析し、縦乗りとは何かを定義した上で、縦乗りにならない為にはどうすればいいのか、更に踏み込んでグルーヴするためにはどうすればいいのかを考えてきました。しかし縦乗りを直すことは容易ではありません ───克服する為にはどんなに短くても数年、長いと十年以上掛かります。
+Native speakers of Japanese have a distinctive rhythmic habit. That is what I call tatenori. Up to this point, I have analyzed what tatenori is, defined it, considered how to avoid falling into it, and gone further to ask how one can groove more deeply. But correcting tatenori is not easy. Even in the shortest cases it takes years to overcome, and in long cases it can take more than a decade.
 
-日本人には独特な歩行習慣があります ─── 日本人は動くものを避けられない ───これは日本人からほとんど認識されていない問題ですが、海外の人から見ると非常に目立つ特徴になっています。このことをここでは**進路被り**と呼ぶことにします。 この特徴も縦乗りと同様に、直すことが非常に難しく、また直すことが難しい以上に、この歩き方自体を意識すること自体がとても難しいという問題があります。この問題も、克服する為には長い年月を必要とします。
+Japanese people also have a distinctive walking habit: they cannot smoothly avoid moving objects. This is a problem that is barely recognized by Japanese people themselves, but from the perspective of people overseas it stands out very clearly. Here I will call this **Path Overlap**. Like tatenori, this trait is very difficult to correct, and more than that, it is extremely difficult even to become conscious of the walking style itself. Overcoming this problem likewise requires many years.
 
-{{<meta var.OFBCT.en>}}では、これらは言語リズムが、運動する認知能力の時間の認識に深く関わっているからだという仮説を提唱します。─── つまり、縦乗りを治すためには自分が自分自身の運動をどう認識しているか深く内省し、それを改革する必要があります。
+{{<meta var.OFBCT.en>}} proposes the hypothesis that these phenomena arise because language rhythm is deeply involved in how moving cognition perceives time. In other words, to cure tatenori, one must deeply introspect on how one recognizes one's own movement and then reform that recognition.
 
-前章 [{{<meta var.SCHIZORHYTHMOS.en>}}と{{<meta var.SOLIRHYTHMOS.en>}}](/offbeat-count/schizorhythmos-and-solirhythmos/ja/) で、言語のリズム感覚には {{<meta var.SCHIZORHYTHMOS.en>}}と{{<meta var.SOLIRHYTHMOS.en>}}の２つに分けられることを見てきました。
+In the previous chapter, [{{<meta var.SCHIZORHYTHMOS.en>}} and {{<meta var.SOLIRHYTHMOS.en>}}](/offbeat-count/schizorhythmos-and-solirhythmos/ja/), we saw that language rhythm can be divided into two types: {{<meta var.SCHIZORHYTHMOS.en>}} and {{<meta var.SOLIRHYTHMOS.en>}}.
 
-日本語には、モーラ拍リズムという世界的に見るととても珍しいリズム構造を持っています。その日本語を母国語として話す日本人は、言語の発音構造の影響を受けることにより、その行動上起こる認知偏りに大きな特徴が生まれます。この独特なリズム認識型をここでは{{<meta var.SOLIRHYTHMOS.en>}}と呼びます。
+Japanese has the very unusual rhythmic structure of mora-timed rhythm. Because Japanese people speak that language as their mother tongue, the language's pronunciation structure produces a characteristic bias in the cognition that governs their behavior. Here I call this distinctive rhythmic-cognition type {{<meta var.SOLIRHYTHMOS.en>}}.
 
-この{{<meta var.SOLIRHYTHMOS.en>}}が縦乗り（弱拍を聴くと強拍が認識出来ない）と進路被り(動くものを無難に避けられない)の両方を引き起こしている…それがこの章のテーマです。
+This {{<meta var.SOLIRHYTHMOS.en>}} causes both tatenori, in which hearing a weak beat prevents one from recognizing the strong beat, and Path Overlap, in which one cannot smoothly avoid moving things. That is the theme of this chapter.
 
-この日本人の{{<meta var.SOLIRHYTHMOS.en>}}は、他にも多くの日本人の奇妙な風習を説明することが出来ます。 ─── この様に日本語のモーラ拍リズム={{<meta var.SOLIRHYTHMOS.en>}}が、日本人の行動の様々な場面で日本人の気付かないうちに日本人の行動を支配している ─── そういう視点をこの章で提示したいと思います。
+This Japanese {{<meta var.SOLIRHYTHMOS.en>}} can also explain many other strange Japanese habits. In this chapter, I want to present the perspective that the mora-timed rhythm of Japanese, that is, {{<meta var.SOLIRHYTHMOS.en>}}, governs Japanese behavior in many different situations without Japanese people even noticing it.
 
-### 進路被りとは
+### What Is Path Overlap?
 
-日本人だけに見られる行動パターンがあります ─── 日本人は動くものを全く避けない ─── これは私が海外放浪を終えて日本に帰国した時にまず最初に気付いたことでもあります。
+There is a behavioral pattern found only among Japanese people: Japanese people do not avoid moving things at all. This was one of the first things I noticed when I returned to Japan after years of wandering abroad.
 
-以下の説は、筆者である私の個人的な体験に基づいた観察と、そこから導き出された仮説です。この仮説が本当に正しいかどうかには、多くの検証が必要でしょう。この仮説は、客観的に定量化された情報を基準にしていないという点では厳密性に欠けるものです。
+What follows is a hypothesis drawn from my own personal observations and experiences as the author. It would require a great deal of verification to determine whether this hypothesis is truly correct. In that sense, it lacks rigor, because it is not based on objectively quantified data.
 
-しかしながら、私が12年間の海外放浪をする前とした後で私自身の感覚が大きく変わったことにより、気付く様になったことがあります。それは日本語の感覚と海外の感覚を切り替えられる様になったから気付くようになったのではないかと思います。
+Even so, there are things I only began to notice because my own perceptions changed dramatically before and after my twelve years of wandering abroad. I believe I became able to notice them because I learned to switch between a Japanese mode of perception and an overseas one.
 
-複数の視点が重ね合うことで生まれた意見は、興味深い事実を浮かび上がらせる筈です。それは個人的な体験であったとしても、一定の価値があるはずではないかと、私は思います。
+When multiple perspectives are layered together, they should bring interesting facts to light. Even if something begins as personal experience, I believe it can still have a certain value.
 
-そしてそれは、私個人の体験記でしかないということは決してはなく、実は英語で語る日本在住者の話題として、実は非常に一般的なものだということにも気付きました。これは実は、日本人以外の人々は既に気付いていることでもあるのです。そしてこれらはインターネット上のSNSや掲示板などで具体的に文字として確認することが可能です。例えそれが、定量化されていない意見であったとしても、そこには日本人の認知に一定の偏りがあり、それが日本人以外の人に一定の違和感を与えているということは、少なくとも言えるでしょう。
+And I also came to realize that this is by no means merely my personal memoir. In fact, it is a very common topic among non-Japanese residents of Japan speaking in English. In other words, it is something that people other than Japanese have already noticed. These observations can be found concretely in writing on the internet, on social media, forums, and similar places. Even if such opinions are not quantified, one can at least say that there is a certain bias in Japanese cognition, and that it gives non-Japanese people a certain persistent sense of unease.
 
-<!-- 私は海外放浪を経たことにより英語が理解出来るようになりました。私が英語中国語タイ語ラオ語の学習を始めましたのは成人後です。そんななか映画やニュースを日本語字幕も英語字幕もない状態で見て理解することが出来るようになったことは特筆に値すべきではないかと私は考えています。 -->
+<!-- After wandering abroad, I became able to understand English. I began learning English, Chinese, Thai, and Lao only after becoming an adult. I believe it is worth noting that I eventually became able to watch films and news without either Japanese or English subtitles and still understand them. -->
 
-世界中の人が知っているのに日本人だけが気付かない日本人の特徴とは ───それは、「通路で日本人とぶつかりそうにならずにすれ違うことがとても難しい」ということです。私は海外放浪中、色々な人混みを歩きましたが、海外放浪中すれ違うことに失敗してぶつかりそうになる人がいると、それが必ず日本人であることに気付いたのです。最初は気の所為だと思っていたのですが、再現性が非常に高く、毎日人混みを歩いていると日に１〜２度は遭遇するような感覚でした。
+The trait that people around the world know, but that only Japanese people fail to notice about themselves, is this: it is very difficult to pass a Japanese person in a corridor without almost colliding with them. While traveling abroad, I walked through many kinds of crowds, and whenever I encountered someone who failed to pass smoothly and nearly collided with me, that person was always Japanese. At first I thought it might be my imagination, but the recurrence was so strong that, while walking through crowds every day, I would encounter it once or twice a day.
 
-右に避けると右に避ける、左に避けると左に避ける、必ずワンテンポ遅れて同じ方向に避けるので、すれ違うことが出来ないのです。
+If I moved right, they moved right. If I moved left, they moved left. They would always dodge in the same direction one beat late, which made it impossible to pass each other smoothly.
 
-その後興味を持って、海外の人混みで浮かび上がるこの日本人独特な行動パターンを観察するようになりました。すると実はこれは海外では比較的良く知られている日本人の習慣でもあるらしいことに気付きました。
+After that, I became interested and started observing this uniquely Japanese behavior pattern as it surfaced in overseas crowds. Then I realized that this was in fact a comparatively well-known Japanese habit overseas.
 
-### 日本人がだけが知らない日本人の進路被り
+### The Japanese Path Overlap That Only Japanese People Do Not Notice
 
 <div class="center-box">
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">歩行者同士の進路被り解消システム <a href="https://t.co/2aFqVw2eQY">pic.twitter.com/2aFqVw2eQY</a></p>&mdash; テコまる (@tecomalupepepe) <a href="https://twitter.com/tecomalupepepe/status/1788841445513896109?ref_src=twsrc%5Etfw">May 10, 2024</a></blockquote>
 </div>
 
-上記はテコまる氏作成の「進路被り解消システム」のビデオです。この様に通路で進路が何度も被ってぶつかりそうになることはよくある問題ではないでしょうか。 ─── しかしこれが**日本独特な問題**だということを気付いたのです。
+The video above is Mr. Tekomaru's "Path Overlap Resolution System." Almost everyone has experienced the common problem of repeatedly overlapping paths with someone in a corridor and nearly colliding. But I came to realize that this is in fact a **distinctively Japanese problem**.
 
-海外の人々は、人混みを歩く時に人と衝突しないことに最も注意します。 人混みには色々な人がおり、スリやどろぼう酔っ払いなどの危険な人物も紛れていますし、どこにどのような予測不能な危険人物が紛れているかわからないので、人の進路を遮らない様なコースを無意識のうちに通ろうとする習慣があります。 ─── なので人と人が鉢合わせになったりぶつかりそうになったりすること自体がそもそもほとんどありません。
+When people overseas walk through crowds, what they pay the most attention to is not colliding with others. A crowd contains all kinds of people, including dangerous ones such as pickpockets, thieves, and drunks, and because no one knows what kind of unpredictable threat may be present or where, people develop the habit of unconsciously choosing a route that does not block anyone else's path. As a result, situations in which two people face off or nearly collide are rare to begin with.
 
-ところがこの**予め避けておく**という習慣が日本人にはないのです。海外の歩行者が必ず避ける人の通路を横切る様なコースをまず認識上で認識していない為、歩行者の前を横切るようなコースを無意識のうちにとってしまうのです。すると鉢合わせになってしまう可能性が高くなります。
+Japanese people, however, do not have this habit of **avoiding in advance**. Because they do not even cognitively register routes that cut across the paths that overseas pedestrians would automatically avoid, they unconsciously choose courses that cross in front of others. That makes face-to-face near-collisions far more likely.
 
-つまり海外の人はめったに鉢合わせにならないのに、日本人はしばしば鉢合わせになります。鉢合わせになると新たに次の問題が起こります。鉢合わせになった時に、相手と逆の方向に避けることが出来ないのです。 相手が右に避けると吸い込まれる様に右に避けてしまいぶつかりそうになる。 相手が左に避けるとやはり同様に吸い込まれる様に左に避けてしまいぶつかりそうになるのです。結局必ずワンテンポ遅れて同じ方向に避けるので、必ずぶつかりそうになり、すれ違うことが出来ないのです。 ─── しかもこれは定常的に２度〜３度と連続して起こるという特徴があります。
+In other words, overseas pedestrians rarely end up face to face, whereas Japanese people often do. And once they do, a new problem appears: they cannot dodge in the direction opposite to the other person. If the other person moves right, they are drawn into moving right as well, and almost collide. If the other person moves left, they are drawn into moving left in exactly the same way. In the end, they always dodge in the same direction one beat late, so they keep almost colliding and cannot pass each other. Moreover, this characteristically happens two or three times in a row.
 
-歩行者の速度が日本と比べて圧倒的に速い海外では、この歩き方は命取りになることも珍しくありません。この日本人の習性は、とても目立ちます。  ─── しかし、このことに気付いている日本人は非常に少ないという問題があります。
+In countries where pedestrians move far faster than in Japan, this style of walking can easily become dangerous. This Japanese habit stands out very clearly. Yet very few Japanese people seem to notice it.
 
-### 進路被りとの出会い
+### My First Encounter with Path Overlap
 
-私がこの現象に始めて気付いたのは、タイのバンコクの歩道でした。 スクムビット通りの歩道は屋台や路面店が多く並んでいるため通路が狭い上、世界中の観光客が大勢バラバラな方向に歩いています。しかし歩道の人々は機敏に避け合って不思議とぶつかることはほとんどありません。お互いが通り過ぎることが出来ないと気付けば、どちらかが予め先に避けて相手が通過することをまったり、通路の窪みに入って相手をやりすごしたり、肩を引いて相手を通したりと、機敏にコミュニケーションを取りながら、通りを歩いているのです。
+The first time I noticed this phenomenon was on a sidewalk in Bangkok, Thailand. The sidewalks on Sukhumvit Road are narrow because they are lined with food stalls and street shops, and large numbers of tourists from all over the world walk there in all directions. Yet the pedestrians on those sidewalks skillfully avoid one another, and collisions are mysteriously rare. If they realize they will not be able to pass cleanly, one of them will step aside in advance and wait for the other to pass, duck into a recess in the walkway, or pull in a shoulder to let the other person through. They walk the street while communicating quickly and smoothly through motion.
 
-しかし歩いていると稀に、右に避けると同時に右に避ける、左に避けると同時に左に避ける、というようにワンテンポ遅れて同じ方向に避ける人とぶつかりそうになることがあります。顔を上げて見てみると、その同じ方向に避けた人が日本人だということに気付きます。
+But every so often, while walking there, I would almost collide with someone who moved right the moment I moved right, or moved left the moment I moved left, always dodging in the same direction one beat late. When I looked up, I realized that the person who had moved in the same direction was Japanese.
 
-最初は気のせいかも知れないと何度も確認したのですが、この現象はとても再現性が高く、ワンテンポ遅れて避ける人がいるなと思うと、ほぼ１００％の確率で日本人だということを徐々に意識するようになりました。
+At first I repeatedly checked whether it might be my imagination, but the recurrence was so strong that I gradually became aware that whenever I thought, "Here comes someone who dodges one beat late," that person was Japanese with almost one-hundred-percent certainty.
 
-これが私の**日本人の進路被り**との出会いでした。私は、海外放浪の生存技術として、潮州系・海南系・ラオ系・マレー系・タイ系・・・程度の民族を見分けることが出来るのですが、彼らは誰一人としてこの進路被りを起こす人がいません。 彼らは予め進路被りが起こらない方向に避けている為、進路被りになりようがないということもあります。
+That was my first encounter with **Japanese Path Overlap**. As part of the survival skills I developed while wandering abroad, I can roughly distinguish Teochew, Hainanese, Lao, Malay, Thai, and similar ethnic groups, yet not a single one of them exhibited this Path Overlap. Part of the reason is that they are already dodging in directions that prevent Path Overlap from arising in the first place.
 
-### 進路被りを観察しやすい空港
+### Airports, Where Path Overlap Is Easy to Observe
 
-私がこの日本人の進路被りをより強く意識するようになったのは日本帰国後です。
+I became even more strongly aware of Japanese Path Overlap after returning to Japan.
 
-私は東京蒲田が出身であり羽田空港が近いのでほぼ毎日羽田空港まで散歩するのですが、羽田空港に行くと国際線が離着陸する第三ターミナルと、主に国内線の第一・第二ターミナルがあります。つまりここにいると日本人と外国人の歩き方を比較しやすいのです。
+I am from Kamata in Tokyo, which is close to Haneda Airport, so I walk there almost every day. At Haneda there is Terminal 3, where international flights arrive and depart, and Terminals 1 and 2, which are mainly domestic. In other words, it is an ideal place to compare how Japanese people walk with how foreigners walk.
 
-コロナ禍前2020年ごろは中国からの観光客ブームが起きていたことから常に大勢の中国からの観光客が溢れかえっていました。第三は大勢の観光客で溢れていました。しかし不思議と人とぶつかることはないのです。しかし第一第二ターミナルは第三よりも広く、歩きやすく決して混んでいるという状況ではないにも関わらず進路被りが起こるのです。これも非常に再現性が高く、空港に行くと毎回必ず数度は進路被りが発生します。
+Before the COVID pandemic, around 2020, there was a tourism boom from China, and Terminal 3 was constantly overflowing with large numbers of Chinese tourists. Terminal 3 was packed with people, yet, strangely enough, people hardly collided with one another. By contrast, Terminals 1 and 2 are wider, easier to walk through, and not crowded in the same way, yet Path Overlap still occurs there. This, too, is highly reproducible: every time I go to the airport, Path Overlap occurs several times without fail.
 
-2023年頃から第三ターミナルは国内国際共用になり、日本人と外国人が混在して歩く場所に変わりました。すると以前にも増して、日本人と外国人の歩き方の違いを比較する機会が増えたのです。懐に飛び込んでくる様な形で近付いてくる、或いは人の鼻先を横切るような形で近付いてくる人がいると思うと、それは必ず日本人なのです。それ以外の人はほぼ日本人の様な歩き方をしません。
+From around 2023 onward, Terminal 3 became a mixed domestic-and-international terminal, turning it into a place where Japanese people and foreigners walk together. That gave me even more opportunities than before to compare the difference in how they move. Whenever someone approaches as if diving straight into my personal space, or closes in by cutting across the space right in front of my nose, that person is always Japanese. Almost no one else walks the way Japanese people do.
 
-### 海外の人々にはよく知られている進路被り
+### Path Overlap, Well Known Among People Overseas
 
-これを日本で指摘するとしばしば「それはお前の思い過ごしだ」という反論をいただきます。これは私の思い過ごしではありません。定量化された数字がある訳ではありませんが、「日本人は周りを避けない」という苦情は、日本に長く居住する海外の人々がほぼ典型的にいい始める苦情のひとつでもあります。
+When I point this out in Japan, I am often met with the objection, "That is just your imagination." It is not my imagination. There may not be quantified numerical data, but the complaint that "Japanese people do not avoid others around them" is one of the complaints that long-term foreign residents of Japan very typically begin to voice.
 
-海外では特定の国の人の習慣を批判することは、差別的と解釈される危険を伴うために、声高には語られないという難しさがあります。なので大抵はやや婉曲に静かに批判されることが多いものです。つまり英語の婉曲な表現を知らない限り、これらをインターネットで見つけることはできないという問題があります。
+Overseas, openly criticizing the habits of people from a specific country carries the risk of being interpreted as discriminatory, so such complaints are not usually expressed loudly and directly. More often, they are voiced quietly and somewhat indirectly. In other words, unless you know the indirect ways these things are expressed in English, it is difficult to find them on the internet.
 
-そこで「日本人は避けない」を英語でなんというかを調べてみました。
+So I tried investigating how one might say, in English, that "Japanese people do not avoid others."
 
-#### 進路被りを英語でなんというか
+#### How To Say Path Overlap in English
 
-私は、日本語での一般的な表現として『日本人は人を避けない』と表現しています。しかしこの『日本人は人を避けない』という表現を日本人に対して発言したとき、いまだかつてその日本語を理解できる日本人と出会ったことがないという現象を観察しています。 ここから『日本人は人を避けない』という表現が実は日本語として一般的ではないのではないか、という疑念を持っています。
+In Japanese, I usually describe it with the phrase "Japanese people do not avoid others." But when I say this to Japanese people, I have observed that I have never once met a Japanese person who actually understands what I mean from that Japanese phrasing alone. That makes me suspect that the phrase itself may not really be common Japanese after all.
 
-では『日本人は人を避けない』を英語ではなんというでしょうか。
+So then, how would one say "Japanese people do not avoid others" in English?
 
-| 英語                                                                                       | 日本語                                                                       |
-| :----------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------- |
-| People stop abruptly without checking behind them.                                         | みんな背後をみないで突然立ち止まるんだよね…😓                               |
-| They drift into others’paths as if unaware of shared space.                               | 人の進路を横切るんだよね...周囲が見えてなくて                                |
-| Apologies are automatic but unreflective — a social reflex, not awareness.                | ただ反射的に謝ってるだけで、何の気遣いもないんだよね…。                     |
-| Eye contact and prediction are rare, as if each person is moving through a private tunnel. | まるで自分専用トンネルを歩いている様に周りをみていないし周囲の危険も予測しない |
+| English                                                                                       | Approximate colloquial meaning                                                      |
+| :-------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------- |
+| People stop abruptly without checking behind them.                                            | They just suddenly stop without looking behind them...                              |
+| They drift into others' paths as if unaware of shared space.                                  | They cut across other people's paths as if they do not see the space around them.   |
+| Apologies are automatic but unreflective — a social reflex, not awareness.                   | They apologize automatically, but it feels reflexive rather than considerate.       |
+| Eye contact and prediction are rare, as if each person is moving through a private tunnel.    | They move as if they are in their own private tunnel, without watching or predicting |
 
-::: {.callout-note collapse="true" title="英語の原文" }
-| 英語                                                                                       | 日本語                                                                 | 意訳                                                                         |
-| :----------------------------------------------------------------------------------------- | :--------------------------------------------------------------------- | :--------------------------------------------------------------------------- |
-| People stop abruptly without checking behind them.                                         | 背後を確認することなく突然立ち止まる                                   | みんな背後をみないで突然立ち止まるんだよね…😓                               |
-| They drift into others’ paths as if unaware of shared space.                              | 同じ空間を共有している意識がなく人の進路に割り込んでくる。             | 人の進路を横切るんだよね...周囲が見えてなくて                                |
-| Apologies are automatic but unreflective — a social reflex, not awareness.                | 謝罪がほとんど自動的で単に社会習慣で気付きがない。                     | ただ反射的に謝ってるだけで、何の気遣いもないんだよね…。                     |
-| Eye contact and prediction are rare, as if each person is moving through a private tunnel. | あたかも自分専用トンネルを歩いている様に目を合わさず先々の予想がない。 | まるで自分専用トンネルを歩いている様に周りをみていないし周囲の危険も予測しない |
+::: {.callout-note collapse="true" title="Original English Source" }
+| English                                                                                       | Literal meaning                                                                     | Loose paraphrase                                                                   |
+| :-------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------- |
+| People stop abruptly without checking behind them.                                            | They suddenly stop without checking behind them.                                    | They just suddenly stop without looking behind them...                             |
+| They drift into others' paths as if unaware of shared space.                                 | They cut into others' paths as if unaware that space is shared.                     | They cut across other people's paths as if they do not see the space around them.  |
+| Apologies are automatic but unreflective — a social reflex, not awareness.                   | Their apologies are almost automatic, mere social habit without awareness.          | They apologize automatically, but it feels reflexive rather than considerate.      |
+| Eye contact and prediction are rare, as if each person is moving through a private tunnel.   | They avoid eye contact and do not anticipate what lies ahead, as if in a private tunnel. | They move as if they are in their own private tunnel, without watching or predicting |
 :::
 
 
-#### 海外の人が日本人にはいわない愚痴
+#### Complaints That People Overseas Do Not Usually Say Directly to Japanese People
 
-これらの表現を使ってインターネットを検索すると、日本人に対する色々な愚痴が見つかります。
+If you search the internet using these expressions, you can find all kinds of complaints about Japanese people.
 
-- [ 日本の歩行者・自転車・ドライバーに空間認識というものがあるのか？ ](https://www.reddit.com/r/japanlife/comments/1f6ue92/spatial_awareness_among_pedestrians_cyclists_and/)
-  - **他人への配慮や注意の欠如は理解に苦しむ。とても苛立たしい。**
-  - **後ろを確認せず、突然立ち止まる。**
-    - さっきまで普通に歩いていたのに、次の瞬間には衝突を避けるために全力で回避行動を取らなければならなくなる。
-  - **まるで無人の野原を歩いているかの様に、他人の進路に割り込んでくる。**
-    - 集団で歩道全体を塞いで、まるで自分たちの専用通路の様に歩く。
-  - **歩道上はやりたい放題、まるで自分の家の中を歩いているよう。**
-  - **まるで自分専用トンネルを歩いている様に周りをみていないし周囲の危険も予測しない。**
-    - 私の仮説はこうだ。社会が人々に**家族の様に親しい人間関係**へ過剰に注意を向けさせる構造になっているので、一日中それを続けると、外の世界に対してはもう意識を向ける余裕がなくなって、「自分の気持ちを察してくれ」と思うようになるのだろう。
-- [ ぶつかりおじさの心理とは？（人に肩をぶつける男たち） ](https://www.reddit.com/r/japanlife/comments/1c51tn1/whats_the_psychology_behind_%E3%81%B6%E3%81%A4%E3%81%8B%E3%82%8A%E7%94%B7_guys_who/)
-  - **信じられないほど日本人は深刻なレベルで空間認識能力が欠けている。**
-  - **謝罪は自動的で、反省を伴わない──それは意識ではなく、社会的な反射である。**
-    - この表現そのものの引用は見つからないが、次のようなコメントに同じ趣旨が見られる：「恋人と手をつないで歩いていたら、ある男が肩をぶつけてきた……彼らは本当に自分の進行方向を見ていないようだ。」
-- [愚痴：高齢者について](https://www.reddit.com/r/japanlife/comments/1np4pq0/rant_elderly_people/)
-  - **なぜ東京の高齢者は空間認識能力がゼロなのか？？？**
-  - いや、正直言って、年齢に関わらずみんなそう。
-- [日本人の空間的・精神的に気付かなさついての愚痴 ](https://www.reddit.com/r/japanlife/comments/2fpjpo/ranting_about_physical_and_mental_unawareness_in/)
-  - **人々の空間認識の悪さに、心底うんざりしていると気づいた。**
-    - 日本で自分が最も嫌うことをようやく言語化できた──それは、人々の空間認識があまりにも悪く、苛立たしいという事実だ。
+- [Do pedestrians, cyclists, and drivers in Japan have any sense of spatial awareness?](https://www.reddit.com/r/japanlife/comments/1f6ue92/spatial_awareness_among_pedestrians_cyclists_and/)
+  - **The lack of awareness and consideration for others is baffling and infuriating.**
+  - **They stop abruptly without checking behind them.**
+    - One moment you are walking normally, and the next you have to make a full-speed evasive move just to avoid a collision.
+  - **They cut into other people's paths as if walking across an empty field.**
+    - Groups block the entire sidewalk and walk as if it were their own private passageway.
+  - **On sidewalks they do whatever they want, as if they were walking around inside their own house.**
+  - **They move as if inside their own private tunnel, without looking around or predicting danger.**
+    - My hypothesis is this: because society makes people devote excessive attention to intimate, family-like relationships, doing that all day leaves them with no cognitive room for the outside world, and they start expecting others to read their feelings for them.
+- [What is the psychology behind the "butsukari-otoko"? (Men who shoulder-check people)](https://www.reddit.com/r/japanlife/comments/1c51tn1/whats_the_psychology_behind_%E3%81%B6%E3%81%A4%E3%81%8B%E3%82%8A%E7%94%B7_guys_who/)
+  - **Japanese people seem to lack spatial awareness to an unbelievable degree.**
+  - **Apologies are automatic and without reflection: not awareness, but a social reflex.**
+    - I could not find that exact phrasing quoted directly, but the same idea appears in comments such as: "I was walking hand in hand with my partner when some guy shoulder-checked us... It is like they are not really looking where they are going."
+- [Rant: Elderly People](https://www.reddit.com/r/japanlife/comments/1np4pq0/rant_elderly_people/)
+  - **Why do elderly people in Tokyo have zero spatial awareness???**
+  - No, honestly, it is everyone, regardless of age.
+- [Rant about Japanese physical and mental unawareness](https://www.reddit.com/r/japanlife/comments/2fpjpo/ranting_about_physical_and_mental_unawareness_in/)
+  - **I realized I am utterly fed up with how bad people's spatial awareness is.**
+    - At last I was able to put into words what I hate most about Japan: the fact that people's spatial awareness is so bad that it is infuriating.
 
-::: {.callout-note collapse="true" title="英語の原文" }
+::: {.callout-note collapse="true" title="Original English Source" }
 - [ Spatial Awareness among pedestrians, cyclists and drivers - does it exist? ](https://www.reddit.com/r/japanlife/comments/1f6ue92/spatial_awareness_among_pedestrians_cyclists_and/)
   - **The lack of awareness and consideration for others is both baffling and infuriating.**
   - **They stop abruptly without checking behind them.**
@@ -11206,7 +11206,7 @@ Escaping from tatenori is the drama of escaping from the perceptual limits of th
   - **It’s like the sidewalks are a free-for-all, with people just wandering around like they’re in their living rooms.**
   - **Eye contact and prediction are rare, as if each person is moving through a private tunnel.**
     - My pet theory is that society requires people to be so hyper-attuned to their innermost social circle … after a whole day … you’ve just done with the outside world and have decided that the world can start reading your mind for a change.
-- [ What’s the psychology behind ぶつかり男? (Guys who shoulder barge people) ](https://www.reddit.com/r/japanlife/comments/1c51tn1/whats_the_psychology_behind_%E3%81%B6%E3%81%A4%E3%81%8B%E3%82%8A%E7%94%B7_guys_who/)
+- [ What’s the psychology behind butsukari-otoko? (Guys who shoulder barge people) ](https://www.reddit.com/r/japanlife/comments/1c51tn1/whats_the_psychology_behind_%E3%81%B6%E3%81%A4%E3%81%8B%E3%82%8A%E7%94%B7_guys_who/)
   - **It is unbelievable… Japanese people seem to have a serious lack of spatial awareness.**
   - **Apologies are automatic but unreflective — a social reflex, not awareness.**
     - While explicit quote not found in these exact words, the sentiment appears in comments like: “I was walking hand in hand… and one guy shoulder-checked us… It’s like they just aren’t looking where they are going.”
@@ -11218,355 +11218,351 @@ Escaping from tatenori is the drama of escaping from the perceptual limits of th
     - Out of just pure frustration and sudden realization in how to define what I least like about Japan, I realize that people's spatial awareness is just infuriating.
 :::
 
-日本人は気遣いの文化だと言われています。そして日本人はしばしば「海外の人は空気を読まない」「海外の人は気を使わない」と酷評しています。しかし実は海外の人々は、日本人に対して、日本人が海外の人に対して持っている印象と全く同じ印象を持っていることがわかります。
+Japanese people are often said to belong to a culture of consideration, and Japanese people often harshly criticize foreigners by saying things like "People overseas cannot read the air" or "People overseas are inconsiderate." But in fact, it becomes clear that people overseas often hold exactly the same impression of Japanese people that Japanese people claim to hold of them.
 
-### 車と歩行者の間に見られる日本人の進路被り
+### Japanese Path Overlap Between Cars and Pedestrians
 
 <div class="center-box"><iframe width="560" height="315" src="https://www.youtube.com/embed/1oYIFu4k7Fc?si=iFJKDY8PnpK_0vuw&amp;start=60" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
-海外ではこのように、速度の異なる歩行者と自動車が入り乱れて走っていることは珍しいことではありません。自動車が多く行き交う中でも人々は道を渡ることが出来ます。
+Overseas, it is not unusual to see pedestrians and cars with very different speeds moving through the same space. Even with many cars passing through, people are still able to cross the road.
 
-そしてここでも私は日本に帰ってきてから、しばしば車とすれ違うことが難しいことに気付いたのです。**『人が車の前を通り過ぎることを前提としてコミュニケーションを取っている』**と私は感じました。
+And here too, after returning to Japan, I noticed that it is often difficult to pass safely relative to cars. I felt that people were communicating on the assumption that **pedestrians would pass in front of the car**.
 
-上記のビデオのように全ての通行人走行車が一定以上の速度で移動している環境では、**相手の背後を通過する**ということが最も大きな暗黙の了解として認知されています。これがあるからこそ、人々はぶつからずに大通りを横断することが出来ます。
+In environments like the video above, where all pedestrians and vehicles are moving at or above a certain speed, the strongest unspoken rule is understood to be **passing behind the other party**. That is precisely why people are able to cross large roads without colliding.
 
-上記のビデオでも、不慣れなアメリカの方がベトナムの道を横断しています。アメリカ人の方は動きがスムーズではないかも知れませんが、そこにある暗黙の了解を見抜いて横断することが出来るようになるのです。
+In the video above as well, an American unfamiliar with the situation is crossing a road in Vietnam. The American's movement may not be perfectly smooth, but even so, he is able to perceive the unspoken rule that governs the situation and make the crossing.
 
-ところが日本では、道路を横断する人を見た車は、必ず減速ないしは停止し歩行者が車の鼻先を横切るような形ですれ違うように仕向けることが一般的です。 ─── これは実は危険だと私は思うのです。車が先に通過してしまった後に通るほうが安全です。車が通過する前に歩行者が通過すると、車によって死角が増え見えない場所から飛び出してくる小型車やバイクと衝突するリスクが高まります。
+In Japan, however, when a car sees someone crossing the road, it is common for the car to slow down or stop and induce the pedestrian to pass across the front of the car's nose. I actually think this is dangerous. It is safer to pass after the car has gone through. If the pedestrian passes before the car, the car creates blind spots, increasing the risk of collision with a small vehicle or motorcycle emerging from a place the pedestrian cannot see.
 
-しかし日本では必ず自動車の前を歩行者が通ることを期待した反応が一般的です。
+Yet in Japan, the standard reaction is to expect the pedestrian to pass in front of the car.
 
 
-### 日本人独特な道路を横断する時の自動車の動きの認識
+### The Distinctively Japanese Way of Perceiving Car Movement When Crossing Roads
 
-私は、かつてトラックの運転手でした。また10代の頃はバイク便という職業で連日バイクに乗って関東全域を走り回るということをしていた時期もあります。なので自動車の運転をしていた時期が長いという特徴があります。
+I used to work as a truck driver. In my teens, I also worked as a motorcycle courier, riding all over the Kanto region every day. In other words, I have spent a long time driving vehicles.
 
-海外放浪していた時は、定常的に移動する必要があったことから、やはり小型のバイクに乗っていました。そこでも人の動きの違いに気付くことがありました。
+When I was wandering abroad, I also needed regular transportation, so I rode a small motorbike there as well. That was another place where I noticed differences in how people move.
 
-タイの地方都市にある4車線ある大きな国道を100km近い速度で走行していると、お年寄りや子供が大通りをのうのうと渡っているのです。彼らはバイクが走っていることに気付かないかの様に車道に出てきます。しかしこういう時に止まったりする必要はないことに気付いたのです。
+When riding at close to 100 km/h on a large four-lane highway in a provincial Thai city, I would sometimes see elderly people or children calmly crossing the road. They would step into the roadway as if they had not even noticed that a motorbike was coming. Yet I came to realize that there was no need to stop in such situations.
 
-彼らが車道に出てきたらむしろ彼らに衝突する様な方向に向かって走行します。何故なら、彼らはそのまま同じ速度で前進するので、自車が彼らがかつていた地点に到達する頃には、既に5ｍ以上先に進んでいるからです。こうしてお互いに停止することなく通りすぎることが出来るのです。
+If they stepped into the roadway, I would instead ride in a direction that looked almost as if I were heading toward them. Why? Because they would continue advancing at the same speed, so by the time my vehicle reached the point where they had been, they would already be more than five meters ahead. In this way, we could pass one another without either side stopping.
 
-逆もまた然りです。大通りを渡る時は止まらずに一定速度で進むと、バイク乗りはこちらの動きを先読みしてこちら側に走ってくるので、お互いがスムーズにすれちがうことができるのです。
+The reverse is also true. When crossing a major road, if I kept moving at a constant speed without stopping, the motorbike rider would read my movement in advance and ride toward the side from which we could pass each other smoothly.
 
-### 歩道を走行しているバイクを避ける人々
+### People Avoiding Motorbikes Riding on the Sidewalk
 
-タイの都市部ではある程度広さの歩道がありますが、大抵かなりの数のオートバイが走っています。それはバイクタクシーと呼ばれ、歩行者を乗せて駅や辻の間を行き交っています。彼らは人を載せて移動する為に、一般の自動車とは違ったルールで動いています。高速道路のインターチェンジの様に複雑なルールがある大通りの車道は、人を載せて辻から辻へと移動するバイクにとって不便なため、車道を避けて歩道を走っています。歩道とはいえバイクはそれなりの高速で走っています。当然大勢の歩行者もそこには歩いています。バイクと歩行者がすれ違う必要性は非常に高いと言えます。
+In Thai cities, the sidewalks are often fairly wide, but they usually also have large numbers of motorbikes running along them. These are called motorbike taxis, and they shuttle passengers between stations and street corners. Because they transport people, they move according to rules different from those of ordinary cars. The main roadways, with their complicated lane rules like highway interchanges, are inconvenient for motorbikes carrying passengers from corner to corner, so they avoid the roadway and ride on the sidewalk instead. Even on sidewalks, the bikes move at considerable speed. Naturally, there are also many pedestrians there. The need for motorbikes and pedestrians to pass each other safely is therefore extremely high.
 
-止まらずに一定速度で歩き、無意味に蛇行しないという相手にとって未来が予想しやすい軌跡をたどりながら歩くことが安全に歩く上で最も基本的な心がけといえます。もちろんバイク側にも進行方向を示すはっきりした意思表示が求められ、蛇行するなどこまめな方向転嫁をすることなく一定速度で一定方向に移動することで、予想しやすい軌跡を作るということが基本となります。
+The most basic rule for walking safely is to keep moving at a constant speed without stopping and to avoid pointless zigzagging, so that your path is easy for others to predict. Of course, the same is required on the motorbike side as well: the rider must clearly signal the intended direction of travel, and the basic principle is to move at a constant speed in a constant direction rather than making frequent course changes through weaving.
 
-もちろんバイクと歩行者の「どちらに避けるかの意思表示」のコミュニケーションも非常に大切になります。肩を引く方向で相手にどちらに避けるのかを意思表示しながら歩いたり、バイクであればウィンカーを出しながら走ったりするというような、移動したい方向の意思表示をはっきりすることも大切です。しかし相手の（歩行者にとってはバイクの、バイクにとっては歩行者の）軌跡から考えて、避けることに無理のある方向に進むことを意思表示しても、相手は避けきれることが出来ないでしょう。
+Naturally, communication between motorbikes and pedestrians about which side each will avoid toward is also extremely important. Pedestrians may indicate the direction in which they will move by the way they pull their shoulders, while motorbikes may indicate it by using their blinkers. In both cases, it matters to make one's intended direction explicit. But if one signals an avoidance direction that is unrealistic in light of the other party's trajectory, the other party will not be able to avoid in time.
 
-この様な暗黙の了解があることから、バンコクの歩道ではバイクと歩行者が衝突する事故は、その交通量の多さからは想像もつかないほどに稀なことです。
+Because this kind of unspoken rule exists, collisions between motorbikes and pedestrians on Bangkok sidewalks are astonishingly rare considering the sheer volume of traffic.
 
-「歩道を歩く大勢の働く人々が、高速で走り回るバイクの行く先を不注意で封じてしまうことがない。」
+"Large numbers of working people walking on the sidewalk do not carelessly block the path of high-speed motorbikes."
 
-相手の進む進路を鑑みて、相手が数秒後にどの地点に到達しているかを予想しながら、歩くことが安全に歩く為の最も基本的なマナーといえます。
+The most basic manner of safe walking is to consider the other party's route and walk while predicting where that person or vehicle will be a few seconds later.
 
-### 歩き方から見えてくる日本人の時間認識の違い
+### Differences in Japanese Time Perception Revealed by the Way People Walk
 
-私は海外放浪に出て、バイクが走り回るバンコクの歩道を歩き、帰国して、無数の「ちっとも避けない人」が歩き回る蒲田駅の構内を歩き、その動きの違いについて考え、次のようなことを思いました。
+After going abroad, walking on Bangkok sidewalks full of fast-moving motorbikes, then returning to Japan and walking through Kamata Station surrounded by countless people who did not avoid others at all, I thought about the difference in their movements and arrived at the following idea.
 
-ここで、ある大通りの街路樹の地点に歩行者が立っており、その大通りをある車が走っているとします。この歩行者は、これから大通りを横断しようとしています。 車は歩行者に対して右側から現れて左方向へと速く走り抜けていく ─── という場面を想定してみます。
+Let us imagine a pedestrian standing by a roadside tree along a major road, with a car driving down that road. The pedestrian is about to cross. The car appears on the pedestrian's right and quickly travels toward the left.
 
-この時タイでは、歩行者が一定の速度で歩いていることから、自動車が街路樹に到達する頃には既に歩行者は道の中腹に到達しているだろう、という未来の歩行者の位置を予想し、その予想される歩行者の位置に対して進路方向を決めます。 つまり自動車は歩行者の後ろ側を通るような方向に進路を変更します。その結果、お互いが停止することなくすれ違うことが出来るでしょう。
+In Thailand, because the pedestrian is walking at a constant speed, the driver predicts that by the time the car reaches the tree, the pedestrian will already have reached the middle of the road. The driver then chooses a course based on that predicted future position. In other words, the car alters its course so as to pass behind the pedestrian. As a result, the two can pass each other without either having to stop.
 
-この時日本では、自動車はその歩行者のその瞬間の存在地点に対して進行方向を変更しようとします。つまり歩行者が左側にいることから、自動車は右側に方向を転換します。しかし歩行者は左側から右側に向かう方向に進んでいる為、自動車が街路樹の地点に到達したときには、歩行者は既に右側に到達しています。つまり、ぶつかりそうになり、停止する必要に迫られる筈です。
+In Japan, by contrast, the car tries to alter its direction based on the pedestrian's position at that very instant. Since the pedestrian is on the left, the car turns toward the right. But because the pedestrian is moving from left to right, by the time the car reaches the tree, the pedestrian has already arrived on the right side. In other words, they are forced into a near-collision and have to stop.
 
-この違いを抽象化すると次のように言い換えることが出来るでしょう。
+If we abstract this difference, we can restate it as follows:
 
-- 対抗する人や車とすれ違う時や、車や人が多く流れる通りを横断する歳に、
-  - 日本人は、その瞬間の車の位置に基づいて判断する。
-  - タイ人は、その地点に到達するまでの移動実績に基づいた未来の歩行者の予想位置に基づいて判断する。
+- When passing an approaching person or car, or when crossing a street through which many cars and people are flowing,
+  - Japanese people judge based on the car's position at that instant.
+  - Thai people judge based on the predicted future position of the pedestrian, inferred from the movement that will occur before reaching that point.
 
-### 道路横断時に見られる動作の認識の違い
+### Differences in the Perception of Movement Seen When Crossing Roads
 
-道路横断時に見られる動作の認識の違いを図説すると次のようになるでしょう。
+If we illustrate the difference in movement perception seen when crossing roads, it would look like the following.
 
-#### 外国の場合
+#### In Other Countries
 
-外国で道を横断する場合を説明します。
+Here is the case of crossing a road overseas.
 
 ![](/offbeat-count/attachments/proactive-reactive-p1.png){width=50% }
 
-横断時に現在の動きから未来の位置を予想し、その予想地点に対して反応します。
+When crossing, one predicts the future position from the present movement and reacts to that predicted point.
 
 ![](/offbeat-count/attachments/proactive-reactive-p2.png){width=50% }
 
-すれ違うことが出来ます。
+They pass each other successfully.
 
 ![](/offbeat-count/attachments/proactive-reactive-p3.png){width=50% }
 
-#### 日本の場合
+#### In Japan
 
-日本で道を横断する場合を説明します。
+Here is the case of crossing a road in Japan.
 
 ![](/offbeat-count/attachments/proactive-reactive-r1.png){width=50% }
 
-単純に現在地点に対して反応する。
+One simply reacts to the current position.
 
 ![](/offbeat-count/attachments/proactive-reactive-r2.png){width=50% }
 
-ぶつかります。
+They collide.
 
 ![](/offbeat-count/attachments/proactive-reactive-r3.png){width=50% }
 
-### 日本人の持つ時間認識の特徴
+### The Characteristics of Japanese Time Perception
 
-この観察から、<span style="font-size:1.2em;font-weight:800">日本人は現在起きた何らかのトリガーに反応する形で動作を開始するが、海外の人は、現在の動きの軌跡から近い未来の期待位置を予想し、その期待位置に対して動作を開始する</span>ということが言えます。
+From these observations, we can say the following: <span style="font-size:1.2em;font-weight:800">Japanese people begin action by reacting to some trigger that has already occurred in the present, whereas people overseas predict a near-future expected position from the current trajectory of movement and begin action toward that expected position.</span>
 
-何故これが重要なのかというと、これが音楽の演奏時に共演者とのリズム上のコミュニケーションを行う上で、もはや致命的と断言出来る程に、極めて大きな違いとなって表れるからです。
+Why is this important? Because in musical performance, this difference appears so strongly in rhythmic communication with other performers that it is no exaggeration to call it fatal.
 
-### 音楽演奏する上での日本人の時間認識の違い
+### Differences in Japanese Time Perception in Musical Performance
 
-ここまでで道路を横断する時の日本人の時間の認識の違いについて見て参りました。道路横断時に起こっていることと全く同じことが、音楽演奏時にも起きています。 それが<span style="font-weight:800;font-size:2em">縦乗り</span>です。
+Up to this point, we have examined the difference in Japanese time perception when crossing roads. Exactly the same thing happens in musical performance. That is <span style="font-weight:800;font-size:2em">tatenori</span>.
 
-グルーヴする人に良いリズムについての意見を伺うと、彼らはしばしば良いリズムでは『弱拍が先にくる』といいます。 そして悪いリズムは『弱拍が後ろに来る』といいます。
+When you ask people who groove what good rhythm is, they often say that in good rhythm, "the weak beat comes first." And they say that bad rhythm is when "the weak beat comes later."
 
- ─── しかし恐らく大抵の人は『弱拍が後ろに来る』という状態でリズムを認識しており、それ以外の認識方法は体験したことがなく、何が違うのか理解が出来ないのではないかと思います。
+However, most people probably perceive rhythm in the state where "the weak beat comes later," have never experienced any other mode of perception, and therefore cannot understand what the difference is.
 
 
-**『弱拍が先に聞こえている』**という供述は、その人が次に来る強拍の位置を予想していることを示唆しています。次に来るべき強拍の位置が念頭にあるからこそ、弱拍が**それ**よりも前にあるという認識になるからです。
+The statement **"I hear the weak beat first"** suggests that the person is predicting the position of the strong beat that comes next. Only because the next strong beat is already present in the mind can the weak beat be perceived as being before **it**.
 
 ![](/offbeat-count/attachments/rp-proactive-dog.png)
 
-一方、**『弱拍が後に聞こえている』**という供述は、その人が次に来る強拍の位置を予想していないことを示唆しています。彼は強拍が聞こえたら弱拍を叩けばよいと考えているからこそ、弱拍は**それ**よりも後ろにあるという認識になるからです。
+By contrast, the statement **"I hear the weak beat later"** suggests that the person is not predicting the position of the next strong beat. Precisely because that person thinks, "Once I hear the strong beat, I can strike the weak beat afterward," the weak beat is perceived as being behind **it**.
 
 ![](/offbeat-count/attachments/rp-reactive-dog.png)
 
 
-### 時間認識の違いの本質
+### The Essence of the Difference in Time Perception
 
-この様に行動観察から得られた習慣の本質には、**未来を予想しその予想地点に対して行動を起こす認識方法**と **既に起きた過去の事象をトリガとして行動を起こす認識方法**という２つの認識方法の違いとして抽象化出来ます。
+In this way, the essence of the habits observed in behavior can be abstracted as a difference between two modes of recognition: **a mode that predicts the future and acts toward that predicted point**, and **a mode that acts by taking an already-occurred past event as its trigger**.
 
-<span style="font-weight:1000">この順序の認識方法の違いは、前章でみた {{<meta var.SCHIZORHYTHMOS.en>}}と{{<meta var.SOLIRHYTHMOS.en>}} と高い類似性が指摘できます。</span>
+<span style="font-weight:1000">This difference in the recognition of order bears a strong resemblance to the {{<meta var.SCHIZORHYTHMOS.en>}} and {{<meta var.SOLIRHYTHMOS.en>}} discussed in the previous chapter.</span>
 
-参照: {{<meta var.LINK_SCHIZORHYTHMOS_AND_SOLIRHYTHMOS.en>}}
+Reference: {{<meta var.LINK_SCHIZORHYTHMOS_AND_SOLIRHYTHMOS.en>}}
 
-これらの認識は、本質的に同一です。つまりこれら動作に対する順序の認識方法の違いの本質は、言語リズム上の順序の認識方法の影響を受けているのではないか  ─── この様に、その人の母国語の言語のリズム認識のパターンがその人の行動上の時間の認識にも影響を与えているという仮説を <span style="font-weight:800;font-size:1.5em;">{{<meta var.TOP.en>}}</span> と呼びます。
+These modes of recognition are essentially the same. In other words, perhaps the essence of these differences in how people recognize order in movement is influenced by the way order is recognized in language rhythm. I call the hypothesis that a person's native-language rhythm pattern affects that person's temporal perception in behavior <span style="font-weight:800;font-size:1.5em;">{{<meta var.TOP.en>}}</span>.
 
 
 #### {{<meta var.TOP.en>}}
 
-その人が母国語としている言語の言語リズムが認知上の順序の認識方法を形成するという仮説を {{<meta var.TOP.en>}} と呼びます。これは、その言語が持つ拍リズム（モーラ拍リズム/シラブル拍リズム/ストレス拍リズム）が、音楽のリズムの認識を始め、時間的順序の認識や、物の動きに対する認識にまで影響を及ぼすと考える仮説です。
+The hypothesis that the language rhythm of a person's native language shapes that person's cognitive way of recognizing order is called {{<meta var.TOP.en>}}. It is the hypothesis that the beat rhythm possessed by a language, whether mora-timed, syllable-timed, or stress-timed, affects not only the recognition of musical rhythm, but also the recognition of temporal order and even the perception of movement.
 
 #### {{<meta var.PROACTIVE_TEMPORAL_ORDERING.en>}}
-これまでに見てきた時間の認識のなかで **未来を予想しその予想地点に対して行動を起こす認識方法** をここでは{{<meta var.PROACTIVE_TEMPORAL_ORDERING.en>}}と呼ぶことにします。
+Among the kinds of time recognition we have seen so far, I will call the mode that **predicts the future and acts toward that predicted point** {{<meta var.PROACTIVE_TEMPORAL_ORDERING.en>}}.
 
-{{<meta var.PROACTIVE_TEMPORAL_ORDERING.en>}} は、{{<meta var.LINK_SCHIZORHYTHMOS_AND_SOLIRHYTHMOS.en>}} で見た {{<meta var.PROACTIVE_DIVISIONISM.en>}} に相当します。
+{{<meta var.PROACTIVE_TEMPORAL_ORDERING.en>}} corresponds to {{<meta var.PROACTIVE_DIVISIONISM.en>}}, as discussed in {{<meta var.LINK_SCHIZORHYTHMOS_AND_SOLIRHYTHMOS.en>}}.
 
-シラブル拍リズム・ストレス拍リズム・弱拍先行・尻合わせ・弱拍基軸・逆方向に避ける人・・・等々が {{<meta var.PROACTIVE_TEMPORAL_ORDERING.en>}} 相当します。
+Syllable-timed rhythm, stress-timed rhythm, weak-beat precedence, Tail Alignment, Weak-Beat Anchoring Axis, people who dodge in the opposite direction, and so on all correspond to {{<meta var.PROACTIVE_TEMPORAL_ORDERING.en>}}.
 
 #### {{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}}
-これまでに見てきた時間の認識のなかで **既に起きた過去の事象をトリガとして行動を起こす認識方法** をここでは {{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}}と呼ぶことにします。
+Among the kinds of time recognition we have seen so far, I will call the mode that **acts by taking an already-occurred past event as its trigger** {{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}}.
 
-{{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}} は、{{<meta var.LINK_SCHIZORHYTHMOS_AND_SOLIRHYTHMOS.en>}} で見た {{<meta var.REACTIVE_APPENDISM.en>}} に相当します。
+{{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}} corresponds to {{<meta var.REACTIVE_APPENDISM.en>}}, as discussed in {{<meta var.LINK_SCHIZORHYTHMOS_AND_SOLIRHYTHMOS.en>}}.
 
-モーラ拍リズム・強拍先行・頭合わせ・強拍基軸・同方向に避ける人・・・等々が{{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}}に相当します。
+Mora-timed rhythm, strong-beat precedence, Head Alignment, Strong-Beat Anchoring Axis, people who dodge in the same direction, and so on all correspond to {{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}}.
 
 #### {{<meta var.PRTOA.en>}}
-人の時間順序認識を{{<meta var.PROACTIVE_TEMPORAL_ORDERING.en>}} と{{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}}の二軸に分けて考えることを、ここでは{{<meta var.PRTOA.en>}}と呼ぶことにします。
+Here, I will call the framework that divides human temporal-order recognition into the two axes of {{<meta var.PROACTIVE_TEMPORAL_ORDERING.en>}} and {{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}} {{<meta var.PRTOA.en>}}.
 
 #### {{<meta var.PROACTIVE_DIVISIONISM.en>}}
 
-音楽理論上での、{{<meta var.PROACTIVE_TEMPORAL_ORDERING.en>}}に相当する概念です。これから起こる出来事を予期して空間・時間を分割し {{<meta var.CONDITIONS_OF_GROOVE.en>}}の4つの弱拍先行・弱拍基軸、尻合わせ、3⁻ⁿリズムを形成します。 協働グルーヴに基づくリズムを形成します。
+This is the concept in music theory corresponding to {{<meta var.PROACTIVE_TEMPORAL_ORDERING.en>}}. By anticipating what is about to happen and dividing space and time in advance, it forms the four groove conditions of {{<meta var.CONDITIONS_OF_GROOVE.en>}}: weak-beat precedence, Weak-Beat Anchoring Axis, Tail Alignment, and 3⁻ⁿ Rhythm. It forms rhythm based on Cooperative Groove.
 
 #### {{<meta var.REACTIVE_APPENDISM.en>}}
 
-音楽理論上での、{{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}} に相当する概念です。 何らかの既に起こった出来事をトリガとして行動を開始し{{<meta var.CONDITIONS_OF_GROOVE.en>}}の４つの縦乗り条件である、強拍先行・強拍基軸、頭合わせ、2⁻ⁿリズムを形成します。 単独グルーヴに基づくリズムを形成します。
+This is the concept in music theory corresponding to {{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}}. It begins action using some already-occurred event as a trigger and forms the four tatenori conditions of {{<meta var.CONDITIONS_OF_GROOVE.en>}}: strong-beat precedence, Strong-Beat Anchoring Axis, Head Alignment, and 2⁻ⁿ Rhythm. It forms rhythm based on solo groove.
 
 
 #### {{<meta var.PROSODIC_ORDERING_BIAS.en>}}
 
-その人が母国語としている言語の言語リズムによって生まれた認知上の順序の認識の偏りのことを、ここでは {{<meta var.PROSODIC_ORDERING_BIAS.en>}} と呼びます。
+Here I call the cognitive bias in order recognition produced by the rhythm of a person's native language {{<meta var.PROSODIC_ORDERING_BIAS.en>}}.
 
-次で説明する{{<meta var.MORAIC_ORDERING_BIAS.en>}}、{{<meta var.SYLLABIC_ORDERING_BIAS.en>}}、{{<meta var.ACCENTUATED_ORDERING_BIAS.en>}} の3種類が存在します。
+There are three types: {{<meta var.MORAIC_ORDERING_BIAS.en>}}, {{<meta var.SYLLABIC_ORDERING_BIAS.en>}}, and {{<meta var.ACCENTUATED_ORDERING_BIAS.en>}}, which are explained next.
 
 #### {{<meta var.MORAIC_ORDERING_BIAS.en>}}
 
-モーラ拍リズム言語(日本語)に特有の{{<meta var.PROSODIC_ORDERING_BIAS.en>}}をここでは{{<meta var.MORAIC_ORDERING_BIAS.en>}} と呼びます。 {{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}} が相当します。
+Here I call the {{<meta var.PROSODIC_ORDERING_BIAS.en>}} specific to mora-timed languages, that is, Japanese, {{<meta var.MORAIC_ORDERING_BIAS.en>}}. It corresponds to {{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}}.
 
 #### {{<meta var.SYLLABIC_ORDERING_BIAS.en>}}
 
-シラブル拍およびストレス拍言語（英語・スペイン語など）に見られます。 {{<meta var.PROACTIVE_TEMPORAL_ORDERING.en>}} と関連して観察されることが予想されます。
+It is observed in syllable-timed and stress-timed languages, such as English and Spanish, and is expected to be associated with {{<meta var.PROACTIVE_TEMPORAL_ORDERING.en>}}.
 
 #### {{<meta var.ACCENTUATED_ORDERING_BIAS.en>}}
 
-典型例：英語・ロシア語などに見られる{{<meta var.PROSODIC_ORDERING_BIAS.en>}}をここでは{{<meta var.ACCENTUATED_ORDERING_BIAS.en>}}と呼びます。 {{<meta var.PROACTIVE_TEMPORAL_ORDERING.en>}} と関連して観察されることが予想されます。
+Here I call the {{<meta var.PROSODIC_ORDERING_BIAS.en>}} seen in typical cases such as English and Russian {{<meta var.ACCENTUATED_ORDERING_BIAS.en>}}. It is expected to be observed in association with {{<meta var.PROACTIVE_TEMPORAL_ORDERING.en>}}.
 
 #### {{<meta var.PROACTIVITY_HORIZON_INDEX.en>}}
 
-能動的予測の範囲を定量化する指標。次に起こる事象をどの程度先取りして知覚・行動するかを測定する為の指標です。
+A metric for quantifying the range of proactive prediction. It measures the extent to which one perceives and acts in advance of the next event.
 
 
-### 未来を予想して動く人と過去に対して反応する人
+### People Who Move by Predicting the Future and People Who React to the Past
 
-<span style="font-size:2em;font-weight:800">音楽上のリズムに於ける弱拍先行／強拍先行と、道路を横断する人の動作認識には、未来の位置(時間)を予想してその予想位置(時間)に対して行動を起こすという共通点がそこに存在</span>します。
+<span style="font-size:2em;font-weight:800">Weak-beat precedence / strong-beat precedence in musical rhythm and the movement recognition of people crossing roads share the same underlying structure: they involve predicting a future position (time) and acting in relation to that predicted position (time).</span>
 
-#### 1. 身体の動きを使ってリズム感覚を説明する
+#### 1. Explaining Rhythmic Sense Through Bodily Movement
 
-歩道を歩いている車道を渡る時に車道を走っている車を避けようとする時の行動を例に挙げると、**{{<meta var.PROACTIVE_TEMPORAL_ORDERING.en>}}** (**弱拍が先行する感覚=offbeat-leading sense**)  と、**{{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}}** (**強拍が先行する感覚=onbeat-leading sense**) との違いを明確に理解できます。ここで、車が左側から現れて右方向へと走り抜けていく場面を考えてみます。
-
-
-#### 2. 衝突する人と衝突しない人の動きの違い
-
-##### 予想する人 衝突する人/強拍が先行する感覚）の場合：
-
-衝突する傾向のある人は、単純にその時点の車の位置だけを基準に状況を判断します。現在、車が自分の左側にいるのを見て、本能的に右側へ避けようとする。しかし、車はその人が思う以上に速く右側へ移動しているため、その人が右に移動した瞬間にちょうど車の進行経路に入ってしまい、衝突を起こしてしまいます。
-
-##### 衝突しない人（弱拍が先行する感覚）の場合：
-
-一方、衝突しない人は、現在の車の位置を見るだけでなく、車が次にどこへ動くのかという未来の位置を予測して行動します。最初は直感に反するように見えるかもしれませんが、衝突しない人は人は、敢えて車が現在いる左側に移動します。何故なら、この人がその地点に到達する頃には、車はすでに右側へと走り去っているため、左側への移動がむしろ安全になるからです。この様に車の軌道を正確に予測することによって衝突を回避することができるのです。
-
-#### 3. 強拍が先行する感覚の特徴
-
-強拍が先行する感覚を持つ人は、**すでに起こったこと（前の拍）に注意を向けています**。彼らは、すでに観察した過去の拍を基準に、そこから一定の時間を測った後で自分の拍を演奏しようとします。そのため、時間感覚としては常に基準となる出来事の「後ろ」に位置しているのです。
-
-しかし現実の音楽演奏では、テンポは自然に揺れ動くものです。過去の拍から正確に一定間隔を測ったとしても、それが次の拍の位置と正確に一致するとは限りません。したがって強拍が先行する感覚の人は、一般的に**一定したテンポを維持することが難しいのです**。
-
-#### 4. 弱拍が先行する感覚の特徴
-
-弱拍が先行する感覚を持つ人は、過去に起きた出来事を観察し、それを基にして**次に起こること（次の拍）を予測します**。彼らは次の拍の位置を予測して前もって自分の拍を準備し、常に自分の認識する時間軸のなかで基準となる出来事よりも「前」に位置しているのです。
-
-実際の音楽演奏に於いてテンポが常に揺れ動いていても、弱拍が先行する感覚を持つ人は、予測した拍の位置と実際に起きた拍の位置を絶えまなく比較することによって、自分のタイミングを微調整することができます。このような継続的な予測と調整により、**安定した一定のテンポを維持することが可能となるのです**。
-
-強拍弱拍は、必ずしも4分音符しかない訳ではありません。8分音符で見た時にも、奇数拍は強拍で、偶数拍は弱拍になります。この様に複数の音価上で複数の系統の強拍弱拍が常に同時に存在するのです。そしてこれらの複数の弱拍に対して「前に来る」感覚を持って演奏しているのです。
+If we use the act of trying to avoid a car while crossing a roadway as an example, the difference between **{{<meta var.PROACTIVE_TEMPORAL_ORDERING.en>}}** (**the sense of weak-beat precedence = offbeat-leading sense**) and **{{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}}** (**the sense of strong-beat precedence = onbeat-leading sense**) becomes very clear. Let us imagine a scene in which a car appears from the left and speeds away toward the right.
 
 
-### 事例 - ぶつかりそうになる人
+#### 2. The Difference Between People Who Collide and People Who Do Not
 
-ある日、私は終電間際の比較的空いている蒲田駅で連続ワンテンポ遅れ同方向避け野郎と鉢合わせし、そうでなくてもイラついている最中、苛立ち爆発したことがありました。
+##### In the case of a person who collides (the sense of strong-beat precedence):
 
-この時に起こった現象を時系列で整理して説明すると次のようになります。
+A person who tends to collide judges the situation simply on the basis of the car's position at that moment. Seeing that the car is currently on the left, that person instinctively tries to dodge toward the right. But because the car is moving rightward faster than the person assumes, the moment the person moves right, they enter the car's path and collide.
 
-  * 私、７メートルほど先で、このまま行くとぶつかる人を発見
-  * 私、スピードダウンして、相手の進む方向を確認
-  * 私、相手が進む方向の意思を見て、相手の背後方向を通過するよう方向調整したい
-    * →すれちがう際の安全マージンを確保
-    * →私、この前挙動で相手に対してどちらに避けるか意思表示が完了
-  * 相手、前挙動なし。
-  * 私、方向転換し相手の前方を横切らないように大幅に進路変更完了
-  * 相手、ここで私が回避行動をとっている事を認識
-  * 相手、ここで遅れて「社会に迷惑かけてはいけない原則」が発動
-  * 相手、慌てて回避行動を開始。私が避けた方向に方向転換。
-    * → もう既に私が回避行動を取った後
-  * ※同方向避け発生
-  * 相手、パニック
-  * 私、苛立ってまた進路変更
-  * 相手、「相手に迷惑かけてはいけない原則」が発動
-  * 相手、慌てて進路変更
-  * ※また同方向避け事案発生
-  * 私、激怒
+##### In the case of a person who does not collide (the sense of weak-beat precedence):
 
-そもそも『相手が進む方向を見て、相手の背後方向を通過するよう方向調整することによって、すれちがう際の安全マージンを確保する』この前提条件が満たされていない段階で、彼は通路上ですれ違うことに既に失敗しているとも言えます。その後の回避遅れの全ての原因も同一です。
+By contrast, a person who does not collide does not merely look at the car's current position, but acts by predicting its future position, that is, where the car will move next. At first this may seem counterintuitive, but such a person deliberately moves toward the left, where the car is now. Why? Because by the time that person reaches that point, the car has already passed off to the right, making movement toward the left safer. In this way, by accurately predicting the car's trajectory, one can avoid collision.
 
-その他、すれ違う為に考えうる全ての対策は無効です。
+#### 3. Characteristics of the Sense of Strong-Beat Precedence
 
-- 立ち止まらずにただ方向転換だけして前進する
-  - → 直前に逆方向に避けて激突することがある
-- 避けないでそのまま前進する
-  - → そのまま気付かず避けないでぶつかることが多い
-- もういっそのこと立ち止まる
-  - →相手も立ち止まる。前に進めなくなる。
+People who have the sense of strong-beat precedence are **paying attention to what has already happened (the previous beat)**. They try to play their own beat only after measuring a fixed span of time from a past beat they have already observed. As a result, in terms of felt time, they are always located "behind" the reference event.
 
-結局スムーズにすれ違うことが出来ないのです。
+But in actual musical performance, tempo naturally fluctuates. Even if one measures a perfectly fixed interval from a past beat, that interval will not necessarily coincide exactly with the position of the next beat. Therefore, people with the sense of strong-beat precedence generally **find it difficult to maintain a steady tempo**.
 
-- **相手に対して次の行動を予期させる何らかの合図を示さない**
-- **相手に対して次の行動を予期させる何らかの合図を示しても見ていない**
-- **常に既に起きたことをトリガとして行動を開始する**
+#### 4. Characteristics of the Sense of Weak-Beat Precedence
 
-これらの本質に {{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}} があります。
+People who have the sense of weak-beat precedence observe what has already happened and use it as the basis for **predicting what will happen next (the next beat)**. They predict the position of the next beat, prepare their own beat in advance, and are always positioned "ahead of" the reference event within the timeline they perceive.
 
-これが{{<meta var.CONDITIONS_OF_GROOVE.en>}}の４つの縦乗り条件
+Even if tempo is constantly fluctuating in real musical performance, people with the sense of weak-beat precedence can make fine adjustments to their timing by continually comparing the predicted beat position with the actual beat position that occurred. Through this continuous cycle of prediction and adjustment, **it becomes possible to maintain a stable, steady tempo**.
 
-- 強拍先行
-- 強拍基軸
-- 頭合わせ
-- 2⁻ⁿリズムを
-
-を引き起こしていると考えられます。
-
-つまり縦乗りの人の全ての行動の本質にあるものが **{{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}}**ではないでしょうか。
-
-- 走っても縦乗り
-- 歩いても縦乗り
-- 座っても縦乗り
-- 立っても縦乗り
-- 踊っても縦乗り
-- 歌っても縦乗り
-- ジャズ演っても縦乗り
-- クラシック演っても縦乗り
-- ブルース演っても縦乗り
-
-どことなくもっさりしており躍動感がない。踊れない。楽しくない。人に伝わらない。
-
-これらの全ての原因は、**{{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}}** だったのではないでしょうか。
+Strong and weak beats are not limited to quarter notes. Even when viewed in eighth notes, odd-numbered beats are strong beats and even-numbered beats are weak beats. In this way, multiple systems of strong and weak beats always coexist simultaneously across multiple note values. And performance is carried out with the sense of being "ahead of" these multiple weak beats.
 
 
-### 縦乗りは、日本人の行動を全て支配する
+### Case Study: A Person You Almost Collide With
 
-ここまでで、{{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}}を持つ人＝即ち、既に起こったことをトリガーとして行動を開始する人は、お互いに逆の方向に避けることが出来ないという現象の観察を見てきました。
+One day, in the relatively uncrowded Kamata Station just before the last train, I encountered one of those serial one-beat-late same-direction dodgers, and although I was already irritated, my frustration finally exploded.
 
-これまでの時間認識は３〜４秒というような比較的短時間での順番の認識について見て参りました。 これは３時間〜４時間、３ヶ月〜４ヶ月、３年〜４年という大きな時間の流れの中でも全く同じことが観察出来ることをこで見ていきます。
+If we organize what happened at that time in chronological order, it looks like this:
 
-何かきっかけとなるべき出来事（トリガー）があってそれに対して行動を起こす。 {{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}} は結果的に
+  * I spot someone about seven meters ahead who will collide with me if we continue as we are.
+  * I slow down and check the direction the other person is moving in.
+  * I want to adjust my direction so as to pass behind the other person's route, based on the direction they appear to intend.
+    * -> This secures a safety margin for passing.
+    * -> With this preliminary movement, I have already signaled to the other person which side I will avoid toward.
+  * The other person makes no preliminary movement.
+  * I change direction and complete a major course adjustment so as not to cut across the front of the other person.
+  * Only here does the other person recognize that I am taking evasive action.
+  * Only here does the delayed "I must not inconvenience society" principle activate.
+  * The other person hurriedly begins evasive action and turns in the same direction I already chose.
+    * -> This is after I have already taken evasive action.
+  * Same-direction dodge occurs.
+  * The other person panics.
+  * Irritated, I change direction again.
+  * The other person's "I must not inconvenience the other person" principle activates.
+  * The other person hurriedly changes direction.
+  * Another same-direction dodge occurs.
+  * I explode in anger.
 
-- 始まり時間は意識できる
-- 終わりの時間は意識できない
+Strictly speaking, the other person has already failed at the task of passing in the corridor before any of the later confusion begins, because the precondition, "secure a safety margin by watching the other person's direction and adjusting so as to pass behind their path," was never satisfied. The cause of every later delay in avoidance is the same.
 
-という２つの認識偏りを生み出します。
+All other countermeasures one might imagine for passing each other are ineffective.
 
-#### リズムの強拍時間は正確なのに弱拍時間は不正確
+- Keep moving forward and only change direction without stopping.
+  - -> At the last moment, the other person may dodge the opposite way and crash into you.
+- Do not avoid at all and just keep going forward.
+  - -> Very often they simply do not notice and collide without avoiding.
+- Just stop completely.
+  - -> The other person also stops. Nobody can move forward.
 
-縦乗りの人は２人組で交互に手を叩くことが出来ないという特徴があります。
-これはその人の時間認識の方向 {{<meta var.PRTOA.en>}} が {{<meta var.PROACTIVE_TEMPORAL_ORDERING.en>}} か {{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}} かを識別するための非常に良い方法でもあります。
+In the end, smooth passing becomes impossible.
 
-交互に手を叩くときには相手がどこで手を叩くのかを予期した上でその丁度中間の時刻に手を叩く必要があります。人間のリズムにはずれがあります。相手の手を叩く位置を予想した上で、常にその予想位置と実績位置とのずれを調整した上で、中間地点を予想して手を叩く必要があります。 この作業は本質的に {{<meta var.PROACTIVE_TEMPORAL_ORDERING.en>}} の時間認識を要求します。
+- **They do not give any signal that lets the other person anticipate their next action.**
+- **Even if such a signal is given, they are not watching for it.**
+- **They always begin action by taking what has already happened as the trigger.**
 
-この時、相手が手を叩いた実績に対して行動を起こす{{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}} の認識の人は、相手の過去の実績位置に対して一定時間後に手を叩くという作業を行います。しかしこの認識では、相手の実績位置を予想位置と比較することで本来あるべき自分の手を叩く位置を考える作業が出来ないため、自分の位置を適切に修正することが出来ません。
+At the core of these behaviors lies {{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}}.
 
-自分の手を叩く位置の距離を一定に保つことが出来ないので、テンポを一定に保つことができません。結果として手を叩く位置が無限に加速したり、無限に低下したり、或いは中間位置を維持できずに重なってしまったりという現象が起こります。 このことをここでは**{{<meta var.ALTERNATING_CLAP_BREAKDOWN.en>}}**と呼びます。
+This, I believe, is what gives rise to the four tatenori conditions of {{<meta var.CONDITIONS_OF_GROOVE.en>}}:
 
-これも開始位置（強拍）は意識できるが、終了位置（弱拍）は意識できないという {{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}} の一例と考えることが出来ます。
+- strong-beat precedence
+- Strong-Beat Anchoring Axis
+- Head Alignment
+- 2⁻ⁿ Rhythm
 
-#### メロディーの開始位置は正確なのに終了位置は不正確
+In other words, is not **{{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}}** the essence underlying all the behavior of a tatenori person?
+
+- Tatenori when running
+- Tatenori when walking
+- Tatenori when sitting
+- Tatenori when standing
+- Tatenori when dancing
+- Tatenori when singing
+- Tatenori when playing jazz
+- Tatenori when playing classical
+- Tatenori when playing blues
+
+There is a certain sluggishness to it, a lack of vitality. One cannot dance. It is not enjoyable. It does not communicate to others.
+
+Might **{{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}}** not have been the cause of all of these things?
+
+
+### Tatenori Governs Every Aspect of Japanese Behavior
+
+Up to this point, we have observed the phenomenon that people with {{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}}, that is, people who begin action by taking what has already happened as a trigger, cannot dodge one another in opposite directions.
+
+So far we have looked at the recognition of order within comparatively short spans of time, such as three or four seconds. Here we will see that exactly the same thing can be observed in much larger flows of time as well: three or four hours, three or four months, or three or four years.
+
+When there is some triggering event and one acts in response to it, {{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}} ultimately produces the two following biases in recognition:
+
+- the start time can be perceived
+- the end time cannot be perceived
+
+#### The Timing of Strong Beats Is Accurate, but the Timing of Weak Beats Is Not
+
+People with tatenori characteristically cannot clap alternately in a pair.
+This is also a very good way to determine whether a person's temporal-ordering orientation {{<meta var.PRTOA.en>}} is {{<meta var.PROACTIVE_TEMPORAL_ORDERING.en>}} or {{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}}.
+
+When two people clap alternately, one must predict where the other person will clap and then clap at exactly the midpoint in time. Human rhythm always contains deviation. One must predict where the other person's clap will land, continually adjust for the gap between the predicted position and the actual result, and then predict the midpoint from there before clapping. This task essentially requires the time perception of {{<meta var.PROACTIVE_TEMPORAL_ORDERING.en>}}.
+
+By contrast, a person whose recognition is based on {{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}} acts in response to the other person's actual clap and performs the task of clapping after a fixed amount of time from that past actual position. But with this mode of recognition, the person cannot compare the actual position with the predicted position in order to think about where their own clap ought to be, and therefore cannot correct their own position appropriately.
+
+Because they cannot keep the spacing between their own clap positions constant, they cannot keep the tempo constant. As a result, phenomena occur in which the clap positions accelerate endlessly, decelerate endlessly, or collapse onto one another because the midpoint cannot be maintained. I call this **{{<meta var.ALTERNATING_CLAP_BREAKDOWN.en>}}**.
+
+This too can be understood as an example of {{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}} in which the start position (the strong beat) can be perceived, but the end position (the weak beat) cannot.
+
+#### The Starting Point of a Melody Is Accurate, but the Ending Point Is Not
 
 <div class="center-box"><iframe class="rhythmpedia-iframe" src="https://www.youtube.com/embed/BvpIcUBT418?si=jOhnlsRvhCYB-O_W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-日本人が作るメロディーには１小節目１拍目から始まって終わりがないというはっきりした特徴があります。しかし日本人にとってこれは完全に無意識で全く意識することが出来ないという問題があります。
+Melodies composed by Japanese people have a clear characteristic: they begin on beat 1 of measure 1 and seem to have no ending. Yet for Japanese people this remains completely unconscious, and therein lies the problem: they cannot perceive it at all.
 
-これも {{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}} と特徴を共有しています。
+This too shares the characteristics of {{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}}.
 
-#### 会議の開始時間は正確なのに終了時間は不正確
+#### Meeting Start Times Are Accurate, but Ending Times Are Not
 
-これはつまり日本人の通勤時間などがこれに相当します。
+This corresponds, for example, to Japanese commuting time.
 
-**日本人は時間に正確**ということはよく言われることです。しかし日本人が正確なのは、開始時間だけで終了時間に正確なことはほとんどありません。これも日本人の {{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}} がもたらしている認識の偏りではないでしょうか。
+It is often said that **Japanese people are punctual**. But the punctuality of Japanese people applies mostly to starting times; they are hardly ever accurate about ending times. Might this too not be a bias in recognition produced by Japanese {{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}}?
 
-これにははっきりとした証拠があるわけではありません。
+There is no clear proof of this.
 
-しかし興味深い言語上の表現があります。
+However, there is an interesting linguistic expression.
 
-このようにお互いの位置がずれあって互い違いになっている状態を英語では **スタッガード(staggered)** といいます。 例えば、前述の交互手叩きのようなリズムのことを英語では **互い違いのリズムStaggered Rhythm** と呼びます。
+In English, a state in which positions are offset from one another in an alternating pattern is called **staggered**. For example, a rhythm like the alternating clapping mentioned above is called a **staggered rhythm**.
 
-そして日本語での「時差出勤」のことを **staggered work hours** と言います。日本の時差出勤がなかなか根付かないことは日本語を話す人であれば誰もが知るところではないかと思います。
+And the Japanese expression *jisa shukkin* is rendered in English as **staggered work hours**. Anyone who speaks Japanese will probably know that staggered work hours have never really taken root in Japan.
 
-日本人の Stagger 出来ないリズム感覚 ─── その深層には自ら能動的にタイミングを決めることができないという {{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}} という本質が横たわっています。
+The Japanese inability to stagger in rhythm: beneath it lies the essence of {{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}}, namely the inability to determine one's own timing proactively.
 
-#### 拍の開始地点は正確なのに拍の終了地点は正確ではない
+#### The Starting Point of the Beat Is Accurate, but the Ending Point of the Beat Is Not
 
-日本人ドラマーは、どんなリズムを叩く時でもハイハットとスネアドラムとバスドラムがぴったりの位置に揃っていて、リズムの面白みがない。本来リズムにはずれがありそのリズムのずれがリズムの面白さの基本にあります  ─── しかし日本人はこのリズムのずれが認識出来ません。 これも{{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}} と関連した認識上の偏りです。
+When Japanese drummers play any rhythm, the hi-hat, snare drum, and bass drum all line up in exactly the same position, and the rhythm loses its interest. Rhythm inherently contains deviation, and that deviation is the basis of rhythmic interest. Yet Japanese people cannot perceive that deviation. This too is a cognitive bias related to {{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}}.
 
-既に起こってしまった出来事に対しての時間経過しか認識出来ないため、ばらつきのある時間というもの自体が認識出来ないのです。これも {{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}}と関連した概念だと考えられます。
+Because they can recognize only the passage of time relative to something that has already happened, they cannot recognize variable time itself. This too can be thought of as a concept related to {{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}}.
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">日本人のドラマーは一般的に音が小さい ─── それは和製ジャズマンにとっては良いことと思われているけども、それは断じて間違っている。<br><br>外国のドラマーの演奏を聴くとその音の大きさに驚く。本当に目一杯叩いている。だけど他の楽器の音をかき消すこともなく、普通に綺麗に聴こえる。<br><br>何故か。</p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1599312979782406144?ref_src=twsrc%5Etfw">December 4, 2022</a></blockquote>
 
-#### リボ払いで問題を起こす日本人
+#### Japanese People Getting into Trouble with Revolving Payment Plans
 
-クレジットカードの支払方法で**リボ払い** というものがあります。月々の支払額は一定で支払い完了日だけが後伸ばしになっていくというシステムです。
+There is a credit-card payment method called **ribo-barai**, or revolving payment. It is a system in which the monthly payment amount stays constant, and only the completion date keeps getting pushed back.
 
-このリボ払いについて、日本人だけがリボ払いでしばしば問題を起こすという説があります。この説の信憑性は不明です。しかし{{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}}を鑑みると、支払い開始は認識できても支払いの終わりは認識出来ないということは、容易に予想できることでもあります。
+There is a theory that only Japanese people frequently get into trouble with revolving payment plans. The credibility of this theory is unclear. However, in light of {{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}}, it is easy to predict how one might recognize the start of payment while failing to recognize the end of payment.
 
-この説は今後検証が必要ではありますが、関連する事象として注目する価値はあるでしょう。
+This theory still needs future verification, but it is worth paying attention to as a related phenomenon.
 
 <!--
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">羽田空港に来た。私は日本人だから、距離も取らず避けもせずまっすぐ突撃してくる日本人をむかつきつつも親切に避けるが、外国だったたら普通にドツカれてホームから突き落とされて普通に死ぬだろう。 日本人の全く周りの動きを見ない歩き方は明らかに異様だ。</p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1893656126081634531?ref_src=twsrc%5Etfw">February 23, 2025</a></blockquote>
@@ -11575,15 +11571,15 @@ Escaping from tatenori is the drama of escaping from the perceptual limits of th
 <blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">リボ払いは世界的に一般的なシステムだが日本だけで独特な問題を引き起こしていると言う。これも日本語特有な認知バイアスが影響している可能性が高い。</p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1934837338930336088?ref_src=twsrc%5Etfw">June 17, 2025</a></blockquote>
 -->
 
-### まとめ
+### Summary
 
-日本人のもうひとつの大切な風習として**節目を大切にする**という風習があります。 これは**日本人として謙虚に {{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}} を反省した結果**として生まれたのではないでしょうか。
+Another important Japanese custom is the habit of **valuing milestones and junctures**. Might this not have arisen as **the result of humbly reflecting, as Japanese people, on {{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}}**?
 
-私はしばしば「日本文化を批判しすぎる」という批判を受けますが、私は単に日本人として**節目を大切にしましょう**という日本人としてごく当たり前なことを指摘しているだけなのかも知れません。
+I am often criticized for "criticizing Japanese culture too much," but perhaps I am merely pointing out something entirely ordinary for Japanese people: that **we should value milestones and junctures**.
 
-私は日本人としてこの日本人の「終了地点が認識出来ない」{{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}} という問題点の本質を明らかにしました。
+As a Japanese person, I believe I have clarified the essence of this Japanese problem of {{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}}: the inability to recognize the endpoint.
 
-私（筆者岡敦）は、この見識が、日本文化の素晴らしさを世界に伝え、日本文化のさらなる発展を支える基盤となることを心から祈っております。
+I, the author, sincerely hope that this insight will serve as a foundation for conveying the excellence of Japanese culture to the world and supporting the further development of Japanese culture.
 
 
 ## 縦乗りがもたらす心理的問題 <!-- {#tatenori-and-psychology}-->

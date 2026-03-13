@@ -1,12 +1,11 @@
-### 日本人独特な道路を横断する時の自動車の動きの認識
+### The Distinctively Japanese Way of Perceiving Car Movement When Crossing Roads
 
-私は、かつてトラックの運転手でした。また10代の頃はバイク便という職業で連日バイクに乗って関東全域を走り回るということをしていた時期もあります。なので自動車の運転をしていた時期が長いという特徴があります。
+I used to work as a truck driver. In my teens, I also worked as a motorcycle courier, riding all over the Kanto region every day. In other words, I have spent a long time driving vehicles.
 
-海外放浪していた時は、定常的に移動する必要があったことから、やはり小型のバイクに乗っていました。そこでも人の動きの違いに気付くことがありました。
+When I was wandering abroad, I also needed regular transportation, so I rode a small motorbike there as well. That was another place where I noticed differences in how people move.
 
-タイの地方都市にある4車線ある大きな国道を100km近い速度で走行していると、お年寄りや子供が大通りをのうのうと渡っているのです。彼らはバイクが走っていることに気付かないかの様に車道に出てきます。しかしこういう時に止まったりする必要はないことに気付いたのです。
+When riding at close to 100 km/h on a large four-lane highway in a provincial Thai city, I would sometimes see elderly people or children calmly crossing the road. They would step into the roadway as if they had not even noticed that a motorbike was coming. Yet I came to realize that there was no need to stop in such situations.
 
-彼らが車道に出てきたらむしろ彼らに衝突する様な方向に向かって走行します。何故なら、彼らはそのまま同じ速度で前進するので、自車が彼らがかつていた地点に到達する頃には、既に5ｍ以上先に進んでいるからです。こうしてお互いに停止することなく通りすぎることが出来るのです。
+If they stepped into the roadway, I would instead ride in a direction that looked almost as if I were heading toward them. Why? Because they would continue advancing at the same speed, so by the time my vehicle reached the point where they had been, they would already be more than five meters ahead. In this way, we could pass one another without either side stopping.
 
-逆もまた然りです。大通りを渡る時は止まらずに一定速度で進むと、バイク乗りはこちらの動きを先読みしてこちら側に走ってくるので、お互いがスムーズにすれちがうことができるのです。
-
+The reverse is also true. When crossing a major road, if I kept moving at a constant speed without stopping, the motorbike rider would read my movement in advance and ride toward the side from which we could pass each other smoothly.

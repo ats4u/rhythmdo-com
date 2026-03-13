@@ -1,10 +1,9 @@
-### 進路被りを観察しやすい空港
+### Airports, Where Path Overlap Is Easy to Observe
 
-私がこの日本人の進路被りをより強く意識するようになったのは日本帰国後です。
+I became even more strongly aware of Japanese Path Overlap after returning to Japan.
 
-私は東京蒲田が出身であり羽田空港が近いのでほぼ毎日羽田空港まで散歩するのですが、羽田空港に行くと国際線が離着陸する第三ターミナルと、主に国内線の第一・第二ターミナルがあります。つまりここにいると日本人と外国人の歩き方を比較しやすいのです。
+I am from Kamata in Tokyo, which is close to Haneda Airport, so I walk there almost every day. At Haneda there is Terminal 3, where international flights arrive and depart, and Terminals 1 and 2, which are mainly domestic. In other words, it is an ideal place to compare how Japanese people walk with how foreigners walk.
 
-コロナ禍前2020年ごろは中国からの観光客ブームが起きていたことから常に大勢の中国からの観光客が溢れかえっていました。第三は大勢の観光客で溢れていました。しかし不思議と人とぶつかることはないのです。しかし第一第二ターミナルは第三よりも広く、歩きやすく決して混んでいるという状況ではないにも関わらず進路被りが起こるのです。これも非常に再現性が高く、空港に行くと毎回必ず数度は進路被りが発生します。
+Before the COVID pandemic, around 2020, there was a tourism boom from China, and Terminal 3 was constantly overflowing with large numbers of Chinese tourists. Terminal 3 was packed with people, yet, strangely enough, people hardly collided with one another. By contrast, Terminals 1 and 2 are wider, easier to walk through, and not crowded in the same way, yet Path Overlap still occurs there. This, too, is highly reproducible: every time I go to the airport, Path Overlap occurs several times without fail.
 
-2023年頃から第三ターミナルは国内国際共用になり、日本人と外国人が混在して歩く場所に変わりました。すると以前にも増して、日本人と外国人の歩き方の違いを比較する機会が増えたのです。懐に飛び込んでくる様な形で近付いてくる、或いは人の鼻先を横切るような形で近付いてくる人がいると思うと、それは必ず日本人なのです。それ以外の人はほぼ日本人の様な歩き方をしません。
-
+From around 2023 onward, Terminal 3 became a mixed domestic-and-international terminal, turning it into a place where Japanese people and foreigners walk together. That gave me even more opportunities than before to compare the difference in how they move. Whenever someone approaches as if diving straight into my personal space, or closes in by cutting across the space right in front of my nose, that person is always Japanese. Almost no one else walks the way Japanese people do.

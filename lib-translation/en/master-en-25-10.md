@@ -1,32 +1,31 @@
-### 道路横断時に見られる動作の認識の違い
+### Differences in the Perception of Movement Seen When Crossing Roads
 
-道路横断時に見られる動作の認識の違いを図説すると次のようになるでしょう。
+If we illustrate the difference in movement perception seen when crossing roads, it would look like the following.
 
-#### 外国の場合
+#### In Other Countries
 
-外国で道を横断する場合を説明します。
+Here is the case of crossing a road overseas.
 
 ![](/offbeat-count/attachments/proactive-reactive-p1.png){width=50% }
 
-横断時に現在の動きから未来の位置を予想し、その予想地点に対して反応します。
+When crossing, one predicts the future position from the present movement and reacts to that predicted point.
 
 ![](/offbeat-count/attachments/proactive-reactive-p2.png){width=50% }
 
-すれ違うことが出来ます。
+They pass each other successfully.
 
 ![](/offbeat-count/attachments/proactive-reactive-p3.png){width=50% }
 
-#### 日本の場合
+#### In Japan
 
-日本で道を横断する場合を説明します。
+Here is the case of crossing a road in Japan.
 
 ![](/offbeat-count/attachments/proactive-reactive-r1.png){width=50% }
 
-単純に現在地点に対して反応する。
+One simply reacts to the current position.
 
 ![](/offbeat-count/attachments/proactive-reactive-r2.png){width=50% }
 
-ぶつかります。
+They collide.
 
 ![](/offbeat-count/attachments/proactive-reactive-r3.png){width=50% }
-

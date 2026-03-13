@@ -1,34 +1,33 @@
-### 未来を予想して動く人と過去に対して反応する人
+### People Who Move by Predicting the Future and People Who React to the Past
 
-<span style="font-size:2em;font-weight:800">音楽上のリズムに於ける弱拍先行／強拍先行と、道路を横断する人の動作認識には、未来の位置(時間)を予想してその予想位置(時間)に対して行動を起こすという共通点がそこに存在</span>します。
+<span style="font-size:2em;font-weight:800">Weak-beat precedence / strong-beat precedence in musical rhythm and the movement recognition of people crossing roads share the same underlying structure: they involve predicting a future position (time) and acting in relation to that predicted position (time).</span>
 
-#### 1. 身体の動きを使ってリズム感覚を説明する
+#### 1. Explaining Rhythmic Sense Through Bodily Movement
 
-歩道を歩いている車道を渡る時に車道を走っている車を避けようとする時の行動を例に挙げると、**{{<meta var.PROACTIVE_TEMPORAL_ORDERING.en>}}** (**弱拍が先行する感覚=offbeat-leading sense**)  と、**{{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}}** (**強拍が先行する感覚=onbeat-leading sense**) との違いを明確に理解できます。ここで、車が左側から現れて右方向へと走り抜けていく場面を考えてみます。
+If we use the act of trying to avoid a car while crossing a roadway as an example, the difference between **{{<meta var.PROACTIVE_TEMPORAL_ORDERING.en>}}** (**the sense of weak-beat precedence = offbeat-leading sense**) and **{{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}}** (**the sense of strong-beat precedence = onbeat-leading sense**) becomes very clear. Let us imagine a scene in which a car appears from the left and speeds away toward the right.
 
 
-#### 2. 衝突する人と衝突しない人の動きの違い
+#### 2. The Difference Between People Who Collide and People Who Do Not
 
-##### 予想する人 衝突する人/強拍が先行する感覚）の場合：
+##### In the case of a person who collides (the sense of strong-beat precedence):
 
-衝突する傾向のある人は、単純にその時点の車の位置だけを基準に状況を判断します。現在、車が自分の左側にいるのを見て、本能的に右側へ避けようとする。しかし、車はその人が思う以上に速く右側へ移動しているため、その人が右に移動した瞬間にちょうど車の進行経路に入ってしまい、衝突を起こしてしまいます。
+A person who tends to collide judges the situation simply on the basis of the car's position at that moment. Seeing that the car is currently on the left, that person instinctively tries to dodge toward the right. But because the car is moving rightward faster than the person assumes, the moment the person moves right, they enter the car's path and collide.
 
-##### 衝突しない人（弱拍が先行する感覚）の場合：
+##### In the case of a person who does not collide (the sense of weak-beat precedence):
 
-一方、衝突しない人は、現在の車の位置を見るだけでなく、車が次にどこへ動くのかという未来の位置を予測して行動します。最初は直感に反するように見えるかもしれませんが、衝突しない人は人は、敢えて車が現在いる左側に移動します。何故なら、この人がその地点に到達する頃には、車はすでに右側へと走り去っているため、左側への移動がむしろ安全になるからです。この様に車の軌道を正確に予測することによって衝突を回避することができるのです。
+By contrast, a person who does not collide does not merely look at the car's current position, but acts by predicting its future position, that is, where the car will move next. At first this may seem counterintuitive, but such a person deliberately moves toward the left, where the car is now. Why? Because by the time that person reaches that point, the car has already passed off to the right, making movement toward the left safer. In this way, by accurately predicting the car's trajectory, one can avoid collision.
 
-#### 3. 強拍が先行する感覚の特徴
+#### 3. Characteristics of the Sense of Strong-Beat Precedence
 
-強拍が先行する感覚を持つ人は、**すでに起こったこと（前の拍）に注意を向けています**。彼らは、すでに観察した過去の拍を基準に、そこから一定の時間を測った後で自分の拍を演奏しようとします。そのため、時間感覚としては常に基準となる出来事の「後ろ」に位置しているのです。
+People who have the sense of strong-beat precedence are **paying attention to what has already happened (the previous beat)**. They try to play their own beat only after measuring a fixed span of time from a past beat they have already observed. As a result, in terms of felt time, they are always located "behind" the reference event.
 
-しかし現実の音楽演奏では、テンポは自然に揺れ動くものです。過去の拍から正確に一定間隔を測ったとしても、それが次の拍の位置と正確に一致するとは限りません。したがって強拍が先行する感覚の人は、一般的に**一定したテンポを維持することが難しいのです**。
+But in actual musical performance, tempo naturally fluctuates. Even if one measures a perfectly fixed interval from a past beat, that interval will not necessarily coincide exactly with the position of the next beat. Therefore, people with the sense of strong-beat precedence generally **find it difficult to maintain a steady tempo**.
 
-#### 4. 弱拍が先行する感覚の特徴
+#### 4. Characteristics of the Sense of Weak-Beat Precedence
 
-弱拍が先行する感覚を持つ人は、過去に起きた出来事を観察し、それを基にして**次に起こること（次の拍）を予測します**。彼らは次の拍の位置を予測して前もって自分の拍を準備し、常に自分の認識する時間軸のなかで基準となる出来事よりも「前」に位置しているのです。
+People who have the sense of weak-beat precedence observe what has already happened and use it as the basis for **predicting what will happen next (the next beat)**. They predict the position of the next beat, prepare their own beat in advance, and are always positioned "ahead of" the reference event within the timeline they perceive.
 
-実際の音楽演奏に於いてテンポが常に揺れ動いていても、弱拍が先行する感覚を持つ人は、予測した拍の位置と実際に起きた拍の位置を絶えまなく比較することによって、自分のタイミングを微調整することができます。このような継続的な予測と調整により、**安定した一定のテンポを維持することが可能となるのです**。
+Even if tempo is constantly fluctuating in real musical performance, people with the sense of weak-beat precedence can make fine adjustments to their timing by continually comparing the predicted beat position with the actual beat position that occurred. Through this continuous cycle of prediction and adjustment, **it becomes possible to maintain a stable, steady tempo**.
 
-強拍弱拍は、必ずしも4分音符しかない訳ではありません。8分音符で見た時にも、奇数拍は強拍で、偶数拍は弱拍になります。この様に複数の音価上で複数の系統の強拍弱拍が常に同時に存在するのです。そしてこれらの複数の弱拍に対して「前に来る」感覚を持って演奏しているのです。
-
+Strong and weak beats are not limited to quarter notes. Even when viewed in eighth notes, odd-numbered beats are strong beats and even-numbered beats are weak beats. In this way, multiple systems of strong and weak beats always coexist simultaneously across multiple note values. And performance is carried out with the sense of being "ahead of" these multiple weak beats.
 

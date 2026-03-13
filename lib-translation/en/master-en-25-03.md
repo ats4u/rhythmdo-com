@@ -1,10 +1,9 @@
-### 進路被りとの出会い
+### My First Encounter with Path Overlap
 
-私がこの現象に始めて気付いたのは、タイのバンコクの歩道でした。 スクムビット通りの歩道は屋台や路面店が多く並んでいるため通路が狭い上、世界中の観光客が大勢バラバラな方向に歩いています。しかし歩道の人々は機敏に避け合って不思議とぶつかることはほとんどありません。お互いが通り過ぎることが出来ないと気付けば、どちらかが予め先に避けて相手が通過することをまったり、通路の窪みに入って相手をやりすごしたり、肩を引いて相手を通したりと、機敏にコミュニケーションを取りながら、通りを歩いているのです。
+The first time I noticed this phenomenon was on a sidewalk in Bangkok, Thailand. The sidewalks on Sukhumvit Road are narrow because they are lined with food stalls and street shops, and large numbers of tourists from all over the world walk there in all directions. Yet the pedestrians on those sidewalks skillfully avoid one another, and collisions are mysteriously rare. If they realize they will not be able to pass cleanly, one of them will step aside in advance and wait for the other to pass, duck into a recess in the walkway, or pull in a shoulder to let the other person through. They walk the street while communicating quickly and smoothly through motion.
 
-しかし歩いていると稀に、右に避けると同時に右に避ける、左に避けると同時に左に避ける、というようにワンテンポ遅れて同じ方向に避ける人とぶつかりそうになることがあります。顔を上げて見てみると、その同じ方向に避けた人が日本人だということに気付きます。
+But every so often, while walking there, I would almost collide with someone who moved right the moment I moved right, or moved left the moment I moved left, always dodging in the same direction one beat late. When I looked up, I realized that the person who had moved in the same direction was Japanese.
 
-最初は気のせいかも知れないと何度も確認したのですが、この現象はとても再現性が高く、ワンテンポ遅れて避ける人がいるなと思うと、ほぼ１００％の確率で日本人だということを徐々に意識するようになりました。
+At first I repeatedly checked whether it might be my imagination, but the recurrence was so strong that I gradually became aware that whenever I thought, "Here comes someone who dodges one beat late," that person was Japanese with almost one-hundred-percent certainty.
 
-これが私の**日本人の進路被り**との出会いでした。私は、海外放浪の生存技術として、潮州系・海南系・ラオ系・マレー系・タイ系・・・程度の民族を見分けることが出来るのですが、彼らは誰一人としてこの進路被りを起こす人がいません。 彼らは予め進路被りが起こらない方向に避けている為、進路被りになりようがないということもあります。
-
+That was my first encounter with **Japanese Path Overlap**. As part of the survival skills I developed while wandering abroad, I can roughly distinguish Teochew, Hainanese, Lao, Malay, Thai, and similar ethnic groups, yet not a single one of them exhibited this Path Overlap. Part of the reason is that they are already dodging in directions that prevent Path Overlap from arising in the first place.

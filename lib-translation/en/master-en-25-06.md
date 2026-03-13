@@ -1,17 +1,16 @@
-### 車と歩行者の間に見られる日本人の進路被り
+### Japanese Path Overlap Between Cars and Pedestrians
 
 <div class="center-box"><iframe width="560" height="315" src="https://www.youtube.com/embed/1oYIFu4k7Fc?si=iFJKDY8PnpK_0vuw&amp;start=60" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
-海外ではこのように、速度の異なる歩行者と自動車が入り乱れて走っていることは珍しいことではありません。自動車が多く行き交う中でも人々は道を渡ることが出来ます。
+Overseas, it is not unusual to see pedestrians and cars with very different speeds moving through the same space. Even with many cars passing through, people are still able to cross the road.
 
-そしてここでも私は日本に帰ってきてから、しばしば車とすれ違うことが難しいことに気付いたのです。**『人が車の前を通り過ぎることを前提としてコミュニケーションを取っている』**と私は感じました。
+And here too, after returning to Japan, I noticed that it is often difficult to pass safely relative to cars. I felt that people were communicating on the assumption that **pedestrians would pass in front of the car**.
 
-上記のビデオのように全ての通行人走行車が一定以上の速度で移動している環境では、**相手の背後を通過する**ということが最も大きな暗黙の了解として認知されています。これがあるからこそ、人々はぶつからずに大通りを横断することが出来ます。
+In environments like the video above, where all pedestrians and vehicles are moving at or above a certain speed, the strongest unspoken rule is understood to be **passing behind the other party**. That is precisely why people are able to cross large roads without colliding.
 
-上記のビデオでも、不慣れなアメリカの方がベトナムの道を横断しています。アメリカ人の方は動きがスムーズではないかも知れませんが、そこにある暗黙の了解を見抜いて横断することが出来るようになるのです。
+In the video above as well, an American unfamiliar with the situation is crossing a road in Vietnam. The American's movement may not be perfectly smooth, but even so, he is able to perceive the unspoken rule that governs the situation and make the crossing.
 
-ところが日本では、道路を横断する人を見た車は、必ず減速ないしは停止し歩行者が車の鼻先を横切るような形ですれ違うように仕向けることが一般的です。 ─── これは実は危険だと私は思うのです。車が先に通過してしまった後に通るほうが安全です。車が通過する前に歩行者が通過すると、車によって死角が増え見えない場所から飛び出してくる小型車やバイクと衝突するリスクが高まります。
+In Japan, however, when a car sees someone crossing the road, it is common for the car to slow down or stop and induce the pedestrian to pass across the front of the car's nose. I actually think this is dangerous. It is safer to pass after the car has gone through. If the pedestrian passes before the car, the car creates blind spots, increasing the risk of collision with a small vehicle or motorcycle emerging from a place the pedestrian cannot see.
 
-しかし日本では必ず自動車の前を歩行者が通ることを期待した反応が一般的です。
-
+Yet in Japan, the standard reaction is to expect the pedestrian to pass in front of the car.
 

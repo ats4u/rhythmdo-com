@@ -1,16 +1,15 @@
-### 歩き方から見えてくる日本人の時間認識の違い
+### Differences in Japanese Time Perception Revealed by the Way People Walk
 
-私は海外放浪に出て、バイクが走り回るバンコクの歩道を歩き、帰国して、無数の「ちっとも避けない人」が歩き回る蒲田駅の構内を歩き、その動きの違いについて考え、次のようなことを思いました。
+After going abroad, walking on Bangkok sidewalks full of fast-moving motorbikes, then returning to Japan and walking through Kamata Station surrounded by countless people who did not avoid others at all, I thought about the difference in their movements and arrived at the following idea.
 
-ここで、ある大通りの街路樹の地点に歩行者が立っており、その大通りをある車が走っているとします。この歩行者は、これから大通りを横断しようとしています。 車は歩行者に対して右側から現れて左方向へと速く走り抜けていく ─── という場面を想定してみます。
+Let us imagine a pedestrian standing by a roadside tree along a major road, with a car driving down that road. The pedestrian is about to cross. The car appears on the pedestrian's right and quickly travels toward the left.
 
-この時タイでは、歩行者が一定の速度で歩いていることから、自動車が街路樹に到達する頃には既に歩行者は道の中腹に到達しているだろう、という未来の歩行者の位置を予想し、その予想される歩行者の位置に対して進路方向を決めます。 つまり自動車は歩行者の後ろ側を通るような方向に進路を変更します。その結果、お互いが停止することなくすれ違うことが出来るでしょう。
+In Thailand, because the pedestrian is walking at a constant speed, the driver predicts that by the time the car reaches the tree, the pedestrian will already have reached the middle of the road. The driver then chooses a course based on that predicted future position. In other words, the car alters its course so as to pass behind the pedestrian. As a result, the two can pass each other without either having to stop.
 
-この時日本では、自動車はその歩行者のその瞬間の存在地点に対して進行方向を変更しようとします。つまり歩行者が左側にいることから、自動車は右側に方向を転換します。しかし歩行者は左側から右側に向かう方向に進んでいる為、自動車が街路樹の地点に到達したときには、歩行者は既に右側に到達しています。つまり、ぶつかりそうになり、停止する必要に迫られる筈です。
+In Japan, by contrast, the car tries to alter its direction based on the pedestrian's position at that very instant. Since the pedestrian is on the left, the car turns toward the right. But because the pedestrian is moving from left to right, by the time the car reaches the tree, the pedestrian has already arrived on the right side. In other words, they are forced into a near-collision and have to stop.
 
-この違いを抽象化すると次のように言い換えることが出来るでしょう。
+If we abstract this difference, we can restate it as follows:
 
-- 対抗する人や車とすれ違う時や、車や人が多く流れる通りを横断する歳に、
-  - 日本人は、その瞬間の車の位置に基づいて判断する。
-  - タイ人は、その地点に到達するまでの移動実績に基づいた未来の歩行者の予想位置に基づいて判断する。
-
+- When passing an approaching person or car, or when crossing a street through which many cars and people are flowing,
+  - Japanese people judge based on the car's position at that instant.
+  - Thai people judge based on the predicted future position of the pedestrian, inferred from the movement that will occur before reaching that point.

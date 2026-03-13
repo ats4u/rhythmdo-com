@@ -1,18 +1,17 @@
-### 音楽演奏する上での日本人の時間認識の違い
+### Differences in Japanese Time Perception in Musical Performance
 
-ここまでで道路を横断する時の日本人の時間の認識の違いについて見て参りました。道路横断時に起こっていることと全く同じことが、音楽演奏時にも起きています。 それが<span style="font-weight:800;font-size:2em">縦乗り</span>です。
+Up to this point, we have examined the difference in Japanese time perception when crossing roads. Exactly the same thing happens in musical performance. That is <span style="font-weight:800;font-size:2em">tatenori</span>.
 
-グルーヴする人に良いリズムについての意見を伺うと、彼らはしばしば良いリズムでは『弱拍が先にくる』といいます。 そして悪いリズムは『弱拍が後ろに来る』といいます。
+When you ask people who groove what good rhythm is, they often say that in good rhythm, "the weak beat comes first." And they say that bad rhythm is when "the weak beat comes later."
 
- ─── しかし恐らく大抵の人は『弱拍が後ろに来る』という状態でリズムを認識しており、それ以外の認識方法は体験したことがなく、何が違うのか理解が出来ないのではないかと思います。
+However, most people probably perceive rhythm in the state where "the weak beat comes later," have never experienced any other mode of perception, and therefore cannot understand what the difference is.
 
 
-**『弱拍が先に聞こえている』**という供述は、その人が次に来る強拍の位置を予想していることを示唆しています。次に来るべき強拍の位置が念頭にあるからこそ、弱拍が**それ**よりも前にあるという認識になるからです。
+The statement **"I hear the weak beat first"** suggests that the person is predicting the position of the strong beat that comes next. Only because the next strong beat is already present in the mind can the weak beat be perceived as being before **it**.
 
 ![](/offbeat-count/attachments/rp-proactive-dog.png)
 
-一方、**『弱拍が後に聞こえている』**という供述は、その人が次に来る強拍の位置を予想していないことを示唆しています。彼は強拍が聞こえたら弱拍を叩けばよいと考えているからこそ、弱拍は**それ**よりも後ろにあるという認識になるからです。
+By contrast, the statement **"I hear the weak beat later"** suggests that the person is not predicting the position of the next strong beat. Precisely because that person thinks, "Once I hear the strong beat, I can strike the weak beat afterward," the weak beat is perceived as being behind **it**.
 
 ![](/offbeat-count/attachments/rp-reactive-dog.png)
-
 

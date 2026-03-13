@@ -1,14 +1,13 @@
-### 歩道を走行しているバイクを避ける人々
+### People Avoiding Motorbikes Riding on the Sidewalk
 
-タイの都市部ではある程度広さの歩道がありますが、大抵かなりの数のオートバイが走っています。それはバイクタクシーと呼ばれ、歩行者を乗せて駅や辻の間を行き交っています。彼らは人を載せて移動する為に、一般の自動車とは違ったルールで動いています。高速道路のインターチェンジの様に複雑なルールがある大通りの車道は、人を載せて辻から辻へと移動するバイクにとって不便なため、車道を避けて歩道を走っています。歩道とはいえバイクはそれなりの高速で走っています。当然大勢の歩行者もそこには歩いています。バイクと歩行者がすれ違う必要性は非常に高いと言えます。
+In Thai cities, the sidewalks are often fairly wide, but they usually also have large numbers of motorbikes running along them. These are called motorbike taxis, and they shuttle passengers between stations and street corners. Because they transport people, they move according to rules different from those of ordinary cars. The main roadways, with their complicated lane rules like highway interchanges, are inconvenient for motorbikes carrying passengers from corner to corner, so they avoid the roadway and ride on the sidewalk instead. Even on sidewalks, the bikes move at considerable speed. Naturally, there are also many pedestrians there. The need for motorbikes and pedestrians to pass each other safely is therefore extremely high.
 
-止まらずに一定速度で歩き、無意味に蛇行しないという相手にとって未来が予想しやすい軌跡をたどりながら歩くことが安全に歩く上で最も基本的な心がけといえます。もちろんバイク側にも進行方向を示すはっきりした意思表示が求められ、蛇行するなどこまめな方向転嫁をすることなく一定速度で一定方向に移動することで、予想しやすい軌跡を作るということが基本となります。
+The most basic rule for walking safely is to keep moving at a constant speed without stopping and to avoid pointless zigzagging, so that your path is easy for others to predict. Of course, the same is required on the motorbike side as well: the rider must clearly signal the intended direction of travel, and the basic principle is to move at a constant speed in a constant direction rather than making frequent course changes through weaving.
 
-もちろんバイクと歩行者の「どちらに避けるかの意思表示」のコミュニケーションも非常に大切になります。肩を引く方向で相手にどちらに避けるのかを意思表示しながら歩いたり、バイクであればウィンカーを出しながら走ったりするというような、移動したい方向の意思表示をはっきりすることも大切です。しかし相手の（歩行者にとってはバイクの、バイクにとっては歩行者の）軌跡から考えて、避けることに無理のある方向に進むことを意思表示しても、相手は避けきれることが出来ないでしょう。
+Naturally, communication between motorbikes and pedestrians about which side each will avoid toward is also extremely important. Pedestrians may indicate the direction in which they will move by the way they pull their shoulders, while motorbikes may indicate it by using their blinkers. In both cases, it matters to make one's intended direction explicit. But if one signals an avoidance direction that is unrealistic in light of the other party's trajectory, the other party will not be able to avoid in time.
 
-この様な暗黙の了解があることから、バンコクの歩道ではバイクと歩行者が衝突する事故は、その交通量の多さからは想像もつかないほどに稀なことです。
+Because this kind of unspoken rule exists, collisions between motorbikes and pedestrians on Bangkok sidewalks are astonishingly rare considering the sheer volume of traffic.
 
-「歩道を歩く大勢の働く人々が、高速で走り回るバイクの行く先を不注意で封じてしまうことがない。」
+"Large numbers of working people walking on the sidewalk do not carelessly block the path of high-speed motorbikes."
 
-相手の進む進路を鑑みて、相手が数秒後にどの地点に到達しているかを予想しながら、歩くことが安全に歩く為の最も基本的なマナーといえます。
-
+The most basic manner of safe walking is to consider the other party's route and walk while predicting where that person or vehicle will be a few seconds later.

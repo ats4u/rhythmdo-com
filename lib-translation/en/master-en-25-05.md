@@ -1,59 +1,59 @@
-### 海外の人々にはよく知られている進路被り
+### Path Overlap, Well Known Among People Overseas
 
-これを日本で指摘するとしばしば「それはお前の思い過ごしだ」という反論をいただきます。これは私の思い過ごしではありません。定量化された数字がある訳ではありませんが、「日本人は周りを避けない」という苦情は、日本に長く居住する海外の人々がほぼ典型的にいい始める苦情のひとつでもあります。
+When I point this out in Japan, I am often met with the objection, "That is just your imagination." It is not my imagination. There may not be quantified numerical data, but the complaint that "Japanese people do not avoid others around them" is one of the complaints that long-term foreign residents of Japan very typically begin to voice.
 
-海外では特定の国の人の習慣を批判することは、差別的と解釈される危険を伴うために、声高には語られないという難しさがあります。なので大抵はやや婉曲に静かに批判されることが多いものです。つまり英語の婉曲な表現を知らない限り、これらをインターネットで見つけることはできないという問題があります。
+Overseas, openly criticizing the habits of people from a specific country carries the risk of being interpreted as discriminatory, so such complaints are not usually expressed loudly and directly. More often, they are voiced quietly and somewhat indirectly. In other words, unless you know the indirect ways these things are expressed in English, it is difficult to find them on the internet.
 
-そこで「日本人は避けない」を英語でなんというかを調べてみました。
+So I tried investigating how one might say, in English, that "Japanese people do not avoid others."
 
-#### 進路被りを英語でなんというか
+#### How To Say Path Overlap in English
 
-私は、日本語での一般的な表現として『日本人は人を避けない』と表現しています。しかしこの『日本人は人を避けない』という表現を日本人に対して発言したとき、いまだかつてその日本語を理解できる日本人と出会ったことがないという現象を観察しています。 ここから『日本人は人を避けない』という表現が実は日本語として一般的ではないのではないか、という疑念を持っています。
+In Japanese, I usually describe it with the phrase "Japanese people do not avoid others." But when I say this to Japanese people, I have observed that I have never once met a Japanese person who actually understands what I mean from that Japanese phrasing alone. That makes me suspect that the phrase itself may not really be common Japanese after all.
 
-では『日本人は人を避けない』を英語ではなんというでしょうか。
+So then, how would one say "Japanese people do not avoid others" in English?
 
-| 英語                                                                                       | 日本語                                                                       |
-| :----------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------- |
-| People stop abruptly without checking behind them.                                         | みんな背後をみないで突然立ち止まるんだよね…😓                               |
-| They drift into others’paths as if unaware of shared space.                               | 人の進路を横切るんだよね...周囲が見えてなくて                                |
-| Apologies are automatic but unreflective — a social reflex, not awareness.                | ただ反射的に謝ってるだけで、何の気遣いもないんだよね…。                     |
-| Eye contact and prediction are rare, as if each person is moving through a private tunnel. | まるで自分専用トンネルを歩いている様に周りをみていないし周囲の危険も予測しない |
+| English                                                                                       | Approximate colloquial meaning                                                      |
+| :-------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------- |
+| People stop abruptly without checking behind them.                                            | They just suddenly stop without looking behind them...                              |
+| They drift into others' paths as if unaware of shared space.                                  | They cut across other people's paths as if they do not see the space around them.   |
+| Apologies are automatic but unreflective — a social reflex, not awareness.                   | They apologize automatically, but it feels reflexive rather than considerate.       |
+| Eye contact and prediction are rare, as if each person is moving through a private tunnel.    | They move as if they are in their own private tunnel, without watching or predicting |
 
-::: {.callout-note collapse="true" title="英語の原文" }
-| 英語                                                                                       | 日本語                                                                 | 意訳                                                                         |
-| :----------------------------------------------------------------------------------------- | :--------------------------------------------------------------------- | :--------------------------------------------------------------------------- |
-| People stop abruptly without checking behind them.                                         | 背後を確認することなく突然立ち止まる                                   | みんな背後をみないで突然立ち止まるんだよね…😓                               |
-| They drift into others’ paths as if unaware of shared space.                              | 同じ空間を共有している意識がなく人の進路に割り込んでくる。             | 人の進路を横切るんだよね...周囲が見えてなくて                                |
-| Apologies are automatic but unreflective — a social reflex, not awareness.                | 謝罪がほとんど自動的で単に社会習慣で気付きがない。                     | ただ反射的に謝ってるだけで、何の気遣いもないんだよね…。                     |
-| Eye contact and prediction are rare, as if each person is moving through a private tunnel. | あたかも自分専用トンネルを歩いている様に目を合わさず先々の予想がない。 | まるで自分専用トンネルを歩いている様に周りをみていないし周囲の危険も予測しない |
+::: {.callout-note collapse="true" title="Original English Source" }
+| English                                                                                       | Literal meaning                                                                     | Loose paraphrase                                                                   |
+| :-------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------- |
+| People stop abruptly without checking behind them.                                            | They suddenly stop without checking behind them.                                    | They just suddenly stop without looking behind them...                             |
+| They drift into others' paths as if unaware of shared space.                                 | They cut into others' paths as if unaware that space is shared.                     | They cut across other people's paths as if they do not see the space around them.  |
+| Apologies are automatic but unreflective — a social reflex, not awareness.                   | Their apologies are almost automatic, mere social habit without awareness.          | They apologize automatically, but it feels reflexive rather than considerate.      |
+| Eye contact and prediction are rare, as if each person is moving through a private tunnel.   | They avoid eye contact and do not anticipate what lies ahead, as if in a private tunnel. | They move as if they are in their own private tunnel, without watching or predicting |
 :::
 
 
-#### 海外の人が日本人にはいわない愚痴
+#### Complaints That People Overseas Do Not Usually Say Directly to Japanese People
 
-これらの表現を使ってインターネットを検索すると、日本人に対する色々な愚痴が見つかります。
+If you search the internet using these expressions, you can find all kinds of complaints about Japanese people.
 
-- [ 日本の歩行者・自転車・ドライバーに空間認識というものがあるのか？ ](https://www.reddit.com/r/japanlife/comments/1f6ue92/spatial_awareness_among_pedestrians_cyclists_and/)
-  - **他人への配慮や注意の欠如は理解に苦しむ。とても苛立たしい。**
-  - **後ろを確認せず、突然立ち止まる。**
-    - さっきまで普通に歩いていたのに、次の瞬間には衝突を避けるために全力で回避行動を取らなければならなくなる。
-  - **まるで無人の野原を歩いているかの様に、他人の進路に割り込んでくる。**
-    - 集団で歩道全体を塞いで、まるで自分たちの専用通路の様に歩く。
-  - **歩道上はやりたい放題、まるで自分の家の中を歩いているよう。**
-  - **まるで自分専用トンネルを歩いている様に周りをみていないし周囲の危険も予測しない。**
-    - 私の仮説はこうだ。社会が人々に**家族の様に親しい人間関係**へ過剰に注意を向けさせる構造になっているので、一日中それを続けると、外の世界に対してはもう意識を向ける余裕がなくなって、「自分の気持ちを察してくれ」と思うようになるのだろう。
-- [ ぶつかりおじさの心理とは？（人に肩をぶつける男たち） ](https://www.reddit.com/r/japanlife/comments/1c51tn1/whats_the_psychology_behind_%E3%81%B6%E3%81%A4%E3%81%8B%E3%82%8A%E7%94%B7_guys_who/)
-  - **信じられないほど日本人は深刻なレベルで空間認識能力が欠けている。**
-  - **謝罪は自動的で、反省を伴わない──それは意識ではなく、社会的な反射である。**
-    - この表現そのものの引用は見つからないが、次のようなコメントに同じ趣旨が見られる：「恋人と手をつないで歩いていたら、ある男が肩をぶつけてきた……彼らは本当に自分の進行方向を見ていないようだ。」
-- [愚痴：高齢者について](https://www.reddit.com/r/japanlife/comments/1np4pq0/rant_elderly_people/)
-  - **なぜ東京の高齢者は空間認識能力がゼロなのか？？？**
-  - いや、正直言って、年齢に関わらずみんなそう。
-- [日本人の空間的・精神的に気付かなさついての愚痴 ](https://www.reddit.com/r/japanlife/comments/2fpjpo/ranting_about_physical_and_mental_unawareness_in/)
-  - **人々の空間認識の悪さに、心底うんざりしていると気づいた。**
-    - 日本で自分が最も嫌うことをようやく言語化できた──それは、人々の空間認識があまりにも悪く、苛立たしいという事実だ。
+- [Do pedestrians, cyclists, and drivers in Japan have any sense of spatial awareness?](https://www.reddit.com/r/japanlife/comments/1f6ue92/spatial_awareness_among_pedestrians_cyclists_and/)
+  - **The lack of awareness and consideration for others is baffling and infuriating.**
+  - **They stop abruptly without checking behind them.**
+    - One moment you are walking normally, and the next you have to make a full-speed evasive move just to avoid a collision.
+  - **They cut into other people's paths as if walking across an empty field.**
+    - Groups block the entire sidewalk and walk as if it were their own private passageway.
+  - **On sidewalks they do whatever they want, as if they were walking around inside their own house.**
+  - **They move as if inside their own private tunnel, without looking around or predicting danger.**
+    - My hypothesis is this: because society makes people devote excessive attention to intimate, family-like relationships, doing that all day leaves them with no cognitive room for the outside world, and they start expecting others to read their feelings for them.
+- [What is the psychology behind the "butsukari-otoko"? (Men who shoulder-check people)](https://www.reddit.com/r/japanlife/comments/1c51tn1/whats_the_psychology_behind_%E3%81%B6%E3%81%A4%E3%81%8B%E3%82%8A%E7%94%B7_guys_who/)
+  - **Japanese people seem to lack spatial awareness to an unbelievable degree.**
+  - **Apologies are automatic and without reflection: not awareness, but a social reflex.**
+    - I could not find that exact phrasing quoted directly, but the same idea appears in comments such as: "I was walking hand in hand with my partner when some guy shoulder-checked us... It is like they are not really looking where they are going."
+- [Rant: Elderly People](https://www.reddit.com/r/japanlife/comments/1np4pq0/rant_elderly_people/)
+  - **Why do elderly people in Tokyo have zero spatial awareness???**
+  - No, honestly, it is everyone, regardless of age.
+- [Rant about Japanese physical and mental unawareness](https://www.reddit.com/r/japanlife/comments/2fpjpo/ranting_about_physical_and_mental_unawareness_in/)
+  - **I realized I am utterly fed up with how bad people's spatial awareness is.**
+    - At last I was able to put into words what I hate most about Japan: the fact that people's spatial awareness is so bad that it is infuriating.
 
-::: {.callout-note collapse="true" title="英語の原文" }
+::: {.callout-note collapse="true" title="Original English Source" }
 - [ Spatial Awareness among pedestrians, cyclists and drivers - does it exist? ](https://www.reddit.com/r/japanlife/comments/1f6ue92/spatial_awareness_among_pedestrians_cyclists_and/)
   - **The lack of awareness and consideration for others is both baffling and infuriating.**
   - **They stop abruptly without checking behind them.**
@@ -63,7 +63,7 @@
   - **It’s like the sidewalks are a free-for-all, with people just wandering around like they’re in their living rooms.**
   - **Eye contact and prediction are rare, as if each person is moving through a private tunnel.**
     - My pet theory is that society requires people to be so hyper-attuned to their innermost social circle … after a whole day … you’ve just done with the outside world and have decided that the world can start reading your mind for a change.
-- [ What’s the psychology behind ぶつかり男? (Guys who shoulder barge people) ](https://www.reddit.com/r/japanlife/comments/1c51tn1/whats_the_psychology_behind_%E3%81%B6%E3%81%A4%E3%81%8B%E3%82%8A%E7%94%B7_guys_who/)
+- [ What’s the psychology behind butsukari-otoko? (Guys who shoulder barge people) ](https://www.reddit.com/r/japanlife/comments/1c51tn1/whats_the_psychology_behind_%E3%81%B6%E3%81%A4%E3%81%8B%E3%82%8A%E7%94%B7_guys_who/)
   - **It is unbelievable… Japanese people seem to have a serious lack of spatial awareness.**
   - **Apologies are automatic but unreflective — a social reflex, not awareness.**
     - While explicit quote not found in these exact words, the sentiment appears in comments like: “I was walking hand in hand… and one guy shoulder-checked us… It’s like they just aren’t looking where they are going.”
@@ -75,5 +75,4 @@
     - Out of just pure frustration and sudden realization in how to define what I least like about Japan, I realize that people's spatial awareness is just infuriating.
 :::
 
-日本人は気遣いの文化だと言われています。そして日本人はしばしば「海外の人は空気を読まない」「海外の人は気を使わない」と酷評しています。しかし実は海外の人々は、日本人に対して、日本人が海外の人に対して持っている印象と全く同じ印象を持っていることがわかります。
-
+Japanese people are often said to belong to a culture of consideration, and Japanese people often harshly criticize foreigners by saying things like "People overseas cannot read the air" or "People overseas are inconsiderate." But in fact, it becomes clear that people overseas often hold exactly the same impression of Japanese people that Japanese people claim to hold of them.

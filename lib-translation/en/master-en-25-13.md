@@ -1,64 +1,63 @@
-### 時間認識の違いの本質
+### The Essence of the Difference in Time Perception
 
-この様に行動観察から得られた習慣の本質には、**未来を予想しその予想地点に対して行動を起こす認識方法**と **既に起きた過去の事象をトリガとして行動を起こす認識方法**という２つの認識方法の違いとして抽象化出来ます。
+In this way, the essence of the habits observed in behavior can be abstracted as a difference between two modes of recognition: **a mode that predicts the future and acts toward that predicted point**, and **a mode that acts by taking an already-occurred past event as its trigger**.
 
-<span style="font-weight:1000">この順序の認識方法の違いは、前章でみた {{<meta var.SCHIZORHYTHMOS.en>}}と{{<meta var.SOLIRHYTHMOS.en>}} と高い類似性が指摘できます。</span>
+<span style="font-weight:1000">This difference in the recognition of order bears a strong resemblance to the {{<meta var.SCHIZORHYTHMOS.en>}} and {{<meta var.SOLIRHYTHMOS.en>}} discussed in the previous chapter.</span>
 
-参照: {{<meta var.LINK_SCHIZORHYTHMOS_AND_SOLIRHYTHMOS.en>}}
+Reference: {{<meta var.LINK_SCHIZORHYTHMOS_AND_SOLIRHYTHMOS.en>}}
 
-これらの認識は、本質的に同一です。つまりこれら動作に対する順序の認識方法の違いの本質は、言語リズム上の順序の認識方法の影響を受けているのではないか  ─── この様に、その人の母国語の言語のリズム認識のパターンがその人の行動上の時間の認識にも影響を与えているという仮説を <span style="font-weight:800;font-size:1.5em;">{{<meta var.TOP.en>}}</span> と呼びます。
+These modes of recognition are essentially the same. In other words, perhaps the essence of these differences in how people recognize order in movement is influenced by the way order is recognized in language rhythm. I call the hypothesis that a person's native-language rhythm pattern affects that person's temporal perception in behavior <span style="font-weight:800;font-size:1.5em;">{{<meta var.TOP.en>}}</span>.
 
 
 #### {{<meta var.TOP.en>}}
 
-その人が母国語としている言語の言語リズムが認知上の順序の認識方法を形成するという仮説を {{<meta var.TOP.en>}} と呼びます。これは、その言語が持つ拍リズム（モーラ拍リズム/シラブル拍リズム/ストレス拍リズム）が、音楽のリズムの認識を始め、時間的順序の認識や、物の動きに対する認識にまで影響を及ぼすと考える仮説です。
+The hypothesis that the language rhythm of a person's native language shapes that person's cognitive way of recognizing order is called {{<meta var.TOP.en>}}. It is the hypothesis that the beat rhythm possessed by a language, whether mora-timed, syllable-timed, or stress-timed, affects not only the recognition of musical rhythm, but also the recognition of temporal order and even the perception of movement.
 
 #### {{<meta var.PROACTIVE_TEMPORAL_ORDERING.en>}}
-これまでに見てきた時間の認識のなかで **未来を予想しその予想地点に対して行動を起こす認識方法** をここでは{{<meta var.PROACTIVE_TEMPORAL_ORDERING.en>}}と呼ぶことにします。
+Among the kinds of time recognition we have seen so far, I will call the mode that **predicts the future and acts toward that predicted point** {{<meta var.PROACTIVE_TEMPORAL_ORDERING.en>}}.
 
-{{<meta var.PROACTIVE_TEMPORAL_ORDERING.en>}} は、{{<meta var.LINK_SCHIZORHYTHMOS_AND_SOLIRHYTHMOS.en>}} で見た {{<meta var.PROACTIVE_DIVISIONISM.en>}} に相当します。
+{{<meta var.PROACTIVE_TEMPORAL_ORDERING.en>}} corresponds to {{<meta var.PROACTIVE_DIVISIONISM.en>}}, as discussed in {{<meta var.LINK_SCHIZORHYTHMOS_AND_SOLIRHYTHMOS.en>}}.
 
-シラブル拍リズム・ストレス拍リズム・弱拍先行・尻合わせ・弱拍基軸・逆方向に避ける人・・・等々が {{<meta var.PROACTIVE_TEMPORAL_ORDERING.en>}} 相当します。
+Syllable-timed rhythm, stress-timed rhythm, weak-beat precedence, Tail Alignment, Weak-Beat Anchoring Axis, people who dodge in the opposite direction, and so on all correspond to {{<meta var.PROACTIVE_TEMPORAL_ORDERING.en>}}.
 
 #### {{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}}
-これまでに見てきた時間の認識のなかで **既に起きた過去の事象をトリガとして行動を起こす認識方法** をここでは {{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}}と呼ぶことにします。
+Among the kinds of time recognition we have seen so far, I will call the mode that **acts by taking an already-occurred past event as its trigger** {{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}}.
 
-{{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}} は、{{<meta var.LINK_SCHIZORHYTHMOS_AND_SOLIRHYTHMOS.en>}} で見た {{<meta var.REACTIVE_APPENDISM.en>}} に相当します。
+{{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}} corresponds to {{<meta var.REACTIVE_APPENDISM.en>}}, as discussed in {{<meta var.LINK_SCHIZORHYTHMOS_AND_SOLIRHYTHMOS.en>}}.
 
-モーラ拍リズム・強拍先行・頭合わせ・強拍基軸・同方向に避ける人・・・等々が{{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}}に相当します。
+Mora-timed rhythm, strong-beat precedence, Head Alignment, Strong-Beat Anchoring Axis, people who dodge in the same direction, and so on all correspond to {{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}}.
 
 #### {{<meta var.PRTOA.en>}}
-人の時間順序認識を{{<meta var.PROACTIVE_TEMPORAL_ORDERING.en>}} と{{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}}の二軸に分けて考えることを、ここでは{{<meta var.PRTOA.en>}}と呼ぶことにします。
+Here, I will call the framework that divides human temporal-order recognition into the two axes of {{<meta var.PROACTIVE_TEMPORAL_ORDERING.en>}} and {{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}} {{<meta var.PRTOA.en>}}.
 
 #### {{<meta var.PROACTIVE_DIVISIONISM.en>}}
 
-音楽理論上での、{{<meta var.PROACTIVE_TEMPORAL_ORDERING.en>}}に相当する概念です。これから起こる出来事を予期して空間・時間を分割し {{<meta var.CONDITIONS_OF_GROOVE.en>}}の4つの弱拍先行・弱拍基軸、尻合わせ、3⁻ⁿリズムを形成します。 協働グルーヴに基づくリズムを形成します。
+This is the concept in music theory corresponding to {{<meta var.PROACTIVE_TEMPORAL_ORDERING.en>}}. By anticipating what is about to happen and dividing space and time in advance, it forms the four groove conditions of {{<meta var.CONDITIONS_OF_GROOVE.en>}}: weak-beat precedence, Weak-Beat Anchoring Axis, Tail Alignment, and 3⁻ⁿ Rhythm. It forms rhythm based on Cooperative Groove.
 
 #### {{<meta var.REACTIVE_APPENDISM.en>}}
 
-音楽理論上での、{{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}} に相当する概念です。 何らかの既に起こった出来事をトリガとして行動を開始し{{<meta var.CONDITIONS_OF_GROOVE.en>}}の４つの縦乗り条件である、強拍先行・強拍基軸、頭合わせ、2⁻ⁿリズムを形成します。 単独グルーヴに基づくリズムを形成します。
+This is the concept in music theory corresponding to {{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}}. It begins action using some already-occurred event as a trigger and forms the four tatenori conditions of {{<meta var.CONDITIONS_OF_GROOVE.en>}}: strong-beat precedence, Strong-Beat Anchoring Axis, Head Alignment, and 2⁻ⁿ Rhythm. It forms rhythm based on solo groove.
 
 
 #### {{<meta var.PROSODIC_ORDERING_BIAS.en>}}
 
-その人が母国語としている言語の言語リズムによって生まれた認知上の順序の認識の偏りのことを、ここでは {{<meta var.PROSODIC_ORDERING_BIAS.en>}} と呼びます。
+Here I call the cognitive bias in order recognition produced by the rhythm of a person's native language {{<meta var.PROSODIC_ORDERING_BIAS.en>}}.
 
-次で説明する{{<meta var.MORAIC_ORDERING_BIAS.en>}}、{{<meta var.SYLLABIC_ORDERING_BIAS.en>}}、{{<meta var.ACCENTUATED_ORDERING_BIAS.en>}} の3種類が存在します。
+There are three types: {{<meta var.MORAIC_ORDERING_BIAS.en>}}, {{<meta var.SYLLABIC_ORDERING_BIAS.en>}}, and {{<meta var.ACCENTUATED_ORDERING_BIAS.en>}}, which are explained next.
 
 #### {{<meta var.MORAIC_ORDERING_BIAS.en>}}
 
-モーラ拍リズム言語(日本語)に特有の{{<meta var.PROSODIC_ORDERING_BIAS.en>}}をここでは{{<meta var.MORAIC_ORDERING_BIAS.en>}} と呼びます。 {{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}} が相当します。
+Here I call the {{<meta var.PROSODIC_ORDERING_BIAS.en>}} specific to mora-timed languages, that is, Japanese, {{<meta var.MORAIC_ORDERING_BIAS.en>}}. It corresponds to {{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}}.
 
 #### {{<meta var.SYLLABIC_ORDERING_BIAS.en>}}
 
-シラブル拍およびストレス拍言語（英語・スペイン語など）に見られます。 {{<meta var.PROACTIVE_TEMPORAL_ORDERING.en>}} と関連して観察されることが予想されます。
+It is observed in syllable-timed and stress-timed languages, such as English and Spanish, and is expected to be associated with {{<meta var.PROACTIVE_TEMPORAL_ORDERING.en>}}.
 
 #### {{<meta var.ACCENTUATED_ORDERING_BIAS.en>}}
 
-典型例：英語・ロシア語などに見られる{{<meta var.PROSODIC_ORDERING_BIAS.en>}}をここでは{{<meta var.ACCENTUATED_ORDERING_BIAS.en>}}と呼びます。 {{<meta var.PROACTIVE_TEMPORAL_ORDERING.en>}} と関連して観察されることが予想されます。
+Here I call the {{<meta var.PROSODIC_ORDERING_BIAS.en>}} seen in typical cases such as English and Russian {{<meta var.ACCENTUATED_ORDERING_BIAS.en>}}. It is expected to be observed in association with {{<meta var.PROACTIVE_TEMPORAL_ORDERING.en>}}.
 
 #### {{<meta var.PROACTIVITY_HORIZON_INDEX.en>}}
 
-能動的予測の範囲を定量化する指標。次に起こる事象をどの程度先取りして知覚・行動するかを測定する為の指標です。
-
+A metric for quantifying the range of proactive prediction. It measures the extent to which one perceives and acts in advance of the next event.
 
