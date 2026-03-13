@@ -132,7 +132,10 @@ var:
 
   # === Multi-Layered Weak-Beat Precedence ===
   MLWBOR:
-    ja: "<ruby><rb>多層弱拍基軸律動</rb><rt>Multi-Layered Weak-Beat Precedence</rt></ruby>"
+    ja: "<ruby><rb>多層弱拍基軸律動</rb><rt>Multi-Layered Weak-Beat-Oriented Rhythm</rt></ruby>"
+    en: "Multi-Layered Weak-Beat-Oriented Rhythm"
+  MLWBP:
+    ja: "<ruby><rb>多層弱拍先行</rb><rt>グルーヴ</rt></ruby>"
     en: "Multi-Layered Weak-Beat Precedence"
   BOTTOM_ALIGNING:
     ja: "尻合わせ"
