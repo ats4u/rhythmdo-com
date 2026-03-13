@@ -185,6 +185,18 @@ var:
   WAA:
     ja: "<ruby><rb>弱拍基軸</rb><rt>Weak-Beat Anchoring Axis</rt></ruby>"
     en: "Weak-Beat Anchoring Axis"
+  STRONG_BEAT_REFERENCE:
+    ja: "強拍基準"
+    en: "Strong-Beat Reference"
+  WEAK_BEAT_REFERENCE:
+    ja: "弱拍基準"
+    en: "Weak-Beat Reference"
+  WEAK_BEAT_GEOCENTRISM:
+    ja: "弱拍天動説"
+    en: "Weak-Beat Geocentrism"
+  STRONG_BEAT_HELIOCENTRISM:
+    ja: "強拍地動説"
+    en: "Strong-Beat Heliocentrism"
   2TONR:
     ja: "2⁻ⁿリズム"
     en: "2⁻ⁿ Rhythm"
