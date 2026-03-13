@@ -2,7 +2,7 @@
 
 It was a development that was possible precisely because it was stress-timed rhythm born as a developed form of syllable-timed rhythm. And mora-timed rhythm is a singularity and has properties exactly opposite to stress timing and syllable timing. It bears the fate of not being able to enter this world of syllable timing and stress timing.
 
-That this mora-timed rhythm does not mix can be clearly shown when viewed phonologically. In syllable-timed rhythm and stress-timed rhythm there is the **Maximize Onset Principle (MOP = Maximum Onset Principle)**, while in Japanese mora-timed rhythm there is the exact opposite property, the **Minimum Onset Principle (MiOP = Minimum Onset Principle)**. This fundamental incompatibility lies at the root of Japanese and all the languages surrounding it.
+That this mora-timed rhythm does not mix can be clearly shown when viewed phonologically. In syllable-timed rhythm and stress-timed rhythm there is the **Maximize Onset Principle (MOP = Maximize Onset Principle)**, while in Japanese mora-timed rhythm there is the exact opposite property, the **Minimum Onset Principle (MiOP = Minimum Onset Principle)**. This fundamental incompatibility lies at the root of Japanese and all the languages surrounding it.
 
 Japan, which speaks Japanese, a mora-timed-rhythm language like that, is the country with the largest population performing jazz in the world. Yet no one in the world listens to the jazz abundantly produced there. There is nowhere in the world where people listen to jazz whose multilayer degree of weak-beat precedence is zero and which has no value at all as rhythmic entertainment performance. Such Japanese jazz is even said globally to be **the world's greatest musical tragedy**.
 

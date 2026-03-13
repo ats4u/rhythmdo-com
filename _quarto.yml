@@ -123,7 +123,7 @@ var:
     ja: "<ruby>日本人<rt>モーラ拍リズム言語話者</rt></ruby>"
     en: "Mora-Timed Language Speakers"
 
-  # MOP: "<ruby><rb>頭子音最大化原則</rb><rt>MOP=Maximal Onset Principle</rt></ruby>"
+  # MOP: "<ruby><rb>頭子音最大化原則</rb><rt>MOP=Maximize Onset Principle</rt></ruby>"
   # MiOP: "<ruby><rb>頭子音最小化原則</rb><rt>MiOP=Minimum Onset Principle</rt></ruby>"
   # MPOP: "<ruby><rb>頭音節最大化原則</rb><rt>MPOP=Maximal Prosodic Onset Principle</rt></ruby>"
   # MiPOP: "<ruby>頭音節最小化原則<rt>MiPOP = Minimum Prosodic Onset Principle</rt></ruby>"
@@ -139,19 +139,46 @@ var:
     en: "Multi-Layered Weak-Beat Precedence (Groove)"
   BOTTOM_ALIGNING:
     ja: "尻合わせ"
-    en: "Bottom-Alignment"
+    en: "Tail Alignment"
   SBL:
     ja: "強拍先行"
-    en: "Strong-Beat Leading"
+    en: "Strong-Beat Precedence"
   WBL:
     ja: "弱拍先行"
-    en: "Weak-Beat Leading"
+    en: "Weak-Beat Precedence"
   HAL:
     ja: "頭合わせ"
-    en: "Head-Aligned"
+    en: "Head Alignment"
   BAL:
     ja: "尻合わせ"
-    en: "Bottom-Aligned"
+    en: "Tail Alignment"
+  HEAD_ALIGNMENT_RHYTHM:
+    ja: "頭合わせリズム"
+    en: "Head-Alignment Rhythm"
+  TAIL_ALIGNMENT_RHYTHM:
+    ja: "尻合わせリズム"
+    en: "Tail-Alignment Rhythm"
+  TAIL_ALIGNMENT_RHYTHM_STRUCTURE:
+    ja: "尻合わせリズム構造"
+    en: "Tail-Alignment Rhythm Structure"
+  BEAT_LAYER:
+    ja: "拍の層"
+    en: "Beat Layer"
+  CHANGING_BEAT_LAYERS:
+    ja: "拍の層の乗り換え"
+    en: "Changing Beat Layers"
+  COOPERATIVE_GROOVE:
+    ja: "協力グルーヴ"
+    en: "Cooperative Groove"
+  LAYERLESS_RHYTHM:
+    ja: "無層リズム"
+    en: "Layerless Rhythm"
+  OFBC_METHOD:
+    ja: "オフビートカウント法"
+    en: "Offbeat Count Method"
+  SPOKEN_OFBC:
+    ja: "声出しオフビートカウント"
+    en: "Spoken Offbeat Count"
   SAA:
     ja: "<ruby><rb>強拍基軸</rb><rt>Strong-Beat Anchoring Axis</rt></ruby>"
     en: "Strong-Beat Anchoring Axis"
@@ -182,8 +209,8 @@ var:
     ja:  "<ruby><rb>頭子音最小化原則</rb><rt>MiOP = Minimum Onset Principle</rt></ruby>"
     en:  "Minimum Onset Principle (MiOP)"
   MOP:
-    ja:   "<ruby><rb>頭子音最大化原則</rb><rt>MOP = Maximal Onset Principle</rt></ruby>"
-    en:   "Maximal Onset Principle (MOP)"
+    ja:   "<ruby><rb>頭子音最大化原則</rb><rt>MOP = Maximize Onset Principle</rt></ruby>"
+    en:   "Maximize Onset Principle (MOP)"
   MiPOP:
     ja: "<ruby><rb>頭音節最小化原則</rb><rt>MiPOP = Minimum Prosodic Onset Principle</rt></ruby>"
     en: "Minimum Prosodic Onset Principle (MiPOP)"

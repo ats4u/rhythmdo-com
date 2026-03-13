@@ -10,9 +10,9 @@ The recognition of multilayer weak-beat precedence that we have seen up to now i
 
 Here, one hypothesis arises.
 
-In syllable-timed rhythm, we saw the law that consonants precede as much as possible by the **Maximize Onset Principle (MOP = Maximize Onset Principle)**. In other words, this can be seen as the precedence of the weak beat of eighth notes.
+In syllable-timed rhythm, we saw the law that consonants precede as much as possible by the **Maximize Onset Principle (MOP = Maximize Onset Principle)**. In other words, this can be seen as weak-beat precedence in eighth notes.
 
-Next, in stress-timed rhythm, in addition to the **Maximize Onset Principle (MOP = Maximize Onset Principle)** of syllable-timed rhythm, the **Maximal Prosodic Onset Principle (MPOP)** is applied. In other words, this can be interpreted as meaning that, in addition to weak-beat precedence of eighth notes, weak-beat precedence of quarter notes becomes effective at the same time.
+Next, in stress-timed rhythm, in addition to the **Maximize Onset Principle (MOP = Maximize Onset Principle)** of syllable-timed rhythm, the **Maximal Prosodic Onset Principle (MPOP)** is applied. In other words, this can be interpreted as meaning that, in addition to weak-beat precedence in eighth notes, weak-beat precedence in quarter notes becomes effective at the same time.
 
 It is possible to interpret that **syllable-timed rhythm is single-layer weak-beat precedence**, and **stress-timed rhythm is two-layer weak-beat precedence**.
 

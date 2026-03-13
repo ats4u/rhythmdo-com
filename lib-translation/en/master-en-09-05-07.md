@@ -1,201 +1,201 @@
-#### 弱拍先行には複数の階層がある
+#### Weak-Beat Precedence Has Multiple Layers
 
-前章では弱拍先行するリズムの例として４分音符に於いて弱拍が強拍よりも先に演奏される場合をグラフ化して俯瞰しました。**この弱拍の先行は複数の音価の拍で同時に起こり** ます。例えば2分音符で見てみましょう。
+In the previous section, we surveyed graphically the case in which, in quarter notes, weak beats are played before strong beats as an example of rhythm with weak-beat precedence. **This precedence of weak beats occurs simultaneously at multiple note values.** Let us look at half notes, for example.
 
-##### 2分音符の場合
+##### In the Case of Half Notes
 
-次のように2分音符があったとします。
-
-<table class="offbeat-onbeat-table">
-  <tbody>
-    <tr>
-      <th>位置</th>
-      <td>１拍目</td>
-      <td class="offbeat-td">２拍目</td>
-    </tr>
-    <tr>
-      <th>２分音符</th>
-      <td>◯</td>
-      <td class="offbeat-td">◯</td>
-    </tr>
-    <tr>
-      <th>強弱</th>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-    </tr>
-  </tbody>
-</table>
-
-先に述べた様に、2分音符も4分音符と同様に弱拍の先行が起こります。2分音符で弱拍先行が起こると次のようになります。
+Suppose there are half notes as follows.
 
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
-      <td class="offbeat-td">２拍目</td>
-      <td>１拍目</td>
+      <th>Position</th>
+      <td>Beat 1</td>
+      <td class="offbeat-td">Beat 2</td>
     </tr>
     <tr>
-      <th>２分音符</th>
-      <td class="offbeat-td">◯</td>
+      <th>Half notes</th>
       <td>◯</td>
+      <td class="offbeat-td">◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <th>Strong/weak</th>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
     </tr>
   </tbody>
 </table>
 
-この様に2分音符でも弱拍が先に演奏され、強拍がその後ろに演奏されるようになりました。弱拍の先行は8分音符16分音符などの他の全ての音価で同様に起こります。
+As mentioned earlier, half notes, like quarter notes, also undergo weak-beat precedence. When weak-beat precedence occurs in half notes, it becomes as follows.
 
-このことを譜面と音で確認してみましょう。
+<table class="offbeat-onbeat-table">
+  <tbody>
+    <tr>
+      <th>Position</th>
+      <td class="offbeat-td">Beat 2</td>
+      <td>Beat 1</td>
+    </tr>
+    <tr>
+      <th>Half notes</th>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+    </tr>
+    <tr>
+      <th>Strong/weak</th>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+    </tr>
+  </tbody>
+</table>
 
-###### 💡実例＝2分音符弱拍先行なし
+In this way, even in half notes, weak beats come to be played first, with strong beats played after them. The precedence of weak beats occurs in the same way at all other note values as well, such as eighth notes and sixteenth notes.
+
+Let us confirm this with notation and sound.
+
+###### 💡 Example = Half-Note Weak-Beat Precedence Absent
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560">2分音符の弱拍先行＝なし #グルーヴは弱拍が先<a href="https://twitter.com/ats4u/status/1950903671266623988?ref_src=twsrc%5Etfw"></a></blockquote></div>
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
-      <td>１拍目</td>
-      <td class="offbeat-td">２拍目</td>
+      <th>Position</th>
+      <td>Beat 1</td>
+      <td class="offbeat-td">Beat 2</td>
     </tr>
     <tr>
-      <th>２分音符</th>
+      <th>Half notes</th>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
+      <th>Strong/weak</th>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
     </tr>
   </tbody>
 </table>
 
-###### 💡実例＝2分音符弱拍先行あり
+###### 💡 Example = Half-Note Weak-Beat Precedence Present
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560">2分音符の弱拍先行＝あり #グルーヴは弱拍が先<a href="https://twitter.com/ats4u/status/1950904053028040845?ref_src=twsrc%5Etfw"></a></blockquote></div>
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
-      <td class="offbeat-td">２拍目</td>
-      <td>１拍目</td>
+      <th>Position</th>
+      <td class="offbeat-td">Beat 2</td>
+      <td>Beat 1</td>
     </tr>
     <tr>
-      <th>２分音符</th>
+      <th>Half notes</th>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <th>Strong/weak</th>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
     </tr>
   </tbody>
 </table>
 
 
-そして弱拍の先行は**常に複数の音価の上で同時に起こる**のです。
+And the precedence of weak beats **always occurs simultaneously across multiple note values.**
 
-##### 4分音符の場合
+##### In the Case of Quarter Notes
 
-前節で4分音符での弱拍先行のグラフを見ました。その4分音符弱拍先行のグラフの上にそれぞれの4分音符に対応する2分音符のグラフを重ねてみると興味深いことがわかるのです。
+In the previous section, we saw a graph of weak-beat precedence in quarter notes. If we superimpose on that graph the half-note graph corresponding to each quarter note, we can see something interesting.
 
-まず次のように4分音符がある状態をもう一度見てみます。
+First, let us once again look at the state in which there are quarter notes as follows.
 
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
-      <td>１拍目</td>
-      <td class="offbeat-td">２拍目</td>
-      <td>３拍目</td>
-      <td class="offbeat-td">４拍目</td>
+      <th>Position</th>
+      <td>Beat 1</td>
+      <td class="offbeat-td">Beat 2</td>
+      <td>Beat 3</td>
+      <td class="offbeat-td">Beat 4</td>
     </tr>
     <tr>
-      <th>4分音符</th>
+      <th>Quarter notes</th>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
+      <th>Strong/weak</th>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
     </tr>
   </tbody>
 </table>
 
-この4分音符が弱拍先行になると次の様になります。
+When these quarter notes are made into weak-beat precedence, they become as follows.
 
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
-      <td class="offbeat-td">４拍目</td>
-      <td>１拍目</td>
-      <td class="offbeat-td">２拍目</td>
-      <td>３拍目</td>
+      <th>Position</th>
+      <td class="offbeat-td">Beat 4</td>
+      <td>Beat 1</td>
+      <td class="offbeat-td">Beat 2</td>
+      <td>Beat 3</td>
     </tr>
     <tr>
-      <th>4分音符</th>
+      <th>Quarter notes</th>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <th>Strong/weak</th>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
     </tr>
   </tbody>
 </table>
 
-これで４分音符の弱拍が先行しました。
+With this, the weak beats of the quarter notes now precede.
 
-このことを譜面と音で確認してみましょう。
+Let us confirm this with notation and sound.
 
-###### 💡実例＝4分音符弱拍先行なし
+###### 💡 Example = Quarter-Note Weak-Beat Precedence Absent
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560">4分音符の弱拍先行＝なし 2分音符の弱拍先行＝なし #グルーヴは弱拍が先<a href="https://twitter.com/ats4u/status/1950904501377946028?ref_src=twsrc%5Etfw"></a></blockquote></div>
 
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
-      <td>１拍目</td>
-      <td class="offbeat-td">２拍目</td>
-      <td>３拍目</td>
-      <td class="offbeat-td">４拍目</td>
+      <th>Position</th>
+      <td>Beat 1</td>
+      <td class="offbeat-td">Beat 2</td>
+      <td>Beat 3</td>
+      <td class="offbeat-td">Beat 4</td>
     </tr>
     <tr>
-      <th>4分音符</th>
+      <th>Quarter notes</th>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
+      <th>Strong/weak</th>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
     </tr>
   </tbody>
 </table>
 
-###### 💡実例＝4分音符弱拍先行あり
+###### 💡 Example = Quarter-Note Weak-Beat Precedence Present
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560">4分音符の弱拍先行＝あり
 2分音符の弱拍先行＝なし
@@ -204,97 +204,49 @@
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
-      <td class="offbeat-td">４拍目</td>
-      <td>１拍目</td>
-      <td class="offbeat-td">２拍目</td>
-      <td>３拍目</td>
+      <th>Position</th>
+      <td class="offbeat-td">Beat 4</td>
+      <td>Beat 1</td>
+      <td class="offbeat-td">Beat 2</td>
+      <td>Beat 3</td>
     </tr>
     <tr>
-      <th>4分音符</th>
+      <th>Quarter notes</th>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <th>Strong/weak</th>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
     </tr>
   </tbody>
 </table>
 
-##### 4分音符での<ruby>多層弱拍先行<rt>グルーヴ</rt></ruby>
+##### Multi-Layered Weak-Beat Precedence in Quarter Notes
 
-しかし４分音符の弱拍先行だけでは、完全な横乗りリズムにはなりません。上に対応する2分音符のグラフを重ねてみると、２分音符で見たときには依然として強拍が先行していることがわかります。次のグラフを御覧下さい。
-
-<table class="offbeat-onbeat-table">
-  <tbody>
-    <tr>
-      <th>位置</th>
-      <td>１拍目</td>
-      <td class="offbeat-td">２拍目</td>
-    </tr>
-    <tr>
-      <th>2分音符</th>
-      <td>◯</td>
-      <td class="offbeat-td">◯</td>
-    </tr>
-    <tr>
-      <th>強弱</th>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-    </tr>
-  </tbody>
-</table>
+However, weak-beat precedence in quarter notes alone does not yet make a complete yokonori rhythm. If we superimpose the corresponding half-note graph above it, we can see that, when viewed in half notes, strong beats still precede. Please look at the following graph.
 
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
-      <td class="offbeat-td">４拍目</td>
-      <td>１拍目</td>
-      <td class="offbeat-td">２拍目</td>
-      <td>３拍目</td>
+      <th>Position</th>
+      <td>Beat 1</td>
+      <td class="offbeat-td">Beat 2</td>
     </tr>
     <tr>
-      <th>4分音符</th>
-      <td class="offbeat-td">◯</td>
+      <th>Half notes</th>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
-      <td>◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-    </tr>
-  </tbody>
-</table>
-
-４分音符で弱拍を倒置しても、２分音符で見ると依然として強拍が先になっていることがわかります ここで２分音符に関しても弱拍の倒置を起こしたらどうなるでしょうか。
-
-<table class="offbeat-onbeat-table">
-  <tbody>
-    <tr>
-      <th>位置</th>
-      <td class="offbeat-td">２拍目</td>
-      <td>１拍目</td>
-    </tr>
-    <tr>
-      <th>2分音符</th>
-      <td class="offbeat-td">◯</td>
-      <td>◯</td>
-    </tr>
-    <tr>
-      <th>強弱</th>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <th>Strong/weak</th>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
     </tr>
   </tbody>
 </table>
@@ -302,34 +254,82 @@
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
-      <td class="offbeat-td">２拍目</td>
-      <td>３拍目</td>
-      <td class="offbeat-td">４拍目</td>
-      <td>１拍目</td>
+      <th>Position</th>
+      <td class="offbeat-td">Beat 4</td>
+      <td>Beat 1</td>
+      <td class="offbeat-td">Beat 2</td>
+      <td>Beat 3</td>
     </tr>
     <tr>
-      <th>4分音符</th>
+      <th>Quarter notes</th>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <th>Strong/weak</th>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
     </tr>
   </tbody>
 </table>
 
-4分音符の順番がまる一周回転した状態になりました。このリズムを２３４１リズムと呼びます。これがいわゆる**横乗りリズム**の世界の数の数え方です。横乗りリズムの世界では4分音符の順序が小節内を回転し完全に一周回って１が終了地点に来る状態になっています。
+Even if the weak beats are inverted in quarter notes, when viewed in half notes the strong beats still come first. What would happen if we also caused this inversion of weak beats in half notes?
 
-このことを譜面と音で確認してみましょう。
+<table class="offbeat-onbeat-table">
+  <tbody>
+    <tr>
+      <th>Position</th>
+      <td class="offbeat-td">Beat 2</td>
+      <td>Beat 1</td>
+    </tr>
+    <tr>
+      <th>Half notes</th>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+    </tr>
+    <tr>
+      <th>Strong/weak</th>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+    </tr>
+  </tbody>
+</table>
 
-###### 💡実例＝弱拍先行→4分音符あり２分音符なし
+<table class="offbeat-onbeat-table">
+  <tbody>
+    <tr>
+      <th>Position</th>
+      <td class="offbeat-td">Beat 2</td>
+      <td>Beat 3</td>
+      <td class="offbeat-td">Beat 4</td>
+      <td>Beat 1</td>
+    </tr>
+    <tr>
+      <th>Quarter notes</th>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+    </tr>
+    <tr>
+      <th>Strong/weak</th>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+    </tr>
+  </tbody>
+</table>
+
+The order of the quarter notes has completed a full rotation. This rhythm is called **2341 rhythm**. This is the way numbers are counted in the world of **yokonori rhythm**. In the world of yokonori rhythm, the order of quarter notes rotates within the measure and completes a full cycle so that 1 comes at the ending point.
+
+Let us confirm this with notation and sound.
+
+###### 💡 Example = Quarter-Note Weak-Beat Precedence Present, Half-Note Weak-Beat Precedence Absent
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560">4分音符の弱拍先行＝あり
 2分音符の弱拍先行＝なし
@@ -339,19 +339,19 @@
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
-      <td>１拍目</td>
-      <td class="offbeat-td">２拍目</td>
+      <th>Position</th>
+      <td>Beat 1</td>
+      <td class="offbeat-td">Beat 2</td>
     </tr>
     <tr>
-      <th>2分音符</th>
+      <th>Half notes</th>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
+      <th>Strong/weak</th>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
     </tr>
   </tbody>
 </table>
@@ -359,30 +359,30 @@
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
-      <td class="offbeat-td">４拍目</td>
-      <td>１拍目</td>
-      <td class="offbeat-td">２拍目</td>
-      <td>３拍目</td>
+      <th>Position</th>
+      <td class="offbeat-td">Beat 4</td>
+      <td>Beat 1</td>
+      <td class="offbeat-td">Beat 2</td>
+      <td>Beat 3</td>
     </tr>
     <tr>
-      <th>4分音符</th>
+      <th>Quarter notes</th>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <th>Strong/weak</th>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
     </tr>
   </tbody>
 </table>
 
-###### 💡実例＝弱拍先行→4分音符あり＆２分音符あり
+###### 💡 Example = Quarter-Note Weak-Beat Precedence Present, Half-Note Weak-Beat Precedence Present
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560">4分音符の弱拍先行＝あり
 2分音符の弱拍先行＝あり
@@ -391,19 +391,19 @@
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
-      <td class="offbeat-td">２拍目</td>
-      <td>１拍目</td>
+      <th>Position</th>
+      <td class="offbeat-td">Beat 2</td>
+      <td>Beat 1</td>
     </tr>
     <tr>
-      <th>2分音符</th>
+      <th>Half notes</th>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <th>Strong/weak</th>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
     </tr>
   </tbody>
 </table>
@@ -411,66 +411,66 @@
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
-      <td class="offbeat-td">２拍目</td>
-      <td>３拍目</td>
-      <td class="offbeat-td">４拍目</td>
-      <td>１拍目</td>
+      <th>Position</th>
+      <td class="offbeat-td">Beat 2</td>
+      <td>Beat 3</td>
+      <td class="offbeat-td">Beat 4</td>
+      <td>Beat 1</td>
     </tr>
     <tr>
-      <th>4分音符</th>
+      <th>Quarter notes</th>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <th>Strong/weak</th>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
     </tr>
   </tbody>
 </table>
 
-###### まとめ４分音符での尻合わせリズム
+###### Summary: Tail-Alignment Rhythm in Quarter Notes
 
-この様に、**全ての音価で弱拍が先行すると結果として、全ての音価の音符の序数の列は、必ず１が最後に来る様に回転します。これが弱拍先行で尻合わせが構成されるメカニズムです。これが２３４１リズムが出来上がるメカニズムです。**
+In this way, **when weak beats precede at all note values, the ordinal sequences of notes at all note values rotate so that 1 always comes last. This is the mechanism by which weak-beat precedence constructs tail alignment. This is the mechanism by which 2341 rhythm is produced.**
 
-１から始まるリズムは、弱拍が先行することにより、１で終わるリズムへと形を変えるのです。  この始まる場所が不定で１で終わるリズムのことを**尻合わせリズム**と呼びます。これに対して１で始まり終わりがないリズムのことを**頭合わせリズム**と呼びます。
+A rhythm that begins with 1 changes, by the precedence of weak beats, into a rhythm that ends with 1. This rhythm, whose starting point is indeterminate and which ends with 1, is called **tail-alignment rhythm**. In contrast, a rhythm that begins with 1 and has no ending is called **head-alignment rhythm**.
 
-- 1 〜 n の拍が存在した時
-  -  **1** で始まり **n** で終わる順序で演奏される→ **頭合わせ**
-  -  **2** で始まり **1** で終わる順序で演奏される→ **尻合わせ**
+- When beats 1 to n exist
+  - Played in the order beginning with **1** and ending with **n** -> **head alignment**
+  - Played in the order beginning with **2** and ending with **1** -> **tail alignment**
 
-この様にすると2分音符4分音符だけでなく、全音符／2全音符を含む考えうる全ての音符でこの現象が起こります。次に8分音符で見てみましょう。
+When understood in this way, this phenomenon occurs not only in half notes and quarter notes but in all conceivable note values, including whole notes and double whole notes. Next, let us look at eighth notes.
 
-##### ８分音符での<ruby>多層弱拍先行<rt>グルーヴ</rt></ruby>
+##### Multi-Layered Weak-Beat Precedence in Eighth Notes
 
-8分音符で弱拍先行を考えた場合も、4分音符で考えた場合と同様に、最小の音価で弱拍が先行すると
+When we think about weak-beat precedence in eighth notes, just as in the case of quarter notes, if weak beats precede at the smallest note value, it becomes as follows.
 
-次のように８分音符が８つ並んでいる場合を考えてみます。
+Consider the case in which eight eighth notes are arranged as follows.
 
-###### 💡実例＝弱拍先行→8分音符なし
+###### 💡 Example = Eighth-Note Weak-Beat Precedence Absent
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">8分音符の弱拍先行＝なし<br>4分音符の弱拍先行＝なし<a href="https://twitter.com/hashtag/%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%B4%E3%81%AF%E5%BC%B1%E6%8B%8D%E3%81%8C%E5%85%88?src=hash&amp;ref_src=twsrc%5Etfw">#グルーヴは弱拍が先</a> <a href="https://t.co/ASYOxNChGr">pic.twitter.com/ASYOxNChGr</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1950905132335747545?ref_src=twsrc%5Etfw">July 31, 2025</a></blockquote></div>
 
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
-      <td>1拍目</td>
-      <td class="offbeat-td">2拍目</td>
-      <td>3拍目</td>
-      <td class="offbeat-td">4拍目</td>
-      <td>5拍目</td>
-      <td class="offbeat-td">6拍目</td>
-      <td>7拍目</td>
-      <td class="offbeat-td">8拍目</td>
+      <th>Position</th>
+      <td>1</td>
+      <td class="offbeat-td">2</td>
+      <td>3</td>
+      <td class="offbeat-td">4</td>
+      <td>5</td>
+      <td class="offbeat-td">6</td>
+      <td>7</td>
+      <td class="offbeat-td">8</td>
     </tr>
     <tr>
-      <th>8分音符</th>
+      <th>Eighth notes</th>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
@@ -481,41 +481,41 @@
       <td class="offbeat-td">◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
+      <th>Strong/weak</th>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
     </tr>
   </tbody>
 </table>
 
 
-これを８分音符の弱拍を先行する形に並べ替えてみます。すると以下の様になります。
+Let us rearrange these so that the weak beats of the eighth notes come first. It then becomes as follows.
 
-###### 💡実例＝弱拍先行→8分音符あり
+###### 💡 Example = Eighth-Note Weak-Beat Precedence Present
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">８分音符先行＝あり <a href="https://twitter.com/hashtag/%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%B4%E3%81%AF%E5%BC%B1%E6%8B%8D%E3%81%8C%E5%85%88?src=hash&amp;ref_src=twsrc%5Etfw">#グルーヴは弱拍が先</a> <a href="https://t.co/oHAMPjSVv9">pic.twitter.com/oHAMPjSVv9</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1951194208930521147?ref_src=twsrc%5Etfw">August 1, 2025</a></blockquote></div>
 
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
-      <td class="offbeat-td">8拍目</td>
-      <td>1拍目</td>
-      <td class="offbeat-td">2拍目</td>
-      <td>3拍目</td>
-      <td class="offbeat-td">4拍目</td>
-      <td>5拍目</td>
-      <td class="offbeat-td">6拍目</td>
-      <td>7拍目</td>
+      <th>Position</th>
+      <td class="offbeat-td">8</td>
+      <td>1</td>
+      <td class="offbeat-td">2</td>
+      <td>3</td>
+      <td class="offbeat-td">4</td>
+      <td>5</td>
+      <td class="offbeat-td">6</td>
+      <td>7</td>
     </tr>
     <tr>
-      <th>8分音符</th>
+      <th>Eighth notes</th>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
@@ -526,47 +526,47 @@
       <td>◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <th>Strong/weak</th>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
     </tr>
   </tbody>
 </table>
 
-これで弱拍が先行した形になりました。 しかし４分音符を重ねてみると違った様相が見えてきます。
+Now the weak beats precede. However, if we superimpose quarter notes, a different aspect becomes visible.
 
-###### 💡実例＝弱拍先行→8分音符あり４分音符なし
+###### 💡 Example = Eighth-Note Weak-Beat Precedence Present, Quarter-Note Weak-Beat Precedence Absent
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">8分音符の弱拍先行＝あり<br>4分音符の弱拍先行＝なし<a href="https://twitter.com/hashtag/%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%B4%E3%81%AF%E5%BC%B1%E6%8B%8D%E3%81%8C%E5%85%88?src=hash&amp;ref_src=twsrc%5Etfw">#グルーヴは弱拍が先</a> <a href="https://t.co/iiSAX6NKMm">pic.twitter.com/iiSAX6NKMm</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1950905516039037201?ref_src=twsrc%5Etfw">July 31, 2025</a></blockquote></div>
 
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
-      <td>１拍目</td>
-      <td class="offbeat-td">２拍目</td>
-      <td>３拍目</td>
-      <td class="offbeat-td">４拍目</td>
+      <th>Position</th>
+      <td>Beat 1</td>
+      <td class="offbeat-td">Beat 2</td>
+      <td>Beat 3</td>
+      <td class="offbeat-td">Beat 4</td>
     </tr>
     <tr>
-      <th>4分音符</th>
+      <th>Quarter notes</th>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
+      <th>Strong/weak</th>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
     </tr>
   </tbody>
 </table>
@@ -574,18 +574,18 @@
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
-      <td class="offbeat-td">8拍目</td>
-      <td>1拍目</td>
-      <td class="offbeat-td">2拍目</td>
-      <td>3拍目</td>
-      <td class="offbeat-td">4拍目</td>
-      <td>5拍目</td>
-      <td class="offbeat-td">6拍目</td>
-      <td>7拍目</td>
+      <th>Position</th>
+      <td class="offbeat-td">8</td>
+      <td>1</td>
+      <td class="offbeat-td">2</td>
+      <td>3</td>
+      <td class="offbeat-td">4</td>
+      <td>5</td>
+      <td class="offbeat-td">6</td>
+      <td>7</td>
     </tr>
     <tr>
-      <th>8分音符</th>
+      <th>Eighth notes</th>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
@@ -596,47 +596,47 @@
       <td>◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <th>Strong/weak</th>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
     </tr>
   </tbody>
 </table>
 
-こうしてみてみると、4分音符は依然として強拍先行になっていることがわかります。 つまり4分音符として見たときでも弱拍先行にしなければ、全ての音価で弱拍先行になっていないと言えます。 次に4分音符に関しても弱拍が先行する様に変えたものを見てみましょう。
+When we look at it this way, we can see that the quarter notes are still in strong-beat precedence. In other words, unless they are also made weak-beat precedence when viewed as quarter notes, it cannot be said that weak-beat precedence holds at all note values. Next, let us look at a version in which the weak beats are also arranged to precede in quarter notes.
 
-###### 💡実例＝弱拍先行→8分音符あり４分音符あり
+###### 💡 Example = Eighth-Note Weak-Beat Precedence Present, Quarter-Note Weak-Beat Precedence Present
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">8分音符の弱拍先行＝あり<br>4分音符の弱拍先行＝あり<a href="https://twitter.com/hashtag/%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%B4%E3%81%AF%E5%BC%B1%E6%8B%8D%E3%81%8C%E5%85%88?src=hash&amp;ref_src=twsrc%5Etfw">#グルーヴは弱拍が先</a> <a href="https://t.co/BFqRR2dANP">pic.twitter.com/BFqRR2dANP</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1950905618157744183?ref_src=twsrc%5Etfw">July 31, 2025</a></blockquote></div>
 
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
-      <td class="offbeat-td">４拍目</td>
-      <td>１拍目</td>
-      <td class="offbeat-td">２拍目</td>
-      <td>３拍目</td>
+      <th>Position</th>
+      <td class="offbeat-td">Beat 4</td>
+      <td>Beat 1</td>
+      <td class="offbeat-td">Beat 2</td>
+      <td>Beat 3</td>
     </tr>
     <tr>
-      <th>4分音符</th>
+      <th>Quarter notes</th>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <th>Strong/weak</th>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
     </tr>
   </tbody>
 </table>
@@ -644,18 +644,18 @@
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
-      <td class="offbeat-td">6拍目</td>
-      <td>7拍目</td>
-      <td class="offbeat-td">8拍目</td>
-      <td>1拍目</td>
-      <td class="offbeat-td">2拍目</td>
-      <td>3拍目</td>
-      <td class="offbeat-td">4拍目</td>
-      <td>5拍目</td>
+      <th>Position</th>
+      <td class="offbeat-td">6</td>
+      <td>7</td>
+      <td class="offbeat-td">8</td>
+      <td>1</td>
+      <td class="offbeat-td">2</td>
+      <td>3</td>
+      <td class="offbeat-td">4</td>
+      <td>5</td>
     </tr>
     <tr>
-      <th>8分音符</th>
+      <th>Eighth notes</th>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
@@ -666,41 +666,41 @@
       <td>◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <th>Strong/weak</th>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
     </tr>
   </tbody>
 </table>
 
-これで4分音符も弱拍先行になりました。しかしこれも再度2分音符を重ねると、実はこれもまだ強拍先行になっていることがわかります。
+Now the quarter notes too have become weak-beat precedence. However, if we again superimpose half notes, we can see that these too are in fact still strong-beat precedence.
 
-###### 💡実例＝弱拍先行→8分音符あり４分音符あり2分音符なし
+###### 💡 Example = Eighth-Note Weak-Beat Precedence Present, Quarter-Note Weak-Beat Precedence Present, Half-Note Weak-Beat Precedence Absent
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">8分音符先行＝あり<br>4分音符先行＝あり<br>2分音符先行＝なし<a href="https://twitter.com/hashtag/%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%B4%E3%81%AF%E5%BC%B1%E6%8B%8D%E3%81%8C%E5%85%88?src=hash&amp;ref_src=twsrc%5Etfw">#グルーヴは弱拍が先</a> <a href="https://t.co/Ls3K4Mrst3">pic.twitter.com/Ls3K4Mrst3</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1951207274044678563?ref_src=twsrc%5Etfw">August 1, 2025</a></blockquote></div>
 
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
-      <td>１拍目</td>
-      <td class="offbeat-td">２拍目</td>
+      <th>Position</th>
+      <td>Beat 1</td>
+      <td class="offbeat-td">Beat 2</td>
     </tr>
     <tr>
-      <th>2分音符</th>
+      <th>Half notes</th>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
+      <th>Strong/weak</th>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
     </tr>
   </tbody>
 </table>
@@ -708,25 +708,25 @@
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
-      <td class="offbeat-td">４拍目</td>
-      <td>１拍目</td>
-      <td class="offbeat-td">２拍目</td>
-      <td>３拍目</td>
+      <th>Position</th>
+      <td class="offbeat-td">Beat 4</td>
+      <td>Beat 1</td>
+      <td class="offbeat-td">Beat 2</td>
+      <td>Beat 3</td>
     </tr>
     <tr>
-      <th>4分音符</th>
+      <th>Quarter notes</th>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <th>Strong/weak</th>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
     </tr>
   </tbody>
 </table>
@@ -734,18 +734,18 @@
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
-      <td class="offbeat-td">6拍目</td>
-      <td>7拍目</td>
-      <td class="offbeat-td">8拍目</td>
-      <td>1拍目</td>
-      <td class="offbeat-td">2拍目</td>
-      <td>3拍目</td>
-      <td class="offbeat-td">4拍目</td>
-      <td>5拍目</td>
+      <th>Position</th>
+      <td class="offbeat-td">6</td>
+      <td>7</td>
+      <td class="offbeat-td">8</td>
+      <td>1</td>
+      <td class="offbeat-td">2</td>
+      <td>3</td>
+      <td class="offbeat-td">4</td>
+      <td>5</td>
     </tr>
     <tr>
-      <th>8分音符</th>
+      <th>Eighth notes</th>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
@@ -756,41 +756,41 @@
       <td>◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <th>Strong/weak</th>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
     </tr>
   </tbody>
 </table>
 
-ここで2分音符も先行するように並べ替えてみます。
+Here, let us also rearrange the half notes so that their weak beats precede.
 
-###### 💡実例＝弱拍先行→8分音符あり４分音符あり2分音符あり
+###### 💡 Example = Eighth-Note Weak-Beat Precedence Present, Quarter-Note Weak-Beat Precedence Present, Half-Note Weak-Beat Precedence Present
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">8分音符の弱拍先行＝あり<br>4分音符の弱拍先行＝あり<br>2分音符の弱拍先行＝あり<a href="https://twitter.com/hashtag/%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%B4%E3%81%AF%E5%BC%B1%E6%8B%8D%E3%81%8C%E5%85%88?src=hash&amp;ref_src=twsrc%5Etfw">#グルーヴは弱拍が先</a> <a href="https://t.co/DLIJh2aeHC">pic.twitter.com/DLIJh2aeHC</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1950906937073434775?ref_src=twsrc%5Etfw">July 31, 2025</a></blockquote></div>
 
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
-      <td class="offbeat-td">２拍目</td>
-      <td>１拍目</td>
+      <th>Position</th>
+      <td class="offbeat-td">Beat 2</td>
+      <td>Beat 1</td>
     </tr>
     <tr>
-      <th>2分音符</th>
+      <th>Half notes</th>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <th>Strong/weak</th>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
     </tr>
   </tbody>
 </table>
@@ -798,25 +798,25 @@
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
-      <td class="offbeat-td">２拍目</td>
-      <td>３拍目</td>
-      <td class="offbeat-td">４拍目</td>
-      <td>１拍目</td>
+      <th>Position</th>
+      <td class="offbeat-td">Beat 2</td>
+      <td>Beat 3</td>
+      <td class="offbeat-td">Beat 4</td>
+      <td>Beat 1</td>
     </tr>
     <tr>
-      <th>4分音符</th>
+      <th>Quarter notes</th>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <th>Strong/weak</th>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
     </tr>
   </tbody>
 </table>
@@ -824,18 +824,18 @@
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
-      <td class="offbeat-td">2拍目</td>
-      <td>3拍目</td>
-      <td class="offbeat-td">4拍目</td>
-      <td>5拍目</td>
-      <td class="offbeat-td">6拍目</td>
-      <td>7拍目</td>
-      <td class="offbeat-td">8拍目</td>
-      <td>1拍目</td>
+      <th>Position</th>
+      <td class="offbeat-td">2</td>
+      <td>3</td>
+      <td class="offbeat-td">4</td>
+      <td>5</td>
+      <td class="offbeat-td">6</td>
+      <td>7</td>
+      <td class="offbeat-td">8</td>
+      <td>1</td>
     </tr>
     <tr>
-      <th>8分音符</th>
+      <th>Eighth notes</th>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
@@ -846,40 +846,40 @@
       <td>◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <th>Strong/weak</th>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
     </tr>
   </tbody>
 </table>
 
-###### まとめ8分音符での尻合わせリズム
+###### Summary: Tail-Alignment Rhythm in Eighth Notes
 
-これで小節内の全ての音価が弱拍先行になりました。すると最初12345678と並んでいた8分音符が23456781という様に１が最後に来るように並び替わったことがわかります。 これが**23456781リズム**です。 これがいわゆる**横乗りリズム**の世界での8分音符の数え方です。この世界でも、8分音符の順番が小節中を回転し完全に一周回って１が終了地点に来る状態になったのです。
+Now all note values within the measure have become weak-beat precedence. As a result, we can see that the eighth notes that had originally been arranged as 12345678 are rearranged so that 1 comes last, as 23456781. This is **23456781 rhythm**. This is the way eighth notes are counted in the world of **yokonori rhythm**. In this world too, the order of eighth notes rotates within the measure and completes a full cycle so that 1 comes at the ending point.
 
-この様に、**全ての音価で弱拍が先行すると結果として、全ての音価の音符の序数の列は、必ず１が最後に来る様に回転します。これが弱拍先行で尻合わせが構成されるメカニズムです。これが23456781リズムが出来上がるメカニズムです。**
+In this way, **when weak beats precede at all note values, the ordinal sequences of notes at all note values rotate so that 1 always comes last. This is the mechanism by which weak-beat precedence constructs tail alignment. This is the mechanism by which 23456781 rhythm is produced.**
 
 
-##### 16分音符での<ruby>多層弱拍先行<rt>グルーヴ</rt></ruby>
+##### Multi-Layered Weak-Beat Precedence in Sixteenth Notes
 
-16分音符でも8分音符・4分音符・2分音符と全く同じ事が言えます。
+Exactly the same thing can be said for sixteenth notes as for eighth notes, quarter notes, and half notes.
 
-###### 💡実例＝弱拍先行→ 全音価でなし
+###### 💡 Example = No Weak-Beat Precedence at Any Note Value
 
- まず次の様に16分音符が並んでいた時を考えてみます。
+First, let us consider the case in which sixteenth notes are arranged as follows.
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">16分音符先行＝なし<br>8分音符先行＝なし<br>4分音符先行＝なし<a href="https://twitter.com/hashtag/%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%B4%E3%81%AF%E5%BC%B1%E6%8B%8D%E3%81%8C%E5%85%88?src=hash&amp;ref_src=twsrc%5Etfw">#グルーヴは弱拍が先</a> <a href="https://t.co/FoCovKTkMf">pic.twitter.com/FoCovKTkMf</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1951234518276247845?ref_src=twsrc%5Etfw">August 1, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> </div>
 
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
+      <th>Position</th>
       <td>1</td>
       <td class="offbeat-td">2</td>
       <td>3</td>
@@ -898,7 +898,7 @@
       <td class="offbeat-td">16</td>
     </tr>
     <tr>
-      <th>16分音符</th>
+      <th>Sixteenth notes</th>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
@@ -917,37 +917,37 @@
       <td class="offbeat-td">◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
+      <th>Strong/weak</th>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
     </tr>
   </tbody>
 </table>
 
-これを16分音符に注目しながら弱拍先行に並べ替えてみます。
+Let us rearrange these while focusing on the sixteenth notes so that they become weak-beat precedence.
 
-###### 💡実例＝16分音符弱拍先行あり
+###### 💡 Example = Sixteenth-Note Weak-Beat Precedence Present
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">16分音符先行＝あり<br>8分音符先行＝なし<br>4分音符先行＝なし<a href="https://twitter.com/hashtag/%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%B4%E3%81%AF%E5%BC%B1%E6%8B%8D%E3%81%8C%E5%85%88?src=hash&amp;ref_src=twsrc%5Etfw">#グルーヴは弱拍が先</a> <a href="https://t.co/aKsMKJEqCf">pic.twitter.com/aKsMKJEqCf</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1951234688900895125?ref_src=twsrc%5Etfw">August 1, 2025</a></blockquote></div>
 
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
+      <th>Position</th>
       <td class="offbeat-td">16</td>
       <td>1</td>
       <td class="offbeat-td">2</td>
@@ -966,7 +966,7 @@
       <td>15</td>
     </tr>
     <tr>
-      <th>16分音符</th>
+      <th>Sixteenth notes</th>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
@@ -985,48 +985,48 @@
       <td>◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <th>Strong/weak</th>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
     </tr>
   </tbody>
 </table>
 
-###### 💡実例＝弱拍先行16分音符あり8分音符なし
+###### 💡 Example = Sixteenth-Note Weak-Beat Precedence Present, Eighth-Note Weak-Beat Precedence Absent
 
-しかしこの場合も16分音符よりも1層大きな音価である8分音符から見ると、同様に実はまだ8分音符では強拍先行になっていることがわかります。
+However, in this case too, if we look from the perspective of the eighth notes, which are one layer larger in note value than the sixteenth notes, we can see that in fact the eighth notes are still in strong-beat precedence.
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">16分音符先行＝あり<br>8分音符先行＝なし<br>4分音符先行＝なし<a href="https://twitter.com/hashtag/%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%B4%E3%81%AF%E5%BC%B1%E6%8B%8D%E3%81%8C%E5%85%88?src=hash&amp;ref_src=twsrc%5Etfw">#グルーヴは弱拍が先</a> <a href="https://t.co/aKsMKJEqCf">pic.twitter.com/aKsMKJEqCf</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1951234688900895125?ref_src=twsrc%5Etfw">August 1, 2025</a></blockquote></div>
 
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
-      <td>1拍目</td>
-      <td class="offbeat-td">2拍目</td>
-      <td>3拍目</td>
-      <td class="offbeat-td">4拍目</td>
-      <td>5拍目</td>
-      <td class="offbeat-td">6拍目</td>
-      <td>7拍目</td>
-      <td class="offbeat-td">8拍目</td>
+      <th>Position</th>
+      <td>1</td>
+      <td class="offbeat-td">2</td>
+      <td>3</td>
+      <td class="offbeat-td">4</td>
+      <td>5</td>
+      <td class="offbeat-td">6</td>
+      <td>7</td>
+      <td class="offbeat-td">8</td>
     </tr>
     <tr>
-      <th>8分音符</th>
+      <th>Eighth notes</th>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
@@ -1037,15 +1037,15 @@
       <td class="offbeat-td">◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
+      <th>Strong/weak</th>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
     </tr>
   </tbody>
 </table>
@@ -1053,7 +1053,7 @@
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
+      <th>Position</th>
       <td class="offbeat-td">16</td>
       <td>1</td>
       <td class="offbeat-td">2</td>
@@ -1072,7 +1072,7 @@
       <td>15</td>
     </tr>
     <tr>
-      <th>16分音符</th>
+      <th>Sixteenth notes</th>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
@@ -1091,48 +1091,48 @@
       <td>◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <th>Strong/weak</th>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
     </tr>
   </tbody>
 </table>
 
-###### 💡実例＝弱拍先行16分音符あり8分音符あり
+###### 💡 Example = Sixteenth-Note Weak-Beat Precedence Present, Eighth-Note Weak-Beat Precedence Present
 
-これも4分音符でやった時と同じ様に、8分音符弱拍先行で並べ替えてみます。
+As with the quarter-note case, let us rearrange these in eighth-note weak-beat precedence.
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">16分音符先行＝あり<br>8分音符先行＝あり<br>4分音符先行＝なし<a href="https://twitter.com/hashtag/%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%B4%E3%81%AF%E5%BC%B1%E6%8B%8D%E3%81%8C%E5%85%88?src=hash&amp;ref_src=twsrc%5Etfw">#グルーヴは弱拍が先</a> <a href="https://t.co/PVU4PZNGTG">pic.twitter.com/PVU4PZNGTG</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1951234864889352344?ref_src=twsrc%5Etfw">August 1, 2025</a></blockquote></div>
 
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
-      <td class="offbeat-td">8拍目</td>
-      <td>1拍目</td>
-      <td class="offbeat-td">2拍目</td>
-      <td>3拍目</td>
-      <td class="offbeat-td">4拍目</td>
-      <td>5拍目</td>
-      <td class="offbeat-td">6拍目</td>
-      <td>7拍目</td>
+      <th>Position</th>
+      <td class="offbeat-td">8</td>
+      <td>1</td>
+      <td class="offbeat-td">2</td>
+      <td>3</td>
+      <td class="offbeat-td">4</td>
+      <td>5</td>
+      <td class="offbeat-td">6</td>
+      <td>7</td>
     </tr>
     <tr>
-      <th>8分音符</th>
+      <th>Eighth notes</th>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
@@ -1143,15 +1143,15 @@
       <td>◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <th>Strong/weak</th>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
     </tr>
   </tbody>
 </table>
@@ -1159,7 +1159,7 @@
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
+      <th>Position</th>
       <td class="offbeat-td">14</td>
       <td>15</td>
       <td class="offbeat-td">16</td>
@@ -1178,7 +1178,7 @@
       <td>13</td>
     </tr>
     <tr>
-      <th>16分音符</th>
+      <th>Sixteenth notes</th>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
@@ -1197,56 +1197,56 @@
       <td>◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <th>Strong/weak</th>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
     </tr>
   </tbody>
 </table>
 
-###### 💡実例＝弱拍先行16分音符あり8分音符あり4分音符なし
-これで8分音符・16分音符共に弱拍先行になりました。
+###### 💡 Example = Sixteenth-Note Weak-Beat Precedence Present, Eighth-Note Weak-Beat Precedence Present, Quarter-Note Weak-Beat Precedence Absent
+Now both the eighth notes and the sixteenth notes have become weak-beat precedence.
 
-しかしこれも4分音符の世界から見ると強拍先行になっていることがわかります。
+However, when viewed from the world of quarter notes, we can see that they are still in strong-beat precedence.
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">16分音符先行＝あり<br>8分音符先行＝あり<br>4分音符先行＝なし<a href="https://twitter.com/hashtag/%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%B4%E3%81%AF%E5%BC%B1%E6%8B%8D%E3%81%8C%E5%85%88?src=hash&amp;ref_src=twsrc%5Etfw">#グルーヴは弱拍が先</a> <a href="https://t.co/PVU4PZNGTG">pic.twitter.com/PVU4PZNGTG</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1951234864889352344?ref_src=twsrc%5Etfw">August 1, 2025</a></blockquote></div>
 
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
-      <td>１拍目</td>
-      <td class="offbeat-td">２拍目</td>
-      <td>３拍目</td>
-      <td class="offbeat-td">４拍目</td>
+      <th>Position</th>
+      <td>Beat 1</td>
+      <td class="offbeat-td">Beat 2</td>
+      <td>Beat 3</td>
+      <td class="offbeat-td">Beat 4</td>
     </tr>
     <tr>
-      <th>4分音符</th>
+      <th>Quarter notes</th>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
+      <th>Strong/weak</th>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
     </tr>
   </tbody>
 </table>
@@ -1255,18 +1255,18 @@
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
-      <td class="offbeat-td">8拍目</td>
-      <td>1拍目</td>
-      <td class="offbeat-td">2拍目</td>
-      <td>3拍目</td>
-      <td class="offbeat-td">4拍目</td>
-      <td>5拍目</td>
-      <td class="offbeat-td">6拍目</td>
-      <td>7拍目</td>
+      <th>Position</th>
+      <td class="offbeat-td">8</td>
+      <td>1</td>
+      <td class="offbeat-td">2</td>
+      <td>3</td>
+      <td class="offbeat-td">4</td>
+      <td>5</td>
+      <td class="offbeat-td">6</td>
+      <td>7</td>
     </tr>
     <tr>
-      <th>8分音符</th>
+      <th>Eighth notes</th>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
@@ -1277,15 +1277,15 @@
       <td>◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <th>Strong/weak</th>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
     </tr>
   </tbody>
 </table>
@@ -1293,7 +1293,7 @@
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
+      <th>Position</th>
       <td class="offbeat-td">14</td>
       <td>15</td>
       <td class="offbeat-td">16</td>
@@ -1312,7 +1312,7 @@
       <td>13</td>
     </tr>
     <tr>
-      <th>16分音符</th>
+      <th>Sixteenth notes</th>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
@@ -1331,93 +1331,55 @@
       <td>◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <th>Strong/weak</th>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
     </tr>
   </tbody>
 </table>
 
-###### 💡実例＝弱拍先行16分音符あり8分音符あり4分音符あり
+###### 💡 Example = Sixteenth-Note Weak-Beat Precedence Present, Eighth-Note Weak-Beat Precedence Present, Quarter-Note Weak-Beat Precedence Present
 
- 8分音符16分音符で見た時に弱拍先行になっていても、4分音符では強拍先行になっていることがわかります。 そこで4分音符も弱拍先行として並べ替えてみます。
+Even though they are in weak-beat precedence when viewed in eighth notes and sixteenth notes, we can see that they are in strong-beat precedence in quarter notes. So let us also rearrange the quarter notes as weak-beat precedence.
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">16分音符の弱拍先行＝あり<br>8分音符の弱拍先行＝あり<br>4分音符の弱拍先行＝あり<a href="https://twitter.com/hashtag/%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%B4%E3%81%AF%E5%BC%B1%E6%8B%8D%E3%81%8C%E5%85%88?src=hash&amp;ref_src=twsrc%5Etfw">#グルーヴは弱拍が先</a> <a href="https://t.co/Sn26EvIqtp">pic.twitter.com/Sn26EvIqtp</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1950907402611732797?ref_src=twsrc%5Etfw">July 31, 2025</a></blockquote> </div>
 
  <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
-      <td class="offbeat-td">４拍目</td>
-      <td>１拍目</td>
-      <td class="offbeat-td">２拍目</td>
-      <td>３拍目</td>
+      <th>Position</th>
+      <td class="offbeat-td">Beat 4</td>
+      <td>Beat 1</td>
+      <td class="offbeat-td">Beat 2</td>
+      <td>Beat 3</td>
     </tr>
     <tr>
-      <th>4分音符</th>
-      <td class="offbeat-td">◯</td>
-      <td>◯</td>
-      <td class="offbeat-td">◯</td>
-      <td>◯</td>
-    </tr>
-    <tr>
-      <th>強弱</th>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-    </tr>
-  </tbody>
-</table>
-
-<table class="offbeat-onbeat-table">
-  <tbody>
-    <tr>
-      <th>位置</th>
-      <td class="offbeat-td">6拍目</td>
-      <td>7拍目</td>
-      <td class="offbeat-td">8拍目</td>
-      <td>1拍目</td>
-      <td class="offbeat-td">2拍目</td>
-      <td>3拍目</td>
-      <td class="offbeat-td">4拍目</td>
-      <td>5拍目</td>
-    </tr>
-    <tr>
-      <th>8分音符</th>
-      <td class="offbeat-td">◯</td>
-      <td>◯</td>
-      <td class="offbeat-td">◯</td>
-      <td>◯</td>
+      <th>Quarter notes</th>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <th>Strong/weak</th>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
     </tr>
   </tbody>
 </table>
@@ -1425,7 +1387,45 @@
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
+      <th>Position</th>
+      <td class="offbeat-td">6</td>
+      <td>7</td>
+      <td class="offbeat-td">8</td>
+      <td>1</td>
+      <td class="offbeat-td">2</td>
+      <td>3</td>
+      <td class="offbeat-td">4</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <th>Eighth notes</th>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+    </tr>
+    <tr>
+      <th>Strong/weak</th>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="offbeat-onbeat-table">
+  <tbody>
+    <tr>
+      <th>Position</th>
       <td class="offbeat-td">10</td>
       <td>11</td>
       <td class="offbeat-td">12</td>
@@ -1444,7 +1444,7 @@
       <td>9</td>
     </tr>
     <tr>
-      <th>16分音符</th>
+      <th>Sixteenth notes</th>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
@@ -1463,75 +1463,75 @@
       <td>◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <th>Strong/weak</th>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
     </tr>
   </tbody>
 </table>
 
 
-###### 💡実例＝弱拍先行16分音符あり8分音符あり4分音符あり2分音符なし
+###### 💡 Example = Sixteenth-Note Weak-Beat Precedence Present, Eighth-Note Weak-Beat Precedence Present, Quarter-Note Weak-Beat Precedence Present, Half-Note Weak-Beat Precedence Absent
 
-これで4分音符も弱拍先行になりました。 しかしこれも今までと同様に2分音符で見ると依然として強拍先行になっていることがわかります。  次の表を見て下さい。
+Now the quarter notes too have become weak-beat precedence. However, as before, when viewed in half notes we can see that they are still in strong-beat precedence. Please look at the following table.
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">16分音符の弱拍先行＝あり<br>8分音符の弱拍先行＝あり<br>4分音符の弱拍先行＝あり<a href="https://twitter.com/hashtag/%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%B4%E3%81%AF%E5%BC%B1%E6%8B%8D%E3%81%8C%E5%85%88?src=hash&amp;ref_src=twsrc%5Etfw">#グルーヴは弱拍が先</a> <a href="https://t.co/Sn26EvIqtp">pic.twitter.com/Sn26EvIqtp</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1950907402611732797?ref_src=twsrc%5Etfw">July 31, 2025</a></blockquote> </div>
 
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
-      <td>１拍目</td>
-      <td class="offbeat-td">２拍目</td>
+      <th>Position</th>
+      <td>Beat 1</td>
+      <td class="offbeat-td">Beat 2</td>
     </tr>
     <tr>
-      <th>2分音符</th>
+      <th>Half notes</th>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
+      <th>Strong/weak</th>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
     </tr>
   </tbody>
 </table>
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
-      <td class="offbeat-td">４拍目</td>
-      <td>１拍目</td>
-      <td class="offbeat-td">２拍目</td>
-      <td>３拍目</td>
+      <th>Position</th>
+      <td class="offbeat-td">Beat 4</td>
+      <td>Beat 1</td>
+      <td class="offbeat-td">Beat 2</td>
+      <td>Beat 3</td>
     </tr>
     <tr>
-      <th>4分音符</th>
+      <th>Quarter notes</th>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <th>Strong/weak</th>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
     </tr>
   </tbody>
 </table>
@@ -1540,18 +1540,18 @@
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
-      <td class="offbeat-td">6拍目</td>
-      <td>7拍目</td>
-      <td class="offbeat-td">8拍目</td>
-      <td>1拍目</td>
-      <td class="offbeat-td">2拍目</td>
-      <td>3拍目</td>
-      <td class="offbeat-td">4拍目</td>
-      <td>5拍目</td>
+      <th>Position</th>
+      <td class="offbeat-td">6</td>
+      <td>7</td>
+      <td class="offbeat-td">8</td>
+      <td>1</td>
+      <td class="offbeat-td">2</td>
+      <td>3</td>
+      <td class="offbeat-td">4</td>
+      <td>5</td>
     </tr>
     <tr>
-      <th>8分音符</th>
+      <th>Eighth notes</th>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
@@ -1562,15 +1562,15 @@
       <td>◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <th>Strong/weak</th>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
     </tr>
   </tbody>
 </table>
@@ -1578,7 +1578,7 @@
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
+      <th>Position</th>
       <td class="offbeat-td">10</td>
       <td>11</td>
       <td class="offbeat-td">12</td>
@@ -1597,7 +1597,7 @@
       <td>9</td>
     </tr>
     <tr>
-      <th>16分音符</th>
+      <th>Sixteenth notes</th>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
@@ -1616,74 +1616,74 @@
       <td>◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <th>Strong/weak</th>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
     </tr>
   </tbody>
 </table>
 
-###### 💡実例＝弱拍先行16分音符あり8分音符あり4分音符あり2分音符あり
+###### 💡 Example = Sixteenth-Note Weak-Beat Precedence Present, Eighth-Note Weak-Beat Precedence Present, Quarter-Note Weak-Beat Precedence Present, Half-Note Weak-Beat Precedence Present
 
-2分音符も弱拍先行として並べ替えると以下の様になります。
+If we rearrange the half notes too as weak-beat precedence, it becomes as follows.
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">※ 実験的に作った四重弱拍先行の実例<br>16分音符先行＝あり<br>8分音符先行＝あり<br>4分音符先行＝あり<br>2分音符先行＝あり<a href="https://twitter.com/hashtag/%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%B4%E3%81%AF%E5%BC%B1%E6%8B%8D%E3%81%8C%E5%85%88?src=hash&amp;ref_src=twsrc%5Etfw">#グルーヴは弱拍が先</a> <a href="https://t.co/kq7hVkJznw">pic.twitter.com/kq7hVkJznw</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1951279338369982644?ref_src=twsrc%5Etfw">August 1, 2025</a></blockquote> </div>
 
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
-      <td class="offbeat-td">２拍目</td>
-      <td>１拍目</td>
+      <th>Position</th>
+      <td class="offbeat-td">Beat 2</td>
+      <td>Beat 1</td>
     </tr>
     <tr>
-      <th>2分音符</th>
+      <th>Half notes</th>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <th>Strong/weak</th>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
     </tr>
   </tbody>
 </table>
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
-      <td class="offbeat-td">２拍目</td>
-      <td>３拍目</td>
-      <td class="offbeat-td">４拍目</td>
-      <td>１拍目</td>
+      <th>Position</th>
+      <td class="offbeat-td">Beat 2</td>
+      <td>Beat 3</td>
+      <td class="offbeat-td">Beat 4</td>
+      <td>Beat 1</td>
     </tr>
     <tr>
-      <th>4分音符</th>
+      <th>Quarter notes</th>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <th>Strong/weak</th>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
     </tr>
   </tbody>
 </table>
@@ -1692,18 +1692,18 @@
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
-      <td class="offbeat-td">2拍目</td>
-      <td>3拍目</td>
-      <td class="offbeat-td">4拍目</td>
-      <td>5拍目</td>
-      <td class="offbeat-td">6拍目</td>
-      <td>7拍目</td>
-      <td class="offbeat-td">8拍目</td>
-      <td>1拍目</td>
+      <th>Position</th>
+      <td class="offbeat-td">2</td>
+      <td>3</td>
+      <td class="offbeat-td">4</td>
+      <td>5</td>
+      <td class="offbeat-td">6</td>
+      <td>7</td>
+      <td class="offbeat-td">8</td>
+      <td>1</td>
     </tr>
     <tr>
-      <th>8分音符</th>
+      <th>Eighth notes</th>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
@@ -1714,15 +1714,15 @@
       <td>◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <th>Strong/weak</th>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
     </tr>
   </tbody>
 </table>
@@ -1730,7 +1730,7 @@
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
+      <th>Position</th>
       <td class="offbeat-td">2</td>
       <td>3</td>
       <td class="offbeat-td">4</td>
@@ -1749,7 +1749,7 @@
       <td>1</td>
     </tr>
     <tr>
-      <th>16分音符</th>
+      <th>Sixteenth notes</th>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
@@ -1768,29 +1768,29 @@
       <td>◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <th>Strong/weak</th>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
     </tr>
   </tbody>
 </table>
 
 
-##### まとめ16分音符での<ruby>多層弱拍先行<rt>グルーヴ</rt></ruby>
+##### Summary: Multi-Layered Weak-Beat Precedence in Sixteenth Notes
 
-これで小節内の全ての音価が弱拍先行になりました。すると最初に `[ 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16 ]` のように並んでいた8分音符が `[ 2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,1 ]` という様に１が最後に来るように並び替わったことがわかります。 この様に、**全ての音価で弱拍が先行すると結果として、全ての音価の音符の序数の列は、必ず１が最後に来る様に回転します。これが弱拍先行で尻合わせが構成されるメカニズムです。**   これがいわゆる横乗りリズムの世界での16分音符の数え方です。この世界でも16分音符の順番が小節中を回転し完全に一周回って１が終了地点に来る状態になったのです。
+Now all note values within the measure have become weak-beat precedence. As a result, we can see that the sixteenth notes originally arranged as `[ 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16 ]` are rearranged so that 1 comes last, as `[ 2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,1 ]`. In this way, **when weak beats precede at all note values, the ordinal sequences of notes at all note values rotate so that 1 always comes last. This is the mechanism by which weak-beat precedence constructs tail alignment.** This is the way sixteenth notes are counted in the world of yokonori rhythm. In this world too, the order of sixteenth notes rotates within the measure and completes a full cycle so that 1 comes at the ending point.
 
