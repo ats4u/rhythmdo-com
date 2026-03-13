@@ -7661,28 +7661,28 @@ Offbeat Count can also be expected to improve listening ability in other syllabl
 
 At the same time, it can also be expected to function as English listening practice, because it is thought to activate the **Maximal Prosodic Onset Principle (MPOP)**.
 
-## {{<meta var.MORA_SPEAKERS.en>}}の為のエチュード <!-- {#etudes-for-speakers-of-mora-timed-languages} -->
+## Etudes for {{<meta var.MORA_SPEAKERS.en>}} <!-- {#etudes-for-speakers-of-mora-timed-languages} -->
 
-この章では、岡敦が経験的に効果があることに気付いた音韻学に基づいた訓練方法を説明致します。
+This chapter explains phonology-based training methods that Ats Oka has empirically found effective.
 
-### モーラ拍リズムから見たストレス拍リズム
+### Stress-Timed Rhythm from the Perspective of Mora-Timed Rhythm
 
-次のビデオは２０１０年ごろに米国ヒップホップシーンで流行したヒット曲 Swag Surfin' です。この曲はアフリカ系アメリカ人発音≒米国南部方言を色濃く反映した音楽です。 この曲をモーラ拍リズム言語話者が聴くと、全ての音節をひとつずれた形で認識してしまい正しい英語の発音として聴き取れないという現象がおこります。
+The following video is the hit song Swag Surfin', which became popular in the U.S. hip-hop scene around 2010. This song strongly reflects African American pronunciation, that is, roughly a Southern U.S. dialect. When speakers of mora-timed languages listen to this song, a phenomenon occurs in which they perceive all of the syllables as shifted by one position and therefore cannot hear them as correct English pronunciation.
 
-この曲ではシラブル拍の{{<meta var.MOP.en>}}、及びストレス拍リズムの{{<meta var.MPOP.en>}}によって、全ての単語のリズム配置が弱拍が先になるように配置されています。 しかし{{<meta var.MiOP.en>}}をもつモーラ拍言語話者は、この弱拍先行が理解できずに強拍先行として認識する為、全ての音節を半分ずれて解釈してしまうという現象が起こります。
+In this song, the rhythmical placement of every word is arranged so that the weak beat comes first, through syllable-timed {{<meta var.MOP.en>}} and stress-timed-rhythm {{<meta var.MPOP.en>}}. However, speakers of mora-timed languages who have {{<meta var.MiOP.en>}} cannot understand this weak-beat precedence and instead perceive it as strong-beat precedence, so a phenomenon occurs in which they interpret all of the syllables as shifted by half a syllable.
 
 
 <iframe class="rhythmpedia-iframe" src="https://www.youtube.com/embed/7iTsbnr8e_8?si=uR5wPuBM63tA8ldU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <iframe class="rhythmpedia-iframe" src="https://www.youtube.com/embed/gM8TdGIf8Uk?si=Shy9bTB_4kvCkjyz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-### ストレス拍リズム発音のモーラ拍リズムでの解釈
+### Interpreting Stress-Timed-Rhythm Pronunciation through Mora-Timed Rhythm
 
-この音楽の歌詞の最初の部分をモーラ拍リズムで解釈すると『メナガテｯｽウェーッグ』と言っている様に聴こえます。これはストレス拍リズムでは『 man, I got that swag 』と解釈されます。この解釈の違いを図として表すと次の様になります。
+If the opening part of this song's lyrics is interpreted through mora-timed rhythm, it sounds as though it is saying "メナガテｯｽウェーッグ". In stress-timed rhythm, however, it is interpreted as `man, I got that swag`. The difference in interpretation can be shown as follows.
 
 ![](/offbeat-count/attachments/phonetics-man-i-got-that-swag.png)
 
-ここで起こっている相違の対応表を作ると次の様になります。
+The correspondence table for the mismatch that occurs here is as follows.
 
 <style>
 
@@ -7838,63 +7838,65 @@ At the same time, it can also be expected to function as English listening pract
 <table class="pron">
     <tbody>
       <tr>
-        <th colspan="1">英語の音節解釈</th>
-        <td colspan="3">音節</td>
-        <td colspan="3">音節</td>
-        <td colspan="3">音節</td>
-        <td colspan="3">音節</td>
+        <th colspan="1">English Syllable Interpretation</th>
+        <td colspan="3">Syllable</td>
+        <td colspan="3">Syllable</td>
+        <td colspan="3">Syllable</td>
+        <td colspan="3">Syllable</td>
       </tr>
       <tr>
-        <th colspan="1">英語の発音</th>
+        <th colspan="1">English Pronunciation</th>
 
-        <td colspan="1">子音</td>
-        <td colspan="1">母音</td>
-        <td colspan="1">子音</td>
+        <td colspan="1">Consonant</td>
+        <td colspan="1">Vowel</td>
+        <td colspan="1">Consonant</td>
 
-        <td colspan="1">子音</td>
-        <td colspan="1">母音</td>
-        <td colspan="1">子音</td>
+        <td colspan="1">Consonant</td>
+        <td colspan="1">Vowel</td>
+        <td colspan="1">Consonant</td>
 
-        <td colspan="1">子音</td>
-        <td colspan="1">母音</td>
-        <td colspan="1">子音</td>
+        <td colspan="1">Consonant</td>
+        <td colspan="1">Vowel</td>
+        <td colspan="1">Consonant</td>
 
-        <td colspan="1">子音</td>
-        <td colspan="1">母音</td>
-        <td colspan="1">子音</td>
+        <td colspan="1">Consonant</td>
+        <td colspan="1">Vowel</td>
+        <td colspan="1">Consonant</td>
       </tr>
       <tr>
-        <th colspan="1">日本語の発音解釈</th>
-        <td colspan="1">子音</td>
-        <td colspan="1">母音</td>
-        <td colspan="2">子音</td>
-        <td colspan="1">母音</td>
-        <td colspan="2">子音</td>
-        <td colspan="1">母音</td>
-        <td colspan="2">子音</td>
-        <td colspan="1">母音</td>
+        <th colspan="1">Japanese Pronunciation Interpretation</th>
+        <td colspan="1">Consonant</td>
+        <td colspan="1">Vowel</td>
+        <td colspan="2">Consonant</td>
+        <td colspan="1">Vowel</td>
+        <td colspan="2">Consonant</td>
+        <td colspan="1">Vowel</td>
+        <td colspan="2">Consonant</td>
+        <td colspan="1">Vowel</td>
         <td colspan="1">-</td>
       </tr>
         <tr>
-        <th>日本語で解釈された音節</th>
-        <td colspan="2">音節</td>
-        <td colspan="3">音節</td>
-        <td colspan="3">音節</td>
-        <td colspan="3">音節</td>
+        <th>Syllables Interpreted in Japanese</th>
+        <td colspan="2">Syllable</td>
+        <td colspan="3">Syllable</td>
+        <td colspan="3">Syllable</td>
+        <td colspan="3">Syllable</td>
         <td colspan="1">-</td>
       </tr>
     </tbody>
 </table>
 
-この様にモーラ拍リズムに末子音がないことにより、次の音節の頭子音との混同が起こり、ストレス拍リズムから見ると、モーラ拍リズムの解釈は１音節当たり 1/3 ずれた形で音声を認識していることがわかります。
+In this way, because mora-timed rhythm has no final consonants, confusion arises with the onset consonant of the next syllable. From the viewpoint of stress-timed rhythm, we can see that mora-timed interpretation recognizes speech in a form shifted by one third of a syllable per syllable.
 
-### 末子音のないモーラ拍の末子音矯正法
+### A Method for Training Final Consonants in Mora Beats That Lack Them
 
-モーラ拍リズム言語話者がストレス拍リズム言語を聴き取るために必要なことは、末子音を適切に区別してこの 1/3 のずれが起こらない様に矯正することです。つまり各シラブルの末子音を分離する練習をすることが有効だと考えられます。 それは日本語のそれぞれのモーラ拍の発音上を３つに分割し、モーラ拍の中に潜む末子音の存在をはっきり意識して次の音節の頭子音と結びついていることを意識する練習です。
+What speakers of mora-timed languages need in order to hear stress-timed languages is to distinguish final consonants properly and correct their perception so that this one-third shift does not occur. In other words, it is effective to practice separating the final consonant of each syllable. This means dividing the pronunciation of each Japanese mora into three parts and practicing being clearly aware of the hidden final consonant inside the mora and its connection to the onset consonant of the next syllable.
 
-例）七夕花火にカンパーイ『タナバタ・ハナビニ・カンパーイ』
+Example: 七夕花火にカンパーイ
 
-　　↓↓↓
+`タナバタ・ハナビニ・カンパーイ`
+
+↓↓↓
 
 - ターン
 - ナーブ
@@ -7906,19 +7908,19 @@ At the same time, it can also be expected to function as English listening pract
 - アーン
 - パーイ
 
-ここで起こったていることを具体的に説明すると次のようになります。タナバタをローマ字で表すと TA NA BA TA になります。ここで各文字の母音とその次の文字の子音を繋げると TAN/NAB/BAT/TAH になります。つまり「ターン」「ナーブ」「バート」「ター」です。 この様にして各モーラ拍を３分割し末子音を分離していく作業を行います。このようにすることでストレス拍/シラブル拍リズムに必要な末子音認識に対して慣れる訓練を行います。
+To explain concretely what is happening here, if Tanabata is written in Roman letters it becomes `TA NA BA TA`. If each vowel is linked to the consonant of the next letter, it becomes `TAN/NAB/BAT/TAH`. In other words, "ターン", "ナーブ", "バート", and "ター". In this way, each mora is divided into three parts and the final consonant is isolated. Doing this serves as training to get used to the recognition of final consonants required for stress-timed and syllable-timed rhythm.
 
-次のモーラの頭子音をスムーズに発音する為に、当該モーラの後端部分に暗黙の末子音が表れます。この無意識化で作っている暗黙の末子音をはっきり意識することが重要なポイントです。英語では次に現れる頭子音によって末子音が変化することはありません。しかし日本語では意識していない為に変化します。この違いに慣れることが重要といえます。
+In order to pronounce the onset consonant of the next mora smoothly, an implicit final consonant appears at the back end of the mora in question. The important point is to become clearly aware of this unconsciously produced implicit final consonant. In English, the following onset consonant does not cause the final consonant to change. In Japanese, however, it changes because speakers are not conscious of it. Getting used to this difference is important.
 
-なお上記例では「ターハ」になっている最後の文字が「ター」になってしまいましたが、これは上記例のタナバタの次はハナビとハから始まっているのに、タナバタのみの場合は後続の文字がないためターのみになってしまったことによるものです。
+In the example above, the final item that became "ターハ" turns into "ター" because in the full phrase above Tanabata is followed by Hanabi, which begins with Ha, whereas when Tanabata appears alone there is no following character, so it ends as just "ター".
 
-別の例を見てみます。
+Let us look at another example.
 
-例）かささぎの わたせる橋におく霜の 白きを見れば夜ぞふけにける
+Example: かささぎの わたせる橋におく霜の 白きを見れば夜ぞふけにける
 
-『カササギノ・ワタセルハシニ・オクシモノ・シロキヲミレバ・ヨルゾフケニケル』
+`カササギノ・ワタセルハシニ・オクシモノ・シロキヲミレバ・ヨルゾフケニケル`
 
-　↓↓↓
+↓↓↓
 
 - カース
 - サース
