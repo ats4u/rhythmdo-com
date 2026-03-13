@@ -11582,190 +11582,190 @@ As a Japanese person, I believe I have clarified the essence of this Japanese pr
 I, the author, sincerely hope that this insight will serve as a foundation for conveying the excellence of Japanese culture to the world and supporting the further development of Japanese culture.
 
 
-## 縦乗りがもたらす心理的問題 <!-- {#tatenori-and-psychology}-->
+## The Psychological Problems Caused by Tatenori <!-- {#tatenori-and-psychology}-->
 
-縦乗りを克服するに当たって直面する精神的問題について説明します。自分自身が縦乗りと向き合う上で直面する心理的問題、そして他者を指導するに当たって指導者と学習者が直面する指導上心理的問題、そして縦乗りと向き合った後で社会と向き合った時に直面する社会的問題について説明します。
-
-
-### 縦乗りの一方向性について
-
-ここで**{{<meta var.TATENORI_ONEWAY.en>}}** についてお話したいと思います。横乗りの人が縦乗りの人のリズム感覚を模倣しようとする時、数年程度練習すればある程度は習得することが出来ます。しかし縦乗りの人が横乗りのリズム感覚を模倣しようとすると最低でも10年以上、場合によっては20年以上かけても習得できないこともあります。 このことを**{{<meta var.TATENORI_ONEWAY.en>}}** と呼びます。
+Here I will explain the psychological problems one faces when trying to overcome tatenori. I will discuss the psychological problems one confronts when facing one's own tatenori, the instructional and psychological problems faced by both teachers and learners when guiding others, and the social problems one encounters when facing society after having confronted tatenori.
 
 
-縦乗りと横乗りはリズム解釈のルール自体が異なるため、コミュニケーションを取ることができません。 一緒に言語を話そうとする時、或いは一緒に音楽を演奏しようとする時 ─── 必ず一方が自分のリズム感を封印し相手のリズム感に同調する必要があります。ところが、横乗りの人は縦乗りに簡単に合わせることができるのに、縦乗りの人は横乗りの人に合わせること容易ではありません。これが **{{<meta var.TATENORI_ONEWAY.en>}}** です。
+### On Tatenori Unidirectionality
 
-横乗りの人は、弱拍が先行する感覚を使わないようにすることで強拍が先行する状態をシミュレートすることが出来ます。しかし縦乗りの人は、強拍が先行する感覚しか持たない為、新たに練習することで弱拍が先行する感覚を作り出す必要性が生じます。
-
-日本外の世界の大半の言語は横乗りです。 これを音韻学的に言うと『世界中の殆どの言語は、シラブル拍リズムまたはストレス拍リズムというリズム構造を持っている』ということができます。 つまり世界中の音楽は横乗りが基盤になったコミュニケーション方法が主流なのです。 世界的には縦乗り…つまりモーラ拍リズムをリズム構造として持つ言語はとても少ないのです。一説によると完全なモーラ拍リズム言語は日本語しかないという説もあります。
-
-みんなが横乗りで演奏している時に、「私は縦乗りから変えない」と主張した場合、その場にいる人全員 ─── その場にいる人が2名であれば2名が ─── その場にいる人が1000人ならば1000人全員が、縦乗りに合わせなければいけないということを意味します。
-
-同じことは日本国内でも起こります。何故ならば日本各地の方言は必ずしもモーラ拍リズムで統一されているわけではないからです。実は日本語の方言は、東に行くほどストレス拍リズムが強くなるという説があります。発音の省略が多く早口な江戸弁をはじめ、東北弁の多くは、標準的な日本語とことなり、ストレス拍言語に特徴的な発音の短縮が多く見られます。また関東・東北の多くの民謡は、完全な縦乗りではなく、しばしば長い弱起が見られます。
-
-多様性への対応力は、豊かさの大切な基盤でもあります。広い世界に出ていけば出ていくほど、異質な人々と激しくぶつかりあう結果となるでしょう。遠く離れれば離れるほど横乗りというリズム感覚が主流になり、縦乗りというイデオロギーが否定される機会は増えるでしょう。縦乗りとは本質的にイデオロギー的孤独と言えます。
+Here I would like to discuss **{{<meta var.TATENORI_ONEWAY.en>}}**. When a yokonori person tries to imitate the rhythmic sense of a tatenori person, that person can acquire it to some degree with a few years of practice. But when a tatenori person tries to imitate the rhythmic sense of a yokonori person, it may take at least ten years, and in some cases even twenty years may not be enough. I call this **{{<meta var.TATENORI_ONEWAY.en>}}**.
 
 
-広い社会で自由に行動するためには、縦乗りから横乗りに、横乗りから縦乗りに、自由に切り替えることが必要になります。 縦乗りの人が縦乗りを克服することは、或いは横乗りの人が横乗りを克服することは、広い社会に出る時に武器になるのです。
+Because tatenori and yokonori differ in the very rules by which rhythm is interpreted, they cannot simply communicate with each other as they are. Whenever people try to speak language together or perform music together, one side must always suppress its own rhythmic sense and synchronize with the other. Yet while yokonori people can adjust to tatenori comparatively easily, it is not easy for tatenori people to adjust to yokonori people. That is **{{<meta var.TATENORI_ONEWAY.en>}}**.
+
+Yokonori people can simulate a strong-beat-leading state by refraining from using the sense that weak beats come first. Tatenori people, however, possess only the sense that strong beats come first, so they must create, through new practice, a sense in which weak beats come first.
+
+Most languages in the world outside Japan are yokonori. In phonological terms, this means that most of the world's languages possess a rhythmic structure of either syllable-timed rhythm or stress-timed rhythm. In other words, the dominant communicative basis of music worldwide is yokonori. Globally, languages whose rhythmic structure is tatenori, that is, mora-timed rhythm, are very few. According to one view, Japanese may be the only fully mora-timed language.
+
+When everyone is performing in yokonori and someone insists, "I will not change from tatenori," that means that everyone present, whether there are 2 people or 1,000 people, must align themselves to tatenori.
+
+The same thing happens inside Japan as well, because dialects throughout Japan are not necessarily unified under mora-timed rhythm. In fact, there is a theory that Japanese dialects become more stress-timed as one goes east. Beginning with the rapid, heavily reduced Edo dialect, many Tohoku dialects, unlike standard Japanese, show the kinds of pronunciation reduction characteristic of stress-timed languages. Likewise, many folk songs from Kanto and Tohoku are not fully tatenori, but often contain long anacruses.
+
+The ability to respond to diversity is also an important foundation of cultural richness. The wider the world one enters, the more intensely one will collide with people who are different. The farther one goes, the more yokonori becomes the dominant rhythmic sense, and the more often the ideology of tatenori will be denied. Tatenori is, in essence, a form of ideological solitude.
 
 
-しかし、ここでこの{{<meta var.TATENORI_ONEWAY.en>}} が巨大な障害となって立ちはだかるのです。
-
- {{<meta var.TATENORI_ONEWAY.en>}} は技術的な問題だけでなく精神的な問題を引き起こします。 これまで {{<meta var.TATENORI_ONEWAY.en>}} を克服する為に必要な理論や練習方法などの技術的な側面を御説明致しました。 しかしこれらの問題に取り組む以前の問題として、精神的な問題が生じ、問題の認識自体が難しくなってしまうために、そもそも {{<meta var.TATENORI_ONEWAY.en>}} に取り組むこと自体が難しいという問題が生じます。
-
-これらの問題に対して、心理的防衛機制と十牛図という２つの側面から理解を深めて行きます。
+To act freely in a broad society, one must be able to switch freely from tatenori to yokonori and from yokonori to tatenori. For a tatenori person to overcome tatenori, or for a yokonori person to overcome yokonori, becomes a weapon when entering the wider world.
 
 
-### 縦乗りと防衛機制
+But here, {{<meta var.TATENORI_ONEWAY.en>}} stands in the way as a massive obstacle.
 
-#### 一方向性がもたらす心理的防衛機制
+{{<meta var.TATENORI_ONEWAY.en>}} causes not only technical problems but also psychological ones. Up to now I have explained the technical side, such as the theory and practice methods needed to overcome {{<meta var.TATENORI_ONEWAY.en>}}. But even before one can address those technical problems, psychological problems arise, making it difficult even to recognize the problem properly, and therefore difficult to engage with {{<meta var.TATENORI_ONEWAY.en>}} in the first place.
 
-縦乗りという大きな障壁の存在に気付いた人が取るリアクションは、様々です。
-
-勿論、縦乗りを直す必要はありません。縦乗りは欠点ではありません。縦乗りを辞めることを強制する理由は存在しないのです。  ─── {{<meta var.RDO.en>}} は飽くまでも、他者の文化に対する敬意と尊重の手段のひとつであり、自分と他者との違いをはっきりと認識した上で、ここで敢えて横乗りに打って出る決意をし、どうすれば横乗りを自分のアイデンティティとして取り込むことが出来るのかという問題と取り組む人に対しての、明確な解答を提供することが主目的にあります。縦乗りとぶつかった時、前に進むか留まるかを決めるのは皆様自分自身でしかありえません。
-
-縦乗りから横乗りに切り替えるという問題に対して向き合った時、人は絶望します。
-
-縦乗りの向こうにある絶対的な欲望の世界と、縦乗りの障壁としての絶望的な大きさの対比は、直視しがたい要素があります。ここで人はしばしば自分の心の安定を守る為に無意識のうちに様々な心理的機制が生じます。 自分自身の心に生じた心理機制を自覚した上で真っ直ぐに向き合っていく為に、この心理機制についてよく知ることは大切です。
+To deepen our understanding of these problems, I will examine them from two perspectives: psychological defense mechanisms and the Ten Bulls.
 
 
-しばしば縦乗りを見た人は自問します ─── そもそも何故縦乗りに気付かなければならないのでしょうか。
+### Tatenori and Defense Mechanisms
 
-  - 何故、縦乗りではいけないのか
-  - 何故、縦乗りに気付く必要があるのか
-  - 何故、縦乗りと向き合わなければいけないのか
-  - 何故、縦乗りを知る必要があるのか
-  - 何故、縦乗りを直さなければいけないのか
-  - 何故、縦乗りと向き合わなければいけないのか
-  - 何故、横乗りを知る必要があるのか
-  - 何故、横乗りと仲良くする必要があるのか
+#### The Psychological Defense Mechanisms Produced by Unidirectionality
 
-ここで最も大切なことは、「実は彼は、縦乗りを克服しなくていいとは思っていない」ということです。それどころか既に縦乗りに気付いており、何度も縦乗りを克服する為に格闘しその難しさとぶつかって、打ちひしがれて苦しんでいます。 縦乗りに気付けば気付くほど、その解決の難しさと直面し、絶望する。絶望する恐怖からその困難の直視を避けて、責任転嫁しようとします。つまり合理化しようとする。
+People react in many different ways when they become aware of the existence of the great barrier called tatenori.
 
-ここで彼の行動を「縦乗り問題を軽視している」と解釈し、「縦乗りの問題の重要性をわからせてやろう」とすればするほど、彼は強く拒絶します。
+Of course, there is no necessity to "fix" tatenori. Tatenori is not a defect. There is no reason to force anyone to stop being tatenori. {{<meta var.RDO.en>}}, after all, is only one means of showing respect and regard for the culture of others. Its primary purpose is to offer a clear answer to people who, having clearly recognized the difference between themselves and others, decide here and now to step deliberately into yokonori and ask how they can incorporate yokonori into their own identity. When one collides with tatenori, only each individual can decide whether to move forward or remain where they are.
 
-つまり心理機制をよく知ることは自分自身を理解するためにも他者を理解する上ためにも大切なことといえます。
+When people confront the problem of switching from tatenori to yokonori, they despair.
 
-#### 縦乗りとは何か
-
-#### 縦乗りとは
-
-#### 縦乗りの問題
-
-縦乗りの問題は大きく分けて２つあります。
-
-* まず日本語を母国語とする人はシンコペーションを認識すること自体に大きな困難があること。
-* 日本社会でシンコペーションを習得しようとすると、リズムを習得する困難さと向き合う以上に、大きな社会的圧力と向き合う必要があること。
-
-#### 縦乗りの技術的問題
-縦乗りと横乗りは同時に演奏できない。
-
-#### 横乗り大音量錯覚について
-* 縦乗りの人々にとって横乗りは大音量に聴こえる。
-    * → 音ずれが音の分離をはっきりさせる。
-    * → 未体験の音の際立ちに衝撃を受ける縦乗りの人々
-    * → 「音が大きすぎる！！！！」というリアクション
-* 縦乗りセッション社会で、横乗りが排除される構造を生み出す。
-
-#### 縦乗り防衛機制について
-* 誰もがグルーヴしたいと思っています！
-    * →しかし日本語の持つ制約から日本語を母国語とする人は外国のグルーヴを演奏することに大きな困難を伴います。
-    * → 誰もが海外の音楽に強い憧れを持ち、音楽を志します。そして誰もが音楽に対して人生を賭して莫大な犠牲を払っています。しかし長年の苦労ののちに、実は真の音楽が全く手に入らないものだと気付いた時、彼は精神崩壊の危機にさらされます。
-    * → そこで日本人独特なリアクションが生まれます。
-    * → これが縦乗りゴーマニズムです。
-
-#### 縦乗りゴーマニズムとは
-* 縦乗りというリズム自体は問題ではない点に注意。
-* 横乗りというリズムが手に入らないと気付いたときに、妬み嫉みというネガティブな感情が生まれる。
-* 絶望を直視する事を回避する為にあらゆる心理的防衛機制が働きます。
-* それがしばしば、グルーヴを志す人への攻撃となって表出します。
+There is something hard to face directly in the contrast between the absolute world of desire that lies beyond tatenori and the hopelessly vast scale of tatenori as a barrier. At that point, various psychological mechanisms often arise unconsciously in order to protect the stability of one's own mind. To face those mechanisms directly after becoming aware of them in oneself, it is important to understand them well.
 
 
-#### 縦乗り防衛機制の例
+People who have seen tatenori often ask themselves the following question: why, in the first place, must one even become aware of tatenori?
 
-##### 抑圧
-不快・苦痛の感情を意識に受け入れがたく、無意識のうちに忘れる・気づかないようにする。これが意図的・意識的である場合は、抑制という。
+  - Why is tatenori not enough?
+  - Why is it necessary to become aware of tatenori?
+  - Why must one confront tatenori?
+  - Why is it necessary to know tatenori?
+  - Why must tatenori be corrected?
+  - Why must one confront tatenori?
+  - Why is it necessary to know yokonori?
+  - Why is it necessary to make peace with yokonori?
 
-> 「えっ？縦乗りなんか気にしてるの、岡だけじゃない？」
+The most important point here is this: in truth, the person does not really believe that tatenori can simply be left unconfronted. On the contrary, that person has already noticed tatenori, has repeatedly struggled to overcome it, has collided with its difficulty, and is crushed and suffering. The more clearly one notices tatenori, the more directly one confronts the difficulty of solving it, and the more one despairs. Out of fear of that despair, one avoids looking the difficulty in the face and tries to shift responsibility elsewhere. In other words, one tries to rationalize it.
 
-##### 否認
-現実を自分が知覚していながら、意識から排除して認めないこと苦痛に対して「大したことはない」と思う。
+At that point, the more one interprets that person's behavior as "making light of the tatenori problem" and tries to "make them understand how important the tatenori problem is," the more strongly that person will reject it.
 
-> 「縦乗りなんて、別に大した問題じゃないですよね？」
+In other words, understanding psychological mechanisms is important both for understanding oneself and for understanding others.
 
-##### 退行
-早期の発達段階へ戻ること。子ども返り。
+#### What Is Tatenori?
 
-> 「ふざけんなよ！このやろう！（演奏中いきなり怒鳴る）」
+#### Tatenori
 
-##### 転移
-特定の人に向けていた感情を、よく似た人（精神分析の治療者)に置き換える。陽性転移は、好意・依存、陰性転移は、敵意や嫌悪の感情を持つ。
+#### The Problem of Tatenori
 
-> 「いやー岡さんの演奏、ウェスモンゴメリみたいですね！」
-> 「いやー岡さんの言ってること、ジョージ大塚と同じですよね。」
+The problem of tatenori has two major dimensions.
 
-##### 投影
-相手に向けての感情を自分のものとして受け止めがたいため、相手が自分に向けていると思う。
+* First, native speakers of Japanese have great difficulty even perceiving syncopation itself.
+* Second, when one tries to acquire syncopation within Japanese society, one must face not only the difficulty of learning rhythm but also heavy social pressure.
 
-> 「なんでそうやって縦乗りを否定するんですか！？」
+#### The Technical Problem of Tatenori
+Tatenori and yokonori cannot be played simultaneously.
 
-##### 反動形成
-本心とは逆の言動をする。弱者のつっぱり。
+#### On the Yokonori Loudness Illusion
+* To tatenori people, yokonori sounds loud.
+    * -> Rhythmic displacement makes the separation of sounds stand out clearly.
+    * -> Tatenori people are shocked by the prominence of an unfamiliar kind of sound.
+    * -> The reaction becomes: "The sound is way too loud!!!!"
+* This creates a structure in which yokonori is excluded within tatenori session culture.
 
-> 「いや俺、別に横乗りになりたいと思っていないし。」
+#### On Tatenori Defense Mechanisms
+* Everyone wants to groove.
+    * -> But because of the constraints of Japanese, native speakers of Japanese face major difficulty when trying to perform foreign groove.
+    * -> Everyone strongly admires overseas music and aspires to music. Everyone stakes life itself on music and pays enormous sacrifices for it. But after many years of hardship, when a person realizes that true music is in fact not something they can obtain at all, that person is placed at risk of psychological collapse.
+    * -> At that point, uniquely Japanese reactions arise.
+    * -> This is what I call **Tatenori Gomanism**.
 
-##### 昇華
-反社会的な欲求を、社会的に適応の高いものに置き換える。
+#### What Is Tatenori Gomanism?
+* Note carefully that the rhythm called tatenori is not itself the problem.
+* When one realizes that yokonori cannot be obtained, negative emotions such as jealousy and envy arise.
+* In order to avoid facing that despair directly, all kinds of psychological defense mechanisms begin to operate.
+* These often appear outwardly as attacks on people who aspire to groove.
 
-> 「横乗りをマスターしたくて今でも毎日メトロノーム練習続けています。」
 
-##### 補償
-劣等感を他の方向で補う。「運動で負けたら、勉強で勝て」
+#### Examples of Tatenori Defense Mechanisms
 
-> 「私この間、ギブソンのビンテージ買ったんですよ！◯◯万円もしたんです！」
+##### Repression
+When unpleasant or painful feelings are hard to admit into consciousness, one unconsciously forgets them or prevents oneself from noticing them. When this is intentional and conscious, it is called suppression.
 
-##### 合理化
-一見理論的であるかのように装うが、実は不都合な現実を歪めたり、都合のよい現実を取り上げて、自分の欲求や感情を正当化する(責任転嫁）。
+> "Huh? Aren't you the only one who cares about tatenori, Oka?"
 
-> 「岡さんは、そうやって縦乗りを理論的に説明しているようでいて、結局自分自身の劣等感を補償しているだけですよ。その証拠に誰も岡さんに同意している人がいないじゃないですか。現実を直視出来ていないのはどっちなんですか？」
+##### Denial
+One perceives reality and yet excludes it from consciousness and refuses to admit it, telling oneself that the pain is "not a big deal."
+
+> "Tatenori isn't really that big a problem, is it?"
+
+##### Regression
+Returning to an earlier developmental stage. A kind of childish reversion.
+
+> "Screw you! You bastard!" (suddenly shouts during the performance)
+
+##### Transference
+Replacing emotions originally directed toward a particular person with a very similar person, such as the psychoanalytic therapist. Positive transference takes the form of affection or dependency, while negative transference takes the form of hostility or disgust.
+
+> "Wow, Oka-san, your playing sounds just like Wes Montgomery!"
+> "Wow, what you're saying is exactly the same as George Otsuka, isn't it?"
+
+##### Projection
+Because one finds it hard to accept feelings directed toward another person as one's own, one imagines that the other person is directing those feelings toward oneself.
+
+> "Why are you denying tatenori like that!?"
+
+##### Reaction Formation
+Speaking and acting in a way that is the opposite of one's true feelings.
+
+> "No, I don't really want to become yokonori anyway."
+
+##### Sublimation
+Replacing antisocial desires with something more socially adaptive.
+
+> "I still keep practicing with the metronome every single day because I want to master yokonori."
+
+##### Compensation
+Making up for feelings of inferiority in some other direction. "If you lose in athletics, win in academics."
+
+> "I bought a vintage Gibson the other day! It cost me hundreds of thousands of yen!"
+
+##### Rationalization
+Making something look logical on the surface while actually distorting an inconvenient reality, or selecting only convenient parts of reality, in order to justify one's own desires and emotions by shifting responsibility elsewhere.
+
+> "Oka-san, you talk as if you're explaining tatenori theoretically, but in the end you're just compensating for your own inferiority complex. The proof is that nobody agrees with you. So which of us is the one who can't face reality?"
 >
-> 「またリズム警察ですかｗｗｗ」
+> "Here comes the rhythm police again lol"
 >
-> 「リズムおじさんｗｗｗ」
+> "Rhythm old man lol"
 
-#### 縦乗りゴーマニズムへの対応の難しさ
-* 縦乗りゴーマニズムはしばしば、集団ヒステリ的な様相を帯びて、対個人への集団攻撃という現象につながりやすい。
-    * → 日本社会が持ついじめの構造を持ち始める。
-    * → 結果的に、セッション社会でグルーヴを志すどころか、リズムについての話題を出すだけで、過敏な反応を受けやすい。
+#### The Difficulty of Dealing with Tatenori Gomanism
+* Tatenori Gomanism often takes on the aspect of collective hysteria and easily leads to the phenomenon of a group attacking an individual.
+    * -> It begins to take on the structure of bullying found in Japanese society.
+    * -> As a result, within session culture, simply bringing up the topic of rhythm can provoke hypersensitive reactions, let alone aspiring to groove.
 
-#### 縦乗りゴーマニズムの問題点
-* 縦乗りゴーマニズムと遭遇することを恐れる。
-    * → リズムの話題に触れることが難しい。
-    * → 横乗りグルーヴを目指している人同士が知り合う機会がない。
+#### The Problems Caused by Tatenori Gomanism
+* People become afraid of encountering Tatenori Gomanism.
+    * -> It becomes difficult even to touch on the topic of rhythm.
+    * -> People who aspire to yokonori groove have no opportunity to meet each other.
 
-#### 縦乗りに対するあるべき対応
-* 縦乗りと横乗りのバランスを取る
+#### The Proper Response to Tatenori
+* Strike a balance between tatenori and yokonori.
 
 
-#### 縦乗りと横乗りのバランスを考える
-* バイクを作る
-    * 確実さと安定を重んずる
-        * → 縦乗り
-* バイクに乗る
-    * 不安定さがもたらす自由を楽しむ
-        * →横乗り
-#### 現代日本人として完全な横乗りは破滅を意味する
-* 実は、縦乗りを捨てれば横乗りになるのは容易い。
-* むしろ、いつでも好きなときに横乗りに切り替えることの出来る能力を獲得する。
-* そのために、横乗りを縦乗りで再解釈し、切り替える為のトリガとする。
+#### Considering the Balance Between Tatenori and Yokonori
+* Building a motorcycle
+    * Valuing certainty and stability
+        * -> tatenori
+* Riding a motorcycle
+    * Enjoying the freedom brought by instability
+        * -> yokonori
+#### For a Modern Japanese Person, Complete Yokonori Means Ruin
+* In fact, if one simply throws away tatenori, becoming yokonori is easy.
+* Rather, one should acquire the ability to switch into yokonori whenever one wishes.
+* To do that, reinterpret yokonori through tatenori and use it as a trigger for switching.
 
-#### 縦乗りの良さを横乗りで伝える
-* 演歌・アニソン・ゲーム音楽等々…世界は日本を求めている。
-* → しかし縦乗りは横乗りの人々にとって理解不能。
-* → 横乗りを習得し、縦乗りを横乗りに翻訳する。
+#### Conveying the Merits of Tatenori Through Yokonori
+* Enka, anime songs, game music, and so on... the world wants Japan.
+* -> But tatenori is unintelligible to yokonori people.
+* -> Master yokonori, and translate tatenori into yokonori.
 
-#### 縦乗りの良さを横乗りで伝える
-* オフビートメトロノーム練習
-* オフビートカウント練習
+#### Conveying the Merits of Tatenori Through Yokonori
+* Offbeat metronome practice
+* Offbeat Count practice
 
 
 
@@ -11848,67 +11848,67 @@ I, the author, sincerely hope that this insight will serve as a foundation for c
 -->
 
 
-### 縦乗りと十牛図 {#know-yourself}
+### Tatenori and the Ten Bulls {#know-yourself}
 
 
-自分自身の縦乗りと気付くまでの道は、長く険しくそして辛い道です。しかし縦乗りを良く知り、縦乗りを克服した先にあるものは、何物にも代えがたい価値があります。 それは日本の良さと東アジアの良さ、東南アジアの良さ、そして欧米文化との良さ、そしてアフリカ文化との良さ、そして全世界の文化との良さを調和する為の長い道のりということも出来ます。 そのすばらしさが全て「縦乗り」という巨大な蓋によって覆い隠されているのです。
+The road to becoming aware of one's own tatenori is long, steep, and painful. But what lies beyond truly understanding tatenori and overcoming it has an irreplaceable value. It can also be described as a long road toward harmonizing the strengths of Japan, East Asia, Southeast Asia, Europe and America, Africa, and indeed the strengths of all the world's cultures. All of that richness is hidden beneath the enormous lid called tatenori.
 
-この巨大な蓋には大切な役割があります。この蓋がなければ日本は日本であることが出来ません。この蓋は日本を守る大切な防御壁となっている ─── と同時にこの蓋が日本のすばらしさを届ける弊害にもなっているのです。
+This enormous lid plays an important role. Without it, Japan could not be Japan. It is a vital defensive wall protecting Japan, and at the same time it is also an obstacle that prevents Japan's excellence from being conveyed outward.
 
-この蓋の存在を認識できるようになり、そしてそこにあることに気付き、そしてそれを自由に開け放ったり閉じたりすることが出来るようになるためには、長い修練が必要です。
+Long training is required before one can recognize the existence of this lid, notice that it is there, and become able to open and close it freely.
 
-この長い道のりは、禅の**十牛図** で説明される道程にとても良く似ています。そこでここでは十牛図を例にとって、この縦乗りに気付くまでの長い道のりを御説明したいと思います。
+This long road resembles very closely the path described in Zen by the **Ten Bulls**. So here I would like to use the Ten Bulls as an example to explain the long road leading up to the moment one notices tatenori.
 
-#### 自分自身の縦乗りに気付かない
+#### Not Noticing One's Own Tatenori
 
-歩いても縦乗り、走っても縦乗り、立っても縦乗り、座っても縦乗り、踊っても縦乗り、手を挙げても、頭を挙げても、手を下げても、頭を下げても、怒っても縦乗り、笑っても縦乗り、何をやっても縦乗り  ───日本人の動作には、客観的に見ると即座にそれとわかるはっきりとした特徴があります。
+Tatenori when walking, tatenori when running, tatenori when standing, tatenori when sitting, tatenori when dancing, tatenori when raising the hands, tatenori when raising the head, tatenori when lowering the hands, tatenori when lowering the head, tatenori when angry, tatenori when laughing, tatenori in whatever one does: objectively speaking, Japanese movement has clear and immediately recognizable characteristics.
 
-しかし日本人はこの特徴に気付く事が出来ません。何故なら比較対象を持たないからです。
+Yet Japanese people cannot notice those characteristics. The reason is that they have no point of comparison.
 
-#### 縦乗りに気付く難しさ
+#### The Difficulty of Noticing Tatenori
 
-縦乗りの人同士でコミュニケーションをしていても、その縦乗りという特徴に気付きません。他者が比較対象として機能しないからです。人は横乗りの人と出会って初めて、そこで縦乗りの存在に気付くことが出来ます。
+Even when tatenori people communicate with one another, they do not notice the characteristic called tatenori, because the other person does not function as a comparison. Only when one encounters a yokonori person for the first time does one become able to notice the existence of tatenori.
 
-この横乗りの人と出会った時、彼は、単に比較対象を持つことが出来たに過ぎません。ここで必ずしも縦乗りの存在に気付くとは限らないのです。 そこから彼は横乗りという他者とぶつかりあい、そのぶつかりあいのなかで自分の違いに気付き、更にその自分自身の違いとぶつかりあい、そのぶつかりあっているものが相手の存在ではなく、自分自身の中に潜む自分自身の特質だったことに気付いて、敵が自分自身の中にいることを認識し、その敵と真摯に向き合う覚悟が出来なければ、その縦乗りの存在に気付くことができません。
+Even when such an encounter with yokonori occurs, however, it means no more than that the person has acquired a point of comparison. That alone does not necessarily mean they notice the existence of tatenori. From there, the person clashes with the otherness called yokonori, notices their own difference within that clash, then clashes with that difference within themselves, and eventually realizes that what they have been clashing with is not merely the other person, but their own characteristic hidden inside themselves. Unless they can recognize that the enemy is inside themselves and find the resolve to face that enemy sincerely, they cannot truly notice the existence of tatenori.
 
-─── これは仏門の修行に相当する非常に高い困難が伴う精神作業です。十年以上に渡って、その哲学的な差異と真摯に向かいあって自己を探求する事は決して容易なことではありません。
+This is mental work of extremely high difficulty, comparable to Buddhist practice. To confront a philosophical difference sincerely for more than ten years and search the self through it is by no means easy.
 
-ここではこの縦乗りという自分自身の中に潜む敵と向かい合う為の武器として、これまでに御紹介したリズム理論を駆使し、縦乗りが起こるメカニズムについて説明します。
+Here, as a weapon for facing the enemy called tatenori that lies hidden within oneself, I will use the rhythm theory introduced so far to explain the mechanism by which tatenori arises.
 
-その為にまず禅思想の十牛図を御紹介致します。十牛図は、縦乗りの人が自分自身の縦乗りに気付くまでの道程と多くの類似点があります。十牛図の意味を知ることは、縦乗りと向き合う為の大切な武器のひとつです。
-
-
-#### 縦乗り克服の道程と十牛図
-
-縦乗りを理解し克服する過程は、自分自身の認識と向き合ってそれを変容していく過程そのものといえます。認識そのものを変容していくわけですから、変容するまえにはその問題自体が見えいない状態にあります。そこから認識が変容することで問題の存在に気付いて、そこから更に認識が変容し、更に新しい問題の存在に気付いていくという自己参照性問題という高次哲学的な問題が含まれています。
-
-- 縦乗りの存在自体に全く気付いていない。
-- 縦乗りの存在には気付いたが違いがあるかまではつかみきれない。
-- 縦乗りに違いがあることには気付いたが、何が違うかまではつかみきれない。
-- 縦乗りとそうでないものの違いを指摘出来る、どこが違うかまではわからない。
-- 縦乗りとそうでないもののどこが違うかはわかったが、何故違うかまではわからない。
-- 縦乗りとそうでないものを比べて何故違うかわかったが、全体像はつかみきれていない。
-- 自分が全ての違いを把握していないということ自体に気付いていない。
-- 単独で横乗りで演奏できるようになったが、縦乗り音が聴こえるとつられて縦乗りに戻ってしまう。
-- 縦乗りに戻ってしまったことに気付いていない。
-- 違いは聞き取れていても、自分自身の身体を動かして非縦乗りの動作を実演出来ない。
-- 自分の動作が縦乗りになっていることに気付いていない。
-- 自分の動作が縦乗りになっていることに気付いていても縦乗りを直せない。
-- 自分の動作が縦乗りになっていることに気付いていても縦乗りを直せるが全ては直せない。
-- 意識しないと縦乗り動作を抑制出来ない。
-- 意識しないと縦乗りに戻ってしまう。
-- 意識しなくても縦乗りに戻らないで横乗りを維持できる。
-- 何も意識せずに横乗りを維持できる。
-- どんなときでも即座に縦乗りと横乗りを自由自在に切り替えることが出来る。
-
-─── この過程は中国禅思想の『十牛図』で非常にわかりやすく表されています。
+For that reason, I will first introduce the Zen concept of the Ten Bulls. The Ten Bulls has many similarities to the road by which a tatenori person comes to notice their own tatenori. To know the meaning of the Ten Bulls is one important weapon for confronting tatenori.
 
 
-#### 十牛図
+#### The Road to Overcoming Tatenori and the Ten Bulls
 
-十牛図とは、禅思想で使われる悟りに到るまでの道程を見える化した１０の図のことを指します。  十牛図には数多くの版が存在することが知られており、最も広く知られている版は、宋代の郭安の十牛図と普明禅師の十牛図だと考えられています。
+The process of understanding and overcoming tatenori can be described as nothing less than the process of confronting and transforming one's own recognition. Since it is recognition itself that is being transformed, before that transformation the problem itself is not visible. Then, as recognition transforms, one notices the existence of the problem; then recognition transforms still further, and one notices the existence of new problems. This contains the higher-order philosophical problem of self-reference.
 
-牛飼図は通常、詩と絵からなり、詩自体に短い序文が付いていることもあります。宋代以降、このような作品は数多く作られ、その中でも特に注目すべき3作が「清居」「郭安」「子徳」です。清居の作品は5図、郭安の作品は10図、子徳の作品は6図で、これらの作品の中で**郭安**の作品が最も完備していると考えられています。
+- One does not notice the existence of tatenori at all.
+- One notices the existence of tatenori, but cannot yet grasp that there is a difference.
+- One notices that there is a difference in tatenori, but cannot yet grasp what the difference is.
+- One can point out the difference between tatenori and what is not tatenori, but still does not know where the difference lies.
+- One understands where tatenori and non-tatenori differ, but still does not know why they differ.
+- One understands why they differ by comparing tatenori and non-tatenori, but still cannot grasp the whole picture.
+- One does not even notice that one has not grasped all the differences.
+- One becomes able to perform in yokonori alone, but as soon as a tatenori sound is heard, one is drawn back into tatenori.
+- One does not notice that one has fallen back into tatenori.
+- One can hear the difference, but cannot physically demonstrate non-tatenori movement with one's own body.
+- One does not notice that one's own movement has become tatenori.
+- One notices that one's movement has become tatenori, but cannot correct it.
+- One notices that one's movement has become tatenori and can correct it, but cannot correct everything.
+- Unless one is conscious of it, one cannot suppress tatenori movement.
+- Unless one is conscious of it, one falls back into tatenori.
+- Even without conscious effort, one can maintain yokonori without falling back into tatenori.
+- One can maintain yokonori without consciously thinking about anything.
+- At any time, one can instantly and freely switch between tatenori and yokonori.
+
+This process is represented with great clarity by the Chinese Zen teaching of the Ten Bulls.
+
+
+#### The Ten Bulls
+
+The Ten Bulls refers to ten images used in Zen thought to visualize the path toward enlightenment. It is known that many versions of the Ten Bulls exist, and the most widely known versions are thought to be the Ten Bulls of Kakuan from the Song dynasty and the Ten Bulls of Zen Master Puming.
+
+The ox-herding pictures usually consist of both poem and image, and the poem itself may sometimes be accompanied by a short preface. Since the Song dynasty, many such works have been produced, and among them the three particularly noteworthy ones are Qingju, Kakuan, and Zide. Qingju's work has five pictures, Kakuan's has ten, and Zide's has six. Among these works, Kakuan's is generally considered the most complete.
 
 <style>
   .ten-bulls-table {
@@ -11937,83 +11937,83 @@ I, the author, sincerely hope that this insight will serve as a foundation for c
 </tr>
 </tbody></table>
 
-#### 十牛図の意味
+#### The Meaning of the Ten Bulls
 
-以下で説明する十牛図は中国の仏教の学校 [学山禅院](http://www.xueshanchanyuan.com/index/article/detail/id/1570.html) の十牛図解説の抄訳です。
+The explanation of the Ten Bulls given below is an abridged translation of the Ten Bulls commentary by the Chinese Buddhist school [Xueshan Chanyuan](http://www.xueshanchanyuan.com/index/article/detail/id/1570.html).
 
-『十牛図』は、宋代の禅僧・廓庵禅師によってまとめられた修行の十段階を象徴的に描いた図と詩文です。牛は「本心（仏性）」を象徴しており、牛を探す旅を通して、人間が本来持っている仏性を自覚し、悟りに至るまでの道のりを表現しています。
+The *Ten Bulls* is a set of symbolic images and verses depicting ten stages of practice, compiled by the Song-dynasty Zen monk Kakuan Zenji. The bull symbolizes the "original mind" or Buddha-nature, and through the journey of searching for the bull, it expresses the road by which human beings awaken to the Buddha-nature they originally possess and arrive at enlightenment.
 
-この十段階は、単なる順番的な修行ではなく、**あらゆる瞬間に悟りのチャンスがある**ことを示しています。文字や形式にとらわれず、心の本質に立ち返ることが重要であると説いています。
+These ten stages are not merely a sequential program of practice. They show that **there is a chance for enlightenment in every moment**. They teach that what matters is returning to the essence of mind, without becoming bound by words or forms.
 
-#### 1. **尋牛（じんぎゅう）**
+#### 1. **Searching for the Bull**
 <img src="/offbeat-count/attachments/ten-bulls-01-尋牛.jpg"/>
 
-- 仏性を象徴する「牛」を探し求めて修行を始めたが、まだその牛を見つけることができない状態です。人間は本来仏性を備えているものの、それを忘れてしまい、煩悩や分別の世界に陥って真実の自己から遠ざかっています。
+- This is the state in which one has begun practicing in search of the "bull" that symbolizes Buddha-nature, but still cannot find it. Human beings originally possess Buddha-nature, yet forget it, fall into the world of delusion and discrimination, and drift away from their true self.
 
-迷いの中で、自分の本心を探し求めている段階です。牛（＝本心）は実は常にそこにあるのですが、私たちはそれに気づかず、外に求め続けます。仏法に出会い、ようやく「本心を探す」必要性に目覚めます。
+It is the stage of seeking one's true mind in the midst of confusion. The bull, that is, the true mind, is in fact always there, but we fail to notice it and keep seeking outside ourselves. On encountering the Buddhist teaching, one finally awakens to the need to search for the true mind.
 
-#### 2. **見跡（けんせき）**
+#### 2. **Seeing the Tracks**
 <img src="/offbeat-count/attachments/ten-bulls-02-見跡.jpg"/>
 
-- 経典や師の教えを手がかりとして仏性を探そうとしても、依然として煩悩や分別の世界から抜け出すことができず、牛そのものではなく牛の足跡しか見えていない状態です。
+- Even if one tries to search for Buddha-nature by relying on sutras or the teachings of a master, one still cannot escape the world of delusion and discrimination, and sees not the bull itself, but only its tracks.
 
-ようやく牛の足跡（＝本心の痕跡）を見つけます。日常生活の中の見聞触覚や感情のすべてに、本心の働きが現れていることに気づき始めます。ですが、多くの人はまだ文字や形式に執着し、真実の自心を見失っています。
+At last one finds the bull's tracks, that is, traces of the true mind. One begins to notice that the workings of the true mind appear in all the perceptions, sensations, and emotions of everyday life. Yet many people still cling to words and forms and lose sight of the true mind within themselves.
 
-#### 3. **見牛（けんぎゅう）**
+#### 3. **Seeing the Bull**
 <img src="/offbeat-count/attachments/ten-bulls-03-見牛.jpg"/>
 
-- 修行を積み重ねていくうちに、ついに牛の姿を実際に目の当たりにする段階です。真実の自己、仏性を実感し始める境地です。
+- This is the stage in which, after accumulating practice, one finally sees the bull itself with one's own eyes. It is the realm in which one begins to feel the true self, Buddha-nature.
 
-牛の姿がはっきりと見えてきます。つまり、仏性や本心を直接感じ始める段階です。六根（目・耳・鼻・舌・身・意）を通じて、あらゆる現象の中に仏性の働きを見出します。
+The figure of the bull comes clearly into view. In other words, this is the stage at which one begins directly to feel Buddha-nature and the true mind. Through the six faculties - eye, ear, nose, tongue, body, and mind - one begins to find the working of Buddha-nature in all phenomena.
 
-#### 4. **得牛（とくぎゅう）**
+#### 4. **Catching the Bull**
 <img src="/offbeat-count/attachments/ten-bulls-04-得牛.jpg"/>
 
-- 牛（仏性）を一度捉えたとしても、それを完全にコントロールするのは容易ではなく、時には逃げ出してしまうこともあるでしょう。修行の難しさと忍耐の必要性を象徴しています。
+- Even if one has once caught the bull, that is, Buddha-nature, it is not easy to control it completely, and at times it may still break free. This symbolizes both the difficulty of practice and the need for patience.
 
-ようやく牛を捕まえることができました。悟りの感覚が明確になりますが、まだ心は安定しておらず、妄想や習気（くせ）が強く、修行の努力が必要です。
+At last one is able to catch the bull. The sense of enlightenment becomes clear, yet the mind is still unstable, delusions and habits remain strong, and continued effort in practice is necessary.
 
-#### 5. **牧牛（ぼくぎゅう）**
+#### 5. **Taming the Bull**
 <img src="/offbeat-count/attachments/ten-bulls-05-牧牛.jpg"/>
 
-- 牛をしっかりと飼いならす段階を表します。自分の本性（仏性）を確かに手に入れたら、それを失わないよう注意深く見守り制御する必要があります。修行が深まるにつれ牛は徐々に従順になります。
+- This represents the stage of steadily taming the bull. Once one has truly gained one's own nature, that is, Buddha-nature, one must watch over and regulate it carefully so as not to lose it. As practice deepens, the bull gradually becomes more obedient.
 
-牛をしっかりと調教していく段階です。日常生活の中で心を見守り、妄想が起きたらすぐに気づくようにします。この「牧牛」の修行が、実際の修行の核心です。
+This is the stage of training the bull thoroughly. In everyday life one watches over the mind and becomes able to notice immediately when delusion arises. This practice of "taming the bull" is the true core of real practice.
 
-#### 6. **騎牛帰家（きぎゅうきか）**
+#### 6. **Riding the Bull Home**
 <img src="/offbeat-count/attachments/ten-bulls-06-騎牛帰家.jpg" />
 
-- 牛と牧童（修行者）が完全に一体化し、心の平安が得られた状態を表します。もはや牛を制御する必要はなくなり本来あるべき場所へと穏やかに帰ってきたことを表します。
+- This represents the state in which the bull and the herdsman, that is, the practitioner, have become completely one, and peace of mind has been attained. There is no longer any need to control the bull, and one returns gently to the place where one originally belongs.
 
-牛に乗って、ゆったりと家に帰る段階です。心の安定と解放感があり、無理せずとも心が本質と調和しています。悟りの余韻の中で、自然体で生きることができるようになります。
+This is the stage of riding the bull leisurely back home. There is mental stability and a sense of release, and even without forcing anything the mind is in harmony with its essence. One becomes able to live naturally within the lingering resonance of enlightenment.
 
-#### 7. **忘牛存人（ぼうぎゅうそんじん）**
+#### 7. **Forgetting the Bull, Remaining with the Person**
 <img src="/offbeat-count/attachments/ten-bulls-07-忘牛存人.jpg" />
 
-- 心の本来の場所に戻った修行者は、牛を捉えたことすら忘れてしまう状態を表しています。この段階では、牛（仏性）は自然なものとなり、特別な意識の対象ではなくなります。
+- This represents the state in which the practitioner, having returned to the original place of the mind, has forgotten even the fact of catching the bull. At this stage, the bull, that is, Buddha-nature, has become natural and is no longer a special object of consciousness.
 
-牛（仏性）を忘れて、人（主体）だけが残ります。すでに牛は完全に調伏され、意識せずとも心は乱れず、平常心で生活できるようになります。悟りへの執着も消え、「無為自然」の境地に至ります。
+The bull, that is, Buddha-nature, is forgotten, and only the person, the subject, remains. The bull has already been completely tamed, and even without conscious effort the mind no longer becomes disturbed, allowing one to live in ordinary composure. Attachment even to enlightenment disappears, and one reaches the state of effortless naturalness.
 
-#### 8. **人牛倶忘（にんぎゅうぐぼう）**
+#### 8. **Both Person and Bull Forgotten**
 <img src="/offbeat-count/attachments/ten-bulls-08-人牛倶忘.jpg" />
 
-- 牛を捉えようとした理由も、牛を捉えたことも、そしてその行為そのものも忘れ去られた状態を表します。主体と対象の区別が消え、忘れること自体もない完全な無我・無心の境地を表します。
+- This represents the state in which the reason for trying to catch the bull, the fact of having caught it, and even the act itself have all been forgotten. The distinction between subject and object disappears, and one reaches the complete state of no-self and no-mind in which there is not even any act of forgetting.
 
-人も牛も共に忘れ去られる段階です。修行の対象や主体すら意識から消え、「無心」「無我」の状態となります。知や言葉の働きも超えており、言葉では言い表せない悟りの深みに達します。
+This is the stage in which both person and bull are forgotten together. Even the object and subject of practice disappear from consciousness, and one enters the state of no-mind and no-self. One goes beyond the workings of knowledge and language and reaches a depth of enlightenment that cannot be expressed in words.
 
-#### 9. **返本還源（へんぽんかんげん）**
+#### 9. **Returning to the Source**
 <img src="/offbeat-count/attachments/ten-bulls-09-返本還源.jpg" />
 
-- あらゆる執着や分別が消え去った清浄無垢な境地に戻った状態を表します。ありのままの世界をあるがままに受け入れ、真実の自己と世界の根源的な姿を認識する状態になったことを示しています。
+- This represents the state of returning to a pure and immaculate realm from which all attachment and discrimination have disappeared. It shows the state of accepting the world exactly as it is and recognizing both the true self and the fundamental nature of the world.
 
-悟りを得た後、さらに「本来のあり方」へと帰っていきます。悟った人は、世俗にとらわれず、また悟りにもとらわれません。ただ静かに、自然のままに生きる姿が描かれます。
+After attaining enlightenment, one returns still further to "the way things originally are." The awakened person is bound neither by worldly concerns nor by enlightenment itself. What is portrayed is a life lived quietly and naturally.
 
-#### 10. **入鄽垂手（にってんすいしゅ）**
+#### 10. **Entering the Marketplace with Open Hands**
 <img src="/offbeat-count/attachments/ten-bulls-10-入鄽垂手.jpg" />
 
-- 悟りを得たとしても、その境地に留まっているだけでは無意味ということを表しています。再び俗世の中に入り、人々と共に生き、人々に安らぎを与え、慈悲と智慧をもって導くことこそが究極の目的だということを表しています。
+- This shows that even after attaining enlightenment, it is meaningless merely to remain in that state. The ultimate purpose is to reenter the ordinary world, live together with other people, bring them peace, and guide them with compassion and wisdom.
 
-最後の段階では、修行を完成させた人がふたたび世俗の中に戻り、見かけは普通の人として生きます。修行や悟りの姿を見せびらかすことなく、人々と自然に関わりながら、仏法を伝えていきます。
+In the final stage, the person who has completed practice returns once more to ordinary society and outwardly lives as an ordinary person. Without flaunting the appearance of practice or enlightenment, that person lives in natural contact with others and conveys the Buddha Dharma.
 
 
 

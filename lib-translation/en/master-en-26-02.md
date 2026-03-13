@@ -1,154 +1,154 @@
-### 縦乗りと防衛機制
+### Tatenori and Defense Mechanisms
 
-#### 一方向性がもたらす心理的防衛機制
+#### The Psychological Defense Mechanisms Produced by Unidirectionality
 
-縦乗りという大きな障壁の存在に気付いた人が取るリアクションは、様々です。
+People react in many different ways when they become aware of the existence of the great barrier called tatenori.
 
-勿論、縦乗りを直す必要はありません。縦乗りは欠点ではありません。縦乗りを辞めることを強制する理由は存在しないのです。  ─── {{<meta var.RDO.en>}} は飽くまでも、他者の文化に対する敬意と尊重の手段のひとつであり、自分と他者との違いをはっきりと認識した上で、ここで敢えて横乗りに打って出る決意をし、どうすれば横乗りを自分のアイデンティティとして取り込むことが出来るのかという問題と取り組む人に対しての、明確な解答を提供することが主目的にあります。縦乗りとぶつかった時、前に進むか留まるかを決めるのは皆様自分自身でしかありえません。
+Of course, there is no necessity to "fix" tatenori. Tatenori is not a defect. There is no reason to force anyone to stop being tatenori. {{<meta var.RDO.en>}}, after all, is only one means of showing respect and regard for the culture of others. Its primary purpose is to offer a clear answer to people who, having clearly recognized the difference between themselves and others, decide here and now to step deliberately into yokonori and ask how they can incorporate yokonori into their own identity. When one collides with tatenori, only each individual can decide whether to move forward or remain where they are.
 
-縦乗りから横乗りに切り替えるという問題に対して向き合った時、人は絶望します。
+When people confront the problem of switching from tatenori to yokonori, they despair.
 
-縦乗りの向こうにある絶対的な欲望の世界と、縦乗りの障壁としての絶望的な大きさの対比は、直視しがたい要素があります。ここで人はしばしば自分の心の安定を守る為に無意識のうちに様々な心理的機制が生じます。 自分自身の心に生じた心理機制を自覚した上で真っ直ぐに向き合っていく為に、この心理機制についてよく知ることは大切です。
-
-
-しばしば縦乗りを見た人は自問します ─── そもそも何故縦乗りに気付かなければならないのでしょうか。
-
-  - 何故、縦乗りではいけないのか
-  - 何故、縦乗りに気付く必要があるのか
-  - 何故、縦乗りと向き合わなければいけないのか
-  - 何故、縦乗りを知る必要があるのか
-  - 何故、縦乗りを直さなければいけないのか
-  - 何故、縦乗りと向き合わなければいけないのか
-  - 何故、横乗りを知る必要があるのか
-  - 何故、横乗りと仲良くする必要があるのか
-
-ここで最も大切なことは、「実は彼は、縦乗りを克服しなくていいとは思っていない」ということです。それどころか既に縦乗りに気付いており、何度も縦乗りを克服する為に格闘しその難しさとぶつかって、打ちひしがれて苦しんでいます。 縦乗りに気付けば気付くほど、その解決の難しさと直面し、絶望する。絶望する恐怖からその困難の直視を避けて、責任転嫁しようとします。つまり合理化しようとする。
-
-ここで彼の行動を「縦乗り問題を軽視している」と解釈し、「縦乗りの問題の重要性をわからせてやろう」とすればするほど、彼は強く拒絶します。
-
-つまり心理機制をよく知ることは自分自身を理解するためにも他者を理解する上ためにも大切なことといえます。
-
-#### 縦乗りとは何か
-
-#### 縦乗りとは
-
-#### 縦乗りの問題
-
-縦乗りの問題は大きく分けて２つあります。
-
-* まず日本語を母国語とする人はシンコペーションを認識すること自体に大きな困難があること。
-* 日本社会でシンコペーションを習得しようとすると、リズムを習得する困難さと向き合う以上に、大きな社会的圧力と向き合う必要があること。
-
-#### 縦乗りの技術的問題
-縦乗りと横乗りは同時に演奏できない。
-
-#### 横乗り大音量錯覚について
-* 縦乗りの人々にとって横乗りは大音量に聴こえる。
-    * → 音ずれが音の分離をはっきりさせる。
-    * → 未体験の音の際立ちに衝撃を受ける縦乗りの人々
-    * → 「音が大きすぎる！！！！」というリアクション
-* 縦乗りセッション社会で、横乗りが排除される構造を生み出す。
-
-#### 縦乗り防衛機制について
-* 誰もがグルーヴしたいと思っています！
-    * →しかし日本語の持つ制約から日本語を母国語とする人は外国のグルーヴを演奏することに大きな困難を伴います。
-    * → 誰もが海外の音楽に強い憧れを持ち、音楽を志します。そして誰もが音楽に対して人生を賭して莫大な犠牲を払っています。しかし長年の苦労ののちに、実は真の音楽が全く手に入らないものだと気付いた時、彼は精神崩壊の危機にさらされます。
-    * → そこで日本人独特なリアクションが生まれます。
-    * → これが縦乗りゴーマニズムです。
-
-#### 縦乗りゴーマニズムとは
-* 縦乗りというリズム自体は問題ではない点に注意。
-* 横乗りというリズムが手に入らないと気付いたときに、妬み嫉みというネガティブな感情が生まれる。
-* 絶望を直視する事を回避する為にあらゆる心理的防衛機制が働きます。
-* それがしばしば、グルーヴを志す人への攻撃となって表出します。
+There is something hard to face directly in the contrast between the absolute world of desire that lies beyond tatenori and the hopelessly vast scale of tatenori as a barrier. At that point, various psychological mechanisms often arise unconsciously in order to protect the stability of one's own mind. To face those mechanisms directly after becoming aware of them in oneself, it is important to understand them well.
 
 
-#### 縦乗り防衛機制の例
+People who have seen tatenori often ask themselves the following question: why, in the first place, must one even become aware of tatenori?
 
-##### 抑圧
-不快・苦痛の感情を意識に受け入れがたく、無意識のうちに忘れる・気づかないようにする。これが意図的・意識的である場合は、抑制という。
+  - Why is tatenori not enough?
+  - Why is it necessary to become aware of tatenori?
+  - Why must one confront tatenori?
+  - Why is it necessary to know tatenori?
+  - Why must tatenori be corrected?
+  - Why must one confront tatenori?
+  - Why is it necessary to know yokonori?
+  - Why is it necessary to make peace with yokonori?
 
-> 「えっ？縦乗りなんか気にしてるの、岡だけじゃない？」
+The most important point here is this: in truth, the person does not really believe that tatenori can simply be left unconfronted. On the contrary, that person has already noticed tatenori, has repeatedly struggled to overcome it, has collided with its difficulty, and is crushed and suffering. The more clearly one notices tatenori, the more directly one confronts the difficulty of solving it, and the more one despairs. Out of fear of that despair, one avoids looking the difficulty in the face and tries to shift responsibility elsewhere. In other words, one tries to rationalize it.
 
-##### 否認
-現実を自分が知覚していながら、意識から排除して認めないこと苦痛に対して「大したことはない」と思う。
+At that point, the more one interprets that person's behavior as "making light of the tatenori problem" and tries to "make them understand how important the tatenori problem is," the more strongly that person will reject it.
 
-> 「縦乗りなんて、別に大した問題じゃないですよね？」
+In other words, understanding psychological mechanisms is important both for understanding oneself and for understanding others.
 
-##### 退行
-早期の発達段階へ戻ること。子ども返り。
+#### What Is Tatenori?
 
-> 「ふざけんなよ！このやろう！（演奏中いきなり怒鳴る）」
+#### Tatenori
 
-##### 転移
-特定の人に向けていた感情を、よく似た人（精神分析の治療者)に置き換える。陽性転移は、好意・依存、陰性転移は、敵意や嫌悪の感情を持つ。
+#### The Problem of Tatenori
 
-> 「いやー岡さんの演奏、ウェスモンゴメリみたいですね！」
-> 「いやー岡さんの言ってること、ジョージ大塚と同じですよね。」
+The problem of tatenori has two major dimensions.
 
-##### 投影
-相手に向けての感情を自分のものとして受け止めがたいため、相手が自分に向けていると思う。
+* First, native speakers of Japanese have great difficulty even perceiving syncopation itself.
+* Second, when one tries to acquire syncopation within Japanese society, one must face not only the difficulty of learning rhythm but also heavy social pressure.
 
-> 「なんでそうやって縦乗りを否定するんですか！？」
+#### The Technical Problem of Tatenori
+Tatenori and yokonori cannot be played simultaneously.
 
-##### 反動形成
-本心とは逆の言動をする。弱者のつっぱり。
+#### On the Yokonori Loudness Illusion
+* To tatenori people, yokonori sounds loud.
+    * -> Rhythmic displacement makes the separation of sounds stand out clearly.
+    * -> Tatenori people are shocked by the prominence of an unfamiliar kind of sound.
+    * -> The reaction becomes: "The sound is way too loud!!!!"
+* This creates a structure in which yokonori is excluded within tatenori session culture.
 
-> 「いや俺、別に横乗りになりたいと思っていないし。」
+#### On Tatenori Defense Mechanisms
+* Everyone wants to groove.
+    * -> But because of the constraints of Japanese, native speakers of Japanese face major difficulty when trying to perform foreign groove.
+    * -> Everyone strongly admires overseas music and aspires to music. Everyone stakes life itself on music and pays enormous sacrifices for it. But after many years of hardship, when a person realizes that true music is in fact not something they can obtain at all, that person is placed at risk of psychological collapse.
+    * -> At that point, uniquely Japanese reactions arise.
+    * -> This is what I call **Tatenori Gomanism**.
 
-##### 昇華
-反社会的な欲求を、社会的に適応の高いものに置き換える。
+#### What Is Tatenori Gomanism?
+* Note carefully that the rhythm called tatenori is not itself the problem.
+* When one realizes that yokonori cannot be obtained, negative emotions such as jealousy and envy arise.
+* In order to avoid facing that despair directly, all kinds of psychological defense mechanisms begin to operate.
+* These often appear outwardly as attacks on people who aspire to groove.
 
-> 「横乗りをマスターしたくて今でも毎日メトロノーム練習続けています。」
 
-##### 補償
-劣等感を他の方向で補う。「運動で負けたら、勉強で勝て」
+#### Examples of Tatenori Defense Mechanisms
 
-> 「私この間、ギブソンのビンテージ買ったんですよ！◯◯万円もしたんです！」
+##### Repression
+When unpleasant or painful feelings are hard to admit into consciousness, one unconsciously forgets them or prevents oneself from noticing them. When this is intentional and conscious, it is called suppression.
 
-##### 合理化
-一見理論的であるかのように装うが、実は不都合な現実を歪めたり、都合のよい現実を取り上げて、自分の欲求や感情を正当化する(責任転嫁）。
+> "Huh? Aren't you the only one who cares about tatenori, Oka?"
 
-> 「岡さんは、そうやって縦乗りを理論的に説明しているようでいて、結局自分自身の劣等感を補償しているだけですよ。その証拠に誰も岡さんに同意している人がいないじゃないですか。現実を直視出来ていないのはどっちなんですか？」
+##### Denial
+One perceives reality and yet excludes it from consciousness and refuses to admit it, telling oneself that the pain is "not a big deal."
+
+> "Tatenori isn't really that big a problem, is it?"
+
+##### Regression
+Returning to an earlier developmental stage. A kind of childish reversion.
+
+> "Screw you! You bastard!" (suddenly shouts during the performance)
+
+##### Transference
+Replacing emotions originally directed toward a particular person with a very similar person, such as the psychoanalytic therapist. Positive transference takes the form of affection or dependency, while negative transference takes the form of hostility or disgust.
+
+> "Wow, Oka-san, your playing sounds just like Wes Montgomery!"
+> "Wow, what you're saying is exactly the same as George Otsuka, isn't it?"
+
+##### Projection
+Because one finds it hard to accept feelings directed toward another person as one's own, one imagines that the other person is directing those feelings toward oneself.
+
+> "Why are you denying tatenori like that!?"
+
+##### Reaction Formation
+Speaking and acting in a way that is the opposite of one's true feelings.
+
+> "No, I don't really want to become yokonori anyway."
+
+##### Sublimation
+Replacing antisocial desires with something more socially adaptive.
+
+> "I still keep practicing with the metronome every single day because I want to master yokonori."
+
+##### Compensation
+Making up for feelings of inferiority in some other direction. "If you lose in athletics, win in academics."
+
+> "I bought a vintage Gibson the other day! It cost me hundreds of thousands of yen!"
+
+##### Rationalization
+Making something look logical on the surface while actually distorting an inconvenient reality, or selecting only convenient parts of reality, in order to justify one's own desires and emotions by shifting responsibility elsewhere.
+
+> "Oka-san, you talk as if you're explaining tatenori theoretically, but in the end you're just compensating for your own inferiority complex. The proof is that nobody agrees with you. So which of us is the one who can't face reality?"
 >
-> 「またリズム警察ですかｗｗｗ」
+> "Here comes the rhythm police again lol"
 >
-> 「リズムおじさんｗｗｗ」
+> "Rhythm old man lol"
 
-#### 縦乗りゴーマニズムへの対応の難しさ
-* 縦乗りゴーマニズムはしばしば、集団ヒステリ的な様相を帯びて、対個人への集団攻撃という現象につながりやすい。
-    * → 日本社会が持ついじめの構造を持ち始める。
-    * → 結果的に、セッション社会でグルーヴを志すどころか、リズムについての話題を出すだけで、過敏な反応を受けやすい。
+#### The Difficulty of Dealing with Tatenori Gomanism
+* Tatenori Gomanism often takes on the aspect of collective hysteria and easily leads to the phenomenon of a group attacking an individual.
+    * -> It begins to take on the structure of bullying found in Japanese society.
+    * -> As a result, within session culture, simply bringing up the topic of rhythm can provoke hypersensitive reactions, let alone aspiring to groove.
 
-#### 縦乗りゴーマニズムの問題点
-* 縦乗りゴーマニズムと遭遇することを恐れる。
-    * → リズムの話題に触れることが難しい。
-    * → 横乗りグルーヴを目指している人同士が知り合う機会がない。
+#### The Problems Caused by Tatenori Gomanism
+* People become afraid of encountering Tatenori Gomanism.
+    * -> It becomes difficult even to touch on the topic of rhythm.
+    * -> People who aspire to yokonori groove have no opportunity to meet each other.
 
-#### 縦乗りに対するあるべき対応
-* 縦乗りと横乗りのバランスを取る
+#### The Proper Response to Tatenori
+* Strike a balance between tatenori and yokonori.
 
 
-#### 縦乗りと横乗りのバランスを考える
-* バイクを作る
-    * 確実さと安定を重んずる
-        * → 縦乗り
-* バイクに乗る
-    * 不安定さがもたらす自由を楽しむ
-        * →横乗り
-#### 現代日本人として完全な横乗りは破滅を意味する
-* 実は、縦乗りを捨てれば横乗りになるのは容易い。
-* むしろ、いつでも好きなときに横乗りに切り替えることの出来る能力を獲得する。
-* そのために、横乗りを縦乗りで再解釈し、切り替える為のトリガとする。
+#### Considering the Balance Between Tatenori and Yokonori
+* Building a motorcycle
+    * Valuing certainty and stability
+        * -> tatenori
+* Riding a motorcycle
+    * Enjoying the freedom brought by instability
+        * -> yokonori
+#### For a Modern Japanese Person, Complete Yokonori Means Ruin
+* In fact, if one simply throws away tatenori, becoming yokonori is easy.
+* Rather, one should acquire the ability to switch into yokonori whenever one wishes.
+* To do that, reinterpret yokonori through tatenori and use it as a trigger for switching.
 
-#### 縦乗りの良さを横乗りで伝える
-* 演歌・アニソン・ゲーム音楽等々…世界は日本を求めている。
-* → しかし縦乗りは横乗りの人々にとって理解不能。
-* → 横乗りを習得し、縦乗りを横乗りに翻訳する。
+#### Conveying the Merits of Tatenori Through Yokonori
+* Enka, anime songs, game music, and so on... the world wants Japan.
+* -> But tatenori is unintelligible to yokonori people.
+* -> Master yokonori, and translate tatenori into yokonori.
 
-#### 縦乗りの良さを横乗りで伝える
-* オフビートメトロノーム練習
-* オフビートカウント練習
+#### Conveying the Merits of Tatenori Through Yokonori
+* Offbeat metronome practice
+* Offbeat Count practice
 
 
 
@@ -229,5 +229,4 @@
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">【外人が演奏する縦乗り】この方は日本語のリズムと英語のリズムの違いに気付いている ── が見事なまでに縦乗りに失敗している。これは彼が日本語話者でないことを表している。リエゾンによって倒置するオフビートがあり、オンビートは全てレイドバックして遅れている。<br><br> <a href="https://t.co/5MrK0hKUHo">https://t.co/5MrK0hKUHo</a> <a href="https://t.co/oJnPHqAaza">pic.twitter.com/oJnPHqAaza</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1573036257588178944?ref_src=twsrc%5Etfw">September 22, 2022</a></blockquote></div>
 -->
-
 

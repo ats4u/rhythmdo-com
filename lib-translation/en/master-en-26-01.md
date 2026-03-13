@@ -1,28 +1,27 @@
-### 縦乗りの一方向性について
+### On Tatenori Unidirectionality
 
-ここで**{{<meta var.TATENORI_ONEWAY.en>}}** についてお話したいと思います。横乗りの人が縦乗りの人のリズム感覚を模倣しようとする時、数年程度練習すればある程度は習得することが出来ます。しかし縦乗りの人が横乗りのリズム感覚を模倣しようとすると最低でも10年以上、場合によっては20年以上かけても習得できないこともあります。 このことを**{{<meta var.TATENORI_ONEWAY.en>}}** と呼びます。
-
-
-縦乗りと横乗りはリズム解釈のルール自体が異なるため、コミュニケーションを取ることができません。 一緒に言語を話そうとする時、或いは一緒に音楽を演奏しようとする時 ─── 必ず一方が自分のリズム感を封印し相手のリズム感に同調する必要があります。ところが、横乗りの人は縦乗りに簡単に合わせることができるのに、縦乗りの人は横乗りの人に合わせること容易ではありません。これが **{{<meta var.TATENORI_ONEWAY.en>}}** です。
-
-横乗りの人は、弱拍が先行する感覚を使わないようにすることで強拍が先行する状態をシミュレートすることが出来ます。しかし縦乗りの人は、強拍が先行する感覚しか持たない為、新たに練習することで弱拍が先行する感覚を作り出す必要性が生じます。
-
-日本外の世界の大半の言語は横乗りです。 これを音韻学的に言うと『世界中の殆どの言語は、シラブル拍リズムまたはストレス拍リズムというリズム構造を持っている』ということができます。 つまり世界中の音楽は横乗りが基盤になったコミュニケーション方法が主流なのです。 世界的には縦乗り…つまりモーラ拍リズムをリズム構造として持つ言語はとても少ないのです。一説によると完全なモーラ拍リズム言語は日本語しかないという説もあります。
-
-みんなが横乗りで演奏している時に、「私は縦乗りから変えない」と主張した場合、その場にいる人全員 ─── その場にいる人が2名であれば2名が ─── その場にいる人が1000人ならば1000人全員が、縦乗りに合わせなければいけないということを意味します。
-
-同じことは日本国内でも起こります。何故ならば日本各地の方言は必ずしもモーラ拍リズムで統一されているわけではないからです。実は日本語の方言は、東に行くほどストレス拍リズムが強くなるという説があります。発音の省略が多く早口な江戸弁をはじめ、東北弁の多くは、標準的な日本語とことなり、ストレス拍言語に特徴的な発音の短縮が多く見られます。また関東・東北の多くの民謡は、完全な縦乗りではなく、しばしば長い弱起が見られます。
-
-多様性への対応力は、豊かさの大切な基盤でもあります。広い世界に出ていけば出ていくほど、異質な人々と激しくぶつかりあう結果となるでしょう。遠く離れれば離れるほど横乗りというリズム感覚が主流になり、縦乗りというイデオロギーが否定される機会は増えるでしょう。縦乗りとは本質的にイデオロギー的孤独と言えます。
+Here I would like to discuss **{{<meta var.TATENORI_ONEWAY.en>}}**. When a yokonori person tries to imitate the rhythmic sense of a tatenori person, that person can acquire it to some degree with a few years of practice. But when a tatenori person tries to imitate the rhythmic sense of a yokonori person, it may take at least ten years, and in some cases even twenty years may not be enough. I call this **{{<meta var.TATENORI_ONEWAY.en>}}**.
 
 
-広い社会で自由に行動するためには、縦乗りから横乗りに、横乗りから縦乗りに、自由に切り替えることが必要になります。 縦乗りの人が縦乗りを克服することは、或いは横乗りの人が横乗りを克服することは、広い社会に出る時に武器になるのです。
+Because tatenori and yokonori differ in the very rules by which rhythm is interpreted, they cannot simply communicate with each other as they are. Whenever people try to speak language together or perform music together, one side must always suppress its own rhythmic sense and synchronize with the other. Yet while yokonori people can adjust to tatenori comparatively easily, it is not easy for tatenori people to adjust to yokonori people. That is **{{<meta var.TATENORI_ONEWAY.en>}}**.
+
+Yokonori people can simulate a strong-beat-leading state by refraining from using the sense that weak beats come first. Tatenori people, however, possess only the sense that strong beats come first, so they must create, through new practice, a sense in which weak beats come first.
+
+Most languages in the world outside Japan are yokonori. In phonological terms, this means that most of the world's languages possess a rhythmic structure of either syllable-timed rhythm or stress-timed rhythm. In other words, the dominant communicative basis of music worldwide is yokonori. Globally, languages whose rhythmic structure is tatenori, that is, mora-timed rhythm, are very few. According to one view, Japanese may be the only fully mora-timed language.
+
+When everyone is performing in yokonori and someone insists, "I will not change from tatenori," that means that everyone present, whether there are 2 people or 1,000 people, must align themselves to tatenori.
+
+The same thing happens inside Japan as well, because dialects throughout Japan are not necessarily unified under mora-timed rhythm. In fact, there is a theory that Japanese dialects become more stress-timed as one goes east. Beginning with the rapid, heavily reduced Edo dialect, many Tohoku dialects, unlike standard Japanese, show the kinds of pronunciation reduction characteristic of stress-timed languages. Likewise, many folk songs from Kanto and Tohoku are not fully tatenori, but often contain long anacruses.
+
+The ability to respond to diversity is also an important foundation of cultural richness. The wider the world one enters, the more intensely one will collide with people who are different. The farther one goes, the more yokonori becomes the dominant rhythmic sense, and the more often the ideology of tatenori will be denied. Tatenori is, in essence, a form of ideological solitude.
 
 
-しかし、ここでこの{{<meta var.TATENORI_ONEWAY.en>}} が巨大な障害となって立ちはだかるのです。
+To act freely in a broad society, one must be able to switch freely from tatenori to yokonori and from yokonori to tatenori. For a tatenori person to overcome tatenori, or for a yokonori person to overcome yokonori, becomes a weapon when entering the wider world.
 
- {{<meta var.TATENORI_ONEWAY.en>}} は技術的な問題だけでなく精神的な問題を引き起こします。 これまで {{<meta var.TATENORI_ONEWAY.en>}} を克服する為に必要な理論や練習方法などの技術的な側面を御説明致しました。 しかしこれらの問題に取り組む以前の問題として、精神的な問題が生じ、問題の認識自体が難しくなってしまうために、そもそも {{<meta var.TATENORI_ONEWAY.en>}} に取り組むこと自体が難しいという問題が生じます。
 
-これらの問題に対して、心理的防衛機制と十牛図という２つの側面から理解を深めて行きます。
+But here, {{<meta var.TATENORI_ONEWAY.en>}} stands in the way as a massive obstacle.
 
+{{<meta var.TATENORI_ONEWAY.en>}} causes not only technical problems but also psychological ones. Up to now I have explained the technical side, such as the theory and practice methods needed to overcome {{<meta var.TATENORI_ONEWAY.en>}}. But even before one can address those technical problems, psychological problems arise, making it difficult even to recognize the problem properly, and therefore difficult to engage with {{<meta var.TATENORI_ONEWAY.en>}} in the first place.
+
+To deepen our understanding of these problems, I will examine them from two perspectives: psychological defense mechanisms and the Ten Bulls.
 

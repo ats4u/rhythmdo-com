@@ -1,5 +1,4 @@
-## 縦乗りがもたらす心理的問題 <!-- {#tatenori-and-psychology}-->
+## The Psychological Problems Caused by Tatenori <!-- {#tatenori-and-psychology}-->
 
-縦乗りを克服するに当たって直面する精神的問題について説明します。自分自身が縦乗りと向き合う上で直面する心理的問題、そして他者を指導するに当たって指導者と学習者が直面する指導上心理的問題、そして縦乗りと向き合った後で社会と向き合った時に直面する社会的問題について説明します。
-
+Here I will explain the psychological problems one faces when trying to overcome tatenori. I will discuss the psychological problems one confronts when facing one's own tatenori, the instructional and psychological problems faced by both teachers and learners when guiding others, and the social problems one encounters when facing society after having confronted tatenori.
 

@@ -1,64 +1,64 @@
-### 縦乗りと十牛図 {#know-yourself}
+### Tatenori and the Ten Bulls {#know-yourself}
 
 
-自分自身の縦乗りと気付くまでの道は、長く険しくそして辛い道です。しかし縦乗りを良く知り、縦乗りを克服した先にあるものは、何物にも代えがたい価値があります。 それは日本の良さと東アジアの良さ、東南アジアの良さ、そして欧米文化との良さ、そしてアフリカ文化との良さ、そして全世界の文化との良さを調和する為の長い道のりということも出来ます。 そのすばらしさが全て「縦乗り」という巨大な蓋によって覆い隠されているのです。
+The road to becoming aware of one's own tatenori is long, steep, and painful. But what lies beyond truly understanding tatenori and overcoming it has an irreplaceable value. It can also be described as a long road toward harmonizing the strengths of Japan, East Asia, Southeast Asia, Europe and America, Africa, and indeed the strengths of all the world's cultures. All of that richness is hidden beneath the enormous lid called tatenori.
 
-この巨大な蓋には大切な役割があります。この蓋がなければ日本は日本であることが出来ません。この蓋は日本を守る大切な防御壁となっている ─── と同時にこの蓋が日本のすばらしさを届ける弊害にもなっているのです。
+This enormous lid plays an important role. Without it, Japan could not be Japan. It is a vital defensive wall protecting Japan, and at the same time it is also an obstacle that prevents Japan's excellence from being conveyed outward.
 
-この蓋の存在を認識できるようになり、そしてそこにあることに気付き、そしてそれを自由に開け放ったり閉じたりすることが出来るようになるためには、長い修練が必要です。
+Long training is required before one can recognize the existence of this lid, notice that it is there, and become able to open and close it freely.
 
-この長い道のりは、禅の**十牛図** で説明される道程にとても良く似ています。そこでここでは十牛図を例にとって、この縦乗りに気付くまでの長い道のりを御説明したいと思います。
+This long road resembles very closely the path described in Zen by the **Ten Bulls**. So here I would like to use the Ten Bulls as an example to explain the long road leading up to the moment one notices tatenori.
 
-#### 自分自身の縦乗りに気付かない
+#### Not Noticing One's Own Tatenori
 
-歩いても縦乗り、走っても縦乗り、立っても縦乗り、座っても縦乗り、踊っても縦乗り、手を挙げても、頭を挙げても、手を下げても、頭を下げても、怒っても縦乗り、笑っても縦乗り、何をやっても縦乗り  ───日本人の動作には、客観的に見ると即座にそれとわかるはっきりとした特徴があります。
+Tatenori when walking, tatenori when running, tatenori when standing, tatenori when sitting, tatenori when dancing, tatenori when raising the hands, tatenori when raising the head, tatenori when lowering the hands, tatenori when lowering the head, tatenori when angry, tatenori when laughing, tatenori in whatever one does: objectively speaking, Japanese movement has clear and immediately recognizable characteristics.
 
-しかし日本人はこの特徴に気付く事が出来ません。何故なら比較対象を持たないからです。
+Yet Japanese people cannot notice those characteristics. The reason is that they have no point of comparison.
 
-#### 縦乗りに気付く難しさ
+#### The Difficulty of Noticing Tatenori
 
-縦乗りの人同士でコミュニケーションをしていても、その縦乗りという特徴に気付きません。他者が比較対象として機能しないからです。人は横乗りの人と出会って初めて、そこで縦乗りの存在に気付くことが出来ます。
+Even when tatenori people communicate with one another, they do not notice the characteristic called tatenori, because the other person does not function as a comparison. Only when one encounters a yokonori person for the first time does one become able to notice the existence of tatenori.
 
-この横乗りの人と出会った時、彼は、単に比較対象を持つことが出来たに過ぎません。ここで必ずしも縦乗りの存在に気付くとは限らないのです。 そこから彼は横乗りという他者とぶつかりあい、そのぶつかりあいのなかで自分の違いに気付き、更にその自分自身の違いとぶつかりあい、そのぶつかりあっているものが相手の存在ではなく、自分自身の中に潜む自分自身の特質だったことに気付いて、敵が自分自身の中にいることを認識し、その敵と真摯に向き合う覚悟が出来なければ、その縦乗りの存在に気付くことができません。
+Even when such an encounter with yokonori occurs, however, it means no more than that the person has acquired a point of comparison. That alone does not necessarily mean they notice the existence of tatenori. From there, the person clashes with the otherness called yokonori, notices their own difference within that clash, then clashes with that difference within themselves, and eventually realizes that what they have been clashing with is not merely the other person, but their own characteristic hidden inside themselves. Unless they can recognize that the enemy is inside themselves and find the resolve to face that enemy sincerely, they cannot truly notice the existence of tatenori.
 
-─── これは仏門の修行に相当する非常に高い困難が伴う精神作業です。十年以上に渡って、その哲学的な差異と真摯に向かいあって自己を探求する事は決して容易なことではありません。
+This is mental work of extremely high difficulty, comparable to Buddhist practice. To confront a philosophical difference sincerely for more than ten years and search the self through it is by no means easy.
 
-ここではこの縦乗りという自分自身の中に潜む敵と向かい合う為の武器として、これまでに御紹介したリズム理論を駆使し、縦乗りが起こるメカニズムについて説明します。
+Here, as a weapon for facing the enemy called tatenori that lies hidden within oneself, I will use the rhythm theory introduced so far to explain the mechanism by which tatenori arises.
 
-その為にまず禅思想の十牛図を御紹介致します。十牛図は、縦乗りの人が自分自身の縦乗りに気付くまでの道程と多くの類似点があります。十牛図の意味を知ることは、縦乗りと向き合う為の大切な武器のひとつです。
-
-
-#### 縦乗り克服の道程と十牛図
-
-縦乗りを理解し克服する過程は、自分自身の認識と向き合ってそれを変容していく過程そのものといえます。認識そのものを変容していくわけですから、変容するまえにはその問題自体が見えいない状態にあります。そこから認識が変容することで問題の存在に気付いて、そこから更に認識が変容し、更に新しい問題の存在に気付いていくという自己参照性問題という高次哲学的な問題が含まれています。
-
-- 縦乗りの存在自体に全く気付いていない。
-- 縦乗りの存在には気付いたが違いがあるかまではつかみきれない。
-- 縦乗りに違いがあることには気付いたが、何が違うかまではつかみきれない。
-- 縦乗りとそうでないものの違いを指摘出来る、どこが違うかまではわからない。
-- 縦乗りとそうでないもののどこが違うかはわかったが、何故違うかまではわからない。
-- 縦乗りとそうでないものを比べて何故違うかわかったが、全体像はつかみきれていない。
-- 自分が全ての違いを把握していないということ自体に気付いていない。
-- 単独で横乗りで演奏できるようになったが、縦乗り音が聴こえるとつられて縦乗りに戻ってしまう。
-- 縦乗りに戻ってしまったことに気付いていない。
-- 違いは聞き取れていても、自分自身の身体を動かして非縦乗りの動作を実演出来ない。
-- 自分の動作が縦乗りになっていることに気付いていない。
-- 自分の動作が縦乗りになっていることに気付いていても縦乗りを直せない。
-- 自分の動作が縦乗りになっていることに気付いていても縦乗りを直せるが全ては直せない。
-- 意識しないと縦乗り動作を抑制出来ない。
-- 意識しないと縦乗りに戻ってしまう。
-- 意識しなくても縦乗りに戻らないで横乗りを維持できる。
-- 何も意識せずに横乗りを維持できる。
-- どんなときでも即座に縦乗りと横乗りを自由自在に切り替えることが出来る。
-
-─── この過程は中国禅思想の『十牛図』で非常にわかりやすく表されています。
+For that reason, I will first introduce the Zen concept of the Ten Bulls. The Ten Bulls has many similarities to the road by which a tatenori person comes to notice their own tatenori. To know the meaning of the Ten Bulls is one important weapon for confronting tatenori.
 
 
-#### 十牛図
+#### The Road to Overcoming Tatenori and the Ten Bulls
 
-十牛図とは、禅思想で使われる悟りに到るまでの道程を見える化した１０の図のことを指します。  十牛図には数多くの版が存在することが知られており、最も広く知られている版は、宋代の郭安の十牛図と普明禅師の十牛図だと考えられています。
+The process of understanding and overcoming tatenori can be described as nothing less than the process of confronting and transforming one's own recognition. Since it is recognition itself that is being transformed, before that transformation the problem itself is not visible. Then, as recognition transforms, one notices the existence of the problem; then recognition transforms still further, and one notices the existence of new problems. This contains the higher-order philosophical problem of self-reference.
 
-牛飼図は通常、詩と絵からなり、詩自体に短い序文が付いていることもあります。宋代以降、このような作品は数多く作られ、その中でも特に注目すべき3作が「清居」「郭安」「子徳」です。清居の作品は5図、郭安の作品は10図、子徳の作品は6図で、これらの作品の中で**郭安**の作品が最も完備していると考えられています。
+- One does not notice the existence of tatenori at all.
+- One notices the existence of tatenori, but cannot yet grasp that there is a difference.
+- One notices that there is a difference in tatenori, but cannot yet grasp what the difference is.
+- One can point out the difference between tatenori and what is not tatenori, but still does not know where the difference lies.
+- One understands where tatenori and non-tatenori differ, but still does not know why they differ.
+- One understands why they differ by comparing tatenori and non-tatenori, but still cannot grasp the whole picture.
+- One does not even notice that one has not grasped all the differences.
+- One becomes able to perform in yokonori alone, but as soon as a tatenori sound is heard, one is drawn back into tatenori.
+- One does not notice that one has fallen back into tatenori.
+- One can hear the difference, but cannot physically demonstrate non-tatenori movement with one's own body.
+- One does not notice that one's own movement has become tatenori.
+- One notices that one's movement has become tatenori, but cannot correct it.
+- One notices that one's movement has become tatenori and can correct it, but cannot correct everything.
+- Unless one is conscious of it, one cannot suppress tatenori movement.
+- Unless one is conscious of it, one falls back into tatenori.
+- Even without conscious effort, one can maintain yokonori without falling back into tatenori.
+- One can maintain yokonori without consciously thinking about anything.
+- At any time, one can instantly and freely switch between tatenori and yokonori.
+
+This process is represented with great clarity by the Chinese Zen teaching of the Ten Bulls.
+
+
+#### The Ten Bulls
+
+The Ten Bulls refers to ten images used in Zen thought to visualize the path toward enlightenment. It is known that many versions of the Ten Bulls exist, and the most widely known versions are thought to be the Ten Bulls of Kakuan from the Song dynasty and the Ten Bulls of Zen Master Puming.
+
+The ox-herding pictures usually consist of both poem and image, and the poem itself may sometimes be accompanied by a short preface. Since the Song dynasty, many such works have been produced, and among them the three particularly noteworthy ones are Qingju, Kakuan, and Zide. Qingju's work has five pictures, Kakuan's has ten, and Zide's has six. Among these works, Kakuan's is generally considered the most complete.
 
 <style>
   .ten-bulls-table {
@@ -87,83 +87,83 @@
 </tr>
 </tbody></table>
 
-#### 十牛図の意味
+#### The Meaning of the Ten Bulls
 
-以下で説明する十牛図は中国の仏教の学校 [学山禅院](http://www.xueshanchanyuan.com/index/article/detail/id/1570.html) の十牛図解説の抄訳です。
+The explanation of the Ten Bulls given below is an abridged translation of the Ten Bulls commentary by the Chinese Buddhist school [Xueshan Chanyuan](http://www.xueshanchanyuan.com/index/article/detail/id/1570.html).
 
-『十牛図』は、宋代の禅僧・廓庵禅師によってまとめられた修行の十段階を象徴的に描いた図と詩文です。牛は「本心（仏性）」を象徴しており、牛を探す旅を通して、人間が本来持っている仏性を自覚し、悟りに至るまでの道のりを表現しています。
+The *Ten Bulls* is a set of symbolic images and verses depicting ten stages of practice, compiled by the Song-dynasty Zen monk Kakuan Zenji. The bull symbolizes the "original mind" or Buddha-nature, and through the journey of searching for the bull, it expresses the road by which human beings awaken to the Buddha-nature they originally possess and arrive at enlightenment.
 
-この十段階は、単なる順番的な修行ではなく、**あらゆる瞬間に悟りのチャンスがある**ことを示しています。文字や形式にとらわれず、心の本質に立ち返ることが重要であると説いています。
+These ten stages are not merely a sequential program of practice. They show that **there is a chance for enlightenment in every moment**. They teach that what matters is returning to the essence of mind, without becoming bound by words or forms.
 
-#### 1. **尋牛（じんぎゅう）**
+#### 1. **Searching for the Bull**
 <img src="/offbeat-count/attachments/ten-bulls-01-尋牛.jpg"/>
 
-- 仏性を象徴する「牛」を探し求めて修行を始めたが、まだその牛を見つけることができない状態です。人間は本来仏性を備えているものの、それを忘れてしまい、煩悩や分別の世界に陥って真実の自己から遠ざかっています。
+- This is the state in which one has begun practicing in search of the "bull" that symbolizes Buddha-nature, but still cannot find it. Human beings originally possess Buddha-nature, yet forget it, fall into the world of delusion and discrimination, and drift away from their true self.
 
-迷いの中で、自分の本心を探し求めている段階です。牛（＝本心）は実は常にそこにあるのですが、私たちはそれに気づかず、外に求め続けます。仏法に出会い、ようやく「本心を探す」必要性に目覚めます。
+It is the stage of seeking one's true mind in the midst of confusion. The bull, that is, the true mind, is in fact always there, but we fail to notice it and keep seeking outside ourselves. On encountering the Buddhist teaching, one finally awakens to the need to search for the true mind.
 
-#### 2. **見跡（けんせき）**
+#### 2. **Seeing the Tracks**
 <img src="/offbeat-count/attachments/ten-bulls-02-見跡.jpg"/>
 
-- 経典や師の教えを手がかりとして仏性を探そうとしても、依然として煩悩や分別の世界から抜け出すことができず、牛そのものではなく牛の足跡しか見えていない状態です。
+- Even if one tries to search for Buddha-nature by relying on sutras or the teachings of a master, one still cannot escape the world of delusion and discrimination, and sees not the bull itself, but only its tracks.
 
-ようやく牛の足跡（＝本心の痕跡）を見つけます。日常生活の中の見聞触覚や感情のすべてに、本心の働きが現れていることに気づき始めます。ですが、多くの人はまだ文字や形式に執着し、真実の自心を見失っています。
+At last one finds the bull's tracks, that is, traces of the true mind. One begins to notice that the workings of the true mind appear in all the perceptions, sensations, and emotions of everyday life. Yet many people still cling to words and forms and lose sight of the true mind within themselves.
 
-#### 3. **見牛（けんぎゅう）**
+#### 3. **Seeing the Bull**
 <img src="/offbeat-count/attachments/ten-bulls-03-見牛.jpg"/>
 
-- 修行を積み重ねていくうちに、ついに牛の姿を実際に目の当たりにする段階です。真実の自己、仏性を実感し始める境地です。
+- This is the stage in which, after accumulating practice, one finally sees the bull itself with one's own eyes. It is the realm in which one begins to feel the true self, Buddha-nature.
 
-牛の姿がはっきりと見えてきます。つまり、仏性や本心を直接感じ始める段階です。六根（目・耳・鼻・舌・身・意）を通じて、あらゆる現象の中に仏性の働きを見出します。
+The figure of the bull comes clearly into view. In other words, this is the stage at which one begins directly to feel Buddha-nature and the true mind. Through the six faculties - eye, ear, nose, tongue, body, and mind - one begins to find the working of Buddha-nature in all phenomena.
 
-#### 4. **得牛（とくぎゅう）**
+#### 4. **Catching the Bull**
 <img src="/offbeat-count/attachments/ten-bulls-04-得牛.jpg"/>
 
-- 牛（仏性）を一度捉えたとしても、それを完全にコントロールするのは容易ではなく、時には逃げ出してしまうこともあるでしょう。修行の難しさと忍耐の必要性を象徴しています。
+- Even if one has once caught the bull, that is, Buddha-nature, it is not easy to control it completely, and at times it may still break free. This symbolizes both the difficulty of practice and the need for patience.
 
-ようやく牛を捕まえることができました。悟りの感覚が明確になりますが、まだ心は安定しておらず、妄想や習気（くせ）が強く、修行の努力が必要です。
+At last one is able to catch the bull. The sense of enlightenment becomes clear, yet the mind is still unstable, delusions and habits remain strong, and continued effort in practice is necessary.
 
-#### 5. **牧牛（ぼくぎゅう）**
+#### 5. **Taming the Bull**
 <img src="/offbeat-count/attachments/ten-bulls-05-牧牛.jpg"/>
 
-- 牛をしっかりと飼いならす段階を表します。自分の本性（仏性）を確かに手に入れたら、それを失わないよう注意深く見守り制御する必要があります。修行が深まるにつれ牛は徐々に従順になります。
+- This represents the stage of steadily taming the bull. Once one has truly gained one's own nature, that is, Buddha-nature, one must watch over and regulate it carefully so as not to lose it. As practice deepens, the bull gradually becomes more obedient.
 
-牛をしっかりと調教していく段階です。日常生活の中で心を見守り、妄想が起きたらすぐに気づくようにします。この「牧牛」の修行が、実際の修行の核心です。
+This is the stage of training the bull thoroughly. In everyday life one watches over the mind and becomes able to notice immediately when delusion arises. This practice of "taming the bull" is the true core of real practice.
 
-#### 6. **騎牛帰家（きぎゅうきか）**
+#### 6. **Riding the Bull Home**
 <img src="/offbeat-count/attachments/ten-bulls-06-騎牛帰家.jpg" />
 
-- 牛と牧童（修行者）が完全に一体化し、心の平安が得られた状態を表します。もはや牛を制御する必要はなくなり本来あるべき場所へと穏やかに帰ってきたことを表します。
+- This represents the state in which the bull and the herdsman, that is, the practitioner, have become completely one, and peace of mind has been attained. There is no longer any need to control the bull, and one returns gently to the place where one originally belongs.
 
-牛に乗って、ゆったりと家に帰る段階です。心の安定と解放感があり、無理せずとも心が本質と調和しています。悟りの余韻の中で、自然体で生きることができるようになります。
+This is the stage of riding the bull leisurely back home. There is mental stability and a sense of release, and even without forcing anything the mind is in harmony with its essence. One becomes able to live naturally within the lingering resonance of enlightenment.
 
-#### 7. **忘牛存人（ぼうぎゅうそんじん）**
+#### 7. **Forgetting the Bull, Remaining with the Person**
 <img src="/offbeat-count/attachments/ten-bulls-07-忘牛存人.jpg" />
 
-- 心の本来の場所に戻った修行者は、牛を捉えたことすら忘れてしまう状態を表しています。この段階では、牛（仏性）は自然なものとなり、特別な意識の対象ではなくなります。
+- This represents the state in which the practitioner, having returned to the original place of the mind, has forgotten even the fact of catching the bull. At this stage, the bull, that is, Buddha-nature, has become natural and is no longer a special object of consciousness.
 
-牛（仏性）を忘れて、人（主体）だけが残ります。すでに牛は完全に調伏され、意識せずとも心は乱れず、平常心で生活できるようになります。悟りへの執着も消え、「無為自然」の境地に至ります。
+The bull, that is, Buddha-nature, is forgotten, and only the person, the subject, remains. The bull has already been completely tamed, and even without conscious effort the mind no longer becomes disturbed, allowing one to live in ordinary composure. Attachment even to enlightenment disappears, and one reaches the state of effortless naturalness.
 
-#### 8. **人牛倶忘（にんぎゅうぐぼう）**
+#### 8. **Both Person and Bull Forgotten**
 <img src="/offbeat-count/attachments/ten-bulls-08-人牛倶忘.jpg" />
 
-- 牛を捉えようとした理由も、牛を捉えたことも、そしてその行為そのものも忘れ去られた状態を表します。主体と対象の区別が消え、忘れること自体もない完全な無我・無心の境地を表します。
+- This represents the state in which the reason for trying to catch the bull, the fact of having caught it, and even the act itself have all been forgotten. The distinction between subject and object disappears, and one reaches the complete state of no-self and no-mind in which there is not even any act of forgetting.
 
-人も牛も共に忘れ去られる段階です。修行の対象や主体すら意識から消え、「無心」「無我」の状態となります。知や言葉の働きも超えており、言葉では言い表せない悟りの深みに達します。
+This is the stage in which both person and bull are forgotten together. Even the object and subject of practice disappear from consciousness, and one enters the state of no-mind and no-self. One goes beyond the workings of knowledge and language and reaches a depth of enlightenment that cannot be expressed in words.
 
-#### 9. **返本還源（へんぽんかんげん）**
+#### 9. **Returning to the Source**
 <img src="/offbeat-count/attachments/ten-bulls-09-返本還源.jpg" />
 
-- あらゆる執着や分別が消え去った清浄無垢な境地に戻った状態を表します。ありのままの世界をあるがままに受け入れ、真実の自己と世界の根源的な姿を認識する状態になったことを示しています。
+- This represents the state of returning to a pure and immaculate realm from which all attachment and discrimination have disappeared. It shows the state of accepting the world exactly as it is and recognizing both the true self and the fundamental nature of the world.
 
-悟りを得た後、さらに「本来のあり方」へと帰っていきます。悟った人は、世俗にとらわれず、また悟りにもとらわれません。ただ静かに、自然のままに生きる姿が描かれます。
+After attaining enlightenment, one returns still further to "the way things originally are." The awakened person is bound neither by worldly concerns nor by enlightenment itself. What is portrayed is a life lived quietly and naturally.
 
-#### 10. **入鄽垂手（にってんすいしゅ）**
+#### 10. **Entering the Marketplace with Open Hands**
 <img src="/offbeat-count/attachments/ten-bulls-10-入鄽垂手.jpg" />
 
-- 悟りを得たとしても、その境地に留まっているだけでは無意味ということを表しています。再び俗世の中に入り、人々と共に生き、人々に安らぎを与え、慈悲と智慧をもって導くことこそが究極の目的だということを表しています。
+- This shows that even after attaining enlightenment, it is meaningless merely to remain in that state. The ultimate purpose is to reenter the ordinary world, live together with other people, bring them peace, and guide them with compassion and wisdom.
 
-最後の段階では、修行を完成させた人がふたたび世俗の中に戻り、見かけは普通の人として生きます。修行や悟りの姿を見せびらかすことなく、人々と自然に関わりながら、仏法を伝えていきます。
+In the final stage, the person who has completed practice returns once more to ordinary society and outwardly lives as an ordinary person. Without flaunting the appearance of practice or enlightenment, that person lives in natural contact with others and conveys the Buddha Dharma.
 
 
 
