@@ -2146,7 +2146,7 @@ In the same way, strong beats and weak beats can be assigned to all note values.
 #### Applying the RMOP Principle and Putting Weak Beats in Front
 <!-- ABOUT_RMOP -->
 
-In the previous section, I introduced the principle called the **Rhythmic Maximal Onset Principle (RMOP = Rhythmic Maximal Onset Principle)**, by which the **Maximize Onset Principle (MOP = Maximize Onset Principle)** of language phonology is also applied to musical rhythm. Here we will look at what happens when this **Rhythmic Maximal Onset Principle (RMOP = Rhythmic Maximal Onset Principle)** is applied to multilayered beat layers.
+In the previous section, I introduced the principle called the **Rhythmic Maximal Onset Principle (RMOP = Rhythmic Maximal Onset Principle)**, by which the **Maximum Onset Principle (MOP = Maximum Onset Principle)** of language phonology is also applied to musical rhythm. Here we will look at what happens when this **Rhythmic Maximal Onset Principle (RMOP = Rhythmic Maximal Onset Principle)** is applied to multilayered beat layers.
 
 #### The Basics of Weak-Beat Precedence
 
@@ -4463,9 +4463,9 @@ The recognition of multilayer weak-beat precedence that we have seen up to now i
 
 Here, one hypothesis arises.
 
-In syllable-timed rhythm, we saw the law that consonants precede as much as possible by the **Maximize Onset Principle (MOP = Maximize Onset Principle)**. In other words, this can be seen as weak-beat precedence in eighth notes.
+In syllable-timed rhythm, we saw the law that consonants precede as much as possible by the **Maximum Onset Principle (MOP = Maximum Onset Principle)**. In other words, this can be seen as weak-beat precedence in eighth notes.
 
-Next, in stress-timed rhythm, in addition to the **Maximize Onset Principle (MOP = Maximize Onset Principle)** of syllable-timed rhythm, the **Maximal Prosodic Onset Principle (MPOP)** is applied. In other words, this can be interpreted as meaning that, in addition to weak-beat precedence in eighth notes, weak-beat precedence in quarter notes becomes effective at the same time.
+Next, in stress-timed rhythm, in addition to the **Maximum Onset Principle (MOP = Maximum Onset Principle)** of syllable-timed rhythm, the **Maximal Prosodic Onset Principle (MPOP)** is applied. In other words, this can be interpreted as meaning that, in addition to weak-beat precedence in eighth notes, weak-beat precedence in quarter notes becomes effective at the same time.
 
 It is possible to interpret that **syllable-timed rhythm is single-layer weak-beat precedence**, and **stress-timed rhythm is two-layer weak-beat precedence**.
 
@@ -4515,7 +4515,7 @@ This can be said to be a development that was possible precisely because it was 
 
 It was a development that was possible precisely because it was stress-timed rhythm born as a developed form of syllable-timed rhythm. And mora-timed rhythm is a singularity and has properties exactly opposite to stress timing and syllable timing. It bears the fate of not being able to enter this world of syllable timing and stress timing.
 
-That this mora-timed rhythm does not mix can be clearly shown when viewed phonologically. In syllable-timed rhythm and stress-timed rhythm there is the **Maximize Onset Principle (MOP = Maximize Onset Principle)**, while in Japanese mora-timed rhythm there is the exact opposite property, the **Minimum Onset Principle (MiOP = Minimum Onset Principle)**. This fundamental incompatibility lies at the root of Japanese and all the languages surrounding it.
+That this mora-timed rhythm does not mix can be clearly shown when viewed phonologically. In syllable-timed rhythm and stress-timed rhythm there is the **Maximum Onset Principle (MOP = Maximum Onset Principle)**, while in Japanese mora-timed rhythm there is the exact opposite property, the **Minimum Onset Principle (MiOP = Minimum Onset Principle)**. This fundamental incompatibility lies at the root of Japanese and all the languages surrounding it.
 
 Japan, which speaks Japanese, a mora-timed-rhythm language like that, is the country with the largest population performing jazz in the world. Yet no one in the world listens to the jazz abundantly produced there. There is nowhere in the world where people listen to jazz whose multilayer degree of weak-beat precedence is zero and which has no value at all as rhythmic entertainment performance. Such Japanese jazz is even said globally to be **the world's greatest musical tragedy**.
 

@@ -123,7 +123,7 @@ var:
     ja: "<ruby>日本人<rt>モーラ拍リズム言語話者</rt></ruby>"
     en: "Mora-Timed Language Speakers"
 
-  # MOP: "<ruby><rb>頭子音最大化原則</rb><rt>MOP=Maximize Onset Principle</rt></ruby>"
+  # MOP: "<ruby><rb>頭子音最大化原則</rb><rt>MOP=Maximum Onset Principle</rt></ruby>"
   # MiOP: "<ruby><rb>頭子音最小化原則</rb><rt>MiOP=Minimum Onset Principle</rt></ruby>"
   # MPOP: "<ruby><rb>頭音節最大化原則</rb><rt>MPOP=Maximal Prosodic Onset Principle</rt></ruby>"
   # MiPOP: "<ruby>頭音節最小化原則<rt>MiPOP = Minimum Prosodic Onset Principle</rt></ruby>"
@@ -209,8 +209,8 @@ var:
     ja:  "<ruby><rb>頭子音最小化原則</rb><rt>MiOP = Minimum Onset Principle</rt></ruby>"
     en:  "Minimum Onset Principle (MiOP)"
   MOP:
-    ja:   "<ruby><rb>頭子音最大化原則</rb><rt>MOP = Maximize Onset Principle</rt></ruby>"
-    en:   "Maximize Onset Principle (MOP)"
+    ja:   "<ruby><rb>頭子音最大化原則</rb><rt>MOP = Maximum Onset Principle</rt></ruby>"
+    en:   "Maximum Onset Principle (MOP)"
   MiPOP:
     ja: "<ruby><rb>頭音節最小化原則</rb><rt>MiPOP = Minimum Prosodic Onset Principle</rt></ruby>"
     en: "Minimum Prosodic Onset Principle (MiPOP)"
