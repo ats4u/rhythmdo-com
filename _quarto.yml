@@ -136,7 +136,7 @@ var:
     en: "Multi-Layered Weak-Beat-Oriented Rhythm"
   MLWBP:
     ja: "<ruby><rb>多層弱拍先行</rb><rt>グルーヴ</rt></ruby>"
-    en: "Multi-Layered Weak-Beat Precedence"
+    en: "Multi-Layered Weak-Beat Precedence (Groove)"
   BOTTOM_ALIGNING:
     ja: "尻合わせ"
     en: "Bottom-Alignment"
