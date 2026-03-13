@@ -1,6 +1,9 @@
-#### Q（質問）訛っていても聴き取りやすい人がいるのは何故ですか？
+#### Q: Why Are Some Accented Speakers Still Easy To Understand?
 
-名前は分かりませんが、Vengaboys の *Up and Down* のビデオに出てくるあの男性が好きです。ご存じですか？ 彼の英語には非常に強い日本語訛りがありますが、それでもとても明瞭に聞こえます。 どうしてこのような違いが起こるのか、いつも不思議に思っていました。
+i don't know his name but I like the guy appears in the video of Up and Down from Venga Boys . Do you know that?
+
+His accent has extremely strong Japanese accent BUT his Englishnis very clear.
+
+I often wonder why these difference happens
 
 ---
-

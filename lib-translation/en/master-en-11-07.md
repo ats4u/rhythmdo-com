@@ -1,9 +1,8 @@
-### 結論
+### Conclusion
 
-英語はリズムです。発音ではなくリズムです。声の出し方ではなくリズムです。文法ではなくてリズムです。単語量ではなくリズムです。そして点数ではなくリズムです。
+English is rhythm. Not pronunciation, but rhythm. Not voice production, but rhythm. Not grammar, but rhythm. Not vocabulary size, but rhythm. And not test scores, but rhythm.
 
-日本人が全く気付いていない日本人の盲点 ─── それがリズムなのです。
+The blind spot about themselves that Japanese people do not notice at all — that is rhythm.
 
-それが縦乗りの正体です。
-
+That is the true nature of Tatenori.
 

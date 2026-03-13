@@ -1,6 +1,5 @@
-#### Q（質問）発音よりもリズムの方が大切ですか？
+#### Q: Is Rhythm More Important Than Pronunciation?
 
-発音そのものよりも、リズムの方が重要だと思いますか？
+Do you think rhythm is more important than the pronunciation itself?
 
 ---
-

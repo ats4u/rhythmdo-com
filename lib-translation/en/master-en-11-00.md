@@ -1,4 +1,3 @@
-## 発音よりもリズムの正確さ <!-- {#rhythm-more-important-than-pronunciation} -->
+## Rhythm More Important Than Pronunciation <!-- {#rhythm-more-important-than-pronunciation} -->
 
-以下は、2025年10月23日に行われたChatGPT5と筆者の問答の内容です。わかりやすい英語を発音する為には、発音の正確さよりもリズムの正確さのほうが大切だということが非常によく描き出されています。
-
+Below is the content of a dialogue between ChatGPT 5 and the author that took place on October 23, 2025. It vividly illustrates that, in order to pronounce English clearly, rhythmic accuracy matters more than pronunciation accuracy.

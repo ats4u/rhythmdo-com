@@ -1,9 +1,11 @@
-#### Q（質問）日本人は英語ネイティブでも訛りますか？
+#### Q: Do Japanese Native English Speakers Still Sound Accented?
 
-日本人の中には、アメリカや他の英語圏で育ち、英語を第一言語として話す人もいます。
-しかし、彼らの発音には独特のアクセントがあり、特に子音の発音に特徴があるように感じます。
-彼らの話す英語では子音が非常に短く感じられ、聞き取りづらいことがあります。
-このように感じるのは私だけでしょうか？ それとも学術的な分析などでこの現象が指摘されているのでしょうか？
+some Japanese people are raised in US or other English speaking countries and can speak English as their first language.
+
+But i feel they often have some distinct accents especially in how they pronounce consonants.
+
+I found it was very difficult to recognize their consonants on their speaking since their consonants are very short.
+
+Is it only me to feel in that way or it is documented in somewhere in academic analysis or others?
 
 ---
-
