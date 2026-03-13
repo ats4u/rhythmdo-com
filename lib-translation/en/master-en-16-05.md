@@ -1,14 +1,14 @@
-### まとめ
+### Summary
 
-声を出してカウントする ─── それがそのままグルーヴになります。声出しカウントが上達すればグルーヴが向上します。グルーヴが向上すると、楽器を手にしていなくてもグルーヴします。そして楽器を手にすれば楽器でもグルーヴするようになります。練習していないのに楽器が上達する ─── 声出しカウントとはそんな不思議さがあります。
+Counting aloud --- that itself becomes groove. As your spoken count improves, your groove improves. As your groove improves, you groove even without holding an instrument. And once you pick up an instrument, you begin to groove on the instrument as well. Your instrument improves even though you were not practicing the instrument itself --- spoken count has that kind of mysterious power.
 
-声出しカウントを極めれば誰でもグルーヴします。
+Anyone can groove if they master spoken count.
 
-その気持ちが確かに伝わる熱いグルーヴを生みだします。
+It creates a hot groove that truly conveys your feeling.
 
-みんなで一緒に**激しくグルーヴしましょう！**
+Let us all **groove hard together**.
 
-オカアツシ
+Oka Atsushi
 
 <!--
   --
@@ -17,8 +17,6 @@
   --
   --
   -->
-
-
 
 
 

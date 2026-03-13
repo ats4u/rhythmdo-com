@@ -6918,33 +6918,33 @@ Jazz is often described as playing with rhythm. As jazz performers, we should re
 
 
 
-## オフビートカウント入門 <!-- {#offbeat-count-basic} -->
+## Introduction to Offbeat Count <!-- {#offbeat-count-basic} -->
 
-オフビートカウントとは、音楽を聴いている時、或いは音楽を演奏している時に、同時に声を出して英語で『半拍早く』拍数をカウントするという実践方法を使うことで、音楽上のグルーヴをはっきり意識し理解を深め音楽性を向上するという実践的手法です。
+Offbeat Count is a practical method that clarifies groove in music, deepens understanding, and improves musicianship by counting the beat numbers aloud in English half a beat early while listening to or performing music.
 
 ------
 
-オフビートカウントとは、音楽を聴いている時、或いは音楽を演奏している時に、同時に声を出して英語で『半拍早く』拍数をカウントするという実践方法を使うことで、音楽上のグルーヴをはっきり意識し理解を深め音楽性を向上するという実践的手法です。
+Offbeat Count is a practical method that clarifies groove in music, deepens understanding, and improves musicianship by counting the beat numbers aloud in English half a beat early while listening to or performing music.
 
-とても単純な実践方法ですが、たったこれだけの練習方法で飛躍的に音楽演奏能力が向上します。たったこの『半拍早く数える』という単純な行為に無限の奥行きが存在します。半拍早くカウントするというたったそれだけのことですが、習得にはしばしば長い長い年月が必要です。
+It is an extremely simple practice method, yet this alone can dramatically improve musical performance ability. The simple act of "counting half a beat early" contains endless depth. It is only that one thing, but mastering it often takes many long years.
 
-これを練習方法のひとつとして取り入れて練習の効率を上げるだけでなく、実際の演奏中に行うことで音楽性や演奏の安定性高めたり、予期しない出来事によりリズムを見失った状態から復帰したりすることが可能になります。
+It can be used not only as a practice method to improve practice efficiency, but also during actual performance to raise musicality and stability, and even to recover when unexpected events make you lose the rhythm.
 
-モーラ拍リズム言語を母国語とする人は、ストレス拍リズムの言語を習得するに当たって障害となる「子音と母音を区別出来ない」「子音の長さを認識出来ない」「子音が母音に先行することを認識出来ない」という３つの盲点を持っています。オフビートカウントは、まずこの３つの盲点を補うことを主目的として開発されました。オフビートカウントの発音練習を行うことで、英語のリスニング能力も飛躍的に向上します。また演奏時のグルーヴの原理をはっきりと意識する事が出来るようになり、演奏のグルーヴの安定性が向上します。
+Native speakers of mora-timed rhythm languages have three blind spots that become obstacles when learning stress-timed rhythm languages: "they cannot distinguish consonants from vowels," "they cannot perceive consonant duration," and "they cannot perceive that consonants precede vowels." Offbeat Count was developed first and foremost to compensate for these three blind spots. Practicing the pronunciation of Offbeat Count dramatically improves English listening ability. It also makes it possible to perceive the principles of groove in performance clearly, and improves the stability of groove in performance.
 
-またモーラ拍リズム言語を母国語としない人でも、日頃ほとんど意識することのないグルーヴの原理をはっきり意識して身につける指標として世界的に活用され始めています。
+Even for people whose native language is not a mora-timed rhythm language, it is beginning to be used around the world as a guide for clearly perceiving and acquiring principles of groove that usually remain almost unnoticed.
 
-### はじめに
+### Introduction
 
-この本では**声出しオフビートカウント**の練習方法について説明します。
+This book explains how to practice **Spoken Offbeat Count**.
 
-**声出しカウント**とは演奏中に声を出して拍数を数えることをいいます。この声出しカウントはとても大切な音楽基礎力トレーニングです。
+**Spoken count** means counting the beats aloud while performing. This is a very important form of basic musical training.
 
-**オフビートカウント**は八分音符ひとつ分早くカウントをすることをいいます。オフビートカウントはこの本の著者オカアツシが考案したカウント方法です。ジャズ／ゴスペル／ブルース／Ｒ＆Ｂを初めとしたアフリカ発祥の音楽の影響を受けたポップ音楽の演奏の基礎トレーニングに適しています。
+**Offbeat Count** means counting one eighth note early. Offbeat Count is a counting method devised by this book's author, Oka Atsushi. It is well suited to foundational training for performing pop music influenced by African-origin music such as jazz, gospel, blues, and R&B.
 
-オフビートカウントはジャズ等々のアフリカ発祥音楽の影響の重要な要素である**グルーヴ**を安定して生成することを重視したカウントメソッドです。
+Offbeat Count is a counting method that places emphasis on generating stable **groove**, an important element in music influenced by African-origin traditions such as jazz.
 
-まず音楽の中に存在する色々な長さのオフビートの正体をオフビートカウントによって明らかにし、そしてそれを確実に身に付ける方法を説明します。以下で各種オフビートとそのカウント方法を順を追って見ていきます。
+First, Offbeat Count will reveal the true nature of the various offbeats that exist in music, and then explain how to acquire them reliably. Below, we will look at each type of offbeat and its counting method step by step.
 
 <style>
     table {
@@ -6959,605 +6959,605 @@ Jazz is often described as playing with rhythm. As jazz performers, we should re
     }
 </style>
 
-#### 読み方について
+#### How to Read the Notation
 
-いろいろなカウント方法を譜面で書き表すこともできますが、ここでは数字「０〜９」と「＆」「Ｅ」「Ａ」「・」で表現することでカウントメソッドを説明したいと思います。
+Various counting methods can also be written in staff notation, but here I will explain the counting method using the symbols "0-9," "&," "E," "A," and "・."
 
 |        |                            |
 | ------ | -------------------------- |
-| ０〜９ | ワン・ツー…（英語で読む）  |
-| ＆     | エン（英語で読む＝アンド） |
-| Ｅ     | イー                       |
-| Ａ     | アー                       |
-| ・     | （休み・読まない）         |
+| 0-9    | one, two... (read in English) |
+| &      | and                        |
+| E      | ee                         |
+| A      | ah                         |
+| ・     | (rest / do not read)      |
 
-#### 伝わりやすいリズムと伝わりづらいリズム
+#### Rhythms That Communicate and Rhythms That Do Not
 
-オフビートカウントの最終目標は**頭合わせリズム**を脱して**尻合わせリズム**を維持できるようになることです。
+The final goal of Offbeat Count is to move beyond **Head-Alignment Rhythm** and become able to maintain **Tail-Alignment Rhythm**.
 
-頭合わせとは**伝わりにくいリズム**のことです。
+Head Alignment means **rhythm that does not communicate well**.
 
-- ミュージシャン以外の人に理解されない
-- よくわからないと言われる
-- 自分でもリズミカルだと感じられない
+- People other than musicians do not understand it
+- People say they do not really get it
+- Even you yourself do not feel it is rhythmic
 
-一方、尻合わせリズムは**しっかり気持ちに伝わるリズム**のことです。
+By contrast, Tail-Alignment Rhythm is **rhythm that clearly conveys feeling to the listener**.
 
-**しっかり気持ちに伝わるリズム**＝**尻合わせリズム**は、バンド仲間や仲の良い友達に伝わるだけでなく、全く知らない人や音楽に興味のない子供やお年寄りにも伝わります。その思いは国境や言語を超えて人に伝わってゆきます。そこに込められた思いに関わらず、その思いは誰にでも確実に伝わります。 ─── **しっかり気持ちに伝わるリズム**＝**尻合わせリズム**で演奏することさえできれば ─── 。
+**Rhythm that clearly conveys feeling** = **Tail-Alignment Rhythm** does not reach only your bandmates and close friends. It also reaches complete strangers, children and elderly people who have no interest in music, and people across borders and languages. Whatever feeling is put into it, that feeling is reliably communicated to anyone --- if only you can perform with **rhythm that clearly conveys feeling** = **Tail-Alignment Rhythm**.
 
-それが**頭合わせリズム**と**尻合わせリズム**の違いです。
+That is the difference between **Head-Alignment Rhythm** and **Tail-Alignment Rhythm**.
 
-頭合わせリズムと尻合わせリズムの違いには、とてもはっきりした数学的な性質が存在します。以下でその違いについて学んでいきます。
+There is a very clear mathematical difference between Head-Alignment Rhythm and Tail-Alignment Rhythm. Below, we will learn what that difference is.
 
-見方を変えると尻合わせリズムの正体は**グルーヴ**です。自分では激しくグルーヴしているつもりでも、リズムが頭合わせになってしまえば残念なことにグルーヴは無情に消えてしまいます。
+Seen another way, Tail-Alignment Rhythm is what **groove** really is. You may think you are grooving intensely, but if the rhythm becomes head-aligned, the groove disappears mercilessly.
 
-しかし逆に、例えもしバンド演奏中にトラブルがあったとしても、冷静にリズムの尻合わせを維持することさえできれば、グルーヴは維持されます。そのグルーヴと共に、トラブルを乗り越えたその気持ちが確実にリスナに伝わるでしょう。
+On the other hand, even if trouble happens during a band performance, as long as you can calmly maintain tail alignment in the rhythm, the groove remains. Along with that groove, the feeling of having overcome the trouble will surely reach the listener.
 
-#### リズムトレーニングの難しさについて
+#### Why Rhythm Training Is Hard
 
-この本はまるで『誰でも簡単に筋肉ムキムキになる方法』の様なものです。実際のところ、筋肉ムキムキになる方法は実に簡単です。『毎日腕立て伏せを５００回最低２年続ける』 ─── とても簡単なことですが誰もできません。誰もがやれば強くなれると知っている。誰にでもできることだけども、現実にはほとんど誰もできません。
+This book is something like "How Anyone Can Easily Become Muscular." In reality, becoming muscular is very simple: "Do 500 push-ups every day for at least two years." It is very simple, yet nobody can do it. Everyone knows they would get stronger if they did it. Anyone can do it, and yet in reality almost nobody does.
 
-筋肉トレーニングは体力を消耗します。リズムトレーニングは体力は消耗しませんが、精神力を消耗します。リズムトレーニングを行うとその後しばらくは動けなくなるほど激しく疲れます。疲れなくなるには、慣れるまでしばらくの辛抱が必要です。
+Muscle training consumes physical strength. Rhythm training does not consume physical strength, but it does consume mental strength. After rhythm training, you may feel so exhausted that you cannot move for a while. To stop getting that tired, you need to endure it for some time until you become accustomed to it.
 
-上達のするには地道に個人練習を続ける以外に方法はありませんが、なかなかひとりで練習を続けるのは難しいものです。そこで少しずつ都内各所でリズムトレ練習会を開いていこうと思っております。フェースブック／ツイッター／ブログなどで告知致しますので、その際はどうぞ宜しくお願い致します。
+There is no way to improve except by continuing steady individual practice, but it is hard to keep practicing alone. So I plan to gradually start rhythm-training practice sessions in various places around Tokyo. I will announce them on Facebook, Twitter, my blog, and so on, so I would appreciate your participation when that happens.
 
-### 基本
+### Basics
 
-#### オンビートカウント
+#### On-the-Beat Count
 
-**オンビートカウント**とは、拍に直接数字を割り当てて拍数を数えることをいいます。
-
-<table>
-<tbody>
-<tr>
-<td>１<br />
-（ワン）</td>
-<td>２<br />
-（ツー）</td>
-<td>３<br />
-（スリー）</td>
-<td>４<br />
-（フォー）</td>
-</tr>
-</tbody>
-</table>
-
-練習 オンビートカウントを使って好きな音楽に合わせて数えてみましょう。
-
-#### 小節入りカウント
-
-**小節入りカウント**とは、拍数と一緒に小節数も数えることをいいます。次の例はオンビートカウントを小節入りで行ったところです。
+**On-the-Beat Count** means counting the beats by assigning numbers directly to the beats.
 
 <table>
 <tbody>
 <tr>
-<td>１<br />
-（ワン）</td>
-<td>２<br />
-（ツー）</td>
-<td>３<br />
-（スリー）</td>
-<td>４<br />
-（フォー）</td>
-</tr>
-<tr>
-<td>２<br />
-（ツー）</td>
-<td>２<br />
-（ツー）</td>
-<td>３<br />
-（スリー）</td>
-<td>４<br />
-（フォー）</td>
-</tr>
-<tr>
-<td>３<br />
-（スリー）</td>
-<td>２<br />
-（ツー）</td>
-<td>３<br />
-（スリー）</td>
-<td>４<br />
-（フォー）</td>
-</tr>
-<tr>
-<td>４<br />
-（フォー）</td>
-<td>２<br />
-（ツー）</td>
-<td>３<br />
-（スリー）</td>
-<td>４<br />
-（フォー）</td>
+<td>1<br />
+(one)</td>
+<td>2<br />
+(two)</td>
+<td>3<br />
+(three)</td>
+<td>4<br />
+(four)</td>
 </tr>
 </tbody>
 </table>
 
-練習 好きな音楽に合わせて数えてみましょう。
+Practice: Try counting along with your favorite music using On-the-Beat Count.
 
-#### ＆入りカウント
+#### Measure-Number Count
 
-**＆入りカウント**とは数字の半分の位置で＆といいながら拍数を数えることをいいます。
+**Measure-Number Count** means counting the measure numbers together with the beat numbers. The following example shows On-the-Beat Count performed with measure numbers.
+
+<table>
+<tbody>
+<tr>
+<td>1<br />
+(one)</td>
+<td>2<br />
+(two)</td>
+<td>3<br />
+(three)</td>
+<td>4<br />
+(four)</td>
+</tr>
+<tr>
+<td>2<br />
+(two)</td>
+<td>2<br />
+(two)</td>
+<td>3<br />
+(three)</td>
+<td>4<br />
+(four)</td>
+</tr>
+<tr>
+<td>3<br />
+(three)</td>
+<td>2<br />
+(two)</td>
+<td>3<br />
+(three)</td>
+<td>4<br />
+(four)</td>
+</tr>
+<tr>
+<td>4<br />
+(four)</td>
+<td>2<br />
+(two)</td>
+<td>3<br />
+(three)</td>
+<td>4<br />
+(four)</td>
+</tr>
+</tbody>
+</table>
+
+Practice: Try counting along with your favorite music.
+
+#### Count with "&"
+
+**Count with "&"** means counting the beats while saying "&" halfway between the numbers.
 
 |     |     |     |     |     |     |     |     |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| １  | ＆  | ２  | ＆  | ３  | ＆  | ４  | ＆  |
+| 1   | &   | 2   | &   | 3   | &   | 4   | &   |
 
-練習 好きな音楽に合わせて数えてみましょう。
+Practice: Try counting along with your favorite music.
 
-#### オフビートカウント
+#### Offbeat Count
 
-この**オフビートカウント**が当書の最も大切なカウント法になります。以下様々なパターンでオフビートカウントを応用していきます。ここでしっかりとオフビートカウントを学んでください。
+This **Offbeat Count** is the most important counting method in this book. Below, we will apply Offbeat Count in various patterns. Learn it thoroughly here.
 
-**オフビートカウント**とはオンビートカウントと同じことを半ブロック早く行うことをいいます。これまでは拍と同時に数字を数えてきました。もし拍と同時に手を叩いたとしたら次のようになっていた筈です。
+**Offbeat Count** means doing the same thing as On-the-Beat Count half a beat earlier. Up to now we have been counting the numbers at the same time as the beats. If you clapped at the same time as the beats, it would have looked like this.
 
 |      |     |      |     |      |     |      |     |
 | ---- | --- | ---- | --- | ---- | --- | ---- | --- |
-| パン |     | パン |     | パン |     | パン |     |
-| １   | ・  | ２   | ・  | ３   | ・  | ４   | ・  |
+| Clap |     | Clap |     | Clap |     | Clap |     |
+| 1    | ・  | 2    | ・  | 3    | ・  | 4    | ・  |
 
-しかしこれと同じことを半ブロック早く行ったらどうなるでしょうか。
+But what happens if you do the same thing half a beat earlier?
 
 |     |      |     |      |     |      |     |      |     |
 | --- | ---- | --- | ---- | --- | ---- | --- | ---- | --- |
-|     | パン |     | パン |     | パン |     | パン |     |
-| １  | ・   | ２  | ・   | ３  | ・   | ４  | ・   | １  |
+|     | Clap |     | Clap |     | Clap |     | Clap |     |
+| 1   | ・   | 2   | ・   | 3   | ・   | 4   | ・   | 1   |
 
-この様に全て拍が・に来るようになりました。そして全ての数字が**裏拍（オフビート）**に来るようになりました。
+As you can see, all of the beats now land on the dots. And all of the numbers now land on the **offbeats**.
 
-**オフビート**に数字を割り当ててオフビートの数を数えること…それが**オフビートカウント**です。
+Assigning numbers to the **offbeats** and counting the offbeats: that is **Offbeat Count**.
 
-オフビートカウントの最大の特徴は速いリズムでも半分の速度で数えることができることです。８分音符の速いパッセージがあっても４分音符と同じ速度で数えることができます。つまり４分音符を数えるだけで８分音符と同じスピードを得ることができます。
+The greatest feature of Offbeat Count is that even fast rhythm can be counted at half speed. Even when there is a fast passage of eighth notes, you can count it at the same speed as quarter notes. In other words, just by counting the quarter notes, you can obtain the speed of the eighth notes.
 
-このオフビートカウントをテコの様に使うことでスピード感のある安定したグルーヴを創りだしていくことができます。
+By using this Offbeat Count like a lever, you can create stable groove with a real sense of speed.
 
-練習 好きな音楽に合わせて数えてみましょう。
+Practice: Try counting along with your favorite music.
 
-#### 協力グルーヴとは
+#### What Is Cooperative Groove
 
-ここで**協力グルーヴ**について説明したいと思います。**協力グルーヴ**は全てのカウントの基礎になるものです。
+Here I would like to explain **Cooperative Groove**. **Cooperative Groove** is the foundation of all counting.
 
-##### 協力グルーヴの基本
+##### The Basics of Cooperative Groove
 
-これまでは全ての拍を１人で演奏してきました。
+Up to now, all of the beats have been performed by one person.
 
 <table>
 <tbody>
 <tr>
-<td>１<br />
-（ワン）</td>
-<td>２<br />
-（ツー）</td>
-<td>３<br />
-（スリー）</td>
-<td>４<br />
-（フォー）</td>
+<td>1<br />
+(one)</td>
+<td>2<br />
+(two)</td>
+<td>3<br />
+(three)</td>
+<td>4<br />
+(four)</td>
 </tr>
 </tbody>
 </table>
 
-しかしもしこれを２人で協力して演奏したらどうでしょうか。
+But what if two people cooperated to perform it?
 
 <table>
 <tbody>
 <tr>
-<td>１<br />
-（ワン）</td>
+<td>1<br />
+(one)</td>
 <td>・</td>
-<td>３<br />
-（スリー）</td>
+<td>3<br />
+(three)</td>
 <td>・</td>
 </tr>
 <tr>
 <td>・</td>
-<td>２<br />
-（ツー）</td>
+<td>2<br />
+(two)</td>
 <td></td>
-<td>４<br />
-（フォー）</td>
+<td>4<br />
+(four)</td>
 </tr>
 </tbody>
 </table>
 
-このように分担することで各人が半分の速度で拍を演奏することができるでしょう。このことを**協力グルーヴ**と呼びます。現代あるポップス音楽のリズムは必ず**協力グルーヴ**です。
+By dividing the parts in this way, each person can perform the beats at half speed. This is called **Cooperative Groove**. The rhythms of modern pop music are fundamentally **Cooperative Groove**.
 
-協力グルーヴを単独で演奏するときは**それぞれの音がもともと違う人が演奏している**ということを忘れないようにします。つまり音色を変えたり、アクセントを変えたり、違う音程を使ったりするようにしましょう。この様に単独の演奏者で協力グルーヴを演奏することを**独力グルーヴ**と呼びます。
+When performing Cooperative Groove alone, do not forget that **each sound is originally being played by a different person**. In other words, change the tone color, change the accents, or use different pitches. Performing Cooperative Groove in this way by a single performer is called **solo groove**.
 
-基本的に**独力グルーヴ**は特殊なテクニックです。2人以上が協力しあうことで効率よくリズムを演奏する ─── それがグルーヴの本質です。つまり基本的に単独でグルーヴを起こすことはできません。
+Basically, **solo groove** is a special technique. Efficiently performing rhythm through the cooperation of two or more people: that is the essence of groove. In other words, basically you cannot generate groove alone.
 
-##### 協力グルーヴの歴史
+##### The History of Cooperative Groove
 
-かつてドラムセットがなかった頃は、打楽器１つを1人が担当しみなで協力しあって演奏していました。協力グルーヴは、こうして大勢で協力しあってグルーヴを起こすところから生まれています。 ─── この[ビデオ](https://www.youtube.com/watch?v=4htoAvgFq_g)でドラムセットの歴史が解説されていますが、ドラムセットの歴史はそのままジャズの歴史と言って良い程にジャズと密接に関連しています。ドラムセットの発達により、独力で複雑なリズムを起こすことが出来るようになり、即興演奏が発達しました。こうして複雑な協力グルーヴを独力で演奏する演奏者が現れ、結果としてスイングというリズムが生まれました。 ─── 今では協力グルーヴを独力で起こすのは珍しいことではなくなりました。しかしそれはもともとは特殊なテクニックなのです。
+Back before the drum set existed, one person handled one percussion instrument and everyone performed cooperatively. Cooperative Groove was born from many people cooperating to generate groove in this way. This [video](https://www.youtube.com/watch?v=4htoAvgFq_g) explains the history of the drum set, and the history of the drum set is so closely tied to jazz that it can almost be called the history of jazz itself. As the drum set developed, it became possible to generate complex rhythm single-handedly, and improvisation developed as well. In this way, performers emerged who could perform complex Cooperative Groove single-handedly, and as a result the rhythm called swing was born. Nowadays it is no longer unusual to generate Cooperative Groove alone. But originally it was a special technique.
 
-##### 協力グルーヴとオフビートカウント
+##### Cooperative Groove and Offbeat Count
 
-オフビートカウントはつまり『自分の声』と『手拍子』の２者によって協力グルーヴを発生させているということができます。
+Offbeat Count can be understood as generating Cooperative Groove through two agents: "your voice" and "your handclaps."
 
-#### 単独リズム
+#### Standalone Rhythm
 
-協力グルーヴでないリズムを**単独リズム**と呼びます。協力のないリズムはグルーヴではないため、グルーヴとは呼びません。
+Rhythm that is not Cooperative Groove is called **standalone rhythm**. Rhythm without cooperation is not groove, so it is not called groove.
 
-#### 拍の呼び方について
+#### On the Names of Beats
 
-##### 拍（ディヴィジョン）下位拍（サブディヴィジョン）
+##### Beat (Division) and Sub-Beat (Subdivision)
 
-次の様に何も分割されていない一定の時間があったとします。
+Suppose there is a span of steady time that has not been divided at all, as follows.
 
 |        |
 | ------ |
 | ・・・ |
 
-このことを**小節**と呼びます。
+This is called a **measure**.
 
-この小節を次のように一定数で分割したとします。
+Now suppose this measure is divided into a fixed number of parts, like this.
 
 |     |     |     |     |
 | --- | --- | --- | --- |
-| １  | ２  | ３  | ４  |
+| 1   | 2   | 3   | 4   |
 
-このことを**拍**（**ディヴィジョン**）と呼びます。
+This is called a **beat** (**division**).
 
-更に各拍を一定数で分割することを考えます。
+Now let us divide each beat into a fixed number of parts as well.
 
 |     |     |     |     |     |     |     |     |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| １  | ・  | ２  | ・  | ３  | ・  | ４  | ・  |
+| 1   | ・  | 2   | ・  | 3   | ・  | 4   | ・  |
 
-この分割された後の拍のことを**下位拍**（**サブディヴィジョン**）と呼びます。
+These beats after further division are called **sub-beats** (**subdivisions**).
 
-##### オンビート／オフビート
+##### On-the-Beat / Offbeat
 
-いくつかの拍を交互に２分類したとき、前に現れる方の拍を**表拍**・**オンビート**と呼び、後に現れる方の拍を**裏拍**・**オフビート**と呼ぶことにします。
+When several beats are alternately classified into two groups, the beat that appears first is called the **on-the-beat**, and the beat that appears later is called the **offbeat**.
 
-次のように４拍あったとします。
-
-|     |     |     |     |
-| --- | --- | --- | --- |
-| １  | ２  | ３  | ４  |
-
-これを交互に２分類します。
+Suppose there are four beats, like this.
 
 |     |     |     |     |
 | --- | --- | --- | --- |
-| １  | ・  | ３  | ・  |
-| ・  | ２  |     | ４  |
+| 1   | 2   | 3   | 4   |
 
-この時、前に現れる方をオンビート・後に現れる方をオフビートと呼びます。つまり１・３拍がオンビートで２・４がオフビートになります。
+Now divide them alternately into two groups.
 
-つまりサブディヴィジョンから見た時のオフビートに数字を割り当てているので**オフビートカウント**と呼んでいます。
+|     |     |     |     |
+| --- | --- | --- | --- |
+| 1   | ・  | 3   | ・  |
+| ・  | 2   |     | 4   |
 
-#### 頭合わせリズムと尻合わせリズム
+At this time, the one that appears first is called the on-the-beat and the one that appears later is called the offbeat. In other words, beats 1 and 3 are on-the-beat, while beats 2 and 4 are offbeats.
 
-次節以降でオフビートカウント練習をはじめます。オフビートカウント練習の目標は先にもお話した通り、**頭合わせリズム**を脱して**尻合わせリズム**を維持できるようになることです。頭合わせリズムと尻合わせリズムには、とてもはっきりした形状の違いがあります。
+That is why it is called **Offbeat Count**: because it assigns numbers to the offbeat positions when viewed at the subdivision level.
 
-##### 形状の違いはどこ？
+#### Head-Alignment Rhythm and Tail-Alignment Rhythm
 
-４つの拍があるとします。その中で１回だけ手を叩くとします。
+From the next section onward, we begin practicing Offbeat Count. As explained earlier, the goal of Offbeat Count practice is to move beyond **Head-Alignment Rhythm** and become able to maintain **Tail-Alignment Rhythm**. There is a very clear difference in shape between Head-Alignment Rhythm and Tail-Alignment Rhythm.
+
+##### Where Is the Difference in Shape?
+
+Suppose there are four beats, and you clap only once.
 
 |        |     |     |     |
 | ------ | --- | --- | --- |
-| １     | ２  | ３  | ４  |
-| タン！ |     |     |     |
+| 1      | 2   | 3   | 4   |
+| Clap!  |     |     |     |
 
-恐らく多くの方が１拍目で手を叩くでしょう。では、もしここで更にもう１回・合計２回手を叩くとしたらどうでしょうか。ほとんどの方が次のように手を叩くのではないでしょうか。
+Most likely, many people would clap on beat 1. But what if you clap one more time here, for a total of two claps? Most people would probably clap like this.
 
 |        |        |     |     |
 | ------ | ------ | --- | --- |
-| １     | ２     | ３  | ４  |
-| タン！ | タン！ |     |     |
+| 1      | 2      | 3   | 4   |
+| Clap!  | Clap!  |     |     |
 
-基本となる音の**後に音を配置**しました ─── 大変に残念なことですが、このリズムの配置は聞く人にとって大変に予想しやすく眠気を誘うことになってしまうでしょう。これが**頭合わせリズム**です。
+You placed the sound **after the basic sound**. Unfortunately, this arrangement makes the rhythm very easy for the listener to predict, and it tends to make the listener sleepy. This is **Head-Alignment Rhythm**.
 
-では、どのようにすれば聞く人の予想を裏切り目を覚まさせることができるのでしょうか。
+So how can you surprise the listener and wake them up?
 
 |        |        |     |     |     |
 | ------ | ------ | --- | --- | --- |
-| ４     | １     | ２  | ３  | ４  |
-| タン！ | タン！ |     |     |     |
+| 4      | 1      | 2   | 3   | 4   |
+| Clap!  | Clap!  |     |     |     |
 
-基本となる音の**前に音を配置**しました ─── この配置では聞く人の予想よりも早く音がやってくる為、聞く人にとって予想しづらく、聞く人の目を覚まします。これが**尻合わせリズム**です。
+You placed the sound **before the basic sound**. In this arrangement, the sound arrives earlier than the listener expects, which makes it harder to predict and wakes the listener up. This is **Tail-Alignment Rhythm**.
 
-もし頭合わせと尻合わせでそれぞれ３回手を叩くとしたら次のようになるでしょう。
+If you clapped three times in Head Alignment and Tail Alignment respectively, it would look like this.
 
 |          |     |     |     |     |     |     |     |     |
 | -------- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 拍       | １  | ２  | ３  | ４  | １  | ２  | ３  | ４  |
-| 頭合わせ |     |     |     |     | ◎   | ◯   | ◯   |     |
-| 尻合わせ |     |     | ◯   | ◯   | ◎   |     |     |     |
+| Beat     | 1   | 2   | 3   | 4   | 1   | 2   | 3   | 4   |
+| Head Alignment |     |     |     |     | ◎   | o   | o   |     |
+| Tail Alignment |     |     | o   | o   | ◎   |     |     |     |
 
-この様に**常に始まりの音を合わせることでリズムを構成するのが頭合わせリズム**の特徴です。そして**常に終わりの音を合わせることでリズムを構成するのが尻合わせリズム**の特徴です。
+In this way, **Head-Alignment Rhythm** is characterized by constructing rhythm by always aligning the starting sound, while **Tail-Alignment Rhythm** is characterized by constructing rhythm by always aligning the ending sound.
 
-頭合わせは演奏の開始地点さえ合っていればよい為、リズムを演奏し始める際に予め計画を立てる必要がありません。しかし尻合わせは演奏の終了地点を合わせる必要があるため、リズムを演奏し始める際にこれから何拍のリズムを演奏するのか予め計画を立てておく必要があります。
+With Head Alignment, it is enough to match only the starting point of the performance, so there is no need to make a plan before beginning to play the rhythm. But with Tail Alignment, you must match the ending point of the performance, so before you begin playing the rhythm, you need to plan in advance how many beats of rhythm you are going to play.
 
-つまり**尻合わせは頭合わせよりも演奏の時に考えなければいけない要素が多く**なります。
+In other words, **Tail Alignment requires more thinking during performance than Head Alignment**.
 
-まず現在のその瞬間の位置から『尻』までの距離を正確に感じ取っている必要がありあます。これが尻合わせリズムをマスターする為にカウント練習が必要になる理由です。
+First, you need to accurately feel the distance from the current moment to the "tail." This is why count practice is necessary to master Tail-Alignment Rhythm.
 
-次に、この距離感を元にして、どの様なリズムの割りかたにするのかを考えながら演奏することになるでしょう。
+Next, based on this sense of distance, you perform while thinking about how that distance should be divided rhythmically.
 
-このように演奏中に瞬間的に思考しながら演奏する**演奏思考力**を高めるのがカウント練習の目標です。
+The goal of count practice is to increase this **ability to think while performing in real time**.
 
-##### 具体例を見てみよう
+##### Let's Look at Some Concrete Examples
 
-頭合わせと尻合わせの違いを具体例として示したビデオをいくつかご用意しました。
+I have prepared several videos that show the difference between Head Alignment and Tail Alignment as concrete examples.
 
 |                                                           |                                                               |                                                         |
 | --------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------- |
-| [桃太郎さん](https://www.youtube.com/watch?v=qkCjf_hKgbo) | [ロックンロール](https://www.youtube.com/watch?v=-mHk5FfhFas) | [カリプソ](https://www.youtube.com/watch?v=BvpIcUBT418) |
+| [Momotaro-san](https://www.youtube.com/watch?v=qkCjf_hKgbo) | [Rock'n Roll](https://www.youtube.com/watch?v=-mHk5FfhFas) | [Calypso](https://www.youtube.com/watch?v=BvpIcUBT418) |
 
-#####  実例を見てみよう
+##### Let's Look at Some Actual Examples
 
-インパクトの強い音楽はしばしば尻合わせリズムでできています。
+Music with strong impact is often built from Tail-Alignment Rhythm.
 
-尻合わせで高インパクトな曲と言えばまずこれです。
+A classic example of high-impact Tail Alignment is this.
 
-[ベートーベンの運命](https://www.youtube.com/watch?v=jv2WJMVPQi8)です。 最初の３つの音が先駆けて入り最後の１音で尻合わせするリズムになっています。
+[Beethoven's Fifth](https://www.youtube.com/watch?v=jv2WJMVPQi8). The first three notes rush in ahead, and the last note lands in tail alignment.
 
-[矢野顕子 – ラーメンたべたい](https://www.youtube.com/watch?v=eNwZVRBJy58) 。高インパクトなリズムが印象の曲です。
+[Yano Akiko - Ramen Tabetai](https://www.youtube.com/watch?v=eNwZVRBJy58). It is a song memorable for its high-impact rhythm.
 
-ジャズの即興ラインはほとんどが尻合わせリズムでできています。曲によってはテーマが最初から尻合わせリズムでできている曲も有ります。
+Most jazz improvised lines are made of Tail-Alignment Rhythm. In some pieces, the theme itself is built from Tail-Alignment Rhythm from the very beginning.
 
 [Duke Ellington - In A Mellow Tone](https://www.youtube.com/watch?v=1MjIiLx1Nw0)
 
-この曲のリズムも尻合わせで構成されています。
+The rhythm of this piece is also built through tail alignment.
 
-### 基礎練習
+### Basic Exercises
 
-#### オンビートカウント
+#### On-the-Beat Count
 
-まずは基本としてオンビートカウントを練習します。
-
-|     |     |     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| １  | ＆  | ２  | ＆  | ３  | ＆  | ４  | ＆  |
-
-練習 好きな音楽に合わせて数えてみましょう。
-練習時間目標３時間
-
-#### 小節入りオンビートカウント
-
-オンビートカウントに慣れてきたら小節入りカウントの練習を行いましょう。
+First, practice On-the-Beat Count as the basis.
 
 |     |     |     |     |     |     |     |     |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| １  | ＆  | ２  | ＆  | ３  | ＆  | ４  | ＆  |
-| ２  | ＆  | ２  | ＆  | ３  | ＆  | ４  | ＆  |
-| ３  | ＆  | ２  | ＆  | ３  | ＆  | ４  | ＆  |
-| ４  | ＆  | ２  | ＆  | ３  | ＆  | ４  | ＆  |
+| 1   | &   | 2   | &   | 3   | &   | 4   | &   |
 
-練習 好きな音楽に合わせて数えてみましょう。
-練習時間目標３時間
+Practice: Try counting along with your favorite music.
+Target practice time: 3 hours
 
-#### オフビートカウント（単純８分オフビート）
+#### On-the-Beat Count with Measure Numbers
 
-オンビートカウントと比べて大きく難易度があがります。
-
-##### 正しい例
+Once you get used to On-the-Beat Count, practice counting with measure numbers.
 
 |     |     |     |     |     |     |     |     |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-|     |     |     |     |     |     |     | １  |
-| ・  | ２  | ・  | ３  | ・  | ４  | ・  | １  |
+| 1   | &   | 2   | &   | 3   | &   | 4   | &   |
+| 2   | &   | 2   | &   | 3   | &   | 4   | &   |
+| 3   | &   | 2   | &   | 3   | &   | 4   | &   |
+| 4   | &   | 2   | &   | 3   | &   | 4   | &   |
 
-注意すべき点をいくつか挙げます。
+Practice: Try counting along with your favorite music.
+Target practice time: 3 hours
 
-##### 間違った例
+#### Offbeat Count (Simple Eighth-Note Offbeat)
 
-|     |     |     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| ・  | １  | ・  | ２  | ・  | ３  | ・  | ４  |
+Compared with On-the-Beat Count, the difficulty rises sharply.
 
-これがオフビートカウントで最もよくある失敗です。『・』よりも数字を先に数えることはとても難しい ─── それがオフビートカウント最大の難関です。注意を怠るとすぐに感覚がずれてしまい、上記のように『・』よりも数字を後に数えてしまいます。数字が後になってしまわない様に最大の注意を払う必要があります。
-
-８分音符を先に！４分音符は後に！
-
-練習１ 好きな音楽に合わせて数えてみましょう。(20時間)
-練習２ ２拍４拍でメトロノームを鳴らしながら数えてみましょう。(20時間)
-練習３ 自分で演奏しながら数えてみましょう。(20時間)
-
-#### オフビートカウント（基本形／８分オフビート）
-
-２拍目４拍目に「＆」を入れたオフビートカウントです。このカウント法がオフビートカウント練習の基本型になります。今後の練習で様々なかたちで繰り返し表れますので、ここできちんと学んでおきましょう。
+##### Correct Example
 
 |     |     |     |     |     |     |     |     |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-|     |     |     |     |     |     |     | １  |
-| ・  | ２  | ＆  | ３  | ・  | ４  | ＆  | １  |
+|     |     |     |     |     |     |     | 1   |
+| ・  | 2   | ・  | 3   | ・  | 4   | ・  | 1   |
 
-練習１ 好きな音楽に合わせて数えてみましょう。(20時間)
-練習２ ２拍４拍でメトロノームを鳴らしながら数えてみましょう。(20時間)
-練習３ 自分で演奏しながら数えてみましょう。(20時間)
+There are several points to watch out for.
 
-#### オンビートカウント（４分オフビート）
-
-４分音符オフビートを先に数える練習です。
+##### Incorrect Example
 
 |     |     |     |     |     |     |     |     |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-|     |     |     |     |     |     | ４  | ・  |
-| １  | ・  | ２  | ・  | ３  | ・  | ４  | ・  |
+| ・  | 1   | ・  | 2   | ・  | 3   | ・  | 4   |
 
-声として出てくるカウントは通常のオンビートカウントと全く同じです。しかし飽くまでも**心の中で４を先に数える**ことをはっきりと意識してカウントして下さい。例えば、音楽に合わせてカウントするときに心の中で『１・２・３・４・』と数えるのではなく、飽くまでも『４・１・２・３・』という順番で数えましょう。
+This is the most common mistake in Offbeat Count. Counting the numbers before the dots is very difficult --- that is the biggest hurdle in Offbeat Count. If you let your attention slip even a little, the feel shifts immediately, and you end up counting the numbers after the dots as in the example above. You must pay the closest attention to keep the numbers from coming late.
 
-練習１ 好きな音楽に合わせて数えてみましょう。(20時間)
-練習２ ２拍４拍でメトロノームを鳴らしながら数えてみましょう。(20時間)
-練習３ 自分で演奏しながら数えてみましょう。(20時間)
+The eighth notes come first. The quarter notes come later.
 
-#### オフビートカウント（４分オフビート）
+Practice 1: Try counting along with your favorite music. (20 hours)
+Practice 2: Try counting while the metronome clicks on beats 2 and 4. (20 hours)
+Practice 3: Try counting while playing yourself. (20 hours)
 
-４分音符オフビートを先に数える練習です。
+#### Offbeat Count (Basic Form / Eighth-Note Offbeat)
 
-|     |     |     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-|     |     |     |     |     |     | ＆  | １  |
-| ・  | ２  | ＆  | ３  | ・  | ４  | ＆  | １  |
-
-４拍目の位置に＆が来ます。この＆が先にくる感覚をはっきりと意識しながらカウントしましょう。音楽にあわせて「＆１・２＆３・４＆１」とはっきり意識しながら数えてみます。
-
-慣れるまでは次のように数えても構いません。
+This is Offbeat Count with "&" inserted on beats 2 and 4. This counting method is the basic form of Offbeat Count practice. It will appear repeatedly in many forms in the practice ahead, so learn it properly here.
 
 |     |     |     |     |     |     |     |     |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-|     |     |     |     |     |     | ＆  | １  |
-| ・  | ・  | ＆  | ３  | ・  | ・  | ＆  | １  |
+|     |     |     |     |     |     |     | 1   |
+| ・  | 2   | &   | 3   | ・  | 4   | &   | 1   |
 
-２拍４拍以外を省略しました。「＆１・・＆３・・」と数えます。こうして２拍４拍に精神を集中することで、４拍が１拍に先行し・２拍が３拍に先行している感覚をしっかりと心に焼き付けましょう。
+Practice 1: Try counting along with your favorite music. (20 hours)
+Practice 2: Try counting while the metronome clicks on beats 2 and 4. (20 hours)
+Practice 3: Try counting while playing yourself. (20 hours)
 
-練習１ 好きな音楽に合わせて数えてみましょう。(20時間)
-練習２ ２拍４拍でメトロノームを鳴らしながら数えてみましょう。(20時間)
-練習３ 自分で演奏しながら数えてみましょう。(20時間)
+#### On-the-Beat Count (Quarter-Note Offbeat)
 
-#### オフビートカウント（４分８分オフビート）
-
-同時に４分音符オフビートと８分音符オフビートを先に数える練習です。
+This is practice in counting the quarter-note offbeat first.
 
 |     |     |     |     |     |     |     |     |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-|     |     |     |     |     | ４  | ＆  | １  |
-| ・  | ２  | ＆  | ３  | ・  | ４  | ＆  | １  |
+|     |     |     |     |     |     | 4   | ・  |
+| 1   | ・  | 2   | ・  | 3   | ・  | 4   | ・  |
 
-音楽にあわせて『４＆１・２＆３・』とはっきり意識しながら数えてみます。４拍目の位置に『＆』が来ます。更にその『＆』に先駆けて『４』が入ります。『１』よりも『＆』が先にくる感覚、及び『＆』よりも『４』が先に入る感覚をはっきりと意識しながらカウントしましょう。
+The spoken count that comes out is exactly the same as normal On-the-Beat Count. But you must count with clear awareness that **in your mind you count 4 first**. For example, when counting along with the music, do not count "1・2・3・4・" in your mind. Count strictly in the order "4・1・2・3・".
 
-練習１ 好きな音楽に合わせて数えてみましょう。(20時間)
-練習２ ２拍４拍でメトロノームを鳴らしながら数えてみましょう。(20時間)
-練習３ 自分で演奏しながら数えてみましょう。(20時間)
+Practice 1: Try counting along with your favorite music. (20 hours)
+Practice 2: Try counting while the metronome clicks on beats 2 and 4. (20 hours)
+Practice 3: Try counting while playing yourself. (20 hours)
 
-#### オンビートカウント（２分４分オフビート）
+#### Offbeat Count (Quarter-Note Offbeat)
 
-同時に２分音符オフビートと４分音符オフビートを先に数える練習です。
-
-|     |     |     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-|     |     | ２  | ・  | ３  | ・  | ４  | ・  |
-| １  | ・  | ２  | ・  | ３  | ・  | ４  | ・  |
-
-声として出てくるカウントは通常のオンビートカウントと全く同じです。しかし飽くまでも**心の中で２３４を先に数える**ことをはっきりと意識してカウントして下さい。音楽に合わせてカウントするときに心の中で『１・２・３・４・』と数えるのではなく、飽くまでも『２・３・４・１・』という順番で数えましょう。
-
-練習１ 好きな音楽に合わせて数えてみましょう。(20時間)
-練習２ ２拍４拍でメトロノームを鳴らしながら数えてみましょう。(20時間)
-練習３ 自分で演奏しながら数えてみましょう。(20時間)
-
-#### オフビートカウント（２分４分８分オフビート）
-
-２分音符・４分音符・８分音符のオフビートを同時に先に数える練習です。
+This is practice in counting the quarter-note offbeat first.
 
 |     |     |     |     |     |     |     |     |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-|     | ２  | ＆  | ３  | ・  | ４  | ＆  | １  |
-| ・  | ２  | ＆  | ３  | ・  | ４  | ＆  | １  |
+|     |     |     |     |     |     | &   | 1   |
+| ・  | 2   | &   | 3   | ・  | 4   | &   | 1   |
 
-音楽にあわせて『２＆３・４＆１・』とはっきり意識しながら数えてみます。『４＆１』よりも『２＆３』が先にくる感覚をはっきりと意識しながらカウントしましょう。
+An "&" lands at the position of beat 4. Count while clearly feeling that this "&" comes first. Count along with the music while clearly being aware of "&1・2&3・4&1".
 
-練習１ 好きな音楽に合わせて数えてみましょう。(20時間)
-練習２ ２拍４拍でメトロノームを鳴らしながら数えてみましょう。(20時間)
-練習３ 自分で演奏しながら数えてみましょう。(20時間)
+Until you get used to it, it is also fine to count like this.
 
-#### オフビートカウント（全２分４分８分オフビート）
+|     |     |     |     |     |     |     |     |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|     |     |     |     |     |     | &   | 1   |
+| ・  | ・  | &   | 3   | ・  | ・  | &   | 1   |
 
-全音符・２分音符・４分音符・８分音符のオフビートを同時に先に数える練習です。
+Everything except beats 2 and 4 has been omitted. Count it as "&1・・&3・・". By concentrating your mind on beats 2 and 4 in this way, burn into yourself the feeling that beat 4 precedes beat 1 and beat 2 precedes beat 3.
+
+Practice 1: Try counting along with your favorite music. (20 hours)
+Practice 2: Try counting while the metronome clicks on beats 2 and 4. (20 hours)
+Practice 3: Try counting while playing yourself. (20 hours)
+
+#### Offbeat Count (Quarter- and Eighth-Note Offbeats)
+
+This is practice in counting the quarter-note offbeat and the eighth-note offbeat first at the same time.
+
+|     |     |     |     |     |     |     |     |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|     |     |     |     |     | 4   | &   | 1   |
+| ・  | 2   | &   | 3   | ・  | 4   | &   | 1   |
+
+Count along with the music while clearly being aware of "4&1・2&3・". An "&" lands at the position of beat 4. And before that "&", a "4" comes in. Count while clearly feeling that "&" comes before "1", and that "4" comes before "&".
+
+Practice 1: Try counting along with your favorite music. (20 hours)
+Practice 2: Try counting while the metronome clicks on beats 2 and 4. (20 hours)
+Practice 3: Try counting while playing yourself. (20 hours)
+
+#### On-the-Beat Count (Half- and Quarter-Note Offbeats)
+
+This is practice in counting the half-note offbeat and the quarter-note offbeat first at the same time.
+
+|     |     |     |     |     |     |     |     |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|     |     | 2   | ・  | 3   | ・  | 4   | ・  |
+| 1   | ・  | 2   | ・  | 3   | ・  | 4   | ・  |
+
+The spoken count that comes out is exactly the same as normal On-the-Beat Count. But you must count with clear awareness that **in your mind you count 2, 3, and 4 first**. When counting along with the music, do not count "1・2・3・4・" in your mind. Count strictly in the order "2・3・4・1・".
+
+Practice 1: Try counting along with your favorite music. (20 hours)
+Practice 2: Try counting while the metronome clicks on beats 2 and 4. (20 hours)
+Practice 3: Try counting while playing yourself. (20 hours)
+
+#### Offbeat Count (Half-, Quarter-, and Eighth-Note Offbeats)
+
+This is practice in counting the offbeats of half notes, quarter notes, and eighth notes first at the same time.
+
+|     |     |     |     |     |     |     |     |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|     | 2   | &   | 3   | ・  | 4   | &   | 1   |
+| ・  | 2   | &   | 3   | ・  | 4   | &   | 1   |
+
+Count along with the music while clearly being aware of "2&3・4&1・". Count while clearly feeling that "2&3" comes before "4&1".
+
+Practice 1: Try counting along with your favorite music. (20 hours)
+Practice 2: Try counting while the metronome clicks on beats 2 and 4. (20 hours)
+Practice 3: Try counting while playing yourself. (20 hours)
+
+#### Offbeat Count (All Whole-, Half-, Quarter-, and Eighth-Note Offbeats)
+
+This is practice in counting the offbeats of whole notes, half notes, quarter notes, and eighth notes first at the same time.
 
 |     |     |     |     |     |     |     |        |
 | --- | --- | --- | --- | --- | --- | --- | ------ |
-|     |     |     |     |     |     |     | １     |
-| ・  | ２  | ・  | ３  | ・  | ４  | ・  | （２） |
-| ・  | ２  | ・  | ３  | ・  | ４  | ・  | （１） |
+|     |     |     |     |     |     |     | 1      |
+| ・  | 2   | ・  | 3   | ・  | 4   | ・  | (2)    |
+| ・  | 2   | ・  | 3   | ・  | 4   | ・  | (1)    |
 
-これは完全に８分音符オフビートと同じかたちです。しかし１小節一回り先に進んでいる点が異なります。長いオフビートを正確に認識するためには**小節入りカウント**を使う必要が有ります。**小節入りカウント**は次節以降で練習します。ここでは音楽にあわせて『１・２・３・４・』が１小節早いことをはっきり意識しながら数えてみます。
+This has exactly the same shape as the eighth-note offbeat. But it differs in that it is one full measure farther ahead. In order to perceive long offbeats accurately, you need to use **Measure-Number Count**. We will practice **Measure-Number Count** from the next section onward. Here, count along with the music while clearly being aware that "1・2・3・4・" is one measure early.
 
-練習１ 好きな音楽に合わせて数えてみましょう。(20時間)
-練習２ ２拍４拍でメトロノームを鳴らしながら数えてみましょう。(20時間)
-練習３ 自分で演奏しながら数えてみましょう。(20時間)
+Practice 1: Try counting along with your favorite music. (20 hours)
+Practice 2: Try counting while the metronome clicks on beats 2 and 4. (20 hours)
+Practice 3: Try counting while playing yourself. (20 hours)
 
-#### 小節数入りオフビートカウント
+#### Offbeat Count with Measure Numbers
 
-まずはオフビートカウントと小節数カウントを同時に行うこと自体に慣れる練習をしましょう。以降の練習では、小節数入りオフビートカウントを基本形として利用します。
-
-|     |     |     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-|     |     |     |     |     |     |     | １  |
-| ・  | ２  | ＆  | ３  | ・  | ４  | ＆  | ２  |
-| ・  | ２  | ＆  | ３  | ・  | ４  | ＆  | ３  |
-| ・  | ２  | ＆  | ３  | ・  | ４  | ＆  | ４  |
-| ・  | ２  | ＆  | ３  | ・  | ４  | ＆  | ５  |
-| ・  | ２  | ＆  | ３  | ・  | ４  | ＆  | ６  |
-| ・  | ２  | ＆  | ３  | ・  | ４  | ＆  | ７  |
-| ・  | ２  | ＆  | ３  | ・  | ４  | ＆  | ８  |
-
-練習１ 好きな音楽に合わせて数えてみましょう。(3時間)
-練習２ ２拍４拍でメトロノームを鳴らしながら数えてみましょう。(3時間)
-練習３ 自分で演奏しながら数えてみましょう。(20時間)しながら数えてみましょう。(3時間)
-
-#### オフビートカウント（小節オフビート）
-
-以降では全音符以上のオフビートの練習に入ります。１小節前からリズムを開始していることを表すために８小節目からカウントを開始します。
+First, practice simply getting used to doing Offbeat Count and measure-number counting at the same time. In the exercises that follow, Offbeat Count with Measure Numbers will be used as the basic form.
 
 |     |     |     |     |     |     |     |     |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-|     |     |     |     |     |     |     | ８  |
-| ・  | ２  | ＆  | ３  | ・  | ４  | ＆  | １  |
-| ・  | ２  | ＆  | ３  | ・  | ４  | ＆  | ２  |
-| ・  | ２  | ＆  | ３  | ・  | ４  | ＆  | ３  |
-| ・  | ２  | ＆  | ３  | ・  | ４  | ＆  | ４  |
-| ・  | ２  | ＆  | ３  | ・  | ４  | ＆  | ５  |
-| ・  | ２  | ＆  | ３  | ・  | ４  | ＆  | ６  |
-| ・  | ２  | ＆  | ３  | ・  | ４  | ＆  | ７  |
-| ・  | ２  | ＆  | ３  | ・  | ４  | ＆  | ８  |
+|     |     |     |     |     |     |     | 1   |
+| ・  | 2   | &   | 3   | ・  | 4   | &   | 2   |
+| ・  | 2   | &   | 3   | ・  | 4   | &   | 3   |
+| ・  | 2   | &   | 3   | ・  | 4   | &   | 4   |
+| ・  | 2   | &   | 3   | ・  | 4   | &   | 5   |
+| ・  | 2   | &   | 3   | ・  | 4   | &   | 6   |
+| ・  | 2   | &   | 3   | ・  | 4   | &   | 7   |
+| ・  | 2   | &   | 3   | ・  | 4   | &   | 8   |
 
-練習１ 好きな音楽に合わせて数えてみましょう。(20時間)
-練習２ ２拍４拍でメトロノームを鳴らしながら数えてみましょう。(20時間)
-練習３ 自分で演奏しながら数えてみましょう。(20時間)
+Practice 1: Try counting along with your favorite music. (3 hours)
+Practice 2: Try counting while the metronome clicks on beats 2 and 4. (3 hours)
+Practice 3: Try counting while playing yourself. (20 hours)
 
-#### オフビートカウント（小節＋４分音符オフビート）
+#### Offbeat Count (Measure Offbeat)
 
-小節オフビートと同様ですが、『＆』（４分音符）を『８』よりも先に数えることを意識しながら練習します。
+From here onward, we begin practicing offbeats longer than a whole note. To show that the rhythm begins one measure earlier, we start counting from measure 8.
 
 |     |     |     |     |     |     |     |     |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-|     |     |     |     |     |     | ＆  | ８  |
-| ・  | ２  | ＆  | ３  | ・  | ４  | ＆  | １  |
-| ・  | ２  | ＆  | ３  | ・  | ４  | ＆  | ２  |
-| ・  | ２  | ＆  | ３  | ・  | ４  | ＆  | ３  |
-| ・  | ２  | ＆  | ３  | ・  | ４  | ＆  | ４  |
-| ・  | ２  | ＆  | ３  | ・  | ４  | ＆  | ５  |
-| ・  | ２  | ＆  | ３  | ・  | ４  | ＆  | ６  |
-| ・  | ２  | ＆  | ３  | ・  | ４  | ＆  | ７  |
-| ・  | ２  | ＆  | ３  | ・  | ４  | ＆  | ８  |
+|     |     |     |     |     |     |     | 8   |
+| ・  | 2   | &   | 3   | ・  | 4   | &   | 1   |
+| ・  | 2   | &   | 3   | ・  | 4   | &   | 2   |
+| ・  | 2   | &   | 3   | ・  | 4   | &   | 3   |
+| ・  | 2   | &   | 3   | ・  | 4   | &   | 4   |
+| ・  | 2   | &   | 3   | ・  | 4   | &   | 5   |
+| ・  | 2   | &   | 3   | ・  | 4   | &   | 6   |
+| ・  | 2   | &   | 3   | ・  | 4   | &   | 7   |
+| ・  | 2   | &   | 3   | ・  | 4   | &   | 8   |
 
-『＆８』から始めるのと同様に
+Practice 1: Try counting along with your favorite music. (20 hours)
+Practice 2: Try counting while the metronome clicks on beats 2 and 4. (20 hours)
+Practice 3: Try counting while playing yourself. (20 hours)
 
-- 『＆８』から始める
-- 『４＆８』から始める
-- 『２＆３・４＆８』から始める
+#### Offbeat Count (Measure + Quarter-Note Offbeat)
 
-それぞれのパターンも練習します。
+This is the same as Measure Offbeat, but you practice while being aware of counting "&" (the quarter note) before "8."
 
-練習１ 好きな音楽に合わせて数えてみましょう。(200時間)
-練習２ ２拍４拍でメトロノームを鳴らしながら数えてみましょう。(200時間)
-練習３ 自分で演奏しながら数えてみましょう。(200時間)
+|     |     |     |     |     |     |     |     |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|     |     |     |     |     |     | &   | 8   |
+| ・  | 2   | &   | 3   | ・  | 4   | &   | 1   |
+| ・  | 2   | &   | 3   | ・  | 4   | &   | 2   |
+| ・  | 2   | &   | 3   | ・  | 4   | &   | 3   |
+| ・  | 2   | &   | 3   | ・  | 4   | &   | 4   |
+| ・  | 2   | &   | 3   | ・  | 4   | &   | 5   |
+| ・  | 2   | &   | 3   | ・  | 4   | &   | 6   |
+| ・  | 2   | &   | 3   | ・  | 4   | &   | 7   |
+| ・  | 2   | &   | 3   | ・  | 4   | &   | 8   |
 
-### 仕上げ練習
+As with starting from "&8":
 
-これまでの練習でメトロノームを２拍４拍に鳴らしながら練習してきました。メトロノームを２拍４拍に鳴らして楽器を演奏したり声を出したりすることで充分２拍４拍の位置を確認することができた筈です。
+- start from "&8"
+- start from "4&8"
+- start from "2&3・4&8"
 
-それでは、これまでにやってきた練習をメトロノーム２拍４拍ではなく１拍3拍にあわせて再度やってみましょう。これまでメトロノームで確認していた２拍４拍の打点をメトロノームに頼らずに楽器だけで示す練習をしましょう。
+Practice each of these patterns as well.
 
-注意点はメトロノームを１拍3拍に鳴らした時、２拍４拍を演奏する自分の楽器音が先に聞こえる様にはっきりと意識することです。1拍3拍でメトロノームを鳴らす場合、少しでも油断するとすぐに１拍3拍が先に鳴っている様に聞こえてきてしまいます。１拍3拍が先に聞こえないように最新の注意を払いましょう。
+Practice 1: Try counting along with your favorite music. (200 hours)
+Practice 2: Try counting while the metronome clicks on beats 2 and 4. (200 hours)
+Practice 3: Try counting while playing yourself. (200 hours)
 
-またなるべくメトロノームの１拍3拍と重なって楽器を演奏しないようにしましょう。飽くまでもメトロノーム音と自分の楽器音で**協力グルーヴ**を構成するように注意します。
+### Finishing Exercises
 
-(800時間)
+Up to this point, you have practiced while the metronome clicked on beats 2 and 4. By playing your instrument or voicing the count while the metronome clicked on beats 2 and 4, you should have been able to confirm the positions of beats 2 and 4 sufficiently.
 
-### まとめ
+Now try all of the practice you have done so far once again, but this time with the metronome on beats 1 and 3 instead of beats 2 and 4. Practice showing the attacks of beats 2 and 4 with your instrument alone, without relying on the metronome for those positions.
 
-声を出してカウントする ─── それがそのままグルーヴになります。声出しカウントが上達すればグルーヴが向上します。グルーヴが向上すると、楽器を手にしていなくてもグルーヴします。そして楽器を手にすれば楽器でもグルーヴするようになります。練習していないのに楽器が上達する ─── 声出しカウントとはそんな不思議さがあります。
+The point to watch is that when the metronome clicks on beats 1 and 3, you must clearly keep hearing your own instrument sound on beats 2 and 4 as coming first. If you use a metronome on beats 1 and 3, the moment you let your attention slip, beats 1 and 3 immediately start sounding as though they come first. Pay the closest attention to keep beats 1 and 3 from sounding first.
 
-声出しカウントを極めれば誰でもグルーヴします。
+Also, try not to play your instrument directly on top of the metronome's beats 1 and 3. Always take care to form **Cooperative Groove** between the metronome sound and your instrument sound.
 
-その気持ちが確かに伝わる熱いグルーヴを生みだします。
+(800 hours)
 
-みんなで一緒に**激しくグルーヴしましょう！**
+### Summary
 
-オカアツシ
+Counting aloud --- that itself becomes groove. As your spoken count improves, your groove improves. As your groove improves, you groove even without holding an instrument. And once you pick up an instrument, you begin to groove on the instrument as well. Your instrument improves even though you were not practicing the instrument itself --- spoken count has that kind of mysterious power.
+
+Anyone can groove if they master spoken count.
+
+It creates a hot groove that truly conveys your feeling.
+
+Let us all **groove hard together**.
+
+Oka Atsushi
 
 <!--
   --

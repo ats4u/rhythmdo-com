@@ -1,16 +1,15 @@
-## オフビートカウント入門 <!-- {#offbeat-count-basic} -->
+## Introduction to Offbeat Count <!-- {#offbeat-count-basic} -->
 
-オフビートカウントとは、音楽を聴いている時、或いは音楽を演奏している時に、同時に声を出して英語で『半拍早く』拍数をカウントするという実践方法を使うことで、音楽上のグルーヴをはっきり意識し理解を深め音楽性を向上するという実践的手法です。
+Offbeat Count is a practical method that clarifies groove in music, deepens understanding, and improves musicianship by counting the beat numbers aloud in English half a beat early while listening to or performing music.
 
 ------
 
-オフビートカウントとは、音楽を聴いている時、或いは音楽を演奏している時に、同時に声を出して英語で『半拍早く』拍数をカウントするという実践方法を使うことで、音楽上のグルーヴをはっきり意識し理解を深め音楽性を向上するという実践的手法です。
+Offbeat Count is a practical method that clarifies groove in music, deepens understanding, and improves musicianship by counting the beat numbers aloud in English half a beat early while listening to or performing music.
 
-とても単純な実践方法ですが、たったこれだけの練習方法で飛躍的に音楽演奏能力が向上します。たったこの『半拍早く数える』という単純な行為に無限の奥行きが存在します。半拍早くカウントするというたったそれだけのことですが、習得にはしばしば長い長い年月が必要です。
+It is an extremely simple practice method, yet this alone can dramatically improve musical performance ability. The simple act of "counting half a beat early" contains endless depth. It is only that one thing, but mastering it often takes many long years.
 
-これを練習方法のひとつとして取り入れて練習の効率を上げるだけでなく、実際の演奏中に行うことで音楽性や演奏の安定性高めたり、予期しない出来事によりリズムを見失った状態から復帰したりすることが可能になります。
+It can be used not only as a practice method to improve practice efficiency, but also during actual performance to raise musicality and stability, and even to recover when unexpected events make you lose the rhythm.
 
-モーラ拍リズム言語を母国語とする人は、ストレス拍リズムの言語を習得するに当たって障害となる「子音と母音を区別出来ない」「子音の長さを認識出来ない」「子音が母音に先行することを認識出来ない」という３つの盲点を持っています。オフビートカウントは、まずこの３つの盲点を補うことを主目的として開発されました。オフビートカウントの発音練習を行うことで、英語のリスニング能力も飛躍的に向上します。また演奏時のグルーヴの原理をはっきりと意識する事が出来るようになり、演奏のグルーヴの安定性が向上します。
+Native speakers of mora-timed rhythm languages have three blind spots that become obstacles when learning stress-timed rhythm languages: "they cannot distinguish consonants from vowels," "they cannot perceive consonant duration," and "they cannot perceive that consonants precede vowels." Offbeat Count was developed first and foremost to compensate for these three blind spots. Practicing the pronunciation of Offbeat Count dramatically improves English listening ability. It also makes it possible to perceive the principles of groove in performance clearly, and improves the stability of groove in performance.
 
-またモーラ拍リズム言語を母国語としない人でも、日頃ほとんど意識することのないグルーヴの原理をはっきり意識して身につける指標として世界的に活用され始めています。
-
+Even for people whose native language is not a mora-timed rhythm language, it is beginning to be used around the world as a guide for clearly perceiving and acquiring principles of groove that usually remain almost unnoticed.

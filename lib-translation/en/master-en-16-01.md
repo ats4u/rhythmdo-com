@@ -1,14 +1,14 @@
-### はじめに
+### Introduction
 
-この本では**声出しオフビートカウント**の練習方法について説明します。
+This book explains how to practice **Spoken Offbeat Count**.
 
-**声出しカウント**とは演奏中に声を出して拍数を数えることをいいます。この声出しカウントはとても大切な音楽基礎力トレーニングです。
+**Spoken count** means counting the beats aloud while performing. This is a very important form of basic musical training.
 
-**オフビートカウント**は八分音符ひとつ分早くカウントをすることをいいます。オフビートカウントはこの本の著者オカアツシが考案したカウント方法です。ジャズ／ゴスペル／ブルース／Ｒ＆Ｂを初めとしたアフリカ発祥の音楽の影響を受けたポップ音楽の演奏の基礎トレーニングに適しています。
+**Offbeat Count** means counting one eighth note early. Offbeat Count is a counting method devised by this book's author, Oka Atsushi. It is well suited to foundational training for performing pop music influenced by African-origin music such as jazz, gospel, blues, and R&B.
 
-オフビートカウントはジャズ等々のアフリカ発祥音楽の影響の重要な要素である**グルーヴ**を安定して生成することを重視したカウントメソッドです。
+Offbeat Count is a counting method that places emphasis on generating stable **groove**, an important element in music influenced by African-origin traditions such as jazz.
 
-まず音楽の中に存在する色々な長さのオフビートの正体をオフビートカウントによって明らかにし、そしてそれを確実に身に付ける方法を説明します。以下で各種オフビートとそのカウント方法を順を追って見ていきます。
+First, Offbeat Count will reveal the true nature of the various offbeats that exist in music, and then explain how to acquire them reliably. Below, we will look at each type of offbeat and its counting method step by step.
 
 <style>
     table {
@@ -23,45 +23,44 @@
     }
 </style>
 
-#### 読み方について
+#### How to Read the Notation
 
-いろいろなカウント方法を譜面で書き表すこともできますが、ここでは数字「０〜９」と「＆」「Ｅ」「Ａ」「・」で表現することでカウントメソッドを説明したいと思います。
+Various counting methods can also be written in staff notation, but here I will explain the counting method using the symbols "0-9," "&," "E," "A," and "・."
 
 |        |                            |
 | ------ | -------------------------- |
-| ０〜９ | ワン・ツー…（英語で読む）  |
-| ＆     | エン（英語で読む＝アンド） |
-| Ｅ     | イー                       |
-| Ａ     | アー                       |
-| ・     | （休み・読まない）         |
+| 0-9    | one, two... (read in English) |
+| &      | and                        |
+| E      | ee                         |
+| A      | ah                         |
+| ・     | (rest / do not read)      |
 
-#### 伝わりやすいリズムと伝わりづらいリズム
+#### Rhythms That Communicate and Rhythms That Do Not
 
-オフビートカウントの最終目標は**頭合わせリズム**を脱して**尻合わせリズム**を維持できるようになることです。
+The final goal of Offbeat Count is to move beyond **Head-Alignment Rhythm** and become able to maintain **Tail-Alignment Rhythm**.
 
-頭合わせとは**伝わりにくいリズム**のことです。
+Head Alignment means **rhythm that does not communicate well**.
 
-- ミュージシャン以外の人に理解されない
-- よくわからないと言われる
-- 自分でもリズミカルだと感じられない
+- People other than musicians do not understand it
+- People say they do not really get it
+- Even you yourself do not feel it is rhythmic
 
-一方、尻合わせリズムは**しっかり気持ちに伝わるリズム**のことです。
+By contrast, Tail-Alignment Rhythm is **rhythm that clearly conveys feeling to the listener**.
 
-**しっかり気持ちに伝わるリズム**＝**尻合わせリズム**は、バンド仲間や仲の良い友達に伝わるだけでなく、全く知らない人や音楽に興味のない子供やお年寄りにも伝わります。その思いは国境や言語を超えて人に伝わってゆきます。そこに込められた思いに関わらず、その思いは誰にでも確実に伝わります。 ─── **しっかり気持ちに伝わるリズム**＝**尻合わせリズム**で演奏することさえできれば ─── 。
+**Rhythm that clearly conveys feeling** = **Tail-Alignment Rhythm** does not reach only your bandmates and close friends. It also reaches complete strangers, children and elderly people who have no interest in music, and people across borders and languages. Whatever feeling is put into it, that feeling is reliably communicated to anyone --- if only you can perform with **rhythm that clearly conveys feeling** = **Tail-Alignment Rhythm**.
 
-それが**頭合わせリズム**と**尻合わせリズム**の違いです。
+That is the difference between **Head-Alignment Rhythm** and **Tail-Alignment Rhythm**.
 
-頭合わせリズムと尻合わせリズムの違いには、とてもはっきりした数学的な性質が存在します。以下でその違いについて学んでいきます。
+There is a very clear mathematical difference between Head-Alignment Rhythm and Tail-Alignment Rhythm. Below, we will learn what that difference is.
 
-見方を変えると尻合わせリズムの正体は**グルーヴ**です。自分では激しくグルーヴしているつもりでも、リズムが頭合わせになってしまえば残念なことにグルーヴは無情に消えてしまいます。
+Seen another way, Tail-Alignment Rhythm is what **groove** really is. You may think you are grooving intensely, but if the rhythm becomes head-aligned, the groove disappears mercilessly.
 
-しかし逆に、例えもしバンド演奏中にトラブルがあったとしても、冷静にリズムの尻合わせを維持することさえできれば、グルーヴは維持されます。そのグルーヴと共に、トラブルを乗り越えたその気持ちが確実にリスナに伝わるでしょう。
+On the other hand, even if trouble happens during a band performance, as long as you can calmly maintain tail alignment in the rhythm, the groove remains. Along with that groove, the feeling of having overcome the trouble will surely reach the listener.
 
-#### リズムトレーニングの難しさについて
+#### Why Rhythm Training Is Hard
 
-この本はまるで『誰でも簡単に筋肉ムキムキになる方法』の様なものです。実際のところ、筋肉ムキムキになる方法は実に簡単です。『毎日腕立て伏せを５００回最低２年続ける』 ─── とても簡単なことですが誰もできません。誰もがやれば強くなれると知っている。誰にでもできることだけども、現実にはほとんど誰もできません。
+This book is something like "How Anyone Can Easily Become Muscular." In reality, becoming muscular is very simple: "Do 500 push-ups every day for at least two years." It is very simple, yet nobody can do it. Everyone knows they would get stronger if they did it. Anyone can do it, and yet in reality almost nobody does.
 
-筋肉トレーニングは体力を消耗します。リズムトレーニングは体力は消耗しませんが、精神力を消耗します。リズムトレーニングを行うとその後しばらくは動けなくなるほど激しく疲れます。疲れなくなるには、慣れるまでしばらくの辛抱が必要です。
+Muscle training consumes physical strength. Rhythm training does not consume physical strength, but it does consume mental strength. After rhythm training, you may feel so exhausted that you cannot move for a while. To stop getting that tired, you need to endure it for some time until you become accustomed to it.
 
-上達のするには地道に個人練習を続ける以外に方法はありませんが、なかなかひとりで練習を続けるのは難しいものです。そこで少しずつ都内各所でリズムトレ練習会を開いていこうと思っております。フェースブック／ツイッター／ブログなどで告知致しますので、その際はどうぞ宜しくお願い致します。
-
+There is no way to improve except by continuing steady individual practice, but it is hard to keep practicing alone. So I plan to gradually start rhythm-training practice sessions in various places around Tokyo. I will announce them on Facebook, Twitter, my blog, and so on, so I would appreciate your participation when that happens.

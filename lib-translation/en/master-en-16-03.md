@@ -1,234 +1,233 @@
-### 基礎練習
+### Basic Exercises
 
-#### オンビートカウント
+#### On-the-Beat Count
 
-まずは基本としてオンビートカウントを練習します。
-
-|     |     |     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| １  | ＆  | ２  | ＆  | ３  | ＆  | ４  | ＆  |
-
-練習 好きな音楽に合わせて数えてみましょう。
-練習時間目標３時間
-
-#### 小節入りオンビートカウント
-
-オンビートカウントに慣れてきたら小節入りカウントの練習を行いましょう。
+First, practice On-the-Beat Count as the basis.
 
 |     |     |     |     |     |     |     |     |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| １  | ＆  | ２  | ＆  | ３  | ＆  | ４  | ＆  |
-| ２  | ＆  | ２  | ＆  | ３  | ＆  | ４  | ＆  |
-| ３  | ＆  | ２  | ＆  | ３  | ＆  | ４  | ＆  |
-| ４  | ＆  | ２  | ＆  | ３  | ＆  | ４  | ＆  |
+| 1   | &   | 2   | &   | 3   | &   | 4   | &   |
 
-練習 好きな音楽に合わせて数えてみましょう。
-練習時間目標３時間
+Practice: Try counting along with your favorite music.
+Target practice time: 3 hours
 
-#### オフビートカウント（単純８分オフビート）
+#### On-the-Beat Count with Measure Numbers
 
-オンビートカウントと比べて大きく難易度があがります。
-
-##### 正しい例
+Once you get used to On-the-Beat Count, practice counting with measure numbers.
 
 |     |     |     |     |     |     |     |     |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-|     |     |     |     |     |     |     | １  |
-| ・  | ２  | ・  | ３  | ・  | ４  | ・  | １  |
+| 1   | &   | 2   | &   | 3   | &   | 4   | &   |
+| 2   | &   | 2   | &   | 3   | &   | 4   | &   |
+| 3   | &   | 2   | &   | 3   | &   | 4   | &   |
+| 4   | &   | 2   | &   | 3   | &   | 4   | &   |
 
-注意すべき点をいくつか挙げます。
+Practice: Try counting along with your favorite music.
+Target practice time: 3 hours
 
-##### 間違った例
+#### Offbeat Count (Simple Eighth-Note Offbeat)
 
-|     |     |     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| ・  | １  | ・  | ２  | ・  | ３  | ・  | ４  |
+Compared with On-the-Beat Count, the difficulty rises sharply.
 
-これがオフビートカウントで最もよくある失敗です。『・』よりも数字を先に数えることはとても難しい ─── それがオフビートカウント最大の難関です。注意を怠るとすぐに感覚がずれてしまい、上記のように『・』よりも数字を後に数えてしまいます。数字が後になってしまわない様に最大の注意を払う必要があります。
-
-８分音符を先に！４分音符は後に！
-
-練習１ 好きな音楽に合わせて数えてみましょう。(20時間)
-練習２ ２拍４拍でメトロノームを鳴らしながら数えてみましょう。(20時間)
-練習３ 自分で演奏しながら数えてみましょう。(20時間)
-
-#### オフビートカウント（基本形／８分オフビート）
-
-２拍目４拍目に「＆」を入れたオフビートカウントです。このカウント法がオフビートカウント練習の基本型になります。今後の練習で様々なかたちで繰り返し表れますので、ここできちんと学んでおきましょう。
+##### Correct Example
 
 |     |     |     |     |     |     |     |     |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-|     |     |     |     |     |     |     | １  |
-| ・  | ２  | ＆  | ３  | ・  | ４  | ＆  | １  |
+|     |     |     |     |     |     |     | 1   |
+| ・  | 2   | ・  | 3   | ・  | 4   | ・  | 1   |
 
-練習１ 好きな音楽に合わせて数えてみましょう。(20時間)
-練習２ ２拍４拍でメトロノームを鳴らしながら数えてみましょう。(20時間)
-練習３ 自分で演奏しながら数えてみましょう。(20時間)
+There are several points to watch out for.
 
-#### オンビートカウント（４分オフビート）
-
-４分音符オフビートを先に数える練習です。
+##### Incorrect Example
 
 |     |     |     |     |     |     |     |     |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-|     |     |     |     |     |     | ４  | ・  |
-| １  | ・  | ２  | ・  | ３  | ・  | ４  | ・  |
+| ・  | 1   | ・  | 2   | ・  | 3   | ・  | 4   |
 
-声として出てくるカウントは通常のオンビートカウントと全く同じです。しかし飽くまでも**心の中で４を先に数える**ことをはっきりと意識してカウントして下さい。例えば、音楽に合わせてカウントするときに心の中で『１・２・３・４・』と数えるのではなく、飽くまでも『４・１・２・３・』という順番で数えましょう。
+This is the most common mistake in Offbeat Count. Counting the numbers before the dots is very difficult --- that is the biggest hurdle in Offbeat Count. If you let your attention slip even a little, the feel shifts immediately, and you end up counting the numbers after the dots as in the example above. You must pay the closest attention to keep the numbers from coming late.
 
-練習１ 好きな音楽に合わせて数えてみましょう。(20時間)
-練習２ ２拍４拍でメトロノームを鳴らしながら数えてみましょう。(20時間)
-練習３ 自分で演奏しながら数えてみましょう。(20時間)
+The eighth notes come first. The quarter notes come later.
 
-#### オフビートカウント（４分オフビート）
+Practice 1: Try counting along with your favorite music. (20 hours)
+Practice 2: Try counting while the metronome clicks on beats 2 and 4. (20 hours)
+Practice 3: Try counting while playing yourself. (20 hours)
 
-４分音符オフビートを先に数える練習です。
+#### Offbeat Count (Basic Form / Eighth-Note Offbeat)
 
-|     |     |     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-|     |     |     |     |     |     | ＆  | １  |
-| ・  | ２  | ＆  | ３  | ・  | ４  | ＆  | １  |
-
-４拍目の位置に＆が来ます。この＆が先にくる感覚をはっきりと意識しながらカウントしましょう。音楽にあわせて「＆１・２＆３・４＆１」とはっきり意識しながら数えてみます。
-
-慣れるまでは次のように数えても構いません。
+This is Offbeat Count with "&" inserted on beats 2 and 4. This counting method is the basic form of Offbeat Count practice. It will appear repeatedly in many forms in the practice ahead, so learn it properly here.
 
 |     |     |     |     |     |     |     |     |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-|     |     |     |     |     |     | ＆  | １  |
-| ・  | ・  | ＆  | ３  | ・  | ・  | ＆  | １  |
+|     |     |     |     |     |     |     | 1   |
+| ・  | 2   | &   | 3   | ・  | 4   | &   | 1   |
 
-２拍４拍以外を省略しました。「＆１・・＆３・・」と数えます。こうして２拍４拍に精神を集中することで、４拍が１拍に先行し・２拍が３拍に先行している感覚をしっかりと心に焼き付けましょう。
+Practice 1: Try counting along with your favorite music. (20 hours)
+Practice 2: Try counting while the metronome clicks on beats 2 and 4. (20 hours)
+Practice 3: Try counting while playing yourself. (20 hours)
 
-練習１ 好きな音楽に合わせて数えてみましょう。(20時間)
-練習２ ２拍４拍でメトロノームを鳴らしながら数えてみましょう。(20時間)
-練習３ 自分で演奏しながら数えてみましょう。(20時間)
+#### On-the-Beat Count (Quarter-Note Offbeat)
 
-#### オフビートカウント（４分８分オフビート）
-
-同時に４分音符オフビートと８分音符オフビートを先に数える練習です。
+This is practice in counting the quarter-note offbeat first.
 
 |     |     |     |     |     |     |     |     |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-|     |     |     |     |     | ４  | ＆  | １  |
-| ・  | ２  | ＆  | ３  | ・  | ４  | ＆  | １  |
+|     |     |     |     |     |     | 4   | ・  |
+| 1   | ・  | 2   | ・  | 3   | ・  | 4   | ・  |
 
-音楽にあわせて『４＆１・２＆３・』とはっきり意識しながら数えてみます。４拍目の位置に『＆』が来ます。更にその『＆』に先駆けて『４』が入ります。『１』よりも『＆』が先にくる感覚、及び『＆』よりも『４』が先に入る感覚をはっきりと意識しながらカウントしましょう。
+The spoken count that comes out is exactly the same as normal On-the-Beat Count. But you must count with clear awareness that **in your mind you count 4 first**. For example, when counting along with the music, do not count "1・2・3・4・" in your mind. Count strictly in the order "4・1・2・3・".
 
-練習１ 好きな音楽に合わせて数えてみましょう。(20時間)
-練習２ ２拍４拍でメトロノームを鳴らしながら数えてみましょう。(20時間)
-練習３ 自分で演奏しながら数えてみましょう。(20時間)
+Practice 1: Try counting along with your favorite music. (20 hours)
+Practice 2: Try counting while the metronome clicks on beats 2 and 4. (20 hours)
+Practice 3: Try counting while playing yourself. (20 hours)
 
-#### オンビートカウント（２分４分オフビート）
+#### Offbeat Count (Quarter-Note Offbeat)
 
-同時に２分音符オフビートと４分音符オフビートを先に数える練習です。
-
-|     |     |     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-|     |     | ２  | ・  | ３  | ・  | ４  | ・  |
-| １  | ・  | ２  | ・  | ３  | ・  | ４  | ・  |
-
-声として出てくるカウントは通常のオンビートカウントと全く同じです。しかし飽くまでも**心の中で２３４を先に数える**ことをはっきりと意識してカウントして下さい。音楽に合わせてカウントするときに心の中で『１・２・３・４・』と数えるのではなく、飽くまでも『２・３・４・１・』という順番で数えましょう。
-
-練習１ 好きな音楽に合わせて数えてみましょう。(20時間)
-練習２ ２拍４拍でメトロノームを鳴らしながら数えてみましょう。(20時間)
-練習３ 自分で演奏しながら数えてみましょう。(20時間)
-
-#### オフビートカウント（２分４分８分オフビート）
-
-２分音符・４分音符・８分音符のオフビートを同時に先に数える練習です。
+This is practice in counting the quarter-note offbeat first.
 
 |     |     |     |     |     |     |     |     |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-|     | ２  | ＆  | ３  | ・  | ４  | ＆  | １  |
-| ・  | ２  | ＆  | ３  | ・  | ４  | ＆  | １  |
+|     |     |     |     |     |     | &   | 1   |
+| ・  | 2   | &   | 3   | ・  | 4   | &   | 1   |
 
-音楽にあわせて『２＆３・４＆１・』とはっきり意識しながら数えてみます。『４＆１』よりも『２＆３』が先にくる感覚をはっきりと意識しながらカウントしましょう。
+An "&" lands at the position of beat 4. Count while clearly feeling that this "&" comes first. Count along with the music while clearly being aware of "&1・2&3・4&1".
 
-練習１ 好きな音楽に合わせて数えてみましょう。(20時間)
-練習２ ２拍４拍でメトロノームを鳴らしながら数えてみましょう。(20時間)
-練習３ 自分で演奏しながら数えてみましょう。(20時間)
+Until you get used to it, it is also fine to count like this.
 
-#### オフビートカウント（全２分４分８分オフビート）
+|     |     |     |     |     |     |     |     |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|     |     |     |     |     |     | &   | 1   |
+| ・  | ・  | &   | 3   | ・  | ・  | &   | 1   |
 
-全音符・２分音符・４分音符・８分音符のオフビートを同時に先に数える練習です。
+Everything except beats 2 and 4 has been omitted. Count it as "&1・・&3・・". By concentrating your mind on beats 2 and 4 in this way, burn into yourself the feeling that beat 4 precedes beat 1 and beat 2 precedes beat 3.
+
+Practice 1: Try counting along with your favorite music. (20 hours)
+Practice 2: Try counting while the metronome clicks on beats 2 and 4. (20 hours)
+Practice 3: Try counting while playing yourself. (20 hours)
+
+#### Offbeat Count (Quarter- and Eighth-Note Offbeats)
+
+This is practice in counting the quarter-note offbeat and the eighth-note offbeat first at the same time.
+
+|     |     |     |     |     |     |     |     |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|     |     |     |     |     | 4   | &   | 1   |
+| ・  | 2   | &   | 3   | ・  | 4   | &   | 1   |
+
+Count along with the music while clearly being aware of "4&1・2&3・". An "&" lands at the position of beat 4. And before that "&", a "4" comes in. Count while clearly feeling that "&" comes before "1", and that "4" comes before "&".
+
+Practice 1: Try counting along with your favorite music. (20 hours)
+Practice 2: Try counting while the metronome clicks on beats 2 and 4. (20 hours)
+Practice 3: Try counting while playing yourself. (20 hours)
+
+#### On-the-Beat Count (Half- and Quarter-Note Offbeats)
+
+This is practice in counting the half-note offbeat and the quarter-note offbeat first at the same time.
+
+|     |     |     |     |     |     |     |     |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|     |     | 2   | ・  | 3   | ・  | 4   | ・  |
+| 1   | ・  | 2   | ・  | 3   | ・  | 4   | ・  |
+
+The spoken count that comes out is exactly the same as normal On-the-Beat Count. But you must count with clear awareness that **in your mind you count 2, 3, and 4 first**. When counting along with the music, do not count "1・2・3・4・" in your mind. Count strictly in the order "2・3・4・1・".
+
+Practice 1: Try counting along with your favorite music. (20 hours)
+Practice 2: Try counting while the metronome clicks on beats 2 and 4. (20 hours)
+Practice 3: Try counting while playing yourself. (20 hours)
+
+#### Offbeat Count (Half-, Quarter-, and Eighth-Note Offbeats)
+
+This is practice in counting the offbeats of half notes, quarter notes, and eighth notes first at the same time.
+
+|     |     |     |     |     |     |     |     |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|     | 2   | &   | 3   | ・  | 4   | &   | 1   |
+| ・  | 2   | &   | 3   | ・  | 4   | &   | 1   |
+
+Count along with the music while clearly being aware of "2&3・4&1・". Count while clearly feeling that "2&3" comes before "4&1".
+
+Practice 1: Try counting along with your favorite music. (20 hours)
+Practice 2: Try counting while the metronome clicks on beats 2 and 4. (20 hours)
+Practice 3: Try counting while playing yourself. (20 hours)
+
+#### Offbeat Count (All Whole-, Half-, Quarter-, and Eighth-Note Offbeats)
+
+This is practice in counting the offbeats of whole notes, half notes, quarter notes, and eighth notes first at the same time.
 
 |     |     |     |     |     |     |     |        |
 | --- | --- | --- | --- | --- | --- | --- | ------ |
-|     |     |     |     |     |     |     | １     |
-| ・  | ２  | ・  | ３  | ・  | ４  | ・  | （２） |
-| ・  | ２  | ・  | ３  | ・  | ４  | ・  | （１） |
+|     |     |     |     |     |     |     | 1      |
+| ・  | 2   | ・  | 3   | ・  | 4   | ・  | (2)    |
+| ・  | 2   | ・  | 3   | ・  | 4   | ・  | (1)    |
 
-これは完全に８分音符オフビートと同じかたちです。しかし１小節一回り先に進んでいる点が異なります。長いオフビートを正確に認識するためには**小節入りカウント**を使う必要が有ります。**小節入りカウント**は次節以降で練習します。ここでは音楽にあわせて『１・２・３・４・』が１小節早いことをはっきり意識しながら数えてみます。
+This has exactly the same shape as the eighth-note offbeat. But it differs in that it is one full measure farther ahead. In order to perceive long offbeats accurately, you need to use **Measure-Number Count**. We will practice **Measure-Number Count** from the next section onward. Here, count along with the music while clearly being aware that "1・2・3・4・" is one measure early.
 
-練習１ 好きな音楽に合わせて数えてみましょう。(20時間)
-練習２ ２拍４拍でメトロノームを鳴らしながら数えてみましょう。(20時間)
-練習３ 自分で演奏しながら数えてみましょう。(20時間)
+Practice 1: Try counting along with your favorite music. (20 hours)
+Practice 2: Try counting while the metronome clicks on beats 2 and 4. (20 hours)
+Practice 3: Try counting while playing yourself. (20 hours)
 
-#### 小節数入りオフビートカウント
+#### Offbeat Count with Measure Numbers
 
-まずはオフビートカウントと小節数カウントを同時に行うこと自体に慣れる練習をしましょう。以降の練習では、小節数入りオフビートカウントを基本形として利用します。
-
-|     |     |     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-|     |     |     |     |     |     |     | １  |
-| ・  | ２  | ＆  | ３  | ・  | ４  | ＆  | ２  |
-| ・  | ２  | ＆  | ３  | ・  | ４  | ＆  | ３  |
-| ・  | ２  | ＆  | ３  | ・  | ４  | ＆  | ４  |
-| ・  | ２  | ＆  | ３  | ・  | ４  | ＆  | ５  |
-| ・  | ２  | ＆  | ３  | ・  | ４  | ＆  | ６  |
-| ・  | ２  | ＆  | ３  | ・  | ４  | ＆  | ７  |
-| ・  | ２  | ＆  | ３  | ・  | ４  | ＆  | ８  |
-
-練習１ 好きな音楽に合わせて数えてみましょう。(3時間)
-練習２ ２拍４拍でメトロノームを鳴らしながら数えてみましょう。(3時間)
-練習３ 自分で演奏しながら数えてみましょう。(20時間)しながら数えてみましょう。(3時間)
-
-#### オフビートカウント（小節オフビート）
-
-以降では全音符以上のオフビートの練習に入ります。１小節前からリズムを開始していることを表すために８小節目からカウントを開始します。
+First, practice simply getting used to doing Offbeat Count and measure-number counting at the same time. In the exercises that follow, Offbeat Count with Measure Numbers will be used as the basic form.
 
 |     |     |     |     |     |     |     |     |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-|     |     |     |     |     |     |     | ８  |
-| ・  | ２  | ＆  | ３  | ・  | ４  | ＆  | １  |
-| ・  | ２  | ＆  | ３  | ・  | ４  | ＆  | ２  |
-| ・  | ２  | ＆  | ３  | ・  | ４  | ＆  | ３  |
-| ・  | ２  | ＆  | ３  | ・  | ４  | ＆  | ４  |
-| ・  | ２  | ＆  | ３  | ・  | ４  | ＆  | ５  |
-| ・  | ２  | ＆  | ３  | ・  | ４  | ＆  | ６  |
-| ・  | ２  | ＆  | ３  | ・  | ４  | ＆  | ７  |
-| ・  | ２  | ＆  | ３  | ・  | ４  | ＆  | ８  |
+|     |     |     |     |     |     |     | 1   |
+| ・  | 2   | &   | 3   | ・  | 4   | &   | 2   |
+| ・  | 2   | &   | 3   | ・  | 4   | &   | 3   |
+| ・  | 2   | &   | 3   | ・  | 4   | &   | 4   |
+| ・  | 2   | &   | 3   | ・  | 4   | &   | 5   |
+| ・  | 2   | &   | 3   | ・  | 4   | &   | 6   |
+| ・  | 2   | &   | 3   | ・  | 4   | &   | 7   |
+| ・  | 2   | &   | 3   | ・  | 4   | &   | 8   |
 
-練習１ 好きな音楽に合わせて数えてみましょう。(20時間)
-練習２ ２拍４拍でメトロノームを鳴らしながら数えてみましょう。(20時間)
-練習３ 自分で演奏しながら数えてみましょう。(20時間)
+Practice 1: Try counting along with your favorite music. (3 hours)
+Practice 2: Try counting while the metronome clicks on beats 2 and 4. (3 hours)
+Practice 3: Try counting while playing yourself. (20 hours)
 
-#### オフビートカウント（小節＋４分音符オフビート）
+#### Offbeat Count (Measure Offbeat)
 
-小節オフビートと同様ですが、『＆』（４分音符）を『８』よりも先に数えることを意識しながら練習します。
+From here onward, we begin practicing offbeats longer than a whole note. To show that the rhythm begins one measure earlier, we start counting from measure 8.
 
 |     |     |     |     |     |     |     |     |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-|     |     |     |     |     |     | ＆  | ８  |
-| ・  | ２  | ＆  | ３  | ・  | ４  | ＆  | １  |
-| ・  | ２  | ＆  | ３  | ・  | ４  | ＆  | ２  |
-| ・  | ２  | ＆  | ３  | ・  | ４  | ＆  | ３  |
-| ・  | ２  | ＆  | ３  | ・  | ４  | ＆  | ４  |
-| ・  | ２  | ＆  | ３  | ・  | ４  | ＆  | ５  |
-| ・  | ２  | ＆  | ３  | ・  | ４  | ＆  | ６  |
-| ・  | ２  | ＆  | ３  | ・  | ４  | ＆  | ７  |
-| ・  | ２  | ＆  | ３  | ・  | ４  | ＆  | ８  |
+|     |     |     |     |     |     |     | 8   |
+| ・  | 2   | &   | 3   | ・  | 4   | &   | 1   |
+| ・  | 2   | &   | 3   | ・  | 4   | &   | 2   |
+| ・  | 2   | &   | 3   | ・  | 4   | &   | 3   |
+| ・  | 2   | &   | 3   | ・  | 4   | &   | 4   |
+| ・  | 2   | &   | 3   | ・  | 4   | &   | 5   |
+| ・  | 2   | &   | 3   | ・  | 4   | &   | 6   |
+| ・  | 2   | &   | 3   | ・  | 4   | &   | 7   |
+| ・  | 2   | &   | 3   | ・  | 4   | &   | 8   |
 
-『＆８』から始めるのと同様に
+Practice 1: Try counting along with your favorite music. (20 hours)
+Practice 2: Try counting while the metronome clicks on beats 2 and 4. (20 hours)
+Practice 3: Try counting while playing yourself. (20 hours)
 
-- 『＆８』から始める
-- 『４＆８』から始める
-- 『２＆３・４＆８』から始める
+#### Offbeat Count (Measure + Quarter-Note Offbeat)
 
-それぞれのパターンも練習します。
+This is the same as Measure Offbeat, but you practice while being aware of counting "&" (the quarter note) before "8."
 
-練習１ 好きな音楽に合わせて数えてみましょう。(200時間)
-練習２ ２拍４拍でメトロノームを鳴らしながら数えてみましょう。(200時間)
-練習３ 自分で演奏しながら数えてみましょう。(200時間)
+|     |     |     |     |     |     |     |     |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|     |     |     |     |     |     | &   | 8   |
+| ・  | 2   | &   | 3   | ・  | 4   | &   | 1   |
+| ・  | 2   | &   | 3   | ・  | 4   | &   | 2   |
+| ・  | 2   | &   | 3   | ・  | 4   | &   | 3   |
+| ・  | 2   | &   | 3   | ・  | 4   | &   | 4   |
+| ・  | 2   | &   | 3   | ・  | 4   | &   | 5   |
+| ・  | 2   | &   | 3   | ・  | 4   | &   | 6   |
+| ・  | 2   | &   | 3   | ・  | 4   | &   | 7   |
+| ・  | 2   | &   | 3   | ・  | 4   | &   | 8   |
 
+As with starting from "&8":
+
+- start from "&8"
+- start from "4&8"
+- start from "2&3・4&8"
+
+Practice each of these patterns as well.
+
+Practice 1: Try counting along with your favorite music. (200 hours)
+Practice 2: Try counting while the metronome clicks on beats 2 and 4. (200 hours)
+Practice 3: Try counting while playing yourself. (200 hours)

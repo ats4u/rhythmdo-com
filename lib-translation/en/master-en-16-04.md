@@ -1,12 +1,11 @@
-### 仕上げ練習
+### Finishing Exercises
 
-これまでの練習でメトロノームを２拍４拍に鳴らしながら練習してきました。メトロノームを２拍４拍に鳴らして楽器を演奏したり声を出したりすることで充分２拍４拍の位置を確認することができた筈です。
+Up to this point, you have practiced while the metronome clicked on beats 2 and 4. By playing your instrument or voicing the count while the metronome clicked on beats 2 and 4, you should have been able to confirm the positions of beats 2 and 4 sufficiently.
 
-それでは、これまでにやってきた練習をメトロノーム２拍４拍ではなく１拍3拍にあわせて再度やってみましょう。これまでメトロノームで確認していた２拍４拍の打点をメトロノームに頼らずに楽器だけで示す練習をしましょう。
+Now try all of the practice you have done so far once again, but this time with the metronome on beats 1 and 3 instead of beats 2 and 4. Practice showing the attacks of beats 2 and 4 with your instrument alone, without relying on the metronome for those positions.
 
-注意点はメトロノームを１拍3拍に鳴らした時、２拍４拍を演奏する自分の楽器音が先に聞こえる様にはっきりと意識することです。1拍3拍でメトロノームを鳴らす場合、少しでも油断するとすぐに１拍3拍が先に鳴っている様に聞こえてきてしまいます。１拍3拍が先に聞こえないように最新の注意を払いましょう。
+The point to watch is that when the metronome clicks on beats 1 and 3, you must clearly keep hearing your own instrument sound on beats 2 and 4 as coming first. If you use a metronome on beats 1 and 3, the moment you let your attention slip, beats 1 and 3 immediately start sounding as though they come first. Pay the closest attention to keep beats 1 and 3 from sounding first.
 
-またなるべくメトロノームの１拍3拍と重なって楽器を演奏しないようにしましょう。飽くまでもメトロノーム音と自分の楽器音で**協力グルーヴ**を構成するように注意します。
+Also, try not to play your instrument directly on top of the metronome's beats 1 and 3. Always take care to form **Cooperative Groove** between the metronome sound and your instrument sound.
 
-(800時間)
-
+(800 hours)
