@@ -1,0 +1,3 @@
+### Tatenori Can Be Clearly Quantified
+
+When one transcribes a song made by a tatenori person, features can be seen by which one can clearly point it out as such. For example, because songs made by tatenori people do not have anacrusis, the notes are always arranged biased to the left, like left-aligning text in a word processor. On the other hand, when one transcribes a song made by yokonori (a person who is not tatenori), often the notes are arranged biased to the right, like right-aligning text in a word processor. In this way, tatenori is by no means merely something sensory, but something that can be quantified and observed clearly in a visible form.

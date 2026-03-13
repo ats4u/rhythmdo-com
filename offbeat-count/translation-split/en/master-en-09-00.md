@@ -1,0 +1,3 @@
+## {{<meta var.MLWBOR.en>}} <!-- {#multi-layered-weak-beat-precedence} -->
+
+We will see that beats have two kinds, strong beats and weak beats. And we will see that strong beats do not necessarily appear first, and that weak beats are often performed first. Next, we will see that weak beats and strong beats exist not only in quarter notes but in notes of all note values. The strong beats and weak beats of each note value, as a result, produce a multilayered structure in weak beats. We will see that when weak-beat precedence is added to this multilayered structure of weak beats, rhythm shifts from a **head-alignment structure** to a **tail-alignment structure**.

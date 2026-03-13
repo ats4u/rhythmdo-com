@@ -1,0 +1,28 @@
+### 縦乗りと横乗りの比較
+以下は縦乗りと横乗りを理論化し、理論に従って機械的に演奏させたものです。
+
+#### 縦乗りと横乗りの比較その1
+
+<div class="center-box"><iframe class="rhythmpedia-iframe" src="https://www.youtube.com/embed/-mHk5FfhFas?si=4CQjOE1Fi5ap3Cc5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
+#### 縦乗りと横乗りの比較その2
+
+<div class="center-box"><iframe class="rhythmpedia-iframe" src="https://www.youtube.com/embed/BvpIcUBT418?si=jOhnlsRvhCYB-O_W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
+#### 縦乗りと横乗りの比較その3
+
+* 横乗りの場合
+    * ベース音と伴奏コードが常に互い違いに鳴っている
+
+<div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">【コード進行の先取りについて】 <a href="https://t.co/nqrVkVIhNy">pic.twitter.com/nqrVkVIhNy</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1496443349540413440?ref_src=twsrc%5Etfw">February 23, 2022</a></blockquote></div>
+
+
+* 縦乗りの場合
+    * ベース音と伴奏コードが常に同時に鳴っている
+
+<div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">【縦乗りの例】全拍がオンビートを起点にして演奏されている。全く同じ音楽、全く同じベースライン、全く同じコード進行でもリズムが縦乗りだとこういう風に響く ─── これが縦乗りだ。 <a href="https://t.co/OArl8tpUWf">pic.twitter.com/OArl8tpUWf</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1496820563201114112?ref_src=twsrc%5Etfw">February 24, 2022</a></blockquote></div>
+
+#### 縦乗りと横乗りの比較その4
+
+<div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">７イレブンで買い物したら、ものすごい縦乗りのヒューマンネーチャー（マイケル・ジャクソンの曲）がＢＧＭに掛かっていた。あまりに凄かったので、家に帰って譜面に起こしてみた。こんな感じだった。<br><br>前半４小節がオリジナル。後半４小節が縦乗りバージョン。 <a href="https://t.co/Vl9s9DWgh8">pic.twitter.com/Vl9s9DWgh8</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/975051946552827904?ref_src=twsrc%5Etfw">March 17, 2018</a></blockquote> </div>
+
