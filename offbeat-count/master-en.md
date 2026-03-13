@@ -1,5 +1,5 @@
 ---
-title: "オフビートカウント理論"
+title: "Offbeat Count Theory"
 created: 2025-05-24T00:17
 format: html
 execute:
@@ -13,368 +13,361 @@ rhythmpress-preproc: split
 rhythmpress-preproc-args: []
 ---
 
-**{{<meta var.OFBC.en>}}** とは日本人のリズム盲点**縦乗り**を矯正する為に考え出された練習方法です。日本人はジャズを演奏する時に独特なリズムの癖が表れることが知られています。日本人ジャズ演奏者は、激しくシンコペーションをしているリズムのなかで演奏する際にリズム解釈が共演者と共有できず演奏地点を見失ってしまい、演奏が停止してしまうのです。
+**{{<meta var.OFBC.en>}}** is a practice method devised in order to correct the Japanese rhythmic blind spot called **tatenori**. It is known that Japanese people show a distinctive rhythmic habit when performing jazz. When Japanese jazz performers perform within a rhythm that is heavily syncopated, they cannot share their interpretation of rhythm with their co-performers, lose sight of the point of performance, and the performance stops.
 
-日本人のリズム盲点を音韻学的にみると以下の３つの音韻要素に起因します。
+When viewed phonologically, the Japanese rhythmic blind spot is caused by the following three phonological elements.
 
-- 日本人の３つの盲点
-  - 母音等時性
-    - （≒裏拍が聴き取れない）
-  - 頭子音最大化原則
-    - （≒裏拍先行が聴き取れない）
-  - 侵襲的末子音
-    - （≒裏拍のゴーストノートが聴き取れない）
+- The three blind spots of Japanese people
+  - Vowel isochrony
+    - (approximately: cannot hear offbeats)
+  - Maximize Onset Principle
+    - (approximately: cannot hear offbeat precedence)
+  - Intrusive final consonants
+    - (approximately: cannot hear ghost notes on offbeats)
 
-**{{<meta var.OFBC.en>}}** は日本語に欠落するこの３つの発音上のリズム要素を新たに身に付ける為の練習方法です。**{{<meta var.OFBC.en>}}** を練習することでジャズの演奏能力を向上することができます。また同時に、英語発音能力が向上し英語の理解力を向上する効果もあります。逆に日本語を話さない人々が **{{<meta var.ONBC.en>}}** を練習することで日本語の正しい発音リズムを習得することも出来ます。
+**{{<meta var.OFBC.en>}}** is a practice method for newly acquiring these three rhythmic elements of pronunciation that are lacking in Japanese. By practicing **{{<meta var.OFBC.en>}}**, one can improve one's ability to perform jazz. At the same time, it also has the effect of improving English pronunciation ability and improving English comprehension ability. Conversely, people who do not speak Japanese can also acquire the correct pronunciation rhythm of Japanese by practicing **{{<meta var.ONBC.en>}}**.
 
-**{{<meta var.OFBCT.en>}}** は、まず文化によって異なるリズム感の違いを形式化し具体的な違いを定量化します。次に、『リズム感』を具体的な練習によって切り替える方法 **{{<meta var.OFBC.en>}}** を御紹介します。そして **{{<meta var.OFBC.en>}}**の効果を音韻学の見地から理論的に説明します。
+**{{<meta var.OFBCT.en>}}** first formalizes differences in the sense of rhythm that differ by culture and quantifies those concrete differences. Next, it introduces **{{<meta var.OFBC.en>}}**, a method for switching "sense of rhythm" through concrete practice. And then it theoretically explains the effect of **{{<meta var.OFBC.en>}}** from the viewpoint of phonology.
 
 <!-- <nav id="toc"></nav> -->
+## Introduction <!-- {#benefits-of-offbeat-count-theory} -->
 
-## はじめに <!-- {#benefits-of-offbeat-count-theory} -->
+**{{<meta var.OFBCT.en>}}** explains the knowledge and techniques necessary for a person who does not groove at all to come to groove, and the method for acquiring them. And it shows that this groove ability and language ability are equal. Here, I explain an outline of what is explained in **{{<meta var.OFBCT.en>}}**, and explain how it is good to proceed through these chapters.
 
-**{{<meta var.OFBCT.en>}}**は、全くグルーヴしない人がグルーヴするようになる為に必要な知識と技術、及びそれらを身に付ける為の方法を説明します。そしてこのグルーヴ能力と語学能力が等しいことを示します。ここでは **{{<meta var.OFBCT.en>}}** で説明することの概要を説明し、これらの章をどのように読み進めることが良いかを説明致します。
+### What This Book Explains
 
-### この本で説明すること
+In musical rhythm there are strong beats and weak beats. In fact, it shows that the way of recognizing this order differs depending on the language that person speaks as their native language. --- This has a deep relationship with the phonological rhythmic characteristics of pronunciation called "mora-timed rhythm" and "stress-timed rhythm." First, we linguistically analyze what this recognition of the order of strong beats and weak beats is, and investigate the reason why this difference is born. And after linguistically analyzing whether this difference is in the very custom of constructing melody itself, through the concept of "axis beat" that was born as a result of analysis using phonology, we explore the essence of groove from multiple angles.
 
-音楽のリズムには強拍と弱拍があります。実はこの順番の認識の仕方は、その人が母国語として話す言語によって違うことを示します。─── これは音韻学の「モーラ拍リズム」「ストレス拍リズム」という発音上のリズム特性と深い関係があります。まずこの強拍と弱拍の順番の認識とは何なのかを言語学的に解析し、その違いが生まれる理由を調べます。そしてこの違いがメロディーを構築する習慣そのものにのか言語学的に解析した上で、音韻学を用いて分析した結果生まれた「基軸拍」という概念を通して、グルーヴの本質を多角的に探ります。
+**Multi-Layered Weak-Beat-Oriented Rhythm Theory** gives concrete guidelines to Japanese language learners and Japanese musicians regarding why Japanese people do not groove, and how they can come to groove.
 
-**<ruby><rb>多層弱拍基軸律動</rb><rt>グルーヴィダンスミュージック</rt></ruby>理論** は、日本人語学学習者、日本人音楽家に向けて、日本人が何故グルーヴしないのかを理論的に説明し、どうしたらグルーヴする様になるのかについて具体的な指針を与えます。
+Here I explain the following contents.
 
-ここでは次の内容を説明します。
+* What groove is
+* The relationship between musical groove and English listening
+* What strong beats and weak beats are
+* That differences arise in the recognition of strong beats and weak beats depending on one's native language
+* That strong beats and weak beats have a **hierarchy** common to both music and language
+* That the hierarchy of strong beats and weak beats has **recursiveness**
+* That the recursiveness of the strong-beat/weak-beat hierarchy has a great influence on music and the way of reading poetic chanting
+* The analytical method of the multilayer hierarchy of strong beats and weak beats
 
-* グルーヴとは何か
-* 音楽のグルーヴと英語のリスニングの関係
-* 強拍弱拍とは何か
-* 母国語によって強拍弱拍の認識に違いが生じること
-* 強拍弱拍には音楽・言語の両方に共通の**階層**があること
-* 強拍弱拍の階層には **再帰性** があること
-* 強拍弱拍階層の再帰性が音楽と詩吟の読み方に大きな影響を与えていること
-* 強拍弱拍の多層階層の分析手法
+### How to Read This Book
 
-### この本の読み方
+First, we look at how the pronunciation structure possessed by the language that person speaks as their native language greatly affects that person's recognition of rhythm in music. Next, we learn the characteristics of the three rhythmic structures possessed by language that were made clear by analyzing from a phonological point of view: syllable-timed rhythm, stress-timed rhythm, and mora-timed rhythm.
 
-まずその人が母国語として話す言語が持つ発音構造によって、その人の音楽に対するリズムの認識が大きく影響を受けることを見ていきます。次に音韻学的見地から分析することで明らかになった言語が持つ３つのリズム構造＝シラブル拍、ストレス拍、モーラ拍の特徴を学びます。
+And we look at how this is related to the concept of strong beats and weak beats. Next, we look at how in stress-timed rhythm this concept of strong beats and weak beats has a multilayer structure. And we dig into what strong beats and weak beats are, and look at the existence of the multilayer structure of weak beats and strong beats. And we look at how this multilayer structure greatly affects the directionality of placement when singing melody. And finally, we look at how this greatly affects the directionality of human recognition of time, and furthermore how this affects the recognition of human movement itself.
 
-そしてこれが強拍弱拍という概念と関連していることを見ていきます。次にストレス拍でこの強拍弱拍という概念が多層構造になっていることを見ていきます。そして強拍弱拍とは何かを掘り下げ、弱拍と強拍の多層構造の存在について見ていきます。そしてこの多層構造がメロディを歌う時の配置の方向性に大きな影響を与えることを見ていきます。そして最後に、これが人間の時間認識の方向性に大きな影響を与えており、更にこれが人間の動きの認識自体に影響を与えていることを見ていきます。
+### Groove Is English Itself
 
-### グルーヴとは英語そのもの
+English is classified in phonology as **stress-timed rhythm**. Languages of stress-timed rhythm have the pronunciation rule that "syllables with accent (stress beats) must be pronounced at fixed time intervals, and syllables without accent (non-stress beats) must be pronounced weakly or omitted." This rule has an important role for hearing the language called English as meaningful sentences.
 
-英語は、音韻学で **ストレス拍リズム** に分類されています。ストレス拍リズムの言語は『アクセントのあるシラブル（ストレス拍）を一定時間ごとに発音しなければならず、アクセントのないシラブル（非ストレス拍）は弱く発音したり省略したりしなければならない』という発音上のルールを持ちます。このルールが英語という言語を意味のある文章として聴き取る為に重要な役割を持っています。
+In other words, this <span style="font-size:300%;font-weight:1000;">stress-timed rhythm is the true nature of groove</span>.
 
-つまり、この<span style="font-size:300%;font-weight:1000;">ストレス拍リズムがグルーヴの正体</span>です。
+Stress-timed rhythm has, just like haiku, a profound poetic chanting culture, and has a long history of exploring and developing the rhythm that the language itself possesses. On top of this poetic chanting culture, African American cultures such as R&B and rap developed. This further had a great influence on jazz. And from this jazz, blues and rock and roll, rock, hard rock, and heavy metal were born, spread around the world, and influenced music around the world.
 
-ストレス拍リズムには、俳句と同じ様に重厚な詩吟文化があり、言語自体が持っているリズムを探求し発展してきた長い歴史を持っています。この詩吟文化の上に、R&Bやラップなどのアフリカ系アメリカ人の文化が発展しました。これが更にジャズに多大な影響を与えました。そしてこのジャズが、ブルースやロックンロール・ロック・ハードロック・ヘビメタが生まれ、世界中に飛び火して世界中の音楽に影響を与えています。
+### Connecting Music and Language
 
-### 音楽と語学を繋げる
+This multi-layered weak-beat-oriented rhythm theory theoretically explains the conditions under which groove occurs in music, and then considers why differences are born in the recognition of musical groove depending on the person. And regarding the reason why this difference in rhythm recognition is born, it explains it using this phonology. This multi-layered weak-beat-oriented rhythm theory becomes the basic theory that shows that Offbeat Count Theory, the theory for acquiring groove, is established.
 
-この多層弱拍基軸リズム理論は、音楽でグルーヴが起こる条件を理論的に説明した上で、何故人によって音楽のグルーヴの認識に違いが生まれるのかを考察します。そしてこのリズム認識の違いが生まれる理由に関して、この音韻学を使って説明します。この多層弱拍基軸リズム理論は、グルーヴを習得する為の理論・オフビートカウント理論が成立することを示す基礎理論となります。
+### Making Groove Explicitly Conscious
 
-### グルーヴを顕在意識化する
+In other words, multi-layered weak-beat-oriented rhythm theory theoretically explains why Japanese people do not groove, and gives a theoretical prediction regarding the practice method by which Japanese people can later acquire groove.
 
-つまり多層弱拍基軸リズム理論は、日本人が何故グルーヴしないのかを理論的に説明し、どうやったら日本人が後天的にグルーヴを習得する事ができるのか、その練習方法に関して理論的な予想を与えます。
+And the training method devised on the basis of that theoretical prediction is the Offbeat Count practice method.
 
-そしてその理論的予想に基づいて考案された訓練方法がオフビートカウント練習法です。
+### Language Is Understood After It Is Heard
 
-### 語学は聴き取ってから理解する
+A person does not hear language because they understood it; rather, they understand it because they can hear it. Even if one does not know what language that language is, if one can hear the pronunciation structure, one can at least hear only what is being said. From what one was able to hear, one can infer what words it means.
 
-人は言語を、理解したから聴き取れるのではなく、聴き取れるから理解するものです。例えその言語が何語かがわからなくても、発音構造が聴き取れていれば、最低限何を言っているかだけは聴き取ることが出来ます。聴き取ることが出来たものから、それが何を意味する言葉なのかを推測していくことが出来ます。
+In becoming proficient in language, creating this situation of "even if the meaning is not understood, one can tell what is being said" is the most important thing.
 
-語学を習熟する上で、この「意味がわからなくても、何を言っているかはわかる。」という状況を作ることが最も大切なことです。
+Because of a structural problem of language rhythm, it has become clear that while it is easy to switch from stress-timed rhythm (English) or syllable-timed rhythm (Spanish/French) to mora-timed rhythm (Japanese), it is extremely difficult to switch from mora-timed rhythm to syllable-timed rhythm or stress-timed rhythm.
 
-言語リズムの構造上の問題から、ストレス拍リズム(英語)やシラブル拍（スペイン語・フランス語）から、モーラ拍リズム（日本語）に切り替えることは容易でも、モーラ拍リズムからシラブル拍リズム・ストレス拍リズムに切り替える事は極度に困難ということが明らかになっています。
+If one can switch the rhythm mode possessed by the human ear from mora-timed rhythm to stress-timed rhythm or syllable-timed rhythm, one can arrive at the state of being able to hear it even if the meaning is not understood --- If one can create this state, it is only a matter of time before one becomes able to understand English.
 
-人の耳が持っているリズムのモードを、モーラ拍リズムからストレス拍リズム・シラブル拍リズムに切り替えることができれば、意味はわからなくても聴き取ることができるという状態に到達出来ます  ─── この状態を作ることができれば、英語が理解できる様になるのは時間の問題です。
+And in this book we look at how this ability to hear it even if the meaning is not understood is exactly the same ability as the ability to groove in music.
 
-そしてこの意味はわからなくても聴き取れる能力が、音楽でグルーヴする能力と全く同じ能力だということをこの本で見ていきます。
+### English Listening Ability Grows Through Musical Groove
 
-### 音楽のグルーヴで英語リスニング力は伸びる
+If you, the reader, are an English learner, perhaps you have a sense of problem about listening --- Japanese people cannot hear English. Japanese people spend more than ten years of compulsory education in order to come to understand English, but in most cases Japanese people cannot understand English. Even if after effort they become able to read English, they cannot watch movies without subtitles and understand them, or actually have conversations. Such top-heavy English education was criticized, and it was already more than twenty years ago that the importance of practical English conversation was loudly called for. However, even now, after twenty years have passed, the situation has not changed at all.
 
-もしも読者の貴方が英語学習者でしたら、恐らくリスニングに対して問題意識を持っているのではないでしょうか ─── 日本人は英語が聴き取れません。日本人は英語がわかる様になるために義務教育で１０年以上の月日を費していますが日本人はほとんどの場合英語が理解できません。努力の末に英語を読むことが出来るようになっても、映画を字幕無しで見て理解したり、実際に会話したりすることは出来ません。そんな頭でっかちな英語教育が批判され、実践英会話の重要性が叫ばれたのももう２０年以上前の話です。しかし２０年たった今も状況は全く変わっていません。
+**Multi-Layered Weak-Beat-Oriented Rhythm Theory** throws a stone into this regrettable situation.
 
-**多層弱拍基軸リズム理論** は、この残念な状況に一石を投じます。
+### Musical Groove Ability Grows Through English Listening
 
-### 英語リスニングで音楽のグルーヴ力が伸びる
+If you, the reader, are a performer of music, perhaps you have a sense of problem about groove --- Japanese musicians do not groove at all. This is [tatenori](/tatenori-theory/). Tatenori was originally slang used among Japanese jazz performers. Japanese jazz performance without the groove and swing feel unique to jazz was colloquially called "tatenori" and was always a source of worry. A sense of groove is the true pleasure of jazz. Jazz without a sense of groove is truly valueless music lacking the finishing touch. However, there had been no person who could clearly understand and clearly explain the reason why Japanese people do not groove.
 
-もしも読者の貴方が音楽の演奏者でしたら、恐らくグルーヴに対して問題意識を持っているのではないでしょうか ─── 日本人ミュージシャンは全くグルーヴしません。 これが [縦乗り](/tatenori-theory/) です。縦乗りとは元々、日本のジャズ演奏者の間で使われていた俗語でした。ジャズ独特なスイング感のないグルーヴのない日本人のジャズの演奏は俗に『縦乗り』と呼ばれて常に悩みの種でした。グルーヴ感はジャズの醍醐味です。グルーヴ感のないジャズは正に画竜点睛を欠く価値のない音楽です。しかし日本人がグルーヴしない理由をはっきりと理解し明確に説明できた人は存在しませんでした。
+Among Japanese jazz performers, the Japanese rhythm problem [tatenori](/tatenori-theory/) created trauma in the hearts of Japanese jazz performers who wanted to groove but could not groove no matter what they did. While there were many people who became enraged just by bringing up the problem of rhythm as a topic among jazz performers, everyone had by then treated it as a taboo, like touching a sore spot.
 
-日本人ジャズ演奏者の間で日本人のリズムの問題  [縦乗り](/tatenori-theory/) は、グルーヴしたいのにどうやってもグルーヴ出来ない日本人ジャズ演奏者の心にトラウマを生み出しました。ジャズ演奏者の間でリズムの問題を話題として出すだけで激昂する人が大勢存在するなかで、もはやタブーとしてみな腫れ物に触れるような扱いをしてきました。
+Japan has one of the world's largest jazz performer communities --- nevertheless, nobody in the world listens to Japanese jazz. Japan has one of the world's largest jazz listener communities, and the jazz market is said to be one of the largest in the world. Yet nobody in such a huge jazz market listens to Japanese jazz --- this goes beyond the greatest tragedy in the jazz world, and is already a comedy.
 
-日本には世界有数の巨大なジャズ演奏者コミュニティがあります ─── にもかかわらず世界中の誰も日本人ジャズを聞かない。日本には世界有数の巨大なジャズのリスナコミュニティがあり、ジャズ市場は世界最大規模と言われています。そんな巨大なジャズ市場の誰も日本人ジャズを聴いていません  ─── これはジャズ界最大悲劇の悲劇を通り越して、もはや喜劇です。
+**Multi-Layered Weak-Beat-Oriented Rhythm Theory** throws a stone into this situation.
+## What Are the Four Principles of Groove <!-- {#the-four-principles-of-groove}-->
 
-**多層弱拍基軸リズム理論** は、この状況に一石を投じます。
+In this book, throughout the whole book, I explain the existence of four principles of grooving. What are these four principles? First, let us look at the overall picture of these four principles of groove.
 
-## グルーヴ四原則とは <!-- {#the-four-principles-of-groove}-->
+### The Four Principles of Groove
 
-この書では全編を通して４つのグルーヴする原則の存在を説明します。この４つの原則とは何でしょうか。まずこのグルーヴ四原則の全体像を見てみます。
+Rhythm has four elements.
 
-### グルーヴ四原則
+- **strong-beat precedence** and **weak-beat precedence**
+- **head alignment** and **tail alignment**
+- **strong-beat axis** and **weak-beat axis**
+- **2⁻ⁿ rhythm** and **3⁻ⁿ rhythm**
 
-リズムには四つの要素があります。
+In this way, the four elements are each opposing elements.
 
-- **強拍先行**   と **弱拍先行**
-- **頭合わせ**   と **尻合わせ**
-- **強拍基軸**   と **弱拍基軸**
-- **2⁻ⁿリズム** と **3⁻ⁿリズム**
-
-このように４つの要素はそれぞれ対立した要素になっています。
-
-これを**グルーヴ四要素(The Four Axes of Groove)**と呼びます。
+This is called **The Four Axes of Groove**.
 
 ### {{<meta var.CONDITIONS_OF_GROOVE.en>}}
 
-音楽にグルーヴを感じる時、それは必ず
+When one feels groove in music, it is always in the state of
 
-- **弱拍先行**
-- **尻合わせ**
-- **弱拍基軸**
-- **3⁻ⁿリズム**
+- **weak-beat precedence**
+- **tail alignment**
+- **weak-beat axis**
+- **3⁻ⁿ rhythm**
 
-になっている…という法則があります。
+...there is such a law.
 
-これを**グルーヴ四原則(The Four Principles of Groove)**と呼びます。
+This is called **The Four Principles of Groove**.
 
-つまり如何にして、弱拍先行、尻合わせ、弱拍基軸、3⁻ⁿリズムの４つを体得するかがグルーヴを身につける為の焦点となります。
+In other words, how to acquire weak-beat precedence, tail alignment, weak-beat axis, and 3⁻ⁿ rhythm, these four, becomes the focus for acquiring groove.
 
 ### {{<meta var.CONDITIONS_OF_TATENORI.en>}}
 
-海外の文脈から、日本人の音楽が醸し出すリズムは、しばしば **堅苦しい**、**躍動感がない**、**四角い**、**息遣いが感じられない**、**ニュアンスがない**、**スイングしない**、**毎回着地する**、 **好みに合わない**、**機械的**、**アニソンみたい**、**ゲーム音楽みたい** などと評されます。それは必ずしも否定的な見解として発せられる訳ではありませんが、クラシックやジャズなど海外の地場文化として評価される場面では、しばしば人々の眉をひそめさせているものです。
+From the context of overseas, the rhythm produced by Japanese music is often described as **stiff**, **lacking dynamism**, **square**, **without a sense of breathing**, **without nuance**, **not swinging**, **landing every time**, **not matching one's taste**, **mechanical**, **like anime songs**, **like game music**, and so on. This is not necessarily uttered as a negative view, but in scenes where it is evaluated as an overseas local culture such as classical music or jazz, it often makes people frown.
 
-これらの日本的リズムは必ず
+These Japanese rhythms are always in the state of
 
-- **強拍先行**
-- **頭合わせ**
-- **強拍基軸**
-- **2⁻ⁿリズム**
+- **strong-beat precedence**
+- **head alignment**
+- **strong-beat axis**
+- **2⁻ⁿ rhythm**
 
-になっている…という法則があります。
+...there is such a law.
 
-これを**縦乗りの四原則(The Four Principles of Groove)**と呼びます。
+This is called **The Four Principles of Tatenori**.
 
-何故日本人は縦乗りなのか、その理由に関しましては[何故日本人は縦乗りなのか](/offbeat-count/tatenori-theory/ja/)で詳細を見ていきます。
+As for why Japanese people are tatenori, we look in detail at [Why Are Japanese People Tatenori?](/offbeat-count/tatenori-theory/ja/).
 
-ではどのようにしたら縦乗りを克服することが出来るのでしょうか。それがこの文章の目的でもあります。縦乗りを克服する長い道のり=**{{<meta var.RDO.en>}}** について今後長い時間を掛けて見つけ出して行きます。
+Then how can one overcome tatenori? That is also the purpose of this text. Over a long time from now on, we will find out the long road for overcoming tatenori = **{{<meta var.RDO.en>}}**.
 
-### 強拍先行と弱拍先行
-音符が導音などの形となって２つの組となって表れた時、その組みが常に弱拍からはじまることを**弱拍先行**と呼びます。
+### Strong-Beat Precedence and Weak-Beat Precedence
+When notes appear as a pair of two in a form such as leading tones, when that pair always begins from a weak beat, this is called **weak-beat precedence**.
 
-音符が導音などの形となって２つの組となって表れた時、その組みが常に弱拍からはじまることを**強拍先行**と呼びます。
+When notes appear as a pair of two in a form such as leading tones, when that pair always begins from a weak beat, this is called **strong-beat precedence**.
 
-或いは、音符が２つの組みとならず単独で表れた時も **強拍先行** と呼びます。
+Or, even when notes do not become a pair of two and appear alone, it is also called **strong-beat precedence**.
 
-日本人は弱拍先行で構成されたのリズムを耳にすると、それが理解できず混乱するという特徴があります。このことを縦乗りと呼びます。 日本人が何故縦乗りになるのかに関しましては、[何故日本人は縦乗りなのか](/tatenori-theory/ja/) で詳細を見ていきます。
+Japanese people have the characteristic that when they hear a rhythm composed in weak-beat precedence, they cannot understand it and become confused. This is called tatenori. As for why Japanese people become tatenori, we look in detail at [Why Are Japanese People Tatenori?](/tatenori-theory/ja/).
 
-**強拍先行**と**弱拍先行** とは何かに関しましては、[強拍が先か弱拍が先か](/offbeat-count/headians-and-bottomians-of-beat-orientation/ja/)で詳細を見ていきます。
+As for what **strong-beat precedence** and **weak-beat precedence** are, we look in detail at [Which Comes First, the Strong Beat or the Weak Beat?](/offbeat-count/headians-and-bottomians-of-beat-orientation/ja/).
 
-強拍先行と弱拍先行は、グルーヴの本質に関わっています。立体的に響くグルーヴの本質はリズムの多次元性にあります。弱拍が先行するリズムでは異なる音価が高さという新しい軸としての役割を持つため多次元構造を持ちます。しかし強拍が先行するリズムでは、全てのリズムが重なり合ってしまうため異なる音価が新しい軸を生み出さず、結果としてリズムが多次元構造を持ちません。多次元構造をもたないリズムは平面的な印象のリズムになります。
+Strong-beat precedence and weak-beat precedence are related to the essence of groove. The essence of groove sounding three-dimensional lies in the multidimensionality of rhythm. In rhythm where weak beats precede, different note values take on the role of a new axis called height, and therefore have a multidimensional structure. However, in rhythm where strong beats precede, all rhythms overlap with each other, so different note values do not produce a new axis, and as a result the rhythm does not have a multidimensional structure. Rhythm without a multidimensional structure becomes rhythm with a flat impression.
 
-このリズムの多次元性に関しましては、[多層弱拍基軸律動](/offbeat-count/multi-layered-weak-beat-precedence/ja/)で詳細を見ていきます。
+As for this multidimensionality of rhythm, we look in detail at [Multi-Layered Weak-Beat-Oriented Rhythm](/offbeat-count/multi-layered-weak-beat-precedence/ja/).
 
-そして何故 **強拍先行**と**弱拍先行** が起こるのかに関しましては、[多層弱拍基軸律動](/offbeat-count/multi-layered-weak-beat-precedence/ja/)で詳細を見ていきます。
-
-
-### 頭合わせと尻合わせ
-メロディーが必ず小節内の特定の拍数目（≒1拍目）から始まり、はっきりした終わりがないリズム構成を**頭合わせ**といいます。
-
-メロディーが特にはっきりした特定の位置がなく不定期に始まり、必ず小節内の特定の拍数目（≒1拍目）ではっきりと終わるリズム構成を**尻合わせ**といいます。
-
-日本人は尻合わせ構成のリズムを耳にすると、それが理解できず混乱するという特徴があります。このことを縦乗りと呼びます。 日本人が何故縦乗りになるのかに関しましては、[何故日本人は縦乗りなのか](/tatenori-theory/ja/) で詳細を見ていきます。
-
- **頭合わせ**と**尻合わせ** とは何か。そして何故 **頭合わせ**と**尻合わせ**が起こるのかに関しましては、[多層弱拍基軸律動](/offbeat-count/multi-layered-weak-beat-precedence/ja/)で詳細を見ていきます。
-
-### 強拍基軸と弱拍基軸
-スイングやシャッフルを演奏しようとした時に、**強拍の位置が常に固定**となり、毎回同じ位置に表れ、弱拍の位置を強拍からの相対距離として測りながら移動することでスイング・シャッフルのニュアンスを表現しようとする時、これを**強拍基軸**と呼びます。
-
-強拍基軸は、一瞥すると当然と考えられるかも知れません。しかし実際の海外の演奏者は逆の認識を持ってリズムを演奏しています。
-
-スイングやシャッフルを演奏しようとした時に、**弱拍の位置が常に固定**となり、毎回同じ位置に表れ、強拍の位置を弱拍からの相対距離として測りながら移動することでスイング・シャッフルのニュアンスを表現しようとする時、これを**弱拍基軸**と呼びます。
-
-強拍基軸リズム認識を持っている人が、弱拍基軸を見た時にそれを異端として排除したり、社会的な制裁を加えたりすることを、**弱拍天動説** と呼びます。
-
-リズムを客観的に捉え弱拍基軸のリズム認識を理解した上で合理的に受け入れることを**強拍地動説**と呼びます。
-
-**強拍基軸** と **弱拍基軸** に関しては、[弱拍天動説と強拍地動説](/offbeat-count/weak-beat-as-sun-strong-beat-as-earth/ja/) で詳細を見ていきます。
-
-### 2⁻ⁿリズムと3⁻ⁿリズム
-スイングやシャッフルなどの３連符系のリズムを演奏する時だけでなく、8ビート16ビートなどのリズムを演奏する時も含めて、3拍子や3を基準にしたポリリズムを多用したり、リズムのずれニュアンスが必ず1/3 、1/9 、 1/27 などの 3の負のべき乗の大きさに収束するなど、リズム感覚が3に根ざしている人のリズムを **3⁻ⁿリズム**と呼びます。
-
- ───この **3⁻ⁿリズム** がアフリカのリズムやケルト・ゲール等々の欧米のフォークソングの本質に存在します。
-
-スイングやシャッフルなどの３連符系のリズムを演奏する時だけでなく、8ビート16ビートなどのリズムを演奏する時も含めて、常に2のリズムに根ざし、3拍子や3を基準にしたポリリズムを多様せず、リズムのずれニュアンスが必ず1/4 、1/8 、 1/16 などの 2の負のべき乗の大きさに収束するなど、リズム感覚が2に根ざしている人のリズムを **2⁻ⁿリズム**と呼びます。
-
- ───この **2⁻ⁿリズム** は日本のゲームミュージックやアニメソング等々日本のあらゆる西洋音楽の影響を受けた音楽全ての本質に存在します。
-
- **3⁻ⁿリズム** とはどんな音かにつきましては、[世界は3⁻ⁿ拍子で出来ている](/offbeat-count/the-four-principles-of-groove/ja/) でそれを実際に聴いてみます。
-
- **3⁻ⁿリズム** と **2⁻ⁿリズム** につきましては、[3⁻ⁿグルーヴと2⁻ⁿグルーヴ](/offbeat-count/three-to-n-groove-theory/ja/) で理論的な詳細を見ていきます
-
- **2⁻ⁿリズム** とはどんな音かにつきましては、[何故日本人は縦乗りなのか](/tatenori-theory/ja/) でいくつかのサンプルを用意しております。
+And as for why **strong-beat precedence** and **weak-beat precedence** occur, we look in detail at [Multi-Layered Weak-Beat-Oriented Rhythm](/offbeat-count/multi-layered-weak-beat-precedence/ja/).
 
 
-## 何故日本人は縦乗りなのか <!-- {#tatenori-theory} -->
+### Head Alignment and Tail Alignment
+A rhythm structure in which melody always begins from a specific beat number within the measure (approximately beat 1) and does not have a clear ending is called **head alignment**.
 
-日本語を母国語とするミュージシャンならば必ず一度は経験する謎 ─── 『何故日本人はグルーヴしないのか』この問題について考察した記事です。考察中にて、日本人がグルーヴしない理由が日本人が英語が聞き取れない理由と等しいことを明らかにします。日本語と日本の音楽に潜む『縦乗り』の正体を明らかにし、その影響と限界を科学的・文化的に考察します。
+A rhythm structure in which melody does not have a particularly clear specific position and begins irregularly, and always ends clearly at a specific beat number within the measure (approximately beat 1), is called **tail alignment**.
 
-### 縦乗りとは
+Japanese people have the characteristic that when they hear a rhythm of tail-alignment structure, they cannot understand it and become confused. This is called tatenori. As for why Japanese people become tatenori, we look in detail at [Why Are Japanese People Tatenori?](/tatenori-theory/ja/).
 
-縦乗りとは何でしょうか。それは全く見えない存在です。しかし縦乗りは常にそこに存在しています。それは今この文章を読んでいる今この瞬間も存在しています。縦乗りは見えない存在ですが、今も正に貴方は縦乗りを見ています。縦乗りは常にそこに存在する空気のような存在です。そして空気がなければ生きていくことが出来ないように、縦乗りがなくなると人は生きていくことができません。人は、生まれてから縦乗りと出会い、そのまま縦乗りの存在に気付かず、縦乗りの存在に気付かぬまま死んでいきます。
+What **head alignment** and **tail alignment** are, and why **head alignment** and **tail alignment** occur, we look in detail at [Multi-Layered Weak-Beat-Oriented Rhythm](/offbeat-count/multi-layered-weak-beat-precedence/ja/).
 
-しかし縦乗りは常に私達の行動を規定しています。私達は常に縦乗りに束縛されているのです。
+### Strong-Beat Axis and Weak-Beat Axis
+When trying to perform swing or shuffle, when the **position of the strong beat is always fixed**, appears every time in the same position, and one tries to express the nuance of swing or shuffle by moving while measuring the position of the weak beat as a relative distance from the strong beat, this is called the **strong-beat axis**.
 
-縦乗りに気付くかどうかは貴方次第です。そのまま縦乗りの存在に気付かずに生涯を全うするか、あるいは縦乗りに気付いて火のついた様な激しい真実の世界で生きていくか。それは貴方の選択次第です。
+The strong-beat axis may at a glance be thought natural. However, actual overseas performers perform rhythm with the opposite recognition.
+
+When trying to perform swing or shuffle, when the **position of the weak beat is always fixed**, appears every time in the same position, and one tries to express the nuance of swing or shuffle by moving while measuring the position of the strong beat as a relative distance from the weak beat, this is called the **weak-beat axis**.
+
+When a person with strong-beat-axis rhythm recognition sees the weak-beat axis and excludes it as heresy, or applies social sanctions, this is called the **weak-beat geocentric theory**.
+
+Objectively grasping rhythm, understanding weak-beat-axis rhythm recognition, and rationally accepting it is called the **strong-beat heliocentric theory**.
+
+As for **strong-beat axis** and **weak-beat axis**, we look in detail at [Weak-Beat Geocentric Theory and Strong-Beat Heliocentric Theory](/offbeat-count/weak-beat-as-sun-strong-beat-as-earth/ja/).
+
+### 2⁻ⁿ Rhythm and 3⁻ⁿ Rhythm
+Not only when performing triplet-type rhythms such as swing and shuffle, but also when performing rhythms such as 8-beat and 16-beat, when one makes heavy use of polyrhythms based on triple meter or 3, and the nuance of rhythmic displacement always converges to magnitudes that are negative powers of 3 such as 1/3, 1/9, and 1/27, the rhythm of a person whose rhythm sense is rooted in 3 is called **3⁻ⁿ rhythm**.
+
+ --- This **3⁻ⁿ rhythm** exists in the essence of African rhythm and of Western folk songs such as Celtic and Gael.
+
+Not only when performing triplet-type rhythms such as swing and shuffle, but also when performing rhythms such as 8-beat and 16-beat, when one is always rooted in the rhythm of 2, does not make much use of polyrhythms based on triple meter or 3, and the nuance of rhythmic displacement always converges to magnitudes that are negative powers of 2 such as 1/4, 1/8, and 1/16, the rhythm of a person whose rhythm sense is rooted in 2 is called **2⁻ⁿ rhythm**.
+
+ --- This **2⁻ⁿ rhythm** exists in the essence of all music in Japan influenced by Western music, such as Japanese game music and anime songs.
+
+As for what kind of sound **3⁻ⁿ rhythm** is, we actually listen to it in [The World Is Made of 3⁻ⁿ Meter](/offbeat-count/the-four-principles-of-groove/ja/).
+
+As for **3⁻ⁿ rhythm** and **2⁻ⁿ rhythm**, we look at the theoretical details in [3⁻ⁿ Groove and 2⁻ⁿ Groove](/offbeat-count/three-to-n-groove-theory/ja/)
+
+As for what kind of sound **2⁻ⁿ rhythm** is, we have prepared some samples in [Why Are Japanese People Tatenori?](/tatenori-theory/ja/).
+## Why Are Japanese People Tatenori <!-- {#tatenori-theory} -->
+
+This is an article considering the mystery that any musician whose native language is Japanese will surely experience at least once --- "Why do Japanese people not groove?" During this consideration, it makes clear that the reason Japanese people do not groove is equal to the reason Japanese people cannot hear English. It reveals the true nature of "tatenori" lurking in the Japanese language and Japanese music, and considers its influence and limits scientifically and culturally.
+### What Is Tatenori
+
+What is tatenori? It is an existence that cannot be seen at all. However, tatenori is always there. It exists even at this very moment as you are now reading this text. Tatenori is an invisible existence, but even now, right now, you are indeed seeing tatenori. Tatenori is like the air that is always there. And just as one cannot live if there is no air, when tatenori disappears, a person cannot live. A person encounters tatenori from birth, and then dies without noticing the existence of tatenori, remaining unaware of the existence of tatenori.
+
+However, tatenori always defines our actions. We are always bound by tatenori.
+
+Whether or not you notice tatenori is up to you. Whether you live out your life without noticing the existence of tatenori as you are, or notice tatenori and live in a world of fierce truth as if set on fire. That depends on your choice.
 
 ![](/offbeat-count/attachments/vertical-blue-pill-and-red-pill-v2.png)
 
-それは映画マトリックスに登場する赤いカプセルと青いカプセルの様です。もちろん、このまま縦乗りに気付かないで生きていくことも可能です。もしもここで、縦乗りに気付くことを選んだらどうなるでしょうか。 …縦乗りに気付くことにより大きな自由が得られると同時に、大きなリスクのある世界で生きていく事になります。
+It is like the red capsule and the blue capsule that appear in the movie The Matrix. Of course, it is also possible to live without noticing tatenori as it is. If here you chose to notice tatenori, what would happen? ... By noticing tatenori, one gains great freedom, and at the same time comes to live in a world with great risks.
 
-ここで縦乗りだと出来なくなることを御説明致しましょう。
+Here let me explain what becomes impossible when one is tatenori.
 
-* 英語のリスニング
-* 英会話
-* その他、日本語以外の会話能力全て
-* クラシック演奏活動で世界の壁を打ち破る
-* ジャズの演奏活動で世界の壁を打ち破る
-* IT業界で世界の壁を打ち破る
-* ビジネスで世界の壁を打ち破る
-* 格闘技で世界の壁を打ち破る
-* レースで世界の壁を打ち破る
-* サッカーなどの球技全般のスポーツの世界で世界の壁を打ち破る
-* 『世界』ではなく『東京』の壁を打ち破ることも含まれるかも知れません。
+* English listening
+* English conversation
+* All other conversation abilities in languages other than Japanese
+* Breaking through the wall of the world in classical performance activities
+* Breaking through the wall of the world in jazz performance activities
+* Breaking through the wall of the world in the IT industry
+* Breaking through the wall of the world in business
+* Breaking through the wall of the world in martial arts
+* Breaking through the wall of the world in racing
+* Breaking through the wall of the world in the general sports world of ball games such as soccer
+* It may perhaps include breaking through the wall of "Tokyo" rather than "the world."
 
-大きな夢のある世界で生きて行きたい… もしも貴方がそうお考えでしたら、縦乗りに気付くことは大きなチャンスとなるでしょう。
+If you want to live in a world with big dreams... if you think so, noticing tatenori will become a big chance.
 
-貴方は、世界の壁を打ち破り大きな人間になりたくありませんか？  ───  もちろんそれは強制ではありません。
+Would you not like to break through the wall of the world and become a great human being? --- Of course, that is not compulsory.
 
-世界の壁を打ち破る事に興味はないけども、縦乗りが何なのかちょっと興味があるな… そういう方でも結構です。
+Even if you are not interested in breaking through the wall of the world, but feel a little interested in what tatenori is... such a person is also fine.
 
-この縦乗りに気付き、縦乗りから自立し、縦乗りがなくても生きていく能力を身につける、その為の理論と実践的練習方法があります。
+There is a theory and a practical practice method for noticing this tatenori, becoming independent from tatenori, and acquiring the ability to live even without tatenori.
 
-その方法をここで御紹介したいと思います。順を追って御説明致します。
+I would like to introduce that method here. I will explain it step by step.
+### The Influence Tatenori Gives
 
-### 縦乗りが与える影響
+**Tatenori** is a concept expressing a subtle and serious deviation in the sense of rhythm that is peculiar to people whose native language is Japanese. Tatenori cannot be sensed by the people whose native language is Japanese themselves. However, this deviation causes various problems in all kinds of situations such as music, language, and bodily sensation. It always makes people all over the world feel that "something is strange," but that feeling of discomfort is very difficult to express in words, and it keeps making people all over the world feel vaguely unsettled.
 
-**縦乗り**とは、日本語を母語とする人々に特有の、リズム感覚の微妙で深刻なズレを表す概念です。縦乗りは、日本語を母語とする人自身には感じとることが出来ません。しかしこのズレは、音楽、言語、身体感覚などのあらゆる場面で、色々な問題を引き起こしています。それは常に世界中の人々に「何かがおかしい」と感じさせていますが、その違和感はとても言葉で表すことが難しく、世界中の人々を常にモヤモヤさせつづけています。
+Tatenori may seem at first glance to be a trivial problem. However, even though people whose native language is Japanese are completely unaware of it, it has a deep influence on Japanese people's bodily movement, recognition of time, musical performance, English pronunciation, and even communication as a whole.
 
-縦乗りは一見すると些細な問題に思えるかも知れません。しかし日本語を母語とする人々が全く意識していないにも関わらず、日本人の身体動作、時間認識、音楽演奏、英語発音、さらにはコミュニケーション全体に深い影響を与えています。
+Originally, "tatenori" was a jazz term in Japan. It is a term expressing a rhythm that does not swing, and literally points to a way of performing rhythm as if "stepping on the beat vertically." When playing an instrument and so on, it is a concept expressing the tendency to divide the beat extremely accurately, place the center of gravity on the on-beat, and mechanically align the timing. At first glance it may seem to be an accurate and serious method of performance, but in genres of music such as jazz, funk, and soul, the unique "undulation" and "feel" become hard to arise. This lack of a sense of undulation is "tatenori."
 
-もともと「縦乗り」は日本でのジャズ用語でした。スイングしないリズムを表現する用語で、文字通り「拍を縦に踏む」ようなリズムの演奏の仕方を指します。楽器を演奏する時などに、極端にビートを正確に区切り、表拍に重心を置き、タイミングを機械的に揃える傾向を表す概念です。一見正確で真面目な演奏方法と思えるかも知れませんがジャズを始め、ファンク、ソウルのようなジャンルの音楽に独特な「うねり」や「ノリ」が生まれにくくなります。このうねりの感覚の欠如が「縦乗り」です。
+On the other hand, here I would like to call a person who is not tatenori **yokonori**.
 
-一方、縦乗りでない人をここでは**横乗り**と呼びたいと思います。
+This tatenori actually has various influences in every aspect other than music as well.
 
-この縦乗りは、実は音楽以外のあらゆる面で様々な影響を与えています。
+* One cannot hear English and other foreign languages.
+* One cannot pronounce English and other foreign languages in a form that is conveyed to the other party.
+	* → It becomes the cause of the phenomenon of not grooving when singing rap.
+* When performing improvised music, one cannot skillfully predict the contents of the co-performer's performance.
+	* → It becomes the cause of the phenomenon of not grooving.
+* When performing improvised dance, one cannot skillfully predict the movements of the co-performer.
+	* → It becomes the cause of the phenomenon of not grooving.
+* In martial arts and the like, one cannot skillfully intuitively predict the enemy's movements.
+* In sports such as soccer and basketball, one cannot skillfully intuitively predict the movements of enemies, allies, the ball, and so on.
+* When walking in the street overseas, one becomes more likely to collide with people.
+	* → One becomes more likely to become involved in crime overseas.
 
-* 英語やその他の外国語を聴き取ることができない。
-* 英語やその他の外国語を相手に伝わる形で発音することができない。
-	* → ラップを歌った時にグルーヴしないという現象の原因になる。
-* 音楽の即興演奏を行う時に、共演者の演奏内容を予想することが上手くできない。
-	* → グルーヴしないという現象の原因になる。
-* 即興ダンスを行う時に、共演者の動作を予想することが上手くできない。
-	* → グルーヴしないという現象の原因になる。
-* 格闘技などで敵の動作予想を直感的に予想する事が上手くできない。
-* サッカーやバスケットボールなどのスポーツで敵や見方ボールなどの動作予想を直感的に予想する事が上手くできない。
-* 海外で街を歩く時に人とぶつかりやすくなる。
-	* → 海外で犯罪に巻き込まれやすくなる。
+Is such a thing really happening? I will explain it with concrete examples.
+### Tatenori as a Blind Spot
 
-本当にそんなことが起こっているでしょうか。具体例を交えて御説明致します。
+#### What Is Ba Dum Tss
 
-### 縦乗りという盲点
-
-#### バダムツーとは
-
-英語で良く使われる慣用表現で「バダムツー」というオノマトペがあります。次のような音です。
+In English there is an onomatopoeia often used as an idiomatic expression called "ba dum tss." It is a sound like the following.
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">バダムツー（英語での「ちゃんちゃん」のような効果音） Credit : <a href="https://t.co/1pMfDuY1S3">https://t.co/1pMfDuY1S3</a> <a href="https://t.co/qdcGm8P81M">pic.twitter.com/qdcGm8P81M</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1928811162042507281?ref_src=twsrc%5Etfw">May 31, 2025</a></blockquote></div>
 
-バダムツーはとてもポピュラーでネット上を探すと沢山の例を見つけることが出来ます。
+Ba dum tss is very popular, and if you look on the internet you can find many examples.
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">【 Ba Dum Tss / バダムツー 】 ─── 日本人はこのリズムを必ず聴き間違える。このリズムを何故日本人は、必ず聴き間違えるのか。そこに日本人の縦乗りの最も根本的な原理を観察することができる。<a href="https://twitter.com/hashtag/%E3%82%AA%E3%83%95%E3%83%93%E3%83%BC%E3%83%88%E3%81%A7%E6%80%9D%E8%80%83%E3%81%99%E3%82%8B%E8%AA%9E%E5%AD%A6?src=hash&amp;ref_src=twsrc%5Etfw">#オフビートで思考する語学</a> <a href="https://t.co/IWibkjxhj3">pic.twitter.com/IWibkjxhj3</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1918313900753514678?ref_src=twsrc%5Etfw">May 2, 2025</a></blockquote> </div>
 
-このリズムを、何かの面白い事（おち）が起こった直後に演奏します。
+This rhythm is played immediately after something funny happens.
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">バダムツーの実際に実践で使われている例：Credit : <a href="https://t.co/9YyvfCjSX1">https://t.co/9YyvfCjSX1</a> <a href="https://t.co/NBE4a3FB7d">pic.twitter.com/NBE4a3FB7d</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1928826772281233678?ref_src=twsrc%5Etfw">May 31, 2025</a></blockquote></div>
 
 
-これは日本語ではしばしば「ちゃんちゃん」と訳されます。
+In Japanese, this is often translated as "chan-chan."
 
 ![](/offbeat-count/attachments/vertical-ba-dum-tss.png){width=560px }
 
-これは日本語のちゃんちゃんの様な位置にあり、コントの終わりなどで効果音として使われます。
+This is in a position like Japanese chan-chan, and is used as a sound effect at the end of a comedy skit and so on.
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">日本の「ちゃんちゃん」は英語で ba dum tss と翻訳されている。ジョジョの不思議な冒険「マニッシュ・ボーイ」Credit : <a href="https://t.co/hRYKOraxdq">https://t.co/hRYKOraxdq</a> <a href="https://t.co/Oym4ZIsLUD">pic.twitter.com/Oym4ZIsLUD</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1928814004308185233?ref_src=twsrc%5Etfw">May 31, 2025</a></blockquote> </div>
 
-もし貴方が音楽の訓練を受けている方で、譜面を読み書きすることができる方でしたら、次の様に聴き取ったかも知れません。
+If you are a person who has received musical training and can read and write notation, you may have heard it in the following way.
 
 ![](/offbeat-count/attachments/vertical-ba-dum-tss-incorrect.png)
 
-しかしこれは本来次の様に記譜すべきなのです。
+However, originally it should be notated as follows.
 
 ![](/offbeat-count/attachments/vertical-ba-dum-tss-score-correct.png)
 
-#### リズムの解釈の違い
+#### Difference in Rhythm Interpretation
 
-もしも前者の解釈でジャズの演奏を行うと次のようになる筈です。
+If one performs jazz with the former interpretation, it should become as follows.
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">バダムツーの縦乗りでの解釈 <a href="https://twitter.com/hashtag/%E3%82%AA%E3%83%95%E3%83%93%E3%83%BC%E3%83%88%E3%81%A7%E6%80%9D%E8%80%83%E3%81%99%E3%82%8B%E8%AA%9E%E5%AD%A6?src=hash&amp;ref_src=twsrc%5Etfw">#オフビートで思考する語学</a> <a href="https://t.co/KN5gMaKMdE">https://t.co/KN5gMaKMdE</a> <a href="https://t.co/TCvZoJEMqw">pic.twitter.com/TCvZoJEMqw</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1928070176341164344?ref_src=twsrc%5Etfw">May 29, 2025</a></blockquote></div>
 
-もしも後者の解釈でジャズの演奏を行うと次の様になります。
+If one performs jazz with the latter interpretation, it becomes as follows.
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">バダムツーの横乗りでの解釈 <a href="https://twitter.com/hashtag/%E3%82%AA%E3%83%95%E3%83%93%E3%83%BC%E3%83%88%E3%81%A7%E6%80%9D%E8%80%83%E3%81%99%E3%82%8B%E8%AA%9E%E5%AD%A6?src=hash&amp;ref_src=twsrc%5Etfw">#オフビートで思考する語学</a> <a href="https://t.co/KN5gMaKMdE">https://t.co/KN5gMaKMdE</a> <a href="https://t.co/C5x0FYgXLk">pic.twitter.com/C5x0FYgXLk</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1928070026998755806?ref_src=twsrc%5Etfw">May 29, 2025</a></blockquote></div>
 
-ここに日本語を母国語とする人と、そうでない人のリズムの認識に、大きな違いが見つかります。
+Here a large difference is found in rhythm recognition between people whose native language is Japanese and those whose native language is not.
 
-#### リズムの解釈の違いによって生まれる音楽解釈の違い
+#### Difference in Musical Interpretation Born from Difference in Rhythm Interpretation
 
-次の例を見てみてください。
+Please look at the following example.
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">【モーラ拍リズムの言語（日本語）を母語として話す人が聴き取れないリズム】 16分音符1つが弱起として入っている基本リフパターン ─── マイケル・ジャクソンのヒューマン・ネイチャー Live at Wembley 1988 Credit : <a href="https://t.co/eQ1e6WjElH">https://t.co/eQ1e6WjElH</a> <a href="https://t.co/mBAaWxTeSj">pic.twitter.com/mBAaWxTeSj</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1928820285270024211?ref_src=twsrc%5Etfw">May 31, 2025</a></blockquote></div>
 
-この曲は、マイケル・ジャクソンのヒット曲『[ヒューマン・ネイチャー](https://www.youtube.com/watch?v=ElN_4vUvTPs)』です。この曲の冒頭でマイケル・ジャクソンが「チーチキ・チーチキ」と歌っていますが、この記事を読んで下さっている皆様は、このリズムをどの様に聴き取りましたでしょうか。
+This song is Michael Jackson's hit song "[Human Nature](https://www.youtube.com/watch?v=ElN_4vUvTPs)." At the beginning of this song Michael Jackson sings "chiichiki chiichiki," but how did everyone reading this article hear this rhythm?
 
 
 ![](/offbeat-count/attachments/vertical-human-nature-score-incorrect.png)
 
-この様に解釈されたのではないでしょうか。しかし曲が始まると間もなくこの解釈が間違っていることが明らかになります ─── 実は次のようになっています。
+Was it not interpreted in this way? However, soon after the song begins it becomes clear that this interpretation is wrong --- in fact it is as follows.
 
 ![](/offbeat-count/attachments/vertical-human-nature-score-correct.png)
 
-このように８分音符１つ分ずれた形でリズムが始まっています。
+In this way, the rhythm begins in a form shifted by one eighth note.
 
-**ここからわかることは、日本語を母国語とする人はある音を聞いた瞬間、当然のようにそれを８分音符の表拍として認識しているところを、外人は当然の様にそれを８分音符の裏拍として認識しているということです。**
+**What can be understood from here is that the moment a person whose native language is Japanese hears a sound, they naturally recognize it as an on-beat eighth note, whereas foreigners naturally recognize it as an off-beat eighth note.**
 
-これは些細なことと見えるかも知れません。しかしここに大きな盲点が存在します。
+This may look like a trivial thing. However, there is a large blind spot here.
 
-#### リズム解釈の違いによって生まれる言語解釈の違い
+#### Difference in Language Interpretation Born from Difference in Rhythm Interpretation
 
-この盲点こそが、日本語を母国語とする人が英語が聴き取れなくなる理由なのです。次の動画を見てみてください。これは映画ハイスクール・ミュージカル（2006年）の主題歌です。 この動画のなかで日本語母国語話者が聴き落とす地点をアニメーションで表現しました。
+This blind spot is exactly the reason why people whose native language is Japanese become unable to hear English. Please look at the following video. This is the theme song of the movie High School Musical (2006). In this video, the points missed by native speakers of Japanese are expressed by animation.
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">【日本人のリズムの盲点】映画ハイスクール・ミュージカルの音楽にはオフビートから始まるリズムが現れます。<br><br>日本人には1拍目表拍から文章を解釈しその前にある音を全て無視するという性質がある為、そこに音があることに気付きません。 <br><br>その地点を見える化しました。<a href="https://twitter.com/hashtag/%E3%82%AA%E3%83%95%E3%83%93%E3%83%BC%E3%83%88%E3%81%A7%E6%80%9D%E8%80%83%E3%81%99%E3%82%8B%E8%AA%9E%E5%AD%A6?src=hash&amp;ref_src=twsrc%5Etfw">#オフビートで思考する語学</a> <a href="https://t.co/qpvR56b6tG">pic.twitter.com/qpvR56b6tG</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1661582852574806021?ref_src=twsrc%5Etfw">May 25, 2023</a></blockquote></div>
 
-この歌詞は次の様になっています。
+The lyrics are as follows.
 
 	We're all in this together
 	Once we know that we are, we're all stars
 	And we see that
 
-この様に、小節の開始地点に先駆けて開始地点前の位置から勢いをつけてメロディーが始まることを、音楽の楽典の用語で<span style="font-size:3em">弱起</span>と呼びます。
+In this way, when melody begins with momentum from a position before the starting point, preceding the starting point of the bar, this is called in the terminology of music theory an <span style="font-size:3em">anacrusis</span>.
 
-この最初の we're が **弱起** で発音されていることに注目してください。この弱起こそが日本語母国語話者の盲点です。
+Please pay attention to the fact that this first we're is pronounced as an **anacrusis**. This anacrusis is the blind spot of native speakers of Japanese.
 
-ここで弱起の存在を前提としないリズム解釈のことを**縦乗り**と呼びたいと思います。そしてこの弱起の存在を前提しない縦乗りに対し、弱起の存在を前提としたリズム解釈のことを横乗りと呼びます。
+Here, I would like to call a rhythm interpretation that does not presuppose the existence of an anacrusis **tatenori**. And in contrast to this tatenori that does not presuppose the existence of an anacrusis, I call a rhythm interpretation that presupposes the existence of an anacrusis yokonori.
 
 
 
-この曲では最初の部分だけが弱起になっている非常に短い弱起なので、全ての意味が理解できないことはないかも知れません。しかし英語の詩では、**歌詞の全て弱起になっている**ことは稀なことではありません。そうなると、全ての音が聴き取れないという現象が実際に起こるのです。
+In this song, only the first part is an anacrusis and it is a very short anacrusis, so it may be that not all meaning becomes incomprehensible. However, in English poetry it is not rare that **all of the lyrics are anacrusis**. When that happens, the phenomenon actually occurs in which all sounds cannot be heard.
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">その後、リハンナが2007年に Don’t Stop the Music でマイケルジャクソンのママセイママサーママクサを素材にしたリフを使ったことで、ママセイママサーママクサは更に広く知られる様になりました。<br><br>Credit : <a href="https://t.co/4XdSx8kHp0">https://t.co/4XdSx8kHp0</a> <a href="https://t.co/BGQnWLvpzp">pic.twitter.com/BGQnWLvpzp</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1646892656285618176?ref_src=twsrc%5Etfw">April 14, 2023</a></blockquote> </div>
 
-このサビ部分の歌詞は**全てが弱起で構成**されています。
+The lyrics in this chorus part are **all composed as anacrusis**.
 
 	I wanna take you away
 	Let's escape into the music, DJ, let it play
 	I just can't refuse it, like the way you do this, keep on rockin' to it
 	Please don't stop the, please don't stop the music
 
-この歌詞を、小節単位で行区切して、文章の切れ目を色で表示しました。
+The lyrics were line-broken by bar units, and the boundaries of the sentences were shown with colors.
 
 <pre style="border-radius:15px; border: 3px solid silver; padding:15px; font-size:1.6em;color:white;font-weight:bolder;line-height:1.5em;background-color:black; white-space: pre;">
 <span style="background-color:red ">I wanna take you
@@ -387,693 +380,670 @@ to it</span> <span style="background-color:red">Please don't stop the, please do
 music</span>
 </pre>
 
-歌詞は完全に中学英語の範囲内です。しかしこの様に<span style="font-size:3em">文章の切れ目の位置が弱起によって変わってしまうことにより文章全体が理解できなくなる</span>という現象が起こります。
+The lyrics are completely within the range of junior-high-school English. However, in this way, the phenomenon occurs that <span style="font-size:3em">the whole sentence becomes impossible to understand because the position of the sentence boundary changes due to the anacrusis</span>.
 
-これこそが<span style="font-size:3em">日本語母国語話者が、英語が理解できなくなる理由の正体</span>です。
+This is exactly <span style="font-size:3em">the true reason why native speakers of Japanese become unable to understand English</span>.
 
-どんなに R の発音を練習しても、どんなに TH の発音を練習しても、リズム解釈方法が異なることにより、全てが理解できなくなってしまうのです。 リズム解釈の違いがある限り、日本人の全ての努力は水泡に帰すのです。
+No matter how much one practices the pronunciation of R, no matter how much one practices the pronunciation of TH, because the method of rhythm interpretation is different, everything becomes impossible to understand. As long as there is a difference in rhythm interpretation, all of the efforts of Japanese people return to water bubbles.
 
-そしてこの弱起によって文章の切れ目位置が変わるということは、<span style="font-size:3em">アフリカ系の諸言語の影響を強く受けている米国英語では特に顕著</span>に起こります。
+And the fact that the position of the sentence boundary changes because of this anacrusis occurs <span style="font-size:3em">especially conspicuously in American English, which is strongly influenced by African languages</span>.
 
-そしてこの<span style="font-size:3em">言語上のリズム解釈の違いこそが、日本人の演奏がグルーヴしない原因の正体</span>なのです。
+And this <span style="font-size:3em">difference in linguistic rhythm interpretation is exactly the true cause of why Japanese people's performance does not groove</span>.
 
-#### 言語によって異なるリズム解釈
+#### Rhythm Interpretation Differs by Language
 
-次の曲は２０１４年頃にタイで流行していた曲です。
+The following song was a song that was popular in Thailand around 2014.
 
 <div style="display:flex"><div style="flex: 0 0 auto; margin:auto">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/w1y19rSAlGk?si=SmAUtZb1-qdjzGHT&amp;start=57" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div></div>
 
-2014年当時のタイのミュージックシーンの感性にフィットし爆発的にヒットしましたが、タイのミュージシャンという訳ではありません。これは [Mc Jair Da Rocha](https://www.youtube.com/channel/UC30QowTrCEeqr4L4R5zH8cA) というサンパウロのミュージシャンによる『A Minha Amiga Fran (Franという名の友達)』という名の曲です。彼は世界的に著名なミュージシャンというわけではありませんが、どういう経緯によってかタイでヒットしました。
+It fit the sensibility of the Thai music scene at that time in 2014 and became explosively popular, but it was not by Thai musicians. This is a song called "[A Minha Amiga Fran (A Friend Named Fran)](https://www.youtube.com/channel/UC30QowTrCEeqr4L4R5zH8cA)" by a Sao Paulo musician named Mc Jair Da Rocha. He is not a globally famous musician, but for some reason it became a hit in Thailand.
 
-この曲の歌詞を貴方は、どういう風に聞き取りましたでしょうか。この曲はサビの部分で「ウォカ・ウォカ」と連呼しておりとてもキャッチーですが、私達はこの歌詞を当然の様に「ウォカ・ウォカ」と解釈していた筈です。 しかし実は、この曲は、タイでは กาโว กาโว (kawo kawo ) と呼ばれているのです。 [カウォ・カウォというキーワード](https://www.google.com/search?q=%E0%B8%81%E0%B8%B2%E0%B9%82%E0%B8%A7+%E0%B8%81%E0%B8%B2%E0%B9%82%E0%B8%A7)  で検索すると沢山のタイ版リミックスが見つかります。
+How did you hear the lyrics of this song? In the chorus part of this song it repeatedly says "woka woka" and it is very catchy, and we surely interpreted these lyrics naturally as "woka woka." However, in fact, in Thailand this song is called กาโว กาโว (kawo kawo). If you search with the [keyword kawo kawo](https://www.google.com/search?q=%E0%B8%81%E0%B8%B2%E0%B9%82%E0%B8%A7+%E0%B8%81%E0%B8%B2%E0%B9%82%E0%B8%A7), you can find many Thai remix versions.
 
-日本人が当然の様にウォカウォカと聴き取る同じ音声をタイ人は当然の様にカウォカウォと解釈している ─── この現象は、発音とリズムの解釈に大きな示唆を与えてくれます。 ここでタイ解釈では「カ」が先にくるカウォは弱起（小節頭より前から始まるメロディ）が前提となって解釈されていると見ることができます。そして日本解釈では「ウォ」が先にくる強起（小節頭より後ろから始まるメロディ）が前提となって解釈されていると見ることができます。
+The same sound that Japanese people naturally hear as woka woka is naturally interpreted by Thai people as kawo kawo --- this phenomenon gives a large suggestion concerning the interpretation of pronunciation and rhythm. Here, in the Thai interpretation, one can see that kawo, where "ka" comes first, is interpreted on the premise of an anacrusis (a melody that begins before the head of the bar). And in the Japanese interpretation, one can see that it is interpreted on the premise of a strong onset, where "wo" comes first (a melody that begins after the head of the bar).
 
-つまり、**言語の発音上のリズム解釈は、言語によって大きく異なる**ということが、少なくともここから観察出来ます。
+In other words, it can be observed from here at least that **linguistic rhythm interpretation in pronunciation differs greatly depending on the language**.
 
-民族音楽は、民族の言語と深く結びついています。日本の民族音楽（音頭や演歌）には弱起（アナクルーシス／アウフタクト）がありませんが、タイの民族音楽には弱起があります。この言語による**リズムの解釈の違いの存在**にまず気付くことが大切といえそうです。
+Ethnic music is deeply tied to the language of the ethnic group. Japanese ethnic music (ondo and enka) does not have an anacrusis (anacrusis/Auftakt), but Thai ethnic music does have an anacrusis. It seems that what is important first is to notice the **existence of differences in rhythm interpretation** by language.
 
-なお、この曲の中盤のサビ部分の歌詞はポルトガル語で louca ( 英語のcrazy )と連呼している為、タイ解釈（カウォ）と日本語解釈（ウォカ）のどちらがポルトガル語解釈と一致しているか考えると、日本語の解釈の方が正しいといえます。
+It should be noted that in the middle chorus of this song, because the lyrics repeatedly say louca in Portuguese (crazy in English), if one considers which of the Thai interpretation (kawo) and the Japanese interpretation (woka) matches the Portuguese interpretation, it can be said that the Japanese interpretation is more correct.
 
-しかしタイ人の人はほとんどの場合、前提となる知識が全くない状態でも英語圏・ラテン語圏の人々とコミュニケーションを取ることが出来ることに対して、日本人は長い期間前提知識を学んだ状態でも、英語圏・ラテン語圏の人々とコミュニケーションを取ることが出来ないという点に注意が必要です。
+However, it is necessary to note the point that while Thai people are in most cases able to communicate with people of the English-speaking world and the Latin-speaking world even with absolutely no prior knowledge, Japanese people are unable to communicate with people of the English-speaking world and the Latin-speaking world even when they have studied prior knowledge for a long period.
 
-彼らタイ人は全く知らない未知の言語でも、聴いた単語をそのままオウム返しに発音することが出来ます。しかし日本人は多くの発音を聞き落としてしまうため、オウム返しに発音することができません ─── ここに日本人が英語が苦手になる理由の本質が隠れています。
+Those Thai people can pronounce back by parrot repetition the words they hear even in an unknown language they know nothing about. However, because Japanese people miss many pronunciations, they cannot pronounce them back by parrot repetition --- the essence of the reason why Japanese people become poor at English is hidden here.
 
-タイ人は「カウォでなくウォカだよ！」と訂正されるとすぐに発音解釈を切り換えることが出来ます ─── もし日本人が同じ様にして「これはウォカではなくカウォだよ！」と訂正された場合、すぐに解釈を「カウォ」に切り換えることが出来るでしょうか。答えはNOです。ここに日本語の不思議な性質を観察することが出来ます。
+When Thai people are corrected, "It's not kawo, it's woka!", they can immediately switch their pronunciation interpretation --- if Japanese people were corrected in the same way, "This is not woka, it's kawo!", could they immediately switch their interpretation to "kawo"? The answer is NO. Here one can observe the mysterious nature of Japanese.
+### Tatenori and Mora-Timed Rhythm
 
-### 縦乗りとモーラ拍リズム
+**Tatenori** can be said to be a certain kind of **lack in the sense of rhythm** possessed only by people whose native language is Japanese. Tatenori is not merely a problem of individual qualities or musical taste. In fact, tatenori is a **structural phenomenon** that occurs because of the pronunciation structure of Japanese. The recognition of rhythm in Japanese is academically called **mora-timed rhythm**.
 
-**縦乗り**とは、日本語を母国語とする人だけが持っているある種の**リズム感覚の欠落**といえます。縦乗りは、単なる個人の資質や音楽の好みの問題ではありません。実は縦乗りは、日本語の発音構造が起因して起こる**構造的な現象**です。日本語のリズム認識のことを学術的に**モーラ拍リズム**と呼びます。
+#### What Is Mora-Timed Rhythm
 
-#### モーラ拍とは何か
+Mora-timed rhythm refers to the pronunciation recognition method in which people whose native language is Japanese naturally recognize pronunciation by dividing it into constant lengths as "a-i-u-e-o." These pronunciation elements divided into constant lengths are called morae. Mora --- this is natural for people who speak Japanese, but in fact it is said that if one searches worldwide, Japanese is the only language that has this mora-timed rhythm.
 
-モーラ拍リズムとは日本語を母国語とする人が当たり前のように行っている「あーいーうーえーおー」と発音を一定の長さに区切って認識する発音認識方法のことを指します。この一定の長さに区切った発音要素のことをモーラと呼びます。モーラ ─── これは日本語を話す人にとっては当たり前なことですが、実はこのモーラ拍リズムを持った言語は、世界的に探してみても日本語しかないと言われています。
+The majority of languages around the world have rhythm recognition called **stress-timed rhythm** or **syllable-timed rhythm**. For example, Spanish, French, Italian, Chinese, and Korean are classified as **syllable-timed rhythm**, and English, Russian, German, Arabic, Thai, and Lao are classified as **stress-timed rhythm**.
 
-世界中の大半の言語は**ストレス拍リズム**または**シラブル拍リズム**と呼ばれるリズム認識を持っています。 例えばスペイン語・フランス語・イタリア語・中国語・韓国語は、**シラブル拍リズム** に、英語・ロシア語・ドイツ語・アラビア語・タイ語・ラオ語は、**ストレス拍リズム**に分類されています。
+#### What Is Syllable-Timed Rhythm
+Syllable-timed rhythm is a kind of rhythmic structure seen in many languages, and refers to a pronunciation structure in which linguistic phonemes are divided into units called "syllables," and each syllable is pronounced with almost the same length without distinction of strength and weakness. In this rhythm, there is no rhythm based on "strong beats and weak beats" as in English, and its feature is that the rhythm is composed simply by the number of syllables. Because of this, it can also give the impression that the whole utterance is mechanically marked evenly.
 
-#### シラブル拍とは何か
-シラブル拍リズムとは、多くの言語で見られるリズム構造の一種で、言語上の音素が「シラブル」と呼ばれる単位で区切られ、それぞれのシラブルがほぼ同じ長さで強弱の区別なく発音される発音構造のことを指します。このリズムでは、英語のような「強拍・弱拍」に基づくリズムは存在せず、単純にシラブルの数だけでリズムが構成されるのが特徴です。このことから発話全体が機械的に均等に刻まれるような印象を与えることもあります。
+#### What Is Stress-Timed Rhythm
+Stress-timed rhythm means that stress beats, that is, emphasized syllables, appear at fixed time intervals, and syllables not emphasized by stress are pronounced briefly and evenly divided between the stress beats. ([reference](https://digitalcommons.wayne.edu/cgi/viewcontent.cgi?article=1025&context=honorstheses)) For example, suppose one pronounces fourteen, fifteen, sixteen. At that time, teen is always pronounced with emphasis at the same interval of time. However, even though four | fif | six each have different numbers of phonemes as fo, fif, siks, they are always pronounced with time distributed within the same length range. This is stress-timed rhythm.
 
-#### ストレス拍とは何か
-ストレス拍リズムとは、一定時間ごとにストレス拍＝強調されたシラブルが現れ、ストレスによって強調されないシラブルはストレス拍の間に短く等分に発音されることをいいます。（[参照](https://digitalcommons.wayne.edu/cgi/viewcontent.cgi?article=1025&context=honorstheses)） 例えば、fourteen, fifteen, sixteen と発音したとします。 この時 teen は必ず同じ間隔の時間をもって強調されて発音します。 しかし four | fif  | six はそれぞれ  fo fif siks と異なる数の音素を持っていても、必ず同じ長さの範囲内で時間分配されて発音されます。 これがストレス拍リズムです。
+What is called here **a certain kind of sense of rhythm lacking in Japanese people = yokonori** is the **sense of rhythm naturally possessed by people who speak languages based on stress-timed rhythm or syllable-timed rhythm as their native languages**.
 
-ここでいう、**日本人に欠落しているある種のリズム感覚=横乗り**とは、**ストレス拍リズムないしはシラブル拍リズムに基づいた言語を母国語として話す人々が自然に持っている**リズム感覚**です。
-
-#### グルーヴとは何か
+#### What Is Groove
 
 <figure class="center-box">
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">【言語とリズム】カマラ・ハリスの「ザ・パッセージ・オヴ・タイム」という演説に合わせてジャズを演奏したら、それに同調したネット上のミュージシャンがドラムやベースをつけたものらしいです。<br><br>９０年代のジョン・スコフィールドとジョー・ロヴァーノの音楽みたいです。 <a href="https://twitter.com/hashtag/%E3%82%AA%E3%83%95%E3%83%93%E3%83%BC%E3%83%88%E3%81%A7%E6%80%9D%E8%80%83%E3%81%99%E3%82%8B%E8%AA%9E%E5%AD%A6?src=hash&amp;ref_src=twsrc%5Etfw">#オフビートで思考する語学</a>… <a href="https://t.co/CuW5Q3XaOF">pic.twitter.com/CuW5Q3XaOF</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1838097695032160721?ref_src=twsrc%5Etfw">September 23, 2024</a></blockquote></div>
-<figcaption>米国政治家のカマラ・ハリスのスピーチに合わせてジャズを演奏している人々</figcaption>
+<figcaption>People performing jazz to the speech of the American politician Kamala Harris</figcaption>
 </figure>
 
-現在、世界中で広く親しまれているポピュラー音楽の多くは、アメリカのジャズにその源流を持ちます。ジャズからブルースが生まれ、ブルースはやがてR&Bやロックンロールへと発展し、さらにロック、ハードロック、ヘヴィメタルなど、現代における多様な音楽ジャンルへと枝分かれしていきました。つまり、これらのポップス音楽の根底には、今なおジャズのリズムが脈々と息づいているのです。
+At present, much of the popular music widely loved around the world has its source in American jazz. Blues was born from jazz, and blues eventually developed into R&B and rock and roll, and further branched into diverse musical genres in the present age such as rock, hard rock, and heavy metal. In other words, at the foundation of these pop musics, the rhythm of jazz is still beating continuously.
 
-そしてそのジャズのリズムは敢えて言えば**アメリカの俳句**とでも喩えられるようなアメリカ英語の発音や抑揚と深く結びついた表現形式なのです。日本語の『言葉のリズム』を凝縮されたものが俳句ならば、米国英語の『言葉のリズム』が凝縮されたものがジャズです。
+And that rhythm of jazz, if one dares to say so, is a form of expression deeply tied to the pronunciation and intonation of American English that could be likened to **American haiku**. If haiku is a condensation of the "rhythm of words" of Japanese, then jazz is a condensation of the "rhythm of words" of American English.
 
-俳句が日本語のモーラ拍リズムから生まれた詩の形式であるように、ジャズはアメリカ英語のストレス拍タイミングに根ざした詩の形式です。表面上は異なるように見えても、両者はそれぞれの言語のリズム構造と音韻体系に深く結びついています。ジャズは米国英語のリズムと抑揚を身体的に表現するものです。その意味でジャズは「米国英語版の俳句」ともいえる表現文化なのです。
+Just as haiku is a poetic form born from the mora-timed rhythm of Japanese, jazz is a poetic form rooted in the stress-timed timing of American English. Even if on the surface they look different, both are deeply tied to the rhythmic structure and phonological system of their respective languages. Jazz is the bodily expression of the rhythm and intonation of American English. In that sense, jazz is an expressive culture that can also be called the "American-English version of haiku."
 
-つまりこれらのポップス音楽で最も重要な要素であるグルーヴの正体は、この米国英語のリズムそのものです。
+In other words, the true nature of groove, the most important element in these pop musics, is this very rhythm of American English.
 
-#### 日本語を母国語とするハンデ
+#### The Handicap of Having Japanese as One's Native Language
 
-日本語話者がこの**グルーヴ**を体得しにくい理由は、この言語リズムの違いが無意識のうちに身体感覚に影響しているからです。ストレス拍リズムを持つ言語を話す人々（日本人以外の地球上のほぼ全ての人々）から見ると、明らかにそこにあるべき何かがないことがはっきり明瞭に観察されます。しかしもともとその**ストレス拍リズム**という概念を持たない日本人は、そこに何かがある筈だったという認識自体が共有出来ないのです。つまり<font style="font-size:3em">リズムが欠けているという意識そのものが欠けているのです。</font> このリズム感上の感覚差は大変に大きく、この感覚差が原因で、日本人とそれ以外の人々のコミュニケーションを決定的に困難にしています。 相手の「感じている違和感自体」が、こちら側に存在しないのです。これは文化間コミュニケーション齟齬の最大のものです。
+The reason Japanese speakers have difficulty acquiring this **groove** is that this difference in language rhythm unconsciously affects bodily sensation. From the viewpoint of people who speak languages with stress-timed rhythm (almost all people on earth other than Japanese), it is clearly and distinctly observable that something that should clearly be there is not there. However, Japanese people, who from the beginning do not have the concept of **stress-timed rhythm**, cannot even share the recognition itself that something should have been there. In other words, <font style="font-size:3em">the awareness itself that rhythm is missing is missing.</font> This difference in rhythmic sensation is extremely large, and because of this difference in sensation, communication between Japanese people and everyone else is made decisively difficult. The other party's "feeling of discomfort itself" does not exist on this side. This is the largest mismatch in intercultural communication.
 
-そしてこの発音構造の違いが、日本の教育・敗戦・戦後の歴史・高度経済発展・日本独特な心理「甘え」などの歴史的背景・心理学的背景と深く絡み合って多様な問題を生み出しています。
+And this difference in pronunciation structure is deeply intertwined with Japan's education, defeat in war, postwar history, high economic growth, and historical and psychological backgrounds such as the uniquely Japanese psychology of "amae," producing various problems.
+### Comparison of Tatenori and Yokonori
+Below are tatenori and yokonori theorized and made to be performed mechanically according to the theory.
 
-### 縦乗りと横乗りの比較
-以下は縦乗りと横乗りを理論化し、理論に従って機械的に演奏させたものです。
-
-#### 縦乗りと横乗りの比較その1
+#### Comparison of Tatenori and Yokonori Part 1
 
 <div class="center-box"><iframe class="rhythmpedia-iframe" src="https://www.youtube.com/embed/-mHk5FfhFas?si=4CQjOE1Fi5ap3Cc5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
-#### 縦乗りと横乗りの比較その2
+#### Comparison of Tatenori and Yokonori Part 2
 
 <div class="center-box"><iframe class="rhythmpedia-iframe" src="https://www.youtube.com/embed/BvpIcUBT418?si=jOhnlsRvhCYB-O_W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
-#### 縦乗りと横乗りの比較その3
+#### Comparison of Tatenori and Yokonori Part 3
 
-* 横乗りの場合
-    * ベース音と伴奏コードが常に互い違いに鳴っている
+* In the case of yokonori
+    * The bass notes and accompaniment chords always sound alternately
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">【コード進行の先取りについて】 <a href="https://t.co/nqrVkVIhNy">pic.twitter.com/nqrVkVIhNy</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1496443349540413440?ref_src=twsrc%5Etfw">February 23, 2022</a></blockquote></div>
 
 
-* 縦乗りの場合
-    * ベース音と伴奏コードが常に同時に鳴っている
+* In the case of tatenori
+    * The bass notes and accompaniment chords always sound at the same time
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">【縦乗りの例】全拍がオンビートを起点にして演奏されている。全く同じ音楽、全く同じベースライン、全く同じコード進行でもリズムが縦乗りだとこういう風に響く ─── これが縦乗りだ。 <a href="https://t.co/OArl8tpUWf">pic.twitter.com/OArl8tpUWf</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1496820563201114112?ref_src=twsrc%5Etfw">February 24, 2022</a></blockquote></div>
 
-#### 縦乗りと横乗りの比較その4
+#### Comparison of Tatenori and Yokonori Part 4
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">７イレブンで買い物したら、ものすごい縦乗りのヒューマンネーチャー（マイケル・ジャクソンの曲）がＢＧＭに掛かっていた。あまりに凄かったので、家に帰って譜面に起こしてみた。こんな感じだった。<br><br>前半４小節がオリジナル。後半４小節が縦乗りバージョン。 <a href="https://t.co/Vl9s9DWgh8">pic.twitter.com/Vl9s9DWgh8</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/975051946552827904?ref_src=twsrc%5Etfw">March 17, 2018</a></blockquote> </div>
+### People of Yokonori Notice Tatenori Immediately
 
-### 横乗りの人は縦乗りにすぐに気付く
-
-この**リズム感覚**を持たない日本語を母国語とする人が演奏や作曲を行うと、その作品に**独特なリズム感覚の欠落**が残ります。この欠落は、そのリズム感覚を持つ人から見た時、とてもはっきりとわかる非常に明瞭なものです。この欠落は日本語以外の言語を母国語とする人々に対して常に一定の違和感を与えます。
+When people whose native language is Japanese, who do not have this **sense of rhythm**, perform or compose, a **distinctive lack of sense of rhythm** remains in their works. This lack is something very clear and distinct when viewed by a person who has that sense of rhythm. This lack always gives a certain discomfort to people whose native language is something other than Japanese.
 
 <figure>
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">【音無しで手を叩くだけでわかる横乗りと縦乗り】<br><br>1. 裏拍が先行している<br>2. 拍の多層構造がある<br>3. 動きが尻合わせで配置されている<br><br>どんなに海外で高度な横乗りを会得しても、横乗りと縦乗りの違いをはっきり区別しない限り日本帰国と同時に縦乗りに戻ってしまいます。<a href="https://twitter.com/hashtag/%E3%82%AA%E3%83%95%E3%83%93%E3%83%BC%E3%83%88%E3%81%A7%E6%80%9D%E8%80%83%E3%81%99%E3%82%8B%E8%AA%9E%E5%AD%A6?src=hash&amp;ref_src=twsrc%5Etfw">#オフビートで思考する語学</a> <a href="https://t.co/j0lB7w9RT4">pic.twitter.com/j0lB7w9RT4</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1866840258450690275?ref_src=twsrc%5Etfw">December 11, 2024</a></blockquote></div>
-<figcaption>縦乗りと横乗りの違いを動きだけを使って表現したもの</figcatption>
+<figcaption>A representation using only movement of the difference between tatenori and yokonori</figcatption>
 </figure>
 
-踊りを踊っても、それはすぐに日本人の動作だとわかる痕跡が残ります。例えそれが VTuber の映像で外見からその人が日本人であることがわからなくても、その動きだけからその人が日本人だとわかる特徴が見られます。それが例え振り付けで完全に日本人だということが部外者から見えない状態でも、それは日本人の振り付けだと即座にわかる特徴が残ります。
+Even if they dance, traces remain by which one can immediately tell that it is the movement of Japanese people. Even if it is a VTuber image and one cannot tell from appearance that that person is Japanese, characteristics can be seen from the movement alone by which one can tell that person is Japanese. Even if in choreography it is in a state where outsiders cannot see that it is completely Japanese, characteristics remain by which one immediately knows it is Japanese choreography.
 
-歩いても、走っても、歌っても、踊っても、ギターを弾いても、ドラムを叩いても、ピアノを弾いても、クラシックを演奏しても、ジャズを演奏しても、何をやっても全てに、日本人の認識欠落の痕跡が残ります。
+Whether walking, running, singing, dancing, playing guitar, beating drums, playing piano, performing classical music, or performing jazz, in everything, whatever they do, traces of the Japanese lack of recognition remain.
 
-問題は、このリズム感覚を持たない人が、そもそも彼が持っている**リズム感覚**の欠落自体を認識できないことです。
+The problem is that people who do not have this sense of rhythm cannot in the first place recognize the **lack** of the **sense of rhythm** they have.
+### People of Tatenori Do Not Notice Tatenori
 
-### 縦乗りの人は縦乗りに気付かない
+The problem is that a person who does not have this sense of rhythm cannot in the first place recognize that the **sense of rhythm** he has is itself lacking. In other words, **he cannot even recognize that there is a difference between one who has a certain sense of rhythm and one who does not have a certain sense of rhythm**. Because they do not have the sense of rhythm, people who do not have the sense of rhythm unconsciously choose only things that do not have that sense. And people who have that sense of rhythm clearly recognize this bias. However, people who do not have the sense of rhythm cannot recognize that bias itself.
 
-問題は、このリズム感覚を持たない人は、そもそも彼が持っている**リズム感覚**が欠落していること自体を認識できないことです。つまり**あるリズム感覚をもつものと、あるリズム感覚をもたないものとの間に、違いがあること自体を認識できない**のです。リズム感覚を持たない人たちは、感覚を持たないがために、無意識のうちにその感覚を持たないものだけを選んでしまうのです。そしてこの偏りを、そのリズム感覚を持つ人は明白に認識しています。しかしリズム感覚を持たない人は、その偏り自体を認識出来ません。
+The peculiar blind spot in the sense of rhythm possessed only by people whose native language is Japanese --- that is **tatenori**.
+### Tatenori Can Be Clearly Quantified
 
-日本語を母国語とする人だけがもつ独特なリズム感覚の盲点  ─── それが**縦乗り**です。
+When one transcribes a song made by a tatenori person, features can be seen by which one can clearly point it out as such. For example, because songs made by tatenori people do not have anacrusis, the notes are always arranged biased to the left, like left-aligning text in a word processor. On the other hand, when one transcribes a song made by yokonori (a person who is not tatenori), often the notes are arranged biased to the right, like right-aligning text in a word processor. In this way, tatenori is by no means merely something sensory, but something that can be quantified and observed clearly in a visible form.
+### There Are Things People of Tatenori Cannot See
 
-### 縦乗りははっきりと定量化出来る
+People of tatenori have many rhythm patterns that they cannot recognize. The problem is that people of tatenori cannot recognize the existence itself of the rhythms that they cannot recognize. Among such things, there are concrete rhythm patterns that people of tatenori mishear with high reproducibility. In {{<meta var.OFBCT.en>}}, those rhythm patterns are also mentioned.
+### There Are Things People of Tatenori Cannot Do
 
-縦乗りの人が作った曲を採譜するとはっきりとそれと指摘できる特徴が見られます。例えば、縦乗りの人が作った曲には弱起がない為、必ず文書作成ソフトで文を左寄せにしたように音符が左側に偏って配置されます。一方横乗り（縦乗りではない人）の作った曲を採譜するとしばしば、文書作成ソフトで文を右寄せにしたように音符が右側に偏って配置されます。この様に縦乗りは、決して感覚的なものではなく、定量化してはっきりと目に見える形で観察することが出来ます。
+People of tatenori have the characteristic that, on the principle of time recognition, "they cannot clap alternately with two people." Perhaps they may be able to clap alternately in time with a metronome. However, they cannot clap alternately with an inaccurate human being. This is called here {{<meta var.ALTERNATING_CLAP_BREAKDOWN.en>}}.
 
-### 縦乗りの人には見えないことがある
+However, when the other party is a human, because human rhythm has subtle fluctuations, there arises the need to respond flexibly to those fluctuations. In other words, in order to continue matching rhythm alternately, a more complex sense of time is required, namely "feeling the fluctuations of the other party while adjusting one's own timing." --- In this scene where human beings perform alternating clapping with each other, a phenomenon can be observed in which the difference in time recognition can be clearly observed.
 
-縦乗りの人は、認識出来ないリズム型が多数あります。問題は縦乗りの人がその認識できないリズムの存在自体を認識出来ないことです。そのようななか具体的に縦乗りの人が高い再現性をもって聴き間違えるリズムパターンがあります。{{<meta var.OFBCT.en>}} では、そのリズムパターンにもついても言及します。
+People of tatenori, by the principle of time recognition, find it very difficult to keep distance from a pulse sounding at fixed intervals and maintain a state of not being simultaneous, and as a result it is observed as the phenomenon that immediate rhythmic exchange between human beings --- that is, actions such as clapping alternately --- cannot be done.
 
-### 縦乗りの人には出来ないことがある
+On the other hand, although people of tatenori cannot clap alternately, they can immediately clap simultaneously in time with irregular hand claps. This is rather an ability characteristic of tatenori people and an act that cannot be done by people other than tatenori people.
 
-縦乗りの人は、時間の認識の原理上「2人で交互に手を叩くことが出来ない」という特徴があります。 もしかするとメトロノームに合わせて交互に手を叩くことは出来るかも知れません。しかし不正確な人間を相手に交互に手を叩くことが出来ません。 このことをここでは {{<meta var.ALTERNATING_CLAP_BREAKDOWN.en>}} と呼びます。
+This may seem like a trivial thing... However, in rock, jazz, classical, and funk alike, it must be noted that rhythms in which two performers alternately produce sounds repeatedly appear. At the very foundation of Western music appears the rhythm of alternately performing bass drum and snare drum. In particular, modern popular music of American origin always has this rhythm appearing.
+### Problems Caused by Tatenori
 
-しかし、相手が人間の場合、人間のリズムには微妙な揺らぎがあることから、その揺らぎに対して柔軟に対応する必要が発生します。つまり交互にリズムを合わせ続けるには「相手のゆらぎを感じ取りながら、自分のタイミングを調整する」という、より複雑な時間感覚が求められます。 ─── この人間同士で交互手叩きを行う場面で、時間認識の違いをはっきりと観察できる現象が観察出来るのです。
+#### If One Is Tatenori, One Cannot Hear Yokonori Music
 
-縦乗りの人は、時間認識の原理上、一定の間隔で鳴っているパルスと距離を取って同時ではない状態を維持することがとても難しく、結果として、人間同士での即時的なリズムのやりとり──すなわち交互に手を叩くような行為──が出来ないという現象となって観察されます。
+The most conspicuous problem when a tatenori person performs is that they cannot recognize anacrusis. This makes performance with tatenori people decisively difficult for yokonori people.
 
-一方縦乗りの人は、交互に手を叩くことは出来ませんが、不規則になっている手拍子に合わせて同時に叩くことなら即座に行う事ができます。これはむしろ、縦乗りの人に特徴的な能力で縦乗りの人以外には出来ない行為です。
+People of tatenori cannot recognize anacrusis. Not only can they themselves not perform it, but when the other party performs an anacrusis, the phenomenon occurs that they mishear it and the performance position shifts. This is because when a tatenori person hears an anacrusis, they unconditionally recognize that position as measure 1 beat 1. This is called [**the syndrome in which the first sound heard sounds like the downbeat of beat 1**](https://oka-ats.blogspot.com/2021/01/oka01-ubjkgrbexmeuwzjj.html). People with the syndrome in which the first sound heard sounds like beat 1 not only cannot themselves perform anacrusis, but when co-performers perform anacrusis, the phenomenon occurs that they cannot maintain their own performance position normally and the ensemble collapses.
 
-これは些細なこと…と思われるかも知れません。しかし、ロック・ジャズ・クラシック・ファンク問わず、2人の奏者が交互に音を出すリズムが繰り返し現れることには注意が必要です。西洋音楽の最も基礎にバスドラムとスネアドラムを交互に演奏するリズムが現れます。特に現代あるアメリカ起源のポピュラー音楽は必ずこのリズムが登場します。
+In jazz there is a custom called "pickup" in which a long anacrusis of a solo part is performed at a place where the accompaniment has stopped. People of tatenori cannot perform this. This becomes a large problem particularly when performing improvisation in which what will be performed is not decided beforehand on notation.
 
-### 縦乗りが起こす問題
+In addition, the following rhythm expression methods often used in American popular music including jazz all trigger, in the recognition of tatenori people, [**the syndrome in which the first sound heard sounds like the downbeat of beat 1**](https://oka-ats.blogspot.com/2021/01/oka01-ubjkgrbexmeuwzjj.html), and therefore they cannot share rhythm recognition with yokonori people.
 
-#### 縦乗りだと横乗り音楽が聴き取れない
+* weak-beat precedence
+* rushing
+* laid-back
 
-縦乗りの人が演奏する上で最も顕著になる問題は、弱起が認識出来ないことです。これが横乗りの人にとって、縦乗りの人との演奏を決定的に難しくします。
+#### If One Is Tatenori, One Cannot Hear Any Foreign Language Other Than Japanese
 
-縦乗りの人は弱起を認識できません。自分が演奏出来ない事はもちろんですが、相手が弱起を演奏した時に聴き間違えて演奏位置がずれてしまうという現象が起こります。これは、縦乗りの人が弱起を耳にすると無条件にその位置を1小節目1拍目と認識してしまうことによります。 このことを [**最初に聞いた音が1拍目表に聞こえる症候群**](https://oka-ats.blogspot.com/2021/01/oka01-ubjkgrbexmeuwzjj.html) と呼びます。最初に聴いた音が一拍目に聞こえる症候群の人は、本人が弱起を演奏できないだけでなく、共演者が弱起を演奏を行う際にも自分自身の演奏位置を正常に維持することができず、合奏が崩壊してしまうという現象が起こります。
+This [**syndrome in which the first sound heard sounds like beat 1**](https://oka-ats.blogspot.com/2021/01/oka01-ubjkgrbexmeuwzjj.html) is common to the reason why Japanese people become unable to hear English. Because people of tatenori begin interpreting sentences by assuming without any doubt that the first strong beat they hear is the sound at the beginning of the sentence, the phenomenon occurs that in everyday conversation they carelessly miss all main clauses, articles, conjunctions, and so on that are often pronounced lightly like musical anacrusis.
 
-ジャズでは「ピックアップ」と言って伴奏が止まった場所でソロパートの長い弱起を演奏する習慣があります。縦乗りの人はこれを演奏する事が出来ません。 特に譜面であらかじめ何を演奏するか決まっていない即興演奏を行う時では、これが大きな問題となります。
+In particular, in dialects with a strong tendency to speak quickly, such as Southern English and New York English, much of the sentence tends to be pronounced lightly like an anacrusis, with only the end of the sentence pronounced somewhat clearly. When pronunciation becomes like this, Japanese people miss most of the pronunciation and become unable to tell at all what is being said.
 
-その他、ジャズを始めとするアメリカのポピュラー音楽で多用される次の様なリズム表現手法は全て、 縦乗りの人の認識上で [**最初に聞いた音が1拍目表に聞こえる症候群**](https://oka-ats.blogspot.com/2021/01/oka01-ubjkgrbexmeuwzjj.html) が発動してしまうため、横乗りの人とリズムの認識を共通にすることが出来ません。
+This becomes the first problem Japanese people face when learning not only English but also any language other than Japanese. This is the first problem, the biggest problem, and the hardest problem, extremely difficult to overcome. Because Japanese people stumble at the entrance to language in this way, they tend to become very poor at languages.
 
-* 弱拍先行
-* ラッシング
-* レイドバック
+#### Tatenori Is the First and Largest Hurdle in Acquiring English (Foreign Languages)
 
-#### 縦乗りだと日本語以外の外国語は全て聴き取れない
+In other words, tatenori is the largest obstacle for Japanese people in acquiring English (and other foreign languages). This is because when hearing or speaking English, the order of utterance and sound elements that is needed is in the exact opposite order from the viewpoint of a person whose base is Japanese rhythm.
 
-この [**最初に聞いた音が1拍目に聞こえる症候群**](https://oka-ats.blogspot.com/2021/01/oka01-ubjkgrbexmeuwzjj.html) は日本人が英語を聴き取る事が出来なくなる原因と共通です。縦乗りの人は、最初に聴いた強拍を何の疑いもなく文頭の音と仮定して文章の解釈を開始する為、日常会話上で音楽の弱起のように軽く発音されることが多い主節・冠詞・接続詞などを全て無警戒に聞き逃してしまうという現象が起こります。
+When Japanese people try to hear English, English speakers have already finished saying the important elements of the sentence, and conversely by the time Japanese people try to say something, in the sense of English speakers everything has already passed by --- such misalignment occurs. What many Japanese people feel as "I cannot hear English pronunciation" is in fact not **the quality of the sound** itself, but because they cannot grasp the **rhythm and order of pronunciation peculiar to English**. Unless one can recognize the **rhythm and order of pronunciation peculiar to English**, one cannot stand on the foundation for distinguishing the pronunciation itself.
 
-特に、英語の南部方言やニューヨーク方言など早口で話す傾向が強い方言では、文章の大半が弱起の様に軽く発音し、文末だけややはっきり発音する傾向があります。この様な発音になると、日本人は発音の大半を聞き漏らしてしまうため、全く何を言っているか判別がつかなくなってしまいます。
+#### Tatenori Goes Against the Spirit of Japanese Courtesy
+Music such as jazz, R&B, funk, rap, rock, and heavy metal often has, in English, literary elements exactly the same as Japanese haiku. Stepping into English literature while leaving Japanese pronunciation strongly intact is transmitted to the other party as a great discourtesy toward others without Japanese people noticing it.
+### Main Causes of Tatenori
+#### Structure of Japanese Mora-Timed Rhythm
+The cause of tatenori lies in the pronunciation structure of Japanese. The pronunciation elements that become the direct cause of tatenori are broadly five.
 
-これは英語だけでなく、日本人が日本語以外の言語を学習する時に最初に直面する問題となります。これが最初の問題であり、最大の問題であり、克服が極めて難しい最難の問題となります。日本人はこうして語学の入口で躓いてしまう為、語学がとても苦手になる傾向があります。
+* not distinguishing consonants and vowels
+* having no final consonants
+* having no consonant clusters
+* consonants are short
+* being conscious only of vowels and unable to be conscious of consonants
 
-#### 縦乗りは英語(外国語)習得する上での最初で最大のハードル
+In linguistics, these features taken together are called a **mora-timed rhythm language**.
 
-つまり、縦乗りは日本人にとって英語(等の外国語)を習得する上で最も大きな障壁です。英語を聞き取ったり話したりする際に、必要となる発話や音声要素の順番が、日本語のリズムをベースとする人から見ると真逆の順番になっているからです。
+On the other hand, in yokonori, that is, languages of **stress-timed rhythm** that are not mora-timed rhythm languages, there are
 
-日本人が英語を聞き取ろうとする時、英語話者はすでに文章の重要な要素を言い終えてしまっており、逆に日本人が何かを言おうとした頃には、英語話者の感覚では全てが過ぎ去った後になってしまう、というようなすれ違いが起きます。 多くの日本人が「英語の発音が聞き取れない」と感じるのは、実は**音の質**そのものではなく、英語特有の**発音のリズムや順番**を捉えることができないからなのです。**英語特有の発音のリズムや順番**が認識出来なければ、発音自体を聞き分ける土台に立つことが出来ません。
+* clear distinction between consonants and vowels
+* consonants are long (consonants too can be pronounced long like vowels)
+* there are final consonants
+* there are consonant clusters
+* there is liaison
 
-#### 縦乗りは日本人の礼儀の精神に反する
-ジャズ・R&B・ファンク・ラップ・ロック・ヘビメタ等々の音楽は、しばしば英語では、日本の俳句と全く同じ文学的要素をもっています。日本語の発音を色濃く残したまま英文学に足を踏み入れることは、日本人が気付かぬ内に他者に対する大きな失礼となって相手に伝わっています。
+In most cases there are features like these.
 
-### 縦乗りの主な原因
-#### 日本語のモーラ拍リズムの構造
-縦乗りの原因は日本語の発音構造にあります。 縦乗りの直接的な原因となる発音要素は、大きく分けて５つあります。
+Because mora-timed rhythm is a feature seen almost only in Japanese, by mora-timed rhythm becoming the native language, Japanese speakers come to have the peculiar blind spot that languages other than mora-timed rhythm = most languages in the world become impossible to understand.
 
-* 子音と母音を区別しない
-* 末子音がない
-* 多重子音がない
-* 子音が短い
-* 母音しか意識しておらず子音が意識できない
+#### Wrong English Education
 
-言語学ではこれらの特徴を総合して**モーラ拍リズム言語**と呼びます。
+**The reason why the rhythm of English does not enter the body is that the time recognition of sound is fixed in the vertical alignment of Japanese, and for many years English education has been implemented while neither the teaching side nor the learning side has their vertical alignment corrected.**
 
-一方、横乗りつまりモーラ拍リズム言語ではない**ストレス拍リズム**の言語には
+The large difference lying between Japanese and English pronunciation is already a known problem. --- If one searches the internet in English, one can find many articles explaining the structural differences between Japanese and English pronunciation. However, Japanese people, because even when they look at English it is incomprehensible, do not notice even that Japanese-English pronunciation difference is being explained there. In Japan, countless letters like letters sent from the white goat to the black goat arrive from the world, but Japanese people are in the same state as eating all of them as food without reading them as information. In other words, they do not notice the existence of those letters themselves.
 
-* 子音と母音をはっきり区別している
-* 子音が長い（子音も母音と同じ用に長く発音出来る）
-* 末子音がある
-* 多重子音がある
-* リエゾンがある
+In Japanese society, education is carried out for more than ten years while ignoring the fundamental difference in rhythm recognition lying between Japanese and English. People whose native language is Japanese, because of that difference in rhythm recognition, interpret sound at wrong boundary positions when they hear English pronunciation, and therefore cannot hear the pronunciation itself. This means that even when hearing _"Can I ask you?"_ they interpret it at entirely different boundaries as _"Ke nai asu kyu?"_, and therefore cannot even identify it as the already known words Can / I / ask / you. This is a problem from before learning pronunciation. In other words, it means a serious cognitive disconnection in which it is not that the word itself cannot be heard, but because **the way of dividing sound (prosody) has not been installed in the body**, the existence of the word itself **does not even get onto the recognition route in the first place**.
 
-ほとんどの場合この様な特徴があります。
+In this state, vocabulary cannot increase, and grammatical knowledge cannot increase either. Even if one studies for more than ten years while remaining like a paper driver who has never driven, nothing changes in the reality that one cannot drive.
 
-モーラ拍リズムはほぼ日本語だけに見られる特徴である為、モーラ拍リズムが母国語となることで、モーラ拍リズム以外の言語＝世界中の大半の言語が理解できなくなるという日本語話者独特な盲点を持つことになります。
+#### Wrong Music Education
 
-#### 間違った英語教育
+Also in Japanese music education, training has been carried out with an emphasis on **aligning the head of the beat**, while ignoring the difference between the speech rhythm of Japanese and the speech rhythm of Western languages. Japanese eurhythmics education, which thoroughly enforces a duple-meter metronome biased only toward efficiency in sight-reading, is a serious violation of human rights that should be called a lobotomy operation on the sense of rhythm.
 
-**英語のリズムが身体に入ってこない理由は、音の時間認識が日本語の縦揃えで固定されているからであり、教える側も教わる側も縦揃えが矯正されないままで、長年にわたる英語教育が実施されています。**
+For Japanese speakers who do not have the bodily sense of Western musical stress-timed rhythm, carrying out such strict sight-reading training is rather counterproductive when viewed from the aspect of musical effect. This is because Japanese people come to feel "helplessness" and "inferiority" toward rhythm, which should originally be enjoyable.
 
-日本語と英語の発音の間に横たわる大きな違いは、既に既知の問題です。 ─── インターネットを英語で検索すると、日本語と英語の発音の構造的な違いを説明する記事がたくさん見つかります。しかし日本人は、英語を見てもちんぷんかんぷんなので、そこに日本語と英語の発音差が説明されている事自体に気が付きません。日本にはこの様な白ヤギさんから黒ヤギさんに送られた手紙の様な手紙が、世界から無数に届いていますが、日本人はこれを全て情報として読まずに食料として食べてしまっているのと同じ状態です。つまりその手紙の存在自体に気付きません。
+By carrying out for many years rhythm training devised while leaving out of account the existence of rhythm recognition differing by language, it comes to be normalized that music does not groove and to be fixed as bodily movement. People who grew up in such an environment come unconsciously to hold **inferiority or helplessness** toward the act of "riding the rhythm." They form a psychological block in which somewhere in their hearts they give up, thinking that the **sense of groove** that should originally have been relatively easy to acquire is "impossible for me."
 
-日本社会では、日本語と英語の間に横たわるリズム認識の根本的な違いを無視した状態で１０年以上教育を行っています。日本語を母国語とする人は、そのリズム認識の違いによって、英語の発音を聴いた時に、間違った区切り位置で音声を解釈してしまうため、発音自体を聴き取ることができません。これはつまり _"Can I ask you?"_ と聴いた時でも _"ケ ナイ アス キュ?"_ と全く違う区切り位置で解釈してしまう為、それが Can / I / ask / you という既に知っている単語と同定すること自体が出来ないことを表しています。これは発音を学ぶ以前の問題なのです。これはつまり、単語自体が聞き取れないのではなく、**音の区切り方（プロソディ）が身体にインストールされていない**ために、単語の存在自体が**そもそも認識ルートに乗らない**という深刻な認知的断絶を意味しているのです。
+Naturally, education in the theory needed to notice the originally necessary differences in rhythm, and theoretical education for overcoming them, are overwhelmingly lacking as well.
 
-この状態では、ボキャブラリも増えようがなく、文法知識も増えようがありません。運転したことがないペーパードライバー状態のまま１０年以上学習をを行っても運転が出来ない現実に何も変化は生まれません。
+#### Rhythm-Dead-Ear Complex
 
-#### 間違った音楽教育
+The lack of a sense of rhythm is often not only difficult to point out, but there is a tendency for bringing it up as a topic itself to be considered improper. This is because **the lack of a sense of rhythm is connected to various inferiority complexes that people fundamentally have**.
 
-日本の音楽教育でも、日本語の発話リズムと西洋言語の発話リズムの違いを無視したまま、**「拍の頭をそろえる」ことに重点を置いた訓練**が行われてきました。読譜の効率化ばかりに偏重した２拍子メトロノームを徹底する日本のリトミック教育は、リズム感のロボトミー手術とでもいうべき深刻な人権侵害です。
+* inferiority complex toward the West
+* defeat-in-war complex
+* physical complex
+* mental complex
+* English complex
 
-西洋音楽のストレス拍リズムの身体感覚を持たない日本語話者に、このような厳格な読譜トレーニングを行うことは、音楽的効果という面から見た時にむしろ逆効果となります。本来であれば楽しいはずのリズムに対し、日本人は『無力感』『劣等感』を覚えるようになってしまうからです。
+By bringing up problems concerning the sense of rhythm as a topic, these inferiority feelings are stimulated, and there is a tendency for the topic to develop into personality problems and so on that are entirely unrelated to rhythm theory itself. For this reason, topics concerning the sense of rhythm tend often to be treated as taboo in social life.
 
-言語によって違うリズム認識の存在を度外視したまま考案されたリズムトレーニングを長年にわたって行うことにより、音楽がグルーヴしないことが常態化し身体動作として固定化されることになります。こうした環境の中で育った人々は、無意識のうちに『リズムに乗る』という行為に対して**劣等感や無力感**を抱くようになります。本来であれば比較的容易に身につけられるはずだった**グルーヴの感覚**を、心のどこかで「自分には無理だ」と諦めてしまう心理的ブロックを形成してしまうのです。
+#### Social Pressure to Conform Concerning Rhythm
 
-当然、本来必要なリズムの違いに気付くための理論の教育、乗り越える為の理論的な教育も圧倒的に不足しています。
+These lacks of the sense of rhythm, by becoming linked with these complexes, produce various defense mechanisms. These defense mechanisms of performers are observed sociologically as various **headwinds (unspoken resistance)**. Even merely performing in yokonori rhythm produces headwinds, and if one ignores the headwinds too much, it is not rare that relationship trouble develops from the performance content alone. This is sociologically called **pressure to conform**.
 
-#### リズム音痴コンプレックス
+#### Fear of It Being Taken as Discrimination Against Japan
 
-リズム感の欠落は、しばしば指摘が困難なだけでなく、話題として出すこと自体が不適切とみなされる傾向があります。これは**リズム感の欠落が人々が根本的にもっている様々な劣等感と結びついている**事によります。
+In fact, overseas there are mixed opinions about **tatenori Western music** in which Japanese people imitate the West. However, when we Japanese look at the world, even if supportive opinions are found immediately, opinions that deny it can rarely be found --- but because they cannot be found does not mean that denying opinions do not exist. On the contrary, denying opinions exist latently in greater numbers than supportive opinions.
 
-* 欧米コンプレックス
-* 敗戦コンプレックス
-* 肉体的コンプレックス
-* 精神的コンプレックス
-* 英語コンプレックス
+Particularly in Europe and America, sensitivity to racism is high, and even slight criticism may be regarded as discrimination and condemned. On the other hand, in Japan, sensitivity to racism is considered comparatively low, and that gap produces a misalignment in recognition between Japan and Europe.
 
-リズム感に関する問題点を話題として出すことにより、これらの劣等感が刺激を受け、本来のリズム論とは全く関係ない人格問題などに話題が発展しやすい傾向があります。このためリズム感に関する話題は、社会生活上でしばしばタブー視される傾向があります。
+Therefore, even if overseas people feel discomfort toward Japanese tatenori jazz, they almost never state it openly.
 
-#### リズムに対する社会的同調圧力
+Because of this, it can be said that Japanese people have very few opportunities to notice their own tatenori.
+### How Can One Overcome Tatenori
+Overcoming tatenori is divided into three steps.
 
-これらのリズム感覚の欠落は、これらのコンプレックスと結びつくことにより、様々な防衛機制を生み出します。 これらの演奏者の防衛機制は、社会学的に見た時に、様々な **風当たり (unspoken resistance)**  となって観察されます。横乗りリズムで演奏するだけですら風当たりが生じ、あまり風当たりを無視しすぎると、演奏内容だけで人間関係トラブルに発展することも稀なことではありません。これは社会学的に **同調圧力（どうちょうあつりょく, pressure to conform）** と呼ばれます。
+#### Becoming Conscious of Rhythm Complex
+The very first thing to do is to notice the **rhythm complex** lurking within oneself. Many people tend to regard poor rhythm sense merely as a "weak point" or "difference in physical ability," but in reality those things are deeply tied to **linguistic, cultural, and historical factors**.
 
-#### 日本差別と取られる恐れ
+The lack in the sense concerning rhythm has very clear causes. They are things entirely unrelated to physical ability or spirituality. These lacks of sensation are things that can be corrected by mechanical training. It is important to notice the fact that the lack of a sense of rhythm is not a defect of physical ability.
 
-実は海外では、日本人が西洋を模倣した**縦乗り西洋音楽**には賛否両論があります。しかし私達日本人が世界を見た時、賛成意見はすぐに見つかっても否定する意見は滅多に見つけることが出来ません ─── 見つからないからといって、否定する意見が存在しない訳ではありません。 むしろ否定意見は、潜在的に賛成意見よりも多く存在します。
+The cause of feeling "I have no sense of rhythm" is, in truth, merely **a lack of knowledge regarding the difference in rhythm recognition lying between tatenori (mora-timed rhythm) and yokonori (stress-timed rhythm)**. And that lack of knowledge is in many cases caused by **a structural defect of the education system**.
 
-特に欧米では、人種差別に対する感受性が高く、わずかな批判であっても差別とみなされ糾弾されることがあります。一方、日本では人種差別に対する感受性が比較的低いとされており、そのギャップが日欧間の認識のずれを生み出しています。
+##### Facing One's Own Rhythm Complex
+First, one begins from becoming conscious of and facing one's own rhythm complex. This can be easily overcome by knowing that the rhythm complex is merely a lack of knowledge. And this formal knowledge is then converted into bodily knowledge through training.
 
-よって、海外の人々は日本人の縦乗りジャズに対して違和感を感じていても、それを公然と発言することはほとんどありません。
+##### Facing Social Rhythm Complex
 
-この為、日本人は自分自身の縦乗りに気付く機会がとても少なくなっているといえます。
-
-### 縦乗りを克服するにはどうすればよいか
-縦乗りの克服は、３つのステップに分かれます。
-
-#### リズム・コンプレックスを意識する
-まず最初に行うべきは、自身の中に潜んでいる**リズム・コンプレックス**に気付くことです。多くの人は、リズム感が乏しいことを単なる『不得意』や『身体能力の差』として捉えがちですが、実際にはそれらは **言語的・文化的・歴史的な要因**と深く結びついています。
-
-リズムに対する感覚の欠落には、とてもはっきりした原因があります。それらは身体能力や精神性とは全く無関係なものです。これらの感覚欠落は、機械的なトレーニングによって修正することが可能なことです。リズム感覚の欠落が身体能力の欠陥ではないという事実に気付くことが大切です。
-
-『自分はリズム感がない』と感じている原因は、実のところ単に**縦乗り(モーラ拍）と横乗り（ストレス拍）のあいだに横たわるリズム認識の違いに関する知識の欠如**にすぎません。そしてその知識の欠如は、多くの場合、**教育システムの構造的な欠陥** によって生じています。
-
-##### 自分自身のリズムコンプレックスと向き合う
-まず自分自身のリズムコンプレックスを意識して向き合うところから始めます。これはリズムコンプレックスが単なる知識の欠如だと知ることによって簡単に克服出来るでしょう。そしてこの形式知を訓練を通じて身体知へと変換していきます。
-
-##### 社会的なリズムコンプレックスと向き合う
-
-次に社会的なリズムコンプレックスを意識します。日本社会において、リズムコンプレックスに対する克服が進めば進むほど、強い社会的同調圧力を受ける様になります。リズムコンプレックスを克服すればするほど『勝手だ』『わがままだ』『傲慢だ』と非難を受ける様になります。これは貴方が悪い訳でもなく、彼らが悪いわけでもありません。リズムという肉体的恐怖に直面した人が取る典型的なリアクションといえます。ここでは『縦乗りを憎んで人を憎まず』という冷静な気落ちが大切になります。肉体的恐怖に対する人々の一般的なリアクションに対する正しい知識を持ち、縦乗りについての情報を少しずつ共有していく事が必要となります。
+Next, one becomes conscious of the social rhythm complex. In Japanese society, the more overcoming of rhythm complex progresses, the more one comes to receive strong social pressure to conform. The more one overcomes rhythm complex, the more one comes to be criticized as "selfish," "spoiled," and "arrogant." This is not because you are bad, nor because they are bad. It can be said to be a typical reaction taken by people facing the physical fear called rhythm. Here, the calm attitude of "hate tatenori, not people" becomes important. It becomes necessary to have correct knowledge of people's general reactions to physical fear, and to share information about tatenori little by little.
 
 <!--
 『自分はリズム感がない』と感じている原因は、単に **縦乗りと横乗りの間に横たわるリズム差に対する知識** の欠落にあります。それは単なる **教育システム**上の欠陥が原因となって発生する問題です。学校教育では、日本語の発話リズムと西洋の発話リズムの違いを度外視した「拍頭」を追いかける訓練に重点が置かれており、発話リズムの違いに意識を向ける為の理論教育と訓練が圧倒的に不足しています。その結果、無意識のうちに「リズムに乗る」という行為に対して劣等感を植え付けられてしまい、本来であれば容易に身につけられる筈だったグルーヴを練習することに対する諦めにもにた心理的なブロックが形成されてしまいます。
 -->
 
-##### 世界的なリズムコンプレックスと向き合う
+##### Facing Global Rhythm Complex
 
-ストレス拍リズム言語を母語として話しているからといって、必ずしもグルーヴの原理をはっきり意識してその存在を理論的に理解している訳ではありません。むしろほとんどのネイティブ・スピーカーの人々は、グルーヴの存在にすら気付いていません。日本語話者がその縦乗りの存在を意識できずに気付かないことと同様に、英語話者もその横乗りの存在を意識できないのです。 そして日本語話者だからといって誰もが必ずしも話し上手ではないのと同様に、英語話者でも人によってグルーヴに対する認識は異なり、結果として個人差としてその認識差が現れてきます。米国社会で起きていることも本質的に日本社会で起こっていることと共通です。
+Even if one speaks a stress-timed-rhythm language as one's native language, it is not necessarily the case that one clearly notices the principle of groove and theoretically understands its existence. Rather, most native speakers do not even notice the existence of groove. Just as Japanese speakers cannot be conscious of and notice the existence of their tatenori, English speakers also cannot be conscious of the existence of their yokonori. And just as not every Japanese speaker is necessarily a good speaker, even among English speakers recognition of groove differs depending on the person, and as a result that difference in recognition appears as individual difference. What is occurring in American society is essentially common to what is occurring in Japanese society.
 
-##### 普遍的なグルーヴコンプレックスと向き合う
+##### Facing Universal Groove Complex
 
-縦乗りを克服するということは **『自己及び他者に存在する内面的なリズム認知に対するリフレーミング（再構築)』** といえます。 自分自身が『何故リズムに乗れないのか』という原因を自分自身の身体上の欠陥ではなく単なる知識／練習で解決できる単純な問題だと気付き、かつそれが他者に対しても同じ恐怖を与えている事に気付き、受け入れていくという行程が必要になるのです。
+To overcome tatenori can be said to be **"reframing (reconstructing) the inner rhythm cognition existing in oneself and others."** It becomes necessary to go through the process of noticing that the cause of "why can I not get on the rhythm" is not a physical defect in oneself but a simple problem that can be solved by mere knowledge/practice, and at the same time noticing that it gives the same fear to others as well, and accepting that.
 
-#### モーラ拍リズムとストレス拍リズムの違いを良く知る
-縦乗り理論を良く学び、モーラ拍リズムとストレス拍リズムの違いに慣れ親しむ事が縦乗り克服の土台となります。
+#### Know Well the Difference Between Mora-Timed Rhythm and Stress-Timed Rhythm
+Learning tatenori theory well and becoming familiar with the difference between mora-timed rhythm and stress-timed rhythm becomes the foundation for overcoming tatenori.
 
-* [**弱拍地動説**]( /weak-beat-as-sun-strong-beat-as-earth/ja/ )
+* [**Weak-Beat Heliocentrism**]( /weak-beat-as-sun-strong-beat-as-earth/ja/ )
 
-#### オフビートカウント理論を習得する
-オフビートカウント理論は、ストレス拍リズムを理論的に分析した結果生まれたリズムを分析する為の体系だった基礎理論になっています。これを良く習得する事が次のステップです。
+#### Acquire Offbeat Count Theory
+Offbeat Count Theory is at the same time a systematic basic theory for analyzing rhythm that was born as a result of theoretically analyzing stress-timed rhythm. Acquiring this well is the next step.
 
-#### オフビートカウント練習法を実践する
-オフビートカウント理論は同時に、ドリル練習として実践することでストレス拍リズムへの体感的な理解を深める大きな手助けとすることができます。
+#### Practice the Offbeat Count Training Method
+At the same time, by practicing Offbeat Count Theory as drill practice, it can become a great help in deepening bodily understanding of stress-timed rhythm.
+### Summary
 
-### まとめ
+Tatenori is a concept indicating a "lack" in the sense of rhythm into which only Japanese people whose native language is Japanese are likely to fall. However, tatenori is not necessarily evil, and in many cases foreigners may also grasp it as an exotic charm unique to Japan. On the other hand, it is also true that only when trying to "authentically" imitate music based on stress-timed rhythm such as classical, jazz, and R&B, Japanese people, without noticing it, may give a strong sense of discomfort because of tatenori.
 
-縦乗りとは、日本語を母語とする日本人だけが陥りやすいリズム感覚の『欠落』を指す概念です。但し縦乗りは必ずしも悪ではなく、外国人からは日本独自のエキゾチックな魅力として捉えられる場合も多々あります。 一方で、クラシックやジャズ、R&Bなど、ストレス時間リズムを基盤にした音楽を『本格的』に模倣しようとした時に限っては、日本人が気付かないうちに縦乗りが原因で強い違和感を与えてしまうことも事実です。
+If one were to compare this discomfort, it can be said to be close to the rhythmic misalignment that arises when foreigners try to recite haiku using Japanese. This is because Japanese has the special property of mora-timed rhythm, and its rhythmic structure is fundamentally different from languages such as English that have stress-timed rhythm.
 
-この違和感を例えるならば、外国人が日本語を使って俳句を詠もうとしたときに生じるリズムのずれに近いといえます。日本語にはモーラ時間リズムという特別な性質があり、英語などのストレス時間リズムをもつ言語とは根本的にリズム構造が異なるからです。
+This linguistic sense, which feels natural to Japanese people, may be recognized by English speakers as a **lack of sense of rhythm**. We have seen that this difference in sensation also greatly affects musical expression and becomes a hurdle in the acquisition of English.
 
-この日本人にとっては当たり前に感じられるこの言語感覚ですが、英語話者には**リズム感の欠落**として認識される場合があります。この感覚の違いが、音楽表現にも大きな影響を与え、英語の習得面でもハードルとなってしまうことを見てきました。
-
-しかし、こうしたギャップを少しでも埋めるための方法として、オフビートカウント練習が考案されました。もしも『本格的』な英語リズムを身につけたい、あるいはジャズやクラシック、R&Bをより本格的に演奏したいと願うのであれば、縦乗りと横乗りの違いを理解し、適切な練習を通じてその差を意識的に補う必要があるでしょう。
-
-
-
-## <ruby><rb>強拍が先か弱拍が先か</rb><rt>リズモクロニック・アナリシス</rt></ruby> <!-- {#headians-and-bottomians-of-beat-orientation} -->
-強拍弱拍の順序に対する認識は、その人が母国語とする言語が持つリズムによって大きな違いが生まれます。
+However, as a method for filling such gaps even a little, Offbeat Count practice was devised. If one wishes to acquire "authentic" English rhythm, or wishes to perform jazz, classical, or R&B more authentically, one will need to understand the difference between tatenori and yokonori and consciously supplement that difference through appropriate practice.
+## Which Comes First, the Strong Beat or the Weak Beat <!-- {#headians-and-bottomians-of-beat-orientation} -->
+Recognition of the order of strong beats and weak beats differs greatly depending on the rhythm possessed by the language that person has as their native language.
 
 
-### 音楽のリズム解釈には言語によって違いがある
+### Musical Rhythm Interpretation Differs by Language
 
-次のリズムを聴いてみてください。
+Please listen to the following rhythm.
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">バダムツー（英語での「ちゃんちゃん」のような効果音） Credit : <a href="https://t.co/1pMfDuY1S3">https://t.co/1pMfDuY1S3</a> <a href="https://t.co/qdcGm8P81M">pic.twitter.com/qdcGm8P81M</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1928811162042507281?ref_src=twsrc%5Etfw">May 31, 2025</a></blockquote></div>
 
-これは海外では、日本の「ちゃんちゃん」と同じ意味を持っているリズム効果音です。これを何か面白いことが起こった時の落ちの効果音として演奏します。この音のことを一般的にバダムツーというオノマトペで表現し ba dum tss と綴ります。このバダムツーに関しては [縦乗り理論#バダムツーとは](/tatenori-theory/#バダムツーとは) で詳しく説明しました。
+This is a rhythmic sound effect overseas that has the same meaning as Japanese "chan-chan." It is performed as a punchline sound effect when something funny happens. This sound is generally expressed with the onomatopoeia ba dum tss and spelled ba dum tss. As for this ba dum tss, it was explained in detail in [Tatenori Theory#What Is Ba Dum Tss](/tatenori-theory/#バダムツーとは).
 
-このリズムを譜面で表すと、いくつか複数の書き方あることに気付くでしょう。これを読む貴方はどうお考えになりますか。
+When one expresses this rhythm in notation, one notices that there are several different ways of writing it. What do you think, you who read this?
 
-もしかしたら次の様に解釈したかも知れません。
+Perhaps you may have interpreted it as follows.
 
 ![](/offbeat-count/attachments/vertical-ba-dum-tss-incorrect.png)
 
-果たしてバダムツーは、本当にこういうリズムの音楽からやってきたのでしょうか ─── 実際に試してみるとわかるかも知れません。このリズム解釈を使って音楽を作って見て、実際に聴いてみましょう。
+Did ba dum tss really come from music of this rhythm? --- One may understand by actually trying it. Let us make music using this rhythm interpretation and actually listen to it.
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">バダムツーの縦乗りでの解釈 <a href="https://twitter.com/hashtag/%E3%82%AA%E3%83%95%E3%83%93%E3%83%BC%E3%83%88%E3%81%A7%E6%80%9D%E8%80%83%E3%81%99%E3%82%8B%E8%AA%9E%E5%AD%A6?src=hash&amp;ref_src=twsrc%5Etfw">#オフビートで思考する語学</a> <a href="https://t.co/KN5gMaKMdE">https://t.co/KN5gMaKMdE</a> <a href="https://t.co/TCvZoJEMqw">pic.twitter.com/TCvZoJEMqw</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1928070176341164344?ref_src=twsrc%5Etfw">May 29, 2025</a></blockquote></div>
 
-これは正しいでしょうか  ─── 少なくとも筆者の私には、こうは感ぜられないのです。その音楽は恐らくこういう音楽だった筈です。
+Is this correct? --- At least to me, the author, it does not feel like this. The music was probably the following kind of music.
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">バダムツーの横乗りでの解釈 <a href="https://twitter.com/hashtag/%E3%82%AA%E3%83%95%E3%83%93%E3%83%BC%E3%83%88%E3%81%A7%E6%80%9D%E8%80%83%E3%81%99%E3%82%8B%E8%AA%9E%E5%AD%A6?src=hash&amp;ref_src=twsrc%5Etfw">#オフビートで思考する語学</a> <a href="https://t.co/KN5gMaKMdE">https://t.co/KN5gMaKMdE</a> <a href="https://t.co/C5x0FYgXLk">pic.twitter.com/C5x0FYgXLk</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1928070026998755806?ref_src=twsrc%5Etfw">May 29, 2025</a></blockquote></div>
 
-この上記リズム解釈を譜面として表現した場合、恐らく次のようになるでしょう。
+If the above rhythm interpretation is expressed as notation, it will probably become the following.
 
 ![](/offbeat-count/attachments/vertical-ba-dum-tss-score-correct.png)
 
 
-ここに存在する違いは一体何でしょうか ───  これが**強拍弱拍の順序認識**です。
+What on earth is the difference existing here? --- This is **recognition of the order of strong beats and weak beats**.
 
-今後このバダムツーを理解する為に必要な前提となる知識＝弱拍先行とは何か、弱拍先行の背後に存在する音韻学的な原理、そして弱拍先行の多層性、<ruby>多層弱拍先行<rt>グルーヴ</rt></ruby>を聴き取る難しさについてを順に見て行きます。 そしてこのバダムツーの解釈方法について [バダムツーは二重弱拍先行認識の試金石](#バダムツーは二重弱拍先行認識の試金石) でより詳細に説明します。
+From now on, in order to understand this ba dum tss, we will look in order at the knowledge that becomes the necessary premise = what weak-beat precedence is, the phonological principle existing behind weak-beat precedence, the multilayered nature of weak-beat precedence, and the difficulty of hearing multi-layered weak-beat precedence. And as for how to interpret this ba dum tss, it is explained in more detail in [Ba Dum Tss Is a Touchstone of Double Weak-Beat-Precedence Recognition](#バダムツーは二重弱拍先行認識の試金石).
 
-### 音楽の強拍弱拍の順序認識の違い
+### Difference in Recognition of the Order of Strong Beats and Weak Beats in Music
 
-強拍弱拍の順序とはどういう意味でしょうか。次のビデオを見てください。
+What does the order of strong beats and weak beats mean? Please watch the following video.
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">【モーラ拍リズムの言語（日本語）を母語として話す人が聴き取れないリズム】 16分音符1つが弱起として入っている基本リフパターン ─── マイケル・ジャクソンのヒューマン・ネイチャー Live at Wembley 1988 Credit : <a href="https://t.co/eQ1e6WjElH">https://t.co/eQ1e6WjElH</a> <a href="https://t.co/mBAaWxTeSj">pic.twitter.com/mBAaWxTeSj</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1928820285270024211?ref_src=twsrc%5Etfw">May 31, 2025</a></blockquote></div>
 
-この曲は、マイケル・ジャクソンのヒット曲『[ヒューマン・ネイチャー](https://www.youtube.com/watch?v=ElN_4vUvTPs)』です。この曲の冒頭でマイケル・ジャクソンが「チーチキ・チーチキ」と歌っていますが、この記事を読んで下さっている皆様は、このリズムをどの様に聴き取りましたでしょうか。
+This song is Michael Jackson's hit song "[Human Nature](https://www.youtube.com/watch?v=ElN_4vUvTPs)." At the beginning of this song Michael Jackson sings "chiichiki chiichiki," but how did all of you reading this article hear this rhythm?
 
 ![](/offbeat-count/attachments/humannature-incorrect.png)
 
-この様に解釈されたのではないでしょうか。しかし曲が始まると間もなくこの解釈が間違っていることが明らかになります ─── 実は次のようになっています。
+Was it not interpreted like this? However, soon after the song begins, it becomes clear that this interpretation is wrong --- in fact it is as follows.
 
 ![](/offbeat-count/attachments/humannature-correct.png)
 
-このように８分音符１つ分ずれた形でリズムが始まっています。  ─── **ここからわかることは、日本人はある音を聞いた瞬間、当然のようにそれを８分音符の強拍として認識しているところを、日本人以外の人々は当然の様にそれを８分音符の弱拍として認識している**ということです。
+In this way, the rhythm begins in a form shifted by one eighth note. --- **What can be understood from here is that where Japanese people naturally recognize a sound as the strong beat of an eighth note the moment they hear it, people other than Japanese naturally recognize it as the weak beat of an eighth note**.
 
-これが <span style="font-size:3em">**強拍弱拍の順序認識の違い**</span> です。
+This is <span style="font-size:3em">**the difference in recognition of the order of strong beats and weak beats**</span>.
 
-この『リズムの解釈の違い』 ─── 筆者である私は、海外の僻地で語学武者修行し12年で4ヶ国語（英語・タイ語・ラオ語・中国語のそれぞれ方言）を学んびました。この『リズムの解釈の違い』は、私が日本語から離れていく過程で常に念頭にあった事柄でした。その人の母国語が音楽の聞こえ方にも大きな影響を与えている ─── これが数ある日本人が外国語が苦手になる原因でも最も大きな要因ではないかと私は考えています。
+This "difference in rhythm interpretation" --- I, the author, went on a language warrior-training journey in remote areas overseas and in 12 years learned four languages (dialects of English, Thai, Lao, and Chinese). This "difference in rhythm interpretation" was always in my mind in the process of leaving Japanese. That a person's native language greatly affects the way music sounds too --- I think that this may be the biggest of the many causes of why Japanese people are poor at foreign languages.
 
-アジア人はみな英語が苦手でしょうか ─── 必ずしも苦手ではない様です。私が放浪中に見てきたアジアの人々・・・例えばタイ人・ラオス人・ベトナム人・中国人はしばしばさほど勉強しなくてもある程度の英語が話せるようになります。日本人以外のアジア人は、どんなに奥地に住んでいる人々でも、見様見真似で多少の英語を話すことができます。そもそも英語はそんなに習得が難しい言語ではありません。しかし何故か **日本人だけが英語を見様見真似で習得することができません**。日本人はアジアのなかでも特に例外的に英語が極端に苦手のようでした。
+Are all Asians poor at English? --- It does not necessarily seem so. The Asians I saw during my wandering ... for example, Thai people, Lao people, Vietnamese people, and Chinese people often come to speak some degree of English without studying very much. Asians other than Japanese, no matter how deep in the interior they live, can speak some English by imitation. English is not originally such a difficult language to acquire. However, for some reason **only Japanese people cannot acquire English by imitation**. Japanese people seemed to be particularly exceptionally extremely poor at English among Asians.
 
-何故日本人だけ英語が苦手なのでしょうか ─── <span style="font-size:3em">**その原因がこの強拍弱拍の順序の認識**</span>です。
+Why are only Japanese people poor at English? --- <span style="font-size:3em">**the cause is this recognition of the order of strong beats and weak beats**</span>.
 
-### 言語の強拍弱拍の順序認識の違い
+### Difference in Recognition of the Order of Strong Beats and Weak Beats in Language
 
-具体例として次のビデオを見てみます。
+Let us look at the following video as a concrete example.
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">【リエゾン】前後の子音が全て繋がることをリエゾンといいます。<br><br>LMFAO<br>エルエムエフエイオー<br>⇩⇩⇩⇩<br>エェレッメッフェィヨゥ！<br>Credit : <a href="https://t.co/FL5wMtgC4l">https://t.co/FL5wMtgC4l</a> <a href="https://t.co/v0mkyrsnW4">pic.twitter.com/v0mkyrsnW4</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1596182037001830400?ref_src=twsrc%5Etfw">November 25, 2022</a></blockquote></div>
 
-このビデオに登場するのは2011年前後に一世風靡したLMFAOというボーカルユニットです。彼らがストレス拍リズムで発音する「エルエムエフエイオー」が、モーラ拍リズムの認識では『エェレッメッフェイヨウ』と認識されます。
+Appearing in this video is a vocal unit called LMFAO that took the world by storm around 2011. Their "L-M-F-A-O" pronounced in stress-timed rhythm is recognized in mora-timed-rhythm recognition as "e-re-me-fei-you."
 
-これはシラブル拍リズム・ストレス拍リズム言語での拍の順序＝弱強というリズム認識を、モーラ拍リズム言語での拍の順序＝強弱というリズム認識で間違って認識してしまうことから起こります。
+This occurs because the rhythm recognition of beat order = weak-strong in syllable-timed-rhythm and stress-timed-rhythm languages is wrongly recognized with the rhythm recognition of beat order = strong-weak in a mora-timed-rhythm language.
 
 ![](/offbeat-count/attachments/beat-orientation-liarson.png)
 
-上記はストレス拍解釈の発音をモーラ拍リズム解釈で解釈し間違えた時の状態を図式化したものです。
+The above is a schematic representation of the state when a pronunciation in stress-timed interpretation is misinterpreted in mora-timed-rhythm interpretation.
 
-英語では母音にアクセントを置いており、子音をその前に添える様に発音します。これを音楽の強拍弱拍に喩えるならば、それはあたかも音楽の弱起と同じ要素があることに気付くでしょう。弱起を先に添える様に演奏し、その後で強拍を演奏することで、弾むようにリズミカルな雰囲気を醸造するのです。
+In English, accent is placed on vowels, and consonants are pronounced as if attached before them. If one compares this to strong beats and weak beats in music, one notices that it is as though there is the same element as musical anacrusis. By performing as if attaching the anacrusis first and then performing the strong beat, a springing rhythmic atmosphere is brewed.
 
-海外の音韻学では、この様に出来る限り弱拍を先に演奏する傾向のことを **頭子音最大化原則(MOP=Maximize Onset Principle)** と呼びます。 この頭子音最大化原則については今後の節でより詳しく見ていきます。
+In overseas phonology, the tendency to perform the weak beat first as much as possible in this way is called the **Maximize Onset Principle (MOP=Maximize Onset Principle)**. This Maximize Onset Principle will be looked at in more detail in later sections.
 
-日本語では、子音にアクセントを置いてアクセントの後で母音を発音します。なのでシラブル拍での弱く発音する子音を聴いた時に次に更に大きな強拍が来ることが予想できず、そのまま子音を強拍として錯覚してしまう現象が起こります。これを[最初に聴いた音が１拍目強拍に聴こえる症候群](https://oka-ats.blogspot.com/2021/01/oka01-ubjkgrbexmeuwzjj.html) と呼びます。
+In Japanese, accent is placed on consonants and vowels are pronounced after the accent. Therefore, when one hears a weakly pronounced consonant in syllable-timed rhythm, one cannot predict that a still larger strong beat will come next, and the phenomenon occurs in which the consonant is mistaken for the strong beat as it is. This is called the [syndrome in which the first sound heard sounds like the strong beat of beat 1](https://oka-ats.blogspot.com/2021/01/oka01-ubjkgrbexmeuwzjj.html).
 
-[最初に聴いた音が１拍目強拍に聴こえる症候群](https://oka-ats.blogspot.com/2021/01/oka01-ubjkgrbexmeuwzjj.html)  によって日本人が英語を聞くと、単語の区切り位置が完全に１つずれた状態で頭の中で結像する結果となって観察されます。
+When Japanese people hear English by [the syndrome in which the first sound heard sounds like the strong beat of beat 1](https://oka-ats.blogspot.com/2021/01/oka01-ubjkgrbexmeuwzjj.html), it is observed as a result that the boundaries of words are imaged in the mind completely shifted by one.
 
-### 強拍先行の日本語のリズム
+### Strong-Beat-Precedence Japanese Rhythm
 
-日本語を母国語とする人は、**強弱を自然と感じ弱強を不自然に感じる**という認識の偏りを持っています。 また日本語で演奏される音楽の拍の順序には『強弱』のパターンしか現れません。日本に生まれて日本の音楽だけを聴いていると、このリズムの偏りに気付く機会は全くありません。よって日本語話者の大半は、このリズムの偏りに全く気付くことがなく日々を過ごしています。このリズム偏りは日本社会の大きな盲点です。 この盲点は人々から全く気付かれることなく、社会のなかで隠然と存在し続けています。
+People whose native language is Japanese have a bias of recognition in which **they naturally feel strong-weak and feel weak-strong as unnatural**. Also, in the order of beats of music performed in Japanese, only the pattern of "strong-weak" appears. If one is born in Japan and only listens to Japanese music, there is no opportunity at all to notice this rhythm bias. Therefore, most Japanese speakers pass their days without noticing this rhythm bias at all. This rhythm bias is a large blind spot of Japanese society. This blind spot continues to exist secretly in society without being noticed by people at all.
 
-─── 日本人は何故グルーヴしないのか。…その理由が日本人の強弱リズムです。
+--- Why do Japanese people not groove? ... The reason is Japanese strong-weak rhythm.
 
- ─── 同時に、日本人が英語が聴き取れないのか。…その理由も日本人の強弱リズムです。
+ --- At the same time, why can Japanese people not hear English? ... The reason is also Japanese strong-weak rhythm.
 
-音韻学では、日本語は**モーラ拍リズム**の言語に分類されます。
+In phonology, Japanese is classified as a language of **mora-timed rhythm**.
 
-このモーラ拍リズムがこの強弱リズム認識が起こるメカニズムの根底に存在します。このモーラ拍リズムについて以降の節で見ていきます。
+This mora-timed rhythm exists at the foundation of the mechanism by which this strong-weak rhythm recognition occurs. We will look at this mora-timed rhythm in the following sections.
 
-### 弱拍先行のフランス語スペイン語英語のリズム
+### Weak-Beat-Precedence Rhythm of French, Spanish, and English
 
-英語を母国語とする人は、**強弱を自然と感じ弱強を不自然に感じる**という認識の偏りを持っていません。 彼らは **弱強と強弱の両方とも自然**に感じており、音楽にも『弱強』『強弱』の両方のパターンが現れます。
+People whose native language is English do not have the bias of recognition in which **they naturally feel strong-weak and feel weak-strong as unnatural**. They feel **both weak-strong and strong-weak as natural**, and in music too both patterns of "weak-strong" and "strong-weak" appear.
 
-音韻学ではフランス語・スペイン語・ポルトガル語などを**シラブル拍リズム**に分類します。 英語・ドイツ語・ロシア語は**ストレス拍リズム** に分類します。
+In phonology, French, Spanish, and Portuguese are classified as **syllable-timed rhythm**. English, German, and Russian are classified as **stress-timed rhythm**.
 
-### 拍が先に聞こえるとは
+### What It Means for a Beat to Be Heard First
 
-これまで拍が先に聞こえる、拍が後に聞こえるということを説明してきました。これには「次の拍を予想しているか」という要素が大きく関連しています。これには**能動的事前予測(Proactive)**と**受動的事後追従(Reactive)**という違いが含まれています。
+Until now I have explained that a beat is heard first or a beat is heard later. A large element related to this is "whether the next beat is being predicted." This includes the difference between **Proactive** and **Reactive**.
 
-**『弱拍が先に聞こえている』**という供述は、その人が次に来る強拍の位置を予想していることを示唆しています。次に来るべき強拍の位置が念頭にあるからこそ、弱拍が**それ**よりも前にあるという認識になるからです。
+The statement **"the weak beat is heard first"** suggests that the person is predicting the position of the strong beat that is coming next. Because the position of the strong beat that should come next is in mind, it becomes recognition that the weak beat is before **that**.
 
 ![](/offbeat-count/attachments/rp-proactive-dog.png)
 
-一方、**『弱拍が後に聞こえている』**という供述は、その人が次に来る強拍の位置を予想していないことを示唆しています。彼は強拍が聞こえたら弱拍を叩けばよいと考えているからこそ、弱拍は**それ**よりも後ろにあるという認識になるからです。
+On the other hand, the statement **"the weak beat is heard later"** suggests that the person is not predicting the position of the strong beat that is coming next. Because he thinks that if the strong beat is heard then he should clap the weak beat, it becomes recognition that the weak beat is behind **that**.
 
 ![](/offbeat-count/attachments/rp-reactive-dog.png)
 
-事前に予想した点を基準に考えることを**能動的事前予測(Proactive)** と呼びます。 そして予想することなく何か既に起こった事象を基準に考えることを**受動的事後追従(Reactive)**と呼びます。
+Thinking on the basis of a point predicted in advance is called **Proactive**. And thinking on the basis of some event that has already happened without predicting it is called **Reactive**.
 
-**能動的事前予測(Proactive)** と **受動的事後追従(Reactive)**につきましては[{{<meta var.SCHIZORHYTHMOS.en>}}と{{<meta var.SOLIRHYTHMOS.en>}}](/offbeat-count/schizorhythmos-and-solirhythmos/ja/)で詳細に見ていきます。
+As for **Proactive** and **Reactive**, we will look in detail at [{{<meta var.SCHIZORHYTHMOS.en>}} and {{<meta var.SOLIRHYTHMOS.en>}}](/offbeat-count/schizorhythmos-and-solirhythmos/ja/).
 
-またこれは、日本人の行動原理に大きな影響を与えています。このことにつきましては[日本語が動作認知に与える影響](/offbeat-count/influence-of-japanese-language-on-cognition/ja/)で詳細に論じます。
+This also has a large influence on the behavioral principles of Japanese people. This is discussed in detail in [The Influence of Japanese on Action Cognition](/offbeat-count/influence-of-japanese-language-on-cognition/ja/).
 
-### まとめ
+### Summary
 
-このシラブル拍リズム、ストレス拍リズムについてを以降の節で見ていきます。
-
+We will look at this syllable-timed rhythm and stress-timed rhythm in the following sections.
 ## {{<meta var.PHONORHYTHMATOLOGY.en>}} <!-- {#phonorhythmatological-theory } -->
 
-日本人が演奏する音楽のリズムは、海外の人が演奏する音楽と比べて何かが違います。この違いは、海外の人々が弱拍が強拍の前に来ていると認識している事に対し、日本人は強拍が弱拍の前に来ていると認識している事が原因として起こります。この認識の違いは言語自体が持っているリズム認識の違いから生まれます。このリズム認識の事を音韻学(Phonetics)で**拍リズム**(timed-rhythm)と呼びます。
+The rhythm of music performed by Japanese people is somehow different compared with music performed by overseas people. This difference occurs because overseas people recognize weak beats as coming before strong beats, while Japanese people recognize strong beats as coming before weak beats. This difference in recognition is born from the difference in rhythm recognition possessed by the language itself. This rhythm recognition is called in phonetics **timed-rhythm**.
+### The Three Main Timed Rhythms  <!-- {#three-rhythms} -->
 
-### 主だった三つの拍リズム  <!-- {#three-rhythms} -->
+The rhythm recognition of Japanese is called in phonetics **mora-timed rhythm**. And the rhythm recognition possessed by English is called in phonetics **stress-timed rhythm**. In addition, the rhythm recognition possessed by Spanish and French and so on is called in phonetics **syllable-timed rhythm**.
 
-日本語のリズム認識を音韻学で**モーラ拍リズム**(mora-timed rhythm) と呼びます。そして英語が持っているリズム認識を音韻学では**ストレス拍リズム**(stress-timed rhythm)と呼びます。この他にスペイン語・フランス語などが持っているリズム認識を音韻学では**シラブル拍リズム(syllable-timed rhythm)** と呼びます。
+Many characteristics of **syllable-timed rhythm** (English) and **syllable-timed rhythm** (Spanish) are common. On the other hand, **mora-timed rhythm** (Japanese) has characteristics unique in the world that are completely different from both stress-timed rhythm and syllable-timed rhythm. In particular, Japanese is known as a language that has pure mora-timed rhythm.
 
-**シラブル拍リズム**（英語）と**シラブル拍リズム**（スペイン語）の多くの特徴は共通です。一方**モーラ拍リズム**（日本語）はストレス拍リズムともシラブル拍リズムとも全く異なる、世界的に見て独特な特徴を持っています。特に日本語は、純粋なモーラ拍リズムを持っている言語として知られています。
-
-| ストレス拍   | シラブル拍 | モーラ拍     |
+| Stress-timed | Syllable-timed | Mora-timed |
 | ------------ | ---------- | ------------ |
-| 英語         | スペイン語 | 日本語       |
-| ドイツ語     | イタリア語 | キリバス語   |
-| ロシア語     | フランス語 | スロバキア語 |
-| オランダ語   | 韓国語     | ルガンダ語   |
-| ポーランド語 | 広東語     | タミル語     |
-| アラビア語   | トルコ語   |              |
-| タイ語       | 北京語     |              |
-| ラオ語       | テルグ語   |              |
-| ノルウェー語 |            |              |
+| English         | Spanish | Japanese       |
+| German     | Italian | Kiribati   |
+| Russian     | French | Slovak |
+| Dutch   | Korean | Luganda   |
+| Polish | Cantonese     | Tamil     |
+| Arabic   | Turkish   |              |
+| Thai       | Mandarin     |              |
+| Lao       | Telugu   |              |
+| Norwegian |            |              |
+### Characteristics of Syllable-Timed Rhythm
+It is said that most languages in the world are syllable-timed rhythm. The characteristic of syllable-timed rhythm is that pronunciation is composed of time units called syllables. Each syllable is pronounced with almost the same length. Syllables are a time unit almost the same as the mora described in the previous section, but the characteristic is that consonant clusters, diphthongs, and final consonants appear within one syllable. Also, there is the characteristic called liaison in which the final consonant connects to the next syllable. This will be described in detail later.
+### Characteristics of Stress-Timed Rhythm
+This is a timed rhythm seen mainly in English and German. Most characteristics are common with syllable-timed rhythm, but there is a large difference in that syllable length is indefinite and expands and contracts. In stress-timed rhythm, syllables are divided into **strong beats** and **weak beats** (stress beats and non-stress beats), strong beats are arranged at fixed time intervals, and all weak beats that are not strong beats are appropriately distributed between strong beats, omitted, or dropped completely. This omission of weak beats is a large characteristic of stress-timed rhythm. This will be described in detail later.
+### Characteristics of Mora-Timed Rhythm
+This is a timed rhythm seen almost only in Japanese, and it is said that Japanese is the only complete mora-timed-rhythm language. The characteristic of mora-timed rhythm is that pronunciation is composed of time units called morae. Each mora is pronounced with almost the same length. Morae are almost the same as the syllables described next, but the characteristic is that there are no final consonants or consonant clusters. When geminate consonants or final consonants are needed, each consonant is assigned a mora. This will be described in detail later.
+### The Principle by Which Japanese People Become Poor at English
 
-### シラブル拍リズムの特徴
-世界中の大半の言語はシラブル拍リズムだと言われています。シラブルと呼ばれる時間単位で発音が構成されていることがシラブル拍リズムの特徴です。各シラブルはほとんど同じ長さで発音されます。シラブルは前節で述べたモーラとほとんど同じ時間単位ですが、１つのシラブル内に多重子音・多重母音・末子音が現れることが特徴です。またリエゾンと言って、末子音が次のシラブルにつながることが特徴になっています。詳しくは後述します。
+The reason Japanese people are poor at English lies in the size of this gap in rhythm recognition. If Japanese people first learned languages based on syllable-timed rhythm such as Spanish or Italian, they should have been able to achieve the goal only by learning the difference between morae and syllables. However, when Japanese people learn English, they are forced to simultaneously acquire the dropping and omission of syllables in stress-timed rhythm while still not having acquired syllable-timed rhythm. Viewed theoretically, this is impossible.
 
-### ストレス拍リズムの特徴
-主に英語とドイツ語で見られる拍リズムです。ほとんどの特徴はシラブル拍リズムと共通ですが、シラブルの長さが不定で伸縮するという大きな違いがあります。ストレス拍では、シラブルが **強拍**・**弱拍** (ストレス拍・非ストレス拍) に分かれており、一定の時間毎に強拍を配置し、強拍ではないすべての弱拍は強拍の 間に適切に分散されたり、省略されたり、完全に脱落したりします。この弱拍の省略がストレス拍リズムの大きな特徴です。詳しくは後述します。
+What is important here is first to notice that mora-timed rhythm has distinctive characteristics, to learn the differences of mora-timed rhythm, and on top of that to first learn the basics of syllable-timed rhythm, and only when syllable-timed rhythm has been sufficiently acquired, it becomes necessary to learn the dropping and omission of syllables in stress-timed rhythm.
 
-### モーラ拍リズムの特徴
-ほぼ日本語だけで見られる拍リズムで、完全なモーラ拍リズム言語は日本語しかないと言われています。モーラと呼ばれる時間単位で発音が構成されていることがモーラ拍リズムの特徴です。各モーラはほとんど同じ長さで発音されます。モーラは次で述べるシラブルとほとんど同じですが、末子音や多重子音がないことが特徴です。二重子音・末子音が必要なときは、それぞれの子音にモーラ割り当てるという特徴があります。 詳しくは後述します。
+To leap directly and acquire stress-timed rhythm without passing through the stage of syllable-timed rhythm --- this difficulty is at the root of the difficulty of acquiring English.
+### Rhythm Recognition Differs by Timed Rhythm
+The rhythm recognition of Japanese is academically called **mora-timed rhythm**. Looking globally, Japanese is the only language that has mora-timed rhythm. On the other hand, the rhythm recognition of English is academically called **stress-timed rhythm**. Languages of stress-timed rhythm are not only English, but when viewed globally, there are many others besides English, such as Russian and German.
+### Details of Syllable-Timed Rhythm
 
-### 日本人が英語が苦手になる原理
+**Syllable-timed rhythm** means the rhythm of languages in which each syllable is pronounced evenly with almost fixed length. Representative syllable-timed-rhythm languages include Spanish, Italian, French, and Thai. Let us look below at the mechanism of this syllable.
 
-日本人が英語が苦手な理由は、このリズム認識のギャップの大きさにあります。日本人がスペイン語やイタリア語などのシラブル拍リズムに基づいた言語を最初に学ぶならば、日本人はモーラとシラブルの違いを学ぶだけで目的を達することができた筈です。しかし日本人が英語を学ぶ際は、シラブル拍が身についていない状態で、ストレス拍のシラブルの脱落や省略まで同時に身につける必要に迫られます。これは理論的に見て、無理なことです。
+#### What Is a Syllable
 
-ここで大切な事は、まずモーラ拍の独特な特徴があることに気付き、モーラ拍の違いを学び、その上でまずシラブル拍の基礎を学び、シラブル拍が充分に身についたところで初めて、ストレス拍のシラブル脱落と省略を学ぶ必要があるのです。
-
-シラブル拍という段階を経ずに一足飛びにストレス拍を習得する ─── この難しさが英語の習得の難しさの根源にあります。
-
-### リズム認識は拍リズムによって異なる
-日本語のリズム認識のことを学術的に**モーラ拍リズム**と呼びます。世界的に見てモーラ拍リズムを持った言語は日本語しかありません。一方英語のリズム認識のことを学術的に**ストレス拍リズム**と呼びます。ストレス拍リズムの言語は英語だけではなく、ロシア語やドイツ語など世界的に見ると英語以外にもたくさん存在します。
-
-### シラブル拍リズムの詳細
-
-**シラブル拍リズム** （syllable-timed rhythm）とは、各シラブル（音節）がほぼ一定の長さで均等に発音される言語のリズムのことを指します。代表的なシラブル拍リズム言語としては、スペイン語、イタリア語、フランス語、タイ語などが挙げられます。  以下でこのシラブルの仕組みについて見ていきましょう。
-
-#### 音節／シラブルとは
-
-シラブル／音節とは音韻学の重要な概念のひとつです。全ての単語は、シラブルの組み合わせで構成されています。
+A syllable is one of the important concepts of phonology. All words are composed of combinations of syllables.
 
 ![](/offbeat-count/attachments/syllable-about.png)
 
-#### シラブルの構造
-全てのシラブルは、**頭子音(Onset)** **音節核(Nucleus)** **末子音(Coda)** の３つの要素で構成されています。
+#### Structure of a Syllable
+All syllables are composed of the three elements **Onset**, **Nucleus**, and **Coda**.
 
-音節核と末子音は、シラブルの本体になっています。この本体を **音節基(Rime)** と呼びます。
+The nucleus and coda become the main body of the syllable. This main body is called the **Rime**.
 
 ![](/offbeat-count/attachments/syllable-basic.png)
 
-#### シラブルの頭子音はなくならない
+#### The Onset of a Syllable Does Not Disappear
 
-単語 **Cat** の頭子音は **C** です。**C** がなくなると **At** という位置を表す前置詞になります。 この場合このシラブルには頭子音がありません。英語では、このように頭子音がそこにない時でもしばしばそこに **声門閉鎖音** という特殊な子音が挿入されます。 このことを**声門閉鎖音挿入(Glottal Stop Insertion)**  と呼びます。
+The onset of the word **Cat** is **C**. If **C** disappears, it becomes the preposition **At**, which indicates position. In this case, this syllable has no onset. In English, even when there is no onset there like this, a special consonant called a **glottal stop** is often inserted there. This is called **Glottal Stop Insertion**.
 
 ![](/offbeat-count/attachments/syllable-basic-without-onset.png)
 
-ネイティブ話者がほとんど声門閉鎖音挿入を意識していません。しかし日本人が、英語やスペイン語などのシラブル拍リズムやストレス拍リズムの言語を学ぶ場合、この**声門閉鎖音挿入をはっきり意識することはとても大切**です。これにはとても明快な理由があります。以下でその理由を見ていきましょう。
+Native speakers are almost not conscious of glottal stop insertion. However, when Japanese people learn languages of syllable-timed rhythm or stress-timed rhythm such as English or Spanish, it is **very important to be clearly conscious of this glottal stop insertion**. There is a very clear reason for this. Let us look below at that reason.
 
-#### シラブルの音節基は等間隔で配置される
-音節基は基本的に等間隔で発音されます。音節基の間に子音が何個あっても音節基は必ず等間隔に発音します。
+#### The Rimes of Syllables Are Arranged at Equal Intervals
+Rimes are basically pronounced at equal intervals. No matter how many consonants there are between rimes, the rimes are always pronounced at equal intervals.
 
 ![](/offbeat-count/attachments/syllable-equaldistant.png)
 
-#### シラブルの頭子音と末子音は音節基の間に配置される
-**頭子音** 及び **末子音** は、等間隔に並んでいる音節基と音節基の間に分散されます。頭子音と末子音の数が増えても音節基の間隔はかわりません。
+#### The Onset and Coda of a Syllable Are Arranged Between Rimes
+**Onsets** and **codas** are distributed between rimes that are arranged at equal intervals. Even if the number of onsets and codas increases, the intervals of the rimes do not change.
 
 ![](/offbeat-count/attachments/syllable-distribution.png)
 
-#### シラブルの音節基に強拍が置かれる
-読み上げの際は音節基に強拍が置かれます。
+#### Strong Beats Are Placed on the Rimes of Syllables
+When reading aloud, strong beats are placed on the rimes.
 
 ![](/offbeat-count/attachments/syllable-division.png)
 
-#### シラブルの頭子音と末子音に弱拍が置かれる。
-音節基が強拍であることに対し **頭子音** 及び **末子音** は弱拍に対応します。
+#### Weak Beats Are Placed on the Onset and Coda of a Syllable
+Against the fact that the rime is a strong beat, **the onset** and **the coda** correspond to weak beats.
 
 ![](/offbeat-count/attachments/syllable-subdivision.png)
 
-#### シラブルの末子音は頭子音に融合する＝リンキング
+#### The Coda of a Syllable Fuses into the Onset = Linking
 
-２つの音節が連続する場合、先に現れた音節の末子音は、可能な限り次の音節の頭子音としてまとめられて発音されます。このまとめる作業のことを**再音節化**・**再シラブル化** と呼びます。そしてこの末子音が頭子音にまとめられて発音される現象を<span>**リンキング**</span>と呼びます。**リンキングは英語の発音を学ぶうえで最も重要**と言っても過言ではない規則です。
+When two syllables continue, the coda of the earlier syllable is, as much as possible, grouped and pronounced as the onset of the next syllable. This grouping work is called **resyllabification**. And the phenomenon in which this final consonant is grouped into the onset and pronounced is called <span>**linking**</span>. It is no exaggeration to say that **linking is the most important rule in learning English pronunciation**.
 
 ![](/offbeat-count/attachments/syllable-linking.png)
 
-#### シラブルには頭子音最大化原則(MOP=Maximize Onset Principle)がある <!-- {#シラブルには頭子音最大化原則がある} -->
-リンキングは、可能であれば可能な限り起こるという規則があります。このことを**頭子音最大化原則（とうしおんさいだいかげんそく）**、または英語表記「Maximal Onset Principle」の頭文字をとって**MOP原則**と呼びます。
+#### Syllables Have the Maximize Onset Principle (MOP=Maximize Onset Principle) <!-- {#シラブルには頭子音最大化原則がある} -->
+There is a rule that linking occurs as much as possible if it can occur. This is called the **Maximize Onset Principle**, or by taking the initials of the English notation "Maximal Onset Principle," the **MOP principle**.
 
-この図中で帽子が頭子音、猫が音節核、靴が末子音を表しています。
+In this figure, hats indicate onsets, cats indicate nuclei, and shoes indicate codas.
 
 ![](/offbeat-count/attachments/syllable-mop-1.png)
 
-この図中の様に全ての末子音は出来るだけ次の頭子音に結びついてまとめて発音されます。これがリンキングです。
+As in this figure, all codas are connected as much as possible to the next onset and grouped together in pronunciation. This is linking.
 
 ![](/offbeat-count/attachments/syllable-mop-2.png)
 
-<span style="color:silver">※ 実例を追加する。</span>
+<span style="color:silver">* Add actual examples.</span>
+### Details of Stress-Timed Rhythm
+Stress-timed rhythm is a form of rhythm recognition thought to have branched and developed from syllable-timed rhythm. Its basic properties are shared with syllable-timed rhythm, but there are several large differences that syllable-timed rhythm does not have. Both rhythms have beats that create a fixed sense of rhythm in pronunciation, but there is a large difference in how those beats are placed.
 
-### ストレス拍リズムの詳細
-ストレス拍リズム（stress-timed rhythm）は、シラブル拍リズム（syllable-timed rhythm）から分岐して発展したと考えられているリズム認識の形式です。基本的な性質はストレス拍リズムと共通ですが、シラブル拍リズムにはないいくつかの大きな違いがあります。どちらのリズムも発音に一定のリズム感を作り出す為の拍を持っていますが、その拍の置き方に大きな違いがあります。
+#### Difference Between Stress-Timed Rhythm and Syllable-Timed Rhythm
 
-#### ストレス拍リズムとシラブル拍リズムの違い
+As we saw in the previous section, syllabic beats have onset consonants, syllable bases, and final consonants. Stress beats follow all of these syllabic-beat rules except for one large exception. That exception is the equal spacing of syllables.
 
-前節で見た様に、シラブル拍には頭子音・音節基・末子音を持っています。ストレス拍はこれらのシラブル拍のルールをひとつの大きな例外を除いて全て踏襲します。その例外とはシラブルの等間隔性です。
+Syllable-timed rhythm has the rule that **all syllables are placed at equal intervals**, but stress-timed rhythm has the additional rule that <span style="font-size:200%">among syllables, only the syllables that have a **stress beat** are arranged at fixed time intervals</span>. <span style="font-size:200%">The other syllables are called **unstressed beats**, and are packed between stress beats and stress beats. At this time, so as not to break the equal spacing of the stress beats, they are greatly abbreviated and shortened. Depending on the case, they drop completely.</span> This omission of unstressed beats in stress-timed rhythm is exactly the large difference from syllable-timed rhythm, and it is the largest characteristic of stress-timed rhythm.
 
-シラブル拍リズムは**全てのシラブルが等間隔に置かれる**というルールがありますが、ストレス拍リズムでは<span style="font-size:200%">シラブルの中でも **ストレス拍** のある音節だけが一定の時間間隔で配置される</span>という追加のルールを持っています。 <span style="font-size:200%"> それ以外のシラブルは **無ストレス拍** と呼ばれ、ストレス拍とストレス拍の間に詰め込まれます。この際にストレス拍の等間隔を崩さない様、大幅に省略されて短縮されます。場合によっては完全に脱落します。</span>  この ストレス拍リズムの無ストレス拍省略こそがシラブル拍リズムとの大きな違いで、ストレス拍リズムの最も大きな特徴になっています。
+This stress-timed rhythm can be thought of, as a developed form from the previously mentioned syllable-timed rhythm, as having a temporally flexible structure that makes greater rhythm/tempo expansion and contraction possible. In other words, by placing the main axis of the beat on the places that should be emphasized (= stress beats), it becomes possible to make complex arrangements of the non-stress beats, and by this, musical effects such as ornament notes and anacrusis can be given. The musical depth given by the structure of this stress-timed rhythm produces the diversity of expression in poetry and song that is unique to stress timing. And this rhythm on the language side is also giving large feedback to music.
 
-このストレス拍リズムは、前述のシラブル拍リズムからの発展形として、よりリズム／テンポの伸縮を可能にした時間的に柔軟な構造を持っていると考えられます。つまり、強調すべき箇所（＝ストレス拍）に拍という主軸を置くことによって、それ以外の非ストレス拍の複雑な配置が可能となり、これによって装飾音や弱起などの音楽的な効果を与えることができるのです。 このストレス拍リズムの構造が与える音楽的な奥行きが、ストレス拍独特な詩や歌の表現の多様性を生み出しています。そしてこの言語上のリズムが、更に音楽に対しても大きなフィードバックを与えています。
+The characteristics of stress-timed rhythm include the following.
 
-ストレス拍リズムの特徴には次のようなものがあります。
+* **Stress beats** are placed at each fixed time interval.
+* Multiple **unstressed beats** are distributed so as to fill the gaps between stress beats.
 
-* 一定の時間毎に**ストレス拍** が置かれる。
-* ストレス拍の隙間を埋めるように複数の**無ストレス拍** を分配する。
+As a result, the following laws hold.
 
-結果として次の法則が成り立ちます。
-
-* ストレス拍は、必ず母音になる。
-* 子音は必ず無ストレス拍に含まれる。
-* 無ストレス拍には、子音と母音の両方がある。
-* 母音は強拍と弱拍の両方がある。
+* A stress beat always becomes a vowel.
+* Consonants are always included in unstressed beats.
+* Unstressed beats have both consonants and vowels.
+* Vowels have both strong beats and weak beats.
 
 
 ![](/offbeat-count/attachments/stress-basic.png)
 
-#### モーラ拍リズムとストレス拍リズムの違い
+#### Difference Between Mora-Timed Rhythm and Stress-Timed Rhythm
 
-前節で見た様にシラブル拍リズムとストレス拍リズムの拍リズム構造は基本的に共通です。但しストレス拍リズムにはシラブル拍リズムにはない特徴＝**ストレス拍(アクセント)** があります。  つまり日本語のモーラ拍リズムから英語のストレス拍リズムを見ると、シラブル拍リズムの特徴とストレス拍リズムの特徴の両方の違いが、同時に混在している様に見えます。これが日本人が英語を理解することが難しくなる理由の１つです。
+As we saw in the previous section, the beat-rhythm structures of syllable-timed rhythm and stress-timed rhythm are basically common. However, stress-timed rhythm has a characteristic that syllable-timed rhythm does not have = **stress beats (accent)**. In other words, when one looks at English stress-timed rhythm from the Japanese mora-timed rhythm, the differences of both the characteristics of syllable-timed rhythm and the characteristics of stress-timed rhythm appear to be mixed together at the same time. This is one reason why it becomes difficult for Japanese people to understand English.
 
-もし日本人が英語を最初に勉強するのではなく、スペイン語を最初に勉強していたならば、恐らく日本人は英語ほどの混乱はなくスペイン語を習得できた筈です。日本人が英語を学習するときは、モーラ拍リズムとシラブル拍の違いをしっかり学んで、シラブル拍リズムをきちんと身につけるだけでよかった筈です。
+If Japanese people had first studied Spanish instead of first studying English, Japanese people would probably have been able to acquire Spanish without confusion to the degree of English. When Japanese people study English, it should have been enough merely to learn firmly the difference between mora-timed rhythm and syllabic beats, and to properly master syllable-timed rhythm.
 
-日本人が英語の勉強をする場合、シラブル拍リズムとモーラ拍リズムの違いをしっかり学んだ上で、シラブル拍リズムの発展系であるストレス拍リズムを学ぶ必要があります。 しかし現在の教育システムでは、日本人の英語学習者は、シラブル拍リズムをしっかり身につける間もなくストレス拍リズムを一気に同時に学習することになります。これは原理的に不可能なことです。
+When Japanese people study English, after firmly learning the difference between syllable-timed rhythm and mora-timed rhythm, they need to learn stress-timed rhythm, which is the developed form of syllable-timed rhythm. However, in the present educational system, Japanese learners of English end up learning stress-timed rhythm all at once at the same time without even having time to firmly acquire syllable-timed rhythm. This is impossible in principle.
 
-#### ストレス拍ではシラブルの長さは変化する
+#### In Stress Timing, the Length of Syllables Changes
 
-ストレス拍リズムではシラブルの長さは一定ではなくアクセントの有無によって長さが伸び縮みします。これはシラブル拍リズムにもモーラ拍リズムにもないストレス拍リズムだけがもっている独特な特徴です。
+In stress-timed rhythm, the length of syllables is not fixed, and expands and contracts depending on whether there is an accent or not. This is a unique characteristic possessed only by stress-timed rhythm, which neither syllable-timed rhythm nor mora-timed rhythm has.
 
-シラブル拍リズムの特徴を無視し、モーラ拍（日本語）とストレス拍（英語）のリズムの違いを見てみると、モーラ拍リズムのモーラの長さが伸び縮みしているように見えます。これは，アメリカ人が日本語を話した時によくなる英語訛り「ワターシワァ？ ニーホンｸﾞゴォウゥオォ？ ハナァシマスゥ！」という話し方に端的に現れています。アメリカ人は、ストレス拍を基準に非ストレス拍を短く揃える様に発音する習慣を持っている為、全ての拍を均等に揃えることが出来ません。
+Ignoring the characteristics of syllable-timed rhythm and looking at the difference in rhythm between mora timing (Japanese) and stress timing (English), it looks as though the length of the morae of mora-timed rhythm is expanding and contracting. This appears typically in the English-accented way Americans often get when they speak Japanese: "Wataashiwaa? Niihonngugoo’uuoo? Hanaashimasuu!" Americans have the habit of pronouncing so as to align non-stress beats short with stress beats as the standard, and therefore they cannot align all beats evenly.
 
-このことは、日本語の名称が英語でどのような発音に変化するかを観察するとよくわかります。以下は英語吹き替え版アキラの一幕です。
+This becomes clear when one observes how Japanese names change in pronunciation in English. The following is a scene from the English-dubbed version of Akira.
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">【縦乗りの起源】頭にアクセントが置かれる日本語の名前を英語ネイティブの人たちが読むと、しばしば2つ目の位置にアクセントが移動しますが、逆もまた然りです。<br><br>しばしば2番め以降にアクセントが置かれる英語のリズムを日本話ネイティブの人が読むと全アクセントが頭に移動します。<br><br>【英語版アキラ <a href="https://t.co/fJHnZgu5cb">pic.twitter.com/fJHnZgu5cb</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1574375878184042496?ref_src=twsrc%5Etfw">September 26, 2022</a></blockquote></div>
 
-ストレス拍リズムでは、アクセントが置かれたシラブル（モーラ）を他のシラブル（モーラ）よりも長く発音するというルールがあります。このため「タカシ」は「タカーシ」「アキラ」は「アキーラ」に変化します。一方タカシのタは弱拍にある為、軽く添える様に短く「ﾀｯカーーーｼ」とシラブル長が短くなる傾向があります。場合によってはこのシラブルは脱落し発音しないこともあります。シラブルの長さが伸び縮みする ─── これがストレス拍リズムの1つ目の特徴です。
+In stress-timed rhythm, there is a rule that syllables (morae) on which accent is placed are pronounced longer than other syllables (morae). For this reason, "Takashi" changes to "Takaaashi," and "Akira" changes to "Akiiira." On the other hand, because the ta of Takashi is on a weak beat, there is a tendency for the syllable length to become short, as if lightly added, like "t'Kaaashi." Depending on the case, this syllable may drop and not be pronounced. The length of syllables expands and contracts: this is the first characteristic of stress-timed rhythm.
 
-つまり**逆もまた然り**です。日本人が英語を話すと「アーイー、スーピークー、イーンーグーリーッシュー」というような日本語訛りになってしまいます。これは日本人としてはとてもはっきりしていて聞き取りやすい様に感じますが、英語を話す人から見ると、ストレス拍リズムに必要なシラブルの省略がなく、不要なシラブルがたくさん混ざっていることにより、とても聞き取りづらい発音として感じられます。
+In other words, **the reverse is also true**. When Japanese people speak English, it becomes a Japanese accent like "Aaaiii, suuupiikuu, iiinnguuriiisshuu." To Japanese people, this feels very clear and easy to hear, but from the viewpoint of people who speak English, because there is no omission of syllables required for stress-timed rhythm and many unnecessary syllables are mixed in, it is felt as very hard-to-hear pronunciation.
 
-英語では本来であればストレス拍と非ストレス拍の区分をはっきりさせて、ストレス拍の位置を定期的に配置しなければならないのです。ところが日本語では全ての拍を均等に同じ長さで発音する習慣を持っているために、ストレス拍及び非ストレス拍の区別をつけることが出来ず、英語として解釈できる発音が出来なくなってしまうのです。
+In English, the distinction between stress beats and non-stress beats must originally be made clear, and the positions of the stress beats must be arranged periodically. However, because Japanese has the habit of pronouncing all beats evenly with the same length, it becomes impossible to distinguish stress beats and non-stress beats, and pronunciation that can be interpreted as English can no longer be made.
 
-#### ストレス拍ではアクセント付きシラブルを等間隔に発音する
+#### In Stress Timing, Accented Syllables Are Pronounced at Equal Intervals
 
-ストレス拍ではシラブルの長さは一定ではなくアクセントの位置によって伸び縮みしますが、このアクセント付きのシラブルはできる限り等間隔に発音し、アクセントのついていないシラブルは、短くなったり場合によっては省略されたりしながら、アクセント付きシラブルの間に適当に分散します。 これはシラブル拍にもモーラ拍にもないストレス拍独特な特徴です。
+In stress timing, the length of syllables is not fixed and expands and contracts depending on the position of the accent, but these accented syllables are pronounced as equally spaced as possible, and syllables without accent become short, and in some cases are omitted, while being distributed appropriately between accented syllables. This is a characteristic unique to stress timing that neither syllable timing nor mora timing has.
 
-| 例文                                            | シラブル数 |
-| ----------------------------------------------- | ---------- |
-| **Boys** **play** **games**.                    | ３         |
-| The **boys** **play** **games**.                | ４         |
-| The **boys** will **play** **games**.           | ５         |
-| The **boys** will be **playing** **games**.     | ６         |
-| The **boys** will be **playing** the **games**. | ７         |
+| Example sentence                                  | Number of syllables |
+| ------------------------------------------------- | ------------------- |
+| **Boys** **play** **games**.                      | 3                   |
+| The **boys** **play** **games**.                  | 4                   |
+| The **boys** will **play** **games**.             | 5                   |
+| The **boys** will be **playing** **games**.       | 6                   |
+| The **boys** will be **playing** the **games**.   | 7                   |
 
-ここで太字で書かれた **Boys play games** はアクセント付き（ストレス拍）として発音されます。つまりこれらのシラブルは、等間隔に発音されます。そして、それ以外の機能のある語 (function word = 助動詞 auxiliaries と 代名詞 pronouns ) はアクセントなし（非ストレス拍）としてアクセント付きシラブルの間に分散されつつ発音されます。
+Here, the bold-written **Boys play games** is pronounced as accented (stress beats). In other words, these syllables are pronounced at equal intervals. And the other functional words (function words = auxiliaries and pronouns) are pronounced while being distributed between accented syllables as unaccented (non-stress beats).
 
-次のビデオで実際の音声を確認してください。
+Please confirm the actual sound in the following video.
 
 <div class="center-box"><iframe class="rhythmpedia-iframe" src="https://www.youtube.com/embed/VXHxtpvRacc?si=nOJ9rsU44BqROp7R&amp;start=450" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
-#### ストレス拍ではアクセントなしシラブルが省略される
+#### In Stress Timing, Unaccented Syllables Are Omitted
 
-ストレス拍リズムでは、アクセントなし（無ストレス拍）のシラブルは、しばしば様々な形で省略されます。
+In stress-timed rhythm, unaccented (unstressed) syllables are often omitted in various forms.
 
-##### 母音省略のよくあるケース
-母音省略がよく起こるケースには次のようなものがあります。
+##### Common Cases of Vowel Omission
+Cases in which vowel omission often occurs include the following.
 
-| **理由**                                         | 例                             | 解説                                           |
-| ------------------------------------------------ | ------------------------------ | ---------------------------------------------- |
-| **機能語**<br>(**Function words**)               | _to, for, and, of, at_         | /tə/, /fər/, /ən/, /əv/, /ət/                  |
-| **接頭辞**<br>(**Prefixes**)                     | _com-, con-, de-, re-, in-_    | _compact_ /ˈkɒmpækt/ vs. _compact_ /kəmˈpækt/  |
-| **Suffixes**                                     | _-tion, -ous, -al, -ity, -ive_ | Reduced in rhythm: _dangerous_ → /ˈdeɪndʒərəs/ |
-| **Second/third syllable in multisyllabic words** | _America_ → /əˈmɛrɪkə/         | Very frequent in polysyllables                 |
+| **Reason**                                         | Example                        | Explanation                                    |
+| -------------------------------------------------- | ------------------------------ | ---------------------------------------------- |
+| **Function words**<br>(**Function words**)         | _to, for, and, of, at_         | /tə/, /fər/, /ən/, /əv/, /ət/                  |
+| **Prefixes**<br>(**Prefixes**)                     | _com-, con-, de-, re-, in-_    | _compact_ /ˈkɒmpækt/ vs. _compact_ /kəmˈpækt/  |
+| **Suffixes**                                       | _-tion, -ous, -al, -ity, -ive_ | Reduced in rhythm: _dangerous_ → /ˈdeɪndʒərəs/ |
+| **Second/third syllable in multisyllabic words**   | _America_ → /əˈmɛrɪkə/         | Very frequent in polysyllables                 |
 
-##### 母音省略の例
+##### Examples of Vowel Omission
 
-| 単語        | 変化前                                                           | 変化後                      | 解説                                                                                      |     |
-| ----------- | ---------------------------------------------------------------- | --------------------------- | ----------------------------------------------------------------------------------------- | --- |
-| banana      | /baˈnaːna/ ([ウォロフ語](https://en.wiktionary.org/wiki/banana)) | /bəˈnænə/ (英語)            | 単一母音の** シュワ母音/ə/ 化**                                                           |     |
-| happy       | /ˈhæpiː/                                                         | /ˈhæpi/                     | ** /iː/ が /ɪ/ 又は  /i/ ** ( [ハッピー母音](https://en.wiktionary.org/wiki/happy_vowel)) |     |
-| _influence_ | /ˈɪnfluəns/                                                      | /ˈɪnflʊəns/                 | ** /uː/ が /ʊ/** へ                                                                       |     |
-| going       | /ˈɡoʊɪŋ/                                                         | /ˈɡəʊɪŋ/ → /ˈɡəɪŋ/ → /ˈɡɪŋ/ | **二重母音の単純化**（**Diphthong Simplification**）                                      |     |
-| Canada      | /ˈkænədə/                                                        | /ˈkænədə/                   | **短母音/æ/  のシュワ母音/ə/化**                                                          |     |
-| support     | /sʌˈpɔːrt/                                                       | /səˈpɔːt/                   | **短母音 /ʌ/ のシュワ母音/ə/化**                                                          |     |
-| family      | /ˈfæməli/                                                        | /ˈfæmli/                    | **母音の脱落** (**Vowel Deletion**)                                                       |     |
-| _probably_  | /ˈprɒbəbli/                                                      | /ˈprɒbli/                   | **母音の脱落** (**Vowel Deletion**)                                                       |     |
-| _chocolate_ | /ˈtʃɒklət/                                                       | /ˈtʃɒklɪt/                  | **母音の脱落** (**Vowel Deletion**)                                                       |     |
-| roses       | /ˈroʊzɪz/                                                        | /ˈrəʊzəz/                   | ** /ɪ/ のシュワ母音/ə/化**                                                                |     |
+| Word        | Before change                                                     | After change                 | Explanation                                                                               |     |
+| ----------- | ----------------------------------------------------------------- | ---------------------------- | ----------------------------------------------------------------------------------------- | --- |
+| banana      | /baˈnaːna/ ([Wolof](https://en.wiktionary.org/wiki/banana))       | /bəˈnænə/ (English)          | Single vowel becoming **schwa /ə/**                                                      |     |
+| happy       | /ˈhæpiː/                                                          | /ˈhæpi/                      | **/iː/ becomes /ɪ/ or /i/** ([happy vowel](https://en.wiktionary.org/wiki/happy_vowel)) |     |
+| _influence_ | /ˈɪnfluəns/                                                       | /ˈɪnflʊəns/                  | **/uː/ becomes /ʊ/**                                                                      |     |
+| going       | /ˈɡoʊɪŋ/                                                          | /ˈɡəʊɪŋ/ → /ˈɡəɪŋ/ → /ˈɡɪŋ/  | **Diphthong simplification**                                                             |     |
+| Canada      | /ˈkænədə/                                                         | /ˈkænədə/                    | Short vowel **/æ/** becoming schwa **/ə/**                                               |     |
+| support     | /sʌˈpɔːrt/                                                        | /səˈpɔːt/                    | Short vowel **/ʌ/** becoming schwa **/ə/**                                               |     |
+| family      | /ˈfæməli/                                                         | /ˈfæmli/                     | **Vowel deletion**                                                                       |     |
+| _probably_  | /ˈprɒbəbli/                                                       | /ˈprɒbli/                    | **Vowel deletion**                                                                       |     |
+| _chocolate_ | /ˈtʃɒklət/                                                        | /ˈtʃɒklɪt/                   | **Vowel deletion**                                                                       |     |
+| roses       | /ˈroʊzɪz/                                                         | /ˈrəʊzəz/                    | **/ɪ/ becoming schwa /ə/**                                                               |     |
 
-##### 母音省略３種類の形式
-ストレス拍リズムでは、アクセントなし（無ストレス拍）のシラブルは、短縮、結合、脱落します。
+##### Three Forms of Vowel Omission
+In stress-timed rhythm, unaccented (unstressed) syllables are shortened, contracted, and omitted.
 
-- **弱化** （主に母音の短絡＝シュワと呼ばれる）
-- **短縮**
-- **脱落**
+- **Weakening** (mainly the shortening of vowels = called schwa)
+- **Contraction**
+- **Omission**
 
-この規則により、アクセント付き（ストレス拍）が等間隔に発音できる用になります。
+By this rule, accented syllables (stress beats) become able to be pronounced at equal intervals.
 
-##### 1. **弱化(Vowel Reduction)**:
-アクセントのない（非ストレス拍）シラブルにある母音は、/ə/ ─── しばしばシュワと呼ばれる英語で最も頻出する母音に変化します。
+##### 1. **Weakening (Vowel Reduction)**:
+Vowels in unaccented (non-stress beat) syllables change into /ə/, the most frequent vowel in English, often called schwa.
 
-| 単語    | 変化前 | 変化後      | 例                                |
-| ------- | ------ | ----------- | --------------------------------- |
-| **to**  | /tuː/  | /tə/        | I want **to** go. → _"wanna go"_  |
-| **of**  | /ʌv/   | /əv/ or /ə/ | A cup **of** tea. → _"cup’v tea"_ |
-| **and** | /ænd/  | /ən/, /n/   | You and me. → _"you’n me"_        |
+| Word    | Before change | After change | Example                           |
+| ------- | ------------- | ------------ | --------------------------------- |
+| **to**  | /tuː/         | /tə/         | I want **to** go. → _"wanna go"_  |
+| **of**  | /ʌv/          | /əv/ or /ə/  | A cup **of** tea. → _"cup’v tea"_ |
+| **and** | /ænd/         | /ən/, /n/    | You and me. → _"you’n me"_        |
 
-######  中舌化とは
-母音がシュワ母音 /ə/ に近付くことを中舌化といいます。 具体的には、母音の発音時に舌の位置が口腔内の前方や後方から中央（＝中舌位置）に移動することを指します。これはストレス拍リズム言語で、無アクセント音節にある母音が弱まり曖昧な音に変化することを指します。
+###### What Is Centralization
+The moving of a vowel closer to the schwa vowel /ə/ is called centralization. Concretely, it refers to the position of the tongue, at the time of pronouncing the vowel, moving from the front or back of the oral cavity to the center (= mid-tongue position). This refers, in stress-timed-rhythm languages, to vowels in unaccented syllables weakening and changing into ambiguous sounds.
 
-* 母音は、発音時の舌の**水平的位置（前舌／後舌）や垂直的位置（高舌／低舌）**によって分類されます。
-* 中央化とは、これらの位置が中央付近（mid-central）に向かって収束することを意味します。
-* その結果、母音はより「曖昧」な音、例えば シュワ母音 /ə/  のような音に近づきます。
+* Vowels are classified by the **horizontal position of the tongue (front/back) and the vertical position (high/low)** when pronounced.
+* Centralization means that these positions converge toward the central vicinity (mid-central).
+* As a result, vowels approach more "ambiguous" sounds, for example sounds like the schwa vowel /ə/.
 
-##### 2. **短縮(Contractions)**:
+##### 2. **Contraction (Contractions)**:
 
-文法として必要な単語は、ストレス拍が一定間隔で並ぶことができるように短縮されます。
+Words necessary as grammar are contracted so that stress beats can line up at fixed intervals.
 
-| 短縮前            | 短縮後      | 例                      |
-| ----------------- | ----------- | ----------------------- |
-| I am              | I’m         | I’m fine.               |
-| He will           | He’ll       | He’ll come soon.        |
-| They are          | They’re     | They’re nice.           |
-| I would have gone | I’d’ve gone | I’d’ve gone if I could. |
+| Before contraction | After contraction | Example                 |
+| ------------------ | ----------------- | ----------------------- |
+| I am               | I’m               | I’m fine.               |
+| He will            | He’ll             | He’ll come soon.        |
+| They are           | They’re           | They’re nice.           |
+| I would have gone  | I’d’ve gone       | I’d’ve gone if I could. |
 
-> 🗣️ “I’d’ve” は、３シラブル分が全て短縮し**１つのアクセント付きシラブルに短縮される**興味深い例と言えます。
+> 🗣️ "I’d’ve" can be said to be an interesting example in which three syllables' worth are all contracted and **contracted into one accented syllable**.
 
 ---
 
-##### 3. **脱落(Omission)**:
+##### 3. **Omission**:
 
-アクセントのない（非ストレス拍）シラブルは、カジュアルな場面や早口で話しているときに完全に脱落します。
+Unaccented (non-stress beat) syllables completely drop in casual situations or when speaking fast.
 
 | Careful Speech       | Casual Speech     | Note                         |
 | -------------------- | ----------------- | ---------------------------- |
-| Did you eat yet?     | Didja eat yet?    | “Did you” → _“Didja”_        |
-| What are you doing?  | Whatcha doin’?    | “What are you” → _“Whatcha”_ |
-| I’m going to go now. | I’m gonna go now. | “going to” → _“gonna”_       |
-| I want to do it.     | I wanna do it.    | “want to” → _“wanna”_        |
-| Don’t you know?      | Doncha know?      | “Don’t you” → _“Doncha”_     |
+| Did you eat yet?     | Didja eat yet?    | "Did you" → _"Didja"_        |
+| What are you doing?  | Whatcha doin’?    | "What are you" → _"Whatcha"_ |
+| I’m going to go now. | I’m gonna go now. | "going to" → _"gonna"_       |
+| I want to do it.     | I wanna do it.    | "want to" → _"wanna"_        |
+| Don’t you know?      | Doncha know?      | "Don’t you" → _"Doncha"_     |
 
-#### ストレス拍とシラブル拍の関係は再帰的 {{<meta var.RECURSIVE_PROSODIC_EQUIVALENCE_PRINCIPLE.en>}}
+#### The Relationship Between Stress Beats and Syllabic Beats Is Recursive {{<meta var.RECURSIVE_PROSODIC_EQUIVALENCE_PRINCIPLE.en>}}
 
-ストレス拍とシラブル拍は、再帰的な関係を持っています。
+Stress beats and syllabic beats have a recursive relationship.
 
-##### 再帰とは
+##### What Is Recursion
 
-**再帰**とは全体の構造がその一部の構造と一致することです。
+**Recursion** means that the structure of the whole matches the structure of a part of it.
 
 ![](/offbeat-count/attachments/recursion-japanese-recursive-girls.png)
 
-この漫画には、自分自身の状況をそのまま漫画にするという再帰的な自己言及性が表現されています。
+In this manga, recursive self-referentiality is expressed, in which its own situation itself is made into manga.
 
-この様な再帰的な構造は世界のあらゆる場所に現れます。
+Such recursive structures appear in every place in the world.
 
 ![](/offbeat-count/attachments/recursion-tree.png)
 
@@ -1088,477 +1058,473 @@ music</span>
 
 ![](/offbeat-count/attachments/recursion-fractal-3.png)
 
-再帰についての詳しい解説は[オンライン上の解説](https://www.google.com/search?gl=us&hl=en&gws_rd=cr&safe=off&q=%E5%86%8D%E5%B8%B0)などを参照してください。
+For a detailed explanation of recursion, please refer to [online explanations](https://www.google.com/search?gl=us&hl=en&gws_rd=cr&safe=off&q=%E5%86%8D%E5%B8%B0) and the like.
 
-ストレス拍には、これと同じ再帰的構造があります。
+Stress beats have this same recursive structure.
 
-##### ストレス拍とシラブル拍の再帰的構造
-シラブル拍は、頭子音・音節核・末子音という要素を持っていることを見てきました。
+##### The Recursive Structure of Stress Beats and Syllabic Beats
+We have seen that syllabic beats have the elements onset consonant, syllable nucleus, and final consonant.
 
 ![](/offbeat-count/attachments/syllable-basic.png)
 
-そして [頭子音最大化原則(MOP=Maximum Onset Principle)](#シラブルには頭子音最大化原則がある) によって、末子音が頭子音にまとめられて発音されることを見てきました。
+And we have seen that, by the [Maximize Onset Principle (MOP=Maximum Onset Principle)](#シラブルには頭子音最大化原則がある), final consonants are grouped into onset consonants and pronounced.
 
-これと同じ構造がストレス拍リズムにも存在します。
+This same structure also exists in stress-timed rhythm.
 
-前述したシラブル拍の構造が、ストレス拍に関しても成立します。
+The structure of syllabic beats described above also holds with respect to stress beats.
 
 
 ![](/offbeat-count/attachments/stress-basic.png)
 
-ストレス拍のアクセント（すなわちストレスのある拍とストレスのない拍）を分析すると、中心に核となるストレスのあるシラブルが置かれ、その前後にストレスのないシラブルが前、及び後ろにある構造が浮かび上がります。 この構造は英語の音韻分析では従来、二分木構造などの階層モデルによって説明されてきました。 本稿が提唱する多層弱拍基軸理論は、**シラブル拍の分析手法は、そのままストレス拍にも再帰的に利用できる** という新しい視点を提案します。このことを本書では {{<meta var.RECURSIVE_PROSODIC_EQUIVALENCE_PRINCIPLE.en>}} と呼びます。 そしてストレス拍に適用された MOP原則のことをここでは **MPOP (Maximal Prosodic Onset Principle)** と呼びます。
+When the accents of stress beats (that is, beats with stress and beats without stress) are analyzed, a structure emerges in which a stressed syllable that becomes the nucleus is placed in the center, and unstressed syllables are before and after it. This structure has conventionally been explained in English phonological analysis by hierarchical models such as binary-tree structures. The multilayered weak-beat axis theory proposed in this paper proposes a new viewpoint: **the analysis method of syllabic beats can be used for stress beats recursively as it is**. In this book, this is called {{<meta var.RECURSIVE_PROSODIC_EQUIVALENCE_PRINCIPLE.en>}}. And the MOP principle applied to stress beats is here called **MPOP (Maximal Prosodic Onset Principle)**.
 
 
-この理論では、シラブル拍リズムのシラブルのリズム構造は、ストレスあるなしの二分木構造に置き換わるのではなく、むしろシラブル拍と同じ構造が、階層の異なる次元で再帰的に表現されます。
+In this theory, the rhythmic structure of syllables in syllable-timed rhythm is not replaced by a binary-tree structure of stress versus non-stress, but rather the same structure as syllabic beats is recursively expressed in dimensions of different layers.
 
-そして、更にこの再帰的構造がストレス拍で演奏される音楽のリズムにそのまま再帰的に適用されることを説明します。
+And furthermore, it explains that this recursive structure is recursively applied as it is to the rhythm of music played in stress beats.
 
-更に、これが音楽のリズム上では、16分音符・8分音符・4分音符・2分音符．．．と、そのまま無限に再帰的適用されることを見ていきます。
+Furthermore, we will see that, in musical rhythm, this is recursively applied as it is infinitely to sixteenth notes, eighth notes, quarter notes, half notes, and so on.
 
-#### ストレス拍の韻律節の構造
+#### Structure of the Prosodic Word of Stress Beats
 
-{{<meta var.RECURSIVE_PROSODIC_EQUIVALENCE_PRINCIPLE.en>}} では、単語のなかのシラブルをアクセントの位置によって分類します。
+In {{<meta var.RECURSIVE_PROSODIC_EQUIVALENCE_PRINCIPLE.en>}}, the syllables within a word are classified according to the position of the accent.
 
 ![](/offbeat-count/attachments/stress-basic.png)
 
-単語のなかのアクセントのあるシラブルのことを核音節(Nucleus Syllable) と呼びます。
+A syllable with accent within a word is called a nucleus syllable.
 
-単語のなかの核音節の前にある全ての音節を**頭音節(Onset Syllable)**と呼びます。
+All syllables before the nucleus syllable within a word are called **onset syllables**.
 
-単語のなかの韻律節内の核音節の後ろにある全ての音節を**末音節(Coda Syllable)**と呼びます。
+All syllables after the nucleus syllable within the prosodic word in a word are called **coda syllables**.
 
-このいくつかの音節のまとまりを**韻律節 (Prosodic Word)** と呼びます。
+This group of several syllables is called a **prosodic word**.
 
-韻律節は、大抵単語と等しくなります。しかしこのあとで紹介する**再韻律節化(Reprosodification)**という法則が適用されることで一致しなくなることがあります。
+A prosodic word generally becomes equal to a word. However, it may cease to match when the law called **reprosodification** introduced later is applied.
 
-全ての韻律節は、**頭音節(Onset)** **核音節(Nucleus)** **末音節(Coda)** の３つの要素で構成されています。
+All prosodic words are composed of the three elements **Onset syllable**, **Nucleus syllable**, and **Coda syllable**.
 
-核音節と末音節は、ストレス拍の韻律節の本体になっています。この本体を **基音節(Rime Syllable)** と呼びます。
+The nucleus syllable and coda syllable become the main body of the prosodic word of stress beats. This main body is called the **rime syllable**.
 
-#### ストレス拍では韻律節(単語)を基本単位として発音する
+#### In Stress Timing, Prosodic Words (Words) Are Pronounced as the Basic Unit
 
-韻律節は、大抵単語と等しくなります。しかしこのあとで紹介する**再韻律節化**という法則が適用されることで一致しなくなることがあります。以下で見ていきます。
+A prosodic word generally becomes equal to a word. However, it may cease to match when the law called **reprosodification** introduced later is applied. Let us see this below.
 
 ![](/offbeat-count/attachments/stress-prosodic-words.png)
 
-#### ストレス拍では基音節は等間隔で配置される
-基音節に等間隔で発音されます。基音節の間にある音節の数に関わらず、基音節は必ず等間隔に配置します。
+#### In Stress Timing, Rime Syllables Are Arranged at Equal Intervals
+They are pronounced at equal intervals in rime syllables. Regardless of the number of syllables between rime syllables, rime syllables are always arranged at equal intervals.
 
 ![](/offbeat-count/attachments/stress-equaldistant.png)
 
-#### ストレス拍では頭音節と末音節は基音節の間に配置される
-**頭子音** 及び **末子音** は、等間隔に並んでいる基音節と基音節の間に分散されます。頭音節と末音節の数が増えても基音節の間隔は変わりません。
+#### In Stress Timing, Onset Syllables and Coda Syllables Are Arranged Between Rime Syllables
+**Onset consonants** and **coda consonants** are distributed between rime syllables and rime syllables arranged at equal intervals. Even if the number of onset syllables and coda syllables increases, the interval of rime syllables does not change.
 
 ![](/offbeat-count/attachments/stress-distribution.png)
 
-#### ストレス拍では基音節に強拍が置かれる
-読み上げの際は基音節に強拍が置かれます。
+#### In Stress Timing, Strong Beats Are Placed on Rime Syllables
+When reading aloud, strong beats are placed on the rime syllables.
 
 ![](/offbeat-count/attachments/stress-division.png)
 
-#### ストレス拍では頭音節と末音節に弱拍が置かれる
-基音節が強拍であることに対し **頭子音** 及び **末子音** は弱拍に対応します。
+#### In Stress Timing, Weak Beats Are Placed on Onset Syllables and Coda Syllables
+Against the fact that rime syllables are strong beats, **onset consonants** and **coda consonants** correspond to weak beats.
 
 ![](/offbeat-count/attachments/stress-subdivision.png)
 
-#### ストレス拍では末音節は頭音節に融合する再韻律節化が起こる
+#### In Stress Timing, Reprosodification Occurs in Which Coda Syllables Fuse into Onset Syllables
 
-２つの音節が連続する場合、先に現れた音節の末子音は、可能な限り次の音節の頭子音としてまとめられて発音されます。このまとめる作業のことを**再韻律節化 (Reprosodification)** と呼びます。そしてこの末音節が頭音節にまとめられて発音される現象を **音節リンキング** と呼びます。
+When two syllables continue, the final consonant of the earlier appearing syllable is, as much as possible, grouped and pronounced as the onset consonant of the next syllable. This grouping work is called **reprosodification**. And the phenomenon in which this coda syllable is grouped into the onset syllable and pronounced is called **syllable linking**.
 
 ![](/offbeat-count/attachments/stress-linking.png)
 
-#### ストレス拍には頭音節最大化原則＝MPOP原則がある
+#### Stress Timing Has the Maximal Onset Syllable Principle = the MPOP Principle
 
-シラブル拍では末子音が可能な限り頭子音としてまとめられて発音されることを学びました。またこの法則を頭子音最大化原則(MOP=Maximize Onset Principle)と呼ぶことを見てきました。
+We learned that, in syllabic beats, final consonants are grouped and pronounced as onset consonants as much as possible. We also saw that this law is called the Maximize Onset Principle (MOP=Maximize Onset Principle).
 
-そしてシラブル拍リズムから派生したストレス拍リズムでも、シラブル拍と同様に、シラブル拍で起こる頭子音最大化原則が全て同様に起こります。
+And in stress-timed rhythm, which is also derived from syllable-timed rhythm, just as in syllabic beats, all Maximize Onset Principle phenomena that occur in syllabic beats occur in the same way.
 
-更にストレス拍リズムでは、シラブル拍で全ての**音素(Phonome)** に対して**頭子音最大化原則(MOP=Maximize Onset Principle)**が適用されたことと全く同じ様に、全てのシラブルに対して**頭音節最大化原則(MPOP=Maximal Prosodic Onset Principle)** が適用されます。
+Furthermore, in stress-timed rhythm, exactly as the **Maximize Onset Principle (MOP=Maximize Onset Principle)** is applied to all **phonemes** in syllabic beats, the **Maximal Prosodic Onset Principle (MPOP=Maximal Prosodic Onset Principle)** is applied to all syllables.
 
-つまり音節リンキングは、可能であれば可能な限り起こるという規則をもっています。このことを **頭音節最大化原則（とうおんせつさいだいかげんそく）**、または英語表記「Maximal Prosodic Onset Principle」の頭文字をとって**MPOP原則**と呼びます。
+In other words, syllable linking has the rule that, if possible, it occurs as much as possible. This is called the **Maximal Prosodic Onset Principle**, or by taking the initials of the English notation "Maximal Prosodic Onset Principle," the **MPOP principle**.
 
-この図中で帽子が頭音節、猫が核音節、靴が末音節を表しています。
+In this figure, hats indicate onset syllables, cats indicate nucleus syllables, and shoes indicate coda syllables.
 
 ![](/offbeat-count/attachments/syllable-mop-1.png)
 
-この図中の様に全ての末音節は出来るだけ次の頭音節に結びついてまとめて発音されます。これが音節リンキングです。
+As in this figure, all coda syllables are connected as much as possible to the next onset syllables and grouped together in pronunciation. This is syllable linking.
 
 ![](/offbeat-count/attachments/syllable-mop-2.png)
 
-<span style="color:silver">※ 実例を追加する。</span>
+<span style="color:silver">* Add actual examples.</span>
+### Details of Mora-Timed Rhythm
 
-### モーラ拍リズムの詳細
+Moraic beats have characteristics completely different from syllabic beats and stress beats.
 
-モーラ拍は、シラブル拍、及びストレス拍とは全く違った特徴を持っています。
-
-#### モーラ拍の主な特徴
+#### Main Characteristics of Moraic Beats
 
 ![](/offbeat-count/attachments/beat-orientation-basic.png)
 
-日本語のリズムは、学術的に **モーラ拍リズム** に分類されています。モーラ拍リズムは、**シラブル**音節ではなく**モーラ**音節という特殊な単位で発音すると定義されています。この**モーラ**音節の構造を**シラブル**音節と比較すると多くの根本的な違いがあります。 日本語のモーラ拍リズムには主に以下のような特徴があります。
+The rhythm of Japanese is academically classified as **mora-timed rhythm**. Mora-timed rhythm is defined as being pronounced not in the unit called a **syllable** syllable but in the special unit called a **mora** syllable. When the structure of this **mora** syllable is compared with the **syllable** syllable, many fundamental differences exist. Japanese mora-timed rhythm mainly has the following characteristics.
 
-* 発音が一定時間ごとに区切れておりこの1音をモーラと呼ぶ。
-* モーラは主に母音と子音で構成され末子音を持たない。
+* Pronunciation is segmented every fixed time, and this one sound is called a mora.
+* Morae are mainly composed of vowels and consonants and do not have final consonants.
 
-モーラ拍（日本語）とシラブル拍（英語）の違いを短くまとめると次のようになります。
+If the difference between mora timing (Japanese) and syllable timing (English) is summarized briefly, it becomes as follows.
 
-* モーラ拍は、子音が必ず **拍(音節基)** の後ろにある。
-* シラブル拍は、子音が必ず**拍(音節基)** の前にある。
+* In moraic beats, consonants are always after the **beat (syllable base)**.
+* In syllabic beats, consonants are always before the **beat (syllable base)**.
 
-そして更に踏み込んで調べてみますと、次の様な認識の違いが存在することがわかります。
+And when we investigate further, we can see that differences of recognition like the following exist.
 
-* モーラ拍は、子音と母音を区別しない。
-    * シラブル拍（英語）には連続する複雑な子音クラスターがたくさん現れるため、いつも子音の位置を意識して発音しますが、モーラ拍（日本語）は子音が短く単純な為、ほとんどの場合その子音の位置を意識しません。
-* モーラ拍は、末子音がない
-    * シラブル拍は子音だけ単独で発音することが出来るため、当然音節（シラブル）の末尾に子音が来ることは稀ではありません。しかしモーラ拍（日本語）では、外来語で現れる末子音にも、その子音だけで独立した1モーラを割り当てます。つまりモーラ拍では末子音が存在することが出来ないのです。
-* モーラ拍は、多重子音がない
-    * 多重子音にはそれぞれの子音に母音をつけ1モーラが割り当てる。
-* モーラ拍は、子音が短い
-    * → 母音とモーラが主体で子音は重要ではない。
-    * → 子音数が少ない。
-* モーラ拍は、母音しか意識しておらず子音が意識できない
-    * → 母音とモーラが主体で子音は重要ではない。
-    * → 子音数が少ない。
+* Moraic beats do not distinguish consonants and vowels.
+    * Because many continuous complex consonant clusters appear in syllabic beats (English), the position of consonants is always kept in mind when pronouncing, but because consonants in moraic beats (Japanese) are short and simple, in most cases that consonant position is not kept in mind.
+* Moraic beats have no final consonants.
+    * In syllabic beats, because consonants alone can be pronounced independently, it is of course not rare for a consonant to come at the end of a syllable. However, in moraic beats (Japanese), even for final consonants appearing in loanwords, one independent mora is assigned to that consonant alone. In other words, in moraic beats, final consonants cannot exist.
+* Moraic beats have no consonant clusters.
+    * For consonant clusters, a vowel is attached to each consonant and one mora is assigned.
+* Moraic beats have short consonants.
+    * → Vowels and morae are the main thing, and consonants are not important.
+    * → The number of consonants is small.
+* Moraic beats are conscious only of vowels and cannot be conscious of consonants.
+    * → Vowels and morae are the main thing, and consonants are not important.
+    * → The number of consonants is small.
 
-|                  | モーラ拍 | シラブル拍 |
-| ---------------- | :------: | :--------: |
-| 子音と母音を区別 |   ない   |    ある    |
-| 末子音           |   ない   |    ある    |
-| 多重子音         |   ない   |    ある    |
-| 子音             |   短い   |    長い    |
-| 子音を意識       |  しない  |    する    |
+|                  | Moraic beats | Syllabic beats |
+| ---------------- | :----------: | :------------: |
+| Distinguish consonants and vowels | No | Yes |
+| Final consonants | No | Yes |
+| Consonant clusters | No | Yes |
+| Consonants | Short | Long |
+| Conscious of consonants | No | Yes |
 
 
 ![](/offbeat-count/attachments/mora-timed-rhythm-01.png)
 
-結果としてモーラ拍とシラブル拍には最初に挙げた図の様な違いが表れます。
+As a result, the difference like the figure given first appears between moraic beats and syllabic beats.
 
 ![](/offbeat-count/attachments/beat-orientation-basic.png)
 
-以下でモーラ拍リズムとシラブル拍リズムの違いを詳細に見ていきましょう。
+Below, let us look in detail at the difference between mora-timed rhythm and syllable-timed rhythm.
 
-#### モーラには末子音がない
-モーラ音節をシラブル音節と比較した時の最大の違いは、末子音がないことです。モーラ音節には末子音がない ─── これがモーラ拍リズムの最大の特徴です。モーラ音節に末子音がないことが発端となってモーラ音節にはシラブル音節とは全く違った性質が生み出されます。以下で見ていきます。
+#### Morae Have No Final Consonants
+The largest difference when mora syllables are compared with syllable syllables is that they have no final consonants. Mora syllables have no final consonants: this is the greatest characteristic of mora-timed rhythm. Starting from the fact that mora syllables have no final consonants, mora syllables produce properties completely different from syllable syllables. Let us look below.
 
 ![](/offbeat-count/attachments/syllable-mora-1.png)
 
-#### モーラの頭子音は音節基に含まれる
-シラブル音節では音節基に頭子音は含まれません。しかしモーラ音節では音節基に頭子音が含まれます。これがモーラ音節の2つ目の大きな特徴です。
+#### The Onset Consonant of a Mora Is Included in the Syllable Base
+In syllable syllables, the onset consonant is not included in the syllable base. But in mora syllables, the onset consonant is included in the syllable base. This is the second large characteristic of mora syllables.
 
 ![](/offbeat-count/attachments/syllable-mora-2.png)
 
-#### モーラと音節基は同じ長さで区別がない
+#### The Mora and the Syllable Base Have the Same Length and Are Not Distinguished
 
-シラブル音節では、頭子音と音節核はそれぞれ独立していますが、モーラ音節では、音節核に頭子音が含まれ、かつ末子音がない為、結果として音節核と音節が同じ長さになり区別がなくなります。
+In syllable syllables, the onset consonant and syllable nucleus are independent from each other, but in mora syllables, because the onset consonant is included in the syllable nucleus and there is no final consonant, as a result the syllable nucleus and the syllable become the same length and there is no distinction between them.
 
 ![](/offbeat-count/attachments/syllable-mora-mora-and-nucleus-are-equal-lenghed.png)
 
-#### モーラの頭子音はとても短い
+#### The Onset Consonant of a Mora Is Very Short
 
-日本語（モーラ拍）の子音は、シラブル拍ストレス拍の言語の子音の長さと比較して非常に短いという特徴があります。
+Japanese consonants (mora timing) have the characteristic of being extremely short compared with the consonant length of languages of syllable timing and stress timing.
 
 ![](/offbeat-count/attachments/syllable-mora-short-onset.png)
 
-これは母音優位な言語である日本語だけを話しているとほとんど意識できないことですが、一般的に日本語以外の言語では子音は母音と同じくらい長いものです。
+This is something almost impossible to be conscious of when one speaks only Japanese, which is a vowel-dominant language, but generally in languages other than Japanese, consonants are as long as vowels.
 
 ![](/offbeat-count/attachments/trump.png)
 
-これは米国政治家トランプ氏の有名な写真です。彼が正に今 **頭子音 F** を長く発音することでFで始まる単語を言おうとしていることがわかる写真です。この様に英語やその他の言語では**子音は長く発音する**ことができます。 ─── これは日本語がフを長く言おうとすると「ふううーーー」となってしまい**母音「う」** しか残らないことと対照的です。
+This is a famous photograph of the American politician Mr. Trump. It is a photograph from which one can see that he is right now trying to say a word beginning with F by pronouncing the **onset consonant F** long. In this way, in English and other languages, **consonants can be pronounced long**. This contrasts with Japanese, where if one tries to say fu long, it becomes "fuuuu---" and only the **vowel u** remains.
 
 ![](/offbeat-count/attachments/comparison-ac-and-pv.png)
 
-引用：[言語と音楽のリズム的共通性：ジャズおよびブルーグラス奏者を対象とした事例研究 — ウディ・ワールサガー修士論文](https://www.academia.edu/50961691/Rhythmic_Similarities_between_Language_and_Music_Jazz_and_Bluegrass_Musicians_as_a_Case_Study_Udi_Wahrsagers_Thesis?utm_source=chatgpt.com) この論文は『言語と音楽のリズム的類似性』というタイトルの修士論文で、ジャズとブルーグラスの演奏家を比較対象にしています。（著：ウディ・ワールサガー）
+Cited from: [Rhythmic Similarities between Language and Music: A Case Study of Jazz and Bluegrass Musicians - Udi Wahrsager's Thesis](https://www.academia.edu/50961691/Rhythmic_Similarities_between_Language_and_Music_Jazz_and_Bluegrass_Musicians_as_a_Case_Study_Udi_Wahrsagers_Thesis?utm_source=chatgpt.com). This paper is a master's thesis titled "Rhythmic Similarities between Language and Music," and compares jazz and bluegrass performers. (By Udi Wahrsager)
 
-このグラフは、**縦軸=AC**が平均的な子音の長さ、**横軸=%V**が母音の長さの平均的パーセンテージを表しています。ここから日本語だけが突出して長い母音を持っており、突出して短い子音を持っていることがわかります。特に母音の長さが50%を超えている言語は、８カ国語中１カ国JA=日本語だけということがはっきり見て取れます。
+This graph shows that **the vertical axis = AC** represents the average consonant length, and **the horizontal axis = %V** represents the average percentage of vowel length. From here, one can see that only Japanese has strikingly long vowels and strikingly short consonants. In particular, one can clearly see that among eight languages, the only language whose vowel length exceeds 50% is JA = Japanese.
 
-#### モーラの頭子音はなくなる
-シラブル音節では、頭子音が音節核と独立しており、かつ音節核に音節基が置かれている為、**頭子音がなくなっても音節核の位置は変わりません。**  しかしモーラ音節では、頭子音が音節基に含まれている為、**頭子音がなくなると音節基がその分拡張します。** これがモーラ拍リズムの3番目の特徴です。
+#### The Onset Consonant of a Mora Disappears
+In syllable syllables, because the onset consonant is independent from the syllable nucleus, and because the syllable base is placed in the syllable nucleus, **even if the onset consonant disappears, the position of the syllable nucleus does not change**. But in mora syllables, because the onset consonant is included in the syllable base, **if the onset consonant disappears, the syllable base expands by that amount**. This is the third characteristic of mora-timed rhythm.
 
 ![](/offbeat-count/attachments/syllable-stretching-nucleus.png)
 
-#### モーラには頭子音最小化原則 (MiOP = Minimum Onset Principle) がある
+#### Morae Have the Minimum Onset Principle (MiOP = Minimum Onset Principle)
 
-シラブル音節では、末子音はできる限り次の音節の頭子音と接続してまとめて発音されることを見てきました。シラブル拍と共通のルールを持つストレス拍リズムでも同様です。しかしモーラ拍ではここで全く違うルールが適用されます。
+We have seen that, in syllable syllables, final consonants are connected as much as possible to the onset consonant of the next syllable and pronounced together. The same is true in stress-timed rhythm, which shares rules with syllabic beats. However, in mora timing, a completely different rule is applied here.
 
-モーラ拍では、頭子音は可能な限りばらばらに分解されて発音されます。
+In moraic beats, onset consonants are pronounced separated apart as much as possible.
 
-モーラ拍リズムは末子音を持ちません。 末子音があった場合、末子音が次の頭子音と結合することを避ける為に、その末子音が新しい母音のない音節（モーラ）を作り、そこの頭子音として発音されます。またモーラ拍リズムは多重子音を持ちません。多重子音が表れた場合、それぞれの子音がそれぞれ独立した音節（モーラ）を作り、そこの頭子音として発音されます。
+Moraic beats do not have final consonants. If there were final consonants, in order to avoid the final consonant combining with the next onset consonant, that final consonant makes a new syllable (mora) without a vowel and is pronounced as the onset consonant there. Also, moraic beats do not have consonant clusters. When consonant clusters appear, each consonant makes its own independent syllable (mora) and is pronounced as the onset consonant there.
 
 ![](/offbeat-count/attachments/syllable-mora-miop.png)
 
-この様にモーラ拍リズムでは、頭子音末子音が可能な限り独立してバラバラになるように発音されます。これはシラブル拍言語・ストレス拍言語が持っている**頭子音最大化原則(MOP=Maximize Onset Principle)** と真逆の性質です。 この性質を、ここでは **頭子音最小化原則 (MiOP = Minimum Onset Principle)** と呼びます。
+In this way, in mora-timed rhythm, onset consonants and final consonants are pronounced so as to become independent and separate apart as much as possible. This is the exact opposite property of the **Maximize Onset Principle (MOP=Maximize Onset Principle)** possessed by syllable-timed languages and stress-timed languages. This property is here called the **Minimum Onset Principle (MiOP = Minimum Onset Principle)**.
 
-#### モーラとシラブルの違いは強拍と弱拍の前後関係の違い
+#### The Difference Between Morae and Syllables Is the Difference in the Front-Back Relationship of Strong Beats and Weak Beats
 
-モーラ拍とシラブル拍の違いは、頭子音（弱拍）が音節基（強拍）よりも前にあるか、後ろにあるかに集約されます。
+The difference between moraic beats and syllabic beats is concentrated in whether the onset consonant (weak beat) is before the syllable base (strong beat) or after it.
 
 ![](/offbeat-count/attachments/syllable-syllable-mora-comparison.png)
 
-**シラブル拍リズム言語を話す人は、一定間隔でやってくる強拍（音節基）を聴く前に弱拍（頭子音）を認識**しています。
+**People who speak syllable-timed-rhythm languages recognize the weak beat (onset consonant) before hearing the strong beat (syllable base)** that comes at fixed intervals.
 
-対して**モーラ拍リズム言語を話す人は、一定間隔でやってくる強拍（音節基）を聴いた後に弱拍（頭子音）を認識**しています。
+By contrast, **people who speak mora-timed-rhythm languages recognize the weak beat (onset consonant) after hearing the strong beat (syllable base)** that comes at fixed intervals.
 
-この様に強拍(音節基)に対して弱拍(頭子音)を前と認識するか後ろと認識するかの区別をここでは**{{<meta var.PHONOTEMPORAL_ORDERING_AXIS.en>}}**と呼びます。
-
-
-シラブル拍リズム言語/ストレス拍リズム言語を話す人が、強拍(音節基)に対して弱拍(頭子音)を前と認識することをここでは**{{<meta var.LEADING_CONSONANT_PHONOTEMPORAL_ORDERING.en>}}** と呼びます。
-
-モーラ拍リズム言語を話す人が、強拍(音節基)に対して弱拍(頭子音)を後ろと認識することをここでは**{{<meta var.FOLLOWING_CONSONANT_PHONOTEMPORAL_ORDERING.en>}}** と呼びます。
-
-つまり **{{<meta var.LEADING_CONSONANT_PHONOTEMPORAL_ORDERING.en>}}** は、子音が音節核を予期しており、子音が母音を起動する役割を果たしているといえます。 このことを**{{<meta var.MULTI_ANCHORED_SYLLABLE_INITIATION.en>}}** と呼びます。
-
-そして **{{<meta var.FOLLOWING_CONSONANT_PHONOTEMPORAL_ORDERING.en>}}** は、音節核を予期するものがなく、最初に表れた子音ないしは母音が音節核を起動する役割を果たしているといえます。 このことをここでは、**{{<meta var.MONO_ANCHORED_SYLLABLE_INITIATION.en>}}** と呼びます。
-
-このように音節核は単独で起動するか、或いは複数の先行する頭子音が音節を起動のか。
+This distinction of whether the weak beat (onset consonant) is recognized as before or after with respect to the strong beat (syllable base) is here called **{{<meta var.PHONOTEMPORAL_ORDERING_AXIS.en>}}**.
 
 
-**{{<meta var.MULTI_ANCHORED_SYLLABLE_INITIATION.en>}}** は、**{{<meta var.SCHIZORHYTHMOS.en>}}**に大きな概念へとつながります。
+The fact that people who speak syllable-timed-rhythm languages / stress-timed-rhythm languages recognize the weak beat (onset consonant) as being before the strong beat (syllable base) is here called **{{<meta var.LEADING_CONSONANT_PHONOTEMPORAL_ORDERING.en>}}**.
 
-**{{<meta var.MONO_ANCHORED_SYLLABLE_INITIATION.en>}}** は、**{{<meta var.SOLIRHYTHMOS.en>}}**というより大きな概念へとつながります。
+The fact that people who speak mora-timed-rhythm languages recognize the weak beat (onset consonant) as being after the strong beat (syllable base) is here called **{{<meta var.FOLLOWING_CONSONANT_PHONOTEMPORAL_ORDERING.en>}}**.
 
-**{{<meta var.SCHIZORHYTHMOS.en>}}** と **{{<meta var.SOLIRHYTHMOS.en>}}** に関しましては {{<meta var.LINK_SCHIZORHYTHMOS_AND_SOLIRHYTHMOS.en>}} の章でより詳しく見ていきます。
+In other words, with **{{<meta var.LEADING_CONSONANT_PHONOTEMPORAL_ORDERING.en>}}**, consonants are anticipating the syllable nucleus, and it can be said that consonants play the role of starting the vowel. This is called **{{<meta var.MULTI_ANCHORED_SYLLABLE_INITIATION.en>}}**.
+
+And with **{{<meta var.FOLLOWING_CONSONANT_PHONOTEMPORAL_ORDERING.en>}}**, there is nothing anticipating the syllable nucleus, and it can be said that the consonant or vowel that appeared first plays the role of starting the syllable nucleus. This is here called **{{<meta var.MONO_ANCHORED_SYLLABLE_INITIATION.en>}}**.
+
+Thus, does the syllable nucleus start alone, or do multiple preceding onset consonants start the syllable?
 
 
-このシラブル拍リズム言語が持っている強拍よりも前に弱拍があるという感覚は、強拍よりも後ろに弱拍があると認識しているモーラ拍リズムの言語を話している人にとって、大変に不可解でつかみにくい感覚です。
+**{{<meta var.MULTI_ANCHORED_SYLLABLE_INITIATION.en>}}** leads to the larger concept of **{{<meta var.SCHIZORHYTHMOS.en>}}**.
 
-これをモーラ拍リズム言語を第一言語として話す人が、第二言語としてシラブル拍リズム言語のリズムを訓練によって習得しようとすると、しばしば１０年、場合によっては２０年近い年月が掛かることも稀ではありません。
+**{{<meta var.MONO_ANCHORED_SYLLABLE_INITIATION.en>}}** leads to the larger concept of **{{<meta var.SOLIRHYTHMOS.en>}}**.
 
-オフビートカウント理論は、このモーラ拍リズムを母国語とする人が、シラブル拍リズムや次に紹介するストレス拍リズムを第二言語として習得する為にどのようにしたら最も効率よく習得することが出来るかに着目し考察した結果として生まれた練習方法です。
+As for **{{<meta var.SCHIZORHYTHMOS.en>}}** and **{{<meta var.SOLIRHYTHMOS.en>}}**, we will look more closely in the chapter {{<meta var.LINK_SCHIZORHYTHMOS_AND_SOLIRHYTHMOS.en>}}.
 
-## {{<meta var.MORA_SPEAKERS.en>}}への手紙 <!-- {#letter-to-native-mora-timed-speakers} -->
 
-言語リズムの違いは、モーラ拍リズム言語を母国語とする人にとってしばしば、とても厳しい直視し難い厳しい現実です。日本語のリズムは特殊 ─── 日本人にとっての海外世界の適応は、それまでの習慣を全て例外なく否定される理不尽を受け入れることから始まります。しかも、この巨大なハンデは日本語を母国語とする人だけに特有の問題でもあります。
+This feeling possessed by syllable-timed-rhythm languages that weak beats exist before strong beats is a very mysterious and hard-to-grasp feeling for people who speak languages of mora-timed rhythm, who recognize weak beats as being after strong beats.
 
-そんな日本語を母国語とする人には、日本語を母国語とする人だけに特化した特殊な訓練が必要です。その訓練は、英語だけではなく**日本語以外の全ての言語を習得する為に必要不可欠**なことです。
+When people who speak a mora-timed-rhythm language as their first language try to acquire, through training, the rhythm of a syllable-timed-rhythm language as a second language, it is not rare that it takes ten years, and in some cases close to twenty years.
 
-この章は、日本語の特殊性が持つメカニズムと、日本語の特殊性を乗り越える為に必要な心構え、橋渡しする訓練を構築する理論と、その実践方法について御説明致します。
+Offbeat Count Theory is a practice method born as the result of considering, with attention to how people whose native language is this mora-timed rhythm can most efficiently acquire syllable-timed rhythm and the stress-timed rhythm introduced next as second languages.
+## A Letter to {{<meta var.MORA_SPEAKERS.en>}} <!-- {#letter-to-native-mora-timed-speakers} -->
 
-### 弱拍がなければ強拍もない
+Differences in language rhythm are often a very severe reality, hard to face directly, for people whose native language is a mora-timed-rhythm language. The rhythm of Japanese is special. Adaptation to the overseas world for Japanese people begins from accepting the unreasonable fact that all habits up to that point are denied without exception. Moreover, this huge handicap is also a problem peculiar only to people whose native language is Japanese.
 
-**音楽には必ず、弱拍と強拍があります** ─── しかしこの見解は、必ずしも正しくありません。何故なら日本の音楽には伝統的に強拍弱拍を持たないからです。  日本に公式に西洋音楽が導入されたのは明治時代だと言われていますが、それ以前にもキリスト教などの伝来と共に西洋音楽が日本に伝わっていたとも言われています。それ以前の日本の音楽には弱拍と強拍がなかったと考えられます。
+For such people whose native language is Japanese, special training specialized only for people whose native language is Japanese is necessary. That training is indispensable not only for English but for **acquiring all languages other than Japanese**.
 
-日本人の感覚上に弱拍・強拍という概念がない ─── このことは現在の日本の音楽を観察することでも比較的簡単に確かめることができます。或いは簡単な実験を行うことでも確かめることが出来ます。
+This chapter explains the mechanism of the special nature of Japanese, the attitude necessary to overcome the special nature of Japanese, the theory for building bridging training, and its method of practice.
 
-強拍弱拍という概念は**時間の分割**に深く根ざした概念です。誰かが定期的に手を叩いている時、その人と交互になるような位置に手を叩く為には、相手の叩いている拍の間隔を図りその中間点で手を叩く必要があります。これが**時間の分割**です。人間の叩く手の速さは一定でなく常に多少のぶれが生じます。よって相手が叩く手の位置を予想しながら自分の手を叩く位置を決める必要があります。自分が叩いた手の位置を認識し、次に相手が実際に手を叩いた時、それが自分の予想よりも早いか遅いかを瞬間的に判定し、自分が次に叩く手の位置を修正するという作業も必要になるでしょう。これも**時間の分割** という作業全体に含まれる重要な１つの作業です。
+### If There Are No Weak Beats, There Are No Strong Beats Either
 
-日本語話者以外の人たちは、交互に手を叩くことがさほどの困難を伴わずにできます。しかし日本人がこれをやろうとすると、驚くほどの困難を伴います。時には数年、或いは数十年という長い年月を経ても出来ないことは決して稀ではありません ─── これは**日本人が時間の分割という概念を持たない** ということの証拠のひとつです。
+**Music always has weak beats and strong beats**. However, this view is not necessarily correct. The reason is that Japanese music traditionally does not have strong beats and weak beats. It is said that Western music was officially introduced into Japan in the Meiji era, but it is also said that Western music had come to Japan even before that together with the arrival of Christianity and so on. It is thought that Japanese music before that had no weak beats and strong beats.
 
-次の図を御覧下さい。
+That there is no concept of weak beats and strong beats in the sense of Japanese people can also be confirmed relatively easily by observing present-day Japanese music. Or it can also be confirmed by conducting a simple experiment.
+
+The concept of strong beats and weak beats is a concept deeply rooted in the **division of time**. When someone is clapping regularly, in order to clap at a position that alternates with that person, it is necessary to measure the interval of the beats the other person is clapping and clap at the midpoint. This is the **division of time**. The speed of human clapping is not constant, and some fluctuation always occurs. Therefore, it is necessary to decide the position at which to clap one's own hands while predicting the position of the other person's clap. It will also be necessary to recognize the position of the hand one clapped, and when the other person actually claps next, instantly judge whether that was earlier or later than one's prediction, and correct the position of one's next clap. This too is one important task included in the whole work called the **division of time**.
+
+People other than Japanese speakers can clap alternately without accompanying much difficulty. However, when Japanese people try to do this, it accompanies surprising difficulty. Sometimes it is by no means rare that they cannot do it even after a long period of years or even decades. This is one piece of evidence that **Japanese people do not have the concept of the division of time**.
+
+Please look at the following figure.
 
 ![](/offbeat-count/attachments/beat-orientation-comparison.png)
 
-この様に世界中の殆どの言語が、強拍(rime)よりも前に子音を配置する習慣を持っています。しかし日本語はこの点で非常に特殊な特徴として 強拍(rime) の後ろに子音を配置する習慣を持っています。よって子音のあるなしによって母音の位置が変化するという特徴を持っています。この母音位置の修正は日本人にとって完全な無意識下に行われており、**母音の位置を修正していることを全く意識することが出来ません**。そして**強拍よりも前に起こる拍を無意識のうちに雑音として無視し、そこにある拍が存在することすら認識することが出来ない**という非常に大きな特徴があるのです。
+In this way, most languages around the world have the habit of placing consonants before the strong beat (rime). However, Japanese has the very special characteristic, in this point, of having the habit of placing consonants behind the strong beat (rime). Therefore, it has the characteristic that the position of the vowel changes depending on whether there is a consonant or not. This correction of vowel position is done completely unconsciously for Japanese people, and **they cannot at all be conscious that they are correcting vowel position**. And there is the very large characteristic that **they unconsciously ignore beats that occur before the strong beat as noise, and cannot even recognize that a beat existing there is present**.
 
-ここに **ストレス拍・シラブル拍には、時間の分割という感覚が発音構造自体に含まれており、モーラ拍には時間の分割という感覚がなく、分割の代わりにトリガ(強拍)が聴こえたことをきっかけにしその一定時間後に継続して発音を繋げる『継続』という時間概念を持っているという仮説**が成立します。
+Here, the **hypothesis that in stress timing and syllable timing the feeling of dividing time is included in the pronunciation structure itself, while in mora timing there is no feeling of dividing time, and instead of division there is a time concept of "continuation," in which pronunciation is continuously connected a fixed time after hearing the trigger (strong beat)** is established.
 
-この仮説の正しさは、実際に日本人である我々が音楽を聴いて感じる勘違いを観察することで検証することが可能です。
+The correctness of this hypothesis can be verified by observing the misunderstandings that we, who are actually Japanese, feel when listening to music.
 
-例えば、次のビデオを見ると確認することが出来ます。
+For example, it can be confirmed by looking at the following video.
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">【日本人のリズムの盲点】映画ハイスクール・ミュージカルの音楽にはオフビートから始まるリズムが現れます。<br><br>日本人には1拍目表拍から文章を解釈しその前にある音を全て無視するという性質がある為、そこに音があることに気付きません。 <br><br>その地点を見える化しました。<a href="https://twitter.com/hashtag/%E3%82%AA%E3%83%95%E3%83%93%E3%83%BC%E3%83%88%E3%81%A7%E6%80%9D%E8%80%83%E3%81%99%E3%82%8B%E8%AA%9E%E5%AD%A6?src=hash&amp;ref_src=twsrc%5Etfw">#オフビートで思考する語学</a> <a href="https://t.co/qpvR56b6tG">pic.twitter.com/qpvR56b6tG</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1661582852574806021?ref_src=twsrc%5Etfw">May 25, 2023</a></blockquote></div>
 
-最初に「ウィル (we're)」と言っている部分があります。しかしこれは弱拍位置に存在する為にモーラ拍リズム言語（日本語）を母国語とする人には認識できません。 ─── これも**日本人が時間の分割という概念を持たない** ことの証拠のひとつです。
+At the beginning there is a part saying "we're." However, because this exists at a weak-beat position, it cannot be recognized by people whose native language is a mora-timed-rhythm language (Japanese). This too is one piece of evidence that **Japanese people do not have the concept of the division of time**.
 
-次のビデオを見て下さい。マイケル・ジャクソンの有名曲です。
+Please look at the next video. It is a famous song by Michael Jackson.
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">ママセイママサーママクサというのは、マイケルジャクソンのアルバム・スリラーの1曲目に収録されている Wanna Be Startin&#39; Somethin&#39; の後半部分に現れる有名なリフの歌詞です。 <a href="https://t.co/p6WtrMQLJO">https://t.co/p6WtrMQLJO</a> <a href="https://t.co/N06WFGr8YX">pic.twitter.com/N06WFGr8YX</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1646891410170482689?ref_src=twsrc%5Etfw">April 14, 2023</a></blockquote></div>
 
-モーラ拍リズム言語を母国語とする人は、しばしばこの曲の歌詞の「**ママ**セイママサーマ・マークーサー」の最初の **ママ** の存在にしばしば気付きません。弱起位置に存在するからです。
+People whose native language is a mora-timed-rhythm language often do not notice the existence of the first "**mama**" in the lyrics "mama say mama sa ma ma ku sa" of this song. Because it exists at an anacrusis position.
 
-この様な例はたくさん存在します。ジャズや・R&B・ヒップホップなどのアフリカ系アメリカ人の音楽では**ほぼ全ての曲** にこのようなモーラ拍リズム言語を母国語とする人が聴き取れないリズム型が見つかります。モーラ拍リズム言語を母国語とする人には、数多くの聴き取れないリズム型が存在するのです。
+There are many examples like this. In African American music such as jazz, R&B, and hip-hop, in **almost all songs** one finds rhythm types that people whose native language is a mora-timed-rhythm language cannot hear. For people whose native language is a mora-timed-rhythm language, there exist many rhythm types they cannot hear.
 
 
-カーペンターズの有名曲「スーパースター」のサビの歌詞 "You said you'd be coming back this way again, baby♪" という歌詞は、多くの単語が弱拍から始まっています。この様なリズムで歌われた歌詞は、ほとんど全て聞き漏らしてしまうという現象が起こります。
+In the lyrics of the chorus of the famous Carpenters song "Superstar," the lyric "You said you'd be coming back this way again, baby♪" begins with many words from weak beats. With lyrics sung in this kind of rhythm, the phenomenon occurs that almost all of it is missed.
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">You said you&#39;d be coming back this way again, baby♪ <br><br>─── の部分が何度聴いても聴き取れない縦乗り脳な私。 全部オフビートから１つずつずれて単語が始まっている日本人が一番苦手なパターンがここにあります。<a href="https://twitter.com/hashtag/%E3%82%AA%E3%83%95%E3%83%93%E3%83%BC%E3%83%88%E3%81%A7%E6%80%9D%E8%80%83%E3%81%99%E3%82%8B%E8%AA%9E%E5%AD%A6?src=hash&amp;ref_src=twsrc%5Etfw">#オフビートで思考する語学</a><br>Credit : <a href="https://t.co/1BfCPxCqqN">https://t.co/1BfCPxCqqN</a> <a href="https://t.co/riVn1DdcHf">pic.twitter.com/riVn1DdcHf</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1713509900897361984?ref_src=twsrc%5Etfw">October 15, 2023</a></blockquote></div>
 
 
-次のビデオは、モーラ拍リズム言語を母国語とする者が、聞き漏らしやすいリズム位置を字幕によって示したものです。
+The following video indicates by subtitles the rhythm positions that are easy for a person whose native language is a mora-timed-rhythm language to miss.
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">【日本人はオフビートが聴き取れない】 日本人が英語が聴き取れない理由は音楽のリズムの認識の違いと深い関係があります。 <br><br>日本人がリズム上聴き取れない部位を見える化しました。<a href="https://twitter.com/hashtag/%E3%82%AA%E3%83%95%E3%83%93%E3%83%BC%E3%83%88%E3%81%A7%E6%80%9D%E8%80%83%E3%81%99%E3%82%8B%E8%AA%9E%E5%AD%A6?src=hash&amp;ref_src=twsrc%5Etfw">#オフビートで思考する語学</a><br>Credit: Tape Machine の Boomerang Feauturing MIa Pfirrman<br> <a href="https://t.co/6GtW6DqEX4">https://t.co/6GtW6DqEX4</a> <a href="https://t.co/QzFHwUtoJm">pic.twitter.com/QzFHwUtoJm</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1642021208131764224?ref_src=twsrc%5Etfw">April 1, 2023</a></blockquote></div>
 
 
-これはラオ（タイ東北）の民謡です。ラオの民謡は234拍目で歌詞を歌う為、日本人は多くの拍を聞き漏らします。またしばしば、全ての拍を聞き漏らしているということ自体が認識できません。このことは拍数を数えながら音楽を聴くことで確認することが出来ます。
+This is a Lao (northeastern Thailand) folk song. Because Lao folk songs sing the lyrics on beats 2, 3, and 4, Japanese people miss many beats. Also, often they cannot even recognize the fact that they are missing all of the beats. This can be confirmed by listening to the music while counting the number of beats.
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">【タイ東北の民謡・モーラム】タイ東北方言（ラオ／イサーン語）を習得したことが、私のリズム開眼のきっかけになりました。<br><br>ラオ民謡はメロディーが全て弱起になっており、弱起のない部分がありません。日中韓と真逆のリズム構成になっています。<br><br>Credit :… <a href="https://t.co/N8etpUVFY9">pic.twitter.com/N8etpUVFY9</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1670421166673268736?ref_src=twsrc%5Etfw">June 18, 2023</a></blockquote></div>
 
 
-形容詞の原型・比較級・最上級を順番に読んでネイティブの幼稚園児に教えている英語の先生ですが、最上級の前に the を入れていることがわかります。 英語ネイティブの人は最上級の前に無意識の内に定冠詞 the を入れます。最上級を定冠詞なしで読むこと自体に違和感があるからです。だからこそ先生は the を入れて読んでいますが、これも日本人が聴き取れない弱拍位置にあるため、そこに拍があること自体に気付きません。
+This is an English teacher teaching native kindergarten children by reading the base form, comparative, and superlative of adjectives in order, and one can see that the teacher puts the before the superlative. Native English speakers unconsciously put the definite article the before the superlative. That is because reading the superlative itself without the definite article feels strange. That is why the teacher reads it with the, but this too is in a weak-beat position that Japanese people cannot hear, so they do not even notice that a beat exists there.
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">fat fatter fattest と暗記させられたが、最上級の前に the を入れろと言った先生を私の日本人の人生で一人も見た事がない。こんなに酷い間違いを堂々と全員やる国って何なのか。しかもやらないと成績が悪くなって社会に適応できなくなるし。 <a href="https://t.co/zePi4c92s0">pic.twitter.com/zePi4c92s0</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1947610731559719367?ref_src=twsrc%5Etfw">July 22, 2025</a></blockquote></div>
 
 
 
-日本（モーラ拍リズム）の音楽は、西洋（ストレス拍リズム・シラブル拍リズム）の音楽と全く違うリズム構造を持っています。
+The music of Japan (mora-timed rhythm) has a rhythm structure completely different from the music of the West (stress-timed rhythm / syllable-timed rhythm).
 
 <div class="center-box"><iframe class="rhythmpedia-iframe" src="https://www.youtube.com/embed/J1987W0Dsjk?si=aktGPxjwxNS3FvAh&amp;start=33" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
-予備運動なく動き始めるリズム。だんだん早くなるリズム。静から動に切り替わる呼吸。全てのリズム概念は、ストレス拍リズム・シラブル拍リズムの概念とは全く異なる概念によって成り立っています。
+A rhythm that starts moving without preparatory motion. A rhythm that gradually becomes faster. A breath that switches from stillness to movement. All rhythm concepts are constituted by concepts completely different from those of stress-timed rhythm and syllable-timed rhythm.
 
-モーラ拍リズムを母語とする人がストレス拍・シラブル拍リズムの音楽を演奏するにあたって直面する問題は大きく３つあります
+There are three large problems faced when people whose native language is mora-timed rhythm perform music of stress timing and syllable timing.
 
-* モーラ拍リズムには認識できないリズムがある。
-* 認識出来ないリズムがあるということ自体に気付くことが難しい。
-* 認識出来ないものの存在を認識するということが根本的に難しい。
+* Mora-timed rhythm has rhythms that cannot be recognized.
+* It is difficult to notice the very fact that there are rhythms that cannot be recognized.
+* It is fundamentally difficult to recognize the existence of something that cannot be recognized.
 
-習得した後にも沢山の問題が起こります。
+After acquiring it, many problems still occur.
 
-* 後天的にストレス拍リズム認識・シラブル拍リズム認識を習得しても、モーラ拍リズムに触れる（耳にしたり話したりする）と直ぐにモーラ拍リズムに感覚が戻ってしまう。
-* モーラ拍リズムのモードに入っている状態から、ストレス拍シラブル拍リズムのモードに戻すことに困難がある。 ストレス拍シラブル拍を習得してもモーラ拍リズムを話している状態で瞬間的に切り替える事はとても難しい。
-* 切り替えを習得した後にも問題がある。ストレス拍リズム・シラブル拍リズム のモードに切り替えた状態のまま日本で生活することに難しさがある。しばしば人間関係上で予期しない様な大きな問題を起こしてしまう。
+* Even after one acquires recognition of stress-timed rhythm and syllable-timed rhythm later in life, as soon as one comes into contact with mora-timed rhythm (hears it or speaks it), the senses immediately return to mora-timed rhythm.
+* There is difficulty in returning from a state in the mode of mora-timed rhythm to the mode of stress timing and syllable timing. Even after acquiring stress timing and syllable timing, it is very difficult to switch instantly while one is in the state of speaking mora-timed rhythm.
+* There are problems even after acquiring switching. There is difficulty in living in Japan while remaining switched to the mode of stress-timed rhythm and syllable-timed rhythm. Often one ends up causing unexpectedly large problems in human relationships.
 
-弱拍が聴き取れない、そもそも聴き取れないという事自体に気付かない、そこに音があることすら認識が難しい ───  モーラ拍リズム言語を母国語とする者は、この状態でこの節以降を読み進めることになります。
+Unable to hear weak beats, not even noticing the very fact that one cannot hear them, and finding it difficult even to recognize that there is sound there: people whose native language is a mora-timed-rhythm language will read onward from this section in this state.
 
-認識していなかったものの存在を知ることには本質的にどうやっても避けられない強烈な衝撃があります。それは今まで当たり前の様に通り過ぎていた馴染の大通りのど真ん中に、実は大きな有名店があることに気付いた瞬間の様な衝撃です。
+Knowing the existence of what one had not recognized has an intense shock that cannot be avoided no matter what. It is like the shock at the moment one notices that, in fact, there is a large famous store right in the middle of the familiar main street one had been passing through as a matter of course until now.
 
-─── 毎日通っていたその場所にそれがあったことを知ったことに対するショック。それがあることに今まで気付かなかった自分自身に対するショック。そしてその有名店があることを実は自分以外の大勢が既に知っていたことに気付いた時のショック。更に、貴方がその存在に気付いていないことを、貴方以外の皆が実は既に知っていたことに気付いた時のショック。そしてその存在を誰も教えてくれなかったことに気付いた時のショック。
+The shock of learning that it was there in that place one passed every day. The shock toward oneself for not having noticed until now that it was there. And the shock when one notices that in fact many people other than oneself had already known that there was that famous store. Furthermore, the shock when one notices that everyone other than oneself had in fact already known that one was not noticing that existence. And the shock when one notices that no one told one of that existence.
 
-その衝撃がもたらす感情は必ずしも肯定的なものばかりではありません。それはしばしば強い否定的な感情を呼び起こします。人は、弱拍の存在に気付いた時、恥ずかしさや屈辱や怒りを感じたりします。
+The feelings brought by that shock are not necessarily only positive ones. It often calls up strong negative feelings. When people notice the existence of weak beats, they feel embarrassment, humiliation, and anger.
 
-今までそこになかったものが忽然とそこに姿を表す。突如感覚上に現れる得体の知れないもののとの出会いは、いつも大きなドラマを巻き起こすものです。
+What had not existed there until now suddenly appears there. An encounter with something unknown that suddenly appears in one's senses always brings about a large drama.
 
-この本を読んでいらっしゃる方もきっと必ず、この本を読み進めるなかで数多くの衝撃と出会い、経験したことのない感情が湧き上がってくると考えられます ─── しかしこれは誰もが通り過ぎる道でもあります。
+Surely those reading this book too, while continuing to read this book, will encounter many shocks and feel emotions they have never experienced before. However, this is also a road that everyone passes through.
 
-しかし、この本ではこの謎の多い弱拍という存在と向き合う為の武器（理論・練習方法）を提供しています。貴方も、この本当のジャズの即興能力・本当のクラシック音楽の演奏能力・本当の意味での国際コミュニケーション能力を身につける才能が眠っているのです。 順を追って丁寧に取り組むことで、誰でも身につけることが可能です。
+However, this book provides weapons (theory and practice methods) for facing the existence called weak beats, which has many mysteries. In you too lies the talent to acquire real improvisational ability in jazz, real performance ability in classical music, and true international communication ability. By working carefully step by step, anyone can acquire it.
 
-どうか諦めることなく、粘り強くこの節以降を読んで頂けましたら幸いです ─── きっと期待以上の成果を得ることが出来るでしょう。
+I hope you will by all means read on from this section onward without giving up and with persistence. Surely you will be able to obtain results beyond your expectations.
+## {{<meta var.SCHIZORHYTHMOS.en>}} and {{<meta var.SOLIRHYTHMOS.en>}} <!-- {#schizorhythmos-and-solirhythmos} -->
 
-## {{<meta var.SCHIZORHYTHMOS.en>}}と{{<meta var.SOLIRHYTHMOS.en>}} <!-- {#schizorhythmos-and-solirhythmos} -->
+### The Sense of Judging Whether the First Beat Is a Strong Beat or a Weak Beat Is Influenced by Language Rhythm
 
-### 最初の拍が強拍弱拍かを判断する感覚は言語リズムの影響を受ける
+**Music always has weak beats and strong beats**. Is the beat first heard a weak beat or a strong beat? The moment one hears that beat, if there is only one kind of beat, only one kind of interpretation of that beat can exist. However, if there are two kinds of beats, weak beats and strong beats, then two kinds of interpretation also exist. Depending on the interpretation of that beat, completely different interpretations can simultaneously hold for exactly the same sequence of beats. That means that completely different methods of notation can be considered for exactly the same sequence of beats.
 
-**音楽には必ず、弱拍と強拍があります** ─── 最初に聴こえた拍は、弱拍なのか強拍なのか。その拍を聴いた瞬間、拍が1種類しかないならば、その拍の解釈も1種類しか存在しえません。しかし拍が弱拍と強拍の2種類あるならば、その解釈も2種類存在することになります。その拍の解釈次第で、全く同じ拍の並びに対して、全く異なる解釈が同時に成立することになります。 全く同じ拍の並びに対して、全く異なる譜面表記方法が考えられるということです。
+Is the beat first heard a weak beat or a strong beat? How should one judge the strength or weakness of that beat? This can be said to be a very basic element in interpreting music. And this method of judging strong and weak beats is influenced by the language rhythm that the person speaks as a native language.
 
-最初に聴こえた拍は、弱拍なのか強拍なのか。その拍の強弱をどの様に判定すべきなのか ─── これは音楽を解釈する上でのとても基本的な要素と言えます。 そしてこの強弱拍の判断方法は、その人が母語として話す言語リズムに影響を受けます。
+* Syllable-timed languages
+    * There is a tendency to recognize the first beat as the weak beat of an eighth note.
+* Stress-timed languages
+    * They recognize the first beat as the weak beat of an eighth note, or as the weak beat of an eighth note preceding the weak beat of a quarter note.
+* Mora-timed languages
+    * They always recognize the first beat as the strong beat of beat 1.
 
-* シラブル拍言語
-    * 最初の拍を8分音符の弱拍と認識する傾向がある
-* ストレス拍言語
-    * 最初の拍を8分音符の弱拍、或いは4分音符弱拍に先行する8分音符弱拍と認識する。
-* モーラ拍言語
-    * 最初の拍を必ず1拍目の強拍と認識する。
+The following matters are explained regarding this problem.
 
-この問題について以下の事柄を説明します。
+* Method of observation
+* Theory necessary for analyzing the observation results
+* Method of analyzing the observation results
+* Hypothesis obtained from the observations
 
-* 観察方法
-* 観察結果の分析に必要な理論
-* 観察結果の分析の方法
-* 観察から得られた仮説
+### What Is {{<meta var.ONSET_STRUCTURING_AXIS.en>}} <!-- {#onset-structuring-axis} -->
 
-### {{<meta var.ONSET_STRUCTURING_AXIS.en>}}とは  <!-- {#onset-structuring-axis} -->
+Up to now, we have looked in order at the characteristics of language rhythm in syllable timing, stress timing, and mora timing. There are differences among languages in the order of strong beats and weak beats. The positional relationship between the syllable nucleus and the onset consonant is the direction of the order of strong beats and weak beats. This is called here **{{<meta var.ONSET_STRUCTURING_AXIS.en>}}**.
 
-これまでシラブル拍・ストレス拍・モーラ拍と順番に言語リズムの特徴について見てきました。強拍弱拍の順序には言語によって違いがあります。音節核と頭子音の位置関係が強拍弱拍の順序の向きがあります。このことをここでは **{{<meta var.ONSET_STRUCTURING_AXIS.en>}}** と呼びます。
-
-* シラブル拍リズム言語  (**拍の順番→ 弱強**)
-    * 母音を等間隔に発音する。
+* Syllable-timed-rhythm languages (**order of beats -> weak-strong**)
+    * Vowels are pronounced at equal intervals.
     * {{<meta var.MOP.en>}}
-        * 末子音は出来るだけ頭子音としてまとめて発音する。
-* ストレス拍リズム言語 (**拍の順番→ 弱強**)
-    * シラブル拍リズム言語の全ルールを踏襲しルール追加する。
-    * アクセントのある母音を等間隔に発音する。
-    * アクセントのない母音と子音を縮小してアクセントのある母音の等間隔性を守る。
-    * 頭音節最大化原則 （MPOP＝Maximal Prosodic Onset Principle)
-        * 末音節は頭音節にできるだけまとめて発音する。
-* モーラ拍言語 (**拍の順番→ 強弱、又は強強… **)
-    * 母音ないしは子音が等間隔に並んでいる。
-    * 頭子音最小化原則 (MiOP = Minimum Onset Principle)
-        * 末子音、及び多重子音は、前シラブルの後方に追従するように新たにシラブルを作成し、それぞれの子音をばらしてから発音する。
+        * Final consonants are grouped and pronounced as onset consonants as much as possible.
+* Stress-timed-rhythm languages (**order of beats -> weak-strong**)
+    * They follow all the rules of syllable-timed-rhythm languages and add rules.
+    * Accented vowels are pronounced at equal intervals.
+    * Unaccented vowels and consonants are reduced so that the equal spacing of accented vowels is preserved.
+    * Maximal Prosodic Onset Principle (MPOP = Maximal Prosodic Onset Principle)
+        * Coda syllables are grouped and pronounced as onset syllables as much as possible.
+* Mora-timed languages (**order of beats -> strong-weak, or strong-strong...**)
+    * Vowels or consonants are arranged at equal intervals.
+    * Minimum Onset Principle (MiOP = Minimum Onset Principle)
+        * Final consonants and consonant clusters create new syllables so as to follow behind the previous syllable, and are pronounced after separating each consonant.
 
-この様に、言語によって、頭子音をまとめる位置を決める方向の違いがあります。これが{{<meta var.ONSET_STRUCTURING_AXIS.en>}}です。
+In this way, depending on the language, there is a difference in the direction that determines the position where onset consonants are grouped. This is {{<meta var.ONSET_STRUCTURING_AXIS.en>}}.
 
-### {{<meta var.LINGUISTIC_RHYTHM_PROJECTION_THEORY.en>}}とは
+### What Is {{<meta var.LINGUISTIC_RHYTHM_PROJECTION_THEORY.en>}}
 
-{{<meta var.ONSET_STRUCTURING_AXIS.en>}}は音楽の強拍弱拍の順序を決めます。 このことをここでは {{<meta var.LINGUISTIC_RHYTHM_PROJECTION_THEORY.en>}} と呼びます。
+{{<meta var.ONSET_STRUCTURING_AXIS.en>}} determines the order of strong beats and weak beats in music. This is called here {{<meta var.LINGUISTIC_RHYTHM_PROJECTION_THEORY.en>}}.
 
- {{<meta var.RECURSIVE_PROSODIC_EQUIVALENCE_PRINCIPLE.en>}} によって、{{<meta var.ONSET_STRUCTURING_AXIS.en>}} も再帰的に適用が出来るという仮説によって、言語を超えて音楽のリズムにもOSAを適用したものが {{<meta var.MMOP.en>}}  及び {{<meta var.MiMOP.en>}}  です。
+By the hypothesis that, through {{<meta var.RECURSIVE_PROSODIC_EQUIVALENCE_PRINCIPLE.en>}}, {{<meta var.ONSET_STRUCTURING_AXIS.en>}} can also be applied recursively, what applies OSA to musical rhythm across language is {{<meta var.MMOP.en>}} and {{<meta var.MiMOP.en>}}.
 
-そして言語と音楽だけでなく、更に歩き方やスポーツ格闘などその他の行動原理にも反映させたものをここでは **{{<meta var.PROACTIVE_DIVISIONISM.en>}} ( PD＝Proactive Divisionism )**  **{{<meta var.REACTIVE_APPENDISM.en>}} ( RA=Reactive Appendism )** と呼びます。
+And what reflects this not only in language and music but further in other principles of behavior such as ways of walking and sports/fighting is here called **{{<meta var.PROACTIVE_DIVISIONISM.en>}} (PD = Proactive Divisionism)** and **{{<meta var.REACTIVE_APPENDISM.en>}} (RA = Reactive Appendism)**.
 
-* シラブル拍/ストレス拍の{{<meta var.MOP.en>}}、及びストレス拍の {{<meta var.MPOP.en>}}
-    * → **弱強リズム認識**が音楽にも適用される
-        * → {{<meta var.MMOP.en>}}
-            * → {{<meta var.PROACTIVE_DIVISIONISM.en>}}
-* モーラ拍の {{<meta var.MiOP.en>}}
-    * → **強弱リズム認識**が音楽にも適用される
-        * → {{<meta var.MiMOP.en>}}
-            * → {{<meta var.REACTIVE_APPENDISM.en>}}
+* {{<meta var.MOP.en>}} of syllable timing / stress timing, and {{<meta var.MPOP.en>}} of stress timing
+    * -> **weak-strong rhythm recognition** is also applied to music
+        * -> {{<meta var.MMOP.en>}}
+            * -> {{<meta var.PROACTIVE_DIVISIONISM.en>}}
+* {{<meta var.MiOP.en>}} of mora timing
+    * -> **strong-weak rhythm recognition** is also applied to music
+        * -> {{<meta var.MiMOP.en>}}
+            * -> {{<meta var.REACTIVE_APPENDISM.en>}}
 
-### {{<meta var.PROACTIVE_DIVISIONISM.en>}}と{{<meta var.REACTIVE_APPENDISM.en>}} <!-- {#proactive-divisionism-and-reactive-appendism} -->
+### {{<meta var.PROACTIVE_DIVISIONISM.en>}} and {{<meta var.REACTIVE_APPENDISM.en>}} <!-- {#proactive-divisionism-and-reactive-appendism} -->
 
-**核 Nucleus** と **頭子音 Onset** の位置関係 ── これこそが日本語と他言語との根本的な違いです。 言語における核 Nucleus は、音楽における**強拍**のような役割を果たします。 各言語が聴覚上で核(Nucleus)の**前**に頭子音(Onset)を配置しているか、あるいは**後**に配置しているかという認知上の傾向の違いが、音楽におけるリズム認識 ── すなわち、**強拍の前に弱拍を置くか、後に置くか** ── というリズム順序の違いへと反映されるのです。この強拍弱拍の順番認識が言語発音構造上の拍リズム認識と相関関係があるという仮説を、ここでは**<ruby><rb>律動</rb><rt>リズム</rt></ruby>的頭子音最大化原則（RMOP = Rhythmic Maximal Onset Principle ）** と呼びます。
+The positional relationship between **Nucleus** and **Onset**: this is exactly the fundamental difference between Japanese and other languages. The nucleus in language plays a role like the **strong beat** in music. The difference in cognitive tendency among languages as to whether onset consonants are placed **before** the nucleus on the auditory side, or placed **after** it, is reflected in the difference in rhythm recognition in music, that is, the difference in rhythm order of **placing weak beats before strong beats, or after them**. The hypothesis that this recognition of the order of strong beats and weak beats has a correlation with the beat-rhythm recognition of language pronunciation structure is here called the **Rhythmic Maximal Onset Principle (RMOP = Rhythmic Maximal Onset Principle)**.
 
-**核（Nucleus）** は、音楽で言うところの強拍の様なものです。
+The **Nucleus** is like the strong beat in music.
 
-シラブル拍・ストレス拍では音節核と同時に母音を発音します。つまり母音が強拍の様なものです。そして子音は弱拍の様なものです。そして、子音は母音の前後にあります。しかし**頭子音最大化原則(MOP=Maximize Onset Principle)** によって末子音は全て頭子音にまとめられます。つまり**子音は必ず母音の前に配置**されます。ここから<span style="font-size:200%">シラブル拍・ストレス拍は、弱拍を先にくるものとして認識し、強拍を弱拍の後ろとして認識している</span>のです。
+In syllable timing and stress timing, vowels are pronounced at the same time as the syllable nucleus. In other words, vowels are like strong beats. And consonants are like weak beats. And consonants are before and after vowels. However, by the **Maximize Onset Principle (MOP = Maximize Onset Principle)**, all final consonants are grouped into onset consonants. In other words, **consonants are always arranged before vowels**. From this, <span style="font-size:200%">syllable timing and stress timing recognize weak beats as things that come first, and recognize strong beats as being behind weak beats</span>.
 
-モーラ拍では、音節核と同時に子音を発音します。つまり子音自体が強拍の様なものになります。そして子音が極度に短く、母音を子音の直後に発音します。子音がない場合は、母音を音節核と同時に発音します。 そしてモーラ拍には末子音がなく頭子音最大化原則(MOP=Maximize Onset Principle)を持ちません。その代わりに頭子音最小化原則=MiOP によって全ての子音・末子音をバラバラにしたうえでそれぞれに新たにシラブルを作成し、どんどん後方に追従するように追加して、シラブル数がどんどんと後方に伸びていきます。 つまり<span style="font-size:200%">**モーラ拍には強拍しかありません。全ては後方へと伸びていく強拍の連続**</span>なのです。 <span style="font-size:200%">**弱拍を持たないために、後ろに続く強拍と弱拍の区別がつきません**</span>。
+In mora timing, consonants are pronounced at the same time as the syllable nucleus. In other words, consonants themselves become like strong beats. And consonants are extremely short, and vowels are pronounced immediately after consonants. When there are no consonants, vowels are pronounced at the same time as the syllable nucleus. And mora timing has no final consonants and does not have the Maximize Onset Principle (MOP = Maximize Onset Principle). Instead, by the Minimum Onset Principle = MiOP, all consonants and final consonants are first broken apart, new syllables are created for each of them, and they are added so as to follow farther and farther behind, so the number of syllables extends farther and farther backward. In other words, <span style="font-size:200%">**mora timing has only strong beats. Everything is a succession of strong beats extending backward**</span>. <span style="font-size:200%">**Because it does not have weak beats, it cannot distinguish between strong beats and weak beats that continue behind**</span>.
 
-これが弱拍を持つシラブル拍・ストレス拍との大きな違いです。
+This is the large difference from syllable timing and stress timing, which have weak beats.
 
-<span style="font-size:200%">弱拍が強拍の前にあると認識することの本質は、強拍の位置の予想</span>です。 手を叩く時に、そこにまだない強拍の存在を仮定してその位置を予想しているからこそ、自分の叩く弱拍が強拍よりも前に聴こえるのです。
+<span style="font-size:200%">The essence of recognizing that weak beats are before strong beats is prediction of the position of the strong beat</span>. It is precisely because, when clapping hands, one assumes the existence of a strong beat that is not there yet and predicts its position, that the weak beat one claps sounds before the strong beat.
 
-弱拍の後に続くまだない強拍の位置を予想する為には、現在のテンポがどの程度なのかを予想する必要があります。そしてそれだけでなく次の音符の音価が何なのか…八分音符なのか四分音符なのか二分音符なのか…全てを前もって予想している必要があります。予想であるからこそ、外れることがあります。外れた場合には修正も必要となります。こうして演奏中に強拍の位置を修正しながら弱拍を演奏し続けるという行為を恒常的に行い続ける必要があります。
+In order to predict the position of the not-yet-existent strong beat that follows after a weak beat, it is necessary to predict what the current tempo is. And not only that, it is necessary to predict in advance what the note value of the next note is: whether it is an eighth note, a quarter note, a half note, and so on. Because it is a prediction, it can miss. When it misses, correction also becomes necessary. In this way, it is necessary to continue constantly performing the act of continuing to play weak beats while correcting the position of the strong beat during performance.
 
-弱拍が強拍よりも後ろにあると認識することの本質は、受動的な追従です。次に起こる未来のまだ起きていない拍の位置を予想するのではなく、既に起こった既に存在する拍に対して反応しながら行動する受動的に追従して弱拍の位置を決めているため、既に存在する強拍の後ろに弱拍があると感じるのです。
+The essence of recognizing that weak beats are behind strong beats is passive following. Rather than predicting the position of the future beat that will happen next and has not yet happened, one passively follows and determines the position of the weak beat while reacting to a beat that has already happened and already exists, and therefore one feels that the weak beat is behind the strong beat that already exists.
 
-強拍が聞こえてから行動を起こし、強拍が聞こえてから一定時間待って手を動かす。強拍が聞こえてから一定時間待って、次の強拍を演奏する。 ─── 全ての行動が何らかのトリガを聞いてから追従して開始するという原理に基づいているのです。
+After hearing the strong beat, one starts an action, and after hearing the strong beat, one waits a fixed time and moves one's hand. After hearing the strong beat, one waits a fixed time and plays the next strong beat. All actions are based on the principle of starting by following after hearing some kind of trigger.
 
-これは<span style="font-size:200%">日本人が時間を分割するという感覚を持っていない</span>ことを隠喩しています ─── このことは観察によって簡単に証明することができます。その方法は、 二人でペアになって、交互に手を叩くことです。しばらくやってみるとわかりますが、日本人は交互のタイミングを維持することが出来ず同時に収束してしまいます。これは日本人以外の人にはとても容易いことですが、日本人だけが交互手叩きを行うことが出来ないのです。
+This metaphorically indicates that <span style="font-size:200%">Japanese people do not have the sense of dividing time</span>. This can be easily proved by observation. The method is for two people to form a pair and clap hands alternately. One finds after trying for a while that Japanese people cannot maintain alternating timing and converge into simultaneity. This is very easy for people other than Japanese, but only Japanese people cannot perform alternating clapping.
 
-この追従の感覚は、分割にはなり得ません。何故ならば、次の拍を予想している人は、未来の拍の位置を知って、過去の拍の位置を知っている為に、中間地点を決定することが出来るからです。追従の感覚で弱拍を認識すると、過去の拍の位置だけを知っており、未来の拍の位置を知らないため、中間地点を決定することが出来ません。
+This sense of following cannot become division. The reason is that a person predicting the next beat can determine the midpoint because they know the position of the future beat and know the position of the past beat. When one recognizes weak beats with a sense of following, one knows only the position of past beats and does not know the position of future beats, and therefore cannot determine the midpoint.
 
-ストレス拍・シラブル拍の分割のあるリズム概念をここでは **{{<meta var.PROACTIVE_DIVISIONISM.en>}}(Proactive Divisionism)** と呼びます。またモーラ拍の分割のないリズム概念をここでは**{{<meta var.REACTIVE_APPENDISM.en>}} (Reactive Appendism)** と呼びます。
+The rhythm concept with division of stress timing and syllable timing is here called **{{<meta var.PROACTIVE_DIVISIONISM.en>}} (Proactive Divisionism)**. Also, the rhythm concept without division of mora timing is here called **{{<meta var.REACTIVE_APPENDISM.en>}} (Reactive Appendism)**.
 
-### {{<meta var.SCHIZORHYTHMOS_ENG.en>}}と{{<meta var.SOLIRHYTHMOS_ENG.en>}} <!-- { #schizorhythmos-and-solirhythmos-again} -->
+### {{<meta var.SCHIZORHYTHMOS_ENG.en>}} and {{<meta var.SOLIRHYTHMOS_ENG.en>}} <!-- { #schizorhythmos-and-solirhythmos-again} -->
 
-強拍と弱拍が存在する為には必ず２拍が必要になります。そこに１拍しかなければ、それは強拍にも弱拍にもなりません。強拍がそこにありそれを分割する拍が表れて初めてそれは強拍と弱拍になります。強拍と弱拍は、ストレス拍リズム・シラブル拍リズムの発音構造自体が持っているリズム構造の本質です。 このリズムは必ず２拍が対になって演奏されるのは、シラブルは必ず頭子音を持っており、母音を持っており、末子音を頭子音につなげて必ず頭子音・母音の順番で二拍に分けて発音するという習慣から来ています。
+For strong beats and weak beats to exist, two beats are always necessary. If there is only one beat there, it becomes neither a strong beat nor a weak beat. Only when a strong beat is there and a beat that divides it appears do they first become a strong beat and a weak beat. Strong beats and weak beats are the essence of the rhythm structure possessed by the pronunciation structure itself of stress-timed rhythm and syllable-timed rhythm. The reason this rhythm is always performed as a pair of two beats comes from the habit that syllables always have onset consonants, always have vowels, and always connect final consonants to onset consonants and pronounce them divided into two beats in the order onset consonant and vowel.
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">二手に分かれて交互に手を叩きあうパターンが特徴的な演奏ですが、この交互に手を叩くリズムは、日本語が持っていないリズムで、日本人はしばこのリズムを演奏出来ません。<a href="https://twitter.com/hashtag/%E3%82%AA%E3%83%95%E3%83%93%E3%83%BC%E3%83%88%E3%81%A7%E6%80%9D%E8%80%83%E3%81%99%E3%82%8B%E8%AA%9E%E5%AD%A6?src=hash&amp;ref_src=twsrc%5Etfw">#オフビートで思考する語学</a><br><br>Palmas por Siguiriya - Alberto Garcia en Alexandre Tharaud <a href="https://t.co/dWHEhDa3rB">https://t.co/dWHEhDa3rB</a> <a href="https://t.co/0smzAPa6Lo">pic.twitter.com/0smzAPa6Lo</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1707718860319891633?ref_src=twsrc%5Etfw">September 29, 2023</a></blockquote></div>
 
-しかしモーラ拍リズム（日本語）には２拍以上を連続して演奏するという習慣自体を持っていません。モーラ拍リズムの拍は常に孤立しています。
+However, mora-timed rhythm (Japanese) itself does not have the habit of continuously performing two or more beats. The beats of mora-timed rhythm are always isolated.
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">日本のリズムには１拍しかない。強拍弱拍が成立する為には２拍必要だが日本語は１拍しか持たないので強拍弱拍という概念自体が存在しない ── 日本文化には動きのない美しさ…雅楽の笙（しょう）の様に無限に続く様な世界観がある。<a href="https://twitter.com/hashtag/%E3%82%AA%E3%83%95%E3%83%93%E3%83%BC%E3%83%88%E3%81%A7%E6%80%9D%E8%80%83%E3%81%99%E3%82%8B%E8%AA%9E%E5%AD%A6?src=hash&amp;ref_src=twsrc%5Etfw">#オフビートで思考する語学</a> <a href="https://t.co/wJklGwmWN3">pic.twitter.com/wJklGwmWN3</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1948142143668990071?ref_src=twsrc%5Etfw">July 23, 2025</a></blockquote></div>
 
-日本の相撲の土俵入りなどを見るとわかるように、日本のリズムは等間隔に連続しておらず、しばしば孤立しています。これはモーラ拍リズムの発音構造から来ていると考えられます。二重子音末子音を持たず、可能な限り１シラブル（１モーラ）１頭子音に分割して、それぞれを単独の拍として発音しようとするモーラ拍リズムは、それぞれの拍が孤立しています。 強拍弱拍という分割の概念ではなく、飽くまでもそれぞれが孤立しており、前拍に追従していくリズムです。
+As can be seen by looking at things like the ring-entering ceremony of Japanese sumo, Japanese rhythm is not continuously at equal intervals and is often isolated. This is thought to come from the pronunciation structure of mora-timed rhythm. Mora-timed rhythm, which has no consonant clusters or final consonants and divides as much as possible into one syllable (one mora), one onset consonant, trying to pronounce each as an independent beat, has each beat isolated. It is not the concept of division into strong beats and weak beats, but a rhythm in which each remains isolated and follows the previous beat.
 
-ストレス拍リズム・シラブル拍リズムの音楽に現れる、強拍と弱拍の様に分割が前提となっているリズムをここでは、**分裂拍(Schizorhythmos)** と呼びます。またモーラ拍リズムの分割されず孤立している拍のことをここでは **孤立拍（Solirhythmos)** と呼びます。
+The rhythm that appears in the music of stress-timed rhythm and syllable-timed rhythm, in which division like strong beats and weak beats is the premise, is here called **Schizorhythmos**. Also, beats of mora-timed rhythm that are not divided and are isolated are here called **Solirhythmos**.
 
-### <ruby><rb>日本的追従律動</rb><rt>タテノリ</rt></ruby>について
+### About Japanese Reactive Rhythm
 
-{{<meta var.REACTIVE_APPENDISM.en>}}(Reactive Appendism) は、言語だけでなく音楽にも影響を与えていることを見てきました。{{<meta var.REACTIVE_APPENDISM.en>}}は、音楽だけでなく、音楽を含めた日本人の全ての習慣に深い影響を与えています。これが <ruby><rb>日本的追従律動</rb><rt>タテノリ</rt></ruby> です。
+We have seen that {{<meta var.REACTIVE_APPENDISM.en>}} (Reactive Appendism) affects not only language but also music. {{<meta var.REACTIVE_APPENDISM.en>}} deeply affects not only music but all habits of Japanese people including music. This is Japanese reactive rhythm.
 
-例えば、終わらない残業などがこれに当たります。始まる時間はとても正確なのに終わる時間は全く正確ではないことは日本人の悪しき習慣と言われて久しいですが直る気配も直す気配も全くありません。これこそが <ruby><rb>日本的追従律動</rb><rt>タテノリ</rt></ruby> の一例です。 コンビニで１人がレジに行くと全員レジに行ってレジが混みだす ─── これも<ruby><rb>日本的追従律動</rb><rt>タテノリ</rt></ruby> の一例です。１人トイレに行くとみんなで一緒にトイレにいかないと気がすまない。これも<ruby><rb>日本的追従律動</rb><rt>タテノリ</rt></ruby> です。 広い道端で、鉢合わせになった二人・・・右に避けると右に避ける、左に避けると左に避ける。何度避けてもぶつかりそうになる。日本にいると「お前が見ていないからだ！」と責任転嫁することも可能ですが、海外の人混みでこの挙動は極度に目立ちます。これも<ruby><rb>日本的追従律動</rb><rt>タテノリ</rt></ruby> の典型的な例です。他にもたくさんの例があります。 日本人の全ての挙動を<ruby><rb>日本的追従律動</rb><rt>タテノリ</rt></ruby> が支配しています。 ─── このことについては、稿を改めて [**日本語が人間の動作の認識に与える影響の仮説**](/offbeat-count/influence-of-japanese-language-on-cognition/ja/) にて詳細に議論します。
+For example, endless overtime work corresponds to this. It has long been said that it is a bad Japanese habit that starting times are very accurate while ending times are not accurate at all, but there is absolutely no sign either of it improving or of anyone trying to improve it. This is exactly one example of Japanese reactive rhythm. When one person goes to the register in a convenience store, everyone goes to the register and the register becomes crowded: this too is one example of Japanese reactive rhythm. When one person goes to the toilet, everyone feels dissatisfied unless they go to the toilet together. This too is Japanese reactive rhythm. On a wide roadside, two people run into each other. If one avoids to the right, the other also avoids to the right; if one avoids to the left, the other also avoids to the left. No matter how many times they avoid, they almost collide. In Japan it is possible to shift responsibility by saying "It is because you were not looking!", but in crowds overseas this behavior stands out extremely. This too is a typical example of Japanese reactive rhythm. There are many other examples as well. All behavior of Japanese people is governed by Japanese reactive rhythm. As for this, it will be discussed in detail separately in [**The Hypothesis of the Influence of Japanese on the Recognition of Human Action**](/offbeat-count/influence-of-japanese-language-on-cognition/ja/).
 
-ここでは <ruby><rb>日本的追従律動</rb><rt>タテノリ</rt></ruby> が音楽のリズムに対して与えている大きな影響について次節以降で見ていきます。そしてこれが日本人の英語音痴の本質に横たわっていることを見ていきます。
+Here, from the next section onward, we will look at the large influence that Japanese reactive rhythm gives to musical rhythm. And we will see that this lies under the essence of Japanese people's weakness in English.
+## What Is {{<meta var.METRE.en>}} <!-- {#the-crossing-point-of-language-and-music} -->
 
-## {{<meta var.METRE.en>}}とは <!-- {#the-crossing-point-of-language-and-music} -->
+{{<meta var.METRE.en>}} is one of the technical terms of English chanting poetry. This metre has a deep relationship with the order of strong beats and weak beats in music. Here we will look at what metre is, what kinds there are, and what kind of influence it gives to language.
 
-{{<meta var.METRE.en>}}とは、英語の詩吟用語のひとつです。この詩吟の<ruby><rb>韻律</rb><rt>ミータ/Metre</rt></ruby>は、音楽での強拍弱拍の順序と深い関係があります。ここでは<ruby><rb>韻律</rb><rt>ミータ/Metre</rt></ruby>とは何か、そしてどのような種類があり、言語に対してどの様な影響を与えているかを見ていきます。
+### The Importance of {{<meta var.METRE.en>}}: The Crossing Point of Language and Music
 
-### {{<meta var.METRE.en>}}の重要性 〜 言語と音楽の交差点
+Metre is something like the 5-7-5 form of haiku in English, and is one of the very important expressive methods of the English language. It is closely intertwined with the pronunciation structure of English stress-timed rhythm, and it is no exaggeration to say that understanding metre has the importance of understanding English pronunciation. Metre is not only the most basic knowledge for understanding English, but also the source of all intellectual activity of English, extending not only to English literature but to all fields such as philosophy of science, giving great influence not only to all of English musical culture but being the main trunk of musical culture itself, and it can be said to be the most basic knowledge for understanding English. Rhyme is the soul of English.
 
-<ruby><rb>韻律</rb><rt>ミータ/Metre</rt></ruby>とは英語での俳句の五七五形式の様なもので、英語という言語の非常に重要な表現手法のひとつです。英語のストレス拍リズムの発音構造と密接に絡み合っており、<ruby><rb>韻律</rb><rt>ミータ/Metre</rt></ruby> を理解することが英語の発音を理解することを言って過言ではない重要性があります。<ruby><rb>韻律</rb><rt>ミータ/Metre</rt></ruby>は英語を理解する為の最も基礎的な知識であるだけでなく、英語の全知的活動の根源であり、それは英文学だけでなく科学哲学など全ての領域に及び、英語の音楽文化の全ての大きな影響を与えるだけでなく、音楽文化の基幹そのものであり英語の理解の最も基礎的な知識と言えます。ライムは英語の魂です。
+English has a deep culture of chanting poetry. Occupying an important element of these chanting-poetry cultures is metre. Many of the chanting poems written by Shakespeare make use of metre. It is not rare even in scientific papers and technical explanatory books for chanting poetry to be cited and touch on contents that cannot be understood unless differences in pronunciation are understood.
 
-英語には重厚な詩吟文化があります。これらの詩吟文化の重要な要素を占めているのは <ruby><rb>韻律</rb><rt>ミータ/Metre</rt></ruby> です。 シェークスピアが書いた詩吟の多くは<ruby><rb>韻律</rb><rt>ミータ/Metre</rt></ruby> が活用されています。 科学の論文や技術解説書などでもしばしば詩吟が引用されて発音上の差が理解できないと理解できないような内容に触れられている事は稀ではありません。
+In Japan, the importance of this metre is not recognized at all. Japanese is a language of **ideographic characters** formalized by kanji, and pronunciation tends to be treated lightly, but English is a language of **phonetic characters**, and the characters themselves contain many playful elements of pronunciation. It is not rare that even in scientific papers expressions appear that cannot be understood unless one understands differences of pronunciation.
 
-日本では、この<ruby><rb>韻律</rb><rt>ミータ/Metre</rt></ruby>の重要性は全く認識されていません。英語は、漢字によって形式化される**表意文字**の言語で、発音が軽視される傾向がありますが、英語は**表音文字**の言語であり文字自体に発音上の遊びの要素が多分に含まれています。科学論文などにもしばしば発音上の違いがわからないと理解出来ない表現が現れることも稀ではありません。
+This metre, which should be learned at the very beginning of English study, is treated in Japan as advanced content to be researched in graduate-school theses in English departments. It can be said that Japanese English education learns first the basic knowledge that should be learned last.
 
-この英語の学習の一番最初に学ぶべき<ruby><rb>韻律</rb><rt>ミータ/Metre</rt></ruby>は、日本では、英文科大学院の論文で研究する様な高度な内容として取り扱われています。一番最初に学ぶべき基礎知識を、一番最後に学んでいるのが日本の英語教育と言えます。
+Encountering metre begins with Nursery Rhymes heard and seen in childhood. Nursery Rhyme is generally translated as "children's song," but this too is a culture with a deep meaning far beyond children's songs. By hearing Nursery Rhymes from early childhood, when one cannot even read letters, there is an effect of deeply internalizing the pronunciation structure of English stress-timed rhythm.
 
-<ruby><rb>韻律</rb><rt>ミータ/Metre</rt></ruby>との出会いは、幼少期に見聞きするナーザリライム (Nursery Rhyme) から始まります。ナーザリライムは「童謡」と一般的には訳されますが、これも童謡を遥かに超えた深い意味のある文化です。文字も読めない様な幼少期からナーザリライムを聴くことにより、英語のストレス拍リズムの発音構造を深く内面化するという効果があります。
+### Basic Knowledge of {{<meta var.METRE.en>}} = Stress Beats
 
-### {{<meta var.METRE.en>}}の基礎知識＝ストレス拍
+It is no exaggeration to say that the basis of metre begins with accent and ends with accent.
 
-<ruby><rb>韻律</rb><rt>ミータ/Metre</rt></ruby> の基礎は、アクセントに始まりアクセントに終わると言って過言ではありません。
+Accent is sometimes translated as "strong and weak" or as "stress" and "unstress," but generally it has nothing to do with the strength or weakness of sound or the height or low of sound. In English (a stress-timed language), there is the rule that **syllables with accent are pronounced long** and **syllables without accent are pronounced short**. And the following rule is the most important rule of English.
 
-アクセントは「強弱」と訳されたり「強勢」「弱勢」と訳されることもありますが、一般的に音の強弱・音の高低とは何も関係がありません。英語（ストレス拍言語）では、**アクセントのあるシラブルを長く発音する** そして **アクセントのないシラブルは短く発音する** というルールがあります。そして次のルールが英語の最も重要なルールです。
-
-* 英語（ストレス拍リズム）では・・・
-    * アクセントのある拍をメトロノームの様に一定間隔で発音する。
-    * アクセントのない拍を短く発音することでアクセントのある拍の一定間隔を維持する。
+* In English (stress-timed rhythm) ...
+    * Beats with accent are pronounced at fixed intervals like a metronome.
+    * By pronouncing beats without accent short, the fixed interval of beats with accent is maintained.
 
 
-次の例を見てみます。
+Let us look at the following example.
 
 |       |       |          |         |          |          |           |
 | :---: | :---: | :------: | :-----: | :------: | :------: | :-------: |
@@ -1568,65 +1534,65 @@ music</span>
 |   7   |  The  | **boys** | will be | **play** |   -ing   | **games** |
 |   8   |  The  | **boys** | will be | **play** | -ing the | **games** |
 
-Boys play games の３シラブルにアクセントがあります。この３つのシラブルが一定間隔で発音されます。そしてこの間にアクセントのないシラブルが短く挟まれます。 これが英語の発音の最も基礎的なルールです。
+There are accents on the three syllables of Boys play games. These three syllables are pronounced at fixed intervals. And between them, syllables without accent are inserted briefly. This is the most basic rule of English pronunciation.
 
-このルールを<ruby><rb>韻律</rb><rt>ミータ/Metre</rt></ruby> を学ぶことにより、順番に習得して行きます。
+By learning this rule through metre, one acquires it in order.
 
-### {{<meta var.METRE.en>}}には多くの形式がある
+### {{<meta var.METRE.en>}} Has Many Forms
 
- <ruby><rb>韻律</rb><rt>ミータ/Metre</rt></ruby> には３０程度の形式があります。それぞれの形式は、強弱の組み合わせ順によって定義されます。そのなかでも最も基礎的な形式は、弱強格（アイエムビック＝iambic) と強弱格（トロキーク＝trochaic)と呼ばれています。以下は、ウィキペディアの<ruby><rb>韻律</rb><rt>ミータ/Metre</rt></ruby> について説明する記事の韻律一覧の日本語抄訳です。
+Metre has about thirty forms. Each form is defined by the order of the combination of strong and weak. Among them, the most basic forms are called iambic and trochaic. Below is a Japanese excerpted translation of the list of metres in the Wikipedia article explaining metre.
 
-#### 二音節韻律(ダイシラブルズ・Disyllables)
+#### Disyllables
 
-_[Macron and breve](https://en.wikipedia.org/wiki/Systems_of_scansion#Classical_scansion_--_macron_and_breve "Systems of scansion") notation:_ 強= stressed/long syllable, 弱= unstressed/short syllable
+_[Macron and breve](https://en.wikipedia.org/wiki/Systems_of_scansion#Classical_scansion_--_macron_and_breve "Systems of scansion") notation:_ Strong = stressed/long syllable, Weak = unstressed/short syllable
 
-| 弱     | 弱     | [pyrrhus](https://en.wikipedia.org/wiki/Pyrrhic "Pyrrhic")        |
+| Weak   | Weak   | [pyrrhus](https://en.wikipedia.org/wiki/Pyrrhic "Pyrrhic")        |
 | ------ | ------ | ----------------------------------------------------------------- |
-| 弱     | **強** | [iamb](https://en.wikipedia.org/wiki/Iamb_\(foot\) "Iamb (foot)") |
-| **強** | 弱     | [trochee](https://en.wikipedia.org/wiki/Trochee "Trochee")        |
-| **強** | **強** | [spondee](https://en.wikipedia.org/wiki/Spondee "Spondee")        |
+| Weak   | **Strong** | [iamb](https://en.wikipedia.org/wiki/Iamb_\(foot\) "Iamb (foot)") |
+| **Strong** | Weak | [trochee](https://en.wikipedia.org/wiki/Trochee "Trochee")        |
+| **Strong** | **Strong** | [spondee](https://en.wikipedia.org/wiki/Spondee "Spondee")        |
 
-#### 三音説韻律(トリシラブルズ・Trisyllables)
+#### Trisyllables
 
-| 弱     | 弱     | 弱     | [tribrach](https://en.wikipedia.org/wiki/Tribrach_\(poetry\) "Tribrach (poetry)") |
+| Weak   | Weak   | Weak   | [tribrach](https://en.wikipedia.org/wiki/Tribrach_\(poetry\) "Tribrach (poetry)") |
 | ------ | ------ | ------ | --------------------------------------------------------------------------------- |
-| **強** | 弱     | 弱     | [dactyl](https://en.wikipedia.org/wiki/Dactyl_\(poetry\) "Dactyl (poetry)")       |
-| 弱     | **強** | 弱     | [amphibrach](https://en.wikipedia.org/wiki/Amphibrach "Amphibrach")               |
-| 弱     | 弱     | **強** | [anapaest](https://en.wikipedia.org/wiki/Anapaest "Anapaest"),                    |
-| 弱     | **強** | **強** | [bacchius](https://en.wikipedia.org/wiki/Bacchius "Bacchius")                     |
-| **強** | 弱     | **強** | [cretic,amphimacer](https://en.wikipedia.org/wiki/Cretic "Cretic"),               |
-| **強** | **強** | 弱     | [antibacchius](https://en.wikipedia.org/wiki/Antibacchius "Antibacchius")         |
-| **強** | **強** | **強** | [molossus](https://en.wikipedia.org/wiki/Molossus_\(poetry\) "Molossus (poetry)") |
+| **Strong** | Weak | Weak | [dactyl](https://en.wikipedia.org/wiki/Dactyl_\(poetry\) "Dactyl (poetry)")       |
+| Weak | **Strong** | Weak | [amphibrach](https://en.wikipedia.org/wiki/Amphibrach "Amphibrach")               |
+| Weak | Weak | **Strong** | [anapaest](https://en.wikipedia.org/wiki/Anapaest "Anapaest"),                    |
+| Weak | **Strong** | **Strong** | [bacchius](https://en.wikipedia.org/wiki/Bacchius "Bacchius")                     |
+| **Strong** | Weak | **Strong** | [cretic,amphimacer](https://en.wikipedia.org/wiki/Cretic "Cretic"),               |
+| **Strong** | **Strong** | Weak | [antibacchius](https://en.wikipedia.org/wiki/Antibacchius "Antibacchius")         |
+| **Strong** | **Strong** | **Strong** | [molossus](https://en.wikipedia.org/wiki/Molossus_\(poetry\) "Molossus (poetry)") |
 
-#### 四音節韻律（テトラシラブルズ・Tetrasyllables）
+#### Tetrasyllables
 
-| 弱     | 弱     | 弱     | 弱     | tetrabrach, proceleusmatic                                                             |
+| Weak | Weak | Weak | Weak | tetrabrach, proceleusmatic                                                             |
 | ------ | ------ | ------ | ------ | -------------------------------------------------------------------------------------- |
 |        |        |        |        |                                                                                        |
-| **強** | 弱     | 弱     | 弱     | primus [paeon](https://en.wikipedia.org/wiki/Paeon_\(prosody\) "Paeon (prosody)")      |
-| 弱     | **強** | 弱     | 弱     | secundus paeon                                                                         |
-| 弱     | 弱     | **強** | 弱     | tertius paeon                                                                          |
-| 弱     | 弱     | 弱     | **強** | quartus paeon                                                                          |
+| **Strong** | Weak | Weak | Weak | primus [paeon](https://en.wikipedia.org/wiki/Paeon_\(prosody\) "Paeon (prosody)")      |
+| Weak | **Strong** | Weak | Weak | secundus paeon                                                                         |
+| Weak | Weak | **Strong** | Weak | tertius paeon                                                                          |
+| Weak | Weak | Weak | **Strong** | quartus paeon                                                                          |
 |        |        |        |        |                                                                                        |
-| **強** | **強** | 弱     | 弱     | major [ionic](https://en.wikipedia.org/wiki/Ionic_meter "Ionic meter"), double trochee |
-| 弱     | 弱     | **強** | **強** | minor ionic, double iamb                                                               |
-| **強** | 弱     | **強** | 弱     | ditrochee                                                                              |
-| 弱     | **強** | 弱     | **強** | diiamb                                                                                 |
-| **強** | 弱     | 弱     | **強** | [choriamb](https://en.wikipedia.org/wiki/Choriamb "Choriamb")                          |
-| 弱     | **強** | **強** | 弱     | antispast                                                                              |
+| **Strong** | **Strong** | Weak | Weak | major [ionic](https://en.wikipedia.org/wiki/Ionic_meter "Ionic meter"), double trochee |
+| Weak | Weak | **Strong** | **Strong** | minor ionic, double iamb                                                               |
+| **Strong** | Weak | **Strong** | Weak | ditrochee                                                                              |
+| Weak | **Strong** | Weak | **Strong** | diiamb                                                                                 |
+| **Strong** | Weak | Weak | **Strong** | [choriamb](https://en.wikipedia.org/wiki/Choriamb "Choriamb")                          |
+| Weak | **Strong** | **Strong** | Weak | antispast                                                                              |
 |        |        |        |        |                                                                                        |
-| 弱     | **強** | **強** | **強** | first epitrite                                                                         |
-| **強** | 弱     | **強** | **強** | second epitrite                                                                        |
-| **強** | **強** | 弱     | **強** | third epitrite                                                                         |
-| **強** | **強** | **強** | 弱     | fourth epitrite                                                                        |
+| Weak | **Strong** | **Strong** | **Strong** | first epitrite                                                                         |
+| **Strong** | Weak | **Strong** | **Strong** | second epitrite                                                                        |
+| **Strong** | **Strong** | Weak | **Strong** | third epitrite                                                                         |
+| **Strong** | **Strong** | **Strong** | Weak | fourth epitrite                                                                        |
 |        |        |        |        |                                                                                        |
-| **強** | **強** | **強** | **強** | dispondee                                                                              |
+| **Strong** | **Strong** | **Strong** | **Strong** | dispondee                                                                              |
 
-### {{<meta var.NURSERY_RHYME.en>}}について
+### About {{<meta var.NURSERY_RHYME.en>}}
 
-{{<meta var.METRE.en>}}は英語の基礎的な弱強リズムを全パターン含んでいるため、これに慣れ親しむことによって、ストレス拍リズムのリズムの概念を効率よく身につけることが出来ます。{{<meta var.METRE.en>}}が実際に使われている実例で、もっとも学習に適しているものは {{<meta var.NURSERY_RHYME.en>}} です。
+Because {{<meta var.METRE.en>}} contains all patterns of the basic weak-strong rhythm of English, by becoming familiar with it, one can efficiently acquire the concept of rhythm of stress-timed rhythm. Among actual examples in which {{<meta var.METRE.en>}} is actually used, the one most suitable for study is {{<meta var.NURSERY_RHYME.en>}}.
 
-{{<meta var.NURSERY_RHYME.en>}} の歌詞を聴いて聴き取りの練習をしたり、覚えて一緒に歌える用にしたりすることで、ストレス拍リズムに特徴的なリンキングや弱拍先行などのリズムを体得していくことが出来ます。
+By listening to the lyrics of {{<meta var.NURSERY_RHYME.en>}}, practicing listening, memorizing them, and making oneself able to sing together, one can bodily acquire rhythms characteristic of stress-timed rhythm such as linking and weak-beat precedence.
 
 <div class="center-box"><iframe  class="rhythmpedia-iframe" src="https://www.youtube.com/embed/Gmrj5-70xV4?si=SUOz6xR-GLKGOi0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
@@ -1636,51 +1602,50 @@ _[Macron and breve](https://en.wikipedia.org/wiki/Systems_of_scansion#Classical_
 
 ## {{<meta var.MLWBOR.en>}} <!-- {#multi-layered-weak-beat-precedence} -->
 
-拍には強拍と弱拍の2種類があることを見ていきます。そして強拍は必ずしも先に現れるわけではなく、しばしば弱拍が先に演奏されることを見ていきます。次に弱拍・強拍は、4分音符だけではなく全ての音価の音符に存在することを見てみます。各音価の強拍弱拍は、結果的に弱拍に多層構造を生み出します。この弱拍の多層構造に弱拍先行が加わると、リズムが**頭合わせ構造**から**尻合わせ構造**へと移行することを見てみます。
+We will see that beats have two kinds, strong beats and weak beats. And we will see that strong beats do not necessarily appear first, and that weak beats are often performed first. Next, we will see that weak beats and strong beats exist not only in quarter notes but in notes of all note values. The strong beats and weak beats of each note value, as a result, produce a multilayered structure in weak beats. We will see that when weak-beat precedence is added to this multilayered structure of weak beats, rhythm shifts from a **head-alignment structure** to a **tail-alignment structure**.
+### What Are Strong Beats and Weak Beats
 
-### 強拍弱拍とは
+#### With Only One Beat, Rhythm Does Not Arise
 
-#### １拍だけではリズムは生まれない
-
-もしもそこに拍が一つしか存在しなければ、それはリズムとして成立しません。なぜなら、リズムという時間的な構造は、**対比の上に成立する感覚**だからです。次の例を見てみます。
+If there is only one beat there, it does not hold as rhythm. The reason is that the temporal structure called rhythm is a **sense that is established on contrast**. Let us look at the following example.
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">リズムには最低二音が必要。一音しかなければそれはリズムとして成立しない。二音あればそこに弱拍と強拍が成立する。それを聴く人はどちらが弱拍かでどちらが強拍かを判定する必要に迫られる。この限られた時間内での判断の必要性がリズムの緊張感の源に存在する。<a href="https://twitter.com/hashtag/%E3%82%AA%E3%83%95%E3%83%93%E3%83%BC%E3%83%88%E3%81%A7%E6%80%9D%E8%80%83%E3%81%99%E3%82%8B%E8%AA%9E%E5%AD%A6?src=hash&amp;ref_src=twsrc%5Etfw">#オフビートで思考する語学</a> <a href="https://t.co/1QiPtCFGzg">pic.twitter.com/1QiPtCFGzg</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1944485752970355051?ref_src=twsrc%5Etfw">July 13, 2025</a></blockquote></div>
 
-波が打ち寄せては引いていく ─── この時に波は「打ち寄せる」「引いていく」の２つの対比的関係性があります。波は打ち寄せる一方では成立せず、引いていく一方でも成立しません。 日は静かに昇り沈んでいく ─── 日は昇る一方でも沈む一方でも成立しません。
+Waves come crashing in and then pull back. At this time, waves have the two contrastive relationships of "coming in" and "pulling back." Waves do not hold with only coming in, nor do they hold with only pulling back. The sun quietly rises and sets. The sun does not hold with only rising, nor does it hold with only setting.
 
 <!-- ABOUT_RMOP -->
 
-拍が一つしか存在しなければ、そこにリズムは成立しません。何故ならば、リズムという時間的構造は、**対比的な関係性の上に成立する感覚**だからです。 対比が成立する為に、少なくとも二つの拍が存在する必要があります。そして**その２つの間に相対的な機能差（強拍と弱拍）が生じたとき**、初めて私達はそこにリズムという時間的構造を認識します。すなわち、リズムとは単なる『**一音の繰り返し**』ではなく『**関係性の知覚**』によって生まれるものなのです。この現象をここでは「**リズムの二項対立性**」と呼びます。『**リズムの二項対立性**』は、リズムに意味的・構造的役割を持たせるための**最小構成単位** だと考えられます。
+If there is only one beat, rhythm does not hold there. The reason is that the temporal structure called rhythm is a **sense established on contrastive relationships**. For contrast to hold, at least two beats need to exist. And only **when a relative functional difference (strong beat and weak beat) arises between those two** do we first recognize the temporal structure called rhythm there. That is, rhythm is not merely the "**repetition of one sound**" but something born by the "**perception of relationships**." This phenomenon is here called the "**binary opposition of rhythm**." It can be thought that the "**binary opposition of rhythm**" is the **minimum compositional unit** for giving semantic and structural roles to rhythm.
 
-このリズムの二項対立性を概念化したものが**弱拍／強拍**と言えます。
+What conceptualizes this binary opposition of rhythm can be said to be **weak beats / strong beats**.
 
-#### １拍だけでは弱拍／強拍は生まれない
+#### With Only One Beat, Weak Beats / Strong Beats Do Not Arise
 
-よってそこに拍が一拍しかなければ、それは強拍か弱拍か判別出来ず、強拍/弱拍の関係が成立しません。 つまり強拍と弱拍は、そこに２つの音があって初めて成立する相対的な関係といえます。 ─── このことをここでは **弱強二拍単位説** と呼びます。この**弱強二拍単位説**は、ジャズやファンクなどの音楽で特徴的なバックビートを説明する時の重要なキーワードとなります。
+Therefore, if there is only one beat there, one cannot determine whether it is a strong beat or a weak beat, and the relationship of strong beat / weak beat does not hold. In other words, strong beats and weak beats can be said to be a relative relationship that holds only when there are first two sounds there. This is here called the **weak-strong two-beat unit theory**. This **weak-strong two-beat unit theory** becomes an important keyword when explaining the backbeat characteristic of music such as jazz and funk.
 
-モーラ拍リズム言語（日本語）を母国語とする人は、言語の発音構造上１モーラに１拍しか持たないという制約を持っています。つまりモーラ拍リズムの言語にはリズムが存在しません。
+People whose native language is a mora-timed-rhythm language (Japanese) have, in the pronunciation structure of language, the constraint that one mora has only one beat. In other words, rhythm does not exist in mora-timed-rhythm languages.
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">日本のリズムには１拍しかない。強拍弱拍が成立する為には２拍必要だが日本語は１拍しか持たないので強拍弱拍という概念自体が存在しない ── 日本文化には動きのない美しさ…雅楽の笙（しょう）の様に無限に続く様な世界観がある。<a href="https://twitter.com/hashtag/%E3%82%AA%E3%83%95%E3%83%93%E3%83%BC%E3%83%88%E3%81%A7%E6%80%9D%E8%80%83%E3%81%99%E3%82%8B%E8%AA%9E%E5%AD%A6?src=hash&amp;ref_src=twsrc%5Etfw">#オフビートで思考する語学</a> <a href="https://t.co/wJklGwmWN3">pic.twitter.com/wJklGwmWN3</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1948142143668990071?ref_src=twsrc%5Etfw">July 23, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
 
-ストレス拍リズム言語・シラブル拍リズム言語の音楽を演奏する人々は、そこに１拍しかないかのように演奏していても、心の中でその拍を無意識のうちに分割して２拍として演奏しています。つまり**１拍しかなくてもその拍を弱拍として認識したり、或いは１拍しかなくてもその前に弱拍の休符があると認識**していたりします。これが**弱強二拍単位説**です。
+People who perform music of stress-timed-rhythm languages and syllable-timed-rhythm languages, even when performing as though there is only one beat there, unconsciously divide that beat in their minds and perform it as two beats. In other words, **even if there is only one beat, they recognize that beat as a weak beat, or they recognize that even if there is only one beat, there is a weak-beat rest before it**. This is the **weak-strong two-beat unit theory**.
 
-モーラ拍リズム言語を母国語とする人は、言語認識の制約上 **弱強二拍単位説** を認識出来ないという盲点を持っています。
+People whose native language is a mora-timed-rhythm language have the blind spot that, because of the constraints of language recognition, they cannot recognize the **weak-strong two-beat unit theory**.
 
-#### 弱拍／強拍はリズムの本質
+#### Weak Beats / Strong Beats Are the Essence of Rhythm
 
-このように、**リズムの二項対立性**は、時間の中で「対比」を成立させるための最小単位として機能します。その機能を象徴する表現が**強拍／弱拍**の関係です。つまり強拍と弱拍とは、単なる音量の強弱差を表すものではなく、**リズムという構造そのものを成り立たせる基盤的な関係性**そのものなのです。
+In this way, the **binary opposition of rhythm** functions as the minimum unit for establishing "contrast" in time. The expression symbolizing that function is the relationship of **strong beats / weak beats**. In other words, strong beats and weak beats do not represent merely differences in sound volume; they themselves are the **foundational relationship that makes the structure called rhythm hold**.
 
-リズムを私たちが知覚するということは、即ち「どこを主と捉え、どこを副と捉えるか」を**一定時間内で判断するプロセス**を経ています。この判断のプロセス ── つまり、**拍の間に構造的な意味差を見出す知覚作用**──こそが、リズムの本質に他なりません。
+The fact that we perceive rhythm means that we go through a **process of judging within a fixed time which part is taken as principal and which part is taken as subsidiary**. This process of judgment, that is, **the perceptual act of finding a structural difference in meaning between beats**, is exactly the essence of rhythm.
 
-したがって、**強拍／弱拍の構造は、リズムの外側に付与される装飾的な性質ではなく、リズムがリズムとして成立するために不可欠な内在的構造**であると捉えるべきです。この視点に立てば、「強拍／弱拍」は単なる演奏上の指示や感覚的強弱ではなく、**時間構造を意味的に分節化するための認知的メカニズム**であり、結果として **リズムの意味**が生まれます。
+Therefore, the **structure of strong beats / weak beats should be understood not as an ornamental property added from outside rhythm, but as an indispensable immanent structure for rhythm to hold as rhythm**. Standing on this viewpoint, "strong beats / weak beats" are not merely directions for performance or sensory differences in strength, but a **cognitive mechanism for segmenting temporal structure semantically**, and as a result the **meaning of rhythm** is born.
 
-故に ──   **強拍／弱拍とは、リズムそのものの本質的構造**といえます。
+Therefore, **strong beats / weak beats can be said to be the essential structure of rhythm itself**.
 
-#### 弱が起で強が結
+#### Weak Is the Rise and Strong Is the Conclusion
 
-日は昇り沈む ─── これを弱拍／強拍で表すとどちらが弱拍でどちらが強拍でしょうか。きっと**強拍で日が昇り、弱拍で日が沈む** …とお考えになったと思われます。この順序の認識は、その人が母国語として話す言語の認識に大きく影響を受けます。特に日本語のようなモーラ拍リズム言語を母国語として話す人は、それ以外の言語を話す人々の認識と大きな違いを持っています。この認識の違いを説明することがこの本の大きな目標の一つでもあります。
+The sun rises and sets. When this is expressed in weak beats / strong beats, which is the weak beat and which is the strong beat? Surely you thought that **the sun rises on the strong beat, and the sun sets on the weak beat**. This recognition of order is greatly influenced by the recognition of the language a person speaks as their native language. In particular, people whose native language is a mora-timed-rhythm language such as Japanese have a large difference from the recognition of people who speak other languages. Explaining this difference in recognition is also one of the large goals of this book.
 
-モーラ拍リズム以外の言語を母国語とする人々はしばしば逆の認識を持っています。つまり、しばしばシラブル拍言語・ストレス拍言語話者は「**弱拍で日が昇り、強拍で日が沈む**」と認識しています。 「波は打ち寄せては引いていく」もしばしば同様に「**弱拍で波が打ち寄せて、強拍で波が引いていく**」と認識しています。
+People whose native language is a language other than mora timing often have the opposite recognition. In other words, speakers of syllable-timed languages and stress-timed languages often recognize that **the sun rises on the weak beat, and the sun sets on the strong beat**. Likewise, "waves come crashing in and then pull back" is also often recognized as **the waves come crashing in on the weak beat, and the waves pull back on the strong beat**.
 
 <!-- コメント →→ -->
 <!--
@@ -1695,270 +1660,261 @@ _[Macron and breve](https://en.wikipedia.org/wiki/Systems_of_scansion#Classical_
 シラブル拍言語
 -->
 
-弱拍は英語でしばしば「**アップビート**」と呼ばれることがあります。これは指揮者の指揮棒になぞらえた表現です。指揮者は壇上で指揮するにあたって弱拍で指揮棒を振り上げ、強拍で指揮棒を振り下ろすでしょう。この動きになぞらえて、弱拍は英語で「**アップビート**」と呼ばれるのです。モーラ拍リズム言語である日本語を母国語とする人では、しばしばこの認識は逆になります。つまり、強拍で指揮棒を振り上げ、弱拍で指揮棒を振り下ろす…と認識するでしょう。
+Weak beats are often called "**upbeats**" in English. This is an expression likened to a conductor's baton. When a conductor conducts on stage, the baton is raised on the weak beat and brought down on the strong beat. By analogy with this movement, weak beats are called "**upbeats**" in English. For people whose native language is Japanese, a mora-timed-rhythm language, this recognition often becomes the reverse. In other words, they will recognize it as raising the baton on the strong beat and bringing the baton down on the weak beat.
 
-このモーラ拍リズム言語の順序認識が逆転するメカニズムを<ruby><rb>律動</rb><rt>リズム</rt></ruby>的頭子音最大化原則（RMOP = Rhythmic Maximal Onset Principle ）と呼びます。律動リズム的頭子音最大化原則については [音節核と頭子音との位置関係が強拍弱拍順序認識を決める](#音節核と頭子音との位置関係が強拍弱拍順序認識を決める) で説明しました。
+This mechanism by which the order recognition of mora-timed-rhythm languages becomes reversed is called the Rhythmic Maximal Onset Principle (RMOP = Rhythmic Maximal Onset Principle). As for the Rhythmic Maximal Onset Principle, it was explained in [The Positional Relationship Between the Syllable Nucleus and Onset Consonant Determines Recognition of the Order of Strong and Weak Beats](#音節核と頭子音との位置関係が強拍弱拍順序認識を決める).
 
-#### 弱拍と強拍の定義
-**強拍** と **弱拍** の定義を振り返ってみます。音符が２つ以上あった時に小節上に現れる奇数番目の音符を**強拍**と、そして小節上に現れる偶数番目の音符を**弱拍**と呼びます。
+#### Definition of Weak Beats and Strong Beats
+Let us look back at the definitions of **strong beats** and **weak beats**. When there are two or more notes, the odd-numbered notes appearing in the measure are called **strong beats**, and the even-numbered notes appearing in the measure are called **weak beats**.
 
-各音価にそれぞれ強拍と弱拍があります。
+Each note value has its own strong beats and weak beats.
 
-例えば強拍弱拍を四分音符の上で見てみると次のようになります。
+For example, if we look at strong beats and weak beats on quarter notes, it becomes as follows.
 
 ![](/offbeat-count/attachments/beat-orientation-explained-4th-with-caption.png)
 
-強拍弱拍を八分音符の上で見てみると次のようになります。
+If we look at strong beats and weak beats on eighth notes, it becomes as follows.
 
 ![](/offbeat-count/attachments/beat-orientation-explained-8th-with-caption.png)
 
-強拍弱拍を二分音符の上で見てみると次のようになります。
+If we look at strong beats and weak beats on half notes, it becomes as follows.
 
 ![](/offbeat-count/attachments/beat-orientation-explained-half-with-caption.png)
+### What Are Layered Beats
 
-### 多層拍とは
+#### Weak Beats Divide Strong Beats
 
-#### 弱拍は強拍を分割する
-
-２分音符と２つの４分音符を例にとって考えてみます。
+Let us consider, taking as an example, a half note and two quarter notes.
 
 ![](/offbeat-count/attachments/Pasted%20image%2020250716041121.png)
 
 
-この図では、橙色の星印が打音（アタック）を表しています。赤色の線が持続音（サスティン）を表しています。２分音符と４分音符の違いの本質は音符の長さですが、このことを改めて考えてみると、**音の長さ**と**打点と打点の距離**という２つの要素がそこにあることがわかります。
+In this figure, the orange stars represent attacks. The red lines represent sustained sounds. The essence of the difference between half notes and quarter notes is the length of the note, but when we think about this again, we can see that there are two elements there: **the length of the sound** and **the distance between attack points**.
 
 
 ![](/offbeat-count/attachments/Pasted%20image%2020250716043812.png)
 
-ここで打点だけに注目して考えて見ると、四分音符の強拍の打点位置は、２分音符の打点位置と同じことがわかります。
+If we think here focusing only on the attack points, we can see that the attack position of the strong beat of the quarter note is the same as the attack position of the half note.
 
 ![](/offbeat-count/attachments/Pasted%20image%2020250716044134.png)
 
-打音（アタック音）だけを考えると、４分音符の強拍を演奏することと２分音符を演奏することは全く同じことと言えます。逆に弱拍こそが２分音符との違いを際立たせている４分音符の特徴であり最も４分音符らしさを持った拍ということが言えます。
+If one thinks only about the attack sound, performing the strong beat of a quarter note and performing a half note can be said to be exactly the same thing. Conversely, it can be said that the weak beat is exactly the feature of the quarter note that makes its difference from the half note stand out, and is the beat that most has quarter-note-ness.
 
-もしもこれをどら焼きに例えるならば、どら焼きが２分音符で弱拍が４分音符といえます。
+If one were to liken this to dorayaki, the dorayaki would be the half note and the weak beat would be the quarter note.
 
 ![](/offbeat-count/attachments/splitting-notes.png)
 
-強拍は拍と拍の境目と言えます。そして弱拍は、その拍の中央にあります。つまり弱拍は、その音価の拍を分割します。
+Strong beats can be said to be the boundaries between beats. And weak beats are in the center of that beat. In other words, weak beats divide the beat of that note value.
 
 
-同じことが四分音符と８分音符にも言えます。
+The same can be said of quarter notes and eighth notes.
 
 ![](/offbeat-count/attachments/Pasted%20image%2020250716044354.png)
 
 
-ここで打点だけに注目して考えて見ると、８分音符の強拍の打点位置は、四分音符の打点位置と同じことがわかります。
+If we think here focusing only on the attack points, we can see that the attack position of the strong beat of the eighth note is the same as the attack position of the quarter note.
 
 ![](/offbeat-count/attachments/Pasted%20image%2020250716044134.png)
 
 
-このことは、全ての音価の音符についていえます。
+This can be said for notes of all note values.
 
-- ２分音符の強拍は、全音符
-- ４分音符の強拍は、２分音符
-- ８分音符の強拍は、４分音符だ。
-- １６分音符の強拍は、８分音符だ。
-- ３２分音符の強拍は、１６分音符だ。
-- ．．．（続く）
+- The strong beat of a half note is a whole note.
+- The strong beat of a quarter note is a half note.
+- The strong beat of an eighth note is a quarter note.
+- The strong beat of a sixteenth note is an eighth note.
+- The strong beat of a thirty-second note is a sixteenth note.
+- ... and so on
 
-このことを図で見てみます。
+Let us look at this in a figure.
 
 ![](/offbeat-count/attachments/layered-strong-beats.png)
 
-つまり <span style="font-size:200%;">**全ての音価の音符の強拍は必ず、その音価の倍の長さの音符と衝突する**</span> ということがわかります。
+In other words, one can see that <span style="font-size:200%;">**the strong beat of a note of every note value always collides with a note whose length is twice that note value**</span>.
 
-#### 強拍弱拍は分数で表すことが出来る
+#### Strong Beats and Weak Beats Can Be Expressed as Fractions
 
-音符の位置は、小節を一定の比率で分割したものなので、分数で小節先頭からの距離として表せるでしょう。 楽典では小節先頭拍を１拍目として数える序数を使って説明されていますが、ここでは数学の数直線のように基数を使って先頭の拍を０拍目として並べてみましょう。
+The positions of notes are obtained by dividing a measure by fixed ratios, so they can be expressed as distances from the head of the measure with fractions. In music theory, explanations are given using ordinals that count the beat at the head of the measure as beat 1, but here let us line them up using cardinal numbers like a mathematical number line, with the head beat as beat 0.
 
 ![](/offbeat-count/attachments/Pasted%20image%2020250717165456.png)
 
-ここから興味深い法則を見つけることが出来ます。
+From here, we can find an interesting law.
 
-#### 強拍は約分できる
+#### Strong Beats Can Be Reduced
 
-この各音符列上で左から数えて偶数番目（０個目・２個目・４個目・・・）の音符が強拍になります。そして奇数番目（１個目・３個目・５個目・・・）が弱拍になります。 すると全ての強拍は約分できることがわかります。
+In these note rows, the notes in even-numbered positions counting from the left (0th, 2nd, 4th ...) become strong beats. And the odd-numbered positions (1st, 3rd, 5th ...) become weak beats. Then one can see that all strong beats can be reduced.
 
 ![](/offbeat-count/attachments/Pasted%20image%2020250716050956.png)
 
-#### 弱拍は約分できない
+#### Weak Beats Cannot Be Reduced
 
-更に全ての弱拍は、約分できない分数＝既約分数になっていることがわかります。
+Furthermore, one can see that all weak beats are fractions that cannot be reduced, that is, irreducible fractions.
 
 ![](/offbeat-count/attachments/Pasted%20image%2020250716045505.png)
 
 
-分数は１つの数を表すに当たって複数通りの書き方がありますが、2/8 や 2/4などの分数は約分できます。つまり他の小さな数の組み合わせで表現することができます。
+There are multiple ways of writing fractions when expressing one number, but fractions such as 2/8 and 2/4 can be reduced. In other words, they can be expressed by combinations of other smaller numbers.
 
-#### 強拍弱拍の最適化
+#### Optimization of Strong Beats and Weak Beats
 
-**つまり強拍とは約分できる分数で表される地点にある拍のことです。ある音価（ある分母）の強拍は、必ずその分母の最大公約数で約分された数字を分母として持つ音価の音符の弱拍が存在します。そしてその音価が音楽中で最小の音価でない限り、必ず他の音価（分母）を持った拍＝強拍が存在します。 つまりある音楽の中で、ある音価で強拍に置かれた音は、必ず他の音価で強拍または弱拍に置かれた音と重複します。**
+**In other words, a strong beat is a beat located at a point expressed by a fraction that can be reduced. The strong beat of a certain note value (a certain denominator) always has the weak beat of a note of a note value whose denominator is a number reduced by the greatest common divisor of that denominator. And unless that note value is the smallest note value in the music, there is always a beat of another note value (denominator), that is, a strong beat. In other words, in a given piece of music, a sound placed on a strong beat at a certain note value always overlaps with a sound placed on a strong beat or weak beat at another note value.**
 
-ある強拍を最も大きな音価での弱拍として再解釈することをここでは**強拍弱拍の最適化**と呼びます。
+Reinterpreting a certain strong beat as the weak beat of the largest note value is called here the **optimization of strong beats and weak beats**.
 
-#### 先頭拍は必ず強拍だがより大きい音価で約分され弱拍になる
-また小節の先頭の拍は全ての音価で必ず強拍となることがわかります。
+#### The Head Beat Is Always a Strong Beat, but It Is Reduced at a Larger Note Value and Becomes a Weak Beat
+Also, one can see that the beat at the head of the measure always becomes a strong beat at every note value.
 
 ![](/offbeat-count/attachments/Pasted%20image%2020250716050850.png)
 
-しかし小節先頭の拍は強拍だからといって、弱拍が存在しない訳ではありません。この場合も前述の強拍弱拍の最適化を行うことで弱拍として解釈することが出来ます。 例えば、もしこの小節が２つあったら全音も２つあることになります。つまり２つ目の全音が弱拍となります。この様に繰り返しを前提に考えた場合、全ての強拍には対応すべき大きな音価の弱拍があることになります。
+However, just because the beat at the head of the measure is a strong beat does not mean that no weak beat exists. In this case too, it can be interpreted as a weak beat by performing the optimization of strong beats and weak beats mentioned above. For example, if there were two of these measures, there would also be two whole notes. In other words, the second whole note becomes the weak beat. Thus, when one thinks on the premise of repetition, all strong beats come to have corresponding weak beats of larger note values.
 
-#### 強拍弱拍最適化と尻合わせ
+#### Optimization of Strong and Weak Beats and Tail Alignment
 
-この考え方は結果として、音楽を聞く時に常に**前方にさかのぼってリズムを解釈しなおす習慣**を生み出します。 作曲する時に、最後に解決すべき強拍位置を最初に決め、そこから遡る様に弱拍の位置を設定していく様に考える様になります。 また音楽を聞いている時でも、最初に聴いた拍が弱拍であることを前提にして、その拍がどの音価の弱拍だったのかを推測しながら解釈する様になります。 ─── このことを **尻合わせ** と呼びます。 このことに関しては後に詳細を見ていきます。
+As a result, this way of thinking produces the habit, when listening to music, of **always going back toward the front and reinterpreting the rhythm**. When composing, one comes to think by first deciding the position of the strong beat that should be resolved at the end, and from there setting the positions of the weak beats so as to go backward. Also, even when listening to music, one comes to interpret on the premise that the beat heard first is a weak beat, while guessing what note value's weak beat that beat was. This is called **tail alignment**. As for this, we will look at it in detail later.
 
-#### 強拍は存在せず全ての拍は弱拍である
+#### Strong Beats Do Not Exist, and All Beats Are Weak Beats
 
-以上の様に考え進めると、**ある音価の強拍は、必ずその音価より大きい音価の弱拍に相当**していることがわかります。つまり全ての音価で弱拍だけを演奏すると全ての拍がお互いに衝突を回避しあって入れ違いの位置に配置されることがわかります。このことをグラフを使って見てみましょう。
+If one proceeds thinking as above, one can see that **the strong beat of a certain note value always corresponds to the weak beat of a note value larger than that note value**. In other words, if one performs only weak beats at all note values, one can see that all beats avoid colliding with each other and are arranged in alternating positions. Let us look at this using a graph.
 
 ![](/offbeat-count/attachments/layered-weak-beats-map.png)
 
-#### 弱拍の多層性
+#### Multilayered Nature of Weak Beats
 
-この時、各音価（４分音符、８分音符、１６分音符…／ ２分音符・全音符・２全音符…）の弱拍の集合をここでは **拍の層** と呼びます。
+At this time, the collection of weak beats of each note value (quarter notes, eighth notes, sixteenth notes... / half notes, whole notes, double whole notes...) is called here a **beat layer**.
 
-ジャズでは、しばしば全ての拍は弱拍だという認識を持った演奏者同士で即興演奏を行います。 この時に、ある演奏者Ａが２分音符だけを演奏した場合は、もう一方の演奏者Ｂが４分音符だけを演奏したり、突然Ａが予告なく４分音符に入れ替えて演奏したらＢが咄嗟に２分音符に切り替えて演奏したりする、臨機応変な対応を楽しむ習慣があります。
+In jazz, improvisation is often performed among performers who recognize that all beats are weak beats. At this time, if performer A plays only half notes, there is the habit of enjoying flexible responses such as performer B playing only quarter notes, or if A suddenly switches without warning and plays quarter notes, B quickly switching to half notes and playing.
 
-異なる拍の層に切り替えることをここでは **拍の層の乗り換え** と呼びます。
+Switching to a different beat layer is called here **changing beat layers**.
+### Weak-Beat-Centered Rhythm
+#### Playing Only Weak Beats
 
-### 弱拍中心のリズム
-#### 弱拍だけを演奏する
+As one technique during improvisational performance in jazz and the like, there is a method of performing under the constraint that each part plays only weak beats. For example, in rock-style band performance, the bass guitar plays the weak beats of quarter notes, the guitar plays the weak beats of eighth notes, the drums' hi-hat plays the weak beats of sixteenth notes, and the keyboard plays the weak beats of whole notes. In this way, the weak beats of each note value are played by different instruments. Then, because there are no strong beats at all, the sounds of the instruments are always played without overlapping, and they become easier to hear as if each sound stood out. When this technique is used, it even feels as though the volume of the whole band has increased. In reality, however, the overall volume has gone down, and it has the effect of reducing pain to the ears.
 
-ジャズなどの即興演奏中のひとつのテクニックとして、それぞれ各パートが弱拍しか演奏しないという制約と共に演奏する方法があります。例えばロックスタイルのバンド演奏で、ベースギターが４分音符弱拍を演奏し、ギターが８分音符弱拍を演奏し、ドラムスのハイハットが１６分音符弱拍を演奏し、キーボードが全音符弱拍を演奏する ─── というように、各音価の弱拍を異なる楽器で演奏します。すると強拍がひとつもないので各楽器が必ず重ならずに音が演奏され、音が際立った様に聴き取りやすくなります。このテクニックを使うとバンド全体の音量が上がった様にすら感じます。しかし実際には全体の音量は下がっており、耳の痛さが減るという効果があります。
-
-次のグラフは、弱拍基軸演奏テクニックを**使わず**に、強拍と弱拍を全て演奏した場合のグラフです。
+The following graph is the graph when all strong beats and weak beats are performed **without** using the weak-beat-axis performance technique.
 
 ![](/offbeat-count/attachments/layered-strong-beats.png)
 
 ![](/offbeat-count/attachments/layered-strong-beats-graph.png)
 
 
-この様に強拍が重なりあってしまうことによってアンサンブルの瞬間音量が上がってしまうことがわかります。この音の重なりは音の濁りの原因となります。また加えて、各演奏者が演奏中に各自の自音がはっきり聞こえなくなる原因となり、無意識の内に更に音量を上げて演奏するようになり、聴者の耳が痛くなりやすくなる原因となります。
+In this way, one can see that the instantaneous volume of the ensemble rises because the strong beats overlap. This overlapping of sounds becomes the cause of muddiness of sound. In addition, it becomes the cause that each performer can no longer hear their own sound clearly during performance, and they come unconsciously to play with still more volume, causing the listener's ears to become easier to hurt.
 
-音楽のスピード感の多寡は拍の分割数（サブディヴィジョン）の細かさにあります。音が重なる部分は必ず、より大きな音価の強拍の位置にある為、拍が重なれば重なるほど、最小の分割拍（サブディヴィジョン）よりも大きな音価の強拍が強調される結果となります。これは音楽のスピード感を損なう最も大きな原因となります。
+The amount of speed feeling in music lies in the fineness of the number of beat divisions (subdivisions). Because places where sounds overlap are always in the positions of strong beats of note values larger than them, the more beats overlap, the more the strong beats of note values larger than the minimum subdivided beat are emphasized as a result. This becomes the largest cause of damaging the speed feeling of music.
 
-こうならないようにする為には、強拍を演奏せず弱拍だけを演奏するようにすることです。次の図は、弱拍のみを演奏した場合のグラフです。
+To prevent this from happening, one should avoid playing strong beats and play only weak beats. The following figure is the graph when only weak beats are played.
 
 ![](/offbeat-count/attachments/layered-weak-beats.png)
 
 ![](/offbeat-count/attachments/layered-weak-beats-graph.png)
 
-全ての音価で拍が重ならず単音で鳴っています。重なりがないので全ての拍で一定の音量で抑えられています。この様に各拍が重ならずに分離していると、各パートの楽器音が大きくてもそれぞれの音が分離して聞き取りやすくなります。自音が聞こえず無意識の内に音量が上がるということがなくなり、音の濁りを減らすことができます。
+At all note values, beats sound as single tones without overlapping. Because there is no overlap, all beats are kept at a fixed volume. In this way, when each beat is separated without overlap, even if the sound of each instrument part is loud, each sound becomes easier to hear separately. The phenomenon in which one's own sound cannot be heard and the volume rises unconsciously disappears, and muddiness of sound can be reduced.
 
-#### 弱拍の有用性
+#### Usefulness of Weak Beats
 
-強拍の演奏を控えることにより拍が重ならなくなることを見てきました。拍が重ならないことのメリットをまとめてみましょう。
+We have seen that beats stop overlapping by refraining from playing strong beats. Let us summarize the merits of beats not overlapping.
 
--   音の重なりは分割数の細かさ（スピード感）を表現する妨げとなる。
--   バンド全体の音量が下がり楽器ごとの音量バランスがよくなる。
--   演奏中の平均音量が下がりバンド全体のダイナミクスレンジが大きくなる＝意図的に音を重ねた時の音量変化の落差が大きくなり、演奏にメリハリがつく。
--   タイミング変化による拍のニュアンスを表現しやすくなる。拍のタイミングをずらしても音が衝突しない。
--   バンド内での音の分離がよくなる。メロディーを弾いた時の一音一音がはっきり聞こえるようになりトーンの微妙な変化がリスナに聞こえやすくなる。
+- Sound overlap becomes an obstacle to expressing the fineness of the number of divisions (the feeling of speed).
+- The volume of the whole band goes down, and the volume balance of each instrument becomes better.
+- The average volume during performance goes down, and the dynamic range of the whole band becomes larger = the drop in volume change when sounds are intentionally overlapped becomes larger, and contrast is added to the performance.
+- It becomes easier to express the nuance of beats by timing change. Even if the timing of beats is shifted, sounds do not collide.
+- Separation of sound within the band becomes better. Each note when a melody is played becomes clearly heard, and subtle changes in tone become easier for the listener to hear.
 
-#### 弱拍と強拍には交互という概念が含まれている
+#### Strong Beats and Weak Beats Include the Concept of Alternation
 
 <!-- ABOUT_RMOP -->
 
-強拍と弱拍は『交互』という概念を含んでいます。Aさんが強拍を叩いていたらBさんは弱拍を叩く。そしてBさんが強拍を叩いていたらAさんは弱拍を叩く。この様に協力し合って交互に拍を叩くことで二倍の音価を演奏する事が出来ます。この様に複数人数で交互に手を叩くことで細かな音価を演奏することを本書では**協力グルーヴ**と呼びます。
+Strong beats and weak beats include the concept of "alternation." If person A is striking the strong beat, person B strikes the weak beat. And if person B is striking the strong beat, person A strikes the weak beat. In this way, by cooperating and striking beats alternately, it becomes possible to perform note values twice as fine. In this book, performing fine note values by multiple people clapping alternately in this way is called **cooperative groove**.
 
-**協力グルーヴ**は、ストレス拍リズム言語、シラブル拍リズム言語を母国語とする人々にとって日常的な習慣であり、ほとんどの人はその存在すら意識していません。協力グルーヴは言語自体が持っているリズム概念に**交互に叩く**という基本的感覚が含まれているからです。
+**Cooperative groove** is an everyday habit for people whose native language is a stress-timed-rhythm language or syllable-timed-rhythm language, and most people are not even conscious of its existence. This is because cooperative groove includes, in the rhythm concept possessed by language itself, the basic sense of **striking alternately**.
 
-しかしモーラ拍リズム(日本語)を母国語とする人々にとって協力グルーヴは馴染のない習慣です。何故ならばモーラ拍リズムには末子音がないことから <ruby><rb>律動</rb><rt>リズム</rt></ruby>的頭子音最大化原則（RMOP) [参照](#RMOP) を持たないからです。そのかわりにモーラ拍言語には**同時に叩く**という基本的感覚が含まれています。
+However, for people whose native language is mora-timed rhythm (Japanese), cooperative groove is an unfamiliar habit. The reason is that, because mora-timed rhythm has no final consonants, it does not have the Rhythmic Maximal Onset Principle (RMOP) [reference](#RMOP). Instead, mora-timed languages include the basic sense of **striking simultaneously**.
 
-言語リズム感覚上の**同時**と**交互**という対立概念が、モーラ拍リズム（日本語）とそれ以外のストレス拍リズム（英語）とシラブル拍リズム（フランス語）の間に、横たわっているのです。
+The opposing concepts of **simultaneous** and **alternating** at the level of language rhythm sense lie between mora-timed rhythm (Japanese) and the stress-timed rhythm (English) and syllable-timed rhythm (French) other than it.
 
-この同時と交互というリズム感覚の切り替えは、非常に難しい事がわかっています。原理的に全く違う数学的性質がそこに存在します。既に切り替えが出来る人でも、何かの拍子に切り替え間違ったり混乱して切り替えられなくなったりすることがあります ─── むしろ日常茶飯事です。ネイティブ言語として英語と日本語の両方を習得した人であっても、どちらかの言語に強い訛りを残しすことは決して稀ではありません。ネイティブではなく後天的に学習して身につけた場合であれば、なおさら高い困難を経過する必要があります。
+It is known that switching this rhythm sense of simultaneous and alternating is extremely difficult. There exist mathematical properties there that are completely different in principle. Even people who are already able to switch may, by some chance, switch wrongly or become confused and unable to switch. Rather, that is an everyday occurrence. Even for people who acquired both English and Japanese as native languages, it is by no means rare to leave a strong accent in one of the languages. If it was acquired later in life through learning and not natively, it is all the more necessary to pass through a high difficulty.
 
-日本語と英語のバイリンガルになるためには、この言語リズム感覚の切り替えが重要なキーワードとなります。
+To become bilingual in Japanese and English, switching this language-rhythm sense becomes an important keyword.
+### What Is the Order of Strong Beats and Weak Beats
 
-### 強拍弱拍の順序とは
-
-もし音が次のように2回鳴ったとすると、その音符をどのように譜面に配置するでしょうか。
+If sounds were sounded twice as follows, how would you place those notes on the score?
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">この様に２つの音が連続して並んでいるリズムをスコッチスナップと呼びます。一説では英語の元となったゲール語に起源があり、ゲール語由来の英語の主要単語にしばしば見られるリズムです。body billy money nitty gritty bitter dinner uncle Philip 等々 <a href="https://twitter.com/hashtag/%E3%82%AA%E3%83%95%E3%83%93%E3%83%BC%E3%83%88%E3%81%A7%E6%80%9D%E8%80%83%E3%81%99%E3%82%8B%E8%AA%9E%E5%AD%A6?src=hash&amp;ref_src=twsrc%5Etfw">#オフビートで思考する語学</a> v2 <a href="https://t.co/LXyKij07J6">pic.twitter.com/LXyKij07J6</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1938149704401043799?ref_src=twsrc%5Etfw">June 26, 2025</a></blockquote></div>
 
-この時、二通りの配置のしかたがあります。
+At this time, there are two ways of arranging it.
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">【音が２つ鳴った時のリズムの前後関係の認識の違い】 モーラ拍リズム（日本語）リズム認識では強拍の後ろに弱拍が追随していると認識する。（第二版） <a href="https://twitter.com/hashtag/%E3%82%AA%E3%83%95%E3%83%93%E3%83%BC%E3%83%88%E3%81%A7%E6%80%9D%E8%80%83%E3%81%99%E3%82%8B%E8%AA%9E%E5%AD%A6?src=hash&amp;ref_src=twsrc%5Etfw">#オフビートで思考する語学</a> <a href="https://t.co/beMyPDhY7L">pic.twitter.com/beMyPDhY7L</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1931607875006427196?ref_src=twsrc%5Etfw">June 8, 2025</a></blockquote></div>
 
-もしかするとこの配置が最も自然だと感じたかも知れません ───  しかし次の様に解釈することも可能です。
+Perhaps you may have felt this arrangement to be the most natural. However, it is also possible to interpret it as follows.
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">【音が２つ鳴った時のリズムの前後関係の認識の違い】 ストレス拍リズム（英語）のリズム認識では弱拍が強拍に先駆けているという順序認識になる。（第二版） <a href="https://twitter.com/hashtag/%E3%82%AA%E3%83%95%E3%83%93%E3%83%BC%E3%83%88%E3%81%A7%E6%80%9D%E8%80%83%E3%81%99%E3%82%8B%E8%AA%9E%E5%AD%A6?src=hash&amp;ref_src=twsrc%5Etfw">#オフビートで思考する語学</a> <a href="https://t.co/rPiPqopgN4">pic.twitter.com/rPiPqopgN4</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1931608649400467488?ref_src=twsrc%5Etfw">June 8, 2025</a></blockquote></div>
 
-この様に解釈しても決して間違いではありません。
+Interpreting it in this way is by no means wrong.
 
-これは2つの音が鳴った時に、どちらが**強拍**で、どちらが**弱拍**と認識するかという問題にまとめられます。
+This can be summarized into the question, when two sounds are sounded, of which one is recognized as the **strong beat** and which one is recognized as the **weak beat**.
 
-#### 強拍先行＝強弱
+#### Strong-Beat Precedence = Strong-Weak
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">【音が２つ鳴った時のリズムの前後関係の認識の違い】 モーラ拍リズム（日本語）リズム認識では強拍の後ろに弱拍が追随していると認識する。（第二版） <a href="https://twitter.com/hashtag/%E3%82%AA%E3%83%95%E3%83%93%E3%83%BC%E3%83%88%E3%81%A7%E6%80%9D%E8%80%83%E3%81%99%E3%82%8B%E8%AA%9E%E5%AD%A6?src=hash&amp;ref_src=twsrc%5Etfw">#オフビートで思考する語学</a> <a href="https://t.co/beMyPDhY7L">pic.twitter.com/beMyPDhY7L</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1931607875006427196?ref_src=twsrc%5Etfw">June 8, 2025</a></blockquote></div>
 
-この様に解釈した時、これは弱拍が強拍の後ろに配置されていると見ることが出来ます。この場合の順序は『**強弱**』です。
+When interpreted in this way, it can be seen that the weak beat is arranged behind the strong beat. In this case, the order is "**strong-weak**."
 
-#### 弱拍先行＝弱強
+#### Weak-Beat Precedence = Weak-Strong
 
-逆に
+Conversely,
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">【音が２つ鳴った時のリズムの前後関係の認識の違い】 ストレス拍リズム（英語）のリズム認識では弱拍が強拍に先駆けているという順序認識になる。（第二版） <a href="https://twitter.com/hashtag/%E3%82%AA%E3%83%95%E3%83%93%E3%83%BC%E3%83%88%E3%81%A7%E6%80%9D%E8%80%83%E3%81%99%E3%82%8B%E8%AA%9E%E5%AD%A6?src=hash&amp;ref_src=twsrc%5Etfw">#オフビートで思考する語学</a> <a href="https://t.co/rPiPqopgN4">pic.twitter.com/rPiPqopgN4</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1931608649400467488?ref_src=twsrc%5Etfw">June 8, 2025</a></blockquote></div>
 
-この様に解釈した場合、これは弱拍が強拍よりも前に配置されている見ることが出来ます。この場合の順序は『**弱強**』です。
+When interpreted in this way, it can be seen that the weak beat is arranged before the strong beat. In this case, the order is "**weak-strong**."
 
-#### 弱起とは
-ここまでに見てきた様に、拍には強拍と弱拍の２種類があります。強拍と弱拍は、小節のなかで必ず強弱、強弱という順序で並んでいます。しかし実際の音楽のなかでは強拍は必ずしも先に配置されている訳ではなく、弱拍が先に配置される形で音楽が構成されていることがあります。弱拍が先に配置されたリズムのことを<span style="font-weight:1000;font-size:300%;">弱起</span>と呼びます。
+#### What Is Anacrusis
+As we have seen up to here, beats have two kinds, strong beats and weak beats. Strong beats and weak beats are always arranged in the order strong-weak, strong-weak within a measure. However, in actual music, strong beats are not necessarily placed first, and music may be composed in a form in which weak beats are placed first. Rhythm in which weak beats are placed first is called <span style="font-weight:1000;font-size:300%;">anacrusis</span>.
 
-#### 弱起の重要性
+#### The Importance of Anacrusis
 
-この弱起の認識は、その人が母国語として話す言語に大きな影響を受けます。音楽を世界全体で見回してみると弱起が起こる頻度は非常に高いことに気付きます。音楽の種類によっては弱起の頻度は非常に高く、ほぼ毎回必弱起を演奏する場合もあります。弱起の頻度を更に踏み込んで調べてみると、実は逆に、日本だけが作曲や即興演奏で弱起をほとんど使わないということに気がつくでしょう。日本は音楽に弱起を使わないという非常に珍しい習慣を持っていることがわかります。 この習慣には理由があります ─── これは日本語が持っているモーラ拍リズムというリズム認識が引き起こす現象だからです。
+Recognition of this anacrusis is greatly influenced by the language a person speaks as their native language. Looking around music in the whole world, one notices that the frequency with which anacrusis occurs is very high. Depending on the kind of music, the frequency of anacrusis is extremely high, and there are even cases where anacrusis is necessarily performed almost every time. If one investigates the frequency of anacrusis even further, one will in fact instead notice that only Japan hardly uses anacrusis in composition and improvisation. One can see that Japan has the very rare habit of not using anacrusis in music. There is a reason for this. This is because it is a phenomenon caused by the rhythm recognition called mora-timed rhythm that Japanese has.
+### {{<meta var.MLWBOR.en>}} and Tail Alignment <!-- {#multi-layered-weak-beat-precedence-and-tail-aligning} -->
 
-
-### {{<meta var.MLWBOR.en>}}と尻合わせ <!-- {#multi-layered-weak-beat-precedence-and-tail-aligning} -->
-
-弱拍には多層性があります。そして多層の拍の上で弱拍先行が起こると**尻合わせ** という非常に興味深いリズム上の現象が起こります。この**尻合わせ**が、**音楽グルーヴの正体**です。この節ではまず多層性が何か、尻合わせとは何か、そして尻合わせが何故起こるのかそのメカニズムを見ていきます。
-
-#### 尻合わせと頭合わせ
-モーラ拍リズムのリズム認識をここでは**頭合わせ**と、そしてストレス拍リズムのリズム認識を**尻合わせ** と呼びます。
-
-#### 尻合わせ
-海外の音楽・・・ジャズやR&B、ロックではしばしばメロディーの開始点がはっきり決まっておらず、メロディーは任意の地点から漠然と開始されます。開始点ははっきり決まっていませんが、終了地点は必ず決まっており、その地点で大きな音でアクセントを入れる手法がしばしば用いられます。このリズム構造をここでは **尻合わせ** と呼びます。
+Weak beats have multilayered nature. And when weak-beat precedence occurs on multilayered beat layers, a very interesting rhythmic phenomenon called **tail alignment** occurs. This **tail alignment** is the **true identity of musical groove**. In this section, we will first look at what multilayered nature is, what tail alignment is, and the mechanism of why tail alignment occurs.
+#### Tail Alignment and Head Alignment
+Here, the rhythm recognition of mora-timed rhythm is called **head alignment**, and the rhythm recognition of stress-timed rhythm is called **tail alignment**.
+#### Tail Alignment
+In overseas music, such as jazz, R&B, and rock, often the starting point of the melody is not clearly fixed, and the melody begins vaguely from an arbitrary point. The starting point is not clearly fixed, but the ending point is always fixed, and a method is often used of putting an accent there with a large sound. This rhythm structure is here called **tail alignment**.
 
 ![](/offbeat-count/attachments/Pasted%20image%2020250609002541.png)
 
-[尻合わせ(x/twitter)](https://x.com/ats4u/status/1612304475347390466)
+[Tail Alignment (x/twitter)](https://x.com/ats4u/status/1612304475347390466)
 
-尻合わせリズム構造では４分音符の演奏順序がしばしば１２３４ではなく２３４１という順序で演奏されます。この様に必ず最後が１になるようにメロディーが配置されます。１６ビートの曲では８分音符で数えることが一般的ですが、この場合では２３４５６７８１と同様に必ず１が最後になるようにメロディーが配置されます。
+In the tail-alignment rhythm structure, the performance order of quarter notes is often not 1-2-3-4 but the order 2-3-4-1. In this way, the melody is always arranged so that 1 comes last. In sixteen-beat songs, it is common to count in eighth notes, and in this case as well the melody is arranged so that 1 always comes last, as in 2-3-4-5-6-7-8-1.
 
-これがいわゆる **グルーヴ**  の正体です。この尻合わせがあらゆる音価で同時に起こっているということが**グルーヴというリズム現象の本質**と言えます。
+This is the true identity of what is called **groove**. It can be said that the fact that this tail alignment is occurring simultaneously at all note values is **the essence of the rhythmic phenomenon called groove**.
+#### Head Alignment
 
-#### 頭合わせ
-
-中国の伝統音楽や、日本・イランなどモーラ拍言語を母国語とする国々の音楽では、しばしば繰り返しのなかでメロディーの開始地点がはっきりと決まっており、そこで大きな音でアクセントを入れる手法がしばしば用いられます。ほとんどの場合、終了地点ははっきり決まっておらず、メロディーは漠然と終わります。このリズム構造をここでは **頭合わせ** と呼びます。
+In traditional Chinese music and in the music of countries such as Japan and Iran, whose native languages are mora-timed languages, the starting point of the melody is often clearly fixed within repetition, and a method is often used of putting an accent there with a large sound. In most cases, the ending point is not clearly fixed, and the melody ends vaguely. This rhythm structure is here called **head alignment**.
 
 ![](/offbeat-count/attachments/Pasted%20image%2020250609002708.png)
 
-[頭合わせ(x/twitter)](https://twitter.com/ats4u/status/1612304530502451201)
+[Head Alignment (x/twitter)](https://twitter.com/ats4u/status/1612304530502451201)
 
-頭合わせリズム構造では、４分音符の演奏順序がしばしば１２３休という順序で演奏されます。この時４はしばしば演奏されずに休符が演奏されます。１６ビートの曲では「１２３休４５６休」（１２３休を２回繰り返し）や「１２３４５６休休」（１２３休を２倍に延長）という様に１２３休を変形した形を保ちます。
+In the head-alignment rhythm structure, the performance order of quarter notes is often performed in the order 1-2-3-rest. At this time, 4 is often not performed and a rest is performed. In sixteen-beat songs, forms transformed from 1-2-3-rest are maintained, such as "1-2-3-rest 4-5-6-rest" (repeating 1-2-3-rest twice) and "1-2-3-4-5-6-rest-rest" (extending 1-2-3-rest to twice its length).
+#### Strong-Beat Precedence in Multilayer Beat Structure
+There is a clear reason why head-alignment and tail-alignment rhythm structures are born. Whether the rhythm structure of a melody becomes head alignment or tail alignment is determined by whether the rhythm is weak-beat precedence or strong-beat precedence.
 
-#### 多層拍構造での強拍先行
-頭合わせ・尻合わせリズム構造が生まれることには、はっきりした理由があります。メロディーのリズム構造が頭合わせになるか尻合わせになるかは、リズムが弱拍先行であるか強拍先行であるかによって決まります。
-
-以下で頭合わせ・尻合わせが起こるメカニズムを見ていきます。
+Below, let us look at the mechanism by which head alignment and tail alignment occur.
 
 
-次のように4分音符が1小節に4つあったとします。ここで音符を２個ずつのグループに分け、先に現れる方を強拍、後に現れる方を弱拍と定義します。
+Suppose that, as follows, there are four quarter notes in one measure. Here, divide the notes into groups of two each, and define the one that appears first as the strong beat and the one that appears later as the weak beat.
 
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
-      <td>１拍目</td>
-      <td>２拍目</td>
-      <td>３拍目</td>
-      <td>４拍目</td>
+      <th>Position</th>
+      <td>Beat 1</td>
+      <td>Beat 2</td>
+      <td>Beat 3</td>
+      <td>Beat 4</td>
     </tr>
     <tr>
-      <th>4分音符</th>
+      <th>Quarter notes</th>
       <td>◯</td>
       <td>◯</td>
       <td>◯</td>
@@ -1967,78 +1923,52 @@ _[Macron and breve](https://en.wikipedia.org/wiki/Systems_of_scansion#Classical_
   </tbody>
 </table>
 
-これに先頭から強拍弱拍を順番に割り当てていくと次のようになります。
+If strong beats and weak beats are assigned to this in order from the beginning, it becomes as follows.
 
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr class="header">
-      <th>位置</th>
-      <td>１拍目</td>
-      <td class="offbeat-td">２拍目</td>
-      <td>３拍目</td>
-      <td class="offbeat-td">４拍目</td>
+      <th>Position</th>
+      <td>Beat 1</td>
+      <td class="offbeat-td">Beat 2</td>
+      <td>Beat 3</td>
+      <td class="offbeat-td">Beat 4</td>
     </tr>
     <tr>
-      <th>4分音符</th>
+      <th>Quarter notes</th>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
+      <th>Strong/weak</th>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
     </tr>
   </tbody>
 </table>
 
-同じ様に全ての音価に対して強拍弱拍を割り当てていくことが出来ます。 ここでは２分音符・４分音符８分音符・１６分音符を対象に、割り当てて行きます。結果は次のようになります。
+In the same way, strong beats and weak beats can be assigned to all note values. Here, they are assigned for half notes, quarter notes, eighth notes, and sixteenth notes. The result becomes as follows.
 
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
-      <td>１拍目</td>
-      <td class="offbeat-td">２拍目</td>
+      <th>Position</th>
+      <td>Beat 1</td>
+      <td class="offbeat-td">Beat 2</td>
     </tr>
     <tr>
-      <th>2分音符</th>
+      <th>Half notes</th>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-    </tr>
-  </tbody>
-</table>
-
-<table class="offbeat-onbeat-table">
-  <tbody>
-    <tr>
-      <th>位置</th>
-      <td>１拍目</td>
-      <td class="offbeat-td">２拍目</td>
-      <td>３拍目</td>
-      <td class="offbeat-td">４拍目</td>
-    </tr>
-    <tr>
-      <th>4分音符</th>
-      <td>◯</td>
-      <td class="offbeat-td">◯</td>
-      <td>◯</td>
-      <td class="offbeat-td">◯</td>
-    </tr>
-    <tr>
-      <th>強弱</th>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
+      <th>Strong/weak</th>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
     </tr>
   </tbody>
 </table>
@@ -2046,37 +1976,25 @@ _[Macron and breve](https://en.wikipedia.org/wiki/Systems_of_scansion#Classical_
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
-      <td>１</td>
-      <td class="offbeat-td">２</td>
-      <td>３</td>
-      <td class="offbeat-td">４</td>
-      <td>５</td>
-      <td class="offbeat-td">６</td>
-      <td>７</td>
-      <td class="offbeat-td">８</td>
+      <th>Position</th>
+      <td>Beat 1</td>
+      <td class="offbeat-td">Beat 2</td>
+      <td>Beat 3</td>
+      <td class="offbeat-td">Beat 4</td>
     </tr>
     <tr>
-      <th>8分音符</th>
-      <td>◯</td>
-      <td class="offbeat-td">◯</td>
-      <td>◯</td>
-      <td class="offbeat-td">◯</td>
+      <th>Quarter notes</th>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
+      <th>Strong/weak</th>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
     </tr>
   </tbody>
 </table>
@@ -2084,7 +2002,45 @@ _[Macron and breve](https://en.wikipedia.org/wiki/Systems_of_scansion#Classical_
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
+      <th>Position</th>
+      <td>1</td>
+      <td class="offbeat-td">2</td>
+      <td>3</td>
+      <td class="offbeat-td">4</td>
+      <td>5</td>
+      <td class="offbeat-td">6</td>
+      <td>7</td>
+      <td class="offbeat-td">8</td>
+    </tr>
+    <tr>
+      <th>Eighth notes</th>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+    </tr>
+    <tr>
+      <th>Strong/weak</th>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="offbeat-onbeat-table">
+  <tbody>
+    <tr>
+      <th>Position</th>
       <td>1</td>
       <td class="offbeat-td">2</td>
       <td>3</td>
@@ -2103,7 +2059,7 @@ _[Macron and breve](https://en.wikipedia.org/wiki/Systems_of_scansion#Classical_
       <td class="offbeat-td">16</td>
     </tr>
     <tr>
-      <th>16分音符</th>
+      <th>Sixteenth notes</th>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
@@ -2122,161 +2078,158 @@ _[Macron and breve](https://en.wikipedia.org/wiki/Systems_of_scansion#Classical_
       <td class="offbeat-td">◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
+      <th>Strong/weak</th>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
     </tr>
   </tbody>
 </table>
-
-#### RMOP原則を適用し弱拍を前にする
+#### Applying the RMOP Principle and Putting Weak Beats in Front
 <!-- ABOUT_RMOP -->
 
-前節で言語の音韻学の**頭子音最大化原則(MOP=Maximize Onset Principle)** が音楽上のリズムにも適用されるという **<ruby><rb>律動</rb><rt>リズム</rt></ruby>的頭子音最大化原則（RMOP = Rhythmic Maximal Onset Principle ）** という原理について紹介致しました。 この**<ruby><rb>律動</rb><rt>リズム</rt></ruby>的頭子音最大化原則（RMOP = Rhythmic Maximal Onset Principle ）** を多層の拍層に適用するとどうなるかを見ていきます。
+In the previous section, I introduced the principle called the **Rhythmic Maximal Onset Principle (RMOP = Rhythmic Maximal Onset Principle)**, by which the **Maximize Onset Principle (MOP = Maximize Onset Principle)** of language phonology is also applied to musical rhythm. Here we will look at what happens when this **Rhythmic Maximal Onset Principle (RMOP = Rhythmic Maximal Onset Principle)** is applied to multilayered beat layers.
+#### The Basics of Weak-Beat Precedence
 
-#### 弱拍先行の基本
+Let us look in order from a simple example at what happens when weak-beat precedence occurs with respect to beats on a measure.
 
-小節上の拍に対して弱拍先行が起こるとどうなるのかを簡単な例から順に見ていきます。
-
-次のように４分音符があったとします。
-
-<table class="offbeat-onbeat-table">
-  <tbody>
-    <tr>
-      <th>位置</th>
-      <td>１拍目</td>
-      <td class="offbeat-td">２拍目</td>
-      <td>３拍目</td>
-      <td class="offbeat-td">４拍目</td>
-    </tr>
-    <tr>
-      <th>4分音符</th>
-      <td>◯</td>
-      <td class="offbeat-td">◯</td>
-      <td>◯</td>
-      <td class="offbeat-td">◯</td>
-    </tr>
-    <tr>
-      <th>強弱</th>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-    </tr>
-  </tbody>
-</table>
-
-これをRMOPを適用し、弱拍が前に来るという法則を使って再音節化(Resyllabification)すると次の様になります。
+Suppose there are quarter notes as follows.
 
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
-      <td class="offbeat-td">４拍目</td>
-      <td>１拍目</td>
-      <td class="offbeat-td">２拍目</td>
-      <td>３拍目</td>
+      <th>Position</th>
+      <td>Beat 1</td>
+      <td class="offbeat-td">Beat 2</td>
+      <td>Beat 3</td>
+      <td class="offbeat-td">Beat 4</td>
     </tr>
     <tr>
-      <th>4分音符</th>
-      <td class="offbeat-td">◯</td>
+      <th>Quarter notes</th>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
+      <td class="offbeat-td">◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <th>Strong/weak</th>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
     </tr>
   </tbody>
 </table>
 
-このように４拍目が先に演奏されるようになり１２３４から**４１２３**という順序に変わりました。
+If one applies RMOP to this and resyllabifies it using the law that weak beats come in front, it becomes as follows.
 
-このことを**弱拍の先行**と呼びます。
+<table class="offbeat-onbeat-table">
+  <tbody>
+    <tr>
+      <th>Position</th>
+      <td class="offbeat-td">Beat 4</td>
+      <td>Beat 1</td>
+      <td class="offbeat-td">Beat 2</td>
+      <td>Beat 3</td>
+    </tr>
+    <tr>
+      <th>Quarter notes</th>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+      <td class="offbeat-td">◯</td>
+      <td>◯</td>
+    </tr>
+    <tr>
+      <th>Strong/weak</th>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+    </tr>
+  </tbody>
+</table>
 
-このことを譜面と音で確認してみましょう。
+In this way, beat 4 comes to be performed first, and the order changes from 1-2-3-4 to **4-1-2-3**.
 
-##### 4分音符弱拍先行のない演奏
+This is called **the precedence of weak beats**.
+
+Let us confirm this with score and sound.
+
+##### Performance Without Quarter-Note Weak-Beat Precedence
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560">4分音符の弱拍先行＝なし #グルーヴは弱拍が先<a href="https://twitter.com/ats4u/status/1950904200105480328?ref_src=twsrc%5Etfw"></a></blockquote></div>
 
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
-      <td>１拍目</td>
-      <td class="offbeat-td">２拍目</td>
-      <td>３拍目</td>
-      <td class="offbeat-td">４拍目</td>
+      <th>Position</th>
+      <td>Beat 1</td>
+      <td class="offbeat-td">Beat 2</td>
+      <td>Beat 3</td>
+      <td class="offbeat-td">Beat 4</td>
     </tr>
     <tr>
-      <th>4分音符</th>
+      <th>Quarter notes</th>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
+      <th>Strong/weak</th>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
     </tr>
   </tbody>
 </table>
 
-##### 4分音符弱拍先行のある演奏
+##### Performance With Quarter-Note Weak-Beat Precedence
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560">4分音符の弱拍先行＝あり #グルーヴは弱拍が先<a href="https://twitter.com/ats4u/status/1950904332750393729?ref_src=twsrc%5Etfw"></a></blockquote></div>
 
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
-      <td class="offbeat-td">４拍目</td>
-      <td>１拍目</td>
-      <td class="offbeat-td">２拍目</td>
-      <td>３拍目</td>
+      <th>Position</th>
+      <td class="offbeat-td">Beat 4</td>
+      <td>Beat 1</td>
+      <td class="offbeat-td">Beat 2</td>
+      <td>Beat 3</td>
     </tr>
     <tr>
-      <th>4分音符</th>
+      <th>Quarter notes</th>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <th>Strong/weak</th>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
     </tr>
   </tbody>
 </table>
 
-##### まとめ
-これが弱拍先行の基本です。 今後この弱拍先行という処理が、次々に他の音価へと波及していくことを見ていきます。
-
+##### Summary
+This is the basis of weak-beat precedence. From now on, we will see that this process called weak-beat precedence spreads one after another to other note values.
 #### 弱拍先行には複数の階層がある
 
 前章では弱拍先行するリズムの例として４分音符に於いて弱拍が強拍よりも先に演奏される場合をグラフ化して俯瞰しました。**この弱拍の先行は複数の音価の拍で同時に起こり** ます。例えば2分音符で見てみましょう。
@@ -4073,94 +4026,92 @@ _[Macron and breve](https://en.wikipedia.org/wiki/Systems_of_scansion#Classical_
 
 これで小節内の全ての音価が弱拍先行になりました。すると最初に `[ 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16 ]` のように並んでいた8分音符が `[ 2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,1 ]` という様に１が最後に来るように並び替わったことがわかります。 この様に、**全ての音価で弱拍が先行すると結果として、全ての音価の音符の序数の列は、必ず１が最後に来る様に回転します。これが弱拍先行で尻合わせが構成されるメカニズムです。**   これがいわゆる横乗りリズムの世界での16分音符の数え方です。この世界でも16分音符の順番が小節中を回転し完全に一周回って１が終了地点に来る状態になったのです。
 
-#### 尻合わせリズム構造とは
+#### What Is Tail-Alignment Rhythm Structure
 
-この様に、**全ての音価で弱拍が先行すると結果として、全ての音価の音符の序数の列は、必ず１が最後に来る様に回転します。これが弱拍先行で尻合わせが構成されるメカニズムです。**
+In this way, **when weak beats precede at all note values, as a result, the ordinal sequences of notes of all note values rotate so that 1 always comes last. This is the mechanism by which tail alignment is constructed by weak-beat precedence.**
 
-これまで全ての音価で、強拍先行で1から始まっていたリズムが、弱拍先行に移行することで１で終わるリズムに変化することを見てきました。  この始まりがなく１で終わるリズムが**尻合わせリズム**です。これに対して１で始まり終わりがないリズムを **頭合わせリズム**です。
+Up to now, we have seen that a rhythm that had begun with 1 by strong-beat precedence at all note values changes, by shifting to weak-beat precedence, into a rhythm that ends with 1. This rhythm that has no beginning and ends with 1 is **tail-alignment rhythm**. In contrast, the rhythm that begins with 1 and has no end is **head-alignment rhythm**.
 
-- 1 〜 n の拍が存在した時
-  -  **1** で始まり **n** で終わる順序で演奏される→ **頭合わせ**
-  -  **2** で始まり **1** で終わる順序で演奏される→ **尻合わせ**
+- When beats 1 to n exist
+  - Played in the order beginning with **1** and ending with **n** -> **head alignment**
+  - Played in the order beginning with **2** and ending with **1** -> **tail alignment**
 
-これまで 4分音符では**2341リズム** 、8分音符では **23456781リズム** などという呼び方をしてきましたが、16分音符で 2,3,4,5,6,7,8,9,10,11,12,13,14,15,1リズムと呼ぶのは長くて読みにくいという問題があります。
+Up to now, we have called these things **2341 rhythm** for quarter notes and **23456781 rhythm** for eighth notes, but there is the problem that for sixteenth notes, calling it a 2,3,4,5,6,7,8,9,10,11,12,13,14,15,1 rhythm is long and hard to read.
 
-更に、このリズム構造は小節の長さだけあります。複数の小節にまたがることもあります。或いは譜面に書かれない細かな音符について起こることもあります。
+Furthermore, this rhythm structure has the length of the measure. It may also extend across multiple measures. Or it may also occur with fine notes that are not written in the score.
 
-なのでこの２で始まり１で終わる順序で演奏されるリズム構造のことを**尻合わせリズム構造**と呼びます。
+Therefore, this rhythm structure that is played in the order beginning with 2 and ending with 1 is called the **tail-alignment rhythm structure**.
+### Determining the Note Value to Which a Weak Beat Belongs
 
+If the beats of rhythm did not have the two kinds of weak beats and strong beats, there would be only one kind of the beat heard first, and there would be no need to judge anything. However, in music composed of Schizorhythmos, beats are distinguished into the two kinds of weak beats and strong beats. At this time, if one judges it to be a strong beat, there is only one possibility. But if one judges that beat to be a weak beat, it becomes necessary to distinguish and judge which note value's weak beat that weak beat is. In other words, precisely because music presupposes weak beats, the person who hears that music has the need, within a fixed time, to **determine the note value to which that weak beat belongs**. This lies beneath the essence of the interestingness of rhythm.
 
-### 弱拍が属する音価の判定
+At this time, it is known that there are two kinds of people: those who feel "of course it is a strong beat," and those who feel "of course it is a weak beat." As for why there is a split between people who feel "of course it is a strong beat" and people who feel "of course it is a weak beat," we have seen up to now that it is because their sense of taking weak-beat precedence as natural is greatly influenced by the language they speak as their native language.
 
-もしもリズムの拍に弱拍と強拍の2種類がなかったら、最初に聴こえた拍は必ず1種類しか存在しないため、何も判断する必要はありません。しかし分裂拍律動で構成される音楽では、拍は弱拍と強拍の2種類に区別されます。この時もし強拍と判定するならば、その可能性は１つしかありませんが、しかしその拍を弱拍と判定するなら、その弱拍はどの音価の弱拍なのかを区別して判定する必要があります。つまり音楽が弱拍を前提しているからこそ、その音楽を耳にする人は、一定時間内に**その弱拍が属する音価を判定**する必要が生じます。これがリズムの面白さの本質に横たわっています。
+Here, rather than the reason why the feeling splits, I would like to explain why music in which weak beats precede sounds more effective. Why is American music accepted globally? Up to now, has that reason not often been spoken of in connection with American hegemony? Why does music originate from America? It is because the rhythm of American music is based on stress timing, which is more complex than syllable timing, and further because American English became more complex under the influence of various languages of Africa, South America, and Asia, so that the entertainment performance of the rhythm possessed by the language itself is high. This can be explained from a phonological viewpoint.
 
-この時「当然強拍だろう」と感じる人々と、「当然弱拍だろう」と感じる人々の二通りが存在することが知られています。 何故「当然強拍だろう」と感じる人と、或いは「当然弱拍だろう」と感じる人に分かれるのか、その理由に関しては、その人の弱拍先行を当然と考える感覚が、その人が母語として話している言語の大きな影響を受けているからだということをこれまで見てきました。
+Why is rhythm interesting? Here we will consider this in more detail.
 
-ここでは感覚が分かれる理由ではなく、何故弱拍が先行する音楽の方が効果的に聴こえるのかを説明したいと思います。 米国音楽は何故世界的に受け入れられているのか ─── その理由はこれまで米国の覇権と結びつけて語られることが多かったのではないでしょうか。 何故音楽は米国発なのか。それは米国音楽のリズムが、シラブル拍よりも複雑なストレス拍に基づいているからであり、更に米国英語が、アフリカ・南米・アジアの各種言語の影響を受けて更に複雑化したことによって、言語自体が持つリズムの娯楽性能が高いからだということが、音韻学的な視点から説明できます。
+#### An Algorithm for Determining the Note Value of Weak Beats
 
-何故リズムは面白いのか ─── このことをここではより詳細に考察してみます。
+In the previous chapter, we saw that weak beats and strong beats appear with respect to quarter notes.
 
-#### 弱拍の音価を判定するアルゴリズム
-
-前章で4分音符に対して弱拍と強拍が現れることを見ました。
-
-次の図の様に１小節のなかに4つの4分音符があったとします。
+Suppose, as in the following figure, that there are four quarter notes in one measure.
 
 ![](/offbeat-count/attachments/beat-orientation-explained-4th.png)
 
-この時、4分音符は、次の図の様に強拍と弱拍に分かれることを説明しました。
+At this time, we explained that quarter notes are divided into strong beats and weak beats as in the following figure.
 
 ![](/offbeat-count/attachments/beat-orientation-explained-4th-with-caption.png)
 
 
-ここでひとつの大きな問題が生まれます。もしも拍に強拍と弱拍の2種類が存在するとしたら、音楽の中で唐突に聴こえたある「最初の拍」は、弱拍なのでしょうか、それとも強拍なのでしょうか。
+Here one large problem arises. If beats have the two kinds of strong beats and weak beats, then is a certain "first beat" suddenly heard in music a weak beat, or is it a strong beat?
 
-もしも強拍が先行すると考えたとすると、その解釈は次のようになるでしょう。
+If one thinks that strong beats precede, the interpretation will be as follows.
 
 ![](/offbeat-count/attachments/beat-orientation-explained-4th-sw.png)
 
 
-もしも弱拍が先行すると考えたとすると、その解釈は次の様になるでしょう。
+If one thinks that weak beats precede, the interpretation will be as follows.
 
 ![](/offbeat-count/attachments/beat-orientation-explained-4th-ws.png)
 
-このように『**強拍**が先行するのが当然』と考える人が採譜した結果と『**弱拍**が先行するのが当然』と考える人が採譜した結果は、大きく異なります。
+In this way, the result transcribed by a person who thinks that "**strong beats** naturally precede" and the result transcribed by a person who thinks that "**weak beats** naturally precede" differ greatly.
 
 
 
-* １．テンポのある曲では拍が１拍しかないということはありえない。
-    * 何故なら、拍が一拍しかなかった場合、それはリズムとして成立せずテンポも存在しないからである。
-        * → もしもテンポがある曲なら拍は、必ず二拍以上ある。
-            * → その二拍について、音価（長さ）は幾らで何番目の拍にあるのかを考える必要がある。
-                * → これが**拍がニ拍ある場合の難しさの本質**にある。
-* ２． 音がニ拍あった時の難しさについて考える
-    * → 拍がニ拍あった場合、片方は必ず弱拍になる。
-        * → 最初の音が強拍だった場合、及び弱拍だった場合をそれぞれ考える。
-            * → 最初の音が強拍だったと仮定すると、それは１拍目強拍でしかありえない。何故か。
-                * → もしもそれが２拍目と４拍目だったら弱拍ということになる。
-                * → もしもそれが４分音符３拍目強拍だったとしたら、それは２分音符の弱拍ということになる。
-            * → 最初の音が弱拍だったと仮定すると、それは全音符２分音符４分音符８分音符１６分音符、つまり全ての音価の弱拍である可能性がある。
-* ３．結論
-    * → 拍が二拍ある時、そのリズムを理解する為には、その二拍の音価を判定する必要がある。その為にはその二拍が、あらゆる音価（四分音符・八分音符・一六分音符…ｎ分音符、及び 四分音符、二分音符、全音符、二全音符…ｎ全音符）の弱拍である可能性と、強拍である可能性を全て検証する必要がある。
-    * → この検証作業を一定時間内に行う必要性があることが、リズムの緊迫感を生み出す源にある。
+* 1. In a song with tempo, it is impossible that there is only one beat.
+    * The reason is that if there were only one beat, it would not hold as rhythm and tempo would not exist either.
+        * -> If it is a song with tempo, there are always at least two beats.
+            * -> About those two beats, it is necessary to think what the note value (length) is and which numbered beat they are on.
+                * -> This lies in **the essence of the difficulty when there are two beats**.
+* 2. Think about the difficulty when there are two sounds
+    * -> If there are two beats, one of them always becomes a weak beat.
+        * -> Consider respectively the case where the first sound was a strong beat and the case where it was a weak beat.
+            * -> If one assumes that the first sound was a strong beat, it can only be the strong beat of beat 1. Why?
+                * -> If it were beats 2 and 4, that would mean weak beats.
+                * -> If it were the strong beat of the third quarter note, that would mean the weak beat of a half note.
+            * -> If one assumes that the first sound was a weak beat, it may be the weak beat of whole notes, half notes, quarter notes, eighth notes, sixteenth notes, in other words the weak beat of all note values.
+* 3. Conclusion
+    * -> When there are two beats, to understand that rhythm it is necessary to determine the note values of those two beats. For that purpose, it is necessary to verify all possibilities: the possibility that those two beats are weak beats of every note value (quarter notes, eighth notes, sixteenth notes ... nth notes, and quarter notes, half notes, whole notes, double whole notes ... nth whole notes), and the possibility that they are strong beats.
+    * -> The necessity of carrying out this verification work within a fixed time lies at the source that produces the tension of rhythm.
 
-#### 音は必ず２つある
+#### There Are Always Two Sounds
 
-このことを考える時、問題を単純化する為に、音符が２つある場合を考えます。何故なら音符が１つしかない場合、それはリズムとして成立しないからです。 前章でも見たビデオをもう一度見てみましょう
+When thinking about this, to simplify the problem, let us consider the case where there are two notes. The reason is that when there is only one note, it does not hold as rhythm. Let us look once again at the video we also saw in the previous chapter.
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">リズムには最低二音が必要。一音しかなければそれはリズムとして成立しない。二音あればそこに弱拍と強拍が成立する。それを聴く人はどちらが弱拍かでどちらが強拍かを判定する必要に迫られる。この限られた時間内での判断の必要性がリズムの緊張感の源に存在する。<a href="https://twitter.com/hashtag/%E3%82%AA%E3%83%95%E3%83%93%E3%83%BC%E3%83%88%E3%81%A7%E6%80%9D%E8%80%83%E3%81%99%E3%82%8B%E8%AA%9E%E5%AD%A6?src=hash&amp;ref_src=twsrc%5Etfw">#オフビートで思考する語学</a> <a href="https://t.co/1QiPtCFGzg">pic.twitter.com/1QiPtCFGzg</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1944485752970355051?ref_src=twsrc%5Etfw">July 13, 2025</a></blockquote></div>
 
-この様に音が１つしかない場合、それはリズムとして成立しない為、除外して考えます。音符がリズムとして成立する最低の個数である２音の場合を考えます。
+In this way, when there is only one sound, it is excluded from consideration because it does not hold as rhythm. Let us consider the case of two sounds, which is the minimum number for notes to hold as rhythm.
 
-#### 音が２つあれば必ず強拍と弱拍ができる
-音が２つあった場合、そのどちらかは必ず弱拍でそのどちらかは必ず強拍になります。先行拍が**弱拍**なら後行拍は**強拍**です。先行拍が**強拍**なら後行拍は**弱拍**です。
+#### If There Are Two Sounds, Strong Beats and Weak Beats Are Always Formed
+When there are two sounds, one of them always becomes a weak beat and one of them always becomes a strong beat. If the preceding beat is a **weak beat**, the following beat is a **strong beat**. If the preceding beat is a **strong beat**, the following beat is a **weak beat**.
 
-#### 先行拍が強拍だったならそれは必ず１拍目強拍でしかありえない
-* 例としてその音符が４分音符だった時のことを考えます。
-* もし、その拍が２拍目か４拍目だったらそれは弱拍なのでここでは除外されます。
-* もし、それが４分音符３拍目強拍だったとしたら、それは２分音符の弱拍ということになります。
-* つまりもし、その拍が強拍だったとすると、それは必ず１拍目強拍ということになります。
-* これは４分音符だけでなく、全ての音価の音符に対して成立します。
+#### If the Preceding Beat Was a Strong Beat, It Can Only Be the Strong Beat of Beat 1
+* As an example, think of the case where the notes are quarter notes.
+* If that beat were beat 2 or beat 4, then it would be a weak beat, so it is excluded here.
+* If it were the strong beat of the third quarter note, then it would be the weak beat of a half note.
+* In other words, if that beat was a strong beat, it always means the strong beat of beat 1.
+* This holds not only for quarter notes but for notes of all note values.
 
 ![](/offbeat-count/attachments/single-beat-orientation-strong-1.png)
 
@@ -4172,11 +4123,11 @@ _[Macron and breve](https://en.wikipedia.org/wiki/Systems_of_scansion#Classical_
 
 ![](/offbeat-count/attachments/single-beat-orientation-strong-16.png)
 
-> 💡 もしも強拍が１拍目ではなかった場合、それは必ず弱拍として約分が出来ます。つまり必ず弱拍なのです。 [参照：強拍弱拍は分数で表すことが出来る]( #強拍弱拍は分数で表すことが出来る )
+> 💡 If a strong beat was not beat 1, it can always be reduced as a weak beat. In other words, it is always a weak beat. [Reference: Strong Beats and Weak Beats Can Be Expressed as Fractions]( #強拍弱拍は分数で表すことが出来る )
 
-#### 先行拍が弱拍だった場合その弱拍が属する音価を判断しなければならない
+#### If the Preceding Beat Was a Weak Beat, It Is Necessary to Judge the Note Value to Which That Weak Beat Belongs
 
-もし先行拍が強拍ではなかったとすると、それは必ず弱拍ということになります。その弱拍の位置として考えられる地点は、強拍とは異なりその弱拍の属する音価によって変化します。
+If the preceding beat was not a strong beat, then it is necessarily a weak beat. The point that can be considered as the position of that weak beat changes, unlike strong beats, according to the note value to which that weak beat belongs.
 
 ![](/offbeat-count/attachments/single-beat-orientation-weak-1.png)
 
@@ -4188,82 +4139,80 @@ _[Macron and breve](https://en.wikipedia.org/wiki/Systems_of_scansion#Classical_
 
 ![](/offbeat-count/attachments/single-beat-orientation-weak-16.png)
 
-もしその拍が弱拍だったとすると、その音符は４分音符の弱拍かも知れませんし、８分音符の弱拍かも知れません。１６分音符などのより細かな音価の弱拍かも知れません。或いはより長い２分音符・全音符・２全音符などの音符での弱拍かも知れません。可能性として考えられる音符は無限に存在します。無限に存在する可能性のなかでどの音符の弱拍なのかを判別するためには、予想と修正が必要になります。 まず予想を立てた上で、音楽をしばらく聴き前後の文脈から判別しながら、予想を修正しながら、実際の音価を特定する必要が発生します。
+If that beat was a weak beat, that note may be the weak beat of a quarter note, or it may be the weak beat of an eighth note. It may be the weak beat of finer note values such as sixteenth notes. Or it may be the weak beat of longer notes such as half notes, whole notes, or double whole notes. There are infinitely many notes that can be considered as possibilities. In order to distinguish which note's weak beat it is among infinitely many possibilities, prediction and correction are necessary. First one forms a prediction, then listens to the music for a while, distinguishes it from the surrounding context, corrects the prediction, and needs to identify the actual note value.
 
-#### 先行する弱拍は緊迫感を生み出す
-この様に先行する弱拍をを聴く人は、限られた時間内で、どちらが弱拍かでどちらが強拍かを判定する必要に迫られます。この作業の難しさがリズムの緊張感の源に存在します。
+#### Preceding Weak Beats Produce Tension
+In this way, a listener hearing preceding weak beats is forced, within a limited time, to determine which is the weak beat and which is the strong beat. The difficulty of this work lies at the source of rhythmic tension.
 
-#### 先行する強拍は安定感を生み出す
-逆に先行する強拍は、その可能性が必ず１拍目強拍に限定される為、考えるべき可能性の数が大幅に減少する結果となります。これにより先行する強拍は、それを聴く人に安定感をもたらします。
+#### Preceding Strong Beats Produce Stability
+Conversely, preceding strong beats, because their possibility is always limited only to the strong beat of beat 1, result in greatly reducing the number of possibilities that need to be considered. By this, preceding strong beats bring a sense of stability to the listener.
 
-#### 先行する弱拍が長ければ長いほど躍動感が増す
-その音楽のリズムに於いて、先行する弱拍が長ければ長いほど躍動感が増すということがあります。これは弱起（弱拍先行）の重要な性質のひとつです。
+#### The Longer the Preceding Weak Beat Is, the Greater the Sense of Dynamism Becomes
+In the rhythm of that music, there is the aspect that the longer the preceding weak beat is, the greater the sense of dynamism becomes. This is one of the important properties of anacrusis (weak-beat precedence).
 
-先行する弱拍の長さが8分音符、4分音符、2分音符…と長くなるに連れて、演奏は困難になっていきます。特に即興演奏上で長い弱起を演奏する為には、曲全体の構成をよく理解した上で将来起こることを予想しながら、かつ予想外に発生した出来事を加味した上で予想を修正しながら演奏する必要があります。 弱起が長くなればなるほど、即興演奏に求められる構成力を含めた高度な作曲能力が必要となります。
+As the length of the preceding weak beat becomes longer, as eighth notes, quarter notes, half notes, and so on, performance becomes more difficult. Especially in order to perform long anacrusis in improvisation, it becomes necessary to perform while well understanding the overall structure of the piece, predicting what will happen in the future, and correcting those predictions while taking into account unexpected events that actually occur. The longer the anacrusis becomes, the more advanced compositional ability including the structural power required for improvisation becomes necessary.
 
-曲全体の構成を把握しつつ、曲の細部に存在する弱起を正確に把握する為に作られた、音楽認識の方法論が **声出しオフビートカウント**です。
+The methodology of musical recognition created in order to accurately grasp the fine anacrusis existing in the details of the piece while grasping the overall structure of the piece is **spoken Offbeat Count**.
 
-#### 先行する弱拍が完全になくなると音楽から躍動感が完全になくなる
-もしその音楽から弱起が完全になくなると、その音楽から躍動感が失われます。これも弱起（弱拍先行）の重要な性質のひとつです。
+#### If Preceding Weak Beats Completely Disappear, the Sense of Dynamism Completely Disappears from Music
+If anacrusis were to disappear completely from that music, the sense of dynamism would be lost from that music. This too is one of the important properties of anacrusis (weak-beat precedence).
 
-躍動感はダンスミュージックだけでなく、バラードやミドルテンポなど、全ての音楽に求められる音楽の基本的な要素です。音楽から躍動感が失われれば、それはダンスミュージックとしての機能を失うだけでなく、バラードの持っている情緒感や落ち着きのある空間も失われ、ミドルテンポの音楽が持っている静かな動きのある楽しさも失われます。
+Sense of dynamism is a basic element of music required not only for dance music but for all music, such as ballads and middle tempo. If the sense of dynamism is lost from music, it not only loses its function as dance music, but also loses the emotional feeling and calm space possessed by ballads, and also loses the quiet pleasure with movement possessed by middle-tempo music.
 
-つまりテンポのある音楽では、弱起は必ず存在し、決してなくなることはありません。弱起の完全な消失は**音楽的死**を意味します。
+In other words, in music with tempo, anacrusis always exists and never disappears. The complete disappearance of anacrusis means **musical death**.
 
-#### 先行する弱拍が短ければ短いほど抑圧感が高くなる
-その音楽のリズムに於いて、先行する弱拍が短ければ短いほど強い抑圧のある緊張感が増すという要素があります。
+#### The Shorter the Preceding Weak Beat Is, the Greater the Sense of Oppression Becomes
+In the rhythm of that music, there is the element that the shorter the preceding weak beat is, the more a strong oppressive tension increases.
 
-前節で弱起が完全になくなる事は**音楽的死**だということを述べました。 つまり先行する弱拍が短くなっていけばいくほど、その音楽は **音楽的死** と直面することになり、一瞬の気の緩みが即座に**音楽的死**に直結する極めて高い緊張感を伴う抑圧感が生まれます。
+In the previous section, I stated that the complete disappearance of anacrusis is **musical death**. In other words, as the preceding weak beat becomes shorter and shorter, that music comes to face **musical death**, and there arises an oppressive feeling accompanied by an extremely high tension in which even a momentary relaxation directly connects to **musical death**.
 
-音楽を演奏するなかで、その微かな弱起の存在を維持し続ける為には、高い集中力が必要となります。
+To continue maintaining the existence of that slight anacrusis while performing music requires high concentration.
 
-この様な音楽中に存在する微細な弱起の存在を間違いなく確実に認識しつづける音楽認識の方法論として考案されたのが **声出しオフビートカウント**です。
+The methodology of musical recognition devised to continue certainly and reliably recognizing the existence of such minute anacrusis existing in music is **spoken Offbeat Count**.
 
-#### まとめ＝弱起が先行する音楽を理解する難しさ
-**弱拍が属する音価の判定**が出来ないと、その音楽が持っているリズムの全体像を理解する事ができなくなります。**弱拍が属する音価の判定** が弱拍が先行する音楽の理解の難しさの根底に存在します。つまり **弱拍が属する音価の判定** を素早く行う訓練を行うことで、弱拍が先行する音楽の理解及び演奏の改善を行うことが出来ます。
+#### Summary = The Difficulty of Understanding Music in Which Weak Beats Precede
+If one cannot **determine the note value to which a weak beat belongs**, one can no longer understand the overall picture of the rhythm that the music possesses. **Determining the note value to which a weak beat belongs** lies at the root of the difficulty of understanding music in which weak beats precede. In other words, by training oneself to quickly **determine the note value to which a weak beat belongs**, one can improve understanding and performance of music in which weak beats precede.
 
-**弱拍が属する音価の判定** の訓練として考え出された方法が **声出しオフビートカウント練習法**です。
+The method devised as training for **determining the note value to which a weak beat belongs** is the **spoken Offbeat Count practice method**.
+### Summary <!-- {#multi-layered-weak-beat-oriented-rhythm-theory-summary} -->
+#### Ba Dum Tss Is Two-Layer Weak-Beat-Precedence Recognition
 
-### まとめ <!-- {#multi-layered-weak-beat-oriented-rhythm-theory-summary} -->
-
-#### バダムツーは二層弱拍先行認識
-
-これまで、弱拍先行の意味、弱拍先行の多層性、そして多層弱拍先行を聴き分ける困難の理由について見てきました。ここでようやくバダムツーを理解する為に必要な武器が揃った状態になったと言えます。
+Up to now, we have looked at the meaning of weak-beat precedence, the multilayered nature of weak-beat precedence, and the reasons for the difficulty of hearing apart multilayered weak-beat precedence. Here, it can be said that we have finally reached the state where the necessary weapons for understanding ba dum tss are in place.
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">バダムツー（英語での「ちゃんちゃん」のような効果音） Credit : <a href="https://t.co/1pMfDuY1S3">https://t.co/1pMfDuY1S3</a> <a href="https://t.co/qdcGm8P81M">pic.twitter.com/qdcGm8P81M</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1928811162042507281?ref_src=twsrc%5Etfw">May 31, 2025</a></blockquote></div>
 
-[音楽のリズム解釈には言語によって違いがある](#音楽のリズム解釈には言語によって違いがある) で御紹介したバダムツーは、4分音符も弱強で解釈し、8分音符も弱強で解釈するという二層同時の弱強解釈を必要とするからです。
+This is because the ba dum tss introduced in [There Are Differences by Language in the Interpretation of Musical Rhythm](#音楽のリズム解釈には言語によって違いがある) requires a simultaneous two-layer weak-strong interpretation in which quarter notes are also interpreted as weak-strong and eighth notes are also interpreted as weak-strong.
 
-##### バダムツーの解釈＝8分音符弱拍先行なし4分音符弱拍先行なし
+##### Interpretation of Ba Dum Tss = No Eighth-Note Weak-Beat Precedence, No Quarter-Note Weak-Beat Precedence
 
-もしもこの音に関して弱拍先行が全ての音価がないという前提で解釈すると次のようになります。
+If one interprets this sound on the premise that there is no weak-beat precedence at any note value, it becomes as follows.
 
 ![](/offbeat-count/attachments/vertical-ba-dum-tss-incorrect.png)
 
-この解釈は、4分音符の弱拍先行なし、8分音符の弱拍先行なしを前提としたリズム解釈と言えます。 ─── この解釈は正しくないということも[音楽のリズム解釈には言語によって違いがある](#音楽のリズム解釈には言語によって違いがある)で御説明致しました。
+This interpretation can be said to be a rhythm interpretation premised on no quarter-note weak-beat precedence and no eighth-note weak-beat precedence. We also explained in [There Are Differences by Language in the Interpretation of Musical Rhythm](#音楽のリズム解釈には言語によって違いがある) that this interpretation is not correct.
 
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
-      <td>１拍目</td>
-      <td class="offbeat-td">２拍目</td>
-      <td>３拍目</td>
-      <td class="offbeat-td">４拍目</td>
+      <th>Position</th>
+      <td>Beat 1</td>
+      <td class="offbeat-td">Beat 2</td>
+      <td>Beat 3</td>
+      <td class="offbeat-td">Beat 4</td>
     </tr>
     <tr>
-      <th>4分音符</th>
+      <th>Quarter notes</th>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
+      <th>Strong/weak</th>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
     </tr>
   </tbody>
 </table>
@@ -4271,18 +4220,18 @@ _[Macron and breve](https://en.wikipedia.org/wiki/Systems_of_scansion#Classical_
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
-      <td>１</td>
-      <td class="offbeat-td">２</td>
-      <td>３</td>
-      <td class="offbeat-td">４</td>
-      <td>５</td>
-      <td class="offbeat-td">６</td>
-      <td>７</td>
-      <td class="offbeat-td">８</td>
+      <th>Position</th>
+      <td>1</td>
+      <td class="offbeat-td">2</td>
+      <td>3</td>
+      <td class="offbeat-td">4</td>
+      <td>5</td>
+      <td class="offbeat-td">6</td>
+      <td>7</td>
+      <td class="offbeat-td">8</td>
     </tr>
     <tr>
-      <th>8分音符</th>
+      <th>Eighth notes</th>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
@@ -4293,49 +4242,49 @@ _[Macron and breve](https://en.wikipedia.org/wiki/Systems_of_scansion#Classical_
       <td class="offbeat-td">◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
+      <th>Strong/weak</th>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
     </tr>
   </tbody>
 </table>
 
-##### バダムツーの解釈＝8分音符弱拍先行あり4分音符弱拍先行なし
+##### Interpretation of Ba Dum Tss = Eighth-Note Weak-Beat Precedence Present, Quarter-Note Weak-Beat Precedence Absent
 
-次の解釈を見てみます。
+Let us look at the following interpretation.
 
 ![](/offbeat-count/attachments/vertical-ba-dum-tss-incorrect-8th.png)
 
-この解釈は、8分音符の弱拍先行が存在することを前提として解釈していると言えます。しかし、4分音符の弱拍先行はなしとみなしている為、１つずれた形で認識していることを観察することが出来ます。
+This interpretation can be said to be interpreting on the premise that eighth-note weak-beat precedence exists. However, because quarter-note weak-beat precedence is regarded as absent, one can observe that it is recognized in a form shifted by one.
 
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
-      <td>１拍目</td>
-      <td class="offbeat-td">２拍目</td>
-      <td>３拍目</td>
-      <td class="offbeat-td">４拍目</td>
+      <th>Position</th>
+      <td>Beat 1</td>
+      <td class="offbeat-td">Beat 2</td>
+      <td>Beat 3</td>
+      <td class="offbeat-td">Beat 4</td>
     </tr>
     <tr>
-      <th>4分音符</th>
+      <th>Quarter notes</th>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
+      <th>Strong/weak</th>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
     </tr>
   </tbody>
 </table>
@@ -4343,18 +4292,18 @@ _[Macron and breve](https://en.wikipedia.org/wiki/Systems_of_scansion#Classical_
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
-      <td class="offbeat-td">8拍目</td>
-      <td>1拍目</td>
-      <td class="offbeat-td">2拍目</td>
-      <td>3拍目</td>
-      <td class="offbeat-td">4拍目</td>
-      <td>5拍目</td>
-      <td class="offbeat-td">6拍目</td>
-      <td>7拍目</td>
+      <th>Position</th>
+      <td class="offbeat-td">Beat 8</td>
+      <td>Beat 1</td>
+      <td class="offbeat-td">Beat 2</td>
+      <td>Beat 3</td>
+      <td class="offbeat-td">Beat 4</td>
+      <td>Beat 5</td>
+      <td class="offbeat-td">Beat 6</td>
+      <td>Beat 7</td>
     </tr>
     <tr>
-      <th>8分音符</th>
+      <th>Eighth notes</th>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
@@ -4365,49 +4314,49 @@ _[Macron and breve](https://en.wikipedia.org/wiki/Systems_of_scansion#Classical_
       <td>◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <th>Strong/weak</th>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
     </tr>
   </tbody>
 </table>
 
-##### バダムツーの解釈＝8分音符弱拍先行あり4分音符弱拍先行あり
+##### Interpretation of Ba Dum Tss = Eighth-Note Weak-Beat Precedence Present, Quarter-Note Weak-Beat Precedence Present
 
-次の解釈を見てみます。
+Let us look at the following interpretation.
 
 ![](/offbeat-count/attachments/vertical-ba-dum-tss-score-correct.png)
 
-この解釈は、8分音符の弱拍先行が存在することを前提としおり、同時に4分音符の弱拍先行も存在することを前提として解釈していることがわかります。
+One can see that this interpretation is interpreting on the premise that eighth-note weak-beat precedence exists, and at the same time on the premise that quarter-note weak-beat precedence also exists.
 
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
-      <td class="offbeat-td">４拍目</td>
-      <td>１拍目</td>
-      <td class="offbeat-td">２拍目</td>
-      <td>３拍目</td>
+      <th>Position</th>
+      <td class="offbeat-td">Beat 4</td>
+      <td>Beat 1</td>
+      <td class="offbeat-td">Beat 2</td>
+      <td>Beat 3</td>
     </tr>
     <tr>
-      <th>4分音符</th>
+      <th>Quarter notes</th>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <th>Strong/weak</th>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
     </tr>
   </tbody>
 </table>
@@ -4415,18 +4364,18 @@ _[Macron and breve](https://en.wikipedia.org/wiki/Systems_of_scansion#Classical_
 <table class="offbeat-onbeat-table">
   <tbody>
     <tr>
-      <th>位置</th>
-      <td class="offbeat-td">6拍目</td>
-      <td>7拍目</td>
-      <td class="offbeat-td">8拍目</td>
-      <td>1拍目</td>
-      <td class="offbeat-td">2拍目</td>
-      <td>3拍目</td>
-      <td class="offbeat-td">4拍目</td>
-      <td>5拍目</td>
+      <th>Position</th>
+      <td class="offbeat-td">Beat 6</td>
+      <td>Beat 7</td>
+      <td class="offbeat-td">Beat 8</td>
+      <td>Beat 1</td>
+      <td class="offbeat-td">Beat 2</td>
+      <td>Beat 3</td>
+      <td class="offbeat-td">Beat 4</td>
+      <td>Beat 5</td>
     </tr>
     <tr>
-      <th>8分音符</th>
+      <th>Eighth notes</th>
       <td class="offbeat-td">◯</td>
       <td>◯</td>
       <td class="offbeat-td">◯</td>
@@ -4437,102 +4386,94 @@ _[Macron and breve](https://en.wikipedia.org/wiki/Systems_of_scansion#Classical_
       <td>◯</td>
     </tr>
     <tr>
-      <th>強弱</th>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
-      <td class="offbeat-td">弱</td>
-      <td>強</td>
+      <th>Strong/weak</th>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
+      <td class="offbeat-td">Weak</td>
+      <td>Strong</td>
     </tr>
   </tbody>
 </table>
+#### Difference of Multilayer Level by Language
 
+The recognition of multilayer weak-beat precedence that we have seen up to now is influenced by the beat rhythm of the language that person speaks as their native language. In other words, according to the beat rhythm of the language, differences arise such as which note value's weak-beat precedence is easy to recognize, or whether multilayer weak-beat precedence is easy or hard to recognize. A list of those tendencies is shown below.
 
-#### 言語による多層レベルの違い
+| Beat rhythm         | Weak-beat precedence eighth notes | Weak-beat precedence quarter notes | Multilayer level |
+| ------------------- | :-------------------------------: | :--------------------------------: | :--------------: |
+| Syllable-timed rhythm |               yes               |                no                  |        1         |
+| Stress-timed rhythm |               yes               |                yes                 |        2         |
+| Mora-timed rhythm   |               no                |                no                  |        0         |
 
-これまで見てきた<ruby>多層弱拍先行<rt>グルーヴ</rt></ruby>の認識は、その人が母国語として話す言語の拍リズムの影響を受けます。つまり言語の拍リズムによって、どの音価での弱拍先行を認識しやすいか、或いは<ruby>多層弱拍先行<rt>グルーヴ</rt></ruby>を認識しやすいしにくいか…といった違いが生じます。 その傾向の一覧を以下で示します。
+Here, one hypothesis arises.
 
-| 拍リズム         | 弱拍先行8分音符 | 弱拍先行4分音符 | 多層レベル |
-| ---------------- | :-------------: | :-------------: | :--------: |
-| シラブル拍リズム |      あり       |      なし       |     1      |
-| ストレス拍リズム |      あり       |      あり       |     2      |
-| モーラ拍リズム   |      なし       |      なし       |     0      |
+In syllable-timed rhythm, we saw the law that consonants precede as much as possible by the **Maximize Onset Principle (MOP = Maximize Onset Principle)**. In other words, this can be seen as the precedence of the weak beat of eighth notes.
 
-ここでひとつの仮説が生まれます。
+Next, in stress-timed rhythm, in addition to the **Maximize Onset Principle (MOP = Maximize Onset Principle)** of syllable-timed rhythm, the **Maximal Prosodic Onset Principle (MPOP)** is applied. In other words, this can be interpreted as meaning that, in addition to weak-beat precedence of eighth notes, weak-beat precedence of quarter notes becomes effective at the same time.
 
-シラブル拍リズムでは **頭子音最大化原則(MOP=Maximize Onset Principle)** によって子音が可能な限り先行するという法則を見てきました。 つまりこれは8分音符の弱拍の先行と見ることが出来ます。
+It is possible to interpret that **syllable-timed rhythm is single-layer weak-beat precedence**, and **stress-timed rhythm is two-layer weak-beat precedence**.
 
-次にストレス拍リズムでは、シラブル拍リズムの **頭子音最大化原則(MOP=Maximize Onset Principle)** に加えて、**頭音節最大化原則(MPOP)** が適用されます。これはつまり、8分音符の弱拍先行に加えて、4分音符の弱拍先行が同時に有効になると解釈することができます。
+And to mora-timed rhythm, the **Minimum Onset Principle (MiOP = Minimum Onset Principle)**, which is the exact opposite of stress-timed rhythm and syllable-timed rhythm, is applied. In other words, it can be said that not only weak beats but also strong beats do not exist. In other words, all beats are isolated without being divided, and it is possible to interpret that there are no layers.
 
-**シラブル拍リズムは単層の弱拍先行**であり、**ストレス拍リズムは二層の弱拍先行**であると解釈することが可能です。
+In other words, **mora-timed rhythm can be interpreted as layerless rhythm**.
+#### The Multilayer Level Increases as Time Passes
 
-そしてモーラ拍リズムには、ストレス拍リズム・シラブル拍リズムとは全く逆の **頭子音最小化原則 (MiOP = Minimum Onset Principle)** が適用されます。 つまり弱拍がないだけでなく、強拍もないといえます。つまり全ての拍は分割されずに孤立しており、層がないと解釈することが可能です。
-
-つまり**モーラ拍リズムは無層リズム**と解釈することが可能です。
-
-#### 時代を経るごとに増加する多層レベル
-
-マイルス・デイヴィスの演奏する Four のように二重の弱拍先行が現れる音楽は、米国にしか存在しません。
+Music in which double weak-beat precedence appears, such as Four performed by Miles Davis, exists only in America.
 
 <div class="center-box"><iframe class="rhythmpedia-iframe" src="https://www.youtube.com/embed/d_dSxV1bm4Q?si=PoKsWTiUDw4qCZDQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
-この二重の弱拍先行は時代を経ることにより、より多層化が進みます。
+As time passes, this double weak-beat precedence advances into greater multilayering.
 
 <div class="center-box"><iframe class="rhythmpedia-iframe"  src="https://www.youtube.com/embed/6x3QtLCAPp8?si=7Ev6xaj3UOXFiqc_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
- ハービー・ハンコックのアクチュアル・プルーフは１６ビートで2分音符４分音符8分音符16分音符で同時に弱拍が先行するリズムが表れます。
+In Herbie Hancock's Actual Proof, there appears, in sixteen beats, a rhythm in which weak beats precede simultaneously in half notes, quarter notes, eighth notes, and sixteenth notes.
 
- この弱拍先行の多層化は更に進化します。
+This multilayering of weak-beat precedence evolves even further.
 
 <div class="center-box"><iframe class="rhythmpedia-iframe" src="https://www.youtube.com/embed/2F3Ej6Cn1dg?si=mBR8Zcj4n86sfyEM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
-この楽曲では16分音符8分音符4分音符2分音符で同時に弱拍が先行するリズムに加え、８小節単位で後半の２小節だけにメロディーが配置される二全音弱拍先行が表れます。合計で五重の弱拍先行といえます。
+In this piece, in addition to a rhythm in which weak beats precede simultaneously in sixteenth notes, eighth notes, quarter notes, and half notes, there appears a double-whole-note weak-beat precedence in which the melody is placed only in the latter two measures of an eight-measure unit. It can be said to be fivefold weak-beat precedence in total.
 
-米国音楽だけがこの様な<ruby>多層弱拍先行<rt>グルーヴ</rt></ruby>リズムを持っています。
+Only American music has this kind of multilayer weak-beat-precedence rhythm.
 
 <div class="center-box"><iframe class="rhythmpedia-iframe" src="https://www.youtube.com/embed/tLAJSQR8V9Q?si=6LFljO26x9olfPeB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+#### High Performance as the Entertainment Performance of Stress-Timed Music
 
-#### ストレス拍音楽の娯楽性能としてみた性能の高さ
+Assume that the more complex rhythm is, the higher its entertainment performance is. Up to now, we have seen that multilayer weak-beat precedence is a rhythm produced by the linguistic rhythm unique to English and German called stress-timed rhythm. It can also be said that, by stress-timed rhythm mixing in America with various ethnic musics of South America and Africa and becoming still more complex and developed, the performance of rhythm as entertainment became high. The high entertainment performance of American music born from stress-timed rhythm can be explained phonologically.
 
-リズムは複雑な方が娯楽性能が高いと仮定します。 これまで<ruby>多層弱拍先行<rt>グルーヴ</rt></ruby>は、ストレス拍リズムという英語・ドイツ語で特有な言語上のリズムが生み出したリズムということを見てきました。ストレス拍リズムが米国で南米やアフリカの各種民族音楽と混ざり合うことにより更に複雑化し発展し、リズムの娯楽としての性能が高いと言うことも出来るでしょう。ストレス拍リズムから生まれた米国音楽の娯楽性能の高さは、音韻学的に説明することが出来ます。
+Why is American music listened to all over the world? Since the internet spread, things are no longer as unipolar toward America as they once were, with [Mundian's Bach Ke](https://www.youtube.com/watch?v=c3P3lKFqYYM&t=1s) becoming globally popular and so on. But in the past there were many criticisms asking, "Why is only American music celebrated all over the world?" That was often spoken of in connection with the strong political power called American hegemony.
 
-何故世界中で米国音楽が聴かれるのか。 ─── インターネットが普及して[Mundian の  Bach Ke](https://www.youtube.com/watch?v=c3P3lKFqYYM&t=1s)が世界的に流行するなど、かつて程の米国一極ではなりましたが  ─── かつては『米国音楽だけが世界中でもてはやされるのか』という批判が数多くありました。 それはしばしば米国覇権という強い政治力に結びつけて語られることが多いものでした。
+However, is not the reason American music is excellent absolutely not due to political power and economic hegemonic power, but rather in the overwhelmingly high **entertainment performance** of rhythm produced by developing highly multilayered weak-beat-precedence rhythm by tolerantly accepting the diversity of global ethnic musics of Southeast Asia, India, the Middle East, and so on on the basis of stress-timed rhythm?
 
-しかし米国音楽が優れている理由は、政治力と経済力覇権によるものでは決してなく、ストレス拍リズムを基盤として東南アジアインド中東等々の世界的な民族音楽の多様性を寛容に受け入れることで多層度の高い弱拍先行リズムを発展させたことによるリズムの圧倒的な**娯  楽性能**の高さにあるのではないでしょうか。
+As an actual example, even Mundian's Bach Ke mentioned above is absorbed as American music by [Jay-Z's Bach Ke remix](https://www.youtube.com/watch?v=N6_uYzX6Xj8).
+#### Jazz Is the Ultimate World Music
 
-米国音楽は前述のMundian の Bach Keすら [Jay-Zによる Bach Ke リミックス](https://www.youtube.com/watch?v=N6_uYzX6Xj8) によって米国音楽として吸収していることが実例として挙げられるでしょう。
+Not only did it take in all the past methods beginning from the music of circle-of-fourths progression created by Bach, marches, rondo, minuet, Impressionism, Romanticism, and so on, but **jazz**, which absorbed all rhythms from around the world such as Gaelic folk music, African folk music, Latin American rhythms, and so on, is, so to speak, the **ultimate world music**, and it may be concluded that the overwhelmingly high entertainment performance it boasts can be explained not by political power but strictly by phonology.
 
-#### ジャズは究極の世界音楽
+This can be said to be a development that was possible precisely because it was stress-timed rhythm born as a developed form of syllable-timed rhythm.
+#### A Methodology for Anyone to Groove
 
-バッハが作り出した四度進行の音楽か始まりマーチ、ロンド、ミニュエット、印象派、ロマン派などの過去の手法を全て取り入れただけでなく、ゲールの民族音楽、アフリカの民族音楽等々、ラテンアメリカのリズム等々… 世界中のリズムを全て吸収した**ジャズ**は、いわば **究極の世界音楽** であり、圧倒的な娯楽性能の高さを誇ることは政治力ではなく飽くまでも音韻学的に説明が可能だということが結論付けられるのではないでしょうか。
+It was a development that was possible precisely because it was stress-timed rhythm born as a developed form of syllable-timed rhythm. And mora-timed rhythm is a singularity and has properties exactly opposite to stress timing and syllable timing. It bears the fate of not being able to enter this world of syllable timing and stress timing.
 
-これは飽くまでもシラブル拍リズムの発展型として生まれたストレス拍リズムだからこそ可能だった発展と言えます。
+That this mora-timed rhythm does not mix can be clearly shown when viewed phonologically. In syllable-timed rhythm and stress-timed rhythm there is the **Maximize Onset Principle (MOP = Maximum Onset Principle)**, while in Japanese mora-timed rhythm there is the exact opposite property, the **Minimum Onset Principle (MiOP = Minimum Onset Principle)**. This fundamental incompatibility lies at the root of Japanese and all the languages surrounding it.
 
-#### 誰でもグルーヴする為の方法論
+Japan, which speaks Japanese, a mora-timed-rhythm language like that, is the country with the largest population performing jazz in the world. Yet no one in the world listens to the jazz abundantly produced there. There is nowhere in the world where people listen to jazz whose multilayer degree of weak-beat precedence is zero and which has no value at all as rhythmic entertainment performance. Such Japanese jazz is even said globally to be **the world's greatest musical tragedy**.
 
-シラブル拍リズムの発展型として生まれたストレス拍リズムだからこそ可能だった発展でした。そしてモーラ拍リズムは特異点でありストレス拍・シラブル拍リズムと真逆の性質を持っています。このシラブル拍・ストレス拍の世界に入ることが出来ないという宿命を背負っています。
+<span style="font-size:300%">**What was devised as a methodology by which Japanese people, who speak Japanese, a mora-timed-rhythm language having properties completely opposite to groove, can certainly acquire multilayer weak-beat precedence even if it takes time and can surely become able to groove, is the Offbeat Count method**</span>.
 
-このモーラ拍リズムは混ざらない ─── 音韻学的に見た時にはっきりと示すことができます。それはシラブル拍リズム・ストレス拍リズムには **頭子音最大化原則 (MOP = Maximum Onset Principle)** があり、 日本語のモーラ拍リズムには **頭子音最小化原則 (MiOP = Minimum Onset Principle)** という真逆の性質がある  ─── この根本的な非互換性が日本語とそれを取り巻く全ての言語の根底に横たわっています。
-
-そんなモーラ拍リズム言語である日本語を話す日本は、世界で最もジャズを演奏する人口が多い国です。そんな豊富に生産されるジャズを、世界中の誰も聴かない。弱拍先行の多層度がゼロでありリズム娯楽性能としての価値が全くないジャズを聴く人は世界中のどこにもいません。そんな日本人のジャズは、世界的に **世界最大の音楽的悲劇** とすら言われています。
-
-<span style="font-size:300%">**そんなグルーヴと完全に逆の性質を持つモーラ拍リズム言語日本語を話す日本人が、多層弱拍先行を時間は掛かっても確実に体得し、必ずグルーヴ出来るようになる方法論として考え出されたものが、オフビートカウント法**</span>です。
-
-<ruby>律動<rt>リズム</rt>図鑑<rt>ペディア</rt></ruby>は、このオフビートカウント法が、世界の全てのミュージシャンの元に届き、世界の音楽をより高度に融合し更に娯楽性能の高い音楽を生み出すことを祈っています。
+Rhythmpedia prays that this Offbeat Count method will reach all musicians of the world, and that it will fuse the music of the world at a higher level and produce music with still higher entertainment performance.
 
 
-以降の章で、オフビートカウント法について学び、オフビートカウントを基盤としてメタディヴィジョン理論を応用することにより、弱拍先行の多層度を上げることで強いグルーヴを体得する方法論を見ていきます。
+In the chapters that follow, by learning the Offbeat Count method and applying metadivision theory on the basis of Offbeat Count, we will look at the methodology for acquiring strong groove by raising the multilayer degree of weak-beat precedence.
 
-  - メタディヴィジョン理論
-  - 分散グルーヴ理論
-  - オフビートカウント理論
-  - 弱拍天動説と強拍地動説
-  - 縦乗りのメカニズム
-
-
+  - Metadivision theory
+  - Distributed groove theory
+  - Offbeat Count theory
+  - Weak-beat geocentrism and strong-beat heliocentrism
+  - The mechanism of tatenori
 ## 多次元ディヴィジョン空間 <!-- {#multidimensional-division-spaces} -->
 
 リズムを明確かつ精密に認識するための基礎的な技術──それが「ディヴィジョン空間理論」です。この理論は、オフビートカウント理論を土台として作られたもので、様々なジャンルの音楽のグルーヴを解析できる様に拡張されたものです。世界中のリズムが持っている **分裂拍(Schizorythymos)** の本質を様々な方法を使って把握する為に汎用可能な理論を提供します。
