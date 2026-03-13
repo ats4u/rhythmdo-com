@@ -30,6 +30,7 @@ When viewed phonologically, the Japanese rhythmic blind spot is caused by the fo
 **{{<meta var.OFBCT.en>}}** first formalizes differences in the sense of rhythm that differ by culture and quantifies those concrete differences. Next, it introduces **{{<meta var.OFBC.en>}}**, a method for switching "sense of rhythm" through concrete practice. And then it theoretically explains the effect of **{{<meta var.OFBC.en>}}** from the viewpoint of phonology.
 
 <!-- <nav id="toc"></nav> -->
+
 ## Introduction <!-- {#benefits-of-offbeat-count-theory} -->
 
 **{{<meta var.OFBCT.en>}}** explains the knowledge and techniques necessary for a person who does not groove at all to come to groove, and the method for acquiring them. And it shows that this groove ability and language ability are equal. Here, I explain an outline of what is explained in **{{<meta var.OFBCT.en>}}**, and explain how it is good to proceed through these chapters.
@@ -102,6 +103,7 @@ Among Japanese jazz performers, the Japanese rhythm problem [tatenori](/tatenori
 Japan has one of the world's largest jazz performer communities --- nevertheless, nobody in the world listens to Japanese jazz. Japan has one of the world's largest jazz listener communities, and the jazz market is said to be one of the largest in the world. Yet nobody in such a huge jazz market listens to Japanese jazz --- this goes beyond the greatest tragedy in the jazz world, and is already a comedy.
 
 **Multi-Layered Weak-Beat-Oriented Rhythm Theory** throws a stone into this situation.
+
 ## What Are the Four Principles of Groove <!-- {#the-four-principles-of-groove}-->
 
 In this book, throughout the whole book, I explain the existence of four principles of grooving. What are these four principles? First, let us look at the overall picture of these four principles of groove.
@@ -207,9 +209,12 @@ As for what kind of sound **3⁻ⁿ rhythm** is, we actually listen to it in [Th
 As for **3⁻ⁿ rhythm** and **2⁻ⁿ rhythm**, we look at the theoretical details in [3⁻ⁿ Groove and 2⁻ⁿ Groove](/offbeat-count/three-to-n-groove-theory/ja/)
 
 As for what kind of sound **2⁻ⁿ rhythm** is, we have prepared some samples in [Why Are Japanese People Tatenori?](/tatenori-theory/ja/).
+
+
 ## Why Are Japanese People Tatenori <!-- {#tatenori-theory} -->
 
 This is an article considering the mystery that any musician whose native language is Japanese will surely experience at least once --- "Why do Japanese people not groove?" During this consideration, it makes clear that the reason Japanese people do not groove is equal to the reason Japanese people cannot hear English. It reveals the true nature of "tatenori" lurking in the Japanese language and Japanese music, and considers its influence and limits scientifically and culturally.
+
 ### What Is Tatenori
 
 What is tatenori? It is an existence that cannot be seen at all. However, tatenori is always there. It exists even at this very moment as you are now reading this text. Tatenori is an invisible existence, but even now, right now, you are indeed seeing tatenori. Tatenori is like the air that is always there. And just as one cannot live if there is no air, when tatenori disappears, a person cannot live. A person encounters tatenori from birth, and then dies without noticing the existence of tatenori, remaining unaware of the existence of tatenori.
@@ -245,6 +250,7 @@ Even if you are not interested in breaking through the wall of the world, but fe
 There is a theory and a practical practice method for noticing this tatenori, becoming independent from tatenori, and acquiring the ability to live even without tatenori.
 
 I would like to introduce that method here. I will explain it step by step.
+
 ### The Influence Tatenori Gives
 
 **Tatenori** is a concept expressing a subtle and serious deviation in the sense of rhythm that is peculiar to people whose native language is Japanese. Tatenori cannot be sensed by the people whose native language is Japanese themselves. However, this deviation causes various problems in all kinds of situations such as music, language, and bodily sensation. It always makes people all over the world feel that "something is strange," but that feeling of discomfort is very difficult to express in words, and it keeps making people all over the world feel vaguely unsettled.
@@ -270,6 +276,7 @@ This tatenori actually has various influences in every aspect other than music a
 	* → One becomes more likely to become involved in crime overseas.
 
 Is such a thing really happening? I will explain it with concrete examples.
+
 ### Tatenori as a Blind Spot
 
 #### What Is Ba Dum Tss
@@ -415,6 +422,7 @@ However, it is necessary to note the point that while Thai people are in most ca
 Those Thai people can pronounce back by parrot repetition the words they hear even in an unknown language they know nothing about. However, because Japanese people miss many pronunciations, they cannot pronounce them back by parrot repetition --- the essence of the reason why Japanese people become poor at English is hidden here.
 
 When Thai people are corrected, "It's not kawo, it's woka!", they can immediately switch their pronunciation interpretation --- if Japanese people were corrected in the same way, "This is not woka, it's kawo!", could they immediately switch their interpretation to "kawo"? The answer is NO. Here one can observe the mysterious nature of Japanese.
+
 ### Tatenori and Mora-Timed Rhythm
 
 **Tatenori** can be said to be a certain kind of **lack in the sense of rhythm** possessed only by people whose native language is Japanese. Tatenori is not merely a problem of individual qualities or musical taste. In fact, tatenori is a **structural phenomenon** that occurs because of the pronunciation structure of Japanese. The recognition of rhythm in Japanese is academically called **mora-timed rhythm**.
@@ -453,6 +461,7 @@ In other words, the true nature of groove, the most important element in these p
 The reason Japanese speakers have difficulty acquiring this **groove** is that this difference in language rhythm unconsciously affects bodily sensation. From the viewpoint of people who speak languages with stress-timed rhythm (almost all people on earth other than Japanese), it is clearly and distinctly observable that something that should clearly be there is not there. However, Japanese people, who from the beginning do not have the concept of **stress-timed rhythm**, cannot even share the recognition itself that something should have been there. In other words, <font style="font-size:3em">the awareness itself that rhythm is missing is missing.</font> This difference in rhythmic sensation is extremely large, and because of this difference in sensation, communication between Japanese people and everyone else is made decisively difficult. The other party's "feeling of discomfort itself" does not exist on this side. This is the largest mismatch in intercultural communication.
 
 And this difference in pronunciation structure is deeply intertwined with Japan's education, defeat in war, postwar history, high economic growth, and historical and psychological backgrounds such as the uniquely Japanese psychology of "amae," producing various problems.
+
 ### Comparison of Tatenori and Yokonori
 Below are tatenori and yokonori theorized and made to be performed mechanically according to the theory.
 
@@ -480,6 +489,7 @@ Below are tatenori and yokonori theorized and made to be performed mechanically 
 #### Comparison of Tatenori and Yokonori Part 4
 
 <div class="center-box"><blockquote class="twitter-tweet" data-media-max-width="560"><p lang="ja" dir="ltr">７イレブンで買い物したら、ものすごい縦乗りのヒューマンネーチャー（マイケル・ジャクソンの曲）がＢＧＭに掛かっていた。あまりに凄かったので、家に帰って譜面に起こしてみた。こんな感じだった。<br><br>前半４小節がオリジナル。後半４小節が縦乗りバージョン。 <a href="https://t.co/Vl9s9DWgh8">pic.twitter.com/Vl9s9DWgh8</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/975051946552827904?ref_src=twsrc%5Etfw">March 17, 2018</a></blockquote> </div>
+
 ### People of Yokonori Notice Tatenori Immediately
 
 When people whose native language is Japanese, who do not have this **sense of rhythm**, perform or compose, a **distinctive lack of sense of rhythm** remains in their works. This lack is something very clear and distinct when viewed by a person who has that sense of rhythm. This lack always gives a certain discomfort to people whose native language is something other than Japanese.
@@ -494,17 +504,21 @@ Even if they dance, traces remain by which one can immediately tell that it is t
 Whether walking, running, singing, dancing, playing guitar, beating drums, playing piano, performing classical music, or performing jazz, in everything, whatever they do, traces of the Japanese lack of recognition remain.
 
 The problem is that people who do not have this sense of rhythm cannot in the first place recognize the **lack** of the **sense of rhythm** they have.
+
 ### People of Tatenori Do Not Notice Tatenori
 
 The problem is that a person who does not have this sense of rhythm cannot in the first place recognize that the **sense of rhythm** he has is itself lacking. In other words, **he cannot even recognize that there is a difference between one who has a certain sense of rhythm and one who does not have a certain sense of rhythm**. Because they do not have the sense of rhythm, people who do not have the sense of rhythm unconsciously choose only things that do not have that sense. And people who have that sense of rhythm clearly recognize this bias. However, people who do not have the sense of rhythm cannot recognize that bias itself.
 
 The peculiar blind spot in the sense of rhythm possessed only by people whose native language is Japanese --- that is **tatenori**.
+
 ### Tatenori Can Be Clearly Quantified
 
 When one transcribes a song made by a tatenori person, features can be seen by which one can clearly point it out as such. For example, because songs made by tatenori people do not have anacrusis, the notes are always arranged biased to the left, like left-aligning text in a word processor. On the other hand, when one transcribes a song made by yokonori (a person who is not tatenori), often the notes are arranged biased to the right, like right-aligning text in a word processor. In this way, tatenori is by no means merely something sensory, but something that can be quantified and observed clearly in a visible form.
+
 ### There Are Things People of Tatenori Cannot See
 
 People of tatenori have many rhythm patterns that they cannot recognize. The problem is that people of tatenori cannot recognize the existence itself of the rhythms that they cannot recognize. Among such things, there are concrete rhythm patterns that people of tatenori mishear with high reproducibility. In {{<meta var.OFBCT.en>}}, those rhythm patterns are also mentioned.
+
 ### There Are Things People of Tatenori Cannot Do
 
 People of tatenori have the characteristic that, on the principle of time recognition, "they cannot clap alternately with two people." Perhaps they may be able to clap alternately in time with a metronome. However, they cannot clap alternately with an inaccurate human being. This is called here {{<meta var.ALTERNATING_CLAP_BREAKDOWN.en>}}.
@@ -516,6 +530,7 @@ People of tatenori, by the principle of time recognition, find it very difficult
 On the other hand, although people of tatenori cannot clap alternately, they can immediately clap simultaneously in time with irregular hand claps. This is rather an ability characteristic of tatenori people and an act that cannot be done by people other than tatenori people.
 
 This may seem like a trivial thing... However, in rock, jazz, classical, and funk alike, it must be noted that rhythms in which two performers alternately produce sounds repeatedly appear. At the very foundation of Western music appears the rhythm of alternately performing bass drum and snare drum. In particular, modern popular music of American origin always has this rhythm appearing.
+
 ### Problems Caused by Tatenori
 
 #### If One Is Tatenori, One Cannot Hear Yokonori Music
@@ -548,6 +563,7 @@ When Japanese people try to hear English, English speakers have already finished
 
 #### Tatenori Goes Against the Spirit of Japanese Courtesy
 Music such as jazz, R&B, funk, rap, rock, and heavy metal often has, in English, literary elements exactly the same as Japanese haiku. Stepping into English literature while leaving Japanese pronunciation strongly intact is transmitted to the other party as a great discourtesy toward others without Japanese people noticing it.
+
 ### Main Causes of Tatenori
 #### Structure of Japanese Mora-Timed Rhythm
 The cause of tatenori lies in the pronunciation structure of Japanese. The pronunciation elements that become the direct cause of tatenori are broadly five.
@@ -617,6 +633,7 @@ Particularly in Europe and America, sensitivity to racism is high, and even slig
 Therefore, even if overseas people feel discomfort toward Japanese tatenori jazz, they almost never state it openly.
 
 Because of this, it can be said that Japanese people have very few opportunities to notice their own tatenori.
+
 ### How Can One Overcome Tatenori
 Overcoming tatenori is divided into three steps.
 
@@ -656,6 +673,7 @@ Offbeat Count Theory is at the same time a systematic basic theory for analyzing
 
 #### Practice the Offbeat Count Training Method
 At the same time, by practicing Offbeat Count Theory as drill practice, it can become a great help in deepening bodily understanding of stress-timed rhythm.
+
 ### Summary
 
 Tatenori is a concept indicating a "lack" in the sense of rhythm into which only Japanese people whose native language is Japanese are likely to fall. However, tatenori is not necessarily evil, and in many cases foreigners may also grasp it as an exotic charm unique to Japan. On the other hand, it is also true that only when trying to "authentically" imitate music based on stress-timed rhythm such as classical, jazz, and R&B, Japanese people, without noticing it, may give a strong sense of discomfort because of tatenori.
@@ -665,6 +683,9 @@ If one were to compare this discomfort, it can be said to be close to the rhythm
 This linguistic sense, which feels natural to Japanese people, may be recognized by English speakers as a **lack of sense of rhythm**. We have seen that this difference in sensation also greatly affects musical expression and becomes a hurdle in the acquisition of English.
 
 However, as a method for filling such gaps even a little, Offbeat Count practice was devised. If one wishes to acquire "authentic" English rhythm, or wishes to perform jazz, classical, or R&B more authentically, one will need to understand the difference between tatenori and yokonori and consciously supplement that difference through appropriate practice.
+
+
+
 ## Which Comes First, the Strong Beat or the Weak Beat <!-- {#headians-and-bottomians-of-beat-orientation} -->
 Recognition of the order of strong beats and weak beats differs greatly depending on the rhythm possessed by the language that person has as their native language.
 
@@ -784,9 +805,11 @@ This also has a large influence on the behavioral principles of Japanese people.
 ### Summary
 
 We will look at this syllable-timed rhythm and stress-timed rhythm in the following sections.
+
 ## {{<meta var.PHONORHYTHMATOLOGY.en>}} <!-- {#phonorhythmatological-theory } -->
 
 The rhythm of music performed by Japanese people is somehow different compared with music performed by overseas people. This difference occurs because overseas people recognize weak beats as coming before strong beats, while Japanese people recognize strong beats as coming before weak beats. This difference in recognition is born from the difference in rhythm recognition possessed by the language itself. This rhythm recognition is called in phonetics **timed-rhythm**.
+
 ### The Three Main Timed Rhythms  <!-- {#three-rhythms} -->
 
 The rhythm recognition of Japanese is called in phonetics **mora-timed rhythm**. And the rhythm recognition possessed by English is called in phonetics **stress-timed rhythm**. In addition, the rhythm recognition possessed by Spanish and French and so on is called in phonetics **syllable-timed rhythm**.
@@ -804,12 +827,16 @@ Many characteristics of **syllable-timed rhythm** (English) and **syllable-timed
 | Thai       | Mandarin     |              |
 | Lao       | Telugu   |              |
 | Norwegian |            |              |
+
 ### Characteristics of Syllable-Timed Rhythm
 It is said that most languages in the world are syllable-timed rhythm. The characteristic of syllable-timed rhythm is that pronunciation is composed of time units called syllables. Each syllable is pronounced with almost the same length. Syllables are a time unit almost the same as the mora described in the previous section, but the characteristic is that consonant clusters, diphthongs, and final consonants appear within one syllable. Also, there is the characteristic called liaison in which the final consonant connects to the next syllable. This will be described in detail later.
+
 ### Characteristics of Stress-Timed Rhythm
 This is a timed rhythm seen mainly in English and German. Most characteristics are common with syllable-timed rhythm, but there is a large difference in that syllable length is indefinite and expands and contracts. In stress-timed rhythm, syllables are divided into **strong beats** and **weak beats** (stress beats and non-stress beats), strong beats are arranged at fixed time intervals, and all weak beats that are not strong beats are appropriately distributed between strong beats, omitted, or dropped completely. This omission of weak beats is a large characteristic of stress-timed rhythm. This will be described in detail later.
+
 ### Characteristics of Mora-Timed Rhythm
 This is a timed rhythm seen almost only in Japanese, and it is said that Japanese is the only complete mora-timed-rhythm language. The characteristic of mora-timed rhythm is that pronunciation is composed of time units called morae. Each mora is pronounced with almost the same length. Morae are almost the same as the syllables described next, but the characteristic is that there are no final consonants or consonant clusters. When geminate consonants or final consonants are needed, each consonant is assigned a mora. This will be described in detail later.
+
 ### The Principle by Which Japanese People Become Poor at English
 
 The reason Japanese people are poor at English lies in the size of this gap in rhythm recognition. If Japanese people first learned languages based on syllable-timed rhythm such as Spanish or Italian, they should have been able to achieve the goal only by learning the difference between morae and syllables. However, when Japanese people learn English, they are forced to simultaneously acquire the dropping and omission of syllables in stress-timed rhythm while still not having acquired syllable-timed rhythm. Viewed theoretically, this is impossible.
@@ -817,8 +844,10 @@ The reason Japanese people are poor at English lies in the size of this gap in r
 What is important here is first to notice that mora-timed rhythm has distinctive characteristics, to learn the differences of mora-timed rhythm, and on top of that to first learn the basics of syllable-timed rhythm, and only when syllable-timed rhythm has been sufficiently acquired, it becomes necessary to learn the dropping and omission of syllables in stress-timed rhythm.
 
 To leap directly and acquire stress-timed rhythm without passing through the stage of syllable-timed rhythm --- this difficulty is at the root of the difficulty of acquiring English.
+
 ### Rhythm Recognition Differs by Timed Rhythm
 The rhythm recognition of Japanese is academically called **mora-timed rhythm**. Looking globally, Japanese is the only language that has mora-timed rhythm. On the other hand, the rhythm recognition of English is academically called **stress-timed rhythm**. Languages of stress-timed rhythm are not only English, but when viewed globally, there are many others besides English, such as Russian and German.
+
 ### Details of Syllable-Timed Rhythm
 
 **Syllable-timed rhythm** means the rhythm of languages in which each syllable is pronounced evenly with almost fixed length. Representative syllable-timed-rhythm languages include Spanish, Italian, French, and Thai. Let us look below at the mechanism of this syllable.
@@ -882,6 +911,7 @@ As in this figure, all codas are connected as much as possible to the next onset
 ![](/offbeat-count/attachments/syllable-mop-2.png)
 
 <span style="color:silver">* Add actual examples.</span>
+
 ### Details of Stress-Timed Rhythm
 Stress-timed rhythm is a form of rhythm recognition thought to have branched and developed from syllable-timed rhythm. Its basic properties are shared with syllable-timed rhythm, but there are several large differences that syllable-timed rhythm does not have. Both rhythms have beats that create a fixed sense of rhythm in pronunciation, but there is a large difference in how those beats are placed.
 
@@ -1156,6 +1186,7 @@ As in this figure, all coda syllables are connected as much as possible to the n
 ![](/offbeat-count/attachments/syllable-mop-2.png)
 
 <span style="color:silver">* Add actual examples.</span>
+
 ### Details of Mora-Timed Rhythm
 
 Moraic beats have characteristics completely different from syllabic beats and stress beats.
@@ -1293,6 +1324,7 @@ This feeling possessed by syllable-timed-rhythm languages that weak beats exist 
 When people who speak a mora-timed-rhythm language as their first language try to acquire, through training, the rhythm of a syllable-timed-rhythm language as a second language, it is not rare that it takes ten years, and in some cases close to twenty years.
 
 Offbeat Count Theory is a practice method born as the result of considering, with attention to how people whose native language is this mora-timed rhythm can most efficiently acquire syllable-timed rhythm and the stress-timed rhythm introduced next as second languages.
+
 ## A Letter to {{<meta var.MORA_SPEAKERS.en>}} <!-- {#letter-to-native-mora-timed-speakers} -->
 
 Differences in language rhythm are often a very severe reality, hard to face directly, for people whose native language is a mora-timed-rhythm language. The rhythm of Japanese is special. Adaptation to the overseas world for Japanese people begins from accepting the unreasonable fact that all habits up to that point are denied without exception. Moreover, this huge handicap is also a problem peculiar only to people whose native language is Japanese.
@@ -1390,6 +1422,7 @@ Surely those reading this book too, while continuing to read this book, will enc
 However, this book provides weapons (theory and practice methods) for facing the existence called weak beats, which has many mysteries. In you too lies the talent to acquire real improvisational ability in jazz, real performance ability in classical music, and true international communication ability. By working carefully step by step, anyone can acquire it.
 
 I hope you will by all means read on from this section onward without giving up and with persistence. Surely you will be able to obtain results beyond your expectations.
+
 ## {{<meta var.SCHIZORHYTHMOS.en>}} and {{<meta var.SOLIRHYTHMOS.en>}} <!-- {#schizorhythmos-and-solirhythmos} -->
 
 ### The Sense of Judging Whether the First Beat Is a Strong Beat or a Weak Beat Is Influenced by Language Rhythm
@@ -1497,6 +1530,7 @@ We have seen that {{<meta var.REACTIVE_APPENDISM.en>}} (Reactive Appendism) affe
 For example, endless overtime work corresponds to this. It has long been said that it is a bad Japanese habit that starting times are very accurate while ending times are not accurate at all, but there is absolutely no sign either of it improving or of anyone trying to improve it. This is exactly one example of Japanese reactive rhythm. When one person goes to the register in a convenience store, everyone goes to the register and the register becomes crowded: this too is one example of Japanese reactive rhythm. When one person goes to the toilet, everyone feels dissatisfied unless they go to the toilet together. This too is Japanese reactive rhythm. On a wide roadside, two people run into each other. If one avoids to the right, the other also avoids to the right; if one avoids to the left, the other also avoids to the left. No matter how many times they avoid, they almost collide. In Japan it is possible to shift responsibility by saying "It is because you were not looking!", but in crowds overseas this behavior stands out extremely. This too is a typical example of Japanese reactive rhythm. There are many other examples as well. All behavior of Japanese people is governed by Japanese reactive rhythm. As for this, it will be discussed in detail separately in [**The Hypothesis of the Influence of Japanese on the Recognition of Human Action**](/offbeat-count/influence-of-japanese-language-on-cognition/ja/).
 
 Here, from the next section onward, we will look at the large influence that Japanese reactive rhythm gives to musical rhythm. And we will see that this lies under the essence of Japanese people's weakness in English.
+
 ## What Is {{<meta var.METRE.en>}} <!-- {#the-crossing-point-of-language-and-music} -->
 
 {{<meta var.METRE.en>}} is one of the technical terms of English chanting poetry. This metre has a deep relationship with the order of strong beats and weak beats in music. Here we will look at what metre is, what kinds there are, and what kind of influence it gives to language.
@@ -1603,6 +1637,7 @@ By listening to the lyrics of {{<meta var.NURSERY_RHYME.en>}}, practicing listen
 ## {{<meta var.MLWBOR.en>}} <!-- {#multi-layered-weak-beat-precedence} -->
 
 We will see that beats have two kinds, strong beats and weak beats. And we will see that strong beats do not necessarily appear first, and that weak beats are often performed first. Next, we will see that weak beats and strong beats exist not only in quarter notes but in notes of all note values. The strong beats and weak beats of each note value, as a result, produce a multilayered structure in weak beats. We will see that when weak-beat precedence is added to this multilayered structure of weak beats, rhythm shifts from a **head-alignment structure** to a **tail-alignment structure**.
+
 ### What Are Strong Beats and Weak Beats
 
 #### With Only One Beat, Rhythm Does Not Arise
@@ -1680,6 +1715,7 @@ If we look at strong beats and weak beats on eighth notes, it becomes as follows
 If we look at strong beats and weak beats on half notes, it becomes as follows.
 
 ![](/offbeat-count/attachments/beat-orientation-explained-half-with-caption.png)
+
 ### What Are Layered Beats
 
 #### Weak Beats Divide Strong Beats
@@ -1785,6 +1821,7 @@ At this time, the collection of weak beats of each note value (quarter notes, ei
 In jazz, improvisation is often performed among performers who recognize that all beats are weak beats. At this time, if performer A plays only half notes, there is the habit of enjoying flexible responses such as performer B playing only quarter notes, or if A suddenly switches without warning and plays quarter notes, B quickly switching to half notes and playing.
 
 Switching to a different beat layer is called here **changing beat layers**.
+
 ### Weak-Beat-Centered Rhythm
 #### Playing Only Weak Beats
 
@@ -1834,6 +1871,7 @@ The opposing concepts of **simultaneous** and **alternating** at the level of la
 It is known that switching this rhythm sense of simultaneous and alternating is extremely difficult. There exist mathematical properties there that are completely different in principle. Even people who are already able to switch may, by some chance, switch wrongly or become confused and unable to switch. Rather, that is an everyday occurrence. Even for people who acquired both English and Japanese as native languages, it is by no means rare to leave a strong accent in one of the languages. If it was acquired later in life through learning and not natively, it is all the more necessary to pass through a high difficulty.
 
 To become bilingual in Japanese and English, switching this language-rhythm sense becomes an important keyword.
+
 ### What Is the Order of Strong Beats and Weak Beats
 
 If sounds were sounded twice as follows, how would you place those notes on the score?
@@ -1872,11 +1910,15 @@ As we have seen up to here, beats have two kinds, strong beats and weak beats. S
 #### The Importance of Anacrusis
 
 Recognition of this anacrusis is greatly influenced by the language a person speaks as their native language. Looking around music in the whole world, one notices that the frequency with which anacrusis occurs is very high. Depending on the kind of music, the frequency of anacrusis is extremely high, and there are even cases where anacrusis is necessarily performed almost every time. If one investigates the frequency of anacrusis even further, one will in fact instead notice that only Japan hardly uses anacrusis in composition and improvisation. One can see that Japan has the very rare habit of not using anacrusis in music. There is a reason for this. This is because it is a phenomenon caused by the rhythm recognition called mora-timed rhythm that Japanese has.
+
+
 ### {{<meta var.MLWBOR.en>}} and Tail Alignment <!-- {#multi-layered-weak-beat-precedence-and-tail-aligning} -->
 
 Weak beats have multilayered nature. And when weak-beat precedence occurs on multilayered beat layers, a very interesting rhythmic phenomenon called **tail alignment** occurs. This **tail alignment** is the **true identity of musical groove**. In this section, we will first look at what multilayered nature is, what tail alignment is, and the mechanism of why tail alignment occurs.
+
 #### Tail Alignment and Head Alignment
 Here, the rhythm recognition of mora-timed rhythm is called **head alignment**, and the rhythm recognition of stress-timed rhythm is called **tail alignment**.
+
 #### Tail Alignment
 In overseas music, such as jazz, R&B, and rock, often the starting point of the melody is not clearly fixed, and the melody begins vaguely from an arbitrary point. The starting point is not clearly fixed, but the ending point is always fixed, and a method is often used of putting an accent there with a large sound. This rhythm structure is here called **tail alignment**.
 
@@ -1887,6 +1929,7 @@ In overseas music, such as jazz, R&B, and rock, often the starting point of the 
 In the tail-alignment rhythm structure, the performance order of quarter notes is often not 1-2-3-4 but the order 2-3-4-1. In this way, the melody is always arranged so that 1 comes last. In sixteen-beat songs, it is common to count in eighth notes, and in this case as well the melody is arranged so that 1 always comes last, as in 2-3-4-5-6-7-8-1.
 
 This is the true identity of what is called **groove**. It can be said that the fact that this tail alignment is occurring simultaneously at all note values is **the essence of the rhythmic phenomenon called groove**.
+
 #### Head Alignment
 
 In traditional Chinese music and in the music of countries such as Japan and Iran, whose native languages are mora-timed languages, the starting point of the melody is often clearly fixed within repetition, and a method is often used of putting an accent there with a large sound. In most cases, the ending point is not clearly fixed, and the melody ends vaguely. This rhythm structure is here called **head alignment**.
@@ -1896,6 +1939,7 @@ In traditional Chinese music and in the music of countries such as Japan and Ira
 [Head Alignment (x/twitter)](https://twitter.com/ats4u/status/1612304530502451201)
 
 In the head-alignment rhythm structure, the performance order of quarter notes is often performed in the order 1-2-3-rest. At this time, 4 is often not performed and a rest is performed. In sixteen-beat songs, forms transformed from 1-2-3-rest are maintained, such as "1-2-3-rest 4-5-6-rest" (repeating 1-2-3-rest twice) and "1-2-3-4-5-6-rest-rest" (extending 1-2-3-rest to twice its length).
+
 #### Strong-Beat Precedence in Multilayer Beat Structure
 There is a clear reason why head-alignment and tail-alignment rhythm structures are born. Whether the rhythm structure of a melody becomes head alignment or tail alignment is determined by whether the rhythm is weak-beat precedence or strong-beat precedence.
 
@@ -2098,10 +2142,12 @@ In the same way, strong beats and weak beats can be assigned to all note values.
     </tr>
   </tbody>
 </table>
+
 #### Applying the RMOP Principle and Putting Weak Beats in Front
 <!-- ABOUT_RMOP -->
 
 In the previous section, I introduced the principle called the **Rhythmic Maximal Onset Principle (RMOP = Rhythmic Maximal Onset Principle)**, by which the **Maximize Onset Principle (MOP = Maximize Onset Principle)** of language phonology is also applied to musical rhythm. Here we will look at what happens when this **Rhythmic Maximal Onset Principle (RMOP = Rhythmic Maximal Onset Principle)** is applied to multilayered beat layers.
+
 #### The Basics of Weak-Beat Precedence
 
 Let us look in order from a simple example at what happens when weak-beat precedence occurs with respect to beats on a measure.
@@ -2230,6 +2276,7 @@ Let us confirm this with score and sound.
 
 ##### Summary
 This is the basis of weak-beat precedence. From now on, we will see that this process called weak-beat precedence spreads one after another to other note values.
+
 #### 弱拍先行には複数の階層がある
 
 前章では弱拍先行するリズムの例として４分音符に於いて弱拍が強拍よりも先に演奏される場合をグラフ化して俯瞰しました。**この弱拍の先行は複数の音価の拍で同時に起こり** ます。例えば2分音符で見てみましょう。
@@ -4041,6 +4088,8 @@ Up to now, we have called these things **2341 rhythm** for quarter notes and **2
 Furthermore, this rhythm structure has the length of the measure. It may also extend across multiple measures. Or it may also occur with fine notes that are not written in the score.
 
 Therefore, this rhythm structure that is played in the order beginning with 2 and ending with 1 is called the **tail-alignment rhythm structure**.
+
+
 ### Determining the Note Value to Which a Weak Beat Belongs
 
 If the beats of rhythm did not have the two kinds of weak beats and strong beats, there would be only one kind of the beat heard first, and there would be no need to judge anything. However, in music composed of Schizorhythmos, beats are distinguished into the two kinds of weak beats and strong beats. At this time, if one judges it to be a strong beat, there is only one possibility. But if one judges that beat to be a weak beat, it becomes necessary to distinguish and judge which note value's weak beat that weak beat is. In other words, precisely because music presupposes weak beats, the person who hears that music has the need, within a fixed time, to **determine the note value to which that weak beat belongs**. This lies beneath the essence of the interestingness of rhythm.
@@ -4174,7 +4223,9 @@ The methodology of musical recognition devised to continue certainly and reliabl
 If one cannot **determine the note value to which a weak beat belongs**, one can no longer understand the overall picture of the rhythm that the music possesses. **Determining the note value to which a weak beat belongs** lies at the root of the difficulty of understanding music in which weak beats precede. In other words, by training oneself to quickly **determine the note value to which a weak beat belongs**, one can improve understanding and performance of music in which weak beats precede.
 
 The method devised as training for **determining the note value to which a weak beat belongs** is the **spoken Offbeat Count practice method**.
+
 ### Summary <!-- {#multi-layered-weak-beat-oriented-rhythm-theory-summary} -->
+
 #### Ba Dum Tss Is Two-Layer Weak-Beat-Precedence Recognition
 
 Up to now, we have looked at the meaning of weak-beat precedence, the multilayered nature of weak-beat precedence, and the reasons for the difficulty of hearing apart multilayered weak-beat precedence. Here, it can be said that we have finally reached the state where the necessary weapons for understanding ba dum tss are in place.
@@ -4398,6 +4449,8 @@ One can see that this interpretation is interpreting on the premise that eighth-
     </tr>
   </tbody>
 </table>
+
+
 #### Difference of Multilayer Level by Language
 
 The recognition of multilayer weak-beat precedence that we have seen up to now is influenced by the beat rhythm of the language that person speaks as their native language. In other words, according to the beat rhythm of the language, differences arise such as which note value's weak-beat precedence is easy to recognize, or whether multilayer weak-beat precedence is easy or hard to recognize. A list of those tendencies is shown below.
@@ -4419,6 +4472,7 @@ It is possible to interpret that **syllable-timed rhythm is single-layer weak-be
 And to mora-timed rhythm, the **Minimum Onset Principle (MiOP = Minimum Onset Principle)**, which is the exact opposite of stress-timed rhythm and syllable-timed rhythm, is applied. In other words, it can be said that not only weak beats but also strong beats do not exist. In other words, all beats are isolated without being divided, and it is possible to interpret that there are no layers.
 
 In other words, **mora-timed rhythm can be interpreted as layerless rhythm**.
+
 #### The Multilayer Level Increases as Time Passes
 
 Music in which double weak-beat precedence appears, such as Four performed by Miles Davis, exists only in America.
@@ -4440,6 +4494,7 @@ In this piece, in addition to a rhythm in which weak beats precede simultaneousl
 Only American music has this kind of multilayer weak-beat-precedence rhythm.
 
 <div class="center-box"><iframe class="rhythmpedia-iframe" src="https://www.youtube.com/embed/tLAJSQR8V9Q?si=6LFljO26x9olfPeB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
 #### High Performance as the Entertainment Performance of Stress-Timed Music
 
 Assume that the more complex rhythm is, the higher its entertainment performance is. Up to now, we have seen that multilayer weak-beat precedence is a rhythm produced by the linguistic rhythm unique to English and German called stress-timed rhythm. It can also be said that, by stress-timed rhythm mixing in America with various ethnic musics of South America and Africa and becoming still more complex and developed, the performance of rhythm as entertainment became high. The high entertainment performance of American music born from stress-timed rhythm can be explained phonologically.
@@ -4449,11 +4504,13 @@ Why is American music listened to all over the world? Since the internet spread,
 However, is not the reason American music is excellent absolutely not due to political power and economic hegemonic power, but rather in the overwhelmingly high **entertainment performance** of rhythm produced by developing highly multilayered weak-beat-precedence rhythm by tolerantly accepting the diversity of global ethnic musics of Southeast Asia, India, the Middle East, and so on on the basis of stress-timed rhythm?
 
 As an actual example, even Mundian's Bach Ke mentioned above is absorbed as American music by [Jay-Z's Bach Ke remix](https://www.youtube.com/watch?v=N6_uYzX6Xj8).
+
 #### Jazz Is the Ultimate World Music
 
 Not only did it take in all the past methods beginning from the music of circle-of-fourths progression created by Bach, marches, rondo, minuet, Impressionism, Romanticism, and so on, but **jazz**, which absorbed all rhythms from around the world such as Gaelic folk music, African folk music, Latin American rhythms, and so on, is, so to speak, the **ultimate world music**, and it may be concluded that the overwhelmingly high entertainment performance it boasts can be explained not by political power but strictly by phonology.
 
 This can be said to be a development that was possible precisely because it was stress-timed rhythm born as a developed form of syllable-timed rhythm.
+
 #### A Methodology for Anyone to Groove
 
 It was a development that was possible precisely because it was stress-timed rhythm born as a developed form of syllable-timed rhythm. And mora-timed rhythm is a singularity and has properties exactly opposite to stress timing and syllable timing. It bears the fate of not being able to enter this world of syllable timing and stress timing.
@@ -4474,6 +4531,8 @@ In the chapters that follow, by learning the Offbeat Count method and applying m
   - Offbeat Count theory
   - Weak-beat geocentrism and strong-beat heliocentrism
   - The mechanism of tatenori
+
+
 ## 多次元ディヴィジョン空間 <!-- {#multidimensional-division-spaces} -->
 
 リズムを明確かつ精密に認識するための基礎的な技術──それが「ディヴィジョン空間理論」です。この理論は、オフビートカウント理論を土台として作られたもので、様々なジャンルの音楽のグルーヴを解析できる様に拡張されたものです。世界中のリズムが持っている **分裂拍(Schizorythymos)** の本質を様々な方法を使って把握する為に汎用可能な理論を提供します。

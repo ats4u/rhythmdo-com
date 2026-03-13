@@ -51,6 +51,29 @@ def sanitize_cell(text: str) -> str:
     return text.replace("\t", " ").replace("\r", " ").replace("\n", " ").strip()
 
 
+def split_edge_whitespace(text: str) -> Tuple[str, str, str]:
+    start = 0
+    end = len(text)
+    while start < end and text[start].isspace():
+        start += 1
+    while end > start and text[end - 1].isspace():
+        end -= 1
+    return text[:start], text[start:end], text[end:]
+
+
+def normalize_edge_whitespace(source_text: str, target_text: str) -> str:
+    source_leading, _, source_trailing = split_edge_whitespace(source_text)
+    _, target_core, _ = split_edge_whitespace(target_text)
+    return f"{source_leading}{target_core}{source_trailing}"
+
+
+def describe_whitespace(text: str) -> str:
+    escaped = text.encode("unicode_escape").decode("ascii")
+    if len(escaped) > 40:
+        escaped = f"{escaped[:37]}..."
+    return f"{len(text)}:{escaped!r}"
+
+
 def format_chunk_id(path: Sequence[int]) -> str:
     return "-".join(f"{part:02d}" for part in path)
 
@@ -387,15 +410,23 @@ def split_command(args: argparse.Namespace) -> int:
     return 0
 
 
-def joined_text(root: Path, rows: Sequence[Dict[str, str]], side: str) -> str:
+def read_chunk_texts(root: Path, row: Dict[str, str]) -> Tuple[str, str]:
+    source_text = (root / row["source_rel"]).read_text(encoding="utf-8")
+    target_path = root / row["target_rel"]
+    target_text = target_path.read_text(encoding="utf-8") if target_path.exists() else source_text
+    return source_text, target_text
+
+
+def joined_text(root: Path, rows: Sequence[Dict[str, str]], side: str, normalize_target_edges: bool = False) -> str:
     parts: List[str] = []
     for row in rows:
         if side == "source":
-            file_path = root / row["source_rel"]
+            source_text, _ = read_chunk_texts(root, row)
+            text = source_text
         else:
-            target_path = root / row["target_rel"]
-            file_path = target_path if target_path.exists() else root / row["source_rel"]
-        parts.append(file_path.read_text(encoding="utf-8"))
+            source_text, target_text = read_chunk_texts(root, row)
+            text = normalize_edge_whitespace(source_text, target_text) if normalize_target_edges else target_text
+        parts.append(text)
     return "".join(parts)
 
 
@@ -432,11 +463,35 @@ def verify_command(args: argparse.Namespace) -> int:
         print("source roundtrip mismatch")
         return 1
 
+    edge_mismatches: List[str] = []
+    for row in rows:
+        source_text, target_text = read_chunk_texts(root, row)
+        source_leading, _, source_trailing = split_edge_whitespace(source_text)
+        target_leading, _, target_trailing = split_edge_whitespace(target_text)
+        if source_leading != target_leading or source_trailing != target_trailing:
+            edge_mismatches.append(
+                (
+                    f"{row['chunk_id']} {row['target_rel']} "
+                    f"leading source={describe_whitespace(source_leading)} "
+                    f"target={describe_whitespace(target_leading)} "
+                    f"trailing source={describe_whitespace(source_trailing)} "
+                    f"target={describe_whitespace(target_trailing)}"
+                )
+            )
+
     print("source roundtrip: OK")
     if target_hash == expected_hash:
         print("target state: matches source")
     else:
         print("target state: diverged from source")
+    if edge_mismatches:
+        print(f"edge whitespace mismatches: {len(edge_mismatches)}")
+        for mismatch in edge_mismatches[:20]:
+            print(mismatch)
+        if len(edge_mismatches) > 20:
+            print(f"... {len(edge_mismatches) - 20} more")
+        return 1
+    print("edge whitespace: OK")
     return 0
 
 
@@ -444,7 +499,7 @@ def join_command(args: argparse.Namespace) -> int:
     root = Path(args.root).resolve()
     rows = read_manifest(root)
     output_path = Path(args.output).resolve()
-    text = joined_text(root, rows, args.side)
+    text = joined_text(root, rows, args.side, normalize_target_edges=(args.side == "target"))
     output_path.write_text(text, encoding="utf-8")
     print(f"wrote: {output_path}")
     print(f"sha256: {sha256_text(text)}")
