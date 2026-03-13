@@ -1,6 +1,6 @@
-#### サブディヴィジョンとは
+#### What Is Subdivision
 
-サブディヴィジョンとは、声出しカウントを行う時に数字の間にいれるアルファベットと記号のことです。
+Subdivision means the letters and symbols inserted between the numbers when doing spoken count.
 
 ```{python}
 #| output: asis
@@ -16,19 +16,19 @@ print(
 )
 ```
 
-サブディヴィジョンをカウントする時は数字ではなく、記号（＆）とアルファベットを使います。ここで使われる記号アルファベットは次の通りです。
+When counting subdivision, we use symbols (`&`) and letters rather than numbers. The symbols and letters used here are as follows.
 
-* a ( アー )
-* & ( アンド )
-* e (イー)
+* a (ah)
+* & (and)
+* e (ee)
 
-ここではこのサブディヴィジョンを多次元化します。
+Here we will multidimensionalize this subdivision.
 
-##### サブディヴィジョンの多次元化する
+##### Multidimensionalizing Subdivision
 
-サブディヴィジョンの多次元化は、これまで数字に対して行っていた多次元化を、記号アルファベットに対して行うことを言います。
+Multidimensionalizing subdivision means applying to symbols and letters the same multidimensionalization that was previously applied to numbers.
 
-次のようにサブディヴィジョンがあったとします。
+Suppose there is a subdivision as follows.
 
 ```{python}
 #| output: asis
@@ -44,11 +44,11 @@ print(
 )
 ```
 
-この通常のサブディヴィジョンはいわば一次元のサブディヴィジョンということができます。
+This ordinary subdivision can be regarded, so to speak, as one-dimensional subdivision.
 
-##### 一次元サブディヴィジョンの多次元化
+##### Multidimensionalizing One-Dimensional Subdivision
 
-この 1 e & a を 4回繰り返して読み、更に先頭の記号アルファベットを 1 e & a の順番で入れ替えることにより、あたかも一次元に並んでいる記号アルファベットを、二次元化した上で再度一次元に投影展開するのと同じ処理を行うことが出来ます。
+By reading this `1 e & a` four times and then rotating the leading symbol/letter in the order `1 e & a`, we can perform the same process as if the symbols and letters arranged in one dimension were first made two-dimensional and then projected and unfolded back into one dimension.
 
 ```{python}
 #| output: asis
@@ -70,7 +70,7 @@ print(
 )
 ```
 
-横に並べると次の様になります。
+If we arrange it horizontally, it becomes as follows.
 
 ```{python}
 #| output: asis
@@ -86,11 +86,11 @@ print(
 )
 ```
 
-この様にサブディヴィジョンの記号アルファベットを多次元化することを**サブディヴィジョンの多次元化** と呼びます。
+Multidimensionalizing subdivision symbols and letters in this way is called **multidimensionalization of subdivision**.
 
-##### 多次元化したサブディヴィジョンをもう一度多次元化する
+##### Multidimensionalizing an Already Multidimensionalized Subdivision Once More
 
-既に多次元化したサブディヴィジョンを更に多次元化することも可能です。 次の様に更にもう一次元増やすことで**三次元マクロディヴィジョン(Triple-Layered Macrodivision)** を構築できます。
+It is also possible to multidimensionalize an already multidimensionalized subdivision further. By adding yet one more dimension as follows, we can construct **three-dimensional subdivision**.
 
 ```{python}
 #| output: asis
@@ -112,7 +112,7 @@ print(
 )
 ```
 
-この表を立体的に並べてみると次の様になります。
+If we arrange this table in solid form, it becomes as follows.
 
 <div class="perspwrap" style="z-index:40"><div class="perspinner">
 ```{python}
@@ -197,4 +197,3 @@ print(
 )
 ```
 </div></div>
-

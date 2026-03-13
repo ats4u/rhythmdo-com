@@ -201,6 +201,44 @@ var:
     ja: "縦乗りの一方向性"
     en: "Tatenori Unidirectionality"
 
+  # === Division-Space Theory ===
+  MULTIDIMENSIONAL_DIVISION_SPACES:
+    ja: "多次元ディヴィジョン空間"
+    en: "Multidimensional Division Spaces"
+  DIVISION_SPACE_THEORY:
+    ja: "ディヴィジョン空間理論"
+    en: "Division-Space Theory"
+  MULTIDIMENSIONALIZATION:
+    ja: "多次元化"
+    en: "Multidimensionalization"
+  FOUR_DIVISION_SPACES:
+    ja: "４つのディヴィジョン空間"
+    en: "Four Division Spaces"
+  DIVISION_SPACE:
+    ja: "ディヴィジョン空間"
+    en: "Division Space"
+  DIVISION:
+    ja: "ディヴィジョン"
+    en: "Division"
+  SUBDIVISION:
+    ja: "サブディヴィジョン"
+    en: "Subdivision"
+  MACRODIVISION:
+    ja: "マクロディヴィジョン"
+    en: "Macrodivision"
+  MICRODIVISION:
+    ja: "マイクロディヴィジョン"
+    en: "Microdivision"
+  MACRODIVISION_THEORY:
+    ja: "マクロディヴィジョン理論"
+    en: "Macrodivision Theory"
+  DIVISION_SPACE_DIMENSIONAL_TRANSFER:
+    ja: "ディヴィジョン空間次元転送"
+    en: "Division-Space Dimensional Transfer"
+  DIVISION_SPACE_WARP:
+    ja: "ディヴィジョン空間ワープ"
+    en: "Division-Space Warp"
+
   # === Phonorhythmatology ===
   PHONORHYTHMATOLOGY:
     ja: "<ruby>音韻学的音楽分析<rt>フォノリズマトロジー</rt></ruby>"

@@ -1,4 +1,3 @@
-## 多次元ディヴィジョン空間 <!-- {#multidimensional-division-spaces} -->
+## Multidimensional Division Spaces <!-- {#multidimensional-division-spaces} -->
 
-リズムを明確かつ精密に認識するための基礎的な技術──それが「ディヴィジョン空間理論」です。この理論は、オフビートカウント理論を土台として作られたもので、様々なジャンルの音楽のグルーヴを解析できる様に拡張されたものです。世界中のリズムが持っている **分裂拍(Schizorythymos)** の本質を様々な方法を使って把握する為に汎用可能な理論を提供します。
-
+The foundational technique for recognizing rhythm clearly and precisely is **Division-Space Theory**. This theory was built on Offbeat Count Theory and extended so that it can analyze groove across many genres of music. It provides a general-purpose framework for grasping, by various methods, the essence of the **Schizorhythmos** found in rhythms around the world.

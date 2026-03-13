@@ -1,8 +1,8 @@
-#### ディヴィジョンとは
+#### What Is Division
 
-これまで拍を数えるときは**１２３４、１２３４**と小節を繰り返しながら、その各小節内の拍数を数えて来ました。 この小節を分割して出来る数を **ディヴィジョン** と呼びます。
+Up to now, when counting beats, we have repeated the measure as **1 2 3 4, 1 2 3 4** while counting the number of beats within each measure. The numbers produced by dividing the measure in this way are called **division**.
 
-次の表は、ディヴィジョンの例です。
+The following table shows an example of division.
 
 ```{python}
 #| output: asis
@@ -17,4 +17,3 @@ print(
     )
 )
 ```
-

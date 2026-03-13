@@ -1,7 +1,6 @@
-#### マイクロディヴィジョンの定義
+#### Definition of Microdivision
 
-マイクロディヴィジョンは細かすぎる為にはっきりと数えることが出来ません。しかしここで仮説としてマイクロディヴィジョンを以下の通りに定義します。
+Microdivision is too fine to be counted clearly. However, as a working hypothesis, I define microdivision as follows.
 
-* **マイクロディヴィジョンは、サブディヴィジョンを多次元化する事で定義できる。**
-* マイクロディヴィジョンは、マクロディヴィジョン及び、サブディヴィジョンと同じ性質を持っている。
-
+* **Microdivision can be defined by multidimensionalizing subdivision.**
+* Microdivision has the same properties as macrodivision and subdivision.

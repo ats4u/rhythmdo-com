@@ -1,6 +1,6 @@
-#### 多次元化とは
+#### What Is Multidimensionalization
 
-多次元化とは、次の様に数を数えるときの**桁数** を増やすことをいいます。前章の例で挙げた様にディヴィジョン（拍数）を数える際、次の様に小節数を同時に数えると次のようになります。
+Multidimensionalization means increasing the number of **digits** used when counting, as in the following example. As in the previous chapter, when counting division (the beat count), if we count the measure number at the same time, it becomes as follows.
 
 ```{python}
 #| output: asis
@@ -16,5 +16,4 @@ print(
 )
 ```
 
-この様に拍数を一定の周期で数える時に、その周期の先頭拍で周期が来た回数（小節数）を数えることを **多次元化**と呼びます。又は、これまでのオフビートカウントが発展してきた歴史的経緯から **小節数入りカウント**  呼ばれることもあります。
-
+When counting beat numbers in a fixed cycle in this way, counting, at the first beat of that cycle, how many times the cycle has come around (that is, the measure count) is called **multidimensionalization**. Because of the historical development of Offbeat Count, it is also sometimes called **counting with measure numbers**.

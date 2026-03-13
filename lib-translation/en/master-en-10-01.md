@@ -1,4 +1,4 @@
-### 多次元化とは
+### What Is Multidimensionalization
 
 ```{python}
 #| output: asis
@@ -18,26 +18,26 @@ if str(parent) not in sys.path:
 from lib.groovespace import *
 ```
 
-リズムという情報の本質は多次元構造にあります。多次元の構造を持った情報が時間軸という１次元数直線上に展開されたものといえます。 私達が聴いている音楽のリズムは、リズムが持つ多次元立体図形が小節・拍・連符そして、マイクロタイミングなどの時間軸 に展開されたものです。つまりリズムは多次元情報の１次元投影といえます。
+The essence of rhythm as information lies in its multidimensional structure. Information with a multidimensional structure is unfolded onto the one-dimensional number line of time. The rhythm we hear in music is the multidimensional solid figure possessed by rhythm unfolded along the time axis of measures, beats, tuplets, and microtiming. In other words, rhythm can be said to be a one-dimensional projection of multidimensional information.
 
-それはあたかも、折り重なった木々が路面に影を落とす様子とにています。
+It is like folded layers of trees casting shadows onto the road surface.
 
 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1754121576474440034?s=46</div>
 
-あるいは、大きな雲が多層になって地表に光と影の模様を作り出す様子とにています。
+Or like a large cloud layered in multiple strata, creating patterns of light and shadow on the ground.
 
 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1754121950614655124?s=46</div>
 
-私達が住んでいる３次元以上の次元数を持った空間での図形を３次元（立体）や２次元に投影すると、とても不思議な動きをする図形を見ることが出来ます。 例えば次の図形は超立体(テサラクト＝Tesseract)と呼ばれています。
+When a figure that exists in a space of three or more dimensions is projected into three dimensions (a solid) or two dimensions, we can observe very mysterious kinds of motion. For example, the following figure is called a tesseract.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/5/55/8-cell-simple.gif)
 
-リズムの上でもこれと似たような現象が起きています ─── 言い換えると、音楽のリズムの上にどれだけ多くの次元を持った干渉模様と幾何学模様を作り出すかが、グルーヴするための鍵とも言えます。
+Something similar happens in rhythm as well. In other words, one could say that the key to groove is how many multidimensional interference patterns and geometric patterns can be created within musical rhythm.
 
 
-具体的に言うと、数字の桁を順番に増やしていくような形になっています。
+Concretely speaking, it takes the form of increasing the number of digits step by step.
 
-次のような４拍のリズムがあったとします。
+Suppose there is a four-beat rhythm like the following.
 
 ```{python}
 #| output: asis
@@ -53,7 +53,7 @@ print(
 )
 ```
 
-このリズムが４回続くとします。
+Suppose this rhythm repeats four times.
 
 ```{python}
 #| output: asis
@@ -74,7 +74,7 @@ print(
 )
 ```
 
-この時、２次元の図形を１次元に投影したものと考えることが出来ます。何故なら４回続くパターンは次のような正方形を１次元に展開したものと同じと考えられるからです。 そのことが縦に折り返してみることでわかります。
+At this point, we can think of it as a two-dimensional figure projected into one dimension. The reason is that a pattern repeated four times can be regarded as the same as a square unfolded into one dimension as follows. We can see that by folding it vertically.
 
 ```{python}
 #| output: asis
@@ -96,10 +96,9 @@ print(
 )
 ```
 
-縦に折り返して並べ替えると、二次元の図形である正方形を一次元の直線として投影したものだということがわかります。
+When we fold it vertically and rearrange it, we can see that it is a projection of a two-dimensional square onto a one-dimensional line.
 
-
-次にこのリズムが更に４回続く場合を考えます。
+Next, let us consider the case where this rhythm repeats four more times.
 
 
 ```{python}
@@ -142,7 +141,7 @@ print(
 )
 ```
 
-これは上下方向にに並べることでもともとは立方体だったものを１次元に並べ替えたものだったことがわかります。
+By arranging it vertically in this way, we can see that what was originally a cube has been rearranged into one dimension.
 
 <div class="perspwrap" style="z-index:40"><div class="perspinner">
 ```{python}
@@ -227,4 +226,3 @@ print(
 )
 ```
 </div></div>
-

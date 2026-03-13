@@ -1,6 +1,5 @@
-### ディヴィジョン空間ワープ
+### Division-Space Warp
 
-次に、一般的にレイドバック・ラッシュ・ドラッグ等々と呼ばれている音符のずれによるニュアンスの表現は、譜面上に表される **サブディヴィジョン(分拍)** よりも更に細かい音符 **マイクロディヴィジョン(微分拍)**空間 が存在すると仮定し、これらに弱拍先行を適用することで合理的に説明できる ─── という理論を御紹介致します。
+Next, I introduce the theory that the expressive nuance created by note displacement, commonly called laid-back, rush, drag, and so on, can be explained rationally by assuming the existence of a finer **microdivision (micro-beat)** space below the **subdivision (sub-beat)** represented on the score and by applying weak-beat precedence to it.
 
-音符のずれによるニュアンスの表現は、**ディヴィジョン（拍）**  を **マクロディヴィジョン（小節＝合拍）** とみなし **サブディヴィジョン（連符＝分拍）**をディヴィジョンとみなした時のサブディヴィジョンによる弱拍先行リズムとして表現が可能になる ─── **ディヴィジョン空間ワープ** という理論を御説明致します。
-
+The expressive nuance created by note displacement can be represented as a weak-beat-precedence rhythm in subdivision when **division (beat)** is regarded as **macrodivision (measure = composite beat)** and **subdivision (tuplet = sub-beat)** is regarded as division. Here I explain this theory as **Division-Space Warp**.

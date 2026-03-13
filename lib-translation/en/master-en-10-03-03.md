@@ -1,10 +1,10 @@
-#### マクロディヴィジョンとは
+#### What Is Macrodivision
 
-マクロディヴィジョンについて説明します。
+I will explain macrodivision.
 
-##### ディヴィジョンを多次元化する
+##### Multidimensionalizing Division
 
-ここでディヴィジョン自体を多次元化すること考えてみます。次の図は前章で見た図と全く同じディヴィジョンの図です。
+Here, let us consider multidimensionalizing division itself. The following figure is exactly the same division figure we saw in the previous chapter.
 
 ```{python}
 #| output: asis
@@ -20,7 +20,7 @@ print(
 )
 ```
 
-このディヴィジョンを多次元化すると次の図になります。これも前章で見た図と全く同じ図です。
+When this division is multidimensionalized, it becomes the following figure. This too is exactly the same figure we saw in the previous chapter.
 
 ```{python}
 #| output: asis
@@ -36,11 +36,11 @@ print(
 )
 ```
 
-このように多次元化されたディヴィジョンのことを **マクロディヴィジョン (Macrodivision)** と呼びます。
+This kind of multidimensionalized division is called **macrodivision**.
 
-##### マクロディヴィジョンを多次元化する
+##### Multidimensionalizing Macrodivision
 
-このように、小節数入りで数えている時、ある数の小節のまとまりに対して更にもうひとつ次元を増やして数えると次の様になります。
+In this way, when we are counting with measure numbers, if we add one more dimension to count a group of measures of a certain size, it becomes as follows.
 
 ```{python}
 #| output: asis
@@ -62,11 +62,11 @@ print(
 )
 ```
 
-このように数えることを**マクロディヴィジョンの多次元化** と呼びます。また多次元化されたマクロディヴィジョンを **二次元マクロディヴィジョン(Double-Layered Macrodivision)** と呼びます。
+Counting in this way is called **multidimensionalization of macrodivision**. A macrodivision that has been multidimensionalized in this way is also called **two-dimensional macrodivision**.
 
-##### 多次元化したマクロディヴィジョンをもう一度多次元化する
+##### Multidimensionalizing an Already Multidimensionalized Macrodivision Once More
 
-既に多次元化したマクロディヴィジョンを更に多次元化することも可能です。 次の様に更にもう一次元増やすことで**三次元マクロディヴィジョン(Triple-Layered Macrodivision)** を構築できます。
+It is also possible to multidimensionalize an already multidimensionalized macrodivision further. By adding yet one more dimension as follows, we can construct **three-dimensional macrodivision**.
 
 ```{python}
 #| output: asis
@@ -130,12 +130,12 @@ print(
 )
 ```
 
-##### 多次元化したマクロディヴィジョンの呼び方
+##### How to Name Multidimensionalized Macrodivisions
 
-多次元化したマクロディヴィジョンの次元の呼び方を説明します。
+I will explain how to name the dimensions of multidimensionalized macrodivision.
 
-###### 一次元マクロディヴィジョン＝第一次元
-次の様に数えることを**一次元マクロディヴィジョン(One-Dimensional Macrodivision)**と呼びます。
+###### One-Dimensional Macrodivision = First Dimension
+The following way of counting is called **one-dimensional macrodivision**.
 
 ```{python}
 #| output: asis
@@ -156,10 +156,10 @@ print(
     )
 )
 ```
-そしてここでは、この次元を **第一次元** と呼びます。
+And here, this dimension is called the **first dimension**.
 
-###### 二次元マクロディヴィジョン＝第二次元
-次の様に数えることを**二次元マクロディヴィジョン(Two-Dimensional Macrodivision)** と呼びます。
+###### Two-Dimensional Macrodivision = Second Dimension
+The following way of counting is called **two-dimensional macrodivision**.
 
 ```{python}
 #| output: asis
@@ -180,10 +180,10 @@ print(
     )
 )
 ```
-そしてここでは、この次元を **第二次元** と呼びます。
+And here, this dimension is called the **second dimension**.
 
-###### 三次元マクロディヴィジョン＝第三次元
-次の様に数えることを**三次元マクロディヴィジョン(Three-Dimensional Macrodivision)** と呼びます。
+###### Three-Dimensional Macrodivision = Third Dimension
+The following way of counting is called **three-dimensional macrodivision**.
 
 ```{python}
 #| output: asis
@@ -247,5 +247,4 @@ print(
 )
 ```
 
-この３つ目の次元を**第三次元**と呼びます。
-
+This third dimension is called the **third dimension**.

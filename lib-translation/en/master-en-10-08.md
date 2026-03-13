@@ -1,18 +1,17 @@
-### 拍のレイヤー
+### Beat Layers
 
-これまで「拍 (ディヴィジョン=４分音符）」と、ディヴィジョンを更に分割して出来る「サブディヴィジョン」に対して弱拍先行と多次元を適用するとどうなるかを見てきました。
+Up to now, we have seen what happens when weak-beat precedence and multidimensionalization are applied to **beats (division = quarter notes)** and to **subdivision**, which is created by further dividing division.
 
-ディヴィジョン空間理論とは、拍以外の要素も拍とみなし、再帰的に弱拍先行と多次元を適用できると考える理論です。
+Division-Space Theory is the theory that elements other than beats can also be regarded as beats, and that weak-beat precedence and multidimensionalization can be applied to them recursively.
 
-ディヴィジョン空間理論は、まず小節を拍とみなすことが出来るという**マクロディヴィジョン理論**という視点を提示します。そして小節に関しても弱拍先行と多次元を適用することが出来ることを示します。
+Division-Space Theory first presents the perspective of **Macrodivision Theory**, which holds that measures themselves can be regarded as beats. It then shows that weak-beat precedence and multidimensionalization can also be applied to measures.
 
-ディヴィジョン空間理論は更に、一般的にレイドバック・ラッシュ・ドラッグ等々と表現される音符のずれによるニュアンスの表現について、譜面上に表されるサブディヴィジョンよりも更に細かい音符が存在するという**マクロディヴィジョン理論**を提示します。 この音符のずれはディヴィジョン（拍）を小節としてみなした時の弱拍先行リズムとして表現が可能という仮説を提唱します。
+Division-Space Theory further proposes that, for the expressive nuance created by note displacement commonly described as laid-back, rush, drag, and so on, there exist notes even finer than the subdivisions shown on the score. It advances the hypothesis that these note displacements can be expressed as weak-beat-precedence rhythm when division (beat) is regarded as a measure.
 
-このディヴィジョン空間理論については、別章のディヴィジョン空間理論とはで更に詳しく見ていきたいと思います。
+I would like to look in more detail at this Division-Space Theory in the separate chapter titled **What Is Division-Space Theory**.
 
-マイクロディヴィジョンについて説明する文章案
+Draft text for explaining microdivision
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">この曲は3拍子だが、4分音符1つのなかに aid と3つの音素( phoneme )があるので、4分音符を3分割しないと音符を適切に読むことが出来ない。日本語は音符1つに1モーラを割り当てるだけで、モーラには末子音がなく子音が短いので2分割するという感覚を持っていない。ここに根本的感覚の違いがある。 <a href="https://t.co/CcroJRy6yu">https://t.co/CcroJRy6yu</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1953003571047489764?ref_src=twsrc%5Etfw">August 6, 2025</a></blockquote>
 
 -->
-
 

@@ -1,3 +1,2 @@
-### オフビートカウントの一般化
-
+### Generalization of Offbeat Count
 

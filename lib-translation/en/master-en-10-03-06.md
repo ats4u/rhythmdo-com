@@ -1,6 +1,5 @@
-#### マイクロディヴィジョンとは
+#### What Is Microdivision
 
-**マイクロディヴィジョン**とは、サブディヴィジョンよりも細かい音符の音価領域を表す**ディヴィジョン空間**のひとつです。譜面に書き表すことができない細かなタイミングニュアンスをマイクロディヴィジョンという仮想のディヴィジョン空間として表します。
+**Microdivision** is one of the **division spaces** that represents the rhythmic-value range finer than subdivision. Fine timing nuances that cannot be written on a score are represented as a hypothetical division space called microdivision.
 
-マイクロディヴィジョンは、しばしば **ポケット** ・ **レイドバック** ・ **ラッシング** ・**ドラッギング** ・ **プッシュ** 等々と呼ばれるものと同じものです。 マイクロディヴィジョンは細かすぎる為、意識的に数えることが出来ません。 しかしこのマイクロディヴィジョンが音楽が持つ全てのニュアンスの鍵を握っていると言って過言でなく、音楽で最も重要な位置にあるリズム要素と言えます。 マイクロディヴィジョンは、プレーヤー及びリスナー双方の無意識の動きを制御する本質といえます。 マイクロディヴィジョンの制御の良し悪しひとつで、音楽はこの世のものとは思えない美しさを持って響くこともあれば、どんなに高度な作曲技法を持って作られた曲であろうと無関係に、無惨にも人の心に墨汁を流しこんだような不快感をもたらすこともあります。  ─── マイクロディヴィジョンは、音楽の全てと言って過言ではありません。
-
+Microdivision is often what people call **pocket**, **laid-back**, **rushing**, **dragging**, **push**, and so on. Because microdivision is too fine, it cannot be counted consciously. Yet it would not be an exaggeration to say that this microdivision holds the key to every nuance in music, and is the most important rhythmic element in music. Microdivision can be called the essence that controls the unconscious movement of both player and listener. Depending on whether microdivision is controlled well or badly, music may resonate with a beauty that seems almost beyond this world, or, regardless of how advanced the compositional technique may be, may miserably produce a discomfort like pouring India ink into the human heart. In that sense, it is no exaggeration to say that **microdivision is everything in music**.

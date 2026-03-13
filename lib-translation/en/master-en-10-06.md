@@ -1,2 +1,1 @@
-### ディヴィジョン空間とオフビートカウントの組み合わせ
-
+### Combining Division Spaces and Offbeat Count

@@ -1,8 +1,8 @@
-#### 多次元化したサブディヴィジョンの呼び方
+#### How to Name Multidimensionalized Subdivisions
 
-##### 一次元サブディヴィジョン＝第一次元
+##### One-Dimensional Subdivision = First Dimension
 
-次の様に数えることを**一次元サブディヴィジョン(One-Dimensional Subdivision)**と呼びます。
+The following way of counting is called **one-dimensional subdivision**.
 ```{python}
 #| output: asis
 print(
@@ -17,9 +17,9 @@ print(
 )
 ```
 
-##### 二次元サブディヴィジョン＝第二次元
+##### Two-Dimensional Subdivision = Second Dimension
 
-次の様に数えることを**二次元サブディヴィジョン(Two-Dimensional Subdivision)**と呼びます。
+The following way of counting is called **two-dimensional subdivision**.
 
 ```{python}
 #| output: asis
@@ -35,9 +35,9 @@ print(
 )
 ```
 
-##### 三次元サブディヴィジョン＝第三次元
+##### Three-Dimensional Subdivision = Third Dimension
 
-次の様に数えることを**三次元サブディヴィジョン(Three-Dimensional Subdivision)**と呼びます。
+The following way of counting is called **three-dimensional subdivision**.
 
 
 ```{python}
@@ -59,4 +59,3 @@ print(
     )
 )
 ```
-

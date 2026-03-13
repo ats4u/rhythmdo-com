@@ -4533,11 +4533,11 @@ In the chapters that follow, by learning the Offbeat Count method and applying m
   - The mechanism of tatenori
 
 
-## 多次元ディヴィジョン空間 <!-- {#multidimensional-division-spaces} -->
+## Multidimensional Division Spaces <!-- {#multidimensional-division-spaces} -->
 
-リズムを明確かつ精密に認識するための基礎的な技術──それが「ディヴィジョン空間理論」です。この理論は、オフビートカウント理論を土台として作られたもので、様々なジャンルの音楽のグルーヴを解析できる様に拡張されたものです。世界中のリズムが持っている **分裂拍(Schizorythymos)** の本質を様々な方法を使って把握する為に汎用可能な理論を提供します。
+The foundational technique for recognizing rhythm clearly and precisely is **Division-Space Theory**. This theory was built on Offbeat Count Theory and extended so that it can analyze groove across many genres of music. It provides a general-purpose framework for grasping, by various methods, the essence of the **Schizorhythmos** found in rhythms around the world.
 
-### 多次元化とは
+### What Is Multidimensionalization
 
 ```{python}
 #| output: asis
@@ -4557,26 +4557,26 @@ if str(parent) not in sys.path:
 from lib.groovespace import *
 ```
 
-リズムという情報の本質は多次元構造にあります。多次元の構造を持った情報が時間軸という１次元数直線上に展開されたものといえます。 私達が聴いている音楽のリズムは、リズムが持つ多次元立体図形が小節・拍・連符そして、マイクロタイミングなどの時間軸 に展開されたものです。つまりリズムは多次元情報の１次元投影といえます。
+The essence of rhythm as information lies in its multidimensional structure. Information with a multidimensional structure is unfolded onto the one-dimensional number line of time. The rhythm we hear in music is the multidimensional solid figure possessed by rhythm unfolded along the time axis of measures, beats, tuplets, and microtiming. In other words, rhythm can be said to be a one-dimensional projection of multidimensional information.
 
-それはあたかも、折り重なった木々が路面に影を落とす様子とにています。
+It is like folded layers of trees casting shadows onto the road surface.
 
 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1754121576474440034?s=46</div>
 
-あるいは、大きな雲が多層になって地表に光と影の模様を作り出す様子とにています。
+Or like a large cloud layered in multiple strata, creating patterns of light and shadow on the ground.
 
 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/1754121950614655124?s=46</div>
 
-私達が住んでいる３次元以上の次元数を持った空間での図形を３次元（立体）や２次元に投影すると、とても不思議な動きをする図形を見ることが出来ます。 例えば次の図形は超立体(テサラクト＝Tesseract)と呼ばれています。
+When a figure that exists in a space of three or more dimensions is projected into three dimensions (a solid) or two dimensions, we can observe very mysterious kinds of motion. For example, the following figure is called a tesseract.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/5/55/8-cell-simple.gif)
 
-リズムの上でもこれと似たような現象が起きています ─── 言い換えると、音楽のリズムの上にどれだけ多くの次元を持った干渉模様と幾何学模様を作り出すかが、グルーヴするための鍵とも言えます。
+Something similar happens in rhythm as well. In other words, one could say that the key to groove is how many multidimensional interference patterns and geometric patterns can be created within musical rhythm.
 
 
-具体的に言うと、数字の桁を順番に増やしていくような形になっています。
+Concretely speaking, it takes the form of increasing the number of digits step by step.
 
-次のような４拍のリズムがあったとします。
+Suppose there is a four-beat rhythm like the following.
 
 ```{python}
 #| output: asis
@@ -4592,7 +4592,7 @@ print(
 )
 ```
 
-このリズムが４回続くとします。
+Suppose this rhythm repeats four times.
 
 ```{python}
 #| output: asis
@@ -4613,7 +4613,7 @@ print(
 )
 ```
 
-この時、２次元の図形を１次元に投影したものと考えることが出来ます。何故なら４回続くパターンは次のような正方形を１次元に展開したものと同じと考えられるからです。 そのことが縦に折り返してみることでわかります。
+At this point, we can think of it as a two-dimensional figure projected into one dimension. The reason is that a pattern repeated four times can be regarded as the same as a square unfolded into one dimension as follows. We can see that by folding it vertically.
 
 ```{python}
 #| output: asis
@@ -4635,10 +4635,9 @@ print(
 )
 ```
 
-縦に折り返して並べ替えると、二次元の図形である正方形を一次元の直線として投影したものだということがわかります。
+When we fold it vertically and rearrange it, we can see that it is a projection of a two-dimensional square onto a one-dimensional line.
 
-
-次にこのリズムが更に４回続く場合を考えます。
+Next, let us consider the case where this rhythm repeats four more times.
 
 
 ```{python}
@@ -4681,7 +4680,7 @@ print(
 )
 ```
 
-これは上下方向にに並べることでもともとは立方体だったものを１次元に並べ替えたものだったことがわかります。
+By arranging it vertically in this way, we can see that what was originally a cube has been rearranged into one dimension.
 
 <div class="perspwrap" style="z-index:40"><div class="perspinner">
 ```{python}
@@ -4767,21 +4766,21 @@ print(
 ```
 </div></div>
 
-### 多次元ディヴィジョン空間理論とは
+### What Is Division-Space Theory
 
-ディヴィジョン空間理論とは、拍の数え方を拡張する為の理論です。 これまで  **ディヴィジョン（拍 =４分音符）** と **サブディヴィジョン（分拍＝連符）**  に対して数を数える方法を御説明致しました。このディヴィジョンを**多次元化** を使って４つの **ディヴィジョン空間**に拡張することにより、幅広いグルーヴの理解を行うことができる様にする理論がディヴィジョン空間理論です。
+Division-Space Theory is a theory for expanding the way beats are counted. Up to now, I have explained how to count **division (beat = quarter note)** and **subdivision (sub-beat = tuplet)**. Division-Space Theory expands division into four **division spaces** by means of **multidimensionalization**, making it possible to understand a wide range of groove.
 
-ディヴィジョン空間理論では、ディヴィジョン・サブディヴィジョンを1つの **ディヴィジョン空間**として扱います。
+In Division-Space Theory, division and subdivision are treated as one **division space**.
 
-そしてこのディヴィジョン空間を**多次元化**を使って拡張し**マクロディヴィジョン(小節)** と **マイクロディヴィジョン(ずれニュアンス)** という２つの新しい **ディヴィジョン空間**を定義します。
+It then expands this division space through **multidimensionalization** and defines two new **division spaces**: **macrodivision (measure)** and **microdivision (timing nuance)**.
 
-一般的にグルーヴと言われているリズムは、小節自体も拍とみなし小節にも弱拍先行を適用することによって説明出来るという **マクロディヴィジョン・ディヴィジョン空間** という概念を御紹介致します。
+I introduce the concept of a **macrodivision division space**, which explains what is generally called groove by regarding the measure itself as a beat and applying weak-beat precedence to the measure as well.
 
-次に、一般的にレイドバック・ラッシュ・ドラッグ等々と呼ばれている音符のずれによるニュアンスの表現は、譜面上に表される **サブディヴィジョン(分拍)** よりも更に細かい音符 **マイクロディヴィジョン(微分拍)**空間 が存在すると仮定し、これらに弱拍先行を適用することで合理的に説明できる ─── という理論を御紹介致します。
+Next, I introduce the theory that the expressive nuance created by note displacement, commonly called laid-back, rush, drag, and so on, can be explained rationally by assuming the existence of a finer **microdivision (micro-beat)** space below the **subdivision (sub-beat)** represented on the score and by applying weak-beat precedence to it as well.
 
-音符のずれによるニュアンスの表現は、**ディヴィジョン（拍）**  を **マクロディヴィジョン（小節＝合拍）** とみなし **サブディヴィジョン（連符＝分拍）**をディヴィジョンとみなした時のサブディヴィジョンによる弱拍先行リズムとして表現が可能になる ─── **ディヴィジョン空間転送** という理論を御説明致します。
+The expressive nuance created by note displacement can be represented as a weak-beat-precedence rhythm in subdivision when **division (beat)** is regarded as **macrodivision (measure = composite beat)** and **subdivision (tuplet = sub-beat)** is regarded as division. This is the theory I call **Division-Space Dimensional Transfer**.
 
-これらの理論を使うことで、グルーヴ習得の為の具体的な練習方法を考案したり、DAW上で機械的にグルーヴを再現することが出来るようになります。
+Using these theories, it becomes possible to devise concrete practice methods for acquiring groove and to reproduce groove mechanically in a DAW.
 
 <!--
 <div class="ats4u-twitter-video">https://x.com/ats4u/status/1754113170548175104</div>
@@ -4789,22 +4788,22 @@ print(
 -->
 
 
-### ４つのディヴィジョン空間
-これまでオフビートカウントで拍を数えるにあたって、４分音符１つを１拍とする単位（ディヴィジョン）で数えて来ました。
+### Four Division Spaces
+Up to now, in Offbeat Count, we have counted beats using the unit in which one quarter note equals one beat. This unit is called **division**.
 
-そして４分音符を分割して出来る８分音符や３連符などの拍（サブ・ディヴィジョン）については、数字ではなく **＆** **Ｅ** **Ａ** の３つの 記号/アルファベット を割り当てることで数えてきました。
+And for beats created by subdividing quarter notes, such as eighth notes and triplets, we have counted them not with numbers but by assigning the three symbols/letters **&** **E** **A**.
 
-このディヴィジョン・サブディヴィジョンのことをここでは**ディヴィジョン空間** と呼びます。 通常のリズム理論ではこのディヴィジョン空間は、**ディヴィジョン** と **サブディヴィジョン** の２つが存在します。
+Here, division and subdivision together are called a **division space**. In ordinary rhythm theory, there are two such division spaces: **division** and **subdivision**.
 
-ディヴィジョン空間理論では、この２つのディヴィジョン空間を**多次元化**という処理を加えることにおって拡張し４つのディヴィジョン空間を定義します。
+Division-Space Theory expands these two division spaces by applying the process called **multidimensionalization**, and defines four division spaces.
 
-* ４つのディヴィジョン空間
-  * マクロ・ディヴィジョン(小節=合拍=Macrodivision)
-  * ディヴィジョン (4分音符=拍=Division )
-  * サブ・ディヴィジョン (８分音符等々の分音符=分拍=Subdivision )
-  * マイクロ・ディヴィジョン(音符では書き表せない拍＝微分拍=Microdivision)
+* Four Division Spaces
+  * Macrodivision (measure = composite beat)
+  * Division (quarter note = beat)
+  * Subdivision (eighth notes and other smaller note values = sub-beat)
+  * Microdivision (beats too fine to be written as notes = micro-beat)
 
-そしてこの４つのディヴィジョン空間の特徴を説明致します。
+Now I will explain the characteristics of these four division spaces.
 
 ```{python}
 #| output: asis
@@ -4826,53 +4825,11 @@ from lib.groovespace import *
 
 ```
 
-#### ディヴィジョンとは
+#### What Is Division
 
-これまで拍を数えるときは**１２３４、１２３４**と小節を繰り返しながら、その各小節内の拍数を数えて来ました。 この小節を分割して出来る数を **ディヴィジョン** と呼びます。
+Up to now, when counting beats, we have repeated the measure as **1 2 3 4, 1 2 3 4** while counting the number of beats within each measure. The numbers produced by dividing the measure in this way are called **division**.
 
-次の表は、ディヴィジョンの例です。
-
-```{python}
-#| output: asis
-print(
-    show_beat(
-        [
-            [ 1, 2, 3, 4 ] *4
-        ],
-        [
-            [B1, N, N, N ] *4
-        ]
-    )
-)
-```
-
-#### 多次元化とは
-
-多次元化とは、次の様に数を数えるときの**桁数** を増やすことをいいます。前章の例で挙げた様にディヴィジョン（拍数）を数える際、次の様に小節数を同時に数えると次のようになります。
-
-```{python}
-#| output: asis
-print(
-    show_beat(
-        [
-            [ 1, 2, 3, 4, 2, 2, 3, 4, 3, 2, 3, 4, 4, 2, 3, 4 ]
-        ],
-        [
-            [R1, N, N, N ] *4
-        ]
-    )
-)
-```
-
-この様に拍数を一定の周期で数える時に、その周期の先頭拍で周期が来た回数（小節数）を数えることを **多次元化**と呼びます。又は、これまでのオフビートカウントが発展してきた歴史的経緯から **小節数入りカウント**  呼ばれることもあります。
-
-#### マクロディヴィジョンとは
-
-マクロディヴィジョンについて説明します。
-
-##### ディヴィジョンを多次元化する
-
-ここでディヴィジョン自体を多次元化すること考えてみます。次の図は前章で見た図と全く同じディヴィジョンの図です。
+The following table shows an example of division.
 
 ```{python}
 #| output: asis
@@ -4888,7 +4845,9 @@ print(
 )
 ```
 
-このディヴィジョンを多次元化すると次の図になります。これも前章で見た図と全く同じ図です。
+#### What Is Multidimensionalization
+
+Multidimensionalization means increasing the number of **digits** used when counting, as in the following example. As in the previous chapter, when counting division (the beat count), if we count the measure number at the same time, it becomes as follows.
 
 ```{python}
 #| output: asis
@@ -4904,11 +4863,51 @@ print(
 )
 ```
 
-このように多次元化されたディヴィジョンのことを **マクロディヴィジョン (Macrodivision)** と呼びます。
+When counting beat numbers in a fixed cycle in this way, counting, at the first beat of that cycle, how many times the cycle has come around (that is, the measure count) is called **multidimensionalization**. Because of the historical development of Offbeat Count, it is also sometimes called **counting with measure numbers**.
 
-##### マクロディヴィジョンを多次元化する
+#### What Is Macrodivision
 
-このように、小節数入りで数えている時、ある数の小節のまとまりに対して更にもうひとつ次元を増やして数えると次の様になります。
+I will explain macrodivision.
+
+##### Multidimensionalizing Division
+
+Here, let us consider multidimensionalizing division itself. The following figure is exactly the same division figure we saw in the previous chapter.
+
+```{python}
+#| output: asis
+print(
+    show_beat(
+        [
+            [ 1, 2, 3, 4 ] *4
+        ],
+        [
+            [B1, N, N, N ] *4
+        ]
+    )
+)
+```
+
+When this division is multidimensionalized, it becomes the following figure. This too is exactly the same figure we saw in the previous chapter.
+
+```{python}
+#| output: asis
+print(
+    show_beat(
+        [
+            [ 1, 2, 3, 4, 2, 2, 3, 4, 3, 2, 3, 4, 4, 2, 3, 4 ]
+        ],
+        [
+            [R1, N, N, N ] *4
+        ]
+    )
+)
+```
+
+This kind of multidimensionalized division is called **macrodivision**.
+
+##### Multidimensionalizing Macrodivision
+
+In this way, when we are counting with measure numbers, if we add one more dimension to count a group of measures of a certain size, it becomes as follows.
 
 ```{python}
 #| output: asis
@@ -4930,11 +4929,11 @@ print(
 )
 ```
 
-このように数えることを**マクロディヴィジョンの多次元化** と呼びます。また多次元化されたマクロディヴィジョンを **二次元マクロディヴィジョン(Double-Layered Macrodivision)** と呼びます。
+Counting in this way is called **multidimensionalization of macrodivision**. A macrodivision that has been multidimensionalized in this way is also called **two-dimensional macrodivision**.
 
-##### 多次元化したマクロディヴィジョンをもう一度多次元化する
+##### Multidimensionalizing an Already Multidimensionalized Macrodivision Once More
 
-既に多次元化したマクロディヴィジョンを更に多次元化することも可能です。 次の様に更にもう一次元増やすことで**三次元マクロディヴィジョン(Triple-Layered Macrodivision)** を構築できます。
+It is also possible to multidimensionalize an already multidimensionalized macrodivision further. By adding yet one more dimension as follows, we can construct **three-dimensional macrodivision**.
 
 ```{python}
 #| output: asis
@@ -4998,12 +4997,12 @@ print(
 )
 ```
 
-##### 多次元化したマクロディヴィジョンの呼び方
+##### How to Name Multidimensionalized Macrodivisions
 
-多次元化したマクロディヴィジョンの次元の呼び方を説明します。
+I will explain how to name the dimensions of multidimensionalized macrodivision.
 
-###### 一次元マクロディヴィジョン＝第一次元
-次の様に数えることを**一次元マクロディヴィジョン(One-Dimensional Macrodivision)**と呼びます。
+###### One-Dimensional Macrodivision = First Dimension
+The following way of counting is called **one-dimensional macrodivision**.
 
 ```{python}
 #| output: asis
@@ -5024,10 +5023,10 @@ print(
     )
 )
 ```
-そしてここでは、この次元を **第一次元** と呼びます。
+And here, this dimension is called the **first dimension**.
 
-###### 二次元マクロディヴィジョン＝第二次元
-次の様に数えることを**二次元マクロディヴィジョン(Two-Dimensional Macrodivision)** と呼びます。
+###### Two-Dimensional Macrodivision = Second Dimension
+The following way of counting is called **two-dimensional macrodivision**.
 
 ```{python}
 #| output: asis
@@ -5048,10 +5047,10 @@ print(
     )
 )
 ```
-そしてここでは、この次元を **第二次元** と呼びます。
+And here, this dimension is called the **second dimension**.
 
-###### 三次元マクロディヴィジョン＝第三次元
-次の様に数えることを**三次元マクロディヴィジョン(Three-Dimensional Macrodivision)** と呼びます。
+###### Three-Dimensional Macrodivision = Third Dimension
+The following way of counting is called **three-dimensional macrodivision**.
 
 ```{python}
 #| output: asis
@@ -5115,11 +5114,11 @@ print(
 )
 ```
 
-この３つ目の次元を**第三次元**と呼びます。
+This third dimension is called the **third dimension**.
 
-#### サブディヴィジョンとは
+#### What Is Subdivision
 
-サブディヴィジョンとは、声出しカウントを行う時に数字の間にいれるアルファベットと記号のことです。
+Subdivision means the letters and symbols inserted between the numbers when doing spoken count.
 
 ```{python}
 #| output: asis
@@ -5135,19 +5134,19 @@ print(
 )
 ```
 
-サブディヴィジョンをカウントする時は数字ではなく、記号（＆）とアルファベットを使います。ここで使われる記号アルファベットは次の通りです。
+When counting subdivision, we use symbols (`&`) and letters rather than numbers. The symbols and letters used here are as follows.
 
-* a ( アー )
-* & ( アンド )
-* e (イー)
+* a (ah)
+* & (and)
+* e (ee)
 
-ここではこのサブディヴィジョンを多次元化します。
+Here we will multidimensionalize this subdivision.
 
-##### サブディヴィジョンの多次元化する
+##### Multidimensionalizing Subdivision
 
-サブディヴィジョンの多次元化は、これまで数字に対して行っていた多次元化を、記号アルファベットに対して行うことを言います。
+Multidimensionalizing subdivision means applying to symbols and letters the same multidimensionalization that was previously applied to numbers.
 
-次のようにサブディヴィジョンがあったとします。
+Suppose there is a subdivision as follows.
 
 ```{python}
 #| output: asis
@@ -5163,11 +5162,11 @@ print(
 )
 ```
 
-この通常のサブディヴィジョンはいわば一次元のサブディヴィジョンということができます。
+This ordinary subdivision can be regarded, so to speak, as one-dimensional subdivision.
 
-##### 一次元サブディヴィジョンの多次元化
+##### Multidimensionalizing One-Dimensional Subdivision
 
-この 1 e & a を 4回繰り返して読み、更に先頭の記号アルファベットを 1 e & a の順番で入れ替えることにより、あたかも一次元に並んでいる記号アルファベットを、二次元化した上で再度一次元に投影展開するのと同じ処理を行うことが出来ます。
+By reading this `1 e & a` four times and then rotating the leading symbol/letter in the order `1 e & a`, we can perform the same process as if the symbols and letters arranged in one dimension were first made two-dimensional and then projected and unfolded back into one dimension.
 
 ```{python}
 #| output: asis
@@ -5189,7 +5188,7 @@ print(
 )
 ```
 
-横に並べると次の様になります。
+If we arrange it horizontally, it becomes as follows.
 
 ```{python}
 #| output: asis
@@ -5205,11 +5204,11 @@ print(
 )
 ```
 
-この様にサブディヴィジョンの記号アルファベットを多次元化することを**サブディヴィジョンの多次元化** と呼びます。
+Multidimensionalizing subdivision symbols and letters in this way is called **multidimensionalization of subdivision**.
 
-##### 多次元化したサブディヴィジョンをもう一度多次元化する
+##### Multidimensionalizing an Already Multidimensionalized Subdivision Once More
 
-既に多次元化したサブディヴィジョンを更に多次元化することも可能です。 次の様に更にもう一次元増やすことで**三次元マクロディヴィジョン(Triple-Layered Macrodivision)** を構築できます。
+It is also possible to multidimensionalize an already multidimensionalized subdivision further. By adding yet one more dimension as follows, we can construct **three-dimensional subdivision**.
 
 ```{python}
 #| output: asis
@@ -5231,7 +5230,7 @@ print(
 )
 ```
 
-この表を立体的に並べてみると次の様になります。
+If we arrange this table in solid form, it becomes as follows.
 
 <div class="perspwrap" style="z-index:40"><div class="perspinner">
 ```{python}
@@ -5317,11 +5316,11 @@ print(
 ```
 </div></div>
 
-#### 多次元化したサブディヴィジョンの呼び方
+#### How to Name Multidimensionalized Subdivisions
 
-##### 一次元サブディヴィジョン＝第一次元
+##### One-Dimensional Subdivision = First Dimension
 
-次の様に数えることを**一次元サブディヴィジョン(One-Dimensional Subdivision)**と呼びます。
+The following way of counting is called **one-dimensional subdivision**.
 ```{python}
 #| output: asis
 print(
@@ -5336,9 +5335,9 @@ print(
 )
 ```
 
-##### 二次元サブディヴィジョン＝第二次元
+##### Two-Dimensional Subdivision = Second Dimension
 
-次の様に数えることを**二次元サブディヴィジョン(Two-Dimensional Subdivision)**と呼びます。
+The following way of counting is called **two-dimensional subdivision**.
 
 ```{python}
 #| output: asis
@@ -5354,9 +5353,9 @@ print(
 )
 ```
 
-##### 三次元サブディヴィジョン＝第三次元
+##### Three-Dimensional Subdivision = Third Dimension
 
-次の様に数えることを**三次元サブディヴィジョン(Three-Dimensional Subdivision)**と呼びます。
+The following way of counting is called **three-dimensional subdivision**.
 
 
 ```{python}
@@ -5379,74 +5378,74 @@ print(
 )
 ```
 
-#### マイクロディヴィジョンとは
+#### What Is Microdivision
 
-**マイクロディヴィジョン**とは、サブディヴィジョンよりも細かい音符の音価領域を表す**ディヴィジョン空間**のひとつです。譜面に書き表すことができない細かなタイミングニュアンスをマイクロディヴィジョンという仮想のディヴィジョン空間として表します。
+**Microdivision** is one of the **division spaces** that represents the rhythmic-value range finer than subdivision. Fine timing nuances that cannot be written on a score are represented as a hypothetical division space called microdivision.
 
-マイクロディヴィジョンは、しばしば **ポケット** ・ **レイドバック** ・ **ラッシング** ・**ドラッギング** ・ **プッシュ** 等々と呼ばれるものと同じものです。 マイクロディヴィジョンは細かすぎる為、意識的に数えることが出来ません。 しかしこのマイクロディヴィジョンが音楽が持つ全てのニュアンスの鍵を握っていると言って過言でなく、音楽で最も重要な位置にあるリズム要素と言えます。 マイクロディヴィジョンは、プレーヤー及びリスナー双方の無意識の動きを制御する本質といえます。 マイクロディヴィジョンの制御の良し悪しひとつで、音楽はこの世のものとは思えない美しさを持って響くこともあれば、どんなに高度な作曲技法を持って作られた曲であろうと無関係に、無惨にも人の心に墨汁を流しこんだような不快感をもたらすこともあります。  ─── マイクロディヴィジョンは、音楽の全てと言って過言ではありません。
+Microdivision is often what people call **pocket**, **laid-back**, **rushing**, **dragging**, **push**, and so on. Because microdivision is too fine, it cannot be counted consciously. Yet it would not be an exaggeration to say that this microdivision holds the key to every nuance in music, and is the most important rhythmic element in music. Microdivision can be called the essence that controls the unconscious movement of both player and listener. Depending on whether microdivision is controlled well or badly, music may resonate with a beauty that seems almost beyond this world, or, regardless of how advanced the compositional technique may be, may miserably produce a discomfort like pouring India ink into the human heart. In that sense, it is no exaggeration to say that **microdivision is everything in music**.
 
-#### マイクロディヴィジョンの定義
+#### Definition of Microdivision
 
-マイクロディヴィジョンは細かすぎる為にはっきりと数えることが出来ません。しかしここで仮説としてマイクロディヴィジョンを以下の通りに定義します。
+Microdivision is too fine to be counted clearly. However, as a working hypothesis, I define microdivision as follows.
 
-* **マイクロディヴィジョンは、サブディヴィジョンを多次元化する事で定義できる。**
-* マイクロディヴィジョンは、マクロディヴィジョン及び、サブディヴィジョンと同じ性質を持っている。
+* **Microdivision can be defined by multidimensionalizing subdivision.**
+* Microdivision has the same properties as macrodivision and subdivision.
 
-### ディヴィジョン空間次元転送について
+### On Division-Space Dimensional Transfer
 
-ディヴィジョンを多次元化したものがサブディヴィジョンであり、かつマイクロディヴィジョンがサブディヴィジョンを多次元化したものであるならば、それぞれを入れ替えてもリズムは成立する筈です。
+If subdivision is what results from multidimensionalizing division, and microdivision is what results from multidimensionalizing subdivision, then rhythm should still hold even if we swap them.
 
-* ディヴィジョン → マクロディヴィジョン
-* サブディヴィジョン → ディヴィジョン
-* マイクロディヴィジョン→ サブディヴィジョン  （❗❗❗）
+* Division -> Macrodivision
+* Subdivision -> Division
+* Microdivision -> Subdivision  (!!!)
 
-つまり
+In other words:
 
-* ゆっくり演奏すると、マイクロディヴィジョンはサブディヴィジョンになり、サブディヴィジョンはディヴィジョンになり、ディヴィジョンはマクロディヴィジョンに入れ替わるので、マイクロディヴィジョンも数えることができる。
-* マクロディヴィジョン・サブディヴィジョンでの多次元化での様々な複雑なパターンに慣れ親しむことで得られた感覚は、そのままマイクロディヴィジョンでも応用することが出来る。
-* **特にポケットは、マイクロディヴィジョンでのスコッチスナップである。**
-    * → その他の遅れることで生まれるニュアンスは全てここに含まれる。
-* **特にプッシュは、マイクロディヴィジョンでの弱起である。**
-    * → その他の早いまることで生まれるニュアンスは全てここに含まれる。
+* If we perform slowly, microdivision becomes subdivision, subdivision becomes division, and division becomes macrodivision, so microdivision too can be counted.
+* The sense acquired by becoming familiar with the various complex patterns of multidimensionalization in macrodivision and subdivision can be applied directly to microdivision as well.
+* **Pocket, in particular, is a Scotch snap in microdivision.**
+    * -> All other nuances created by being late are included here.
+* **Push, in particular, is an anacrusis in microdivision.**
+    * -> All other nuances created by being early are included here.
 
-このように全てのディヴィジョン空間をひとつずらすことで、認識が難しいマイクロディヴィジョン・ディヴィジョン空間を認識しやすくすることをここでは **ディヴィジョン空間次元転送** と呼びます。
+In this way, shifting all division spaces by one so that the difficult-to-perceive microdivision division space becomes easier to perceive is what I call **Division-Space Dimensional Transfer** here.
 
-この**ディヴィジョン空間次元転送**がこの**ハイパーグルーヴ理論の最も重要な理論**と言って過言ではありません。
+It is no exaggeration to say that this **Division-Space Dimensional Transfer** is the most important theory in this **Hypergroove Theory**.
 
 <!--
 
-##### サブディヴィジョンの多次元化
+##### Multidimensionalizing Subdivision
 
-#####多次元化したサブディヴィジョンの多次元化
+##### Multidimensionalizing an Already Multidimensionalized Subdivision
 
-#### マイクロディヴィジョンとは
+#### What Is Microdivision
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">この曲は3拍子だが、4分音符1つのなかに aid と3つの音素( phoneme )があるので、4分音符を3分割しないと音符を適切に読むことが出来ない。日本語は音符1つに1モーラを割り当てるだけで、モーラには末子音がなく子音が短いので2分割するという感覚を持っていない。ここに根本的感覚の違いがある。 <a href="https://t.co/CcroJRy6yu">https://t.co/CcroJRy6yu</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1953003571047489764?ref_src=twsrc%5Etfw">August 6, 2025</a></blockquote>
 
-### オフビートカウントの一般化
+### Generalization of Offbeat Count
 
 
-### ディヴィジョン空間とオフビートカウントの組み合わせ
+### Combining Division Spaces and Offbeat Count
 
-### ディヴィジョン空間ワープ
+### Division-Space Warp
 
-次に、一般的にレイドバック・ラッシュ・ドラッグ等々と呼ばれている音符のずれによるニュアンスの表現は、譜面上に表される **サブディヴィジョン(分拍)** よりも更に細かい音符 **マイクロディヴィジョン(微分拍)**空間 が存在すると仮定し、これらに弱拍先行を適用することで合理的に説明できる ─── という理論を御紹介致します。
+Next, I introduce the theory that the expressive nuance created by note displacement, commonly called laid-back, rush, drag, and so on, can be explained rationally by assuming the existence of a finer **microdivision (micro-beat)** space below the **subdivision (sub-beat)** represented on the score and by applying weak-beat precedence to it.
 
-音符のずれによるニュアンスの表現は、**ディヴィジョン（拍）**  を **マクロディヴィジョン（小節＝合拍）** とみなし **サブディヴィジョン（連符＝分拍）**をディヴィジョンとみなした時のサブディヴィジョンによる弱拍先行リズムとして表現が可能になる ─── **ディヴィジョン空間ワープ** という理論を御説明致します。
+The expressive nuance created by note displacement can be represented as a weak-beat-precedence rhythm in subdivision when **division (beat)** is regarded as **macrodivision (measure = composite beat)** and **subdivision (tuplet = sub-beat)** is regarded as division. Here I explain this theory as **Division-Space Warp**.
 
-### 拍のレイヤー
+### Beat Layers
 
-これまで「拍 (ディヴィジョン=４分音符）」と、ディヴィジョンを更に分割して出来る「サブディヴィジョン」に対して弱拍先行と多次元を適用するとどうなるかを見てきました。
+Up to now, we have seen what happens when weak-beat precedence and multidimensionalization are applied to **beats (division = quarter notes)** and to **subdivision**, which is created by further dividing division.
 
-ディヴィジョン空間理論とは、拍以外の要素も拍とみなし、再帰的に弱拍先行と多次元を適用できると考える理論です。
+Division-Space Theory is the theory that elements other than beats can also be regarded as beats, and that weak-beat precedence and multidimensionalization can be applied to them recursively.
 
-ディヴィジョン空間理論は、まず小節を拍とみなすことが出来るという**マクロディヴィジョン理論**という視点を提示します。そして小節に関しても弱拍先行と多次元を適用することが出来ることを示します。
+Division-Space Theory first presents the perspective of **Macrodivision Theory**, which holds that measures themselves can be regarded as beats. It then shows that weak-beat precedence and multidimensionalization can also be applied to measures.
 
-ディヴィジョン空間理論は更に、一般的にレイドバック・ラッシュ・ドラッグ等々と表現される音符のずれによるニュアンスの表現について、譜面上に表されるサブディヴィジョンよりも更に細かい音符が存在するという**マクロディヴィジョン理論**を提示します。 この音符のずれはディヴィジョン（拍）を小節としてみなした時の弱拍先行リズムとして表現が可能という仮説を提唱します。
+Division-Space Theory further proposes that, for the expressive nuance created by note displacement commonly described as laid-back, rush, drag, and so on, there exist notes even finer than the subdivisions shown on the score. It advances the hypothesis that these note displacements can be expressed as weak-beat-precedence rhythm when division (beat) is regarded as a measure.
 
-このディヴィジョン空間理論については、別章のディヴィジョン空間理論とはで更に詳しく見ていきたいと思います。
+I would like to look in more detail at this Division-Space Theory in the separate chapter titled **What Is Division-Space Theory**.
 
-マイクロディヴィジョンについて説明する文章案
+Draft text for explaining microdivision
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">この曲は3拍子だが、4分音符1つのなかに aid と3つの音素( phoneme )があるので、4分音符を3分割しないと音符を適切に読むことが出来ない。日本語は音符1つに1モーラを割り当てるだけで、モーラには末子音がなく子音が短いので2分割するという感覚を持っていない。ここに根本的感覚の違いがある。 <a href="https://t.co/CcroJRy6yu">https://t.co/CcroJRy6yu</a></p>&mdash; 岡敦/Ats🇯🇵 (@ats4u) <a href="https://twitter.com/ats4u/status/1953003571047489764?ref_src=twsrc%5Etfw">August 6, 2025</a></blockquote>
 
 -->
