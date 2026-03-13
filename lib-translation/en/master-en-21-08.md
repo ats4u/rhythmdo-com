@@ -1,10 +1,9 @@
-### 音韻表記厳密化とは何か <!-- {#prosodic-notation-strictification} -->
+### What Is Prosodic Notation Strictification? <!-- {#prosodic-notation-strictification} -->
 
-英語を母国語とする人々は、特別な訓練をしない状態でもこの１拍１単語を割り当てる表記方法から自然にグルーヴするリズム解釈を抽出することができます。何故なら英語の発音には**ストレス拍リズム**と呼ばれるグルーヴの元となるリズムルールが存在するからです。このことから英語を母国語とする人々は、グルーヴを演奏する為に必要なリズム認識型を全て持っている場合が多いと考えられています。
+Native speakers of English can naturally extract a groove-producing rhythmic interpretation from this notation method that assigns one word to one beat, even without special training. This is because English pronunciation contains the rhythm rule called **stress-timed rhythm**, which is the source of groove. For that reason, native speakers of English are thought in many cases to possess all the rhythm recognition types necessary for performing groove.
 
-しかし英語を母国語としない人たち ─── 特に日本語を母国語とする人たちは、１拍１音を割り当てる表記方法から正しくグルーヴするリズムを抽出することができません。それは日本語の発音の背後には**モーラ拍リズム**と呼ばれるグルーヴとは逆の要素を持ったリズムルールが存在するからです。このことから日本語を母国語とする人々は、グルーヴ抽出する作業に必要な全てのリズム認識型を持たないと考えられています。これが {{<meta var.MBS.en>}} です。
+However, people who are not native speakers of English, especially native speakers of Japanese, cannot extract a correctly grooving rhythm from a notation method that assigns one sound to one beat. That is because behind Japanese pronunciation there exists the rhythm rule called **mora-timed rhythm**, which contains elements opposite to groove. For that reason, native speakers of Japanese are thought not to possess all the rhythm recognition types needed for the work of extracting groove. This is {{<meta var.MBS.en>}}.
 
-学習者が元から持っているリズム認識型によらずにこの問題に対処する為に、ここでは英語を母国語とする人々話者が無意識のうちに行っている音符として表記しない発音の配置を、敢えて音符の割り当てとして厳密に表記するという手法を利用します。
+To deal with this problem regardless of the rhythm recognition types a learner originally possesses, here I use a method that deliberately writes as explicit note assignments the placement of pronunciations that native speakers of English carry out unconsciously without notating them as notes.
 
-この手法をここでは**{{<meta var.PNS.en>}}**と呼びます。
-
+Here this method is called **{{<meta var.PNS.en>}}**.

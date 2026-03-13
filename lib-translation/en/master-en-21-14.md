@@ -1,4 +1,4 @@
-### 付録
+### Appendix
 ```{.lilypond}
 \score {
   <<
@@ -78,7 +78,6 @@ flowchart LR
 }
 ```
 -->
-
 
 
 

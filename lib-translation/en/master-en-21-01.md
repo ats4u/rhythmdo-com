@@ -1,10 +1,9 @@
-### オフビートカウントとは
+### What Is Offbeat Count?
 
-オフビートカウントとは、英語の数字をカウントしながら即興演奏、又は何等かの楽曲の演奏を行う際に、8分音符１〜２つ分早く数えることによって、リズム、特にグルーヴに対する理解を深める実践法です。
+Offbeat Count is a practical method that deepens understanding of rhythm, especially groove, by counting English numbers one to two eighth notes ahead while improvising or performing some piece of music.
 
-問題は日本人がグルーヴを認識出来ないことでした。私達日本人は、グルーヴを感じることが出来ないばかりか、そこにグルーヴがあるかないかすらも認識することすら出来ません ─── しかしグルーヴは空気のように見えない存在ではありません。譜面に書き起こすことではっきりとその形を観察することができる物体の配置なのです。
+The problem was that Japanese people cannot recognize groove. We Japanese not only cannot feel groove; we often cannot even recognize whether groove is present at all. Groove, however, is not an invisible presence like air. It is an arrangement of objects that can be clearly observed when written out on a score.
 
-グルーヴとは英語の発音＝ストレス拍リズムと深い関係がある概念で、その起源はシェークスピアの詩吟の世界にまで遡り、英語の音韻学的原理と深い関係を持っています。問題は、音韻学的に見てストレス拍リズムと真逆の特徴を持っている日本語のモーラ拍リズムを母国語とする人々が、このグルーヴの世界を全く理解できないという問題でした。
+Groove is a concept deeply connected to English pronunciation, that is, stress-timed rhythm. Its roots go back as far as the world of Shakespearean verse chanting, and it is closely related to the phonological principles of English. The problem was that people whose native language is Japanese, with its mora-timed rhythm whose characteristics are phonologically the reverse of stress timing, could not understand this world of groove at all.
 
-オフビートカウントは、どうやったら日本人がグルーヴを理解することが出来るかを音韻学的に分析した結果として生まれました。
-
+Offbeat Count was born as the result of a phonological analysis of how Japanese people can come to understand groove.

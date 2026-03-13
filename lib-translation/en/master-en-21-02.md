@@ -1,13 +1,12 @@
-### オフビートカウントの意図
+### The Purpose of Offbeat Count
 
-オフビートカウントは、通常のカウントにリズムのなかのグルーヴしたリズムの有無をカウント上で認識しやすくする為の工夫を加えたものです。
+Offbeat Count is ordinary counting with additional devices that make it easier to recognize, within the count itself, whether the rhythm contains groove.
 
-リズムには [**グルーヴの四原則**](/the-four-principles-of-groove/ja/) で説明した次の四つの原則が存在します。
+Rhythm has the following four principles, as explained in [**The Four Principles of Groove**](/the-four-principles-of-groove/ja/).
 
-1. **強拍先行**   か **弱拍先行**
-2. **頭合わせ**   か **尻合わせ**
-3. **強拍基軸**   か **弱拍基軸**
-4. **2⁻ⁿリズム** か **3⁻ⁿリズム**
+1. **Strong-Beat Precedence** or **Weak-Beat Precedence**
+2. **Head Alignment** or **Tail Alignment**
+3. **Strong-Beat Anchoring Axis** or **Weak-Beat Anchoring Axis**
+4. **2⁻ⁿ Rhythm** or **3⁻ⁿ Rhythm**
 
-このなかで 1. **強拍先行** / **弱拍先行** 及び、2. **頭合わせ**   か **尻合わせ** の２つを認識しやすくするために、**ずらし**と**みなし**という読み方を加えたものが、オフビートカウントです。
-
+Among these, Offbeat Count is the counting method that adds the two ways of reading called **shifted reading** and **assumed reading** in order to make the first two pairs easier to recognize: **Strong-Beat Precedence / Weak-Beat Precedence** and **Head Alignment / Tail Alignment**.

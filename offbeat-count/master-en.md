@@ -8743,88 +8743,88 @@ So here, instead of depending on bare SPE notation alone, I pair it with explici
 :  {.tbl-pron2 .tbl-header-center tbl-colwidths=[2,2,2,6] }
 -->
 
-## オフビートカウントの正しい発音 <!-- {#how-to-pronounce-the-offbeat-count-correctly} -->
+## Correct Pronunciation of Offbeat Count <!-- {#how-to-pronounce-the-offbeat-count-correctly} -->
 
-### オフビートカウントとは
+### What Is Offbeat Count?
 
-オフビートカウントとは、英語の数字をカウントしながら即興演奏、又は何等かの楽曲の演奏を行う際に、8分音符１〜２つ分早く数えることによって、リズム、特にグルーヴに対する理解を深める実践法です。
+Offbeat Count is a practical method that deepens understanding of rhythm, especially groove, by counting English numbers one to two eighth notes ahead while improvising or performing some piece of music.
 
-問題は日本人がグルーヴを認識出来ないことでした。私達日本人は、グルーヴを感じることが出来ないばかりか、そこにグルーヴがあるかないかすらも認識することすら出来ません ─── しかしグルーヴは空気のように見えない存在ではありません。譜面に書き起こすことではっきりとその形を観察することができる物体の配置なのです。
+The problem was that Japanese people cannot recognize groove. We Japanese not only cannot feel groove; we often cannot even recognize whether groove is present at all. Groove, however, is not an invisible presence like air. It is an arrangement of objects that can be clearly observed when written out on a score.
 
-グルーヴとは英語の発音＝ストレス拍リズムと深い関係がある概念で、その起源はシェークスピアの詩吟の世界にまで遡り、英語の音韻学的原理と深い関係を持っています。問題は、音韻学的に見てストレス拍リズムと真逆の特徴を持っている日本語のモーラ拍リズムを母国語とする人々が、このグルーヴの世界を全く理解できないという問題でした。
+Groove is a concept deeply connected to English pronunciation, that is, stress-timed rhythm. Its roots go back as far as the world of Shakespearean verse chanting, and it is closely related to the phonological principles of English. The problem was that people whose native language is Japanese, with its mora-timed rhythm whose characteristics are phonologically the reverse of stress timing, could not understand this world of groove at all.
 
-オフビートカウントは、どうやったら日本人がグルーヴを理解することが出来るかを音韻学的に分析した結果として生まれました。
+Offbeat Count was born as the result of a phonological analysis of how Japanese people can come to understand groove.
 
-### オフビートカウントの意図
+### The Purpose of Offbeat Count
 
-オフビートカウントは、通常のカウントにリズムのなかのグルーヴしたリズムの有無をカウント上で認識しやすくする為の工夫を加えたものです。
+Offbeat Count is ordinary counting with additional devices that make it easier to recognize, within the count itself, whether the rhythm contains groove.
 
-リズムには [**グルーヴの四原則**](/the-four-principles-of-groove/ja/) で説明した次の四つの原則が存在します。
+Rhythm has the following four principles, as explained in [**The Four Principles of Groove**](/the-four-principles-of-groove/ja/).
 
-1. **強拍先行**   か **弱拍先行**
-2. **頭合わせ**   か **尻合わせ**
-3. **強拍基軸**   か **弱拍基軸**
-4. **2⁻ⁿリズム** か **3⁻ⁿリズム**
+1. **Strong-Beat Precedence** or **Weak-Beat Precedence**
+2. **Head Alignment** or **Tail Alignment**
+3. **Strong-Beat Anchoring Axis** or **Weak-Beat Anchoring Axis**
+4. **2⁻ⁿ Rhythm** or **3⁻ⁿ Rhythm**
 
-このなかで 1. **強拍先行** / **弱拍先行** 及び、2. **頭合わせ**   か **尻合わせ** の２つを認識しやすくするために、**ずらし**と**みなし**という読み方を加えたものが、オフビートカウントです。
+Among these, Offbeat Count is the counting method that adds the two ways of reading called **shifted reading** and **assumed reading** in order to make the first two pairs easier to recognize: **Strong-Beat Precedence / Weak-Beat Precedence** and **Head Alignment / Tail Alignment**.
 
-### 『ずらし読み』と『みなし読み』
+### Shifted Reading and Assumed Reading
 
-#### みなし読みとは
+#### What Is Assumed Reading?
 
-ずらし読みもみなし読みも**弱起**を適切に認識する為の方法です。
+Both shifted reading and assumed reading are methods for recognizing **anacrusis** correctly.
 
-例えば以下のように八拍数えるとします。
+For example, suppose we count eight beats as follows.
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-count-offset-0.ly
 % 2UKlRFbyT8gtj/zhdLXnQA==
 ```
 
-この時、グルーヴの四原則のうちの１つ**強拍先行**の存在を加味して考えると、4分音分１つが先行する弱起を踏まえて読む必要があります。 すると次のようになるでしょう。
+At this point, if we take into account **Strong-Beat Precedence**, one of the Four Principles of Groove, we need to read on the premise of an anacrusis led by one quarter note. Then it becomes as follows.
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-count-mental-offset-1.ly
 % xpUbl1z3/e2qzfCKgn9NZA==
 ```
 
-これは次のように８が先に来ていると**みなし**て読んでいるといえます。
+This can be said to be reading by **assuming** that the 8 has already come first, as follows.
 
-- みなし移動量0　　　| 1 2 3 4 5 6 7 8 | 1
-- みなし移動量1　　8 | 1 2 3 4 5 6 7 8 |
+- Assumed offset 0　　　| 1 2 3 4 5 6 7 8 | 1
+- Assumed offset 1　　8 | 1 2 3 4 5 6 7 8 |
 
-このように先に来ているとみなして読むことを**みなし読み**と呼びます。
+Reading in this way, by assuming that the count has already come earlier, is called **assumed reading**.
 
-#### ずらし読みとは
+#### What Is Shifted Reading?
 
-みなし読みは、弱起が先行する感覚を掴んでいない人にはとても難しい読み方といえます。そこで、数字を一定量だけずらすことで、強制的に弱起が先行する感覚をつけるという方法が考え出されました。
+Assumed reading is a very difficult way to read for people who have not yet grasped the sensation that an anacrusis precedes the beat. So a method was devised in which the numbers themselves are shifted by a fixed amount so that the sensation of a preceding anacrusis is acquired by force.
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-count-offset-0.ly
 % 2UKlRFbyT8gtj/zhdLXnQA==
 ```
 
-この時、グルーヴの四原則のうちの１つ**強拍先行**の存在を加味して考えると、4分音分１つが先行する弱起を**ずらす**ことで表現してみましょう。 すると次のようになるでしょう。
+Here, again taking into account **Strong-Beat Precedence**, one of the Four Principles of Groove, let us express the anacrusis led by one quarter note by **shifting** the count. Then it becomes as follows.
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-count-drift-offset-1.ly
 %  zyUaZvyO98TyXG7Gk4DRvQ==
 ```
 
-- ずらし移動量0　　　| 1 2 3 4 5 6 7 8 | 1
-- ずらし移動量1　　1 | 2 3 4 5 6 7 8 1 |
+- Shift offset 0　　　| 1 2 3 4 5 6 7 8 | 1
+- Shift offset 1　　1 | 2 3 4 5 6 7 8 1 |
 
-このようにずらして読むことを**ずらし読み**と呼びます。
+Reading in this shifted way is called **shifted reading**.
 
-#### 使い方
+#### Usage
 
-今後たくさんのカウントパターンが表れます。これらを状況に応じて「ずらし読み」と「みなし読み」の両方を組み合わせて、グルーヴを理解しやすい形に変更して、それを読み上げる練習を行います。
+Many count patterns will appear from here on. Depending on the situation, practice combining both shifted reading and assumed reading, converting them into forms that make groove easier to understand, and reading them aloud.
 
-### 日本人が聴き取れない６つの音韻規則＝リズム認識型 <!-- {#six-rhythm-recognition-types} -->
+### The Six Phonological Rules Japanese Speakers Cannot Hear = Rhythm Recognition Types <!-- {#six-rhythm-recognition-types} -->
 
-何故日本人は英語が理解できないのでしょうか。それは英語が聴き取れないからです。では何故日本人は英語が聴き取れないのでしょうか。 ───それは勉強が不足しているからではありません。どんなに文法の知識が十分でも、どんなに単語の知識が十分でも、英語を聴き取ることはできません。 モーラ拍リズムが、ストレス拍言語に特有な６つの音韻規則を持っていない事が原因しています。
+Why can Japanese people not understand English? Because they cannot hear English. Then why can Japanese people not hear English? It is not because they have not studied enough. No matter how much grammatical knowledge they have, and no matter how much vocabulary they have, they still cannot hear English. The reason is that mora-timed rhythm lacks the six phonological rules characteristic of stress-timed languages.
 
-その６つの音韻規則とは以下の通りです。
+Those six phonological rules are as follows.
 
 - **{{<meta var.NI.en>}}**
 - **{{<meta var.MOP.en>}}**
@@ -8833,80 +8833,80 @@ common-ly/shared/rhythmdo-count-drift-offset-1.ly
 - **{{<meta var.MNI.en>}}**
 - **{{<meta var.MMOP.en>}}**
 
-ここでは、これを**{{<meta var.MBS.en>}}**と呼びます。
+Here I call these **{{<meta var.MBS.en>}}**.
 
-つまり英単語の知識がなくても、英文法の知識がなくても、この**{{<meta var.MBS.en>}} ** を体得していれば、少なくとも意味がわからないまま英語を聴き取ることが出来るようになります。英語が聴き取ることができれば、そこから単語の意味を推測したり、文脈を追いかけることで文法を推測したりすることが出来るようになります。
+In other words, even without knowledge of English vocabulary or English grammar, if one has acquired this **{{<meta var.MBS.en>}}**, one can at least hear English even without understanding the meaning. Once English can be heard, one can begin inferring word meaning and following context to infer grammar.
 
-ではどうやったらその６つの発音規則{{<meta var.MBS.en>}}を習得することが出来るようになるでしょうか。その答えが **オフビートカウント** です。
+So how can one acquire these six phonological rules, {{<meta var.MBS.en>}}? The answer is **Offbeat Count**.
 
-### 音韻規則の３つのレベルについて <!-- {#three-hierarchical-levels-of-phonological-rules-1} -->
+### The Three Levels of Phonological Rules <!-- {#three-hierarchical-levels-of-phonological-rules-1} -->
 
-これらの６つの音韻規則は３つのレベルに分けられます。
+These six phonological rules can be divided into three levels.
 
-これを**{{<meta var.THREE_LEVELS_OF_PHONOLOGICAL_RULES.en>}}**と呼びます。
+I call this **{{<meta var.THREE_LEVELS_OF_PHONOLOGICAL_RULES.en>}}**.
 
-- **レベル１** ... **音素レベル**
-  　　→ **シラブル拍リズム、及びストレス拍で有効になる音韻規則**
-  　　→ 音楽のリズム上で **3⁻¹=1/3リズム** に相当する
+- **Level 1** ... **Phoneme level**
+  　　→ **phonological rules effective in syllable-timed rhythm and stress-timed rhythm**
+  　　→ corresponds to **3⁻¹ = 1/3 rhythm** in musical rhythm
   - **{{<meta var.NI.en>}}**
   - **{{<meta var.MOP.en>}}**
-- **レベル２** ... **音節レベル**
-  　　→ **ストレス拍リズムで有効になる音韻規則**
-  　　→ 音楽のリズム上で **3⁻²=1/9リズム**  に相当する
+- **Level 2** ... **Syllable level**
+  　　→ **phonological rules effective in stress-timed rhythm**
+  　　→ corresponds to **3⁻² = 1/9 rhythm** in musical rhythm
   - **{{<meta var.PNI.en>}}**
   - **{{<meta var.MPOP.en>}}**
-- **レベル３** ... **韻律レベル**
-  　　**言語上では起こらず音楽上でのみで有効になる音韻規則**
-  　　音楽のリズム上で **3⁻³=1/27リズム**  に相当する
+- **Level 3** ... **Prosodic level**
+  　　**phonological rules that do not occur in language and are effective only in music**
+  　　corresponds to **3⁻³ = 1/27 rhythm** in musical rhythm
   - **{{<meta var.MNI.en>}}**
   - **{{<meta var.MMOP.en>}}**
 
-**音素レベル** **音節レベル** **韻律レベル** この３つのレベルは、後にカウントの次元数を決めるパラメータとなります。
+These three levels, **phoneme level**, **syllable level**, and **prosodic level**, later become parameters that determine the dimensionality of the count.
 
-### オフビートカウントで使う数字・記号・アルファベット
+### The Numbers, Symbols, and Letters Used in Offbeat Count
 
-オフビートカウント法は、米国で一般的なカウント法に**ずれをつけて読む**という変更を加えたものです。**ずれをつける**量のことをここでは**オフセット**と呼びます。オフセットとは、例えば４分音符１つに数を割り当てて読む場合、通常なら**１２３４**と読むところをオフビートカウントでは **２３４１** と読みます。この場合のオフセットは１／４(=４分音符１つ）です。オフビートカウントの具体的な例については後述します。
+The Offbeat Count method is the counting method commonly used in the United States, modified by **reading it with a shift**. Here, the amount of that **shift** is called the **offset**. For example, when assigning one number to each quarter note, the usual reading would be **1234**, but in Offbeat Count it is read as **2341**. In this case, the offset is 1/4 (= one quarter note). Specific examples of Offbeat Count will be shown later.
 
-つまりオフセット量が０のオフビートカウントは、米国で一般的なカウント方法と同じです。オフセットがあるかないかという違いはあっても、基本的にカウントする方法自体は米国で一般的なカウント方法と全く同じものです。
+In other words, Offbeat Count with an offset of 0 is the same as the counting method commonly used in the United States. Whether there is an offset or not, the basic act of counting itself is exactly the same as that American counting method.
 
-以下でカウントの基礎を説明致します。
+Below, I explain the basics of count.
 
-#### 字句一覧
+#### Inventory
 
-米国で一般的なカウント方法とはどのようなものでしょうか。それは英語での数字及び、＆、Ｅ、Ａの３つの記号とアルファベットを使って数えるものです。
+What is the counting method commonly used in the United States? It is a way of counting by using English numbers together with the symbol and letters **&**, **E**, and **A**.
 
-* 数字
+* Numbers
     * 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20
-* 記号
+* Symbol
     * & ( and )
-* アルファベット
-    * E (イー)
-    * A (アー)
+* Letters
+    * E ("ee")
+    * A ("ah")
 
-このカウント方法は特定の誰かが行っているものではなく、米国で広く一般的に実践されているものです。次のビデオが参考になります。クリス・コールマンがカウントの実演をしている場面のビデオです。
+This counting method is not something practiced by one specific person. It is widely used in the United States. The following video is a useful reference. It shows Chris Coleman demonstrating count.
 
 <div class="center-box"><iframe class="rhythmpedia-iframe" src="https://www.youtube.com/embed/y46skGXRbWU?start=4905&amp;feature=player_embedded" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
-この米国で一般的なカウント方法は、数字と簡単な単語と記号を使って数えるだけの作業ですが、ストレス拍リズム／シラブル拍リズムで重要な発音規則 {{<meta var.MOP.en>}} 及び {{<meta var.NI.en>}} を習得する非常に良い練習法でもあります。
+This counting method commonly used in the United States is simply the act of counting with numbers, simple words, and symbols, but it is also an excellent practice method for acquiring the pronunciation rules {{<meta var.MOP.en>}} and {{<meta var.NI.en>}}, which are crucial in stress-timed rhythm and syllable-timed rhythm.
 
-がむしゃらにシャドウイングを行っても、ほとんどの場合で {{<meta var.MOP.en>}} 及び {{<meta var.NI.en>}}は身につきません。仮に身についたとしても、身につくまでに１０年以上、しばしば２０年以上の長い年月を必要とします。
+If one does shadowing recklessly, in most cases one does not acquire {{<meta var.MOP.en>}} or {{<meta var.NI.en>}}. Even if one eventually does acquire them, it often takes more than ten years, and sometimes more than twenty.
 
-しかしカウント練習では、発音練習に必要な単語を最小限にとどめることにより、ストレス拍リズム・シラブル拍リズムのリズム構造を集中して練習することが可能になります。
+In count practice, however, the vocabulary needed for pronunciation practice is kept to a minimum, making it possible to concentrate on the rhythmic structure of stress-timed rhythm and syllable-timed rhythm.
 
-そしてオフセットをつけたオフビートカウントを練習することにより、ストレス拍リズムに特有な {{<meta var.MPOP.en>}} 及び {{<meta var.PNI.en>}} をも集中して練習することが可能になります。
+And by practicing Offbeat Count with an offset, it also becomes possible to focus on {{<meta var.MPOP.en>}} and {{<meta var.PNI.en>}}, which are characteristic of stress-timed rhythm.
 
-#### 字句のIPA表記一覧
+#### IPA Transcriptions of the Count Elements
 
-オフビートカウントを行う時に必要となる単語の発音は以下の通りです。 覚えるべき単語数はとても少ないですが、これらが組み合わさると様々な発音変化が起こります。ここで起こる発音変化を徹底的に学ぶことで {{<meta var.MOP.en>}} 、 {{<meta var.NI.en>}} 、{{<meta var.MPOP.en>}}、 及び {{<meta var.PNI.en>}} を身につけることが出来ます。
+The pronunciations of the words needed for Offbeat Count are as follows. The number of words to memorize is very small, but when they are combined, various pronunciation changes occur. By thoroughly learning the pronunciation changes that occur here, one can acquire {{<meta var.MOP.en>}}, {{<meta var.NI.en>}}, {{<meta var.MPOP.en>}}, and {{<meta var.PNI.en>}}.
 
 
-| 記号 |  英語表記   | IPA                                                                            | メモ                                                                                                          |
+| Symbol |  English   | IPA                                                                            | Notes                                                                                                          |
 | ---: | :---------: | :----------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------ |
-|    0 |   *zero*    | <span class="ipa" >/ˈzɪəɹoʊ/</span> 又は <span class="ipa" >/ˈziːɹoʊ/ </span> | also <span class="ipa">/ˈziɹoʊ/</span> (“zee-ro”)                                                                                    |
+|    0 |   *zero*    | <span class="ipa" >/ˈzɪəɹoʊ/</span> or <span class="ipa" >/ˈziːɹoʊ/ </span> | also <span class="ipa">/ˈziɹoʊ/</span> (“zee-ro”)                                                                                    |
 |    1 |    *one*    | <span class="ipa" >/wʌn/</span>                                                | ʌ as in “cup”                                                                                               |
 |    2 |    *two*    | <span class="ipa" >/tuː/</span>                                               | long <span class="ipa">/uː/</span> as in “boot”                                                                                     |
 |    3 |   *three*   | <span class="ipa" >/θɹiː/</span>                                             | initial <span class="ipa">/θ/</span> (voiceless “th”)                                                                               |
-|    4 |   *four*    | <span class="ipa" >/fɔɹ/</span> 又は <span class="ipa" >/foʊɹ/</span>          | <span class="ipa">/ɔɹ/</span> as in “for”                                                                                              |
+|    4 |   *four*    | <span class="ipa" >/fɔɹ/</span> or <span class="ipa" >/foʊɹ/</span>          | <span class="ipa">/ɔɹ/</span> as in “for”                                                                                              |
 |    5 |   *five*    | <span class="ipa" >/faɪv/</span>                                               | diphthong <span class="ipa">/aɪ/</span>                                                                                                |
 |    6 |    *six*    | <span class="ipa" >/sɪks/</span>                                               | short <span class="ipa">/ɪ/</span>                                                                                                     |
 |    7 |   *seven*   | <span class="ipa" >/ˈsɛvən/</span>                                             | first syllable stressed                                                                                       |
@@ -8923,25 +8923,25 @@ common-ly/shared/rhythmdo-count-drift-offset-1.ly
 |   18 | *eighteen*  | <span class="ipa" >/ˌeɪˈtiːn/</span>                                          | may reduce to <span class="ipa">[ˈeɪtin]</span>                                                                                        |
 |   19 | *nineteen*  | <span class="ipa" >/ˌnaɪnˈtiːn/</span>                                        | sometimes <span class="ipa">[ˈnaɪntin]</span>                                                                                          |
 |   20 |  *twenty*   | <span class="ipa" >/ˈtwɛnti/</span>                                            | <span class="ipa">/t/</span> may flap → <span class="ipa">[ˈtwɛnɾi]</span>                                                                                     |
-|    & |    *and*    | <span class="ipa">/ænd/</span>                                                | 弱化時<span class="ipa">/ən/</span> 又は     <span class="ipa">/n̩/</span>                                     |
-|    e |     *e*     | <span class="ipa">/iː/</span>                                                 | 弱化時<span class="ipa">/i/</span > )                                                                         |
-|    a |     *a*     | <span class="ipa">/eɪ/</span>                                                  | 弱化時<span class="ipa">/ə/</span >(シュワ), <span class="ipa">/əː/</span> 又は <span class="ipa">/ʌ/</span> |
+|    & |    *and*    | <span class="ipa">/ænd/</span>                                                | when reduced: <span class="ipa">/ən/</span> or <span class="ipa">/n̩/</span>                                     |
+|    e |     *e*     | <span class="ipa">/iː/</span>                                                 | when reduced: <span class="ipa">/i/</span>                                                                         |
+|    a |     *a*     | <span class="ipa">/eɪ/</span>                                                  | when reduced: <span class="ipa">/ə/</span> (schwa), <span class="ipa">/əː/</span>, or <span class="ipa">/ʌ/</span> |
 :  {.tbl-pron2 .tbl-header-center  .tbl-spacy tbl-colwidths=[8,8,40] }
 
 
-#### 声門閉鎖音(ʔ)について
+#### On the Glottal Stop (ʔ)
 
-声門閉鎖音は標準日本語が持たない発音のひとつですが、日本語以外では子音として使われることが多い発音でもあります。
+The glottal stop is one of the sounds that standard Japanese does not possess, but outside Japanese it is also a sound often used as a consonant.
 
-声門閉鎖音は標準的な英語ではしばしば使われますが、さほど多くはありません。英語の方言では多用されます。
+In standard English, the glottal stop is used fairly often, but not extremely often. In English dialects, however, it is used much more extensively.
 
-特にジャズのスキャットやラップなど、音楽の上で発音される英語では特に多用され、リズムを表現する為の重要な発音のひとつといえます。
+It is used especially frequently in English as pronounced in music, such as jazz scat and rap, and it can be said to be one of the important sounds for expressing rhythm.
 
-### カウント パターンとは
+### What Is a Count Pattern?
 
-リズム中の多次元構造を表現する為に、この **0~20** 及び **&,e,a** の文字を並べることでことで様々な並びの羅列が出来上がります。この組み合わせのことを**カウントパターン** と呼びます。
+To express the multidimensional structure within rhythm, one can arrange the characters **0-20** and **&, e, a** into various sequences. This combination is called a **count pattern**.
 
-- **カウントパターンの例**
+- **Examples of count patterns**
   - *1,2,3,4,2,2,3,4*
   - *1,&,2,&,3,&,4,&,2,&,2,&,3,&,4,&*
   - *1,e,&,a,2,e,&,a,3,e,&,a,4,e,&,a,*
@@ -8949,16 +8949,16 @@ common-ly/shared/rhythmdo-count-drift-offset-1.ly
 
 
 <!--
-＃＃＃＃ カウント上での2⁻ⁿリズム及び3⁻ⁿリズム
+#### 2⁻ⁿ Rhythm and 3⁻ⁿ Rhythm in Count
 
-- 3⁻ⁿグルーヴ理論で音節が３音素からなることを説明した。
-- 3レベルが必要なことを説明する必要がある→ 3レベルって何？
-- カウントには3つのレベルがある。
-  - 3^1 音素レベル
-  - 3^2 音節レベル
-  - 3^3 韻律レベル
-- それで何故こうなるのかを説明する方法がわからない。
-  - → ここでずっと悩んでいる。
+- In 3⁻ⁿ Groove Theory, I explained that a syllable consists of three phonemes.
+- It is necessary to explain why three levels are required -> What are the three levels?
+- Count has three levels.
+  - 3^1 phoneme level
+  - 3^2 syllable level
+  - 3^3 prosodic level
+- I still do not know how to explain why it becomes this way.
+  - -> This is where I have been struggling all along.
 
 <table>
 <tr>
@@ -8971,119 +8971,115 @@ common-ly/shared/rhythmdo-count-drift-offset-1.ly
 
 
 
-### 音韻表記厳密化とは何か <!-- {#prosodic-notation-strictification} -->
+### What Is Prosodic Notation Strictification? <!-- {#prosodic-notation-strictification} -->
 
-英語を母国語とする人々は、特別な訓練をしない状態でもこの１拍１単語を割り当てる表記方法から自然にグルーヴするリズム解釈を抽出することができます。何故なら英語の発音には**ストレス拍リズム**と呼ばれるグルーヴの元となるリズムルールが存在するからです。このことから英語を母国語とする人々は、グルーヴを演奏する為に必要なリズム認識型を全て持っている場合が多いと考えられています。
+Native speakers of English can naturally extract a groove-producing rhythmic interpretation from this notation method that assigns one word to one beat, even without special training. This is because English pronunciation contains the rhythm rule called **stress-timed rhythm**, which is the source of groove. For that reason, native speakers of English are thought in many cases to possess all the rhythm recognition types necessary for performing groove.
 
-しかし英語を母国語としない人たち ─── 特に日本語を母国語とする人たちは、１拍１音を割り当てる表記方法から正しくグルーヴするリズムを抽出することができません。それは日本語の発音の背後には**モーラ拍リズム**と呼ばれるグルーヴとは逆の要素を持ったリズムルールが存在するからです。このことから日本語を母国語とする人々は、グルーヴ抽出する作業に必要な全てのリズム認識型を持たないと考えられています。これが {{<meta var.MBS.en>}} です。
+However, people who are not native speakers of English, especially native speakers of Japanese, cannot extract a correctly grooving rhythm from a notation method that assigns one sound to one beat. That is because behind Japanese pronunciation there exists the rhythm rule called **mora-timed rhythm**, which contains elements opposite to groove. For that reason, native speakers of Japanese are thought not to possess all the rhythm recognition types needed for the work of extracting groove. This is {{<meta var.MBS.en>}}.
 
-学習者が元から持っているリズム認識型によらずにこの問題に対処する為に、ここでは英語を母国語とする人々話者が無意識のうちに行っている音符として表記しない発音の配置を、敢えて音符の割り当てとして厳密に表記するという手法を利用します。
+To deal with this problem regardless of the rhythm recognition types a learner originally possesses, here I use a method that deliberately writes as explicit note assignments the placement of pronunciations that native speakers of English carry out unconsciously without notating them as notes.
 
-この手法をここでは**{{<meta var.PNS.en>}}**と呼びます。
+Here this method is called **{{<meta var.PNS.en>}}**.
 
-### 音韻表記厳密化の７つのレベル <!-- {#seven-levels-of-prosodic-notation-strictification} -->
-**{{<meta var.PNS.en>}}** には７つのレベルがあります。これは音韻表記厳密化の深度
-を７つのリズム認識型を元に７つのレベルに分けることで導き出したものです。
+### The Seven Levels of Prosodic Notation Strictification <!-- {#seven-levels-of-prosodic-notation-strictification} -->
+**{{<meta var.PNS.en>}}** has seven levels. These are derived by dividing the depth of Prosodic Notation Strictification into seven levels based on the seven rhythm recognition types.
 
-- {{<meta var.PNS.en>}}レベル
-  - レベル0: {{<meta var.MiOP.en>}}
-  - レベル1: {{<meta var.NI.en>}}
-  - レベル2: {{<meta var.MOP.en>}}
-  - レベル3: {{<meta var.PNI.en>}}
-  - レベル4: {{<meta var.MPOP.en>}}
-  - レベル5: {{<meta var.MNI.en>}}
-  - レベル6: {{<meta var.MMOP.en>}}
+- {{<meta var.PNS.en>}} levels
+  - Level 0: {{<meta var.MiOP.en>}}
+  - Level 1: {{<meta var.NI.en>}}
+  - Level 2: {{<meta var.MOP.en>}}
+  - Level 3: {{<meta var.PNI.en>}}
+  - Level 4: {{<meta var.MPOP.en>}}
+  - Level 5: {{<meta var.MNI.en>}}
+  - Level 6: {{<meta var.MMOP.en>}}
 
-これら７つのリズム認識型を考慮した上で譜割りに反映します。
+The score is then written while taking these seven rhythm recognition types into account.
 
-| 音韻厳密化LV |    最適化する要素    | 音韻規則LV | 必要なサブディヴィジョンLV |
+| PNS Level | Element Optimized | Phonological Rule Level | Required Subdivision Level |
 | :----------: | :------------------: | :--------: | :------------------------: |
-|      ０      | {{<meta var.MiOP.en>}} |     ０     |        **3⁻¹=1/3**        |
-|      １      | {{<meta var.NI.en>}}   |     １     |        **3⁻¹=1/3**        |
-|      ２      | {{<meta var.MOP.en>}}  |     １     |        **3⁻¹=1/3**        |
-|      ３      | {{<meta var.PNI.en>}}  |     ２     |        **3⁻²=1/9**        |
-|      ４      | {{<meta var.MPOP.en>}} |     ２     |        **3⁻²=1/9**        |
-|      ５      | {{<meta var.MNI.en>}}  |     ３     |       **3⁻³=1/27**        |
-|      ６      | {{<meta var.MMOP.en>}} |     ３     |       **3⁻³=1/27**        |
+|      0      | {{<meta var.MiOP.en>}} |     0     |        **3⁻¹=1/3**        |
+|      1      | {{<meta var.NI.en>}}   |     1     |        **3⁻¹=1/3**        |
+|      2      | {{<meta var.MOP.en>}}  |     1     |        **3⁻¹=1/3**        |
+|      3      | {{<meta var.PNI.en>}}  |     2     |        **3⁻²=1/9**        |
+|      4      | {{<meta var.MPOP.en>}} |     2     |        **3⁻²=1/9**        |
+|      5      | {{<meta var.MNI.en>}}  |     3     |       **3⁻³=1/27**        |
+|      6      | {{<meta var.MMOP.en>}} |     3     |       **3⁻³=1/27**        |
 :  {.tbl-pron2 .tbl-header-center   tbl-colwidths=[10,1,1,1] }
 
-### {{<meta var.PNS.en>}}レベルによって必要となる{{<meta var.PHONOLOGICAL_RULE_LEVELS.en>}} <!-- {#three-hierarchical-levels-of-phonological-rules} -->
+### The {{<meta var.PHONOLOGICAL_RULE_LEVELS.en>}} Required by Each {{<meta var.PNS.en>}} Level <!-- {#three-hierarchical-levels-of-phonological-rules} -->
 
-７つの音韻表記厳密化にはそれぞれ、必要となる{{<meta var.PHONOLOGICAL_RULE_LEVELS.en>}}が異なることに注意して下さい。この音韻規則レベルによって、必要なサブディヴィジョン数が決まります。
+Please note that each of the seven kinds of Prosodic Notation Strictification requires a different {{<meta var.PHONOLOGICAL_RULE_LEVELS.en>}}. This phonological rule level determines the number of subdivisions required.
 
-- **音韻規則レベル１ 音素レベル = 3⁻¹=1/3**
-- **音韻規則レベル２ 音節レベル = 3⁻²=1/9**
-- **音韻規則レベル３ 韻律レベル = 3⁻³=1/27**
+- **Phonological Rule Level 1: phoneme level = 3⁻¹=1/3**
+- **Phonological Rule Level 2: syllable level = 3⁻²=1/9**
+- **Phonological Rule Level 3: prosodic level = 3⁻³=1/27**
 
-### {{<meta var.PNSPTI.en>}}について   <!-- {#phonological-notation-strictification-perceptual-theoretical-inversion}-->
+### About {{<meta var.PNSPTI.en>}} <!-- {#phonological-notation-strictification-perceptual-theoretical-inversion}-->
 
-8分音符オフビートカウントと3連符オフビートカウントを比べると8分音符オフビートカウントの方がずっと理論的な理解が簡単です。しかし実際に練習してみると、8分音符オフビートはとても感覚的に理解しづらく、3連符オフビートカウントの方がずっと感覚的な理解が簡単ということを経験します。同様にして、3連符より9連符、9連符より27連符の方が感覚的な理解が簡単ということを経験します。
+If one compares eighth-note Offbeat Count with triplet Offbeat Count, eighth-note Offbeat Count is much easier to understand theoretically. But when one actually practices them, one finds that eighth-note Offbeat Count is very difficult to grasp perceptually, while triplet Offbeat Count is much easier to grasp perceptually. In the same way, ninth-note count is perceptually easier than triplet count, and twenty-seventh-note count is perceptually easier than ninth-note count.
 
-しかし理論的な理解という視点から、8分音符オフビートカウントと3連符オフビートカウントを比べると、3連符オフビートカウントの方がずっと理論的な理解が困難です。同様にして、3連符より9連符、9連符より27連符の方が感覚的な理解が困難です。
-
-
-このようにオフビートカウントに於いて、理論的な理解の容易さと感覚的な理解の容易さは反比例します。このことを**{{<meta var.PNSPTI.en>}}** と呼びます。
+However, from the viewpoint of theoretical understanding, when one compares eighth-note Offbeat Count with triplet Offbeat Count, triplet Offbeat Count is much harder to understand theoretically. In the same way, ninth-note count is harder theoretically than triplet count, and twenty-seventh-note count is harder theoretically than ninth-note count.
 
 
-### ３つの基本カウントパターンについて
+Thus, in Offbeat Count, ease of theoretical understanding and ease of perceptual understanding are inversely proportional. This is called **{{<meta var.PNSPTI.en>}}**.
 
-これらの音韻規則レベルが要求するサブディヴィジョン数を踏まえた上で**カウントパターン**を定義したものを譜面として表すと次のようになります。これを基本カウントパターンと呼びます。 基本カウントパターンは、現在のところ全部で３種類あります。
 
-なお、これらの譜面は音韻厳密化を行う前の譜面であることに注意して下さい。１音節に３音素ある為、音符１つに対して１音節を割り当てると、その音符は３分割されます。以下の譜面は、３分割される前の表記になっています。つまり必要なサブディヴィジョンが３ならばそれは４分音符１つとして表記されます。
+### The Three Basic Count Patterns
 
-このことを次の**音韻表記厳密化**の節で見ていきます。
+If we define **count patterns** while taking into account the number of subdivisions required by these phonological rule levels, and represent them as notation, the result is as follows. These are called the basic count patterns. At present, there are three of them in total.
 
-#### 音韻規則レベル１=音素レベル
+Please note that these scores are the notation before Prosodic Notation Strictification is applied. Since one syllable has three phonemes, if one syllable is assigned to one note, that note is subdivided into three. The scores below are written before that three-way subdivision. In other words, if the required subdivision count is three, it is written as a single quarter note.
 
-**サブディヴィジョンレベル = 3⁻¹=1/3**
+We will look at this in the next section, **Prosodic Notation Strictification**.
+
+#### Phonological Rule Level 1 = Phoneme Level
+
+**Subdivision Level = 3⁻¹=1/3**
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-countset-n-1.ly
 ```
 
-#### 音韻規則レベル２=音節レベル
-**サブディヴィジョンレベル = 3⁻²=1/9**
+#### Phonological Rule Level 2 = Syllable Level
+**Subdivision Level = 3⁻²=1/9**
 
-これは１ディヴィジョンに３つのサブディヴィジョンを割り当てる数え方です。
+This is a way of counting that assigns three subdivisions to one division.
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-countset-n-2.ly
 ```
 
-#### 音韻規則レベル３=韻律レベル
- **サブディヴィジョンレベル = 3⁻³=1/27**
+#### Phonological Rule Level 3 = Prosodic Level
+ **Subdivision Level = 3⁻³=1/27**
 
-これは１ディヴィジョンに２７つのサブディヴィジョンを割り当てる数え方です。
+This is a way of counting that assigns twenty-seven subdivisions to one division.
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-countset-n-3.ly
 ```
-これは一瞥では理解が難しいですが、次のような法則になっています。
+This is difficult to understand at a glance, but it follows the pattern below.
 
 - **1 & A & & A A & A**
 - **2 & A & & A A & A**
 - **3 & A & & A A & A**
 
-これは一瞥では理解が難しいですが **1 & A** を先頭の文字を変えながら3回繰り返し
-て読んでいるのです。それを数字だけで表現すると次のようになります。
+This is hard to grasp at first glance, but it is simply **1 & A** repeated three times while changing the first character. If we express it using numbers only, it becomes as follows.
 
 - **1 2 3 2 2 3 3 2 3**
 - **2 2 3 2 2 3 3 2 3**
 - **3 2 3 2 2 3 3 2 3**
 
-この時、1 を 1、2を&、3をa に割り当てて同じ様に読むと
+At this point, if we assign 1 to 1, 2 to &, and 3 to a, and read it in the same way, it becomes:
 
 - **1 & A & & A A & A**
 - **2 & A & & A A & A**
 - **3 & A & & A A & A**
 
-になります。この様に数字を多層にして読む必要があるリズムをここでは**多次元グル
-ーヴ**と呼びます。 詳しくは[多次元ディヴィジョン空間理論](/offbeat-count/multidimensional-rhythm/ja/)を参照して下さい。
+Rhythms that require numbers to be read in multiple layers like this are called **multidimensional groove** here. For details, see [Multidimensional Division Spaces](/offbeat-count/multidimensional-division-spaces/en/).
 
 ---
 
-次のグラフは、1拍を1テーブルとして表し、横書き（列を先に左から右に読み、行を次
-に上から下に読む）で表したものです。
+The following diagram represents one beat as one table, arranged horizontally.
 
 <style>
   :root {
@@ -9205,7 +9201,7 @@ common-ly/shared/rhythmdo-countset-n-3.ly
 
 ---
 
-これを数字だけで表すと次のようになります。
+Expressed using numbers only, it becomes as follows.
 
 <div class="tables-wrap">
 <!-- 1 -->
@@ -9283,7 +9279,7 @@ common-ly/shared/rhythmdo-countset-n-3.ly
 
 ---
 
-テーブルを読む順番は次の通りです。
+The tables are read in the following order.
 
 <div class="tables-wrap">
 <!-- 1 -->
@@ -9300,7 +9296,7 @@ common-ly/shared/rhythmdo-countset-n-3.ly
 
 ---
 
-それぞれのテーブル内の数字を読む順番は次の通りです。
+The numbers inside each table are read in the following order.
 
 <div class="tables-wrap">
 
@@ -9395,133 +9391,129 @@ common-ly/shared/rhythmdo-countset-n-3.ly
 </div>
 
 
-### 基底3⁻ⁿに於ける音韻表記厳密化 <!-- {#practical-prosodic-notation-strictification-in-three} -->
+### Prosodic Notation Strictification in 3⁻ⁿ-Based Rhythm <!-- {#practical-prosodic-notation-strictification-in-three} -->
 
-これから実際にカウントパターンに対して実際に音韻表記厳密化を行います。これまでに御紹介致しました３つの音韻規則レベルに沿って作られたカウントに対して７つの音韻表記厳密化を順番に行います。
+From here on, I will actually apply Prosodic Notation Strictification to count patterns. For the counts constructed according to the three phonological rule levels introduced so far, I will apply the seven levels of Prosodic Notation Strictification in order.
 
-#### 音韻規則レベル１=音素レベル  <!-- {#ppns-1} -->
+#### Phonological Rule Level 1 = Phoneme Level <!-- {#ppns-1} -->
 
-音韻規則レベル１のカウントを音韻表記厳密化していきます。音韻規則レベル１のカウ
-ントは音韻規則レベル１＝音韻表記厳密化レベル３までの音韻表記厳密化しか行うこと
-が出来ません。ここからレベル３までの音韻厳密化を行います。
+We will now apply Prosodic Notation Strictification to the count at phonological rule level 1. A count at phonological rule level 1 can undergo only the first three levels of Prosodic Notation Strictification. Below, we carry out the strictification through Level 2.
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-countset-n-1.ly
 ```
 
-##### レベル0 {{<meta var.MiOP.en>}} <!-- {#ppns-1-0} -->
+##### Level 0 {{<meta var.MiOP.en>}} <!-- {#ppns-1-0} -->
 
-まず音符を音素に分解したのちに、単純に先頭から音韻を順番に割り当てる表記方法が
-この**レベル0音韻厳密化**です。
+First, after decomposing the notes into phonemes, the notation method that simply assigns the phonemes in order from the beginning is this **Level 0 strictification**.
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv1-lv0-000.ly
 ```
 
-この表記方法には２つの解釈が考えられます。
+Two interpretations are possible for this notation method.
 
-1. 音韻厳密化がない抽象的なゼロ音韻厳密化
-2. 頭子音最小化原則に対する音韻厳密化
+1. an abstract zero strictification in which no strictification has been applied
+2. a strictification applied with respect to {{<meta var.MiOP.en>}}
 
-レベル0はレベル１以降で行う音韻厳密化を行いません。ここからレベル0を抽象的な**ゼロ{{<meta var.PNS.en>}}**と考えることができます。 これが１つ目の解釈です。
+Level 0 does not perform any of the strictification carried out from Level 1 onward. For that reason, Level 0 can be regarded as an abstract **Zero {{<meta var.PNS.en>}}**. This is the first interpretation.
 
-２つ目の解釈は、このゼロ{{<meta var.PNS.en>}}を **{{<meta var.MiOP.en>}} に対して音韻厳密化を行ったもの**と解釈する方法です。
+The second interpretation is to regard this Zero {{<meta var.PNS.en>}} as **a strictification carried out with respect to {{<meta var.MiOP.en>}}**.
 
-モーラ拍リズムを持つ言語である日本語話者が英語・ドイツ語・ロシア語などのストレス拍リズム言語で書かれた歌詞の歌を歌おうとしたり、スペイン語フランス語ギリシャ語などのシラブル拍リズム言語で書かれた歌詞の歌を歌おうとすると、日本語のモーラ拍リズムのリズム解釈が表出することによって、リズム解釈に独特な間違いが生じます。レベル0音韻厳密化は、この**日本語での間違ったリズム解釈を譜面化したもの**といえます。
+When Japanese speakers, whose language has mora-timed rhythm, try to sing songs whose lyrics are written in stress-timed languages such as English, German, and Russian, or in syllable-timed languages such as Spanish, French, and Greek, the rhythm interpretation of Japanese mora-timed rhythm emerges and produces characteristic errors in rhythm interpretation. Level 0 strictification can be said to be **a notation of this mistaken Japanese rhythm interpretation**.
 
-その日本語での独特な間違いとは**{{<meta var.NI.en>}}が守られない**ことです。
+That characteristic Japanese error is that **{{<meta var.NI.en>}} is not observed**.
 
-海外の言語（シラブル拍リズム・ストレス拍リズム）では、音節ごとに現れる母音を拍の先頭として母音同士の間隔を一定に保つという暗黙のルールが守られます。このことを**{{<meta var.NI.en>}}**  と呼びます。
+In foreign languages, that is, syllable-timed and stress-timed languages, there is an implicit rule by which the vowels that appear in each syllable are placed at the beginnings of beats so that the intervals between vowels remain constant. This is called **{{<meta var.NI.en>}}**.
 
-更に海外の言語は多重子音や子音の接続を持っていることから、日本語よりも圧倒的に長い子音が現れます。長い子音が現れても母音の拍の等時性を守るためには子音を母音よりも先に言い終わっている必要があります。
+Furthermore, because foreign languages have consonant clusters and consonant connections, consonants far longer than those in Japanese appear. To preserve the isochrony of vowel beats even when such long consonants appear, those consonants must already have been finished before the vowel.
 
-このことから母音に拍を置いた上で子音を**弱拍**として母音よりも前に子音を発音する必要が生じます。これは弱拍の起源と言い換えることも出来ます。
+For that reason, it becomes necessary to place the beat on the vowel and pronounce the consonant before the vowel as a **weak beat**. This could also be rephrased as the origin of weak beats.
 
-しかし日本語（モーラ拍リズム）では、子音母音を含むマス目自体に等時性があります。このことを **{{<meta var.MI.en>}}** と呼びます。**{{<meta var.MI.en>}}** では、マス目自体に子音が含まれているという特徴があります。このため海外の言語と異なり日本の言語では、子音が拍の後ろで発音される特徴があります。
+Japanese (mora-timed rhythm), however, has isochrony in the cells themselves that contain consonant-vowel units. This is called **{{<meta var.MI.en>}}**. In **{{<meta var.MI.en>}}**, the cell itself contains the consonant. For that reason, unlike foreign languages, Japanese tends to pronounce consonants after the beat.
 
-これはそのモーラ拍内に子音がない場合に更に目立つ問題となって表出します。それはそのモーラ内に子音がない場合、次の譜面で表される様に子音が前進することです。
+This becomes an even more conspicuous problem when the mora beat contains no consonant. In that case, as shown in the following score, the consonant advances.
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv1-lv0-001.ly
 ```
 
-この譜面は、モーラ拍リズムの**頭合わせリズム認識型**が発動した状態を模式的に表現しているものです。**Eight(8)** の部分に注目して下さい。ここでは２つの問題が起きています。１つ目は、日本語などのモーラ拍リズムの言語を話す人が、母音から始まる単語で英語話者が**暗黙のうちに発音する子音＝声門閉鎖音**を認識出来ない為に脱落が起こることです。
+This score schematically represents the state in which the **Head Alignment** rhythm recognition type of mora-timed rhythm is activated. Please pay attention to the **Eight (8)** portion. Two problems occur here. First, speakers of mora-timed languages such as Japanese cannot perceive the **implicitly pronounced consonant, namely the glottal stop**, that English speakers use in words beginning with vowels, so deletion occurs.
 
-そして次にその脱落が起きた時、そのもともとモーラ拍内中央におかれていた母音が、脱落した子音位置を待つことなく発音されることです。このことから母音の位置が見かけ上前進した様に見えます。 このことを **{{<meta var.NA.en>}}** と呼びます。
+Second, when that deletion occurs, the vowel that had originally been placed at the center of the mora beat is pronounced without waiting for the deleted consonant position. As a result, the vowel position appears to move forward. This is called **{{<meta var.NA.en>}}**.
 
-この様に全ての音素がそのモーラ拍の先頭に揃う性質のことを **{{<meta var.HAP.en>}}
-**と呼びます。
+This property, in which all phonemes align at the beginning of the mora beat, is called **{{<meta var.HAP.en>}}**.
 
-**{{<meta var.HAP.en>}}**は、日本人がグルーヴしない理由の最も根本的な理由と言えます。音程の出始めである母音の位置が変化する為に、音の発音位置が一定しなくなり、グルーヴの条件である「音が一定間隔で演奏される」が満たされなくなります。
+**{{<meta var.HAP.en>}}** can be said to be the most fundamental reason Japanese speakers do not groove. Because the position of the vowel, which is the onset of pitch, changes, the pronunciation position of sounds no longer remains constant, and the groove condition that "sounds are performed at constant intervals" is no longer satisfied.
 
-これが日本人がグルーヴしない理由です。日本語話者の感覚での等間隔 **{{<meta var.MI.en>}}**は、音の始まりという視点で見ると等間隔ではありません。これが日本人がグルーヴしない理由の正体です。
+This is why Japanese speakers do not groove. The equal spacing of **{{<meta var.MI.en>}}** in the perception of Japanese speakers is not equal spacing when viewed from the perspective of sound onsets. That is the real reason Japanese speakers do not groove.
 
-**譜面に対する忠実さの違い**
+**Difference in Faithfulness to the Score**
 
-このレベル0**ゼロ{{<meta var.PNS.en>}}**は、日本人が譜面に対する忠実さを最大限に守った結果としてしばしば現れます。シラブル拍リズム言語やストレス拍リズム言語を母国語とする人々が、譜面に書かれていなくとも暗黙の了解として守っているルールの存在を知らない状態で守る譜面に対する忠実さは、音楽に対する破壊行為と断じても過言ではありません。
+This Level 0, **Zero {{<meta var.PNS.en>}}**, often appears as the result of Japanese speakers preserving faithfulness to the written score to the greatest possible extent. The kind of faithfulness to the score that is maintained without knowing the existence of the rules that speakers of syllable-timed and stress-timed languages observe as implicit understandings even when they are not written in the score is, it is no exaggeration to say, an act of destruction toward music.
 
-日本人として発音の違いに対して謙虚になり、違いに興味を持ち、音韻学をよく学んで海外で一般的な譜面の解釈を学ぶことの大切さはいくら強調しても強調しすぎることはありません。
+As Japanese speakers, it is impossible to overemphasize the importance of being humble about pronunciation differences, taking an interest in those differences, studying phonology carefully, and learning the score interpretations commonly used overseas.
 
-以下のレベル１以降はそういう譜面の解釈の一例を形式化したものです。貴方の志を世界中の人々に届ける為の淀みない発音を実現する為にこれらのレベルは存在します。
+The levels from Level 1 onward are a formalization of one example of such score interpretation. These levels exist in order to realize smooth pronunciation that can carry your aspiration to people all over the world.
 
-##### レベル1 {{<meta var.NI.en>}}  <!-- {#ppns-1-1} -->
+##### Level 1 {{<meta var.NI.en>}} <!-- {#ppns-1-1} -->
 
-モーラ拍リズムを母国語とする人が最初に直面する問題は、{{<meta var.NI.en>}}リズム認識型を持たないことにより、子音の位置を強拍よりも前に発音できないことです。
+The first problem faced by speakers whose native language is mora-timed rhythm is that, because they do not possess the {{<meta var.NI.en>}} rhythm recognition type, they cannot pronounce consonants before the strong beat.
 
-この問題を解決する為に専用の練習方法が必要です。以下の譜は、シラブル拍リズムの{{<meta var.NI.en>}}リズム認識方が発動した状態を模式的に表しています。
+To solve this problem, a dedicated practice method is needed. The following score schematically represents the state in which the {{<meta var.NI.en>}} rhythm recognition type of syllable-timed rhythm is activated.
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv1-lv1-000.ly
 ```
 
-この様にシラブル拍リズム言語を話す人々は、子音を弱拍位置で発音する習慣を持っています。
+In this way, speakers of syllable-timed languages have the habit of pronouncing consonants in weak-beat positions.
 
-##### レベル2 {{<meta var.MOP.en>}}  <!-- {#ppns-1-2} -->
+##### Level 2 {{<meta var.MOP.en>}} <!-- {#ppns-1-2} -->
 
-シラブル拍リズム言語は更に{{<meta var.MOP.en>}}リズム認識型を持っており、子音を弱拍位置で発音するだけでなく、その直前の末子音を全て可能な限りまとめて発音する習慣を持っています。
+Syllable-timed languages also possess the {{<meta var.MOP.en>}} rhythm recognition type. They not only pronounce consonants in weak-beat positions, but also have the habit of bundling as many immediately preceding final consonants as possible into the next onset consonant.
 
-次の譜は、シラブル拍リズム言語に於いて、末子音が頭子音にまとめられて発音される様子を模式的に表したものです。
+The following score schematically shows how, in syllable-timed languages, final consonants are bundled into onset consonants and pronounced.
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv1-lv2-tuplets-1.ly
 ```
 
-**拡大表示**
+**Zoomed View**
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv1-lv2-tuplets-2.ly
 ```
 
-**音韻規則レベル１ 音素レベル = 3⁻¹=1/3** で可能な音韻表記厳密化はレベル2までです。これ以降の音韻表記厳密化は音韻規則レベル2以上のカウント上で行う必要があります。
+At **Phonological Rule Level 1, phoneme level = 3⁻¹=1/3**, Prosodic Notation Strictification is possible only through Level 2. Any further strictification must be performed on counts at phonological rule level 2 or above.
 
-#### 音韻規則レベル２=音節レベル <!-- {#ppns-2} -->
+#### Phonological Rule Level 2 = Syllable Level <!-- {#ppns-2} -->
 
-レベル3 {{<meta var.PNS.en>}} からはこれまでの音韻規則レベル1=音素のみの厳密化だけでなく音節レベルでの音韻表記厳密化を行います。
+From Level 3 {{<meta var.PNS.en>}} onward, we carry out syllable-level Prosodic Notation Strictification in addition to the phoneme-only strictification of phonological rule level 1 that we have used so far.
 
-音韻規則レベル1のカウントでは音韻表記厳密化レベル2までの音韻表記厳密化しか行うことが出来ません。音素だけでなく音節に対する厳密化を行うために弱拍基軸の階層を１つ増やした音韻レベル2のカウントを利用する必要があります。音韻表記厳密化レベル3からは音韻規則レベル2のカウントに移行した上で音韻表記厳密化レベル3及び4の音韻厳密化を行います。
+A count at phonological rule level 1 can undergo Prosodic Notation Strictification only through Level 2. To strictify not only phonemes but also syllables, it is necessary to use a level-2 count in which the hierarchy of the weak-beat anchoring axis is increased by one layer. From PNS Level 3 onward, we move to a count at phonological rule level 2 and carry out strictification at Levels 3 and 4.
 
-音韻規則レベル2での音韻表記厳密化の基本的な考え方は次の通りです。
+The basic idea of Prosodic Notation Strictification at phonological rule level 2 is as follows.
 
-音韻規則レベル2のカウントパターンを見てみます。
+Let us look at the count pattern at phonological rule level 2.
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv2-lv3-000.ly
 ```
 
-二層カウントに対してレベル3の本来の目的である音韻表記厳密化**レベル３{{<meta var.PNI.en>}}**を適用します。具体的には**音符を１つずらし&が強拍に来る様に配置**する事で**弱拍先行**の配置にします。
+To this two-layer count, we apply **Level 3 {{<meta var.PNI.en>}}**, which is the original purpose of Level 3 strictification. Concretely, by **shifting the notes by one so that & comes onto the strong beat**, we place it in a **weak-beat-precedence** arrangement.
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv2-lv3-001.ly
 ```
 
-これで**レベル3 {{<meta var.PNI.en>}}** が完了しました。これと同時に、これまでに行ってきたレベル1 {{<meta var.NI.en>}}とレベル2 {{<meta var.MOP.en>}} の {{<meta var.PNI.en>}} を行う必要があります。
+With this, **Level 3 {{<meta var.PNI.en>}}** is complete. At the same time, it is necessary to apply the Level 1 {{<meta var.NI.en>}} and Level 2 {{<meta var.MOP.en>}} parts of strictification that we have been carrying out up to this point.
 
 
-次節からこの２階層カウントに対してレベル1とレベル2を{{<meta var.PNS.en>}}を行います。
+From the next section onward, we apply Level 1 and Level 2 {{<meta var.PNS.en>}} to this two-layer count.
 
 
-##### レベル0 {{<meta var.MiOP.en>}} <!-- {#ppns-2-0} -->
-詳細の説明は[レベル0](#ppns-1-0)に譲ります。
+##### Level 0 {{<meta var.MiOP.en>}} <!-- {#ppns-2-0} -->
+For details, see [Level 0](#ppns-1-0).
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-2-lv2-lv0-000.ly
@@ -9535,54 +9527,54 @@ common-ly/shared/rhythmdo-2-lv2-lv0-000.ly
 ```
 -->
 
-##### レベル1 {{<meta var.NI.en>}}    <!-- {#ppns-2-1} -->
-詳細の説明は[レベル1](#ppns-1-1)に譲ります。
+##### Level 1 {{<meta var.NI.en>}} <!-- {#ppns-2-1} -->
+For details, see [Level 1](#ppns-1-1).
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv2-lv1.ly
 ```
 
-##### レベル2 {{<meta var.MOP.en>}}    <!-- {#ppns-2-2} -->
+##### Level 2 {{<meta var.MOP.en>}} <!-- {#ppns-2-2} -->
 
-レベル2{{<meta var.MOP.en>}}を実現する為に、今まで3連符2つ目で発音していた末子音を次の音節の頭子音(つまり2階層目の3連符の3つ目)にまとめます。これをここでは**頭子音最大化処理** と呼びます。
+To realize Level 2 {{<meta var.MOP.en>}}, the final consonants that had previously been pronounced on the second triplet are gathered into the onset consonant of the next syllable, that is, the third triplet at the second layer. Here I call this **onset-maximization processing**.
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv2-lv2.ly
 ```
 <!-- DjP07omgzmg47kjmALzX/w== -->
 
-##### レベル3 {{<meta var.PNI.en>}}    <!-- {#ppns-2-3} -->
+##### Level 3 {{<meta var.PNI.en>}} <!-- {#ppns-2-3} -->
 
-レベル3 {{<meta var.PNI.en>}}を実現する為に、この章の冒頭で御説明した通り、これまで数字を拍先頭に配置していたものを、数字が前拍の1階層目の3連符の3拍目くるように全体を移動します。結果として&が拍の先頭にくる様に配置されます。
+To realize Level 3 {{<meta var.PNI.en>}}, as explained at the beginning of this chapter, we shift the entire pattern so that the numbers, which had previously been placed at the beginnings of beats, now come on the third triplet of the first layer of the previous beat. As a result, & is positioned at the beginning of the beat.
 
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv2-lv3.ly
 ```
 
-これは譜面を見ると複雑に見えますが、この章の冒頭で御説明した通り、レベル1レベル2の音韻表記厳密化を取り除くと単に1階層目の3連符1つ分を左に移動しただけもものです。
+This looks complicated when viewed as notation, but as explained at the beginning of this chapter, if we remove the Level 1 and Level 2 strictification, it is simply shifted one first-layer triplet to the left.
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv2-lv3-001.ly
 ```
 
-##### レベル4 {{<meta var.MPOP.en>}}    <!-- {#ppns-2-4} -->
+##### Level 4 {{<meta var.MPOP.en>}} <!-- {#ppns-2-4} -->
 
-レベル４は更に弱拍先行を更に推し進めます。
+Level 4 pushes weak-beat precedence one stage further.
 
-レベル３で弱拍先行を実現する為、オフセット（ずれ）を付加することでカウントを早めました。
+At Level 3, we advanced the count by adding an offset in order to realize weak-beat precedence.
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv2-lv3-001.ly
 ```
 
-このずれをつけた状態で a を先に読むことで二重の弱拍先行（頭音節最大化）を行います。
+In that shifted state, by reading a first, we carry out double weak-beat precedence (Maximal Prosodic Onset).
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv2-lv4-000.ly
 ```
 
-この状態でレベル1レベル2の音韻表記厳密化を行うと次の様になります。
+If we apply Level 1 and Level 2 strictification in this state, the result is as follows.
 
 ---
 
@@ -9592,12 +9584,12 @@ common-ly/shared/rhythmdo-lv2-lv4.ly
 
 ---
 
-音韻規則レベル２で可能な音韻表記厳密化はここまでです。
+This is as far as Prosodic Notation Strictification can go at phonological rule level 2.
 
 
-#### 音韻規則レベル３=韻律レベル   <!-- {#ppns-3} -->
+#### Phonological Rule Level 3 = Prosodic Level <!-- {#ppns-3} -->
 
-音韻規則レベル３のカウントを音韻表記厳密化していきます。音韻規則レベル１のカウントは音韻規則レベル１＝音韻表記厳密化レベル３までの音韻表記厳密化しか行うことが出来ません。ここからレベル３までの音韻厳密化を行います。
+We will now apply Prosodic Notation Strictification to the count at phonological rule level 3. After recapping Levels 0-2, we then carry the process through Level 6.
 
 
 ```{.lilypond-file}
@@ -9605,37 +9597,37 @@ common-ly/shared/rhythmdo-countset-n-3.ly
 ```
 
 
-##### レベル0 {{<meta var.MiOP.en>}}  <!-- {#ppns-3-0} -->
-元となった **3⁻²=1/9** の9つの音符に音節を割り当てたことにより更に3分割され、** 3⁻³=1/27**の27つの音符に分割されたものです。
+##### Level 0 {{<meta var.MiOP.en>}} <!-- {#ppns-3-0} -->
+By assigning syllables to the original nine notes of **3⁻²=1/9**, they are subdivided once more into twenty-seven notes of **3⁻³=1/27**.
 
-詳細の説明は[レベル0](#ppns-1-0)に譲ります。
+For details, see [Level 0](#ppns-1-0).
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv3-lv0-000.ly
 ```
 
-##### レベル1 {{<meta var.NI.en>}}     <!-- {#ppns-3-1} -->
-{{<meta var.NI.en>}} を適用したものです。
+##### Level 1 {{<meta var.NI.en>}} <!-- {#ppns-3-1} -->
+This is the result of applying {{<meta var.NI.en>}}.
 
-詳細の説明は[レベル1](#ppns-1-1)に譲ります。
+For details, see [Level 1](#ppns-1-1).
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv3-lv1-000.ly
 ```
 
-##### レベル2 {{<meta var.MOP.en>}}    <!-- {#ppns-3-2} -->
-{{<meta var.MOP.en>}} を適用したものです。
+##### Level 2 {{<meta var.MOP.en>}} <!-- {#ppns-3-2} -->
+This is the result of applying {{<meta var.MOP.en>}}.
 
-詳細の説明は[レベル2](#ppns-2-2)に譲ります。
+For details, see [Level 2](#ppns-2-2).
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv3-lv2-000.ly
 % yllHg4q8KHrWnbDJSbHpig==
 ```
 
-##### レベル3 {{<meta var.PNI.en>}}   <!-- {#ppns-3-3} -->
+##### Level 3 {{<meta var.PNI.en>}} <!-- {#ppns-3-3} -->
 
-これまでレベル１〜レベル２で表記法厳密化を行ったカウントパターンは次のようなものでした。
+Up to this point, the count pattern that had undergone strictification through Levels 1-2 was as follows.
 
 ---
 
@@ -9643,7 +9635,7 @@ common-ly/shared/rhythmdo-lv3-lv2-000.ly
 common-ly/shared/rhythmdo-countset-n-3.ly
 ```
 
-これに対して{{<meta var.PNI.en>}}厳密化を行うと次のようになります。
+If we apply {{<meta var.PNI.en>}} strictification to this, it becomes as follows.
 
 ---
 
@@ -9653,20 +9645,20 @@ common-ly/shared/rhythmdo-lv3-001.ly
 
 ---
 
-この１つずれたカウントパターンに対してレベル1レベル2の厳密化を加えたものが最終的なレベル3の完成形となります。
+The final completed form of Level 3 is obtained by applying Level 1 and Level 2 strictification to this count pattern shifted by one.
 
-詳細の説明は[レベル3](#ppns-2-3)に譲ります。
+For details, see [Level 3](#ppns-2-3).
 
 ---
 
-**レベル3完成形**
+**Completed Level 3**
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv3-lv3-002.ly
 ```
 
-##### レベル4 {{<meta var.MPOP.en>}}  <!-- {#ppns-3-4} -->
+##### Level 4 {{<meta var.MPOP.en>}} <!-- {#ppns-3-4} -->
 
-これまでレベル3で表記法厳密化を行ったカウントパターン原型は次のようなものでした。
+The count-pattern prototype that had undergone strictification up through Level 3 was as follows.
 
 ---
 
@@ -9675,7 +9667,7 @@ common-ly/shared/rhythmdo-lv3-001.ly
 ```
 ---
 
-これに対して{{<meta var.MPOP.en>}}厳密化を行うと次のようになります。
+If we apply {{<meta var.MPOP.en>}} strictification to this, it becomes as follows.
 
 ---
 
@@ -9687,18 +9679,18 @@ common-ly/shared/rhythmdo-lv3-002.ly
 
 ---
 
-これがレベル4のカウントパターン原型です。この１つずれたカウントパターン原型に対してレベル1、レベル2の厳密化を加えたものが最終的なレベル4の完成形となります。
+This is the Level 4 count-pattern prototype. Applying Level 1 and Level 2 strictification to this shifted count-pattern prototype yields the final completed form of Level 4.
 
-詳細の説明は[レベル4](#ppns-2-4)に譲ります。
+For details, see [Level 4](#ppns-2-4).
 
-**レベル4完成形**
+**Completed Level 4**
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv3-lv4-000.ly
 ```
 
-##### レベル5 {{<meta var.MNI.en>}}   <!-- {#ppns-3-5} -->
+##### Level 5 {{<meta var.MNI.en>}} <!-- {#ppns-3-5} -->
 
-これまでレベル4で表記法厳密化を行ったカウントパターン原型は次のようなものでした。
+The count-pattern prototype that had undergone strictification up through Level 4 was as follows.
 
 ---
 
@@ -9707,7 +9699,7 @@ common-ly/shared/rhythmdo-lv3-002.ly
 ```
 ---
 
-これに対して{{<meta var.MNI.en>}}厳密化を行うと次のようになります。
+If we apply {{<meta var.MNI.en>}} strictification to this, it becomes as follows.
 
 ---
 
@@ -9716,24 +9708,24 @@ common-ly/shared/rhythmdo-lv3-003.ly
 ```
 ---
 
-これがレベル5のカウントパターン原型です。この１つずれたカウントパターン原型に対してレベル1、レベル2の厳密化を加えたものが最終的なレベル5の完成形となります。
+This is the Level 5 count-pattern prototype. Applying Level 1 and Level 2 strictification to this shifted count-pattern prototype yields the final completed form of Level 5.
 
 ---
 
-**レベル5完成形**
+**Completed Level 5**
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv3-lv5-000.ly
 ```
 
-##### レベル6 {{<meta var.MMOP.en>}}  <!-- {#ppns-3-6} -->
+##### Level 6 {{<meta var.MMOP.en>}} <!-- {#ppns-3-6} -->
 
-これまでレベル5で表記法厳密化を行ったカウントパターン原型は次のようなものでした。
+The count-pattern prototype that had undergone strictification up through Level 5 was as follows.
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv3-003.ly
 ```
 
-これに対して{{<meta var.MMOP.en>}}厳密化を行うと次のようになります。
+If we apply {{<meta var.MMOP.en>}} strictification to this, it becomes as follows.
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv3-004.ly
@@ -9741,41 +9733,41 @@ common-ly/shared/rhythmdo-lv3-004.ly
 
 ---
 
-これがレベル5のカウントパターン原型です。この１つずれたカウントパターン原型に対してレベル1、レベル2の厳密化を加えたものが最終的なレベル5の完成形となります。
+This is the Level 6 count-pattern prototype. Applying Level 1 and Level 2 strictification to this shifted count-pattern prototype yields the final completed form of Level 6.
 
-**レベル6完成形**
+**Completed Level 6**
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv3-lv6-000.ly
 ```
 
 <!-- tnccerY91FUWg8OQLyzadQ== -->
 
-#### まとめ
+#### Summary
 
-##### 音韻規則レベル１=音素レベル  <!-- {#ppns-1-summary} -->
+##### Phonological Rule Level 1 = Phoneme Level <!-- {#ppns-1-summary} -->
 
-**原カウントパターン**
+**Original Count Pattern**
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-countset-n-1.ly
 ```
 
 ---
 
-**レベル0 {{<meta var.MiOP.en>}}**
+**Level 0 {{<meta var.MiOP.en>}}**
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv1-lv0.ly
 ```
 
 ---
 
-**レベル1 {{<meta var.NI.en>}}**
+**Level 1 {{<meta var.NI.en>}}**
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv1-lv1.ly
 ```
 
 ---
 
-**レベル2 {{<meta var.MOP.en>}}**
+**Level 2 {{<meta var.MOP.en>}}**
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv1-lv2.ly
@@ -9788,84 +9780,84 @@ common-ly/shared/rhythmdo-lv1-lv2-tuplets-1.ly
 
 ---
 
-##### 音韻規則レベル２=音節レベル <!-- {#ppns-2-summary} -->
+##### Phonological Rule Level 2 = Syllable Level <!-- {#ppns-2-summary} -->
 
-**原カウントパターン**
+**Original Count Pattern**
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-countset-n-2-orig.ly
 ```
 
 ---
 
-**レベル3 {{<meta var.PNI.en>}}**
-*※ レベル3から 1,2 を除いた版です。*
+**Level 3 {{<meta var.PNI.en>}}**
+*A version with Levels 1 and 2 removed from Level 3.*
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-countset-n-2-lv3.ly
 ```
 
 ---
 
-**レベル4 {{<meta var.MPOP.en>}}**
-*※ レベル4から 1,2 を除いた版です。*
+**Level 4 {{<meta var.MPOP.en>}}**
+*A version with Levels 1 and 2 removed from Level 4.*
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-countset-n-2-lv43.ly
 ```
 
 
-##### 音韻規則レベル３=韻律レベル   <!-- {#ppns-3-summary} -->
+##### Phonological Rule Level 3 = Prosodic Level <!-- {#ppns-3-summary} -->
 
-**原カウントパターン**
+**Original Count Pattern**
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-countset-n-3-orig.ly
 ```
 
-**レベル3 {{<meta var.PNI.en>}}**
+**Level 3 {{<meta var.PNI.en>}}**
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-countset-n-3-lv3.ly
 ```
 
-**レベル4 {{<meta var.MPOP.en>}}**
+**Level 4 {{<meta var.MPOP.en>}}**
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-countset-n-3-lv43.ly
 ```
 
-**レベル5 {{<meta var.MNI.en>}}**
+**Level 5 {{<meta var.MNI.en>}}**
 
 
-*※ レベル5から 1,2,3,4 を除いた版です。*
+*A version with Levels 1, 2, 3, and 4 removed from Level 5.*
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-countset-n-3-lv5.ly
 ```
 
-*※ レベル5から 1,2,4 を除いた版です。*
+*A version with Levels 1, 2, and 4 removed from Level 5.*
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-countset-n-3-lv53.ly
 ```
 
-*※ レベル5から 1,2 を除いた版です。*
+*A version with Levels 1 and 2 removed from Level 5.*
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-countset-n-3-lv543.ly
 ```
 
 
-**レベル6 {{<meta var.MMOP.en>}}**
+**Level 6 {{<meta var.MMOP.en>}}**
 
-*※ レベル6から 1,2 を除いた版です。*
+*A version with Levels 1 and 2 removed from Level 6.*
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-countset-n-3-lv6543.ly
 ```
 
-*※ レベル6から 1,2,4 を除いた版です。*
+*A version with Levels 1, 2, and 4 removed from Level 6.*
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-countset-n-3-lv653.ly
 ```
 
-*※ レベル6から 1,2,3,4 を除いた版です。*
+*A version with Levels 1, 2, 3, and 4 removed from Level 6.*
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-countset-n-3-lv65.ly
@@ -9891,7 +9883,7 @@ common-ly/shared/rhythmdo-countset-n-3-lv65.ly
   -->
 
 <!--
-### 付録
+### Appendix
 ```{.lilypond}
 \score {
   <<

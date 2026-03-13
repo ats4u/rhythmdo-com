@@ -1,29 +1,29 @@
-#### まとめ
+#### Summary
 
-##### 音韻規則レベル１=音素レベル  <!-- {#ppns-1-summary} -->
+##### Phonological Rule Level 1 = Phoneme Level <!-- {#ppns-1-summary} -->
 
-**原カウントパターン**
+**Original Count Pattern**
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-countset-n-1.ly
 ```
 
 ---
 
-**レベル0 {{<meta var.MiOP.en>}}**
+**Level 0 {{<meta var.MiOP.en>}}**
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv1-lv0.ly
 ```
 
 ---
 
-**レベル1 {{<meta var.NI.en>}}**
+**Level 1 {{<meta var.NI.en>}}**
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv1-lv1.ly
 ```
 
 ---
 
-**レベル2 {{<meta var.MOP.en>}}**
+**Level 2 {{<meta var.MOP.en>}}**
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv1-lv2.ly
@@ -36,84 +36,84 @@ common-ly/shared/rhythmdo-lv1-lv2-tuplets-1.ly
 
 ---
 
-##### 音韻規則レベル２=音節レベル <!-- {#ppns-2-summary} -->
+##### Phonological Rule Level 2 = Syllable Level <!-- {#ppns-2-summary} -->
 
-**原カウントパターン**
+**Original Count Pattern**
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-countset-n-2-orig.ly
 ```
 
 ---
 
-**レベル3 {{<meta var.PNI.en>}}**
-*※ レベル3から 1,2 を除いた版です。*
+**Level 3 {{<meta var.PNI.en>}}**
+*A version with Levels 1 and 2 removed from Level 3.*
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-countset-n-2-lv3.ly
 ```
 
 ---
 
-**レベル4 {{<meta var.MPOP.en>}}**
-*※ レベル4から 1,2 を除いた版です。*
+**Level 4 {{<meta var.MPOP.en>}}**
+*A version with Levels 1 and 2 removed from Level 4.*
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-countset-n-2-lv43.ly
 ```
 
 
-##### 音韻規則レベル３=韻律レベル   <!-- {#ppns-3-summary} -->
+##### Phonological Rule Level 3 = Prosodic Level <!-- {#ppns-3-summary} -->
 
-**原カウントパターン**
+**Original Count Pattern**
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-countset-n-3-orig.ly
 ```
 
-**レベル3 {{<meta var.PNI.en>}}**
+**Level 3 {{<meta var.PNI.en>}}**
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-countset-n-3-lv3.ly
 ```
 
-**レベル4 {{<meta var.MPOP.en>}}**
+**Level 4 {{<meta var.MPOP.en>}}**
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-countset-n-3-lv43.ly
 ```
 
-**レベル5 {{<meta var.MNI.en>}}**
+**Level 5 {{<meta var.MNI.en>}}**
 
 
-*※ レベル5から 1,2,3,4 を除いた版です。*
+*A version with Levels 1, 2, 3, and 4 removed from Level 5.*
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-countset-n-3-lv5.ly
 ```
 
-*※ レベル5から 1,2,4 を除いた版です。*
+*A version with Levels 1, 2, and 4 removed from Level 5.*
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-countset-n-3-lv53.ly
 ```
 
-*※ レベル5から 1,2 を除いた版です。*
+*A version with Levels 1 and 2 removed from Level 5.*
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-countset-n-3-lv543.ly
 ```
 
 
-**レベル6 {{<meta var.MMOP.en>}}**
+**Level 6 {{<meta var.MMOP.en>}}**
 
-*※ レベル6から 1,2 を除いた版です。*
+*A version with Levels 1 and 2 removed from Level 6.*
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-countset-n-3-lv6543.ly
 ```
 
-*※ レベル6から 1,2,4 を除いた版です。*
+*A version with Levels 1, 2, and 4 removed from Level 6.*
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-countset-n-3-lv653.ly
 ```
 
-*※ レベル6から 1,2,3,4 を除いた版です。*
+*A version with Levels 1, 2, 3, and 4 removed from Level 6.*
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-countset-n-3-lv65.ly

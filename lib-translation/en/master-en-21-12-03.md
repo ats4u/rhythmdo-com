@@ -1,37 +1,34 @@
-#### 音韻規則レベル３=韻律レベル
- **サブディヴィジョンレベル = 3⁻³=1/27**
+#### Phonological Rule Level 3 = Prosodic Level
+ **Subdivision Level = 3⁻³=1/27**
 
-これは１ディヴィジョンに２７つのサブディヴィジョンを割り当てる数え方です。
+This is a way of counting that assigns twenty-seven subdivisions to one division.
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-countset-n-3.ly
 ```
-これは一瞥では理解が難しいですが、次のような法則になっています。
+This is difficult to understand at a glance, but it follows the pattern below.
 
 - **1 & A & & A A & A**
 - **2 & A & & A A & A**
 - **3 & A & & A A & A**
 
-これは一瞥では理解が難しいですが **1 & A** を先頭の文字を変えながら3回繰り返し
-て読んでいるのです。それを数字だけで表現すると次のようになります。
+This is hard to grasp at first glance, but it is simply **1 & A** repeated three times while changing the first character. If we express it using numbers only, it becomes as follows.
 
 - **1 2 3 2 2 3 3 2 3**
 - **2 2 3 2 2 3 3 2 3**
 - **3 2 3 2 2 3 3 2 3**
 
-この時、1 を 1、2を&、3をa に割り当てて同じ様に読むと
+At this point, if we assign 1 to 1, 2 to &, and 3 to a, and read it in the same way, it becomes:
 
 - **1 & A & & A A & A**
 - **2 & A & & A A & A**
 - **3 & A & & A A & A**
 
-になります。この様に数字を多層にして読む必要があるリズムをここでは**多次元グル
-ーヴ**と呼びます。 詳しくは[多次元ディヴィジョン空間理論](/offbeat-count/multidimensional-rhythm/ja/)を参照して下さい。
+Rhythms that require numbers to be read in multiple layers like this are called **multidimensional groove** here. For details, see [Multidimensional Division Spaces](/offbeat-count/multidimensional-division-spaces/en/).
 
 ---
 
-次のグラフは、1拍を1テーブルとして表し、横書き（列を先に左から右に読み、行を次
-に上から下に読む）で表したものです。
+The following diagram represents one beat as one table, arranged horizontally.
 
 <style>
   :root {
@@ -153,7 +150,7 @@ common-ly/shared/rhythmdo-countset-n-3.ly
 
 ---
 
-これを数字だけで表すと次のようになります。
+Expressed using numbers only, it becomes as follows.
 
 <div class="tables-wrap">
 <!-- 1 -->
@@ -231,7 +228,7 @@ common-ly/shared/rhythmdo-countset-n-3.ly
 
 ---
 
-テーブルを読む順番は次の通りです。
+The tables are read in the following order.
 
 <div class="tables-wrap">
 <!-- 1 -->
@@ -248,7 +245,7 @@ common-ly/shared/rhythmdo-countset-n-3.ly
 
 ---
 
-それぞれのテーブル内の数字を読む順番は次の通りです。
+The numbers inside each table are read in the following order.
 
 <div class="tables-wrap">
 
@@ -341,5 +338,3 @@ common-ly/shared/rhythmdo-countset-n-3.ly
 </table>
 
 </div>
-
-

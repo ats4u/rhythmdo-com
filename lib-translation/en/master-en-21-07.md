@@ -1,8 +1,8 @@
-### カウント パターンとは
+### What Is a Count Pattern?
 
-リズム中の多次元構造を表現する為に、この **0~20** 及び **&,e,a** の文字を並べることでことで様々な並びの羅列が出来上がります。この組み合わせのことを**カウントパターン** と呼びます。
+To express the multidimensional structure within rhythm, one can arrange the characters **0-20** and **&, e, a** into various sequences. This combination is called a **count pattern**.
 
-- **カウントパターンの例**
+- **Examples of count patterns**
   - *1,2,3,4,2,2,3,4*
   - *1,&,2,&,3,&,4,&,2,&,2,&,3,&,4,&*
   - *1,e,&,a,2,e,&,a,3,e,&,a,4,e,&,a,*
@@ -10,16 +10,16 @@
 
 
 <!--
-＃＃＃＃ カウント上での2⁻ⁿリズム及び3⁻ⁿリズム
+#### 2⁻ⁿ Rhythm and 3⁻ⁿ Rhythm in Count
 
-- 3⁻ⁿグルーヴ理論で音節が３音素からなることを説明した。
-- 3レベルが必要なことを説明する必要がある→ 3レベルって何？
-- カウントには3つのレベルがある。
-  - 3^1 音素レベル
-  - 3^2 音節レベル
-  - 3^3 韻律レベル
-- それで何故こうなるのかを説明する方法がわからない。
-  - → ここでずっと悩んでいる。
+- In 3⁻ⁿ Groove Theory, I explained that a syllable consists of three phonemes.
+- It is necessary to explain why three levels are required -> What are the three levels?
+- Count has three levels.
+  - 3^1 phoneme level
+  - 3^2 syllable level
+  - 3^3 prosodic level
+- I still do not know how to explain why it becomes this way.
+  - -> This is where I have been struggling all along.
 
 <table>
 <tr>
@@ -29,6 +29,4 @@
 </tr>
 </table>
 -->
-
-
 

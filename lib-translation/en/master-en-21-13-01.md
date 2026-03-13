@@ -1,95 +1,90 @@
-#### 音韻規則レベル１=音素レベル  <!-- {#ppns-1} -->
+#### Phonological Rule Level 1 = Phoneme Level <!-- {#ppns-1} -->
 
-音韻規則レベル１のカウントを音韻表記厳密化していきます。音韻規則レベル１のカウ
-ントは音韻規則レベル１＝音韻表記厳密化レベル３までの音韻表記厳密化しか行うこと
-が出来ません。ここからレベル３までの音韻厳密化を行います。
+We will now apply Prosodic Notation Strictification to the count at phonological rule level 1. A count at phonological rule level 1 can undergo only the first three levels of Prosodic Notation Strictification. Below, we carry out the strictification through Level 2.
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-countset-n-1.ly
 ```
 
-##### レベル0 {{<meta var.MiOP.en>}} <!-- {#ppns-1-0} -->
+##### Level 0 {{<meta var.MiOP.en>}} <!-- {#ppns-1-0} -->
 
-まず音符を音素に分解したのちに、単純に先頭から音韻を順番に割り当てる表記方法が
-この**レベル0音韻厳密化**です。
+First, after decomposing the notes into phonemes, the notation method that simply assigns the phonemes in order from the beginning is this **Level 0 strictification**.
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv1-lv0-000.ly
 ```
 
-この表記方法には２つの解釈が考えられます。
+Two interpretations are possible for this notation method.
 
-1. 音韻厳密化がない抽象的なゼロ音韻厳密化
-2. 頭子音最小化原則に対する音韻厳密化
+1. an abstract zero strictification in which no strictification has been applied
+2. a strictification applied with respect to {{<meta var.MiOP.en>}}
 
-レベル0はレベル１以降で行う音韻厳密化を行いません。ここからレベル0を抽象的な**ゼロ{{<meta var.PNS.en>}}**と考えることができます。 これが１つ目の解釈です。
+Level 0 does not perform any of the strictification carried out from Level 1 onward. For that reason, Level 0 can be regarded as an abstract **Zero {{<meta var.PNS.en>}}**. This is the first interpretation.
 
-２つ目の解釈は、このゼロ{{<meta var.PNS.en>}}を **{{<meta var.MiOP.en>}} に対して音韻厳密化を行ったもの**と解釈する方法です。
+The second interpretation is to regard this Zero {{<meta var.PNS.en>}} as **a strictification carried out with respect to {{<meta var.MiOP.en>}}**.
 
-モーラ拍リズムを持つ言語である日本語話者が英語・ドイツ語・ロシア語などのストレス拍リズム言語で書かれた歌詞の歌を歌おうとしたり、スペイン語フランス語ギリシャ語などのシラブル拍リズム言語で書かれた歌詞の歌を歌おうとすると、日本語のモーラ拍リズムのリズム解釈が表出することによって、リズム解釈に独特な間違いが生じます。レベル0音韻厳密化は、この**日本語での間違ったリズム解釈を譜面化したもの**といえます。
+When Japanese speakers, whose language has mora-timed rhythm, try to sing songs whose lyrics are written in stress-timed languages such as English, German, and Russian, or in syllable-timed languages such as Spanish, French, and Greek, the rhythm interpretation of Japanese mora-timed rhythm emerges and produces characteristic errors in rhythm interpretation. Level 0 strictification can be said to be **a notation of this mistaken Japanese rhythm interpretation**.
 
-その日本語での独特な間違いとは**{{<meta var.NI.en>}}が守られない**ことです。
+That characteristic Japanese error is that **{{<meta var.NI.en>}} is not observed**.
 
-海外の言語（シラブル拍リズム・ストレス拍リズム）では、音節ごとに現れる母音を拍の先頭として母音同士の間隔を一定に保つという暗黙のルールが守られます。このことを**{{<meta var.NI.en>}}**  と呼びます。
+In foreign languages, that is, syllable-timed and stress-timed languages, there is an implicit rule by which the vowels that appear in each syllable are placed at the beginnings of beats so that the intervals between vowels remain constant. This is called **{{<meta var.NI.en>}}**.
 
-更に海外の言語は多重子音や子音の接続を持っていることから、日本語よりも圧倒的に長い子音が現れます。長い子音が現れても母音の拍の等時性を守るためには子音を母音よりも先に言い終わっている必要があります。
+Furthermore, because foreign languages have consonant clusters and consonant connections, consonants far longer than those in Japanese appear. To preserve the isochrony of vowel beats even when such long consonants appear, those consonants must already have been finished before the vowel.
 
-このことから母音に拍を置いた上で子音を**弱拍**として母音よりも前に子音を発音する必要が生じます。これは弱拍の起源と言い換えることも出来ます。
+For that reason, it becomes necessary to place the beat on the vowel and pronounce the consonant before the vowel as a **weak beat**. This could also be rephrased as the origin of weak beats.
 
-しかし日本語（モーラ拍リズム）では、子音母音を含むマス目自体に等時性があります。このことを **{{<meta var.MI.en>}}** と呼びます。**{{<meta var.MI.en>}}** では、マス目自体に子音が含まれているという特徴があります。このため海外の言語と異なり日本の言語では、子音が拍の後ろで発音される特徴があります。
+Japanese (mora-timed rhythm), however, has isochrony in the cells themselves that contain consonant-vowel units. This is called **{{<meta var.MI.en>}}**. In **{{<meta var.MI.en>}}**, the cell itself contains the consonant. For that reason, unlike foreign languages, Japanese tends to pronounce consonants after the beat.
 
-これはそのモーラ拍内に子音がない場合に更に目立つ問題となって表出します。それはそのモーラ内に子音がない場合、次の譜面で表される様に子音が前進することです。
+This becomes an even more conspicuous problem when the mora beat contains no consonant. In that case, as shown in the following score, the consonant advances.
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv1-lv0-001.ly
 ```
 
-この譜面は、モーラ拍リズムの**頭合わせリズム認識型**が発動した状態を模式的に表現しているものです。**Eight(8)** の部分に注目して下さい。ここでは２つの問題が起きています。１つ目は、日本語などのモーラ拍リズムの言語を話す人が、母音から始まる単語で英語話者が**暗黙のうちに発音する子音＝声門閉鎖音**を認識出来ない為に脱落が起こることです。
+This score schematically represents the state in which the **Head Alignment** rhythm recognition type of mora-timed rhythm is activated. Please pay attention to the **Eight (8)** portion. Two problems occur here. First, speakers of mora-timed languages such as Japanese cannot perceive the **implicitly pronounced consonant, namely the glottal stop**, that English speakers use in words beginning with vowels, so deletion occurs.
 
-そして次にその脱落が起きた時、そのもともとモーラ拍内中央におかれていた母音が、脱落した子音位置を待つことなく発音されることです。このことから母音の位置が見かけ上前進した様に見えます。 このことを **{{<meta var.NA.en>}}** と呼びます。
+Second, when that deletion occurs, the vowel that had originally been placed at the center of the mora beat is pronounced without waiting for the deleted consonant position. As a result, the vowel position appears to move forward. This is called **{{<meta var.NA.en>}}**.
 
-この様に全ての音素がそのモーラ拍の先頭に揃う性質のことを **{{<meta var.HAP.en>}}
-**と呼びます。
+This property, in which all phonemes align at the beginning of the mora beat, is called **{{<meta var.HAP.en>}}**.
 
-**{{<meta var.HAP.en>}}**は、日本人がグルーヴしない理由の最も根本的な理由と言えます。音程の出始めである母音の位置が変化する為に、音の発音位置が一定しなくなり、グルーヴの条件である「音が一定間隔で演奏される」が満たされなくなります。
+**{{<meta var.HAP.en>}}** can be said to be the most fundamental reason Japanese speakers do not groove. Because the position of the vowel, which is the onset of pitch, changes, the pronunciation position of sounds no longer remains constant, and the groove condition that "sounds are performed at constant intervals" is no longer satisfied.
 
-これが日本人がグルーヴしない理由です。日本語話者の感覚での等間隔 **{{<meta var.MI.en>}}**は、音の始まりという視点で見ると等間隔ではありません。これが日本人がグルーヴしない理由の正体です。
+This is why Japanese speakers do not groove. The equal spacing of **{{<meta var.MI.en>}}** in the perception of Japanese speakers is not equal spacing when viewed from the perspective of sound onsets. That is the real reason Japanese speakers do not groove.
 
-**譜面に対する忠実さの違い**
+**Difference in Faithfulness to the Score**
 
-このレベル0**ゼロ{{<meta var.PNS.en>}}**は、日本人が譜面に対する忠実さを最大限に守った結果としてしばしば現れます。シラブル拍リズム言語やストレス拍リズム言語を母国語とする人々が、譜面に書かれていなくとも暗黙の了解として守っているルールの存在を知らない状態で守る譜面に対する忠実さは、音楽に対する破壊行為と断じても過言ではありません。
+This Level 0, **Zero {{<meta var.PNS.en>}}**, often appears as the result of Japanese speakers preserving faithfulness to the written score to the greatest possible extent. The kind of faithfulness to the score that is maintained without knowing the existence of the rules that speakers of syllable-timed and stress-timed languages observe as implicit understandings even when they are not written in the score is, it is no exaggeration to say, an act of destruction toward music.
 
-日本人として発音の違いに対して謙虚になり、違いに興味を持ち、音韻学をよく学んで海外で一般的な譜面の解釈を学ぶことの大切さはいくら強調しても強調しすぎることはありません。
+As Japanese speakers, it is impossible to overemphasize the importance of being humble about pronunciation differences, taking an interest in those differences, studying phonology carefully, and learning the score interpretations commonly used overseas.
 
-以下のレベル１以降はそういう譜面の解釈の一例を形式化したものです。貴方の志を世界中の人々に届ける為の淀みない発音を実現する為にこれらのレベルは存在します。
+The levels from Level 1 onward are a formalization of one example of such score interpretation. These levels exist in order to realize smooth pronunciation that can carry your aspiration to people all over the world.
 
-##### レベル1 {{<meta var.NI.en>}}  <!-- {#ppns-1-1} -->
+##### Level 1 {{<meta var.NI.en>}} <!-- {#ppns-1-1} -->
 
-モーラ拍リズムを母国語とする人が最初に直面する問題は、{{<meta var.NI.en>}}リズム認識型を持たないことにより、子音の位置を強拍よりも前に発音できないことです。
+The first problem faced by speakers whose native language is mora-timed rhythm is that, because they do not possess the {{<meta var.NI.en>}} rhythm recognition type, they cannot pronounce consonants before the strong beat.
 
-この問題を解決する為に専用の練習方法が必要です。以下の譜は、シラブル拍リズムの{{<meta var.NI.en>}}リズム認識方が発動した状態を模式的に表しています。
+To solve this problem, a dedicated practice method is needed. The following score schematically represents the state in which the {{<meta var.NI.en>}} rhythm recognition type of syllable-timed rhythm is activated.
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv1-lv1-000.ly
 ```
 
-この様にシラブル拍リズム言語を話す人々は、子音を弱拍位置で発音する習慣を持っています。
+In this way, speakers of syllable-timed languages have the habit of pronouncing consonants in weak-beat positions.
 
-##### レベル2 {{<meta var.MOP.en>}}  <!-- {#ppns-1-2} -->
+##### Level 2 {{<meta var.MOP.en>}} <!-- {#ppns-1-2} -->
 
-シラブル拍リズム言語は更に{{<meta var.MOP.en>}}リズム認識型を持っており、子音を弱拍位置で発音するだけでなく、その直前の末子音を全て可能な限りまとめて発音する習慣を持っています。
+Syllable-timed languages also possess the {{<meta var.MOP.en>}} rhythm recognition type. They not only pronounce consonants in weak-beat positions, but also have the habit of bundling as many immediately preceding final consonants as possible into the next onset consonant.
 
-次の譜は、シラブル拍リズム言語に於いて、末子音が頭子音にまとめられて発音される様子を模式的に表したものです。
+The following score schematically shows how, in syllable-timed languages, final consonants are bundled into onset consonants and pronounced.
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv1-lv2-tuplets-1.ly
 ```
 
-**拡大表示**
+**Zoomed View**
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv1-lv2-tuplets-2.ly
 ```
 
-**音韻規則レベル１ 音素レベル = 3⁻¹=1/3** で可能な音韻表記厳密化はレベル2までです。これ以降の音韻表記厳密化は音韻規則レベル2以上のカウント上で行う必要があります。
-
+At **Phonological Rule Level 1, phoneme level = 3⁻¹=1/3**, Prosodic Notation Strictification is possible only through Level 2. Any further strictification must be performed on counts at phonological rule level 2 or above.

@@ -1,10 +1,9 @@
-### {{<meta var.PNSPTI.en>}}について   <!-- {#phonological-notation-strictification-perceptual-theoretical-inversion}-->
+### About {{<meta var.PNSPTI.en>}} <!-- {#phonological-notation-strictification-perceptual-theoretical-inversion}-->
 
-8分音符オフビートカウントと3連符オフビートカウントを比べると8分音符オフビートカウントの方がずっと理論的な理解が簡単です。しかし実際に練習してみると、8分音符オフビートはとても感覚的に理解しづらく、3連符オフビートカウントの方がずっと感覚的な理解が簡単ということを経験します。同様にして、3連符より9連符、9連符より27連符の方が感覚的な理解が簡単ということを経験します。
+If one compares eighth-note Offbeat Count with triplet Offbeat Count, eighth-note Offbeat Count is much easier to understand theoretically. But when one actually practices them, one finds that eighth-note Offbeat Count is very difficult to grasp perceptually, while triplet Offbeat Count is much easier to grasp perceptually. In the same way, ninth-note count is perceptually easier than triplet count, and twenty-seventh-note count is perceptually easier than ninth-note count.
 
-しかし理論的な理解という視点から、8分音符オフビートカウントと3連符オフビートカウントを比べると、3連符オフビートカウントの方がずっと理論的な理解が困難です。同様にして、3連符より9連符、9連符より27連符の方が感覚的な理解が困難です。
+However, from the viewpoint of theoretical understanding, when one compares eighth-note Offbeat Count with triplet Offbeat Count, triplet Offbeat Count is much harder to understand theoretically. In the same way, ninth-note count is harder theoretically than triplet count, and twenty-seventh-note count is harder theoretically than ninth-note count.
 
 
-このようにオフビートカウントに於いて、理論的な理解の容易さと感覚的な理解の容易さは反比例します。このことを**{{<meta var.PNSPTI.en>}}** と呼びます。
-
+Thus, in Offbeat Count, ease of theoretical understanding and ease of perceptual understanding are inversely proportional. This is called **{{<meta var.PNSPTI.en>}}**.
 

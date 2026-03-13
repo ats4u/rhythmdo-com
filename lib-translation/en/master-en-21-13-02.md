@@ -1,31 +1,31 @@
-#### 音韻規則レベル２=音節レベル <!-- {#ppns-2} -->
+#### Phonological Rule Level 2 = Syllable Level <!-- {#ppns-2} -->
 
-レベル3 {{<meta var.PNS.en>}} からはこれまでの音韻規則レベル1=音素のみの厳密化だけでなく音節レベルでの音韻表記厳密化を行います。
+From Level 3 {{<meta var.PNS.en>}} onward, we carry out syllable-level Prosodic Notation Strictification in addition to the phoneme-only strictification of phonological rule level 1 that we have used so far.
 
-音韻規則レベル1のカウントでは音韻表記厳密化レベル2までの音韻表記厳密化しか行うことが出来ません。音素だけでなく音節に対する厳密化を行うために弱拍基軸の階層を１つ増やした音韻レベル2のカウントを利用する必要があります。音韻表記厳密化レベル3からは音韻規則レベル2のカウントに移行した上で音韻表記厳密化レベル3及び4の音韻厳密化を行います。
+A count at phonological rule level 1 can undergo Prosodic Notation Strictification only through Level 2. To strictify not only phonemes but also syllables, it is necessary to use a level-2 count in which the hierarchy of the weak-beat anchoring axis is increased by one layer. From PNS Level 3 onward, we move to a count at phonological rule level 2 and carry out strictification at Levels 3 and 4.
 
-音韻規則レベル2での音韻表記厳密化の基本的な考え方は次の通りです。
+The basic idea of Prosodic Notation Strictification at phonological rule level 2 is as follows.
 
-音韻規則レベル2のカウントパターンを見てみます。
+Let us look at the count pattern at phonological rule level 2.
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv2-lv3-000.ly
 ```
 
-二層カウントに対してレベル3の本来の目的である音韻表記厳密化**レベル３{{<meta var.PNI.en>}}**を適用します。具体的には**音符を１つずらし&が強拍に来る様に配置**する事で**弱拍先行**の配置にします。
+To this two-layer count, we apply **Level 3 {{<meta var.PNI.en>}}**, which is the original purpose of Level 3 strictification. Concretely, by **shifting the notes by one so that & comes onto the strong beat**, we place it in a **weak-beat-precedence** arrangement.
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv2-lv3-001.ly
 ```
 
-これで**レベル3 {{<meta var.PNI.en>}}** が完了しました。これと同時に、これまでに行ってきたレベル1 {{<meta var.NI.en>}}とレベル2 {{<meta var.MOP.en>}} の {{<meta var.PNI.en>}} を行う必要があります。
+With this, **Level 3 {{<meta var.PNI.en>}}** is complete. At the same time, it is necessary to apply the Level 1 {{<meta var.NI.en>}} and Level 2 {{<meta var.MOP.en>}} parts of strictification that we have been carrying out up to this point.
 
 
-次節からこの２階層カウントに対してレベル1とレベル2を{{<meta var.PNS.en>}}を行います。
+From the next section onward, we apply Level 1 and Level 2 {{<meta var.PNS.en>}} to this two-layer count.
 
 
-##### レベル0 {{<meta var.MiOP.en>}} <!-- {#ppns-2-0} -->
-詳細の説明は[レベル0](#ppns-1-0)に譲ります。
+##### Level 0 {{<meta var.MiOP.en>}} <!-- {#ppns-2-0} -->
+For details, see [Level 0](#ppns-1-0).
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-2-lv2-lv0-000.ly
@@ -39,54 +39,54 @@ common-ly/shared/rhythmdo-2-lv2-lv0-000.ly
 ```
 -->
 
-##### レベル1 {{<meta var.NI.en>}}    <!-- {#ppns-2-1} -->
-詳細の説明は[レベル1](#ppns-1-1)に譲ります。
+##### Level 1 {{<meta var.NI.en>}} <!-- {#ppns-2-1} -->
+For details, see [Level 1](#ppns-1-1).
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv2-lv1.ly
 ```
 
-##### レベル2 {{<meta var.MOP.en>}}    <!-- {#ppns-2-2} -->
+##### Level 2 {{<meta var.MOP.en>}} <!-- {#ppns-2-2} -->
 
-レベル2{{<meta var.MOP.en>}}を実現する為に、今まで3連符2つ目で発音していた末子音を次の音節の頭子音(つまり2階層目の3連符の3つ目)にまとめます。これをここでは**頭子音最大化処理** と呼びます。
+To realize Level 2 {{<meta var.MOP.en>}}, the final consonants that had previously been pronounced on the second triplet are gathered into the onset consonant of the next syllable, that is, the third triplet at the second layer. Here I call this **onset-maximization processing**.
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv2-lv2.ly
 ```
 <!-- DjP07omgzmg47kjmALzX/w== -->
 
-##### レベル3 {{<meta var.PNI.en>}}    <!-- {#ppns-2-3} -->
+##### Level 3 {{<meta var.PNI.en>}} <!-- {#ppns-2-3} -->
 
-レベル3 {{<meta var.PNI.en>}}を実現する為に、この章の冒頭で御説明した通り、これまで数字を拍先頭に配置していたものを、数字が前拍の1階層目の3連符の3拍目くるように全体を移動します。結果として&が拍の先頭にくる様に配置されます。
+To realize Level 3 {{<meta var.PNI.en>}}, as explained at the beginning of this chapter, we shift the entire pattern so that the numbers, which had previously been placed at the beginnings of beats, now come on the third triplet of the first layer of the previous beat. As a result, & is positioned at the beginning of the beat.
 
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv2-lv3.ly
 ```
 
-これは譜面を見ると複雑に見えますが、この章の冒頭で御説明した通り、レベル1レベル2の音韻表記厳密化を取り除くと単に1階層目の3連符1つ分を左に移動しただけもものです。
+This looks complicated when viewed as notation, but as explained at the beginning of this chapter, if we remove the Level 1 and Level 2 strictification, it is simply shifted one first-layer triplet to the left.
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv2-lv3-001.ly
 ```
 
-##### レベル4 {{<meta var.MPOP.en>}}    <!-- {#ppns-2-4} -->
+##### Level 4 {{<meta var.MPOP.en>}} <!-- {#ppns-2-4} -->
 
-レベル４は更に弱拍先行を更に推し進めます。
+Level 4 pushes weak-beat precedence one stage further.
 
-レベル３で弱拍先行を実現する為、オフセット（ずれ）を付加することでカウントを早めました。
+At Level 3, we advanced the count by adding an offset in order to realize weak-beat precedence.
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv2-lv3-001.ly
 ```
 
-このずれをつけた状態で a を先に読むことで二重の弱拍先行（頭音節最大化）を行います。
+In that shifted state, by reading a first, we carry out double weak-beat precedence (Maximal Prosodic Onset).
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv2-lv4-000.ly
 ```
 
-この状態でレベル1レベル2の音韻表記厳密化を行うと次の様になります。
+If we apply Level 1 and Level 2 strictification in this state, the result is as follows.
 
 ---
 
@@ -96,6 +96,5 @@ common-ly/shared/rhythmdo-lv2-lv4.ly
 
 ---
 
-音韻規則レベル２で可能な音韻表記厳密化はここまでです。
-
+This is as far as Prosodic Notation Strictification can go at phonological rule level 2.
 

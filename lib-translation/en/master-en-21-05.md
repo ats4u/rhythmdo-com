@@ -1,24 +1,23 @@
-### 音韻規則の３つのレベルについて <!-- {#three-hierarchical-levels-of-phonological-rules-1} -->
+### The Three Levels of Phonological Rules <!-- {#three-hierarchical-levels-of-phonological-rules-1} -->
 
-これらの６つの音韻規則は３つのレベルに分けられます。
+These six phonological rules can be divided into three levels.
 
-これを**{{<meta var.THREE_LEVELS_OF_PHONOLOGICAL_RULES.en>}}**と呼びます。
+I call this **{{<meta var.THREE_LEVELS_OF_PHONOLOGICAL_RULES.en>}}**.
 
-- **レベル１** ... **音素レベル**
-  　　→ **シラブル拍リズム、及びストレス拍で有効になる音韻規則**
-  　　→ 音楽のリズム上で **3⁻¹=1/3リズム** に相当する
+- **Level 1** ... **Phoneme level**
+  　　→ **phonological rules effective in syllable-timed rhythm and stress-timed rhythm**
+  　　→ corresponds to **3⁻¹ = 1/3 rhythm** in musical rhythm
   - **{{<meta var.NI.en>}}**
   - **{{<meta var.MOP.en>}}**
-- **レベル２** ... **音節レベル**
-  　　→ **ストレス拍リズムで有効になる音韻規則**
-  　　→ 音楽のリズム上で **3⁻²=1/9リズム**  に相当する
+- **Level 2** ... **Syllable level**
+  　　→ **phonological rules effective in stress-timed rhythm**
+  　　→ corresponds to **3⁻² = 1/9 rhythm** in musical rhythm
   - **{{<meta var.PNI.en>}}**
   - **{{<meta var.MPOP.en>}}**
-- **レベル３** ... **韻律レベル**
-  　　**言語上では起こらず音楽上でのみで有効になる音韻規則**
-  　　音楽のリズム上で **3⁻³=1/27リズム**  に相当する
+- **Level 3** ... **Prosodic level**
+  　　**phonological rules that do not occur in language and are effective only in music**
+  　　corresponds to **3⁻³ = 1/27 rhythm** in musical rhythm
   - **{{<meta var.MNI.en>}}**
   - **{{<meta var.MMOP.en>}}**
 
-**音素レベル** **音節レベル** **韻律レベル** この３つのレベルは、後にカウントの次元数を決めるパラメータとなります。
-
+These three levels, **phoneme level**, **syllable level**, and **prosodic level**, later become parameters that determine the dimensionality of the count.

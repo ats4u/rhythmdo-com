@@ -1,47 +1,47 @@
-### オフビートカウントで使う数字・記号・アルファベット
+### The Numbers, Symbols, and Letters Used in Offbeat Count
 
-オフビートカウント法は、米国で一般的なカウント法に**ずれをつけて読む**という変更を加えたものです。**ずれをつける**量のことをここでは**オフセット**と呼びます。オフセットとは、例えば４分音符１つに数を割り当てて読む場合、通常なら**１２３４**と読むところをオフビートカウントでは **２３４１** と読みます。この場合のオフセットは１／４(=４分音符１つ）です。オフビートカウントの具体的な例については後述します。
+The Offbeat Count method is the counting method commonly used in the United States, modified by **reading it with a shift**. Here, the amount of that **shift** is called the **offset**. For example, when assigning one number to each quarter note, the usual reading would be **1234**, but in Offbeat Count it is read as **2341**. In this case, the offset is 1/4 (= one quarter note). Specific examples of Offbeat Count will be shown later.
 
-つまりオフセット量が０のオフビートカウントは、米国で一般的なカウント方法と同じです。オフセットがあるかないかという違いはあっても、基本的にカウントする方法自体は米国で一般的なカウント方法と全く同じものです。
+In other words, Offbeat Count with an offset of 0 is the same as the counting method commonly used in the United States. Whether there is an offset or not, the basic act of counting itself is exactly the same as that American counting method.
 
-以下でカウントの基礎を説明致します。
+Below, I explain the basics of count.
 
-#### 字句一覧
+#### Inventory
 
-米国で一般的なカウント方法とはどのようなものでしょうか。それは英語での数字及び、＆、Ｅ、Ａの３つの記号とアルファベットを使って数えるものです。
+What is the counting method commonly used in the United States? It is a way of counting by using English numbers together with the symbol and letters **&**, **E**, and **A**.
 
-* 数字
+* Numbers
     * 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20
-* 記号
+* Symbol
     * & ( and )
-* アルファベット
-    * E (イー)
-    * A (アー)
+* Letters
+    * E ("ee")
+    * A ("ah")
 
-このカウント方法は特定の誰かが行っているものではなく、米国で広く一般的に実践されているものです。次のビデオが参考になります。クリス・コールマンがカウントの実演をしている場面のビデオです。
+This counting method is not something practiced by one specific person. It is widely used in the United States. The following video is a useful reference. It shows Chris Coleman demonstrating count.
 
 <div class="center-box"><iframe class="rhythmpedia-iframe" src="https://www.youtube.com/embed/y46skGXRbWU?start=4905&amp;feature=player_embedded" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
-この米国で一般的なカウント方法は、数字と簡単な単語と記号を使って数えるだけの作業ですが、ストレス拍リズム／シラブル拍リズムで重要な発音規則 {{<meta var.MOP.en>}} 及び {{<meta var.NI.en>}} を習得する非常に良い練習法でもあります。
+This counting method commonly used in the United States is simply the act of counting with numbers, simple words, and symbols, but it is also an excellent practice method for acquiring the pronunciation rules {{<meta var.MOP.en>}} and {{<meta var.NI.en>}}, which are crucial in stress-timed rhythm and syllable-timed rhythm.
 
-がむしゃらにシャドウイングを行っても、ほとんどの場合で {{<meta var.MOP.en>}} 及び {{<meta var.NI.en>}}は身につきません。仮に身についたとしても、身につくまでに１０年以上、しばしば２０年以上の長い年月を必要とします。
+If one does shadowing recklessly, in most cases one does not acquire {{<meta var.MOP.en>}} or {{<meta var.NI.en>}}. Even if one eventually does acquire them, it often takes more than ten years, and sometimes more than twenty.
 
-しかしカウント練習では、発音練習に必要な単語を最小限にとどめることにより、ストレス拍リズム・シラブル拍リズムのリズム構造を集中して練習することが可能になります。
+In count practice, however, the vocabulary needed for pronunciation practice is kept to a minimum, making it possible to concentrate on the rhythmic structure of stress-timed rhythm and syllable-timed rhythm.
 
-そしてオフセットをつけたオフビートカウントを練習することにより、ストレス拍リズムに特有な {{<meta var.MPOP.en>}} 及び {{<meta var.PNI.en>}} をも集中して練習することが可能になります。
+And by practicing Offbeat Count with an offset, it also becomes possible to focus on {{<meta var.MPOP.en>}} and {{<meta var.PNI.en>}}, which are characteristic of stress-timed rhythm.
 
-#### 字句のIPA表記一覧
+#### IPA Transcriptions of the Count Elements
 
-オフビートカウントを行う時に必要となる単語の発音は以下の通りです。 覚えるべき単語数はとても少ないですが、これらが組み合わさると様々な発音変化が起こります。ここで起こる発音変化を徹底的に学ぶことで {{<meta var.MOP.en>}} 、 {{<meta var.NI.en>}} 、{{<meta var.MPOP.en>}}、 及び {{<meta var.PNI.en>}} を身につけることが出来ます。
+The pronunciations of the words needed for Offbeat Count are as follows. The number of words to memorize is very small, but when they are combined, various pronunciation changes occur. By thoroughly learning the pronunciation changes that occur here, one can acquire {{<meta var.MOP.en>}}, {{<meta var.NI.en>}}, {{<meta var.MPOP.en>}}, and {{<meta var.PNI.en>}}.
 
 
-| 記号 |  英語表記   | IPA                                                                            | メモ                                                                                                          |
+| Symbol |  English   | IPA                                                                            | Notes                                                                                                          |
 | ---: | :---------: | :----------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------ |
-|    0 |   *zero*    | <span class="ipa" >/ˈzɪəɹoʊ/</span> 又は <span class="ipa" >/ˈziːɹoʊ/ </span> | also <span class="ipa">/ˈziɹoʊ/</span> (“zee-ro”)                                                                                    |
+|    0 |   *zero*    | <span class="ipa" >/ˈzɪəɹoʊ/</span> or <span class="ipa" >/ˈziːɹoʊ/ </span> | also <span class="ipa">/ˈziɹoʊ/</span> (“zee-ro”)                                                                                    |
 |    1 |    *one*    | <span class="ipa" >/wʌn/</span>                                                | ʌ as in “cup”                                                                                               |
 |    2 |    *two*    | <span class="ipa" >/tuː/</span>                                               | long <span class="ipa">/uː/</span> as in “boot”                                                                                     |
 |    3 |   *three*   | <span class="ipa" >/θɹiː/</span>                                             | initial <span class="ipa">/θ/</span> (voiceless “th”)                                                                               |
-|    4 |   *four*    | <span class="ipa" >/fɔɹ/</span> 又は <span class="ipa" >/foʊɹ/</span>          | <span class="ipa">/ɔɹ/</span> as in “for”                                                                                              |
+|    4 |   *four*    | <span class="ipa" >/fɔɹ/</span> or <span class="ipa" >/foʊɹ/</span>          | <span class="ipa">/ɔɹ/</span> as in “for”                                                                                              |
 |    5 |   *five*    | <span class="ipa" >/faɪv/</span>                                               | diphthong <span class="ipa">/aɪ/</span>                                                                                                |
 |    6 |    *six*    | <span class="ipa" >/sɪks/</span>                                               | short <span class="ipa">/ɪ/</span>                                                                                                     |
 |    7 |   *seven*   | <span class="ipa" >/ˈsɛvən/</span>                                             | first syllable stressed                                                                                       |
@@ -58,17 +58,16 @@
 |   18 | *eighteen*  | <span class="ipa" >/ˌeɪˈtiːn/</span>                                          | may reduce to <span class="ipa">[ˈeɪtin]</span>                                                                                        |
 |   19 | *nineteen*  | <span class="ipa" >/ˌnaɪnˈtiːn/</span>                                        | sometimes <span class="ipa">[ˈnaɪntin]</span>                                                                                          |
 |   20 |  *twenty*   | <span class="ipa" >/ˈtwɛnti/</span>                                            | <span class="ipa">/t/</span> may flap → <span class="ipa">[ˈtwɛnɾi]</span>                                                                                     |
-|    & |    *and*    | <span class="ipa">/ænd/</span>                                                | 弱化時<span class="ipa">/ən/</span> 又は     <span class="ipa">/n̩/</span>                                     |
-|    e |     *e*     | <span class="ipa">/iː/</span>                                                 | 弱化時<span class="ipa">/i/</span > )                                                                         |
-|    a |     *a*     | <span class="ipa">/eɪ/</span>                                                  | 弱化時<span class="ipa">/ə/</span >(シュワ), <span class="ipa">/əː/</span> 又は <span class="ipa">/ʌ/</span> |
+|    & |    *and*    | <span class="ipa">/ænd/</span>                                                | when reduced: <span class="ipa">/ən/</span> or <span class="ipa">/n̩/</span>                                     |
+|    e |     *e*     | <span class="ipa">/iː/</span>                                                 | when reduced: <span class="ipa">/i/</span>                                                                         |
+|    a |     *a*     | <span class="ipa">/eɪ/</span>                                                  | when reduced: <span class="ipa">/ə/</span> (schwa), <span class="ipa">/əː/</span>, or <span class="ipa">/ʌ/</span> |
 :  {.tbl-pron2 .tbl-header-center  .tbl-spacy tbl-colwidths=[8,8,40] }
 
 
-#### 声門閉鎖音(ʔ)について
+#### On the Glottal Stop (ʔ)
 
-声門閉鎖音は標準日本語が持たない発音のひとつですが、日本語以外では子音として使われることが多い発音でもあります。
+The glottal stop is one of the sounds that standard Japanese does not possess, but outside Japanese it is also a sound often used as a consonant.
 
-声門閉鎖音は標準的な英語ではしばしば使われますが、さほど多くはありません。英語の方言では多用されます。
+In standard English, the glottal stop is used fairly often, but not extremely often. In English dialects, however, it is used much more extensively.
 
-特にジャズのスキャットやラップなど、音楽の上で発音される英語では特に多用され、リズムを表現する為の重要な発音のひとつといえます。
-
+It is used especially frequently in English as pronounced in music, such as jazz scat and rap, and it can be said to be one of the important sounds for expressing rhythm.

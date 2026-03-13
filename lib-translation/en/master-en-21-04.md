@@ -1,8 +1,8 @@
-### 日本人が聴き取れない６つの音韻規則＝リズム認識型 <!-- {#six-rhythm-recognition-types} -->
+### The Six Phonological Rules Japanese Speakers Cannot Hear = Rhythm Recognition Types <!-- {#six-rhythm-recognition-types} -->
 
-何故日本人は英語が理解できないのでしょうか。それは英語が聴き取れないからです。では何故日本人は英語が聴き取れないのでしょうか。 ───それは勉強が不足しているからではありません。どんなに文法の知識が十分でも、どんなに単語の知識が十分でも、英語を聴き取ることはできません。 モーラ拍リズムが、ストレス拍言語に特有な６つの音韻規則を持っていない事が原因しています。
+Why can Japanese people not understand English? Because they cannot hear English. Then why can Japanese people not hear English? It is not because they have not studied enough. No matter how much grammatical knowledge they have, and no matter how much vocabulary they have, they still cannot hear English. The reason is that mora-timed rhythm lacks the six phonological rules characteristic of stress-timed languages.
 
-その６つの音韻規則とは以下の通りです。
+Those six phonological rules are as follows.
 
 - **{{<meta var.NI.en>}}**
 - **{{<meta var.MOP.en>}}**
@@ -11,9 +11,8 @@
 - **{{<meta var.MNI.en>}}**
 - **{{<meta var.MMOP.en>}}**
 
-ここでは、これを**{{<meta var.MBS.en>}}**と呼びます。
+Here I call these **{{<meta var.MBS.en>}}**.
 
-つまり英単語の知識がなくても、英文法の知識がなくても、この**{{<meta var.MBS.en>}} ** を体得していれば、少なくとも意味がわからないまま英語を聴き取ることが出来るようになります。英語が聴き取ることができれば、そこから単語の意味を推測したり、文脈を追いかけることで文法を推測したりすることが出来るようになります。
+In other words, even without knowledge of English vocabulary or English grammar, if one has acquired this **{{<meta var.MBS.en>}}**, one can at least hear English even without understanding the meaning. Once English can be heard, one can begin inferring word meaning and following context to infer grammar.
 
-ではどうやったらその６つの発音規則{{<meta var.MBS.en>}}を習得することが出来るようになるでしょうか。その答えが **オフビートカウント** です。
-
+So how can one acquire these six phonological rules, {{<meta var.MBS.en>}}? The answer is **Offbeat Count**.

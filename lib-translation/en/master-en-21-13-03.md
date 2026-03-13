@@ -1,6 +1,6 @@
-#### 音韻規則レベル３=韻律レベル   <!-- {#ppns-3} -->
+#### Phonological Rule Level 3 = Prosodic Level <!-- {#ppns-3} -->
 
-音韻規則レベル３のカウントを音韻表記厳密化していきます。音韻規則レベル１のカウントは音韻規則レベル１＝音韻表記厳密化レベル３までの音韻表記厳密化しか行うことが出来ません。ここからレベル３までの音韻厳密化を行います。
+We will now apply Prosodic Notation Strictification to the count at phonological rule level 3. After recapping Levels 0-2, we then carry the process through Level 6.
 
 
 ```{.lilypond-file}
@@ -8,37 +8,37 @@ common-ly/shared/rhythmdo-countset-n-3.ly
 ```
 
 
-##### レベル0 {{<meta var.MiOP.en>}}  <!-- {#ppns-3-0} -->
-元となった **3⁻²=1/9** の9つの音符に音節を割り当てたことにより更に3分割され、** 3⁻³=1/27**の27つの音符に分割されたものです。
+##### Level 0 {{<meta var.MiOP.en>}} <!-- {#ppns-3-0} -->
+By assigning syllables to the original nine notes of **3⁻²=1/9**, they are subdivided once more into twenty-seven notes of **3⁻³=1/27**.
 
-詳細の説明は[レベル0](#ppns-1-0)に譲ります。
+For details, see [Level 0](#ppns-1-0).
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv3-lv0-000.ly
 ```
 
-##### レベル1 {{<meta var.NI.en>}}     <!-- {#ppns-3-1} -->
-{{<meta var.NI.en>}} を適用したものです。
+##### Level 1 {{<meta var.NI.en>}} <!-- {#ppns-3-1} -->
+This is the result of applying {{<meta var.NI.en>}}.
 
-詳細の説明は[レベル1](#ppns-1-1)に譲ります。
+For details, see [Level 1](#ppns-1-1).
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv3-lv1-000.ly
 ```
 
-##### レベル2 {{<meta var.MOP.en>}}    <!-- {#ppns-3-2} -->
-{{<meta var.MOP.en>}} を適用したものです。
+##### Level 2 {{<meta var.MOP.en>}} <!-- {#ppns-3-2} -->
+This is the result of applying {{<meta var.MOP.en>}}.
 
-詳細の説明は[レベル2](#ppns-2-2)に譲ります。
+For details, see [Level 2](#ppns-2-2).
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv3-lv2-000.ly
 % yllHg4q8KHrWnbDJSbHpig==
 ```
 
-##### レベル3 {{<meta var.PNI.en>}}   <!-- {#ppns-3-3} -->
+##### Level 3 {{<meta var.PNI.en>}} <!-- {#ppns-3-3} -->
 
-これまでレベル１〜レベル２で表記法厳密化を行ったカウントパターンは次のようなものでした。
+Up to this point, the count pattern that had undergone strictification through Levels 1-2 was as follows.
 
 ---
 
@@ -46,7 +46,7 @@ common-ly/shared/rhythmdo-lv3-lv2-000.ly
 common-ly/shared/rhythmdo-countset-n-3.ly
 ```
 
-これに対して{{<meta var.PNI.en>}}厳密化を行うと次のようになります。
+If we apply {{<meta var.PNI.en>}} strictification to this, it becomes as follows.
 
 ---
 
@@ -56,20 +56,20 @@ common-ly/shared/rhythmdo-lv3-001.ly
 
 ---
 
-この１つずれたカウントパターンに対してレベル1レベル2の厳密化を加えたものが最終的なレベル3の完成形となります。
+The final completed form of Level 3 is obtained by applying Level 1 and Level 2 strictification to this count pattern shifted by one.
 
-詳細の説明は[レベル3](#ppns-2-3)に譲ります。
+For details, see [Level 3](#ppns-2-3).
 
 ---
 
-**レベル3完成形**
+**Completed Level 3**
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv3-lv3-002.ly
 ```
 
-##### レベル4 {{<meta var.MPOP.en>}}  <!-- {#ppns-3-4} -->
+##### Level 4 {{<meta var.MPOP.en>}} <!-- {#ppns-3-4} -->
 
-これまでレベル3で表記法厳密化を行ったカウントパターン原型は次のようなものでした。
+The count-pattern prototype that had undergone strictification up through Level 3 was as follows.
 
 ---
 
@@ -78,7 +78,7 @@ common-ly/shared/rhythmdo-lv3-001.ly
 ```
 ---
 
-これに対して{{<meta var.MPOP.en>}}厳密化を行うと次のようになります。
+If we apply {{<meta var.MPOP.en>}} strictification to this, it becomes as follows.
 
 ---
 
@@ -90,18 +90,18 @@ common-ly/shared/rhythmdo-lv3-002.ly
 
 ---
 
-これがレベル4のカウントパターン原型です。この１つずれたカウントパターン原型に対してレベル1、レベル2の厳密化を加えたものが最終的なレベル4の完成形となります。
+This is the Level 4 count-pattern prototype. Applying Level 1 and Level 2 strictification to this shifted count-pattern prototype yields the final completed form of Level 4.
 
-詳細の説明は[レベル4](#ppns-2-4)に譲ります。
+For details, see [Level 4](#ppns-2-4).
 
-**レベル4完成形**
+**Completed Level 4**
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv3-lv4-000.ly
 ```
 
-##### レベル5 {{<meta var.MNI.en>}}   <!-- {#ppns-3-5} -->
+##### Level 5 {{<meta var.MNI.en>}} <!-- {#ppns-3-5} -->
 
-これまでレベル4で表記法厳密化を行ったカウントパターン原型は次のようなものでした。
+The count-pattern prototype that had undergone strictification up through Level 4 was as follows.
 
 ---
 
@@ -110,7 +110,7 @@ common-ly/shared/rhythmdo-lv3-002.ly
 ```
 ---
 
-これに対して{{<meta var.MNI.en>}}厳密化を行うと次のようになります。
+If we apply {{<meta var.MNI.en>}} strictification to this, it becomes as follows.
 
 ---
 
@@ -119,24 +119,24 @@ common-ly/shared/rhythmdo-lv3-003.ly
 ```
 ---
 
-これがレベル5のカウントパターン原型です。この１つずれたカウントパターン原型に対してレベル1、レベル2の厳密化を加えたものが最終的なレベル5の完成形となります。
+This is the Level 5 count-pattern prototype. Applying Level 1 and Level 2 strictification to this shifted count-pattern prototype yields the final completed form of Level 5.
 
 ---
 
-**レベル5完成形**
+**Completed Level 5**
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv3-lv5-000.ly
 ```
 
-##### レベル6 {{<meta var.MMOP.en>}}  <!-- {#ppns-3-6} -->
+##### Level 6 {{<meta var.MMOP.en>}} <!-- {#ppns-3-6} -->
 
-これまでレベル5で表記法厳密化を行ったカウントパターン原型は次のようなものでした。
+The count-pattern prototype that had undergone strictification up through Level 5 was as follows.
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv3-003.ly
 ```
 
-これに対して{{<meta var.MMOP.en>}}厳密化を行うと次のようになります。
+If we apply {{<meta var.MMOP.en>}} strictification to this, it becomes as follows.
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv3-004.ly
@@ -144,12 +144,11 @@ common-ly/shared/rhythmdo-lv3-004.ly
 
 ---
 
-これがレベル5のカウントパターン原型です。この１つずれたカウントパターン原型に対してレベル1、レベル2の厳密化を加えたものが最終的なレベル5の完成形となります。
+This is the Level 6 count-pattern prototype. Applying Level 1 and Level 2 strictification to this shifted count-pattern prototype yields the final completed form of Level 6.
 
-**レベル6完成形**
+**Completed Level 6**
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-lv3-lv6-000.ly
 ```
 
 <!-- tnccerY91FUWg8OQLyzadQ== -->
-

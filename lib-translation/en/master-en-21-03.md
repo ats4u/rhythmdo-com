@@ -1,52 +1,51 @@
-### 『ずらし読み』と『みなし読み』
+### Shifted Reading and Assumed Reading
 
-#### みなし読みとは
+#### What Is Assumed Reading?
 
-ずらし読みもみなし読みも**弱起**を適切に認識する為の方法です。
+Both shifted reading and assumed reading are methods for recognizing **anacrusis** correctly.
 
-例えば以下のように八拍数えるとします。
+For example, suppose we count eight beats as follows.
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-count-offset-0.ly
 % 2UKlRFbyT8gtj/zhdLXnQA==
 ```
 
-この時、グルーヴの四原則のうちの１つ**強拍先行**の存在を加味して考えると、4分音分１つが先行する弱起を踏まえて読む必要があります。 すると次のようになるでしょう。
+At this point, if we take into account **Strong-Beat Precedence**, one of the Four Principles of Groove, we need to read on the premise of an anacrusis led by one quarter note. Then it becomes as follows.
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-count-mental-offset-1.ly
 % xpUbl1z3/e2qzfCKgn9NZA==
 ```
 
-これは次のように８が先に来ていると**みなし**て読んでいるといえます。
+This can be said to be reading by **assuming** that the 8 has already come first, as follows.
 
-- みなし移動量0　　　| 1 2 3 4 5 6 7 8 | 1
-- みなし移動量1　　8 | 1 2 3 4 5 6 7 8 |
+- Assumed offset 0　　　| 1 2 3 4 5 6 7 8 | 1
+- Assumed offset 1　　8 | 1 2 3 4 5 6 7 8 |
 
-このように先に来ているとみなして読むことを**みなし読み**と呼びます。
+Reading in this way, by assuming that the count has already come earlier, is called **assumed reading**.
 
-#### ずらし読みとは
+#### What Is Shifted Reading?
 
-みなし読みは、弱起が先行する感覚を掴んでいない人にはとても難しい読み方といえます。そこで、数字を一定量だけずらすことで、強制的に弱起が先行する感覚をつけるという方法が考え出されました。
+Assumed reading is a very difficult way to read for people who have not yet grasped the sensation that an anacrusis precedes the beat. So a method was devised in which the numbers themselves are shifted by a fixed amount so that the sensation of a preceding anacrusis is acquired by force.
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-count-offset-0.ly
 % 2UKlRFbyT8gtj/zhdLXnQA==
 ```
 
-この時、グルーヴの四原則のうちの１つ**強拍先行**の存在を加味して考えると、4分音分１つが先行する弱起を**ずらす**ことで表現してみましょう。 すると次のようになるでしょう。
+Here, again taking into account **Strong-Beat Precedence**, one of the Four Principles of Groove, let us express the anacrusis led by one quarter note by **shifting** the count. Then it becomes as follows.
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-count-drift-offset-1.ly
 %  zyUaZvyO98TyXG7Gk4DRvQ==
 ```
 
-- ずらし移動量0　　　| 1 2 3 4 5 6 7 8 | 1
-- ずらし移動量1　　1 | 2 3 4 5 6 7 8 1 |
+- Shift offset 0　　　| 1 2 3 4 5 6 7 8 | 1
+- Shift offset 1　　1 | 2 3 4 5 6 7 8 1 |
 
-このようにずらして読むことを**ずらし読み**と呼びます。
+Reading in this shifted way is called **shifted reading**.
 
-#### 使い方
+#### Usage
 
-今後たくさんのカウントパターンが表れます。これらを状況に応じて「ずらし読み」と「みなし読み」の両方を組み合わせて、グルーヴを理解しやすい形に変更して、それを読み上げる練習を行います。
-
+Many count patterns will appear from here on. Depending on the situation, practice combining both shifted reading and assumed reading, converting them into forms that make groove easier to understand, and reading them aloud.

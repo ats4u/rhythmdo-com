@@ -1,9 +1,8 @@
-#### 音韻規則レベル２=音節レベル
-**サブディヴィジョンレベル = 3⁻²=1/9**
+#### Phonological Rule Level 2 = Syllable Level
+**Subdivision Level = 3⁻²=1/9**
 
-これは１ディヴィジョンに３つのサブディヴィジョンを割り当てる数え方です。
+This is a way of counting that assigns three subdivisions to one division.
 
 ```{.lilypond-file}
 common-ly/shared/rhythmdo-countset-n-2.ly
 ```
-
