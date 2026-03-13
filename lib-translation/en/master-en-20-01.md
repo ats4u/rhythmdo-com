@@ -1,39 +1,37 @@
-### 英語でのリズム練習の重要性
+### The Importance of Rhythm Practice in English
 
-日本の英語教育で教わる英語の発音の知識は、明らかに不足しています。 ここでは不足している知識に絞って重点的に説明致します。
+The knowledge of English pronunciation taught in Japanese English education is clearly insufficient. Here I will focus specifically on the missing knowledge and explain it in concentrated form.
 
-英語を学ぶ歳、日本語と英語の発音の違いを学ぶことを全てに優先すべきです。英語の意味はわからなくても英語が聴き取れるという状態を作ってから英語を学ぶことで以降の英語の学習効果を劇的に向上させることが出来るからです。
+When learning English, you should prioritize learning the differences between Japanese and English pronunciation above everything else. Even if you do not yet understand the meaning of English, creating a state in which you can hear English first and then studying the language dramatically improves the effectiveness of all later English study.
 
-英語の発音が聴き取れていれば、英語の全ての知識はぼんやりと英語の情報にふれているだけで自然に身についていきます。何故ならセサミストリートを始め、英語させ聴き取れれば英語の教材は無数に存在するからです。 音楽を聞いていても、映画を見ていても、ぼんやりとインターネットを見ているときでも、ぼんやりとYouTubeを見ながら時間を溶かしていても、ぼんやりとねっころがりながら x/ツイッター を眺めてているだけでも、英語の知識は身についていきます。
+If you can hear English pronunciation, all English knowledge is acquired naturally just by casually being exposed to English information. That is because, beginning with Sesame Street, there are countless English learning materials available as long as you can hear English. Whether you are listening to music, watching movies, casually browsing the internet, letting time melt away while watching YouTube, or simply lying around and scrolling through X/Twitter, English knowledge keeps accumulating.
 
-こう考えると素晴らしいことのように思えます。そんな夢のようなことがある筈ないと仰るかも知れません。
+This may sound wonderful. You may think that nothing so dreamlike could possibly be true.
 
-しかし逆の状況を考えると悲惨です ─── どんなに勉強しても英語の発音が聴き取れなければ何も意味がないからです。
+But if you consider the opposite situation, it is disastrous: no matter how much you study, if you cannot hear English pronunciation, none of it means anything.
 
-どんなに英単語をたくさん覚えても眼の前にある単語を聴き取ることすらできません。
+No matter how many English words you memorize, you cannot even hear the words right in front of you.
 
-どんなに英文法をたくさん勉強しても、眼の前にある文法に気付くことすらできません。
+No matter how much English grammar you study, you cannot even notice the grammar right in front of you.
 
-どんなに長文読解を行っても、映画すら見て理解することが出来ません。
+No matter how much long-form reading practice you do, you cannot even watch a movie and understand it.
 
-どんなに発音練習をしても、相手から言い返された反応が聴き取れません。
+No matter how much pronunciation practice you do, you cannot hear the response when someone answers you back.
 
-日本語は、表意文字の文化です。文字が発音から乖離して浮遊しているという世界的に見てとても珍しい言語です。
+Japanese is part of an ideographic writing culture. It is a very unusual language, globally speaking, in which writing floats free from pronunciation.
 
-しかし英語は、表音文字の文化です。発音と意味が密接に結びついており、発音が理解出来ない限り、意味も理解出来ないのです。
+English, however, is part of a phonographic writing culture. Pronunciation and meaning are closely bound together, and unless pronunciation is understood, meaning cannot be understood either.
 
-発音がわからない状態でいくら英語の知識を学んでも、無限のたゆまぬ努力の時間を必要とするだけで、何の有意義な結果も生み出しません。
+No matter how much English knowledge you study while remaining unable to grasp pronunciation, it only demands endless time and effort and produces no meaningful result.
 
-全ての勉強よりも、発音の訓練を優先する。
+Prioritize pronunciation training above every other kind of study.
 
-日本人が理解出来ないものは、発音ではなく、リズムです。
+What Japanese people cannot understand is not pronunciation, but rhythm.
 
-日本語は子音よりも母音が長いという世界的にも稀に見る珍しい言語です。
+Japanese is a highly unusual language, even globally, in that its vowels are longer than its consonants.
 
-だから母音よりも子音を長くする必要があります。
+That is why the consonants must be made longer than the vowels.
 
-すると何が起こるかというと、裏拍が聴き取れない日本人のジレンマとぶつかるのです。
+And what happens then is that it collides with the dilemma of Japanese listeners, who cannot hear offbeats.
 
-つまり必要なのは、発音練習ではなくリズムトレーニングなのです。
-
-
+In other words, what is needed is not pronunciation practice but rhythm training.

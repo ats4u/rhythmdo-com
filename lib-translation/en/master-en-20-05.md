@@ -1,35 +1,35 @@
-### 英語の方言の一覧
+### List of English Dialects
 
-| 日本語名                                               | 日本語の解説                                                                                                                                                                         |
-| ------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| アメリカ英語 []{#GA-ja}                                | 全米で広く使われる標準的な発音。地域色が薄く、中立的なアクセント（ニュースキャスター的な話し方）。                                                                                   |
-| ニューヨーク英語 []{#NYCE-ja}                          | ニューヨーク市を中心とする都市型の英語。高めの /ɔ/（*coffee* など）、短母音 /æ/ の分裂（*bad* と *bat* の対立）、独特のイントネーション。高齢層は非R音声、若年層ではR音声化が進む。 |
-| ユダヤ系米国英語 []{#JAE-ja}                           | ユダヤ系米国人に結びつく英語。語彙・談話標識・イントネーションにイディッシュ語やヘブライ語の影響。NYC英語と重なる場合もあり、地域・共同体による差が大きい。                          |
-| アメリカ南部方言 []{#SAmE-ja}                          | 米国南部で話される英語。古い世代では非R音声が多く、二重母音の単母音化や特徴的な母音変化が見られる。                                                                                  |
-| アフリカ系米国英語/黒人英語 []{#AAVE-ja}               | アフリカ系アメリカ人の共同体で発達した体系的な変種。子音連結の簡略化、習慣的 *be* の使用、独特の音韻体系が特徴。                                                                     |
-| ボストン英語 []{#BostE-ja}                             | ニューイングランド東部の変種。非R音声（「pahk the cah」）、前寄りの /a/（*car*）、侵襲的R、独自の短母音 /æ/ の体系が特徴。                                                          |
-| 西部アメリカ英語 []{#WAmE-ja}                          | 米国西部全体に広がる比較的均質な変種。cot–caught の母音合流が見られる。                                                                                                             |
-| アパラチア英語 []{#AppE-ja}                            | アパラチア地域で話される独自の変種。古風な語彙、a-接頭辞 (*a-running*)、強い母音変化が特徴。                                                                                         |
-| 中西部（五大湖地方）英語 []{#MidwE-ja}                 | シカゴ・デトロイト・バッファローなど五大湖地方で話される。北方都市母音推移（Northern Cities Vowel Shift）が知られるが、若年層では衰退傾向。                                          |
-| オーストラリア英語 []{#AusE-ja}                        | オーストラリアで話される国家的変種。非R音声で、イギリス英語の影響を受けつつ独自の母音変化がある。                                                                                    |
-| カナダ英語 []{#CanE-ja}                                | カナダで話される英語。R音声を保持し、GAに近いが、*about* が [əˈbʌʊt] となるなどカナダ特有の母音上げがある。                                                                          |
-| スコットランド英語 []{#ScotE-ja}                       | スコットランドで話されるR音声の英語（スコットランド・ゲール語とは別）。[ʍ] と [w] の対立、弾音 /r/ の保持、独特の母音体系がある。                                                    |
-| アイルランド英語 []{#IrE-ja}                           | アイルランドで話される英語。一般にR音声を保持し、THストッピング（*think → tink*）、FACE/GOAT 母音の単母音化、歌うようなイントネーションが特徴。                                     |
-| 北部英語（イングランド） []{#NEngE-ja}                 | イングランド北部の非南部方言の総称。trap–bath 分裂がなく、*bus* や *cup* の母音が短い。                                                                                             |
-| ジョーディー英語（ニューカッスル英語） []{#Geordie-ja} | タインサイド地方の独自の変種。母音の独特な実現、上昇イントネーション、強い地域語彙が特徴。                                                                                           |
-| ヨークシャー英語 []{#YorkE-ja}                         | ヨークシャー地方の変種。thee/thou 代名詞、定冠詞の短縮 (*t’pub*)、平坦なイントネーションが特徴。                                                                                    |
-| ウェールズ英語 []{#WelshE-ja}                          | ウェールズで話される英語。歌うようなイントネーション、明確なR音声、ウェールズ語の音韻的影響がある。                                                                                  |
-| 容認発音英語 []{#RP-ja}                                | イギリスの伝統的な標準発音（権威的アクセント）。かつては広く使われたが、現在は使用者が減少。                                                                                         |
-| 多文化ロンドン英語 []{#MLE-ja}                         | ロンドンで発達した多民族混交の変種。コックニーやエスチュアリ英語の特徴に加え、カリブ系・アフリカ系・南アジア系の影響を含む。                                                         |
-| コックニー英語 []{#Cockney-ja}                         | ロンドン東部の労働者階級に根ざした伝統的な方言。ライミングスラング、h脱落、T声門化、非R音声が特徴。                                                                                  |
-| 河口域英語/エスチュアリ英語 []{#Estuary-ja}            | テムズ川河口域を中心に広まった英語。RPとコックニーの中間的な特徴を持ち、T声門化や非R音声が見られる。                                                                                 |
-| インド英語 []{#IndE-ja}                                | インドで話される英語。現地言語の影響を受け、反り舌破裂音、モーラ的リズム、独特のイントネーションを持つ。                                                                             |
-| シンガポール英語（シングリッシュ） []{#SgE-ja}         | シンガポールで話される英語。中国語・マレー語の影響を受け、声調的なイントネーション、時制・相の単純化、コードスイッチングが見られる。                                                 |
-| ニュージーランド英語 []{#NZE-ja}                       | オーストラリア英語に近いが、独自の母音変化がある（例: *fish and chips* → [fʌʃ ənd ʧʌps]）。                                                                                         |
-| 東アフリカ英語 []{#EAfE-ja}                            | ケニア・タンザニア・ウガンダなどで話される英語。一般にR音声を保持し、二重母音の単純化、THストッピング、子音連続の簡略化、モーラ的リズムが見られる。スワヒリ語などの影響が強い。      |
-| 西アフリカ英語 []{#WAfE-ja}                            | ナイジェリア・ガーナ・シエラレオネなどで話される英語。多くはモーラ的リズムで、THストッピング（*this → dis*）、語末子音連続の簡略化、明瞭なR音声、声調言語の影響がある。             |
-| 南アフリカ英語 []{#SAfE-ja}                            | 独自の母音体系（例: *kit* → [kət]）。白人南アフリカ英語やケープ・フラッツ英語など複数の下位変種がある。                                                                             |
+| English Name | Japanese Name | Romaji (Hepburn) | Description |
+| ------------ | ------------- | ---------------- | ----------- |
+| General American []{#GA} | アメリカ英語 []{#GA-ja} | Amerika eigo | Standard pronunciation widely used across the United States. It has relatively little regional coloring and sounds neutral, like a news anchor accent. |
+| New York City English []{#NYCE} | ニューヨーク英語 []{#NYCE-ja} | Nyūyōku eigo | Urban English centered in New York City. It features a raised /ɔ/ (as in *coffee*), a split /æ/ system (*bad* vs. *bat*), and distinctive intonation. Older speakers are often non-rhotic, while younger speakers are increasingly rhotic. |
+| Jewish American English []{#JAE} | ユダヤ系米国英語 []{#JAE-ja} | Yudaya-kei Beikoku eigo | English associated with Jewish Americans. Its lexicon, discourse markers, and intonation show Yiddish and Hebrew influence. It overlaps with NYC English in some cases and varies greatly by region and community. |
+| Southern American English []{#SAmE} | アメリカ南部方言 []{#SAmE-ja} | Amerika nanbu hōgen | English spoken in the American South. Older generations are often non-rhotic, and monophthongization of diphthongs and distinctive vowel shifts are common. |
+| African American Vernacular English []{#AAVE} | アフリカ系米国英語/黒人英語 []{#AAVE-ja} | Afurika-kei Beikoku eigo/Kokujin eigo | A systematic variety that developed in African American communities. It is characterized by consonant-cluster reduction, habitual *be*, and a distinctive phonological system. |
+| Boston English []{#BostE} | ボストン英語 []{#BostE-ja} | Bosuton eigo | A variety from eastern New England. It is known for non-rhoticity ("pahk the cah"), a fronted /a/ in *car*, intrusive /r/, and its own short /æ/ system. |
+| Western American English []{#WAmE} | 西部アメリカ英語 []{#WAmE-ja} | Seibu Amerika eigo | A relatively homogeneous variety spread across the western United States. The cot-caught merger is common. |
+| Appalachian English []{#AppE} | アパラチア英語 []{#AppE-ja} | Aparachia eigo | A distinctive variety spoken in the Appalachian region. It is characterized by archaic vocabulary, the a-prefix (*a-running*), and strong vowel shifts. |
+| Midwestern (Inland North) English []{#MidwE} | 中西部（五大湖地方）英語 []{#MidwE-ja} | Chūseibu (Godaiko chihō) eigo | Spoken in the Great Lakes region, including Chicago, Detroit, and Buffalo. It is known for the Northern Cities Vowel Shift, though that pattern is receding among younger speakers. |
+| Australian English []{#AusE} | オーストラリア英語 []{#AusE-ja} | Ōsutoraria eigo | The national variety of English in Australia. It is non-rhotic and has its own vowel changes while still showing influence from British English. |
+| Canadian English []{#CanE} | カナダ英語 []{#CanE-ja} | Kanada eigo | English spoken in Canada. It remains rhotic and is close to GA, but has uniquely Canadian features such as raising in *about* [əˈbʌʊt]. |
+| Scottish English []{#ScotE} | スコットランド英語 []{#ScotE-ja} | Sukottorando eigo | Rhotic English spoken in Scotland, distinct from Scottish Gaelic. It preserves the contrast between [ʍ] and [w], retains tapped /r/, and has its own vowel system. |
+| Irish English []{#IrE} | アイルランド英語 []{#IrE-ja} | Airurando eigo | English spoken in Ireland. It is generally rhotic and is characterized by TH-stopping (*think → tink*), monophthongized FACE/GOAT vowels, and sing-song intonation. |
+| Northern English []{#NEngE} | 北部英語（イングランド） []{#NEngE-ja} | Hokubu eigo (Ingurando) | A broad label for non-southern dialects of England. It lacks the trap-bath split, and vowels in words like *bus* and *cup* are short. |
+| Geordie (Newcastle English) []{#Geordie} | ジョーディー英語（ニューカッスル英語） []{#Geordie-ja} | Jōdī eigo (Nyūkassuru eigo) | A distinctive Tyneside variety. It features unusual vowel realizations, rising intonation, and strong regional vocabulary. |
+| Yorkshire English []{#YorkE} | ヨークシャー英語 []{#YorkE-ja} | Yōkushā eigo | A Yorkshire variety characterized by *thee/thou* pronouns, reduced definite articles (*t'pub*), and flat intonation. |
+| Welsh English []{#WelshE} | ウェールズ英語 []{#WelshE-ja} | Wēruzu eigo | English spoken in Wales. It is characterized by sing-song intonation, clear /r/ pronunciation, and phonological influence from Welsh. |
+| Received Pronunciation []{#RP} | 容認発音英語 []{#RP-ja} | Yōnin hatsuon eigo | The traditional prestige pronunciation of Britain. It was once widespread, but now has fewer speakers. |
+| Multicultural London English []{#MLE} | 多文化ロンドン英語 []{#MLE-ja} | Tabunka Rondon eigo | A multiethnic variety developed in London. It combines features of Cockney and Estuary English with Caribbean, African, and South Asian influence. |
+| Cockney []{#Cockney} | コックニー英語 []{#Cockney-ja} | Kokkunī eigo | A traditional working-class dialect rooted in East London. It is known for rhyming slang, h-dropping, T-glottalization, and non-rhoticity. |
+| Estuary English []{#Estuary} | 河口域英語/エスチュアリ英語 []{#Estuary-ja} | Kakōiki eigo/Esuchuari eigo | English centered around the Thames Estuary. It has features intermediate between RP and Cockney, including T-glottalization and non-rhoticity. |
+| Indian English []{#IndE} | インド英語 []{#IndE-ja} | Indo eigo | English spoken in India. Influenced by local languages, it features retroflex plosives, mora-like rhythm, and distinctive intonation. |
+| Singapore English (Singlish) []{#SgE} | シンガポール英語（シングリッシュ） []{#SgE-ja} | Shingapōru eigo (Shingurisshu) | English spoken in Singapore. It shows Chinese and Malay influence, tone-like intonation, simplified tense/aspect, and code-switching. |
+| New Zealand English []{#NZE} | ニュージーランド英語 []{#NZE-ja} | Nyūjīrando eigo | Close to Australian English, but with its own vowel shifts, as in *fish and chips* → [fʌʃ ənd ʧʌps]. |
+| East African English []{#EAfE} | 東アフリカ英語 []{#EAfE-ja} | Higashi Afurika eigo | English spoken in Kenya, Tanzania, Uganda, and nearby countries. It is generally rhotic and shows diphthong simplification, TH-stopping, consonant-cluster reduction, and mora-like rhythm, with strong influence from Swahili and other local languages. |
+| West African English []{#WAfE} | 西アフリカ英語 []{#WAfE-ja} | Nishi Afurika eigo | English spoken in Nigeria, Ghana, Sierra Leone, and neighboring countries. It is often mora-like in rhythm, with TH-stopping (*this → dis*), reduction of final consonant clusters, clear /r/, and influence from tonal languages. |
+| South African English []{#SAfE} | 南アフリカ英語 []{#SAfE-ja} | Minami Afurika eigo | It has a distinctive vowel system, for example *kit* → [kət]. It also includes multiple subvarieties such as White South African English and Cape Flats English. |
 
-:  {.tbl-pron2 .tbl-header-center .tbl-second-column-wrapping tbl-colwidths=[1,9] }
+:  {.tbl-pron2 .tbl-header-center .tbl-second-column-wrapping tbl-colwidths=[2,2,2,9] }
 
 <!--

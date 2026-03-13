@@ -1,25 +1,24 @@
-### 英語の方言による子音変化の一覧
+### List of Dialectal Consonant Changes in English
 
-| 英語名                           | 日本語名              |         発音変化(IPA)         | 日本語での解説                                                                                                        |
-| -------------------------------- | --------------------- | :---------------------------: | --------------------------------------------------------------------------------------------------------------------- |
-| TH-fronting                      | THフロンティング      |          /θ/ → [f]          | **無声歯擦音** /θ/ が **無声唇歯摩擦音** [f] に置き換わる。「thin」→ [fɪn]。                                        |
-| TH-stopping                      | THストッピング        |          /ð/ → [d]          | **有声歯擦音** /ð/ が **有声歯茎破裂音** [d] に変化する。「this」→ [dɪs]。                                          |
-| TH-fronting (voiced)             | 有声THフロンティング  |          /ð/ → [v]          | **有声歯擦音** /ð/ が **有声唇歯摩擦音** [v] に変化する。「brother」→ [brʌvə]。                                     |
-| T-glottalization                 | T声門化               |          /t/ → [ʔ]           | **無声歯茎破裂音** /t/ が **声門閉鎖音** [ʔ] に置き換わる。「butter」→ [bʌʔə]。                                      |
-| Flapping                         | フラッピング          |         /t, d/ → [ɾ]         | 母音間の **無声/有声歯茎破裂音** /t, d/ が **歯茎はじき音** [ɾ] として実現される。「water」→ [wɔɾə]。                |
-| -ing dropping                    | -ing 脱落             |          /ŋ/ → [n]          | 語末の **軟口蓋鼻音** /ŋ/ が **歯茎鼻音** [n] に変化する。「walking」→ [wɔːkɪn]。                                  |
-| L-vocalization                   | Lヴォーカリゼーション |         /l/ → [w, o]         | 音節末の **歯茎側面接近音** /l/ が母音的な音（[w], [o]）に変わる。「people」→ [piːpo]。                             |
-| h-dropping                       | h脱落                 |           /h/ → ∅            | 語頭の **声門摩擦音** /h/ が脱落する。「house」→ [aʊs]。                                                             |
-| Yod-coalescence                  | ヨッド合流            |     /tj, dj/ → [tʃ, dʒ]      | /tj/, /dj/ が **後部歯茎破擦音** [tʃ], [dʒ] に変化する。「tune」→ [tʃuːn]。                                         |
-| Yod-dropping                     | ヨッド脱落            |        /juː/ → [uː]        | /juː/ の **硬口蓋接近音** /j/ が脱落する。「new」→ [nuː]。                                                         |
-| wh–w contrast                   | wh-wコントラスト      |          /hw/ → [ʍ]          | **無声両唇軟口蓋接近音** [ʍ] と **有声両唇軟口蓋接近音** [w] の対立を保持する。「which」 [ʍɪtʃ] ≠ 「witch」 [wɪtʃ]。 |
-| Final cluster<br/>simplification | 多重末子音脱落        |      e.g. /-st/ → /-s/       | 語末の **子音群** が簡略化される。「test」→ [tɛs]。                                                                  |
-| t-deletion                       | t脱落                 |          /nt/ → [n]          | /n/ の後の **無声歯茎破裂音** /t/ が脱落する。「winter」→ [wɪnə]。                                                   |
-| Linking r                        | リンキングr           | ∅ → [ɹ]<br/> (word boundary) | 語境界で母音間に **歯茎接近音** [ɹ] が挿入される。「law and order」→ [lɔːɹ ənd ɔːdə]。                             |
-| Intrusive r                      | 侵襲的R               |  ∅ → [ɹ]<br/> (epenthetic)   | 本来ない箇所に **歯茎接近音** [ɹ] が挿入される。「idea of」→ [aɪˈdɪəɹ əv]。                                          |
-| Non-rhoticity                    | 非R音声               |           /ɹ/ → ∅            | 音節末の **歯茎接近音** /ɹ/ が発音されない。「car」→ [kɑː]。                                                       |
-| Retroflex/bunched r              | Rの反り舌/盛り舌      |     (different [ɹ] types)     | /r/ が **反り舌接近音**（舌先を後方に反らす）や **束状接近音**（舌全体を盛り上げる）で実現される。                    |
-| Dentalization                    | 歯音化                |    /t, d, n/ → [t̪, d̪, n̪]     | **歯茎破裂音/鼻音** /t, d, n/ が **歯音** [t̪, d̪, n̪] として実現される。「tenth」→ [tɛn̪θ]。                           |
+| English Name | Japanese Name | Romaji (Hepburn) | Sound Change (IPA) | Description |
+| ------------ | ------------- | ---------------- | :----------------: | ----------- |
+| TH-fronting | THフロンティング | TH furontingu | /θ/ -> [f] | The **voiceless dental fricative** /θ/ is replaced by the **voiceless labiodental fricative** [f]. Example: *thin* -> [fɪn]. |
+| TH-stopping | THストッピング | TH sutoppingu | /ð/ -> [d] | The **voiced dental fricative** /ð/ changes to the **voiced alveolar plosive** [d]. Example: *this* -> [dɪs]. |
+| TH-fronting (voiced) | 有声THフロンティング | Yūsei TH furontingu | /ð/ -> [v] | The **voiced dental fricative** /ð/ changes to the **voiced labiodental fricative** [v]. Example: *brother* -> [brʌvə]. |
+| T-glottalization | T声門化 | T seimonka | /t/ -> [ʔ] | The **voiceless alveolar plosive** /t/ is replaced by the **glottal stop** [ʔ]. Example: *butter* -> [bʌʔə]. |
+| Flapping | フラッピング | Furappingu | /t, d/ -> [ɾ] | Intervocalic **voiceless/voiced alveolar plosives** /t, d/ are realized as the **alveolar tap** [ɾ]. Example: *water* -> [wɔɾə]. |
+| -ing dropping | -ing 脱落 | -ing daraku | /ŋ/ -> [n] | Word-final **velar nasal** /ŋ/ changes to the **alveolar nasal** [n]. Example: *walking* -> [wɔːkɪn]. |
+| L-vocalization | Lヴォーカリゼーション | L vōkarizēshon | /l/ -> [w, o] | Syllable-final **alveolar lateral approximant** /l/ changes into a vowel-like sound such as [w] or [o]. Example: *people* -> [piːpo]. |
+| h-dropping | h脱落 | h daraku | /h/ -> ∅ | Word-initial **glottal fricative** /h/ is deleted. Example: *house* -> [aʊs]. |
+| Yod-coalescence | ヨッド合流 | Yoddo gōryū | /tj, dj/ -> [tʃ, dʒ] | /tj/ and /dj/ change into the **postalveolar affricates** [tʃ] and [dʒ]. Example: *tune* -> [tʃuːn]. |
+| Yod-dropping | ヨッド脱落 | Yoddo daraku | /juː/ -> [uː] | The **palatal approximant** /j/ in /juː/ is deleted. Example: *new* -> [nuː]. |
+| wh-w contrast | wh-wコントラスト | wh-w kontorasuto | /hw/ -> [ʍ] | The contrast between **voiceless labiovelar approximant** [ʍ] and **voiced labiovelar approximant** [w] is preserved. Example: *which* [ʍɪtʃ] ≠ *witch* [wɪtʃ]. |
+| Final cluster<br/>simplification | 多重末子音脱落 | Tajū matsushiin daraku | e.g. /-st/ -> /-s/ | Word-final **consonant clusters** are simplified. Example: *test* -> [tɛs]. |
+| t-deletion | t脱落 | t daraku | /nt/ -> [n] | The **voiceless alveolar plosive** /t/ after /n/ is deleted. Example: *winter* -> [wɪnə]. |
+| Linking r | リンキングr | Rinkingu r | ∅ -> [ɹ]<br/> (word boundary) | The **alveolar approximant** [ɹ] is inserted between vowels across a word boundary. Example: *law and order* -> [lɔːɹ ənd ɔːdə]. |
+| Intrusive r | 侵襲的R | Shinshūteki R | ∅ -> [ɹ]<br/> (epenthetic) | The **alveolar approximant** [ɹ] is inserted where it is not underlyingly present. Example: *idea of* -> [aɪˈdɪəɹ əv]. |
+| Non-rhoticity | 非R音声 | Hi-R onsei | /ɹ/ -> ∅ | The **alveolar approximant** /ɹ/ is not pronounced in syllable-final position. Example: *car* -> [kɑː]. |
+| Retroflex/bunched r | Rの反り舌/盛り舌 | R no sorijita/morijita | (different [ɹ] types) | /r/ is realized either as a **retroflex approximant** (tongue tip curled back) or as a **bunched approximant** (tongue body raised). |
+| Dentalization | 歯音化 | Shionka | /t, d, n/ -> [t̪, d̪, n̪] | **Alveolar plosives/nasal** /t, d, n/ are realized as **dentals** [t̪, d̪, n̪]. Example: *tenth* -> [tɛn̪θ]. |
 
-:  {.tbl-pron2 .tbl-header-center .tbl-forth-column-wrapping tbl-colwidths=[1,1,1,10] }
-
+:  {.tbl-pron2 .tbl-header-center .tbl-forth-column-wrapping tbl-colwidths=[1,1,1,1,10] }

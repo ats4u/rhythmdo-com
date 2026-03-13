@@ -1,44 +1,43 @@
-### 英語の全方言で現れる母音一覧
+### Vowels Found Across English Dialects
 
-#### 単母音
+#### Monophthongs
 
-|   IPA    |    実例     |    舌の位置    | 説明                                                               |
-| :------: | :---------: | :------------: | :----------------------------------------------------------------- |
-| **/i/**  |  (_beat_)   |     高・前     | 日本語「イー」より前で緊張、口は横に。                             |
-| **/ɪ/**  |   (_bit_)   |     高・前     | 「イ」だが力を抜く。「イ」と「エ」の間、短い。                     |
-| **/ɛ/**  |   (_bet_)   |     中・前     | 日本語「エ」より低く開く、横に広げる。                             |
-| **/æ/** |   (_bat_)   |     低・前     | 大きく開く。「アとエの間」。日本語に無い。                         |
-| **/ɑ/** | (_father_)  |     低・後     | 唇広め、喉奥で「ア」。                                             |
-| **/ɔ/**  | (_thought_) |     中・後     | 軽く丸めた「オー」。※多くの米語で /ɑ/ と合流。                   |
-| **/ʊ/**  |  (_book_)   |     高・後     | 力を抜く。「ウとオの間」、軽く丸める。                             |
-| **/u/**  |  (_boot_)   |     高・後     | 緊張。「ウー」より強く丸め後方。                                   |
-| **/ʌ/**  |  (_strut_)  | 中央・短く平ら | 「アとオの間」。日本語に無い。                                     |
-| **/ə/**  |  (_sofa_)   |                | 弱勢の中央母音＝『**シュワ**』と呼ばれる。短く弱い曖昧な母音。     |
-| **/ɝ/**  |  (_bird_)   |                | **強勢**の r 化母音。舌を後方やや反り気味に /r/ 的発音に変化。     |
-| **/ɚ/**  | (_butter_)  |                | **弱勢**の r 化母音。日本語「ア」と全く違う。flap と連動しやすい。 |
+|   IPA    |   Example   | Tongue Position | Description                                                              |
+| :------: | :---------: | :------------: | :----------------------------------------------------------------------- |
+| **/i/**  |  (_beat_)   |  high, front   | Tense and farther forward than Japanese *ii*; lips spread sideways.      |
+| **/ɪ/**  |   (_bit_)   |  high, front   | An *i*-like vowel but relaxed; between Japanese *i* and *e*, and short.  |
+| **/ɛ/**  |   (_bet_)   | middle, front  | Lower and more open than Japanese *e*; lips spread.                      |
+| **/æ/**  |   (_bat_)   |   low, front   | Open widely; between *a* and *e*. Not found in Japanese.                 |
+| **/ɑ/**  | (_father_)  |   low, back    | A back *a* made deeper in the throat, with relatively spread lips.       |
+| **/ɔ/**  | (_thought_) | middle, back   | A lightly rounded "aw." In many American dialects it merges with /ɑ/.    |
+| **/ʊ/**  |  (_book_)   |  high, back    | Relaxed; between Japanese *u* and *o*, with slight rounding.             |
+| **/u/**  |  (_boot_)   |  high, back    | Tense; more strongly rounded and farther back than Japanese *uu*.        |
+| **/ʌ/**  |  (_strut_)  | central, short | Between *a* and *o*, central and short. Not found in Japanese.           |
+| **/ə/**  |  (_sofa_)   |                | Unstressed central vowel called **schwa**. Short, weak, and indistinct.  |
+| **/ɝ/**  |  (_bird_)   |                | **Stressed** r-colored vowel. The tongue retracts slightly into an /r/-like shape. |
+| **/ɚ/**  | (_butter_)  |                | **Unstressed** r-colored vowel. Completely unlike Japanese *a* and often coordinated with a flap. |
 
 :  {.tbl-pron2 .tbl-header-center .tbl-forth-column-wrapping tbl-colwidths=[1,1,1,1,1] }
 
-#### 二重母音（滑り音）
+#### Diphthongs (Glides)
 
-|   IPA    |    実例    |   動き   | 説明                                   |
-| :------: | :--------: | :------: | -------------------------------------- |
-| **/eɪ/** |  (_bait_)  | /e/→/ɪ/ | 短く滑る。日本語「エイ」より後半短い。 |
-| **/oʊ/** |  (_goat_)  | /o/→/ʊ/ | 日本語「オウ」より後半短く、丸め維持。 |
-| **/aɪ/** | (_price_)  | /a/→/ɪ/ | 開始を低く大きく開く。                 |
-| **/aʊ/** | (_mouth_)  | /a/→/ʊ/ | 後半で丸める。                         |
-| **/ɔɪ/** | (_choice_) | /ɔ/→/ɪ/ | 開始は丸め気味の「オ」。               |
+|   IPA    |   Example   |  Movement  | Description                                                  |
+| :------: | :---------: | :--------: | :----------------------------------------------------------- |
+| **/eɪ/** |  (_bait_)   | /e/ -> /ɪ/ | A short glide; the second half is shorter than Japanese *ei*. |
+| **/oʊ/** |  (_goat_)   | /o/ -> /ʊ/ | Shorter in the second half than Japanese *ou*, while keeping lip rounding. |
+| **/aɪ/** | (_price_)   | /a/ -> /ɪ/ | Begin low with a wide opening.                               |
+| **/aʊ/** | (_mouth_)   | /a/ -> /ʊ/ | Round the lips in the second half.                           |
+| **/ɔɪ/** | (_choice_)  | /ɔ/ -> /ɪ/ | Begins with a somewhat rounded *o* quality.                  |
 : {.tbl-pron2}
 
-#### r 付き（r-colored）複合
+#### r-Colored Combinations
 
-|    IPA    |    実例    |        動き         | 説明                                                              |
-| :-------: | :--------: | :-----------------: | :---------------------------------------------------------------- |
-| **/ɪɚ/**  |  (_near_)  | **/ɪ/** → **/ɚ/**  | **母音＋\[ɚ]**の一まとまり。**終端でr化**（舌端は**触れない**）。 |
-| **/ɛɚ/**  | (_square_) | **/ɛ/** → **/ɚ/**  | 開始母音の**質を保ち**、**末尾でr色**。                           |
-| **/ʊɚ/**  |  (_cure_)  | **/ʊ/** → **/ɚ/**  | **短いウ**から**r化**へ。語により **/kjʊr/** など変異。           |
-| **/ɔɚ/**  | (_north_)  | **/ɔ/** → **/ɚ/**  | **丸めたオ**始まり→**r化**。方言差大。                           |
-| **/ɑɚ/** | (_start_)  | **/ɑ/** → **/ɚ/** | **広いア**始まり→**r化**。                                       |
+|    IPA    |   Example   |       Movement       | Description                                                                     |
+| :-------: | :---------: | :------------------: | :------------------------------------------------------------------------------ |
+| **/ɪɚ/**  |  (_near_)   | **/ɪ/** -> **/ɚ/**  | A single unit of **vowel + [ɚ]**. It becomes **r-colored at the end** without the tongue tip making contact. |
+| **/ɛɚ/**  | (_square_)  | **/ɛ/** -> **/ɚ/**  | Keep the initial vowel quality and add **r-coloring at the end**.               |
+| **/ʊɚ/**  |  (_cure_)   | **/ʊ/** -> **/ɚ/**  | Moves from a **short u** into **r-coloring**. Some words vary, such as **/kjʊr/**. |
+| **/ɔɚ/**  | (_north_)   | **/ɔ/** -> **/ɚ/**  | Begins with a **rounded o** and then becomes **r-colored**. Large dialect differences. |
+| **/ɑɚ/**  | (_start_)   | **/ɑ/** -> **/ɚ/**  | Begins with a **broad a** and then becomes **r-colored**.                        |
 
 :  {.tbl-pron2}
-

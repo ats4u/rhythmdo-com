@@ -1,60 +1,58 @@
-### 英語の方言による子音変化の地方別マトリックス
+### Regional Matrix of Dialectal Consonant Changes in English
 
-| 方言     | THフロンティング | THストッピング | 有声THフロンティング | T声門化    | フラッピング | -ing 脱落 | Lヴォーカリゼーション | h脱落 | ヨッド合流 | ヨッド脱落   | wh–wコントラスト | 多重末子音脱落 | t脱落      | リンキングr | 侵襲的R | 非R音声 | Rの反り舌/盛り舌 | 歯音化   |
-| -------- | ---------------- | -------------- | -------------------- | ---------- | ------------ | --------- | --------------------- | ----- | ---------- | ------------ | ----------------- | -------------- | ---------- | ----------- | ------- | ------- | ---------------- | -------- |
-| アメ般   |                  |                |                      | 子音前限定 | あり         | タメ口    |                       |       | 連音       | あり         |                   | タメ口         | タメ口     |             |         |         | 可変             |          |
-| アメNY   |                  |                |                      | あり       | あり         | タメ口    | 末子音L化             |       | あり       | 可変         |                   | タメ口         | 子音前限定 |             |         | 老化    | 可変             | 歯音同化 |
-| アメユ   |                  |                |                      | あり       | あり         | タメ口    | 末子音L化             |       | あり       | 可変         |                   | タメ口         | 子音前限定 |             |         | 可変    | 可変             | 歯音同化 |
-| アメ南   |                  | 可変           |                      | 子音前限定 | あり         | あり      | 末子音L化             |       | 連音       | あり         | wh保持            | タメ口         | タメ口     |             |         | 老化    | 反り舌           | 歯音同化 |
-| アメ黒   | 末子音限定       | あり           | 末子音限定           | 子音前限定 | あり         | あり      | 可変                  |       | 連音       | アメ黒ヨッド | wh保持            | あり           | あり       |             |         |         | 可変             | 歯音同化 |
-| アメボス |                  |                |                      | 子音前限定 | あり         | タメ口    |                       |       | 可変       | 可変         |                   | タメ口         | 子音前限定 | 侵襲的      | 侵襲的  | 老化    | 反り舌           |          |
-| アメ西   |                  |                |                      | 子音前限定 | あり         | タメ口    |                       |       | 連音       | あり         |                   | タメ口         | タメ口     |             |         |         | 可変             |          |
-| アメアパ |                  | 可変           |                      | 子音前限定 | あり         | あり      | 末子音L化             |       | 連音       | あり         | 老化              | 口語           | 子音前限定 |             |         |         | 可変             |          |
-| アメミド |                  |                |                      | 子音前限定 | あり         | タメ口    |                       |       | 連音       | あり         |                   | タメ口         | タメ口     |             |         |         | 可変             |          |
-| オス英   | 都市若者         |                | 都市若者             | あり       | あり         | タメ口    | あり                  |       | あり       | あり         |                   | 口語           | 子音前限定 | 侵襲的      | 侵襲的  | あり    | 可変             |          |
-| カナ英   |                  |                |                      | 子音前限定 | あり         | タメ口    |                       |       | 連音       | あり         |                   | タメ口         | タメ口     |             |         |         | 可変             |          |
-| スコ英   | グラスゴー       |                | グラスゴー           | あり       |              | タメ口    |                       |       |            | あり         | あり              | 口語           | 子音前限定 |             |         |         | 可変             | 歯音同化 |
-| アイ英   |                  | ダブリン       | ダブリン             | 可変       | 可変         | タメ口    |                       |       | 可変       |              | あり              | 口語           | 子音前限定 |             |         |         | 可変             | あり     |
-| 北英     | 都市若者         | 可変           | 都市若者             | あり       |              | タメ口    | 可変                  | 可変  | あり       | あり         | 老化              | 口語           | 子音前限定 | 侵襲的      | 侵襲的  | あり    |                  | あり     |
-| ジョー英 | 都市若者         | 可変           | 都市若者             | 可変       |              | タメ口    | 可変                  | 可変  | あり       | あり         | 老化              | 口語           | 子音前限定 | 侵襲的      | 侵襲的  | あり    |                  | あり     |
-| ヨク英   | 都市若者         | 可変           | 都市若者             | あり       |              | タメ口    | 可変                  | 可変  | あり       | あり         | 老化              | 口語           | 子音前限定 | 侵襲的      | 侵襲的  | あり    |                  | あり     |
-| ウエ英   | 都市若者         |                |                      | 可変       |              | タメ口    | 可変                  | 可変  | 可変       |              | あり              | 口語           | 子音前限定 | 可変        | 可変    | 可変    |                  | 歯音同化 |
-| ブリ英   |                  |                |                      | 子音前限定 |              | タメ口    | 若年                  |       | あり       |              | 老化              | 口語           | 子音前限定 | 侵襲的      | 侵襲的  | あり    |                  | 歯音同化 |
-| 多英     | あり             | あり           | あり                 | あり       |              | タメ口    | あり                  | 可変  | あり       | 可変         |                   | あり           | 子音前限定 | 侵襲的      | 侵襲的  | あり    |                  | 歯音同化 |
-| コク英   | あり             | あり           | あり                 | あり       |              | あり      | あり                  | あり  | あり       | 可変         |                   | あり           | あり       | 侵襲的      | 侵襲的  | あり    |                  | あり     |
-| エス英   | あり             | 可変           | 可変                 | あり       |              | タメ口    | あり                  | 可変  | あり       | 可変         |                   | あり           | あり       | 侵襲的      | 侵襲的  | あり    |                  | 歯音同化 |
-| イン英   |                  | あり           |                      |            |              |           |                       |       |            |              |                   | 母音挿入傾向   |            |             |         |         |                  | あり     |
-| シン英   |                  | あり           |                      |            |              |           |                       |       |            |              |                   | あり           | 口語       | 侵襲的      | 侵襲的  | あり    |                  |          |
-| ニュ英   | 都市若者         |                | 都市若者             | あり       | あり         | タメ口    | あり                  |       | あり       | 可変         |                   | 口語           | 子音前限定 | 侵襲的      | 侵襲的  | あり    |                  |          |
-| 東ア英   |                  | あり           |                      |            |              |           |                       |       |            |              |                   | あり           | 口語       |             |         |         |                  |          |
-| 西ア英   |                  | あり           |                      |            |              |           |                       |       |            |              |                   | あり           | 口語       |             |         |         |                  |          |
-| 南ア英   |                  |                |                      | あり       |              | タメ口    | あり                  |       | あり       | 可変         |                   | 口語           | 子音前限定 | 侵襲的      | 侵襲的  | あり    |                  | 歯音同化 |
+| Dialect | TH-fronting | TH-stopping | Voiced TH-fronting | T-glottalization | Flapping | -ing dropping | L-vocalization | h-dropping | Yod-coalescence | Yod-dropping | wh-w contrast | Final cluster<br/>simplification | t-deletion | Linking r | Intrusive r | Non-rhoticity | Retroflex/<br/>bunched r | Dentalization |
+| ------- | ----------- | ----------- | ------------------ | ---------------- | -------- | ------------- | --------------- | ---------- | ---------------- | ------------ | ------------- | ------------------------------- | ---------- | --------- | ----------- | ------------- | ------------------------ | ------------- |
+| [GA](#GA) |  |  |  | preC | O | informal |  |  | sandhi | O |  | informal | informal |  |  |  | var |  |
+| [NYCAmE](#NYCE) |  |  |  | O | O | informal | codaL |  | O | var |  | informal | preC |  |  | older | var | before_th |
+| [JewAmE](#JAE) |  |  |  | O | O | informal | codaL |  | O | var |  | informal | preC |  |  | var | var | before_th |
+| [SAmE](#SAmE) |  | var |  | preC | O | O | codaL |  | sandhi | O | wholder | informal | informal |  |  | older | retroflex | before_th |
+| [AAVE](#AAVE) | final | O | final | preC | O | O | var |  | sandhi | aave_yod | wholder | O | O |  |  |  | var | before_th |
+| [BostAmE](#BostE) |  |  |  | preC | O | informal |  |  | var | var |  | informal | preC | O | O | older | retroflex |  |
+| [WAmE](#WAmE) |  |  |  | preC | O | informal |  |  | sandhi | O |  | informal | informal |  |  |  | var |  |
+| [AppAmE](#AppE) |  | var |  | preC | O | O | codaL |  | sandhi | O | older | colloquial | preC |  |  |  | var |  |
+| [MidwAmE](#MidwE) |  |  |  | preC | O | informal |  |  | sandhi | O |  | informal | informal |  |  |  | var |  |
+| [AusE](#AusE) | urban |  | urban | O | O | informal | O |  | O | O |  | colloquial | preC | O | O | O | var |  |
+| [CanE](#CanE) |  |  |  | preC | O | informal |  |  | sandhi | O |  | informal | informal |  |  |  | var |  |
+| [ScotE](#ScotE) | glasgow |  | glasgow | O |  | informal |  |  |  | O | O | colloquial | preC |  |  |  | var | before_th |
+| [IreE](#IrE) |  | dublin | dublin | var | var | informal |  |  | var |  | O | colloquial | preC |  |  |  | var | O |
+| [NEngE](#NEngE) | urban | var | urban | O |  | informal | var | var | O | O | older | colloquial | preC | O | O | O |  | O |
+| [Geordie](#Geordie) | urban | var | urban | var |  | informal | var | var | O | O | older | colloquial | preC | O | O | O |  | O |
+| [YorkE](#YorkE) | urban | var | urban | O |  | informal | var | var | O | O | older | colloquial | preC | O | O | O |  | O |
+| [WelshE](#WelshE) | urban |  |  | var |  | informal | var | var | var |  | O | colloquial | preC | var | var | var |  | before_th |
+| [RP](#RP) |  |  |  | preC |  | informal | younger |  | O |  | older | colloquial | preC | O | O | O |  | before_th |
+| [MLE](#MLE) | O | O | O | O |  | informal | O | var | O | var |  | O | preC | O | O | O |  | before_th |
+| [Cockney](#Cockney) | O | O | O | O |  | O | O | O | O | var |  | O | O | O | O | O |  | O |
+| [Estuary](#Estuary) | O | var | var | O |  | informal | O | var | O | var |  | O | O | O | O | O |  | before_th |
+| [IndE](#IndE) |  | O |  |  |  |  |  |  |  |  |  | epenth |  |  |  |  |  | O |
+| [SgE](#SgE) |  | O |  |  |  |  |  |  |  |  |  | O | colloquial | O | O | O |  |  |
+| [NZE](#NZE) | urban |  | urban | O | O | informal | O |  | O | var |  | colloquial | preC | O | O | O |  |  |
+| [EAffE](#EAfE) |  | O |  |  |  |  |  |  |  |  |  | O | colloquial |  |  |  |  |  |
+| [WAffE](#WAfE) |  | O |  |  |  |  |  |  |  |  |  | O | colloquial |  |  |  |  |  |
+| [SAffE](#SAfE) |  |  |  | O |  | informal | O |  | O | var |  | colloquial | preC | O | O | O |  | before_th |
 
-:  {.tbl-pron2 .tbl-colored-column-header  .tbl-colored-row-header .tbl-header-center .tbl-body-center .tbl-freeze-row-header .tbl-freeze-column-header .tbl-japanese-rotate-90  tbl-colwidths=[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,] }
+:  {.tbl-pron2 .tbl-colored-column-header .tbl-colored-row-header .tbl-header-center .tbl-body-center .tbl-freeze-row-header .tbl-freeze-column-header tbl-colwidths=[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1] }
 
-| 英語略称       | 日本語略称   | 日本語の解説                                                                     |
-| -------------- | ------------ | -------------------------------------------------------------------------------- |
-| final          | 末子音限定   | THフロンティングは主に**語末子音**で起こる（例：*mouth → mouf*）。              |
-| preC           | 子音前限定   | **子音前・語末**の位置に限定される（例：*button → [bʌʔn̩]*）。                   |
-| informal       | タメ口       | **非形式的／日常会話**で現れるが、必ずしも体系的ではない。                       |
-| sandhi         | 連音         | **連続発話／連音環境**で主に現れる（例：*did you → dɪdʒu*）。                   |
-| var            | 可変         | 地域・集団・スタイルによって**変動的**であり、安定した特徴ではない。             |
-| older          | 老化         | **年長層に保持**されるが、若い世代では衰退している。                             |
-| urban          | 都市若者     | **都市部の若者**に典型的な革新で、地方の話者には広がっていない。                 |
-| linking        | 侵襲的       | 非R音声方言で**母音間に侵襲的r**が現れる。                                       |
-| after_alveolar | 歯茎後脱落   | **歯茎音・冠状音の後**でヨッド脱落が主に起こる（例：*tune → tuːn*）。          |
-| before_th      | 歯音同化     | /t d n l/ が **/θ ð/ の前で歯音化**する（逆行同化=regressive assimilation）。  |
-| dublin         | ダブリン     | ダブリン英語ではアイルランド他地域より**THストッピング／フロンティング**が多い。 |
-| glasgow        | グラスゴー   | グラスゴー英語は他のスコットランド方言より**THフロンティング**が顕著。           |
-| wholder        | wh保持       | **wh–wの対立**（[ʍ] vs [w]）は南部やアメ黒の年長層に保持され、他では失われた。  |
-| codaL          | 末子音L化    | **音節末（コーダ）**でLが母音化する現象。                                        |
-| epenth         | 母音挿入傾向 | 子音連続の解消に**脱落よりも母音挿入**を好む傾向。                               |
-| aave_yod       | アメ黒ヨッド | 一部のアメ黒方言で **/juː→uː** の縮約が限定的に起こる。                       |
-| younger        | 若年         | **若年層**に多く見られる（例：若いRP話者、エスチュアリの影響）。                 |
-| colloquial     | 口語         | **速い／口語的発話**でのみ子音連続の簡略化や /t/ 脱落が生じる。                  |
-| retroflex      | 反り舌       | 侵襲的末子音を発音する時、Rで反り舌を利用する。                                  |
-| bunched        | 盛り舌       | 侵襲的末子音を発音する時、Rで盛り舌を利用する。                                  |
+| Code | Japanese Shorthand | Romaji (Hepburn) | Description |
+| ---- | ------------------ | ---------------- | ----------- |
+| O | あり | Ari | Present or clearly attested as a recognized feature in the dialect. |
+| final | 末子音限定 | Matsushiin gentei | TH-fronting occurs mainly in **word-final consonants** (e.g., *mouth -> mouf*). |
+| preC | 子音前限定 | Shiinzen gentei | Restricted to **pre-consonantal or word-final** position (e.g., *button -> [bʌʔn̩]*). |
+| informal | タメ口 | Tameguchi | Appears in **informal or everyday speech**, but is not necessarily fully systematic. |
+| sandhi | 連音 | Ren'on | Occurs mainly in **connected speech / sandhi environments** (e.g., *did you -> dɪdʒu*). |
+| var | 可変 | Kahen | **Variable** by region, group, or style, and not a stable hallmark. |
+| older | 老化 | Rōka | Preserved mainly by **older speakers**, but receding among younger generations. |
+| urban | 都市若者 | Toshi wakamono | An innovation typical of **urban youth**, not broadly spread to rural speakers. |
+| dublin | ダブリン | Daburin | Dublin English shows more **TH-stopping/fronting** than other varieties in Ireland. |
+| glasgow | グラスゴー | Gurasugō | Glasgow English shows more prominent **TH-fronting** than other Scottish dialects. |
+| wholder | wh保持 | wh hoji | The **wh-w contrast** ([ʍ] vs [w]) is preserved among older Southern speakers and some AAVE speakers, but lost elsewhere. |
+| codaL | 末子音L化 | Matsushiin L-ka | L-vocalization occurs mainly in **coda (syllable-final)** position. |
+| epenth | 母音挿入傾向 | Boin sōnyū keikō | There is a tendency to prefer **epenthesis (vowel insertion)** rather than deletion in resolving consonant clusters. |
+| aave_yod | アメ黒ヨッド | Ame-kuro yoddo | In some AAVE varieties, the reduction **/juː -> uː/** occurs only in limited contexts. |
+| younger | 若年 | Jakunen | Found more often among **younger speakers** (e.g., younger RP speakers under Estuary influence). |
+| colloquial | 口語 | Kōgo | Cluster simplification or /t/-deletion occurs only in **fast or colloquial speech**. |
+| retroflex | 反り舌 | Sorijita | R is realized with a **retroflex articulation** when the relevant postvocalic or intrusive R is pronounced. |
+| before_th | 歯音同化 | Shion dōka | /t d n l/ are **dentalized before /θ ð/** (regressive assimilation). |
 
-:  {.tbl-pron2 .tbl-header-center .tbl-second-column-wrapping  tbl-colwidths=[1,10] }
+:  {.tbl-pron2 .tbl-header-center .tbl-second-column-wrapping tbl-colwidths=[1,1,1,10] }
 
 <!--

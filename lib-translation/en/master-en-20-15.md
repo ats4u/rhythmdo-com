@@ -1,3 +1,3 @@
-### 英語の音韻学の用語集
+### Glossary of English Phonetics
 
 <!--

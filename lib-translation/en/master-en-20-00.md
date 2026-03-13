@@ -1,4 +1,3 @@
-## 英語の正しい発音法 <!-- {#phonetics} -->
+## Proper English Pronunciation <!-- {#phonetics} -->
 
-この節ではオフビートカウントと音韻学の関係を説明し、オフビートカウントを行う上での適切な発音方法について学びます。 リズムに合わせて英語で数字の数えるときのその発音とリズムだけに絞って完璧に習得すると、英語全体の話す能力と聞き取る能力が完璧になります。またこの練習方法はジャズなどの音楽でのグルーヴ能力を大幅に向上させます。
-
+This section explains the relationship between Offbeat Count and phonology, and teaches the appropriate pronunciation method for performing Offbeat Count. If you focus only on the pronunciation and rhythm used when counting numbers in English to a beat and master them perfectly, your overall English speaking and listening ability will become complete. This training method also greatly improves groove ability in music such as jazz.

@@ -1,4 +1,4 @@
-### (非表示)英語の方言の一覧(英語での説明)
+### (Hidden) List of English Dialects (English Descriptions)
 | English Name                                  | English Description                                                                                                                                                                                                        |
 | --------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | General American []{#GA}                      | General American (neutralized, “newscaster” type American accent).                                                                                                                                                       |
@@ -30,4 +30,3 @@
 | South African English []{#SAfE}               | Distinct vowel system (e.g., *kit* → [kət]); multiple sub-varieties including White South African English and Cape Flats English.                                                                                         |
 :  {.tbl-pron2 .tbl-header-center .tbl-second-column-wrapping tbl-colwidths=[1,1,1,1,1] }
 -->
-

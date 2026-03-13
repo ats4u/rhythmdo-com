@@ -7941,250 +7941,247 @@ Example: かささぎの わたせる橋におく霜の 白きを見れば夜ぞ
 
 
 
-## 英語の正しい発音法 <!-- {#phonetics} -->
+## Proper English Pronunciation <!-- {#phonetics} -->
 
-この節ではオフビートカウントと音韻学の関係を説明し、オフビートカウントを行う上での適切な発音方法について学びます。 リズムに合わせて英語で数字の数えるときのその発音とリズムだけに絞って完璧に習得すると、英語全体の話す能力と聞き取る能力が完璧になります。またこの練習方法はジャズなどの音楽でのグルーヴ能力を大幅に向上させます。
+This section explains the relationship between Offbeat Count and phonology, and teaches the appropriate pronunciation method for performing Offbeat Count. If you focus only on the pronunciation and rhythm used when counting numbers in English to a beat and master them perfectly, your overall English speaking and listening ability will become complete. This training method also greatly improves groove ability in music such as jazz.
 
-### 英語でのリズム練習の重要性
+### The Importance of Rhythm Practice in English
 
-日本の英語教育で教わる英語の発音の知識は、明らかに不足しています。 ここでは不足している知識に絞って重点的に説明致します。
+The knowledge of English pronunciation taught in Japanese English education is clearly insufficient. Here I will focus specifically on the missing knowledge and explain it in concentrated form.
 
-英語を学ぶ歳、日本語と英語の発音の違いを学ぶことを全てに優先すべきです。英語の意味はわからなくても英語が聴き取れるという状態を作ってから英語を学ぶことで以降の英語の学習効果を劇的に向上させることが出来るからです。
+When learning English, you should prioritize learning the differences between Japanese and English pronunciation above everything else. Even if you do not yet understand the meaning of English, creating a state in which you can hear English first and then studying the language dramatically improves the effectiveness of all later English study.
 
-英語の発音が聴き取れていれば、英語の全ての知識はぼんやりと英語の情報にふれているだけで自然に身についていきます。何故ならセサミストリートを始め、英語させ聴き取れれば英語の教材は無数に存在するからです。 音楽を聞いていても、映画を見ていても、ぼんやりとインターネットを見ているときでも、ぼんやりとYouTubeを見ながら時間を溶かしていても、ぼんやりとねっころがりながら x/ツイッター を眺めてているだけでも、英語の知識は身についていきます。
+If you can hear English pronunciation, all English knowledge is acquired naturally just by casually being exposed to English information. That is because, beginning with Sesame Street, there are countless English learning materials available as long as you can hear English. Whether you are listening to music, watching movies, casually browsing the internet, letting time melt away while watching YouTube, or simply lying around and scrolling through X/Twitter, English knowledge keeps accumulating.
 
-こう考えると素晴らしいことのように思えます。そんな夢のようなことがある筈ないと仰るかも知れません。
+This may sound wonderful. You may think that nothing so dreamlike could possibly be true.
 
-しかし逆の状況を考えると悲惨です ─── どんなに勉強しても英語の発音が聴き取れなければ何も意味がないからです。
+But if you consider the opposite situation, it is disastrous: no matter how much you study, if you cannot hear English pronunciation, none of it means anything.
 
-どんなに英単語をたくさん覚えても眼の前にある単語を聴き取ることすらできません。
+No matter how many English words you memorize, you cannot even hear the words right in front of you.
 
-どんなに英文法をたくさん勉強しても、眼の前にある文法に気付くことすらできません。
+No matter how much English grammar you study, you cannot even notice the grammar right in front of you.
 
-どんなに長文読解を行っても、映画すら見て理解することが出来ません。
+No matter how much long-form reading practice you do, you cannot even watch a movie and understand it.
 
-どんなに発音練習をしても、相手から言い返された反応が聴き取れません。
+No matter how much pronunciation practice you do, you cannot hear the response when someone answers you back.
 
-日本語は、表意文字の文化です。文字が発音から乖離して浮遊しているという世界的に見てとても珍しい言語です。
+Japanese is part of an ideographic writing culture. It is a very unusual language, globally speaking, in which writing floats free from pronunciation.
 
-しかし英語は、表音文字の文化です。発音と意味が密接に結びついており、発音が理解出来ない限り、意味も理解出来ないのです。
+English, however, is part of a phonographic writing culture. Pronunciation and meaning are closely bound together, and unless pronunciation is understood, meaning cannot be understood either.
 
-発音がわからない状態でいくら英語の知識を学んでも、無限のたゆまぬ努力の時間を必要とするだけで、何の有意義な結果も生み出しません。
+No matter how much English knowledge you study while remaining unable to grasp pronunciation, it only demands endless time and effort and produces no meaningful result.
 
-全ての勉強よりも、発音の訓練を優先する。
+Prioritize pronunciation training above every other kind of study.
 
-日本人が理解出来ないものは、発音ではなく、リズムです。
+What Japanese people cannot understand is not pronunciation, but rhythm.
 
-日本語は子音よりも母音が長いという世界的にも稀に見る珍しい言語です。
+Japanese is a highly unusual language, even globally, in that its vowels are longer than its consonants.
 
-だから母音よりも子音を長くする必要があります。
+That is why the consonants must be made longer than the vowels.
 
-すると何が起こるかというと、裏拍が聴き取れない日本人のジレンマとぶつかるのです。
+And what happens then is that it collides with the dilemma of Japanese listeners, who cannot hear offbeats.
 
-つまり必要なのは、発音練習ではなくリズムトレーニングなのです。
-
-
-### 英語の発音は変化する
-
-英語には標準語がありません。ロシア語・フランス語・ドイツ語は、政府機関が国の標準語を定めています。しかし英語にはこの様な公式な標準語制定機関が存在しません。その代わりに、いくつかの「標準英語の提案」を行っている有力な機関がありますが、強制力までは持っていません。
-
-つまり英語は、沢山の方言があります。つまり、英語の正しい発音を学べば学ぶほど、英語は聴き取れなくなっていきます ─── これは初学者にとって、最初にぶつかる最大の関門です。
+In other words, what is needed is not pronunciation practice but rhythm training.
 
 
-これに対処するためには「英語を学び始めた最初から訛りに対する知識を身につける」しかありません。こういうととても難しいことのように思えますが、実は英語の訛りの規則は、とてもよく研究されており、コンパクトにまとまっています。
+### English Pronunciation Changes
 
-ジャズのリズムと米国南部方言には強い関連性があります。そしてAAVEと呼ばれる『黒人英語』は、ジャズのリズムとは切っても切り離せない深い関連性があります。ジャズを学ぶためには英語の発音を学ぶ事が大切ですが、特にこの米国南部方言と黒人英語の２つの英語の方言を学ぶことはとても重要です。
+English has no official standard language. Russian, French, and German have government institutions that define the national standard language. English, however, has no such official institution that establishes a standard. Instead, there are several influential institutions that propose forms of "standard English," but they do not have coercive authority.
 
-ここでは標準的な英語と数多く存在する英語の方言の理解に必要な発音を順に学んでいきます。
+In other words, English has many dialects. And that means that the more accurately you learn "correct" English pronunciation, the harder English can become to hear. For beginners, this is the first major barrier they run into.
 
-### 英語の全方言で現れる母音一覧
+The only way to deal with this is to acquire knowledge of accent and dialect variation from the very beginning of learning English. That may sound difficult, but in fact the rules of English accent variation have been studied very thoroughly and can be summarized compactly.
 
-#### 単母音
+Jazz rhythm is strongly connected to Southern U.S. dialects. And the variety called AAVE, "Black English," has an especially deep connection to jazz rhythm. Learning English pronunciation is important for learning jazz, but learning these two varieties in particular, Southern American English and AAVE, is extremely important.
 
-|   IPA    |    実例     |    舌の位置    | 説明                                                               |
-| :------: | :---------: | :------------: | :----------------------------------------------------------------- |
-| **/i/**  |  (_beat_)   |     高・前     | 日本語「イー」より前で緊張、口は横に。                             |
-| **/ɪ/**  |   (_bit_)   |     高・前     | 「イ」だが力を抜く。「イ」と「エ」の間、短い。                     |
-| **/ɛ/**  |   (_bet_)   |     中・前     | 日本語「エ」より低く開く、横に広げる。                             |
-| **/æ/** |   (_bat_)   |     低・前     | 大きく開く。「アとエの間」。日本語に無い。                         |
-| **/ɑ/** | (_father_)  |     低・後     | 唇広め、喉奥で「ア」。                                             |
-| **/ɔ/**  | (_thought_) |     中・後     | 軽く丸めた「オー」。※多くの米語で /ɑ/ と合流。                   |
-| **/ʊ/**  |  (_book_)   |     高・後     | 力を抜く。「ウとオの間」、軽く丸める。                             |
-| **/u/**  |  (_boot_)   |     高・後     | 緊張。「ウー」より強く丸め後方。                                   |
-| **/ʌ/**  |  (_strut_)  | 中央・短く平ら | 「アとオの間」。日本語に無い。                                     |
-| **/ə/**  |  (_sofa_)   |                | 弱勢の中央母音＝『**シュワ**』と呼ばれる。短く弱い曖昧な母音。     |
-| **/ɝ/**  |  (_bird_)   |                | **強勢**の r 化母音。舌を後方やや反り気味に /r/ 的発音に変化。     |
-| **/ɚ/**  | (_butter_)  |                | **弱勢**の r 化母音。日本語「ア」と全く違う。flap と連動しやすい。 |
+Here we will study, in sequence, the pronunciations necessary for understanding both standard English and the many English dialects that exist.
+
+### Vowels Found Across English Dialects
+
+#### Monophthongs
+
+|   IPA    |   Example   | Tongue Position | Description                                                              |
+| :------: | :---------: | :------------: | :----------------------------------------------------------------------- |
+| **/i/**  |  (_beat_)   |  high, front   | Tense and farther forward than Japanese *ii*; lips spread sideways.      |
+| **/ɪ/**  |   (_bit_)   |  high, front   | An *i*-like vowel but relaxed; between Japanese *i* and *e*, and short.  |
+| **/ɛ/**  |   (_bet_)   | middle, front  | Lower and more open than Japanese *e*; lips spread.                      |
+| **/æ/**  |   (_bat_)   |   low, front   | Open widely; between *a* and *e*. Not found in Japanese.                 |
+| **/ɑ/**  | (_father_)  |   low, back    | A back *a* made deeper in the throat, with relatively spread lips.       |
+| **/ɔ/**  | (_thought_) | middle, back   | A lightly rounded "aw." In many American dialects it merges with /ɑ/.    |
+| **/ʊ/**  |  (_book_)   |  high, back    | Relaxed; between Japanese *u* and *o*, with slight rounding.             |
+| **/u/**  |  (_boot_)   |  high, back    | Tense; more strongly rounded and farther back than Japanese *uu*.        |
+| **/ʌ/**  |  (_strut_)  | central, short | Between *a* and *o*, central and short. Not found in Japanese.           |
+| **/ə/**  |  (_sofa_)   |                | Unstressed central vowel called **schwa**. Short, weak, and indistinct.  |
+| **/ɝ/**  |  (_bird_)   |                | **Stressed** r-colored vowel. The tongue retracts slightly into an /r/-like shape. |
+| **/ɚ/**  | (_butter_)  |                | **Unstressed** r-colored vowel. Completely unlike Japanese *a* and often coordinated with a flap. |
 
 :  {.tbl-pron2 .tbl-header-center .tbl-forth-column-wrapping tbl-colwidths=[1,1,1,1,1] }
 
-#### 二重母音（滑り音）
+#### Diphthongs (Glides)
 
-|   IPA    |    実例    |   動き   | 説明                                   |
-| :------: | :--------: | :------: | -------------------------------------- |
-| **/eɪ/** |  (_bait_)  | /e/→/ɪ/ | 短く滑る。日本語「エイ」より後半短い。 |
-| **/oʊ/** |  (_goat_)  | /o/→/ʊ/ | 日本語「オウ」より後半短く、丸め維持。 |
-| **/aɪ/** | (_price_)  | /a/→/ɪ/ | 開始を低く大きく開く。                 |
-| **/aʊ/** | (_mouth_)  | /a/→/ʊ/ | 後半で丸める。                         |
-| **/ɔɪ/** | (_choice_) | /ɔ/→/ɪ/ | 開始は丸め気味の「オ」。               |
+|   IPA    |   Example   |  Movement  | Description                                                  |
+| :------: | :---------: | :--------: | :----------------------------------------------------------- |
+| **/eɪ/** |  (_bait_)   | /e/ -> /ɪ/ | A short glide; the second half is shorter than Japanese *ei*. |
+| **/oʊ/** |  (_goat_)   | /o/ -> /ʊ/ | Shorter in the second half than Japanese *ou*, while keeping lip rounding. |
+| **/aɪ/** | (_price_)   | /a/ -> /ɪ/ | Begin low with a wide opening.                               |
+| **/aʊ/** | (_mouth_)   | /a/ -> /ʊ/ | Round the lips in the second half.                           |
+| **/ɔɪ/** | (_choice_)  | /ɔ/ -> /ɪ/ | Begins with a somewhat rounded *o* quality.                  |
 : {.tbl-pron2}
 
-#### r 付き（r-colored）複合
+#### r-Colored Combinations
 
-|    IPA    |    実例    |        動き         | 説明                                                              |
-| :-------: | :--------: | :-----------------: | :---------------------------------------------------------------- |
-| **/ɪɚ/**  |  (_near_)  | **/ɪ/** → **/ɚ/**  | **母音＋\[ɚ]**の一まとまり。**終端でr化**（舌端は**触れない**）。 |
-| **/ɛɚ/**  | (_square_) | **/ɛ/** → **/ɚ/**  | 開始母音の**質を保ち**、**末尾でr色**。                           |
-| **/ʊɚ/**  |  (_cure_)  | **/ʊ/** → **/ɚ/**  | **短いウ**から**r化**へ。語により **/kjʊr/** など変異。           |
-| **/ɔɚ/**  | (_north_)  | **/ɔ/** → **/ɚ/**  | **丸めたオ**始まり→**r化**。方言差大。                           |
-| **/ɑɚ/** | (_start_)  | **/ɑ/** → **/ɚ/** | **広いア**始まり→**r化**。                                       |
+|    IPA    |   Example   |       Movement       | Description                                                                     |
+| :-------: | :---------: | :------------------: | :------------------------------------------------------------------------------ |
+| **/ɪɚ/**  |  (_near_)   | **/ɪ/** -> **/ɚ/**  | A single unit of **vowel + [ɚ]**. It becomes **r-colored at the end** without the tongue tip making contact. |
+| **/ɛɚ/**  | (_square_)  | **/ɛ/** -> **/ɚ/**  | Keep the initial vowel quality and add **r-coloring at the end**.               |
+| **/ʊɚ/**  |  (_cure_)   | **/ʊ/** -> **/ɚ/**  | Moves from a **short u** into **r-coloring**. Some words vary, such as **/kjʊr/**. |
+| **/ɔɚ/**  | (_north_)   | **/ɔ/** -> **/ɚ/**  | Begins with a **rounded o** and then becomes **r-colored**. Large dialect differences. |
+| **/ɑɚ/**  | (_start_)   | **/ɑ/** -> **/ɚ/**  | Begins with a **broad a** and then becomes **r-colored**.                        |
 
 :  {.tbl-pron2}
 
-### 英語の全方言で現れる子音一覧
+### Consonants Found Across English Dialects
 
-#### 破裂音 (Plosives)
+#### Plosives
 
-|    IPA    |              Examples              | 分類                                                   | 説明                                                                                                                        | 地方                                                                              |
-| :-------: | :--------------------------------: | :----------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------- |
-|  **/p/**  |             _pin, cap_             | **無声両唇破裂音**                                     | 両唇を閉じて破裂；語頭は**強い息（帯気）**                                                                                  | 全般                                                                              |
-|  **/b/**  |             _bin, cab_             | **有声両唇破裂音**                                     | /p/ と同動作だが**声帯振動**                                                                                                | 全般                                                                              |
-|  **/t/**  |             _two, cat_             | **無声歯茎破裂音**                                     | 語頭は帯気；**/s/** の後は無帯気（_spin_）                                                                                  | 全般                                                                              |
-|  **/d/**  |              _do, ad_              | **有声歯茎破裂音**                                     | /t/ の有声版                                                                                                                | 全般                                                                              |
-|  **[ɾ]**  | _water_ [ˈwɔɾɚ], _ladder_ [ˈlæɾɚ] | 歯茎はじき音<br/>母音間異音(intervocalic realization)  | /t, d/ が母音間や弱強境界で**単一拍のはじき**として実現（GAで標準的）。                                                     | 一般アメリカ英語・AAVE・他の方言で広く見られる。                                  |
-|  **/k/**  |            _key, back_             | **無声軟口蓋破裂音**                                   | 語頭は帯気；/s/ の後は無帯気（_ski_）                                                                                       | 全般                                                                              |
-|  **/g/**  |             _go, bag_              | **有声軟口蓋破裂音**                                   | /k/ の有声版                                                                                                                | 全般                                                                              |
-| **\[ʔ]**  |        _bo\[ʔ]le ≈ bottle_        | **無声音声門破裂音**                                   | **T-glottalization**：/t/ が \[ʔ] に置換                                                                                    | Cockney, Estuary, MLE, 米国 では<br/> /t/ が子音前・音節末で可変<br/>AAVE/GA 一部 |
-|  **[ʈ]**  |        _thirty_ → [ˈθʌʈi]        | **無声反り舌破裂音**                                   | /t/ が**反り舌化**して現れる異音                                                                                            | アイルランド英語<br/>インド英語                                                   |
-|  **[ɖ]**  |        _ladder_ → [ˈlæɖə]        | **有声反り舌破裂音**                                   | /d/ が**反り舌化**して現れる異音                                                                                            | アイルランド英語<br/>インド英語                                                   |
-| **[ʔt]**  |    _football_ → [ˈfʊʔt.bɔːl]     | **声門強化破裂音群**                                   | 語末・子音前の /t/, /p/ が **声門閉鎖 [ʔ] と協調発音**                                                                      | スコットランド英語<br/>北部英語                                                   |
-| **[ʔp]**  |  _help please_ → [ˈhɛʔp pliːz]   | **声門強化破裂音群**                                   | 語末・子音前の /t/, /p/ が **声門閉鎖 [ʔ] と協調発音**                                                                      | スコットランド英語<br/>北部英語                                                   |
-| **[k͡p]**  |       _akpa_ “bag” (loan)        | 無声両唇‐軟口蓋破裂音<br/>（協同調音）                | 両唇と軟口蓋を同時に閉鎖して無声で破裂する音。<br/>英語固有ではないが、西アフリカ英語やクレオールで借用語・固有名に現れる。 | 西アフリカ英語・ナイジェリアピジンなど                                            |
-| **[ɡ͡b]** |          _agbada_ (name)           | 有声両唇‐軟口蓋破裂音<br/>（協同調音）                | 両唇と軟口蓋を同時に閉鎖して有声で破裂する音。<br/>英語固有ではないが、西アフリカ英語やクレオールで借用語・固有名に現れる。 | 西アフリカ英語・ナイジェリアピジンなど                                            |
-|    [q]    |  — (loanwords, Gaelic influence)  | 無声口蓋垂破裂音                                       | 極めて稀な接触方言に見られる発音。<br/>舌の後部を口蓋垂で閉鎖して無声で破裂する音。極めて稀にガエル語影響下の英語で現れる。 | スコットランド英語（ヘブリディーズ地方など）                                      |
-
-
-: {.tbl-pron2}
-
-#### 破擦音 (Affricates)
-
-|        IPA         |         Examples          | 分類                 | 説明                                                               | 地方                                   |
-| :----------------: | :-----------------------: | :------------------- | :----------------------------------------------------------------- | :------------------------------------- |
-|      **/tʃ/**      |       _chin, match_       | **無声後部歯茎破擦** | 「**ch**」＝**/t/ + /ʃ/** の一体化。                               | 全般                                   |
-|      **/dʒ/**      |       _jam, badge_        | **有声後部歯茎破擦** | 「**j**」＝**/d/ + /ʒ/** の一体化。                                | 全般                                   |
-| **\[t͡ʃ] (< /tj/)** |    _tune → \[t͡ʃ]une_     | **派生破擦**         | **Yod-coalescence**（/tj/→\[t͡ʃ]）                                 | **英 (特にCockney)**                   |
-| **\[d͡ʒ] (< /dj/)** |    _duty → \[d͡ʒ]uty_     | **派生破擦**         | **/dj/→\[d͡ʒ]**                                                    | **英 (特にCockney)**                   |
-|      **/ts/**      |     _tsunami, pizza_      | **無声歯茎破擦**     | 外来語に現れる；また *cats* → [kats] のように**語末で強く破擦化** | 外来語全般<br>ヨークシャー/北部英語    |
-|      **/dz/**      |       _kids, adze_        | **有声歯茎破擦**     | 外来語や**語尾の -s が有声子音後で [dz]** となる場合               | 外来語全般<br>英米の一部               |
-|      **[t͡ɕ]**      | _Tuesday → [ˈt͡ɕuːzdeɪ]_ | **無声硬口蓋破擦**   | /tʃ/ が**/j/** の前で口蓋化して現れる異音                          | アイルランド英語<br>スコットランド英語 |
-|      **[d͡ʑ]**      |    _duke → [d͡ʑuːk]_     | **有声硬口蓋破擦**   | /dʒ/ が**/j/** の前で口蓋化して現れる異音                          | アイルランド英語<br>スコットランド英語 |
+|   IPA    |              Examples              | Classification                                         | Description                                                                                                                      | Region                                                                                   |
+| :------: | :--------------------------------: | :----------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------- |
+| **/p/**  |             _pin, cap_             | **voiceless bilabial plosive**                         | Produced by closing both lips and releasing them; strongly aspirated word-initially.                                            | General                                                                                  |
+| **/b/**  |             _bin, cab_             | **voiced bilabial plosive**                            | Same articulation as /p/, but with vocal-fold vibration.                                                                        | General                                                                                  |
+| **/t/**  |             _two, cat_             | **voiceless alveolar plosive**                         | Aspirated word-initially; unaspirated after **/s/**, as in _spin_.                                                              | General                                                                                  |
+| **/d/**  |              _do, ad_              | **voiced alveolar plosive**                            | The voiced counterpart of /t/.                                                                                                   | General                                                                                  |
+| **[ɾ]**  | _water_ [ˈwɔɾɚ], _ladder_ [ˈlæɾɚ] | alveolar tap<br/>intervocalic allophone                | /t, d/ are realized as a **single-beat tap** between vowels or across weak-strong boundaries. Standard in GA.                  | General American, AAVE, and widely in other dialects                                     |
+| **/k/**  |            _key, back_             | **voiceless velar plosive**                            | Aspirated word-initially; unaspirated after /s/, as in _ski_.                                                                   | General                                                                                  |
+| **/g/**  |             _go, bag_              | **voiced velar plosive**                               | The voiced counterpart of /k/.                                                                                                   | General                                                                                  |
+| **[ʔ]**  |        _bo[ʔ]le ≈ bottle_         | **voiceless glottal stop**                             | **T-glottalization**: /t/ is replaced by [ʔ].                                                                                   | Cockney, Estuary English, MLE; variably before consonants or in codas in some U.S. speech; also some AAVE/GA |
+| **[ʈ]**  |        _thirty_ -> [ˈθʌʈi]        | **voiceless retroflex plosive**                        | An allophone in which /t/ is realized with retroflex articulation.                                                              | Irish English<br/>Indian English                                                         |
+| **[ɖ]**  |        _ladder_ -> [ˈlæɖə]        | **voiced retroflex plosive**                           | An allophone in which /d/ is realized with retroflex articulation.                                                              | Irish English<br/>Indian English                                                         |
+| **[ʔt]** |    _football_ -> [ˈfʊʔt.bɔːl]     | **glottally reinforced plosive cluster**               | Word-final or pre-consonantal /t/ and /p/ are coarticulated with a **glottal closure [ʔ]**.                                    | Scottish English<br/>Northern English                                                    |
+| **[ʔp]** |  _help please_ -> [ˈhɛʔp pliːz]   | **glottally reinforced plosive cluster**               | Word-final or pre-consonantal /t/ and /p/ are coarticulated with a **glottal closure [ʔ]**.                                    | Scottish English<br/>Northern English                                                    |
+| **[k͡p]** |       _akpa_ “bag” (loan)        | voiceless labial-velar plosive<br/>(coarticulated)     | Simultaneous bilabial and velar closure, released voicelessly. Not native to English, but found in loanwords and proper names in West African English and creoles. | West African English, Nigerian Pidgin, and related varieties                             |
+| **[ɡ͡b]** |          _agbada_ (name)         | voiced labial-velar plosive<br/>(coarticulated)        | Simultaneous bilabial and velar closure, released with voicing. Not native to English, but found in loanwords and proper names in West African English and creoles. | West African English, Nigerian Pidgin, and related varieties                             |
+| [q] | — (loanwords, Gaelic influence) | voiceless uvular plosive | An extremely rare pronunciation found in contact dialects. It is produced by closing the back of the tongue against the uvula and releasing it voicelessly. | Scottish English (Hebrides and similar areas) |
 
 : {.tbl-pron2}
 
-#### 摩擦音 (Fricatives)
+#### Affricates
 
-|   IPA    |             Examples              | 分類                       | 説明                                                        | 地方                                                           |
-| :------: | :-------------------------------: | :------------------------- | :---------------------------------------------------------- | :------------------------------------------------------------- |
-| **/f/**  |             (_fine_)              | **無声唇歯摩擦音**           | 上歯を下唇に軽く当てる。                                    | 全般                                                           |
-| **/v/**  |             (_vine_)              | **有声唇歯摩擦音**           | /f/ に**声帯振動**を加える。                                | 全般                                                           |
-| **/θ/** |             (_thin_)              | **無声（舌端）歯摩擦**     | 日本語に無い。                                              | 全般                                                           |
-| **/ð/** |             (_this_)              | **有声（舌端）歯摩擦**     | /θ/ と同形で**声帯振動**。                                 | 全般                                                           |
-| **/s/**  |              (_see_)              | **無声歯茎摩擦**           | 唇は**平ら**。                                              | 全般                                                           |
-| **/z/**  |              (_zoo_)              | **有声歯茎摩擦**           | /s/ の有声版。                                              | 全般                                                           |
-| **/ʃ/**  |              (_she_)              | **無声後部歯茎摩擦**       | 舌をやや後ろ，**唇を軽く丸める**。                          | 全般                                                           |
-| **/ʒ/**  |            (_measure_)            | **有声後部歯茎摩擦**       | 外来語中心；語頭は稀。                                      | 全般                                                           |
-| **/h/**  |              (_hat_)              | **無声声門摩擦**           | **次の母音の口形**で息だけ通す。                            | 全般（※方言で**h脱落**が頻発）                                |
-| **[x]**  |       _loch_ [lɔx], _Bach_        | **無声軟口蓋摩擦音**       | 舌後部を軟口蓋に接近させて摩擦音を作る。                    | スコットランド英語<br>アイルランド英語<br>独語・希伯来語借用語 |
-| **[ç]**  | _hue_ [çuː], _human_ [ˈçjuːmən] | **無声硬口蓋摩擦音**       | /hj/ のような環境で /h/ が**口蓋化**して現れる。            | 保守的な英語発音<br>注意深い発話                               |
-| **[ɦ]**  |  intervocalic _ahead_ → [aˈɦɛd]  | **有声音声門摩擦音**       | /h/ が母音間で**有声化**して現れる。                        | アイルランド英語<br>北部英語                                   |
-| **[ʍ]**  | _which_ [ʍɪtʃ] ≠ _witch_ [wɪtʃ]  | **無声両唇‐軟口蓋摩擦音** | /hw/ 由来の音；/w/ より摩擦的。**whine–wine** 対立を保持。 | スコットランド<br>アイルランド<br>米南部<br>一部AAVE           |
-| **[χ]** |     _loch_ [lɔχ] (強い方言)      | **無声口蓋垂摩擦音**       | [x] よりさらに後方の摩擦音。                                | スコットランド英語（ゲール語影響下）                           |
-| **[β]** |   _cabaña_ → [kaˈβaɲa] (loan)   | **有声両唇摩擦音**         | 英語固有ではないが**スペイン語などの借用語**に現れる。      | 借用語発音                                                     |
-|  [ʁ]  | — (loanwords, Gaelic influence) | 有声口蓋垂摩擦音／接近音 | 極めて稀な接触方言に見られる発音。<br/>舌の後部を口蓋垂に近づけて摩擦または接近音を作る。有声で実現し、極めて限られた接触方言で観察される。 | スコットランド英語（ヘブリディーズ地方など） |
+|        IPA         |         Examples          | Classification                 | Description                                                                 | Region                                |
+| :----------------: | :-----------------------: | :----------------------------- | :-------------------------------------------------------------------------- | :------------------------------------ |
+|      **/tʃ/**      |       _chin, match_       | **voiceless postalveolar affricate** | The sound written **ch**, formed by integrating **/t/ + /ʃ/**.             | General                               |
+|      **/dʒ/**      |       _jam, badge_        | **voiced postalveolar affricate**    | The sound written **j**, formed by integrating **/d/ + /ʒ/**.              | General                               |
+| **[t͡ʃ] (< /tj/)** |    _tune -> [t͡ʃ]une_     | **derived affricate**                | **Yod-coalescence** (/tj/ -> [t͡ʃ]).                                        | British English, especially Cockney   |
+| **[d͡ʒ] (< /dj/)** |    _duty -> [d͡ʒ]uty_     | **derived affricate**                | /dj/ -> [d͡ʒ].                                                              | British English, especially Cockney   |
+|      **/ts/**      |     _tsunami, pizza_      | **voiceless alveolar affricate**     | Found in loanwords; may also become strongly affricated word-finally, as in *cats* -> [kats]. | Loanwords in general<br/>Yorkshire and Northern English |
+|      **/dz/**      |       _kids, adze_        | **voiced alveolar affricate**        | Found in loanwords, and where final **-s** becomes [dz] after a voiced consonant. | Loanwords in general<br/>some British and American speech |
+|      **[t͡ɕ]**      | _Tuesday -> [ˈt͡ɕuːzdeɪ]_ | **voiceless palatal affricate**      | An allophone in which /tʃ/ is palatalized before /j/.                      | Irish English<br/>Scottish English    |
+|      **[d͡ʑ]**      |    _duke -> [d͡ʑuːk]_     | **voiced palatal affricate**         | An allophone in which /dʒ/ is palatalized before /j/.                      | Irish English<br/>Scottish English    |
 
 : {.tbl-pron2}
 
-#### 鼻音 (Nasals)
+#### Fricatives
 
-|    IPA    |      Examples       | 分類               | 説明                                                                                         | 地方                                                                    |
-| :-------: | :-----------------: | :----------------- | :------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------- |
-|  **/m/**  |       (_me_)        | **両唇鼻音**       | 口を閉じて**鼻へ**共鳴。                                                                     | 全般                                                                    |
-|  **/n/**  |       (_no_)        | **歯茎鼻音**       | 舌先を歯茎に当てる。                                                                         | 全般                                                                    |
-| **/ŋ/**  |      (_sing_)       | **軟口蓋鼻音**     | 上顎に舌の奥を当てる。<br>先頭に表れない。                                                   | 全般<br>※AAVE/南部/Cockney で<br>-ing → in’ の様に\[ŋ]→\[n] に変化 |
-|  **[ɱ]**  | _comfort_ [ˈkʌɱfət] | **唇歯鼻音**       | /m/ が **/f, v/** の前で唇歯化する異音。                                                     | 全般                                                                    |
-|  **[n̪]**  |   _tenth_ [tɛn̪θ]   | **歯鼻音**         | /n/ が **歯摩擦音の前**で歯化する異音。                                                      | 全般                                                                    |
-|  **[ɲ]**  |  _onion_ [ˈʌɲjən]   | **硬口蓋鼻音**     | /n/ が **/j/** の前で口蓋化して現れる異音。                                                  | 一部の発音（注意深い発話など）                                          |
-| **[ŋg]** | _finger_ [ˈfɪŋgə]  | 鼻音＋軟口蓋破裂音 | /ŋ/ の後に [g] を保持する発音。<br/>*singer* [ˈsɪŋə] のように [g] を脱落させる方言と対立。 | 北部英語・一部方言（*singer/finger区別*方言）                           |
-
-: {.tbl-pron2}
-
-#### 接近音 (Approximants)
-
-|   IPA    |                   Examples                    | 分類                             | 説明                                                             | 地方                                                       |
-| :------: | :-------------------------------------------: | :------------------------------- | :--------------------------------------------------------------- | :--------------------------------------------------------- |
-| **/ɹ/**  |                  _run_ [ɹʌn]                  | **歯茎接近音**                   | **舌先は触れない**（日本語ら行\[ɾ]と別）。                       | 全般<br>**Cockney は語末・子音前で非R**                    |
-| **/j/**  |                  _yes_ [jɛs]                  | **硬口蓋近接**                   | 「**y**」音；舌前部を上げる。                                    | 全般<br>英の一部で<br>/tj,dj/ と合流→Yod合流              |
-| **/w/**  |                  _we_ [wiː]                  | **両唇・軟口蓋近接**             | **丸唇＋後舌**の協調。                                           | 全般                                                       |
-| **\[ʍ]** |       _which_ [ʍɪtʃ] ≠ _witch_ [wɪtʃ]        | **無声両唇‐軟口蓋近接**         | **/hw/** 由来の「息混じりの w」。<br>**whine–wine**対立を保持。 | 米南部の一部<br>スコットランド<br>アイルランド<br>一部AAVE |
-| **[ɻ]**  | red→[ɻɛd]<br/>road→[ɻoʊd]<br/>right→[ɻaɪt] | 反り舌接近音 (レトロフレックスR) | 舌先を反らせて上顎に近づける発音（いわゆる「巻き舌R」）。        | 北米英語・一般アメリカ英語・AAVE                           |
-| **[ɹ̈]**  | red→[ɹ̈ɛd]<br/>road→[ɹ̈oʊd]<br/>right→[ɹ̈aɪt] | 中舌寄せR (バンチドR)            | 舌の中央を盛り上げるRの異音。レトロフレックスRの代替的実現。     | 北米英語、とくに中西部・GA                                 |
-| **[w̥]**  |                 _quit_ [kw̥ɪt]                 | 無声/w/ 異音                     | 無声破裂音の直後で /w/ が無声化して現れる。                      | 全方言（環境依存の異音）                                   |
+|   IPA    |             Examples              | Classification                     | Description                                                                 | Region                                                            |
+| :------: | :-------------------------------: | :--------------------------------- | :-------------------------------------------------------------------------- | :---------------------------------------------------------------- |
+| **/f/**  |             (_fine_)              | **voiceless labiodental fricative** | Light contact between the upper teeth and lower lip.                        | General                                                            |
+| **/v/**  |             (_vine_)              | **voiced labiodental fricative**    | /f/ plus vocal-fold vibration.                                              | General                                                            |
+| **/θ/**  |             (_thin_)              | **voiceless dental fricative**      | Not found in Japanese.                                                      | General                                                            |
+| **/ð/**  |             (_this_)              | **voiced dental fricative**         | Same articulation as /θ/, but voiced.                                       | General                                                            |
+| **/s/**  |              (_see_)              | **voiceless alveolar fricative**    | Lips are kept relatively flat.                                              | General                                                            |
+| **/z/**  |              (_zoo_)              | **voiced alveolar fricative**       | The voiced counterpart of /s/.                                              | General                                                            |
+| **/ʃ/**  |              (_she_)              | **voiceless postalveolar fricative** | The tongue is slightly farther back and the lips are lightly rounded.       | General                                                            |
+| **/ʒ/**  |            (_measure_)            | **voiced postalveolar fricative**    | Found mainly in loanwords; rare word-initially.                             | General                                                            |
+| **/h/**  |              (_hat_)              | **voiceless glottal fricative**      | Air passes through using the mouth shape of the following vowel.            | General, though **h-dropping** is frequent in some dialects        |
+| **[x]**  |       _loch_ [lɔx], _Bach_        | **voiceless velar fricative**        | Produced by bringing the back of the tongue close to the velum.             | Scottish English<br/>Irish English<br/>German/Hebrew loanwords     |
+| **[ç]**  | _hue_ [çuː], _human_ [ˈçjuːmən] | **voiceless palatal fricative**      | /h/ appears in palatalized form in environments like /hj/.                 | Conservative English pronunciation<br/>careful speech              |
+| **[ɦ]**  |  intervocalic _ahead_ -> [aˈɦɛd]  | **voiced glottal fricative**         | /h/ becomes voiced between vowels.                                          | Irish English<br/>Northern English                                 |
+| **[ʍ]**  | _which_ [ʍɪtʃ] ≠ _witch_ [wɪtʃ]  | **voiceless labiovelar fricative**   | A reflex of /hw/; more fricative than /w/. Preserves the **whine-wine** contrast. | Scotland<br/>Ireland<br/>the American South<br/>some AAVE          |
+| **[χ]** |     _loch_ [lɔχ] (strong dialect) | **voiceless uvular fricative**       | A fricative farther back than [x].                                          | Scottish English under strong Gaelic influence                     |
+| **[β]** |   _cabaña_ -> [kaˈβaɲa] (loan)    | **voiced bilabial fricative**        | Not native to English, but found in loanword pronunciation such as Spanish borrowings. | Loanword pronunciation                                             |
+| [ʁ] | — (loanwords, Gaelic influence) | voiced uvular fricative/approximant | An extremely rare pronunciation found in contact dialects, produced by bringing the back of the tongue near the uvula with voicing. | Scottish English (Hebrides and similar areas) |
 
 : {.tbl-pron2}
 
-#### 側面接近音 (Lateral Approximants)
+#### Nasals
 
-|         IPA         |           Examples           | 分類                              | 説明                                                                | 地方・方言                                 |
-| :-----------------: | :--------------------------: | :-------------------------------- | :------------------------------------------------------------------ | :----------------------------------------- |
-|       **/l/**       | _light_ [laɪt], _fill_ [fɪl] | 歯茎側面接近音                    | 語頭では「明るいL」[l]、語末や子音前では暗くなりやすい。            | 全般                                       |
-|       **[ɫ]**       |              —              | 暗いL（軟口蓋化）                 | 舌後部を軟口蓋に近づける実現。語末・子音前で典型的に現れる。        | 英語全般・アメリカ英語広く                 |
-|   **[w ~ ʊ̯ ~ o]**   |     _people_ → [piːpo]     | 交替                              | **Lのボーカリゼーション** /l/ が語末で滑音や母音様の音に変化する。  | コックニー、エスタリー、米国の一部方言     |
-|       **[l̩]**       |     _bottle_ [ˈbɑːtl̩]      | 音節主音的L（シラビックL）        | /l/ が音節核として実現。特に歯茎破裂音の後で現れる。                | 一般アメリカ英語、英語全般                 |
-| **明るい [l] のみ** |              —              | 方言的特徴                        | 全ての位置で「明るいL」を保持し、暗くならない。                     | アイルランド英語、スコットランド英語       |
-|      **[ɫˠ]**       |              —              | 超暗いL（強い軟口蓋化／口蓋垂化） | 通常の [ɫ] よりさらに暗い実現。舌後部が強く持ち上がり口蓋垂化する。 | ロンドン（ブロード）、グラスゴー、都市方言 |
+|   IPA   |      Examples       | Classification              | Description                                                                                       | Region                                                                       |
+| :-----: | :-----------------: | :-------------------------- | :------------------------------------------------------------------------------------------------ | :--------------------------------------------------------------------------- |
+| **/m/** |       (_me_)        | **bilabial nasal**          | Produced with the mouth closed and resonance directed through the nose.                           | General                                                                      |
+| **/n/** |       (_no_)        | **alveolar nasal**          | The tongue tip touches the alveolar ridge.                                                        | General                                                                      |
+| **/ŋ/** |      (_sing_)       | **velar nasal**             | Produced with the back of the tongue against the velum.<br/>Does not occur word-initially.       | General<br/>in AAVE, Southern English, and Cockney, -ing may change from [ŋ] to [n] |
+| **[ɱ]** | _comfort_ [ˈkʌɱfət] | **labiodental nasal**       | An allophone in which /m/ becomes labiodental before /f/ or /v/.                                 | General                                                                      |
+| **[n̪]** |   _tenth_ [tɛn̪θ]   | **dental nasal**            | An allophone in which /n/ becomes dental before a dental fricative.                              | General                                                                      |
+| **[ɲ]** |  _onion_ [ˈʌɲjən]   | **palatal nasal**           | An allophone in which /n/ becomes palatalized before /j/.                                         | Some pronunciations, such as careful speech                                  |
+| **[ŋg]** | _finger_ [ˈfɪŋgə]  | nasal + velar plosive       | A pronunciation that retains [g] after /ŋ/, contrasting with dialects that drop it, as in *singer* [ˈsɪŋə]. | Northern English and some other dialects                                     |
 
+: {.tbl-pron2}
+
+#### Approximants
+
+|   IPA    |                   Examples                    | Classification                           | Description                                                                 | Region                                                             |
+| :------: | :-------------------------------------------: | :--------------------------------------- | :-------------------------------------------------------------------------- | :----------------------------------------------------------------- |
+| **/ɹ/**  |                  _run_ [ɹʌn]                  | **alveolar approximant**                 | The tongue tip does **not** touch; it is distinct from Japanese ra-row [ɾ]. | General<br/>Cockney is non-rhotic in codas and before consonants   |
+| **/j/**  |                  _yes_ [jɛs]                  | **palatal approximant**                  | The **y** sound; made by raising the front of the tongue.                   | General<br/>in some British speech it merges with /tj, dj/ via yod coalescence |
+| **/w/**  |                  _we_ [wiː]                   | **labial-velar approximant**             | Coordinated **lip rounding + back-tongue raising**.                         | General                                                             |
+| **[ʍ]** |       _which_ [ʍɪtʃ] ≠ _witch_ [wɪtʃ]         | **voiceless labial-velar approximant**   | A breathy reflex of **/hw/**. Preserves the **whine-wine** contrast.        | Parts of the American South<br/>Scotland<br/>Ireland<br/>some AAVE |
+| **[ɻ]**  | red -> [ɻɛd]<br/>road -> [ɻoʊd]<br/>right -> [ɻaɪt] | retroflex approximant (retroflex R) | The tongue tip is curled back toward the palate, the well-known “retroflex R.” | North American English, General American, AAVE                     |
+| **[ɹ̈]** | red -> [ɹ̈ɛd]<br/>road -> [ɹ̈oʊd]<br/>right -> [ɹ̈aɪt] | bunched R | An allophone of /r/ in which the center of the tongue is raised; an alternative to retroflex R. | North American English, especially the Midwest and GA              |
+| **[w̥]** |                 _quit_ [kw̥ɪt]                 | voiceless /w/ allophone                  | /w/ becomes voiceless immediately after a voiceless plosive.                | All dialects, as a context-dependent allophone                     |
+
+: {.tbl-pron2}
+
+#### Lateral Approximants
+
+|        IPA         |           Examples           | Classification                              | Description                                                                 | Region / Dialect                                      |
+| :----------------: | :--------------------------: | :------------------------------------------ | :-------------------------------------------------------------------------- | :---------------------------------------------------- |
+|      **/l/**       | _light_ [laɪt], _fill_ [fɪl] | alveolar lateral approximant                | “Light L” [l] tends to occur word-initially, while codas and pre-consonantal positions tend to be darker. | General                                               |
+|      **[ɫ]**       |              —               | dark L (velarized)                          | The back of the tongue is raised toward the velum. Typical word-finally and before consonants. | English in general, widely in American English        |
+|   **[w ~ ʊ̯ ~ o]**   |     _people_ -> [piːpo]      | alternation                                 | **L-vocalization**: /l/ in coda position changes into a glide or vowel-like sound. | Cockney, Estuary English, and some American dialects  |
+|      **[l̩]**       |     _bottle_ [ˈbɑːtl̩]       | syllabic L                                  | /l/ functions as a syllable nucleus, especially after alveolar plosives.    | General American and English more broadly             |
+| **light [l] only** |              —               | dialectal trait                             | Keeps “light L” in all positions and does not darken it.                    | Irish English, Scottish English                       |
+|     **[ɫˠ]**      |              —               | super-dark L (strong velarization/uvularization) | A darker realization than ordinary [ɫ], with stronger tongue-back raising and uvularization. | Broad London, Glasgow, and other urban dialects       |
 
 : {.tbl-pron2}
 
 
 
 
-### 英語の方言の一覧
+### List of English Dialects
 
-| 日本語名                                               | 日本語の解説                                                                                                                                                                         |
-| ------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| アメリカ英語 []{#GA-ja}                                | 全米で広く使われる標準的な発音。地域色が薄く、中立的なアクセント（ニュースキャスター的な話し方）。                                                                                   |
-| ニューヨーク英語 []{#NYCE-ja}                          | ニューヨーク市を中心とする都市型の英語。高めの /ɔ/（*coffee* など）、短母音 /æ/ の分裂（*bad* と *bat* の対立）、独特のイントネーション。高齢層は非R音声、若年層ではR音声化が進む。 |
-| ユダヤ系米国英語 []{#JAE-ja}                           | ユダヤ系米国人に結びつく英語。語彙・談話標識・イントネーションにイディッシュ語やヘブライ語の影響。NYC英語と重なる場合もあり、地域・共同体による差が大きい。                          |
-| アメリカ南部方言 []{#SAmE-ja}                          | 米国南部で話される英語。古い世代では非R音声が多く、二重母音の単母音化や特徴的な母音変化が見られる。                                                                                  |
-| アフリカ系米国英語/黒人英語 []{#AAVE-ja}               | アフリカ系アメリカ人の共同体で発達した体系的な変種。子音連結の簡略化、習慣的 *be* の使用、独特の音韻体系が特徴。                                                                     |
-| ボストン英語 []{#BostE-ja}                             | ニューイングランド東部の変種。非R音声（「pahk the cah」）、前寄りの /a/（*car*）、侵襲的R、独自の短母音 /æ/ の体系が特徴。                                                          |
-| 西部アメリカ英語 []{#WAmE-ja}                          | 米国西部全体に広がる比較的均質な変種。cot–caught の母音合流が見られる。                                                                                                             |
-| アパラチア英語 []{#AppE-ja}                            | アパラチア地域で話される独自の変種。古風な語彙、a-接頭辞 (*a-running*)、強い母音変化が特徴。                                                                                         |
-| 中西部（五大湖地方）英語 []{#MidwE-ja}                 | シカゴ・デトロイト・バッファローなど五大湖地方で話される。北方都市母音推移（Northern Cities Vowel Shift）が知られるが、若年層では衰退傾向。                                          |
-| オーストラリア英語 []{#AusE-ja}                        | オーストラリアで話される国家的変種。非R音声で、イギリス英語の影響を受けつつ独自の母音変化がある。                                                                                    |
-| カナダ英語 []{#CanE-ja}                                | カナダで話される英語。R音声を保持し、GAに近いが、*about* が [əˈbʌʊt] となるなどカナダ特有の母音上げがある。                                                                          |
-| スコットランド英語 []{#ScotE-ja}                       | スコットランドで話されるR音声の英語（スコットランド・ゲール語とは別）。[ʍ] と [w] の対立、弾音 /r/ の保持、独特の母音体系がある。                                                    |
-| アイルランド英語 []{#IrE-ja}                           | アイルランドで話される英語。一般にR音声を保持し、THストッピング（*think → tink*）、FACE/GOAT 母音の単母音化、歌うようなイントネーションが特徴。                                     |
-| 北部英語（イングランド） []{#NEngE-ja}                 | イングランド北部の非南部方言の総称。trap–bath 分裂がなく、*bus* や *cup* の母音が短い。                                                                                             |
-| ジョーディー英語（ニューカッスル英語） []{#Geordie-ja} | タインサイド地方の独自の変種。母音の独特な実現、上昇イントネーション、強い地域語彙が特徴。                                                                                           |
-| ヨークシャー英語 []{#YorkE-ja}                         | ヨークシャー地方の変種。thee/thou 代名詞、定冠詞の短縮 (*t’pub*)、平坦なイントネーションが特徴。                                                                                    |
-| ウェールズ英語 []{#WelshE-ja}                          | ウェールズで話される英語。歌うようなイントネーション、明確なR音声、ウェールズ語の音韻的影響がある。                                                                                  |
-| 容認発音英語 []{#RP-ja}                                | イギリスの伝統的な標準発音（権威的アクセント）。かつては広く使われたが、現在は使用者が減少。                                                                                         |
-| 多文化ロンドン英語 []{#MLE-ja}                         | ロンドンで発達した多民族混交の変種。コックニーやエスチュアリ英語の特徴に加え、カリブ系・アフリカ系・南アジア系の影響を含む。                                                         |
-| コックニー英語 []{#Cockney-ja}                         | ロンドン東部の労働者階級に根ざした伝統的な方言。ライミングスラング、h脱落、T声門化、非R音声が特徴。                                                                                  |
-| 河口域英語/エスチュアリ英語 []{#Estuary-ja}            | テムズ川河口域を中心に広まった英語。RPとコックニーの中間的な特徴を持ち、T声門化や非R音声が見られる。                                                                                 |
-| インド英語 []{#IndE-ja}                                | インドで話される英語。現地言語の影響を受け、反り舌破裂音、モーラ的リズム、独特のイントネーションを持つ。                                                                             |
-| シンガポール英語（シングリッシュ） []{#SgE-ja}         | シンガポールで話される英語。中国語・マレー語の影響を受け、声調的なイントネーション、時制・相の単純化、コードスイッチングが見られる。                                                 |
-| ニュージーランド英語 []{#NZE-ja}                       | オーストラリア英語に近いが、独自の母音変化がある（例: *fish and chips* → [fʌʃ ənd ʧʌps]）。                                                                                         |
-| 東アフリカ英語 []{#EAfE-ja}                            | ケニア・タンザニア・ウガンダなどで話される英語。一般にR音声を保持し、二重母音の単純化、THストッピング、子音連続の簡略化、モーラ的リズムが見られる。スワヒリ語などの影響が強い。      |
-| 西アフリカ英語 []{#WAfE-ja}                            | ナイジェリア・ガーナ・シエラレオネなどで話される英語。多くはモーラ的リズムで、THストッピング（*this → dis*）、語末子音連続の簡略化、明瞭なR音声、声調言語の影響がある。             |
-| 南アフリカ英語 []{#SAfE-ja}                            | 独自の母音体系（例: *kit* → [kət]）。白人南アフリカ英語やケープ・フラッツ英語など複数の下位変種がある。                                                                             |
+| English Name | Japanese Name | Romaji (Hepburn) | Description |
+| ------------ | ------------- | ---------------- | ----------- |
+| General American []{#GA} | アメリカ英語 []{#GA-ja} | Amerika eigo | Standard pronunciation widely used across the United States. It has relatively little regional coloring and sounds neutral, like a news anchor accent. |
+| New York City English []{#NYCE} | ニューヨーク英語 []{#NYCE-ja} | Nyūyōku eigo | Urban English centered in New York City. It features a raised /ɔ/ (as in *coffee*), a split /æ/ system (*bad* vs. *bat*), and distinctive intonation. Older speakers are often non-rhotic, while younger speakers are increasingly rhotic. |
+| Jewish American English []{#JAE} | ユダヤ系米国英語 []{#JAE-ja} | Yudaya-kei Beikoku eigo | English associated with Jewish Americans. Its lexicon, discourse markers, and intonation show Yiddish and Hebrew influence. It overlaps with NYC English in some cases and varies greatly by region and community. |
+| Southern American English []{#SAmE} | アメリカ南部方言 []{#SAmE-ja} | Amerika nanbu hōgen | English spoken in the American South. Older generations are often non-rhotic, and monophthongization of diphthongs and distinctive vowel shifts are common. |
+| African American Vernacular English []{#AAVE} | アフリカ系米国英語/黒人英語 []{#AAVE-ja} | Afurika-kei Beikoku eigo/Kokujin eigo | A systematic variety that developed in African American communities. It is characterized by consonant-cluster reduction, habitual *be*, and a distinctive phonological system. |
+| Boston English []{#BostE} | ボストン英語 []{#BostE-ja} | Bosuton eigo | A variety from eastern New England. It is known for non-rhoticity ("pahk the cah"), a fronted /a/ in *car*, intrusive /r/, and its own short /æ/ system. |
+| Western American English []{#WAmE} | 西部アメリカ英語 []{#WAmE-ja} | Seibu Amerika eigo | A relatively homogeneous variety spread across the western United States. The cot-caught merger is common. |
+| Appalachian English []{#AppE} | アパラチア英語 []{#AppE-ja} | Aparachia eigo | A distinctive variety spoken in the Appalachian region. It is characterized by archaic vocabulary, the a-prefix (*a-running*), and strong vowel shifts. |
+| Midwestern (Inland North) English []{#MidwE} | 中西部（五大湖地方）英語 []{#MidwE-ja} | Chūseibu (Godaiko chihō) eigo | Spoken in the Great Lakes region, including Chicago, Detroit, and Buffalo. It is known for the Northern Cities Vowel Shift, though that pattern is receding among younger speakers. |
+| Australian English []{#AusE} | オーストラリア英語 []{#AusE-ja} | Ōsutoraria eigo | The national variety of English in Australia. It is non-rhotic and has its own vowel changes while still showing influence from British English. |
+| Canadian English []{#CanE} | カナダ英語 []{#CanE-ja} | Kanada eigo | English spoken in Canada. It remains rhotic and is close to GA, but has uniquely Canadian features such as raising in *about* [əˈbʌʊt]. |
+| Scottish English []{#ScotE} | スコットランド英語 []{#ScotE-ja} | Sukottorando eigo | Rhotic English spoken in Scotland, distinct from Scottish Gaelic. It preserves the contrast between [ʍ] and [w], retains tapped /r/, and has its own vowel system. |
+| Irish English []{#IrE} | アイルランド英語 []{#IrE-ja} | Airurando eigo | English spoken in Ireland. It is generally rhotic and is characterized by TH-stopping (*think → tink*), monophthongized FACE/GOAT vowels, and sing-song intonation. |
+| Northern English []{#NEngE} | 北部英語（イングランド） []{#NEngE-ja} | Hokubu eigo (Ingurando) | A broad label for non-southern dialects of England. It lacks the trap-bath split, and vowels in words like *bus* and *cup* are short. |
+| Geordie (Newcastle English) []{#Geordie} | ジョーディー英語（ニューカッスル英語） []{#Geordie-ja} | Jōdī eigo (Nyūkassuru eigo) | A distinctive Tyneside variety. It features unusual vowel realizations, rising intonation, and strong regional vocabulary. |
+| Yorkshire English []{#YorkE} | ヨークシャー英語 []{#YorkE-ja} | Yōkushā eigo | A Yorkshire variety characterized by *thee/thou* pronouns, reduced definite articles (*t'pub*), and flat intonation. |
+| Welsh English []{#WelshE} | ウェールズ英語 []{#WelshE-ja} | Wēruzu eigo | English spoken in Wales. It is characterized by sing-song intonation, clear /r/ pronunciation, and phonological influence from Welsh. |
+| Received Pronunciation []{#RP} | 容認発音英語 []{#RP-ja} | Yōnin hatsuon eigo | The traditional prestige pronunciation of Britain. It was once widespread, but now has fewer speakers. |
+| Multicultural London English []{#MLE} | 多文化ロンドン英語 []{#MLE-ja} | Tabunka Rondon eigo | A multiethnic variety developed in London. It combines features of Cockney and Estuary English with Caribbean, African, and South Asian influence. |
+| Cockney []{#Cockney} | コックニー英語 []{#Cockney-ja} | Kokkunī eigo | A traditional working-class dialect rooted in East London. It is known for rhyming slang, h-dropping, T-glottalization, and non-rhoticity. |
+| Estuary English []{#Estuary} | 河口域英語/エスチュアリ英語 []{#Estuary-ja} | Kakōiki eigo/Esuchuari eigo | English centered around the Thames Estuary. It has features intermediate between RP and Cockney, including T-glottalization and non-rhoticity. |
+| Indian English []{#IndE} | インド英語 []{#IndE-ja} | Indo eigo | English spoken in India. Influenced by local languages, it features retroflex plosives, mora-like rhythm, and distinctive intonation. |
+| Singapore English (Singlish) []{#SgE} | シンガポール英語（シングリッシュ） []{#SgE-ja} | Shingapōru eigo (Shingurisshu) | English spoken in Singapore. It shows Chinese and Malay influence, tone-like intonation, simplified tense/aspect, and code-switching. |
+| New Zealand English []{#NZE} | ニュージーランド英語 []{#NZE-ja} | Nyūjīrando eigo | Close to Australian English, but with its own vowel shifts, as in *fish and chips* → [fʌʃ ənd ʧʌps]. |
+| East African English []{#EAfE} | 東アフリカ英語 []{#EAfE-ja} | Higashi Afurika eigo | English spoken in Kenya, Tanzania, Uganda, and nearby countries. It is generally rhotic and shows diphthong simplification, TH-stopping, consonant-cluster reduction, and mora-like rhythm, with strong influence from Swahili and other local languages. |
+| West African English []{#WAfE} | 西アフリカ英語 []{#WAfE-ja} | Nishi Afurika eigo | English spoken in Nigeria, Ghana, Sierra Leone, and neighboring countries. It is often mora-like in rhythm, with TH-stopping (*this → dis*), reduction of final consonant clusters, clear /r/, and influence from tonal languages. |
+| South African English []{#SAfE} | 南アフリカ英語 []{#SAfE-ja} | Minami Afurika eigo | It has a distinctive vowel system, for example *kit* → [kət]. It also includes multiple subvarieties such as White South African English and Cape Flats English. |
 
-:  {.tbl-pron2 .tbl-header-center .tbl-second-column-wrapping tbl-colwidths=[1,9] }
+:  {.tbl-pron2 .tbl-header-center .tbl-second-column-wrapping tbl-colwidths=[2,2,2,9] }
 
 <!--
-### (非表示)英語の方言の一覧(英語での説明)
+### (Hidden) List of English Dialects (English Descriptions)
 | English Name                                  | English Description                                                                                                                                                                                                        |
 | --------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | General American []{#GA}                      | General American (neutralized, “newscaster” type American accent).                                                                                                                                                       |
@@ -8217,572 +8214,533 @@ Example: かささぎの わたせる橋におく霜の 白きを見れば夜ぞ
 :  {.tbl-pron2 .tbl-header-center .tbl-second-column-wrapping tbl-colwidths=[1,1,1,1,1] }
 -->
 
-### 英語の方言の略称
+### Abbreviations for English Dialects
 
-|     英語     |    日本語    | 英語名                                       | 日本語名                                      |
-| :----------: | :----------: | -------------------------------------------- | --------------------------------------------- |
-|    **GA**    |  **アメ般**  | [General American](#GA)                      | [アメリカ英語](#GA-ja)                        |
-|  **NYCAmE**  |  **アメNY**  | [New York City English](#NYCE)               | [ニューヨーク英語](#NYCE-ja)                  |
-|  **JewAmE**  |  **アメユ**  | [Jewish American English](#JAE)              | [ユダヤ系米国英語](#JAE-ja)                   |
-|   **SAmE**   |  **アメ南**  | [Southern American English](#SAmE)           | [アメリカ南部方言](#SAmE-ja)                  |
-|   **AAVE**   |  **アメ黒**  | [African American Vernacular English](#AAVE) | [アフリカ系米国英語/黒人英語](#AAVE-ja)       |
-| **BostAmE**  | **アメボス** | [Boston English](#BostE)                     | [ボストン英語](#BostE-ja)                     |
-|   **WAmE**   |  **アメ西**  | [Western American English](#WAmE)            | [西部アメリカ英語](#WAmE-ja)                  |
-|  **AppAmE**  | **アメアパ** | [Appalachian English](#AppE)                 | [アパラチア英語](#AppE-ja)                    |
-| **MidwAmE**  | **アメミド** | [Midwestern (Inland North) English](#MidwE)  | [中西部（五大湖地方）英語](#MidwE-ja)         |
-|   **AusE**   |  **オス英**  | [Australian English](#AusE)                  | [オーストラリア英語](#AusE-ja)                |
-|   **CanE**   |  **カナ英**  | [Canadian English](#CanE)                    | [カナダ英語](#CanE-ja)                        |
-|  **ScotE**   |  **スコ英**  | [Scottish English](#ScotE)                   | [スコットランド英語](#ScotE-ja)               |
-|   **IreE**   |  **アイ英**  | [Irish English](#IrE)                        | [アイルランド英語](#IrE-ja)                   |
-|  **NEngE**   |   **北英**   | [Northern English](#NEngE)                   | [英国北部英語（イングランド）](#NEngE-ja)     |
-| **Geordie**  | **ジョー英** | [Geordie (Newcastle English)](#Geordie)      | [ジョーディー英語](#Geordie-ja)               |
-|  **YorkE**   |  **ヨク英**  | [Yorkshire English](#YorkE)                  | [ヨークシャー英語](#YorkE-ja)                 |
-|  **WelshE**  |  **ウエ英**  | [Welsh English](#WelshE)                     | [ウェールズ英語](#WelshE-ja)                  |
-|    **RP**    |  **ブリ英**  | [Received Pronunciation](#RP)                | [容認発音英語](#RP-ja)                        |
-|   **MLE**    |   **多英**   | [Multicultural London English](#MLE)         | [多文化ロンドン英語](#MLE-ja)                 |
-| **CockneyE** |  **コク英**  | [Cockney](#Cockney)                          | [コックニー英語](#Cockney-ja)                 |
-| **EstuaryE** |  **エス英**  | [Estuary English](#Estuary)                  | [河口域英語/エスチュアリ英語](#Estuary-ja)    |
-|   **IndE**   |  **イン英**  | [Indian English](#IndE)                      | [インド英語](#IndE-ja)                        |
-|   **SgE**    |  **シン英**  | [Singapore English (Singlish)](#SgE)         | [シンガポール英語（シングリッシュ）](#SgE-ja) |
-|   **NZE**    |  **ニュ英**  | [New Zealand English](#NZE)                  | [ニュージーランド英語](#NZE-ja)               |
-|  **EAffE**   |  **東ア英**  | [East African English](#EAfE)                | [東アフリカ英語](#EAfE-ja)                    |
-|  **WAffE**   |  **西ア英**  | [West African English](#WAfE)                | [西アフリカ英語](#WAfE-ja)                    |
-|  **SAffE**   |  **南ア英**  | [South African English](#SAfE)               | [南アフリカ英語](#SAfE-ja)                    |
+| English | Japanese | English Name | Japanese Name | Romaji (Hepburn) |
+| :-----: | :------: | ------------ | ------------- | ---------------- |
+| **GA** | **アメ般** | [General American](#GA) | [アメリカ英語](#GA-ja) | Amerika eigo |
+| **NYCAmE** | **アメNY** | [New York City English](#NYCE) | [ニューヨーク英語](#NYCE-ja) | Nyūyōku eigo |
+| **JewAmE** | **アメユ** | [Jewish American English](#JAE) | [ユダヤ系米国英語](#JAE-ja) | Yudaya-kei Beikoku eigo |
+| **SAmE** | **アメ南** | [Southern American English](#SAmE) | [アメリカ南部方言](#SAmE-ja) | Amerika nanbu hōgen |
+| **AAVE** | **アメ黒** | [African American Vernacular English](#AAVE) | [アフリカ系米国英語/黒人英語](#AAVE-ja) | Afurika-kei Beikoku eigo/Kokujin eigo |
+| **BostAmE** | **アメボス** | [Boston English](#BostE) | [ボストン英語](#BostE-ja) | Bosuton eigo |
+| **WAmE** | **アメ西** | [Western American English](#WAmE) | [西部アメリカ英語](#WAmE-ja) | Seibu Amerika eigo |
+| **AppAmE** | **アメアパ** | [Appalachian English](#AppE) | [アパラチア英語](#AppE-ja) | Aparachia eigo |
+| **MidwAmE** | **アメミド** | [Midwestern (Inland North) English](#MidwE) | [中西部（五大湖地方）英語](#MidwE-ja) | Chūseibu (Godaiko chihō) eigo |
+| **AusE** | **オス英** | [Australian English](#AusE) | [オーストラリア英語](#AusE-ja) | Ōsutoraria eigo |
+| **CanE** | **カナ英** | [Canadian English](#CanE) | [カナダ英語](#CanE-ja) | Kanada eigo |
+| **ScotE** | **スコ英** | [Scottish English](#ScotE) | [スコットランド英語](#ScotE-ja) | Sukottorando eigo |
+| **IreE** | **アイ英** | [Irish English](#IrE) | [アイルランド英語](#IrE-ja) | Airurando eigo |
+| **NEngE** | **北英** | [Northern English](#NEngE) | [英国北部英語（イングランド）](#NEngE-ja) | Hokubu eigo (Ingurando) |
+| **Geordie** | **ジョー英** | [Geordie (Newcastle English)](#Geordie) | [ジョーディー英語](#Geordie-ja) | Jōdī eigo |
+| **YorkE** | **ヨク英** | [Yorkshire English](#YorkE) | [ヨークシャー英語](#YorkE-ja) | Yōkushā eigo |
+| **WelshE** | **ウエ英** | [Welsh English](#WelshE) | [ウェールズ英語](#WelshE-ja) | Wēruzu eigo |
+| **RP** | **ブリ英** | [Received Pronunciation](#RP) | [容認発音英語](#RP-ja) | Yōnin hatsuon eigo |
+| **MLE** | **多英** | [Multicultural London English](#MLE) | [多文化ロンドン英語](#MLE-ja) | Tabunka Rondon eigo |
+| **CockneyE** | **コク英** | [Cockney](#Cockney) | [コックニー英語](#Cockney-ja) | Kokkunī eigo |
+| **EstuaryE** | **エス英** | [Estuary English](#Estuary) | [河口域英語/エスチュアリ英語](#Estuary-ja) | Kakōiki eigo/Esuchuari eigo |
+| **IndE** | **イン英** | [Indian English](#IndE) | [インド英語](#IndE-ja) | Indo eigo |
+| **SgE** | **シン英** | [Singapore English (Singlish)](#SgE) | [シンガポール英語（シングリッシュ）](#SgE-ja) | Shingapōru eigo (Shingurisshu) |
+| **NZE** | **ニュ英** | [New Zealand English](#NZE) | [ニュージーランド英語](#NZE-ja) | Nyūjīrando eigo |
+| **EAffE** | **東ア英** | [East African English](#EAfE) | [東アフリカ英語](#EAfE-ja) | Higashi Afurika eigo |
+| **WAffE** | **西ア英** | [West African English](#WAfE) | [西アフリカ英語](#WAfE-ja) | Nishi Afurika eigo |
+| **SAffE** | **南ア英** | [South African English](#SAfE) | [南アフリカ英語](#SAfE-ja) | Minami Afurika eigo |
 
-:  {.tbl-pron2 .tbl-header-center tbl-colwidths=[1,1,4,4]}
+:  {.tbl-pron2 .tbl-header-center tbl-colwidths=[1,1,4,4,4] }
 
-### 英語の方言による子音変化の一覧
+### List of Dialectal Consonant Changes in English
 
-| 英語名                           | 日本語名              |         発音変化(IPA)         | 日本語での解説                                                                                                        |
-| -------------------------------- | --------------------- | :---------------------------: | --------------------------------------------------------------------------------------------------------------------- |
-| TH-fronting                      | THフロンティング      |          /θ/ → [f]          | **無声歯擦音** /θ/ が **無声唇歯摩擦音** [f] に置き換わる。「thin」→ [fɪn]。                                        |
-| TH-stopping                      | THストッピング        |          /ð/ → [d]          | **有声歯擦音** /ð/ が **有声歯茎破裂音** [d] に変化する。「this」→ [dɪs]。                                          |
-| TH-fronting (voiced)             | 有声THフロンティング  |          /ð/ → [v]          | **有声歯擦音** /ð/ が **有声唇歯摩擦音** [v] に変化する。「brother」→ [brʌvə]。                                     |
-| T-glottalization                 | T声門化               |          /t/ → [ʔ]           | **無声歯茎破裂音** /t/ が **声門閉鎖音** [ʔ] に置き換わる。「butter」→ [bʌʔə]。                                      |
-| Flapping                         | フラッピング          |         /t, d/ → [ɾ]         | 母音間の **無声/有声歯茎破裂音** /t, d/ が **歯茎はじき音** [ɾ] として実現される。「water」→ [wɔɾə]。                |
-| -ing dropping                    | -ing 脱落             |          /ŋ/ → [n]          | 語末の **軟口蓋鼻音** /ŋ/ が **歯茎鼻音** [n] に変化する。「walking」→ [wɔːkɪn]。                                  |
-| L-vocalization                   | Lヴォーカリゼーション |         /l/ → [w, o]         | 音節末の **歯茎側面接近音** /l/ が母音的な音（[w], [o]）に変わる。「people」→ [piːpo]。                             |
-| h-dropping                       | h脱落                 |           /h/ → ∅            | 語頭の **声門摩擦音** /h/ が脱落する。「house」→ [aʊs]。                                                             |
-| Yod-coalescence                  | ヨッド合流            |     /tj, dj/ → [tʃ, dʒ]      | /tj/, /dj/ が **後部歯茎破擦音** [tʃ], [dʒ] に変化する。「tune」→ [tʃuːn]。                                         |
-| Yod-dropping                     | ヨッド脱落            |        /juː/ → [uː]        | /juː/ の **硬口蓋接近音** /j/ が脱落する。「new」→ [nuː]。                                                         |
-| wh–w contrast                   | wh-wコントラスト      |          /hw/ → [ʍ]          | **無声両唇軟口蓋接近音** [ʍ] と **有声両唇軟口蓋接近音** [w] の対立を保持する。「which」 [ʍɪtʃ] ≠ 「witch」 [wɪtʃ]。 |
-| Final cluster<br/>simplification | 多重末子音脱落        |      e.g. /-st/ → /-s/       | 語末の **子音群** が簡略化される。「test」→ [tɛs]。                                                                  |
-| t-deletion                       | t脱落                 |          /nt/ → [n]          | /n/ の後の **無声歯茎破裂音** /t/ が脱落する。「winter」→ [wɪnə]。                                                   |
-| Linking r                        | リンキングr           | ∅ → [ɹ]<br/> (word boundary) | 語境界で母音間に **歯茎接近音** [ɹ] が挿入される。「law and order」→ [lɔːɹ ənd ɔːdə]。                             |
-| Intrusive r                      | 侵襲的R               |  ∅ → [ɹ]<br/> (epenthetic)   | 本来ない箇所に **歯茎接近音** [ɹ] が挿入される。「idea of」→ [aɪˈdɪəɹ əv]。                                          |
-| Non-rhoticity                    | 非R音声               |           /ɹ/ → ∅            | 音節末の **歯茎接近音** /ɹ/ が発音されない。「car」→ [kɑː]。                                                       |
-| Retroflex/bunched r              | Rの反り舌/盛り舌      |     (different [ɹ] types)     | /r/ が **反り舌接近音**（舌先を後方に反らす）や **束状接近音**（舌全体を盛り上げる）で実現される。                    |
-| Dentalization                    | 歯音化                |    /t, d, n/ → [t̪, d̪, n̪]     | **歯茎破裂音/鼻音** /t, d, n/ が **歯音** [t̪, d̪, n̪] として実現される。「tenth」→ [tɛn̪θ]。                           |
+| English Name | Japanese Name | Romaji (Hepburn) | Sound Change (IPA) | Description |
+| ------------ | ------------- | ---------------- | :----------------: | ----------- |
+| TH-fronting | THフロンティング | TH furontingu | /θ/ -> [f] | The **voiceless dental fricative** /θ/ is replaced by the **voiceless labiodental fricative** [f]. Example: *thin* -> [fɪn]. |
+| TH-stopping | THストッピング | TH sutoppingu | /ð/ -> [d] | The **voiced dental fricative** /ð/ changes to the **voiced alveolar plosive** [d]. Example: *this* -> [dɪs]. |
+| TH-fronting (voiced) | 有声THフロンティング | Yūsei TH furontingu | /ð/ -> [v] | The **voiced dental fricative** /ð/ changes to the **voiced labiodental fricative** [v]. Example: *brother* -> [brʌvə]. |
+| T-glottalization | T声門化 | T seimonka | /t/ -> [ʔ] | The **voiceless alveolar plosive** /t/ is replaced by the **glottal stop** [ʔ]. Example: *butter* -> [bʌʔə]. |
+| Flapping | フラッピング | Furappingu | /t, d/ -> [ɾ] | Intervocalic **voiceless/voiced alveolar plosives** /t, d/ are realized as the **alveolar tap** [ɾ]. Example: *water* -> [wɔɾə]. |
+| -ing dropping | -ing 脱落 | -ing daraku | /ŋ/ -> [n] | Word-final **velar nasal** /ŋ/ changes to the **alveolar nasal** [n]. Example: *walking* -> [wɔːkɪn]. |
+| L-vocalization | Lヴォーカリゼーション | L vōkarizēshon | /l/ -> [w, o] | Syllable-final **alveolar lateral approximant** /l/ changes into a vowel-like sound such as [w] or [o]. Example: *people* -> [piːpo]. |
+| h-dropping | h脱落 | h daraku | /h/ -> ∅ | Word-initial **glottal fricative** /h/ is deleted. Example: *house* -> [aʊs]. |
+| Yod-coalescence | ヨッド合流 | Yoddo gōryū | /tj, dj/ -> [tʃ, dʒ] | /tj/ and /dj/ change into the **postalveolar affricates** [tʃ] and [dʒ]. Example: *tune* -> [tʃuːn]. |
+| Yod-dropping | ヨッド脱落 | Yoddo daraku | /juː/ -> [uː] | The **palatal approximant** /j/ in /juː/ is deleted. Example: *new* -> [nuː]. |
+| wh-w contrast | wh-wコントラスト | wh-w kontorasuto | /hw/ -> [ʍ] | The contrast between **voiceless labiovelar approximant** [ʍ] and **voiced labiovelar approximant** [w] is preserved. Example: *which* [ʍɪtʃ] ≠ *witch* [wɪtʃ]. |
+| Final cluster<br/>simplification | 多重末子音脱落 | Tajū matsushiin daraku | e.g. /-st/ -> /-s/ | Word-final **consonant clusters** are simplified. Example: *test* -> [tɛs]. |
+| t-deletion | t脱落 | t daraku | /nt/ -> [n] | The **voiceless alveolar plosive** /t/ after /n/ is deleted. Example: *winter* -> [wɪnə]. |
+| Linking r | リンキングr | Rinkingu r | ∅ -> [ɹ]<br/> (word boundary) | The **alveolar approximant** [ɹ] is inserted between vowels across a word boundary. Example: *law and order* -> [lɔːɹ ənd ɔːdə]. |
+| Intrusive r | 侵襲的R | Shinshūteki R | ∅ -> [ɹ]<br/> (epenthetic) | The **alveolar approximant** [ɹ] is inserted where it is not underlyingly present. Example: *idea of* -> [aɪˈdɪəɹ əv]. |
+| Non-rhoticity | 非R音声 | Hi-R onsei | /ɹ/ -> ∅ | The **alveolar approximant** /ɹ/ is not pronounced in syllable-final position. Example: *car* -> [kɑː]. |
+| Retroflex/bunched r | Rの反り舌/盛り舌 | R no sorijita/morijita | (different [ɹ] types) | /r/ is realized either as a **retroflex approximant** (tongue tip curled back) or as a **bunched approximant** (tongue body raised). |
+| Dentalization | 歯音化 | Shionka | /t, d, n/ -> [t̪, d̪, n̪] | **Alveolar plosives/nasal** /t, d, n/ are realized as **dentals** [t̪, d̪, n̪]. Example: *tenth* -> [tɛn̪θ]. |
 
-:  {.tbl-pron2 .tbl-header-center .tbl-forth-column-wrapping tbl-colwidths=[1,1,1,10] }
+:  {.tbl-pron2 .tbl-header-center .tbl-forth-column-wrapping tbl-colwidths=[1,1,1,1,10] }
 
-### 英語の方言による子音変化の地方別マトリックス
+### Regional Matrix of Dialectal Consonant Changes in English
 
-| 方言     | THフロンティング | THストッピング | 有声THフロンティング | T声門化    | フラッピング | -ing 脱落 | Lヴォーカリゼーション | h脱落 | ヨッド合流 | ヨッド脱落   | wh–wコントラスト | 多重末子音脱落 | t脱落      | リンキングr | 侵襲的R | 非R音声 | Rの反り舌/盛り舌 | 歯音化   |
-| -------- | ---------------- | -------------- | -------------------- | ---------- | ------------ | --------- | --------------------- | ----- | ---------- | ------------ | ----------------- | -------------- | ---------- | ----------- | ------- | ------- | ---------------- | -------- |
-| アメ般   |                  |                |                      | 子音前限定 | あり         | タメ口    |                       |       | 連音       | あり         |                   | タメ口         | タメ口     |             |         |         | 可変             |          |
-| アメNY   |                  |                |                      | あり       | あり         | タメ口    | 末子音L化             |       | あり       | 可変         |                   | タメ口         | 子音前限定 |             |         | 老化    | 可変             | 歯音同化 |
-| アメユ   |                  |                |                      | あり       | あり         | タメ口    | 末子音L化             |       | あり       | 可変         |                   | タメ口         | 子音前限定 |             |         | 可変    | 可変             | 歯音同化 |
-| アメ南   |                  | 可変           |                      | 子音前限定 | あり         | あり      | 末子音L化             |       | 連音       | あり         | wh保持            | タメ口         | タメ口     |             |         | 老化    | 反り舌           | 歯音同化 |
-| アメ黒   | 末子音限定       | あり           | 末子音限定           | 子音前限定 | あり         | あり      | 可変                  |       | 連音       | アメ黒ヨッド | wh保持            | あり           | あり       |             |         |         | 可変             | 歯音同化 |
-| アメボス |                  |                |                      | 子音前限定 | あり         | タメ口    |                       |       | 可変       | 可変         |                   | タメ口         | 子音前限定 | 侵襲的      | 侵襲的  | 老化    | 反り舌           |          |
-| アメ西   |                  |                |                      | 子音前限定 | あり         | タメ口    |                       |       | 連音       | あり         |                   | タメ口         | タメ口     |             |         |         | 可変             |          |
-| アメアパ |                  | 可変           |                      | 子音前限定 | あり         | あり      | 末子音L化             |       | 連音       | あり         | 老化              | 口語           | 子音前限定 |             |         |         | 可変             |          |
-| アメミド |                  |                |                      | 子音前限定 | あり         | タメ口    |                       |       | 連音       | あり         |                   | タメ口         | タメ口     |             |         |         | 可変             |          |
-| オス英   | 都市若者         |                | 都市若者             | あり       | あり         | タメ口    | あり                  |       | あり       | あり         |                   | 口語           | 子音前限定 | 侵襲的      | 侵襲的  | あり    | 可変             |          |
-| カナ英   |                  |                |                      | 子音前限定 | あり         | タメ口    |                       |       | 連音       | あり         |                   | タメ口         | タメ口     |             |         |         | 可変             |          |
-| スコ英   | グラスゴー       |                | グラスゴー           | あり       |              | タメ口    |                       |       |            | あり         | あり              | 口語           | 子音前限定 |             |         |         | 可変             | 歯音同化 |
-| アイ英   |                  | ダブリン       | ダブリン             | 可変       | 可変         | タメ口    |                       |       | 可変       |              | あり              | 口語           | 子音前限定 |             |         |         | 可変             | あり     |
-| 北英     | 都市若者         | 可変           | 都市若者             | あり       |              | タメ口    | 可変                  | 可変  | あり       | あり         | 老化              | 口語           | 子音前限定 | 侵襲的      | 侵襲的  | あり    |                  | あり     |
-| ジョー英 | 都市若者         | 可変           | 都市若者             | 可変       |              | タメ口    | 可変                  | 可変  | あり       | あり         | 老化              | 口語           | 子音前限定 | 侵襲的      | 侵襲的  | あり    |                  | あり     |
-| ヨク英   | 都市若者         | 可変           | 都市若者             | あり       |              | タメ口    | 可変                  | 可変  | あり       | あり         | 老化              | 口語           | 子音前限定 | 侵襲的      | 侵襲的  | あり    |                  | あり     |
-| ウエ英   | 都市若者         |                |                      | 可変       |              | タメ口    | 可変                  | 可変  | 可変       |              | あり              | 口語           | 子音前限定 | 可変        | 可変    | 可変    |                  | 歯音同化 |
-| ブリ英   |                  |                |                      | 子音前限定 |              | タメ口    | 若年                  |       | あり       |              | 老化              | 口語           | 子音前限定 | 侵襲的      | 侵襲的  | あり    |                  | 歯音同化 |
-| 多英     | あり             | あり           | あり                 | あり       |              | タメ口    | あり                  | 可変  | あり       | 可変         |                   | あり           | 子音前限定 | 侵襲的      | 侵襲的  | あり    |                  | 歯音同化 |
-| コク英   | あり             | あり           | あり                 | あり       |              | あり      | あり                  | あり  | あり       | 可変         |                   | あり           | あり       | 侵襲的      | 侵襲的  | あり    |                  | あり     |
-| エス英   | あり             | 可変           | 可変                 | あり       |              | タメ口    | あり                  | 可変  | あり       | 可変         |                   | あり           | あり       | 侵襲的      | 侵襲的  | あり    |                  | 歯音同化 |
-| イン英   |                  | あり           |                      |            |              |           |                       |       |            |              |                   | 母音挿入傾向   |            |             |         |         |                  | あり     |
-| シン英   |                  | あり           |                      |            |              |           |                       |       |            |              |                   | あり           | 口語       | 侵襲的      | 侵襲的  | あり    |                  |          |
-| ニュ英   | 都市若者         |                | 都市若者             | あり       | あり         | タメ口    | あり                  |       | あり       | 可変         |                   | 口語           | 子音前限定 | 侵襲的      | 侵襲的  | あり    |                  |          |
-| 東ア英   |                  | あり           |                      |            |              |           |                       |       |            |              |                   | あり           | 口語       |             |         |         |                  |          |
-| 西ア英   |                  | あり           |                      |            |              |           |                       |       |            |              |                   | あり           | 口語       |             |         |         |                  |          |
-| 南ア英   |                  |                |                      | あり       |              | タメ口    | あり                  |       | あり       | 可変         |                   | 口語           | 子音前限定 | 侵襲的      | 侵襲的  | あり    |                  | 歯音同化 |
+| Dialect | TH-fronting | TH-stopping | Voiced TH-fronting | T-glottalization | Flapping | -ing dropping | L-vocalization | h-dropping | Yod-coalescence | Yod-dropping | wh-w contrast | Final cluster<br/>simplification | t-deletion | Linking r | Intrusive r | Non-rhoticity | Retroflex/<br/>bunched r | Dentalization |
+| ------- | ----------- | ----------- | ------------------ | ---------------- | -------- | ------------- | --------------- | ---------- | ---------------- | ------------ | ------------- | ------------------------------- | ---------- | --------- | ----------- | ------------- | ------------------------ | ------------- |
+| [GA](#GA) |  |  |  | preC | O | informal |  |  | sandhi | O |  | informal | informal |  |  |  | var |  |
+| [NYCAmE](#NYCE) |  |  |  | O | O | informal | codaL |  | O | var |  | informal | preC |  |  | older | var | before_th |
+| [JewAmE](#JAE) |  |  |  | O | O | informal | codaL |  | O | var |  | informal | preC |  |  | var | var | before_th |
+| [SAmE](#SAmE) |  | var |  | preC | O | O | codaL |  | sandhi | O | wholder | informal | informal |  |  | older | retroflex | before_th |
+| [AAVE](#AAVE) | final | O | final | preC | O | O | var |  | sandhi | aave_yod | wholder | O | O |  |  |  | var | before_th |
+| [BostAmE](#BostE) |  |  |  | preC | O | informal |  |  | var | var |  | informal | preC | O | O | older | retroflex |  |
+| [WAmE](#WAmE) |  |  |  | preC | O | informal |  |  | sandhi | O |  | informal | informal |  |  |  | var |  |
+| [AppAmE](#AppE) |  | var |  | preC | O | O | codaL |  | sandhi | O | older | colloquial | preC |  |  |  | var |  |
+| [MidwAmE](#MidwE) |  |  |  | preC | O | informal |  |  | sandhi | O |  | informal | informal |  |  |  | var |  |
+| [AusE](#AusE) | urban |  | urban | O | O | informal | O |  | O | O |  | colloquial | preC | O | O | O | var |  |
+| [CanE](#CanE) |  |  |  | preC | O | informal |  |  | sandhi | O |  | informal | informal |  |  |  | var |  |
+| [ScotE](#ScotE) | glasgow |  | glasgow | O |  | informal |  |  |  | O | O | colloquial | preC |  |  |  | var | before_th |
+| [IreE](#IrE) |  | dublin | dublin | var | var | informal |  |  | var |  | O | colloquial | preC |  |  |  | var | O |
+| [NEngE](#NEngE) | urban | var | urban | O |  | informal | var | var | O | O | older | colloquial | preC | O | O | O |  | O |
+| [Geordie](#Geordie) | urban | var | urban | var |  | informal | var | var | O | O | older | colloquial | preC | O | O | O |  | O |
+| [YorkE](#YorkE) | urban | var | urban | O |  | informal | var | var | O | O | older | colloquial | preC | O | O | O |  | O |
+| [WelshE](#WelshE) | urban |  |  | var |  | informal | var | var | var |  | O | colloquial | preC | var | var | var |  | before_th |
+| [RP](#RP) |  |  |  | preC |  | informal | younger |  | O |  | older | colloquial | preC | O | O | O |  | before_th |
+| [MLE](#MLE) | O | O | O | O |  | informal | O | var | O | var |  | O | preC | O | O | O |  | before_th |
+| [Cockney](#Cockney) | O | O | O | O |  | O | O | O | O | var |  | O | O | O | O | O |  | O |
+| [Estuary](#Estuary) | O | var | var | O |  | informal | O | var | O | var |  | O | O | O | O | O |  | before_th |
+| [IndE](#IndE) |  | O |  |  |  |  |  |  |  |  |  | epenth |  |  |  |  |  | O |
+| [SgE](#SgE) |  | O |  |  |  |  |  |  |  |  |  | O | colloquial | O | O | O |  |  |
+| [NZE](#NZE) | urban |  | urban | O | O | informal | O |  | O | var |  | colloquial | preC | O | O | O |  |  |
+| [EAffE](#EAfE) |  | O |  |  |  |  |  |  |  |  |  | O | colloquial |  |  |  |  |  |
+| [WAffE](#WAfE) |  | O |  |  |  |  |  |  |  |  |  | O | colloquial |  |  |  |  |  |
+| [SAffE](#SAfE) |  |  |  | O |  | informal | O |  | O | var |  | colloquial | preC | O | O | O |  | before_th |
 
-:  {.tbl-pron2 .tbl-colored-column-header  .tbl-colored-row-header .tbl-header-center .tbl-body-center .tbl-freeze-row-header .tbl-freeze-column-header .tbl-japanese-rotate-90  tbl-colwidths=[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,] }
+:  {.tbl-pron2 .tbl-colored-column-header .tbl-colored-row-header .tbl-header-center .tbl-body-center .tbl-freeze-row-header .tbl-freeze-column-header tbl-colwidths=[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1] }
 
-| 英語略称       | 日本語略称   | 日本語の解説                                                                     |
-| -------------- | ------------ | -------------------------------------------------------------------------------- |
-| final          | 末子音限定   | THフロンティングは主に**語末子音**で起こる（例：*mouth → mouf*）。              |
-| preC           | 子音前限定   | **子音前・語末**の位置に限定される（例：*button → [bʌʔn̩]*）。                   |
-| informal       | タメ口       | **非形式的／日常会話**で現れるが、必ずしも体系的ではない。                       |
-| sandhi         | 連音         | **連続発話／連音環境**で主に現れる（例：*did you → dɪdʒu*）。                   |
-| var            | 可変         | 地域・集団・スタイルによって**変動的**であり、安定した特徴ではない。             |
-| older          | 老化         | **年長層に保持**されるが、若い世代では衰退している。                             |
-| urban          | 都市若者     | **都市部の若者**に典型的な革新で、地方の話者には広がっていない。                 |
-| linking        | 侵襲的       | 非R音声方言で**母音間に侵襲的r**が現れる。                                       |
-| after_alveolar | 歯茎後脱落   | **歯茎音・冠状音の後**でヨッド脱落が主に起こる（例：*tune → tuːn*）。          |
-| before_th      | 歯音同化     | /t d n l/ が **/θ ð/ の前で歯音化**する（逆行同化=regressive assimilation）。  |
-| dublin         | ダブリン     | ダブリン英語ではアイルランド他地域より**THストッピング／フロンティング**が多い。 |
-| glasgow        | グラスゴー   | グラスゴー英語は他のスコットランド方言より**THフロンティング**が顕著。           |
-| wholder        | wh保持       | **wh–wの対立**（[ʍ] vs [w]）は南部やアメ黒の年長層に保持され、他では失われた。  |
-| codaL          | 末子音L化    | **音節末（コーダ）**でLが母音化する現象。                                        |
-| epenth         | 母音挿入傾向 | 子音連続の解消に**脱落よりも母音挿入**を好む傾向。                               |
-| aave_yod       | アメ黒ヨッド | 一部のアメ黒方言で **/juː→uː** の縮約が限定的に起こる。                       |
-| younger        | 若年         | **若年層**に多く見られる（例：若いRP話者、エスチュアリの影響）。                 |
-| colloquial     | 口語         | **速い／口語的発話**でのみ子音連続の簡略化や /t/ 脱落が生じる。                  |
-| retroflex      | 反り舌       | 侵襲的末子音を発音する時、Rで反り舌を利用する。                                  |
-| bunched        | 盛り舌       | 侵襲的末子音を発音する時、Rで盛り舌を利用する。                                  |
+| Code | Japanese Shorthand | Romaji (Hepburn) | Description |
+| ---- | ------------------ | ---------------- | ----------- |
+| O | あり | Ari | Present or clearly attested as a recognized feature in the dialect. |
+| final | 末子音限定 | Matsushiin gentei | TH-fronting occurs mainly in **word-final consonants** (e.g., *mouth -> mouf*). |
+| preC | 子音前限定 | Shiinzen gentei | Restricted to **pre-consonantal or word-final** position (e.g., *button -> [bʌʔn̩]*). |
+| informal | タメ口 | Tameguchi | Appears in **informal or everyday speech**, but is not necessarily fully systematic. |
+| sandhi | 連音 | Ren'on | Occurs mainly in **connected speech / sandhi environments** (e.g., *did you -> dɪdʒu*). |
+| var | 可変 | Kahen | **Variable** by region, group, or style, and not a stable hallmark. |
+| older | 老化 | Rōka | Preserved mainly by **older speakers**, but receding among younger generations. |
+| urban | 都市若者 | Toshi wakamono | An innovation typical of **urban youth**, not broadly spread to rural speakers. |
+| dublin | ダブリン | Daburin | Dublin English shows more **TH-stopping/fronting** than other varieties in Ireland. |
+| glasgow | グラスゴー | Gurasugō | Glasgow English shows more prominent **TH-fronting** than other Scottish dialects. |
+| wholder | wh保持 | wh hoji | The **wh-w contrast** ([ʍ] vs [w]) is preserved among older Southern speakers and some AAVE speakers, but lost elsewhere. |
+| codaL | 末子音L化 | Matsushiin L-ka | L-vocalization occurs mainly in **coda (syllable-final)** position. |
+| epenth | 母音挿入傾向 | Boin sōnyū keikō | There is a tendency to prefer **epenthesis (vowel insertion)** rather than deletion in resolving consonant clusters. |
+| aave_yod | アメ黒ヨッド | Ame-kuro yoddo | In some AAVE varieties, the reduction **/juː -> uː/** occurs only in limited contexts. |
+| younger | 若年 | Jakunen | Found more often among **younger speakers** (e.g., younger RP speakers under Estuary influence). |
+| colloquial | 口語 | Kōgo | Cluster simplification or /t/-deletion occurs only in **fast or colloquial speech**. |
+| retroflex | 反り舌 | Sorijita | R is realized with a **retroflex articulation** when the relevant postvocalic or intrusive R is pronounced. |
+| before_th | 歯音同化 | Shion dōka | /t d n l/ are **dentalized before /θ ð/** (regressive assimilation). |
 
-:  {.tbl-pron2 .tbl-header-center .tbl-second-column-wrapping  tbl-colwidths=[1,10] }
+:  {.tbl-pron2 .tbl-header-center .tbl-second-column-wrapping tbl-colwidths=[1,1,1,10] }
 
 <!--
-### (非表示)方言による発音変化一覧(英語版)
+### (Hidden) List of Pronunciation Changes by Dialect (English Version)
 
-| 方言     | THフロンティング | THストッピング | 有声THフロンティング | T声門化 | フラッピング | -ing 脱落 | Lヴォーカリゼーション | h脱落 | ヨッド合流 | ヨッド脱落 | wh–wコントラスト | 多重末子音脱落 | t脱落      | リンキングr | 侵襲的R | 非R音声 | Rの反り舌/盛り舌 | 歯音化    |
-| -------- | ---------------- | -------------- | -------------------- | ------- | ------------ | --------- | --------------------- | ----- | ---------- | ---------- | ----------------- | -------------- | ---------- | ----------- | ------- | ------- | ---------------- | --------- |
-| アメ般   |                  |                |                      | preC    | O            | informal  |                       |       | sandhi     | O          |                   | informal       | informal   |             |         |         | var              |           |
-| アメNY   |                  |                |                      | O       | O            | informal  | codaL                 |       | O          | var        |                   | informal       | preC       |             |         | older   | var              | before_th |
-| アメユ   |                  |                |                      | O       | O            | informal  | codaL                 |       | O          | var        |                   | informal       | preC       |             |         | var     | var              | before_th |
-| アメ南   |                  | var            |                      | preC    | O            | O         | codaL                 |       | sandhi     | O          | wholder           | informal       | informal   |             |         | older   | retroflex        | before_th |
-| アメ黒   | final            | O              | final                | preC    | O            | O         | var                   |       | sandhi     | aave_yod   | wholder           | O              | O          |             |         |         | var              | before_th |
-| アメボス |                  |                |                      | preC    | O            | informal  |                       |       | var        | var        |                   | informal       | preC       | O           | O       | older   | retroflex        |           |
-| アメ西   |                  |                |                      | preC    | O            | informal  |                       |       | sandhi     | O          |                   | informal       | informal   |             |         |         | var              |           |
-| アメアパ |                  | var            |                      | preC    | O            | O         | codaL                 |       | sandhi     | O          | older             | colloquial     | preC       |             |         |         | var              |           |
-| アメミド |                  |                |                      | preC    | O            | informal  |                       |       | sandhi     | O          |                   | informal       | informal   |             |         |         | var              |           |
-| オス英   | urban            |                | urban                | O       | O            | informal  | O                     |       | O          | O          |                   | colloquial     | preC       | O           | O       | O       | var              |           |
-| カナ英   |                  |                |                      | preC    | O            | informal  |                       |       | sandhi     | O          |                   | informal       | informal   |             |         |         | var              |           |
-| スコ英   | glasgow          |                | glasgow              | O       |              | informal  |                       |       |            | O          | O                 | colloquial     | preC       |             |         |         | var              | before_th |
-| アイ英   |                  | dublin         | dublin               | var     | var          | informal  |                       |       | var        |            | O                 | colloquial     | preC       |             |         |         | var              | O         |
-| 北英     | urban            | var            | urban                | O       |              | informal  | var                   | var   | O          | O          | older             | colloquial     | preC       | O           | O       | O       |                  | O         |
-| ジョー英 | urban            | var            | urban                | var     |              | informal  | var                   | var   | O          | O          | older             | colloquial     | preC       | O           | O       | O       |                  | O         |
-| ヨク英   | urban            | var            | urban                | O       |              | informal  | var                   | var   | O          | O          | older             | colloquial     | preC       | O           | O       | O       |                  | O         |
-| ウエ英   | urban            |                |                      | var     |              | informal  | var                   | var   | var        |            | O                 | colloquial     | preC       | var         | var     | var     |                  | before_th |
-| ブリ英   |                  |                |                      | preC    |              | informal  | younger               |       | O          |            | older             | colloquial     | preC       | O           | O       | O       |                  | before_th |
-| 多英     | O                | O              | O                    | O       |              | informal  | O                     | var   | O          | var        |                   | O              | preC       | O           | O       | O       |                  | before_th |
-| コク英   | O                | O              | O                    | O       |              | O         | O                     | O     | O          | var        |                   | O              | O          | O           | O       | O       |                  | O         |
-| エス英   | O                | var            | var                  | O       |              | informal  | O                     | var   | O          | var        |                   | O              | O          | O           | O       | O       |                  | before_th |
-| イン英   |                  | O              |                      |         |              |           |                       |       |            |            |                   | epenth         |            |             |         |         |                  | O         |
-| シン英   |                  | O              |                      |         |              |           |                       |       |            |            |                   | O              | colloquial | O           | O       | O       |                  |           |
-| ニュ英   | urban            |                | urban                | O       | O            | informal  | O                     |       | O          | var        |                   | colloquial     | preC       | O           | O       | O       |                  |           |
-| 東ア英   |                  | O              |                      |         |              |           |                       |       |            |            |                   | O              | colloquial |             |         |         |                  |           |
-| 西ア英   |                  | O              |                      |         |              |           |                       |       |            |            |                   | O              | colloquial |             |         |         |                  |           |
-| 南ア英   |                  |                |                      | O       |              | informal  | O                     |       | O          | var        |                   | colloquial     | preC       | O           | O       | O       |                  | before_th |
+| Dialect | TH-fronting | TH-stopping | TH-fronting (voiced) | T-glottalization | Flapping | -ing dropping | L-vocalization | h-dropping | Yod-coalescence | Yod-dropping | wh-w contrast | Final cluster simplification | t-deletion | Linking r | Intrusive r | Non-rhoticity | Retroflex/bunched r | Dentalization |
+| ------- | ----------- | ----------- | -------------------- | ---------------- | -------- | ------------- | -------------- | ---------- | --------------- | ------------ | ------------- | ---------------------------- | ---------- | --------- | ----------- | ------------- | ------------------- | ------------- |
+| GA | | | | preC | O | informal | | | sandhi | O | | informal | informal | | | | var | |
+| NYCAmE | | | | O | O | informal | codaL | | O | var | | informal | preC | | | older | var | before_th |
+| JewAmE | | | | O | O | informal | codaL | | O | var | | informal | preC | | | var | var | before_th |
+| SAmE | | var | | preC | O | O | codaL | | sandhi | O | wholder | informal | informal | | | older | retroflex | before_th |
+| AAVE | final | O | final | preC | O | O | var | | sandhi | aave_yod | wholder | O | O | | | | var | before_th |
+| BostAmE | | | | preC | O | informal | | | var | var | | informal | preC | O | O | older | retroflex | |
+| WAmE | | | | preC | O | informal | | | sandhi | O | | informal | informal | | | | var | |
+| AppAmE | | var | | preC | O | O | codaL | | sandhi | O | older | colloquial | preC | | | | var | |
+| MidwAmE | | | | preC | O | informal | | | sandhi | O | | informal | informal | | | | var | |
+| AusE | urban | | urban | O | O | informal | O | | O | O | | colloquial | preC | O | O | O | var | |
+| CanE | | | | preC | O | informal | | | sandhi | O | | informal | informal | | | | var | |
+| ScotE | glasgow | | glasgow | O | | informal | | | | O | O | colloquial | preC | | | | var | before_th |
+| IreE | | dublin | dublin | var | var | informal | | | var | | O | colloquial | preC | | | | var | O |
+| NEngE | urban | var | urban | O | | informal | var | var | O | O | older | colloquial | preC | O | O | O | | O |
+| Geordie | urban | var | urban | var | | informal | var | var | O | O | older | colloquial | preC | O | O | O | | O |
+| YorkE | urban | var | urban | O | | informal | var | var | O | O | older | colloquial | preC | O | O | O | | O |
+| WelshE | urban | | | var | | informal | var | var | var | | O | colloquial | preC | var | var | var | | before_th |
+| RP | | | | preC | | informal | younger | | O | | older | colloquial | preC | O | O | O | | before_th |
+| MLE | O | O | O | O | | informal | O | var | O | var | | O | preC | O | O | O | | before_th |
+| CockneyE | O | O | O | O | | O | O | O | O | var | | O | O | O | O | O | | O |
+| EstuaryE | O | var | var | O | | informal | O | var | O | var | | O | O | O | O | O | | before_th |
+| IndE | | O | | | | | | | | | | epenth | | | | | | O |
+| SgE | | O | | | | | | | | | | O | colloquial | O | O | O | | |
+| NZE | urban | | urban | O | O | informal | O | | O | var | | colloquial | preC | O | O | O | | |
+| EAffE | | O | | | | | | | | | | O | colloquial | | | | | |
+| WAffE | | O | | | | | | | | | | O | colloquial | | | | | |
+| SAffE | | | | O | | informal | O | | O | var | | colloquial | preC | O | O | O | | before_th |
 
 
-| ID             | 日本語略称   | Description                                                                       | 日本語の解説                                                                     |
-| -------------- | ------------ | --------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
-| final          | 末子音限定   | TH-fronting occurs mainly **word-finally** (e.g., *mouth → mouf*).               | THフロンティングは主に**語末子音**で起こる（例：*mouth → mouf*）。              |
-| preC           | 子音前限定   | Restricted to **pre-consonantal/word-final** position (*button → [bʌʔn̩]*).       | **子音前・語末**の位置に限定される（例：*button → [bʌʔn̩]*）。                   |
-| informal       | タメ口       | Appears in **informal/casual speech**, not categorical.                           | **非形式的／日常会話**で現れるが、必ずしも体系的ではない。                       |
-| sandhi         | 連音         | Occurs mainly in **connected speech/sandhi contexts** (*did you → dɪdʒu*).       | **連続発話／連音環境**で主に現れる（例：*did you → dɪdʒu*）。                   |
-| var            | 可変         | **Variable** across region, group, or style; not a stable hallmark.               | 地域・集団・スタイルによって**変動的**であり、安定した特徴ではない。             |
-| older          | 老化         | Conserved by **older speakers**, but receding in younger generations.             | **年長層に保持**されるが、若い世代では衰退している。                             |
-| urban          | 都市若者     | Innovation typical of **urban youth**; not widespread in rural speech.            | **都市部の若者**に典型的な革新で、地方の話者には広がっていない。                 |
-| linking        | 侵襲的       | Linking /r/ appears **between vowels** in non-rhotic dialects.                    | 非R音声方言で**母音間に侵襲的r**が現れる。                                       |
-| after_alveolar | 歯茎後脱落   | Yod-dropping mainly after **alveolars/coronals** (*tune → tuːn*).               | **歯茎音・冠状音の後**でヨッド脱落が主に起こる（例：*tune → tuːn*）。          |
-| before_th      | 歯音同化     | Dentalization of /t d n l/ **before /θ ð/** (regressive assimilation).          | /t d n l/ が **/θ ð/ の前で歯音化**する（逆行同化=regressive assimilation）。  |
-| dublin         | ダブリン     | Dublin English shows **TH-stopping/fronting** more than elsewhere in Ireland.     | ダブリン英語ではアイルランド他地域より**THストッピング／フロンティング**が多い。 |
-| glasgow        | グラスゴー   | Glasgow English shows **TH-fronting** more than other Scottish dialects.          | グラスゴー英語は他のスコットランド方言より**THフロンティング**が顕著。           |
-| wholder        | wh保持       | **wh–w contrast** ([ʍ] vs [w]) preserved in older Southern/AAVE, lost elsewhere. | **wh–wの対立**（[ʍ] vs [w]）は南部やAAVEの年長層に保持され、他では失われた。    |
-| codaL          | 末子音L化    | L-vocalization occurs mainly in **coda (syllable-final)** position.               | **音節末（コーダ）**でLが母音化する現象。                                        |
-| epenth         | 母音挿入傾向 | Prefers **epenthesis (insertion)** to resolve clusters, not deletion.             | 子音連続の解消に**脱落よりも母音挿入**を好む傾向。                               |
-| aave_yod       | アメ黒ヨッド | Some AAVE varieties reduce **/juː → uː** in limited contexts.                  | 一部のAAVE方言では**/juː → uː** の縮約が限定的に起こる。                      |
-| younger        | 若年         | Found more in **younger speakers** (e.g., younger RP, Estuary influence).         | **若年層**に多く見られる（例：若いRP話者、エスチュアリの影響）。                 |
-| colloquial     | 口語         | Cluster simplification or /t/-deletion in **fast/colloquial speech** only.        | **速い／口語的発話**でのみ子音連続の簡略化や /t/ 脱落が生じる。                  |
+| ID | Japanese Shorthand | Romaji (Hepburn) | Description | Japanese Explanation |
+| -- | ------------------ | ---------------- | ----------- | -------------------- |
+| final | 末子音限定 | Matsu shiin gentei | TH-fronting occurs mainly **word-finally** (e.g., *mouth -> mouf*). | THフロンティングは主に**語末子音**で起こる（例：*mouth -> mouf*）。 |
+| preC | 子音前限定 | Shiin mae gentei | Restricted to **pre-consonantal/word-final** position (*button -> [bʌʔn̩]*). | **子音前・語末**の位置に限定される（例：*button -> [bʌʔn̩]*）。 |
+| informal | タメ口 | Tameguchi | Appears in **informal/casual speech**, not categorical. | **非形式的／日常会話**で現れるが、必ずしも体系的ではない。 |
+| sandhi | 連音 | Ren'on | Occurs mainly in **connected speech/sandhi contexts** (*did you -> dɪdʒu*). | **連続発話／連音環境**で主に現れる（例：*did you -> dɪdʒu*）。 |
+| var | 可変 | Kahen | **Variable** across region, group, or style; not a stable hallmark. | 地域・集団・スタイルによって**変動的**であり、安定した特徴ではない。 |
+| older | 老化 | Rōka | Conserved by **older speakers**, but receding in younger generations. | **年長層に保持**されるが、若い世代では衰退している。 |
+| urban | 都市若者 | Toshi wakamono | Innovation typical of **urban youth**; not widespread in rural speech. | **都市部の若者**に典型的な革新で、地方の話者には広がっていない。 |
+| linking | 侵襲的 | Shinshūteki | Linking /r/ appears **between vowels** in non-rhotic dialects. | 非R音声方言で**母音間に侵襲的r**が現れる。 |
+| after_alveolar | 歯茎後脱落 | Shikei go daraku | Yod-dropping mainly after **alveolars/coronals** (*tune -> tuːn*). | **歯茎音・冠状音の後**でヨッド脱落が主に起こる（例：*tune -> tuːn*）。 |
+| before_th | 歯音同化 | Shion dōka | Dentalization of /t d n l/ **before /θ ð/** (regressive assimilation). | /t d n l/ が **/θ ð/ の前で歯音化**する（逆行同化 = regressive assimilation）。 |
+| dublin | ダブリン | Daburin | Dublin English shows **TH-stopping/fronting** more than elsewhere in Ireland. | ダブリン英語ではアイルランド他地域より**THストッピング／フロンティング**が多い。 |
+| glasgow | グラスゴー | Gurasugō | Glasgow English shows **TH-fronting** more than other Scottish dialects. | グラスゴー英語は他のスコットランド方言より**THフロンティング**が顕著。 |
+| wholder | wh保持 | wh hoji | **wh-w contrast** ([ʍ] vs [w]) is preserved among older Southern and AAVE speakers, but lost elsewhere. | **wh-wの対立**（[ʍ] vs [w]）は南部やAAVEの年長層に保持され、他では失われた。 |
+| codaL | 末子音L化 | Matsu shiin L-ka | L-vocalization occurs mainly in **coda (syllable-final)** position. | **音節末（コーダ）**でLが母音化する現象。 |
+| epenth | 母音挿入傾向 | Boin sōnyū keikō | Prefers **epenthesis (insertion)** rather than deletion to resolve clusters. | 子音連続の解消に**脱落よりも母音挿入**を好む傾向。 |
+| aave_yod | アメ黒ヨッド | Amekuro yoddo | Some AAVE varieties reduce **/juː -> uː** in limited contexts. | 一部のAAVE方言では**/juː -> uː**の縮約が限定的に起こる。 |
+| younger | 若年 | Jakunen | Found more often in **younger speakers** (e.g., younger RP speakers, Estuary influence). | **若年層**に多く見られる（例：若いRP話者、エスチュアリの影響）。 |
+| colloquial | 口語 | Kōgo | Cluster simplification or /t/-deletion occurs only in **fast/colloquial speech**. | **速い／口語的発話**でのみ子音連続の簡略化や /t/ 脱落が生じる。 |
 -->
 
-### IPAの全調音点(Places of Articulation)一覧
+### Full List of IPA Places of Articulation
 
-| 英語名       | 日本語名   | 日本語読み       | IPAの例               | 日本語の説明                                                   |
-| ------------ | ---------- | ---------------- | --------------------- | -------------------------------------------------------------- |
-| Bilabial     | 両唇音     | りょうしんおん   | [p, b, m, ɸ, β]      | 両唇を閉じる、または接近させて調音される子音。                 |
-| Labiodental  | 唇歯音     | しんしおん       | [f, v, ɱ, ʋ]          | 下唇と上歯を接触させて調音される子音。                         |
-| Dental       | 歯音       | はおん           | [t̪, d̪, n̪, θ, ð]     | 舌先あるいは舌端を歯に当てて調音される子音。                   |
-| Alveolar     | 歯茎音     | しけいおん       | [t, d, n, s, z, l, ɹ] | 舌先または舌端を歯茎に当てて調音される子音。                   |
-| Postalveolar | 後部歯茎音 | こうぶしけいおん | [ʃ, ʒ, t͡ʃ, d͡ʒ]        | 舌端を歯茎の後部に接近させて調音される子音。                   |
-| Retroflex    | 反舌音     | はんぜつおん     | [ʈ, ɖ, ɳ, ʂ, ʐ, ɭ, ɽ] | 舌先を反らせて硬口蓋方向に向け、歯茎付近で調音される子音。     |
-| Palatal      | 硬口蓋音   | こうこうがいおん | [c, ɟ, ɲ, j, ç, ʝ]    | 舌の前部を硬口蓋に接近させて調音される子音。                   |
-| Velar        | 軟口蓋音   | なんこうがいおん | [k, g, ŋ, x, ɣ, ɰ]   | 舌後部を軟口蓋に接触または接近させて調音される子音。           |
-| Uvular       | 口蓋垂音   | こうがいすいおん | [q, ɢ, χ, ʁ, ʀ, ɴ]   | 舌後部を口蓋垂に接触または接近させて調音される子音。           |
-| Pharyngeal   | 咽頭音     | いんとうおん     | [ħ, ʕ]               | 舌根を咽頭壁に接近させて調音される子音。                       |
-| Epiglottal   | 喉頭蓋音   | こうとうがいおん | [ʡ, ʜ, ʢ]             | 喉頭蓋を咽頭壁に接触または接近させて調音される子音。           |
-| Glottal      | 声門音     | せいもんおん     | [ʔ, h, ɦ]             | 声門において声帯を開閉・接近させることによって調音される子音。 |
-
-:  {.tbl-pron2 .pron3 .tbl-header-center }
-
-### IPAでの全調音法(Manners of Articulation)一覧
-
-| 英語名               | 日本語名   | 日本語読み           | IPAの例                                      | 日本語の説明                                                                         |
-| -------------------- | ---------- | -------------------- | -------------------------------------------- | ------------------------------------------------------------------------------------ |
-| Plosive (Stop)       | 破裂音     | はれつおん           | [p, b, t, d, k, g, q, ɢ, ʔ]                  | 調音器官を完全に閉鎖し、その後に開放することで生じる子音。                           |
-| Nasal                | 鼻音       | びおん               | [m, n, ɲ, ŋ, ɴ]                             | 口腔を閉鎖し、鼻腔に気流を通すことによって生じる子音。                               |
-| Trill                | ふるえ音   | ふるえおん           | [r, ʀ, ʙ]                                    | 調音器官が連続的に振動して生じる子音。                                               |
-| Tap / Flap           | はじき音   | はじきおん           | [ɾ, ɽ]                                       | 調音器官が一度だけ瞬間的に接触して生じる子音。                                       |
-| Fricative            | 摩擦音     | まさつおん           | [f, v, s, z, ʃ, ʒ, x, ɣ, χ, ʁ, h, ɦ, ħ, ʕ] | 狭められた調音器官の間を気流が通過し、摩擦によって生じる子音。                       |
-| Lateral Fricative    | 側面摩擦音 | そくめんまさつおん   | [ɬ, ɮ]                                       | 舌の中央を閉鎖し、側面に狭い通路を作って摩擦を伴う気流を通すことによって生じる子音。 |
-| Approximant          | 接近音     | せっきんおん         | [j, w, ɹ, ɰ]                                 | 調音器官が接近するが、摩擦を生じるほどには狭まらない子音。                           |
-| Lateral Approximant  | 側面接近音 | そくめんせっきんおん | [l, ʎ, ʟ]                                    | 舌の中央を閉鎖し、側面を開放して気流を通すことで生じる子音。                         |
-| Affricate (combined) | 破擦音     | はさつおん           | [t͡s, d͡z, t͡ʃ, d͡ʒ]                             | 破裂の直後に摩擦を伴う一連の調音として生じる子音。                                   |
+| English Name | Japanese Name | Kana | Romaji (Hepburn) | IPA Examples | Explanation |
+| ------------ | ------------- | ---- | ---------------- | ------------ | ----------- |
+| Bilabial | 両唇音 | りょうしんおん | Ryōshin on | [p, b, m, ɸ, β] | Consonants articulated by closing or bringing together both lips. |
+| Labiodental | 唇歯音 | しんしおん | Shinshi on | [f, v, ɱ, ʋ] | Consonants articulated by placing the lower lip against the upper teeth. |
+| Dental | 歯音 | はおん | Ha on | [t̪, d̪, n̪, θ, ð] | Consonants articulated with the tongue tip or blade against the teeth. |
+| Alveolar | 歯茎音 | しけいおん | Shikei on | [t, d, n, s, z, l, ɹ] | Consonants articulated with the tongue tip or blade at the alveolar ridge. |
+| Postalveolar | 後部歯茎音 | こうぶしけいおん | Kōbu shikei on | [ʃ, ʒ, t͡ʃ, d͡ʒ] | Consonants articulated with the tongue blade just behind the alveolar ridge. |
+| Retroflex | 反舌音 | はんぜつおん | Hanzetsu on | [ʈ, ɖ, ɳ, ʂ, ʐ, ɭ, ɽ] | Consonants articulated by curling the tongue tip back toward the palate, around the alveolar area. |
+| Palatal | 硬口蓋音 | こうこうがいおん | Kōkōgai on | [c, ɟ, ɲ, j, ç, ʝ] | Consonants articulated by bringing the front of the tongue close to the hard palate. |
+| Velar | 軟口蓋音 | なんこうがいおん | Nankōgai on | [k, g, ŋ, x, ɣ, ɰ] | Consonants articulated by touching or approaching the soft palate with the back of the tongue. |
+| Uvular | 口蓋垂音 | こうがいすいおん | Kōgaisui on | [q, ɢ, χ, ʁ, ʀ, ɴ] | Consonants articulated by touching or approaching the uvula with the back of the tongue. |
+| Pharyngeal | 咽頭音 | いんとうおん | Intō on | [ħ, ʕ] | Consonants articulated by bringing the tongue root toward the pharyngeal wall. |
+| Epiglottal | 喉頭蓋音 | こうとうがいおん | Kōtōgai on | [ʡ, ʜ, ʢ] | Consonants articulated by bringing the epiglottis into contact with or near the pharyngeal wall. |
+| Glottal | 声門音 | せいもんおん | Seimon on | [ʔ, h, ɦ] | Consonants articulated at the glottis by opening, closing, or constricting the vocal folds. |
 
 :  {.tbl-pron2 .pron3 .tbl-header-center }
 
+### Full List of IPA Manners of Articulation
 
-<!--
-
-| 英語名       | 日本語名   | 日本語読み       | IPAの例               | 英語の説明                               | 日本語の説明                                                   |
-| ------------ | ---------- | ---------------- | --------------------- | ---------------------------------------- | -------------------------------------------------------------- |
-| Bilabial     | 両唇音     | りょうしんおん   | [p, b, m, ɸ, β]      | Both lips touch or constrict.            | 両唇を閉じる、または接近させて調音される子音。                 |
-| Labiodental  | 唇歯音     | しんしおん       | [f, v, ɱ, ʋ]          | Lower lip against upper teeth.           | 下唇と上歯を接触させて調音される子音。                         |
-| Dental       | 歯音       | はおん           | [t̪, d̪, n̪, θ, ð]     | Tongue tip/blade against teeth.          | 舌先あるいは舌端を歯に当てて調音される子音。                   |
-| Alveolar     | 歯茎音     | しけいおん       | [t, d, n, s, z, l, ɹ] | Tongue tip/blade at alveolar ridge.      | 舌先または舌端を歯茎に当てて調音される子音。                   |
-| Postalveolar | 後部歯茎音 | こうぶしけいおん | [ʃ, ʒ, ʧ, ʤ]          | Just behind alveolar ridge.              | 舌端を歯茎の後部に接近させて調音される子音。                   |
-| Retroflex    | 反舌音     | はんぜつおん     | [ʈ, ɖ, ɳ, ʂ, ʐ, ɭ, ɽ] | Tongue tip curled back toward palate.    | 舌先を反らせて硬口蓋方向に向け、歯茎付近で調音される子音。     |
-| Palatal      | 硬口蓋音   | こうこうがいおん | [c, ɟ, ɲ, j, ç, ʝ]    | Tongue body raised toward hard palate.   | 舌の前部を硬口蓋に接近させて調音される子音。                   |
-| Velar        | 軟口蓋音   | なんこうがいおん | [k, g, ŋ, x, ɣ, ɰ]   | Tongue back against soft palate (velum). | 舌後部を軟口蓋に接触または接近させて調音される子音。           |
-| Uvular       | 口蓋垂音   | こうがいすいおん | [q, ɢ, χ, ʁ, ʀ, ɴ]   | Tongue back against uvula.               | 舌後部を口蓋垂に接触または接近させて調音される子音。           |
-| Pharyngeal   | 咽頭音     | いんとうおん     | [ħ, ʕ]               | Tongue root against pharyngeal wall.     | 舌根を咽頭壁に接近させて調音される子音。                       |
-| Epiglottal   | 喉頭蓋音   | こうとうがいおん | [ʡ, ʜ, ʢ]             | Epiglottis against pharyngeal wall.      | 喉頭蓋を咽頭壁に接触または接近させて調音される子音。           |
-| Glottal      | 声門音     | せいもんおん     | [ʔ, h, ɦ]             | Vocal folds constrict or open (glottis). | 声門において声帯を開閉・接近させることによって調音される子音。 |
--->
-<!--
-| English Name         | Japanese Name | Japanese Hiragana    | All Available IPA (typical)                  | Description in English                                   | Academic Style Japanese Description                                                        |
-| -------------------- | ------------- | -------------------- | -------------------------------------------- | -------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| Plosive (Stop)       | 破裂音        | はれつおん           | [p, b, t, d, k, g, q, ɢ, ʔ]                  | Complete closure of the vocal tract followed by release. | 調音器官を完全に閉鎖し、その後に開放することで生じる子音である。                           |
-| Nasal                | 鼻音          | びおん               | [m, n, ɲ, ŋ, ɴ]                             | Closure in the mouth with air released through the nose. | 口腔を閉鎖し、鼻腔に気流を通すことによって生じる子音である。                               |
-| Trill                | ふるえ音      | ふるえおん           | [r, ʀ, ʙ]                                    | Articulator vibrates in repeated contacts.               | 調音器官が連続的に振動して生じる子音である。                                               |
-| Tap / Flap           | はじき音      | はじきおん           | [ɾ, ɽ]                                       | Single brief contact of the articulator.                 | 調音器官が一度だけ瞬間的に接触して生じる子音である。                                       |
-| Fricative            | 摩擦音        | まさつおん           | [f, v, s, z, ʃ, ʒ, x, ɣ, χ, ʁ, h, ɦ, ħ, ʕ] | Narrow constriction creating turbulent airflow.          | 狭められた調音器官の間を気流が通過し、摩擦によって生じる子音である。                       |
-| Lateral Fricative    | 側面摩擦音    | そくめんまさつおん   | [ɬ, ɮ]                                       | Airflow forced around sides of tongue with friction.     | 舌の中央を閉鎖し、側面に狭い通路を作って摩擦を伴う気流を通すことによって生じる子音である。 |
-| Approximant          | 接近音        | せっきんおん         | [j, w, ɹ, ɰ]                                 | Narrowing without turbulence.                            | 調音器官が接近するが、摩擦を生じるほどには狭まらない子音である。                           |
-| Lateral Approximant  | 側面接近音    | そくめんせっきんおん | [l, ʎ, ʟ]                                    | Air passes around sides of tongue without turbulence.    | 舌の中央を閉鎖し、側面を開放して気流を通すことで生じる子音である。                         |
-| Affricate (combined) | 破擦音        | はさつおん           | [t͡s, d͡z, t͡ʃ, d͡ʒ]                             | Plosive release immediately into fricative.              | 破裂の直後に摩擦を伴う一連の調音として生じる子音である。                                   |
--->
-
-
-
-#### 1. 破裂音 (Plosives)
-
-| IPA | English Name                 | 日本語訳         | ひらがな                       |
-| --- | ---------------------------- | ---------------- | ------------------------------ |
-| p   | voiceless bilabial plosive   | 無声両唇破裂音   | むせいりょうしんはれつおん     |
-| b   | voiced bilabial plosive      | 有声両唇破裂音   | ゆうせいりょうしんはれつおん   |
-| t   | voiceless alveolar plosive   | 無声歯茎破裂音   | むせいしけいはれつおん         |
-| d   | voiced alveolar plosive      | 有声歯茎破裂音   | ゆうせいしけいはれつおん       |
-| ʈ   | voiceless retroflex plosive  | 無声反り舌破裂音 | むせいそりじたはれつおん       |
-| ɖ   | voiced retroflex plosive     | 有声反り舌破裂音 | ゆうせいそりじたはれつおん     |
-| c   | voiceless palatal plosive    | 無声硬口蓋破裂音 | むせいこうこうがいはれつおん   |
-| ɟ   | voiced palatal plosive       | 有声硬口蓋破裂音 | ゆうせいこうこうがいはれつおん |
-| k   | voiceless velar plosive      | 無声軟口蓋破裂音 | むせいなんこうがいはれつおん   |
-| g   | voiced velar plosive         | 有声軟口蓋破裂音 | ゆうせいなんこうがいはれつおん |
-| q   | voiceless uvular plosive     | 無声口蓋垂破裂音 | むせいこうがいすいはれつおん   |
-| ɢ   | voiced uvular plosive        | 有声口蓋垂破裂音 | ゆうせいこうがいすいはれつおん |
-| ʡ   | voiceless epiglottal plosive | 無声喉頭蓋破裂音 | むせいこうとうがいはれつおん   |
-| ʔ   | glottal stop                 | 声門閉鎖音       | せいもんへいさおん             |
+| English Name | Japanese Name | Kana | Romaji (Hepburn) | IPA Examples | Explanation |
+| ------------ | ------------- | ---- | ---------------- | ------------ | ----------- |
+| Plosive (Stop) | 破裂音 | はれつおん | Haretsuon | [p, b, t, d, k, g, q, ɢ, ʔ] | Consonants produced by completely closing the articulators and then releasing them. |
+| Nasal | 鼻音 | びおん | Bion | [m, n, ɲ, ŋ, ɴ] | Consonants produced by closing the oral cavity and sending airflow through the nose. |
+| Trill | ふるえ音 | ふるえおん | Furue on | [r, ʀ, ʙ] | Consonants produced by repeated vibration of an articulator. |
+| Tap / Flap | はじき音 | はじきおん | Hajiki on | [ɾ, ɽ] | Consonants produced by a single brief contact of an articulator. |
+| Fricative | 摩擦音 | まさつおん | Masatsu on | [f, v, s, z, ʃ, ʒ, x, ɣ, χ, ʁ, h, ɦ, ħ, ʕ] | Consonants produced when airflow passes through a narrow constriction and creates friction. |
+| Lateral Fricative | 側面摩擦音 | そくめんまさつおん | Sokumen masatsu on | [ɬ, ɮ] | Consonants produced by blocking the center of the tongue and letting turbulent airflow pass along the sides. |
+| Approximant | 接近音 | せっきんおん | Sekkin on | [j, w, ɹ, ɰ] | Consonants in which the articulators approach each other but not closely enough to create friction. |
+| Lateral Approximant | 側面接近音 | そくめんせっきんおん | Sokumen sekkin on | [l, ʎ, ʟ] | Consonants produced by blocking the center of the tongue and letting airflow pass along the sides without friction. |
+| Affricate (combined) | 破擦音 | はさつおん | Hasatsu on | [t͡s, d͡z, t͡ʃ, d͡ʒ] | Consonants produced as a stop released directly into a fricative. |
 
 :  {.tbl-pron2 .pron3 .tbl-header-center }
 
-#### 2. 鼻音 (Nasals)
+#### 1. Plosives
 
-| IPA | English Name      | 日本語訳   | ひらがな           |
-| --- | ----------------- | ---------- | ------------------ |
-| m   | bilabial nasal    | 両唇鼻音   | りょうしんびおん   |
-| ɱ   | labiodental nasal | 唇歯鼻音   | しんしびおん       |
-| n   | alveolar nasal    | 歯茎鼻音   | しけいびおん       |
-| ɳ   | retroflex nasal   | 反り舌鼻音 | そりじたびおん     |
-| ɲ   | palatal nasal     | 硬口蓋鼻音 | こうこうがいびおん |
-| ŋ  | velar nasal       | 軟口蓋鼻音 | なんこうがいびおん |
-| ɴ   | uvular nasal      | 口蓋垂鼻音 | こうがいすいびおん |
-
-:  {.tbl-pron2 .pron3 .tbl-header-center }
-
-#### 3. 震え音 (Trills)
-
-| IPA | English Name   | 日本語訳       | ひらがな               |
-| --- | -------------- | -------------- | ---------------------- |
-| ʙ   | bilabial trill | 両唇ふるえ音   | りょうしんふるえおん   |
-| r   | alveolar trill | 歯茎ふるえ音   | しけいふるえおん       |
-| ʀ   | uvular trill   | 口蓋垂ふるえ音 | こうがいすいふるえおん |
+| IPA | English Name | Japanese Translation | Kana | Romaji (Hepburn) |
+| --- | ------------ | -------------------- | ---- | ---------------- |
+| p | voiceless bilabial plosive | 無声両唇破裂音 | むせいりょうしんはれつおん | Musei ryōshin haretsuon |
+| b | voiced bilabial plosive | 有声両唇破裂音 | ゆうせいりょうしんはれつおん | Yūsei ryōshin haretsuon |
+| t | voiceless alveolar plosive | 無声歯茎破裂音 | むせいしけいはれつおん | Musei shikei haretsuon |
+| d | voiced alveolar plosive | 有声歯茎破裂音 | ゆうせいしけいはれつおん | Yūsei shikei haretsuon |
+| ʈ | voiceless retroflex plosive | 無声反り舌破裂音 | むせいそりじたはれつおん | Musei sorijita haretsuon |
+| ɖ | voiced retroflex plosive | 有声反り舌破裂音 | ゆうせいそりじたはれつおん | Yūsei sorijita haretsuon |
+| c | voiceless palatal plosive | 無声硬口蓋破裂音 | むせいこうこうがいはれつおん | Musei kōkōgai haretsuon |
+| ɟ | voiced palatal plosive | 有声硬口蓋破裂音 | ゆうせいこうこうがいはれつおん | Yūsei kōkōgai haretsuon |
+| k | voiceless velar plosive | 無声軟口蓋破裂音 | むせいなんこうがいはれつおん | Musei nankōgai haretsuon |
+| g | voiced velar plosive | 有声軟口蓋破裂音 | ゆうせいなんこうがいはれつおん | Yūsei nankōgai haretsuon |
+| q | voiceless uvular plosive | 無声口蓋垂破裂音 | むせいこうがいすいはれつおん | Musei kōgaisui haretsuon |
+| ɢ | voiced uvular plosive | 有声口蓋垂破裂音 | ゆうせいこうがいすいはれつおん | Yūsei kōgaisui haretsuon |
+| ʡ | voiceless epiglottal plosive | 無声喉頭蓋破裂音 | むせいこうとうがいはれつおん | Musei kōtōgai haretsuon |
+| ʔ | glottal stop | 声門閉鎖音 | せいもんへいさおん | Seimon heisaon |
 
 :  {.tbl-pron2 .pron3 .tbl-header-center }
 
-#### 4. はじき音 (Taps/Flaps)
+#### 2. Nasals
 
-| IPA | English Name      | 日本語訳       | ひらがな           |
-| --- | ----------------- | -------------- | ------------------ |
-| ⱱ   | labiodental flap  | 唇歯はじき音   | しんしはじきおん   |
-| ɾ   | alveolar tap/flap | 歯茎はじき音   | しけいはじきおん   |
-| ɽ   | retroflex flap    | 反り舌はじき音 | そりじたはじきおん |
+| IPA | English Name | Japanese Translation | Kana | Romaji (Hepburn) |
+| --- | ------------ | -------------------- | ---- | ---------------- |
+| m | bilabial nasal | 両唇鼻音 | りょうしんびおん | Ryōshin bion |
+| ɱ | labiodental nasal | 唇歯鼻音 | しんしびおん | Shinshi bion |
+| n | alveolar nasal | 歯茎鼻音 | しけいびおん | Shikei bion |
+| ɳ | retroflex nasal | 反り舌鼻音 | そりじたびおん | Sorijita bion |
+| ɲ | palatal nasal | 硬口蓋鼻音 | こうこうがいびおん | Kōkōgai bion |
+| ŋ | velar nasal | 軟口蓋鼻音 | なんこうがいびおん | Nankōgai bion |
+| ɴ | uvular nasal | 口蓋垂鼻音 | こうがいすいびおん | Kōgaisui bion |
+
 :  {.tbl-pron2 .pron3 .tbl-header-center }
 
-#### 5. 摩擦音 (Fricatives)
+#### 3. Trills
 
-| IPA | English Name                     | 日本語訳           | ひらがな                       |
-| --- | -------------------------------- | ------------------ | ------------------------------ |
-| ɸ   | voiceless bilabial fricative     | 無声両唇摩擦音     | むせいりょうしんまさつおん     |
-| β  | voiced bilabial fricative        | 有声両唇摩擦音     | ゆうせいりょうしんまさつおん   |
-| f   | voiceless labiodental fricative  | 無声唇歯摩擦音     | むせいしんしまさつおん         |
-| v   | voiced labiodental fricative     | 有声唇歯摩擦音     | ゆうせいしんしまさつおん       |
-| θ  | voiceless dental fricative       | 無声歯摩擦音       | むせいしまさつおん             |
-| ð  | voiced dental fricative          | 有声歯摩擦音       | ゆうせいしまさつおん           |
-| s   | voiceless alveolar fricative     | 無声歯茎摩擦音     | むせいしけいまさつおん         |
-| z   | voiced alveolar fricative        | 有声歯茎摩擦音     | ゆうせいしけいまさつおん       |
-| ʃ   | voiceless postalveolar fricative | 無声後部歯茎摩擦音 | むせいこうぶしけいまさつおん   |
-| ʒ   | voiced postalveolar fricative    | 有声後部歯茎摩擦音 | ゆうせいこうぶしけいまさつおん |
-| ʂ   | voiceless retroflex fricative    | 無声反り舌摩擦音   | むせいそりじたまさつおん       |
-| ʐ   | voiced retroflex fricative       | 有声反り舌摩擦音   | ゆうせいそりじたまさつおん     |
-| ç   | voiceless palatal fricative      | 無声硬口蓋摩擦音   | むせいこうこうがいまさつおん   |
-| ʝ   | voiced palatal fricative         | 有声硬口蓋摩擦音   | ゆうせいこうこうがいまさつおん |
-| x   | voiceless velar fricative        | 無声軟口蓋摩擦音   | むせいなんこうがいまさつおん   |
-| ɣ   | voiced velar fricative           | 有声軟口蓋摩擦音   | ゆうせいなんこうがいまさつおん |
-| χ  | voiceless uvular fricative       | 無声口蓋垂摩擦音   | むせいこうがいすいまさつおん   |
-| ʁ   | voiced uvular fricative          | 有声口蓋垂摩擦音   | ゆうせいこうがいすいまさつおん |
-| ħ  | voiceless pharyngeal fricative   | 無声咽頭摩擦音     | むせいいんとうまさつおん       |
-| ʕ   | voiced pharyngeal fricative      | 有声咽頭摩擦音     | ゆうせいいんとうまさつおん     |
-| ʜ   | voiceless epiglottal fricative   | 無声喉頭蓋摩擦音   | むせいこうとうがいまさつおん   |
-| ʢ   | voiced epiglottal fricative      | 有声喉頭蓋摩擦音   | ゆうせいこうとうがいまさつおん |
-| h   | voiceless glottal fricative      | 無声声門摩擦音     | むせいせいもんまさつおん       |
-| ɦ   | voiced glottal fricative         | 有声声門摩擦音     | ゆうせいせいもんまさつおん     |
+| IPA | English Name | Japanese Translation | Kana | Romaji (Hepburn) |
+| --- | ------------ | -------------------- | ---- | ---------------- |
+| ʙ | bilabial trill | 両唇ふるえ音 | りょうしんふるえおん | Ryōshin furue on |
+| r | alveolar trill | 歯茎ふるえ音 | しけいふるえおん | Shikei furue on |
+| ʀ | uvular trill | 口蓋垂ふるえ音 | こうがいすいふるえおん | Kōgaisui furue on |
+
 :  {.tbl-pron2 .pron3 .tbl-header-center }
 
-#### 6. 側面摩擦音 (Lateral Fricatives)
+#### 4. Taps/Flaps
 
-| IPA | English Name                         | 日本語訳           | ひらがな                         |
-| --- | ------------------------------------ | ------------------ | -------------------------------- |
-| ɬ   | voiceless alveolar lateral fricative | 無声歯茎側面摩擦音 | むせいしけいそくめんまさつおん   |
-| ɮ   | voiced alveolar lateral fricative    | 有声歯茎側面摩擦音 | ゆうせいしけいそくめんまさつおん |
+| IPA | English Name | Japanese Translation | Kana | Romaji (Hepburn) |
+| --- | ------------ | -------------------- | ---- | ---------------- |
+| ⱱ | labiodental flap | 唇歯はじき音 | しんしはじきおん | Shinshi hajiki on |
+| ɾ | alveolar tap/flap | 歯茎はじき音 | しけいはじきおん | Shikei hajiki on |
+| ɽ | retroflex flap | 反り舌はじき音 | そりじたはじきおん | Sorijita hajiki on |
 :  {.tbl-pron2 .pron3 .tbl-header-center }
 
-#### 7. 接近音 (Approximants)
+#### 5. Fricatives
 
-| IPA | English Name            | 日本語訳     | ひらがな                 |
-| --- | ----------------------- | ------------ | ------------------------ |
-| ʋ   | labiodental approximant | 唇歯接近音   | しんしせっきんおん       |
-| ɹ   | alveolar approximant    | 歯茎接近音   | しけいせっきんおん       |
-| ɻ   | retroflex approximant   | 反り舌接近音 | そりじたせっきんおん     |
-| j   | palatal approximant     | 硬口蓋接近音 | こうこうがいせっきんおん |
-| ɰ   | velar approximant       | 軟口蓋接近音 | なんこうがいせっきんおん |
+| IPA | English Name | Japanese Translation | Kana | Romaji (Hepburn) |
+| --- | ------------ | -------------------- | ---- | ---------------- |
+| ɸ | voiceless bilabial fricative | 無声両唇摩擦音 | むせいりょうしんまさつおん | Musei ryōshin masatsu on |
+| β | voiced bilabial fricative | 有声両唇摩擦音 | ゆうせいりょうしんまさつおん | Yūsei ryōshin masatsu on |
+| f | voiceless labiodental fricative | 無声唇歯摩擦音 | むせいしんしまさつおん | Musei shinshi masatsu on |
+| v | voiced labiodental fricative | 有声唇歯摩擦音 | ゆうせいしんしまさつおん | Yūsei shinshi masatsu on |
+| θ | voiceless dental fricative | 無声歯摩擦音 | むせいしまさつおん | Musei shi masatsu on |
+| ð | voiced dental fricative | 有声歯摩擦音 | ゆうせいしまさつおん | Yūsei shi masatsu on |
+| s | voiceless alveolar fricative | 無声歯茎摩擦音 | むせいしけいまさつおん | Musei shikei masatsu on |
+| z | voiced alveolar fricative | 有声歯茎摩擦音 | ゆうせいしけいまさつおん | Yūsei shikei masatsu on |
+| ʃ | voiceless postalveolar fricative | 無声後部歯茎摩擦音 | むせいこうぶしけいまさつおん | Musei kōbu shikei masatsu on |
+| ʒ | voiced postalveolar fricative | 有声後部歯茎摩擦音 | ゆうせいこうぶしけいまさつおん | Yūsei kōbu shikei masatsu on |
+| ʂ | voiceless retroflex fricative | 無声反り舌摩擦音 | むせいそりじたまさつおん | Musei sorijita masatsu on |
+| ʐ | voiced retroflex fricative | 有声反り舌摩擦音 | ゆうせいそりじたまさつおん | Yūsei sorijita masatsu on |
+| ç | voiceless palatal fricative | 無声硬口蓋摩擦音 | むせいこうこうがいまさつおん | Musei kōkōgai masatsu on |
+| ʝ | voiced palatal fricative | 有声硬口蓋摩擦音 | ゆうせいこうこうがいまさつおん | Yūsei kōkōgai masatsu on |
+| x | voiceless velar fricative | 無声軟口蓋摩擦音 | むせいなんこうがいまさつおん | Musei nankōgai masatsu on |
+| ɣ | voiced velar fricative | 有声軟口蓋摩擦音 | ゆうせいなんこうがいまさつおん | Yūsei nankōgai masatsu on |
+| χ | voiceless uvular fricative | 無声口蓋垂摩擦音 | むせいこうがいすいまさつおん | Musei kōgaisui masatsu on |
+| ʁ | voiced uvular fricative | 有声口蓋垂摩擦音 | ゆうせいこうがいすいまさつおん | Yūsei kōgaisui masatsu on |
+| ħ | voiceless pharyngeal fricative | 無声咽頭摩擦音 | むせいいんとうまさつおん | Musei intō masatsu on |
+| ʕ | voiced pharyngeal fricative | 有声咽頭摩擦音 | ゆうせいいんとうまさつおん | Yūsei intō masatsu on |
+| ʜ | voiceless epiglottal fricative | 無声喉頭蓋摩擦音 | むせいこうとうがいまさつおん | Musei kōtōgai masatsu on |
+| ʢ | voiced epiglottal fricative | 有声喉頭蓋摩擦音 | ゆうせいこうとうがいまさつおん | Yūsei kōtōgai masatsu on |
+| h | voiceless glottal fricative | 無声声門摩擦音 | むせいせいもんまさつおん | Musei seimon masatsu on |
+| ɦ | voiced glottal fricative | 有声声門摩擦音 | ゆうせいせいもんまさつおん | Yūsei seimon masatsu on |
 :  {.tbl-pron2 .pron3 .tbl-header-center }
 
-#### 8. 側面接近音 (Lateral Approximants)
+#### 6. Lateral Fricatives
 
-| IPA | English Name                  | 日本語訳         | ひらがな                         |
-| --- | ----------------------------- | ---------------- | -------------------------------- |
-| l   | alveolar lateral approximant  | 歯茎側面接近音   | しけいそくめんせっきんおん       |
-| ɭ   | retroflex lateral approximant | 反り舌側面接近音 | そりじたそくめんせっきんおん     |
-| ʎ   | palatal lateral approximant   | 硬口蓋側面接近音 | こうこうがいそくめんせっきんおん |
-| ʟ   | velar lateral approximant     | 軟口蓋側面接近音 | なんこうがいそくめんせっきんおん |
+| IPA | English Name | Japanese Translation | Kana | Romaji (Hepburn) |
+| --- | ------------ | -------------------- | ---- | ---------------- |
+| ɬ | voiceless alveolar lateral fricative | 無声歯茎側面摩擦音 | むせいしけいそくめんまさつおん | Musei shikei sokumen masatsu on |
+| ɮ | voiced alveolar lateral fricative | 有声歯茎側面摩擦音 | ゆうせいしけいそくめんまさつおん | Yūsei shikei sokumen masatsu on |
 :  {.tbl-pron2 .pron3 .tbl-header-center }
 
+#### 7. Approximants
 
-<!--
+| IPA | English Name | Japanese Translation | Kana | Romaji (Hepburn) |
+| --- | ------------ | -------------------- | ---- | ---------------- |
+| ʋ | labiodental approximant | 唇歯接近音 | しんしせっきんおん | Shinshi sekkin on |
+| ɹ | alveolar approximant | 歯茎接近音 | しけいせっきんおん | Shikei sekkin on |
+| ɻ | retroflex approximant | 反り舌接近音 | そりじたせっきんおん | Sorijita sekkin on |
+| j | palatal approximant | 硬口蓋接近音 | こうこうがいせっきんおん | Kōkōgai sekkin on |
+| ɰ | velar approximant | 軟口蓋接近音 | なんこうがいせっきんおん | Nankōgai sekkin on |
+:  {.tbl-pron2 .pron3 .tbl-header-center }
 
-### (非表示) 音韻規則を表す表記法(SPE)
+#### 8. Lateral Approximants
 
-音韻学で使われる発音規則を書き表す表記法に SPE表記法(SPE notation) というものがあります。
+| IPA | English Name | Japanese Translation | Kana | Romaji (Hepburn) |
+| --- | ------------ | -------------------- | ---- | ---------------- |
+| l | alveolar lateral approximant | 歯茎側面接近音 | しけいそくめんせっきんおん | Shikei sokumen sekkin on |
+| ɭ | retroflex lateral approximant | 反り舌側面接近音 | そりじたそくめんせっきんおん | Sorijita sokumen sekkin on |
+| ʎ | palatal lateral approximant | 硬口蓋側面接近音 | こうこうがいそくめんせっきんおん | Kōkōgai sokumen sekkin on |
+| ʟ | velar lateral approximant | 軟口蓋側面接近音 | なんこうがいそくめんせっきんおん | Nankōgai sokumen sekkin on |
+:  {.tbl-pron2 .pron3 .tbl-header-center }
 
-SPE表記法は音韻学の研究が立ち遅れている我が国日本では全く使われていません。[^spe3]
+### (Hidden) SPE Notation for Representing Phonological Rules
 
-そこでここではSPE表記法を避け、漢語の訳語を当てて表現します。
+There is a notation system called **SPE notation** that is used in phonology to express pronunciation rules.
 
-| SPE表記法      | 日本語の呼び方         | 英語の呼び方                 | 説明                                          |
-| -------------- | ---------------------- | ---------------------------- | --------------------------------------------- |
-| `_`            | 規則適用位置           | **Site of Application**      | 規則が適用される位置（X _ Y） [^spe1]         |
-| `#`            | 語界                   | **Word Boundary**            | 単語と単語の境界を表す                        |
-| `C`            | 任意の子音             | **Consonant**                | 包括記号( **Cover Symbols** ) のひとつ[^spe2] |
-| `V`            | 任意の母音             | **Vowel**                    | 包括記号( **Cover Symbols** ) のひとつ[^spe2] |
-| `{ … }`       | 特定のセグメントの集合 | **Set of Specific Segments** | ※ 例：{t, d, n} の **segments**              |
-| `[ … ]`       | 特徴束                 | **Feature Bundle**           | 例：`[+syllabic]`、`[-voice]`                 |
-| `( … )`       | 省略可能               | **Optional**                 | 任意要素の括弧                                |
-| `+`            | 形態素境界             | **Morpheme Boundary**        | 語内部                                        |
-| `##`           | 発話境界               | **Utterance Boundary**       | 発話全体の端                                  |
-| `V́`            | 強勢母音               | **Stressed  Vowel**          |                                               |
-| `V̆`            | 無強勢母音             | **Unstressed Vowel**         |                                               |
-| `N̩`            | 音節的子音             | **Syllabic Consonant**       |                                               |
-| `O`            | 音節頭                 | **Onset**                    | `σ` **sigma**(後述)の構成要素のひとつ。      |
-| `N`            | 音節核                 | **Nucleus**                  | `σ` **sigma**(後述)の構成要素のひとつ。      |
-| `Co`           | 音節末                 | **Coda**                     | `σ` **sigma**(後述)の構成要素のひとつ。      |
-| `σ` **sigma** | 音節                   | **Syllable**                 |                                               |
-| `ω` **omega** | 韻律語                 | **Prosodic Word**            |                                               |
-| `φ` **phi**   | 音韻句                 | **Phonological Phrase**      |                                               |
-| `ι` **iota**  | イントネーション句     | **Intonational Phrase**      |                                               |
-| `μ` **mu**    | モーラ                 | **Mora**                     | 日本語発音分析で必須                          |
-| `∅`            | 空列（ゼロ音）         | **Null** / **Zero**          | 挿入・脱落規則に使う（例：`∅ → t / V _ V`）  |
-| `α`（変数）   | アルファ変数           | **Alpha Notation**           | 同値特徴（例：C → [αvoice] / _ [αvoice]）  |
-| `.`            | 音節境界               | **Syllable Boundary**        | 転写や環境に用いることがある                  |
-| `R` / `ρ`     | ライム(核＋末)         | **Rime**                     | `R = N + Coda`                                |
-| `Ft`           | フット                 | **Foot**                     | `σ`の上位単位                                |
-| `U`            | 発話                   | **Utterance**                | `ι`の上位；`##`の実体                        |
+In Japan, where phonological research has remained comparatively underdeveloped, SPE notation is almost never used.[^spe3]
+
+So here, instead of depending on bare SPE notation alone, I pair it with explicit translated labels.
+
+| SPE Notation | Japanese Label | Romaji (Hepburn) | English Label | Explanation |
+| ------------ | -------------- | ---------------- | ------------- | ----------- |
+| `_` | 規則適用位置 | Kisoku tekiyō ichi | **Site of Application** | Position where the rule applies (X _ Y). [^spe1] |
+| `#` | 語界 | Gokai | **Word Boundary** | Marks the boundary between words. |
+| `C` | 任意の子音 | Nin'i no shiin | **Consonant** | One of the **cover symbols**.[^spe2] |
+| `V` | 任意の母音 | Nin'i no boin | **Vowel** | One of the **cover symbols**.[^spe2] |
+| `{ ... }` | 特定のセグメントの集合 | Tokutei no segumento no shūgō | **Set of Specific Segments** | For example, the **segments** in {t, d, n}. |
+| `[ ... ]` | 特徴束 | Tokuchō taba | **Feature Bundle** | For example, `[+syllabic]` or `[-voice]`. |
+| `( ... )` | 省略可能 | Shōryaku kanō | **Optional** | Parentheses for optional elements. |
+| `+` | 形態素境界 | Keitaiso kyōkai | **Morpheme Boundary** | Boundary inside a word. |
+| `##` | 発話境界 | Hatsuwa kyōkai | **Utterance Boundary** | Boundary at the edge of an utterance. |
+| `V́` | 強勢母音 | Kyōsei boin | **Stressed Vowel** | |
+| `V̆` | 無強勢母音 | Mukyōsei boin | **Unstressed Vowel** | |
+| `N̩` | 音節的子音 | Onsetsuteki shiin | **Syllabic Consonant** | |
+| `O` | 音節頭 | Onsetsutō | **Onset** | One constituent of `σ` **sigma** (see below). |
+| `N` | 音節核 | Onsetsu kaku | **Nucleus** | One constituent of `σ` **sigma** (see below). |
+| `Co` | 音節末 | Onsetsumatsu | **Coda** | One constituent of `σ` **sigma** (see below). |
+| `σ` **sigma** | 音節 | Onsetsu | **Syllable** | |
+| `ω` **omega** | 韻律語 | Inritsugo | **Prosodic Word** | |
+| `φ` **phi** | 音韻句 | On'in ku | **Phonological Phrase** | |
+| `ι` **iota** | イントネーション句 | Intonēshon ku | **Intonational Phrase** | |
+| `μ` **mu** | モーラ | Mōra | **Mora** | Essential in Japanese pronunciation analysis. |
+| `∅` | 空列（ゼロ音） | Kūretsu (zero-on) | **Null** / **Zero** | Used in insertion and deletion rules, e.g. `∅ -> t / V _ V`. |
+| `α` (variable) | アルファ変数 | Arufa hensū | **Alpha Notation** | Shared feature variable, e.g. `C -> [αvoice] / _ [αvoice]`. |
+| `.` | 音節境界 | Onsetsu kyōkai | **Syllable Boundary** | Sometimes used in transcription or environment notation. |
+| `R` / `ρ` | ライム(核＋末) | Raimu (kaku + matsu) | **Rime** | `R = N + Coda`. |
+| `Ft` | フット | Futto | **Foot** | A unit above `σ`. |
+| `U` | 発話 | Hatsuwa | **Utterance** | A unit above `ι`; the substance marked by `##`. |
 
 :  {.tbl-pron2 .tbl-header-center tbl-colwidths=[1,1,1,1,1]}
 
-- 🗣️ 1 `A → B / X _ Y` は「X と Y のあいだ（**between**）で A が B に変わる（**becomes**）」と読む。
+- 🗣️ `A -> B / X _ Y` is read as: A **becomes** B **between** X and Y.
 
-[^spe1]: 挿入・脱落にも用いる。
-[^spe2]: CとVは、CV用語の**タイミング・スロット (timing slots)**とは異なる概念。混同に注意。
+[^spe1]: Also used for insertion and deletion.
+[^spe2]: Here, C and V are different from the **timing slots** of CV terminology. Do not confuse the two.
 [^spe3]: Some specialist generative-phonology works do use SPE-style rules, but this guide targets general readers.
 
-### (非表示)音韻規則を表す時の発音変化位置の用語
+### (Hidden) Terms for Positions of Phonological Change in Rule Notation
 
-| カテゴリ                         | 名称                                                 | SPE              |
-| -------------------------------- | ---------------------------------------------------- | ---------------- |
-| 語 (Word)                        | 語頭 (Word-initial)                                  | `# _` / `ω[ _`  |
-| 語 (Word)                        | 語末 (Word-final)                                    | `_ #` / `_ ]ω`  |
-| 語 (Word)                        | 語中 (Word-medial)                                   | (no `#`)         |
-| 音節 (Syllable)                  | 音節頭 (Syllable onset)                              | `σ[ _` / `O _`  |
-| 音節 (Syllable)                  | 音節末 (Syllable coda)                               | `_ ]σ` / `_ Co` |
-| 要素間 (Segmental)               | 母音間 (Intervocalic)                                | `V _ V`          |
-| 要素間 (Segmental)               | 子音間 (Interconsonantal)                            | `C _ C`          |
-| 要素間 (Segmental)               | 母音前 (Before a vowel)                              | `_ V`            |
-| 要素間 (Segmental)               | 子音前 (Before a consonant)                          | `_ C`            |
-| 要素間 (Segmental)               | 母音後 (After a vowel)                               | `V _`            |
-| 要素間 (Segmental)               | 子音後 (After a consonant)                           | `C _`            |
-| 形態素・韻律 (Morphology)        | 語素界 (Morpheme boundary)                           | `+`              |
-| 形態素・韻律 (Morphology)        | 話語界 (Utterance boundary)                          | `##`             |
-| 形態素・韻律 (Morphology)        | 短語頭 (Phonological-phrase initial)                 | `φ[ _`          |
-| 形態素・韻律 (Morphology)        | 短語末 (Phonological-phrase final)                   | `_ ]φ`          |
-| 形態素・韻律 (Morphology)        | 語調短語頭 (Intonational-phrase initial)             | `ι[ _`          |
-| 形態素・韻律 (Morphology)        | 語調短語末 (Intonational-phrase final)               | `_ ]ι`          |
-| ストレス・成音節性 (Syllabicity) | 重音後・非重音前 (After stressed, before unstressed) | `V́ _ V̆`          |
-| ストレス・成音節性 (Syllabicity) | 成音節子音前 (Before a syllabic consonant)           | `_ N̩`            |
-| 集合 (Sets)                      | 音集 (Set of segments)                               | `{…}`           |
-| 類 (Classes)                     | 子音 (Consonant)                                     | `C`              |
-| 類 (Classes)                     | 母音 (Vowel)                                         | `V`              |
+| Category | Japanese Term | Romaji (Hepburn) | English Label | SPE |
+| -------- | ------------- | ---------------- | ------------- | --- |
+| Word | 語頭 | Gotō | Word-initial | `# _` / `ω[ _` |
+| Word | 語末 | Gomatsu | Word-final | `_ #` / `_ ]ω` |
+| Word | 語中 | Gochū | Word-medial | (no `#`) |
+| Syllable | 音節頭 | Onsetsutō | Syllable onset | `σ[ _` / `O _` |
+| Syllable | 音節末 | Onsetsumatsu | Syllable coda | `_ ]σ` / `_ Co` |
+| Segmental | 母音間 | Boinkan | Intervocalic | `V _ V` |
+| Segmental | 子音間 | Shiinkan | Interconsonantal | `C _ C` |
+| Segmental | 母音前 | Boin mae | Before a vowel | `_ V` |
+| Segmental | 子音前 | Shiin mae | Before a consonant | `_ C` |
+| Segmental | 母音後 | Boin go | After a vowel | `V _` |
+| Segmental | 子音後 | Shiin go | After a consonant | `C _` |
+| Morphology / Prosody | 語素界 | Gosokai | Morpheme boundary | `+` |
+| Morphology / Prosody | 話語界 | Wagokai | Utterance boundary | `##` |
+| Morphology / Prosody | 短語頭 | Tangotō | Phonological-phrase initial | `φ[ _` |
+| Morphology / Prosody | 短語末 | Tangomatsu | Phonological-phrase final | `_ ]φ` |
+| Morphology / Prosody | 語調短語頭 | Gochō tangotō | Intonational-phrase initial | `ι[ _` |
+| Morphology / Prosody | 語調短語末 | Gochō tangomatsu | Intonational-phrase final | `_ ]ι` |
+| Stress / Syllabicity | 重音後・非重音前 | Jūongo hi-jūon mae | After stressed, before unstressed | `V́ _ V̆` |
+| Stress / Syllabicity | 成音節子音前 | Seionsetsu shiin mae | Before a syllabic consonant | `_ N̩` |
+| Sets | 音集 | Onshū | Set of segments | `{...}` |
+| Classes | 子音 | Shiin | Consonant | `C` |
+| Classes | 母音 | Boin | Vowel | `V` |
 
 :  {.tbl-pron2 .pron3 .tbl-header-center }
 
 * 🗣️ When you want **syllable-initial** in prosodic notation, write **`σ[ _`** (not `[σ _`).
 * 🗣️ **C/V here are class shorthands**, not CV-skeleton timing slots. If you switch to true CV-skeleton talk, use **O/N/Co** or **C/V-slots** explicitly.
-* 🗣️ For **linking/intrusive r** in non-rhotic accents, the context is **V # V** (i.e., **語末 + 語頭** with vowels on both sides).
+* 🗣️ For **linking/intrusive r** in non-rhotic accents, the context is **V # V** (that is, **word-final + word-initial** with vowels on both sides).
 * 🗣️ Use **`_ ]σ`** (or `_ Co`) for “in coda,” and **`σ[ _`** (or `O _`) for “in onset.”
 
 -->
 
 
-### 英語の音韻学の用語集
+### Glossary of English Phonetics
 
 <!--
-###  英語でのCore Glossary for Describing Pronunciation Alterations
+### Core Glossary for Describing Pronunciation Alterations in English
 -->
 
-#### 調音点（Places of Articulation）
+#### Places of Articulation
 
-| 英語用語 (Term) | 日本語名     | 日本語説明                                                         |
-| --------------- | ------------ | ------------------------------------------------------------------ |
-| Alveolar        | 歯茎音       | 舌を上前歯のすぐ後ろの歯茎に当てて発音する音。例: /t, d, n, s, l/  |
-| Dental          | 歯音         | 舌を歯に当てて発音する音。例: /θ, ð/                             |
-| Labiodental     | 唇歯音       | 下唇を上の歯に当てて発音する音。例: /f, v/                         |
-| Velar           | 軟口蓋音     | 舌の後部を軟口蓋に当てて発音する音。例: /k, g, ŋ/                 |
-| Glottal         | 声門音       | 声門で作られる音。例: [ʔ]（声門閉鎖音）                            |
-| Retroflex       | 反り舌音     | 舌先を後ろに反らせて口蓋方向に近づけて発音する音。例: [ɻ]          |
-| Palatal         | 硬口蓋音     | 舌を硬口蓋に近づけて発音する音。例: [j]                            |
-| Palato-alveolar | 歯茎硬口蓋音 | 舌の中部を歯茎の後ろで硬口蓋寄りに当てて発音する音。例: [tʃ], [dʒ] |
+| English Term | Japanese Name | Romaji (Hepburn) | Japanese Explanation |
+| ------------ | ------------- | ---------------- | -------------------- |
+| Alveolar | 歯茎音 | Shikei on | 舌を上前歯のすぐ後ろの歯茎に当てて発音する音。例: /t, d, n, s, l/ |
+| Dental | 歯音 | Ha on | 舌を歯に当てて発音する音。例: /θ, ð/ |
+| Labiodental | 唇歯音 | Shinshi on | 下唇を上の歯に当てて発音する音。例: /f, v/ |
+| Velar | 軟口蓋音 | Nankōgai on | 舌の後部を軟口蓋に当てて発音する音。例: /k, g, ŋ/ |
+| Glottal | 声門音 | Seimon on | 声門で作られる音。例: [ʔ]（声門閉鎖音） |
+| Retroflex | 反り舌音 | Sorijita on | 舌先を後ろに反らせて口蓋方向に近づけて発音する音。例: [ɻ] |
+| Palatal | 硬口蓋音 | Kōkōgai on | 舌を硬口蓋に近づけて発音する音。例: [j] |
+| Palato-alveolar | 歯茎硬口蓋音 | Shikei kōkōgai on | 舌の中部を歯茎の後ろで硬口蓋寄りに当てて発音する音。例: [tʃ], [dʒ] |
 
-:  {.tbl-pron2 .tbl-header-center .tbl-third-column-wrapping tbl-colwidths=[1,1,1] }
+:  {.tbl-pron2 .tbl-header-center tbl-colwidths=[2,2,2,6] }
 
 <!--
 #### Places of Articulation
 
-| Term            | Japanese Name | Explanation                                                                                                       |
-| --------------- | ------------- | ----------------------------------------------------------------------------------------------------------------- |
-| Alveolar        | 歯茎音        | sounds made with the tongue at the alveolar ridge (just behind the upper front teeth). Examples: /t, d, n, s, l/. |
-| Dental          | 歯音          | tongue against the teeth. Examples: /θ, ð/.                                                                     |
-| Labiodental     | 唇歯音        | lower lip against upper teeth. Examples: /f, v/.                                                                  |
-| Velar           | 軟口蓋音      | back of tongue against soft palate. Examples: /k, g, ŋ/.                                                         |
-| Glottal         | 声門音        | sound at the vocal folds. Example: \[ʔ] (glottal stop).                                                           |
-| Retroflex       | 反り舌音      | tongue tip curled back toward palate. Example: \[ɻ].                                                              |
-| Palatal         | 硬口蓋音      | tongue against hard palate. Example: \[j].                                                                        |
-| Palato-alveolar | 歯茎硬口蓋音  | tongue blade just behind alveolar ridge, slightly toward palate. Examples: \[tʃ], \[dʒ].                          |
+| Term | Japanese Name | Romaji (Hepburn) | Explanation |
+| ---- | ------------- | ---------------- | ----------- |
+| Alveolar | 歯茎音 | Shikei on | sounds made with the tongue at the alveolar ridge (just behind the upper front teeth). Examples: /t, d, n, s, l/. |
+| Dental | 歯音 | Ha on | tongue against the teeth. Examples: /θ, ð/. |
+| Labiodental | 唇歯音 | Shinshi on | lower lip against upper teeth. Examples: /f, v/. |
+| Velar | 軟口蓋音 | Nankōgai on | back of tongue against soft palate. Examples: /k, g, ŋ/. |
+| Glottal | 声門音 | Seimon on | sound at the vocal folds. Example: \[ʔ] (glottal stop). |
+| Retroflex | 反り舌音 | Sorijita on | tongue tip curled back toward palate. Example: \[ɻ]. |
+| Palatal | 硬口蓋音 | Kōkōgai on | tongue against hard palate. Example: \[j]. |
+| Palato-alveolar | 歯茎硬口蓋音 | Shikei kōkōgai on | tongue blade just behind alveolar ridge, slightly toward palate. Examples: \[tʃ], \[dʒ]. |
 
-:  {.tbl-pron2 .tbl-header-center .tbl-second-column-wrapping tbl-colwidths=[1,1,1,1,1] }
+:  {.tbl-pron2 .tbl-header-center tbl-colwidths=[2,2,2,6] }
 -->
 
-#### 調音様式（Manners of Articulation）
+#### Manners of Articulation
 
-| 英語用語 (Term) | 日本語名   | 日本語説明                                                                 |
-| --------------- | ---------- | -------------------------------------------------------------------------- |
-| Stop (Plosive)  | 破裂音     | 息の流れを完全に止めて破裂させて出す音。例: /p, t, k/                      |
-| Fricative       | 摩擦音     | 狭い隙間を通る息が摩擦して出る音。例: /f, s, θ/                           |
-| Affricate       | 破擦音     | 破裂音から摩擦音に移行して発音される音。例: [tʃ], [dʒ]                     |
-| Nasal           | 鼻音       | 息が鼻から流れて出る音。例: /m, n, ŋ/                                     |
-| Approximant     | 接近音     | 調音器官が接近するが閉鎖や摩擦は起きない、母音に似た子音。例: /l, ɹ, j, w/ |
-| Tap/Flap        | はじき音   | ごく短い接触で発音される音。例: アメリカ英語 *water* の [ɾ]                |
-| Glottal stop    | 声門閉鎖音 | 声門を閉じて発音する音。例: [ʔ]                                            |
-| Vowel           | 母音       | 声道が開いて発音され、音節の核となる音。                                   |
+| English Term | Japanese Name | Romaji (Hepburn) | Japanese Explanation |
+| ------------ | ------------- | ---------------- | -------------------- |
+| Stop (Plosive) | 破裂音 | Haretsu on | 息の流れを完全に止めて破裂させて出す音。例: /p, t, k/ |
+| Fricative | 摩擦音 | Masatsu on | 狭い隙間を通る息が摩擦して出る音。例: /f, s, θ/ |
+| Affricate | 破擦音 | Hasatsu on | 破裂音から摩擦音に移行して発音される音。例: [tʃ], [dʒ] |
+| Nasal | 鼻音 | Bion | 息が鼻から流れて出る音。例: /m, n, ŋ/ |
+| Approximant | 接近音 | Sekkin on | 調音器官が接近するが閉鎖や摩擦は起きない、母音に似た子音。例: /l, ɹ, j, w/ |
+| Tap/Flap | はじき音 | Hajiki on | ごく短い接触で発音される音。例: アメリカ英語 *water* の [ɾ] |
+| Glottal stop | 声門閉鎖音 | Seimon heisaon | 声門を閉じて発音する音。例: [ʔ] |
+| Vowel | 母音 | Boin | 声道が開いて発音され、音節の核となる音。 |
 
-:  {.tbl-pron2 .tbl-header-center .tbl-third-column-wrapping tbl-colwidths=[1,1,1] }
+:  {.tbl-pron2 .tbl-header-center tbl-colwidths=[2,2,2,6] }
 
 <!--
 #### Manners of Articulation
 
-| Term           | Japanese Name | Explanation                                                       |
-| -------------- | ------------- | ----------------------------------------------------------------- |
-| Stop (Plosive) | 破裂音        | complete closure and release of airflow. Examples: /p, t, k/.     |
-| Fricative      | 摩擦音        | narrow constriction with turbulent airflow. Examples: /f, s, θ/. |
-| Affricate      | 破擦音        | stop released into a fricative. Examples: \[tʃ], \[dʒ].           |
-| Nasal          | 鼻音          | airflow through the nose. Examples: /m, n, ŋ/.                   |
-| Approximant    | 接近音        | open constriction, vowel-like consonant. Examples: /l, ɹ, j, w/.  |
-| Tap/Flap       | はじき音      | very quick contact, like \[ɾ] in American *water*.                |
-| Glottal stop   | 声門閉鎖音    | closure at the vocal folds, \[ʔ].                                 |
-| Vowel          | 母音          | open vocal tract sound, nucleus of a syllable.                    |
+| Term | Japanese Name | Romaji (Hepburn) | Explanation |
+| ---- | ------------- | ---------------- | ----------- |
+| Stop (Plosive) | 破裂音 | Haretsu on | complete closure and release of airflow. Examples: /p, t, k/. |
+| Fricative | 摩擦音 | Masatsu on | narrow constriction with turbulent airflow. Examples: /f, s, θ/. |
+| Affricate | 破擦音 | Hasatsu on | stop released into a fricative. Examples: \[tʃ], \[dʒ]. |
+| Nasal | 鼻音 | Bion | airflow through the nose. Examples: /m, n, ŋ/. |
+| Approximant | 接近音 | Sekkin on | open constriction, vowel-like consonant. Examples: /l, ɹ, j, w/. |
+| Tap/Flap | はじき音 | Hajiki on | very quick contact, like \[ɾ] in American *water*. |
+| Glottal stop | 声門閉鎖音 | Seimon heisaon | closure at the vocal folds, \[ʔ]. |
+| Vowel | 母音 | Boin | open vocal tract sound, nucleus of a syllable. |
 
-:  {.tbl-pron2 .tbl-header-center .tbl-second-column-wrapping tbl-colwidths=[1,1,1,1,1] }
+:  {.tbl-pron2 .tbl-header-center tbl-colwidths=[2,2,2,6] }
 
 -->
 
 
-#### 音声過程（Phonological Processes）
+#### Phonological Processes
 
-| 英語用語 (Term)        | 日本語名       | 日本語説明                                                              |
-| ---------------------- | -------------- | ----------------------------------------------------------------------- |
-| Deletion (∅)           | 脱落           | 音が発音されなくなる現象。例: h-dropping                                |
-| Insertion / Epenthetic | 挿入（介入音） | 本来ない音が加えられる現象。例: intrusive r                             |
-| Assimilation           | 同化           | 隣接する音に影響されて似た音に変化する現象。例: /t/ → [t̪]（/θ/ の前） |
-| Vocalization           | 母音化         | 子音が母音的な音に変化する現象。例: /l/ → [o]                          |
-| Palatalization         | 硬口蓋化       | 調音位置が硬口蓋寄りに移動する現象。例: /tj/ → [tʃ]                    |
-| Cluster simplification | 子音連続簡略化 | 子音の連続が単純化される現象。例: /-st/ → /-s/                         |
+| English Term | Japanese Name | Romaji (Hepburn) | Japanese Explanation |
+| ------------ | ------------- | ---------------- | -------------------- |
+| Deletion (∅) | 脱落 | Daraku | 音が発音されなくなる現象。例: h-dropping |
+| Insertion / Epenthetic | 挿入（介入音） | Sōnyū (kai'nyū-on) | 本来ない音が加えられる現象。例: intrusive r |
+| Assimilation | 同化 | Dōka | 隣接する音に影響されて似た音に変化する現象。例: /t/ -> [t̪]（/θ/ の前） |
+| Vocalization | 母音化 | Boinka | 子音が母音的な音に変化する現象。例: /l/ -> [o] |
+| Palatalization | 硬口蓋化 | Kōkōgaika | 調音位置が硬口蓋寄りに移動する現象。例: /tj/ -> [tʃ] |
+| Cluster simplification | 子音連続簡略化 | Shiin renzoku kanryakuka | 子音の連続が単純化される現象。例: /-st/ -> /-s/ |
 
-:  {.tbl-pron2 .tbl-header-center .tbl-third-column-wrapping tbl-colwidths=[1,1,1] }
+:  {.tbl-pron2 .tbl-header-center tbl-colwidths=[2,2,3,6] }
 
 <!--
 #### Phonological Processes
 
-| Term                   | Japanese Name  | Explanation                                                          |
-| ---------------------- | -------------- | -------------------------------------------------------------------- |
-| Deletion (∅)           | 脱落           | sound omitted (e.g. h-dropping).                                     |
-| Insertion / Epenthetic | 挿入（介入音） | sound added (e.g. intrusive r).                                      |
-| Assimilation           | 同化           | sound changes to resemble a neighbor (e.g. /t/ → \[t̪] before /θ/). |
-| Vocalization           | 母音化         | consonant turns into a vowel-like sound (e.g. /l/ → \[o]).          |
-| Palatalization         | 硬口蓋化       | sound shifts toward palatal region (e.g. /tj/ → \[tʃ]).             |
-| Cluster simplification | 子音連続簡略化 | consonant groups reduced (e.g. /-st/ → /-s/).                       |
+| Term | Japanese Name | Romaji (Hepburn) | Explanation |
+| ---- | ------------- | ---------------- | ----------- |
+| Deletion (∅) | 脱落 | Daraku | sound omitted (e.g. h-dropping). |
+| Insertion / Epenthetic | 挿入（介入音） | Sōnyū (kai'nyū-on) | sound added (e.g. intrusive r). |
+| Assimilation | 同化 | Dōka | sound changes to resemble a neighbor (e.g. /t/ -> \[t̪] before /θ/). |
+| Vocalization | 母音化 | Boinka | consonant turns into a vowel-like sound (e.g. /l/ -> \[o]). |
+| Palatalization | 硬口蓋化 | Kōkōgaika | sound shifts toward the palatal region (e.g. /tj/ -> \[tʃ]). |
+| Cluster simplification | 子音連続簡略化 | Shiin renzoku kanryakuka | consonant groups reduced (e.g. /-st/ -> /-s/). |
 
-:  {.tbl-pron2 .tbl-header-center .tbl-second-column-wrapping tbl-colwidths=[1,1,1,1,1] }
+:  {.tbl-pron2 .tbl-header-center tbl-colwidths=[2,2,3,6] }
 -->
 
 
-#### その他の基本用語（Other Key Terms）
+#### Other Key Terms
 
-| 英語用語 (Term) | 日本語名   | 日本語説明                                               |
-| --------------- | ---------- | -------------------------------------------------------- |
-| Voiced          | 有声       | 声帯が振動して発音される音。例: /b, d, v/                |
-| Voiceless       | 無声       | 声帯が振動しない音。例: /p, t, f/                        |
-| Rhoticity       | R音性      | /r/ 音が発音されるかどうかの性質                         |
-| Linking         | リンキング | 語の境界で母音と母音の間に /r/ が挿入される現象          |
-| Contrast        | 対立       | 音の違いによって意味が変わる現象。例: *witch* と *which* |
+| English Term | Japanese Name | Romaji (Hepburn) | Japanese Explanation |
+| ------------ | ------------- | ---------------- | -------------------- |
+| Voiced | 有声 | Yūsei | 声帯が振動して発音される音。例: /b, d, v/ |
+| Voiceless | 無声 | Musei | 声帯が振動しない音。例: /p, t, f/ |
+| Rhoticity | R音性 | R-onsei | /r/ 音が発音されるかどうかの性質 |
+| Linking | リンキング | Rinkingu | 語の境界で母音と母音の間に /r/ が挿入される現象 |
+| Contrast | 対立 | Tairitsu | 音の違いによって意味が変わる現象。例: *witch* と *which* |
 
-:  {.tbl-pron2 .tbl-header-center .tbl-third-column-wrapping tbl-colwidths=[1,1,1] }
+:  {.tbl-pron2 .tbl-header-center tbl-colwidths=[2,2,2,6] }
 
 <!--
 #### Other Key Terms
 
-| Term      | Japanese Name | Explanation                                                          |
-| --------- | ------------- | -------------------------------------------------------------------- |
-| Voiced    | 有声          | vocal folds vibrate (e.g. /b, d, v/).                                |
-| Voiceless | 無声          | no vocal fold vibration (e.g. /p, t, f/).                            |
-| Rhoticity | R音性         | presence/absence of /r/ sounds.                                      |
-| Linking   | リンキング    | insertion of /r/ between vowels across word boundaries.              |
-| Contrast  | 対立          | difference in sounds changes word meaning (e.g. *witch* vs *which*). |
+| Term | Japanese Name | Romaji (Hepburn) | Explanation |
+| ---- | ------------- | ---------------- | ----------- |
+| Voiced | 有声 | Yūsei | vocal folds vibrate (e.g. /b, d, v/). |
+| Voiceless | 無声 | Musei | no vocal fold vibration (e.g. /p, t, f/). |
+| Rhoticity | R音性 | R-onsei | presence/absence of /r/ sounds. |
+| Linking | リンキング | Rinkingu | insertion of /r/ between vowels across word boundaries. |
+| Contrast | 対立 | Tairitsu | difference in sounds changes word meaning (e.g. *witch* vs *which*). |
 
-:  {.tbl-pron2 .tbl-header-center .tbl-second-column-wrapping tbl-colwidths=[1,1,1,1,1] }
+:  {.tbl-pron2 .tbl-header-center tbl-colwidths=[2,2,2,6] }
 -->
 
 ## オフビートカウントの正しい発音 <!-- {#how-to-pronounce-the-offbeat-count-correctly} -->
