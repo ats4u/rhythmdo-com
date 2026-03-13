@@ -1,44 +1,42 @@
-### <span id="anchor-92"></span>多重拍子・拍子置換・グルーヴ保持について
+### <span id="anchor-92"></span>Multiple Meter, Meter Switching, and Groove Maintenance
 
-#### <span id="anchor-93"></span>多重拍子の演奏方法
+#### <span id="anchor-93"></span>How to Perform Multiple Meter
 
-多重拍子とは複数の拍子を同時に演奏することです。
+Multiple meter means performing multiple meters simultaneously.
 
-ｎ拍子の曲を演奏中にｍ拍子のメロディーを同時に演奏すると多重拍子が生まれます。このときｍ拍子を演奏する演奏者はｎ拍子のメロディーを聞きながらｎ拍ｍ連符を演奏することで実現できます。
+If one performs a melody in `m` meter while a piece in `n` meter is being played, multiple meter is produced. At that time, the performer of the `m`-meter melody can realize it by listening to the `n`-meter melody while performing `m` tuplets over `n` beats.
 
-この時
-１拍をm等分した連符をn分割するというテクニックがあります。例えば４拍子を演奏中に３連符を４つ毎に区切りったポリリズムを演奏するとこれが3拍子の１拍と同じ長さのリズムになります。
+At this time, there is a technique of dividing tuplets that split one beat into `m` equal parts into `n` groupings. For example, if one is playing in 4/4 and performs a polyrhythm in which triplets are grouped four at a time, that becomes a rhythm with the same length as one beat of 3/4.
 
-#### <span id="anchor-94"></span>拍子入れ替えの方法
+#### <span id="anchor-94"></span>How to Switch Meter
 
-この状態で、3拍子だけを演奏して４拍子の演奏をやめると、音楽はそのまま3拍子に切り替わることになります。これが**拍子入れ替え**です。
+If, in that state, one continues performing only the 3/4 rhythm and stops performing the 4/4 rhythm, the music switches directly into 3/4. This is **meter switching**.
 
 [Foot Prints](https://www.youtube.com/watch?v=XolY-Bm0QL8)
-は、最も基本的な3拍子と４拍子の間で拍子入れ替えを行っています。
+uses meter switching between the most basic case of 3/4 and 4/4.
 
-近年では３拍子４拍子以外の、５拍子や７拍子などの奇数拍子の間で入れ替えを行うことが一般的です。奇数拍子の拍子入れ替えについては、次の演奏を参考にして下さい。
+In recent years, it has become common to switch not only between 3/4 and 4/4, but also between odd meters such as 5/4 and 7/4. For switching among odd meters, refer to the following performance.
 
-参考：[ケニーワーナーのAll the Things You Are](https://www.youtube.com/watch?v=S9pYtA01ToM)
+Reference: [Kenny Werner's All the Things You Are](https://www.youtube.com/watch?v=S9pYtA01ToM)
 
-この演奏で5拍子と7拍子の入れ替えが行われています。
+In this performance, switching is carried out between 5/4 and 7/4.
 
-#### <span id="anchor-95"></span>グルーヴ維持
+#### <span id="anchor-95"></span>Groove Maintenance
 
-前述の多重拍子演奏方法は必ず１拍目（オンビート）を基準として演奏していることを前提とした方法論で実現されています。この方法はスイングの２拍４拍（オフビート）を基準として１拍3拍を弱く演奏したり、或いは演奏しなかったり、意図的にずらしたりして演奏するスタイルとの整合性が取れないという問題があります。つまり多重拍子を演奏しながら同時にスイングを演奏することはできません。この問題を解決する技術をここでは**グルーヴ維持**と呼ぶことにします。
+The multiple-meter performance method described above assumes that performance is always based on Beat 1, that is, the on-beat. The problem with this method is that it is incompatible with styles of swing performance that take Beats 2 and 4, the offbeats, as the basis, while playing Beats 1 and 3 weakly, or not playing them at all, or intentionally displacing them. In other words, one cannot perform multiple meter and swing at the same time by this method alone. Here I call the technique that solves this problem **groove maintenance**.
 
-#### <span id="anchor-96"></span>最終拍基準法
+#### <span id="anchor-96"></span>The Final-Beat Reference Method
 
-最終拍基準法は２０１８年頃に僕が自分で考案した**グルーヴ維持法**です。
+The Final-Beat Reference Method is a **groove-maintenance method** that I devised myself around 2018.
 
-通常は複数の拍子のそれぞれ先頭拍を合わせる様に多重拍子を演奏します。
+Normally, one performs multiple meter by aligning the opening beats of the multiple meters.
 
 <img src="offbeat-count-polyrhythm-10000001000001C7000000A753FAC89C.png"
-style="width:4.7366in;height:1.7398in" />図上の上段は４拍子、下段は５拍子です。これを最終拍を基準に合わせて連符を演奏するようにしたのが最終拍基準法です。
+style="width:4.7366in;height:1.7398in" />In the figure above, the upper staff is 4/4 and the lower staff is 5/4. The Final-Beat Reference Method changes this so that the tuplets are performed by aligning the final beats as the reference.
 
 <img src="offbeat-count-polyrhythm-1000000100000243000000A7E805A4BE.png"
-style="width:6.0339in;height:1.7398in" />この様に４拍子の４拍目と５拍子の５拍目を合わせて演奏します。この様にすると１拍目は５拍子上の全ての拍と一致しなくなります。しかし４拍子上の最終拍と５拍子上の最終拍が一致するため、次の小節に向けて演奏する弱起（アウフタクト・アナクルーシス）のタイミングを合わせやすくなります。
+style="width:6.0339in;height:1.7398in" />In this way, the 4th beat of 4/4 and the 5th beat of 5/4 are aligned and performed together. If one does this, Beat 1 no longer coincides with all the beats of the 5/4 side. But because the final beat in 4/4 and the final beat in 5/4 coincide, it becomes easier to align the timing of the anacrusis performed toward the next measure.
 
-安定したグルーヴを演奏する上で連続した弱起を維持することは大切ですが、前述の先頭拍基準法では最終拍の位置が一致しないためグルーヴを維持することができません。しかし最終拍基準法はどの拍子を重ねても必ず最終拍が一致するため、どんな多重拍子を演奏してもグルーヴを維持することが可能になります。
+Maintaining continuous anacrusis is important for performing stable groove, but in the previously described opening-beat-based method, the positions of the final beats do not coincide, so groove cannot be maintained. The Final-Beat Reference Method, however, always makes the final beats coincide no matter which meters are superimposed, so it becomes possible to maintain groove in any multiple-meter performance.
 
-最終拍基準法のタイミングは、譜面上正確に表記できません。シーケンサなどで自動演奏を行う時は１拍ずらして記譜するとよいようです。実音上の最終拍（４拍子なら４拍目／５拍子なら５拍目）１拍目として入力したうえで、連符（４拍５連／４拍７連等々）を入力します。
-
+The timing of the Final-Beat Reference Method cannot be written precisely in conventional notation. When performing it automatically in a sequencer or similar tool, it seems best to notate it shifted by one beat. One inputs the actual final beat, Beat 4 in 4/4 or Beat 5 in 5/4, as if it were Beat 1, and then enters the tuplets, such as five notes over four beats or seven notes over four beats.

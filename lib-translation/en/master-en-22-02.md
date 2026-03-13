@@ -1,17 +1,17 @@
-### <span id="anchor-5"></span>四音基底リズム
+### <span id="anchor-5"></span>Four-Note Base Rhythm
 
-#### <span id="anchor-6"></span>四音基底の発音
+#### <span id="anchor-6"></span>Pronunciation of the Four-Note Base Rhythm
 
-四音基底では、四音に対して次のような発音を割り当てます。
+In the four-note base rhythm, we assign the following syllables to the four sounds.
 
 1.  da
 2.  bi
 3.  di
 4.  ba
 
-##### <span id="anchor-7"></span>練習
+##### <span id="anchor-7"></span>Practice
 
-２拍目表と４拍目表()で手を叩きながらda bi di ba を唱えてみましょう。
+Try chanting `da bi di ba` while clapping on the on-beats of Beats 2 and 4.
 
 |     |     |     |     |     |     |     |     |
 |-----|-----|-----|-----|-----|-----|-----|-----|
@@ -19,39 +19,34 @@
 |     |     |     |     |     |     |     |     |
 | da  | bi  | di  | ba  | da  | bi  | di  | ba  |
 
-#### <span id="anchor-8"></span>四音基底の転回形
+#### <span id="anchor-8"></span>Rotations of the Four-Note Base Rhythm
 
-スイングのリズムは開始音が転回して違う音が開始音として聞こえてしまうところがその聴感上のスリリングな雰囲気を醸し出す原動力になっています。その転回に慣れる為にその全転回パターンを数学的に列挙した上で暗記しましょう。
+Part of what gives swing its thrilling feel is that the starting sound rotates, so a different sound begins to be heard as the first sound. To become accustomed to that rotation, let us enumerate all of the rotation patterns mathematically and memorize them.
 
 |            |             |
 |------------|-------------|
-| 第一転回形 | da bi di ba |
-| 第二転回形 | ba da bi di |
-| 第三転回形 | di ba da bi |
-| 第四転回形 | bi di ba da |
+| 1st Rotation | da bi di ba |
+| 2nd Rotation | ba da bi di |
+| 3rd Rotation | di ba da bi |
+| 4th Rotation | bi di ba da |
 
-##### <span id="anchor-9"></span>練習
+##### <span id="anchor-9"></span>Practice
 
-音楽に合わせてda bi di ba
-を唱えつつ二拍目表と四拍目表で手を叩きましょう。この時、da
-を１拍目表に合わせて唱えながら、同時にba が最初の音として聞こえba da bi
-di
-として聞こえる様になるまで唱え続けます。これが第二転回形です。同様にして第三転回形di
-ba da bi ・第四転回形bi di ba da も練習しましょう。
+While chanting `da bi di ba` along with music, clap on the on-beats of Beats 2 and 4. At that time, keep chanting with `da` aligned to the on-beat of Beat 1, while continuing until `ba` begins to be heard as the first sound, that is, until it starts sounding like `ba da bi di`. This is the 2nd Rotation. In the same way, practice the 3rd Rotation `di ba da bi` and the 4th Rotation `bi di ba da` as well.
 
-#### <span id="anchor-10"></span>四音基底の基礎
+#### <span id="anchor-10"></span>Fundamentals of the Four-Note Base Rhythm
 
-メトロノームを二拍目・四拍目のに合わせて次の様にダビディバを歌いましょう。その際に注意点が２点あります。
+Set the metronome to Beats 2 and 4 and sing Da-Bi-Di-Ba as follows. There are two points to keep in mind.
 
-- diよりも bi、daよりもbaが先に入る感覚を大切にしましょう。
-- １拍目が最後に来る感覚を捉えましょう。
+- Value the sensation that `bi` comes in before `di`, and that `ba` comes in before `da`.
+- Grasp the sensation that Beat 1 comes last.
   １２３４・１２３４・・・
-  ではなく
+  rather than
   ２３４１・２３４１・・・
 
-なお以下のドリルを１から順番に練習する必要はありません。人によって得意なドリル／苦手なドリルが異なるからです。あるドリルが難しいと感じたら、そのドリルを飛ばして次のドリルに進んでできるドリルから順に練習してください。最終的に全てのドリルが完了すれば結構です。
+It is not necessary to practice the drills below in order from 1 onward. Different people find different drills easy or difficult. If a certain drill feels difficult, skip it and move on to the next drill, practicing first the drills you can do. It is enough if in the end you complete all of them.
 
-##### ドリル１
+##### Drill 1
 
 |     |     |     |     |     |     |     |     |
 |-----|-----|-----|-----|-----|-----|-----|-----|
@@ -59,7 +54,7 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 |     |     |     |     |     |     |     |     |
 | da  | bi  | di  | ba  | da  | bi  | di  | ba  |
 
-##### ドリル２
+##### Drill 2
 
 |     |     |     |     |     |     |     |     |
 |-----|-----|-----|-----|-----|-----|-----|-----|
@@ -67,7 +62,7 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 |     |     |     |     |     |     |     |     |
 | da  |     | di  |     | da  |     | di  |     |
 
-##### ドリル３
+##### Drill 3
 
 |     |     |     |     |     |     |     |     |
 |-----|-----|-----|-----|-----|-----|-----|-----|
@@ -75,7 +70,7 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 |     |     |     |     |     |     |     |     |
 | da  |     |     |     | da  |     |     |     |
 
-##### ドリル４
+##### Drill 4
 
 |     |     |     |     |     |     |     |     |
 |-----|-----|-----|-----|-----|-----|-----|-----|
@@ -83,7 +78,7 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 |     |     |     |     |     |     |     |     |
 |     |     | di  |     |     |     | di  |     |
 
-##### ドリル５
+##### Drill 5
 
 |     |     |     |     |     |     |     |     |
 |-----|-----|-----|-----|-----|-----|-----|-----|
@@ -91,7 +86,7 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 |     |     |     |     |     |     |     |     |
 | da  | bi  |     |     | da  | bi  |     |     |
 
-##### ドリル６
+##### Drill 6
 
 |     |     |     |     |     |     |     |     |
 |-----|-----|-----|-----|-----|-----|-----|-----|
@@ -99,7 +94,7 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 |     |     |     |     |     |     |     |     |
 |     |     | di  | ba  |     |     | di  | ba  |
 
-##### ドリル７
+##### Drill 7
 
 |     |     |     |     |     |     |     |     |
 |-----|-----|-----|-----|-----|-----|-----|-----|
@@ -107,7 +102,7 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 |     |     |     |     |     |     |     |     |
 | da  |     |     | ba  | da  |     |     | ba  |
 
-##### ドリル８
+##### Drill 8
 
 |     |     |     |     |     |     |     |     |
 |-----|-----|-----|-----|-----|-----|-----|-----|
@@ -115,7 +110,7 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 |     |     |     |     |     |     |     |     |
 |     | bi  | di  |     |     | bi  | di  |     |
 
-##### ドリル９
+##### Drill 9
 
 |     |     |     |     |     |     |     |     |
 |-----|-----|-----|-----|-----|-----|-----|-----|
@@ -123,7 +118,7 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 |     |     |     |     |     |     |     |     |
 |     | bi  |     | ba  |     | bi  |     | ba  |
 
-##### ドリル１０
+##### Drill 10
 
 |     |     |     |     |     |     |     |     |
 |-----|-----|-----|-----|-----|-----|-----|-----|
@@ -131,7 +126,7 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 |     |     |     |     |     |     |     |     |
 |     |     |     | ba  |     |     |     | ba  |
 
-##### ドリル１１
+##### Drill 11
 
 |     |     |     |     |     |     |     |     |
 |-----|-----|-----|-----|-----|-----|-----|-----|
@@ -139,7 +134,7 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 |     |     |     |     |     |     |     |     |
 |     | bi  |     |     |     | bi  |     |     |
 
-##### ドリル１２
+##### Drill 12
 
 |     |     |     |     |     |     |     |     |
 |-----|-----|-----|-----|-----|-----|-----|-----|
@@ -147,7 +142,7 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 |     |     |     |     |     |     |     |     |
 | da  | bi  | di  |     | da  | bi  | di  |     |
 
-##### ドリル１３
+##### Drill 13
 
 |     |     |     |     |     |     |     |     |
 |-----|-----|-----|-----|-----|-----|-----|-----|
@@ -155,7 +150,7 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 |     |     |     |     |     |     |     |     |
 | da  |     | di  | ba  | da  |     | di  | ba  |
 
-##### ドリル１４
+##### Drill 14
 
 |     |     |     |     |     |     |     |     |
 |-----|-----|-----|-----|-----|-----|-----|-----|
@@ -163,7 +158,7 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 |     |     |     |     |     |     |     |     |
 | da  | bi  |     | ba  | da  | bi  |     | ba  |
 
-##### ドリル１５
+##### Drill 15
 
 |     |     |     |     |     |     |     |     |
 |-----|-----|-----|-----|-----|-----|-----|-----|
@@ -171,70 +166,70 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 |     |     |     |     |     |     |     |     |
 |     | bi  | di  | ba  |     | bi  | di  | ba  |
 
-#### <span id="anchor-11"></span>四音基底 三音分割
+#### <span id="anchor-11"></span>Four-Note Base Rhythm: Three-Note Grouping
 
-次のパターンを音楽に合わせて唱えましょう。
+Chant the following pattern along with music.
 
 |           |           |           |           |
 |-----------|-----------|-----------|-----------|
 | da bi di  | ba da bi  | di ba da  | bi di ba  |
 
-#### <span id="anchor-12"></span>四音基底 五音分割
+#### <span id="anchor-12"></span>Four-Note Base Rhythm: Five-Note Grouping
 
-次のパターンを音楽に合わせて唱えましょう。
+Chant the following pattern along with music.
 
 |                 |                 |                 |                 |
 |-----------------|-----------------|-----------------|-----------------|
 | da bi di ba da  | bi di ba da bi  | di ba da bi di  | ba da bi di ba  |
 
-#### <span id="anchor-13"></span>四音基底 七音分割
+#### <span id="anchor-13"></span>Four-Note Base Rhythm: Seven-Note Grouping
 
-次のパターンを音楽に合わせて唱えましょう。
+Chant the following pattern along with music.
 
 |                         |                         |
 |-------------------------|-------------------------|
 | da bi di ba / da bi di  | ba da bi di / ba da bi  |
 | di ba da bi / di ba da  | bi di ba da / bi di ba  |
 
-#### <span id="anchor-14"></span>四音基底 九音五四分割
+#### <span id="anchor-14"></span>Four-Note Base Rhythm: Nine-Note 5-4 Grouping
 
-次のパターンを音楽に合わせて唱えましょう。
+Chant the following pattern along with music.
 
 |                               |                               |
 |-------------------------------|-------------------------------|
 | da bi di ba da / bi di ba da  | bi di ba da bi / di ba da bi  |
 | di ba da bi di / ba da bi di  | ba da bi di ba / da bi di ba  |
 
-#### <span id="anchor-15"></span>四音基底 九音三三三分割
+#### <span id="anchor-15"></span>Four-Note Base Rhythm: Nine-Note 3-3-3 Grouping
 
-次のパターンを音楽に合わせて唱えましょう。
+Chant the following pattern along with music.
 
 |                                 |                                 |
 |---------------------------------|---------------------------------|
 | da bi di / ba da bi / di ba da  | bi di ba / da bi di / ba da bi  |
 | di ba da / bi di ba / da bi di  | ba da bi / di ba da / bi di ba  |
 
-#### <span id="anchor-16"></span>四音基底 十一音四四三分割
+#### <span id="anchor-16"></span>Four-Note Base Rhythm: Eleven-Note 4-4-3 Grouping
 
-次のパターンを音楽に合わせて唱えましょう。
+Chant the following pattern along with music.
 
 |  |  |
 |----|----|
 | da bi di ba / da bi di ba / da bi di | ba da bi di / ba da bi di / ba da bi |
 | di ba da bi / di ba da bi / di ba da | bi di ba da / bi di ba da / bi di ba |
 
-#### <span id="anchor-17"></span>四音基底 十一音五三三分割
+#### <span id="anchor-17"></span>Four-Note Base Rhythm: Eleven-Note 5-3-3 Grouping
 
-次のパターンを音楽に合わせて唱えましょう。
+Chant the following pattern along with music.
 
 |  |  |
 |----|----|
 | da bi di ba da / bi di ba / da bi di | ba da bi di ba / da bi di / ba da bi |
 | di ba da bi di / ba da bi / di ba da | bi di ba da bi / di ba da / bi di ba |
 
-#### <span id="anchor-18"></span>四音基底 十五音四四四三分割
+#### <span id="anchor-18"></span>Four-Note Base Rhythm: Fifteen-Note 4-4-4-3 Grouping
 
-次のパターンを音楽に合わせて唱えましょう。
+Chant the following pattern along with music.
 
 |                                                     |
 |-----------------------------------------------------|
@@ -242,4 +237,3 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 | ba da bi di / ba da bi di / ba da bi di / ba da bi  |
 | di ba da bi / di ba da bi / di ba da bi / di ba da  |
 | bi di ba da / bi di ba da / bi di ba da / bi di ba  |
-

@@ -9968,13 +9968,13 @@ flowchart LR
 
 
 
-## 多層弱拍先行ポリリズム <!-- {#offbeat-count-polyrhythm} -->
+## Multilayer Weak-Beat-Precedence Polyrhythm <!-- {#offbeat-count-polyrhythm} -->
 
-ポリリズムは興味深いが難解で聴覚的な魅力に乏しい  ─── これまでポリリズムの練習は、楽典のルールに則って **頭合わせリズム認識**に基づいて行われてきました。結果としてリズムが本来持っているグルーヴの再現に失敗していたのです。こうしてポリリズムは「複雑で興味深いが聴覚的な魅力に乏しい」と誤った評価を受けてきました。この問題を解決する為に、ポリリズムの構築方法に、多層弱拍基軸理論の観点を取り入れて応用しポリリズムを網羅的に再構成しました。
+Polyrhythm is interesting, but it has often been treated as difficult and lacking in auditory appeal. Up to now, polyrhythm practice has been carried out on the basis of **head-alignment rhythm recognition** in accordance with the rules of conventional music theory. As a result, it failed to reproduce the groove originally inherent in rhythm. In this way, polyrhythm has long received the mistaken evaluation that it is "complex and interesting, but not very appealing to the ear." To solve this problem, I took the viewpoint of the multilayered weak-beat-axis theory and applied it to methods of constructing polyrhythm, comprehensively reconstructing polyrhythm from that perspective.
 
-この章では、ポリリズムにリズム本来のグルーヴを回復する為の理論と方法を提示します。
+In this chapter, I present the theory and methods for restoring rhythm's original groove to polyrhythm.
 
-### <span id="anchor"></span>はじめに
+### <span id="anchor"></span>Introduction
 
 <style>
     table {
@@ -9989,113 +9989,106 @@ flowchart LR
     }
 </style>
 
-#### <span id="anchor-1"></span>ダビディバ・カウントとは
+#### <span id="anchor-1"></span>What Is Da-Bi-Di-Ba Count?
 
-ダビディバ・カウントとは４拍子スイング（通称４ビート）と呼ばれるリズムパターンでの各音の役割に「**ダ**」「**バ**」「**ディ**」「**ビ**」などの音声を割り当てることで理解しやすくした上で、スイングで演奏される各種のリズムを習得するためのメソッドです。
+Da-Bi-Di-Ba Count is a method for mastering the various rhythms performed in swing by assigning easy-to-understand syllables such as **da**, **ba**, **di**, and **bi** to the roles of each note in the rhythm pattern called 4/4 swing, commonly known as four-beat swing.
 
-まず４拍子の基礎的なスイングリズムを学んだあとで、ポリリズムや奇数拍子、及び多重拍子の練習を行っていきます。
+First we learn the basic swing rhythm in 4/4, and after that we move on to practicing polyrhythm, odd meter, and multiple meter.
 
-ポリリズムとはある連符のなかで異なる長さのフレーズを叩くことで複数のテンポが同時に鳴っている様な効果を得るリズムのことです。ポリリズムはリズムを構成する数字によって全く違うリズムが生まれる面白さがあります。
-以下で四音（ダビディバと発音を割り当てたスイング）の上で構成される各種のポリリズムを順に練習していきます。
+Polyrhythm is a rhythm in which one obtains the effect of multiple tempos sounding simultaneously by striking phrases of different lengths within the same tuplet span. Polyrhythm is interesting because completely different rhythms arise depending on the numbers that constitute the rhythm.
+Below, we will practice in order the various polyrhythms built on a four-note swing to which the pronunciation da-bi-di-ba has been assigned.
 
-#### <span id="anchor-2"></span>ダビディバ四音基底リズムと四音スイング
+#### <span id="anchor-2"></span>The Da-Bi-Di-Ba Four-Note Base Rhythm and Four-Note Swing
 
-４拍子スイングは８つの音が含まれています。
+4/4 swing contains eight notes.
 
 |     |     |     |     |     |     |     |     |
 |-----|-----|-----|-----|-----|-----|-----|-----|
 | １  |     | ２  |     | ３  |     | ４  |     |
-| 表  | 裏  | 表  | 裏  | 表  | 裏  | 表  | 裏  |
+| On | Off | On | Off | On | Off | On | Off |
 
-スイングは**四音パターンを二回繰り返す**ことで構成されています。そこで、各音に次のように四音ずつ発音を割り当てます。
+Swing is constructed by **repeating a four-note pattern twice**. So we assign the following four syllables to the notes.
 
 |     |     |      |     |     |     |      |     |
 |-----|-----|------|-----|-----|-----|------|-----|
 | １  |     | ２   |     | ３  |     | ４   |     |
-| ダ  | ビ  | ディ | バ  | ダ  | ビ  | ディ | バ  |
+| da  | bi  | di | ba  | da  | bi  | di | ba  |
 
-するとスイングの各音の機能別に以下のような発音を割り当てたことになります。
+This means that we have assigned the following syllables to the functions of the notes in swing.
 
 |           |      |
 |-----------|------|
-| 1拍3拍 表 | ダ   |
-| 1拍3拍 裏 | ビ   |
-| 2拍4拍 表 | ディ |
-| 2拍4拍 裏 | バ   |
+| On-beat of Beats 1 and 3  | da |
+| Offbeat of Beats 1 and 3 | bi |
+| On-beat of Beats 2 and 4 | di |
+| Offbeat of Beats 2 and 4 | ba |
 
-これがスイングの分析を行う上での基礎となります。これはつまり演奏中にダビディバ・ダビディバと唱えながら演奏するだけのことですが、スイングのの理解を効果的に助けてくれます。
+This is the foundation for analyzing swing. In practice, it simply means performing while chanting da-bi-di-ba, da-bi-di-ba, but it helps one understand swing very effectively.
 
-この **ダビディバ** を実際の音楽に合わせて唱えてみると、すぐに
-**ダビディバ** が
-**バダビディ**に聴こえてくる筈です。そして更に唱え続けると**ビディバダ**
-に聴こえてくる筈です。この様に**発音の順番が回転して聞こえることがスイングの基礎**となります。
+If you actually chant this **da-bi-di-ba** along with real music, it should soon begin to sound like **ba-da-bi-di**. If you keep chanting further, it should start to sound like **bi-di-ba-da**. In this way, **the fact that the order of the syllables begins to be heard as rotating is the basis of swing**.
 
-このダビディバは４つの音を含んでいますが、他にも３つ／５つ等々の異なる数の音を含むものがあります。ここでは４音のダビディバを特に**四音基底リズム**と呼びます。
+This da-bi-di-ba contains four sounds, but there are also patterns containing three sounds, five sounds, and other numbers of sounds. Here I will call the four-sound da-bi-di-ba specifically the **four-note base rhythm**.
 
-#### <span id="anchor-3"></span>ダビディバの表記法
+#### <span id="anchor-3"></span>How Da-Bi-Di-Ba Is Notated
 
-以降でダビディバという発音を組み合わせた様々なパターンを説明していくことになります。説明に当たってカタカナでダビディバと発音を表記すると字数が不規則になり紙面も多く消費するため、今後は**ダビディバ等の発音をローマ字で表記**します。
+From here on, I will explain various patterns made by combining the pronunciation da-bi-di-ba. If these pronunciations are written in katakana, the character counts become irregular and consume too much page space, so from this point onward **pronunciations such as da-bi-di-ba will be written in roman letters**.
 
 |            |             |
 |------------|-------------|
-| ダビディバ | da bi di ba |
+| Da-Bi-Di-Ba | da bi di ba |
 
-#### <span id="anchor-4"></span>ダビディバの発音変化
+#### <span id="anchor-4"></span>Pronunciation Changes in Da-Bi-Di-Ba
 
-da bi di ba は、ダビディバ
-****と発音するのが基本です。これを上達するにしたがって速く発音する必要があるため、実践上ではしばしばダビディバの発音がダベデバ
-****や ラベレバ ****に近い発音に変化します。
+The basic pronunciation of `da bi di ba` is da-bi-di-ba. As one improves, however, it becomes necessary to pronounce it faster, so in practice the pronunciation of da-bi-di-ba often shifts toward something like da-be-de-ba or la-be-re-ba.
 
-ダビディバの発音変化の法則は次の通りです。
+The rules of these pronunciation changes are as follows.
 
-1.  ダビティバのビとディについては、ビをベに近い発音に、ディはデに近い発音に変えて発音するとスムーズに発音できます。この場合ダビディバ
-    は ダベデバに近い発音になります。
-2.  弱く発音する時は、ダはラに近い発音に、デはレに近い発音に変えるとスムーズに発音できます。デは前述の変化を受けてリに近い発音に変化するとスムーズになります。この場合ダベデバ
-    は ラビリバに近い発音になります。
+1.  For `bi` and `di`, pronunciation becomes smoother if `bi` is shifted toward `be` and `di` toward `de`. In that case, da-bi-di-ba approaches da-be-de-ba.
+2.  When pronouncing weakly, it becomes smoother if `da` shifts toward `ra` and `de` toward `re`. Under the previously mentioned change, `de` may also shift toward `ri`, which makes pronunciation still smoother. In that case, da-be-de-ba approaches la-bi-ri-ba.
 
 <table>
 <tbody>
 <tr>
 <td>da</td>
 <td><blockquote>
-<p>ダ　／ラ</p>
+<p>da / ra</p>
 </blockquote></td>
 </tr>
 <tr>
 <td>bi</td>
 <td><blockquote>
-<p>ビ　／ベ　</p>
+<p>bi / be</p>
 </blockquote></td>
 </tr>
 <tr>
 <td>di</td>
 <td><blockquote>
-<p>ディ／デ／レ／リ</p>
+<p>di / de / re / ri</p>
 </blockquote></td>
 </tr>
 <tr>
 <td>ba</td>
 <td><blockquote>
-<p>バ</p>
+<p>ba</p>
 </blockquote></td>
 </tr>
 </tbody>
 </table>
 
-### <span id="anchor-5"></span>四音基底リズム
+### <span id="anchor-5"></span>Four-Note Base Rhythm
 
-#### <span id="anchor-6"></span>四音基底の発音
+#### <span id="anchor-6"></span>Pronunciation of the Four-Note Base Rhythm
 
-四音基底では、四音に対して次のような発音を割り当てます。
+In the four-note base rhythm, we assign the following syllables to the four sounds.
 
 1.  da
 2.  bi
 3.  di
 4.  ba
 
-##### <span id="anchor-7"></span>練習
+##### <span id="anchor-7"></span>Practice
 
-２拍目表と４拍目表()で手を叩きながらda bi di ba を唱えてみましょう。
+Try chanting `da bi di ba` while clapping on the on-beats of Beats 2 and 4.
 
 |     |     |     |     |     |     |     |     |
 |-----|-----|-----|-----|-----|-----|-----|-----|
@@ -10103,39 +10096,34 @@ da bi di ba は、ダビディバ
 |     |     |     |     |     |     |     |     |
 | da  | bi  | di  | ba  | da  | bi  | di  | ba  |
 
-#### <span id="anchor-8"></span>四音基底の転回形
+#### <span id="anchor-8"></span>Rotations of the Four-Note Base Rhythm
 
-スイングのリズムは開始音が転回して違う音が開始音として聞こえてしまうところがその聴感上のスリリングな雰囲気を醸し出す原動力になっています。その転回に慣れる為にその全転回パターンを数学的に列挙した上で暗記しましょう。
+Part of what gives swing its thrilling feel is that the starting sound rotates, so a different sound begins to be heard as the first sound. To become accustomed to that rotation, let us enumerate all of the rotation patterns mathematically and memorize them.
 
 |            |             |
 |------------|-------------|
-| 第一転回形 | da bi di ba |
-| 第二転回形 | ba da bi di |
-| 第三転回形 | di ba da bi |
-| 第四転回形 | bi di ba da |
+| 1st Rotation | da bi di ba |
+| 2nd Rotation | ba da bi di |
+| 3rd Rotation | di ba da bi |
+| 4th Rotation | bi di ba da |
 
-##### <span id="anchor-9"></span>練習
+##### <span id="anchor-9"></span>Practice
 
-音楽に合わせてda bi di ba
-を唱えつつ二拍目表と四拍目表で手を叩きましょう。この時、da
-を１拍目表に合わせて唱えながら、同時にba が最初の音として聞こえba da bi
-di
-として聞こえる様になるまで唱え続けます。これが第二転回形です。同様にして第三転回形di
-ba da bi ・第四転回形bi di ba da も練習しましょう。
+While chanting `da bi di ba` along with music, clap on the on-beats of Beats 2 and 4. At that time, keep chanting with `da` aligned to the on-beat of Beat 1, while continuing until `ba` begins to be heard as the first sound, that is, until it starts sounding like `ba da bi di`. This is the 2nd Rotation. In the same way, practice the 3rd Rotation `di ba da bi` and the 4th Rotation `bi di ba da` as well.
 
-#### <span id="anchor-10"></span>四音基底の基礎
+#### <span id="anchor-10"></span>Fundamentals of the Four-Note Base Rhythm
 
-メトロノームを二拍目・四拍目のに合わせて次の様にダビディバを歌いましょう。その際に注意点が２点あります。
+Set the metronome to Beats 2 and 4 and sing Da-Bi-Di-Ba as follows. There are two points to keep in mind.
 
-- diよりも bi、daよりもbaが先に入る感覚を大切にしましょう。
-- １拍目が最後に来る感覚を捉えましょう。
+- Value the sensation that `bi` comes in before `di`, and that `ba` comes in before `da`.
+- Grasp the sensation that Beat 1 comes last.
   １２３４・１２３４・・・
-  ではなく
+  rather than
   ２３４１・２３４１・・・
 
-なお以下のドリルを１から順番に練習する必要はありません。人によって得意なドリル／苦手なドリルが異なるからです。あるドリルが難しいと感じたら、そのドリルを飛ばして次のドリルに進んでできるドリルから順に練習してください。最終的に全てのドリルが完了すれば結構です。
+It is not necessary to practice the drills below in order from 1 onward. Different people find different drills easy or difficult. If a certain drill feels difficult, skip it and move on to the next drill, practicing first the drills you can do. It is enough if in the end you complete all of them.
 
-##### ドリル１
+##### Drill 1
 
 |     |     |     |     |     |     |     |     |
 |-----|-----|-----|-----|-----|-----|-----|-----|
@@ -10143,7 +10131,7 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 |     |     |     |     |     |     |     |     |
 | da  | bi  | di  | ba  | da  | bi  | di  | ba  |
 
-##### ドリル２
+##### Drill 2
 
 |     |     |     |     |     |     |     |     |
 |-----|-----|-----|-----|-----|-----|-----|-----|
@@ -10151,7 +10139,7 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 |     |     |     |     |     |     |     |     |
 | da  |     | di  |     | da  |     | di  |     |
 
-##### ドリル３
+##### Drill 3
 
 |     |     |     |     |     |     |     |     |
 |-----|-----|-----|-----|-----|-----|-----|-----|
@@ -10159,7 +10147,7 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 |     |     |     |     |     |     |     |     |
 | da  |     |     |     | da  |     |     |     |
 
-##### ドリル４
+##### Drill 4
 
 |     |     |     |     |     |     |     |     |
 |-----|-----|-----|-----|-----|-----|-----|-----|
@@ -10167,7 +10155,7 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 |     |     |     |     |     |     |     |     |
 |     |     | di  |     |     |     | di  |     |
 
-##### ドリル５
+##### Drill 5
 
 |     |     |     |     |     |     |     |     |
 |-----|-----|-----|-----|-----|-----|-----|-----|
@@ -10175,7 +10163,7 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 |     |     |     |     |     |     |     |     |
 | da  | bi  |     |     | da  | bi  |     |     |
 
-##### ドリル６
+##### Drill 6
 
 |     |     |     |     |     |     |     |     |
 |-----|-----|-----|-----|-----|-----|-----|-----|
@@ -10183,7 +10171,7 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 |     |     |     |     |     |     |     |     |
 |     |     | di  | ba  |     |     | di  | ba  |
 
-##### ドリル７
+##### Drill 7
 
 |     |     |     |     |     |     |     |     |
 |-----|-----|-----|-----|-----|-----|-----|-----|
@@ -10191,7 +10179,7 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 |     |     |     |     |     |     |     |     |
 | da  |     |     | ba  | da  |     |     | ba  |
 
-##### ドリル８
+##### Drill 8
 
 |     |     |     |     |     |     |     |     |
 |-----|-----|-----|-----|-----|-----|-----|-----|
@@ -10199,7 +10187,7 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 |     |     |     |     |     |     |     |     |
 |     | bi  | di  |     |     | bi  | di  |     |
 
-##### ドリル９
+##### Drill 9
 
 |     |     |     |     |     |     |     |     |
 |-----|-----|-----|-----|-----|-----|-----|-----|
@@ -10207,7 +10195,7 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 |     |     |     |     |     |     |     |     |
 |     | bi  |     | ba  |     | bi  |     | ba  |
 
-##### ドリル１０
+##### Drill 10
 
 |     |     |     |     |     |     |     |     |
 |-----|-----|-----|-----|-----|-----|-----|-----|
@@ -10215,7 +10203,7 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 |     |     |     |     |     |     |     |     |
 |     |     |     | ba  |     |     |     | ba  |
 
-##### ドリル１１
+##### Drill 11
 
 |     |     |     |     |     |     |     |     |
 |-----|-----|-----|-----|-----|-----|-----|-----|
@@ -10223,7 +10211,7 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 |     |     |     |     |     |     |     |     |
 |     | bi  |     |     |     | bi  |     |     |
 
-##### ドリル１２
+##### Drill 12
 
 |     |     |     |     |     |     |     |     |
 |-----|-----|-----|-----|-----|-----|-----|-----|
@@ -10231,7 +10219,7 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 |     |     |     |     |     |     |     |     |
 | da  | bi  | di  |     | da  | bi  | di  |     |
 
-##### ドリル１３
+##### Drill 13
 
 |     |     |     |     |     |     |     |     |
 |-----|-----|-----|-----|-----|-----|-----|-----|
@@ -10239,7 +10227,7 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 |     |     |     |     |     |     |     |     |
 | da  |     | di  | ba  | da  |     | di  | ba  |
 
-##### ドリル１４
+##### Drill 14
 
 |     |     |     |     |     |     |     |     |
 |-----|-----|-----|-----|-----|-----|-----|-----|
@@ -10247,7 +10235,7 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 |     |     |     |     |     |     |     |     |
 | da  | bi  |     | ba  | da  | bi  |     | ba  |
 
-##### ドリル１５
+##### Drill 15
 
 |     |     |     |     |     |     |     |     |
 |-----|-----|-----|-----|-----|-----|-----|-----|
@@ -10255,70 +10243,70 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 |     |     |     |     |     |     |     |     |
 |     | bi  | di  | ba  |     | bi  | di  | ba  |
 
-#### <span id="anchor-11"></span>四音基底 三音分割
+#### <span id="anchor-11"></span>Four-Note Base Rhythm: Three-Note Grouping
 
-次のパターンを音楽に合わせて唱えましょう。
+Chant the following pattern along with music.
 
 |           |           |           |           |
 |-----------|-----------|-----------|-----------|
 | da bi di  | ba da bi  | di ba da  | bi di ba  |
 
-#### <span id="anchor-12"></span>四音基底 五音分割
+#### <span id="anchor-12"></span>Four-Note Base Rhythm: Five-Note Grouping
 
-次のパターンを音楽に合わせて唱えましょう。
+Chant the following pattern along with music.
 
 |                 |                 |                 |                 |
 |-----------------|-----------------|-----------------|-----------------|
 | da bi di ba da  | bi di ba da bi  | di ba da bi di  | ba da bi di ba  |
 
-#### <span id="anchor-13"></span>四音基底 七音分割
+#### <span id="anchor-13"></span>Four-Note Base Rhythm: Seven-Note Grouping
 
-次のパターンを音楽に合わせて唱えましょう。
+Chant the following pattern along with music.
 
 |                         |                         |
 |-------------------------|-------------------------|
 | da bi di ba / da bi di  | ba da bi di / ba da bi  |
 | di ba da bi / di ba da  | bi di ba da / bi di ba  |
 
-#### <span id="anchor-14"></span>四音基底 九音五四分割
+#### <span id="anchor-14"></span>Four-Note Base Rhythm: Nine-Note 5-4 Grouping
 
-次のパターンを音楽に合わせて唱えましょう。
+Chant the following pattern along with music.
 
 |                               |                               |
 |-------------------------------|-------------------------------|
 | da bi di ba da / bi di ba da  | bi di ba da bi / di ba da bi  |
 | di ba da bi di / ba da bi di  | ba da bi di ba / da bi di ba  |
 
-#### <span id="anchor-15"></span>四音基底 九音三三三分割
+#### <span id="anchor-15"></span>Four-Note Base Rhythm: Nine-Note 3-3-3 Grouping
 
-次のパターンを音楽に合わせて唱えましょう。
+Chant the following pattern along with music.
 
 |                                 |                                 |
 |---------------------------------|---------------------------------|
 | da bi di / ba da bi / di ba da  | bi di ba / da bi di / ba da bi  |
 | di ba da / bi di ba / da bi di  | ba da bi / di ba da / bi di ba  |
 
-#### <span id="anchor-16"></span>四音基底 十一音四四三分割
+#### <span id="anchor-16"></span>Four-Note Base Rhythm: Eleven-Note 4-4-3 Grouping
 
-次のパターンを音楽に合わせて唱えましょう。
+Chant the following pattern along with music.
 
 |  |  |
 |----|----|
 | da bi di ba / da bi di ba / da bi di | ba da bi di / ba da bi di / ba da bi |
 | di ba da bi / di ba da bi / di ba da | bi di ba da / bi di ba da / bi di ba |
 
-#### <span id="anchor-17"></span>四音基底 十一音五三三分割
+#### <span id="anchor-17"></span>Four-Note Base Rhythm: Eleven-Note 5-3-3 Grouping
 
-次のパターンを音楽に合わせて唱えましょう。
+Chant the following pattern along with music.
 
 |  |  |
 |----|----|
 | da bi di ba da / bi di ba / da bi di | ba da bi di ba / da bi di / ba da bi |
 | di ba da bi di / ba da bi / di ba da | bi di ba da bi / di ba da / bi di ba |
 
-#### <span id="anchor-18"></span>四音基底 十五音四四四三分割
+#### <span id="anchor-18"></span>Four-Note Base Rhythm: Fifteen-Note 4-4-4-3 Grouping
 
-次のパターンを音楽に合わせて唱えましょう。
+Chant the following pattern along with music.
 
 |                                                     |
 |-----------------------------------------------------|
@@ -10327,11 +10315,11 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 | di ba da bi / di ba da bi / di ba da bi / di ba da  |
 | bi di ba da / bi di ba da / bi di ba da / bi di ba  |
 
-### 六音基底リズム
+### Six-Note Base Rhythm
 
-#### <span id="anchor-19"></span>六音基底の発音
+#### <span id="anchor-19"></span>Pronunciation of the Six-Note Base Rhythm
 
-六音基底では、六音に対して次のような発音を割り当てます。
+In the six-note base rhythm, we assign the following syllables to the six sounds.
 
 1.  da
 2.  li
@@ -10340,10 +10328,9 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 5.  la
 6.  ba
 
-##### <span id="anchor-20"></span>練習
+##### <span id="anchor-20"></span>Practice
 
-音楽に合わせてda li bi di la ba
-を唱えてみましょう。同時に２拍目表と４拍目表()で手を叩きます。
+Try chanting `da li bi di la ba` along with music. At the same time, clap on the on-beats of Beats 2 and 4.
 
 |     |     |     |     |     |     |     |     |     |     |     |     |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
@@ -10351,39 +10338,32 @@ ba da bi ・第四転回形bi di ba da も練習しましょう。
 |     |     |     |     |     |     |     |     |     |     |     |     |
 | da  | li  | bi  | di  | la  | da  | da  | li  | bi  | di  | la  | ba  |
 
-#### <span id="anchor-21"></span>六音基底の転回形
+#### <span id="anchor-21"></span>Rotations of the Six-Note Base Rhythm
 
-スイングのリズムは開始音が転回して違う音が開始音として聞こえてしまうところがその聴感上のスリリングな雰囲気を醸し出す原動力になっています。その転回に慣れる為にその全転回パターンを数学的に列挙した上で暗記しましょう。
+Part of what gives swing its thrilling feel is that the starting sound rotates, so a different sound begins to be heard as the first sound. To become accustomed to that rotation, let us enumerate all of the rotation patterns mathematically and memorize them.
 
 |            |                   |
 |------------|-------------------|
-| 第一転回形 | da li bi di la ba |
-| 第二転回形 | ba da li bi di la |
-| 第三転回形 | la ba da li bi di |
-| 第四転回形 | di la ba da li bi |
-| 第五転回形 | bi di la ba da li |
-| 第六転回形 | li bi di la ba da |
+| 1st Rotation | da li bi di la ba |
+| 2nd Rotation | ba da li bi di la |
+| 3rd Rotation | la ba da li bi di |
+| 4th Rotation | di la ba da li bi |
+| 5th Rotation | bi di la ba da li |
+| 6th Rotation | li bi di la ba da |
 
-##### <span id="anchor-22"></span>練習
+##### <span id="anchor-22"></span>Practice
 
-音楽に合わせてda li bi di la ba
-を唱えつつ二拍目表(di)と四拍目表(di)で手を叩きましょう。この時da
-を１拍目表に合わせて唱えながら同時にba が最初の音として聞こえba da li bi
-di la
-として聞こえる様になるまで唱え続けます。これが第二転回形です。同様にして第三転回形la
-ba da li bi di 第四転回形 di la ba da li bi 第五転回形 bi di la ba da li
-も練習しましょう。最後の第六転回形 li bi di la ba
-daが難しいですが、ここが最も大切なパターンですのでしっかり練習しましょう。
+While chanting `da li bi di la ba` along with music, clap on the on-beats of Beat 2 (`di`) and Beat 4 (`di`). At that time, keep chanting with `da` aligned to the on-beat of Beat 1 while continuing until `ba` begins to be heard as the first sound, that is, until it starts sounding like `ba da li bi di la`. This is the 2nd Rotation. In the same way, practice the 3rd Rotation `la ba da li bi di`, the 4th Rotation `di la ba da li bi`, and the 5th Rotation `bi di la ba da li`. The final 6th Rotation `li bi di la ba da` is difficult, but it is the most important pattern, so practice it thoroughly.
 
-#### <span id="anchor-23"></span>六音基底の基礎
+#### <span id="anchor-23"></span>Fundamentals of the Six-Note Base Rhythm
 
-メトロノームを二拍目・四拍目のに合わせて次の様にダビディバを歌いましょう。その際に注意点が３点あります。
+Set the metronome to Beats 2 and 4 and sing the following pattern. There are three points to keep in mind.
 
-- diよりもbi、biよりもliが先に入る感覚を大切にしましょう。
-- daよりもba、baよりもlaが先に入る感覚を大切にしましょう。
-- １拍目が最後に来る感覚を捉えましょう。
+- Value the sensation that `li` comes in before `bi`, and `bi` before `di`.
+- Value the sensation that `la` comes in before `ba`, and `ba` before `da`.
+- Grasp the sensation that Beat 1 comes last.
   １２３４・１２３４・・・
-  ではなく
+  rather than
   ２３４１・２３４１・・・
 
 |     |     |     |     |     |     |     |     |     |     |     |     |
@@ -10392,81 +10372,75 @@ daが難しいですが、ここが最も大切なパターンですのでしっ
 |     |     |     |     |     |     |     |     |     |     |     |     |
 | da  | li  | bi  | di  | la  | da  | da  | li  | bi  | di  | la  | ba  |
 
-### <span id="anchor-24"></span>基底リズムの作り方
+### <span id="anchor-24"></span>How to Construct Base Rhythms
 
-次節以降で四音／六音以外の基底リズムについて説明します。三音・五音などの変則的な基底リズムを扱う際に必要となる基底リズムの作り方を説明します。da
-bi di ba の発音を割り当てる法則を説明します。
+In the following sections, I explain base rhythms other than the four-note and six-note types. Here I explain how to construct the base rhythms needed when dealing with irregular base rhythms such as the three-note and five-note types. In other words, I explain the rule for assigning syllables such as `da bi di ba`.
 
-#### <span id="anchor-25"></span>標準基底リズム発音
+#### <span id="anchor-25"></span>Standard Base-Rhythm Pronunciation
 
-法則は次の通りです。
+The rule is as follows.
 
-- 最初の音：da
-- 二番目の音：la *(次の母音がAの時）* **/** li *(次の母音がIの時）*
-- 最後の音：ba
-- 他は最後の音をbaに合わせ後ろからda bi di ba を割り当てる
+- First sound: `da`
+- Second sound: `la` *(when the next vowel is A)* **/** `li` *(when the next vowel is I)*
+- Last sound: `ba`
+- For the rest, align the last sound to `ba` and assign `da bi di ba` backward from the end
 
-例）
+Examples:
 
 |      |                                 |
 |------|---------------------------------|
-| 三音 | da la ba                        |
-| 四音 | da bi / di ba                   |
-| 五音 | da li / bi di ba                |
-| 六音 | da la/ da bi di ba              |
-| 七音 | da la / ba / da bi di ba        |
-| 八音 | da li / di ba / da bi di ba     |
-| 九音 | da li / bi di ba / da bi di ba  |
+| Three notes | da la ba                       |
+| Four notes  | da bi / di ba                  |
+| Five notes  | da li / bi di ba               |
+| Six notes   | da la / da bi di ba           |
+| Seven notes | da la / ba / da bi di ba      |
+| Eight notes | da li / di ba / da bi di ba   |
+| Nine notes  | da li / bi di ba / da bi di ba |
 
-この割り当て方法をここでは**標準基底リズム発音**と呼びます。
+Here I call this assignment method **standard base-rhythm pronunciation**.
 
-#### <span id="anchor-26"></span>複合基底リズム
+#### <span id="anchor-26"></span>Compound Base Rhythms
 
-実際の基底リズムは複数の基底リズムの組み合わせとして表すことが一般的です。これをここでは**複合基底リズム**と呼びます。例えば八音は四音基底リズムの二回繰り返しなので、通常はda
-li di ba da bi di ba ではなく da bi di ba / da bi di ba
-と読む方が簡単です。
+In practice, base rhythms are generally represented as combinations of multiple base rhythms. Here I call this a **compound base rhythm**. For example, since eight notes are simply two repetitions of the four-note base rhythm, it is usually easier to read them as `da bi di ba / da bi di ba` rather than `da li di ba da bi di ba`.
 
-この様にひとつの基底リズムに複数の読み方がある場合、名称の後の『音』の後に数字を列挙することで分割の方法を示すことにします。
+When a single base rhythm has multiple ways of being read in this way, I indicate the grouping method by listing numbers after the note-count name.
 
-**例）  **
-八音四四基底（da bi di ba / da bi di ba ）**  **
-九音五四基底（da li bi di ba / da bi di ba ）
-九音三三三基底（da la ba / da la ba / da la ba ）
+**Examples**
+Eight-note 4-4 base rhythm (`da bi di ba / da bi di ba`)
+Nine-note 5-4 base rhythm (`da li bi di ba / da bi di ba`)
+Nine-note 3-3-3 base rhythm (`da la ba / da la ba / da la ba`)
 
-### <span id="anchor-27"></span>三音基底リズム
+### <span id="anchor-27"></span>Three-Note Base Rhythm
 
-これまでは四音で構成される基本リズムパターン（スイング）の上で成り立つポリリズムを見てきました。ここでは三音で構成されるリズムパターンの上で成り立つポリリズムを見ていきましょう。
+Up to this point, we have looked at polyrhythms built on the basic rhythm pattern of swing, which is composed of four sounds. Here, let us turn to polyrhythms built on a rhythm pattern composed of three sounds.
 
-#### <span id="anchor-28"></span>三音基底リズムの発音
+#### <span id="anchor-28"></span>Pronunciation of the Three-Note Base Rhythm
 
-ここでは三音に対して次のような発音を割り当てます。
+Here we assign the following syllables to the three sounds.
 
 1.  da
 2.  la
 3.  ba
 
-##### <span id="anchor-29"></span>練習
+##### <span id="anchor-29"></span>Practice
 
-音楽に合わせてda la ba を唱えてみましょう。
+Try chanting `da la ba` along with music.
 
-#### <span id="anchor-30"></span>三音基底リズムの転回形
+#### <span id="anchor-30"></span>Rotations of the Three-Note Base Rhythm
 
 |            |           |
 |------------|-----------|
-| 第一転回形 | da la ba  |
-| 第二転回形 | ba da la  |
-| 第三転回形 | la ba da  |
+| 1st Rotation | da la ba |
+| 2nd Rotation | ba da la |
+| 3rd Rotation | la ba da |
 
-##### <span id="anchor-31"></span>練習
+##### <span id="anchor-31"></span>Practice
 
-音楽に合わせてda la ba を唱えましょう。この時、da
-を１拍目表に合わせて唱えながら、同時にba が最初の音として聞こえ ba da li
-として聞こえる様になるまで唱え続けます。これが第二転回形です。同様にして第三転回形
-la ba da も練習しましょう。
+Chant `da la ba` along with music. At that time, keep chanting with `da` aligned to the on-beat of Beat 1 while continuing until `ba` begins to be heard as the first sound, that is, until it starts sounding like `ba da la`. This is the 2nd Rotation. In the same way, practice the 3rd Rotation `la ba da` as well.
 
-#### <span id="anchor-32"></span>三音基底 四音分割
+#### <span id="anchor-32"></span>Three-Note Base Rhythm: Four-Note Grouping
 
-次のパターンを音楽に合わせて唱えましょう。
+Chant the following pattern along with music.
 
 <table>
 <tbody>
@@ -10482,11 +10456,11 @@ la ba da も練習しましょう。
 </tbody>
 </table>
 
-#### <span id="anchor-33"></span>三音基底 八音分割
+#### <span id="anchor-33"></span>Three-Note Base Rhythm: Eight-Note Grouping
 
-１小節８つある８分音符を３つで分割すると３小節の繰り返しパターンになります。通常曲は４小節で進んでいくため１２小節で元に戻る繰り返しパターンができあがります。ここでは３小節のパターンを示すので、各自１２小節練習してみて下さい。
+If one divides the eight eighth notes in a measure into groups of three, the result is a repeating pattern that spans three measures. Since songs normally proceed in four-measure units, the full pattern returns after twelve measures. Here I show the three-measure pattern, so please practice it for twelve measures on your own.
 
-次のパターンを音楽に合わせて唱えましょう。
+Chant the following pattern along with music.
 
 |                            |
 |----------------------------|
@@ -10494,11 +10468,11 @@ la ba da も練習しましょう。
 | ba da la ba / da la ba da  |
 | la ba da la / ba da la ba  |
 
-これを８分音符に見立てて２拍４拍で手を叩きながら読んでみましょう。
+Try reading this while imagining it as eighth notes and clapping on Beats 2 and 4.
 
-#### <span id="anchor-34"></span>三音基底 十六音分割
+#### <span id="anchor-34"></span>Three-Note Base Rhythm: Sixteen-Note Grouping
 
-次のパターンを音楽に合わせて唱えましょう。
+Chant the following pattern along with music.
 
 |                                                    |
 |----------------------------------------------------|
@@ -10506,23 +10480,23 @@ la ba da も練習しましょう。
 | la ba da la ba da la ba / da la ba da la ba da la  |
 | ba da la ba da la ba da / la ba da la ba da la ba  |
 
-#### <span id="anchor-35"></span>三音基底 五音分割
+#### <span id="anchor-35"></span>Three-Note Base Rhythm: Five-Note Grouping
 
-次のパターンを音楽に合わせて唱えましょう。
+Chant the following pattern along with music.
 
 |                 |                 |                 |
 |-----------------|-----------------|-----------------|
 | da la ba da li  | ba da la ba da  | la ba da la ba  |
 
-##### <span id="anchor-36"></span>練習
+##### <span id="anchor-36"></span>Practice
 
-1.  5音毎に手を鳴らしましょう。
-2.  5音毎に足を鳴らしda に合わせて手を鳴らしましょう。
-3.  5音毎に足を鳴らしba に合わせて手を鳴らしましょう。
+1.  Clap every five sounds.
+2.  Step every five sounds and clap on `da`.
+3.  Step every five sounds and clap on `ba`.
 
-#### <span id="anchor-37"></span>三音基底 十音分割
+#### <span id="anchor-37"></span>Three-Note Base Rhythm: Ten-Note Grouping
 
-次のパターンを音楽に合わせて唱えましょう。
+Chant the following pattern along with music.
 
 |                                  |
 |----------------------------------|
@@ -10530,23 +10504,23 @@ la ba da も練習しましょう。
 | la ba da la ba / da la ba da la  |
 | ba da la ba da / la ba da la ba  |
 
-#### <span id="anchor-38"></span>三音基底 七音分割
+#### <span id="anchor-38"></span>Three-Note Base Rhythm: Seven-Note Grouping
 
-次のパターンを音楽に合わせて唱えましょう。
+Chant the following pattern along with music.
 
 |                       |                       |                       |
 |-----------------------|-----------------------|-----------------------|
 | da la ba da la ba da  | la ba da la ba da li  | ba da la ba da la ba  |
 
-##### <span id="anchor-39"></span>練習
+##### <span id="anchor-39"></span>Practice
 
-1.  7音毎に手を鳴らしましょう。
-2.  7音毎に足を鳴らしda に合わせて手を鳴らしましょう。
-3.  7音毎に足を鳴らしba に合わせて手を鳴らしましょう。
+1.  Clap every seven sounds.
+2.  Step every seven sounds and clap on `da`.
+3.  Step every seven sounds and clap on `ba`.
 
-#### <span id="anchor-40"></span>三音基底 十四音分割
+#### <span id="anchor-40"></span>Three-Note Base Rhythm: Fourteen-Note Grouping
 
-次のパターンを音楽に合わせて唱えましょう。
+Chant the following pattern along with music.
 
 |                                              |
 |----------------------------------------------|
@@ -10554,19 +10528,19 @@ la ba da も練習しましょう。
 | ba da la ba da la ba / da la ba da la ba da  |
 | la ba da la ba da la / ba da la ba da la ba  |
 
-#### <span id="anchor-41"></span>三音基底 十五音四四四三分割
+#### <span id="anchor-41"></span>Three-Note Base Rhythm: Fifteen-Note 4-4-4-3 Grouping
 
-次のパターンを音楽に合わせて唱えましょう。
+Chant the following pattern along with music.
 
 |                                                     |
 |-----------------------------------------------------|
 | da la ba da / la ba da la / ba da la ba / da la ba  |
 
-### <span id="anchor-42"></span>五音基底リズム
+### <span id="anchor-42"></span>Five-Note Base Rhythm
 
-#### <span id="anchor-43"></span>五音基底リズムの発音
+#### <span id="anchor-43"></span>Pronunciation of the Five-Note Base Rhythm
 
-ここでは五音に対して次のような発音を割り当てます。
+Here we assign the following syllables to the five sounds.
 
 1.  da
 2.  li
@@ -10574,43 +10548,37 @@ la ba da も練習しましょう。
 4.  di
 5.  ba
 
-##### <span id="anchor-44"></span>練習
+##### <span id="anchor-44"></span>Practice
 
-音楽に合わせてda li bi di ba を唱えてみましょう。
+Try chanting `da li bi di ba` along with music.
 
-#### <span id="anchor-45"></span>三音基底リズムの転回形
+#### <span id="anchor-45"></span>Rotations of the Five-Note Base Rhythm
 
 |            |                 |
 |------------|-----------------|
-| 第一転回形 | da li bi di ba  |
-| 第二転回形 | ba da li bi di  |
-| 第三転回形 | di ba da li bi  |
-| 第四転回形 | bi di ba da li  |
-| 第五転回形 | li bi di ba da  |
+| 1st Rotation | da li bi di ba |
+| 2nd Rotation | ba da li bi di |
+| 3rd Rotation | di ba da li bi |
+| 4th Rotation | bi di ba da li |
+| 5th Rotation | li bi di ba da |
 
-##### <span id="anchor-46"></span>練習
+##### <span id="anchor-46"></span>Practice
 
-音楽に合わせてda li bi di ba を唱えましょう。この時da
-を１拍目表に合わせて唱えながら、同時にba が最初の音として聞こえ ba da li
-bi di
-として聞こえる様になるまで唱え続けます。これが第二転回形です。同様にして第三転回形di
-ba da li bi 第四転回形 bi di ba da li
-も練習しましょう。最終転回形である第五転回形 li bi di ba da
-が難しいので頑張って下さい。
+Chant `da li bi di ba` along with music. At that time, keep chanting with `da` aligned to the on-beat of Beat 1 while continuing until `ba` begins to be heard as the first sound, that is, until it starts sounding like `ba da li bi di`. This is the 2nd Rotation. In the same way, practice the 3rd Rotation `di ba da li bi` and the 4th Rotation `bi di ba da li` as well. The final 5th Rotation `li bi di ba da` is difficult, so work at it carefully.
 
-#### <span id="anchor-47"></span>五音基底 四音分割
+#### <span id="anchor-47"></span>Five-Note Base Rhythm: Four-Note Grouping
 
 |              |              |              |              |              |
 |--------------|--------------|--------------|--------------|--------------|
 | da li bi di  | ba da li bi  | di ba da li  | bi di ba da  | li bi di ba  |
 
-##### <span id="anchor-48"></span>練習
+##### <span id="anchor-48"></span>Practice
 
-1.  ４音毎に手を鳴らしましょう。
-2.  ４音毎に足を鳴らしda に合わせて手を鳴らしましょう。
-3.  ４音毎に足を鳴らしba に合わせて手を鳴らしましょう。
+1.  Clap every four sounds.
+2.  Step every four sounds and clap on `da`.
+3.  Step every four sounds and clap on `ba`.
 
-#### <span id="anchor-49"></span>五音基底 八音分割
+#### <span id="anchor-49"></span>Five-Note Base Rhythm: Eight-Note Grouping
 
 |                            |
 |----------------------------|
@@ -10620,13 +10588,13 @@ ba da li bi 第四転回形 bi di ba da li
 | ba da li bi / di ba da li  |
 | bi di ba da / li bi di ba  |
 
-#### <span id="anchor-50"></span>五音基底 三音分割
+#### <span id="anchor-50"></span>Five-Note Base Rhythm: Three-Note Grouping
 
 |           |           |           |           |           |
 |-----------|-----------|-----------|-----------|-----------|
 | da li bi  | di ba da  | li bi di  | ba da li  | bi di ba  |
 
-#### <span id="anchor-51"></span>五音基底 六音分割
+#### <span id="anchor-51"></span>Five-Note Base Rhythm: Six-Note Grouping
 
 |                      |
 |----------------------|
@@ -10636,7 +10604,7 @@ ba da li bi 第四転回形 bi di ba da li
 | di ba da / li bi di  |
 | ba da li / bi di ba  |
 
-#### <span id="anchor-52"></span>五音基底 七音分割
+#### <span id="anchor-52"></span>Five-Note Base Rhythm: Seven-Note Grouping
 
 |                       |
 |-----------------------|
@@ -10646,7 +10614,7 @@ ba da li bi 第四転回形 bi di ba da li
 | li bi di ba da li bi  |
 | di ba da li bi di ba  |
 
-#### <span id="anchor-53"></span>五音基底 十四音分割
+#### <span id="anchor-53"></span>Five-Note Base Rhythm: Fourteen-Note Grouping
 
 |                                              |
 |----------------------------------------------|
@@ -10656,86 +10624,79 @@ ba da li bi 第四転回形 bi di ba da li
 | bi di ba da li bi di / ba da li bi di ba da  |
 | li bi di ba da li bi / di ba da li bi di ba  |
 
-#### <span id="anchor-54"></span>五音基底 十五音四四四三分割
+#### <span id="anchor-54"></span>Five-Note Base Rhythm: Fifteen-Note 4-4-4-3 Grouping
 
 |              |              |              |           |
 |--------------|--------------|--------------|-----------|
 | da li bi di  | ba da li bi  | di ba da li  | bi di ba  |
 
-##### <span id="anchor-55"></span>練習
+##### <span id="anchor-55"></span>Practice
 
-このパターンは短くシンプルですが重要なのでよく練習しましょう。
+This pattern is short and simple, but it is important, so practice it well.
 
-1.  各マスの先頭音で手を鳴らしましょう。
-2.  各マスの先頭音で足を鳴らし、da にあわせ手を鳴らしましょう。
-3.  各マスの先頭音で足を鳴らし、da にあわせ手を鳴らしましょう。
+1.  Clap on the first sound of each box.
+2.  Step on the first sound of each box and clap on `da`.
+3.  Step on the first sound of each box and clap on `ba`.
 
-### <span id="anchor-56"></span>七音基底リズム
+### <span id="anchor-56"></span>Seven-Note Base Rhythm
 
-#### <span id="anchor-57"></span>七音基底リズムの発音
+#### <span id="anchor-57"></span>Pronunciation of the Seven-Note Base Rhythm
 
-ここでは七音に対して次のような発音を割り当てます。
+Here we assign the following syllables to the seven sounds.
 
 1.  da
-2.  li
+2.  la
 3.  ba
 4.  da
 5.  bi
 6.  di
 7.  ba
 
-##### <span id="anchor-58"></span>練習
+##### <span id="anchor-58"></span>Practice
 
-音楽に合わせてda la ba da bi di ba を唱えてみましょう。
+Try chanting `da la ba da bi di ba` along with music.
 
-#### <span id="anchor-59"></span>七音基底リズムの転回形
+#### <span id="anchor-59"></span>Rotations of the Seven-Note Base Rhythm
 
 |            |                       |
 |------------|-----------------------|
-| 第一転回形 | da la ba da bi di ba  |
-| 第二転回形 | ba da la ba da bi di  |
-| 第三転回形 | di ba da la ba da bi  |
-| 第四転回形 | bi di ba da la ba da  |
-| 第五転回形 | da bi di ba da la ba  |
-| 第六転回形 | ba da bi di ba da li  |
-| 第七転回形 | la ba da bi di ba da  |
+| 1st Rotation | da la ba da bi di ba |
+| 2nd Rotation | ba da la ba da bi di |
+| 3rd Rotation | di ba da la ba da bi |
+| 4th Rotation | bi di ba da la ba da |
+| 5th Rotation | da bi di ba da la ba |
+| 6th Rotation | ba da bi di ba da la |
+| 7th Rotation | la ba da bi di ba da |
 
-##### <span id="anchor-60"></span>練習
+##### <span id="anchor-60"></span>Practice
 
-音楽に合わせてda la ba da bi di ba を唱えましょう。この時da
-を１拍目表に合わせて唱えながら、同時にba が最初の音として聞こえba da la
-ba da bi di
-として聞こえる様になるまで唱え続けます。これが第二転回形です。同様にして第三転回形di
-ba da la ba da bi・第四転回形 bi di ba da la ba da 第五転回形da bi di ba
-da la ba 第六転回形 ba da bi di ba da li
-も練習しましょう。最終転回形である第七転回形 la ba da bi di ba da
-が難しいので頑張って下さい。
+Chant `da la ba da bi di ba` along with music. At that time, keep chanting with `da` aligned to the on-beat of Beat 1 while continuing until `ba` begins to be heard as the first sound, that is, until it starts sounding like `ba da la ba da bi di`. This is the 2nd Rotation. In the same way, practice the 3rd Rotation `di ba da la ba da bi`, the 4th Rotation `bi di ba da la ba da`, the 5th Rotation `da bi di ba da la ba`, and the 6th Rotation `ba da bi di ba da la` as well. The final 7th Rotation `la ba da bi di ba da` is difficult, so work at it carefully.
 
-#### <span id="anchor-61"></span>七音基底 四音分割
+#### <span id="anchor-61"></span>Seven-Note Base Rhythm: Four-Note Grouping
 
 |  |  |  |  |  |  |  |
 |----|----|----|----|----|----|----|
 | da la ba da | bi di ba da | la ba da bi | di ba da la | ba da bi di | ba da la ba | da bi di ba |
 
-##### <span id="anchor-62"></span>練習
+##### <span id="anchor-62"></span>Practice
 
-1.  各マスの先頭音で手を鳴らしましょう。
-2.  各マスの先頭音で足を、1つ目のda にあわせ手を鳴らしましょう。
-3.  各マスの先頭音で足を、1つ目のda にあわせ手を鳴らしましょう。
+1.  Clap on the first sound of each box.
+2.  Step on the first sound of each box and clap on the first `da`.
+3.  Step on the first sound of each box and clap on the first `ba`.
 
-#### <span id="anchor-63"></span>七音基底 三音分割
+#### <span id="anchor-63"></span>Seven-Note Base Rhythm: Three-Note Grouping
 
 |           |           |          |           |           |           |           |
 |-----------|-----------|----------|-----------|-----------|-----------|-----------|
 | da la ba  | da bi di  | ba da la | ba da bi  | di ba da  | la ba da  | bi di ba  |
 
-##### <span id="anchor-64"></span>練習
+##### <span id="anchor-64"></span>Practice
 
-1.  各マスの先頭音で手を鳴らしましょう。
-2.  各マスの先頭音で足を、1つ目のda にあわせ手を鳴らしましょう。
-3.  各マスの先頭音で足を、1つ目のda にあわせ手を鳴らしましょう。
+1.  Clap on the first sound of each box.
+2.  Step on the first sound of each box and clap on the first `da`.
+3.  Step on the first sound of each box and clap on the first `ba`.
 
-#### <span id="anchor-65"></span>七音基底 六音三三分割
+#### <span id="anchor-65"></span>Seven-Note Base Rhythm: Six-Note 3-3 Grouping
 
 |                      |
 |----------------------|
@@ -10747,7 +10708,7 @@ da la ba 第六転回形 ba da bi di ba da li
 | ba da bi / di ba da  |
 | la ba da / bi di ba  |
 
-#### <span id="anchor-66"></span>七音基底 五音分割
+#### <span id="anchor-66"></span>Seven-Note Base Rhythm: Five-Note Grouping
 
 |                |
 |----------------|
@@ -10759,13 +10720,13 @@ da la ba 第六転回形 ba da bi di ba da li
 | bi di ba da la |
 | ba da bi di ba |
 
-##### <span id="anchor-67"></span>練習
+##### <span id="anchor-67"></span>Practice
 
-1.  各マスの先頭音で手を鳴らしましょう。
-2.  各マスの先頭音で足を、1つ目のda にあわせ手を鳴らしましょう。
-3.  各マスの先頭音で足を、1つ目のda にあわせ手を鳴らしましょう。
+1.  Clap on the first sound of each box.
+2.  Step on the first sound of each box and clap on the first `da`.
+3.  Step on the first sound of each box and clap on the first `ba`.
 
-#### <span id="anchor-68"></span>七音基底 十音五五分割
+#### <span id="anchor-68"></span>Seven-Note Base Rhythm: Ten-Note 5-5 Grouping
 
 |                                  |
 |----------------------------------|
@@ -10777,39 +10738,39 @@ da la ba 第六転回形 ba da bi di ba da li
 | la ba da bi di / ba da la ba da  |
 | bi di ba da la / ba da bi di ba  |
 
-### <span id="anchor-69"></span>九音五四基底リズム
+### <span id="anchor-69"></span>Nine-Note 5-4 Base Rhythm
 
-#### <span id="anchor-70"></span>九音五四基底リズムの発音
+#### <span id="anchor-70"></span>Pronunciation of the Nine-Note 5-4 Base Rhythm
 
-九音に対して次のような発音を割り当てます。
+We assign the following syllables to the nine sounds.
 
 |                             |
 |-----------------------------|
 | da li bi di ba da bi di ba  |
 
-参考：[ラヴィ・コルトレーンの26-2（５＋４拍子）](https://www.youtube.com/watch?v=jI7RbAf4Dks)
+Reference: [Ravi Coltrane's 26-2 (5+4 meter)](https://www.youtube.com/watch?v=jI7RbAf4Dks)
 
-#### <span id="anchor-71"></span>九音五四基底リズムの転回形
+#### <span id="anchor-71"></span>Rotations of the Nine-Note 5-4 Base Rhythm
 
 |            |                             |
 |------------|-----------------------------|
-| 第一転回形 | da li bi di ba da bi di ba  |
-| 第二転回形 | ba da li bi di ba da bi di  |
-| 第三転回形 | di ba da li bi di ba da bi  |
-| 第四転回形 | bi di ba da li bi di ba da  |
-| 第五転回形 | da bi di ba da li bi di ba  |
-| 第六転回形 | ba da bi di ba da li bi di  |
-| 第七転回形 | di ba da bi di ba da li bi  |
-| 第八転回形 | bi di ba da bi di ba da li  |
-| 第九転回形 | li bi di ba da bi di ba da  |
+| 1st Rotation | da li bi di ba da bi di ba |
+| 2nd Rotation | ba da li bi di ba da bi di |
+| 3rd Rotation | di ba da li bi di ba da bi |
+| 4th Rotation | bi di ba da li bi di ba da |
+| 5th Rotation | da bi di ba da li bi di ba |
+| 6th Rotation | ba da bi di ba da li bi di |
+| 7th Rotation | di ba da bi di ba da li bi |
+| 8th Rotation | bi di ba da bi di ba da li |
+| 9th Rotation | li bi di ba da bi di ba da |
 
-#### <span id="anchor-72"></span>九音五四基底 三音分割
+#### <span id="anchor-72"></span>Nine-Note 5-4 Base Rhythm: Three-Note Grouping
 
 |                                 |
 |---------------------------------|
 | da li bi / di ba da / bi di ba  |
 
-#### <span id="anchor-73"></span>九音五四基底 四音分割
+#### <span id="anchor-73"></span>Nine-Note 5-4 Base Rhythm: Four-Note Grouping
 
 |              |
 |--------------|
@@ -10823,7 +10784,7 @@ da la ba 第六転回形 ba da bi di ba da li
 | li bi di ba  |
 | da bi di ba  |
 
-#### <span id="anchor-74"></span>九音五四基底 五音分割
+#### <span id="anchor-74"></span>Nine-Note 5-4 Base Rhythm: Five-Note Grouping
 
 |                 |
 |-----------------|
@@ -10837,46 +10798,41 @@ da la ba 第六転回形 ba da bi di ba da li
 | ba da li bi di  |
 | ba da bi di ba  |
 
-### <span id="anchor-75"></span>十一音基底リズム
+### <span id="anchor-75"></span>Eleven-Note Base Rhythm
 
-#### <span id="anchor-76"></span>十一音基底リズムの発音
+#### <span id="anchor-76"></span>Pronunciation of the Eleven-Note Base Rhythm
 
-ここでは十一音に対して次のような発音を割り当てます。
+Here we assign the following syllables to the eleven sounds.
 
 |                                   |
 |-----------------------------------|
 | da la ba da bi di ba da bi di ba  |
 
-##### <span id="anchor-77"></span>練習
+##### <span id="anchor-77"></span>Practice
 
-音楽に合わせてda la ba da bi di ba da bi di ba を唱えてみましょう。
+Try chanting `da la ba da bi di ba da bi di ba` along with music.
 
-#### <span id="anchor-78"></span>十一音基底リズムの転回形
+#### <span id="anchor-78"></span>Rotations of the Eleven-Note Base Rhythm
 
 |              |                                   |
 |--------------|-----------------------------------|
-| 第一転回形   | da la ba da bi di ba da bi di ba  |
-| 第二転回形   | ba da la ba da bi di ba da bi di  |
-| 第三転回形   | di ba da li ba da bi di ba da bi  |
-| 第四転回形   | bi di ba da la ba da bi di ba da  |
-| 第五転回形   | da bi di ba da la ba da bi di ba  |
-| 第六転回形   | ba da bi di ba da la ba da bi di  |
-| 第七転回形   | di ba da bi di ba da li ba da bi  |
-| 第八転回形   | bi di ba da bi di ba da la ba da  |
-| 第九転回形   | da bi di ba da bi di ba da la ba  |
-| 第十転回形   | ba da bi di ba da bi di ba da li  |
-| 第十一転回形 | la ba da bi di ba da bi di ba da  |
+| 1st Rotation  | da la ba da bi di ba da bi di ba |
+| 2nd Rotation  | ba da la ba da bi di ba da bi di |
+| 3rd Rotation  | di ba da li ba da bi di ba da bi |
+| 4th Rotation  | bi di ba da la ba da bi di ba da |
+| 5th Rotation  | da bi di ba da la ba da bi di ba |
+| 6th Rotation  | ba da bi di ba da la ba da bi di |
+| 7th Rotation  | di ba da bi di ba da li ba da bi |
+| 8th Rotation  | bi di ba da bi di ba da la ba da |
+| 9th Rotation  | da bi di ba da bi di ba da la ba |
+| 10th Rotation | ba da bi di ba da bi di ba da li |
+| 11th Rotation | la ba da bi di ba da bi di ba da |
 
-##### <span id="anchor-79"></span>練習
+##### <span id="anchor-79"></span>Practice
 
-音楽に合わせてda la ba da bi di ba da bi di ba を唱えましょう。この時da
-を１拍目表に合わせて唱えながら、同時にba が最初の音として聞こえ「ba da
-la ba da bi di ba da bi di
-」として聞こえる様になるまで唱え続けます。これが第二転回形です。同様にして第三転回形
-〜 第十一転回形まで全て練習しましょう。最終転回形である第十一転回形「la
-ba da bi di ba da 」が難しいので頑張って下さい。
+Chant `da la ba da bi di ba da bi di ba` along with music. At that time, keep chanting with `da` aligned to the on-beat of Beat 1 while continuing until `ba` begins to be heard as the first sound, that is, until it starts sounding like `ba da la ba da bi di ba da bi di`. This is the 2nd Rotation. In the same way, practice everything from the 3rd Rotation through the 11th Rotation as well. The final 11th Rotation is difficult, so work at it carefully.
 
-#### <span id="anchor-80"></span>十一音基底 四音分割
+#### <span id="anchor-80"></span>Eleven-Note Base Rhythm: Four-Note Grouping
 
 |              |              |              |              |
 |--------------|--------------|--------------|--------------|
@@ -10884,11 +10840,11 @@ ba da bi di ba da 」が難しいので頑張って下さい。
 | di ba da bi  | di ba da li  | ba da bi di  | ba da bi di  |
 | ba da la ba  | da bi di ba  | da bi di ba  |              |
 
-1.  各マスの先頭音で手を鳴らしましょう。
-2.  各マスの先頭音で足を鳴らし、da にあわせ手を鳴らしましょう。
-3.  各マスの先頭音で足を鳴らし、ba にあわせ手を鳴らしましょう。
+1.  Clap on the first sound of each box.
+2.  Step on the first sound of each box and clap on `da`.
+3.  Step on the first sound of each box and clap on `ba`.
 
-#### <span id="anchor-81"></span>十一音基底 三音分割
+#### <span id="anchor-81"></span>Eleven-Note Base Rhythm: Three-Note Grouping
 
 |           |           |           |           |
 |-----------|-----------|-----------|-----------|
@@ -10896,7 +10852,7 @@ ba da bi di ba da 」が難しいので頑張って下さい。
 | la ba da  | bi di ba  | da bi di  | ba da li  |
 | ba da bi  | di ba da  | bi di ba  |           |
 
-#### <span id="anchor-82"></span>十一音基底 五音分割
+#### <span id="anchor-82"></span>Eleven-Note Base Rhythm: Five-Note Grouping
 
 |                 |                 |                 |                 |
 |-----------------|-----------------|-----------------|-----------------|
@@ -10904,7 +10860,7 @@ ba da bi di ba da 」が難しいので頑張って下さい。
 | di ba da la ba  | da bi di ba da  | bi di ba da li  | ba da bi di ba  |
 | da bi di ba da  | la ba da bi di  | ba da bi di ba  |                 |
 
-#### <span id="anchor-83"></span>十一音基底 七音分割
+#### <span id="anchor-83"></span>Eleven-Note Base Rhythm: Seven-Note Grouping
 
 |  |  |  |  |
 |----|----|----|----|
@@ -10912,134 +10868,133 @@ ba da bi di ba da 」が難しいので頑張って下さい。
 | ba da bi di ba da li | ba da bi di ba da bi | di ba da la ba da bi | di ba da bi di ba da |
 | la ba da bi di ba da | bi di ba da la ba da | bi di ba da bi di ba |  |
 
-### <span id="anchor-84"></span>十五音四四四三基底リズム
+### <span id="anchor-84"></span>Fifteen-Note 4-4-4-3 Base Rhythm
 
-#### <span id="anchor-85"></span>十五音四四四三基底リズムの発音
+#### <span id="anchor-85"></span>Pronunciation of the Fifteen-Note 4-4-4-3 Base Rhythm
 
-音に対して次のような発音を割り当てます。
+We assign the following syllables to the fifteen sounds.
 
 |                                                |
 |------------------------------------------------|
 | da bi di ba da bi di ba da bi di ba da la ba   |
 
-#### <span id="anchor-86"></span>十五音四四四三基底リズムの転回形
+#### <span id="anchor-86"></span>Rotations of the Fifteen-Note 4-4-4-3 Base Rhythm
 
 |              |                                               |
 |--------------|-----------------------------------------------|
-| 第一転回形   | da bi di ba da bi di ba da bi di ba da la ba  |
-| 第二転回形   | ba da bi di ba da bi di ba da bi di ba da li  |
-| 第三転回形   | la ba da bi di ba da bi di ba da bi di ba da  |
-| 第四転回形   | da la ba da bi di ba da bi di ba da bi di ba  |
-| 第五転回形   | ba da la ba da bi di ba da bi di ba da bi di  |
-| 第六転回形   | di ba da li ba da bi di ba da bi di ba da bi  |
-| 第七転回形   | bi di ba da la ba da bi di ba da bi di ba da  |
-| 第八転回形   | da bi di ba da la ba da bi di ba da bi di ba  |
-| 第九転回形   | ba da bi di ba da la ba da bi di ba da bi di  |
-| 第十転回形   | di ba da bi di ba da li ba da bi di ba da bi  |
-| 第十一転回形 | bi di ba da bi di ba da la ba da bi di ba da  |
-| 第十二転回形 | da bi di ba da bi di ba da la ba da bi di ba  |
-| 第十三転回形 | ba da bi di ba da bi di ba da la ba da bi di  |
-| 第十四転回形 | di ba da bi di ba da bi di ba da li ba da bi  |
-| 第十五転回形 | bi di ba da bi di ba da bi di ba da la ba da  |
+| 1st Rotation  | da bi di ba da bi di ba da bi di ba da la ba |
+| 2nd Rotation  | ba da bi di ba da bi di ba da bi di ba da li |
+| 3rd Rotation  | la ba da bi di ba da bi di ba da bi di ba da |
+| 4th Rotation  | da la ba da bi di ba da bi di ba da bi di ba |
+| 5th Rotation  | ba da la ba da bi di ba da bi di ba da bi di |
+| 6th Rotation  | di ba da li ba da bi di ba da bi di ba da bi |
+| 7th Rotation  | bi di ba da la ba da bi di ba da bi di ba da |
+| 8th Rotation  | da bi di ba da la ba da bi di ba da bi di ba |
+| 9th Rotation  | ba da bi di ba da la ba da bi di ba da bi di |
+| 10th Rotation | di ba da bi di ba da li ba da bi di ba da bi |
+| 11th Rotation | bi di ba da bi di ba da la ba da bi di ba da |
+| 12th Rotation | da bi di ba da bi di ba da la ba da bi di ba |
+| 13th Rotation | ba da bi di ba da bi di ba da la ba da bi di |
+| 14th Rotation | di ba da bi di ba da bi di ba da li ba da bi |
+| 15th Rotation | bi di ba da bi di ba da bi di ba da la ba da |
 
-※
-注：十五音四四四三基底リズムは、尻合わせを前提としていない為転回形を覚える意味はないかも知れません。
+Note:
+Because the fifteen-note 4-4-4-3 base rhythm is not premised on tail alignment, there may be little point in memorizing its rotations.
 
-#### <span id="anchor-87"></span>十五音四四四三基底 五音分割
+#### <span id="anchor-87"></span>Fifteen-Note 4-4-4-3 Base Rhythm: Five-Note Grouping
 
 |                 |                  |                 |
 |-----------------|------------------|-----------------|
 | da bi di ba da  |  bi di ba da bi  | di ba da la ba  |
 
-#### <span id="anchor-88"></span>十五音四四四三基底 三音分割
+#### <span id="anchor-88"></span>Fifteen-Note 4-4-4-3 Base Rhythm: Three-Note Grouping
 
 |           |           |           |           |           |
 |-----------|-----------|-----------|-----------|-----------|
 | da bi di  | ba da bi  | di ba da  | bi di ba  | da la ba  |
 
-### <span id="anchor-89"></span>二十一音基底リズム
+### <span id="anchor-89"></span>Twenty-One-Note Base Rhythms
 
-#### <span id="anchor-90"></span>二十一音 五五五三三基底 七音分割
+#### <span id="anchor-90"></span>Twenty-One-Note 5-5-5-3-3 Base Rhythm: Seven-Note Grouping
 
-次のように基底リズムを定義する。
+Define the base rhythm as follows.
 
 |                                                                         |
 |-------------------------------------------------------------------------|
 | da li bi di ba / da li bi di ba / da li bi di ba / da la ba / da la ba  |
 
-これを次の様に七分割
+Then divide it into seven-note groups as follows.
 
 |                                                                     |
 |---------------------------------------------------------------------|
 | da li bi di ba da li / bi di ba da li bi di / ba da la ba da la ba  |
 
-#### <span id="anchor-91"></span>二十一音四四四四五音基底 七音分割
+#### <span id="anchor-91"></span>Twenty-One-Note 4-4-4-4-5 Base Rhythm: Seven-Note Grouping
 
-次のように基底リズムを定義する。
+Define the base rhythm as follows.
 
 |                                                                         |
 |-------------------------------------------------------------------------|
 | da bi di ba / da bi di ba / da bi di ba / da bi di ba / da li bi di ba  |
 
-これを次の様に七分割
+Then divide it into seven-note groups as follows.
 
 |                                                                     |
 |---------------------------------------------------------------------|
 | da bi di ba da bi di / ba da bi di ba da bi / di ba da li bi de ba  |
 
-### <span id="anchor-92"></span>多重拍子・拍子置換・グルーヴ保持について
+### <span id="anchor-92"></span>Multiple Meter, Meter Switching, and Groove Maintenance
 
-#### <span id="anchor-93"></span>多重拍子の演奏方法
+#### <span id="anchor-93"></span>How to Perform Multiple Meter
 
-多重拍子とは複数の拍子を同時に演奏することです。
+Multiple meter means performing multiple meters simultaneously.
 
-ｎ拍子の曲を演奏中にｍ拍子のメロディーを同時に演奏すると多重拍子が生まれます。このときｍ拍子を演奏する演奏者はｎ拍子のメロディーを聞きながらｎ拍ｍ連符を演奏することで実現できます。
+If one performs a melody in `m` meter while a piece in `n` meter is being played, multiple meter is produced. At that time, the performer of the `m`-meter melody can realize it by listening to the `n`-meter melody while performing `m` tuplets over `n` beats.
 
-この時
-１拍をm等分した連符をn分割するというテクニックがあります。例えば４拍子を演奏中に３連符を４つ毎に区切りったポリリズムを演奏するとこれが3拍子の１拍と同じ長さのリズムになります。
+At this time, there is a technique of dividing tuplets that split one beat into `m` equal parts into `n` groupings. For example, if one is playing in 4/4 and performs a polyrhythm in which triplets are grouped four at a time, that becomes a rhythm with the same length as one beat of 3/4.
 
-#### <span id="anchor-94"></span>拍子入れ替えの方法
+#### <span id="anchor-94"></span>How to Switch Meter
 
-この状態で、3拍子だけを演奏して４拍子の演奏をやめると、音楽はそのまま3拍子に切り替わることになります。これが**拍子入れ替え**です。
+If, in that state, one continues performing only the 3/4 rhythm and stops performing the 4/4 rhythm, the music switches directly into 3/4. This is **meter switching**.
 
 [Foot Prints](https://www.youtube.com/watch?v=XolY-Bm0QL8)
-は、最も基本的な3拍子と４拍子の間で拍子入れ替えを行っています。
+uses meter switching between the most basic case of 3/4 and 4/4.
 
-近年では３拍子４拍子以外の、５拍子や７拍子などの奇数拍子の間で入れ替えを行うことが一般的です。奇数拍子の拍子入れ替えについては、次の演奏を参考にして下さい。
+In recent years, it has become common to switch not only between 3/4 and 4/4, but also between odd meters such as 5/4 and 7/4. For switching among odd meters, refer to the following performance.
 
-参考：[ケニーワーナーのAll the Things You Are](https://www.youtube.com/watch?v=S9pYtA01ToM)
+Reference: [Kenny Werner's All the Things You Are](https://www.youtube.com/watch?v=S9pYtA01ToM)
 
-この演奏で5拍子と7拍子の入れ替えが行われています。
+In this performance, switching is carried out between 5/4 and 7/4.
 
-#### <span id="anchor-95"></span>グルーヴ維持
+#### <span id="anchor-95"></span>Groove Maintenance
 
-前述の多重拍子演奏方法は必ず１拍目（オンビート）を基準として演奏していることを前提とした方法論で実現されています。この方法はスイングの２拍４拍（オフビート）を基準として１拍3拍を弱く演奏したり、或いは演奏しなかったり、意図的にずらしたりして演奏するスタイルとの整合性が取れないという問題があります。つまり多重拍子を演奏しながら同時にスイングを演奏することはできません。この問題を解決する技術をここでは**グルーヴ維持**と呼ぶことにします。
+The multiple-meter performance method described above assumes that performance is always based on Beat 1, that is, the on-beat. The problem with this method is that it is incompatible with styles of swing performance that take Beats 2 and 4, the offbeats, as the basis, while playing Beats 1 and 3 weakly, or not playing them at all, or intentionally displacing them. In other words, one cannot perform multiple meter and swing at the same time by this method alone. Here I call the technique that solves this problem **groove maintenance**.
 
-#### <span id="anchor-96"></span>最終拍基準法
+#### <span id="anchor-96"></span>The Final-Beat Reference Method
 
-最終拍基準法は２０１８年頃に僕が自分で考案した**グルーヴ維持法**です。
+The Final-Beat Reference Method is a **groove-maintenance method** that I devised myself around 2018.
 
-通常は複数の拍子のそれぞれ先頭拍を合わせる様に多重拍子を演奏します。
+Normally, one performs multiple meter by aligning the opening beats of the multiple meters.
 
 <img src="offbeat-count-polyrhythm-10000001000001C7000000A753FAC89C.png"
-style="width:4.7366in;height:1.7398in" />図上の上段は４拍子、下段は５拍子です。これを最終拍を基準に合わせて連符を演奏するようにしたのが最終拍基準法です。
+style="width:4.7366in;height:1.7398in" />In the figure above, the upper staff is 4/4 and the lower staff is 5/4. The Final-Beat Reference Method changes this so that the tuplets are performed by aligning the final beats as the reference.
 
 <img src="offbeat-count-polyrhythm-1000000100000243000000A7E805A4BE.png"
-style="width:6.0339in;height:1.7398in" />この様に４拍子の４拍目と５拍子の５拍目を合わせて演奏します。この様にすると１拍目は５拍子上の全ての拍と一致しなくなります。しかし４拍子上の最終拍と５拍子上の最終拍が一致するため、次の小節に向けて演奏する弱起（アウフタクト・アナクルーシス）のタイミングを合わせやすくなります。
+style="width:6.0339in;height:1.7398in" />In this way, the 4th beat of 4/4 and the 5th beat of 5/4 are aligned and performed together. If one does this, Beat 1 no longer coincides with all the beats of the 5/4 side. But because the final beat in 4/4 and the final beat in 5/4 coincide, it becomes easier to align the timing of the anacrusis performed toward the next measure.
 
-安定したグルーヴを演奏する上で連続した弱起を維持することは大切ですが、前述の先頭拍基準法では最終拍の位置が一致しないためグルーヴを維持することができません。しかし最終拍基準法はどの拍子を重ねても必ず最終拍が一致するため、どんな多重拍子を演奏してもグルーヴを維持することが可能になります。
+Maintaining continuous anacrusis is important for performing stable groove, but in the previously described opening-beat-based method, the positions of the final beats do not coincide, so groove cannot be maintained. The Final-Beat Reference Method, however, always makes the final beats coincide no matter which meters are superimposed, so it becomes possible to maintain groove in any multiple-meter performance.
 
-最終拍基準法のタイミングは、譜面上正確に表記できません。シーケンサなどで自動演奏を行う時は１拍ずらして記譜するとよいようです。実音上の最終拍（４拍子なら４拍目／５拍子なら５拍目）１拍目として入力したうえで、連符（４拍５連／４拍７連等々）を入力します。
+The timing of the Final-Beat Reference Method cannot be written precisely in conventional notation. When performing it automatically in a sequencer or similar tool, it seems best to notate it shifted by one beat. One inputs the actual final beat, Beat 4 in 4/4 or Beat 5 in 5/4, as if it were Beat 1, and then enters the tuplets, such as five notes over four beats or seven notes over four beats.
 
-### <span id="anchor-97"></span>おわりに
+### <span id="anchor-97"></span>Conclusion
 
-いかがでしたでしょうか。色々なポリリズムが出てきました。これらは飽くまでもよりよいグルーヴを作り出すためのテクニックです。テクニックに走りすぎてグルーヴすることを忘れてしまえば本末転倒です。
+How was it? Many different polyrhythms have appeared. These are, after all, techniques for producing better groove. If one becomes too absorbed in technique and forgets to groove, the whole point is lost.
 
-グルーヴすることを忘れずに！
+Do not forget to groove.
 
-みんなで一緒に**激しくグルーヴしましょう！**
+Let us all **groove intensely together**.
 
-オカアツシ
+Atsushi Oka
 
 
 ## リズムニュアンスを形づくる要素 <!-- {#dimensions-of-rhythmic-nuance} -->

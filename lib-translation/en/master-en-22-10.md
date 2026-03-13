@@ -1,45 +1,44 @@
-### <span id="anchor-84"></span>十五音四四四三基底リズム
+### <span id="anchor-84"></span>Fifteen-Note 4-4-4-3 Base Rhythm
 
-#### <span id="anchor-85"></span>十五音四四四三基底リズムの発音
+#### <span id="anchor-85"></span>Pronunciation of the Fifteen-Note 4-4-4-3 Base Rhythm
 
-音に対して次のような発音を割り当てます。
+We assign the following syllables to the fifteen sounds.
 
 |                                                |
 |------------------------------------------------|
 | da bi di ba da bi di ba da bi di ba da la ba   |
 
-#### <span id="anchor-86"></span>十五音四四四三基底リズムの転回形
+#### <span id="anchor-86"></span>Rotations of the Fifteen-Note 4-4-4-3 Base Rhythm
 
 |              |                                               |
 |--------------|-----------------------------------------------|
-| 第一転回形   | da bi di ba da bi di ba da bi di ba da la ba  |
-| 第二転回形   | ba da bi di ba da bi di ba da bi di ba da li  |
-| 第三転回形   | la ba da bi di ba da bi di ba da bi di ba da  |
-| 第四転回形   | da la ba da bi di ba da bi di ba da bi di ba  |
-| 第五転回形   | ba da la ba da bi di ba da bi di ba da bi di  |
-| 第六転回形   | di ba da li ba da bi di ba da bi di ba da bi  |
-| 第七転回形   | bi di ba da la ba da bi di ba da bi di ba da  |
-| 第八転回形   | da bi di ba da la ba da bi di ba da bi di ba  |
-| 第九転回形   | ba da bi di ba da la ba da bi di ba da bi di  |
-| 第十転回形   | di ba da bi di ba da li ba da bi di ba da bi  |
-| 第十一転回形 | bi di ba da bi di ba da la ba da bi di ba da  |
-| 第十二転回形 | da bi di ba da bi di ba da la ba da bi di ba  |
-| 第十三転回形 | ba da bi di ba da bi di ba da la ba da bi di  |
-| 第十四転回形 | di ba da bi di ba da bi di ba da li ba da bi  |
-| 第十五転回形 | bi di ba da bi di ba da bi di ba da la ba da  |
+| 1st Rotation  | da bi di ba da bi di ba da bi di ba da la ba |
+| 2nd Rotation  | ba da bi di ba da bi di ba da bi di ba da li |
+| 3rd Rotation  | la ba da bi di ba da bi di ba da bi di ba da |
+| 4th Rotation  | da la ba da bi di ba da bi di ba da bi di ba |
+| 5th Rotation  | ba da la ba da bi di ba da bi di ba da bi di |
+| 6th Rotation  | di ba da li ba da bi di ba da bi di ba da bi |
+| 7th Rotation  | bi di ba da la ba da bi di ba da bi di ba da |
+| 8th Rotation  | da bi di ba da la ba da bi di ba da bi di ba |
+| 9th Rotation  | ba da bi di ba da la ba da bi di ba da bi di |
+| 10th Rotation | di ba da bi di ba da li ba da bi di ba da bi |
+| 11th Rotation | bi di ba da bi di ba da la ba da bi di ba da |
+| 12th Rotation | da bi di ba da bi di ba da la ba da bi di ba |
+| 13th Rotation | ba da bi di ba da bi di ba da la ba da bi di |
+| 14th Rotation | di ba da bi di ba da bi di ba da li ba da bi |
+| 15th Rotation | bi di ba da bi di ba da bi di ba da la ba da |
 
-※
-注：十五音四四四三基底リズムは、尻合わせを前提としていない為転回形を覚える意味はないかも知れません。
+Note:
+Because the fifteen-note 4-4-4-3 base rhythm is not premised on tail alignment, there may be little point in memorizing its rotations.
 
-#### <span id="anchor-87"></span>十五音四四四三基底 五音分割
+#### <span id="anchor-87"></span>Fifteen-Note 4-4-4-3 Base Rhythm: Five-Note Grouping
 
 |                 |                  |                 |
 |-----------------|------------------|-----------------|
 | da bi di ba da  |  bi di ba da bi  | di ba da la ba  |
 
-#### <span id="anchor-88"></span>十五音四四四三基底 三音分割
+#### <span id="anchor-88"></span>Fifteen-Note 4-4-4-3 Base Rhythm: Three-Note Grouping
 
 |           |           |           |           |           |
 |-----------|-----------|-----------|-----------|-----------|
 | da bi di  | ba da bi  | di ba da  | bi di ba  | da la ba  |
-

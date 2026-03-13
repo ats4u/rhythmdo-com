@@ -1,8 +1,8 @@
-### <span id="anchor-42"></span>五音基底リズム
+### <span id="anchor-42"></span>Five-Note Base Rhythm
 
-#### <span id="anchor-43"></span>五音基底リズムの発音
+#### <span id="anchor-43"></span>Pronunciation of the Five-Note Base Rhythm
 
-ここでは五音に対して次のような発音を割り当てます。
+Here we assign the following syllables to the five sounds.
 
 1.  da
 2.  li
@@ -10,43 +10,37 @@
 4.  di
 5.  ba
 
-##### <span id="anchor-44"></span>練習
+##### <span id="anchor-44"></span>Practice
 
-音楽に合わせてda li bi di ba を唱えてみましょう。
+Try chanting `da li bi di ba` along with music.
 
-#### <span id="anchor-45"></span>三音基底リズムの転回形
+#### <span id="anchor-45"></span>Rotations of the Five-Note Base Rhythm
 
 |            |                 |
 |------------|-----------------|
-| 第一転回形 | da li bi di ba  |
-| 第二転回形 | ba da li bi di  |
-| 第三転回形 | di ba da li bi  |
-| 第四転回形 | bi di ba da li  |
-| 第五転回形 | li bi di ba da  |
+| 1st Rotation | da li bi di ba |
+| 2nd Rotation | ba da li bi di |
+| 3rd Rotation | di ba da li bi |
+| 4th Rotation | bi di ba da li |
+| 5th Rotation | li bi di ba da |
 
-##### <span id="anchor-46"></span>練習
+##### <span id="anchor-46"></span>Practice
 
-音楽に合わせてda li bi di ba を唱えましょう。この時da
-を１拍目表に合わせて唱えながら、同時にba が最初の音として聞こえ ba da li
-bi di
-として聞こえる様になるまで唱え続けます。これが第二転回形です。同様にして第三転回形di
-ba da li bi 第四転回形 bi di ba da li
-も練習しましょう。最終転回形である第五転回形 li bi di ba da
-が難しいので頑張って下さい。
+Chant `da li bi di ba` along with music. At that time, keep chanting with `da` aligned to the on-beat of Beat 1 while continuing until `ba` begins to be heard as the first sound, that is, until it starts sounding like `ba da li bi di`. This is the 2nd Rotation. In the same way, practice the 3rd Rotation `di ba da li bi` and the 4th Rotation `bi di ba da li` as well. The final 5th Rotation `li bi di ba da` is difficult, so work at it carefully.
 
-#### <span id="anchor-47"></span>五音基底 四音分割
+#### <span id="anchor-47"></span>Five-Note Base Rhythm: Four-Note Grouping
 
 |              |              |              |              |              |
 |--------------|--------------|--------------|--------------|--------------|
 | da li bi di  | ba da li bi  | di ba da li  | bi di ba da  | li bi di ba  |
 
-##### <span id="anchor-48"></span>練習
+##### <span id="anchor-48"></span>Practice
 
-1.  ４音毎に手を鳴らしましょう。
-2.  ４音毎に足を鳴らしda に合わせて手を鳴らしましょう。
-3.  ４音毎に足を鳴らしba に合わせて手を鳴らしましょう。
+1.  Clap every four sounds.
+2.  Step every four sounds and clap on `da`.
+3.  Step every four sounds and clap on `ba`.
 
-#### <span id="anchor-49"></span>五音基底 八音分割
+#### <span id="anchor-49"></span>Five-Note Base Rhythm: Eight-Note Grouping
 
 |                            |
 |----------------------------|
@@ -56,13 +50,13 @@ ba da li bi 第四転回形 bi di ba da li
 | ba da li bi / di ba da li  |
 | bi di ba da / li bi di ba  |
 
-#### <span id="anchor-50"></span>五音基底 三音分割
+#### <span id="anchor-50"></span>Five-Note Base Rhythm: Three-Note Grouping
 
 |           |           |           |           |           |
 |-----------|-----------|-----------|-----------|-----------|
 | da li bi  | di ba da  | li bi di  | ba da li  | bi di ba  |
 
-#### <span id="anchor-51"></span>五音基底 六音分割
+#### <span id="anchor-51"></span>Five-Note Base Rhythm: Six-Note Grouping
 
 |                      |
 |----------------------|
@@ -72,7 +66,7 @@ ba da li bi 第四転回形 bi di ba da li
 | di ba da / li bi di  |
 | ba da li / bi di ba  |
 
-#### <span id="anchor-52"></span>五音基底 七音分割
+#### <span id="anchor-52"></span>Five-Note Base Rhythm: Seven-Note Grouping
 
 |                       |
 |-----------------------|
@@ -82,7 +76,7 @@ ba da li bi 第四転回形 bi di ba da li
 | li bi di ba da li bi  |
 | di ba da li bi di ba  |
 
-#### <span id="anchor-53"></span>五音基底 十四音分割
+#### <span id="anchor-53"></span>Five-Note Base Rhythm: Fourteen-Note Grouping
 
 |                                              |
 |----------------------------------------------|
@@ -92,17 +86,16 @@ ba da li bi 第四転回形 bi di ba da li
 | bi di ba da li bi di / ba da li bi di ba da  |
 | li bi di ba da li bi / di ba da li bi di ba  |
 
-#### <span id="anchor-54"></span>五音基底 十五音四四四三分割
+#### <span id="anchor-54"></span>Five-Note Base Rhythm: Fifteen-Note 4-4-4-3 Grouping
 
 |              |              |              |           |
 |--------------|--------------|--------------|-----------|
 | da li bi di  | ba da li bi  | di ba da li  | bi di ba  |
 
-##### <span id="anchor-55"></span>練習
+##### <span id="anchor-55"></span>Practice
 
-このパターンは短くシンプルですが重要なのでよく練習しましょう。
+This pattern is short and simple, but it is important, so practice it well.
 
-1.  各マスの先頭音で手を鳴らしましょう。
-2.  各マスの先頭音で足を鳴らし、da にあわせ手を鳴らしましょう。
-3.  各マスの先頭音で足を鳴らし、da にあわせ手を鳴らしましょう。
-
+1.  Clap on the first sound of each box.
+2.  Step on the first sound of each box and clap on `da`.
+3.  Step on the first sound of each box and clap on `ba`.

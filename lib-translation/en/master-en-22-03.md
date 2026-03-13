@@ -1,8 +1,8 @@
-### 六音基底リズム
+### Six-Note Base Rhythm
 
-#### <span id="anchor-19"></span>六音基底の発音
+#### <span id="anchor-19"></span>Pronunciation of the Six-Note Base Rhythm
 
-六音基底では、六音に対して次のような発音を割り当てます。
+In the six-note base rhythm, we assign the following syllables to the six sounds.
 
 1.  da
 2.  li
@@ -11,10 +11,9 @@
 5.  la
 6.  ba
 
-##### <span id="anchor-20"></span>練習
+##### <span id="anchor-20"></span>Practice
 
-音楽に合わせてda li bi di la ba
-を唱えてみましょう。同時に２拍目表と４拍目表()で手を叩きます。
+Try chanting `da li bi di la ba` along with music. At the same time, clap on the on-beats of Beats 2 and 4.
 
 |     |     |     |     |     |     |     |     |     |     |     |     |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
@@ -22,39 +21,32 @@
 |     |     |     |     |     |     |     |     |     |     |     |     |
 | da  | li  | bi  | di  | la  | da  | da  | li  | bi  | di  | la  | ba  |
 
-#### <span id="anchor-21"></span>六音基底の転回形
+#### <span id="anchor-21"></span>Rotations of the Six-Note Base Rhythm
 
-スイングのリズムは開始音が転回して違う音が開始音として聞こえてしまうところがその聴感上のスリリングな雰囲気を醸し出す原動力になっています。その転回に慣れる為にその全転回パターンを数学的に列挙した上で暗記しましょう。
+Part of what gives swing its thrilling feel is that the starting sound rotates, so a different sound begins to be heard as the first sound. To become accustomed to that rotation, let us enumerate all of the rotation patterns mathematically and memorize them.
 
 |            |                   |
 |------------|-------------------|
-| 第一転回形 | da li bi di la ba |
-| 第二転回形 | ba da li bi di la |
-| 第三転回形 | la ba da li bi di |
-| 第四転回形 | di la ba da li bi |
-| 第五転回形 | bi di la ba da li |
-| 第六転回形 | li bi di la ba da |
+| 1st Rotation | da li bi di la ba |
+| 2nd Rotation | ba da li bi di la |
+| 3rd Rotation | la ba da li bi di |
+| 4th Rotation | di la ba da li bi |
+| 5th Rotation | bi di la ba da li |
+| 6th Rotation | li bi di la ba da |
 
-##### <span id="anchor-22"></span>練習
+##### <span id="anchor-22"></span>Practice
 
-音楽に合わせてda li bi di la ba
-を唱えつつ二拍目表(di)と四拍目表(di)で手を叩きましょう。この時da
-を１拍目表に合わせて唱えながら同時にba が最初の音として聞こえba da li bi
-di la
-として聞こえる様になるまで唱え続けます。これが第二転回形です。同様にして第三転回形la
-ba da li bi di 第四転回形 di la ba da li bi 第五転回形 bi di la ba da li
-も練習しましょう。最後の第六転回形 li bi di la ba
-daが難しいですが、ここが最も大切なパターンですのでしっかり練習しましょう。
+While chanting `da li bi di la ba` along with music, clap on the on-beats of Beat 2 (`di`) and Beat 4 (`di`). At that time, keep chanting with `da` aligned to the on-beat of Beat 1 while continuing until `ba` begins to be heard as the first sound, that is, until it starts sounding like `ba da li bi di la`. This is the 2nd Rotation. In the same way, practice the 3rd Rotation `la ba da li bi di`, the 4th Rotation `di la ba da li bi`, and the 5th Rotation `bi di la ba da li`. The final 6th Rotation `li bi di la ba da` is difficult, but it is the most important pattern, so practice it thoroughly.
 
-#### <span id="anchor-23"></span>六音基底の基礎
+#### <span id="anchor-23"></span>Fundamentals of the Six-Note Base Rhythm
 
-メトロノームを二拍目・四拍目のに合わせて次の様にダビディバを歌いましょう。その際に注意点が３点あります。
+Set the metronome to Beats 2 and 4 and sing the following pattern. There are three points to keep in mind.
 
-- diよりもbi、biよりもliが先に入る感覚を大切にしましょう。
-- daよりもba、baよりもlaが先に入る感覚を大切にしましょう。
-- １拍目が最後に来る感覚を捉えましょう。
+- Value the sensation that `li` comes in before `bi`, and `bi` before `di`.
+- Value the sensation that `la` comes in before `ba`, and `ba` before `da`.
+- Grasp the sensation that Beat 1 comes last.
   １２３４・１２３４・・・
-  ではなく
+  rather than
   ２３４１・２３４１・・・
 
 |     |     |     |     |     |     |     |     |     |     |     |     |
@@ -62,4 +54,3 @@ daが難しいですが、ここが最も大切なパターンですのでしっ
 | １  |     |     | ２  |     |     | ３  |     |     | ４  |     |     |
 |     |     |     |     |     |     |     |     |     |     |     |     |
 | da  | li  | bi  | di  | la  | da  | da  | li  | bi  | di  | la  | ba  |
-

@@ -1,69 +1,62 @@
-### <span id="anchor-56"></span>七音基底リズム
+### <span id="anchor-56"></span>Seven-Note Base Rhythm
 
-#### <span id="anchor-57"></span>七音基底リズムの発音
+#### <span id="anchor-57"></span>Pronunciation of the Seven-Note Base Rhythm
 
-ここでは七音に対して次のような発音を割り当てます。
+Here we assign the following syllables to the seven sounds.
 
 1.  da
-2.  li
+2.  la
 3.  ba
 4.  da
 5.  bi
 6.  di
 7.  ba
 
-##### <span id="anchor-58"></span>練習
+##### <span id="anchor-58"></span>Practice
 
-音楽に合わせてda la ba da bi di ba を唱えてみましょう。
+Try chanting `da la ba da bi di ba` along with music.
 
-#### <span id="anchor-59"></span>七音基底リズムの転回形
+#### <span id="anchor-59"></span>Rotations of the Seven-Note Base Rhythm
 
 |            |                       |
 |------------|-----------------------|
-| 第一転回形 | da la ba da bi di ba  |
-| 第二転回形 | ba da la ba da bi di  |
-| 第三転回形 | di ba da la ba da bi  |
-| 第四転回形 | bi di ba da la ba da  |
-| 第五転回形 | da bi di ba da la ba  |
-| 第六転回形 | ba da bi di ba da li  |
-| 第七転回形 | la ba da bi di ba da  |
+| 1st Rotation | da la ba da bi di ba |
+| 2nd Rotation | ba da la ba da bi di |
+| 3rd Rotation | di ba da la ba da bi |
+| 4th Rotation | bi di ba da la ba da |
+| 5th Rotation | da bi di ba da la ba |
+| 6th Rotation | ba da bi di ba da la |
+| 7th Rotation | la ba da bi di ba da |
 
-##### <span id="anchor-60"></span>練習
+##### <span id="anchor-60"></span>Practice
 
-音楽に合わせてda la ba da bi di ba を唱えましょう。この時da
-を１拍目表に合わせて唱えながら、同時にba が最初の音として聞こえba da la
-ba da bi di
-として聞こえる様になるまで唱え続けます。これが第二転回形です。同様にして第三転回形di
-ba da la ba da bi・第四転回形 bi di ba da la ba da 第五転回形da bi di ba
-da la ba 第六転回形 ba da bi di ba da li
-も練習しましょう。最終転回形である第七転回形 la ba da bi di ba da
-が難しいので頑張って下さい。
+Chant `da la ba da bi di ba` along with music. At that time, keep chanting with `da` aligned to the on-beat of Beat 1 while continuing until `ba` begins to be heard as the first sound, that is, until it starts sounding like `ba da la ba da bi di`. This is the 2nd Rotation. In the same way, practice the 3rd Rotation `di ba da la ba da bi`, the 4th Rotation `bi di ba da la ba da`, the 5th Rotation `da bi di ba da la ba`, and the 6th Rotation `ba da bi di ba da la` as well. The final 7th Rotation `la ba da bi di ba da` is difficult, so work at it carefully.
 
-#### <span id="anchor-61"></span>七音基底 四音分割
+#### <span id="anchor-61"></span>Seven-Note Base Rhythm: Four-Note Grouping
 
 |  |  |  |  |  |  |  |
 |----|----|----|----|----|----|----|
 | da la ba da | bi di ba da | la ba da bi | di ba da la | ba da bi di | ba da la ba | da bi di ba |
 
-##### <span id="anchor-62"></span>練習
+##### <span id="anchor-62"></span>Practice
 
-1.  各マスの先頭音で手を鳴らしましょう。
-2.  各マスの先頭音で足を、1つ目のda にあわせ手を鳴らしましょう。
-3.  各マスの先頭音で足を、1つ目のda にあわせ手を鳴らしましょう。
+1.  Clap on the first sound of each box.
+2.  Step on the first sound of each box and clap on the first `da`.
+3.  Step on the first sound of each box and clap on the first `ba`.
 
-#### <span id="anchor-63"></span>七音基底 三音分割
+#### <span id="anchor-63"></span>Seven-Note Base Rhythm: Three-Note Grouping
 
 |           |           |          |           |           |           |           |
 |-----------|-----------|----------|-----------|-----------|-----------|-----------|
 | da la ba  | da bi di  | ba da la | ba da bi  | di ba da  | la ba da  | bi di ba  |
 
-##### <span id="anchor-64"></span>練習
+##### <span id="anchor-64"></span>Practice
 
-1.  各マスの先頭音で手を鳴らしましょう。
-2.  各マスの先頭音で足を、1つ目のda にあわせ手を鳴らしましょう。
-3.  各マスの先頭音で足を、1つ目のda にあわせ手を鳴らしましょう。
+1.  Clap on the first sound of each box.
+2.  Step on the first sound of each box and clap on the first `da`.
+3.  Step on the first sound of each box and clap on the first `ba`.
 
-#### <span id="anchor-65"></span>七音基底 六音三三分割
+#### <span id="anchor-65"></span>Seven-Note Base Rhythm: Six-Note 3-3 Grouping
 
 |                      |
 |----------------------|
@@ -75,7 +68,7 @@ da la ba 第六転回形 ba da bi di ba da li
 | ba da bi / di ba da  |
 | la ba da / bi di ba  |
 
-#### <span id="anchor-66"></span>七音基底 五音分割
+#### <span id="anchor-66"></span>Seven-Note Base Rhythm: Five-Note Grouping
 
 |                |
 |----------------|
@@ -87,13 +80,13 @@ da la ba 第六転回形 ba da bi di ba da li
 | bi di ba da la |
 | ba da bi di ba |
 
-##### <span id="anchor-67"></span>練習
+##### <span id="anchor-67"></span>Practice
 
-1.  各マスの先頭音で手を鳴らしましょう。
-2.  各マスの先頭音で足を、1つ目のda にあわせ手を鳴らしましょう。
-3.  各マスの先頭音で足を、1つ目のda にあわせ手を鳴らしましょう。
+1.  Clap on the first sound of each box.
+2.  Step on the first sound of each box and clap on the first `da`.
+3.  Step on the first sound of each box and clap on the first `ba`.
 
-#### <span id="anchor-68"></span>七音基底 十音五五分割
+#### <span id="anchor-68"></span>Seven-Note Base Rhythm: Ten-Note 5-5 Grouping
 
 |                                  |
 |----------------------------------|
@@ -104,4 +97,3 @@ da la ba 第六転回形 ba da bi di ba da li
 | di ba da la ba / da bi di ba da  |
 | la ba da bi di / ba da la ba da  |
 | bi di ba da la / ba da bi di ba  |
-

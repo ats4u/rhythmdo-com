@@ -1,6 +1,5 @@
-## 多層弱拍先行ポリリズム <!-- {#offbeat-count-polyrhythm} -->
+## Multilayer Weak-Beat-Precedence Polyrhythm <!-- {#offbeat-count-polyrhythm} -->
 
-ポリリズムは興味深いが難解で聴覚的な魅力に乏しい  ─── これまでポリリズムの練習は、楽典のルールに則って **頭合わせリズム認識**に基づいて行われてきました。結果としてリズムが本来持っているグルーヴの再現に失敗していたのです。こうしてポリリズムは「複雑で興味深いが聴覚的な魅力に乏しい」と誤った評価を受けてきました。この問題を解決する為に、ポリリズムの構築方法に、多層弱拍基軸理論の観点を取り入れて応用しポリリズムを網羅的に再構成しました。
+Polyrhythm is interesting, but it has often been treated as difficult and lacking in auditory appeal. Up to now, polyrhythm practice has been carried out on the basis of **head-alignment rhythm recognition** in accordance with the rules of conventional music theory. As a result, it failed to reproduce the groove originally inherent in rhythm. In this way, polyrhythm has long received the mistaken evaluation that it is "complex and interesting, but not very appealing to the ear." To solve this problem, I took the viewpoint of the multilayered weak-beat-axis theory and applied it to methods of constructing polyrhythm, comprehensively reconstructing polyrhythm from that perspective.
 
-この章では、ポリリズムにリズム本来のグルーヴを回復する為の理論と方法を提示します。
-
+In this chapter, I present the theory and methods for restoring rhythm's original groove to polyrhythm.

@@ -1,4 +1,4 @@
-### <span id="anchor"></span>はじめに
+### <span id="anchor"></span>Introduction
 
 <style>
     table {
@@ -13,96 +13,88 @@
     }
 </style>
 
-#### <span id="anchor-1"></span>ダビディバ・カウントとは
+#### <span id="anchor-1"></span>What Is Da-Bi-Di-Ba Count?
 
-ダビディバ・カウントとは４拍子スイング（通称４ビート）と呼ばれるリズムパターンでの各音の役割に「**ダ**」「**バ**」「**ディ**」「**ビ**」などの音声を割り当てることで理解しやすくした上で、スイングで演奏される各種のリズムを習得するためのメソッドです。
+Da-Bi-Di-Ba Count is a method for mastering the various rhythms performed in swing by assigning easy-to-understand syllables such as **da**, **ba**, **di**, and **bi** to the roles of each note in the rhythm pattern called 4/4 swing, commonly known as four-beat swing.
 
-まず４拍子の基礎的なスイングリズムを学んだあとで、ポリリズムや奇数拍子、及び多重拍子の練習を行っていきます。
+First we learn the basic swing rhythm in 4/4, and after that we move on to practicing polyrhythm, odd meter, and multiple meter.
 
-ポリリズムとはある連符のなかで異なる長さのフレーズを叩くことで複数のテンポが同時に鳴っている様な効果を得るリズムのことです。ポリリズムはリズムを構成する数字によって全く違うリズムが生まれる面白さがあります。
-以下で四音（ダビディバと発音を割り当てたスイング）の上で構成される各種のポリリズムを順に練習していきます。
+Polyrhythm is a rhythm in which one obtains the effect of multiple tempos sounding simultaneously by striking phrases of different lengths within the same tuplet span. Polyrhythm is interesting because completely different rhythms arise depending on the numbers that constitute the rhythm.
+Below, we will practice in order the various polyrhythms built on a four-note swing to which the pronunciation da-bi-di-ba has been assigned.
 
-#### <span id="anchor-2"></span>ダビディバ四音基底リズムと四音スイング
+#### <span id="anchor-2"></span>The Da-Bi-Di-Ba Four-Note Base Rhythm and Four-Note Swing
 
-４拍子スイングは８つの音が含まれています。
+4/4 swing contains eight notes.
 
 |     |     |     |     |     |     |     |     |
 |-----|-----|-----|-----|-----|-----|-----|-----|
 | １  |     | ２  |     | ３  |     | ４  |     |
-| 表  | 裏  | 表  | 裏  | 表  | 裏  | 表  | 裏  |
+| On | Off | On | Off | On | Off | On | Off |
 
-スイングは**四音パターンを二回繰り返す**ことで構成されています。そこで、各音に次のように四音ずつ発音を割り当てます。
+Swing is constructed by **repeating a four-note pattern twice**. So we assign the following four syllables to the notes.
 
 |     |     |      |     |     |     |      |     |
 |-----|-----|------|-----|-----|-----|------|-----|
 | １  |     | ２   |     | ３  |     | ４   |     |
-| ダ  | ビ  | ディ | バ  | ダ  | ビ  | ディ | バ  |
+| da  | bi  | di | ba  | da  | bi  | di | ba  |
 
-するとスイングの各音の機能別に以下のような発音を割り当てたことになります。
+This means that we have assigned the following syllables to the functions of the notes in swing.
 
 |           |      |
 |-----------|------|
-| 1拍3拍 表 | ダ   |
-| 1拍3拍 裏 | ビ   |
-| 2拍4拍 表 | ディ |
-| 2拍4拍 裏 | バ   |
+| On-beat of Beats 1 and 3  | da |
+| Offbeat of Beats 1 and 3 | bi |
+| On-beat of Beats 2 and 4 | di |
+| Offbeat of Beats 2 and 4 | ba |
 
-これがスイングの分析を行う上での基礎となります。これはつまり演奏中にダビディバ・ダビディバと唱えながら演奏するだけのことですが、スイングのの理解を効果的に助けてくれます。
+This is the foundation for analyzing swing. In practice, it simply means performing while chanting da-bi-di-ba, da-bi-di-ba, but it helps one understand swing very effectively.
 
-この **ダビディバ** を実際の音楽に合わせて唱えてみると、すぐに
-**ダビディバ** が
-**バダビディ**に聴こえてくる筈です。そして更に唱え続けると**ビディバダ**
-に聴こえてくる筈です。この様に**発音の順番が回転して聞こえることがスイングの基礎**となります。
+If you actually chant this **da-bi-di-ba** along with real music, it should soon begin to sound like **ba-da-bi-di**. If you keep chanting further, it should start to sound like **bi-di-ba-da**. In this way, **the fact that the order of the syllables begins to be heard as rotating is the basis of swing**.
 
-このダビディバは４つの音を含んでいますが、他にも３つ／５つ等々の異なる数の音を含むものがあります。ここでは４音のダビディバを特に**四音基底リズム**と呼びます。
+This da-bi-di-ba contains four sounds, but there are also patterns containing three sounds, five sounds, and other numbers of sounds. Here I will call the four-sound da-bi-di-ba specifically the **four-note base rhythm**.
 
-#### <span id="anchor-3"></span>ダビディバの表記法
+#### <span id="anchor-3"></span>How Da-Bi-Di-Ba Is Notated
 
-以降でダビディバという発音を組み合わせた様々なパターンを説明していくことになります。説明に当たってカタカナでダビディバと発音を表記すると字数が不規則になり紙面も多く消費するため、今後は**ダビディバ等の発音をローマ字で表記**します。
+From here on, I will explain various patterns made by combining the pronunciation da-bi-di-ba. If these pronunciations are written in katakana, the character counts become irregular and consume too much page space, so from this point onward **pronunciations such as da-bi-di-ba will be written in roman letters**.
 
 |            |             |
 |------------|-------------|
-| ダビディバ | da bi di ba |
+| Da-Bi-Di-Ba | da bi di ba |
 
-#### <span id="anchor-4"></span>ダビディバの発音変化
+#### <span id="anchor-4"></span>Pronunciation Changes in Da-Bi-Di-Ba
 
-da bi di ba は、ダビディバ
-****と発音するのが基本です。これを上達するにしたがって速く発音する必要があるため、実践上ではしばしばダビディバの発音がダベデバ
-****や ラベレバ ****に近い発音に変化します。
+The basic pronunciation of `da bi di ba` is da-bi-di-ba. As one improves, however, it becomes necessary to pronounce it faster, so in practice the pronunciation of da-bi-di-ba often shifts toward something like da-be-de-ba or la-be-re-ba.
 
-ダビディバの発音変化の法則は次の通りです。
+The rules of these pronunciation changes are as follows.
 
-1.  ダビティバのビとディについては、ビをベに近い発音に、ディはデに近い発音に変えて発音するとスムーズに発音できます。この場合ダビディバ
-    は ダベデバに近い発音になります。
-2.  弱く発音する時は、ダはラに近い発音に、デはレに近い発音に変えるとスムーズに発音できます。デは前述の変化を受けてリに近い発音に変化するとスムーズになります。この場合ダベデバ
-    は ラビリバに近い発音になります。
+1.  For `bi` and `di`, pronunciation becomes smoother if `bi` is shifted toward `be` and `di` toward `de`. In that case, da-bi-di-ba approaches da-be-de-ba.
+2.  When pronouncing weakly, it becomes smoother if `da` shifts toward `ra` and `de` toward `re`. Under the previously mentioned change, `de` may also shift toward `ri`, which makes pronunciation still smoother. In that case, da-be-de-ba approaches la-bi-ri-ba.
 
 <table>
 <tbody>
 <tr>
 <td>da</td>
 <td><blockquote>
-<p>ダ　／ラ</p>
+<p>da / ra</p>
 </blockquote></td>
 </tr>
 <tr>
 <td>bi</td>
 <td><blockquote>
-<p>ビ　／ベ　</p>
+<p>bi / be</p>
 </blockquote></td>
 </tr>
 <tr>
 <td>di</td>
 <td><blockquote>
-<p>ディ／デ／レ／リ</p>
+<p>di / de / re / ri</p>
 </blockquote></td>
 </tr>
 <tr>
 <td>ba</td>
 <td><blockquote>
-<p>バ</p>
+<p>ba</p>
 </blockquote></td>
 </tr>
 </tbody>
 </table>
-

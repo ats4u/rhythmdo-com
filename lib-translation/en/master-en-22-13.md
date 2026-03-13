@@ -1,11 +1,10 @@
-### <span id="anchor-97"></span>おわりに
+### <span id="anchor-97"></span>Conclusion
 
-いかがでしたでしょうか。色々なポリリズムが出てきました。これらは飽くまでもよりよいグルーヴを作り出すためのテクニックです。テクニックに走りすぎてグルーヴすることを忘れてしまえば本末転倒です。
+How was it? Many different polyrhythms have appeared. These are, after all, techniques for producing better groove. If one becomes too absorbed in technique and forgets to groove, the whole point is lost.
 
-グルーヴすることを忘れずに！
+Do not forget to groove.
 
-みんなで一緒に**激しくグルーヴしましょう！**
+Let us all **groove intensely together**.
 
-オカアツシ
-
+Atsushi Oka
 

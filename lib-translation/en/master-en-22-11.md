@@ -1,30 +1,29 @@
-### <span id="anchor-89"></span>二十一音基底リズム
+### <span id="anchor-89"></span>Twenty-One-Note Base Rhythms
 
-#### <span id="anchor-90"></span>二十一音 五五五三三基底 七音分割
+#### <span id="anchor-90"></span>Twenty-One-Note 5-5-5-3-3 Base Rhythm: Seven-Note Grouping
 
-次のように基底リズムを定義する。
+Define the base rhythm as follows.
 
 |                                                                         |
 |-------------------------------------------------------------------------|
 | da li bi di ba / da li bi di ba / da li bi di ba / da la ba / da la ba  |
 
-これを次の様に七分割
+Then divide it into seven-note groups as follows.
 
 |                                                                     |
 |---------------------------------------------------------------------|
 | da li bi di ba da li / bi di ba da li bi di / ba da la ba da la ba  |
 
-#### <span id="anchor-91"></span>二十一音四四四四五音基底 七音分割
+#### <span id="anchor-91"></span>Twenty-One-Note 4-4-4-4-5 Base Rhythm: Seven-Note Grouping
 
-次のように基底リズムを定義する。
+Define the base rhythm as follows.
 
 |                                                                         |
 |-------------------------------------------------------------------------|
 | da bi di ba / da bi di ba / da bi di ba / da bi di ba / da li bi di ba  |
 
-これを次の様に七分割
+Then divide it into seven-note groups as follows.
 
 |                                                                     |
 |---------------------------------------------------------------------|
 | da bi di ba da bi di / ba da bi di ba da bi / di ba da li bi de ba  |
-

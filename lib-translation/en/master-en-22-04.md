@@ -1,41 +1,37 @@
-### <span id="anchor-24"></span>基底リズムの作り方
+### <span id="anchor-24"></span>How to Construct Base Rhythms
 
-次節以降で四音／六音以外の基底リズムについて説明します。三音・五音などの変則的な基底リズムを扱う際に必要となる基底リズムの作り方を説明します。da
-bi di ba の発音を割り当てる法則を説明します。
+In the following sections, I explain base rhythms other than the four-note and six-note types. Here I explain how to construct the base rhythms needed when dealing with irregular base rhythms such as the three-note and five-note types. In other words, I explain the rule for assigning syllables such as `da bi di ba`.
 
-#### <span id="anchor-25"></span>標準基底リズム発音
+#### <span id="anchor-25"></span>Standard Base-Rhythm Pronunciation
 
-法則は次の通りです。
+The rule is as follows.
 
-- 最初の音：da
-- 二番目の音：la *(次の母音がAの時）* **/** li *(次の母音がIの時）*
-- 最後の音：ba
-- 他は最後の音をbaに合わせ後ろからda bi di ba を割り当てる
+- First sound: `da`
+- Second sound: `la` *(when the next vowel is A)* **/** `li` *(when the next vowel is I)*
+- Last sound: `ba`
+- For the rest, align the last sound to `ba` and assign `da bi di ba` backward from the end
 
-例）
+Examples:
 
 |      |                                 |
 |------|---------------------------------|
-| 三音 | da la ba                        |
-| 四音 | da bi / di ba                   |
-| 五音 | da li / bi di ba                |
-| 六音 | da la/ da bi di ba              |
-| 七音 | da la / ba / da bi di ba        |
-| 八音 | da li / di ba / da bi di ba     |
-| 九音 | da li / bi di ba / da bi di ba  |
+| Three notes | da la ba                       |
+| Four notes  | da bi / di ba                  |
+| Five notes  | da li / bi di ba               |
+| Six notes   | da la / da bi di ba           |
+| Seven notes | da la / ba / da bi di ba      |
+| Eight notes | da li / di ba / da bi di ba   |
+| Nine notes  | da li / bi di ba / da bi di ba |
 
-この割り当て方法をここでは**標準基底リズム発音**と呼びます。
+Here I call this assignment method **standard base-rhythm pronunciation**.
 
-#### <span id="anchor-26"></span>複合基底リズム
+#### <span id="anchor-26"></span>Compound Base Rhythms
 
-実際の基底リズムは複数の基底リズムの組み合わせとして表すことが一般的です。これをここでは**複合基底リズム**と呼びます。例えば八音は四音基底リズムの二回繰り返しなので、通常はda
-li di ba da bi di ba ではなく da bi di ba / da bi di ba
-と読む方が簡単です。
+In practice, base rhythms are generally represented as combinations of multiple base rhythms. Here I call this a **compound base rhythm**. For example, since eight notes are simply two repetitions of the four-note base rhythm, it is usually easier to read them as `da bi di ba / da bi di ba` rather than `da li di ba da bi di ba`.
 
-この様にひとつの基底リズムに複数の読み方がある場合、名称の後の『音』の後に数字を列挙することで分割の方法を示すことにします。
+When a single base rhythm has multiple ways of being read in this way, I indicate the grouping method by listing numbers after the note-count name.
 
-**例）  **
-八音四四基底（da bi di ba / da bi di ba ）**  **
-九音五四基底（da li bi di ba / da bi di ba ）
-九音三三三基底（da la ba / da la ba / da la ba ）
-
+**Examples**
+Eight-note 4-4 base rhythm (`da bi di ba / da bi di ba`)
+Nine-note 5-4 base rhythm (`da li bi di ba / da bi di ba`)
+Nine-note 3-3-3 base rhythm (`da la ba / da la ba / da la ba`)
