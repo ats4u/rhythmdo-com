@@ -1,2 +1,7 @@
-ja/
+*
+!*/
+*/*
+!attachments/
+!attachments-src/
 _quarto.index*
+!master-*
