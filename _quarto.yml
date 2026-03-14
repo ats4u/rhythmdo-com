@@ -491,6 +491,38 @@ var:
     ja: "<ruby><rb>交互手叩き不可能性</rb><rt>Alternating Clap Breakdown</rt></ruby>"
     en: "Alternating Clap Breakdown"
 
+  # === Section 22 Multilayer Weak-Beat-Precedence Polyrhythm (offbeat-count-polyrhythm) ===
+  DABIDIBA_COUNT:
+    ja: "<ruby><rb>ダビディバ・カウント</rb><rt>Da-Bi-Di-Ba Count</rt></ruby>"
+    en: "Da-Bi-Di-Ba Count"
+  FOUR_NOTE_BASE_RHYTHM:
+    ja: "<ruby><rb>四音基底リズム</rb><rt>Four-Note Base Rhythm</rt></ruby>"
+    en: "Four-Note Base Rhythm"
+  FINAL_BEAT_REFERENCE_METHOD:
+    ja: "<ruby><rb>最終拍基準法</rb><rt>Final-Beat Reference Method</rt></ruby>"
+    en: "Final-Beat Reference Method"
+
+  # === Section 24 The Mechanism by Which Tatenori Arises (mechanism-behind-tatenori) ===
+  ON_BEAT_SLIPSTREAM:
+    ja: "<ruby><rb>オンビートスリップストリーム</rb><rt>On-Beat Slipstream</rt></ruby>"
+    en: "On-Beat Slipstream"
+  ON_BEAT_CONGESTION:
+    ja: "<ruby><rb>オンビート渋滞</rb><rt>On-Beat Congestion</rt></ruby>"
+    en: "On-Beat Congestion"
+
+  # === Section 25 Tatenori and the Perception of Movement (influence-of-japanese-language-on-cognition) ===
+  PATH_OVERLAP:
+    ja: "<ruby><rb>進路被り</rb><rt>Path Overlap</rt></ruby>"
+    en: "Path Overlap"
+
+  # === Section 26 The Psychological Problems Caused by Tatenori (tatenori-and-psychology) ===
+  TATENORI_GOMANISM:
+    ja: "<ruby><rb>縦乗りゴーマニズム</rb><rt>Tatenori Gomanism</rt></ruby>"
+    en: "Tatenori Gomanism"
+  YOKONORI_LOUDNESS_ILLUSION:
+    ja: "<ruby><rb>横乗り大音量錯覚</rb><rt>Yokonori Loudness Illusion</rt></ruby>"
+    en: "Yokonori Loudness Illusion"
+
 # you can also define arbitrary keys
 # RUBY-MLWBOR: "ルビーHELLO多層弱強拍理論"
 # PROJECT_TAGLINE: "Distributed Groove and Tatenori Theory"
