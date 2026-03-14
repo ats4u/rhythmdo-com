@@ -14,7 +14,7 @@ This metre, which should be learned at the very beginning of English study, is t
 
 Encountering metre begins with Nursery Rhymes heard and seen in childhood. Nursery Rhyme is generally translated as "children's song," but this too is a culture with a deep meaning far beyond children's songs. By hearing Nursery Rhymes from early childhood, when one cannot even read letters, there is an effect of deeply internalizing the pronunciation structure of English stress-timed rhythm.
 
-### Basic Knowledge of {{<meta var.METRE.en>}} = Stress Beats
+### Basic Knowledge of {{<meta var.METRE.en>}} ── Stress Beats
 
 It is no exaggeration to say that the basis of metre begins with accent and ends with accent.
 
