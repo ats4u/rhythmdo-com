@@ -1,5 +1,5 @@
 ---
-title: 武道としてのリズムの道
+title: What Is Rhythmdo?
 format: html
 execute:
   enabled: true
@@ -10,12 +10,44 @@ execute:
 title-block: false
 ---
 
-**{{<meta var.RDO>}}** は、究極の**グルーヴ**を極める為の武道です。その基礎を共通として派生した、ジャズのインプロヴィゼーションを極める**旋律武道**、英語で完璧なリスニングとスピーキングを極める**韻律武道**、そして究極のダンスグルーヴを極める **動律武道**、そしてマスターマインドを極める **魅律武道** があります。習得には長い年月が掛かりますが初心者でも体力に関係なく習得できます。 
 
-- [**{{<meta var.RDO>}}入門の御案内**](#律武道リズムドウ入門の御案内)
-- [**{{<meta var.RDO>}}とは**](#律武道リズムドウとは)
+**{{<meta var.RDO.en>}}** is a dojo for mastering groove.
 
-そして**{{<meta var.RDO>}}**の究極奥義  ───それは  **{{<meta var.HGT>}}** です。 
+<div class="center-box">
+<div class="ats4u-twitter-video" >https://twitter.com/ats4u/status/2016178861759987767?ref_src=twsrc%5Etfw</div>
+</div>
+
+Scenes from a Rhythmdo randori practice session.
+
+<div class="center-box">
+<div class="ats4u-twitter-video" >https://twitter.com/ats4u/status/2029452413749608552</div>
+</div>
+
+<div class="center-box">
+<div class="ats4u-twitter-video" >https://x.com/ats4u/status/2009911295362105437</div>
+</div>
+
+Rhythmdo is a dojo that trains according to the theory called <span style="font-size:120%">**{{<meta var.OFBCT.en>}}**</span>, which analyzes musical groove from the perspective of phonology.
+
+<!--
+Rhythmdo was written in Japanese, and this English version of Rhythmdo has been translated by using ChatGPT. Through my twelve years wandering experience in the world, I wrote this Rhythmdo in order to show their mirror image to Japanese people; how they are different from others, how they are perceived by others, and how they can adapt themselves to the world. Even this article is written in Japanese, this article keeps invisible to Japanese people no matter how this Japanese text is obvious and comprehensive.
+
+I call this phenomenon as "invisible dog-poop effect". I pick up a chunk of dried dog poop from the street, and dangle it in front of his nose and say, "YACK!"; he replies "what are you talking about?". I reply "This is a chunk of dog poop!". He says "there is no dog poop". Finally I flick it into his mouth. "yum, yum, yum, ng!" and says "There is no dog poop here. What the hell are you talking about?" He engulf it, and chew it, swalows it, and yet he still fails to recognize it. He even doesn't know it is there. --- I pick up the difference of rhythm and verbalize it in an undeniable form, and they still do not know the article exist in front of them. Yet they are still in denial of existence of rhythm difference.
+
+While this article is keeping "unexisting" in Japanese music/linguistic world, this may help international readers to understand how Japanese people perceive world rhythm. I have seen those people who are interested in the difference of Japanese rhythm. "There is something different in Japanese music, but I cannot tell how." This article may help those to get deeper understanding to the Japanese culture.
+
+And yet, if you are interested in leraning Japanese, the bet is, you may feel some great difficulty to perceive Japanese pronunciation. Even though this book is primarily written for Japanese readers, this article would lead you some ways to concur the problem. 
+-->
+
+Rhythmdo was originally written in Japanese, and this English edition has been translated with the help of ChatGPT. Drawing on my twelve years of wandering through the world, I wrote Rhythmdo to hold up a mirror to Japanese readers: to show how they differ from others, how they are perceived by others, and how they might adapt themselves to the wider world. Yet even though this work is written in Japanese, much of what it reveals remains strangely invisible to the very readers for whom it was written, no matter how plainly or comprehensively it is explained.
+
+I call this the “invisible dog-poop effect.” I pick up a dried piece of dog poop from the street, dangle it in front of someone’s nose, and say, “Yuck.” The person replies, “What are you talking about?” I say,“This is dog poop.” The person insists, “There is no dog poop.” Finally, I flick it into the person’s mouth. The person chews it, swallows it, and still says, “There is no dog poop here. What are you talking about?” It is consumed, and yet still goes unrecognized. That is how I often feel when I isolate differences in rhythm, describe them in unmistakable words, and place them directly before the reader. Even then, many still fail to notice that the text exists in front of them. The difference in rhythm remains visible, yet its existence is denied.
+
+So long as this work remains effectively nonexistent in the Japanese worlds of music and linguistics, it may nevertheless help international readers understand how Japanese people perceive rhythm. I have often met people who sense that there is something different about Japanese music but cannot explain what that difference is. I hope this work helps such readers arrive at a deeper understanding of Japanese culture.
+
+And if you are learning Japanese, chances are that you, too, may find Japanese pronunciation unexpectedly difficult to perceive clearly. Although this book was written primarily for Japanese readers, it may also offer non-Japanese readers a way to understand that difficulty more deeply, and perhaps a way to overcome it.
+
+
 
 <!-- Q2pl/9YPR+MKaTtE1LswGA==  -->
 

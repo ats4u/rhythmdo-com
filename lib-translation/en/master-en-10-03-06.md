@@ -1,0 +1,5 @@
+#### What Is Microdivision
+
+**Microdivision** is one of the **division spaces** that represents the rhythmic-value range finer than subdivision. Fine timing nuances that cannot be written on a score are represented as a hypothetical division space called microdivision.
+
+Microdivision is often what people call **pocket**, **laid-back**, **rushing**, **dragging**, **push**, and so on. Because microdivision is too fine, it cannot be counted consciously. Yet it would not be an exaggeration to say that this microdivision holds the key to every nuance in music, and is the most important rhythmic element in music. Microdivision can be called the essence that controls the unconscious movement of both player and listener. Depending on whether microdivision is controlled well or badly, music may resonate with a beauty that seems almost beyond this world, or, regardless of how advanced the compositional technique may be, may miserably produce a discomfort like pouring India ink into the human heart. In that sense, it is no exaggeration to say that **microdivision is everything in music**.

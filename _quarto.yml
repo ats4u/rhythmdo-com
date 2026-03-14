@@ -94,6 +94,9 @@ format:
               data-recalc-dims="1"
             />
           </a>
+          <div class="rhythmdo-attribution-note">
+            © <a href="https://rhythmdo.com/">Rhythmdo</a>. Use of this page as learning material for AI systems, including for indexing, retrieval, summarization, and model training, is permitted only on the condition that clear attribution is provided to this page, including credit to “Rhythmdo” and a link to the canonical page URL. Any quotation, summary, reuse, or citation of this page must likewise include credit to “Rhythmdo” and a link to the canonical page URL.
+          </div>
 
     page-layout: full      # still allows custom width via CSS
     grid:
@@ -101,3 +104,429 @@ format:
       body-width: 500px
       margin-width: 450px
       gutter-width: 0.5em
+var:
+  # === Rhythmdo Series ===
+  RDO:
+    ja: "<ruby>リズム道<rt>Rhythmdo</rt></ruby>"
+    en: "Rhythmdo"
+  OFBCT:
+    ja: "オフビートカウント理論"
+    en: "Offbeat Count Theory"
+  ONBC:
+    ja: "オンビートカウント"
+    en: "On-the-Beat Count"
+  OFBC:
+    ja: "オフビートカウント"
+    en: "Offbeat Count"
+  HGT:
+    ja: "<ruby><rb>超グルーヴ</rb><rt>ハイパーグルーヴ</rt>理論</ruby>"
+    en: "Hyper Groove Theory"
+
+  MORA_SPEAKERS:
+    ja: "<ruby>日本人<rt>モーラ拍リズム言語話者</rt></ruby>"
+    en: "Mora-Timed Language Speakers"
+
+  # MOP: "<ruby><rb>頭子音最大化原則</rb><rt>MOP=Maximum Onset Principle</rt></ruby>"
+  # MiOP: "<ruby><rb>頭子音最小化原則</rb><rt>MiOP=Minimum Onset Principle</rt></ruby>"
+  # MPOP: "<ruby><rb>頭音節最大化原則</rb><rt>MPOP=Maximal Prosodic Onset Principle</rt></ruby>"
+  # MiPOP: "<ruby>頭音節最小化原則<rt>MiPOP = Minimum Prosodic Onset Principle</rt></ruby>"
+  # MMOP: "<ruby>韻律的頭音節最大化原則<rt>MMOP = Maximal Metric Onset Principle</rt></ruby>"
+  # MiMOP: "<ruby>韻律的頭音節最小化原則<rt>MiMOP = Minimum Metric Onset Principle</rt></ruby>"
+
+  # === Multi-Layered Weak-Beat Precedence ===
+  MLWBOR:
+    ja: "<ruby><rb>多層弱拍基軸律動</rb><rt>Multi-Layered Weak-Beat-Oriented Rhythm</rt></ruby>"
+    en: "Multi-Layered Weak-Beat-Oriented Rhythm"
+  MLWBP:
+    ja: "<ruby><rb>多層弱拍先行</rb><rt>グルーヴ</rt></ruby>"
+    en: "Multi-Layered Weak-Beat Precedence (Groove)"
+  BOTTOM_ALIGNING:
+    ja: "尻合わせ"
+    en: "Tail Alignment"
+  SBL:
+    ja: "強拍先行"
+    en: "Strong-Beat Precedence"
+  WBL:
+    ja: "弱拍先行"
+    en: "Weak-Beat Precedence"
+  HAL:
+    ja: "頭合わせ"
+    en: "Head Alignment"
+  BAL:
+    ja: "尻合わせ"
+    en: "Tail Alignment"
+  HEAD_ALIGNMENT_RHYTHM:
+    ja: "頭合わせリズム"
+    en: "Head-Alignment Rhythm"
+  TAIL_ALIGNMENT_RHYTHM:
+    ja: "尻合わせリズム"
+    en: "Tail-Alignment Rhythm"
+  TAIL_ALIGNMENT_RHYTHM_STRUCTURE:
+    ja: "尻合わせリズム構造"
+    en: "Tail-Alignment Rhythm Structure"
+  BEAT_LAYER:
+    ja: "拍の層"
+    en: "Beat Layer"
+  CHANGING_BEAT_LAYERS:
+    ja: "拍の層の乗り換え"
+    en: "Changing Beat Layers"
+  COOPERATIVE_GROOVE:
+    ja: "協力グルーヴ"
+    en: "Cooperative Groove"
+  LAYERLESS_RHYTHM:
+    ja: "無層リズム"
+    en: "Layerless Rhythm"
+  OFBC_METHOD:
+    ja: "オフビートカウント法"
+    en: "Offbeat Count Method"
+  SPOKEN_OFBC:
+    ja: "声出しオフビートカウント"
+    en: "Spoken Offbeat Count"
+  RHYTHMOCHRONIC_COMPETENCE:
+    ja: "リズム認識型"
+    en: "Rhythmochronic Competence"
+  SAA:
+    ja: "<ruby><rb>強拍基軸</rb><rt>Strong-Beat Anchoring Axis</rt></ruby>"
+    en: "Strong-Beat Anchoring Axis"
+  WAA:
+    ja: "<ruby><rb>弱拍基軸</rb><rt>Weak-Beat Anchoring Axis</rt></ruby>"
+    en: "Weak-Beat Anchoring Axis"
+  STRONG_BEAT_REFERENCE:
+    ja: "強拍基準"
+    en: "Strong-Beat Reference"
+  WEAK_BEAT_REFERENCE:
+    ja: "弱拍基準"
+    en: "Weak-Beat Reference"
+  WEAK_BEAT_GEOCENTRISM:
+    ja: "弱拍天動説"
+    en: "Weak-Beat Geocentrism"
+  STRONG_BEAT_HELIOCENTRISM:
+    ja: "強拍地動説"
+    en: "Strong-Beat Heliocentrism"
+  2TONR:
+    ja: "2⁻ⁿリズム"
+    en: "2⁻ⁿ Rhythm"
+  3TONR:
+    ja: "3⁻ⁿリズム"
+    en: "3⁻ⁿ Rhythm"
+  3TONM:
+    ja: "3⁻ⁿ拍子"
+    en: "3⁻ⁿ Metre"
+  3TONH:
+    ja: "3⁻ⁿ仮説"
+    en: "3⁻ⁿ Hypothesis"
+  3TONGH:
+    ja: "3⁻ⁿグルーヴ仮説"
+    en: "3⁻ⁿ Groove Hypothesis"
+  CONDITIONS_OF_GROOVE:
+    ja: "<ruby><rb>グルーヴ四条件</rb><rt></rt></ruby>"
+    en: "Four Conditions of Groove"
+  CONDITIONS_OF_TATENORI:
+    ja: "<ruby><rb>縦乗り四条件</rb><rt></rt></ruby>"
+    en: "Four Conditions of Tatenori"
+  TATENORI_ONEWAY:
+    ja: "縦乗りの一方向性"
+    en: "Tatenori Unidirectionality"
+
+  # === Division-Space Theory ===
+  MULTIDIMENSIONAL_DIVISION_SPACES:
+    ja: "多次元ディヴィジョン空間"
+    en: "Multidimensional Division Spaces"
+  DIVISION_SPACE_THEORY:
+    ja: "ディヴィジョン空間理論"
+    en: "Division-Space Theory"
+  MULTIDIMENSIONALIZATION:
+    ja: "多次元化"
+    en: "Multidimensionalization"
+  FOUR_DIVISION_SPACES:
+    ja: "４つのディヴィジョン空間"
+    en: "Four Division Spaces"
+  DIVISION_SPACE:
+    ja: "ディヴィジョン空間"
+    en: "Division Space"
+  DIVISION:
+    ja: "ディヴィジョン"
+    en: "Division"
+  SUBDIVISION:
+    ja: "サブディヴィジョン"
+    en: "Subdivision"
+  MACRODIVISION:
+    ja: "マクロディヴィジョン"
+    en: "Macrodivision"
+  MICRODIVISION:
+    ja: "マイクロディヴィジョン"
+    en: "Microdivision"
+  MACRODIVISION_THEORY:
+    ja: "マクロディヴィジョン理論"
+    en: "Macrodivision Theory"
+  DIVISION_SPACE_DIMENSIONAL_TRANSFER:
+    ja: "ディヴィジョン空間次元転送"
+    en: "Division-Space Dimensional Transfer"
+  DIVISION_SPACE_WARP:
+    ja: "ディヴィジョン空間ワープ"
+    en: "Division-Space Warp"
+  DISTRIBUTED_GROOVE_THEORY:
+    ja: "分散グルーヴ理論"
+    en: "Distributed Groove Theory"
+  HUMAN_SUBDIVISION_LIMITATION:
+    ja: "人の時間分割能力制約"
+    en: "Limitation of the Human Sense of Subdivision"
+  RHYTHM_DECOMPOSITION:
+    ja: "リズムの分解"
+    en: "Rhythm Decomposition"
+  BEAT_SHIFTING_DISTANCE:
+    ja: "拍シフト量"
+    en: "Beat-Shifting Distance"
+  BEAT_RESOLUTION:
+    ja: "拍解像度"
+    en: "Beat Resolution"
+  REDUCIBLE_BEAT:
+    ja: "可約拍"
+    en: "Reducible Beat"
+  IRREDUCIBLE_BEAT:
+    ja: "既約拍"
+    en: "Irreducible Beat"
+  BEAT_DRIFTING_DISTANCE:
+    ja: "拍ドリフト量"
+    en: "Beat-Drifting Distance"
+  BEAT_INVERSION:
+    ja: "拍の倒置"
+    en: "Beat Inversion"
+  BEAT_MULTIPLICATION:
+    ja: "拍乗法"
+    en: "Beat Multiplication"
+  FINAL_BEAT:
+    ja: "最終拍"
+    en: "Final Beat"
+
+  # === Phonorhythmatology ===
+  PHONORHYTHMATOLOGY:
+    ja: "<ruby>音韻学的音楽分析<rt>フォノリズマトロジー</rt></ruby>"
+    en: "Phonorhythmatology"
+  MiOP:
+    ja:  "<ruby><rb>頭子音最小化原則</rb><rt>MiOP = Minimum Onset Principle</rt></ruby>"
+    en:  "Minimum Onset Principle (MiOP)"
+  MOP:
+    ja:   "<ruby><rb>頭子音最大化原則</rb><rt>MOP = Maximum Onset Principle</rt></ruby>"
+    en:   "Maximum Onset Principle (MOP)"
+  MiPOP:
+    ja: "<ruby><rb>頭音節最小化原則</rb><rt>MiPOP = Minimum Prosodic Onset Principle</rt></ruby>"
+    en: "Minimum Prosodic Onset Principle (MiPOP)"
+  MPOP:
+    ja:  "<ruby><rb>頭音節最大化原則</rb><rt>MPOP = Maximal Prosodic Onset Principle</rt></ruby>"
+    en:  "Maximal Prosodic Onset Principle (MPOP)"
+  MiMOP:
+    ja: "<ruby><rb>韻律的頭音節最小化原則</rb><rt>MiMOP = Minimum Metric Onset Principle</rt></ruby>"
+    en: "Minimum Metric Onset Principle (MiMOP)"
+  MMOP:
+    ja:  "<ruby><rb>韻律的頭音節最大化原則</rb><rt>MMOP = Maximal Metric Onset Principle</rt></ruby>"
+    en:  "Maximal Metric Onset Principle (MMOP)"
+  MI:
+    ja:    "<ruby><rb>モーラ拍の等時性</rb><rt>MI = Mora Isochrony</rt></ruby>"
+    en:    "Mora Isochrony (MI)"
+  NA:
+    ja:    "<ruby><rb>音節核の前進</rb><rt>NA=Nuclear Advancement</rt></ruby>"
+    en:    "Nuclear Advancement (NA)"
+  NI:
+    ja:    "<ruby><rb>音節核の等時性</rb><rt>NI = Nuclear Isochrony</rt></ruby>"
+    en:    "Nuclear Isochrony (NI)"
+  ANI:
+    ja:   "<ruby><rb>強勢音節核の等時性</rb><rt>ANI = Accented Nuclear Isochrony</rt></ruby>"
+    en:   "Accented Nuclear Isochrony (ANI)"
+  PNI:
+    ja:   "<ruby><rb>核音節の等時性</rb><rt>PNI = Prosodic Nuclear Isochrony</rt></ruby>"
+    en:   "Prosodic Nuclear Isochrony (PNI)"
+  MNI:
+    ja:   "<ruby><rb>韻律的核音節の等時性</rb><rt>MNI = Metric Nuclear Isochrony</rt></ruby>"
+    en:   "Metric Nuclear Isochrony (MNI)"
+
+  THREE_LEVELS_OF_PHONOLOGICAL_RULES:
+    ja: "音韻規則の３つのレベル"
+    en: "Three Levels of Phonological Rules"
+  PHONOLOGICAL_RULE_LEVELS:
+    ja: "音韻規則レベル"
+    en: "Phonological Rule Levels"
+
+  # === Phonology of Offbeat Count
+  MBS:
+    ja: "<ruby>モーラ拍の６つの欠落音韻規則<rt>Japanese Invisible Dog Poop</rt></ruby>"
+    en: "Six Missing Phonological Rules of Mora Rhythm"
+  HAP:
+    ja: "<ruby>音素の頭合わせ<rt>HAP=Head Aligned Phonomes</rt></ruby>"
+    en: "Head-Aligned Phonemes (HAP)"
+  PNS:
+    ja: "<ruby>音韻表記厳密化<rt>PNS = Prosodic Notation Strictification</rt></ruby>"
+    en: "Prosodic Notation Strictification (PNS)"
+  PNSPTI:
+    ja: "<ruby><rb>音韻表記厳密化の感覚理論逆進性</rb><rt>Phonological Notation Strictification Perceptual-Theoretical Inversion</rt></ruby>"
+    en: "Phonological Notation Strictification Perceptual-Theoretical Inversion (PNSPTI)"
+
+  # === PHONOLOGICAL ANCHORING PRINCIPLE ===
+  RECURSIVE_PROSODIC_EQUIVALENCE_PRINCIPLE:
+    ja: "<ruby><rb>再帰的韻律同一性原理</rb><rt>RPEP=Recursive Prosodic Equivalence Principle</rt></ruby>"
+    en: "Recursive Prosodic Equivalence Principle (RPEP)"
+  RMOP:
+    ja: "<ruby><rb>律動的頭子音最大化原則</rb><rt>RMOP=Rhythmic Maximal Onset Principle</rt></ruby>"
+    en: "Rhythmic Maximal Onset Principle (RMOP)"
+
+  # === Schizorhythmos And Solirhythmos ===
+  ONSET_STRUCTURING_AXIS:
+    ja: "<ruby><rb>頭子音構成軸</rb><rt>Onset Structuring Axis</rt></ruby>"
+    en: "Onset Structuring Axis"
+  LINGUISTIC_RHYTHM_PROJECTION_THEORY:
+    ja: "<ruby><rb>言語リズム投影理論</rb><rt>LRPT=Linguistic Rhythm Projection Theory</rt></ruby>"
+    en: "Linguistic Rhythm Projection Theory (LRPT)"
+  SCHIZORHYTHMOS:
+    ja: "<ruby><rb>分裂拍</rb><rt>シゾリスモス</rt></ruby>"
+    en: "Split Beat (Schizorhythmos)"
+  SOLIRHYTHMOS:
+    ja: "<ruby><rb>孤立拍</rb><rt>ソリリスモス</rt></ruby>"
+    en: "Isolated Beat (Solirhythmos)"
+  SCHIZORHYTHMOS_ENG:
+    ja: "<ruby><rb>分裂拍</rb><rt>Schizorhythmos</rt></ruby>"
+    en: "Schizorhythmos"
+  SOLIRHYTHMOS_ENG:
+    ja: "<ruby><rb>孤立拍</rb><rt>Solirhythmos</rt></ruby>"
+    en: "Solirhythmos"
+  PROACTIVE_DIVISIONISM:
+    ja: "<ruby><rb>能動的事前予期裁ち割り主義</rb><rt>PD=プロアクティヴ・ディヴィジョニズム</rt></ruby>"
+    en: "Proactive Divisionism (PD)"
+  REACTIVE_APPENDISM:
+    ja: "<ruby><rb>受動的事後追従付け足し主義</rb><rt>RA=リアクティヴ・アペンディズム</rt></ruby>"
+    en: "Reactive Appendism (RA)"
+  PROACTIVE_DIVISIONISM_ENG:
+    ja: "<ruby><rb>能動的事前予期裁ち割り主義</rb><rt>Proactive Divisionism</rt></ruby>"
+    en: "Proactive Divisionism"
+  REACTIVE_APPENDISM_ENG:
+    ja: "<ruby><rb>受動的事後追従付け足し主義</rb><rt>Reactive Appendism</rt></ruby>"
+    en: "Reactive Appendism"
+
+  ## === VVV ===
+  # SYLLABIC_ANCHORING_AXIS: "<ruby><rb>音節基軸</rb><rt>Syllabic Anchoring Axis</rt></ruby>"
+  # PHONOTEMPORAL_ORDERING: "<ruby><rb>k</rb><rt>Phonotemporal Ordering</rt></ruby>"
+  # NUCLEUS_ANCHORED: "<ruby><rb>音節核基軸</rb><rt>Nucleus-Anchored</rt></ruby>"
+  # ONSET_ANCHORED: "<ruby><rb>頭子音基軸</rb><rt>Onset-Anchored</rt></ruby>"
+  PHONOTEMPORAL_ORDERING_AXIS:
+    ja: "<ruby><rb>音節順序認識軸</rb><rt>Phonotemporal Ordering Axis</rt></ruby>"
+    en: "Phonotemporal Ordering Axis"
+  LEADING_CONSONANT_PHONOTEMPORAL_ORDERING:
+    ja: "<ruby><rb>子音先行順序認識</rb><rt>Leading-Consonant Phonotemporal Ordering</rt></ruby>"
+    en: "Leading-Consonant Phonotemporal Ordering"
+  FOLLOWING_CONSONANT_PHONOTEMPORAL_ORDERING:
+    ja: "<ruby><rb>子音後行順序認識</rb><rt>Following-Consonant Phonotemporal Ordering</rt></ruby>"
+    en: "Following-Consonant Phonotemporal Ordering"
+  MULTI_ANCHORED_SYLLABLE_INITIATION :
+    ja: "<ruby><rb>複基軸音節起動</rb><rt>Multi Anchored Syllable Initiation</rt></ruby>"
+    en: "Multi-Anchored Syllable Initiation"
+  MONO_ANCHORED_SYLLABLE_INITIATION  :
+    ja: "<ruby><rb>単基軸音節起動</rb><rt>Mono Anchored  Syllable Initiation</rt></ruby>"
+    en: "Mono-Anchored Syllable Initiation"
+
+
+  # === Rhythmdo Series ===
+  3TONT:
+    ja: "<ruby>3⁻ⁿグルーヴ<rt>スリー・ツー・エヌ</rt>理論</ruby>"
+    en: "3⁻ⁿ Groove Theory"
+  METRE:
+    ja: "<ruby><rb>韻律</rb><rt>ミータ</rt></ruby>"
+    en: "Metre"
+  NURSERY_RHYME:
+    ja: "<ruby><rb>童謡</rb><rt>ナーザリライム</rt></ruby>"
+    en: "Nursery Rhyme"
+
+  # === The 17 Life Technologies
+
+  RKS:
+    ja: "<ruby>霊魂心<rt>れいこんしん</rt></ruby>"
+    en: "Spirit, Soul, and Mind"
+  IRSK:
+    ja: "<ruby>一霊四魂<rt>いちれいしこん</rt></ruby>"
+    en: "One Spirit, Four Souls"
+  SOUL:
+    ja: "<ruby>一霊四魂<rt>ソウル</rt></ruby>"
+    en: "Soul"
+  KTTM:
+    ja: "<ruby>言霊<rt>ことたま</rt></ruby>"
+    en: "Word Spirit"
+  KTTMTRG:
+    ja: "<ruby>言霊剣<rt>ことたまつるぎ</rt></ruby>"
+    en: "Word-Spirit Sword"
+  TRG:
+    ja: "<ruby>剣<rt>つるぎ</rt></ruby>"
+    en: "Sword"
+  NOH:
+    ja: "<ruby>直霊<rt>なおひ</rt></ruby>"
+    en: "Direct Spirit"
+
+  # === Temporal Ordering Framework (TOP Series) ===
+  TOP:
+    ja:   "<ruby><rb>順序認識韻律寄与仮説</rb><rt>Temporal Ordering from Prosody</rt></ruby>"
+    en:   "Temporal Ordering from Prosody (TOP)"
+  PRTOA:
+    ja: "<ruby><rb>能動予期/受動追従・順序認識軸</rb><rt>Proactive-Reactive Temporal Ordering Axis</rt></ruby>"
+    en: "Proactive-Reactive Temporal Ordering Axis (PRTOA)"
+  MORAIC_ORDERING_BIAS:
+    ja:   "<ruby><rb>モーラ順序偏向</rb><rt>Moraic Ordering Bias</rt></ruby>"
+    en:   "Moraic Ordering Bias"
+  PROACTIVITY_HORIZON_INDEX:
+    ja:   "<ruby><rb>予期地平指数</rb><rt>Proactivity Horizon Index</rt></ruby>"
+    en:   "Proactivity Horizon Index"
+  SYLLABIC_ORDERING_BIAS:
+    ja:   "<ruby><rb>音節順序偏向</rb><rt>Syllabic Ordering Bias</rt></ruby>"
+    en:   "Syllabic Ordering Bias"
+  ACCENTUATED_ORDERING_BIAS:
+    ja:   "<ruby><rb>核順序偏向</rb><rt>Accentuated Ordering Bias</rt></ruby>"
+    en:   "Accentuated Ordering Bias"
+  PROSODIC_ORDERING_BIAS:
+    ja:   "<ruby><rb>韻律順序偏向</rb><rt>Prosodic Ordering Bias</rt></ruby>"
+    en:   "Prosodic Ordering Bias"
+  PROACTIVE_TEMPORAL_ORDERING:
+    ja: "<ruby><rb>能動的事前予期的順序認識</rb><rt>Proactive Temporal Ordering</rt></ruby>"
+    en: "Proactive Temporal Ordering"
+  REACTIVE_TEMPORAL_ORDERING:
+    ja: "<ruby><rb>受動的事後追従的順序認識</rb><rt>Reactive Temporal Ordering</rt></ruby>"
+    en: "Reactive Temporal Ordering"
+  LINK_SCHIZORHYTHMOS_AND_SOLIRHYTHMOS:
+    ja: "[<ruby><rb>分裂拍</rb><rt>シゾリスモス</rt></ruby>と<ruby><rb>孤立拍</rb><rt>ソリリスモス</rt></ruby>](/offbeat-count/schizorhythmos-and-solirhythmos/ja/#schizorhythmos-and-solirhythmos-again)"
+    en: "[Schizorhythmos and Solirhythmos](/offbeat-count/schizorhythmos-and-solirhythmos/ja/#schizorhythmos-and-solirhythmos-again)"
+
+  ALTERNATING_CLAP_BREAKDOWN:
+    ja: "<ruby><rb>交互手叩き不可能性</rb><rt>Alternating Clap Breakdown</rt></ruby>"
+    en: "Alternating Clap Breakdown"
+
+  # === Section 22 Multilayer Weak-Beat-Precedence Polyrhythm (offbeat-count-polyrhythm) ===
+  DABIDIBA_COUNT:
+    ja: "<ruby><rb>ダビディバ・カウント</rb><rt>Da-Bi-Di-Ba Count</rt></ruby>"
+    en: "Da-Bi-Di-Ba Count"
+  FOUR_NOTE_BASE_RHYTHM:
+    ja: "<ruby><rb>四音基底リズム</rb><rt>Four-Note Base Rhythm</rt></ruby>"
+    en: "Four-Note Base Rhythm"
+  FINAL_BEAT_REFERENCE_METHOD:
+    ja: "<ruby><rb>最終拍基準法</rb><rt>Final-Beat Reference Method</rt></ruby>"
+    en: "Final-Beat Reference Method"
+
+  # === Section 24 The Mechanism by Which Tatenori Arises (mechanism-behind-tatenori) ===
+  ON_BEAT_SLIPSTREAM:
+    ja: "<ruby><rb>オンビートスリップストリーム</rb><rt>On-Beat Slipstream</rt></ruby>"
+    en: "On-Beat Slipstream"
+  ON_BEAT_CONGESTION:
+    ja: "<ruby><rb>オンビート渋滞</rb><rt>On-Beat Congestion</rt></ruby>"
+    en: "On-Beat Congestion"
+
+  # === Section 25 Tatenori and the Perception of Movement (influence-of-japanese-language-on-cognition) ===
+  PATH_OVERLAP:
+    ja: "<ruby><rb>進路被り</rb><rt>Path Overlap</rt></ruby>"
+    en: "Path Overlap"
+
+  # === Section 26 The Psychological Problems Caused by Tatenori (tatenori-and-psychology) ===
+  TATENORI_GOMANISM:
+    ja: "<ruby><rb>縦乗りゴーマニズム</rb><rt>Tatenori Gomanism</rt></ruby>"
+    en: "Tatenori Gomanism"
+  YOKONORI_LOUDNESS_ILLUSION:
+    ja: "<ruby><rb>横乗り大音量錯覚</rb><rt>Yokonori Loudness Illusion</rt></ruby>"
+    en: "Yokonori Loudness Illusion"
+
+# you can also define arbitrary keys
+# RUBY-MLWBOR: "ルビーHELLO多層弱強拍理論"
+# PROJECT_TAGLINE: "Distributed Groove and Tatenori Theory"
+# vim: set wrap ts=2 sw=2 isk+=- breakat= ve=all nowrap :

@@ -1,0 +1,6 @@
+## 3⁻ⁿ Groove and 2⁻ⁿ Groove <!-- {#three-to-n-groove-theory} -->
+Human rhythm perception reveals its true nature most clearly when we feel we are playing freely, even if it seems random. For us Japanese speakers, even when we feel we are playing freely, the rhythms we produce always reveal specific mathematical laws. No matter how freely we feel we are playing, certain mathematical patterns always emerge, and they always converge on specific numerical patterns.
+
+Of course, mathematical patterns also emerge when people outside Japan feel they are playing freely. But those patterns are multilayered and multidimensional, and they diverge into countless possibilities. Can Japanese people ever attain complete musical freedom?
+
+When we observe the relationship between the mathematical laws of rhythm and language, we find that Japanese is aptly described by **{{<meta var.2TONR.en>}}**, while English and other stress-timed languages are aptly described by **{{<meta var.3TONR.en>}}**. Here I will examine 2⁻ⁿ groove and 3⁻ⁿ groove. Why do Japanese people alone converge on such patterns? And why do English speakers and speakers of other languages diverge into such a wide variety of patterns?

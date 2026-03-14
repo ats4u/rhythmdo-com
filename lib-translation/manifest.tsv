@@ -1,0 +1,178 @@
+order	chunk_id	kind	origin_level	start_line	end_line	source_rel	target_rel	heading_path
+1	00	document	0	1	33	source/master-ja-00.md	en/master-en-00.md	
+2	01	section	2	34	106	source/master-ja-01.md	en/master-en-01.md	はじめに <!-- {#benefits-of-offbeat-count-theory} -->
+3	02	section	2	107	213	source/master-ja-02.md	en/master-en-02.md	グルーヴ四原則とは <!-- {#the-four-principles-of-groove}-->
+4	03-00	preamble	2	214	217	source/master-ja-03-00.md	en/master-en-03-00.md	何故日本人は縦乗りなのか <!-- {#tatenori-theory} -->
+5	03-01	section	3	218	253	source/master-ja-03-01.md	en/master-en-03-01.md	何故日本人は縦乗りなのか <!-- {#tatenori-theory} --> > 縦乗りとは
+6	03-02	section	3	254	279	source/master-ja-03-02.md	en/master-en-03-02.md	何故日本人は縦乗りなのか <!-- {#tatenori-theory} --> > 縦乗りが与える影響
+7	03-03	section	3	280	425	source/master-ja-03-03.md	en/master-en-03-03.md	何故日本人は縦乗りなのか <!-- {#tatenori-theory} --> > 縦乗りという盲点
+8	03-04	section	3	426	464	source/master-ja-03-04.md	en/master-en-03-04.md	何故日本人は縦乗りなのか <!-- {#tatenori-theory} --> > 縦乗りとモーラ拍リズム
+9	03-05	section	3	465	492	source/master-ja-03-05.md	en/master-en-03-05.md	何故日本人は縦乗りなのか <!-- {#tatenori-theory} --> > 縦乗りと横乗りの比較
+10	03-06	section	3	493	507	source/master-ja-03-06.md	en/master-en-03-06.md	何故日本人は縦乗りなのか <!-- {#tatenori-theory} --> > 横乗りの人は縦乗りにすぐに気付く
+11	03-07	section	3	508	513	source/master-ja-03-07.md	en/master-en-03-07.md	何故日本人は縦乗りなのか <!-- {#tatenori-theory} --> > 縦乗りの人は縦乗りに気付かない
+12	03-08	section	3	514	517	source/master-ja-03-08.md	en/master-en-03-08.md	何故日本人は縦乗りなのか <!-- {#tatenori-theory} --> > 縦乗りははっきりと定量化出来る
+13	03-09	section	3	518	521	source/master-ja-03-09.md	en/master-en-03-09.md	何故日本人は縦乗りなのか <!-- {#tatenori-theory} --> > 縦乗りの人には見えないことがある
+14	03-10	section	3	522	533	source/master-ja-03-10.md	en/master-en-03-10.md	何故日本人は縦乗りなのか <!-- {#tatenori-theory} --> > 縦乗りの人には出来ないことがある
+15	03-11	section	3	534	566	source/master-ja-03-11.md	en/master-en-03-11.md	何故日本人は縦乗りなのか <!-- {#tatenori-theory} --> > 縦乗りが起こす問題
+16	03-12	section	3	567	636	source/master-ja-03-12.md	en/master-en-03-12.md	何故日本人は縦乗りなのか <!-- {#tatenori-theory} --> > 縦乗りの主な原因
+17	03-13	section	3	637	676	source/master-ja-03-13.md	en/master-en-03-13.md	何故日本人は縦乗りなのか <!-- {#tatenori-theory} --> > 縦乗りを克服するにはどうすればよいか
+18	03-14	section	3	677	688	source/master-ja-03-14.md	en/master-en-03-14.md	何故日本人は縦乗りなのか <!-- {#tatenori-theory} --> > まとめ
+19	04	section	2	689	808	source/master-ja-04.md	en/master-en-04.md	<ruby><rb>強拍が先か弱拍が先か</rb><rt>リズモクロニック・アナリシス</rt></ruby> <!-- {#headians-and-bottomians-of-beat-orientation} -->
+20	05-00	preamble	2	809	812	source/master-ja-05-00.md	en/master-en-05-00.md	{{<meta var.PHONORHYTHMATOLOGY.en>}} <!-- {#phonorhythmatological-theory } -->
+21	05-01	section	3	813	830	source/master-ja-05-01.md	en/master-en-05-01.md	{{<meta var.PHONORHYTHMATOLOGY.en>}} <!-- {#phonorhythmatological-theory } --> > 主だった三つの拍リズム  <!-- {#three-rhythms} -->
+22	05-02	section	3	831	833	source/master-ja-05-02.md	en/master-en-05-02.md	{{<meta var.PHONORHYTHMATOLOGY.en>}} <!-- {#phonorhythmatological-theory } --> > シラブル拍リズムの特徴
+23	05-03	section	3	834	836	source/master-ja-05-03.md	en/master-en-05-03.md	{{<meta var.PHONORHYTHMATOLOGY.en>}} <!-- {#phonorhythmatological-theory } --> > ストレス拍リズムの特徴
+24	05-04	section	3	837	839	source/master-ja-05-04.md	en/master-en-05-04.md	{{<meta var.PHONORHYTHMATOLOGY.en>}} <!-- {#phonorhythmatological-theory } --> > モーラ拍リズムの特徴
+25	05-05	section	3	840	847	source/master-ja-05-05.md	en/master-en-05-05.md	{{<meta var.PHONORHYTHMATOLOGY.en>}} <!-- {#phonorhythmatological-theory } --> > 日本人が英語が苦手になる原理
+26	05-06	section	3	848	850	source/master-ja-05-06.md	en/master-en-05-06.md	{{<meta var.PHONORHYTHMATOLOGY.en>}} <!-- {#phonorhythmatological-theory } --> > リズム認識は拍リズムによって異なる
+27	05-07	section	3	851	914	source/master-ja-05-07.md	en/master-en-05-07.md	{{<meta var.PHONORHYTHMATOLOGY.en>}} <!-- {#phonorhythmatological-theory } --> > シラブル拍リズムの詳細
+28	05-08	section	3	915	1189	source/master-ja-05-08.md	en/master-en-05-08.md	{{<meta var.PHONORHYTHMATOLOGY.en>}} <!-- {#phonorhythmatological-theory } --> > ストレス拍リズムの詳細
+29	05-09	section	3	1190	1327	source/master-ja-05-09.md	en/master-en-05-09.md	{{<meta var.PHONORHYTHMATOLOGY.en>}} <!-- {#phonorhythmatological-theory } --> > モーラ拍リズムの詳細
+30	06	section	2	1328	1425	source/master-ja-06.md	en/master-en-06.md	{{<meta var.MORA_SPEAKERS.en>}}への手紙 <!-- {#letter-to-native-mora-timed-speakers} -->
+31	07	section	2	1426	1533	source/master-ja-07.md	en/master-en-07.md	{{<meta var.SCHIZORHYTHMOS.en>}}と{{<meta var.SOLIRHYTHMOS.en>}} <!-- {#schizorhythmos-and-solirhythmos} -->
+32	08	section	2	1534	1636	source/master-ja-08.md	en/master-en-08.md	{{<meta var.METRE.en>}}とは <!-- {#the-crossing-point-of-language-and-music} -->
+33	09-00	preamble	2	1637	1640	source/master-ja-09-00.md	en/master-en-09-00.md	{{<meta var.MLWBOR.en>}} <!-- {#multi-layered-weak-beat-precedence} -->
+34	09-01	section	3	1641	1718	source/master-ja-09-01.md	en/master-en-09-01.md	{{<meta var.MLWBOR.en>}} <!-- {#multi-layered-weak-beat-precedence} --> > 強拍弱拍とは
+35	09-02	section	3	1719	1824	source/master-ja-09-02.md	en/master-en-09-02.md	{{<meta var.MLWBOR.en>}} <!-- {#multi-layered-weak-beat-precedence} --> > 多層拍とは
+36	09-03	section	3	1825	1874	source/master-ja-09-03.md	en/master-en-09-03.md	{{<meta var.MLWBOR.en>}} <!-- {#multi-layered-weak-beat-precedence} --> > 弱拍中心のリズム
+37	09-04	section	3	1875	1914	source/master-ja-09-04.md	en/master-en-09-04.md	{{<meta var.MLWBOR.en>}} <!-- {#multi-layered-weak-beat-precedence} --> > 強拍弱拍の順序とは
+38	09-05-00	preamble	3	1915	1918	source/master-ja-09-05-00.md	en/master-en-09-05-00.md	{{<meta var.MLWBOR.en>}} <!-- {#multi-layered-weak-beat-precedence} --> > {{<meta var.MLWBOR.en>}}と尻合わせ <!-- {#multi-layered-weak-beat-precedence-and-tail-aligning} -->
+39	09-05-01	section	4	1919	1921	source/master-ja-09-05-01.md	en/master-en-09-05-01.md	{{<meta var.MLWBOR.en>}} <!-- {#multi-layered-weak-beat-precedence} --> > {{<meta var.MLWBOR.en>}}と尻合わせ <!-- {#multi-layered-weak-beat-precedence-and-tail-aligning} --> > 尻合わせと頭合わせ
+40	09-05-02	section	4	1922	1932	source/master-ja-09-05-02.md	en/master-en-09-05-02.md	{{<meta var.MLWBOR.en>}} <!-- {#multi-layered-weak-beat-precedence} --> > {{<meta var.MLWBOR.en>}}と尻合わせ <!-- {#multi-layered-weak-beat-precedence-and-tail-aligning} --> > 尻合わせ
+41	09-05-03	section	4	1933	1942	source/master-ja-09-05-03.md	en/master-en-09-05-03.md	{{<meta var.MLWBOR.en>}} <!-- {#multi-layered-weak-beat-precedence} --> > {{<meta var.MLWBOR.en>}}と尻合わせ <!-- {#multi-layered-weak-beat-precedence-and-tail-aligning} --> > 頭合わせ
+42	09-05-04	section	4	1943	2145	source/master-ja-09-05-04.md	en/master-en-09-05-04.md	{{<meta var.MLWBOR.en>}} <!-- {#multi-layered-weak-beat-precedence} --> > {{<meta var.MLWBOR.en>}}と尻合わせ <!-- {#multi-layered-weak-beat-precedence-and-tail-aligning} --> > 多層拍構造での強拍先行
+43	09-05-05	section	4	2146	2150	source/master-ja-09-05-05.md	en/master-en-09-05-05.md	{{<meta var.MLWBOR.en>}} <!-- {#multi-layered-weak-beat-precedence} --> > {{<meta var.MLWBOR.en>}}と尻合わせ <!-- {#multi-layered-weak-beat-precedence-and-tail-aligning} --> > RMOP原則を適用し弱拍を前にする
+44	09-05-06	section	4	2151	2279	source/master-ja-09-05-06.md	en/master-en-09-05-06.md	{{<meta var.MLWBOR.en>}} <!-- {#multi-layered-weak-beat-precedence} --> > {{<meta var.MLWBOR.en>}}と尻合わせ <!-- {#multi-layered-weak-beat-precedence-and-tail-aligning} --> > 弱拍先行の基本
+45	09-05-07	section	4	2280	4075	source/master-ja-09-05-07.md	en/master-en-09-05-07.md	{{<meta var.MLWBOR.en>}} <!-- {#multi-layered-weak-beat-precedence} --> > {{<meta var.MLWBOR.en>}}と尻合わせ <!-- {#multi-layered-weak-beat-precedence-and-tail-aligning} --> > 弱拍先行には複数の階層がある
+46	09-05-08	section	4	4076	4092	source/master-ja-09-05-08.md	en/master-en-09-05-08.md	{{<meta var.MLWBOR.en>}} <!-- {#multi-layered-weak-beat-precedence} --> > {{<meta var.MLWBOR.en>}}と尻合わせ <!-- {#multi-layered-weak-beat-precedence-and-tail-aligning} --> > 尻合わせリズム構造とは
+47	09-06	section	3	4093	4226	source/master-ja-09-06.md	en/master-en-09-06.md	{{<meta var.MLWBOR.en>}} <!-- {#multi-layered-weak-beat-precedence} --> > 弱拍が属する音価の判定
+48	09-07-00	preamble	3	4227	4228	source/master-ja-09-07-00.md	en/master-en-09-07-00.md	{{<meta var.MLWBOR.en>}} <!-- {#multi-layered-weak-beat-precedence} --> > まとめ <!-- {#multi-layered-weak-beat-oriented-rhythm-theory-summary} -->
+49	09-07-01	section	4	4229	4453	source/master-ja-09-07-01.md	en/master-en-09-07-01.md	{{<meta var.MLWBOR.en>}} <!-- {#multi-layered-weak-beat-precedence} --> > まとめ <!-- {#multi-layered-weak-beat-oriented-rhythm-theory-summary} --> > バダムツーは二層弱拍先行認識
+50	09-07-02	section	4	4454	4475	source/master-ja-09-07-02.md	en/master-en-09-07-02.md	{{<meta var.MLWBOR.en>}} <!-- {#multi-layered-weak-beat-precedence} --> > まとめ <!-- {#multi-layered-weak-beat-oriented-rhythm-theory-summary} --> > 言語による多層レベルの違い
+51	09-07-03	section	4	4476	4497	source/master-ja-09-07-03.md	en/master-en-09-07-03.md	{{<meta var.MLWBOR.en>}} <!-- {#multi-layered-weak-beat-precedence} --> > まとめ <!-- {#multi-layered-weak-beat-oriented-rhythm-theory-summary} --> > 時代を経るごとに増加する多層レベル
+52	09-07-04	section	4	4498	4507	source/master-ja-09-07-04.md	en/master-en-09-07-04.md	{{<meta var.MLWBOR.en>}} <!-- {#multi-layered-weak-beat-precedence} --> > まとめ <!-- {#multi-layered-weak-beat-oriented-rhythm-theory-summary} --> > ストレス拍音楽の娯楽性能としてみた性能の高さ
+53	09-07-05	section	4	4508	4513	source/master-ja-09-07-05.md	en/master-en-09-07-05.md	{{<meta var.MLWBOR.en>}} <!-- {#multi-layered-weak-beat-precedence} --> > まとめ <!-- {#multi-layered-weak-beat-oriented-rhythm-theory-summary} --> > ジャズは究極の世界音楽
+54	09-07-06	section	4	4514	4535	source/master-ja-09-07-06.md	en/master-en-09-07-06.md	{{<meta var.MLWBOR.en>}} <!-- {#multi-layered-weak-beat-precedence} --> > まとめ <!-- {#multi-layered-weak-beat-oriented-rhythm-theory-summary} --> > 誰でもグルーヴする為の方法論
+55	10-00	preamble	2	4536	4539	source/master-ja-10-00.md	en/master-en-10-00.md	多次元ディヴィジョン空間 <!-- {#multidimensional-division-spaces} -->
+56	10-01	section	3	4540	4769	source/master-ja-10-01.md	en/master-en-10-01.md	多次元ディヴィジョン空間 <!-- {#multidimensional-division-spaces} --> > 多次元化とは
+57	10-02	section	3	4770	4791	source/master-ja-10-02.md	en/master-en-10-02.md	多次元ディヴィジョン空間 <!-- {#multidimensional-division-spaces} --> > 多次元ディヴィジョン空間理論とは
+58	10-03-00	preamble	3	4792	4828	source/master-ja-10-03-00.md	en/master-en-10-03-00.md	多次元ディヴィジョン空間 <!-- {#multidimensional-division-spaces} --> > ４つのディヴィジョン空間
+59	10-03-01	section	4	4829	4848	source/master-ja-10-03-01.md	en/master-en-10-03-01.md	多次元ディヴィジョン空間 <!-- {#multidimensional-division-spaces} --> > ４つのディヴィジョン空間 > ディヴィジョンとは
+60	10-03-02	section	4	4849	4868	source/master-ja-10-03-02.md	en/master-en-10-03-02.md	多次元ディヴィジョン空間 <!-- {#multidimensional-division-spaces} --> > ４つのディヴィジョン空間 > 多次元化とは
+61	10-03-03	section	4	4869	5119	source/master-ja-10-03-03.md	en/master-en-10-03-03.md	多次元ディヴィジョン空間 <!-- {#multidimensional-division-spaces} --> > ４つのディヴィジョン空間 > マクロディヴィジョンとは
+62	10-03-04	section	4	5120	5319	source/master-ja-10-03-04.md	en/master-en-10-03-04.md	多次元ディヴィジョン空間 <!-- {#multidimensional-division-spaces} --> > ４つのディヴィジョン空間 > サブディヴィジョンとは
+63	10-03-05	section	4	5320	5381	source/master-ja-10-03-05.md	en/master-en-10-03-05.md	多次元ディヴィジョン空間 <!-- {#multidimensional-division-spaces} --> > ４つのディヴィジョン空間 > 多次元化したサブディヴィジョンの呼び方
+64	10-03-06	section	4	5382	5387	source/master-ja-10-03-06.md	en/master-en-10-03-06.md	多次元ディヴィジョン空間 <!-- {#multidimensional-division-spaces} --> > ４つのディヴィジョン空間 > マイクロディヴィジョンとは
+65	10-03-07	section	4	5388	5394	source/master-ja-10-03-07.md	en/master-en-10-03-07.md	多次元ディヴィジョン空間 <!-- {#multidimensional-division-spaces} --> > ４つのディヴィジョン空間 > マイクロディヴィジョンの定義
+66	10-04	section	3	5395	5425	source/master-ja-10-04.md	en/master-en-10-04.md	多次元ディヴィジョン空間 <!-- {#multidimensional-division-spaces} --> > ディヴィジョン空間次元転送について
+67	10-05	section	3	5426	5428	source/master-ja-10-05.md	en/master-en-10-05.md	多次元ディヴィジョン空間 <!-- {#multidimensional-division-spaces} --> > オフビートカウントの一般化
+68	10-06	section	3	5429	5430	source/master-ja-10-06.md	en/master-en-10-06.md	多次元ディヴィジョン空間 <!-- {#multidimensional-division-spaces} --> > ディヴィジョン空間とオフビートカウントの組み合わせ
+69	10-07	section	3	5431	5436	source/master-ja-10-07.md	en/master-en-10-07.md	多次元ディヴィジョン空間 <!-- {#multidimensional-division-spaces} --> > ディヴィジョン空間ワープ
+70	10-08	section	3	5437	5454	source/master-ja-10-08.md	en/master-en-10-08.md	多次元ディヴィジョン空間 <!-- {#multidimensional-division-spaces} --> > 拍のレイヤー
+71	11-00	preamble	2	5455	5458	source/master-ja-11-00.md	en/master-en-11-00.md	発音よりもリズムの正確さ <!-- {#rhythm-more-important-than-pronunciation} -->
+72	11-01	section	4	5459	5467	source/master-ja-11-01.md	en/master-en-11-01.md	発音よりもリズムの正確さ <!-- {#rhythm-more-important-than-pronunciation} --> > Q（質問）日本人は英語ネイティブでも訛りますか？
+73	11-02	section	4	5468	5541	source/master-ja-11-02.md	en/master-en-11-02.md	発音よりもリズムの正確さ <!-- {#rhythm-more-important-than-pronunciation} --> > A（回答）はい。これは音韻学の学術研究でも報告されています。
+74	11-03	section	4	5542	5547	source/master-ja-11-03.md	en/master-en-11-03.md	発音よりもリズムの正確さ <!-- {#rhythm-more-important-than-pronunciation} --> > Q（質問）訛っていても聴き取りやすい人がいるのは何故ですか？
+75	11-04	section	4	5548	5667	source/master-ja-11-04.md	en/master-en-11-04.md	発音よりもリズムの正確さ <!-- {#rhythm-more-important-than-pronunciation} --> > A（回答）それはリズム的整合性が原因です。
+76	11-05	section	4	5668	5673	source/master-ja-11-05.md	en/master-en-11-05.md	発音よりもリズムの正確さ <!-- {#rhythm-more-important-than-pronunciation} --> > Q（質問）発音よりもリズムの方が大切ですか？
+77	11-06	section	4	5674	5756	source/master-ja-11-06.md	en/master-en-11-06.md	発音よりもリズムの正確さ <!-- {#rhythm-more-important-than-pronunciation} --> > A（回答）
+78	11-07	section	3	5757	5765	source/master-ja-11-07.md	en/master-en-11-07.md	発音よりもリズムの正確さ <!-- {#rhythm-more-important-than-pronunciation} --> > 結論
+79	12	section	2	5766	6018	source/master-ja-12.md	en/master-en-12.md	世界は3⁻ⁿ拍子で出来ている <!-- {#world-is-three-to-negative-n} -->
+80	13-00	preamble	2	6019	6025	source/master-ja-13-00.md	en/master-en-13-00.md	3⁻ⁿグルーヴと2⁻ⁿグルーヴ <!-- {#three-to-n-groove-theory} -->
+81	13-01	section	4	6026	6037	source/master-ja-13-01.md	en/master-en-13-01.md	3⁻ⁿグルーヴと2⁻ⁿグルーヴ <!-- {#three-to-n-groove-theory} --> > 日本語の2⁻ⁿリズムから英語の3⁻ⁿリズムへ
+82	13-02	section	4	6038	6047	source/master-ja-13-02.md	en/master-en-13-02.md	3⁻ⁿグルーヴと2⁻ⁿグルーヴ <!-- {#three-to-n-groove-theory} --> > 世界は3⁻ⁿ拍子で出来ている
+83	13-03	section	4	6048	6066	source/master-ja-13-03.md	en/master-en-13-03.md	3⁻ⁿグルーヴと2⁻ⁿグルーヴ <!-- {#three-to-n-groove-theory} --> > 何故3のべき乗を分母とする分数のずれがあるとグルーヴするのか
+84	13-04	section	4	6067	6091	source/master-ja-13-04.md	en/master-en-13-04.md	3⁻ⁿグルーヴと2⁻ⁿグルーヴ <!-- {#three-to-n-groove-theory} --> > 0.037 の謎 〜 3⁻ⁿグルーヴ理論の実証実験
+85	13-05	section	4	6092	6100	source/master-ja-13-05.md	en/master-en-13-05.md	3⁻ⁿグルーヴと2⁻ⁿグルーヴ <!-- {#three-to-n-groove-theory} --> > ゲーリック及び黒人教会音楽リズムがジャズ起源であるという仮説
+86	13-06	section	4	6101	6105	source/master-ja-13-06.md	en/master-en-13-06.md	3⁻ⁿグルーヴと2⁻ⁿグルーヴ <!-- {#three-to-n-groove-theory} --> > 1
+87	13-07	section	4	6106	6110	source/master-ja-13-07.md	en/master-en-13-07.md	3⁻ⁿグルーヴと2⁻ⁿグルーヴ <!-- {#three-to-n-groove-theory} --> > 2
+88	13-08	section	4	6111	6122	source/master-ja-13-08.md	en/master-en-13-08.md	3⁻ⁿグルーヴと2⁻ⁿグルーヴ <!-- {#three-to-n-groove-theory} --> > 3
+89	13-09	section	3	6123	6666	source/master-ja-13-09.md	en/master-en-13-09.md	3⁻ⁿグルーヴと2⁻ⁿグルーヴ <!-- {#three-to-n-groove-theory} --> > 多層弱拍先行の基本単位を3に拡張する
+90	14	section	2	6667	6870	source/master-ja-14.md	en/master-en-14.md	分散グルーヴ理論  <!-- {#distributed-groove-theory} -->
+91	15	section	2	6871	6973	source/master-ja-15.md	en/master-en-15.md	弱拍天動説と強拍地動説 <!-- {#weak-beat-as-sun-strong-beat-as-earth} -->
+92	16-00	preamble	2	6974	6989	source/master-ja-16-00.md	en/master-en-16-00.md	オフビートカウント入門 <!-- {#offbeat-count-basic} -->
+93	16-01	section	3	6990	7056	source/master-ja-16-01.md	en/master-en-16-01.md	オフビートカウント入門 <!-- {#offbeat-count-basic} --> > はじめに
+94	16-02	section	3	7057	7356	source/master-ja-16-02.md	en/master-en-16-02.md	オフビートカウント入門 <!-- {#offbeat-count-basic} --> > 基本
+95	16-03	section	3	7357	7590	source/master-ja-16-03.md	en/master-en-16-03.md	オフビートカウント入門 <!-- {#offbeat-count-basic} --> > 基礎練習
+96	16-04	section	3	7591	7602	source/master-ja-16-04.md	en/master-en-16-04.md	オフビートカウント入門 <!-- {#offbeat-count-basic} --> > 仕上げ練習
+97	16-05	section	3	7603	7640	source/master-ja-16-05.md	en/master-en-16-05.md	オフビートカウント入門 <!-- {#offbeat-count-basic} --> > まとめ
+98	17	section	2	7641	7694	source/master-ja-17.md	en/master-en-17.md	リズム認識型とリズム感  <!-- {#rhythmochronic-competence-and-rhythmic-feeling } -->
+99	18	section	2	7695	7716	source/master-ja-18.md	en/master-en-18.md	オフビートカウントで英語リスニングを極める   <!-- {#why-offbeat-counting-enhances-english-listening-skills} -->
+100	19	section	2	7717	7994	source/master-ja-19.md	en/master-en-19.md	{{<meta var.MORA_SPEAKERS.en>}}の為のエチュード <!-- {#etudes-for-speakers-of-mora-timed-languages} -->
+101	20-00	preamble	2	7995	7998	source/master-ja-20-00.md	en/master-en-20-00.md	英語の正しい発音法 <!-- {#phonetics} -->
+102	20-01	section	3	7999	8037	source/master-ja-20-01.md	en/master-en-20-01.md	英語の正しい発音法 <!-- {#phonetics} --> > 英語でのリズム練習の重要性
+103	20-02	section	3	8038	8050	source/master-ja-20-02.md	en/master-en-20-02.md	英語の正しい発音法 <!-- {#phonetics} --> > 英語の発音は変化する
+104	20-03	section	3	8051	8094	source/master-ja-20-03.md	en/master-en-20-03.md	英語の正しい発音法 <!-- {#phonetics} --> > 英語の全方言で現れる母音一覧
+105	20-04	section	3	8095	8202	source/master-ja-20-04.md	en/master-en-20-04.md	英語の正しい発音法 <!-- {#phonetics} --> > 英語の全方言で現れる子音一覧
+106	20-05	section	3	8203	8237	source/master-ja-20-05.md	en/master-en-20-05.md	英語の正しい発音法 <!-- {#phonetics} --> > 英語の方言の一覧
+107	20-06	section	3	8238	8270	source/master-ja-20-06.md	en/master-en-20-06.md	英語の正しい発音法 <!-- {#phonetics} --> > (非表示)英語の方言の一覧(英語での説明)
+108	20-07	section	3	8271	8304	source/master-ja-20-07.md	en/master-en-20-07.md	英語の正しい発音法 <!-- {#phonetics} --> > 英語の方言の略称
+109	20-08	section	3	8305	8329	source/master-ja-20-08.md	en/master-en-20-08.md	英語の正しい発音法 <!-- {#phonetics} --> > 英語の方言による子音変化の一覧
+110	20-09	section	3	8330	8389	source/master-ja-20-09.md	en/master-en-20-09.md	英語の正しい発音法 <!-- {#phonetics} --> > 英語の方言による子音変化の地方別マトリックス
+111	20-10	section	3	8390	8444	source/master-ja-20-10.md	en/master-en-20-10.md	英語の正しい発音法 <!-- {#phonetics} --> > (非表示)方言による発音変化一覧(英語版)
+112	20-11	section	3	8445	8463	source/master-ja-20-11.md	en/master-en-20-11.md	英語の正しい発音法 <!-- {#phonetics} --> > IPAの全調音点(Places of Articulation)一覧
+113	20-12	section	3	8464	8629	source/master-ja-20-12.md	en/master-en-20-12.md	英語の正しい発音法 <!-- {#phonetics} --> > IPAでの全調音法(Manners of Articulation)一覧
+114	20-13	section	3	8630	8674	source/master-ja-20-13.md	en/master-en-20-13.md	英語の正しい発音法 <!-- {#phonetics} --> > (非表示) 音韻規則を表す表記法(SPE)
+115	20-14	section	3	8675	8711	source/master-ja-20-14.md	en/master-en-20-14.md	英語の正しい発音法 <!-- {#phonetics} --> > (非表示)音韻規則を表す時の発音変化位置の用語
+116	20-15	section	3	8712	8714	source/master-ja-20-15.md	en/master-en-20-15.md	英語の正しい発音法 <!-- {#phonetics} --> > 英語の音韻学の用語集
+117	20-16	section	3	8715	8838	source/master-ja-20-16.md	en/master-en-20-16.md	英語の正しい発音法 <!-- {#phonetics} --> >  英語でのCore Glossary for Describing Pronunciation Alterations
+118	21-00	preamble	2	8839	8840	source/master-ja-21-00.md	en/master-en-21-00.md	オフビートカウントの正しい発音 <!-- {#how-to-pronounce-the-offbeat-count-correctly} -->
+119	21-01	section	3	8841	8850	source/master-ja-21-01.md	en/master-en-21-01.md	オフビートカウントの正しい発音 <!-- {#how-to-pronounce-the-offbeat-count-correctly} --> > オフビートカウントとは
+120	21-02	section	3	8851	8863	source/master-ja-21-02.md	en/master-en-21-02.md	オフビートカウントの正しい発音 <!-- {#how-to-pronounce-the-offbeat-count-correctly} --> > オフビートカウントの意図
+121	21-03	section	3	8864	8915	source/master-ja-21-03.md	en/master-en-21-03.md	オフビートカウントの正しい発音 <!-- {#how-to-pronounce-the-offbeat-count-correctly} --> > 『ずらし読み』と『みなし読み』
+122	21-04	section	3	8916	8934	source/master-ja-21-04.md	en/master-en-21-04.md	オフビートカウントの正しい発音 <!-- {#how-to-pronounce-the-offbeat-count-correctly} --> > 日本人が聴き取れない６つの音韻規則＝リズム認識型 <!-- {#six-rhythm-recognition-types} -->
+123	21-05	section	3	8935	8958	source/master-ja-21-05.md	en/master-en-21-05.md	オフビートカウントの正しい発音 <!-- {#how-to-pronounce-the-offbeat-count-correctly} --> > 音韻規則の３つのレベルについて <!-- {#three-hierarchical-levels-of-phonological-rules-1} -->
+124	21-06	section	3	8959	9032	source/master-ja-21-06.md	en/master-en-21-06.md	オフビートカウントの正しい発音 <!-- {#how-to-pronounce-the-offbeat-count-correctly} --> > オフビートカウントで使う数字・記号・アルファベット
+125	21-07	section	3	9033	9066	source/master-ja-21-07.md	en/master-en-21-07.md	オフビートカウントの正しい発音 <!-- {#how-to-pronounce-the-offbeat-count-correctly} --> > カウント パターンとは
+126	21-08	section	3	9067	9076	source/master-ja-21-08.md	en/master-en-21-08.md	オフビートカウントの正しい発音 <!-- {#how-to-pronounce-the-offbeat-count-correctly} --> > 音韻表記厳密化とは何か <!-- {#prosodic-notation-strictification} -->
+127	21-09	section	3	9077	9102	source/master-ja-21-09.md	en/master-en-21-09.md	オフビートカウントの正しい発音 <!-- {#how-to-pronounce-the-offbeat-count-correctly} --> > 音韻表記厳密化の７つのレベル <!-- {#seven-levels-of-prosodic-notation-strictification} -->
+128	21-10	section	3	9103	9110	source/master-ja-21-10.md	en/master-en-21-10.md	オフビートカウントの正しい発音 <!-- {#how-to-pronounce-the-offbeat-count-correctly} --> > {{<meta var.PNS.en>}}レベルによって必要となる{{<meta var.PHONOLOGICAL_RULE_LEVELS.en>}} <!-- {#three-hierarchical-levels-of-phonological-rules} -->
+129	21-11	section	3	9111	9120	source/master-ja-21-11.md	en/master-en-21-11.md	オフビートカウントの正しい発音 <!-- {#how-to-pronounce-the-offbeat-count-correctly} --> > {{<meta var.PNSPTI.en>}}について   <!-- {#phonological-notation-strictification-perceptual-theoretical-inversion}-->
+130	21-12-00	preamble	3	9121	9128	source/master-ja-21-12-00.md	en/master-en-21-12-00.md	オフビートカウントの正しい発音 <!-- {#how-to-pronounce-the-offbeat-count-correctly} --> > ３つの基本カウントパターンについて
+131	21-12-01	section	4	9129	9136	source/master-ja-21-12-01.md	en/master-en-21-12-01.md	オフビートカウントの正しい発音 <!-- {#how-to-pronounce-the-offbeat-count-correctly} --> > ３つの基本カウントパターンについて > 音韻規則レベル１=音素レベル
+132	21-12-02	section	4	9137	9145	source/master-ja-21-12-02.md	en/master-en-21-12-02.md	オフビートカウントの正しい発音 <!-- {#how-to-pronounce-the-offbeat-count-correctly} --> > ３つの基本カウントパターンについて > 音韻規則レベル２=音節レベル
+133	21-12-03	section	4	9146	9490	source/master-ja-21-12-03.md	en/master-en-21-12-03.md	オフビートカウントの正しい発音 <!-- {#how-to-pronounce-the-offbeat-count-correctly} --> > ３つの基本カウントパターンについて > 音韻規則レベル３=韻律レベル
+134	21-13-00	preamble	3	9491	9494	source/master-ja-21-13-00.md	en/master-en-21-13-00.md	オフビートカウントの正しい発音 <!-- {#how-to-pronounce-the-offbeat-count-correctly} --> > 基底3⁻ⁿに於ける音韻表記厳密化 <!-- {#practical-prosodic-notation-strictification-in-three} -->
+135	21-13-01	section	4	9495	9589	source/master-ja-21-13-01.md	en/master-en-21-13-01.md	オフビートカウントの正しい発音 <!-- {#how-to-pronounce-the-offbeat-count-correctly} --> > 基底3⁻ⁿに於ける音韻表記厳密化 <!-- {#practical-prosodic-notation-strictification-in-three} --> > 音韻規則レベル１=音素レベル  <!-- {#ppns-1} -->
+136	21-13-02	section	4	9590	9690	source/master-ja-21-13-02.md	en/master-en-21-13-02.md	オフビートカウントの正しい発音 <!-- {#how-to-pronounce-the-offbeat-count-correctly} --> > 基底3⁻ⁿに於ける音韻表記厳密化 <!-- {#practical-prosodic-notation-strictification-in-three} --> > 音韻規則レベル２=音節レベル <!-- {#ppns-2} -->
+137	21-13-03	section	4	9691	9845	source/master-ja-21-13-03.md	en/master-en-21-13-03.md	オフビートカウントの正しい発音 <!-- {#how-to-pronounce-the-offbeat-count-correctly} --> > 基底3⁻ⁿに於ける音韻表記厳密化 <!-- {#practical-prosodic-notation-strictification-in-three} --> > 音韻規則レベル３=韻律レベル   <!-- {#ppns-3} -->
+138	21-13-04	section	4	9846	9986	source/master-ja-21-13-04.md	en/master-en-21-13-04.md	オフビートカウントの正しい発音 <!-- {#how-to-pronounce-the-offbeat-count-correctly} --> > 基底3⁻ⁿに於ける音韻表記厳密化 <!-- {#practical-prosodic-notation-strictification-in-three} --> > まとめ
+139	21-14	section	3	9987	10071	source/master-ja-21-14.md	en/master-en-21-14.md	オフビートカウントの正しい発音 <!-- {#how-to-pronounce-the-offbeat-count-correctly} --> > 付録
+140	22-00	preamble	2	10072	10077	source/master-ja-22-00.md	en/master-en-22-00.md	多層弱拍先行ポリリズム <!-- {#offbeat-count-polyrhythm} -->
+141	22-01	section	3	10078	10185	source/master-ja-22-01.md	en/master-en-22-01.md	"多層弱拍先行ポリリズム <!-- {#offbeat-count-polyrhythm} --> > <span id=""anchor""></span>はじめに"
+142	22-02	section	3	10186	10430	source/master-ja-22-02.md	en/master-en-22-02.md	"多層弱拍先行ポリリズム <!-- {#offbeat-count-polyrhythm} --> > <span id=""anchor-5""></span>四音基底リズム"
+143	22-03	section	3	10431	10495	source/master-ja-22-03.md	en/master-en-22-03.md	多層弱拍先行ポリリズム <!-- {#offbeat-count-polyrhythm} --> > 六音基底リズム
+144	22-04	section	3	10496	10536	source/master-ja-22-04.md	en/master-en-22-04.md	"多層弱拍先行ポリリズム <!-- {#offbeat-count-polyrhythm} --> > <span id=""anchor-24""></span>基底リズムの作り方"
+145	22-05	section	3	10537	10665	source/master-ja-22-05.md	en/master-en-22-05.md	"多層弱拍先行ポリリズム <!-- {#offbeat-count-polyrhythm} --> > <span id=""anchor-27""></span>三音基底リズム"
+146	22-06	section	3	10666	10773	source/master-ja-22-06.md	en/master-en-22-06.md	"多層弱拍先行ポリリズム <!-- {#offbeat-count-polyrhythm} --> > <span id=""anchor-42""></span>五音基底リズム"
+147	22-07	section	3	10774	10880	source/master-ja-22-07.md	en/master-en-22-07.md	"多層弱拍先行ポリリズム <!-- {#offbeat-count-polyrhythm} --> > <span id=""anchor-56""></span>七音基底リズム"
+148	22-08	section	3	10881	10940	source/master-ja-22-08.md	en/master-en-22-08.md	"多層弱拍先行ポリリズム <!-- {#offbeat-count-polyrhythm} --> > <span id=""anchor-69""></span>九音五四基底リズム"
+149	22-09	section	3	10941	11015	source/master-ja-22-09.md	en/master-en-22-09.md	"多層弱拍先行ポリリズム <!-- {#offbeat-count-polyrhythm} --> > <span id=""anchor-75""></span>十一音基底リズム"
+150	22-10	section	3	11016	11060	source/master-ja-22-10.md	en/master-en-22-10.md	"多層弱拍先行ポリリズム <!-- {#offbeat-count-polyrhythm} --> > <span id=""anchor-84""></span>十五音四四四三基底リズム"
+151	22-11	section	3	11061	11090	source/master-ja-22-11.md	en/master-en-22-11.md	"多層弱拍先行ポリリズム <!-- {#offbeat-count-polyrhythm} --> > <span id=""anchor-89""></span>二十一音基底リズム"
+152	22-12	section	3	11091	11134	source/master-ja-22-12.md	en/master-en-22-12.md	"多層弱拍先行ポリリズム <!-- {#offbeat-count-polyrhythm} --> > <span id=""anchor-92""></span>多重拍子・拍子置換・グルーヴ保持について"
+153	22-13	section	3	11135	11145	source/master-ja-22-13.md	en/master-en-22-13.md	"多層弱拍先行ポリリズム <!-- {#offbeat-count-polyrhythm} --> > <span id=""anchor-97""></span>おわりに"
+154	23	section	2	11146	11165	source/master-ja-23.md	en/master-en-23.md	リズムニュアンスを形づくる要素 <!-- {#dimensions-of-rhythmic-nuance} -->
+155	24	section	2	11166	11215	source/master-ja-24.md	en/master-en-24.md	縦乗りが起こるメカニズム <!-- {#mechanism-behind-tatenori}-->
+156	25-00	preamble	2	11216	11231	source/master-ja-25-00.md	en/master-en-25-00.md	縦乗りと動きの認識  <!-- {#influence-of-japanese-language-on-cognition} -->
+157	25-01	section	3	11232	11251	source/master-ja-25-01.md	en/master-en-25-01.md	縦乗りと動きの認識  <!-- {#influence-of-japanese-language-on-cognition} --> > 進路被りとは
+158	25-02	section	3	11252	11267	source/master-ja-25-02.md	en/master-en-25-02.md	縦乗りと動きの認識  <!-- {#influence-of-japanese-language-on-cognition} --> > 日本人がだけが知らない日本人の進路被り
+159	25-03	section	3	11268	11277	source/master-ja-25-03.md	en/master-en-25-03.md	縦乗りと動きの認識  <!-- {#influence-of-japanese-language-on-cognition} --> > 進路被りとの出会い
+160	25-04	section	3	11278	11287	source/master-ja-25-04.md	en/master-en-25-04.md	縦乗りと動きの認識  <!-- {#influence-of-japanese-language-on-cognition} --> > 進路被りを観察しやすい空港
+161	25-05	section	3	11288	11366	source/master-ja-25-05.md	en/master-en-25-05.md	縦乗りと動きの認識  <!-- {#influence-of-japanese-language-on-cognition} --> > 海外の人々にはよく知られている進路被り
+162	25-06	section	3	11367	11383	source/master-ja-25-06.md	en/master-en-25-06.md	縦乗りと動きの認識  <!-- {#influence-of-japanese-language-on-cognition} --> > 車と歩行者の間に見られる日本人の進路被り
+163	25-07	section	3	11384	11395	source/master-ja-25-07.md	en/master-en-25-07.md	縦乗りと動きの認識  <!-- {#influence-of-japanese-language-on-cognition} --> > 日本人独特な道路を横断する時の自動車の動きの認識
+164	25-08	section	3	11396	11409	source/master-ja-25-08.md	en/master-en-25-08.md	縦乗りと動きの認識  <!-- {#influence-of-japanese-language-on-cognition} --> > 歩道を走行しているバイクを避ける人々
+165	25-09	section	3	11410	11425	source/master-ja-25-09.md	en/master-en-25-09.md	縦乗りと動きの認識  <!-- {#influence-of-japanese-language-on-cognition} --> > 歩き方から見えてくる日本人の時間認識の違い
+166	25-10	section	3	11426	11457	source/master-ja-25-10.md	en/master-en-25-10.md	縦乗りと動きの認識  <!-- {#influence-of-japanese-language-on-cognition} --> > 道路横断時に見られる動作の認識の違い
+167	25-11	section	3	11458	11463	source/master-ja-25-11.md	en/master-en-25-11.md	縦乗りと動きの認識  <!-- {#influence-of-japanese-language-on-cognition} --> > 日本人の持つ時間認識の特徴
+168	25-12	section	3	11464	11481	source/master-ja-25-12.md	en/master-en-25-12.md	縦乗りと動きの認識  <!-- {#influence-of-japanese-language-on-cognition} --> > 音楽演奏する上での日本人の時間認識の違い
+169	25-13	section	3	11482	11545	source/master-ja-25-13.md	en/master-en-25-13.md	縦乗りと動きの認識  <!-- {#influence-of-japanese-language-on-cognition} --> > 時間認識の違いの本質
+170	25-14	section	3	11546	11579	source/master-ja-25-14.md	en/master-en-25-14.md	縦乗りと動きの認識  <!-- {#influence-of-japanese-language-on-cognition} --> > 未来を予想して動く人と過去に対して反応する人
+171	25-15	section	3	11580	11649	source/master-ja-25-15.md	en/master-en-25-15.md	縦乗りと動きの認識  <!-- {#influence-of-japanese-language-on-cognition} --> > 事例 - ぶつかりそうになる人
+172	25-16	section	3	11650	11721	source/master-ja-25-16.md	en/master-en-25-16.md	縦乗りと動きの認識  <!-- {#influence-of-japanese-language-on-cognition} --> > 縦乗りは、日本人の行動を全て支配する
+173	25-17	section	3	11722	11732	source/master-ja-25-17.md	en/master-en-25-17.md	縦乗りと動きの認識  <!-- {#influence-of-japanese-language-on-cognition} --> > まとめ
+174	26-00	preamble	2	11733	11737	source/master-ja-26-00.md	en/master-en-26-00.md	縦乗りがもたらす心理的問題 <!-- {#tatenori-and-psychology}-->
+175	26-01	section	3	11738	11765	source/master-ja-26-01.md	en/master-en-26-01.md	縦乗りがもたらす心理的問題 <!-- {#tatenori-and-psychology}--> > 縦乗りの一方向性について
+176	26-02	section	3	11766	11998	source/master-ja-26-02.md	en/master-en-26-02.md	縦乗りがもたらす心理的問題 <!-- {#tatenori-and-psychology}--> > 縦乗りと防衛機制
+177	26-03	section	3	11999	12171	source/master-ja-26-03.md	en/master-en-26-03.md	縦乗りがもたらす心理的問題 <!-- {#tatenori-and-psychology}--> > 縦乗りと十牛図 {#know-yourself}

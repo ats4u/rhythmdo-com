@@ -1,0 +1,4 @@
+#### 1
+Adriano Celentano: Why Is Everyone So Taken with American Music? This phenomenon has often been discussed in connection with American hegemony, but perhaps American music is rhythmically superior from a phonological point of view.
+
+American rhythm, whose stress-timed basis arose later than syllable-timed rhythm and became more complex, then mixed further with African, Latin, and Gaelic influences, acquired rhythms more diverse than those of other languages. That American rhythm has more complex and more interesting rhythmic structures than other languages can also be explained phonologically. Greater diversity and greater complexity give rhythm higher entertainment value. Perhaps that is why everyone likes American music. The reason may not be political, such as hegemony, alone. [Reference](https://x.com/ats4u/status/1949731441870549140)

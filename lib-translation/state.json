@@ -1,0 +1,12 @@
+{
+  "input_path": "/Users/ats/rhythmdo-com/offbeat-count/master-en.md",
+  "base_level": 2,
+  "max_level": 4,
+  "max_lines": 300,
+  "source_dir": "source",
+  "target_dir": "en",
+  "source_prefix": "master-ja",
+  "target_prefix": "master-en",
+  "chunk_count": 177,
+  "original_sha256": "62dfaef0162bba3088d57f83f033dcf71f792f892333c9ce554541450139e5bc"
+}

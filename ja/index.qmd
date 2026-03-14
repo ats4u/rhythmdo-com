@@ -10,7 +10,7 @@ execute:
 title-block: false
 ---
 
-**{{<meta var.RDO>}}**とはグルーヴを究める為の道場です。
+**{{<meta var.RDO.ja>}}**とはグルーヴを究める為の道場です。
 
 <div class="center-box">
 <div class="ats4u-twitter-video" >https://twitter.com/ats4u/status/2016178861759987767?ref_src=twsrc%5Etfw</div>
@@ -26,7 +26,7 @@ title-block: false
 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/2009911295362105437</div>
 </div>
 
-リズム道は、音楽のグルーヴを音韻学の見地から分析した<span style="font-size:120%">**{{<meta var.OFBCT>}}**</span>という理論に従って練習する道場です。
+リズム道は、音楽のグルーヴを音韻学の見地から分析した<span style="font-size:120%">**{{<meta var.OFBCT.ja>}}**</span>という理論に従って練習する道場です。
 
 <!-- Q2pl/9YPR+MKaTtE1LswGA==  -->
 

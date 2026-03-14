@@ -1,0 +1,2 @@
+### Rhythm Recognition Differs by Timed Rhythm
+The rhythm recognition of Japanese is academically called **mora-timed rhythm**. Looking globally, Japanese is the only language that has mora-timed rhythm. On the other hand, the rhythm recognition of English is academically called **stress-timed rhythm**. Languages of stress-timed rhythm are not only English, but when viewed globally, there are many others besides English, such as Russian and German.
