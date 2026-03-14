@@ -1,5 +1,5 @@
 ---
-title: 武道としてのリズムの道
+title: What Is Rhythmdo?
 format: html
 execute:
   enabled: true
@@ -11,13 +11,13 @@ title-block: false
 ---
 
 
-**{{<meta var.RDO.en>}}**とはグルーヴを究める為の道場です。
+**{{<meta var.RDO.en>}}** is a dojo for mastering groove.
 
 <div class="center-box">
 <div class="ats4u-twitter-video" >https://twitter.com/ats4u/status/2016178861759987767?ref_src=twsrc%5Etfw</div>
 </div>
 
-リズム道乱取り練習会の様子です。
+Scenes from a Rhythmdo randori practice session.
 
 <div class="center-box">
 <div class="ats4u-twitter-video" >https://twitter.com/ats4u/status/2029452413749608552</div>
@@ -27,7 +27,7 @@ title-block: false
 <div class="ats4u-twitter-video" >https://x.com/ats4u/status/2009911295362105437</div>
 </div>
 
-リズム道は、音楽のグルーヴを音韻学の見地から分析した<span style="font-size:120%">**{{<meta var.OFBCT.en>}}**</span>という理論に従って練習する道場です。
+Rhythmdo is a dojo that trains according to the theory called <span style="font-size:120%">**{{<meta var.OFBCT.en>}}**</span>, which analyzes musical groove from the perspective of phonology.
 
 <!-- Q2pl/9YPR+MKaTtE1LswGA==  -->
 
