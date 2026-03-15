@@ -160,6 +160,19 @@
       const slotInCollapsedNav = !!(slot && slot.closest('.navbar-collapse'));
 
       if (slot && !(isMobile && slotInCollapsedNav)) {
+        const slotLink = slot.closest('a.nav-link');
+        if (slotLink) {
+          slotLink.removeAttribute('href');
+          slotLink.setAttribute('role', 'presentation');
+          if (!slotLink.dataset.rhythmpressNeutralized) {
+            slotLink.addEventListener('click', function (event) {
+              if (event.target && event.target.closest && event.target.closest('#rhythmpress-lang-switcher')) return;
+              if (event.target && event.target.closest && event.target.closest('.rp-lang-switcher-dropdown')) return;
+              event.preventDefault();
+            });
+            slotLink.dataset.rhythmpressNeutralized = '1';
+          }
+        }
         while (slot.firstChild) slot.removeChild(slot.firstChild);
         slot.appendChild(dropdown);
         if (toolsWrap && !toolsWrap.hasChildNodes() && toolsWrap.parentNode) toolsWrap.parentNode.removeChild(toolsWrap);
