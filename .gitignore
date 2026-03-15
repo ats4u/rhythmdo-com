@@ -1,9 +1,8 @@
 /_site
 /.site
-/.site-en/
-/.site-ja/
 /.site-*/
 /.quarto/
+/lang-switcher.generated.mjs
 /_freeze/
 .DS_Store
 *.~undo-tree~
