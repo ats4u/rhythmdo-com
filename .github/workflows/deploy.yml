@@ -56,6 +56,21 @@ jobs:
           python -m pip install jupyter pyyaml
           pip install ./vendor/rhythmpress
 
+      - name: Install Chromium for social-card rendering
+        run: python -m playwright install --with-deps chromium
+
+      - name: Export Chromium path for rhythmpress
+        run: |
+          BROWSER_PATH="$(python - <<'PY'
+from playwright.sync_api import sync_playwright
+
+with sync_playwright() as p:
+    print(p.chromium.executable_path)
+PY
+)"
+          echo "RHYTHMPRESS_SOCIAL_BROWSER=${BROWSER_PATH}" >> "$GITHUB_ENV"
+          echo "Using browser: ${BROWSER_PATH}"
+
       # Optional: show versions for debugging
       - name: Show tool versions
         run: |
