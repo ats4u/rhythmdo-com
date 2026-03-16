@@ -26,10 +26,11 @@ jobs:
           python-version: '3.11'
           cache: 'pip'
 
-      - name: Install system deps (Quarto + yq + LilyPond + pandoc)
+      - name: Install system deps (Quarto + yq + LilyPond + pandoc + VL PGothic)
         run: |
           sudo apt-get update
-          sudo apt-get install -y wget lilypond pandoc rsync
+          sudo apt-get install -y wget lilypond pandoc rsync fonts-vlgothic
+          fc-list | grep -i "VL PGothic" | head
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         with:
