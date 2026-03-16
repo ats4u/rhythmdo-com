@@ -15,8 +15,6 @@ project:
     - "!README.md"
     - "!AGENTS.md"
     - "!AGENTS.override.md"
-  post-render:
-    - rhythmpress sitemap   # Sun, 31 Aug 2025 03:22:23 +0900 runs after every build
 
 resources:
   - Ads.txt
