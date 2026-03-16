@@ -61,13 +61,7 @@ jobs:
 
       - name: Export Chromium path for rhythmpress
         run: |
-          BROWSER_PATH="$(python - <<'PY'
-from playwright.sync_api import sync_playwright
-
-with sync_playwright() as p:
-    print(p.chromium.executable_path)
-PY
-)"
+          BROWSER_PATH="$(python -c 'from playwright.sync_api import sync_playwright; import sys; p = sync_playwright().start(); print(p.chromium.executable_path); p.stop()')"
           echo "RHYTHMPRESS_SOCIAL_BROWSER=${BROWSER_PATH}" >> "$GITHUB_ENV"
           echo "Using browser: ${BROWSER_PATH}"
 
