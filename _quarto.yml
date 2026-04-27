@@ -108,7 +108,8 @@ rhythmpress:
     viewport: 640x600
     screenshot-size: 1280x630
     hide-selector:
-      - ".sidebar, header, .quarto-title, #quarto-margin-sidebar, .quarto-secondary-nav"
+      - ".sidebar, header, .quarto-title, #quarto-margin-sidebar, .quarto-secondary-nav, .twitter-tweet, .ats4u-twitter-video"
+      - 'iframe[src*="twitter.com"], iframe[src*="x.com"], iframe[src*="platform.twitter.com"]'
       - 'a[aria-label="Fork me on GitHub"], img[alt="Fork me on GitHub"]'
     css:
       - |
