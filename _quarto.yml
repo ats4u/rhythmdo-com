@@ -102,6 +102,19 @@ format:
       body-width: 500px
       margin-width: 450px
       gutter-width: 0.5em
+rhythmpress:
+  social-cards:
+    allow-remote: true
+    viewport: 640x600
+    screenshot-size: 1280x630
+    hide-selector:
+      - ".sidebar, header, .quarto-title, #quarto-margin-sidebar, .quarto-secondary-nav"
+      - 'a[aria-label="Fork me on GitHub"], img[alt="Fork me on GitHub"]'
+    css:
+      - |
+        main#quarto-document-content > section:first-of-type > h3:first-child {
+          margin-top: 0 !important;
+        }
 var:
   # === Rhythmdo Series ===
   RDO:
