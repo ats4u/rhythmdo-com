@@ -108,13 +108,20 @@ rhythmpress:
     viewport: 640x600
     screenshot-size: 1280x630
     hide-selector:
-      - ".sidebar, header, .quarto-title, #quarto-margin-sidebar, .quarto-secondary-nav, .twitter-tweet, .ats4u-twitter-video"
-      - 'iframe[src*="twitter.com"], iframe[src*="x.com"], iframe[src*="platform.twitter.com"]'
+      # - ".sidebar, header, .quarto-title, #quarto-margin-sidebar, .quarto-secondary-nav, .twitter-tweet, .ats4u-twitter-video"
+      - ".sidebar,  #quarto-margin-sidebar, .quarto-secondary-nav"
+      # - ".ats4u-twitter-video, .twitter-tweet"
+      # - 'iframe[src*="twitter.com"], iframe[src*="x.com"], iframe[src*="platform.twitter.com"]'
       - 'a[aria-label="Fork me on GitHub"], img[alt="Fork me on GitHub"]'
     css:
       - |
         main#quarto-document-content > section:first-of-type > h3:first-child {
           margin-top: 0 !important;
+        }
+      - |
+        #title-block-header .quarto-title h1.title::before {
+          display: none !important;
+          content: none !important;
         }
 var:
   # === Rhythmdo Series ===
