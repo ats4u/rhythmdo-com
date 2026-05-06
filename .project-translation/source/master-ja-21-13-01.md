@@ -5,7 +5,7 @@
 が出来ません。ここからレベル３までの音韻厳密化を行います。
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-countset-n-1.ly
+.project-lilypond/shared/rhythmdo-countset-n-1.ly
 ```
 
 ##### レベル0 {{<meta var.MiOP.en>}} <!-- {#ppns-1-0} -->
@@ -14,7 +14,7 @@ common-ly/shared/rhythmdo-countset-n-1.ly
 この**レベル0音韻厳密化**です。
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv1-lv0-000.ly
+.project-lilypond/shared/rhythmdo-lv1-lv0-000.ly
 ```
 
 この表記方法には２つの解釈が考えられます。
@@ -41,7 +41,7 @@ common-ly/shared/rhythmdo-lv1-lv0-000.ly
 これはそのモーラ拍内に子音がない場合に更に目立つ問題となって表出します。それはそのモーラ内に子音がない場合、次の譜面で表される様に子音が前進することです。
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv1-lv0-001.ly
+.project-lilypond/shared/rhythmdo-lv1-lv0-001.ly
 ```
 
 この譜面は、モーラ拍リズムの**頭合わせリズム認識型**が発動した状態を模式的に表現しているものです。**Eight(8)** の部分に注目して下さい。ここでは２つの問題が起きています。１つ目は、日本語などのモーラ拍リズムの言語を話す人が、母音から始まる単語で英語話者が**暗黙のうちに発音する子音＝声門閉鎖音**を認識出来ない為に脱落が起こることです。
@@ -70,7 +70,7 @@ common-ly/shared/rhythmdo-lv1-lv0-001.ly
 この問題を解決する為に専用の練習方法が必要です。以下の譜は、シラブル拍リズムの{{<meta var.NI.en>}}リズム認識方が発動した状態を模式的に表しています。
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv1-lv1-000.ly
+.project-lilypond/shared/rhythmdo-lv1-lv1-000.ly
 ```
 
 この様にシラブル拍リズム言語を話す人々は、子音を弱拍位置で発音する習慣を持っています。
@@ -82,13 +82,13 @@ common-ly/shared/rhythmdo-lv1-lv1-000.ly
 次の譜は、シラブル拍リズム言語に於いて、末子音が頭子音にまとめられて発音される様子を模式的に表したものです。
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv1-lv2-tuplets-1.ly
+.project-lilypond/shared/rhythmdo-lv1-lv2-tuplets-1.ly
 ```
 
 **拡大表示**
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv1-lv2-tuplets-2.ly
+.project-lilypond/shared/rhythmdo-lv1-lv2-tuplets-2.ly
 ```
 
 **音韻規則レベル１ 音素レベル = 3⁻¹=1/3** で可能な音韻表記厳密化はレベル2までです。これ以降の音韻表記厳密化は音韻規則レベル2以上のカウント上で行う必要があります。

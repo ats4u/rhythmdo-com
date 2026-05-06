@@ -4,6 +4,6 @@
 これは１ディヴィジョンに３つのサブディヴィジョンを割り当てる数え方です。
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-countset-n-2.ly
+.project-lilypond/shared/rhythmdo-countset-n-2.ly
 ```
 

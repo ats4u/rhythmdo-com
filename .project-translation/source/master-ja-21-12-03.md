@@ -4,7 +4,7 @@
 これは１ディヴィジョンに２７つのサブディヴィジョンを割り当てる数え方です。
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-countset-n-3.ly
+.project-lilypond/shared/rhythmdo-countset-n-3.ly
 ```
 これは一瞥では理解が難しいですが、次のような法則になっています。
 

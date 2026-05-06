@@ -4,5 +4,5 @@
 This is a way of counting that assigns three subdivisions to one division.
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-countset-n-2.ly
+.project-lilypond/shared/rhythmdo-countset-n-2.ly
 ```

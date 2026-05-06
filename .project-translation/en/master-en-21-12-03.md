@@ -4,7 +4,7 @@
 This is a way of counting that assigns twenty-seven subdivisions to one division.
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-countset-n-3.ly
+.project-lilypond/shared/rhythmdo-countset-n-3.ly
 ```
 This is difficult to understand at a glance, but it follows the pattern below.
 

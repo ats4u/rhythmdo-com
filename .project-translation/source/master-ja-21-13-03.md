@@ -4,7 +4,7 @@
 
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-countset-n-3.ly
+.project-lilypond/shared/rhythmdo-countset-n-3.ly
 ```
 
 
@@ -14,7 +14,7 @@ common-ly/shared/rhythmdo-countset-n-3.ly
 詳細の説明は[レベル0](#ppns-1-0)に譲ります。
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv3-lv0-000.ly
+.project-lilypond/shared/rhythmdo-lv3-lv0-000.ly
 ```
 
 ##### レベル1 {{<meta var.NI.en>}}     <!-- {#ppns-3-1} -->
@@ -23,7 +23,7 @@ common-ly/shared/rhythmdo-lv3-lv0-000.ly
 詳細の説明は[レベル1](#ppns-1-1)に譲ります。
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv3-lv1-000.ly
+.project-lilypond/shared/rhythmdo-lv3-lv1-000.ly
 ```
 
 ##### レベル2 {{<meta var.MOP.en>}}    <!-- {#ppns-3-2} -->
@@ -32,7 +32,7 @@ common-ly/shared/rhythmdo-lv3-lv1-000.ly
 詳細の説明は[レベル2](#ppns-2-2)に譲ります。
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv3-lv2-000.ly
+.project-lilypond/shared/rhythmdo-lv3-lv2-000.ly
 % yllHg4q8KHrWnbDJSbHpig==
 ```
 
@@ -43,7 +43,7 @@ common-ly/shared/rhythmdo-lv3-lv2-000.ly
 ---
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-countset-n-3.ly
+.project-lilypond/shared/rhythmdo-countset-n-3.ly
 ```
 
 これに対して{{<meta var.PNI.en>}}厳密化を行うと次のようになります。
@@ -51,7 +51,7 @@ common-ly/shared/rhythmdo-countset-n-3.ly
 ---
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv3-001.ly
+.project-lilypond/shared/rhythmdo-lv3-001.ly
 ```
 
 ---
@@ -64,7 +64,7 @@ common-ly/shared/rhythmdo-lv3-001.ly
 
 **レベル3完成形**
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv3-lv3-002.ly
+.project-lilypond/shared/rhythmdo-lv3-lv3-002.ly
 ```
 
 ##### レベル4 {{<meta var.MPOP.en>}}  <!-- {#ppns-3-4} -->
@@ -74,7 +74,7 @@ common-ly/shared/rhythmdo-lv3-lv3-002.ly
 ---
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv3-001.ly
+.project-lilypond/shared/rhythmdo-lv3-001.ly
 ```
 ---
 
@@ -83,7 +83,7 @@ common-ly/shared/rhythmdo-lv3-001.ly
 ---
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv3-002.ly
+.project-lilypond/shared/rhythmdo-lv3-002.ly
 ```
 
 <!-- gXVPCyCcr8q4R4xc7qRdug== -->
@@ -96,7 +96,7 @@ common-ly/shared/rhythmdo-lv3-002.ly
 
 **レベル4完成形**
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv3-lv4-000.ly
+.project-lilypond/shared/rhythmdo-lv3-lv4-000.ly
 ```
 
 ##### レベル5 {{<meta var.MNI.en>}}   <!-- {#ppns-3-5} -->
@@ -106,7 +106,7 @@ common-ly/shared/rhythmdo-lv3-lv4-000.ly
 ---
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv3-002.ly
+.project-lilypond/shared/rhythmdo-lv3-002.ly
 ```
 ---
 
@@ -115,7 +115,7 @@ common-ly/shared/rhythmdo-lv3-002.ly
 ---
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv3-003.ly
+.project-lilypond/shared/rhythmdo-lv3-003.ly
 ```
 ---
 
@@ -125,7 +125,7 @@ common-ly/shared/rhythmdo-lv3-003.ly
 
 **レベル5完成形**
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv3-lv5-000.ly
+.project-lilypond/shared/rhythmdo-lv3-lv5-000.ly
 ```
 
 ##### レベル6 {{<meta var.MMOP.en>}}  <!-- {#ppns-3-6} -->
@@ -133,13 +133,13 @@ common-ly/shared/rhythmdo-lv3-lv5-000.ly
 これまでレベル5で表記法厳密化を行ったカウントパターン原型は次のようなものでした。
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv3-003.ly
+.project-lilypond/shared/rhythmdo-lv3-003.ly
 ```
 
 これに対して{{<meta var.MMOP.en>}}厳密化を行うと次のようになります。
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv3-004.ly
+.project-lilypond/shared/rhythmdo-lv3-004.ly
 ```
 
 ---
@@ -148,7 +148,7 @@ common-ly/shared/rhythmdo-lv3-004.ly
 
 **レベル6完成形**
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv3-lv6-000.ly
+.project-lilypond/shared/rhythmdo-lv3-lv6-000.ly
 ```
 
 <!-- tnccerY91FUWg8OQLyzadQ== -->

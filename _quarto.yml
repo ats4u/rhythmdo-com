@@ -21,11 +21,11 @@ resources:
   - _redirects
   - 404.html
   - attachments/*
-  - common-ly/*.ly
-  - common-ly/shared/*.ly
+  - .project-lilypond/*.ly
+  - .project-lilypond/shared/*.ly
 
 metadata:
-  lilypond-preamble: "common-ly/lilypond-preamble.ly"
+  lilypond-preamble: ".project-lilypond/lilypond-preamble.ly"
 
 website:
   site-url: "https://rhythmdo.com/"

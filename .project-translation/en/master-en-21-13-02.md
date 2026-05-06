@@ -9,13 +9,13 @@ The basic idea of Prosodic Notation Strictification at phonological rule level 2
 Let us look at the count pattern at phonological rule level 2.
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv2-lv3-000.ly
+.project-lilypond/shared/rhythmdo-lv2-lv3-000.ly
 ```
 
 To this two-layer count, we apply **Level 3 {{<meta var.PNI.en>}}**, which is the original purpose of Level 3 strictification. Concretely, by **shifting the notes by one so that & comes onto the strong beat**, we place it in a **weak-beat-precedence** arrangement.
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv2-lv3-001.ly
+.project-lilypond/shared/rhythmdo-lv2-lv3-001.ly
 ```
 
 With this, **Level 3 {{<meta var.PNI.en>}}** is complete. At the same time, it is necessary to apply the Level 1 {{<meta var.NI.en>}} and Level 2 {{<meta var.MOP.en>}} parts of strictification that we have been carrying out up to this point.
@@ -28,13 +28,13 @@ From the next section onward, we apply Level 1 and Level 2 {{<meta var.PNS.en>}}
 For details, see [Level 0](#ppns-1-0).
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-2-lv2-lv0-000.ly
+.project-lilypond/shared/rhythmdo-2-lv2-lv0-000.ly
 ```
 <!-- XVxETWgLnwCBjn4sfZX86g== -->
 
 <!--
 ```{.lilypond}
-% \include "common-ly/shared/rhythmdo-lv3-lv0.ly"
+% \include ".project-lilypond/shared/rhythmdo-lv3-lv0.ly"
 % bx/+Uzn54FezLD2lCPTzPQ==
 ```
 -->
@@ -43,7 +43,7 @@ common-ly/shared/rhythmdo-2-lv2-lv0-000.ly
 For details, see [Level 1](#ppns-1-1).
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv2-lv1.ly
+.project-lilypond/shared/rhythmdo-lv2-lv1.ly
 ```
 
 ##### Level 2 {{<meta var.MOP.en>}} <!-- {#ppns-2-2} -->
@@ -51,7 +51,7 @@ common-ly/shared/rhythmdo-lv2-lv1.ly
 To realize Level 2 {{<meta var.MOP.en>}}, the final consonants that had previously been pronounced on the second triplet are gathered into the onset consonant of the next syllable, that is, the third triplet at the second layer. Here I call this **onset-maximization processing**.
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv2-lv2.ly
+.project-lilypond/shared/rhythmdo-lv2-lv2.ly
 ```
 <!-- DjP07omgzmg47kjmALzX/w== -->
 
@@ -61,13 +61,13 @@ To realize Level 3 {{<meta var.PNI.en>}}, as explained at the beginning of this 
 
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv2-lv3.ly
+.project-lilypond/shared/rhythmdo-lv2-lv3.ly
 ```
 
 This looks complicated when viewed as notation, but as explained at the beginning of this chapter, if we remove the Level 1 and Level 2 strictification, it is simply shifted one first-layer triplet to the left.
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv2-lv3-001.ly
+.project-lilypond/shared/rhythmdo-lv2-lv3-001.ly
 ```
 
 ##### Level 4 {{<meta var.MPOP.en>}} <!-- {#ppns-2-4} -->
@@ -77,13 +77,13 @@ Level 4 pushes weak-beat precedence one stage further.
 At Level 3, we advanced the count by adding an offset in order to realize weak-beat precedence.
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv2-lv3-001.ly
+.project-lilypond/shared/rhythmdo-lv2-lv3-001.ly
 ```
 
 In that shifted state, by reading a first, we carry out double weak-beat precedence (Maximal Prosodic Onset).
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv2-lv4-000.ly
+.project-lilypond/shared/rhythmdo-lv2-lv4-000.ly
 ```
 
 If we apply Level 1 and Level 2 strictification in this state, the result is as follows.
@@ -91,7 +91,7 @@ If we apply Level 1 and Level 2 strictification in this state, the result is as 
 ---
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv2-lv4.ly
+.project-lilypond/shared/rhythmdo-lv2-lv4.ly
 ```
 
 ---

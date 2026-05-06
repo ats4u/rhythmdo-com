@@ -339,7 +339,7 @@ In ordinary notation, this becomes a rhythm close to 18/8.
 
 ```{.lilypond}
 \include "lilypond-book-preamble.ly"
-\include "common-ly/lilypond-preamble.ly"
+\include ".project-lilypond/lilypond-preamble.ly"
 
 gone = { \tuplet 3/2 { do16   do16_~ do16] }  }
 gtwo = { \tuplet 3/2 { do16_~ do16 do16] }  }
@@ -472,7 +472,7 @@ This completes tail-alignment optimization on the triplet grid.
 
 ```{.lilypond}
 \include "lilypond-book-preamble.ly"
-\include "common-ly/lilypond-preamble.ly"
+\include ".project-lilypond/lilypond-preamble.ly"
 
 gone = { \tuplet 3/2 { do16   do16_~ do16] }  }
 gtwo = { \tuplet 3/2 { do16_~ do16 do16] }  }

@@ -9,13 +9,13 @@
 音韻規則レベル2のカウントパターンを見てみます。
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv2-lv3-000.ly
+.project-lilypond/shared/rhythmdo-lv2-lv3-000.ly
 ```
 
 二層カウントに対してレベル3の本来の目的である音韻表記厳密化**レベル３{{<meta var.PNI.en>}}**を適用します。具体的には**音符を１つずらし&が強拍に来る様に配置**する事で**弱拍先行**の配置にします。
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv2-lv3-001.ly
+.project-lilypond/shared/rhythmdo-lv2-lv3-001.ly
 ```
 
 これで**レベル3 {{<meta var.PNI.en>}}** が完了しました。これと同時に、これまでに行ってきたレベル1 {{<meta var.NI.en>}}とレベル2 {{<meta var.MOP.en>}} の {{<meta var.PNI.en>}} を行う必要があります。
@@ -28,13 +28,13 @@ common-ly/shared/rhythmdo-lv2-lv3-001.ly
 詳細の説明は[レベル0](#ppns-1-0)に譲ります。
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-2-lv2-lv0-000.ly
+.project-lilypond/shared/rhythmdo-2-lv2-lv0-000.ly
 ```
 <!-- XVxETWgLnwCBjn4sfZX86g== -->
 
 <!--
 ```{.lilypond}
-% \include "common-ly/shared/rhythmdo-lv3-lv0.ly"
+% \include ".project-lilypond/shared/rhythmdo-lv3-lv0.ly"
 % bx/+Uzn54FezLD2lCPTzPQ==
 ```
 -->
@@ -43,7 +43,7 @@ common-ly/shared/rhythmdo-2-lv2-lv0-000.ly
 詳細の説明は[レベル1](#ppns-1-1)に譲ります。
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv2-lv1.ly
+.project-lilypond/shared/rhythmdo-lv2-lv1.ly
 ```
 
 ##### レベル2 {{<meta var.MOP.en>}}    <!-- {#ppns-2-2} -->
@@ -51,7 +51,7 @@ common-ly/shared/rhythmdo-lv2-lv1.ly
 レベル2{{<meta var.MOP.en>}}を実現する為に、今まで3連符2つ目で発音していた末子音を次の音節の頭子音(つまり2階層目の3連符の3つ目)にまとめます。これをここでは**頭子音最大化処理** と呼びます。
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv2-lv2.ly
+.project-lilypond/shared/rhythmdo-lv2-lv2.ly
 ```
 <!-- DjP07omgzmg47kjmALzX/w== -->
 
@@ -61,13 +61,13 @@ common-ly/shared/rhythmdo-lv2-lv2.ly
 
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv2-lv3.ly
+.project-lilypond/shared/rhythmdo-lv2-lv3.ly
 ```
 
 これは譜面を見ると複雑に見えますが、この章の冒頭で御説明した通り、レベル1レベル2の音韻表記厳密化を取り除くと単に1階層目の3連符1つ分を左に移動しただけもものです。
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv2-lv3-001.ly
+.project-lilypond/shared/rhythmdo-lv2-lv3-001.ly
 ```
 
 ##### レベル4 {{<meta var.MPOP.en>}}    <!-- {#ppns-2-4} -->
@@ -77,13 +77,13 @@ common-ly/shared/rhythmdo-lv2-lv3-001.ly
 レベル３で弱拍先行を実現する為、オフセット（ずれ）を付加することでカウントを早めました。
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv2-lv3-001.ly
+.project-lilypond/shared/rhythmdo-lv2-lv3-001.ly
 ```
 
 このずれをつけた状態で a を先に読むことで二重の弱拍先行（頭音節最大化）を行います。
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv2-lv4-000.ly
+.project-lilypond/shared/rhythmdo-lv2-lv4-000.ly
 ```
 
 この状態でレベル1レベル2の音韻表記厳密化を行うと次の様になります。
@@ -91,7 +91,7 @@ common-ly/shared/rhythmdo-lv2-lv4-000.ly
 ---
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv2-lv4.ly
+.project-lilypond/shared/rhythmdo-lv2-lv4.ly
 ```
 
 ---

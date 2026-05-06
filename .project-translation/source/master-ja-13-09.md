@@ -339,7 +339,7 @@ Aretha Franklin - Cold, Cold Heart
 
 ```{.lilypond}
 \include "lilypond-book-preamble.ly"
-\include "common-ly/lilypond-preamble.ly"
+\include ".project-lilypond/lilypond-preamble.ly"
 
 gone = { \tuplet 3/2 { do16   do16_~ do16] }  }
 gtwo = { \tuplet 3/2 { do16_~ do16 do16] }  }
@@ -472,7 +472,7 @@ gthr = { \tuplet 3/2 { do16   do16 do16] }  }
 
 ```{.lilypond}
 \include "lilypond-book-preamble.ly"
-\include "common-ly/lilypond-preamble.ly"
+\include ".project-lilypond/lilypond-preamble.ly"
 
 gone = { \tuplet 3/2 { do16   do16_~ do16] }  }
 gtwo = { \tuplet 3/2 { do16_~ do16 do16] }  }

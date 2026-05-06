@@ -7,14 +7,14 @@
 例えば以下のように八拍数えるとします。
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-count-offset-0.ly
+.project-lilypond/shared/rhythmdo-count-offset-0.ly
 % 2UKlRFbyT8gtj/zhdLXnQA==
 ```
 
 この時、グルーヴの四原則のうちの１つ**強拍先行**の存在を加味して考えると、4分音分１つが先行する弱起を踏まえて読む必要があります。 すると次のようになるでしょう。
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-count-mental-offset-1.ly
+.project-lilypond/shared/rhythmdo-count-mental-offset-1.ly
 % xpUbl1z3/e2qzfCKgn9NZA==
 ```
 
@@ -30,14 +30,14 @@ common-ly/shared/rhythmdo-count-mental-offset-1.ly
 みなし読みは、弱起が先行する感覚を掴んでいない人にはとても難しい読み方といえます。そこで、数字を一定量だけずらすことで、強制的に弱起が先行する感覚をつけるという方法が考え出されました。
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-count-offset-0.ly
+.project-lilypond/shared/rhythmdo-count-offset-0.ly
 % 2UKlRFbyT8gtj/zhdLXnQA==
 ```
 
 この時、グルーヴの四原則のうちの１つ**強拍先行**の存在を加味して考えると、4分音分１つが先行する弱起を**ずらす**ことで表現してみましょう。 すると次のようになるでしょう。
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-count-drift-offset-1.ly
+.project-lilypond/shared/rhythmdo-count-drift-offset-1.ly
 %  zyUaZvyO98TyXG7Gk4DRvQ==
 ```
 

@@ -3,7 +3,7 @@
 We will now apply Prosodic Notation Strictification to the count at phonological rule level 1. A count at phonological rule level 1 can undergo only the first three levels of Prosodic Notation Strictification. Below, we carry out the strictification through Level 2.
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-countset-n-1.ly
+.project-lilypond/shared/rhythmdo-countset-n-1.ly
 ```
 
 ##### Level 0 {{<meta var.MiOP.en>}} <!-- {#ppns-1-0} -->
@@ -11,7 +11,7 @@ common-ly/shared/rhythmdo-countset-n-1.ly
 First, after decomposing the notes into phonemes, the notation method that simply assigns the phonemes in order from the beginning is this **Level 0 strictification**.
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv1-lv0-000.ly
+.project-lilypond/shared/rhythmdo-lv1-lv0-000.ly
 ```
 
 Two interpretations are possible for this notation method.
@@ -38,7 +38,7 @@ Japanese (mora-timed rhythm), however, has isochrony in the cells themselves tha
 This becomes an even more conspicuous problem when the mora beat contains no consonant. In that case, as shown in the following score, the consonant advances.
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv1-lv0-001.ly
+.project-lilypond/shared/rhythmdo-lv1-lv0-001.ly
 ```
 
 This score schematically represents the state in which the **Head Alignment** rhythm recognition type of mora-timed rhythm is activated. Please pay attention to the **Eight (8)** portion. Two problems occur here. First, speakers of mora-timed languages such as Japanese cannot perceive the **implicitly pronounced consonant, namely the glottal stop**, that English speakers use in words beginning with vowels, so deletion occurs.
@@ -66,7 +66,7 @@ The first problem faced by speakers whose native language is mora-timed rhythm i
 To solve this problem, a dedicated practice method is needed. The following score schematically represents the state in which the {{<meta var.NI.en>}} rhythm recognition type of syllable-timed rhythm is activated.
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv1-lv1-000.ly
+.project-lilypond/shared/rhythmdo-lv1-lv1-000.ly
 ```
 
 In this way, speakers of syllable-timed languages have the habit of pronouncing consonants in weak-beat positions.
@@ -78,13 +78,13 @@ Syllable-timed languages also possess the {{<meta var.MOP.en>}} rhythm recogniti
 The following score schematically shows how, in syllable-timed languages, final consonants are bundled into onset consonants and pronounced.
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv1-lv2-tuplets-1.ly
+.project-lilypond/shared/rhythmdo-lv1-lv2-tuplets-1.ly
 ```
 
 **Zoomed View**
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv1-lv2-tuplets-2.ly
+.project-lilypond/shared/rhythmdo-lv1-lv2-tuplets-2.ly
 ```
 
 At **Phonological Rule Level 1, phoneme level = 3⁻¹=1/3**, Prosodic Notation Strictification is possible only through Level 2. Any further strictification must be performed on counts at phonological rule level 2 or above.

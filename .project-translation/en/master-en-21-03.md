@@ -7,14 +7,14 @@ Both shifted reading and assumed reading are methods for recognizing **anacrusis
 For example, suppose we count eight beats as follows.
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-count-offset-0.ly
+.project-lilypond/shared/rhythmdo-count-offset-0.ly
 % 2UKlRFbyT8gtj/zhdLXnQA==
 ```
 
 At this point, if we take into account **Strong-Beat Precedence**, one of the Four Principles of Groove, we need to read on the premise of an anacrusis led by one quarter note. Then it becomes as follows.
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-count-mental-offset-1.ly
+.project-lilypond/shared/rhythmdo-count-mental-offset-1.ly
 % xpUbl1z3/e2qzfCKgn9NZA==
 ```
 
@@ -30,14 +30,14 @@ Reading in this way, by assuming that the count has already come earlier, is cal
 Assumed reading is a very difficult way to read for people who have not yet grasped the sensation that an anacrusis precedes the beat. So a method was devised in which the numbers themselves are shifted by a fixed amount so that the sensation of a preceding anacrusis is acquired by force.
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-count-offset-0.ly
+.project-lilypond/shared/rhythmdo-count-offset-0.ly
 % 2UKlRFbyT8gtj/zhdLXnQA==
 ```
 
 Here, again taking into account **Strong-Beat Precedence**, one of the Four Principles of Groove, let us express the anacrusis led by one quarter note by **shifting** the count. Then it becomes as follows.
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-count-drift-offset-1.ly
+.project-lilypond/shared/rhythmdo-count-drift-offset-1.ly
 %  zyUaZvyO98TyXG7Gk4DRvQ==
 ```
 
