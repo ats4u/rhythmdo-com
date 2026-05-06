@@ -1,4 +1,4 @@
-# lib/git_dates.py
+# .project-lib/git_dates.py
 from __future__ import annotations
 import subprocess, os, functools, datetime, pathlib
 
@@ -52,4 +52,3 @@ def get_git_dates(path: str) -> tuple[str, str]:
     cdate = git_first_commit_date(path)
     mdate = git_last_commit_iso(path)
     return cdate, mdate
-

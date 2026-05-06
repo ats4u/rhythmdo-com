@@ -4549,12 +4549,14 @@ import os
 # parent = Path.cwd().parent.parent
 parent = os.getenv( "RHYTHMPRESS_ROOT" )
 
-if str(parent) not in sys.path:
-    sys.path.insert(0, str(parent))
+project_lib = Path(parent) / ".project-lib"
 
-## now imports from project root work
+if str(project_lib) not in sys.path:
+    sys.path.insert(0, str(project_lib))
 
-from lib.groovespace import *
+## now imports from project-local library work
+
+from groovespace import *
 ```
 
 リズムという情報の本質は多次元構造にあります。多次元の構造を持った情報が時間軸という１次元数直線上に展開されたものといえます。 私達が聴いている音楽のリズムは、リズムが持つ多次元立体図形が小節・拍・連符そして、マイクロタイミングなどの時間軸 に展開されたものです。つまりリズムは多次元情報の１次元投影といえます。
@@ -4816,12 +4818,14 @@ import os
 # parent = Path.cwd().parent.parent
 parent = os.getenv( "RHYTHMPRESS_ROOT" )
 
-if str(parent) not in sys.path:
-    sys.path.insert(0, str(parent))
+project_lib = Path(parent) / ".project-lib"
 
-## now imports from project root work
+if str(project_lib) not in sys.path:
+    sys.path.insert(0, str(project_lib))
 
-from lib.groovespace import *
+## now imports from project-local library work
+
+from groovespace import *
 
 
 ```

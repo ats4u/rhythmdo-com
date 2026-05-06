@@ -10,12 +10,14 @@ import os
 # parent = Path.cwd().parent.parent
 parent = os.getenv( "RHYTHMPRESS_ROOT" )
 
-if str(parent) not in sys.path:
-    sys.path.insert(0, str(parent))
+project_lib = Path(parent) / ".project-lib"
 
-## now imports from project root work
+if str(project_lib) not in sys.path:
+    sys.path.insert(0, str(project_lib))
 
-from lib.groovespace import *
+## now imports from project-local library work
+
+from groovespace import *
 ```
 
 The essence of rhythm as information lies in its multidimensional structure. Information with a multidimensional structure is unfolded onto the one-dimensional number line of time. The rhythm we hear in music is the multidimensional solid figure possessed by rhythm unfolded along the time axis of measures, beats, tuplets, and microtiming. In other words, rhythm can be said to be a one-dimensional projection of multidimensional information.

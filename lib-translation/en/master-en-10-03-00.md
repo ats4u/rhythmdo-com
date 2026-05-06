@@ -25,12 +25,14 @@ import os
 # parent = Path.cwd().parent.parent
 parent = os.getenv( "RHYTHMPRESS_ROOT" )
 
-if str(parent) not in sys.path:
-    sys.path.insert(0, str(parent))
+project_lib = Path(parent) / ".project-lib"
 
-## now imports from project root work
+if str(project_lib) not in sys.path:
+    sys.path.insert(0, str(project_lib))
 
-from lib.groovespace import *
+## now imports from project-local library work
+
+from groovespace import *
 
 
 ```

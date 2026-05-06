@@ -3,7 +3,7 @@ set -euo pipefail
 
 script_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 project_root="$(cd "$script_dir/.." && pwd)"
-tool="$project_root/lib/offbeat-count-translation.py"
+tool="$project_root/.project-lib/offbeat-count-translation.py"
 split_root="$project_root/lib-translation"
 state_path="$split_root/state.json"
 
