@@ -305,11 +305,11 @@ local function shorten(s, n)
   return s:sub(1, n - 1) .. "…"
 end
 
-local function build_image_block(svg_path, cb)
+local function build_image_block(svg_path, cb, fallback_alt)
   -- alt
   local alt = cb.attributes and cb.attributes.alt
   if not alt or alt == "" then
-    alt = shorten(first_nonempty_line(cb.text or "LilyPond"))
+    alt = fallback_alt or shorten(first_nonempty_line(cb.text or "LilyPond"))
   end
   local alt_inlines = { pandoc.Str(alt) }
 
@@ -413,14 +413,6 @@ local function handle_codeblock(cb)
   end
 end
 
-local function watch_hint(rel)
-  if FORMAT:match("html") then
-    return pandoc.RawBlock("html", ('<link rel="preload" href="%s" as="fetch">'):format(rel))
-  end
-  -- non-HTML (PDF) still benefits because dependency is tracked; return a meta string fallback
-  return pandoc.Para({ pandoc.Str(" ") })  -- harmless noop
-end
-
 -- ---------- new handler: lilypond-file (no refactor; standalone) ----------
 local function handle_lilypond_file(cb)
   mkdir_p(CFG.outdir)
@@ -457,14 +449,6 @@ local function handle_lilypond_file(cb)
   -- mark this source file as a dependency so Quarto watches it
   add_watch(abs_path)
   io.stderr:write("[lilypond.lua] add_watch: " .. abs_path .. "\n")
-
-  -- 2
-  -- compute rel path from project root
-  local rel = rel_from_root(abs_path)
-  local w = watch_hint(rel)
-  -- when you return the blocks for the image(s), append w:
-  -- blocks[#blocks+1] = w  (if w ~= nil)
-
 
   -- Effective source = preamble + file contents
   local effective = (META.preamble or "") .. bytes
@@ -519,10 +503,7 @@ local function handle_lilypond_file(cb)
 
   local blocks = {}
   for _, p in ipairs(svg_paths) do
-    blocks[#blocks+1] = build_image_block(p, cb)
-  end
-  if w ~= nil then
-    blocks[#blocks + 1] = w
+    blocks[#blocks+1] = build_image_block(p, cb, "LilyPond notation")
   end
   return blocks
 end
