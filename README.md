@@ -29,7 +29,7 @@
 
 このリポジトリは基本的に Quarto と呼ばれるwebパブリッシング・システムを使って管理されています。 Quarto では管理しきれないライフサイクルなどを[Rhythmpress](https://github.com/ats4u/rhythmpress) と呼ばれるCMSシステムを使って管理しています。Rhythmpress は リズム道を管理する為に専用に作られたCMSシステムです。
 
-全てのファイルは QMD ファイルで作成されています。 多くの図説（画像/譜面) はQuarto 上のフィルタとして書かれたプログラムによって自動的に生成されています。./filters/ ディレクトリに全てのフィルタが保存されていますので、そちらを参照して下さい。
+全てのファイルは QMD ファイルで作成されています。 多くの図説（画像/譜面) はQuarto 上のフィルタとして書かれたプログラムによって自動的に生成されています。./.quarto-filters/ ディレクトリに全てのフィルタが保存されていますので、そちらを参照して下さい。
 
 ### メモ
 
@@ -38,8 +38,8 @@
 Currently the easiest way to create a repository is replicating preexisting project.
 
 ```
-rsync -av $SRC/filters/             $DST/filters/
-rsync -av $SRC/.assets/             $DST/.assets/
+rsync -av $SRC/.quarto-filters/     $DST/.quarto-filters/
+rsync -av $SRC/.quarto-theme/       $DST/.quarto-theme/
 rsync -av $SRC/assets/              $DST/assets/
 rsync -av $SRC/.github/             $DST/.github/
 rsync -av $SRC/requirements.txt     $DST/requirements.txt

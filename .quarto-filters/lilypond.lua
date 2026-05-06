@@ -179,7 +179,7 @@ local function compile_svg(base_h)
 
   local args = {
     "--svg",
-    "-I", PROJECT_ROOT,   -- project root (so \include "filters/..." works)
+    "-I", PROJECT_ROOT,   -- project root for project-relative \include paths
     "-I", OUTDIR_ABS,     -- lilypond-out (where the temp .ly is)
     "-I", SRC_DIR,        -- the page directory (so ../../includes work)
     "-o", base_h,
@@ -562,4 +562,3 @@ return {
   { Meta=Meta },
   { CodeBlock = CodeBlock },
 }
-

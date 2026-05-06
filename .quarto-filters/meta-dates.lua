@@ -1,4 +1,4 @@
--- filters/meta-dates.lua
+-- .quarto-filters/meta-dates.lua
 function Meta(meta)
   local function S(x) return pandoc.utils.stringify(x) end
   local hi = meta['header-includes'] or {}
@@ -22,4 +22,3 @@ function Meta(meta)
   meta['header-includes'] = hi
   return meta
 end
-

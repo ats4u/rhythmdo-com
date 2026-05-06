@@ -43,11 +43,11 @@ format:
     lightbox: true
     reference-location: block
     filters:
-      - filters/meta-dates.lua
-      - filters/include-files.lua
-      - filters/lilypond.lua
-      - filters/remove-softbreaks.lua
-#      - filters/obsidian-image-dimensions.lua
+      - .quarto-filters/meta-dates.lua
+      - .quarto-filters/include-files.lua
+      - .quarto-filters/lilypond.lua
+      - .quarto-filters/remove-softbreaks.lua
+#      - .quarto-filters/obsidian-image-dimensions.lua
     toc: true
     toc-location: right
     toc-depth: 7
