@@ -5,7 +5,7 @@
 .quarto-title h1:first-of-type::before {
   content: "";
   display: inline-block;
-  background-image: url("/attachments/rhythmdo-logo-ja-light.png");
+  background-image: url("../attachments/rhythmdo-logo-ja-light.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -16,15 +16,15 @@
 }
 
 body.quarto-dark .quarto-title h1:first-of-type::before {
-  background-image: url("/attachments/rhythmdo-logo-ja-dark.png");
+  background-image: url("../attachments/rhythmdo-logo-ja-dark.png");
 }
 
 html[lang|="en"] .quarto-title h1:first-of-type::before {
-  background-image: url("/attachments/rhythmdo-logo-en-light.png");
+  background-image: url("../attachments/rhythmdo-logo-en-light.png");
 }
 
 html[lang|="en"] body.quarto-dark .quarto-title h1:first-of-type::before {
-  background-image: url("/attachments/rhythmdo-logo-en-dark.png");
+  background-image: url("../attachments/rhythmdo-logo-en-dark.png");
 }
 
 .sidebar-logo-link img.sidebar-logo {
@@ -41,19 +41,19 @@ html[lang|="en"] body.quarto-dark .quarto-title h1:first-of-type::before {
 }
 
 .quarto-light .sidebar-logo-link {
-  background-image: url("/attachments/rhythmdo-logo-ja-light.png");
+  background-image: url("../attachments/rhythmdo-logo-ja-light.png");
 }
 
 .quarto-dark .sidebar-logo-link {
-  background-image: url("/attachments/rhythmdo-logo-ja-dark.png");
+  background-image: url("../attachments/rhythmdo-logo-ja-dark.png");
 }
 
 html[lang|="en"] .quarto-light .sidebar-logo-link {
-  background-image: url("/attachments/rhythmdo-logo-en-light.png");
+  background-image: url("../attachments/rhythmdo-logo-en-light.png");
 }
 
 html[lang|="en"] .quarto-dark .sidebar-logo-link {
-  background-image: url("/attachments/rhythmdo-logo-en-dark.png");
+  background-image: url("../attachments/rhythmdo-logo-en-dark.png");
 }
 
 .navbar-title {
@@ -65,17 +65,17 @@ html[lang|="en"] .quarto-dark .sidebar-logo-link {
 }
 
 .quarto-light .navbar-brand-logo {
-  --src: url("/attachments/rhythmdo-logo-ja-light.png");
+  --src: url("../attachments/rhythmdo-logo-ja-light.png");
 }
 
 .quarto-dark .navbar-brand-logo {
-  --src: url("/attachments/rhythmdo-logo-ja-dark.png");
+  --src: url("../attachments/rhythmdo-logo-ja-dark.png");
 }
 
 html[lang|="en"] .quarto-light .navbar-brand-logo {
-  --src: url("/attachments/rhythmdo-logo-en-light.png");
+  --src: url("../attachments/rhythmdo-logo-en-light.png");
 }
 
 html[lang|="en"] .quarto-dark .navbar-brand-logo {
-  --src: url("/attachments/rhythmdo-logo-en-dark.png");
+  --src: url("../attachments/rhythmdo-logo-en-dark.png");
 }
