@@ -52,6 +52,13 @@ format:
     toc-location: right
     toc-depth: 7
     toc-expand: 1
+    css:
+      - assets/rhythmdo-lightbox.css
+      - assets/rhythmdo-video-embed.css
+      - assets/rhythmdo-offbeat-table.css
+      - assets/rhythmdo-twitter-video.css
+      - assets/rhythmdo-lilypond.css
+      - assets/rhythmdo-dark-mode.css
     include-in-header:
       - text: |
           <meta name="google-site-verification" content="JE4bBo-b8pDcRaa8nLTGBnzJ1cFsovnaxr0iAjefqBg" />

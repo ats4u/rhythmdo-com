@@ -1,0 +1,49 @@
+/*
+ * Offbeat/onbeat comparison tables.
+ */
+
+table.offbeat-onbeat-table {
+  border-collapse: collapse;
+  border: black 1px solid;
+  text-align: center;
+  width: 100%;
+  table-layout: fixed;
+}
+
+table.offbeat-onbeat-table th,
+table.offbeat-onbeat-table td {
+  border: 1px solid black;
+}
+
+table.offbeat-onbeat-table tr th {
+  width: 5em;
+  overflow: hidden;
+  font-size: smaller;
+  font-weight:1000;
+  background-color: green;
+  color: white;
+  white-space: nowrap;
+}
+table.offbeat-onbeat-table tr th:not(:first-of-type) {
+  background-color: orange;
+  color: white;
+}
+
+body.quarto-dark  table.offbeat-onbeat-table th  {
+  background-color: green;
+  color: white;
+  font-weight:1000;
+}
+
+table.offbeat-onbeat-table td {
+  font-size: small;
+  background-color:orange;
+  color:white;
+  font-weight:1000;
+}
+
+table.offbeat-onbeat-table td.offbeat-td {
+  background-color:white !important;
+  color:black !important;
+  font-weight:400;
+}

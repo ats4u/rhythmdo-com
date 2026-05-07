@@ -1,0 +1,13 @@
+/*
+ * Lightbox image sizing.
+ */
+
+@media (min-width: 768px) {
+  .lightbox img {
+    max-width: 500px !important;
+    height: auto !important;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}

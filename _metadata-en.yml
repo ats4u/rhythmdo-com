@@ -38,6 +38,5 @@ format:
     theme:
       light : [ cosmo,  .quarto-theme/websites/theme.scss, .quarto-theme/websites/theme-light.scss ]
       dark  : [ darkly, .quarto-theme/websites/theme.scss, .quarto-theme/websites/theme-dark.scss  ]
-    css: assets/styles.css
 
 # vim: set wrap ts=2 sw=2 isk+=- breakat= ve=all nowrap :
