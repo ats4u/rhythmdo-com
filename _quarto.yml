@@ -53,12 +53,17 @@ format:
     toc-depth: 7
     toc-expand: 1
     css:
+      - assets/rhythmdo-theme-fonts.css
+      - assets/rhythmdo-theme-branding.css
+      - assets/rhythmdo-theme-typography.css
+      - assets/rhythmdo-theme-quarto-layout.css
+      - assets/rhythmdo-theme-quarto-navigation.css
       - assets/rhythmdo-lightbox.css
       - assets/rhythmdo-video-embed.css
       - assets/rhythmdo-offbeat-table.css
       - assets/rhythmdo-twitter-video.css
       - assets/rhythmdo-lilypond.css
-      - assets/rhythmdo-dark-mode.css
+      - assets/rhythmdo-theme-dark-mode.css
     include-in-header:
       - text: |
           <meta name="google-site-verification" content="JE4bBo-b8pDcRaa8nLTGBnzJ1cFsovnaxr0iAjefqBg" />

@@ -1,0 +1,90 @@
+/*
+ * Global rhythmdo.com typography and document-content spacing.
+ */
+
+:root {
+  --rhythmdo-theme-line-height: 1.5em;
+  --bs-font-weight-bold: 1000;
+}
+
+body {
+  line-height: var(--rhythmdo-theme-line-height);
+}
+
+.quarto-article b,
+.quarto-article strong {
+  font-weight: var(--bs-font-weight-bold) !important;
+}
+
+.quarto-sidebar,
+.sidebar ul,
+.sidebar li {
+  line-height: var(--rhythmdo-theme-line-height);
+}
+
+.nav-link,
+.sidebar nav[role="doc-toc"] > ul,
+.quarto-title-breadcrumbs .breadcrumb,
+.margin-sidebar,
+.sidebar-item {
+  font-size: inherit !important;
+  line-height: var(--rhythmdo-theme-line-height);
+}
+
+@supports (-moz-appearance: none) {
+  rt {
+    line-height: 1.0em;
+    margin-bottom: -0.5em;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 1000;
+  margin: 15px 0 0 0;
+  margin-top: 40px;
+  margin-bottom: 5px;
+  padding: 0;
+  padding-left: 15px;
+  padding-bottom: 5px;
+}
+
+h1 {
+  text-align: center;
+  padding: 30px 0 30px 0;
+}
+
+h2 {
+  text-align: center;
+  padding: 30px 0 30px 0;
+  border: double 5px silver;
+  border-bottom: 5px silver double;
+}
+
+h3 {
+  border-bottom: 5px silver double;
+}
+
+h4 {
+  border-bottom: 3px silver solid;
+}
+
+h5,
+h6 {
+  border-bottom: 1px silver solid;
+}
+
+ul:not(ul ul):not(ul ol),
+ol:not(ol ol):not(ol ul) {
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+
+dl:not(dl dl):not(dl ul):not(dl ol) {
+  margin-left: 1em;
+  margin-bottom: 1em;
+}

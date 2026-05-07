@@ -1,0 +1,25 @@
+/*
+ * Quarto layout adjustments that are independent from content feature packs.
+ */
+
+#quarto-sidebar > h2,
+.sidebar-title,
+#toc-title {
+  display: none !important;
+}
+
+.center-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center-box blockquote,
+.center-box div,
+.center-box iframe {
+  width: 100%;
+}
+
+.sidebar-navigation {
+  padding-left: 0 !important;
+}

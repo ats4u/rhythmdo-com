@@ -1,9 +1,0 @@
-/*
- * Dark-mode extensions.
- */
-
-.quarto-dark img.lilypond {
-  filter: invert(1) hue-rotate(180deg) contrast(0.9) saturate(1.1);
-}
-
-.quarto-dark img.lilypond[src$=".png"] { filter: none; }
