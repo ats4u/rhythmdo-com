@@ -161,9 +161,9 @@ var:
 
   # MOP: "<ruby><rb>頭子音最大化原則</rb><rt>MOP=Maximum Onset Principle</rt></ruby>"
   # MiOP: "<ruby><rb>頭子音最小化原則</rb><rt>MiOP=Minimum Onset Principle</rt></ruby>"
-  # MPOP: "<ruby><rb>頭音節最大化原則</rb><rt>MPOP=Maximal Prosodic Onset Principle</rt></ruby>"
+  # MPOP: "<ruby><rb>頭音節最大化原則</rb><rt>MPOP=Maximum Prosodic Onset Principle</rt></ruby>"
   # MiPOP: "<ruby>頭音節最小化原則<rt>MiPOP = Minimum Prosodic Onset Principle</rt></ruby>"
-  # MMOP: "<ruby>韻律的頭音節最大化原則<rt>MMOP = Maximal Metric Onset Principle</rt></ruby>"
+  # MMOP: "<ruby>韻律的頭音節最大化原則<rt>MMOP = Maximum Metric Onset Principle</rt></ruby>"
   # MiMOP: "<ruby>韻律的頭音節最小化原則<rt>MiMOP = Minimum Metric Onset Principle</rt></ruby>"
 
   # === Multi-Layered Weak-Beat Precedence ===
@@ -279,8 +279,8 @@ var:
     ja: "<ruby><rb>横乗りの四条件</rb><rt>Four Conditions of Groove</rt></ruby>"
     en: "Four Conditions of Groove"
   CONDITIONS_OF_TATENORI:
-    ja: "<ruby><rb>縦乗りの四条件</rb><rt></rt></ruby>"
-    en: "Four Conditions of Tatenori"
+    ja: "<ruby><rb>縦乗りの四条件</rb><rt>Four Conditions of Anti-Groove</rt></ruby>"
+    en: "Four Conditions of Anti-Groove"
   POSTCENTRIC:
     ja: "<ruby><rb>ポストセントリック</rb><rt>Postcentric</rt></ruby>"
     en: "Postcentric"
@@ -382,14 +382,14 @@ var:
     ja: "<ruby><rb>頭音節最小化原則</rb><rt>MiPOP = Minimum Prosodic Onset Principle</rt></ruby>"
     en: "Minimum Prosodic Onset Principle (MiPOP)"
   MPOP:
-    ja:  "<ruby><rb>頭音節最大化原則</rb><rt>MPOP = Maximal Prosodic Onset Principle</rt></ruby>"
-    en:  "Maximal Prosodic Onset Principle (MPOP)"
+    ja:  "<ruby><rb>頭音節最大化原則</rb><rt>MPOP = Maximum Prosodic Onset Principle</rt></ruby>"
+    en:  "Maximum Prosodic Onset Principle (MPOP)"
   MiMOP:
     ja: "<ruby><rb>韻律的頭音節最小化原則</rb><rt>MiMOP = Minimum Metric Onset Principle</rt></ruby>"
     en: "Minimum Metric Onset Principle (MiMOP)"
   MMOP:
-    ja:  "<ruby><rb>韻律的頭音節最大化原則</rb><rt>MMOP = Maximal Metric Onset Principle</rt></ruby>"
-    en:  "Maximal Metric Onset Principle (MMOP)"
+    ja:  "<ruby><rb>韻律的頭音節最大化原則</rb><rt>MMOP = Maximum Metric Onset Principle</rt></ruby>"
+    en:  "Maximum Metric Onset Principle (MMOP)"
   MI:
     ja:    "<ruby><rb>モーラ拍の等時性</rb><rt>MI = Mora Isochrony</rt></ruby>"
     en:    "Mora Isochrony (MI)"
@@ -435,8 +435,8 @@ var:
     ja: "<ruby><rb>再帰的韻律同一性原理</rb><rt>RPEP=Recursive Prosodic Equivalence Principle</rt></ruby>"
     en: "Recursive Prosodic Equivalence Principle (RPEP)"
   RMOP:
-    ja: "<ruby><rb>律動的頭子音最大化原則</rb><rt>RMOP=Rhythmic Maximal Onset Principle</rt></ruby>"
-    en: "Rhythmic Maximal Onset Principle (RMOP)"
+    ja: "<ruby><rb>律動的頭子音最大化原則</rb><rt>RMOP=Rhythmic Maximum Onset Principle</rt></ruby>"
+    en: "Rhythmic Maximum Onset Principle (RMOP)"
 
   # === Schizorhythmos And Solirhythmos ===
   ONSET_STRUCTURING_AXIS:
