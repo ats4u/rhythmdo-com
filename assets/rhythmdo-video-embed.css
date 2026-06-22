@@ -1,0 +1,13 @@
+/*
+ * Responsive video embeds.
+ *
+ * The rhythmpedia-iframe selector is still used by active offbeat-count
+ * masters.
+ */
+
+.rhythmpedia-iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: 0;
+    max-width:540px;
+}

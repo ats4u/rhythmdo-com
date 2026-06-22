@@ -1,0 +1,58 @@
+/*
+ * Dark-mode extensions.
+ */
+
+body.quarto-dark h1,
+body.quarto-dark h2,
+body.quarto-dark h3,
+body.quarto-dark h4,
+body.quarto-dark h5,
+body.quarto-dark h6 {
+  color: #4488ff;
+  font-weight: 1200;
+}
+
+body.quarto-dark {
+  --bs-body-bg: #000000;
+  --bs-body-color: #eeeeee;
+  --bs-border-color: #1c2128;
+  --bs-card-bg: #0f1115;
+  --bs-link-color: #8ab4f8;
+  --bs-link-hover-color: #a5c8ff;
+  --bs-code-color: #c9d1d9;
+}
+
+body.quarto-dark #quarto-sidebar,
+body.quarto-dark .sidebar,
+body.quarto-dark .sidebar .sidebar-menu-container {
+  background-color: #000000 !important;
+  border-right: 1px solid #1c2128 !important;
+}
+
+body.quarto-dark #quarto-sidebar .sidebar-item a {
+  color: #e6edf3;
+}
+
+body.quarto-dark #quarto-sidebar .sidebar-item a:hover {
+  background-color: #0f141a;
+  color: #ffffff;
+}
+
+body.quarto-dark #quarto-sidebar .active > a,
+body.quarto-dark #quarto-sidebar .sidebar-item a.active {
+  background-color: #11151b;
+  color: #ffffff;
+}
+
+body.quarto-dark #quarto-margin-sidebar {
+  background-color: #000000 !important;
+  border-left: 1px solid #1c2128 !important;
+}
+
+.quarto-dark img.lilypond {
+  filter: invert(1) hue-rotate(180deg) contrast(0.9) saturate(1.1);
+}
+
+.quarto-dark img.lilypond[src$=".png"] {
+  filter: none;
+}

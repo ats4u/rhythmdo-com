@@ -1,0 +1,50 @@
+/*
+ * Quarto navigation, breadcrumb, footer, and navbar workarounds.
+ */
+
+.nav-page {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #ddd;
+}
+
+.nav-page a {
+  display: inline-block;
+  background: var(--bs-primary);
+  color: white !important;
+  padding: 0.6rem 1.2rem;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  transition: background 0.2s ease-in-out;
+}
+
+.nav-page a:hover {
+  background: var(--bs-primary-dark, #0056b3);
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: flex-end;
+}
+
+.breadcrumb li,
+.breadcrumb a {
+  display: inline-flex;
+  align-items: flex-end;
+}
+
+.nav-footer-left,
+.nav-footer-right {
+  white-space: nowrap;
+}
+
+#quarto-search .aa-Autocomplete + .aa-Autocomplete {
+  display: none !important;
+}
+
+.navbar-toggler {
+  display: none !important;
+}
