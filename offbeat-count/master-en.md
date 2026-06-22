@@ -20,7 +20,7 @@ When viewed phonologically, the Japanese rhythmic blind spot is caused by the fo
 - The three blind spots of Japanese people
   - Vowel isochrony
     - (approximately: cannot hear offbeats)
-  - Maximize Onset Principle
+  - Maximum Onset Principle
     - (approximately: cannot hear offbeat precedence)
   - Intrusive final consonants
     - (approximately: cannot hear ghost notes on offbeats)
@@ -181,7 +181,7 @@ Then how can one overcome tatenori? That is also the purpose of this text. Over 
 ### Strong-Beat Precedence and Weak-Beat Precedence
 When notes appear as a pair of two in a form such as leading tones, when that pair always begins from a weak beat, this is called **weak-beat precedence**.
 
-When notes appear as a pair of two in a form such as leading tones, when that pair always begins from a weak beat, this is called **strong-beat precedence**.
+When notes appear as a pair of two in a form such as leading tones, when that pair always begins from a strong beat, this is called **strong-beat precedence**.
 
 Or, even when notes do not become a pair of two and appear alone, it is also called **strong-beat precedence**.
 
@@ -232,6 +232,36 @@ As for what kind of sound **3⁻ⁿ rhythm** is, we actually listen to it in [Th
 As for **3⁻ⁿ rhythm** and **2⁻ⁿ rhythm**, we look at the theoretical details in [3⁻ⁿ Groove and 2⁻ⁿ Groove](/offbeat-count/three-to-n-groove-theory/ja/)
 
 As for what kind of sound **2⁻ⁿ rhythm** is, we have prepared some samples in [Why Are Japanese People Tatenori?](/tatenori-theory/ja/).
+
+### {{<meta var.MiOP.en>}} and {{<meta var.MOP.en>}}
+
+The **Minimum Onset Principle** refers to the tendency not to group final consonants and consonant clusters into a single onset cluster, but instead to place each one afterward as an independent mora. This is a feature of mora-timed rhythm. In this book, it corresponds to **Strong-Beat Precedence**, in which subsequent elements are added to a strong beat that has already been perceived.
+
+By contrast, the **Maximum Onset Principle** assigns consonants between syllables to the onset of the following syllable as far as the language's syllable structure permits. Because the onset precedes the syllable nucleus, this book associates it with **Weak-Beat Precedence**, in which a weak beat anticipates the following strong beat.
+
+### {{<meta var.FRONT_FOCUS.en>}} and {{<meta var.END_FOCUS.en>}}
+
+Here, **Front-Focus** and **End-Focus** do not refer to grammatical information focus. They are terms specific to this book that indicate whether the beginning or the end serves as the reference point when an utterance is organized in time.
+
+With **Front-Focus**, the beginning of the utterance is established first, and subsequent elements are then added after it. When this temporal perception is projected onto music, it becomes **Head Alignment**, which aligns starting positions without fixing the ending.
+
+With **End-Focus**, the endpoint of the utterance is anticipated, and preceding elements are arranged toward it. When this temporal perception is projected onto music, it becomes **Tail Alignment**, which aligns ending positions rather than starting positions.
+
+### {{<meta var.MORA_ISOCHRONY.en>}} and {{<meta var.SYLLABLE_NUCLEUS_ISOCHRONY.en>}}
+
+Here, **isochrony** does not mean that every sound has exactly the same physical duration. It refers to the tendency for a particular unit of pronunciation to recur as a perceptual reference for time.
+
+With **Mora Isochrony**, the mora is the basic unit for measuring time, and the beginning of each mora serves as the reference point for temporal perception. In this book, this perception corresponds to the **Strong-Beat Anchoring Axis**, in which the strong-beat position remains fixed while the weak beat is adjusted.
+
+With **Syllable-Nucleus Isochrony**, pronunciation is organized by anticipating the position of the syllable nucleus or P-center that follows the onset. This book hypothesizes that, when projected onto music, this anticipation becomes the **Weak-Beat Anchoring Axis**, in which the position of the strong beat is adjusted relative to a preceding weak beat.
+
+### {{<meta var.FINAL_CONSONANT_AVOIDANCE.en>}} and {{<meta var.FINAL_CONSONANT_INTRUSIVENESS.en>}}
+
+**Final-Consonant Avoidance** is the tendency to strongly restrict consonants that can occur at the end of a syllable and to avoid final consonants through vowel insertion or division into independent morae.
+
+By contrast, **Final-Consonant Intrusiveness** is a term specific to this book for the property of retaining a final consonant after the syllable nucleus, allowing that consonant to cross the boundary into the following syllable and influence the organization of pronunciation and rhythm.
+
+This book associates the perception that divides final consonants into independent units with **2⁻ⁿ Rhythm**, and the perception that connects adjacent units across syllable boundaries with **3⁻ⁿ Rhythm**. This correspondence is a theoretical hypothesis of this book and will be examined through concrete examples in later sections.
 
 
 ## Why Are Japanese People Tatenori <!-- {#tatenori-theory} -->
@@ -783,7 +813,7 @@ The above is a schematic representation of the state when a pronunciation in str
 
 In English, accent is placed on vowels, and consonants are pronounced as if attached before them. If one compares this to strong beats and weak beats in music, one notices that it is as though there is the same element as musical anacrusis. By performing as if attaching the anacrusis first and then performing the strong beat, a springing rhythmic atmosphere is brewed.
 
-In overseas phonology, the tendency to perform the weak beat first as much as possible in this way is called the **Maximize Onset Principle (MOP=Maximize Onset Principle)**. This Maximize Onset Principle will be looked at in more detail in later sections.
+In overseas phonology, the tendency to perform the weak beat first as much as possible in this way is called the **Maximum Onset Principle (MOP=Maximum Onset Principle)**. This Maximum Onset Principle will be looked at in more detail in later sections.
 
 In Japanese, accent is placed on consonants and vowels are pronounced after the accent. Therefore, when one hears a weakly pronounced consonant in syllable-timed rhythm, one cannot predict that a still larger strong beat will come next, and the phenomenon occurs in which the consonant is mistaken for the strong beat as it is. This is called the [syndrome in which the first sound heard sounds like the strong beat of beat 1](https://oka-ats.blogspot.com/2021/01/oka01-ubjkgrbexmeuwzjj.html).
 
@@ -922,8 +952,8 @@ When two syllables continue, the coda of the earlier syllable is, as much as pos
 
 ![](/offbeat-count/attachments/syllable-linking.png)
 
-#### Syllables Have the Maximize Onset Principle (MOP=Maximize Onset Principle) <!-- {#シラブルには頭子音最大化原則がある} -->
-There is a rule that linking occurs as much as possible if it can occur. This is called the **Maximize Onset Principle**, or by taking the initials of the English notation "Maximal Onset Principle," the **MOP principle**.
+#### Syllables Have the Maximum Onset Principle (MOP=Maximum Onset Principle) <!-- {#シラブルには頭子音最大化原則がある} -->
+There is a rule that linking occurs as much as possible if it can occur. This is called the **Maximum Onset Principle**, or by taking the initials of the English notation "Maximum Onset Principle," the **MOP principle**.
 
 In this figure, hats indicate onsets, cats indicate nuclei, and shoes indicate codas.
 
@@ -1120,7 +1150,7 @@ We have seen that syllabic beats have the elements onset consonant, syllable nuc
 
 ![](/offbeat-count/attachments/syllable-basic.png)
 
-And we have seen that, by the [Maximize Onset Principle (MOP=Maximum Onset Principle)](#シラブルには頭子音最大化原則がある), final consonants are grouped into onset consonants and pronounced.
+And we have seen that, by the [Maximum Onset Principle (MOP=Maximum Onset Principle)](#シラブルには頭子音最大化原則がある), final consonants are grouped into onset consonants and pronounced.
 
 This same structure also exists in stress-timed rhythm.
 
@@ -1129,7 +1159,7 @@ The structure of syllabic beats described above also holds with respect to stres
 
 ![](/offbeat-count/attachments/stress-basic.png)
 
-When the accents of stress beats (that is, beats with stress and beats without stress) are analyzed, a structure emerges in which a stressed syllable that becomes the nucleus is placed in the center, and unstressed syllables are before and after it. This structure has conventionally been explained in English phonological analysis by hierarchical models such as binary-tree structures. The multilayered weak-beat axis theory proposed in this paper proposes a new viewpoint: **the analysis method of syllabic beats can be used for stress beats recursively as it is**. In this book, this is called {{<meta var.RECURSIVE_PROSODIC_EQUIVALENCE_PRINCIPLE.en>}}. And the MOP principle applied to stress beats is here called **MPOP (Maximal Prosodic Onset Principle)**.
+When the accents of stress beats (that is, beats with stress and beats without stress) are analyzed, a structure emerges in which a stressed syllable that becomes the nucleus is placed in the center, and unstressed syllables are before and after it. This structure has conventionally been explained in English phonological analysis by hierarchical models such as binary-tree structures. The multilayered weak-beat axis theory proposed in this paper proposes a new viewpoint: **the analysis method of syllabic beats can be used for stress beats recursively as it is**. In this book, this is called {{<meta var.RECURSIVE_PROSODIC_EQUIVALENCE_PRINCIPLE.en>}}. And the MOP principle applied to stress beats is here called **MPOP (Maximum Prosodic Onset Principle)**.
 
 
 In this theory, the rhythmic structure of syllables in syllable-timed rhythm is not replaced by a binary-tree structure of stress versus non-stress, but rather the same structure as syllabic beats is recursively expressed in dimensions of different layers.
@@ -1192,13 +1222,13 @@ When two syllables continue, the final consonant of the earlier appearing syllab
 
 #### Stress Timing Has the Maximal Onset Syllable Principle = the MPOP Principle
 
-We learned that, in syllabic beats, final consonants are grouped and pronounced as onset consonants as much as possible. We also saw that this law is called the Maximize Onset Principle (MOP=Maximize Onset Principle).
+We learned that, in syllabic beats, final consonants are grouped and pronounced as onset consonants as much as possible. We also saw that this law is called the Maximum Onset Principle (MOP=Maximum Onset Principle).
 
-And in stress-timed rhythm, which is also derived from syllable-timed rhythm, just as in syllabic beats, all Maximize Onset Principle phenomena that occur in syllabic beats occur in the same way.
+And in stress-timed rhythm, which is also derived from syllable-timed rhythm, just as in syllabic beats, all Maximum Onset Principle phenomena that occur in syllabic beats occur in the same way.
 
-Furthermore, in stress-timed rhythm, exactly as the **Maximize Onset Principle (MOP=Maximize Onset Principle)** is applied to all **phonemes** in syllabic beats, the **Maximal Prosodic Onset Principle (MPOP=Maximal Prosodic Onset Principle)** is applied to all syllables.
+Furthermore, in stress-timed rhythm, exactly as the **Maximum Onset Principle (MOP=Maximum Onset Principle)** is applied to all **phonemes** in syllabic beats, the **Maximum Prosodic Onset Principle (MPOP=Maximum Prosodic Onset Principle)** is applied to all syllables.
 
-In other words, syllable linking has the rule that, if possible, it occurs as much as possible. This is called the **Maximal Prosodic Onset Principle**, or by taking the initials of the English notation "Maximal Prosodic Onset Principle," the **MPOP principle**.
+In other words, syllable linking has the rule that, if possible, it occurs as much as possible. This is called the **Maximum Prosodic Onset Principle**, or by taking the initials of the English notation "Maximum Prosodic Onset Principle," the **MPOP principle**.
 
 In this figure, hats indicate onset syllables, cats indicate nucleus syllables, and shoes indicate coda syllables.
 
@@ -1309,7 +1339,7 @@ Moraic beats do not have final consonants. If there were final consonants, in or
 
 ![](/offbeat-count/attachments/syllable-mora-miop.png)
 
-In this way, in mora-timed rhythm, onset consonants and final consonants are pronounced so as to become independent and separate apart as much as possible. This is the exact opposite property of the **Maximize Onset Principle (MOP=Maximize Onset Principle)** possessed by syllable-timed languages and stress-timed languages. This property is here called the **Minimum Onset Principle (MiOP = Minimum Onset Principle)**.
+In this way, in mora-timed rhythm, onset consonants and final consonants are pronounced so as to become independent and separate apart as much as possible. This is the exact opposite property of the **Maximum Onset Principle (MOP=Maximum Onset Principle)** possessed by syllable-timed languages and stress-timed languages. This property is here called the **Minimum Onset Principle (MiOP = Minimum Onset Principle)**.
 
 #### The Difference Between Morae and Syllables Is the Difference in the Front-Back Relationship of Strong Beats and Weak Beats
 
@@ -1480,7 +1510,7 @@ Up to now, we have looked in order at the characteristics of language rhythm in 
     * They follow all the rules of syllable-timed-rhythm languages and add rules.
     * Accented vowels are pronounced at equal intervals.
     * Unaccented vowels and consonants are reduced so that the equal spacing of accented vowels is preserved.
-    * Maximal Prosodic Onset Principle (MPOP = Maximal Prosodic Onset Principle)
+    * Maximum Prosodic Onset Principle (MPOP = Maximum Prosodic Onset Principle)
         * Coda syllables are grouped and pronounced as onset syllables as much as possible.
 * Mora-timed languages (**order of beats -> strong-weak, or strong-strong...**)
     * Vowels or consonants are arranged at equal intervals.
@@ -1508,13 +1538,13 @@ And what reflects this not only in language and music but further in other princ
 
 ### {{<meta var.PROACTIVE_DIVISIONISM.en>}} and {{<meta var.REACTIVE_APPENDISM.en>}} <!-- {#proactive-divisionism-and-reactive-appendism} -->
 
-The positional relationship between **Nucleus** and **Onset**: this is exactly the fundamental difference between Japanese and other languages. The nucleus in language plays a role like the **strong beat** in music. The difference in cognitive tendency among languages as to whether onset consonants are placed **before** the nucleus on the auditory side, or placed **after** it, is reflected in the difference in rhythm recognition in music, that is, the difference in rhythm order of **placing weak beats before strong beats, or after them**. The hypothesis that this recognition of the order of strong beats and weak beats has a correlation with the beat-rhythm recognition of language pronunciation structure is here called the **Rhythmic Maximal Onset Principle (RMOP = Rhythmic Maximal Onset Principle)**.
+The positional relationship between **Nucleus** and **Onset**: this is exactly the fundamental difference between Japanese and other languages. The nucleus in language plays a role like the **strong beat** in music. The difference in cognitive tendency among languages as to whether onset consonants are placed **before** the nucleus on the auditory side, or placed **after** it, is reflected in the difference in rhythm recognition in music, that is, the difference in rhythm order of **placing weak beats before strong beats, or after them**. The hypothesis that this recognition of the order of strong beats and weak beats has a correlation with the beat-rhythm recognition of language pronunciation structure is here called the **Rhythmic Maximum Onset Principle (RMOP = Rhythmic Maximum Onset Principle)**.
 
 The **Nucleus** is like the strong beat in music.
 
-In syllable timing and stress timing, vowels are pronounced at the same time as the syllable nucleus. In other words, vowels are like strong beats. And consonants are like weak beats. And consonants are before and after vowels. However, by the **Maximize Onset Principle (MOP = Maximize Onset Principle)**, all final consonants are grouped into onset consonants. In other words, **consonants are always arranged before vowels**. From this, <span style="font-size:200%">syllable timing and stress timing recognize weak beats as things that come first, and recognize strong beats as being behind weak beats</span>.
+In syllable timing and stress timing, vowels are pronounced at the same time as the syllable nucleus. In other words, vowels are like strong beats. And consonants are like weak beats. And consonants are before and after vowels. However, by the **Maximum Onset Principle (MOP = Maximum Onset Principle)**, all final consonants are grouped into onset consonants. In other words, **consonants are always arranged before vowels**. From this, <span style="font-size:200%">syllable timing and stress timing recognize weak beats as things that come first, and recognize strong beats as being behind weak beats</span>.
 
-In mora timing, consonants are pronounced at the same time as the syllable nucleus. In other words, consonants themselves become like strong beats. And consonants are extremely short, and vowels are pronounced immediately after consonants. When there are no consonants, vowels are pronounced at the same time as the syllable nucleus. And mora timing has no final consonants and does not have the Maximize Onset Principle (MOP = Maximize Onset Principle). Instead, by the Minimum Onset Principle = MiOP, all consonants and final consonants are first broken apart, new syllables are created for each of them, and they are added so as to follow farther and farther behind, so the number of syllables extends farther and farther backward. In other words, <span style="font-size:200%">**mora timing has only strong beats. Everything is a succession of strong beats extending backward**</span>. <span style="font-size:200%">**Because it does not have weak beats, it cannot distinguish between strong beats and weak beats that continue behind**</span>.
+In mora timing, consonants are pronounced at the same time as the syllable nucleus. In other words, consonants themselves become like strong beats. And consonants are extremely short, and vowels are pronounced immediately after consonants. When there are no consonants, vowels are pronounced at the same time as the syllable nucleus. And mora timing has no final consonants and does not have the Maximum Onset Principle (MOP = Maximum Onset Principle). Instead, by the Minimum Onset Principle = MiOP, all consonants and final consonants are first broken apart, new syllables are created for each of them, and they are added so as to follow farther and farther behind, so the number of syllables extends farther and farther backward. In other words, <span style="font-size:200%">**mora timing has only strong beats. Everything is a succession of strong beats extending backward**</span>. <span style="font-size:200%">**Because it does not have weak beats, it cannot distinguish between strong beats and weak beats that continue behind**</span>.
 
 This is the large difference from syllable timing and stress timing, which have weak beats.
 
@@ -1720,7 +1750,7 @@ People whose native language is a language other than mora timing often have the
 
 Weak beats are often called "**upbeats**" in English. This is an expression likened to a conductor's baton. When a conductor conducts on stage, the baton is raised on the weak beat and brought down on the strong beat. By analogy with this movement, weak beats are called "**upbeats**" in English. For people whose native language is Japanese, a mora-timed-rhythm language, this recognition often becomes the reverse. In other words, they will recognize it as raising the baton on the strong beat and bringing the baton down on the weak beat.
 
-This mechanism by which the order recognition of mora-timed-rhythm languages becomes reversed is called the Rhythmic Maximal Onset Principle (RMOP = Rhythmic Maximal Onset Principle). As for the Rhythmic Maximal Onset Principle, it was explained in [The Positional Relationship Between the Syllable Nucleus and Onset Consonant Determines Recognition of the Order of Strong and Weak Beats](#音節核と頭子音との位置関係が強拍弱拍順序認識を決める).
+This mechanism by which the order recognition of mora-timed-rhythm languages becomes reversed is called the Rhythmic Maximum Onset Principle (RMOP = Rhythmic Maximum Onset Principle). As for the Rhythmic Maximum Onset Principle, it was explained in [The Positional Relationship Between the Syllable Nucleus and Onset Consonant Determines Recognition of the Order of Strong and Weak Beats](#音節核と頭子音との位置関係が強拍弱拍順序認識を決める).
 
 #### Definition of Weak Beats and Strong Beats
 Let us look back at the definitions of **strong beats** and **weak beats**. When there are two or more notes, the odd-numbered notes appearing in the measure are called **strong beats**, and the even-numbered notes appearing in the measure are called **weak beats**.
@@ -1887,7 +1917,7 @@ Strong beats and weak beats include the concept of "alternation." If person A is
 
 **Cooperative groove** is an everyday habit for people whose native language is a stress-timed-rhythm language or syllable-timed-rhythm language, and most people are not even conscious of its existence. This is because cooperative groove includes, in the rhythm concept possessed by language itself, the basic sense of **striking alternately**.
 
-However, for people whose native language is mora-timed rhythm (Japanese), cooperative groove is an unfamiliar habit. The reason is that, because mora-timed rhythm has no final consonants, it does not have the Rhythmic Maximal Onset Principle (RMOP) [reference](#RMOP). Instead, mora-timed languages include the basic sense of **striking simultaneously**.
+However, for people whose native language is mora-timed rhythm (Japanese), cooperative groove is an unfamiliar habit. The reason is that, because mora-timed rhythm has no final consonants, it does not have the Rhythmic Maximum Onset Principle (RMOP) [reference](#RMOP). Instead, mora-timed languages include the basic sense of **striking simultaneously**.
 
 The opposing concepts of **simultaneous** and **alternating** at the level of language rhythm sense lie between mora-timed rhythm (Japanese) and the stress-timed rhythm (English) and syllable-timed rhythm (French) other than it.
 
@@ -2169,7 +2199,7 @@ In the same way, strong beats and weak beats can be assigned to all note values.
 #### Applying the RMOP Principle and Putting Weak Beats in Front
 <!-- ABOUT_RMOP -->
 
-In the previous section, I introduced the principle called the **Rhythmic Maximal Onset Principle (RMOP = Rhythmic Maximal Onset Principle)**, by which the **Maximum Onset Principle (MOP = Maximum Onset Principle)** of language phonology is also applied to musical rhythm. Here we will look at what happens when this **Rhythmic Maximal Onset Principle (RMOP = Rhythmic Maximal Onset Principle)** is applied to multilayered beat layers.
+In the previous section, I introduced the principle called the **Rhythmic Maximum Onset Principle (RMOP = Rhythmic Maximum Onset Principle)**, by which the **Maximum Onset Principle (MOP = Maximum Onset Principle)** of language phonology is also applied to musical rhythm. Here we will look at what happens when this **Rhythmic Maximum Onset Principle (RMOP = Rhythmic Maximum Onset Principle)** is applied to multilayered beat layers.
 
 #### The Basics of Weak-Beat Precedence
 
@@ -4488,7 +4518,7 @@ Here, one hypothesis arises.
 
 In syllable-timed rhythm, we saw the law that consonants precede as much as possible by the **Maximum Onset Principle (MOP = Maximum Onset Principle)**. In other words, this can be seen as weak-beat precedence in eighth notes.
 
-Next, in stress-timed rhythm, in addition to the **Maximum Onset Principle (MOP = Maximum Onset Principle)** of syllable-timed rhythm, the **Maximal Prosodic Onset Principle (MPOP)** is applied. In other words, this can be interpreted as meaning that, in addition to weak-beat precedence in eighth notes, weak-beat precedence in quarter notes becomes effective at the same time.
+Next, in stress-timed rhythm, in addition to the **Maximum Onset Principle (MOP = Maximum Onset Principle)** of syllable-timed rhythm, the **Maximum Prosodic Onset Principle (MPOP)** is applied. In other words, this can be interpreted as meaning that, in addition to weak-beat precedence in eighth notes, weak-beat precedence in quarter notes becomes effective at the same time.
 
 It is possible to interpret that **syllable-timed rhythm is single-layer weak-beat precedence**, and **stress-timed rhythm is two-layer weak-beat precedence**.
 
@@ -7646,11 +7676,11 @@ Among the kinds of Rhythmochronic Competence required for Offbeat Count, the mos
 
 #### Syllable-Timed-Rhythm Weak-Beat-Precedence Competence
 
-Syllable-timed rhythm has a pronunciation rule called the **Maximal Prosodic Onset Principle (MPOP)**. It is the rule that all final consonants are grouped together with adjacent onset consonants in pronunciation. This is also called linking. Musically, it can be regarded as equivalent to weak-beat precedence. Here I call this **syllable-timed-rhythm weak-beat precedence**. The ability to recognize this is called **syllable-timed-rhythm weak-beat-precedence competence**.
+Syllable-timed rhythm has a pronunciation rule called the **Maximum Prosodic Onset Principle (MPOP)**. It is the rule that all final consonants are grouped together with adjacent onset consonants in pronunciation. This is also called linking. Musically, it can be regarded as equivalent to weak-beat precedence. Here I call this **syllable-timed-rhythm weak-beat precedence**. The ability to recognize this is called **syllable-timed-rhythm weak-beat-precedence competence**.
 
 #### Stress-Timed-Rhythm Weak-Beat-Precedence Competence
 
-Stress-timed rhythm has the pronunciation rule called the **Maximal Prosodic Onset Principle (MPOP)**. It is the rule that all final syllables are grouped together with adjacent onset syllables in pronunciation. This too can be regarded musically as equivalent to weak-beat precedence. Here I call this **stress-timed-rhythm weak-beat precedence**. The ability to recognize this is called **stress-timed-rhythm weak-beat-precedence competence**.
+Stress-timed rhythm has the pronunciation rule called the **Maximum Prosodic Onset Principle (MPOP)**. It is the rule that all final syllables are grouped together with adjacent onset syllables in pronunciation. This too can be regarded musically as equivalent to weak-beat precedence. Here I call this **stress-timed-rhythm weak-beat precedence**. The ability to recognize this is called **stress-timed-rhythm weak-beat-precedence competence**.
 
 #### African-Type-Rhythm Weak-Beat-Precedence Competence
 
@@ -7686,7 +7716,7 @@ It is very difficult to acquire these kinds of Rhythmochronic Competence through
 
 Offbeat Count can also be expected to improve listening ability in other syllable-timed languages --- such as French and Spanish --- because it directs attention to the **Maximum Onset Principle (MOP)**.
 
-At the same time, it can also be expected to function as English listening practice, because it is thought to activate the **Maximal Prosodic Onset Principle (MPOP)**.
+At the same time, it can also be expected to function as English listening practice, because it is thought to activate the **Maximum Prosodic Onset Principle (MPOP)**.
 
 ## Etudes for {{<meta var.MORA_SPEAKERS.en>}} <!-- {#etudes-for-speakers-of-mora-timed-languages} -->
 
