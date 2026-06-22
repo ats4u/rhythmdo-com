@@ -104,56 +104,86 @@ rhythmpress-preproc-args: []
 
 **多層弱拍基軸リズム理論** は、この状況に一石を投じます。
 
-## グルーヴ四原則とは <!-- {#the-four-principles-of-groove}-->
+## {{<meta var.PRINCIPLES_OF_GROOVE.ja>}}とは <!-- {#the-four-principles-of-groove}-->
 
 この書では全編を通して４つのグルーヴする原則の存在を説明します。この４つの原則とは何でしょうか。まずこのグルーヴ四原則の全体像を見てみます。
 
-### グルーヴ四原則
+### {{<meta var.PRINCIPLES_OF_GROOVE.ja>}}
 
-リズムには四つの要素があります。
+グルーヴには四つの対立要素があります。
 
-- **強拍先行**   と **弱拍先行**
-- **頭合わせ**   と **尻合わせ**
-- **強拍基軸**   と **弱拍基軸**
-- **2⁻ⁿリズム** と **3⁻ⁿリズム**
+1. A **強拍先行**   と B **弱拍先行**
+2. A **頭合わせ**   と B **尻合わせ**
+3. A **強拍基軸**   と B **弱拍基軸**
+4. A **2⁻ⁿリズム** と B **3⁻ⁿリズム**
 
-このように４つの要素はそれぞれ対立した要素になっています。
+これを{{<meta var.AXES_OF_GROOVE.ja>}}と呼びます。
 
-これを**グルーヴ四要素(The Four Axes of Groove)**と呼びます。
+そしてこれらはそれぞれ音韻学上での以下の要素と対応しています。
 
-### {{<meta var.CONDITIONS_OF_GROOVE.ja>}}
+1. A: **頭子音最小化原則** と B: **頭子音最大化原則**
+2. A: **文頭焦点**         と B: **文末焦点**
+3. A: **モーラ等時性**     と B: **音節核等時性**
+4. A: **末子音忌避性**     と B: **末子音侵襲性**
 
-音楽にグルーヴを感じる時、それは必ず
+更に、これらの背後に **Pセンター(p-center)** という隠れた概念が存在します。これをPセンターを軸に整理することが出来ます。
+
+左側Aの
+
+1. **強拍先行**       **頭子音最小化原則**
+2. **頭合わせ**       **文頭焦点**
+3. **強拍基軸**       **モーラ等時性**
+4. **2⁻ⁿリズム**     **末子音忌避性**
+
+を **{{<meta var.POSTCENTRIC.ja>}}** 又は **縦乗り**と呼びます。
+
+縦乗りは、グルーヴと全く正反対の性質を持っています。 縦乗りはグルーヴとは真逆の静寂・安定感・固定・硬質・静止などの情景を表します。 この性質を {{<meta var.ANTIGROOVE.ja>}} と呼びます。
+
+右側Bの
+
+1.  **弱拍先行**      **頭子音最大化原則**
+2.  **尻合わせ**      **文末焦点**
+3.  **弱拍基軸**      **音節核等時性**
+4.  **3⁻ⁿリズム**    **末子音侵襲性**
+
+を**{{<meta var.PRECENTRIC.ja>}}** 又は **横乗り** と呼びます。
+
+横乗りは、躍動感・不安定感・柔軟性・動的などの情景を表します。この性質を {{<meta var.GROOVE.ja>}} と呼びます。
+
+
+### {{<meta var.CONDITIONS_OF_YOKONORI.ja>}}
+
+音楽にグルーヴを感じる時、
 
 - **弱拍先行**
 - **尻合わせ**
 - **弱拍基軸**
 - **3⁻ⁿリズム**
 
-になっている…という法則があります。
+の４つの条件の全て又は一部を満たしているという法則があります。
 
-これを**グルーヴ四原則(The Four Principles of Groove)**と呼びます。
+これを{{<meta var.CONDITIONS_OF_YOKONORI.ja>}}と呼びます。
 
 つまり如何にして、弱拍先行、尻合わせ、弱拍基軸、3⁻ⁿリズムの４つを体得するかがグルーヴを身につける為の焦点となります。
 
 ### {{<meta var.CONDITIONS_OF_TATENORI.ja>}}
 
-海外の文脈から、日本人の音楽が醸し出すリズムは、しばしば **堅苦しい**、**躍動感がない**、**四角い**、**息遣いが感じられない**、**ニュアンスがない**、**スイングしない**、**毎回着地する**、 **好みに合わない**、**機械的**、**アニソンみたい**、**ゲーム音楽みたい** などと評されます。それは必ずしも否定的な見解として発せられる訳ではありませんが、クラシックやジャズなど海外の地場文化として評価される場面では、しばしば人々の眉をひそめさせているものです。
-
-これらの日本的リズムは必ず
+これらの日本的リズムはしばしば
 
 - **強拍先行**
 - **頭合わせ**
 - **強拍基軸**
 - **2⁻ⁿリズム**
 
-になっている…という法則があります。
+の全てまたは一部を満たしているという法則があります。
 
-これを**縦乗りの四原則(The Four Principles of Groove)**と呼びます。
+これを{{<meta var.CONDITIONS_OF_TATENORI.ja>}} と呼びます。
 
 何故日本人は縦乗りなのか、その理由に関しましては[何故日本人は縦乗りなのか](/offbeat-count/tatenori-theory/ja/)で詳細を見ていきます。
 
 ではどのようにしたら縦乗りを克服することが出来るのでしょうか。それがこの文章の目的でもあります。縦乗りを克服する長い道のり=**{{<meta var.RDO.ja>}}** について今後長い時間を掛けて見つけ出して行きます。
+
+
 
 ### 強拍先行と弱拍先行
 音符が導音などの形となって２つの組となって表れた時、その組みが常に弱拍からはじまることを**弱拍先行**と呼びます。
@@ -4549,12 +4579,14 @@ import os
 # parent = Path.cwd().parent.parent
 parent = os.getenv( "RHYTHMPRESS_ROOT" )
 
-if str(parent) not in sys.path:
-    sys.path.insert(0, str(parent))
+project_lib = Path(parent) / ".project-lib"
 
-## now imports from project root work
+if str(project_lib) not in sys.path:
+    sys.path.insert(0, str(project_lib))
 
-from lib.groovespace import *
+## now imports from project-local library work
+
+from groovespace import *
 ```
 
 リズムという情報の本質は多次元構造にあります。多次元の構造を持った情報が時間軸という１次元数直線上に展開されたものといえます。 私達が聴いている音楽のリズムは、リズムが持つ多次元立体図形が小節・拍・連符そして、マイクロタイミングなどの時間軸 に展開されたものです。つまりリズムは多次元情報の１次元投影といえます。
@@ -4816,12 +4848,14 @@ import os
 # parent = Path.cwd().parent.parent
 parent = os.getenv( "RHYTHMPRESS_ROOT" )
 
-if str(parent) not in sys.path:
-    sys.path.insert(0, str(parent))
+project_lib = Path(parent) / ".project-lib"
 
-## now imports from project root work
+if str(project_lib) not in sys.path:
+    sys.path.insert(0, str(project_lib))
 
-from lib.groovespace import *
+## now imports from project-local library work
+
+from groovespace import *
 
 
 ```
@@ -6461,7 +6495,7 @@ Aretha Franklin - Cold, Cold Heart
 
 ```{.lilypond}
 \include "lilypond-book-preamble.ly"
-\include "common-ly/lilypond-preamble.ly"
+\include ".project-lilypond/lilypond-preamble.ly"
 
 gone = { \tuplet 3/2 { do16   do16_~ do16] }  }
 gtwo = { \tuplet 3/2 { do16_~ do16 do16] }  }
@@ -6594,7 +6628,7 @@ gthr = { \tuplet 3/2 { do16   do16 do16] }  }
 
 ```{.lilypond}
 \include "lilypond-book-preamble.ly"
-\include "common-ly/lilypond-preamble.ly"
+\include ".project-lilypond/lilypond-preamble.ly"
 
 gone = { \tuplet 3/2 { do16   do16_~ do16] }  }
 gtwo = { \tuplet 3/2 { do16_~ do16 do16] }  }
@@ -8870,14 +8904,14 @@ SPE表記法は音韻学の研究が立ち遅れている我が国日本では�
 例えば以下のように八拍数えるとします。
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-count-offset-0.ly
+.project-lilypond/shared/rhythmdo-count-offset-0.ly
 % 2UKlRFbyT8gtj/zhdLXnQA==
 ```
 
 この時、グルーヴの四原則のうちの１つ**強拍先行**の存在を加味して考えると、4分音分１つが先行する弱起を踏まえて読む必要があります。 すると次のようになるでしょう。
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-count-mental-offset-1.ly
+.project-lilypond/shared/rhythmdo-count-mental-offset-1.ly
 % xpUbl1z3/e2qzfCKgn9NZA==
 ```
 
@@ -8893,14 +8927,14 @@ common-ly/shared/rhythmdo-count-mental-offset-1.ly
 みなし読みは、弱起が先行する感覚を掴んでいない人にはとても難しい読み方といえます。そこで、数字を一定量だけずらすことで、強制的に弱起が先行する感覚をつけるという方法が考え出されました。
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-count-offset-0.ly
+.project-lilypond/shared/rhythmdo-count-offset-0.ly
 % 2UKlRFbyT8gtj/zhdLXnQA==
 ```
 
 この時、グルーヴの四原則のうちの１つ**強拍先行**の存在を加味して考えると、4分音分１つが先行する弱起を**ずらす**ことで表現してみましょう。 すると次のようになるでしょう。
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-count-drift-offset-1.ly
+.project-lilypond/shared/rhythmdo-count-drift-offset-1.ly
 %  zyUaZvyO98TyXG7Gk4DRvQ==
 ```
 
@@ -9131,7 +9165,7 @@ common-ly/shared/rhythmdo-count-drift-offset-1.ly
 **サブディヴィジョンレベル = 3⁻¹=1/3**
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-countset-n-1.ly
+.project-lilypond/shared/rhythmdo-countset-n-1.ly
 ```
 
 #### 音韻規則レベル２=音節レベル
@@ -9140,7 +9174,7 @@ common-ly/shared/rhythmdo-countset-n-1.ly
 これは１ディヴィジョンに３つのサブディヴィジョンを割り当てる数え方です。
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-countset-n-2.ly
+.project-lilypond/shared/rhythmdo-countset-n-2.ly
 ```
 
 #### 音韻規則レベル３=韻律レベル
@@ -9149,7 +9183,7 @@ common-ly/shared/rhythmdo-countset-n-2.ly
 これは１ディヴィジョンに２７つのサブディヴィジョンを割り当てる数え方です。
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-countset-n-3.ly
+.project-lilypond/shared/rhythmdo-countset-n-3.ly
 ```
 これは一瞥では理解が難しいですが、次のような法則になっています。
 
@@ -9499,7 +9533,7 @@ common-ly/shared/rhythmdo-countset-n-3.ly
 が出来ません。ここからレベル３までの音韻厳密化を行います。
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-countset-n-1.ly
+.project-lilypond/shared/rhythmdo-countset-n-1.ly
 ```
 
 ##### レベル0 {{<meta var.MiOP.ja>}} <!-- {#ppns-1-0} -->
@@ -9508,7 +9542,7 @@ common-ly/shared/rhythmdo-countset-n-1.ly
 この**レベル0音韻厳密化**です。
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv1-lv0-000.ly
+.project-lilypond/shared/rhythmdo-lv1-lv0-000.ly
 ```
 
 この表記方法には２つの解釈が考えられます。
@@ -9535,7 +9569,7 @@ common-ly/shared/rhythmdo-lv1-lv0-000.ly
 これはそのモーラ拍内に子音がない場合に更に目立つ問題となって表出します。それはそのモーラ内に子音がない場合、次の譜面で表される様に子音が前進することです。
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv1-lv0-001.ly
+.project-lilypond/shared/rhythmdo-lv1-lv0-001.ly
 ```
 
 この譜面は、モーラ拍リズムの**頭合わせリズム認識型**が発動した状態を模式的に表現しているものです。**Eight(8)** の部分に注目して下さい。ここでは２つの問題が起きています。１つ目は、日本語などのモーラ拍リズムの言語を話す人が、母音から始まる単語で英語話者が**暗黙のうちに発音する子音＝声門閉鎖音**を認識出来ない為に脱落が起こることです。
@@ -9564,7 +9598,7 @@ common-ly/shared/rhythmdo-lv1-lv0-001.ly
 この問題を解決する為に専用の練習方法が必要です。以下の譜は、シラブル拍リズムの{{<meta var.NI.ja>}}リズム認識方が発動した状態を模式的に表しています。
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv1-lv1-000.ly
+.project-lilypond/shared/rhythmdo-lv1-lv1-000.ly
 ```
 
 この様にシラブル拍リズム言語を話す人々は、子音を弱拍位置で発音する習慣を持っています。
@@ -9576,13 +9610,13 @@ common-ly/shared/rhythmdo-lv1-lv1-000.ly
 次の譜は、シラブル拍リズム言語に於いて、末子音が頭子音にまとめられて発音される様子を模式的に表したものです。
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv1-lv2-tuplets-1.ly
+.project-lilypond/shared/rhythmdo-lv1-lv2-tuplets-1.ly
 ```
 
 **拡大表示**
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv1-lv2-tuplets-2.ly
+.project-lilypond/shared/rhythmdo-lv1-lv2-tuplets-2.ly
 ```
 
 **音韻規則レベル１ 音素レベル = 3⁻¹=1/3** で可能な音韻表記厳密化はレベル2までです。これ以降の音韻表記厳密化は音韻規則レベル2以上のカウント上で行う必要があります。
@@ -9598,13 +9632,13 @@ common-ly/shared/rhythmdo-lv1-lv2-tuplets-2.ly
 音韻規則レベル2のカウントパターンを見てみます。
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv2-lv3-000.ly
+.project-lilypond/shared/rhythmdo-lv2-lv3-000.ly
 ```
 
 二層カウントに対してレベル3の本来の目的である音韻表記厳密化**レベル３{{<meta var.PNI.ja>}}**を適用します。具体的には**音符を１つずらし&が強拍に来る様に配置**する事で**弱拍先行**の配置にします。
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv2-lv3-001.ly
+.project-lilypond/shared/rhythmdo-lv2-lv3-001.ly
 ```
 
 これで**レベル3 {{<meta var.PNI.ja>}}** が完了しました。これと同時に、これまでに行ってきたレベル1 {{<meta var.NI.ja>}}とレベル2 {{<meta var.MOP.ja>}} の {{<meta var.PNI.ja>}} を行う必要があります。
@@ -9617,13 +9651,13 @@ common-ly/shared/rhythmdo-lv2-lv3-001.ly
 詳細の説明は[レベル0](#ppns-1-0)に譲ります。
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-2-lv2-lv0-000.ly
+.project-lilypond/shared/rhythmdo-2-lv2-lv0-000.ly
 ```
 <!-- XVxETWgLnwCBjn4sfZX86g== -->
 
 <!--
 ```{.lilypond}
-% \include "common-ly/shared/rhythmdo-lv3-lv0.ly"
+% \include ".project-lilypond/shared/rhythmdo-lv3-lv0.ly"
 % bx/+Uzn54FezLD2lCPTzPQ==
 ```
 -->
@@ -9632,7 +9666,7 @@ common-ly/shared/rhythmdo-2-lv2-lv0-000.ly
 詳細の説明は[レベル1](#ppns-1-1)に譲ります。
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv2-lv1.ly
+.project-lilypond/shared/rhythmdo-lv2-lv1.ly
 ```
 
 ##### レベル2 {{<meta var.MOP.ja>}}    <!-- {#ppns-2-2} -->
@@ -9640,7 +9674,7 @@ common-ly/shared/rhythmdo-lv2-lv1.ly
 レベル2{{<meta var.MOP.ja>}}を実現する為に、今まで3連符2つ目で発音していた末子音を次の音節の頭子音(つまり2階層目の3連符の3つ目)にまとめます。これをここでは**頭子音最大化処理** と呼びます。
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv2-lv2.ly
+.project-lilypond/shared/rhythmdo-lv2-lv2.ly
 ```
 <!-- DjP07omgzmg47kjmALzX/w== -->
 
@@ -9650,13 +9684,13 @@ common-ly/shared/rhythmdo-lv2-lv2.ly
 
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv2-lv3.ly
+.project-lilypond/shared/rhythmdo-lv2-lv3.ly
 ```
 
 これは譜面を見ると複雑に見えますが、この章の冒頭で御説明した通り、レベル1レベル2の音韻表記厳密化を取り除くと単に1階層目の3連符1つ分を左に移動しただけもものです。
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv2-lv3-001.ly
+.project-lilypond/shared/rhythmdo-lv2-lv3-001.ly
 ```
 
 ##### レベル4 {{<meta var.MPOP.ja>}}    <!-- {#ppns-2-4} -->
@@ -9666,13 +9700,13 @@ common-ly/shared/rhythmdo-lv2-lv3-001.ly
 レベル３で弱拍先行を実現する為、オフセット（ずれ）を付加することでカウントを早めました。
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv2-lv3-001.ly
+.project-lilypond/shared/rhythmdo-lv2-lv3-001.ly
 ```
 
 このずれをつけた状態で a を先に読むことで二重の弱拍先行（頭音節最大化）を行います。
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv2-lv4-000.ly
+.project-lilypond/shared/rhythmdo-lv2-lv4-000.ly
 ```
 
 この状態でレベル1レベル2の音韻表記厳密化を行うと次の様になります。
@@ -9680,7 +9714,7 @@ common-ly/shared/rhythmdo-lv2-lv4-000.ly
 ---
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv2-lv4.ly
+.project-lilypond/shared/rhythmdo-lv2-lv4.ly
 ```
 
 ---
@@ -9694,7 +9728,7 @@ common-ly/shared/rhythmdo-lv2-lv4.ly
 
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-countset-n-3.ly
+.project-lilypond/shared/rhythmdo-countset-n-3.ly
 ```
 
 
@@ -9704,7 +9738,7 @@ common-ly/shared/rhythmdo-countset-n-3.ly
 詳細の説明は[レベル0](#ppns-1-0)に譲ります。
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv3-lv0-000.ly
+.project-lilypond/shared/rhythmdo-lv3-lv0-000.ly
 ```
 
 ##### レベル1 {{<meta var.NI.ja>}}     <!-- {#ppns-3-1} -->
@@ -9713,7 +9747,7 @@ common-ly/shared/rhythmdo-lv3-lv0-000.ly
 詳細の説明は[レベル1](#ppns-1-1)に譲ります。
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv3-lv1-000.ly
+.project-lilypond/shared/rhythmdo-lv3-lv1-000.ly
 ```
 
 ##### レベル2 {{<meta var.MOP.ja>}}    <!-- {#ppns-3-2} -->
@@ -9722,7 +9756,7 @@ common-ly/shared/rhythmdo-lv3-lv1-000.ly
 詳細の説明は[レベル2](#ppns-2-2)に譲ります。
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv3-lv2-000.ly
+.project-lilypond/shared/rhythmdo-lv3-lv2-000.ly
 % yllHg4q8KHrWnbDJSbHpig==
 ```
 
@@ -9733,7 +9767,7 @@ common-ly/shared/rhythmdo-lv3-lv2-000.ly
 ---
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-countset-n-3.ly
+.project-lilypond/shared/rhythmdo-countset-n-3.ly
 ```
 
 これに対して{{<meta var.PNI.ja>}}厳密化を行うと次のようになります。
@@ -9741,7 +9775,7 @@ common-ly/shared/rhythmdo-countset-n-3.ly
 ---
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv3-001.ly
+.project-lilypond/shared/rhythmdo-lv3-001.ly
 ```
 
 ---
@@ -9754,7 +9788,7 @@ common-ly/shared/rhythmdo-lv3-001.ly
 
 **レベル3完成形**
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv3-lv3-002.ly
+.project-lilypond/shared/rhythmdo-lv3-lv3-002.ly
 ```
 
 ##### レベル4 {{<meta var.MPOP.ja>}}  <!-- {#ppns-3-4} -->
@@ -9764,7 +9798,7 @@ common-ly/shared/rhythmdo-lv3-lv3-002.ly
 ---
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv3-001.ly
+.project-lilypond/shared/rhythmdo-lv3-001.ly
 ```
 ---
 
@@ -9773,7 +9807,7 @@ common-ly/shared/rhythmdo-lv3-001.ly
 ---
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv3-002.ly
+.project-lilypond/shared/rhythmdo-lv3-002.ly
 ```
 
 <!-- gXVPCyCcr8q4R4xc7qRdug== -->
@@ -9786,7 +9820,7 @@ common-ly/shared/rhythmdo-lv3-002.ly
 
 **レベル4完成形**
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv3-lv4-000.ly
+.project-lilypond/shared/rhythmdo-lv3-lv4-000.ly
 ```
 
 ##### レベル5 {{<meta var.MNI.ja>}}   <!-- {#ppns-3-5} -->
@@ -9796,7 +9830,7 @@ common-ly/shared/rhythmdo-lv3-lv4-000.ly
 ---
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv3-002.ly
+.project-lilypond/shared/rhythmdo-lv3-002.ly
 ```
 ---
 
@@ -9805,7 +9839,7 @@ common-ly/shared/rhythmdo-lv3-002.ly
 ---
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv3-003.ly
+.project-lilypond/shared/rhythmdo-lv3-003.ly
 ```
 ---
 
@@ -9815,7 +9849,7 @@ common-ly/shared/rhythmdo-lv3-003.ly
 
 **レベル5完成形**
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv3-lv5-000.ly
+.project-lilypond/shared/rhythmdo-lv3-lv5-000.ly
 ```
 
 ##### レベル6 {{<meta var.MMOP.ja>}}  <!-- {#ppns-3-6} -->
@@ -9823,13 +9857,13 @@ common-ly/shared/rhythmdo-lv3-lv5-000.ly
 これまでレベル5で表記法厳密化を行ったカウントパターン原型は次のようなものでした。
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv3-003.ly
+.project-lilypond/shared/rhythmdo-lv3-003.ly
 ```
 
 これに対して{{<meta var.MMOP.ja>}}厳密化を行うと次のようになります。
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv3-004.ly
+.project-lilypond/shared/rhythmdo-lv3-004.ly
 ```
 
 ---
@@ -9838,7 +9872,7 @@ common-ly/shared/rhythmdo-lv3-004.ly
 
 **レベル6完成形**
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv3-lv6-000.ly
+.project-lilypond/shared/rhythmdo-lv3-lv6-000.ly
 ```
 
 <!-- tnccerY91FUWg8OQLyzadQ== -->
@@ -9849,21 +9883,21 @@ common-ly/shared/rhythmdo-lv3-lv6-000.ly
 
 **原カウントパターン**
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-countset-n-1.ly
+.project-lilypond/shared/rhythmdo-countset-n-1.ly
 ```
 
 ---
 
 **レベル0 {{<meta var.MiOP.ja>}}**
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv1-lv0.ly
+.project-lilypond/shared/rhythmdo-lv1-lv0.ly
 ```
 
 ---
 
 **レベル1 {{<meta var.NI.ja>}}**
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv1-lv1.ly
+.project-lilypond/shared/rhythmdo-lv1-lv1.ly
 ```
 
 ---
@@ -9871,11 +9905,11 @@ common-ly/shared/rhythmdo-lv1-lv1.ly
 **レベル2 {{<meta var.MOP.ja>}}**
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv1-lv2.ly
+.project-lilypond/shared/rhythmdo-lv1-lv2.ly
 ```
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv1-lv2-tuplets-1.ly
+.project-lilypond/shared/rhythmdo-lv1-lv2-tuplets-1.ly
 ```
 <!-- t653YlpZFKWhoSDRblCE0w==  -->
 
@@ -9885,7 +9919,7 @@ common-ly/shared/rhythmdo-lv1-lv2-tuplets-1.ly
 
 **原カウントパターン**
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-countset-n-2-orig.ly
+.project-lilypond/shared/rhythmdo-countset-n-2-orig.ly
 ```
 
 ---
@@ -9893,7 +9927,7 @@ common-ly/shared/rhythmdo-countset-n-2-orig.ly
 **レベル3 {{<meta var.PNI.ja>}}**
 *※ レベル3から 1,2 を除いた版です。*
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-countset-n-2-lv3.ly
+.project-lilypond/shared/rhythmdo-countset-n-2-lv3.ly
 ```
 
 ---
@@ -9901,7 +9935,7 @@ common-ly/shared/rhythmdo-countset-n-2-lv3.ly
 **レベル4 {{<meta var.MPOP.ja>}}**
 *※ レベル4から 1,2 を除いた版です。*
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-countset-n-2-lv43.ly
+.project-lilypond/shared/rhythmdo-countset-n-2-lv43.ly
 ```
 
 
@@ -9909,17 +9943,17 @@ common-ly/shared/rhythmdo-countset-n-2-lv43.ly
 
 **原カウントパターン**
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-countset-n-3-orig.ly
+.project-lilypond/shared/rhythmdo-countset-n-3-orig.ly
 ```
 
 **レベル3 {{<meta var.PNI.ja>}}**
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-countset-n-3-lv3.ly
+.project-lilypond/shared/rhythmdo-countset-n-3-lv3.ly
 ```
 
 **レベル4 {{<meta var.MPOP.ja>}}**
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-countset-n-3-lv43.ly
+.project-lilypond/shared/rhythmdo-countset-n-3-lv43.ly
 ```
 
 **レベル5 {{<meta var.MNI.ja>}}**
@@ -9928,19 +9962,19 @@ common-ly/shared/rhythmdo-countset-n-3-lv43.ly
 *※ レベル5から 1,2,3,4 を除いた版です。*
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-countset-n-3-lv5.ly
+.project-lilypond/shared/rhythmdo-countset-n-3-lv5.ly
 ```
 
 *※ レベル5から 1,2,4 を除いた版です。*
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-countset-n-3-lv53.ly
+.project-lilypond/shared/rhythmdo-countset-n-3-lv53.ly
 ```
 
 *※ レベル5から 1,2 を除いた版です。*
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-countset-n-3-lv543.ly
+.project-lilypond/shared/rhythmdo-countset-n-3-lv543.ly
 ```
 
 
@@ -9949,19 +9983,19 @@ common-ly/shared/rhythmdo-countset-n-3-lv543.ly
 *※ レベル6から 1,2 を除いた版です。*
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-countset-n-3-lv6543.ly
+.project-lilypond/shared/rhythmdo-countset-n-3-lv6543.ly
 ```
 
 *※ レベル6から 1,2,4 を除いた版です。*
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-countset-n-3-lv653.ly
+.project-lilypond/shared/rhythmdo-countset-n-3-lv653.ly
 ```
 
 *※ レベル6から 1,2,3,4 を除いた版です。*
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-countset-n-3-lv65.ly
+.project-lilypond/shared/rhythmdo-countset-n-3-lv65.ly
 ```
 
 <!-- DnPLEgQNJKRim4z7mDqFBg== -->
@@ -11513,11 +11547,11 @@ style="width:6.0339in;height:1.7398in" />この様に４拍子の４拍目と５
 
 #### {{<meta var.PROACTIVE_DIVISIONISM.ja>}}
 
-音楽理論上での、{{<meta var.PROACTIVE_TEMPORAL_ORDERING.ja>}}に相当する概念です。これから起こる出来事を予期して空間・時間を分割し {{<meta var.CONDITIONS_OF_GROOVE.ja>}}の4つの弱拍先行・弱拍基軸、尻合わせ、3⁻ⁿリズムを形成します。 協働グルーヴに基づくリズムを形成します。
+音楽理論上での、{{<meta var.PROACTIVE_TEMPORAL_ORDERING.ja>}}に相当する概念です。これから起こる出来事を予期して空間・時間を分割し {{<meta var.PRINCIPLES_OF_GROOVE.ja>}}の4つの弱拍先行・弱拍基軸、尻合わせ、3⁻ⁿリズムを形成します。 協働グルーヴに基づくリズムを形成します。
 
 #### {{<meta var.REACTIVE_APPENDISM.ja>}}
 
-音楽理論上での、{{<meta var.REACTIVE_TEMPORAL_ORDERING.ja>}} に相当する概念です。 何らかの既に起こった出来事をトリガとして行動を開始し{{<meta var.CONDITIONS_OF_GROOVE.ja>}}の４つの縦乗り条件である、強拍先行・強拍基軸、頭合わせ、2⁻ⁿリズムを形成します。 単独グルーヴに基づくリズムを形成します。
+音楽理論上での、{{<meta var.REACTIVE_TEMPORAL_ORDERING.ja>}} に相当する概念です。 何らかの既に起こった出来事をトリガとして行動を開始し{{<meta var.PRINCIPLES_OF_GROOVE.ja>}}の４つの縦乗り条件である、強拍先行・強拍基軸、頭合わせ、2⁻ⁿリズムを形成します。 単独グルーヴに基づくリズムを形成します。
 
 
 #### {{<meta var.PROSODIC_ORDERING_BIAS.ja>}}
@@ -11621,7 +11655,7 @@ style="width:6.0339in;height:1.7398in" />この様に４拍子の４拍目と５
 
 これらの本質に {{<meta var.REACTIVE_TEMPORAL_ORDERING.ja>}} があります。
 
-これが{{<meta var.CONDITIONS_OF_GROOVE.ja>}}の４つの縦乗り条件
+これが{{<meta var.CONDITIONS_OF_TATENORI.ja>}}の四条件
 
 - 強拍先行
 - 強拍基軸

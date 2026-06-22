@@ -21,11 +21,11 @@ resources:
   - _redirects
   - 404.html
   - attachments/*
-  - common-ly/*.ly
-  - common-ly/shared/*.ly
+  - .project-lilypond/*.ly
+  - .project-lilypond/shared/*.ly
 
 metadata:
-  lilypond-preamble: "common-ly/lilypond-preamble.ly"
+  lilypond-preamble: ".project-lilypond/lilypond-preamble.ly"
 
 website:
   site-url: "https://rhythmdo.com/"
@@ -43,15 +43,27 @@ format:
     lightbox: true
     reference-location: block
     filters:
-      - filters/meta-dates.lua
-      - filters/include-files.lua
-      - filters/lilypond.lua
-      - filters/remove-softbreaks.lua
-#      - filters/obsidian-image-dimensions.lua
+      - .quarto-filters/meta-dates.lua
+      - .quarto-filters/include-files.lua
+      - .quarto-filters/lilypond.lua
+      - .quarto-filters/remove-softbreaks.lua
+#      - .quarto-filters/obsidian-image-dimensions.lua
     toc: true
     toc-location: right
     toc-depth: 7
     toc-expand: 1
+    css:
+      - assets/rhythmdo-theme-fonts.css
+      - assets/rhythmdo-theme-branding.css
+      - assets/rhythmdo-theme-typography.css
+      - assets/rhythmdo-theme-quarto-layout.css
+      - assets/rhythmdo-theme-quarto-navigation.css
+      - assets/rhythmdo-lightbox.css
+      - assets/rhythmdo-video-embed.css
+      - assets/rhythmdo-offbeat-table.css
+      - assets/rhythmdo-twitter-video.css
+      - assets/rhythmdo-lilypond.css
+      - assets/rhythmdo-theme-dark-mode.css
     include-in-header:
       - text: |
           <meta name="google-site-verification" content="JE4bBo-b8pDcRaa8nLTGBnzJ1cFsovnaxr0iAjefqBg" />
@@ -105,16 +117,25 @@ format:
 rhythmpress:
   social-cards:
     allow-remote: true
+    enable-javascript: true
+    wait-ms: 3000
     viewport: 640x600
     screenshot-size: 1280x630
     hide-selector:
-      - ".sidebar, header, .quarto-title, #quarto-margin-sidebar, .quarto-secondary-nav, .twitter-tweet, .ats4u-twitter-video"
-      - 'iframe[src*="twitter.com"], iframe[src*="x.com"], iframe[src*="platform.twitter.com"]'
+      # - ".sidebar, header, .quarto-title, #quarto-margin-sidebar, .quarto-secondary-nav, .twitter-tweet, .ats4u-twitter-video"
+      - ".sidebar,  #quarto-margin-sidebar, .quarto-secondary-nav"
+      # - ".ats4u-twitter-video, .twitter-tweet"
+      # - 'iframe[src*="twitter.com"], iframe[src*="x.com"], iframe[src*="platform.twitter.com"]'
       - 'a[aria-label="Fork me on GitHub"], img[alt="Fork me on GitHub"]'
     css:
       - |
         main#quarto-document-content > section:first-of-type > h3:first-child {
           margin-top: 0 !important;
+        }
+      - |
+        #title-block-header .quarto-title h1.title::before {
+          display: none !important;
+          content: none !important;
         }
 var:
   # === Rhythmdo Series ===
@@ -230,12 +251,48 @@ var:
   3TONGH:
     ja: "3⁻ⁿグルーヴ仮説"
     en: "3⁻ⁿ Groove Hypothesis"
-  CONDITIONS_OF_GROOVE:
-    ja: "<ruby><rb>グルーヴ四条件</rb><rt></rt></ruby>"
+  PRINCIPLES_OF_GROOVE:
+    ja: "<ruby><rb>グルーヴ四原則</rb><rt>Four Principles of Groove</rt></ruby>"
+    en: "Four Principles of Groove"
+  AXES_OF_GROOVE:
+    ja: "<ruby><rb>グルーヴ四要素</rb><rt>Four Axes of Groove</rt></ruby>"
+    en: "Four Axes of Groove"
+  FRONT_FOCUS:
+    ja: "文頭焦点"
+    en: "Front-Focus"
+  END_FOCUS:
+    ja: "文末焦点"
+    en: "End-Focus"
+  MORA_ISOCHRONY:
+    ja: "モーラ等時性"
+    en: "Mora Isochrony"
+  SYLLABLE_NUCLEUS_ISOCHRONY:
+    ja: "音節核等時性"
+    en: "Syllable-Nucleus Isochrony"
+  FINAL_CONSONANT_AVOIDANCE:
+    ja: "末子音忌避性"
+    en: "Final-Consonant Avoidance"
+  FINAL_CONSONANT_INTRUSIVENESS:
+    ja: "末子音侵襲性"
+    en: "Final-Consonant Intrusiveness"
+  CONDITIONS_OF_YOKONORI:
+    ja: "<ruby><rb>横乗りの四条件</rb><rt>Four Conditions of Groove</rt></ruby>"
     en: "Four Conditions of Groove"
   CONDITIONS_OF_TATENORI:
-    ja: "<ruby><rb>縦乗り四条件</rb><rt></rt></ruby>"
+    ja: "<ruby><rb>縦乗りの四条件</rb><rt></rt></ruby>"
     en: "Four Conditions of Tatenori"
+  POSTCENTRIC:
+    ja: "<ruby><rb>ポストセントリック</rb><rt>Postcentric</rt></ruby>"
+    en: "Postcentric"
+  PRECENTRIC:
+    ja: "<ruby><rb>プレセントリック</rb><rt>Precentric</rt></ruby>"
+    en: "Precentric"
+  ANTIGROOVE:
+    ja: "<ruby><rb>反グルーヴ</rb><rt>Anti-Groove</rt></ruby>"
+    en: "Anti-Groove"
+  GROOVE:
+    ja: "<ruby><rb>グルーヴ</rb><rt>Groove</rt></ruby>"
+    en: "Groove"
   TATENORI_ONEWAY:
     ja: "縦乗りの一方向性"
     en: "Tatenori Unidirectionality"

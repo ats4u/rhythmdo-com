@@ -36,8 +36,7 @@ format:
     pandoc:
       from: markdown+raw_html
     theme:
-      light : [ cosmo,  .assets/websites/theme.scss, .assets/websites/theme-light.scss ]
-      dark  : [ darkly, .assets/websites/theme.scss, .assets/websites/theme-dark.scss  ]
-    css: assets/styles.css
+      light : [ cosmo,  .quarto-theme/websites/theme.scss, .quarto-theme/websites/theme-light.scss ]
+      dark  : [ darkly, .quarto-theme/websites/theme.scss, .quarto-theme/websites/theme-dark.scss  ]
 
 # vim: set wrap ts=2 sw=2 isk+=- breakat= ve=all nowrap :

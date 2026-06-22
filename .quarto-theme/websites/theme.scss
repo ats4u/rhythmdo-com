@@ -1,0 +1,12 @@
+/*-- scss:defaults --*/
+
+$font-size-base: 0.9em;
+$font-size-step: calc(1em / 30);
+$h1-font-size: calc($font-size-base + 1.50em);
+$h2-font-size: calc($font-size-base + 1.00em);
+$h3-font-size: calc($font-size-base + 0.50em);
+$h4-font-size: calc($font-size-base + 0.15em);
+$h5-font-size: calc($font-size-base + 0.00em);
+$h6-font-size: calc($font-size-base - 0.15em);
+
+/*-- scss:rules --*/

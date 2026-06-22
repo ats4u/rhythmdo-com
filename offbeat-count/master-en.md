@@ -104,52 +104,75 @@ Japan has one of the world's largest jazz performer communities --- nevertheless
 
 **Multi-Layered Weak-Beat-Oriented Rhythm Theory** throws a stone into this situation.
 
-## What Are the Four Principles of Groove <!-- {#the-four-principles-of-groove}-->
+## What Are the {{<meta var.PRINCIPLES_OF_GROOVE.en>}}? <!-- {#the-four-principles-of-groove}-->
 
-In this book, throughout the whole book, I explain the existence of four principles of grooving. What are these four principles? First, let us look at the overall picture of these four principles of groove.
+Throughout this book, I explain four principles that produce groove. What are these four principles? First, let us look at the overall structure of the {{<meta var.PRINCIPLES_OF_GROOVE.en>}}.
 
-### The Four Principles of Groove
+### {{<meta var.PRINCIPLES_OF_GROOVE.en>}}
 
-Rhythm has four elements.
+Groove has four pairs of opposing elements.
 
-- **strong-beat precedence** and **weak-beat precedence**
-- **head alignment** and **tail alignment**
-- **strong-beat axis** and **weak-beat axis**
-- **2⁻ⁿ rhythm** and **3⁻ⁿ rhythm**
+1. A: **Strong-Beat Precedence** and B: **Weak-Beat Precedence**
+2. A: **Head Alignment** and B: **Tail Alignment**
+3. A: **Strong-Beat Anchoring Axis** and B: **Weak-Beat Anchoring Axis**
+4. A: **2⁻ⁿ Rhythm** and B: **3⁻ⁿ Rhythm**
 
-In this way, the four elements are each opposing elements.
+These are called the **{{<meta var.AXES_OF_GROOVE.en>}}**.
 
-This is called **The Four Axes of Groove**.
+These pairs correspond respectively to the following phonological elements:
 
-### {{<meta var.CONDITIONS_OF_GROOVE.en>}}
+1. A: **{{<meta var.MiOP.en>}}** and B: **{{<meta var.MOP.en>}}**
+2. A: **{{<meta var.FRONT_FOCUS.en>}}** and B: **{{<meta var.END_FOCUS.en>}}**
+3. A: **{{<meta var.MORA_ISOCHRONY.en>}}** and B: **{{<meta var.SYLLABLE_NUCLEUS_ISOCHRONY.en>}}**
+4. A: **{{<meta var.FINAL_CONSONANT_AVOIDANCE.en>}}** and B: **{{<meta var.FINAL_CONSONANT_INTRUSIVENESS.en>}}**
 
-When one feels groove in music, it is always in the state of
+Behind these pairs lies a hidden concept called the **P-center**. They can be organized around the P-center.
 
-- **weak-beat precedence**
-- **tail alignment**
-- **weak-beat axis**
-- **3⁻ⁿ rhythm**
+The A side consists of:
 
-...there is such a law.
+1. **Strong-Beat Precedence** — **{{<meta var.MiOP.en>}}**
+2. **Head Alignment** — **{{<meta var.FRONT_FOCUS.en>}}**
+3. **Strong-Beat Anchoring Axis** — **{{<meta var.MORA_ISOCHRONY.en>}}**
+4. **2⁻ⁿ Rhythm** — **{{<meta var.FINAL_CONSONANT_AVOIDANCE.en>}}**
 
-This is called **The Four Principles of Groove**.
+This side is called **{{<meta var.POSTCENTRIC.en>}}**, or **Tatenori**.
 
-In other words, how to acquire weak-beat precedence, tail alignment, weak-beat axis, and 3⁻ⁿ rhythm, these four, becomes the focus for acquiring groove.
+Tatenori has qualities directly opposed to groove. It evokes stillness, stability, fixity, hardness, and immobility. This quality is called **{{<meta var.ANTIGROOVE.en>}}**.
+
+The B side consists of:
+
+1. **Weak-Beat Precedence** — **{{<meta var.MOP.en>}}**
+2. **Tail Alignment** — **{{<meta var.END_FOCUS.en>}}**
+3. **Weak-Beat Anchoring Axis** — **{{<meta var.SYLLABLE_NUCLEUS_ISOCHRONY.en>}}**
+4. **3⁻ⁿ Rhythm** — **{{<meta var.FINAL_CONSONANT_INTRUSIVENESS.en>}}**
+
+This side is called **{{<meta var.PRECENTRIC.en>}}**, or **Yokonori**.
+
+Yokonori evokes dynamism, instability, flexibility, and movement. This quality is called **{{<meta var.GROOVE.en>}}**.
+
+### {{<meta var.CONDITIONS_OF_YOKONORI.en>}}
+
+When music feels groovy, all or some of the following four conditions are satisfied:
+
+- **Weak-Beat Precedence**
+- **Tail Alignment**
+- **Weak-Beat Anchoring Axis**
+- **3⁻ⁿ Rhythm**
+
+These are called the **{{<meta var.CONDITIONS_OF_YOKONORI.en>}}**.
+
+In other words, acquiring Weak-Beat Precedence, Tail Alignment, the Weak-Beat Anchoring Axis, and 3⁻ⁿ Rhythm is the key to developing groove.
 
 ### {{<meta var.CONDITIONS_OF_TATENORI.en>}}
 
-From the context of overseas, the rhythm produced by Japanese music is often described as **stiff**, **lacking dynamism**, **square**, **without a sense of breathing**, **without nuance**, **not swinging**, **landing every time**, **not matching one's taste**, **mechanical**, **like anime songs**, **like game music**, and so on. This is not necessarily uttered as a negative view, but in scenes where it is evaluated as an overseas local culture such as classical music or jazz, it often makes people frown.
+Japanese rhythms often satisfy all or some of the following conditions:
 
-These Japanese rhythms are always in the state of
+- **Strong-Beat Precedence**
+- **Head Alignment**
+- **Strong-Beat Anchoring Axis**
+- **2⁻ⁿ Rhythm**
 
-- **strong-beat precedence**
-- **head alignment**
-- **strong-beat axis**
-- **2⁻ⁿ rhythm**
-
-...there is such a law.
-
-This is called **The Four Principles of Tatenori**.
+These are called the **{{<meta var.CONDITIONS_OF_TATENORI.en>}}**.
 
 As for why Japanese people are tatenori, we look in detail at [Why Are Japanese People Tatenori?](/offbeat-count/tatenori-theory/ja/).
 
@@ -4549,12 +4572,14 @@ import os
 # parent = Path.cwd().parent.parent
 parent = os.getenv( "RHYTHMPRESS_ROOT" )
 
-if str(parent) not in sys.path:
-    sys.path.insert(0, str(parent))
+project_lib = Path(parent) / ".project-lib"
 
-## now imports from project root work
+if str(project_lib) not in sys.path:
+    sys.path.insert(0, str(project_lib))
 
-from lib.groovespace import *
+## now imports from project-local library work
+
+from groovespace import *
 ```
 
 The essence of rhythm as information lies in its multidimensional structure. Information with a multidimensional structure is unfolded onto the one-dimensional number line of time. The rhythm we hear in music is the multidimensional solid figure possessed by rhythm unfolded along the time axis of measures, beats, tuplets, and microtiming. In other words, rhythm can be said to be a one-dimensional projection of multidimensional information.
@@ -4815,12 +4840,14 @@ import os
 # parent = Path.cwd().parent.parent
 parent = os.getenv( "RHYTHMPRESS_ROOT" )
 
-if str(parent) not in sys.path:
-    sys.path.insert(0, str(parent))
+project_lib = Path(parent) / ".project-lib"
 
-## now imports from project root work
+if str(project_lib) not in sys.path:
+    sys.path.insert(0, str(project_lib))
 
-from lib.groovespace import *
+## now imports from project-local library work
+
+from groovespace import *
 
 
 ```
@@ -6409,7 +6436,7 @@ In ordinary notation, this becomes a rhythm close to 18/8.
 
 ```{.lilypond}
 \include "lilypond-book-preamble.ly"
-\include "common-ly/lilypond-preamble.ly"
+\include ".project-lilypond/lilypond-preamble.ly"
 
 gone = { \tuplet 3/2 { do16   do16_~ do16] }  }
 gtwo = { \tuplet 3/2 { do16_~ do16 do16] }  }
@@ -6542,7 +6569,7 @@ This completes tail-alignment optimization on the triplet grid.
 
 ```{.lilypond}
 \include "lilypond-book-preamble.ly"
-\include "common-ly/lilypond-preamble.ly"
+\include ".project-lilypond/lilypond-preamble.ly"
 
 gone = { \tuplet 3/2 { do16   do16_~ do16] }  }
 gtwo = { \tuplet 3/2 { do16_~ do16 do16] }  }
@@ -8777,14 +8804,14 @@ Both shifted reading and assumed reading are methods for recognizing **anacrusis
 For example, suppose we count eight beats as follows.
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-count-offset-0.ly
+.project-lilypond/shared/rhythmdo-count-offset-0.ly
 % 2UKlRFbyT8gtj/zhdLXnQA==
 ```
 
 At this point, if we take into account **Strong-Beat Precedence**, one of the Four Principles of Groove, we need to read on the premise of an anacrusis led by one quarter note. Then it becomes as follows.
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-count-mental-offset-1.ly
+.project-lilypond/shared/rhythmdo-count-mental-offset-1.ly
 % xpUbl1z3/e2qzfCKgn9NZA==
 ```
 
@@ -8800,14 +8827,14 @@ Reading in this way, by assuming that the count has already come earlier, is cal
 Assumed reading is a very difficult way to read for people who have not yet grasped the sensation that an anacrusis precedes the beat. So a method was devised in which the numbers themselves are shifted by a fixed amount so that the sensation of a preceding anacrusis is acquired by force.
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-count-offset-0.ly
+.project-lilypond/shared/rhythmdo-count-offset-0.ly
 % 2UKlRFbyT8gtj/zhdLXnQA==
 ```
 
 Here, again taking into account **Strong-Beat Precedence**, one of the Four Principles of Groove, let us express the anacrusis led by one quarter note by **shifting** the count. Then it becomes as follows.
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-count-drift-offset-1.ly
+.project-lilypond/shared/rhythmdo-count-drift-offset-1.ly
 %  zyUaZvyO98TyXG7Gk4DRvQ==
 ```
 
@@ -9037,7 +9064,7 @@ We will look at this in the next section, **Prosodic Notation Strictification**.
 **Subdivision Level = 3⁻¹=1/3**
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-countset-n-1.ly
+.project-lilypond/shared/rhythmdo-countset-n-1.ly
 ```
 
 #### Phonological Rule Level 2 = Syllable Level
@@ -9046,7 +9073,7 @@ common-ly/shared/rhythmdo-countset-n-1.ly
 This is a way of counting that assigns three subdivisions to one division.
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-countset-n-2.ly
+.project-lilypond/shared/rhythmdo-countset-n-2.ly
 ```
 
 #### Phonological Rule Level 3 = Prosodic Level
@@ -9055,7 +9082,7 @@ common-ly/shared/rhythmdo-countset-n-2.ly
 This is a way of counting that assigns twenty-seven subdivisions to one division.
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-countset-n-3.ly
+.project-lilypond/shared/rhythmdo-countset-n-3.ly
 ```
 This is difficult to understand at a glance, but it follows the pattern below.
 
@@ -9400,7 +9427,7 @@ From here on, I will actually apply Prosodic Notation Strictification to count p
 We will now apply Prosodic Notation Strictification to the count at phonological rule level 1. A count at phonological rule level 1 can undergo only the first three levels of Prosodic Notation Strictification. Below, we carry out the strictification through Level 2.
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-countset-n-1.ly
+.project-lilypond/shared/rhythmdo-countset-n-1.ly
 ```
 
 ##### Level 0 {{<meta var.MiOP.en>}} <!-- {#ppns-1-0} -->
@@ -9408,7 +9435,7 @@ common-ly/shared/rhythmdo-countset-n-1.ly
 First, after decomposing the notes into phonemes, the notation method that simply assigns the phonemes in order from the beginning is this **Level 0 strictification**.
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv1-lv0-000.ly
+.project-lilypond/shared/rhythmdo-lv1-lv0-000.ly
 ```
 
 Two interpretations are possible for this notation method.
@@ -9435,7 +9462,7 @@ Japanese (mora-timed rhythm), however, has isochrony in the cells themselves tha
 This becomes an even more conspicuous problem when the mora beat contains no consonant. In that case, as shown in the following score, the consonant advances.
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv1-lv0-001.ly
+.project-lilypond/shared/rhythmdo-lv1-lv0-001.ly
 ```
 
 This score schematically represents the state in which the **Head Alignment** rhythm recognition type of mora-timed rhythm is activated. Please pay attention to the **Eight (8)** portion. Two problems occur here. First, speakers of mora-timed languages such as Japanese cannot perceive the **implicitly pronounced consonant, namely the glottal stop**, that English speakers use in words beginning with vowels, so deletion occurs.
@@ -9463,7 +9490,7 @@ The first problem faced by speakers whose native language is mora-timed rhythm i
 To solve this problem, a dedicated practice method is needed. The following score schematically represents the state in which the {{<meta var.NI.en>}} rhythm recognition type of syllable-timed rhythm is activated.
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv1-lv1-000.ly
+.project-lilypond/shared/rhythmdo-lv1-lv1-000.ly
 ```
 
 In this way, speakers of syllable-timed languages have the habit of pronouncing consonants in weak-beat positions.
@@ -9475,13 +9502,13 @@ Syllable-timed languages also possess the {{<meta var.MOP.en>}} rhythm recogniti
 The following score schematically shows how, in syllable-timed languages, final consonants are bundled into onset consonants and pronounced.
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv1-lv2-tuplets-1.ly
+.project-lilypond/shared/rhythmdo-lv1-lv2-tuplets-1.ly
 ```
 
 **Zoomed View**
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv1-lv2-tuplets-2.ly
+.project-lilypond/shared/rhythmdo-lv1-lv2-tuplets-2.ly
 ```
 
 At **Phonological Rule Level 1, phoneme level = 3⁻¹=1/3**, Prosodic Notation Strictification is possible only through Level 2. Any further strictification must be performed on counts at phonological rule level 2 or above.
@@ -9497,13 +9524,13 @@ The basic idea of Prosodic Notation Strictification at phonological rule level 2
 Let us look at the count pattern at phonological rule level 2.
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv2-lv3-000.ly
+.project-lilypond/shared/rhythmdo-lv2-lv3-000.ly
 ```
 
 To this two-layer count, we apply **Level 3 {{<meta var.PNI.en>}}**, which is the original purpose of Level 3 strictification. Concretely, by **shifting the notes by one so that & comes onto the strong beat**, we place it in a **weak-beat-precedence** arrangement.
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv2-lv3-001.ly
+.project-lilypond/shared/rhythmdo-lv2-lv3-001.ly
 ```
 
 With this, **Level 3 {{<meta var.PNI.en>}}** is complete. At the same time, it is necessary to apply the Level 1 {{<meta var.NI.en>}} and Level 2 {{<meta var.MOP.en>}} parts of strictification that we have been carrying out up to this point.
@@ -9516,13 +9543,13 @@ From the next section onward, we apply Level 1 and Level 2 {{<meta var.PNS.en>}}
 For details, see [Level 0](#ppns-1-0).
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-2-lv2-lv0-000.ly
+.project-lilypond/shared/rhythmdo-2-lv2-lv0-000.ly
 ```
 <!-- XVxETWgLnwCBjn4sfZX86g== -->
 
 <!--
 ```{.lilypond}
-% \include "common-ly/shared/rhythmdo-lv3-lv0.ly"
+% \include ".project-lilypond/shared/rhythmdo-lv3-lv0.ly"
 % bx/+Uzn54FezLD2lCPTzPQ==
 ```
 -->
@@ -9531,7 +9558,7 @@ common-ly/shared/rhythmdo-2-lv2-lv0-000.ly
 For details, see [Level 1](#ppns-1-1).
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv2-lv1.ly
+.project-lilypond/shared/rhythmdo-lv2-lv1.ly
 ```
 
 ##### Level 2 {{<meta var.MOP.en>}} <!-- {#ppns-2-2} -->
@@ -9539,7 +9566,7 @@ common-ly/shared/rhythmdo-lv2-lv1.ly
 To realize Level 2 {{<meta var.MOP.en>}}, the final consonants that had previously been pronounced on the second triplet are gathered into the onset consonant of the next syllable, that is, the third triplet at the second layer. Here I call this **onset-maximization processing**.
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv2-lv2.ly
+.project-lilypond/shared/rhythmdo-lv2-lv2.ly
 ```
 <!-- DjP07omgzmg47kjmALzX/w== -->
 
@@ -9549,13 +9576,13 @@ To realize Level 3 {{<meta var.PNI.en>}}, as explained at the beginning of this 
 
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv2-lv3.ly
+.project-lilypond/shared/rhythmdo-lv2-lv3.ly
 ```
 
 This looks complicated when viewed as notation, but as explained at the beginning of this chapter, if we remove the Level 1 and Level 2 strictification, it is simply shifted one first-layer triplet to the left.
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv2-lv3-001.ly
+.project-lilypond/shared/rhythmdo-lv2-lv3-001.ly
 ```
 
 ##### Level 4 {{<meta var.MPOP.en>}} <!-- {#ppns-2-4} -->
@@ -9565,13 +9592,13 @@ Level 4 pushes weak-beat precedence one stage further.
 At Level 3, we advanced the count by adding an offset in order to realize weak-beat precedence.
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv2-lv3-001.ly
+.project-lilypond/shared/rhythmdo-lv2-lv3-001.ly
 ```
 
 In that shifted state, by reading a first, we carry out double weak-beat precedence (Maximal Prosodic Onset).
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv2-lv4-000.ly
+.project-lilypond/shared/rhythmdo-lv2-lv4-000.ly
 ```
 
 If we apply Level 1 and Level 2 strictification in this state, the result is as follows.
@@ -9579,7 +9606,7 @@ If we apply Level 1 and Level 2 strictification in this state, the result is as 
 ---
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv2-lv4.ly
+.project-lilypond/shared/rhythmdo-lv2-lv4.ly
 ```
 
 ---
@@ -9593,7 +9620,7 @@ We will now apply Prosodic Notation Strictification to the count at phonological
 
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-countset-n-3.ly
+.project-lilypond/shared/rhythmdo-countset-n-3.ly
 ```
 
 
@@ -9603,7 +9630,7 @@ By assigning syllables to the original nine notes of **3⁻²=1/9**, they are su
 For details, see [Level 0](#ppns-1-0).
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv3-lv0-000.ly
+.project-lilypond/shared/rhythmdo-lv3-lv0-000.ly
 ```
 
 ##### Level 1 {{<meta var.NI.en>}} <!-- {#ppns-3-1} -->
@@ -9612,7 +9639,7 @@ This is the result of applying {{<meta var.NI.en>}}.
 For details, see [Level 1](#ppns-1-1).
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv3-lv1-000.ly
+.project-lilypond/shared/rhythmdo-lv3-lv1-000.ly
 ```
 
 ##### Level 2 {{<meta var.MOP.en>}} <!-- {#ppns-3-2} -->
@@ -9621,7 +9648,7 @@ This is the result of applying {{<meta var.MOP.en>}}.
 For details, see [Level 2](#ppns-2-2).
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv3-lv2-000.ly
+.project-lilypond/shared/rhythmdo-lv3-lv2-000.ly
 % yllHg4q8KHrWnbDJSbHpig==
 ```
 
@@ -9632,7 +9659,7 @@ Up to this point, the count pattern that had undergone strictification through L
 ---
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-countset-n-3.ly
+.project-lilypond/shared/rhythmdo-countset-n-3.ly
 ```
 
 If we apply {{<meta var.PNI.en>}} strictification to this, it becomes as follows.
@@ -9640,7 +9667,7 @@ If we apply {{<meta var.PNI.en>}} strictification to this, it becomes as follows
 ---
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv3-001.ly
+.project-lilypond/shared/rhythmdo-lv3-001.ly
 ```
 
 ---
@@ -9653,7 +9680,7 @@ For details, see [Level 3](#ppns-2-3).
 
 **Completed Level 3**
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv3-lv3-002.ly
+.project-lilypond/shared/rhythmdo-lv3-lv3-002.ly
 ```
 
 ##### Level 4 {{<meta var.MPOP.en>}} <!-- {#ppns-3-4} -->
@@ -9663,7 +9690,7 @@ The count-pattern prototype that had undergone strictification up through Level 
 ---
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv3-001.ly
+.project-lilypond/shared/rhythmdo-lv3-001.ly
 ```
 ---
 
@@ -9672,7 +9699,7 @@ If we apply {{<meta var.MPOP.en>}} strictification to this, it becomes as follow
 ---
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv3-002.ly
+.project-lilypond/shared/rhythmdo-lv3-002.ly
 ```
 
 <!-- gXVPCyCcr8q4R4xc7qRdug== -->
@@ -9685,7 +9712,7 @@ For details, see [Level 4](#ppns-2-4).
 
 **Completed Level 4**
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv3-lv4-000.ly
+.project-lilypond/shared/rhythmdo-lv3-lv4-000.ly
 ```
 
 ##### Level 5 {{<meta var.MNI.en>}} <!-- {#ppns-3-5} -->
@@ -9695,7 +9722,7 @@ The count-pattern prototype that had undergone strictification up through Level 
 ---
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv3-002.ly
+.project-lilypond/shared/rhythmdo-lv3-002.ly
 ```
 ---
 
@@ -9704,7 +9731,7 @@ If we apply {{<meta var.MNI.en>}} strictification to this, it becomes as follows
 ---
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv3-003.ly
+.project-lilypond/shared/rhythmdo-lv3-003.ly
 ```
 ---
 
@@ -9714,7 +9741,7 @@ This is the Level 5 count-pattern prototype. Applying Level 1 and Level 2 strict
 
 **Completed Level 5**
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv3-lv5-000.ly
+.project-lilypond/shared/rhythmdo-lv3-lv5-000.ly
 ```
 
 ##### Level 6 {{<meta var.MMOP.en>}} <!-- {#ppns-3-6} -->
@@ -9722,13 +9749,13 @@ common-ly/shared/rhythmdo-lv3-lv5-000.ly
 The count-pattern prototype that had undergone strictification up through Level 5 was as follows.
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv3-003.ly
+.project-lilypond/shared/rhythmdo-lv3-003.ly
 ```
 
 If we apply {{<meta var.MMOP.en>}} strictification to this, it becomes as follows.
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv3-004.ly
+.project-lilypond/shared/rhythmdo-lv3-004.ly
 ```
 
 ---
@@ -9737,7 +9764,7 @@ This is the Level 6 count-pattern prototype. Applying Level 1 and Level 2 strict
 
 **Completed Level 6**
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv3-lv6-000.ly
+.project-lilypond/shared/rhythmdo-lv3-lv6-000.ly
 ```
 
 <!-- tnccerY91FUWg8OQLyzadQ== -->
@@ -9748,21 +9775,21 @@ common-ly/shared/rhythmdo-lv3-lv6-000.ly
 
 **Original Count Pattern**
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-countset-n-1.ly
+.project-lilypond/shared/rhythmdo-countset-n-1.ly
 ```
 
 ---
 
 **Level 0 {{<meta var.MiOP.en>}}**
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv1-lv0.ly
+.project-lilypond/shared/rhythmdo-lv1-lv0.ly
 ```
 
 ---
 
 **Level 1 {{<meta var.NI.en>}}**
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv1-lv1.ly
+.project-lilypond/shared/rhythmdo-lv1-lv1.ly
 ```
 
 ---
@@ -9770,11 +9797,11 @@ common-ly/shared/rhythmdo-lv1-lv1.ly
 **Level 2 {{<meta var.MOP.en>}}**
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv1-lv2.ly
+.project-lilypond/shared/rhythmdo-lv1-lv2.ly
 ```
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-lv1-lv2-tuplets-1.ly
+.project-lilypond/shared/rhythmdo-lv1-lv2-tuplets-1.ly
 ```
 <!-- t653YlpZFKWhoSDRblCE0w==  -->
 
@@ -9784,7 +9811,7 @@ common-ly/shared/rhythmdo-lv1-lv2-tuplets-1.ly
 
 **Original Count Pattern**
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-countset-n-2-orig.ly
+.project-lilypond/shared/rhythmdo-countset-n-2-orig.ly
 ```
 
 ---
@@ -9792,7 +9819,7 @@ common-ly/shared/rhythmdo-countset-n-2-orig.ly
 **Level 3 {{<meta var.PNI.en>}}**
 *A version with Levels 1 and 2 removed from Level 3.*
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-countset-n-2-lv3.ly
+.project-lilypond/shared/rhythmdo-countset-n-2-lv3.ly
 ```
 
 ---
@@ -9800,7 +9827,7 @@ common-ly/shared/rhythmdo-countset-n-2-lv3.ly
 **Level 4 {{<meta var.MPOP.en>}}**
 *A version with Levels 1 and 2 removed from Level 4.*
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-countset-n-2-lv43.ly
+.project-lilypond/shared/rhythmdo-countset-n-2-lv43.ly
 ```
 
 
@@ -9808,17 +9835,17 @@ common-ly/shared/rhythmdo-countset-n-2-lv43.ly
 
 **Original Count Pattern**
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-countset-n-3-orig.ly
+.project-lilypond/shared/rhythmdo-countset-n-3-orig.ly
 ```
 
 **Level 3 {{<meta var.PNI.en>}}**
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-countset-n-3-lv3.ly
+.project-lilypond/shared/rhythmdo-countset-n-3-lv3.ly
 ```
 
 **Level 4 {{<meta var.MPOP.en>}}**
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-countset-n-3-lv43.ly
+.project-lilypond/shared/rhythmdo-countset-n-3-lv43.ly
 ```
 
 **Level 5 {{<meta var.MNI.en>}}**
@@ -9827,19 +9854,19 @@ common-ly/shared/rhythmdo-countset-n-3-lv43.ly
 *A version with Levels 1, 2, 3, and 4 removed from Level 5.*
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-countset-n-3-lv5.ly
+.project-lilypond/shared/rhythmdo-countset-n-3-lv5.ly
 ```
 
 *A version with Levels 1, 2, and 4 removed from Level 5.*
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-countset-n-3-lv53.ly
+.project-lilypond/shared/rhythmdo-countset-n-3-lv53.ly
 ```
 
 *A version with Levels 1 and 2 removed from Level 5.*
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-countset-n-3-lv543.ly
+.project-lilypond/shared/rhythmdo-countset-n-3-lv543.ly
 ```
 
 
@@ -9848,19 +9875,19 @@ common-ly/shared/rhythmdo-countset-n-3-lv543.ly
 *A version with Levels 1 and 2 removed from Level 6.*
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-countset-n-3-lv6543.ly
+.project-lilypond/shared/rhythmdo-countset-n-3-lv6543.ly
 ```
 
 *A version with Levels 1, 2, and 4 removed from Level 6.*
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-countset-n-3-lv653.ly
+.project-lilypond/shared/rhythmdo-countset-n-3-lv653.ly
 ```
 
 *A version with Levels 1, 2, 3, and 4 removed from Level 6.*
 
 ```{.lilypond-file}
-common-ly/shared/rhythmdo-countset-n-3-lv65.ly
+.project-lilypond/shared/rhythmdo-countset-n-3-lv65.ly
 ```
 
 <!-- DnPLEgQNJKRim4z7mDqFBg== -->
@@ -11369,11 +11396,11 @@ Here, I will call the framework that divides human temporal-order recognition in
 
 #### {{<meta var.PROACTIVE_DIVISIONISM.en>}}
 
-This is the concept in music theory corresponding to {{<meta var.PROACTIVE_TEMPORAL_ORDERING.en>}}. By anticipating what is about to happen and dividing space and time in advance, it forms the four groove conditions of {{<meta var.CONDITIONS_OF_GROOVE.en>}}: weak-beat precedence, Weak-Beat Anchoring Axis, Tail Alignment, and 3⁻ⁿ Rhythm. It forms rhythm based on Cooperative Groove.
+This is the concept in music theory corresponding to {{<meta var.PROACTIVE_TEMPORAL_ORDERING.en>}}. By anticipating what is about to happen and dividing space and time in advance, it forms the four yokonori components of the {{<meta var.PRINCIPLES_OF_GROOVE.en>}}: Weak-Beat Precedence, Weak-Beat Anchoring Axis, Tail Alignment, and 3⁻ⁿ Rhythm. It forms rhythm based on Cooperative Groove.
 
 #### {{<meta var.REACTIVE_APPENDISM.en>}}
 
-This is the concept in music theory corresponding to {{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}}. It begins action using some already-occurred event as a trigger and forms the four tatenori conditions of {{<meta var.CONDITIONS_OF_GROOVE.en>}}: strong-beat precedence, Strong-Beat Anchoring Axis, Head Alignment, and 2⁻ⁿ Rhythm. It forms rhythm based on solo groove.
+This is the concept in music theory corresponding to {{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}}. It begins action using some already-occurred event as a trigger and forms the four tatenori components of the {{<meta var.PRINCIPLES_OF_GROOVE.en>}}: Strong-Beat Precedence, Strong-Beat Anchoring Axis, Head Alignment, and 2⁻ⁿ Rhythm. It forms rhythm based on solo groove.
 
 
 #### {{<meta var.PROSODIC_ORDERING_BIAS.en>}}
@@ -11477,7 +11504,7 @@ In the end, smooth passing becomes impossible.
 
 At the core of these behaviors lies {{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}}.
 
-This, I believe, is what gives rise to the four tatenori conditions of {{<meta var.CONDITIONS_OF_GROOVE.en>}}:
+This, I believe, is what gives rise to the {{<meta var.CONDITIONS_OF_TATENORI.en>}}:
 
 - strong-beat precedence
 - Strong-Beat Anchoring Axis
