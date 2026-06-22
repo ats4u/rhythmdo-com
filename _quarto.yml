@@ -251,12 +251,30 @@ var:
   3TONGH:
     ja: "3⁻ⁿグルーヴ仮説"
     en: "3⁻ⁿ Groove Hypothesis"
-  CONDITIONS_OF_GROOVE:
-    ja: "<ruby><rb>グルーヴ四条件</rb><rt></rt></ruby>"
+  PRINCIPLES_OF_GROOVE:
+    ja: "<ruby><rb>グルーヴ四原則</rb><rt>Four Principles of Groove</rt></ruby>"
+    en: "Four Principles of Groove"
+  AXES_OF_GROOVE:
+    ja: "<ruby><rb>グルーヴ四要素</rb><rt>Four Axes of Groove</rt></ruby>"
+    en: "Four Axes of Groove"
+  CONDITIONS_OF_YOKONORI:
+    ja: "<ruby><rb>横乗りの四条件</rb><rt>Four Conditions of Groove</rt></ruby>"
     en: "Four Conditions of Groove"
   CONDITIONS_OF_TATENORI:
-    ja: "<ruby><rb>縦乗り四条件</rb><rt></rt></ruby>"
+    ja: "<ruby><rb>縦乗りの四条件</rb><rt></rt></ruby>"
     en: "Four Conditions of Tatenori"
+  POSTCENTRIC:
+    ja: "<ruby><rb>ポストセントリック</rb><rt>Postcentric</rt></ruby>"
+    en: "Postcentric"
+  PRECENTRIC:
+    ja: "<ruby><rb>プレセントリック</rb><rt>Precentric</rt></ruby>"
+    en: "Precentric"
+  ANTIGROOVE:
+    ja: "<ruby><rb>反グルーヴ</rb><rt>Anti-Groove</rt></ruby>"
+    en: "Anti-Groove"
+  GROOVE:
+    ja: "<ruby><rb>グルーヴ</rb><rt>Groove</rt></ruby>"
+    en: "Groove"
   TATENORI_ONEWAY:
     ja: "縦乗りの一方向性"
     en: "Tatenori Unidirectionality"

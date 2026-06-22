@@ -121,7 +121,7 @@ In this way, the four elements are each opposing elements.
 
 This is called **The Four Axes of Groove**.
 
-### {{<meta var.CONDITIONS_OF_GROOVE.en>}}
+### {{<meta var.CONDITIONS_OF_YOKONORI.en>}}
 
 When one feels groove in music, it is always in the state of
 
@@ -11373,11 +11373,11 @@ Here, I will call the framework that divides human temporal-order recognition in
 
 #### {{<meta var.PROACTIVE_DIVISIONISM.en>}}
 
-This is the concept in music theory corresponding to {{<meta var.PROACTIVE_TEMPORAL_ORDERING.en>}}. By anticipating what is about to happen and dividing space and time in advance, it forms the four groove conditions of {{<meta var.CONDITIONS_OF_GROOVE.en>}}: weak-beat precedence, Weak-Beat Anchoring Axis, Tail Alignment, and 3⁻ⁿ Rhythm. It forms rhythm based on Cooperative Groove.
+This is the concept in music theory corresponding to {{<meta var.PROACTIVE_TEMPORAL_ORDERING.en>}}. By anticipating what is about to happen and dividing space and time in advance, it forms the four groove conditions of {{<meta var.CONDITIONS_OF_YOKONORI.en>}}: weak-beat precedence, Weak-Beat Anchoring Axis, Tail Alignment, and 3⁻ⁿ Rhythm. It forms rhythm based on Cooperative Groove.
 
 #### {{<meta var.REACTIVE_APPENDISM.en>}}
 
-This is the concept in music theory corresponding to {{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}}. It begins action using some already-occurred event as a trigger and forms the four tatenori conditions of {{<meta var.CONDITIONS_OF_GROOVE.en>}}: strong-beat precedence, Strong-Beat Anchoring Axis, Head Alignment, and 2⁻ⁿ Rhythm. It forms rhythm based on solo groove.
+This is the concept in music theory corresponding to {{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}}. It begins action using some already-occurred event as a trigger and forms the four tatenori conditions of {{<meta var.CONDITIONS_OF_YOKONORI.en>}}: strong-beat precedence, Strong-Beat Anchoring Axis, Head Alignment, and 2⁻ⁿ Rhythm. It forms rhythm based on solo groove.
 
 
 #### {{<meta var.PROSODIC_ORDERING_BIAS.en>}}
@@ -11481,7 +11481,7 @@ In the end, smooth passing becomes impossible.
 
 At the core of these behaviors lies {{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}}.
 
-This, I believe, is what gives rise to the four tatenori conditions of {{<meta var.CONDITIONS_OF_GROOVE.en>}}:
+This, I believe, is what gives rise to the four tatenori conditions of {{<meta var.CONDITIONS_OF_YOKONORI.en>}}:
 
 - strong-beat precedence
 - Strong-Beat Anchoring Axis
