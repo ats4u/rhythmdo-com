@@ -104,52 +104,75 @@ Japan has one of the world's largest jazz performer communities --- nevertheless
 
 **Multi-Layered Weak-Beat-Oriented Rhythm Theory** throws a stone into this situation.
 
-## What Are the Four Principles of Groove <!-- {#the-four-principles-of-groove}-->
+## What Are the {{<meta var.PRINCIPLES_OF_GROOVE.en>}}? <!-- {#the-four-principles-of-groove}-->
 
-In this book, throughout the whole book, I explain the existence of four principles of grooving. What are these four principles? First, let us look at the overall picture of these four principles of groove.
+Throughout this book, I explain four principles that produce groove. What are these four principles? First, let us look at the overall structure of the {{<meta var.PRINCIPLES_OF_GROOVE.en>}}.
 
-### The Four Principles of Groove
+### {{<meta var.PRINCIPLES_OF_GROOVE.en>}}
 
-Rhythm has four elements.
+Groove has four pairs of opposing elements.
 
-- **strong-beat precedence** and **weak-beat precedence**
-- **head alignment** and **tail alignment**
-- **strong-beat axis** and **weak-beat axis**
-- **2⁻ⁿ rhythm** and **3⁻ⁿ rhythm**
+1. A: **Strong-Beat Precedence** and B: **Weak-Beat Precedence**
+2. A: **Head Alignment** and B: **Tail Alignment**
+3. A: **Strong-Beat Anchoring Axis** and B: **Weak-Beat Anchoring Axis**
+4. A: **2⁻ⁿ Rhythm** and B: **3⁻ⁿ Rhythm**
 
-In this way, the four elements are each opposing elements.
+These are called the **{{<meta var.AXES_OF_GROOVE.en>}}**.
 
-This is called **The Four Axes of Groove**.
+These pairs correspond respectively to the following phonological elements:
+
+1. A: **{{<meta var.MiOP.en>}}** and B: **{{<meta var.MOP.en>}}**
+2. A: **{{<meta var.FRONT_FOCUS.en>}}** and B: **{{<meta var.END_FOCUS.en>}}**
+3. A: **{{<meta var.MORA_ISOCHRONY.en>}}** and B: **{{<meta var.SYLLABLE_NUCLEUS_ISOCHRONY.en>}}**
+4. A: **{{<meta var.FINAL_CONSONANT_AVOIDANCE.en>}}** and B: **{{<meta var.FINAL_CONSONANT_INTRUSIVENESS.en>}}**
+
+Behind these pairs lies a hidden concept called the **P-center**. They can be organized around the P-center.
+
+The A side consists of:
+
+1. **Strong-Beat Precedence** — **{{<meta var.MiOP.en>}}**
+2. **Head Alignment** — **{{<meta var.FRONT_FOCUS.en>}}**
+3. **Strong-Beat Anchoring Axis** — **{{<meta var.MORA_ISOCHRONY.en>}}**
+4. **2⁻ⁿ Rhythm** — **{{<meta var.FINAL_CONSONANT_AVOIDANCE.en>}}**
+
+This side is called **{{<meta var.POSTCENTRIC.en>}}**, or **Tatenori**.
+
+Tatenori has qualities directly opposed to groove. It evokes stillness, stability, fixity, hardness, and immobility. This quality is called **{{<meta var.ANTIGROOVE.en>}}**.
+
+The B side consists of:
+
+1. **Weak-Beat Precedence** — **{{<meta var.MOP.en>}}**
+2. **Tail Alignment** — **{{<meta var.END_FOCUS.en>}}**
+3. **Weak-Beat Anchoring Axis** — **{{<meta var.SYLLABLE_NUCLEUS_ISOCHRONY.en>}}**
+4. **3⁻ⁿ Rhythm** — **{{<meta var.FINAL_CONSONANT_INTRUSIVENESS.en>}}**
+
+This side is called **{{<meta var.PRECENTRIC.en>}}**, or **Yokonori**.
+
+Yokonori evokes dynamism, instability, flexibility, and movement. This quality is called **{{<meta var.GROOVE.en>}}**.
 
 ### {{<meta var.CONDITIONS_OF_YOKONORI.en>}}
 
-When one feels groove in music, it is always in the state of
+When music feels groovy, all or some of the following four conditions are satisfied:
 
-- **weak-beat precedence**
-- **tail alignment**
-- **weak-beat axis**
-- **3⁻ⁿ rhythm**
+- **Weak-Beat Precedence**
+- **Tail Alignment**
+- **Weak-Beat Anchoring Axis**
+- **3⁻ⁿ Rhythm**
 
-...there is such a law.
+These are called the **{{<meta var.CONDITIONS_OF_YOKONORI.en>}}**.
 
-This is called **The Four Principles of Groove**.
-
-In other words, how to acquire weak-beat precedence, tail alignment, weak-beat axis, and 3⁻ⁿ rhythm, these four, becomes the focus for acquiring groove.
+In other words, acquiring Weak-Beat Precedence, Tail Alignment, the Weak-Beat Anchoring Axis, and 3⁻ⁿ Rhythm is the key to developing groove.
 
 ### {{<meta var.CONDITIONS_OF_TATENORI.en>}}
 
-From the context of overseas, the rhythm produced by Japanese music is often described as **stiff**, **lacking dynamism**, **square**, **without a sense of breathing**, **without nuance**, **not swinging**, **landing every time**, **not matching one's taste**, **mechanical**, **like anime songs**, **like game music**, and so on. This is not necessarily uttered as a negative view, but in scenes where it is evaluated as an overseas local culture such as classical music or jazz, it often makes people frown.
+Japanese rhythms often satisfy all or some of the following conditions:
 
-These Japanese rhythms are always in the state of
+- **Strong-Beat Precedence**
+- **Head Alignment**
+- **Strong-Beat Anchoring Axis**
+- **2⁻ⁿ Rhythm**
 
-- **strong-beat precedence**
-- **head alignment**
-- **strong-beat axis**
-- **2⁻ⁿ rhythm**
-
-...there is such a law.
-
-This is called **The Four Principles of Tatenori**.
+These are called the **{{<meta var.CONDITIONS_OF_TATENORI.en>}}**.
 
 As for why Japanese people are tatenori, we look in detail at [Why Are Japanese People Tatenori?](/offbeat-count/tatenori-theory/ja/).
 
@@ -11373,11 +11396,11 @@ Here, I will call the framework that divides human temporal-order recognition in
 
 #### {{<meta var.PROACTIVE_DIVISIONISM.en>}}
 
-This is the concept in music theory corresponding to {{<meta var.PROACTIVE_TEMPORAL_ORDERING.en>}}. By anticipating what is about to happen and dividing space and time in advance, it forms the four groove conditions of {{<meta var.CONDITIONS_OF_YOKONORI.en>}}: weak-beat precedence, Weak-Beat Anchoring Axis, Tail Alignment, and 3⁻ⁿ Rhythm. It forms rhythm based on Cooperative Groove.
+This is the concept in music theory corresponding to {{<meta var.PROACTIVE_TEMPORAL_ORDERING.en>}}. By anticipating what is about to happen and dividing space and time in advance, it forms the four yokonori components of the {{<meta var.PRINCIPLES_OF_GROOVE.en>}}: Weak-Beat Precedence, Weak-Beat Anchoring Axis, Tail Alignment, and 3⁻ⁿ Rhythm. It forms rhythm based on Cooperative Groove.
 
 #### {{<meta var.REACTIVE_APPENDISM.en>}}
 
-This is the concept in music theory corresponding to {{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}}. It begins action using some already-occurred event as a trigger and forms the four tatenori conditions of {{<meta var.CONDITIONS_OF_YOKONORI.en>}}: strong-beat precedence, Strong-Beat Anchoring Axis, Head Alignment, and 2⁻ⁿ Rhythm. It forms rhythm based on solo groove.
+This is the concept in music theory corresponding to {{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}}. It begins action using some already-occurred event as a trigger and forms the four tatenori components of the {{<meta var.PRINCIPLES_OF_GROOVE.en>}}: Strong-Beat Precedence, Strong-Beat Anchoring Axis, Head Alignment, and 2⁻ⁿ Rhythm. It forms rhythm based on solo groove.
 
 
 #### {{<meta var.PROSODIC_ORDERING_BIAS.en>}}
@@ -11481,7 +11504,7 @@ In the end, smooth passing becomes impossible.
 
 At the core of these behaviors lies {{<meta var.REACTIVE_TEMPORAL_ORDERING.en>}}.
 
-This, I believe, is what gives rise to the four tatenori conditions of {{<meta var.CONDITIONS_OF_YOKONORI.en>}}:
+This, I believe, is what gives rise to the {{<meta var.CONDITIONS_OF_TATENORI.en>}}:
 
 - strong-beat precedence
 - Strong-Beat Anchoring Axis

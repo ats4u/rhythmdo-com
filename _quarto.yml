@@ -257,6 +257,24 @@ var:
   AXES_OF_GROOVE:
     ja: "<ruby><rb>グルーヴ四要素</rb><rt>Four Axes of Groove</rt></ruby>"
     en: "Four Axes of Groove"
+  FRONT_FOCUS:
+    ja: "文頭焦点"
+    en: "Front-Focus"
+  END_FOCUS:
+    ja: "文末焦点"
+    en: "End-Focus"
+  MORA_ISOCHRONY:
+    ja: "モーラ等時性"
+    en: "Mora Isochrony"
+  SYLLABLE_NUCLEUS_ISOCHRONY:
+    ja: "音節核等時性"
+    en: "Syllable-Nucleus Isochrony"
+  FINAL_CONSONANT_AVOIDANCE:
+    ja: "末子音忌避性"
+    en: "Final-Consonant Avoidance"
+  FINAL_CONSONANT_INTRUSIVENESS:
+    ja: "末子音侵襲性"
+    en: "Final-Consonant Intrusiveness"
   CONDITIONS_OF_YOKONORI:
     ja: "<ruby><rb>横乗りの四条件</rb><rt>Four Conditions of Groove</rt></ruby>"
     en: "Four Conditions of Groove"
