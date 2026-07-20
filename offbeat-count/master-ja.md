@@ -106,9 +106,686 @@ rhythmpress-preproc-args: []
 
 ## {{<meta var.PRINCIPLES_OF_GROOVE.ja>}}とは <!-- {#the-four-principles-of-groove}-->
 
-この書では全編を通して４つのグルーヴする原則の存在を説明します。この４つの原則とは何でしょうか。まずこのグルーヴ四原則の全体像を見てみます。
+オフビートカウント理論で説明される理論の背後には９つのグルーヴ原則が存在します。ここではこの原則を{{<meta var.PRINCIPLES_OF_GROOVE.ja>}}と呼びます。これは音楽がグルーヴする為の９つの条件としてまとめたものです。ここではこの {{<meta var.PRINCIPLES_OF_GROOVE.ja>}} を順を追って説明します。 まずはこの理解に必要となる用語から御紹介致します。
+
+### {{<meta var.P_CENTER.ja>}}とは
+
+まず最初にリズム分析を行う為の最も重要な概念 **{{<meta var.P_CENTER.ja>}}** を御紹介致します。 {{<meta var.P_CENTER.ja>}}とは Perceptual Center（認識中央点）の略です。 人は「ドラムの音がなる」というような瞬間的な出来事が起きたとき、その音のどこかの点に「その出来事の中央点」を感じています。 ドラムの１音がなったとき、その音は一瞬で終わる様に感じますが、実際には一定の長さを持っています。この持続する長さのどこかに人は中央点を感じているのです。
+
+ドラムの音はしばしば装飾音を伴って演奏されます。するとそれはよりはっきりとした一定の長さを持つことになります。この様な時、人は必ずその一定時間附近のどこかの地点に『その音の中心となる点』を認識しているのです。
+
+この「音のどの地点に中央を感じるか」の習性は人によって大きな違いが存在します。それは個人差だけでなく、その人が話す言語やその人が属している文化圏によって大きく異なります。
+
+この{{<meta var.P_CENTER.ja>}}の置く場所により、人の時間の認識は大きな影響を受け、それが楽器を演奏したときのリズムの偏りやダンスを行った時の動きの偏りとして、他者から観察されます。
+
+中国・日本・韓国では{{<meta var.P_CENTER.ja>}}よりも後ろに情報があると考える傾向が強いことが知られています。つまり一連の音符（出来事）があったとき、その先頭に{{<meta var.P_CENTER.ja>}}があると感じる傾向があります。このことを**ポストセントリック・リズム認識**と呼びます。
+
+それ以外の地域…東南アジア・アフリカ・ヨーロッパ・中東では、{{<meta var.P_CENTER.ja>}}よりも前に情報があると考える傾向が強いことが知られています。つまり一連の音符（出来事）があったとき、その最後尾に{{<meta var.P_CENTER.ja>}}があると感じる傾向があります。  このことを**プレセントリック・リズム認識**と呼びます。
+
+{{<meta var.P_CENTER.ja>}}は、{{<meta var.RHYTHMDO_PURPOSE.ja>}}を考察するための大切なツールとなります。
+
+### Pセンターと代表的な言語/文化圏
+
+リズム認識がポストセントリックになるか、プレセントリックになるかには、地域・文化・民族によってはっきりした傾向が見られます。
+
+#### プレセントリックの特徴
+
+Pセンターよりも前に情報の中心があると感じる傾向をプレセントリックと呼びます。 つまり基準となる出来事（メトロノーム音やドラム音などの基準となる定期的な音）に対して、先駆ける様に音楽を演奏します。 それを聞く人も基準となる出来事の前に情報があることを期待します。
+
+プレセントリック・リズム認識を持つ人は、基準点（小節頭）に先駆ける様な形で弱起を使ってメロディーを構築することを好む傾向があります。
+
+地球上のほとんどの地域・文化は、プレセントリックのリズム認識傾向を持っています。英語圏・ロシア語圏・ドイツ語圏・イタリア語圏・フランス語圏・スペイン語圏・ポルトガル語圏・東南アジアのほとんど全ての言語圏、アフリカの殆どの国々の言語圏では、ほとんどの場合でポストセントリックリズム認識が見られます。
+
+一般的に音楽上のリズム上で起こる『グルーヴ』という現象は、このプレセントリック・リズム認識と深い関わり合いのある現象です。彼らが音楽を演奏すると、多かれ少なかれ特別な訓練を行わずともグルーヴを演奏することが可能になる場合が多いことが知られています。
+
+#### ポストセントリックの特徴
+
+Pセンターよりも後ろに情報の中心があると感じる傾向をポストセントリックと呼びます。 基準となる出来事 ───メトロノーム音やドラム音などの基準となる定期的な音 ───がはっきりと聞こえてから、後を追従するように音楽を演奏する傾向があります。 それを聞く人も基準音が聞こえることをまず待って、基準音が聞こえた後に情報があることを期待します。
+
+ポストセントリック・リズム認識を持つ人は、基準点（小節頭）に追従するように弱起を全く使わずにメロディーを構築することを好む傾向があります。
+
+ポストセントリックリズム認識を持った文化圏は、全体で見るとごく限られています。中国語圏・クルド語語圏・そして日本語圏です。
+
+ポストセントリックのリズム認識を持った文化圏の人は、全く何の訓練もない状態で自然にグルーヴの演奏が可能になるということはありません。後天的に何等かの教育を受けた後にグルーヴが演奏出来る様になる傾向があります。
+
+#### ノーセントリックの特徴
+
+そして最後にノーセントリックリズム認識があります。基準となる出来事を認識する習慣自体がないことをノーセントリック・リズム認識と呼びます。 ノーセントリック・リズム認識を持つ人は、定期的な基準音  ─── メトロノーム音やドラム音 ───などが全くない状態で演奏することを好みます。
+
+<div class="center-box" style="margin:10px;">
+<div class="ats4u-twitter-video" style="margin-bottom:0px;padding-bottom:0px" >https://x.com/ats4u/status/1652191091792420871?s=20</div>
+<div style="font-weight:1000;text-align:center;margin-top:0px;padding-top:0px">世界的に見ても極めて珍しい無拍子リズムを持つ宮崎の刈干切歌。</div>
+</div>
+
+<br/>
+
+ノーセントリック・リズム認識を持つ人は世界的に見て極めて珍しく日本でしか見られません。また日本でもごく一部の地域に限られます。
+
+これは**モーラ拍リズム**と深い関連があることが知られています。しかしその因果関係ははっきりと解明された訳ではありません。 モーラ拍リズムを持つ言語は、アフリカのバントゥ語などいくつか知られています。しかし純粋なモーラ拍リズムの言語は日本語しか存在しないとも言われています。
+
+
+
+### {{<meta var.GROOVE_EQUATIONS.ja>}}
+
+次に**グルーヴ方程式**を御紹介致します。
+
+$$
+R
+=
+\prod_{i=0}^{N}b_i^{e_i}
+=
+(b_0^{e_0})(b_1^{e_1})\cdots(b_N^{e_N})
+$$ {#eq-rhythmic-structure}
+
+これがグルーヴ方程式です。これは音楽の音符の長さ（パルス）を模式的に数式化したものです。
+
+例えば３拍子の曲を16分音符で演奏した場合は次の様になります。
+
+$$
+R
+= 3^{-1} \cdot 2^{-3}
+$$ {#eq-rhythmic-structure-2}
+
+更に８小節毎に変化するリズムであったならば次の様に書き表わされます。
+
+$$
+R
+= 2^{-3} \cdot 3^{-1} \cdot 2^{-3}
+$$ {#eq-rhythmic-structure-2}
+
+
+音符の長さに含まれる素因数が多ければ多いほどグルーヴが強くなると考えられています。
+
+また、東アジアの**ポストセントリック・リズム認識** を正の指数として、東南アジア・アフリカ・欧米の**プレセントリック・リズム認識** を負の指数として表現します。 詳細は後述致します。
+
+
+### {{<meta var.RHYTHMOCHRONOLOGY.ja>}} とは
+
+{{<meta var.RHYTHMOCHRONOLOGY.ja>}}...とは文字通り、リズムの構造を『弱拍が先に来ている』と認識しているか、あるいは『強拍が先に来ている』と認識しているかを基準にして分析することです。 音符には四分音符八分音符など複数の音価が含まれています。つまり、これらのそれぞれの音価に対して多層的に『弱拍が先か』『強拍が先か』を分析していくことが可能です。 この分析手法を {{<meta var.RHYTHMOCHRONOLOGY.ja>}} と呼びます。
+
+{{<meta var.RHYTHMOCHRONOLOGY.ja>}} は、{{<meta var.P_CENTER.ja>}}と並んで、{{<meta var.RHYTHMDO_PURPOSE.ja>}}を考察するための大切なツールとなります。
+
+詳細に関しましては [{{<meta var.RHYTHMOCHRONOLOGY.ja>}}](/offbeat-count/headians-and-bottomians-of-beat-orientation/ja/) で説明致します。
+
+
+### {{<meta var.PHONORHYTHMATOLOGY.ja>}} とは
+
+{{<meta var.PHONORHYTHMATOLOGY.ja>}} とは『音楽のリズムは、その人が母国語とする言語のリズムの影響を受ける』という仮説を元にして、音楽のリズムを言語の{{<meta var.PHONOLOGY.ja>}}を使って分析することを指します。
+
+何故音楽のリズムと言語のリズムは関係するのかを考察し、具体的に言語リズムの原則と、音楽リズムの原則を比較することでその背後にあるより大きな原則を探ります。
+
+{{<meta var.RHYTHMOCHRONOLOGY.ja>}} と {{<meta var.PHONOLOGY2.ja>}} を結びつけて観察する手法、それが {{<meta var.PHONORHYTHMATOLOGY.ja>}} です。
+
+詳細に関しましては[{{<meta var.PHONORHYTHMATOLOGY.ja>}}](/offbeat-count/phonorhythmatological-theory/ja/)で詳細を見ていきます。
 
 ### {{<meta var.PRINCIPLES_OF_GROOVE.ja>}}
+
+音楽がグルーヴする条件を{{<meta var.RHYTHMOCHRONOLOGY.ja>}}によって分析し９つの原則としてまとめたものが{{<meta var.PRINCIPLES_OF_GROOVE.ja>}} です。
+
+#### はじめに
+
+{{<meta var.PRINCIPLES_OF_GROOVE.ja>}}は、９つの対立する要素で構成されます。それぞれの原則にはポストセントリックとプレセントリックの二極を示す**{{<meta var.P_CENTER.ja>}}軸**が存在します。 そしてそれら全てに更に『音楽』『言語学』それぞれでどう考えるかを示す **{{<meta var.PHONORHYTHMATOLOGY.ja>}}軸** が存在します。
+
+#### グルーヴ九大原則一覧表
+
+<style>
+/*
+ * 9POG table color system
+ */
+
+.rdo9pog-table-scroll {
+  --rdo9pog-bg: var(--bs-body-bg, #ffffff);
+  --rdo9pog-color: var(--bs-body-color, #343a40);
+  --rdo9pog-border: var(--bs-border-color, #dee2e6);
+
+  --rdo9pog-header-bg: #f1f3f5;
+  --rdo9pog-row-header-bg: #f8f9fa;
+  --rdo9pog-caption-color: #495057;
+  --rdo9pog-group-divider: #6c757d;
+
+  color-scheme: light;
+
+  margin-block: 1.5rem;
+  border: 1px solid var(--rdo9pog-border);
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+
+  color: var(--rdo9pog-color);
+  background-color: var(--rdo9pog-bg);
+}
+
+/*
+ * Rhythmdo dark mode
+ */
+
+body.quarto-dark .rdo9pog-table-scroll {
+  --rdo9pog-bg: var(--bs-body-bg, #000000);
+  --rdo9pog-color: var(--bs-body-color, #eeeeee);
+  --rdo9pog-border: var(--bs-border-color, #1c2128);
+
+  --rdo9pog-header-bg: #11151b;
+  --rdo9pog-row-header-bg: var(--bs-card-bg, #0f1115);
+  --rdo9pog-caption-color: #c9d1d9;
+  --rdo9pog-group-divider: #8b949e;
+
+  color-scheme: dark;
+}
+
+/*
+ * Table structure
+ */
+
+.rdo9pog-table-scroll table {
+  width: max-content;
+  min-width: 100%;
+  border-collapse: collapse;
+
+  color: var(--rdo9pog-color);
+  background-color: var(--rdo9pog-bg);
+
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+
+.rdo9pog-table-scroll caption {
+  caption-side: top;
+  padding-block: 0 0.75rem;
+
+  color: var(--rdo9pog-caption-color);
+  background-color: var(--rdo9pog-bg);
+
+  font-size: 1.05rem;
+  font-weight: 700;
+  text-align: left;
+}
+
+.rdo9pog-table-scroll th,
+.rdo9pog-table-scroll td {
+  padding: 0.65rem 0.75rem;
+  border: 1px solid var(--rdo9pog-border);
+  vertical-align: top;
+}
+
+.rdo9pog-table-scroll thead th {
+  color: var(--rdo9pog-color);
+  background-color: var(--rdo9pog-header-bg);
+
+  text-align: center;
+  vertical-align: middle;
+}
+
+.rdo9pog-table-scroll tbody th {
+  color: var(--rdo9pog-color);
+  background-color: var(--rdo9pog-row-header-bg);
+
+  font-weight: 700;
+  text-align: left;
+}
+
+.rdo9pog-table-scroll tbody td {
+  color: var(--rdo9pog-color);
+  background-color: var(--rdo9pog-bg);
+}
+
+/*
+ * Double boundary between music and phonology
+ */
+
+.rdo9pog-table-scroll .music-columns {
+  border-right: 4px double var(--rdo9pog-group-divider);
+}
+
+/*
+ * Special cells
+ */
+
+.rdo9pog-table-scroll .note-column {
+  min-width: 1.5rem;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.rdo9pog-table-scroll .formula {
+  white-space: nowrap;
+}
+
+/*
+ * Notes
+ */
+
+.rdo9pog-table-notes {
+  max-width: 76rem;
+  color: var(--bs-body-color, inherit);
+  font-size: 0.94rem;
+}
+
+/*
+ * Fullscreen mode
+ */
+
+.rdo9pog-table-scroll:fullscreen {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 1rem;
+  border: 0;
+  overflow: auto;
+
+  color: var(--rdo9pog-color);
+  background-color: var(--rdo9pog-bg);
+}
+
+.rdo9pog-fullscreen-close {
+  display: none;
+}
+
+.rdo9pog-table-scroll:fullscreen .rdo9pog-fullscreen-close {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+
+  display: block;
+  margin: 0 0 0.75rem auto;
+}
+
+/*
+ * Fullscreen controls
+ */
+
+.rdo9pog-fullscreen-open,
+.rdo9pog-fullscreen-close {
+  padding: 0.35rem 0.65rem;
+  border: 1px solid var(--bs-border-color, #dee2e6);
+  border-radius: 0.25rem;
+
+  color: var(--bs-body-color, #343a40);
+  background-color: var(--bs-body-bg, #ffffff);
+
+  font: inherit;
+  cursor: pointer;
+}
+
+.rdo9pog-fullscreen-open:hover,
+.rdo9pog-fullscreen-close:hover {
+  border-color: var(--bs-body-color, #343a40);
+}
+
+
+/*
+ * Narrow outside columns
+ */
+
+.rdo9pog-table-scroll {
+  --rdo9pog-leading-width: 1.25rem;
+  --rdo9pog-note-width: 3rem;
+}
+
+.rdo9pog-table-scroll col.leading-column {
+  width: var(--rdo9pog-leading-width);
+}
+
+.rdo9pog-table-scroll col.note-column-width {
+  width: var(--rdo9pog-note-width);
+}
+
+.rdo9pog-table-scroll tr > :first-child {
+  box-sizing: border-box;
+  width: var(--rdo9pog-leading-width);
+  min-width: var(--rdo9pog-leading-width);
+  max-width: var(--rdo9pog-leading-width);
+  padding-inline: 0.15rem;
+}
+
+.rdo9pog-table-scroll tr > :last-child {
+  box-sizing: border-box;
+  width: var(--rdo9pog-note-width);
+  min-width: var(--rdo9pog-note-width);
+  max-width: var(--rdo9pog-note-width);
+  padding-inline: 0.25rem;
+  white-space: nowrap;
+}
+.rdo9pog-table-scroll th,
+.rdo9pog-table-scroll td {
+  min-width: 10rem;
+}
+
+/*
+ *
+ */
+.rdo9pog-table-scroll col.leading-column {
+  width: 5rem;
+}
+
+.rdo9pog-table-scroll col.principle-column {
+  width: 11rem;
+}
+
+.rdo9pog-table-scroll col.data-column {
+  width: 10rem;
+}
+
+.rdo9pog-table-scroll col.note-column-width {
+  width: 3rem;
+}
+
+.rdo9pog-table-scroll tr > :first-child {
+  padding-inline: 0.15rem;
+}
+
+.rdo9pog-table-scroll tr > :last-child {
+  padding-inline: 0.25rem;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.rdo9pog-table-scroll tr > :first-child {
+  padding-inline: 0.15rem;
+  text-align: center;
+  vertical-align: middle;
+}
+
+</style>
+
+<div class="rdo9pog-table-scroll">
+<table id="tbl-9eog">
+<caption>グルーヴ九大原則（弱拍強拍／子音母音説）</caption>
+
+<colgroup>
+  <col class="leading-column"/>
+</colgroup>
+<colgroup>
+  <col class="principle-column"/>
+</colgroup>
+<colgroup span="3" class="music-columns"></colgroup>
+<colgroup span="3" class="phonology-columns"></colgroup>
+<colgroup>
+  <col class="note-column-width"/>
+</colgroup>
+
+<thead>
+<tr>
+  <th></th>
+  <th>{{<meta var.PHONORHYTHMATOLOGY.ja>}}軸</th>
+  <th colspan="3" scope="colgroup">
+    音楽（リスモクロノロジー）
+  </th>
+  <th colspan="3" scope="colgroup">
+    音韻学（フォノロジー）
+  </th>
+  <th scope="col" class="note-column">注</th>
+</tr>
+<tr>
+  <th scope="row"></th>
+  <th scope="row">{{<meta var.P_CENTER.ja>}}軸</th>
+  <th>ポストセントリック</th>
+  <th>ノーセントリック</th>
+  <th>プレセントリック</th>
+  <th>ポストセントリック</th>
+  <th>ノーセントリック</th>
+  <th>プレセントリック</th>
+  <th class="note-column">※０</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <th scope="row"></th>
+  <th scope="row">代表的な言語/文化圏</th>
+  <td scope="col">🇨🇳 🇮🇷</td>
+  <td scope="col">🇯🇵</td>
+  <td scope="col">🌍️🌎️🌏️</td>
+  <td scope="col">🇨🇳 🇮🇷</td>
+  <td scope="col">🇯🇵</td>
+  <td scope="col">🌍️🌎️🌏️</td>
+  <td scope="col">※１</td>
+</tr>
+<tr>
+  <th scope="row">原則１</th>
+  <th scope="row">リズム指数極性</th>
+  <td>増殖拍 <span class="formula">(base<sup>+n</sup>)</span></td>
+  <td>孤立拍 <span class="formula">(base<sup>0</sup> = 1)</span></td>
+  <td>分裂拍 <span class="formula">(base<sup>−n</sup>)</span></td>
+  <td>音節頭／音節核-分離</td>
+  <td>音節頭／音節核-融合</td>
+  <td>音節頭／音節核-分離</td>
+  <td></td>
+</tr>
+<tr>
+  <th scope="row">原則２</th>
+  <th scope="row">リズム強弱拍区別</th>
+  <td>反復で弱拍を区別する</td>
+  <td>弱拍を区別しない</td>
+  <td>分割で弱拍を区別する</td>
+  <td>子音を区別する</td>
+  <td>子音を区別しない</td>
+  <td>子音を区別する</td>
+  <td class="note-column">※２</td>
+</tr>
+<tr>
+  <th scope="row">原則３</th>
+  <th scope="row">リズムハーモニー重視</th>
+  <td>リズム重視</td>
+  <td>ハーモニー重視</td>
+  <td>リズム重視</td>
+  <td>子音重視（子音が長い）</td>
+  <td>母音重視（母音が長い）</td>
+  <td>子音重視（子音が長い）</td>
+  <td class="note-column">※３</td>
+</tr>
+<tr>
+  <th scope="row">原則４</th>
+  <th scope="row">リズム先行拍</th>
+  <td>強拍先行</td>
+  <td>拍無定義</td>
+  <td>弱拍先行</td>
+  <td>頭子音原則なし</td>
+  <td>頭子音最小化原則</td>
+  <td>頭子音最大化原則</td>
+  <td></td>
+</tr>
+<tr>
+  <th scope="row">原則５</th>
+  <th scope="row">リズム底数</th>
+  <td>base = 2リズム <span class="formula">(2<sup>+n</sup>リズム)</span><br>base = 3リズム <span class="formula">(3<sup>+n</sup>リズム)</span></td>
+  <td><span class="formula">base<sup>0</sup> = 1リズム</span></td>
+  <td>base = 2リズム <span class="formula">(2<sup>−n</sup>リズム)</span><br>base = 3リズム <span class="formula">(3<sup>−n</sup>リズム)</span></td>
+  <td>CV／CVCリズム</td>
+  <td>CV無区別</td>
+  <td>CV／CVCリズム</td>
+  <td></td>
+</tr>
+<tr>
+  <th scope="row">原則６</th>
+  <th scope="row">リズム焦点</th>
+  <td>頭合わせ</td>
+  <td>無合わせ</td>
+  <td>尻合わせ</td>
+  <td>文頭焦点</td>
+  <td>無焦点</td>
+  <td>文末焦点</td>
+  <td></td>
+</tr>
+<tr>
+  <th scope="row">原則７</th>
+  <th scope="row">リズム基軸</th>
+  <td>強拍基軸（頭重心）</td>
+  <td>無基軸</td>
+  <td>弱拍基軸（レイドバック・プッシュ）</td>
+  <td>音節核等時性</td>
+  <td>モーラ等時性</td>
+  <td>ストレス音節核等時性</td>
+  <td></td>
+</tr>
+<tr>
+  <th scope="row">原則８</th>
+  <th scope="row">リズム侵襲性</th>
+  <td>呑音がない</td>
+  <td>呑音可変</td>
+  <td>呑音がある</td>
+  <td>末子音侵襲性なし</td>
+  <td>末子音忌避性</td>
+  <td>末子音侵襲性</td>
+  <td class="note-column">※４</td>
+</tr>
+<tr>
+  <th scope="row">原則９</th>
+  <th scope="row">リズムアクセント種別</th>
+  <td>長さ変化がない</td>
+  <td>長さ無定義</td>
+  <td>長さ変化がある</td>
+  <td>無長短アクセント</td>
+  <td>非長短アクセント</td>
+  <td>長短アクセント</td>
+  <td class="note-column">※５</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
+::: {.rdo9pog-table-notes}
+
+
+※０ Pセンターは九大原則全ての背後に存在するメタ要素。
+
+※１ 代表的な言語/文化圏 ─── Postcentricは主に中国語とクルド語など。Nocentric は記号的な意味で日本と考える。日本は完全にNocentricではなくPost/Preの間を揺れている。世界の大半の国はPrecentric。
+
+※２ リズム強弱拍区別 ─── リズム指数極性に含まれているが区別があるないを明示的に説明する為に項目が設けられている。
+
+※３ リズムハーモニー重視  ─── 重視は英語で weighted と表現される
+
+※４ リズム侵襲性 ─── 呑音とはゴーストノートを指す
+
+※５ リズムアクセント種別 ─── 1．「長さ無定義」とは、内在的終点が設定されないことを指す。 2．「無長短アクセント」とは、長短をアクセントとして用いないことを指す。3．「非長短アクセント」とは、高低・強度・音色など、長短以外の要因によって成立するアクセント全般を指す。
+:::
+
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const container =
+    document.querySelector(".rdo9pog-table-scroll");
+
+  if (!container?.requestFullscreen) {
+    return;
+  }
+
+  /*
+   * Prevent duplicate initialization.
+   */
+  if (container.dataset.fullscreenInitialized === "true") {
+    return;
+  }
+
+  container.dataset.fullscreenInitialized = "true";
+
+  const openButton = document.createElement("button");
+  openButton.type = "button";
+  openButton.className = "rdo9pog-fullscreen-open";
+  openButton.textContent = "全画面表示";
+
+  const closeButton = document.createElement("button");
+  closeButton.type = "button";
+  closeButton.className = "rdo9pog-fullscreen-close";
+  closeButton.textContent = "全画面表示を終了";
+
+  container.before(openButton);
+  container.prepend(closeButton);
+
+  openButton.addEventListener("click", async () => {
+    if (!document.fullscreenElement) {
+      await container.requestFullscreen();
+    }
+  });
+
+  closeButton.addEventListener("click", async () => {
+    if (document.fullscreenElement) {
+      await document.exitFullscreen();
+    }
+  });
+});
+</script>
+
+
+
+#### 原則１ - リズム指数極性
+
+#### 原則２ - リズム強弱拍区別
+
+#### 原則３ - リズムハーモニー重視
+
+#### 原則４ - リズム先行拍
+
+音符が導音などの形となって２つの組となって表れた時、その組みが常に弱拍からはじまることを**弱拍先行**と呼びます。
+
+音符が導音などの形となって２つの組となって表れた時、その組みが常に強拍からはじまることを**強拍先行**と呼びます。
+
+或いは、音符が２つの組みとならず単独で表れた時も **強拍先行** と呼びます。
+
+日本人は弱拍先行で構成されたのリズムを耳にすると、それが理解できず混乱するという特徴があります。このことを縦乗りと呼びます。 日本人が何故縦乗りになるのかに関しましては、[何故日本人は縦乗りなのか](/tatenori-theory/ja/) で詳細を見ていきます。
+
+**強拍先行**と**弱拍先行** とは何かに関しましては、[強拍が先か弱拍が先か](/offbeat-count/headians-and-bottomians-of-beat-orientation/ja/)で詳細を見ていきます。
+
+強拍先行と弱拍先行は、グルーヴの本質に関わっています。立体的に響くグルーヴの本質はリズムの多次元性にあります。弱拍が先行するリズムでは異なる音価が高さという新しい軸としての役割を持つため多次元構造を持ちます。しかし強拍が先行するリズムでは、全てのリズムが重なり合ってしまうため異なる音価が新しい軸を生み出さず、結果としてリズムが多次元構造を持ちません。多次元構造をもたないリズムは平面的な印象のリズムになります。
+
+このリズムの多次元性に関しましては、[多層弱拍基軸律動](/offbeat-count/multi-layered-weak-beat-precedence/ja/)で詳細を見ていきます。
+
+そして何故 **強拍先行**と**弱拍先行** が起こるのかに関しましては、[多層弱拍基軸律動](/offbeat-count/multi-layered-weak-beat-precedence/ja/)で詳細を見ていきます。
+
+#### 原則５ - リズム底数
+
+スイングやシャッフルなどの３連符系のリズムを演奏する時だけでなく、8ビート16ビートなどのリズムを演奏する時も含めて、3拍子や3を基準にしたポリリズムを多用したり、リズムのずれニュアンスが必ず1/3 、1/9 、 1/27 などの 3の負のべき乗の大きさに収束するなど、リズム感覚が3に根ざしている人のリズムを **3⁻ⁿリズム**と呼びます。
+
+───この **3⁻ⁿリズム** がアフリカのリズムやケルト・ゲール等々の欧米のフォークソングの本質に存在します。
+
+スイングやシャッフルなどの３連符系のリズムを演奏する時だけでなく、8ビート16ビートなどのリズムを演奏する時も含めて、常に2のリズムに根ざし、3拍子や3を基準にしたポリリズムを多様せず、リズムのずれニュアンスが必ず1/4 、1/8 、 1/16 などの 2の負のべき乗の大きさに収束するなど、リズム感覚が2に根ざしている人のリズムを **2⁻ⁿリズム**と呼びます。
+
+───この **2⁻ⁿリズム** は日本のゲームミュージックやアニメソング等々日本のあらゆる西洋音楽の影響を受けた音楽全ての本質に存在します。
+
+**3⁻ⁿリズム** とはどんな音かにつきましては、[世界は3⁻ⁿ拍子で出来ている](/offbeat-count/the-four-principles-of-groove/ja/) でそれを実際に聴いてみます。
+
+**3⁻ⁿリズム** と **2⁻ⁿリズム** につきましては、[3⁻ⁿグルーヴと2⁻ⁿグルーヴ](/offbeat-count/three-to-n-groove-theory/ja/) で理論的な詳細を見ていきます
+
+**2⁻ⁿリズム** とはどんな音かにつきましては、[何故日本人は縦乗りなのか](/tatenori-theory/ja/) でいくつかのサンプルを用意しております。
+
+#### 原則６ - リズム焦点
+
+メロディーが必ず小節内の特定の拍数目（≒1拍目）から始まり、はっきりした終わりがないリズム構成を**頭合わせ**といいます。
+
+メロディーが特にはっきりした特定の位置がなく不定期に始まり、必ず小節内の特定の拍数目（≒1拍目）ではっきりと終わるリズム構成を**尻合わせ**といいます。
+
+日本人は尻合わせ構成のリズムを耳にすると、それが理解できず混乱するという特徴があります。このことを縦乗りと呼びます。 日本人が何故縦乗りになるのかに関しましては、[何故日本人は縦乗りなのか](/tatenori-theory/ja/) で詳細を見ていきます。
+
+ **頭合わせ**と**尻合わせ** とは何か。そして何故 **頭合わせ**と**尻合わせ**が起こるのかに関しましては、[多層弱拍基軸律動](/offbeat-count/multi-layered-weak-beat-precedence/ja/)で詳細を見ていきます。
+
+##### {{<meta var.PHONOLOGY.ja>}}  {{<meta var.FINAL_CONSONANT_AVOIDANCE.ja>}} と {{<meta var.FINAL_CONSONANT_INTRUSIVENESS.ja>}}
+
+**末子音忌避性**とは、音節末に置ける子音を強く制限し、母音の挿入や独立したモーラへの分割によって末子音を避ける傾向です。
+
+これに対して**末子音侵襲性**とは、音節核の後に末子音を保持し、その末子音が次の音節との境界を越えて発音とリズムの構成に影響する性質を指す、本書独自の用語です。
+
+本書では、末子音を独立単位へ分解する認識を**2⁻ⁿリズム**に、音節境界を越えて前後の単位を結び付ける認識を**3⁻ⁿリズム**に対応させます。この対応は本書の理論的仮説であり、後の節で具体例を用いて検討します。
+
+#### 原則７ - リズム基軸
+
+スイングやシャッフルを演奏しようとした時に、**強拍の位置が常に固定**となり、毎回同じ位置に表れ、弱拍の位置を強拍からの相対距離として測りながら移動することでスイング・シャッフルのニュアンスを表現しようとする時、これを**強拍基軸**と呼びます。
+
+強拍基軸は、一瞥すると当然と考えられるかも知れません。しかし実際の海外の演奏者は逆の認識を持ってリズムを演奏しています。
+
+スイングやシャッフルを演奏しようとした時に、**弱拍の位置が常に固定**となり、毎回同じ位置に表れ、強拍の位置を弱拍からの相対距離として測りながら移動することでスイング・シャッフルのニュアンスを表現しようとする時、これを**弱拍基軸**と呼びます。
+
+強拍基軸リズム認識を持っている人が、弱拍基軸を見た時にそれを異端として排除したり、社会的な制裁を加えたりすることを、**弱拍天動説** と呼びます。
+
+リズムを客観的に捉え弱拍基軸のリズム認識を理解した上で合理的に受け入れることを**強拍地動説**と呼びます。
+
+**強拍基軸** と **弱拍基軸** に関しては、[弱拍天動説と強拍地動説](/offbeat-count/weak-beat-as-sun-strong-beat-as-earth/ja/) で詳細を見ていきます。
+
+#### 原則８ - リズム侵襲性
+
+#### 原則９ - リズムアクセント種別
+
+
+
+### グルーヴ４
 
 グルーヴには四つの対立要素があります。
 
@@ -126,7 +803,7 @@ rhythmpress-preproc-args: []
 3. A: **モーラ等時性**     と B: **音節核等時性**
 4. A: **末子音忌避性**     と B: **末子音侵襲性**
 
-更に、これらの背後に **Pセンター(p-center)** という隠れた概念が存在します。これをPセンターを軸に整理することが出来ます。
+更に、これらの背後に **{{<meta var.P_CENTER.ja>}}(p-center)** という隠れた概念が存在します。これを{{<meta var.P_CENTER.ja>}}を軸に整理することが出来ます。
 
 左側Aの
 
@@ -184,63 +861,6 @@ rhythmpress-preproc-args: []
 ではどのようにしたら縦乗りを克服することが出来るのでしょうか。それがこの文章の目的でもあります。縦乗りを克服する長い道のり=**{{<meta var.RDO.ja>}}** について今後長い時間を掛けて見つけ出して行きます。
 
 
-
-### 強拍先行と弱拍先行
-音符が導音などの形となって２つの組となって表れた時、その組みが常に弱拍からはじまることを**弱拍先行**と呼びます。
-
-音符が導音などの形となって２つの組となって表れた時、その組みが常に強拍からはじまることを**強拍先行**と呼びます。
-
-或いは、音符が２つの組みとならず単独で表れた時も **強拍先行** と呼びます。
-
-日本人は弱拍先行で構成されたのリズムを耳にすると、それが理解できず混乱するという特徴があります。このことを縦乗りと呼びます。 日本人が何故縦乗りになるのかに関しましては、[何故日本人は縦乗りなのか](/tatenori-theory/ja/) で詳細を見ていきます。
-
-**強拍先行**と**弱拍先行** とは何かに関しましては、[強拍が先か弱拍が先か](/offbeat-count/headians-and-bottomians-of-beat-orientation/ja/)で詳細を見ていきます。
-
-強拍先行と弱拍先行は、グルーヴの本質に関わっています。立体的に響くグルーヴの本質はリズムの多次元性にあります。弱拍が先行するリズムでは異なる音価が高さという新しい軸としての役割を持つため多次元構造を持ちます。しかし強拍が先行するリズムでは、全てのリズムが重なり合ってしまうため異なる音価が新しい軸を生み出さず、結果としてリズムが多次元構造を持ちません。多次元構造をもたないリズムは平面的な印象のリズムになります。
-
-このリズムの多次元性に関しましては、[多層弱拍基軸律動](/offbeat-count/multi-layered-weak-beat-precedence/ja/)で詳細を見ていきます。
-
-そして何故 **強拍先行**と**弱拍先行** が起こるのかに関しましては、[多層弱拍基軸律動](/offbeat-count/multi-layered-weak-beat-precedence/ja/)で詳細を見ていきます。
-
-
-### 頭合わせと尻合わせ
-メロディーが必ず小節内の特定の拍数目（≒1拍目）から始まり、はっきりした終わりがないリズム構成を**頭合わせ**といいます。
-
-メロディーが特にはっきりした特定の位置がなく不定期に始まり、必ず小節内の特定の拍数目（≒1拍目）ではっきりと終わるリズム構成を**尻合わせ**といいます。
-
-日本人は尻合わせ構成のリズムを耳にすると、それが理解できず混乱するという特徴があります。このことを縦乗りと呼びます。 日本人が何故縦乗りになるのかに関しましては、[何故日本人は縦乗りなのか](/tatenori-theory/ja/) で詳細を見ていきます。
-
- **頭合わせ**と**尻合わせ** とは何か。そして何故 **頭合わせ**と**尻合わせ**が起こるのかに関しましては、[多層弱拍基軸律動](/offbeat-count/multi-layered-weak-beat-precedence/ja/)で詳細を見ていきます。
-
-### 強拍基軸と弱拍基軸
-スイングやシャッフルを演奏しようとした時に、**強拍の位置が常に固定**となり、毎回同じ位置に表れ、弱拍の位置を強拍からの相対距離として測りながら移動することでスイング・シャッフルのニュアンスを表現しようとする時、これを**強拍基軸**と呼びます。
-
-強拍基軸は、一瞥すると当然と考えられるかも知れません。しかし実際の海外の演奏者は逆の認識を持ってリズムを演奏しています。
-
-スイングやシャッフルを演奏しようとした時に、**弱拍の位置が常に固定**となり、毎回同じ位置に表れ、強拍の位置を弱拍からの相対距離として測りながら移動することでスイング・シャッフルのニュアンスを表現しようとする時、これを**弱拍基軸**と呼びます。
-
-強拍基軸リズム認識を持っている人が、弱拍基軸を見た時にそれを異端として排除したり、社会的な制裁を加えたりすることを、**弱拍天動説** と呼びます。
-
-リズムを客観的に捉え弱拍基軸のリズム認識を理解した上で合理的に受け入れることを**強拍地動説**と呼びます。
-
-**強拍基軸** と **弱拍基軸** に関しては、[弱拍天動説と強拍地動説](/offbeat-count/weak-beat-as-sun-strong-beat-as-earth/ja/) で詳細を見ていきます。
-
-### 2⁻ⁿリズムと3⁻ⁿリズム
-スイングやシャッフルなどの３連符系のリズムを演奏する時だけでなく、8ビート16ビートなどのリズムを演奏する時も含めて、3拍子や3を基準にしたポリリズムを多用したり、リズムのずれニュアンスが必ず1/3 、1/9 、 1/27 などの 3の負のべき乗の大きさに収束するなど、リズム感覚が3に根ざしている人のリズムを **3⁻ⁿリズム**と呼びます。
-
- ───この **3⁻ⁿリズム** がアフリカのリズムやケルト・ゲール等々の欧米のフォークソングの本質に存在します。
-
-スイングやシャッフルなどの３連符系のリズムを演奏する時だけでなく、8ビート16ビートなどのリズムを演奏する時も含めて、常に2のリズムに根ざし、3拍子や3を基準にしたポリリズムを多様せず、リズムのずれニュアンスが必ず1/4 、1/8 、 1/16 などの 2の負のべき乗の大きさに収束するなど、リズム感覚が2に根ざしている人のリズムを **2⁻ⁿリズム**と呼びます。
-
- ───この **2⁻ⁿリズム** は日本のゲームミュージックやアニメソング等々日本のあらゆる西洋音楽の影響を受けた音楽全ての本質に存在します。
-
- **3⁻ⁿリズム** とはどんな音かにつきましては、[世界は3⁻ⁿ拍子で出来ている](/offbeat-count/the-four-principles-of-groove/ja/) でそれを実際に聴いてみます。
-
- **3⁻ⁿリズム** と **2⁻ⁿリズム** につきましては、[3⁻ⁿグルーヴと2⁻ⁿグルーヴ](/offbeat-count/three-to-n-groove-theory/ja/) で理論的な詳細を見ていきます
-
- **2⁻ⁿリズム** とはどんな音かにつきましては、[何故日本人は縦乗りなのか](/tatenori-theory/ja/) でいくつかのサンプルを用意しております。
-
-
 ### {{<meta var.MiOP.ja>}} と {{<meta var.MOP.ja>}}
 
 **頭子音最小化原則**とは、末子音や多重子音を一つの頭子音群にまとめず、それぞれを独立したモーラとして後方へ配置する傾向を指します。これはモーラ拍リズムに見られる特徴であり、本書では、先に知覚された強拍へ後続要素を追加する**強拍先行**に対応すると考えます。
@@ -261,15 +881,9 @@ rhythmpress-preproc-args: []
 
 **モーラ等時性**では、モーラが時間を数える基本単位となり、それぞれのモーラの開始位置が時間認識の基準となります。本書では、この認識を、強拍の位置を固定して弱拍を調整する**強拍基軸**に対応させます。
 
-**音節核等時性**では、頭子音に続く音節核またはPセンターの位置を予測しながら発音を構成します。本書では、この予測を音楽へ投影すると、先行する弱拍を基準として強拍の位置を調整する**弱拍基軸**になると仮定します。
+**音節核等時性**では、頭子音に続く音節核または{{<meta var.P_CENTER.ja>}}の位置を予測しながら発音を構成します。本書では、この予測を音楽へ投影すると、先行する弱拍を基準として強拍の位置を調整する**弱拍基軸**になると仮定します。
 
-### {{<meta var.FINAL_CONSONANT_AVOIDANCE.ja>}} と {{<meta var.FINAL_CONSONANT_INTRUSIVENESS.ja>}}
 
-**末子音忌避性**とは、音節末に置ける子音を強く制限し、母音の挿入や独立したモーラへの分割によって末子音を避ける傾向です。
-
-これに対して**末子音侵襲性**とは、音節核の後に末子音を保持し、その末子音が次の音節との境界を越えて発音とリズムの構成に影響する性質を指す、本書独自の用語です。
-
-本書では、末子音を独立単位へ分解する認識を**2⁻ⁿリズム**に、音節境界を越えて前後の単位を結び付ける認識を**3⁻ⁿリズム**に対応させます。この対応は本書の理論的仮説であり、後の節で具体例を用いて検討します。
 
 
 ## 何故日本人は縦乗りなのか <!-- {#tatenori-theory} -->
@@ -747,7 +1361,7 @@ music</span>
 
 
 
-## <ruby><rb>強拍が先か弱拍が先か</rb><rt>リズモクロニック・アナリシス</rt></ruby> <!-- {#headians-and-bottomians-of-beat-orientation} -->
+## {{<meta var.RHYTHMOCHRONOLOGY.ja>}} <!-- {#headians-and-bottomians-of-beat-orientation} -->
 強拍弱拍の順序に対する認識は、その人が母国語とする言語が持つリズムによって大きな違いが生まれます。
 
 
