@@ -169,6 +169,9 @@ var:
   P_CENTER:
     ja: "Pセンター"
     en: "P-center"
+  RHYTHMIC_COGNITIVE_BIAS:
+    ja: "リズム認知バイアス"
+    en: "Rhythmic Cognitive Bias"
   RHYTHMOCHRONOLOGY:
     ja: "<ruby><rb>強拍が先か弱拍が先か</rb><rt>リズモクロノロジー</rt></ruby>"
     en: "Rhythmochronology"

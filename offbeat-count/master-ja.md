@@ -108,27 +108,35 @@ rhythmpress-preproc-args: []
 
 オフビートカウント理論で説明される理論の背後には９つのグルーヴ原則が存在します。ここではこの原則を{{<meta var.PRINCIPLES_OF_GROOVE.ja>}}と呼びます。これは音楽がグルーヴする為の９つの条件としてまとめたものです。ここではこの {{<meta var.PRINCIPLES_OF_GROOVE.ja>}} を順を追って説明します。 まずはこの理解に必要となる用語から御紹介致します。
 
-### {{<meta var.P_CENTER.ja>}}とは
+### 基本となる考え方
 
-まず最初にリズム分析を行う為の最も重要な概念 **{{<meta var.P_CENTER.ja>}}** を御紹介致します。 {{<meta var.P_CENTER.ja>}}とは Perceptual Center（認識中央点）の略です。 人は「ドラムの音がなる」というような瞬間的な出来事が起きたとき、その音のどこかの点に「その出来事の中央点」を感じています。 ドラムの１音がなったとき、その音は一瞬で終わる様に感じますが、実際には一定の長さを持っています。この持続する長さのどこかに人は中央点を感じているのです。
+{{<meta var.PRINCIPLES_OF_GROOVE.ja>}} は４つの基礎となる
 
-ドラムの音はしばしば装飾音を伴って演奏されます。するとそれはよりはっきりとした一定の長さを持つことになります。この様な時、人は必ずその一定時間附近のどこかの地点に『その音の中心となる点』を認識しているのです。
+#### {{<meta var.P_CENTER.ja>}}とは
 
-この「音のどの地点に中央を感じるか」の習性は人によって大きな違いが存在します。それは個人差だけでなく、その人が話す言語やその人が属している文化圏によって大きく異なります。
+まず最初にリズム分析を行う為の最も重要な概念 **{{<meta var.P_CENTER.ja>}}** を御紹介致します。 {{<meta var.P_CENTER.ja>}}とは Perceptual Center（認知中央点）の略です。 人は「ドラムの音がなる」というような瞬間的な出来事が起きたとき、その音のどこかの点に「その出来事の中央点」を感じています。 ドラムの１音がなったとき、その音は一瞬で終わる様に感じますが、実際には一定の長さを持っています。この持続する長さのどこかに人は中央点を感じているのです。
 
-この{{<meta var.P_CENTER.ja>}}の置く場所により、人の時間の認識は大きな影響を受け、それが楽器を演奏したときのリズムの偏りやダンスを行った時の動きの偏りとして、他者から観察されます。
+ドラムの音はしばしば装飾音を伴って演奏されます。するとそれはよりはっきりとした一定の長さを持つことになります。このような時でも、人はその一定時間のどこかの地点に『その音という事象の中心となる点』を感じています。これが{{<meta var.P_CENTER.ja>}}です。
 
-中国・日本・韓国では{{<meta var.P_CENTER.ja>}}よりも後ろに情報があると考える傾向が強いことが知られています。つまり一連の音符（出来事）があったとき、その先頭に{{<meta var.P_CENTER.ja>}}があると感じる傾向があります。このことを**ポストセントリック・リズム認識**と呼びます。
+この『音のどの地点に中央を感じるか』の習性は人によって大きな違いが存在します。それは個人差だけでなく、その人が話す言語やその人が属している文化圏によって大きく異なります。
 
-それ以外の地域…東南アジア・アフリカ・ヨーロッパ・中東では、{{<meta var.P_CENTER.ja>}}よりも前に情報があると考える傾向が強いことが知られています。つまり一連の音符（出来事）があったとき、その最後尾に{{<meta var.P_CENTER.ja>}}があると感じる傾向があります。  このことを**プレセントリック・リズム認識**と呼びます。
+この{{<meta var.P_CENTER.ja>}}の置く場所により、認知上の時間のありかたが大きな影響を受けます。この{{<meta var.P_CENTER.ja>}}の置かれた位置が、楽器を演奏したときのリズムの偏りやダンスを行った時の動きの偏りとして、はっきりと他者から観察されます。
+
+中国・日本・韓国では{{<meta var.P_CENTER.ja>}}よりも後ろに情報があると考える傾向が強いことが知られています。つまり一連の音符（出来事）があったとき、その先頭に{{<meta var.P_CENTER.ja>}}があると感じる傾向があります。このことを**ポストセントリック・リズム認知バイアス**と呼びます。
+
+それ以外の地域…東南アジア・アフリカ・ヨーロッパ・中東では、{{<meta var.P_CENTER.ja>}}よりも前に情報があると考える傾向が強いことが知られています。つまり一連の音符（出来事）があったとき、その最後尾に{{<meta var.P_CENTER.ja>}}があると感じる傾向があります。  このことを**プレセントリック・リズム認知バイアス**と呼びます。
+
+また、世界的に見るととても稀なことですが、そもそも{{<meta var.P_CENTER.ja>}}を基準に考えない繰り返すリズムを基準にしないリズム認知を持つ人達もいます。このことを**ノーセントリック・リズム認知バイアス**と呼びます。
+
+これらプレセントリック・ポストセントリック・ノーセントリックのリズム認知の違いを**{{<meta var.RHYTHMIC_COGNITIVE_BIAS.ja>}}**と呼びます。
 
 {{<meta var.P_CENTER.ja>}}は、{{<meta var.RHYTHMDO_PURPOSE.ja>}}を考察するための大切なツールとなります。
 
-### Pセンターと代表的な言語/文化圏
+#### {{<meta var.RHYTHMIC_COGNITIVE_BIAS.ja>}}
 
 リズム認識がポストセントリックになるか、プレセントリックになるかには、地域・文化・民族によってはっきりした傾向が見られます。
 
-#### プレセントリックの特徴
+##### プレセントリックの特徴
 
 Pセンターよりも前に情報の中心があると感じる傾向をプレセントリックと呼びます。 つまり基準となる出来事（メトロノーム音やドラム音などの基準となる定期的な音）に対して、先駆ける様に音楽を演奏します。 それを聞く人も基準となる出来事の前に情報があることを期待します。
 
@@ -138,7 +146,7 @@ Pセンターよりも前に情報の中心があると感じる傾向をプレ�
 
 一般的に音楽上のリズム上で起こる『グルーヴ』という現象は、このプレセントリック・リズム認識と深い関わり合いのある現象です。彼らが音楽を演奏すると、多かれ少なかれ特別な訓練を行わずともグルーヴを演奏することが可能になる場合が多いことが知られています。
 
-#### ポストセントリックの特徴
+##### ポストセントリックの特徴
 
 Pセンターよりも後ろに情報の中心があると感じる傾向をポストセントリックと呼びます。 基準となる出来事 ───メトロノーム音やドラム音などの基準となる定期的な音 ───がはっきりと聞こえてから、後を追従するように音楽を演奏する傾向があります。 それを聞く人も基準音が聞こえることをまず待って、基準音が聞こえた後に情報があることを期待します。
 
@@ -148,24 +156,28 @@ Pセンターよりも後ろに情報の中心があると感じる傾向をポ�
 
 ポストセントリックのリズム認識を持った文化圏の人は、全く何の訓練もない状態で自然にグルーヴの演奏が可能になるということはありません。後天的に何等かの教育を受けた後にグルーヴが演奏出来る様になる傾向があります。
 
-#### ノーセントリックの特徴
+##### ノーセントリックの特徴
 
 そして最後にノーセントリックリズム認識があります。基準となる出来事を認識する習慣自体がないことをノーセントリック・リズム認識と呼びます。 ノーセントリック・リズム認識を持つ人は、定期的な基準音  ─── メトロノーム音やドラム音 ───などが全くない状態で演奏することを好みます。
 
+<!--
 <div class="center-box" style="margin:10px;">
 <div class="ats4u-twitter-video" style="margin-bottom:0px;padding-bottom:0px" >https://x.com/ats4u/status/1652191091792420871?s=20</div>
 <div style="font-weight:1000;text-align:center;margin-top:0px;padding-top:0px">世界的に見ても極めて珍しい無拍子リズムを持つ宮崎の刈干切歌。</div>
 </div>
-
 <br/>
+-->
 
 ノーセントリック・リズム認識を持つ人は世界的に見て極めて珍しく日本でしか見られません。また日本でもごく一部の地域に限られます。
+
+> 「追分様式」のリズムは、雅楽の声楽曲、仏教音楽の声明、能、尺八本曲などにもあり、日本音楽の＜極めて重要なリズムの様式＞になっている。
+
+[『儀礼のメロディーとリズム』 横川 理彦](https://www.pref.nara.lg.jp/documents/16714/report14_06_melody.pdf)
 
 これは**モーラ拍リズム**と深い関連があることが知られています。しかしその因果関係ははっきりと解明された訳ではありません。 モーラ拍リズムを持つ言語は、アフリカのバントゥ語などいくつか知られています。しかし純粋なモーラ拍リズムの言語は日本語しか存在しないとも言われています。
 
 
-
-### {{<meta var.GROOVE_EQUATIONS.ja>}}
+#### {{<meta var.GROOVE_EQUATIONS.ja>}}
 
 次に**グルーヴ方程式**を御紹介致します。
 
@@ -177,7 +189,7 @@ R
 (b_0^{e_0})(b_1^{e_1})\cdots(b_N^{e_N})
 $$ {#eq-rhythmic-structure}
 
-これがグルーヴ方程式です。これは音楽の音符の長さ（パルス）を模式的に数式化したものです。
+これがグルーヴ方程式です。これは音楽の音符の長さ（パルス）を模式的に数式化したものです。あくまでも感覚的にわかりやすく理解するための模式で数学的な厳密さはありません。
 
 例えば３拍子の曲を16分音符で演奏した場合は次の様になります。
 
@@ -199,7 +211,7 @@ $$ {#eq-rhythmic-structure-2}
 また、東アジアの**ポストセントリック・リズム認識** を正の指数として、東南アジア・アフリカ・欧米の**プレセントリック・リズム認識** を負の指数として表現します。 詳細は後述致します。
 
 
-### {{<meta var.RHYTHMOCHRONOLOGY.ja>}} とは
+#### {{<meta var.RHYTHMOCHRONOLOGY.ja>}} とは
 
 {{<meta var.RHYTHMOCHRONOLOGY.ja>}}...とは文字通り、リズムの構造を『弱拍が先に来ている』と認識しているか、あるいは『強拍が先に来ている』と認識しているかを基準にして分析することです。 音符には四分音符八分音符など複数の音価が含まれています。つまり、これらのそれぞれの音価に対して多層的に『弱拍が先か』『強拍が先か』を分析していくことが可能です。 この分析手法を {{<meta var.RHYTHMOCHRONOLOGY.ja>}} と呼びます。
 
@@ -208,7 +220,7 @@ $$ {#eq-rhythmic-structure-2}
 詳細に関しましては [{{<meta var.RHYTHMOCHRONOLOGY.ja>}}](/offbeat-count/headians-and-bottomians-of-beat-orientation/ja/) で説明致します。
 
 
-### {{<meta var.PHONORHYTHMATOLOGY.ja>}} とは
+#### {{<meta var.PHONORHYTHMATOLOGY.ja>}} とは
 
 {{<meta var.PHONORHYTHMATOLOGY.ja>}} とは『音楽のリズムは、その人が母国語とする言語のリズムの影響を受ける』という仮説を元にして、音楽のリズムを言語の{{<meta var.PHONOLOGY.ja>}}を使って分析することを指します。
 
@@ -218,15 +230,14 @@ $$ {#eq-rhythmic-structure-2}
 
 詳細に関しましては[{{<meta var.PHONORHYTHMATOLOGY.ja>}}](/offbeat-count/phonorhythmatological-theory/ja/)で詳細を見ていきます。
 
-### {{<meta var.PRINCIPLES_OF_GROOVE.ja>}}
+
+### グルーヴ九大原則一覧表
 
 音楽がグルーヴする条件を{{<meta var.RHYTHMOCHRONOLOGY.ja>}}によって分析し９つの原則としてまとめたものが{{<meta var.PRINCIPLES_OF_GROOVE.ja>}} です。
 
-#### はじめに
+{{<meta var.PRINCIPLES_OF_GROOVE.ja>}}は、 **九原則** と **二軸** で構成されます。まず１軸目として、九原則のそれぞれの原則にポストセントリックとプレセントリックの二極を示す**{{<meta var.P_CENTER.ja>}}軸**が存在します。 そしてこれらに更に２軸目として『音楽』『言語学』それぞれでどう考えるかを示す **{{<meta var.PHONORHYTHMATOLOGY.ja>}}軸** が存在します。
 
-{{<meta var.PRINCIPLES_OF_GROOVE.ja>}}は、９つの対立する要素で構成されます。それぞれの原則にはポストセントリックとプレセントリックの二極を示す**{{<meta var.P_CENTER.ja>}}軸**が存在します。 そしてそれら全てに更に『音楽』『言語学』それぞれでどう考えるかを示す **{{<meta var.PHONORHYTHMATOLOGY.ja>}}軸** が存在します。
 
-#### グルーヴ九大原則一覧表
 
 <style>
 /*
@@ -578,8 +589,8 @@ body.quarto-dark .rdo9pog-table-scroll {
   <td>強拍先行</td>
   <td>拍無定義</td>
   <td>弱拍先行</td>
-  <td>頭子音原則なし</td>
   <td>頭子音最小化原則</td>
+  <td>頭子音原則なし</td>
   <td>頭子音最大化原則</td>
   <td></td>
 </tr>
@@ -611,31 +622,31 @@ body.quarto-dark .rdo9pog-table-scroll {
   <td>強拍基軸（頭重心）</td>
   <td>無基軸</td>
   <td>弱拍基軸（レイドバック・プッシュ）</td>
-  <td>音節核等時性</td>
+  <td>ストレス〜シラブル等時性</td>
   <td>モーラ等時性</td>
-  <td>ストレス音節核等時性</td>
+  <td>シラブル〜ストレス等時性</td>
   <td></td>
 </tr>
 <tr>
   <th scope="row">原則８</th>
   <th scope="row">リズム侵襲性</th>
   <td>呑音がない</td>
-  <td>呑音可変</td>
+  <td>呑音がない</td>
   <td>呑音がある</td>
-  <td>末子音侵襲性なし</td>
   <td>末子音忌避性</td>
+  <td>末子音なし</td>
   <td>末子音侵襲性</td>
   <td class="note-column">※４</td>
 </tr>
 <tr>
   <th scope="row">原則９</th>
-  <th scope="row">リズムアクセント種別</th>
-  <td>長さ変化がない</td>
-  <td>長さ無定義</td>
-  <td>長さ変化がある</td>
-  <td>無長短アクセント</td>
-  <td>非長短アクセント</td>
-  <td>長短アクセント</td>
+  <th scope="row">リズムストレス度</th>
+  <td>可変長〜固定長拍</td>
+  <td>無拍</td>
+  <td>固定長〜可変長拍</td>
+  <td>可変長〜固定長シラブル</td>
+  <td>無拍</td>
+  <td>固定長〜可変長シラブル</td>
   <td class="note-column">※５</td>
 </tr>
 </tbody>
@@ -656,7 +667,8 @@ body.quarto-dark .rdo9pog-table-scroll {
 
 ※４ リズム侵襲性 ─── 呑音とはゴーストノートを指す
 
-※５ リズムアクセント種別 ─── 1．「長さ無定義」とは、内在的終点が設定されないことを指す。 2．「無長短アクセント」とは、長短をアクセントとして用いないことを指す。3．「非長短アクセント」とは、高低・強度・音色など、長短以外の要因によって成立するアクセント全般を指す。
+※５ リズムアクセント種別 ─── 1．無拍とは定期的に訪れる拍という概念自体がないことを表す。 2．**固定長**とはアクセントを高低・強度・音色ななど長短とは別な要素で表現することを指す。  3．**可変長** とは長短によって成立するストレス型アクセントを指す。 4. ポストセントリック・プレセントリック共に、０に近付くほど固定長に近づき、０から遠ざかるほど可変長になる。
+
 :::
 
 
@@ -707,13 +719,105 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-#### 原則１ - リズム指数極性
+### グルーヴ原則１ - リズム指数極性
+リズム指数極性とは、グルーヴ方程式の各項に於いての指数の正負の区分のことをいいます。
 
-#### 原則２ - リズム強弱拍区別
+::: {#left-equation-1}
 
-#### 原則３ - リズムハーモニー重視
+<style>
+#left-equation-1 mjx-container[display="true"] {
+  text-align: left !important;
+  margin-left:4rem;
+}
+</style>
 
-#### 原則４ - リズム先行拍
+マイナスの指数は分数を表します。
+
+$$ R = 3^{-1} = 1/3 $$
+$$ R = 3^{-2} = 1/9 $$
+$$ R = 3^{-3} = 1/27 $$
+
+ここではマイナスの指数は『拍の断ち割り』の細かさを表します。
+
+プラスの指数は積数を表します。
+
+$$ R = 3^{1} = 3 $$
+$$ R = 3^{2} = 3 \cdot 3 = 9 $$
+$$ R = 3^{3} = 3 \cdot 3 \cdot 3 = 27 $$
+
+ここではプラスの指数は『拍の付け足し』の多さを表します。
+
+またゼロの指数は底に関わらず１になることがわかります。
+
+$$ R = 2^{0} = 1 $$
+$$ R = 3^{0} = 1 $$
+$$ R = 5^{0} = 1 $$
+$$ R = 7^{0} = 1 $$
+
+ここで０の指数は『泊が単独で独立して特徴を失う』状態を表しています。
+
+底はグルーヴの特徴を表しますが(後述)、指数が０に近付くに連れ結果は底に関わらず１に近付き、底の特徴を失うとここでは考えます。
+
+:::
+
+
+ポストセントリックリズム認知偏りを持っている人は拍を付け足しとして認識する傾向があることが知られています。そしてプレセントリックリズム認識偏りを持つ人は、拍を断ち割りとして認識する傾向があることが知られています。
+
+この拍に対する認識の傾向を指数のプラスとマイナスの大きさとして数値化したものがこの**リズム指数極性**です。 数値がマイナスなら**プレセントリック**、そして数値がプラスなら**ポストセントリック**であると考えます。 そして数値がゼロに近付くに連れて**ノーセントリック** に近付くと考えます。
+
+
+
+
+このことを
+
+- [{{<meta var.SCHIZORHYTHMOS.ja>}}と{{<meta var.SOLIRHYTHMOS.ja>}}](/offbeat-count/schizorhythmos-and-solirhythmos/ja/)
+- [{{<meta var.RHYTHMOCHRONOLOGY.ja>}}](/offbeat-count/headians-and-bottomians-of-beat-orientation/ja/)
+
+で詳しく説明します。
+
+
+#### 音韻学上の対応
+
+このリズム認識の違いは、音韻学上での音節頭(子音)と音節核(母音)の区別によって生まれると考えます。 リズム指数極性がゼロに近付くほど音節頭(子音)と音節核(母音)が不明瞭に、ゼロから離れれば離れるほど、音節頭(子音)と音節核(母音)の区別が明瞭になっていくと考えます。
+
+
+### グルーヴ原則２ - リズム強弱拍区別
+
+リズム強弱拍区別は、その人が弱拍をどの形式で認識しているかを表します。
+
+-  増殖拍 <span class="formula">(base<sup>+n</sup>)</span></td>
+-  孤立拍 <span class="formula">(base<sup>0</sup> = 1)</span></td>
+-  分裂拍 <span class="formula">(base<sup>−n</sup>)</span></td>
+
+既に**リズム指数極性**にて既に説明した通り、ポストセントリック・プレセントリックの違いは拍に対する認識の違いとして表れます。このとき、ポストセントリックリズム認知バイアスの人が**付け足し弱拍認識**で演奏する弱拍を**増殖拍**と呼びます。 そして、プレセントリックリズム認知バイアスの人が**断ち割り弱拍リズム認識** で演奏する弱拍を**分裂拍** と呼びます。また弱拍を持たないノーセントリックリズム認知バイアスの人が演奏する拍を **孤立拍** と呼びます。
+
+このことを
+
+- [{{<meta var.SCHIZORHYTHMOS.ja>}}と{{<meta var.SOLIRHYTHMOS.ja>}}](/offbeat-count/schizorhythmos-and-solirhythmos/ja/)
+- [{{<meta var.RHYTHMOCHRONOLOGY.ja>}}](/offbeat-count/headians-and-bottomians-of-beat-orientation/ja/)
+
+で詳しく説明します。
+
+#### 音韻学上の対応
+
+このリズム認識の違いは、音韻学上での音節頭(子音)と音節核(母音)の区別によって生まれると考えます。 リズム指数極性がゼロに近付くほど音節頭(子音)と音節核(母音)が不明瞭に、ゼロから離れれば離れるほど、音節頭(子音)と音節核(母音)の区別が明瞭になっていくと考えます。
+
+
+### グルーヴ原則３ - リズムハーモニー重視
+
+音楽を聴くときに人によって、リズムよりもハーモニーにより強い興味を持つ傾向がある人と、ハーモニーよりもリズムにより強い興味を持つ傾向がある人に分れます。 この傾向を **リズムハーモニー重視** と呼びます。
+
+日本語話者はしばしば、ハーモニー理論や作曲理論に強い興味を示して理論を駆使して音楽を作りますが、この時ハーモニー構造に大きな複雑性があるのに、リズム構造全く持たない曲を作る傾向がある場合があります。 また逆に、南米や南アフリカのDJシーンでは、全く何のハーモニー構造を持たないリズムだけが音楽の主題になっている音楽がたくさん流行しています。
+
+この様に音楽の中で**ハーモニー**を重視する傾向を持った人と**リズム**を重視する傾向を持った人との二派にわかれます。この傾向を**リズムハーモニー重視** と呼びます。
+
+
+#### 音韻学上の対応
+
+ここでは、子音よりも母音の方が重視されるモーラ拍リズム言語の独自の影響ではないかと考えます。リズム指数極性が０に近づき、リズム認知バイアスがノーセントリックに近付くに連れ、母音を重視する傾向が強くなり、リズム指数極性が０から遠ざかれば遠ざかるほど、子音を重視する傾向が強くなるとここでは考えます。
+
+
+### グルーヴ原則４ - リズム先行拍
 
 音符が導音などの形となって２つの組となって表れた時、その組みが常に弱拍からはじまることを**弱拍先行**と呼びます。
 
@@ -731,15 +835,77 @@ document.addEventListener("DOMContentLoaded", () => {
 
 そして何故 **強拍先行**と**弱拍先行** が起こるのかに関しましては、[多層弱拍基軸律動](/offbeat-count/multi-layered-weak-beat-precedence/ja/)で詳細を見ていきます。
 
-#### 原則５ - リズム底数
+#### 音韻学上の対応
 
-スイングやシャッフルなどの３連符系のリズムを演奏する時だけでなく、8ビート16ビートなどのリズムを演奏する時も含めて、3拍子や3を基準にしたポリリズムを多用したり、リズムのずれニュアンスが必ず1/3 、1/9 、 1/27 などの 3の負のべき乗の大きさに収束するなど、リズム感覚が3に根ざしている人のリズムを **3⁻ⁿリズム**と呼びます。
+#####  {{<meta var.MiOP.ja>}} と強拍先行
+**{{<meta var.MiOP.ja>}}**とは、末子音や多重子音を一つの頭子音群にまとめず、それぞれを独立したモーラとして後方へ配置する傾向を指します。
 
-───この **3⁻ⁿリズム** がアフリカのリズムやケルト・ゲール等々の欧米のフォークソングの本質に存在します。
+リズム指数極性が減少しリズム認知バイアスがマイナスの方向に大きくなるに連れ **{{<meta var.MiOP.ja>}}** 傾向が強くなるとここでは考えます。
 
-スイングやシャッフルなどの３連符系のリズムを演奏する時だけでなく、8ビート16ビートなどのリズムを演奏する時も含めて、常に2のリズムに根ざし、3拍子や3を基準にしたポリリズムを多様せず、リズムのずれニュアンスが必ず1/4 、1/8 、 1/16 などの 2の負のべき乗の大きさに収束するなど、リズム感覚が2に根ざしている人のリズムを **2⁻ⁿリズム**と呼びます。
+ここではこの **{{<meta var.MiOP.ja>}}** が 先に強拍へ後続要素を追加する **強拍先行** に対応すると考えます。
 
-───この **2⁻ⁿリズム** は日本のゲームミュージックやアニメソング等々日本のあらゆる西洋音楽の影響を受けた音楽全ての本質に存在します。
+#####  {{<meta var.MOP.ja>}} と弱拍先行
+
+これに対して**{{<meta var.MOP.ja>}}**とは、その言語の音節構造が許す範囲で、音節間の子音を次の音節の頭子音としてまとめる原則です。
+
+リズム指数極性が増加しリズム認知バイアスがプラス方向に大きくなるに連れ **{{<meta var.MOP.ja>}}** 傾向が強くなるとここでは考えます。
+
+頭子音が音節核に先行するため、本書では、弱拍が次の強拍を予告する**弱拍先行**に対応すると考えます。
+
+
+### グルーヴ原則５ - リズム底数
+
+#### 3⁻ⁿリズムとは
+アフリカや東南アジア・南米にいる強いグルーヴを持つ音楽を演奏する演奏者は、しばしばスイングやシャッフルなどの３連符系のリズムを好んで演奏したりします。彼らはまた、8ビート16ビートなどのリズムを演奏する時でも3を基準にしたポリリズムを多用したりそのリズムの上で３拍子を演奏したりします。更にそのリズムを３小節単位でまとめて段を構成したり、あるいは４小節単位で演奏する時であっても、３段構成の曲を好んだりすることもあります。 彼らはしばしばリズムのずれニュアンスを分析すると実はそのずれの距離が必ず1/3 、1/9 、 1/27 などの 3の負のべき乗の大きさに収束していることが観測されたりします。
+
+このように3に根ざしているリズムをここでは**3⁻ⁿリズム**と呼びます。 またこの様なリズム感覚の人が持っているリズム認知偏りのことを**3⁻ⁿリズム認知バイアス**と呼びます。───この **3⁻ⁿリズム** はアフリカや南米・東南アジア・ケルト・ゲールの人々の民族音楽を起源としており、現代ポピュラー音楽の根幹を為しています。
+
+#### 2⁻ⁿリズムとは
+
+ヨーロッパや中国などにいるグルーヴの強くない音楽の演奏者はしばしば、８分音符を跳ねずに均等に演奏することを好みます。彼らはしばしば2拍子・4拍子・8ビート・16ビートなどの2のリズムに根ざしたリズムを演奏することを好みます。 彼らはまた、3拍子や3を基準にしたポリリズムを多様せず、しばしば3拍子を演奏する時でも2で分割したポリリズムを演奏することで4拍子に変換して演奏したりすることを好みます。
+
+
+彼らの演奏するリズムのずれニュアンスを分析するとしばしば1/4 、1/8 、 1/16 などの 2の負のべき乗の大きさに収束することが観測されたりします。 このようにリズム感覚が2に根ざしているリズムを **2⁻ⁿリズム**と呼びます。 またこの様なリズム感覚の人が持っているリズム認知偏りのことを**2⁻ⁿリズム認知バイアス**と呼びます。
+
+#### グルーヴ方程式との関係
+
+::: {#left-equation-1}
+
+<style>
+#left-equation-1 mjx-container[display="true"] {
+  text-align: left !important;
+  margin-left:4rem;
+}
+</style>
+
+先に挙げた**グルーヴ方程式** を見てみます。
+
+$$
+R
+=
+\prod_{i=0}^{N}b_i^{e_i}
+=
+(b_0^{e_0})(b_1^{e_1})\cdots(b_N^{e_N})
+$$ {#eq-rhythmic-structure}
+
+グルーヴ方程式の各項の指数部分がリズム指数極性を表すことを見ました。
+
+このときの底が**リズム底数**を表します。
+
+$$ R = 2^{-2} = 1/4 $$
+$$ R = 3^{-2} = 1/9 $$
+$$ R = 5^{-2} = 1/25 $$
+$$ R = 7^{-2} = 1/49 $$
+
+ここでは底数がそのグルーヴの特徴を表します。
+
+:::
+
+ここでは、リズム底数は理論上ポストセントリック・プレセントリックの影響を受けないと考えます。
+
+一般的な傾向として、リズム底数が2の人はポストセントリックが多いという傾向があり、リズム底数が3の人はプレセントリックが多いという傾向がありますが、絶対のルールではありません。しばしば後天的に2のプレセントリック・リズムを獲得して演奏する人も多く存在します。 後天的に練習することで3のポストセントリック・リズムを獲得して演奏する人も多く存在します。 これも絶対のルールではありません。このことから、ここでは、リズム底数は、ポストセントリック・プレセントリックとの相関関係はないと考えます。
+
+但しリズム指数極性が０になるノーセントリック時には、リズム底数の内容にに関わらず必ずリズム長が１になります。このことを示す為、表上は<span>base<sup>0</sup> = 1リズム</span>と表示されています。
 
 **3⁻ⁿリズム** とはどんな音かにつきましては、[世界は3⁻ⁿ拍子で出来ている](/offbeat-count/the-four-principles-of-groove/ja/) でそれを実際に聴いてみます。
 
@@ -747,41 +913,105 @@ document.addEventListener("DOMContentLoaded", () => {
 
 **2⁻ⁿリズム** とはどんな音かにつきましては、[何故日本人は縦乗りなのか](/tatenori-theory/ja/) でいくつかのサンプルを用意しております。
 
-#### 原則６ - リズム焦点
+#### 音韻学上の対応
 
-メロディーが必ず小節内の特定の拍数目（≒1拍目）から始まり、はっきりした終わりがないリズム構成を**頭合わせ**といいます。
+リズム指数極性が０に近付くほど子音母音の区別がなくなると考えます。リズム指数極性が０から遠ざかるにつれ、子音と母音の区別がはっきりしていくと考えます。
 
-メロディーが特にはっきりした特定の位置がなく不定期に始まり、必ず小節内の特定の拍数目（≒1拍目）ではっきりと終わるリズム構成を**尻合わせ**といいます。
+
+### グルーヴ原則６ - リズム焦点
+
+メロディーの開始地点を必ず小節内の特定の泊（≒1拍目）(=Pセンター)に置き、後ろに続く様にメロディーか構成する、はっきりとした終わりがないリズム構成を**頭合わせ**といいます。
+
+メロディーが特にはっきりした特定位置を持たず不定期に始まり、必ず小節内の特定の拍数目（≒1拍目）(=Pセンター)ではっきりと終わるリズム構成を**尻合わせ**といいます。
 
 日本人は尻合わせ構成のリズムを耳にすると、それが理解できず混乱するという特徴があります。このことを縦乗りと呼びます。 日本人が何故縦乗りになるのかに関しましては、[何故日本人は縦乗りなのか](/tatenori-theory/ja/) で詳細を見ていきます。
 
  **頭合わせ**と**尻合わせ** とは何か。そして何故 **頭合わせ**と**尻合わせ**が起こるのかに関しましては、[多層弱拍基軸律動](/offbeat-count/multi-layered-weak-beat-precedence/ja/)で詳細を見ていきます。
 
-##### {{<meta var.PHONOLOGY.ja>}}  {{<meta var.FINAL_CONSONANT_AVOIDANCE.ja>}} と {{<meta var.FINAL_CONSONANT_INTRUSIVENESS.ja>}}
 
-**末子音忌避性**とは、音節末に置ける子音を強く制限し、母音の挿入や独立したモーラへの分割によって末子音を避ける傾向です。
+#### 音韻学上の対応
+ここでは、音楽上の「リズム焦点」を言語学上の**文末焦点**に関係があると考えます。
 
-これに対して**末子音侵襲性**とは、音節核の後に末子音を保持し、その末子音が次の音節との境界を越えて発音とリズムの構成に影響する性質を指す、本書独自の用語です。
+#### {{<meta var.FRONT_FOCUS.ja>}} と {{<meta var.END_FOCUS.ja>}}
 
-本書では、末子音を独立単位へ分解する認識を**2⁻ⁿリズム**に、音節境界を越えて前後の単位を結び付ける認識を**3⁻ⁿリズム**に対応させます。この対応は本書の理論的仮説であり、後の節で具体例を用いて検討します。
+**文末焦点**とは、文章の最後にその文章の要点を言う英語話者の習慣のことです。英語圏では、わかりやすい英文を作るとき、最も大切な情報を最後に置くことを基礎とするように習います。
 
-#### 原則７ - リズム基軸
+一方で**文頭焦点**とはこのオフビートカウント理論の独自用語で、英語の文末焦点に対して、日本語話者がしばしば最も大切な情報を最初に置く習慣のことです。
+
+
+### グルーヴ原則７ - リズム基軸
 
 スイングやシャッフルを演奏しようとした時に、**強拍の位置が常に固定**となり、毎回同じ位置に表れ、弱拍の位置を強拍からの相対距離として測りながら移動することでスイング・シャッフルのニュアンスを表現しようとする時、これを**強拍基軸**と呼びます。
 
-強拍基軸は、一瞥すると当然と考えられるかも知れません。しかし実際の海外の演奏者は逆の認識を持ってリズムを演奏しています。
+強拍基軸は、リズム認知バイアスのひとつです。 強拍が先に来ることに何ら特別な事はないだろう、あるいは「これが普通だ」と感じられる方もいらっしゃるかも知れません。 
+
+しかし、このリズム認知バイアスを世界的に見ると、実はこのリズム認知バイアスを持っている人はとても少なく非常に珍しいリズム認知バイアスだということがわかります。海外の演奏者は、しばしば全く真逆のリズム認知バイアスを持っています。
 
 スイングやシャッフルを演奏しようとした時に、**弱拍の位置が常に固定**となり、毎回同じ位置に表れ、強拍の位置を弱拍からの相対距離として測りながら移動することでスイング・シャッフルのニュアンスを表現しようとする時、これを**弱拍基軸**と呼びます。
 
-強拍基軸リズム認識を持っている人が、弱拍基軸を見た時にそれを異端として排除したり、社会的な制裁を加えたりすることを、**弱拍天動説** と呼びます。
+弱拍基軸もリズム認知バイアスのひとつです。
 
-リズムを客観的に捉え弱拍基軸のリズム認識を理解した上で合理的に受け入れることを**強拍地動説**と呼びます。
+強拍基軸リズム認知バイアスを持っている人が、弱拍先行リズム認知バイアスをに基づいた音符のタイミングニュアンスを見ると、不規則に動き回る様に観察され、その規則性の理解に失敗するという現象が起こります。この現象を **弱拍天動説** と呼びます。
+
+
+弱拍基軸リズム認知バイアスを持っている人が、弱拍先行リズム認知バイアスをに基づいた音符のタイミングニュアンスを見ると、弱拍位置が固定で自分が認識している強拍の位置自体が動き回っているのだと理解出来ます。 これはあたかも地動説を理解した人が不規則に動き回る様に見える惑星の動きを「実は動いているのは地球なのだ」と考えることで全てが規則的に動いていることを理解するプロセスと似ています。
+
+弱拍基軸のリズム認知で弱拍**強拍地動説**と呼びます。
 
 **強拍基軸** と **弱拍基軸** に関しては、[弱拍天動説と強拍地動説](/offbeat-count/weak-beat-as-sun-strong-beat-as-earth/ja/) で詳細を見ていきます。
 
-#### 原則８ - リズム侵襲性
 
-#### 原則９ - リズムアクセント種別
+#### 音韻学上の対応
+
+ここでは、音楽の弱拍に対する感覚は、言語の子音の位置に対する感覚と近いと考えます。
+
+#### {{<meta var.MORA_ISOCHRONY.ja>}} と {{<meta var.SYLLABLE_NUCLEUS_ISOCHRONY.ja>}}
+
+シラブル拍リズム及びストレス拍リズムでは、子音と母音を明確に区別し、必ず子音が母音に先行すると考えます。母音だけが等間隔に並んでおり、子音がどんなに長くても、子音が複数連なっていても、それは等間隔に並んだ母音の間に敷き詰められていく…そう考える傾向があります。つまり母音だけが等時性を持つと考えます。
+
+一方モーラ拍リズムは、子音と母音を区別しません。子音は必ずしも母音に先行せず、子音がある時は子音が等時性を持ち、子音がない場合だけ母音が等時性を持ちます。
+
+ここでは頭子音に続く音節核に {{<meta var.P_CENTER.ja>}} があると考えることを **音節核等時性**  呼びます。この考え方を音楽へ当てはめると、先行する弱拍を基準として強拍の位置を調整する**弱拍基軸**になると仮定します。
+
+一方で**モーラ拍等時性**では、モーラ音節が時間を数える基本単位となります。 それぞれのモーラの開始位置が時間認識の基準となります。モーラ内に最初に表れる音素は子音の時もあり、母音の時もあります。 シラブルの様に子音が音節の前方に飛び出すことはありません。 ここでは、この音声解釈方法を、音楽上の強拍の位置を固定して弱拍を調整する**強拍基軸** と関連があると考えます。
+
+
+### グルーヴ原則８ - リズム侵襲性
+
+ジャズやブルース、東南アジア各地の民族音楽、ヨーロッパの民族音楽などでは、そこに8分音符がなく4分音符しかないときであっても、そこに仮想の8分音符弱拍があるかのように音符を認識しており、その仮想の弱拍がある地点ではっきり音符を止めたり、あるいは**ゴースト・ノート（呑音=のむおと）** を演奏したりします。
+
+このことを『そこに弱拍がないのに、8分音符が侵襲している』という様に表現します。そのとき、しばしば『音符が侵襲的(intrusive)だ』と表現したりします。
+
+この侵襲的な弱拍は、リズム指数が増えるほど侵襲的弱拍が増え、ゼロに近付くほど少なくなり、ゼロ以下ではなくなるとここでは考えます。
+
+#### 音韻学上の対応
+
+この侵襲的な8分音符弱拍は、音韻学上の侵襲的末子音に対応するとここでは考えます。
+
+
+#### {{<meta var.PHONOLOGY.ja>}}  {{<meta var.FINAL_CONSONANT_AVOIDANCE.ja>}} と {{<meta var.FINAL_CONSONANT_INTRUSIVENESS.ja>}}
+
+**末子音忌避性**とは、音節末に子音を置かないように厳格に制限し、母音を挿入したり独立したモーラへの分割したりすることによって、末子音が生じることを避ける傾向です。
+
+これに対して**末子音侵襲性**とは、音節核の後に末子音がない時でも、そこに末子音を挿入する性質を指します。この侵襲的に生じた末子音は、しばしば頭子音最大化原則によって、音節の境界を越えて次の音節の頭子音として発音されます。
+
+<!-- 本書では、末子音を独立単位へ分解する認識を**2⁻ⁿリズム**に、音節境界を越えて前後の単位を結び付ける認識を**3⁻ⁿリズム**に対応させます。この対応は本書の理論的仮説であり、後の節で具体例を用いて検討します。-->
+
+
+### グルーヴ原則９ - リズムストレス度
+
+**固定長** とはアクセントを高低・強度・音色ななど長短とは別な要素で表現することを指します。
+
+**可変長** とは長短によって成立するストレス型アクセントを指します。
+
+**無拍**とは定期的に訪れる拍という概念自体がないことを表す。
+
+ポストセントリック・プレセントリック共に、リズム指数極性が０に近付くほど固定長に近づき、０から遠ざかるほど可変長になります。
+
+
+#### 音韻学上の対応
+
+ポストセントリック・プレセントリック共に、リズム指数極性が０に近付くほどストレス拍の長短変化が現象し、０から遠ざかるほど増加します。
 
 
 
@@ -859,29 +1089,6 @@ document.addEventListener("DOMContentLoaded", () => {
 何故日本人は縦乗りなのか、その理由に関しましては[何故日本人は縦乗りなのか](/offbeat-count/tatenori-theory/ja/)で詳細を見ていきます。
 
 ではどのようにしたら縦乗りを克服することが出来るのでしょうか。それがこの文章の目的でもあります。縦乗りを克服する長い道のり=**{{<meta var.RDO.ja>}}** について今後長い時間を掛けて見つけ出して行きます。
-
-
-### {{<meta var.MiOP.ja>}} と {{<meta var.MOP.ja>}}
-
-**頭子音最小化原則**とは、末子音や多重子音を一つの頭子音群にまとめず、それぞれを独立したモーラとして後方へ配置する傾向を指します。これはモーラ拍リズムに見られる特徴であり、本書では、先に知覚された強拍へ後続要素を追加する**強拍先行**に対応すると考えます。
-
-これに対して**頭子音最大化原則**とは、その言語の音節構造が許す範囲で、音節間の子音を次の音節の頭子音としてまとめる原則です。頭子音が音節核に先行するため、本書では、弱拍が次の強拍を予告する**弱拍先行**に対応すると考えます。
-
-### {{<meta var.FRONT_FOCUS.ja>}} と {{<meta var.END_FOCUS.ja>}}
-
-ここでいう**文頭焦点**と**文末焦点**は、文法上の情報焦点ではなく、発話を時間的にまとめる時に、始点と終点のどちらを基準とするかを表す本書独自の用語です。
-
-**文頭焦点**では、発話の始点を確定した後、その後方へ要素を順次追加します。この時間認識を音楽へ投影したものが、開始位置を揃えて終わりを固定しない**頭合わせ**です。
-
-**文末焦点**では、これから到達する発話の終点を予期し、そこへ向かって先行要素を配置します。この時間認識を音楽へ投影したものが、開始位置よりも終了位置を揃える**尻合わせ**です。
-
-### {{<meta var.MORA_ISOCHRONY.ja>}} と {{<meta var.SYLLABLE_NUCLEUS_ISOCHRONY.ja>}}
-
-ここでいう**等時性**は、全ての音が物理的に完全に同じ長さになることではなく、一定の発音単位が知覚上の時間基準として反復する傾向を指します。
-
-**モーラ等時性**では、モーラが時間を数える基本単位となり、それぞれのモーラの開始位置が時間認識の基準となります。本書では、この認識を、強拍の位置を固定して弱拍を調整する**強拍基軸**に対応させます。
-
-**音節核等時性**では、頭子音に続く音節核または{{<meta var.P_CENTER.ja>}}の位置を予測しながら発音を構成します。本書では、この予測を音楽へ投影すると、先行する弱拍を基準として強拍の位置を調整する**弱拍基軸**になると仮定します。
 
 
 
@@ -2183,6 +2390,766 @@ music</span>
 この追従の感覚は、分割にはなり得ません。何故ならば、次の拍を予想している人は、未来の拍の位置を知って、過去の拍の位置を知っている為に、中間地点を決定することが出来るからです。追従の感覚で弱拍を認識すると、過去の拍の位置だけを知っており、未来の拍の位置を知らないため、中間地点を決定することが出来ません。
 
 ストレス拍・シラブル拍の分割のあるリズム概念をここでは **{{<meta var.PROACTIVE_DIVISIONISM.ja>}}(Proactive Divisionism)** と呼びます。またモーラ拍の分割のないリズム概念をここでは**{{<meta var.REACTIVE_APPENDISM.ja>}} (Reactive Appendism)** と呼びます。
+
+
+### 断ち割りと付け足しという時間認知の違い
+
+拍の位置を決める際の時間感覚の違いを説明します。{{<meta var.REACTIVE_APPENDISM_ENG.ja>}}は、既存の拍の後方へ新しい拍を付け足すことで拍の位置を決定します。 {{<meta var.PROACTIVE_DIVISIONISM_ENG.ja>}}は、既に決まっている時間領域を内側から分割する様に拍の位置を決定します。
+
+```{=html}
+<style>
+  /*
+   * Reactive Appendism / Proactive Divisionism
+   * Self-contained and safe to paste into a Quarto HTML document.
+   */
+  .rdo-rhythm-model {
+    --rdo-surface: var(--bs-tertiary-bg, #f7f5f0);
+    --rdo-card: var(--bs-body-bg, #fffefa);
+    --rdo-ink: var(--bs-body-color, #25231f);
+    --rdo-muted: var(--bs-secondary-color, #6e6960);
+    --rdo-border: var(--bs-border-color, #d9d4ca);
+    --rdo-grid-line: #e8e3d9;
+    --rdo-viewport: #fbfaf6;
+    --rdo-shadow: 0 1rem 2.6rem rgb(39 35 29 / 8%);
+    --rdo-append: #326f8a;
+    --rdo-append-light: #dcecf2;
+    --rdo-append-ink: #153d4c;
+    --rdo-append-new: #b7482f;
+    --rdo-append-new-ink: #6e2417;
+    --rdo-append-new-bg: #f7dfd8;
+    --rdo-future-stop: rgb(251 250 246 / 96%);
+    --rdo-division: #9b641d;
+    --rdo-cake-icing: #f4d08b;
+    --rdo-cake-sponge: #d99b45;
+    --rdo-cake-filling: #fff0cd;
+    --rdo-cut: #7b3d23;
+    --rdo-division-ink: #4d2d0d;
+    --rdo-unit: clamp(2.65rem, 7vw, 4.25rem);
+
+    box-sizing: border-box;
+    position: relative;
+    max-width: 72rem;
+    margin: 2rem auto;
+    padding: clamp(1rem, 3vw, 2rem);
+    color: var(--rdo-ink);
+    background:
+      linear-gradient(90deg, transparent 0 49.85%, var(--rdo-grid-line) 49.85% 50.15%, transparent 50.15%),
+      var(--rdo-surface);
+    border: 1px solid var(--rdo-border);
+    border-radius: 1.1rem;
+    box-shadow: var(--rdo-shadow);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+
+  .rdo-rhythm-model *,
+  .rdo-rhythm-model *::before,
+  .rdo-rhythm-model *::after {
+    box-sizing: inherit;
+  }
+
+  .rdo-rhythm-model__toolbar {
+    display: flex;
+    justify-content: flex-end;
+    margin: -0.25rem -0.25rem 0.25rem;
+  }
+
+  .rdo-rhythm-model__expand,
+  .rdo-rhythm-popup__close {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.35rem;
+    min-height: 2rem;
+    padding: 0.3rem 0.65rem;
+    color: var(--rdo-ink, var(--bs-body-color, #25231f));
+    background: var(--rdo-card, var(--bs-body-bg, #fffefa));
+    border: 1px solid var(--rdo-border, var(--bs-border-color, #d9d4ca));
+    border-radius: 999px;
+    box-shadow: 0 0.15rem 0.45rem rgb(0 0 0 / 10%);
+    font: inherit;
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 1;
+    cursor: pointer;
+  }
+
+  .rdo-rhythm-model__expand:hover,
+  .rdo-rhythm-popup__close:hover {
+    border-color: var(--rdo-append, #326f8a);
+  }
+
+  .rdo-rhythm-model__expand:focus-visible,
+  .rdo-rhythm-popup__close:focus-visible {
+    outline: 0.18rem solid color-mix(in srgb, var(--rdo-append, #326f8a) 55%, transparent);
+    outline-offset: 0.15rem;
+  }
+
+  .rdo-rhythm-model__intro {
+    max-width: 48rem;
+    padding: 1rem;
+    color: var(--rdo-muted);
+    line-height: 1.5;
+    text-align: left;
+  }
+
+  .rdo-rhythm-model__legend {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .rdo-rhythm-model__legend-item {
+    padding: 0.75rem 1rem;
+    background: color-mix(in srgb, var(--rdo-card) 92%, transparent);
+    border: 1px solid var(--rdo-border);
+    border-top: 0.28rem solid var(--rdo-accent);
+    border-radius: 0.75rem;
+  }
+
+  .rdo-rhythm-model__legend-item--append {
+    --rdo-accent: var(--rdo-append);
+  }
+
+  .rdo-rhythm-model__legend-item--division {
+    --rdo-accent: var(--rdo-division);
+  }
+
+  .rdo-rhythm-model__legend-item strong,
+  .rdo-rhythm-model__legend-item small {
+    display: block;
+  }
+
+  .rdo-rhythm-model__legend-item strong {
+    line-height: 1.35;
+  }
+
+  .rdo-rhythm-model__legend-item small {
+    margin-top: 0.2rem;
+    color: var(--rdo-muted);
+  }
+
+  .rdo-rhythm-model__grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  /* These are the eight visual HTML chunks: four RA + four PD. */
+  .rdo-rhythm-stage {
+    min-width: 0;
+    padding: clamp(0.85rem, 2vw, 1.15rem);
+    overflow: hidden;
+    background: var(--rdo-card);
+    border: 1px solid var(--rdo-border);
+    border-radius: 0.85rem;
+  }
+
+  .rdo-rhythm-stage--append {
+    border-left: 0.3rem solid var(--rdo-append);
+  }
+
+  .rdo-rhythm-stage--division {
+    border-left: 0.3rem solid var(--rdo-division);
+  }
+
+  .rdo-rhythm-stage__header {
+    display: grid;
+    gap: 0.15rem;
+    margin-bottom: 0.65rem;
+  }
+
+  .rdo-rhythm-stage__step {
+    display: block;
+    margin: 0;
+    color: var(--rdo-muted);
+    font-size: 0.7rem;
+    font-weight: 750;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+
+  .rdo-rhythm-stage__action {
+    margin: 0;
+    font-size: clamp(0.82rem, 1.7vw, 0.96rem);
+    line-height: 1.45;
+    text-align: left;
+  }
+
+  .rdo-rhythm-stage__viewport {
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-height: 5rem;
+    padding: 0.65rem;
+    overflow: hidden;
+    border: 1px dashed var(--rdo-border);
+    border-radius: 0.55rem;
+    background:
+      repeating-linear-gradient(
+        90deg,
+        transparent 0 calc(var(--rdo-unit) - 1px),
+        var(--rdo-grid-line) calc(var(--rdo-unit) - 1px) var(--rdo-unit)
+      ),
+      var(--rdo-viewport);
+  }
+
+  /* RA: units never shrink; the occupied line becomes longer. */
+  .rdo-append-track {
+    display: flex;
+    align-items: stretch;
+    width: max-content;
+    max-width: calc(100% - 0.65rem);
+  }
+
+  .rdo-append-unit {
+    position: relative;
+    display: grid;
+    flex: 0 0 var(--rdo-unit);
+    min-height: 3.25rem;
+    place-items: center;
+    color: var(--rdo-append-ink);
+    background: var(--rdo-append-light);
+    border: 2px solid var(--rdo-append);
+    border-radius: 0.42rem;
+    font-size: 0.8rem;
+    font-weight: 800;
+  }
+
+  .rdo-append-unit + .rdo-append-unit {
+    margin-left: 0.22rem;
+  }
+
+  .rdo-append-unit--new {
+    color: var(--rdo-append-new-ink);
+    background: var(--rdo-append-new-bg);
+    border-color: var(--rdo-append-new);
+  }
+
+  .rdo-append-unit--new::before {
+    content: "NEW";
+    position: absolute;
+    top: -0.58rem;
+    left: 50%;
+    padding: 0.05rem 0.32rem;
+    color: #fff;
+    background: var(--rdo-append-new);
+    border-radius: 999px;
+    font-size: 0.55rem;
+    letter-spacing: 0.08em;
+    transform: translateX(-50%);
+  }
+
+  .rdo-append-caret {
+    flex: 0 0 0.18rem;
+    align-self: stretch;
+    margin-left: 0.28rem;
+    background: var(--rdo-append-new);
+    border-radius: 999px;
+    animation: rdo-caret-blink 1.1s steps(1, end) infinite;
+  }
+
+  .rdo-append-future {
+    position: absolute;
+    inset: 0 0 0 auto;
+    width: 24%;
+    pointer-events: none;
+    background: linear-gradient(90deg, transparent, var(--rdo-future-stop));
+  }
+
+  .rdo-append-future::after {
+    content: "future ?";
+    position: absolute;
+    right: 0.5rem;
+    bottom: 0.2rem;
+    color: var(--rdo-muted);
+    font-size: 0.65rem;
+    font-style: italic;
+  }
+
+  /* PD: the outer region is fixed; its children share the same width. */
+  .rdo-division-track {
+    position: relative;
+    display: flex;
+    width: 100%;
+    min-height: 3.25rem;
+    overflow: hidden;
+    background: var(--rdo-cake-sponge);
+    border: 2px solid var(--rdo-division);
+    border-radius: 0.42rem;
+    box-shadow: 0 0.28rem 0 rgb(92 55 15 / 12%);
+  }
+
+  .rdo-division-unit {
+    position: relative;
+    display: grid;
+    flex: 1 1 0;
+    min-width: 0;
+    place-items: center;
+    color: var(--rdo-division-ink);
+    background:
+      linear-gradient(
+        to bottom,
+        var(--rdo-cake-icing) 0 22%,
+        var(--rdo-cake-sponge) 22% 57%,
+        var(--rdo-cake-filling) 57% 70%,
+        var(--rdo-cake-sponge) 70% 100%
+      );
+    font-size: clamp(0.58rem, 1.6vw, 0.78rem);
+    font-weight: 850;
+  }
+
+  .rdo-division-unit + .rdo-division-unit {
+    border-left: 2px solid var(--rdo-cut);
+  }
+
+  .rdo-division-track::before,
+  .rdo-division-track::after {
+    content: "";
+    position: absolute;
+    z-index: 2;
+    top: -0.2rem;
+    bottom: -0.2rem;
+    width: 0.18rem;
+    background: var(--rdo-ink);
+  }
+
+  .rdo-division-track::before {
+    left: 0;
+  }
+
+  .rdo-division-track::after {
+    right: 0;
+  }
+
+  .rdo-rhythm-model__conclusion {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .rdo-rhythm-model__rule {
+    margin: 0;
+    padding: 0.85rem 1rem;
+    color: var(--rdo-muted);
+    background: color-mix(in srgb, var(--rdo-card) 90%, transparent);
+    border-radius: 0.7rem;
+    font-size: 0.88rem;
+    line-height: 1.55;
+  }
+
+  .rdo-rhythm-model__rule strong {
+    color: var(--rdo-ink);
+  }
+
+  .rdo-rhythm-model__credit {
+    margin: 1rem 0 0;
+    color: var(--rdo-muted);
+    font-size: 0.75rem;
+    line-height: 1.5;
+    text-align: right;
+  }
+
+  .rdo-rhythm-model__credit a {
+    color: inherit;
+  }
+
+  /* Full-figure popup */
+  .rdo-rhythm-popup {
+    width: min(96vw, 78rem);
+    max-width: none;
+    max-height: 96vh;
+    margin: auto;
+    padding: 0;
+    overflow: auto;
+    overscroll-behavior: contain;
+    background: transparent;
+    border: 0;
+  }
+
+  .rdo-rhythm-popup::backdrop {
+    background: rgb(10 12 15 / 72%);
+    backdrop-filter: blur(0.2rem);
+  }
+
+  .rdo-rhythm-popup__toolbar {
+    position: sticky;
+    z-index: 10;
+    top: 0;
+    display: flex;
+    justify-content: flex-end;
+    height: 0;
+    pointer-events: none;
+  }
+
+  .rdo-rhythm-popup__close {
+    min-width: 2.25rem;
+    min-height: 2.25rem;
+    margin: 0.75rem;
+    padding: 0;
+    pointer-events: auto;
+    font-size: 1.35rem;
+  }
+
+  .rdo-rhythm-popup__content {
+    padding: 0.5rem;
+  }
+
+  .rdo-rhythm-popup__content .rdo-rhythm-model {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .rdo-rhythm-model--popup .rdo-rhythm-model__toolbar {
+    display: none;
+  }
+
+  @keyframes rdo-caret-blink {
+    50% { opacity: 0; }
+  }
+
+  @media (max-width: 46rem) {
+    .rdo-rhythm-model {
+      background: var(--rdo-surface);
+    }
+
+    .rdo-rhythm-model__legend {
+      display: none;
+    }
+
+    .rdo-rhythm-model__grid {
+      grid-template-columns: 1fr;
+    }
+
+    .rdo-rhythm-stage--append::before,
+    .rdo-rhythm-stage--division::before {
+      display: block;
+      margin-bottom: 0.45rem;
+      color: var(--rdo-muted);
+      font-size: 0.68rem;
+      font-weight: 800;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .rdo-rhythm-stage--append::before {
+      content: "Reactive Appendism";
+    }
+
+    .rdo-rhythm-stage--division::before {
+      content: "Proactive Divisionism";
+    }
+
+    .rdo-rhythm-model__conclusion {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  /*
+   * Quarto writes the active scheme to the body as .quarto-light or
+   * .quarto-dark. These selectors intentionally outrank the OS fallback.
+   */
+  body.quarto-light .rdo-rhythm-model {
+    color-scheme: light;
+  }
+
+  body.quarto-dark .rdo-rhythm-model {
+    --rdo-surface: var(--bs-tertiary-bg, #201f1c);
+    --rdo-card: var(--bs-body-bg, #292824);
+    --rdo-ink: var(--bs-body-color, #f1eee7);
+    --rdo-muted: var(--bs-secondary-color, #bbb5aa);
+    --rdo-border: var(--bs-border-color, #4a4740);
+    --rdo-grid-line: #3a3833;
+    --rdo-viewport: #24231f;
+    --rdo-shadow: 0 1rem 2.6rem rgb(0 0 0 / 22%);
+    --rdo-append-light: #264958;
+    --rdo-append-ink: #e6f5fa;
+    --rdo-append-new-ink: #ffe9e2;
+    --rdo-append-new-bg: #67372d;
+    --rdo-future-stop: rgb(36 35 31 / 96%);
+    --rdo-cake-icing: #ad8144;
+    --rdo-cake-sponge: #835a28;
+    --rdo-cake-filling: #c19a62;
+    --rdo-division-ink: #251707;
+    color-scheme: dark;
+  }
+
+  /* Standalone preview fallback when Quarto is not controlling the mode. */
+  @media (prefers-color-scheme: dark) {
+    body:not(.quarto-light):not(.quarto-dark) .rdo-rhythm-model {
+      --rdo-surface: #201f1c;
+      --rdo-card: #292824;
+      --rdo-ink: #f1eee7;
+      --rdo-muted: #bbb5aa;
+      --rdo-border: #4a4740;
+      --rdo-grid-line: #3a3833;
+      --rdo-viewport: #24231f;
+      --rdo-shadow: 0 1rem 2.6rem rgb(0 0 0 / 22%);
+      --rdo-append-light: #264958;
+      --rdo-append-ink: #e6f5fa;
+      --rdo-append-new-ink: #ffe9e2;
+      --rdo-append-new-bg: #67372d;
+      --rdo-future-stop: rgb(36 35 31 / 96%);
+      --rdo-cake-icing: #ad8144;
+      --rdo-cake-sponge: #835a28;
+      --rdo-cake-filling: #c19a62;
+      --rdo-division-ink: #251707;
+      color-scheme: dark;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .rdo-append-caret {
+      animation: none;
+    }
+  }
+
+  @media print {
+    .rdo-rhythm-model {
+      box-shadow: none;
+      break-inside: avoid;
+    }
+
+    .rdo-append-caret {
+      animation: none;
+    }
+
+    .rdo-rhythm-model__toolbar,
+    .rdo-rhythm-popup {
+      display: none;
+    }
+  }
+</style>
+
+<figure class="rdo-rhythm-model" data-rdo-popup-source aria-label="Reactive Appendism と Proactive Divisionism の比較図">
+  <div class="rdo-rhythm-model__toolbar">
+    <button
+      class="rdo-rhythm-model__expand"
+      type="button"
+      aria-haspopup="dialog"
+      aria-controls="rdo-rhythm-popup"
+    >
+      <span aria-hidden="true">⤢</span>
+      <span>拡大表示</span>
+    </button>
+  </div>
+
+  <div class="rdo-rhythm-model__legend">
+    <div class="rdo-rhythm-model__legend-item rdo-rhythm-model__legend-item--append">
+      <strong>Reactive Appendism</strong>
+      <small>受動的事後追従付け足し主義</small>
+    </div>
+    <div class="rdo-rhythm-model__legend-item rdo-rhythm-model__legend-item--division">
+      <strong>Proactive Divisionism</strong>
+      <small>能動的事前予期裁ち割り主義</small>
+    </div>
+  </div>
+
+  <div class="rdo-rhythm-model__grid">
+    <!-- 1/8: Reactive Appendism, stage 1 -->
+    <div class="rdo-rhythm-stage rdo-rhythm-stage--append" role="group" aria-label="Reactive Appendism, Stage 1">
+      <div class="rdo-rhythm-stage__header">
+        <span class="rdo-rhythm-stage__step">Stage 1</span>
+        <p class="rdo-rhythm-stage__action">1つの拍が存在する</p>
+      </div>
+      <div class="rdo-rhythm-stage__viewport" aria-label="1つの拍と、その直後にあるカーソル">
+        <div class="rdo-append-track">
+          <div class="rdo-append-unit">拍 1</div>
+          <div class="rdo-append-caret" aria-hidden="true"></div>
+        </div>
+        <div class="rdo-append-future" aria-hidden="true"></div>
+      </div>
+    </div>
+
+    <!-- 2/8: Proactive Divisionism, stage 1 -->
+    <div class="rdo-rhythm-stage rdo-rhythm-stage--division" role="group" aria-label="Proactive Divisionism, Stage 1">
+      <div class="rdo-rhythm-stage__header">
+        <span class="rdo-rhythm-stage__step">Stage 1</span>
+        <p class="rdo-rhythm-stage__action">時間領域全体を先に定める</p>
+      </div>
+      <div class="rdo-rhythm-stage__viewport" aria-label="両端が定められた1つの時間領域">
+        <div class="rdo-division-track">
+          <div class="rdo-division-unit">全体</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3/8: Reactive Appendism, stage 2 -->
+    <div class="rdo-rhythm-stage rdo-rhythm-stage--append" role="group" aria-label="Reactive Appendism, Stage 2">
+      <div class="rdo-rhythm-stage__header">
+        <span class="rdo-rhythm-stage__step">Stage 2</span>
+        <p class="rdo-rhythm-stage__action">直前の拍に次の拍を付け足す</p>
+      </div>
+      <div class="rdo-rhythm-stage__viewport" aria-label="1つ目の拍の後ろに2つ目の拍を付け足す">
+        <div class="rdo-append-track">
+          <div class="rdo-append-unit">拍 1</div>
+          <div class="rdo-append-unit rdo-append-unit--new">拍 2</div>
+          <div class="rdo-append-caret" aria-hidden="true"></div>
+        </div>
+        <div class="rdo-append-future" aria-hidden="true"></div>
+      </div>
+    </div>
+
+    <!-- 4/8: Proactive Divisionism, stage 2 -->
+    <div class="rdo-rhythm-stage rdo-rhythm-stage--division" role="group" aria-label="Proactive Divisionism, Stage 2">
+      <div class="rdo-rhythm-stage__header">
+        <span class="rdo-rhythm-stage__step">Stage 2</span>
+        <p class="rdo-rhythm-stage__action">同じ領域を2分割する</p>
+      </div>
+      <div class="rdo-rhythm-stage__viewport" aria-label="同じ時間領域を等しい2つの部分に分割する">
+        <div class="rdo-division-track">
+          <div class="rdo-division-unit">1/2</div>
+          <div class="rdo-division-unit">1/2</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 5/8: Reactive Appendism, stage 3 -->
+    <div class="rdo-rhythm-stage rdo-rhythm-stage--append" role="group" aria-label="Reactive Appendism, Stage 3">
+      <div class="rdo-rhythm-stage__header">
+        <span class="rdo-rhythm-stage__step">Stage 3</span>
+        <p class="rdo-rhythm-stage__action">さらに後方へ付け足す</p>
+      </div>
+      <div class="rdo-rhythm-stage__viewport" aria-label="2つ目の拍の後ろに3つ目の拍を付け足す">
+        <div class="rdo-append-track">
+          <div class="rdo-append-unit">拍 1</div>
+          <div class="rdo-append-unit">拍 2</div>
+          <div class="rdo-append-unit rdo-append-unit--new">拍 3</div>
+          <div class="rdo-append-caret" aria-hidden="true"></div>
+        </div>
+        <div class="rdo-append-future" aria-hidden="true"></div>
+      </div>
+    </div>
+
+    <!-- 6/8: Proactive Divisionism, stage 3 -->
+    <div class="rdo-rhythm-stage rdo-rhythm-stage--division" role="group" aria-label="Proactive Divisionism, Stage 3">
+      <div class="rdo-rhythm-stage__header">
+        <span class="rdo-rhythm-stage__step">Stage 3</span>
+        <p class="rdo-rhythm-stage__action">同じ領域を4分割する</p>
+      </div>
+      <div class="rdo-rhythm-stage__viewport" aria-label="同じ時間領域を等しい4つの部分に分割する">
+        <div class="rdo-division-track">
+          <div class="rdo-division-unit">1/4</div>
+          <div class="rdo-division-unit">1/4</div>
+          <div class="rdo-division-unit">1/4</div>
+          <div class="rdo-division-unit">1/4</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 7/8: Reactive Appendism, stage 4 -->
+    <div class="rdo-rhythm-stage rdo-rhythm-stage--append" role="group" aria-label="Reactive Appendism, Stage 4">
+      <div class="rdo-rhythm-stage__header">
+        <span class="rdo-rhythm-stage__step">Stage 4</span>
+        <p class="rdo-rhythm-stage__action">時間列が後方へ伸び続ける</p>
+      </div>
+      <div class="rdo-rhythm-stage__viewport" aria-label="3つ目の拍の後ろに4つ目の拍を付け足す">
+        <div class="rdo-append-track">
+          <div class="rdo-append-unit">拍 1</div>
+          <div class="rdo-append-unit">拍 2</div>
+          <div class="rdo-append-unit">拍 3</div>
+          <div class="rdo-append-unit rdo-append-unit--new">拍 4</div>
+          <div class="rdo-append-caret" aria-hidden="true"></div>
+        </div>
+        <div class="rdo-append-future" aria-hidden="true"></div>
+      </div>
+    </div>
+
+    <!-- 8/8: Proactive Divisionism, stage 4 -->
+    <div class="rdo-rhythm-stage rdo-rhythm-stage--division" role="group" aria-label="Proactive Divisionism, Stage 4">
+      <div class="rdo-rhythm-stage__header">
+        <span class="rdo-rhythm-stage__step">Stage 4</span>
+        <p class="rdo-rhythm-stage__action">同じ領域を8分割する</p>
+      </div>
+      <div class="rdo-rhythm-stage__viewport" aria-label="同じ時間領域を等しい8つの部分に分割する">
+        <div class="rdo-division-track">
+          <div class="rdo-division-unit">1/8</div>
+          <div class="rdo-division-unit">1/8</div>
+          <div class="rdo-division-unit">1/8</div>
+          <div class="rdo-division-unit">1/8</div>
+          <div class="rdo-division-unit">1/8</div>
+          <div class="rdo-division-unit">1/8</div>
+          <div class="rdo-division-unit">1/8</div>
+          <div class="rdo-division-unit">1/8</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <figcaption class="rdo-rhythm-model__conclusion">
+    <p class="rdo-rhythm-model__rule">
+      <strong>Appendism:</strong>
+      拍の幅を保ったまま、新しい拍を後方へ追加する。拍数とともに時間列全体が長くなる。
+    </p>
+    <p class="rdo-rhythm-model__rule">
+      <strong>Divisionism:</strong>
+      時間領域全体の長さを保ったまま、その内部を再帰的に細分化する。
+    </p>
+  </figcaption>
+
+  <p class="rdo-rhythm-model__credit">
+    Concept: Rhythmdo —
+    <a href="https://rhythmdo.com/offbeat-count/schizorhythmos-and-solirhythmos/ja/">
+      分裂拍シゾリスモスと孤立拍ソリリスモス
+    </a>
+  </p>
+</figure>
+
+<dialog
+  class="rdo-rhythm-popup"
+  id="rdo-rhythm-popup"
+  aria-label="Reactive Appendism と Proactive Divisionism の拡大図"
+>
+  <div class="rdo-rhythm-popup__toolbar">
+    <button class="rdo-rhythm-popup__close" type="button" aria-label="閉じる">
+      <span aria-hidden="true">×</span>
+    </button>
+  </div>
+  <div class="rdo-rhythm-popup__content"></div>
+</dialog>
+
+<script>
+  (() => {
+    const source = document.querySelector("[data-rdo-popup-source]");
+    const dialog = document.querySelector("#rdo-rhythm-popup");
+    const content = dialog?.querySelector(".rdo-rhythm-popup__content");
+    const openButton = source?.querySelector(".rdo-rhythm-model__expand");
+    const closeButton = dialog?.querySelector(".rdo-rhythm-popup__close");
+
+    if (!source || !dialog || !content || !openButton || !closeButton) return;
+
+    if (typeof dialog.showModal !== "function") {
+      openButton.hidden = true;
+      return;
+    }
+
+    const openPopup = () => {
+      const enlargedFigure = source.cloneNode(true);
+      enlargedFigure.removeAttribute("data-rdo-popup-source");
+      enlargedFigure.classList.add("rdo-rhythm-model--popup");
+      enlargedFigure.querySelector(".rdo-rhythm-model__toolbar")?.remove();
+      content.replaceChildren(enlargedFigure);
+      dialog.showModal();
+    };
+
+    const closePopup = () => dialog.close();
+
+    openButton.addEventListener("click", openPopup);
+    closeButton.addEventListener("click", closePopup);
+
+    dialog.addEventListener("click", (event) => {
+      if (event.target === dialog) closePopup();
+    });
+
+    dialog.addEventListener("close", () => {
+      content.replaceChildren();
+      openButton.focus({ preventScroll: true });
+    });
+  })();
+</script>
+```
 
 ### {{<meta var.SCHIZORHYTHMOS_ENG.ja>}}と{{<meta var.SOLIRHYTHMOS_ENG.ja>}} <!-- { #schizorhythmos-and-solirhythmos-again} -->
 
