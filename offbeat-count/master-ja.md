@@ -496,6 +496,9 @@ body.quarto-dark .rdo9pog-table-scroll {
   vertical-align: middle;
 }
 
+.rdo9pog-valign {
+  vertical-align: middle !important;
+}
 </style>
 
 <div class="rdo9pog-table-scroll">
@@ -529,12 +532,12 @@ body.quarto-dark .rdo9pog-table-scroll {
 <tr>
   <th scope="row"></th>
   <th scope="row">{{<meta var.P_CENTER.ja>}}軸</th>
-  <th>ポストセントリック</th>
-  <th>ノーセントリック</th>
   <th>プレセントリック</th>
-  <th>ポストセントリック</th>
   <th>ノーセントリック</th>
+  <th>ポストセントリック</th>
   <th>プレセントリック</th>
+  <th>ノーセントリック</th>
+  <th>ポストセントリック</th>
   <th class="note-column">※０</th>
 </tr>
 </thead>
@@ -542,20 +545,20 @@ body.quarto-dark .rdo9pog-table-scroll {
 <tr>
   <th scope="row"></th>
   <th scope="row">代表的な言語/文化圏</th>
-  <td scope="col">🇨🇳 🇮🇷</td>
-  <td scope="col">🇯🇵</td>
   <td scope="col">🌍️🌎️🌏️</td>
-  <td scope="col">🇨🇳 🇮🇷</td>
   <td scope="col">🇯🇵</td>
+  <td scope="col">🇨🇳 🇮🇷</td>
   <td scope="col">🌍️🌎️🌏️</td>
+  <td scope="col">🇯🇵</td>
+  <td scope="col">🇨🇳 🇮🇷</td>
   <td scope="col">※１</td>
 </tr>
 <tr>
   <th scope="row">原則１</th>
   <th scope="row">リズム指数極性</th>
-  <td>増殖拍 <span class="formula">(base<sup>+n</sup>)</span></td>
-  <td>孤立拍 <span class="formula">(base<sup>0</sup> = 1)</span></td>
   <td>分裂拍 <span class="formula">(base<sup>−n</sup>)</span></td>
+  <td>孤立拍 <span class="formula">(base<sup>0</sup> = 1)</span></td>
+  <td>増殖拍 <span class="formula">(base<sup>+n</sup>)</span></td>
   <td>音節頭／音節核-分離</td>
   <td>音節頭／音節核-融合</td>
   <td>音節頭／音節核-分離</td>
@@ -564,9 +567,9 @@ body.quarto-dark .rdo9pog-table-scroll {
 <tr>
   <th scope="row">原則２</th>
   <th scope="row">リズム強弱拍区別</th>
-  <td>反復で弱拍を区別する</td>
-  <td>弱拍を区別しない</td>
   <td>分割で弱拍を区別する</td>
+  <td>弱拍を区別しない</td>
+  <td>反復で弱拍を区別する</td>
   <td>子音を区別する</td>
   <td>子音を区別しない</td>
   <td>子音を区別する</td>
@@ -586,20 +589,20 @@ body.quarto-dark .rdo9pog-table-scroll {
 <tr>
   <th scope="row">原則４</th>
   <th scope="row">リズム先行拍</th>
-  <td>強拍先行</td>
-  <td>拍無定義</td>
   <td>弱拍先行</td>
-  <td>頭子音最小化原則</td>
-  <td>頭子音原則なし</td>
+  <td>拍無定義</td>
+  <td>強拍先行</td>
   <td>頭子音最大化原則</td>
+  <td>頭子音原則なし</td>
+  <td>頭子音最小化原則</td>
   <td></td>
 </tr>
 <tr>
   <th scope="row">原則５</th>
   <th scope="row">リズム底数</th>
-  <td>base = 2リズム <span class="formula">(2<sup>+n</sup>リズム)</span><br>base = 3リズム <span class="formula">(3<sup>+n</sup>リズム)</span></td>
-  <td><span class="formula">base<sup>0</sup> = 1リズム</span></td>
-  <td>base = 2リズム <span class="formula">(2<sup>−n</sup>リズム)</span><br>base = 3リズム <span class="formula">(3<sup>−n</sup>リズム)</span></td>
+  <td class="rdo9pog-valign">base = 2リズム <span class="formula">(2<sup>−n</sup>リズム)</span><br>base = 3リズム <span class="formula">(3<sup>−n</sup>リズム)</span></td>
+  <td class="rdo9pog-valign"><span class="formula">base<sup>0</sup> = 1リズム</span></td>
+  <td class="rdo9pog-valign">base = 2リズム <span class="formula">(2<sup>+n</sup>リズム)</span><br>base = 3リズム <span class="formula">(3<sup>+n</sup>リズム)</span></td>
   <td>CV／CVCリズム</td>
   <td>CV無区別</td>
   <td>CV／CVCリズム</td>
@@ -608,20 +611,20 @@ body.quarto-dark .rdo9pog-table-scroll {
 <tr>
   <th scope="row">原則６</th>
   <th scope="row">リズム焦点</th>
-  <td>頭合わせ</td>
-  <td>無合わせ</td>
   <td>尻合わせ</td>
-  <td>文頭焦点</td>
-  <td>無焦点</td>
+  <td>無合わせ</td>
+  <td>頭合わせ</td>
   <td>文末焦点</td>
+  <td>無焦点</td>
+  <td>文頭焦点</td>
   <td></td>
 </tr>
 <tr>
   <th scope="row">原則７</th>
   <th scope="row">リズム基軸</th>
-  <td>強拍基軸（頭重心）</td>
-  <td>無基軸</td>
   <td>弱拍基軸（レイドバック・プッシュ）</td>
+  <td>無基軸</td>
+  <td>強拍基軸（頭重心）</td>
   <td>ストレス〜シラブル等時性</td>
   <td>モーラ等時性</td>
   <td>シラブル〜ストレス等時性</td>
@@ -630,12 +633,12 @@ body.quarto-dark .rdo9pog-table-scroll {
 <tr>
   <th scope="row">原則８</th>
   <th scope="row">リズム侵襲性</th>
-  <td>呑音がない</td>
-  <td>呑音がない</td>
   <td>呑音がある</td>
-  <td>末子音忌避性</td>
-  <td>末子音なし</td>
+  <td>呑音がない</td>
+  <td>呑音がない</td>
   <td>末子音侵襲性</td>
+  <td>末子音なし</td>
+  <td>末子音忌避性</td>
   <td class="note-column">※４</td>
 </tr>
 <tr>
