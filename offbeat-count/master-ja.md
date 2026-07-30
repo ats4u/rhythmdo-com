@@ -184,9 +184,9 @@ Pセンターよりも後ろに情報の中心があると感じる傾向をポ�
 $$
 R
 =
-\prod_{i=0}^{N}b_i^{e_i}
+\prod_{i=0}^{L}\mathrm{base}_i^{n_i}
 =
-(b_0^{e_0})(b_1^{e_1})\cdots(b_N^{e_N})
+(\mathrm{base}_0^{n_0})(\mathrm{base}_1^{n_1})\cdots(\mathrm{base}_L^{n_L})
 $$ {#eq-rhythmic-structure}
 
 これがグルーヴ方程式です。これは音楽の音符の長さ（パルス）を模式的に数式化したものです。あくまでも感覚的にわかりやすく理解するための模式で数学的な厳密さはありません。
@@ -600,9 +600,9 @@ body.quarto-dark .rdo9pog-table-scroll {
 <tr>
   <th scope="row">原則５</th>
   <th scope="row">リズム底数</th>
-  <td class="rdo9pog-valign">base = 2リズム <span class="formula">(2<sup>−n</sup>リズム)</span><br>base = 3リズム <span class="formula">(3<sup>−n</sup>リズム)</span></td>
+  <td class="rdo9pog-valign"><span class="formula">2<sup>−n</sup>リズム</span><br><span class="formula">3<sup>−n</sup>リズム</span></td>
   <td class="rdo9pog-valign"><span class="formula">base<sup>0</sup> = 1リズム</span></td>
-  <td class="rdo9pog-valign">base = 2リズム <span class="formula">(2<sup>+n</sup>リズム)</span><br>base = 3リズム <span class="formula">(3<sup>+n</sup>リズム)</span></td>
+  <td class="rdo9pog-valign"><span class="formula">2<sup>+n</sup>リズム</span><br><span class="formula">3<sup>+n</sup>リズム</span></td>
   <td>CV／CVCリズム</td>
   <td>CV無区別</td>
   <td>CV／CVCリズム</td>
@@ -622,7 +622,7 @@ body.quarto-dark .rdo9pog-table-scroll {
 <tr>
   <th scope="row">原則７</th>
   <th scope="row">リズム基軸</th>
-  <td>弱拍基軸（レイドバック・プッシュ）</td>
+  <td>弱拍基軸（尻重心）</td>
   <td>無基軸</td>
   <td>強拍基軸（頭重心）</td>
   <td>ストレス〜シラブル等時性</td>
@@ -886,9 +886,9 @@ $$ R = 7^{0} = 1 $$
 $$
 R
 =
-\prod_{i=0}^{N}b_i^{e_i}
+\prod_{i=0}^{L}\mathrm{base}_i^{n_i}
 =
-(b_0^{e_0})(b_1^{e_1})\cdots(b_N^{e_N})
+(\mathrm{base}_0^{n_0})(\mathrm{base}_1^{n_1})\cdots(\mathrm{base}_L^{n_L})
 $$ {#eq-rhythmic-structure}
 
 グルーヴ方程式の各項の指数部分がリズム指数極性を表すことを見ました。
