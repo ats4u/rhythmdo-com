@@ -207,7 +207,7 @@ Pセンターよりも後ろに情報の中心があると感じる傾向をポ�
 
 ##### 数量的なグルーヴ原則の表現法
 
-時間状態を次のように定義する：
+グルーヴ原則を次のように数量的に表現する：
 
 $$
 T=(L,D,P)
@@ -260,16 +260,14 @@ $$
 - $S_i$ は細分レベル $i$ を表す。
 - $\mathrm{MD}_i$ は微分割レベル $i$ を表す。
 
-同一の構造型が繰り返し現れる場合、次のような識別子を付与する：
-
-$$
-H^{(1)},H^{(2)},\ldots
-$$
+構造型と構造上の出現要素は区別される。$H$ のような記号は型を表し、
+実際の出現要素はグルーヴ木のノードとして表現される。たとえば、2つの
+ノード $h_1$ と $h_2$ が同じ構造型 $H$ を持つ場合がある。
 
 ::: {.callout-note title="微分割の定義"}
 微分割とは、適用される記譜体系において、その時間的位置を通常の音価で表現できない、形式的に指定された分割である。
 
-マイクロディヴィジョンはグルーヴ階層に属する。外部的に与えられる情報ではない。
+マイクロディヴィジョンはグルーヴ階層に属する。外部的なタイミング補正ではない。
 :::
 
 ##### 型付き演算
@@ -308,7 +306,7 @@ c=
 &
 \chi=\mathrm{postcentric},
 \\[4pt]
-c\in\mathbb{R}_{\geq 0},
+c\in\mathbb{R}_{>0},
 &
 \chi=\mathrm{precentric}.
 \end{cases}
@@ -370,9 +368,11 @@ N'
 \frac{\lambda}{\delta}N.
 $$
 
+曖昧さが生じない場合、$\operatorname{Act}(O,T)$ を $O(T)$ と表記する。
+
 ##### 省略形の型付き演算
 
-中心性は、次の定義によって $c$ から推定できる：
+中心性は、次の定義によって $c$ から一意に推定できる：
 
 $$
 \chi(c)=
@@ -397,6 +397,8 @@ O_{K;\lambda,\delta,\chi(c),c}.
 }
 $$
 
+省略形の型付き演算全体の集合を $\widetilde{\mathcal O}$ とする。
+
 たとえば：
 
 $$
@@ -417,145 +419,200 @@ $$
 \widetilde O_{\text{構造型};\text{数値パラメータ}}.
 $$
 
+##### グルーヴ構造
+
+次のようにおく：
+
+$$
+\mathcal{T}
+=
+(V,E,a,\prec,\kappa)
+$$
+
+これは有限で、根を持ち、順序付けられたグルーヴ木である。ここで：
+
+- $V$ は構造上の出現要素の集合である。
+- $E$ は親子関係にある構造関係の集合である。
+- $a$ はアンカーとなる出現要素であり、根である。
+- $\prec$ は比較可能な出現要素間の時間的または構造的順序を記録する。
+- $\kappa:V\to\mathcal K$ は各出現要素に1つの構造型を割り当てる。
+
+したがって、同じ型を共有する複数の出現要素は、互いに異なる同一性を
+保持する。たとえば：
+
+$$
+h_1\neq h_2,
+\qquad
+\kappa(h_1)=\kappa(h_2)=H.
+$$
+
+アンカー以外の各出現要素には、省略形の型付き演算を1つだけ割り当てる：
+
+$$
+\Omega
+:
+V\setminus\{a\}
+\longrightarrow
+\widetilde{\mathcal O},
+$$
+
+$$
+\boxed{
+\Omega(v)
+=
+\widetilde O_{\kappa(v);\lambda_v,\delta_v,c_v}.
+}
+$$
+
+正規化されたアンカー状態は通常、次のとおりである：
+
+$$
+T_a=(1,1,0).
+$$
+
+値 $1$ は慣習的な基準持続時間であり、アンカーが四分音符であることを
+必須とはしない。
+
 ##### 事前定義された演算順序
 
-演算スキーマを次のように定義する：
+演算順序は、グルーヴ木から選択された根付き経路によって決まる。次の
+ようにおく：
 
 $$
-\Sigma
+\gamma
 =
-(K_1,K_2,\ldots,K_n).
+(v_0=a,v_1,\ldots,v_k),
 $$
 
-演算順序の関係は次のとおりである：
+ここで、すべての $i=1,\ldots,k$ について $(v_{i-1},v_i)\in E$ である。
+
+この経路の構造スキーマは次のとおりである：
 
 $$
-K_i
+\boxed{
+\Sigma_\gamma
+=
+(\kappa(v_1),\ldots,\kappa(v_k)).
+}
+$$
+
+演算順序はこの経路から継承される：
+
+$$
+\Omega(v_i)
 \prec_{\mathrm{op}}
-K_j
+\Omega(v_j)
 \quad\Longleftrightarrow\quad
 i<j.
 $$
 
-したがって、演算は左から右へ記述され、適用される。
-
-粗い階層から細かい階層へ進むデフォルトのスキーマは次のとおりである：
-
-$$
-\Sigma_{\mathrm{default}}
-=
-(
-H_h,\ldots,H_1,\,
-M,\,
-B,\,
-S_1,\ldots,S_n,\,
-\mathrm{MD}_1,\ldots,\mathrm{MD}_m
-).
-$$
-
-特定のグルーヴでは、反復する構造要素、連続する構造要素、または代替的な構造要素を表現する必要がある場合、異なるスキーマを定義できる。
+したがって、演算は左から右へ記述され、適用される。グルーヴ木から
+独立した普遍的な「粗い階層から細かい階層へ」の演算列は存在しない。
 
 ##### 型付き演算列
 
-次のスキーマに対して：
-
-$$
-\Sigma=(K_1,\ldots,K_n),
-$$
-
-型付き演算列を次のように定義する：
+型付き演算列は、選択された経路上の正準的なノード割り当てから導出される：
 
 $$
 \boxed{
-\Omega_\Sigma
+\Omega_\gamma
 =
 \left(
-\widetilde O_{K_1;\lambda_1,\delta_1,c_1},
+\Omega(v_1),
 \ldots,
-\widetilde O_{K_n;\lambda_n,\delta_n,c_n}
+\Omega(v_k)
 \right).
 }
 $$
 
 最も左にある演算が最初に適用される。
 
-$T_0$ から開始し、次のように定義する：
+$T_{v_0}=T_a$ から開始し、次のように定義する：
 
 $$
-T_i
+T_{v_i}
 =
 \operatorname{Act}
 \left(
-\widetilde O_{K_i;\lambda_i,\delta_i,c_i},
-T_{i-1}
+\Omega(v_i),
+T_{v_{i-1}}
 \right).
 $$
 
 演算列全体の評価は次のとおりである：
 
 $$
-\operatorname{Eval}(\Omega_\Sigma,T_0)
+\operatorname{Eval}(\Omega_\gamma,T_a)
 =
-T_n.
+T_{v_k}.
 $$
 
 標準的な関数合成を使用すると：
 
 $$
-\operatorname{Eval}(\Omega_\Sigma,T_0)
+\operatorname{Eval}(\Omega_\gamma,T_a)
 =
-\widetilde O_n
+\Omega(v_k)
 \circ\cdots\circ
-\widetilde O_2
+\Omega(v_2)
 \circ
-\widetilde O_1(T_0).
+\Omega(v_1)(T_a).
 $$
 
 同じ順序を矢印で示すと次のようになる：
 
 $$
-T_0
-\xrightarrow{\widetilde O_1}
-T_1
-\xrightarrow{\widetilde O_2}
-T_2
-\xrightarrow{\widetilde O_3}
-\cdots
-\xrightarrow{\widetilde O_n}
-T_n.
+T_a
+\xrightarrow{\Omega(v_1)}
+T_{v_1}
+\xrightarrow{\Omega(v_2)}
+T_{v_2}
+\longrightarrow\cdots\longrightarrow
+T_{v_k}.
 $$
+
+異なる経路上の出現要素が、暗黙のうちに1つの演算列へ結合されることは
+ない。選択された各経路が、それぞれのスキーマと演算列を決定する。
 
 ##### 閉形式による評価
 
-次の場合：
+選択された経路 $\gamma$ に対して、次のようにおく：
 
 $$
-T_0=(L_0,D_0,P_0),
+T_a=(L_0,D_0,P_0)
 $$
 
-最終状態は次のとおりである：
+また：
 
 $$
-L_n
+\Omega(v_i)
+=
+\widetilde O_{\kappa(v_i);\lambda_i,\delta_i,c_i}.
+$$
+
+経路の最終状態は次のとおりである：
+
+$$
+L_k
 =
 L_0
-\prod_{i=1}^{n}\lambda_i,
+\prod_{i=1}^{k}\lambda_i,
 $$
 
 $$
-D_n
+D_k
 =
 D_0
-\prod_{i=1}^{n}\delta_i,
+\prod_{i=1}^{k}\delta_i,
 $$
 
 $$
-P_n
+P_k
 =
 P_0
 +
 D_0
-\sum_{i=1}^{n}
+\sum_{i=1}^{k}
 \left(
 c_i
 \prod_{j=1}^{i}\delta_j
@@ -565,43 +622,43 @@ $$
 したがって：
 
 $$
-r_n
+r_k
 =
 r_0
-\prod_{i=1}^{n}
+\prod_{i=1}^{k}
 \frac{\delta_i}{\lambda_i},
 $$
 
 $$
-N_n
+N_k
 =
 N_0
-\prod_{i=1}^{n}
+\prod_{i=1}^{k}
 \frac{\lambda_i}{\delta_i}.
 $$
 
 ##### 可換性
 
-$L,D$ への射影は可換である：
+任意の状態 $T$ に対して、$L,D$ への射影は可換である：
 
 $$
 \pi_{L,D}
 \left(
-O_2\circ O_1
+(O_2\circ O_1)(T)
 \right)
 =
 \pi_{L,D}
 \left(
-O_1\circ O_2
+(O_1\circ O_2)(T)
 \right).
 $$
 
 完全な変換は必ずしも可換ではない。Pセンターの変位が、その時点の分割持続時間に依存するためである：
 
 $$
-O_2\circ O_1
+(O_2\circ O_1)(T)
 \neq
-O_1\circ O_2
+(O_1\circ O_2)(T)
 $$
 
 これは一般に成立する。
@@ -614,70 +671,9 @@ $$
 
 演算が数値的に可換である場合でも、その構造的順序はグルーヴ記述の一部として保持される。
 
-##### グルーヴ構造
-
-次のようにおく：
-
-$$
-\mathcal{T}
-=
-(V,E,a,\prec)
-$$
-
-これは有限で、根を持ち、順序付けられたグルーヴ木である。ここで：
-
-- $V$ は時間要素の集合である。
-- $E$ は構造関係の集合である。
-- $a$ はアンカー要素である。
-- $\prec$ は時間的および構造的順序を記録する。
-
-アンカー以外の各ノード $v$ には、型付き演算が割り当てられる：
-
-$$
-\Omega
-=
-\left(
-\widetilde O_v
-\right)_{v\in V\setminus\{a\}}.
-$$
-
-各型付き演算には構造型が含まれているため、演算から構造型を復元できる：
-
-$$
-\operatorname{kind}(v)
-=
-K(\widetilde O_v).
-$$
-
-正規化されたアンカー状態は通常、次のとおりである：
-
-$$
-T_a=(1,1,0).
-$$
-
-次の経路に対して：
-
-$$
-\operatorname{path}(a,v)
-=
-(v_0=a,v_1,\ldots,v_k=v),
-$$
-
-$v$ の状態は次のとおりである：
-
-$$
-T_v
-=
-\widetilde O_{v_k}
-\circ\cdots\circ
-\widetilde O_{v_2}
-\circ
-\widetilde O_{v_1}(T_a).
-$$
-
 ##### 境界での振る舞い
 
-分割を持つ各要素には、次の境界規則を設定できる：
+分割を持つ各出現要素には、次の境界規則を設定できる：
 
 $$
 \beta
@@ -709,13 +705,13 @@ $$
 $$
 N\in\mathbb{N}
 \quad\Rightarrow\quad
-\text{単一の親要素内で閉じる},
+\text{単一の親出現要素内で閉じる},
 $$
 
 $$
 N\in\mathbb{Q}_{>0}
 \quad\Rightarrow\quad
-\text{複数の要素にまたがって有限回で閉じる},
+\text{複数の出現要素にまたがって有限回で閉じる},
 $$
 
 $$
@@ -729,15 +725,16 @@ $$
 
 正規化された値 $1$ は、抽象的な基準持続時間である。
 
-$q>0$ を、その具体的な持続時間として指定する。次のように定義する：
+$\tau>0$ を、その具体的な持続時間として指定する。次のように定義する：
 
 $$
-R_q(L,D,P)
+R_\tau(L,D,P)
 =
-(qL,qD,qP).
+(\tau L,\tau D,\tau P).
 $$
 
-アンカーが四分音符の拍である場合、$q$ はその四分音符の拍の持続時間である。
+アンカーを慣習的に四分音符の拍として解釈する場合、$\tau$ はその四分音符の
+拍の持続時間である。
 
 ##### グルーヴ方程式の形式的定義
 
@@ -760,21 +757,24 @@ $$
 
 $$
 \boxed{
-\operatorname{GE}_q(\mathfrak{G})
+\operatorname{GE}_\tau(\mathfrak{G})
 =
 \left(
-R_q(T_v)
+R_\tau(T_v)
 \right)_{v\in V}.
 }
 $$
+
+ここで、各 $T_v$ はそのノードに至る一意な根付き経路に沿って評価され、
+境界を越える継続方法は $\beta$ によって決定される。
 
 数値的に同一の実現であっても、構造的に同一のグルーヴであるとは限らない：
 
 $$
 \boxed{
-\operatorname{GE}_q(\mathfrak{G}_1)
+\operatorname{GE}_\tau(\mathfrak{G}_1)
 =
-\operatorname{GE}_q(\mathfrak{G}_2)
+\operatorname{GE}_\tau(\mathfrak{G}_2)
 \nRightarrow
 \mathfrak{G}_1
 =
@@ -788,7 +788,7 @@ $$
 \boxed{
 \text{グルーヴ木}
 +
-\text{型付き演算列}
+\text{型付きノード演算の割り当て}
 +
 \text{境界での振る舞い}
 +
@@ -796,27 +796,74 @@ $$
 }
 $$
 
-##### 例：「Near the Cross」
+##### 例：Near the Cross
 
-スキーマを次のように定義する：
+<div class="center-box"><iframe width="560" height="315" src="https://www.youtube.com/embed/JdhUcR_MbTw?si=UzrCtMxmUPJAqqwj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
+関連するアンカー以外の出現要素を次のようにおく：
 
 $$
-\Sigma_{\text{Near the Cross}}
+V_{\text{Near the Cross}}\setminus\{a\}
 =
-\left(
-H^{(1)},H^{(2)},M,B,S_1
-\right).
+\{h_1,h_2,m,b,s_1\}.
 $$
 
-型付き演算列は次のとおりである：
+それぞれの構造型は次のとおりである：
+
+$$
+\kappa(h_1)=\kappa(h_2)=H,
+\qquad
+\kappa(m)=M,
+\qquad
+\kappa(b)=B,
+\qquad
+\kappa(s_1)=S_1.
+$$
+
+ノード演算の割り当てを次のように定義する：
+
+$$
+\begin{aligned}
+\Omega_{\text{Near the Cross}}(h_1)
+&=
+\widetilde O_{H;4,1,0},
+\\
+\Omega_{\text{Near the Cross}}(h_2)
+&=
+\widetilde O_{H;8,1,0},
+\\
+\Omega_{\text{Near the Cross}}(m)
+&=
+\widetilde O_{M;3,1,2},
+\\
+\Omega_{\text{Near the Cross}}(b)
+&=
+\widetilde O_{B;1,\frac13,2},
+\\
+\Omega_{\text{Near the Cross}}(s_1)
+&=
+\widetilde O_{S_1;1,\frac13,2}.
+\end{aligned}
+$$
+
+これらの割り当てだけでは、5つすべての演算が1つの線形な演算列に属する
+とは限らない。グルーヴ木が次の根付き経路を定める場合：
+
+$$
+\gamma
+=
+(a,h_1,h_2,m,b,s_1),
+$$
+
+この経路から次の演算列が導出される：
 
 $$
 \boxed{
-\Omega_{\text{Near the Cross}}
+\Omega_\gamma
 =
 \left(
-\widetilde O_{H^{(1)};4,1,0},\,
-\widetilde O_{H^{(2)};8,1,0},\,
+\widetilde O_{H;4,1,0},\,
+\widetilde O_{H;8,1,0},\,
 \widetilde O_{M;3,1,2},\,
 \widetilde O_{B;1,\frac13,2},\,
 \widetilde O_{S_1;1,\frac13,2}
@@ -824,16 +871,17 @@ $$
 }
 $$
 
-Moses Tyson Jr.による演奏については、この演算列に次のラベルを付けることができる：
+$h_1$ と $h_2$ が連続する兄弟ノードである場合、その順序は
+$h_1\prec h_2$ または $h_2\prec h_1$ として記録される。両者が代替関係に
+ある場合、$\prec$ の下では比較不能である。いずれの場合も、両者は別々の
+根付き経路上にあり、暗黙のうちに積として結合されることはない。経路から
+導出された演算列は、選択された経路の評価順序だけを記録する。
 
-$$
-\Omega_{\text{Near the Cross}}^{\text{Moses Tyson Jr.}}.
-$$
-
-演算列は、事前定義された評価順序を指定する。一方、グルーヴ木 $\mathcal{T}$ は、2つのハイパーメジャーが入れ子になっているのか、連続しているのか、または異なる枝に配置されているのかを別途指定する。
 
 
 #### Groove Equation
+
+グルーヴ方程式の英語での形式的な定義は次の通りです。
 
 The formal definition of the Groove Equation is as follows.
 
@@ -1431,6 +1479,8 @@ $$
 
 ##### Example: “Near the Cross”
 
+<div class="center-box"><iframe width="560" height="315" src="https://www.youtube.com/embed/JdhUcR_MbTw?si=UzrCtMxmUPJAqqwj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
 Let the relevant non-anchor occurrences be:
 
 $$
@@ -1508,20 +1558,12 @@ incomparable under $\prec$. In either case, they occur on separate rooted paths
 and are not multiplied together by default. The path-derived word records only
 the evaluation order of its selected path.
 
-For the Moses Tyson Jr. performance, the assignment may be labeled:
-
-$$
-\Omega_{\text{Near the Cross}}^{\text{Moses Tyson Jr.}}.
-$$
-
-
 
 ### グルーヴ九大原則一覧表
 
 音楽がグルーヴする条件を{{<meta var.RHYTHMOCHRONOLOGY.ja>}}によって分析し９つの原則としてまとめたものが{{<meta var.PRINCIPLES_OF_GROOVE.ja>}} です。
 
 {{<meta var.PRINCIPLES_OF_GROOVE.ja>}}は、 **九原則** と **二軸** で構成されます。まず１軸目として、九原則のそれぞれの原則にポストセントリックとプレセントリックの二極を示す**{{<meta var.P_CENTER.ja>}}軸**が存在します。 そしてこれらに更に２軸目として『音楽』『言語学』それぞれでどう考えるかを示す **{{<meta var.PHONORHYTHMATOLOGY.ja>}}軸** が存在します。
-
 
 
 <style>
