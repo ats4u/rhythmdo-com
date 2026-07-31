@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>グルーヴ四原則Four Principles of Grooveとは – リズム道＝グルーヴを語学で究める音楽道</title>
+<title>グルーヴ九大原則The Nine Principles of Grooveとは – リズム道＝グルーヴを語学で究める音楽道</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -43,9 +43,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-46a0b698c330450df7e8a9fb588b98d6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../../site_libs/bootstrap/bootstrap-dark-384e47d9d06896f3c6ee7972c9fbe18e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../../site_libs/bootstrap/bootstrap-46a0b698c330450df7e8a9fb588b98d6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-abc3ad94c4807a56e136e24fcd1ed12e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark-d25e46cc3677fb3168df5327a6bd8c0c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../../site_libs/bootstrap/bootstrap-abc3ad94c4807a56e136e24fcd1ed12e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -90,11 +90,40 @@ ul.task-list li input[type="checkbox"] {
     enable_page_level_ads: true
   });
 </script>
-<meta name="mdate" content="2026-06-22T07:14:54Z">
-<meta property="article:modified_time" content="2026-06-22T07:14:54Z">
+<meta name="mdate" content="2026-07-31T21:18:11Z">
+<meta property="article:modified_time" content="2026-07-31T21:18:11Z">
 <meta name="cdate" content="2025-06-08">
 <meta property="article:published_time" content="2025-06-08">
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../../assets/rhythmdo-theme-fonts.css">
 <link rel="stylesheet" href="../../../assets/rhythmdo-theme-branding.css">
@@ -108,15 +137,15 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../../assets/rhythmdo-lilypond.css">
 <link rel="stylesheet" href="../../../assets/rhythmdo-theme-dark-mode.css">
 <!-- rhythmpress social cards begin -->
-<meta property="og:title" content="グルーヴ四原則Four Principles of Grooveとは">
-<meta property="og:description" content="この書では全編を通して４つのグルーヴする原則の存在を説明します。この４つの原則とは何でしょうか。まずこのグルーヴ四原則の全体像を見てみます。 グルーヴ四原則Four Principles of Groove グルーヴには四つの対立要素があります。 A 強拍先行 と B 弱拍先行 A 頭合わせ と B 尻合わせ A 強拍基軸 と B 弱拍基軸">
+<meta property="og:title" content="グルーヴ九大原則The Nine Principles of Grooveとは">
+<meta property="og:description" content="オフビートカウント理論で説明される理論の背後には９つのグルーヴ原則が存在します。ここではこの原則をグルーヴ九大原則The Nine Principles of Grooveと呼びます。これは音楽がグルーヴする為の９つの条件としてまとめたものです。ここではこの グルーヴ九大原則The Nine Principles of Groove を順を追って説明します。 まずはこの理解に必要となる用語から御紹介致します。 基本となる考え方 グルーヴ">
 <meta property="og:image" content="https://rhythmdo.com/attachments/social/offbeat-count/the-four-principles-of-groove/ja/index.png">
 <meta property="og:url" content="https://rhythmdo.com/offbeat-count/the-four-principles-of-groove/ja/">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Rhythmdo">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="グルーヴ四原則Four Principles of Grooveとは">
-<meta name="twitter:description" content="この書では全編を通して４つのグルーヴする原則の存在を説明します。この４つの原則とは何でしょうか。まずこのグルーヴ四原則の全体像を見てみます。 グルーヴ四原則Four Principles of Groove グルーヴには四つの対立要素があります。 A 強拍先行 と B 弱拍先行 A 頭合わせ と B 尻合わせ A 強拍基軸 と B 弱拍基軸">
+<meta name="twitter:title" content="グルーヴ九大原則The Nine Principles of Grooveとは">
+<meta name="twitter:description" content="オフビートカウント理論で説明される理論の背後には９つのグルーヴ原則が存在します。ここではこの原則をグルーヴ九大原則The Nine Principles of Grooveと呼びます。これは音楽がグルーヴする為の９つの条件としてまとめたものです。ここではこの グルーヴ九大原則The Nine Principles of Groove を順を追って説明します。 まずはこの理解に必要となる用語から御紹介致します。 基本となる考え方 グルーヴ">
 <meta name="twitter:image" content="https://rhythmdo.com/attachments/social/offbeat-count/the-four-principles-of-groove/ja/index.png">
 <!-- rhythmpress social cards end -->
 </head>
@@ -323,7 +352,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="サイドバーを切り替える" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../offbeat-count/ja/index.html">オフビートカウント理論</a></li><li class="breadcrumb-item"><a href="../../../offbeat-count/the-four-principles-of-groove/ja/index.html"><ruby><rb>グルーヴ四原則</rb><rt>Four Principles of Groove</rt></ruby>とは</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../offbeat-count/ja/index.html">オフビートカウント理論</a></li><li class="breadcrumb-item"><a href="../../../offbeat-count/the-four-principles-of-groove/ja/index.html"><ruby><rb>グルーヴ九大原則</rb><rt>The Nine Principles of Groove</rt></ruby>とは</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="サイドバーを切り替える" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -358,7 +387,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../offbeat-count/the-four-principles-of-groove/ja/index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><ruby><rb>グルーヴ四原則</rb><rt>Four Principles of Groove</rt></ruby>とは</span></a>
+ <span class="menu-text"><ruby><rb>グルーヴ九大原則</rb><rt>The Nine Principles of Groove</rt></ruby>とは</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -369,8 +398,14 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../../../offbeat-count/何故日本人には縦乗りではない人もいるのか/ja/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">何故日本人には縦乗りではない人もいるのか</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../../../offbeat-count/headians-and-bottomians-of-beat-orientation/ja/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><ruby><rb>強拍が先か弱拍が先か</rb><rt>リズモクロニック・アナリシス</rt></ruby></span></a>
+ <span class="menu-text"><ruby><rb>強拍が先か弱拍が先か</rb><rt>リズモクロノロジー</rt></ruby></span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -529,17 +564,98 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">目次</h2>
    
   <ul>
-  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section"><ruby><rb>グルーヴ四原則</rb><rt>Four Principles of Groove</rt></ruby></a></li>
-  <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1"><ruby><rb>横乗りの四条件</rb><rt>Four Conditions of Groove</rt></ruby></a></li>
-  <li><a href="#section-2" id="toc-section-2" class="nav-link" data-scroll-target="#section-2"><ruby><rb>縦乗りの四条件</rb><rt>Four Conditions of Anti-Groove</rt></ruby></a></li>
-  <li><a href="#強拍先行と弱拍先行" id="toc-強拍先行と弱拍先行" class="nav-link" data-scroll-target="#強拍先行と弱拍先行">強拍先行と弱拍先行</a></li>
-  <li><a href="#頭合わせと尻合わせ" id="toc-頭合わせと尻合わせ" class="nav-link" data-scroll-target="#頭合わせと尻合わせ">頭合わせと尻合わせ</a></li>
-  <li><a href="#強拍基軸と弱拍基軸" id="toc-強拍基軸と弱拍基軸" class="nav-link" data-scroll-target="#強拍基軸と弱拍基軸">強拍基軸と弱拍基軸</a></li>
-  <li><a href="#ⁿリズムと3ⁿリズム" id="toc-ⁿリズムと3ⁿリズム" class="nav-link" data-scroll-target="#ⁿリズムと3ⁿリズム">2⁻ⁿリズムと3⁻ⁿリズム</a></li>
-  <li><a href="#と" id="toc-と" class="nav-link" data-scroll-target="#と"><ruby><rb>頭子音最小化原則</rb><rt>MiOP = Minimum Onset Principle</rt></ruby> と <ruby><rb>頭子音最大化原則</rb><rt>MOP = Maximum Onset Principle</rt></ruby></a></li>
-  <li><a href="#と-1" id="toc-と-1" class="nav-link" data-scroll-target="#と-1">文頭焦点 と 文末焦点</a></li>
-  <li><a href="#と-2" id="toc-と-2" class="nav-link" data-scroll-target="#と-2">モーラ等時性 と 音節核等時性</a></li>
-  <li><a href="#と-3" id="toc-と-3" class="nav-link" data-scroll-target="#と-3">末子音忌避性 と 末子音侵襲性</a></li>
+  <li><a href="#基本となる考え方" id="toc-基本となる考え方" class="nav-link active" data-scroll-target="#基本となる考え方">基本となる考え方</a>
+  <ul>
+  <li><a href="#とは" id="toc-とは" class="nav-link" data-scroll-target="#とは">Pセンターとは</a></li>
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section">リズム認知バイアス</a>
+  <ul>
+  <li><a href="#プレセントリックの特徴" id="toc-プレセントリックの特徴" class="nav-link" data-scroll-target="#プレセントリックの特徴">プレセントリックの特徴</a></li>
+  <li><a href="#ポストセントリックの特徴" id="toc-ポストセントリックの特徴" class="nav-link" data-scroll-target="#ポストセントリックの特徴">ポストセントリックの特徴</a></li>
+  <li><a href="#ノーセントリックの特徴" id="toc-ノーセントリックの特徴" class="nav-link" data-scroll-target="#ノーセントリックの特徴">ノーセントリックの特徴</a></li>
+  </ul></li>
+  <li><a href="#とは-1" id="toc-とは-1" class="nav-link" data-scroll-target="#とは-1"><ruby><rb>強拍が先か弱拍が先か</rb><rt>リズモクロノロジー</rt></ruby> とは</a></li>
+  <li><a href="#とは-2" id="toc-とは-2" class="nav-link" data-scroll-target="#とは-2"><ruby>音韻学的音楽分析<rt>フォノリズマトロジー</rt></ruby> とは</a></li>
+  <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1">グルーヴ方程式</a>
+  <ul>
+  <li><a href="#数量的なグルーヴ原則の表現法" id="toc-数量的なグルーヴ原則の表現法" class="nav-link" data-scroll-target="#数量的なグルーヴ原則の表現法">数量的なグルーヴ原則の表現法</a></li>
+  <li><a href="#構造型" id="toc-構造型" class="nav-link" data-scroll-target="#構造型">構造型</a></li>
+  <li><a href="#型付き演算" id="toc-型付き演算" class="nav-link" data-scroll-target="#型付き演算">型付き演算</a></li>
+  <li><a href="#省略形の型付き演算" id="toc-省略形の型付き演算" class="nav-link" data-scroll-target="#省略形の型付き演算">省略形の型付き演算</a></li>
+  <li><a href="#グルーヴ構造" id="toc-グルーヴ構造" class="nav-link" data-scroll-target="#グルーヴ構造">グルーヴ構造</a></li>
+  <li><a href="#事前定義された演算順序" id="toc-事前定義された演算順序" class="nav-link" data-scroll-target="#事前定義された演算順序">事前定義された演算順序</a></li>
+  <li><a href="#型付き演算列" id="toc-型付き演算列" class="nav-link" data-scroll-target="#型付き演算列">型付き演算列</a></li>
+  <li><a href="#閉形式による評価" id="toc-閉形式による評価" class="nav-link" data-scroll-target="#閉形式による評価">閉形式による評価</a></li>
+  <li><a href="#可換性" id="toc-可換性" class="nav-link" data-scroll-target="#可換性">可換性</a></li>
+  <li><a href="#境界での振る舞い" id="toc-境界での振る舞い" class="nav-link" data-scroll-target="#境界での振る舞い">境界での振る舞い</a></li>
+  <li><a href="#時間的実現" id="toc-時間的実現" class="nav-link" data-scroll-target="#時間的実現">時間的実現</a></li>
+  <li><a href="#グルーヴ方程式の形式的定義" id="toc-グルーヴ方程式の形式的定義" class="nav-link" data-scroll-target="#グルーヴ方程式の形式的定義">グルーヴ方程式の形式的定義</a></li>
+  <li><a href="#例near-the-cross" id="toc-例near-the-cross" class="nav-link" data-scroll-target="#例near-the-cross">例：Near the Cross</a></li>
+  </ul></li>
+  <li><a href="#groove-equation" id="toc-groove-equation" class="nav-link" data-scroll-target="#groove-equation">Groove Equation</a>
+  <ul>
+  <li><a href="#quantitative-representation-of-a-groove-principle" id="toc-quantitative-representation-of-a-groove-principle" class="nav-link" data-scroll-target="#quantitative-representation-of-a-groove-principle">Quantitative Representation of a Groove Principle</a></li>
+  <li><a href="#structural-types" id="toc-structural-types" class="nav-link" data-scroll-target="#structural-types">Structural types</a></li>
+  <li><a href="#typed-operation" id="toc-typed-operation" class="nav-link" data-scroll-target="#typed-operation">Typed operation</a></li>
+  <li><a href="#abbreviated-typed-operation" id="toc-abbreviated-typed-operation" class="nav-link" data-scroll-target="#abbreviated-typed-operation">Abbreviated typed operation</a></li>
+  <li><a href="#groove-structure" id="toc-groove-structure" class="nav-link" data-scroll-target="#groove-structure">Groove structure</a></li>
+  <li><a href="#predefined-operation-order" id="toc-predefined-operation-order" class="nav-link" data-scroll-target="#predefined-operation-order">Predefined operation order</a></li>
+  <li><a href="#typed-operation-word" id="toc-typed-operation-word" class="nav-link" data-scroll-target="#typed-operation-word">Typed operation word</a></li>
+  <li><a href="#closed-form-evaluation" id="toc-closed-form-evaluation" class="nav-link" data-scroll-target="#closed-form-evaluation">Closed-form evaluation</a></li>
+  <li><a href="#commutativity" id="toc-commutativity" class="nav-link" data-scroll-target="#commutativity">Commutativity</a></li>
+  <li><a href="#boundary-behavior" id="toc-boundary-behavior" class="nav-link" data-scroll-target="#boundary-behavior">Boundary behavior</a></li>
+  <li><a href="#temporal-realization" id="toc-temporal-realization" class="nav-link" data-scroll-target="#temporal-realization">Temporal realization</a></li>
+  <li><a href="#formal-definition-of-the-groove-equation" id="toc-formal-definition-of-the-groove-equation" class="nav-link" data-scroll-target="#formal-definition-of-the-groove-equation">Formal definition of the Groove Equation</a></li>
+  <li><a href="#example-near-the-cross" id="toc-example-near-the-cross" class="nav-link" data-scroll-target="#example-near-the-cross">Example: “Near the Cross”</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#グルーヴ九大原則一覧表" id="toc-グルーヴ九大原則一覧表" class="nav-link" data-scroll-target="#グルーヴ九大原則一覧表">グルーヴ九大原則一覧表</a></li>
+  <li><a href="#グルーヴ原則１---リズム指数極性" id="toc-グルーヴ原則１---リズム指数極性" class="nav-link" data-scroll-target="#グルーヴ原則１---リズム指数極性">グルーヴ原則１ - リズム指数極性</a>
+  <ul>
+  <li><a href="#音韻学上の対応" id="toc-音韻学上の対応" class="nav-link" data-scroll-target="#音韻学上の対応">音韻学上の対応</a></li>
+  </ul></li>
+  <li><a href="#グルーヴ原則２---リズム底数" id="toc-グルーヴ原則２---リズム底数" class="nav-link" data-scroll-target="#グルーヴ原則２---リズム底数">グルーヴ原則２ - リズム底数</a>
+  <ul>
+  <li><a href="#ⁿリズムとは" id="toc-ⁿリズムとは" class="nav-link" data-scroll-target="#ⁿリズムとは">3⁻ⁿリズムとは</a></li>
+  <li><a href="#ⁿリズムとは-1" id="toc-ⁿリズムとは-1" class="nav-link" data-scroll-target="#ⁿリズムとは-1">2⁻ⁿリズムとは</a></li>
+  <li><a href="#グルーヴ方程式との関係" id="toc-グルーヴ方程式との関係" class="nav-link" data-scroll-target="#グルーヴ方程式との関係">グルーヴ方程式との関係</a></li>
+  <li><a href="#音韻学上の対応-1" id="toc-音韻学上の対応-1" class="nav-link" data-scroll-target="#音韻学上の対応-1">音韻学上の対応</a></li>
+  </ul></li>
+  <li><a href="#グルーヴ原則３---リズム強弱拍区別" id="toc-グルーヴ原則３---リズム強弱拍区別" class="nav-link" data-scroll-target="#グルーヴ原則３---リズム強弱拍区別">グルーヴ原則３ - リズム強弱拍区別</a>
+  <ul>
+  <li><a href="#音韻学上の対応-2" id="toc-音韻学上の対応-2" class="nav-link" data-scroll-target="#音韻学上の対応-2">音韻学上の対応</a></li>
+  </ul></li>
+  <li><a href="#グルーヴ原則４---リズムハーモニー重視" id="toc-グルーヴ原則４---リズムハーモニー重視" class="nav-link" data-scroll-target="#グルーヴ原則４---リズムハーモニー重視">グルーヴ原則４ - リズムハーモニー重視</a>
+  <ul>
+  <li><a href="#音韻学上の対応-3" id="toc-音韻学上の対応-3" class="nav-link" data-scroll-target="#音韻学上の対応-3">音韻学上の対応</a></li>
+  </ul></li>
+  <li><a href="#グルーヴ原則５---リズム先行拍" id="toc-グルーヴ原則５---リズム先行拍" class="nav-link" data-scroll-target="#グルーヴ原則５---リズム先行拍">グルーヴ原則５ - リズム先行拍</a>
+  <ul>
+  <li><a href="#音韻学上の対応-4" id="toc-音韻学上の対応-4" class="nav-link" data-scroll-target="#音韻学上の対応-4">音韻学上の対応</a>
+  <ul>
+  <li><a href="#と強拍先行" id="toc-と強拍先行" class="nav-link" data-scroll-target="#と強拍先行"><ruby><rb>頭子音最小化原則</rb><rt>MiOP = Minimum Onset Principle</rt></ruby> と強拍先行</a></li>
+  <li><a href="#と弱拍先行" id="toc-と弱拍先行" class="nav-link" data-scroll-target="#と弱拍先行"><ruby><rb>頭子音最大化原則</rb><rt>MOP = Maximum Onset Principle</rt></ruby> と弱拍先行</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#グルーヴ原則６---リズム焦点" id="toc-グルーヴ原則６---リズム焦点" class="nav-link" data-scroll-target="#グルーヴ原則６---リズム焦点">グルーヴ原則６ - リズム焦点</a>
+  <ul>
+  <li><a href="#音韻学上の対応-5" id="toc-音韻学上の対応-5" class="nav-link" data-scroll-target="#音韻学上の対応-5">音韻学上の対応</a></li>
+  <li><a href="#と" id="toc-と" class="nav-link" data-scroll-target="#と">文頭焦点 と 文末焦点</a></li>
+  </ul></li>
+  <li><a href="#グルーヴ原則７---リズム基軸" id="toc-グルーヴ原則７---リズム基軸" class="nav-link" data-scroll-target="#グルーヴ原則７---リズム基軸">グルーヴ原則７ - リズム基軸</a>
+  <ul>
+  <li><a href="#音韻学上の対応-6" id="toc-音韻学上の対応-6" class="nav-link" data-scroll-target="#音韻学上の対応-6">音韻学上の対応</a></li>
+  <li><a href="#と-1" id="toc-と-1" class="nav-link" data-scroll-target="#と-1">モーラ等時性 と 音節核等時性</a></li>
+  </ul></li>
+  <li><a href="#グルーヴ原則８---リズム侵襲性" id="toc-グルーヴ原則８---リズム侵襲性" class="nav-link" data-scroll-target="#グルーヴ原則８---リズム侵襲性">グルーヴ原則８ - リズム侵襲性</a>
+  <ul>
+  <li><a href="#音韻学上の対応-7" id="toc-音韻学上の対応-7" class="nav-link" data-scroll-target="#音韻学上の対応-7">音韻学上の対応</a></li>
+  <li><a href="#と-2" id="toc-と-2" class="nav-link" data-scroll-target="#と-2"><ruby><rb>音韻学</rb><rt>フォノロジー</rt></ruby> 末子音忌避性 と 末子音侵襲性</a></li>
+  </ul></li>
+  <li><a href="#グルーヴ原則９---リズムストレス度" id="toc-グルーヴ原則９---リズムストレス度" class="nav-link" data-scroll-target="#グルーヴ原則９---リズムストレス度">グルーヴ原則９ - リズムストレス度</a>
+  <ul>
+  <li><a href="#音韻学上の対応-8" id="toc-音韻学上の対応-8" class="nav-link" data-scroll-target="#音韻学上の対応-8">音韻学上の対応</a></li>
+  </ul></li>
+  <li><a href="#縦乗り横乗りの条件" id="toc-縦乗り横乗りの条件" class="nav-link" data-scroll-target="#縦乗り横乗りの条件">縦乗り横乗りの条件</a></li>
   </ul>
 </nav>
     </div>
@@ -547,9 +663,9 @@ ul.task-list li input[type="checkbox"] {
 <main class="content column-body" id="quarto-document-content">
 
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../offbeat-count/ja/index.html">オフビートカウント理論</a></li><li class="breadcrumb-item"><a href="../../../offbeat-count/the-four-principles-of-groove/ja/index.html"><ruby><rb>グルーヴ四原則</rb><rt>Four Principles of Groove</rt></ruby>とは</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../offbeat-count/ja/index.html">オフビートカウント理論</a></li><li class="breadcrumb-item"><a href="../../../offbeat-count/the-four-principles-of-groove/ja/index.html"><ruby><rb>グルーヴ九大原則</rb><rt>The Nine Principles of Groove</rt></ruby>とは</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><ruby><rb>グルーヴ四原則</rb><rt>Four Principles of Groove</rt></ruby>とは</h1>
+<h1 class="title"><ruby><rb>グルーヴ九大原則</rb><rt>The Nine Principles of Groove</rt></ruby>とは</h1>
 </div>
 
 
@@ -566,73 +682,1975 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>この書では全編を通して４つのグルーヴする原則の存在を説明します。この４つの原則とは何でしょうか。まずこのグルーヴ四原則の全体像を見てみます。</p>
-<section id="section" class="level3">
-<h3 class="anchored" data-anchor-id="section"><ruby><rb>グルーヴ四原則</rb><rt>Four Principles of Groove</rt></ruby></h3>
-<p>グルーヴには四つの対立要素があります。</p>
-<ol type="1">
-<li>A <strong>強拍先行</strong> と B <strong>弱拍先行</strong></li>
-<li>A <strong>頭合わせ</strong> と B <strong>尻合わせ</strong></li>
-<li>A <strong>強拍基軸</strong> と B <strong>弱拍基軸</strong></li>
-<li>A <strong>2⁻ⁿリズム</strong> と B <strong>3⁻ⁿリズム</strong></li>
-</ol>
-<p>これを<ruby><rb>グルーヴ四要素</rb><rt>Four Axes of Groove</rt></ruby>と呼びます。</p>
-<p>そしてこれらはそれぞれ音韻学上での以下の要素と対応しています。</p>
-<ol type="1">
-<li>A: <strong>頭子音最小化原則</strong> と B: <strong>頭子音最大化原則</strong></li>
-<li>A: <strong>文頭焦点</strong> と B: <strong>文末焦点</strong></li>
-<li>A: <strong>モーラ等時性</strong> と B: <strong>音節核等時性</strong></li>
-<li>A: <strong>末子音忌避性</strong> と B: <strong>末子音侵襲性</strong></li>
-</ol>
-<p>更に、これらの背後に <strong>Pセンター(p-center)</strong> という隠れた概念が存在します。これをPセンターを軸に整理することが出来ます。</p>
-<p>左側Aの</p>
-<ol type="1">
-<li><strong>強拍先行</strong> <strong>頭子音最小化原則</strong></li>
-<li><strong>頭合わせ</strong> <strong>文頭焦点</strong></li>
-<li><strong>強拍基軸</strong> <strong>モーラ等時性</strong></li>
-<li><strong>2⁻ⁿリズム</strong> <strong>末子音忌避性</strong></li>
-</ol>
-<p>を <strong><ruby><rb>ポストセントリック</rb><rt>Postcentric</rt></ruby></strong> 又は <strong>縦乗り</strong>と呼びます。</p>
-<p>縦乗りは、グルーヴと全く正反対の性質を持っています。 縦乗りはグルーヴとは真逆の静寂・安定感・固定・硬質・静止などの情景を表します。 この性質を <ruby><rb>反グルーヴ</rb><rt>Anti-Groove</rt></ruby> と呼びます。</p>
-<p>右側Bの</p>
-<ol type="1">
-<li><strong>弱拍先行</strong> <strong>頭子音最大化原則</strong></li>
-<li><strong>尻合わせ</strong> <strong>文末焦点</strong></li>
-<li><strong>弱拍基軸</strong> <strong>音節核等時性</strong></li>
-<li><strong>3⁻ⁿリズム</strong> <strong>末子音侵襲性</strong></li>
-</ol>
-<p>を<strong><ruby><rb>プレセントリック</rb><rt>Precentric</rt></ruby></strong> 又は <strong>横乗り</strong> と呼びます。</p>
-<p>横乗りは、躍動感・不安定感・柔軟性・動的などの情景を表します。この性質を <ruby><rb>グルーヴ</rb><rt>Groove</rt></ruby> と呼びます。</p>
+<p>オフビートカウント理論で説明される理論の背後には９つのグルーヴ原則が存在します。ここではこの原則を<ruby><rb>グルーヴ九大原則</rb><rt>The Nine Principles of Groove</rt></ruby>と呼びます。これは音楽がグルーヴする為の９つの条件としてまとめたものです。ここではこの <ruby><rb>グルーヴ九大原則</rb><rt>The Nine Principles of Groove</rt></ruby> を順を追って説明します。 まずはこの理解に必要となる用語から御紹介致します。</p>
+<section id="基本となる考え方" class="level3">
+<h3 class="anchored" data-anchor-id="基本となる考え方">基本となる考え方</h3>
+<p><ruby><rb>グルーヴ九大原則</rb><rt>The Nine Principles of Groove</rt></ruby> は４つの基礎となる</p>
+<section id="とは" class="level4">
+<h4 class="anchored" data-anchor-id="とは">Pセンターとは</h4>
+<p>まず最初にリズム分析を行う為の最も重要な概念 <strong>Pセンター</strong> を御紹介致します。 Pセンターとは Perceptual Center（認知中央点）の略です。 人は「ドラムの音がなる」というような瞬間的な出来事が起きたとき、その音のどこかの点に「その出来事の中央点」を感じています。 ドラムの１音がなったとき、その音は一瞬で終わる様に感じますが、実際には一定の長さを持っています。この持続する長さのどこかに人は中央点を感じているのです。</p>
+<p>ドラムの音はしばしば装飾音を伴って演奏されます。するとそれはよりはっきりとした一定の長さを持つことになります。このような時でも、人はその一定時間のどこかの地点に『その音という事象の中心となる点』を感じています。これがPセンターです。</p>
+<p>この『音のどの地点に中央を感じるか』の習性は人によって大きな違いが存在します。それは個人差だけでなく、その人が話す言語やその人が属している文化圏によって大きく異なります。</p>
+<p>このPセンターの置く場所により、認知上の時間のありかたが大きな影響を受けます。このPセンターの置かれた位置が、楽器を演奏したときのリズムの偏りやダンスを行った時の動きの偏りとして、はっきりと他者から観察されます。</p>
+<p>中国・日本・韓国ではPセンターよりも後ろに情報があると考える傾向が強いことが知られています。つまり一連の音符（出来事）があったとき、その先頭にPセンターがあると感じる傾向があります。このことを<strong>ポストセントリック・リズム認知バイアス</strong>と呼びます。</p>
+<p>それ以外の地域…東南アジア・アフリカ・ヨーロッパ・中東では、Pセンターよりも前に情報があると考える傾向が強いことが知られています。つまり一連の音符（出来事）があったとき、その最後尾にPセンターがあると感じる傾向があります。 このことを<strong>プレセントリック・リズム認知バイアス</strong>と呼びます。</p>
+<p>また、世界的に見るととても稀なことですが、そもそもPセンターを基準に考えない繰り返すリズムを基準にしないリズム認知を持つ人達もいます。このことを<strong>ノーセントリック・リズム認知バイアス</strong>と呼びます。</p>
+<p>これらプレセントリック・ポストセントリック・ノーセントリックのリズム認知の違いを<strong>リズム認知バイアス</strong>と呼びます。</p>
+<p>Pセンターは、何故人によってリズム感の違いが生まれるのかを分析し、そしてどのようにしたらこのリズム認識を切り替えることが出来るのかを考察するための大切なツールとなります。</p>
 </section>
-<section id="section-1" class="level3">
-<h3 class="anchored" data-anchor-id="section-1"><ruby><rb>横乗りの四条件</rb><rt>Four Conditions of Groove</rt></ruby></h3>
-<p>音楽にグルーヴを感じる時、</p>
+<section id="section" class="level4">
+<h4 class="anchored" data-anchor-id="section">リズム認知バイアス</h4>
+<p>リズム認識がポストセントリックになるか、プレセントリックになるかには、地域・文化・民族によってはっきりした傾向が見られます。</p>
+<section id="プレセントリックの特徴" class="level5">
+<h5 class="anchored" data-anchor-id="プレセントリックの特徴">プレセントリックの特徴</h5>
+<p>Pセンターよりも前に情報の中心があると感じる傾向をプレセントリックと呼びます。 つまり基準となる出来事（メトロノーム音やドラム音などの基準となる定期的な音）に対して、先駆ける様に音楽を演奏します。 それを聞く人も基準となる出来事の前に情報があることを期待します。</p>
+<p>プレセントリック・リズム認識を持つ人は、基準点（小節頭）に先駆ける様な形で弱起を使ってメロディーを構築することを好む傾向があります。</p>
+<p>地球上のほとんどの地域・文化は、プレセントリックのリズム認識傾向を持っています。英語圏・ロシア語圏・ドイツ語圏・イタリア語圏・フランス語圏・スペイン語圏・ポルトガル語圏・東南アジアのほとんど全ての言語圏、アフリカの殆どの国々の言語圏では、ほとんどの場合でポストセントリックリズム認識が見られます。</p>
+<p>一般的に音楽上のリズム上で起こる『グルーヴ』という現象は、このプレセントリック・リズム認識と深い関わり合いのある現象です。彼らが音楽を演奏すると、多かれ少なかれ特別な訓練を行わずともグルーヴを演奏することが可能になる場合が多いことが知られています。</p>
+</section>
+<section id="ポストセントリックの特徴" class="level5">
+<h5 class="anchored" data-anchor-id="ポストセントリックの特徴">ポストセントリックの特徴</h5>
+<p>Pセンターよりも後ろに情報の中心があると感じる傾向をポストセントリックと呼びます。 基準となる出来事 ───メトロノーム音やドラム音などの基準となる定期的な音 ───がはっきりと聞こえてから、後を追従するように音楽を演奏する傾向があります。 それを聞く人も基準音が聞こえることをまず待って、基準音が聞こえた後に情報があることを期待します。</p>
+<p>ポストセントリック・リズム認識を持つ人は、基準点（小節頭）に追従するように弱起を全く使わずにメロディーを構築することを好む傾向があります。</p>
+<p>ポストセントリックリズム認識を持った文化圏は、全体で見るとごく限られています。中国語圏・クルド語語圏・そして日本語圏です。</p>
+<p>ポストセントリックのリズム認識を持った文化圏の人は、全く何の訓練もない状態で自然にグルーヴの演奏が可能になるということはありません。後天的に何等かの教育を受けた後にグルーヴが演奏出来る様になる傾向があります。</p>
+</section>
+<section id="ノーセントリックの特徴" class="level5">
+<h5 class="anchored" data-anchor-id="ノーセントリックの特徴">ノーセントリックの特徴</h5>
+<p>そして最後にノーセントリックリズム認識があります。基準となる出来事を認識する習慣自体がないことをノーセントリック・リズム認識と呼びます。 ノーセントリック・リズム認識を持つ人は、定期的な基準音 ─── メトロノーム音やドラム音 ───などが全くない状態で演奏することを好みます。</p>
+<!--
+<div class="center-box" style="margin:10px;">
+<div class="ats4u-twitter-video" style="margin-bottom:0px;padding-bottom:0px" >https://x.com/ats4u/status/1652191091792420871?s=20</div>
+<div style="font-weight:1000;text-align:center;margin-top:0px;padding-top:0px">世界的に見ても極めて珍しい無拍子リズムを持つ宮崎の刈干切歌。</div>
+</div>
+<br/>
+-->
+<p>ノーセントリック・リズム認識を持つ人は世界的に見て極めて珍しく日本でしか見られません。また日本でもごく一部の地域に限られます。</p>
+<blockquote class="blockquote">
+<p>「追分様式」のリズムは、雅楽の声楽曲、仏教音楽の声明、能、尺八本曲などにもあり、日本音楽の＜極めて重要なリズムの様式＞になっている。</p>
+</blockquote>
+<p><a href="https://www.pref.nara.lg.jp/documents/16714/report14_06_melody.pdf">『儀礼のメロディーとリズム』 横川 理彦</a></p>
+<p>これは<strong>モーラ拍リズム</strong>と深い関連があることが知られています。しかしその因果関係ははっきりと解明された訳ではありません。 モーラ拍リズムを持つ言語は、アフリカのバントゥ語などいくつか知られています。しかし純粋なモーラ拍リズムの言語は日本語しか存在しないとも言われています。</p>
+</section>
+</section>
+<section id="とは-1" class="level4">
+<h4 class="anchored" data-anchor-id="とは-1"><ruby><rb>強拍が先か弱拍が先か</rb><rt>リズモクロノロジー</rt></ruby> とは</h4>
+<p><ruby><rb>強拍が先か弱拍が先か</rb><rt>リズモクロノロジー</rt></ruby>…とは文字通り、リズムの構造を『弱拍が先に来ている』と認識しているか、あるいは『強拍が先に来ている』と認識しているかを基準にして分析することです。 音符は一般的に、四分音符八分音符など複数の音価が含まれています。つまり、これらのそれぞれの音価に対して多層的に『弱拍が先か』『強拍が先か』を分析していくことが可能です。 この分析手法を <ruby><rb>強拍が先か弱拍が先か</rb><rt>リズモクロノロジー</rt></ruby> と呼びます。</p>
+<p><ruby><rb>強拍が先か弱拍が先か</rb><rt>リズモクロノロジー</rt></ruby> は、Pセンターを基本に置いた上で、 何故人によってリズム感の違いが生まれるのかを分析し、そしてどのようにしたらこのリズム認識を切り替えることが出来るのかを考察するための大切なツールとなります。</p>
+<p>詳細に関しましては <a href="../../../offbeat-count/headians-and-bottomians-of-beat-orientation/ja/"><ruby><rb>強拍が先か弱拍が先か</rb><rt>リズモクロノロジー</rt></ruby></a> で説明致します。</p>
+</section>
+<section id="とは-2" class="level4">
+<h4 class="anchored" data-anchor-id="とは-2"><ruby>音韻学的音楽分析<rt>フォノリズマトロジー</rt></ruby> とは</h4>
+<p><ruby>音韻学的音楽分析<rt>フォノリズマトロジー</rt></ruby> とは『音楽のリズムは、その人が母国語とする言語のリズムの影響を受ける』という仮説を元にして、音楽のリズムを言語の<ruby><rb>音韻学</rb><rt>フォノロジー</rt></ruby>を使って分析することを指します。</p>
+<p>何故音楽のリズムと言語のリズムは関係するのかを考察し、具体的に言語リズムの原則と、音楽リズムの原則を比較することでその背後にあるより大きな原則を探ります。</p>
+<p><ruby><rb>強拍が先か弱拍が先か</rb><rt>リズモクロノロジー</rt></ruby> と <ruby><rb>子音が先か末子音が先か</rb><rt>フォノロジー</rt></ruby> を結びつけて観察する手法、それが <ruby>音韻学的音楽分析<rt>フォノリズマトロジー</rt></ruby> です。</p>
+<p>詳細に関しましては<a href="../../../offbeat-count/phonorhythmatological-theory/ja/"><ruby>音韻学的音楽分析<rt>フォノリズマトロジー</rt></ruby></a>で詳細を見ていきます。</p>
+</section>
+<section id="section-1" class="level4">
+<h4 class="anchored" data-anchor-id="section-1">グルーヴ方程式</h4>
+<p>グルーヴ方程式とは、グルーヴを分析する為に、Pセンターと<ruby><rb>多層弱拍基軸律動</rb><rt>Multi-Layered Weak-Beat-Oriented Rhythm</rt></ruby>を２つを軸にモデル化したものです。 リズム上の拍に対するPセンターの位置とグルーヴの階層及び解像度数を数式によって表す事により、分析の基礎となるモデルを定義します。</p>
+<p>グルーヴ方程式の形式的な定義は次の通りです。</p>
+<section id="数量的なグルーヴ原則の表現法" class="level5">
+<h5 class="anchored" data-anchor-id="数量的なグルーヴ原則の表現法">数量的なグルーヴ原則の表現法</h5>
+<p>グルーヴ原則を次のように数量的に表現する：</p>
+<p><span class="math display">\[
+T=(L,D,P)
+\in
+\mathbb{R}_{&gt;0}
+\times
+\mathbb{R}_{&gt;0}
+\times
+\mathbb{R},
+\]</span></p>
+<p>ここで：</p>
 <ul>
-<li><strong>弱拍先行</strong></li>
-<li><strong>尻合わせ</strong></li>
-<li><strong>弱拍基軸</strong></li>
-<li><strong>3⁻ⁿリズム</strong></li>
+<li><span class="math inline">\(L\)</span> は全体の持続時間である。</li>
+<li><span class="math inline">\(D\)</span> は1分割の定量的な持続時間である。</li>
+<li><span class="math inline">\(P\)</span> はPセンターのオフセットである。</li>
 </ul>
-<p>の４つの条件の全て又は一部を満たしているという法則があります。</p>
-<p>これを<ruby><rb>横乗りの四条件</rb><rt>Four Conditions of Groove</rt></ruby>と呼びます。</p>
-<p>つまり如何にして、弱拍先行、尻合わせ、弱拍基軸、3⁻ⁿリズムの４つを体得するかがグルーヴを身につける為の焦点となります。</p>
+<p>相対的な分割サイズと分割数は、次の派生特性として得られる：</p>
+<p><span class="math display">\[
+r(T)=\frac{D}{L},
+\qquad
+N(T)=\frac{L}{D}=\frac{1}{r(T)}.
+\]</span></p>
+<p><span class="math inline">\(r\)</span> と <span class="math inline">\(N\)</span> のいずれも、定量値 <span class="math inline">\(D\)</span> を置き換えるものではない。</p>
 </section>
-<section id="section-2" class="level3">
-<h3 class="anchored" data-anchor-id="section-2"><ruby><rb>縦乗りの四条件</rb><rt>Four Conditions of Anti-Groove</rt></ruby></h3>
-<p>これらの日本的リズムはしばしば</p>
+<section id="構造型" class="level5">
+<h5 class="anchored" data-anchor-id="構造型">構造型</h5>
+<p>次のようにおく：</p>
+<p><span class="math display">\[
+\mathcal{K}
+=
+\{
+H,\,
+M,\,
+B,\,
+S_1,\ldots,S_n,\,
+\mathrm{MD}_1,\ldots,\mathrm{MD}_m
+\}
+\]</span></p>
+<p>これは構造型の集合であり、それぞれ次を表す：</p>
 <ul>
-<li><strong>強拍先行</strong></li>
-<li><strong>頭合わせ</strong></li>
-<li><strong>強拍基軸</strong></li>
-<li><strong>2⁻ⁿリズム</strong></li>
+<li><span class="math inline">\(H\)</span> は大小節を表す。</li>
+<li><span class="math inline">\(M\)</span> は小節を表す。</li>
+<li><span class="math inline">\(B\)</span> は拍を表す。</li>
+<li><span class="math inline">\(S_i\)</span> は細分レベル <span class="math inline">\(i\)</span> を表す。</li>
+<li><span class="math inline">\(\mathrm{MD}_i\)</span> は微分割レベル <span class="math inline">\(i\)</span> を表す。</li>
 </ul>
-<p>の全てまたは一部を満たしているという法則があります。</p>
-<p>これを<ruby><rb>縦乗りの四条件</rb><rt>Four Conditions of Anti-Groove</rt></ruby> と呼びます。</p>
-<p>何故日本人は縦乗りなのか、その理由に関しましては<a href="../../../offbeat-count/tatenori-theory/ja/">何故日本人は縦乗りなのか</a>で詳細を見ていきます。</p>
-<p>ではどのようにしたら縦乗りを克服することが出来るのでしょうか。それがこの文章の目的でもあります。縦乗りを克服する長い道のり=<strong><ruby>リズム道<rt>Rhythmdo</rt></ruby></strong> について今後長い時間を掛けて見つけ出して行きます。</p>
+<p>構造型と構造上の出現要素は区別される。<span class="math inline">\(H\)</span> のような記号は型を表し、実際の出現要素はグルーヴ木のノードとして表現される。たとえば、2つのノード <span class="math inline">\(h_1\)</span> と <span class="math inline">\(h_2\)</span> が同じ構造型 <span class="math inline">\(H\)</span> を持つ場合がある。</p>
+<div class="callout callout-style-default callout-note callout-titled" title="微分割の定義">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+微分割の定義
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>微分割とは、適用される記譜体系において、その時間的位置を通常の音価で表現できない、形式的に指定された分割である。</p>
+<p>マイクロディヴィジョンはグルーヴ階層に属する。外部的なタイミング補正ではない。</p>
+</div>
+</div>
 </section>
-<section id="強拍先行と弱拍先行" class="level3">
-<h3 class="anchored" data-anchor-id="強拍先行と弱拍先行">強拍先行と弱拍先行</h3>
+<section id="型付き演算" class="level5">
+<h5 class="anchored" data-anchor-id="型付き演算">型付き演算</h5>
+<p>完全な型付き演算を次のように定義する：</p>
+<p><span class="math display">\[
+O_{K;\lambda,\delta,\chi,c},
+\]</span></p>
+<p>ここで：</p>
+<p><span class="math display">\[
+K\in\mathcal{K},
+\qquad
+\lambda&gt;0,
+\qquad
+\delta&gt;0,
+\]</span></p>
+<p><span class="math display">\[
+\chi
+\in
+\{
+\mathrm{precentric},
+\mathrm{postcentric}
+\},
+\]</span></p>
+<p>また：</p>
+<p><span class="math display">\[
+c=
+\begin{cases}
+0,
+&amp;
+\chi=\mathrm{postcentric},
+\\[4pt]
+c\in\mathbb{R}_{&gt;0},
+&amp;
+\chi=\mathrm{precentric}.
+\end{cases}
+\]</span></p>
+<p>各パラメータの意味は次のとおりである：</p>
+<ul>
+<li><span class="math inline">\(K\)</span> は構造型のラベルである。</li>
+<li><span class="math inline">\(\lambda\)</span> は <span class="math inline">\(L\)</span> のスケーリング比である。</li>
+<li><span class="math inline">\(\delta\)</span> は <span class="math inline">\(D\)</span> のスケーリング比である。</li>
+<li><span class="math inline">\(\chi\)</span> は中心性の型である。</li>
+<li><span class="math inline">\(c\)</span> は、新しい分割を単位として測定したPセンターの変位である。</li>
+</ul>
+<p>型付き演算の数値的作用は次のとおりである：</p>
+<p><span class="math display">\[
+\boxed{
+\operatorname{Act}
+\left(
+O_{K;\lambda,\delta,\chi,c},
+(L,D,P)
+\right)
+=
+\left(
+\lambda L,\,
+\delta D,\,
+P+c\delta D
+\right).
+}
+\]</span></p>
+<p>したがって：</p>
+<p><span class="math display">\[
+L'=\lambda L,
+\]</span></p>
+<p><span class="math display">\[
+D'=\delta D,
+\]</span></p>
+<p><span class="math display">\[
+P'=P+cD'.
+\]</span></p>
+<p>構造ラベル <span class="math inline">\(K\)</span> は数値計算を変化させない。これは、演算がグルーヴ階層内のどこに属するかを記録する。</p>
+<p>派生特性は次のように変換される：</p>
+<p><span class="math display">\[
+r'
+=
+\frac{\delta}{\lambda}r,
+\]</span></p>
+<p><span class="math display">\[
+N'
+=
+\frac{\lambda}{\delta}N.
+\]</span></p>
+<p>曖昧さが生じない場合、<span class="math inline">\(\operatorname{Act}(O,T)\)</span> を <span class="math inline">\(O(T)\)</span> と表記する。</p>
+</section>
+<section id="省略形の型付き演算" class="level5">
+<h5 class="anchored" data-anchor-id="省略形の型付き演算">省略形の型付き演算</h5>
+<p>中心性は、次の定義によって <span class="math inline">\(c\)</span> から一意に推定できる：</p>
+<p><span class="math display">\[
+\chi(c)=
+\begin{cases}
+\mathrm{postcentric},
+&amp;
+c=0,
+\\[4pt]
+\mathrm{precentric},
+&amp;
+c&gt;0.
+\end{cases}
+\]</span></p>
+<p>省略形の型付き演算を次のように定義する：</p>
+<p><span class="math display">\[
+\boxed{
+\widetilde O_{K;\lambda,\delta,c}
+=
+O_{K;\lambda,\delta,\chi(c),c}.
+}
+\]</span></p>
+<p>省略形の型付き演算全体の集合を <span class="math inline">\(\widetilde{\mathcal O}\)</span> とする。</p>
+<p>たとえば：</p>
+<p><span class="math display">\[
+\widetilde O_{H;4,1,0}
+\]</span></p>
+<p>は後中心型のハイパーメジャー演算であり、次の演算：</p>
+<p><span class="math display">\[
+\widetilde O_{M;3,1,2}
+\]</span></p>
+<p>は、新しい分割2つ分の変位を持つ前中心型の小節演算である。</p>
+<p>セミコロンは、構造ラベルと数値パラメータを分離する：</p>
+<p><span class="math display">\[
+\widetilde O_{\text{構造型};\text{数値パラメータ}}.
+\]</span></p>
+</section>
+<section id="グルーヴ構造" class="level5">
+<h5 class="anchored" data-anchor-id="グルーヴ構造">グルーヴ構造</h5>
+<p>次のようにおく：</p>
+<p><span class="math display">\[
+\mathcal{T}
+=
+(V,E,a,\prec,\kappa)
+\]</span></p>
+<p>これは有限で、根を持ち、順序付けられたグルーヴ木である。ここで：</p>
+<ul>
+<li><span class="math inline">\(V\)</span> は構造上の出現要素の集合である。</li>
+<li><span class="math inline">\(E\)</span> は親子関係にある構造関係の集合である。</li>
+<li><span class="math inline">\(a\)</span> はアンカーとなる出現要素であり、根である。</li>
+<li><span class="math inline">\(\prec\)</span> は比較可能な出現要素間の時間的または構造的順序を記録する。</li>
+<li><span class="math inline">\(\kappa:V\to\mathcal K\)</span> は各出現要素に1つの構造型を割り当てる。</li>
+</ul>
+<p>したがって、同じ型を共有する複数の出現要素は、互いに異なる同一性を保持する。たとえば：</p>
+<p><span class="math display">\[
+h_1\neq h_2,
+\qquad
+\kappa(h_1)=\kappa(h_2)=H.
+\]</span></p>
+<p>アンカー以外の各出現要素には、省略形の型付き演算を1つだけ割り当てる：</p>
+<p><span class="math display">\[
+\Omega
+:
+V\setminus\{a\}
+\longrightarrow
+\widetilde{\mathcal O},
+\]</span></p>
+<p><span class="math display">\[
+\boxed{
+\Omega(v)
+=
+\widetilde O_{\kappa(v);\lambda_v,\delta_v,c_v}.
+}
+\]</span></p>
+<p>正規化されたアンカー状態は通常、次のとおりである：</p>
+<p><span class="math display">\[
+T_a=(1,1,0).
+\]</span></p>
+<p>値 <span class="math inline">\(1\)</span> は慣習的な基準持続時間であり、アンカーが四分音符であることを必須とはしない。</p>
+</section>
+<section id="事前定義された演算順序" class="level5">
+<h5 class="anchored" data-anchor-id="事前定義された演算順序">事前定義された演算順序</h5>
+<p>演算順序は、グルーヴ木から選択された根付き経路によって決まる。次のようにおく：</p>
+<p><span class="math display">\[
+\gamma
+=
+(v_0=a,v_1,\ldots,v_k),
+\]</span></p>
+<p>ここで、すべての <span class="math inline">\(i=1,\ldots,k\)</span> について <span class="math inline">\((v_{i-1},v_i)\in E\)</span> である。</p>
+<p>この経路の構造スキーマは次のとおりである：</p>
+<p><span class="math display">\[
+\boxed{
+\Sigma_\gamma
+=
+(\kappa(v_1),\ldots,\kappa(v_k)).
+}
+\]</span></p>
+<p>演算順序はこの経路から継承される：</p>
+<p><span class="math display">\[
+\Omega(v_i)
+\prec_{\mathrm{op}}
+\Omega(v_j)
+\quad\Longleftrightarrow\quad
+i&lt;j.
+\]</span></p>
+<p>したがって、演算は左から右へ記述され、適用される。グルーヴ木から独立した普遍的な「粗い階層から細かい階層へ」の演算列は存在しない。</p>
+</section>
+<section id="型付き演算列" class="level5">
+<h5 class="anchored" data-anchor-id="型付き演算列">型付き演算列</h5>
+<p>型付き演算列は、選択された経路上の正準的なノード割り当てから導出される：</p>
+<p><span class="math display">\[
+\boxed{
+\Omega_\gamma
+=
+\left(
+\Omega(v_1),
+\ldots,
+\Omega(v_k)
+\right).
+}
+\]</span></p>
+<p>最も左にある演算が最初に適用される。</p>
+<p><span class="math inline">\(T_{v_0}=T_a\)</span> から開始し、次のように定義する：</p>
+<p><span class="math display">\[
+T_{v_i}
+=
+\operatorname{Act}
+\left(
+\Omega(v_i),
+T_{v_{i-1}}
+\right).
+\]</span></p>
+<p>演算列全体の評価は次のとおりである：</p>
+<p><span class="math display">\[
+\operatorname{Eval}(\Omega_\gamma,T_a)
+=
+T_{v_k}.
+\]</span></p>
+<p>標準的な関数合成を使用すると：</p>
+<p><span class="math display">\[
+\operatorname{Eval}(\Omega_\gamma,T_a)
+=
+\Omega(v_k)
+\circ\cdots\circ
+\Omega(v_2)
+\circ
+\Omega(v_1)(T_a).
+\]</span></p>
+<p>同じ順序を矢印で示すと次のようになる：</p>
+<p><span class="math display">\[
+T_a
+\xrightarrow{\Omega(v_1)}
+T_{v_1}
+\xrightarrow{\Omega(v_2)}
+T_{v_2}
+\longrightarrow\cdots\longrightarrow
+T_{v_k}.
+\]</span></p>
+<p>異なる経路上の出現要素が、暗黙のうちに1つの演算列へ結合されることはない。選択された各経路が、それぞれのスキーマと演算列を決定する。</p>
+</section>
+<section id="閉形式による評価" class="level5">
+<h5 class="anchored" data-anchor-id="閉形式による評価">閉形式による評価</h5>
+<p>選択された経路 <span class="math inline">\(\gamma\)</span> に対して、次のようにおく：</p>
+<p><span class="math display">\[
+T_a=(L_0,D_0,P_0)
+\]</span></p>
+<p>また：</p>
+<p><span class="math display">\[
+\Omega(v_i)
+=
+\widetilde O_{\kappa(v_i);\lambda_i,\delta_i,c_i}.
+\]</span></p>
+<p>経路の最終状態は次のとおりである：</p>
+<p><span class="math display">\[
+L_k
+=
+L_0
+\prod_{i=1}^{k}\lambda_i,
+\]</span></p>
+<p><span class="math display">\[
+D_k
+=
+D_0
+\prod_{i=1}^{k}\delta_i,
+\]</span></p>
+<p><span class="math display">\[
+P_k
+=
+P_0
++
+D_0
+\sum_{i=1}^{k}
+\left(
+c_i
+\prod_{j=1}^{i}\delta_j
+\right).
+\]</span></p>
+<p>したがって：</p>
+<p><span class="math display">\[
+r_k
+=
+r_0
+\prod_{i=1}^{k}
+\frac{\delta_i}{\lambda_i},
+\]</span></p>
+<p><span class="math display">\[
+N_k
+=
+N_0
+\prod_{i=1}^{k}
+\frac{\lambda_i}{\delta_i}.
+\]</span></p>
+</section>
+<section id="可換性" class="level5">
+<h5 class="anchored" data-anchor-id="可換性">可換性</h5>
+<p>任意の状態 <span class="math inline">\(T\)</span> に対して、<span class="math inline">\(L,D\)</span> への射影は可換である：</p>
+<p><span class="math display">\[
+\pi_{L,D}
+\left(
+(O_2\circ O_1)(T)
+\right)
+=
+\pi_{L,D}
+\left(
+(O_1\circ O_2)(T)
+\right).
+\]</span></p>
+<p>完全な変換は必ずしも可換ではない。Pセンターの変位が、その時点の分割持続時間に依存するためである：</p>
+<p><span class="math display">\[
+(O_2\circ O_1)(T)
+\neq
+(O_1\circ O_2)(T)
+\]</span></p>
+<p>これは一般に成立する。</p>
+<p>純粋な後中心型のスケーリング演算は、次の条件により可換である：</p>
+<p><span class="math display">\[
+c_1=c_2=0.
+\]</span></p>
+<p>演算が数値的に可換である場合でも、その構造的順序はグルーヴ記述の一部として保持される。</p>
+</section>
+<section id="境界での振る舞い" class="level5">
+<h5 class="anchored" data-anchor-id="境界での振る舞い">境界での振る舞い</h5>
+<p>分割を持つ各出現要素には、次の境界規則を設定できる：</p>
+<p><span class="math display">\[
+\beta
+:
+V
+\longrightarrow
+\{
+\mathrm{reset},
+\mathrm{continuous}
+\}.
+\]</span></p>
+<p>次の式が既約分数で表されている場合：</p>
+<p><span class="math display">\[
+N=\frac{L}{D}=\frac{p}{q},
+\]</span></p>
+<p>連続する分割は、次の条件で親要素と再び整列する：</p>
+<p><span class="math display">\[
+\boxed{
+qL=pD.
+}
+\]</span></p>
+<p>したがって：</p>
+<p><span class="math display">\[
+N\in\mathbb{N}
+\quad\Rightarrow\quad
+\text{単一の親出現要素内で閉じる},
+\]</span></p>
+<p><span class="math display">\[
+N\in\mathbb{Q}_{&gt;0}
+\quad\Rightarrow\quad
+\text{複数の出現要素にまたがって有限回で閉じる},
+\]</span></p>
+<p><span class="math display">\[
+N\in
+\mathbb{R}_{&gt;0}\setminus\mathbb{Q}
+\quad\Rightarrow\quad
+\text{厳密には閉じない}.
+\]</span></p>
+</section>
+<section id="時間的実現" class="level5">
+<h5 class="anchored" data-anchor-id="時間的実現">時間的実現</h5>
+<p>正規化された値 <span class="math inline">\(1\)</span> は、抽象的な基準持続時間である。</p>
+<p><span class="math inline">\(\tau&gt;0\)</span> を、その具体的な持続時間として指定する。次のように定義する：</p>
+<p><span class="math display">\[
+R_\tau(L,D,P)
+=
+(\tau L,\tau D,\tau P).
+\]</span></p>
+<p>アンカーを慣習的に四分音符の拍として解釈する場合、<span class="math inline">\(\tau\)</span> はその四分音符の拍の持続時間である。</p>
+</section>
+<section id="グルーヴ方程式の形式的定義" class="level5">
+<h5 class="anchored" data-anchor-id="グルーヴ方程式の形式的定義">グルーヴ方程式の形式的定義</h5>
+<p>正規化されたグルーヴ方程式は次のとおりである：</p>
+<p><span class="math display">\[
+\boxed{
+\mathfrak{G}
+=
+\left(
+\mathcal{T},\,
+T_a,\,
+\Omega,\,
+\beta
+\right).
+}
+\]</span></p>
+<p>その数値的実現は次のとおりである：</p>
+<p><span class="math display">\[
+\boxed{
+\operatorname{GE}_\tau(\mathfrak{G})
+=
+\left(
+R_\tau(T_v)
+\right)_{v\in V}.
+}
+\]</span></p>
+<p>ここで、各 <span class="math inline">\(T_v\)</span> はそのノードに至る一意な根付き経路に沿って評価され、境界を越える継続方法は <span class="math inline">\(\beta\)</span> によって決定される。</p>
+<p>数値的に同一の実現であっても、構造的に同一のグルーヴであるとは限らない：</p>
+<p><span class="math display">\[
+\boxed{
+\operatorname{GE}_\tau(\mathfrak{G}_1)
+=
+\operatorname{GE}_\tau(\mathfrak{G}_2)
+\nRightarrow
+\mathfrak{G}_1
+=
+\mathfrak{G}_2.
+}
+\]</span></p>
+<p>したがって、グルーヴ方程式は次の要素から構成される：</p>
+<p><span class="math display">\[
+\boxed{
+\text{グルーヴ木}
++
+\text{型付きノード演算の割り当て}
++
+\text{境界での振る舞い}
++
+\text{数値的実現}.
+}
+\]</span></p>
+</section>
+<section id="例near-the-cross" class="level5">
+<h5 class="anchored" data-anchor-id="例near-the-cross">例：Near the Cross</h5>
+<div class="center-box">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JdhUcR_MbTw?si=UzrCtMxmUPJAqqwj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+</iframe>
+</div>
+<p>関連するアンカー以外の出現要素を次のようにおく：</p>
+<p><span class="math display">\[
+V_{\text{Near the Cross}}\setminus\{a\}
+=
+\{h_1,h_2,m,b,s_1\}.
+\]</span></p>
+<p>それぞれの構造型は次のとおりである：</p>
+<p><span class="math display">\[
+\kappa(h_1)=\kappa(h_2)=H,
+\qquad
+\kappa(m)=M,
+\qquad
+\kappa(b)=B,
+\qquad
+\kappa(s_1)=S_1.
+\]</span></p>
+<p>ノード演算の割り当てを次のように定義する：</p>
+<p><span class="math display">\[
+\begin{aligned}
+\Omega_{\text{Near the Cross}}(h_1)
+&amp;=
+\widetilde O_{H;4,1,0},
+\\
+\Omega_{\text{Near the Cross}}(h_2)
+&amp;=
+\widetilde O_{H;8,1,0},
+\\
+\Omega_{\text{Near the Cross}}(m)
+&amp;=
+\widetilde O_{M;3,1,2},
+\\
+\Omega_{\text{Near the Cross}}(b)
+&amp;=
+\widetilde O_{B;1,\frac13,2},
+\\
+\Omega_{\text{Near the Cross}}(s_1)
+&amp;=
+\widetilde O_{S_1;1,\frac13,2}.
+\end{aligned}
+\]</span></p>
+<p>これらの割り当てだけでは、5つすべての演算が1つの線形な演算列に属するとは限らない。グルーヴ木が次の根付き経路を定める場合：</p>
+<p><span class="math display">\[
+\gamma
+=
+(a,h_1,h_2,m,b,s_1),
+\]</span></p>
+<p>この経路から次の演算列が導出される：</p>
+<p><span class="math display">\[
+\boxed{
+\Omega_\gamma
+=
+\left(
+\widetilde O_{H;4,1,0},\,
+\widetilde O_{H;8,1,0},\,
+\widetilde O_{M;3,1,2},\,
+\widetilde O_{B;1,\frac13,2},\,
+\widetilde O_{S_1;1,\frac13,2}
+\right).
+}
+\]</span></p>
+<p><span class="math inline">\(h_1\)</span> と <span class="math inline">\(h_2\)</span> が連続する兄弟ノードである場合、その順序は<span class="math inline">\(h_1\prec h_2\)</span> または <span class="math inline">\(h_2\prec h_1\)</span> として記録される。両者が代替関係にある場合、<span class="math inline">\(\prec\)</span> の下では比較不能である。いずれの場合も、両者は別々の根付き経路上にあり、暗黙のうちに積として結合されることはない。経路から導出された演算列は、選択された経路の評価順序だけを記録する。</p>
+</section>
+</section>
+<section id="groove-equation" class="level4">
+<h4 class="anchored" data-anchor-id="groove-equation">Groove Equation</h4>
+<p>グルーヴ方程式の英語での形式的な定義は次の通りです。</p>
+<p>The formal definition of the Groove Equation is as follows.</p>
+<section id="quantitative-representation-of-a-groove-principle" class="level5">
+<h5 class="anchored" data-anchor-id="quantitative-representation-of-a-groove-principle">Quantitative Representation of a Groove Principle</h5>
+<p>A Groove Principle is quantitatively represented by:</p>
+<p><span class="math display">\[
+T=(L,D,P)
+\in
+\mathbb{R}_{&gt;0}
+\times
+\mathbb{R}_{&gt;0}
+\times
+\mathbb{R},
+\]</span></p>
+<p>where:</p>
+<ul>
+<li><span class="math inline">\(L\)</span> is the total duration.</li>
+<li><span class="math inline">\(D\)</span> is the quantitative duration of one division.</li>
+<li><span class="math inline">\(P\)</span> is the P-center offset.</li>
+</ul>
+<p>The relative division size and number of divisions are derived properties:</p>
+<p><span class="math display">\[
+r(T)=\frac{D}{L},
+\qquad
+N(T)=\frac{L}{D}=\frac{1}{r(T)}.
+\]</span></p>
+<p>Neither <span class="math inline">\(r\)</span> nor <span class="math inline">\(N\)</span> replaces the quantitative value <span class="math inline">\(D\)</span>.</p>
+</section>
+<section id="structural-types" class="level5">
+<h5 class="anchored" data-anchor-id="structural-types">Structural types</h5>
+<p>Let:</p>
+<p><span class="math display">\[
+\mathcal{K}
+=
+\{
+H,\,
+M,\,
+B,\,
+S_1,\ldots,S_n,\,
+\mathrm{MD}_1,\ldots,\mathrm{MD}_m
+\}
+\]</span></p>
+<p>be the collection of structural types, where:</p>
+<ul>
+<li><span class="math inline">\(H\)</span> represents a hypermeasure.</li>
+<li><span class="math inline">\(M\)</span> represents a measure.</li>
+<li><span class="math inline">\(B\)</span> represents a beat.</li>
+<li><span class="math inline">\(S_i\)</span> represents subdivision level <span class="math inline">\(i\)</span>.</li>
+<li><span class="math inline">\(\mathrm{MD}_i\)</span> represents microdivision level <span class="math inline">\(i\)</span>.</li>
+</ul>
+<p>Structural types and structural occurrences are distinct. A symbol such as <span class="math inline">\(H\)</span>denotes a type; actual occurrences are represented by nodes of the groove tree.For example, two nodes <span class="math inline">\(h_1\)</span> and <span class="math inline">\(h_2\)</span> may both have the structural type <span class="math inline">\(H\)</span>.</p>
+<p>A microdivision is defined as follows:</p>
+<blockquote class="blockquote">
+<p>A microdivision is a formally specified division whose temporal positions cannot be expressed as ordinary note values in the applicable notation system.</p>
+</blockquote>
+<p>A microdivision belongs to the groove hierarchy. It is not an external timing correction.</p>
+</section>
+<section id="typed-operation" class="level5">
+<h5 class="anchored" data-anchor-id="typed-operation">Typed operation</h5>
+<p>A complete typed operation is:</p>
+<p><span class="math display">\[
+O_{K;\lambda,\delta,\chi,c},
+\]</span></p>
+<p>where:</p>
+<p><span class="math display">\[
+K\in\mathcal{K},
+\qquad
+\lambda&gt;0,
+\qquad
+\delta&gt;0,
+\]</span></p>
+<p><span class="math display">\[
+\chi
+\in
+\{
+\mathrm{precentric},
+\mathrm{postcentric}
+\},
+\]</span></p>
+<p>and:</p>
+<p><span class="math display">\[
+c=
+\begin{cases}
+0,
+&amp;
+\chi=\mathrm{postcentric},
+\\[4pt]
+c\in\mathbb{R}_{&gt;0},
+&amp;
+\chi=\mathrm{precentric}.
+\end{cases}
+\]</span></p>
+<p>The parameters have the following meanings:</p>
+<ul>
+<li><span class="math inline">\(K\)</span> is the structural type label.</li>
+<li><span class="math inline">\(\lambda\)</span> is the scaling ratio of <span class="math inline">\(L\)</span>.</li>
+<li><span class="math inline">\(\delta\)</span> is the scaling ratio of <span class="math inline">\(D\)</span>.</li>
+<li><span class="math inline">\(\chi\)</span> is the centricity type.</li>
+<li><span class="math inline">\(c\)</span> is the P-center displacement measured in new divisions.</li>
+</ul>
+<p>The numerical action of the typed operation is:</p>
+<p><span class="math display">\[
+\boxed{
+\operatorname{Act}
+\left(
+O_{K;\lambda,\delta,\chi,c},
+(L,D,P)
+\right)
+=
+\left(
+\lambda L,\,
+\delta D,\,
+P+c\delta D
+\right).
+}
+\]</span></p>
+<p>Therefore:</p>
+<p><span class="math display">\[
+L'=\lambda L,
+\]</span></p>
+<p><span class="math display">\[
+D'=\delta D,
+\]</span></p>
+<p><span class="math display">\[
+P'=P+cD'.
+\]</span></p>
+<p>The structural label <span class="math inline">\(K\)</span> does not change the numerical calculation. It records where the operation belongs in the groove hierarchy.</p>
+<p>The derived properties transform as:</p>
+<p><span class="math display">\[
+r'
+=
+\frac{\delta}{\lambda}r,
+\]</span></p>
+<p><span class="math display">\[
+N'
+=
+\frac{\lambda}{\delta}N.
+\]</span></p>
+<p>When no ambiguity can result, write <span class="math inline">\(O(T)\)</span> for<span class="math inline">\(\operatorname{Act}(O,T)\)</span>.</p>
+</section>
+<section id="abbreviated-typed-operation" class="level5">
+<h5 class="anchored" data-anchor-id="abbreviated-typed-operation">Abbreviated typed operation</h5>
+<p>Centricity may be inferred uniquely from <span class="math inline">\(c\)</span> by defining:</p>
+<p><span class="math display">\[
+\chi(c)=
+\begin{cases}
+\mathrm{postcentric},
+&amp;
+c=0,
+\\[4pt]
+\mathrm{precentric},
+&amp;
+c&gt;0.
+\end{cases}
+\]</span></p>
+<p>The abbreviated typed operation is:</p>
+<p><span class="math display">\[
+\boxed{
+\widetilde O_{K;\lambda,\delta,c}
+=
+O_{K;\lambda,\delta,\chi(c),c}.
+}
+\]</span></p>
+<p>Let <span class="math inline">\(\widetilde{\mathcal O}\)</span> denote the collection of all abbreviated typedoperations.</p>
+<p>For example:</p>
+<p><span class="math display">\[
+\widetilde O_{H;4,1,0}
+\]</span></p>
+<p>is a postcentric hypermeasure operation, while:</p>
+<p><span class="math display">\[
+\widetilde O_{M;3,1,2}
+\]</span></p>
+<p>is a precentric measure operation with a displacement of two new divisions.</p>
+<p>The semicolon separates the structural label from the numerical parameters:</p>
+<p><span class="math display">\[
+\widetilde O_{\text{structural type};\text{numerical parameters}}.
+\]</span></p>
+</section>
+<section id="groove-structure" class="level5">
+<h5 class="anchored" data-anchor-id="groove-structure">Groove structure</h5>
+<p>Let:</p>
+<p><span class="math display">\[
+\mathcal{T}
+=
+(V,E,a,\prec,\kappa)
+\]</span></p>
+<p>be a finite rooted and ordered groove tree, where:</p>
+<ul>
+<li><span class="math inline">\(V\)</span> is the collection of structural occurrences.</li>
+<li><span class="math inline">\(E\)</span> is the collection of parent–child structural relations.</li>
+<li><span class="math inline">\(a\)</span> is the anchor occurrence and root.</li>
+<li><span class="math inline">\(\prec\)</span> records temporal or structural order among comparable occurrences.</li>
+<li><span class="math inline">\(\kappa:V\to\mathcal K\)</span> assigns one structural type to each occurrence.</li>
+</ul>
+<p>Thus, repeated occurrences retain separate identities while sharing a type. Forexample:</p>
+<p><span class="math display">\[
+h_1\neq h_2,
+\qquad
+\kappa(h_1)=\kappa(h_2)=H.
+\]</span></p>
+<p>Each non-anchor occurrence is assigned exactly one abbreviated typed operation:</p>
+<p><span class="math display">\[
+\Omega
+:
+V\setminus\{a\}
+\longrightarrow
+\widetilde{\mathcal O},
+\]</span></p>
+<p><span class="math display">\[
+\boxed{
+\Omega(v)
+=
+\widetilde O_{\kappa(v);\lambda_v,\delta_v,c_v}.
+}
+\]</span></p>
+<p>The normalized anchor state is normally:</p>
+<p><span class="math display">\[
+T_a=(1,1,0).
+\]</span></p>
+<p>The value <span class="math inline">\(1\)</span> is a conventional reference duration; it does not require theanchor to be a quarter note.</p>
+</section>
+<section id="predefined-operation-order" class="level5">
+<h5 class="anchored" data-anchor-id="predefined-operation-order">Predefined operation order</h5>
+<p>Operation order is derived from a selected rooted path in the groove tree. Let:</p>
+<p><span class="math display">\[
+\gamma
+=
+(v_0=a,v_1,\ldots,v_k),
+\]</span></p>
+<p>where <span class="math inline">\((v_{i-1},v_i)\in E\)</span> for every <span class="math inline">\(i=1,\ldots,k\)</span>.</p>
+<p>The structural schema of the path is:</p>
+<p><span class="math display">\[
+\boxed{
+\Sigma_\gamma
+=
+(\kappa(v_1),\ldots,\kappa(v_k)).
+}
+\]</span></p>
+<p>Its operation order is inherited from the path:</p>
+<p><span class="math display">\[
+\Omega(v_i)
+\prec_{\mathrm{op}}
+\Omega(v_j)
+\quad\Longleftrightarrow\quad
+i&lt;j.
+\]</span></p>
+<p>Thus, operations are written and applied from left to right. There is nouniversal coarse-to-fine word independent of the groove tree.</p>
+</section>
+<section id="typed-operation-word" class="level5">
+<h5 class="anchored" data-anchor-id="typed-operation-word">Typed operation word</h5>
+<p>A typed operation word is derived from the canonical node assignment along theselected path:</p>
+<p><span class="math display">\[
+\boxed{
+\Omega_\gamma
+=
+\left(
+\Omega(v_1),
+\ldots,
+\Omega(v_k)
+\right).
+}
+\]</span></p>
+<p>The leftmost operation is applied first.</p>
+<p>Starting with <span class="math inline">\(T_{v_0}=T_a\)</span>, define:</p>
+<p><span class="math display">\[
+T_{v_i}
+=
+\operatorname{Act}
+\left(
+\Omega(v_i),
+T_{v_{i-1}}
+\right).
+\]</span></p>
+<p>The evaluation of the complete operation word is:</p>
+<p><span class="math display">\[
+\operatorname{Eval}(\Omega_\gamma,T_a)
+=
+T_{v_k}.
+\]</span></p>
+<p>Using standard function composition:</p>
+<p><span class="math display">\[
+\operatorname{Eval}(\Omega_\gamma,T_a)
+=
+\Omega(v_k)
+\circ\cdots\circ
+\Omega(v_2)
+\circ
+\Omega(v_1)(T_a).
+\]</span></p>
+<p>The same order can be shown with arrows:</p>
+<p><span class="math display">\[
+T_a
+\xrightarrow{\Omega(v_1)}
+T_{v_1}
+\xrightarrow{\Omega(v_2)}
+T_{v_2}
+\longrightarrow\cdots\longrightarrow
+T_{v_k}.
+\]</span></p>
+<p>Occurrences on different paths are not silently combined into one operationword. Each selected path determines its own schema and operation word.</p>
+</section>
+<section id="closed-form-evaluation" class="level5">
+<h5 class="anchored" data-anchor-id="closed-form-evaluation">Closed-form evaluation</h5>
+<p>For a selected path <span class="math inline">\(\gamma\)</span>, write:</p>
+<p><span class="math display">\[
+T_a=(L_0,D_0,P_0)
+\]</span></p>
+<p>and:</p>
+<p><span class="math display">\[
+\Omega(v_i)
+=
+\widetilde O_{\kappa(v_i);\lambda_i,\delta_i,c_i}.
+\]</span></p>
+<p>The final path state is:</p>
+<p><span class="math display">\[
+L_k
+=
+L_0
+\prod_{i=1}^{k}\lambda_i,
+\]</span></p>
+<p><span class="math display">\[
+D_k
+=
+D_0
+\prod_{i=1}^{k}\delta_i,
+\]</span></p>
+<p><span class="math display">\[
+P_k
+=
+P_0
++
+D_0
+\sum_{i=1}^{k}
+\left(
+c_i
+\prod_{j=1}^{i}\delta_j
+\right).
+\]</span></p>
+<p>Consequently:</p>
+<p><span class="math display">\[
+r_k
+=
+r_0
+\prod_{i=1}^{k}
+\frac{\delta_i}{\lambda_i},
+\]</span></p>
+<p><span class="math display">\[
+N_k
+=
+N_0
+\prod_{i=1}^{k}
+\frac{\lambda_i}{\delta_i}.
+\]</span></p>
+</section>
+<section id="commutativity" class="level5">
+<h5 class="anchored" data-anchor-id="commutativity">Commutativity</h5>
+<p>For any state <span class="math inline">\(T\)</span>, the <span class="math inline">\(L,D\)</span> projection is commutative:</p>
+<p><span class="math display">\[
+\pi_{L,D}
+\left(
+(O_2\circ O_1)(T)
+\right)
+=
+\pi_{L,D}
+\left(
+(O_1\circ O_2)(T)
+\right).
+\]</span></p>
+<p>The complete transformation is not necessarily commutative because P-center displacement depends on the current division duration:</p>
+<p><span class="math display">\[
+(O_2\circ O_1)(T)
+\neq
+(O_1\circ O_2)(T)
+\]</span></p>
+<p>in general.</p>
+<p>Pure postcentric scaling operations commute because:</p>
+<p><span class="math display">\[
+c_1=c_2=0.
+\]</span></p>
+<p>Even when operations commute numerically, their structural order remains part of the groove description.</p>
+</section>
+<section id="boundary-behavior" class="level5">
+<h5 class="anchored" data-anchor-id="boundary-behavior">Boundary behavior</h5>
+<p>Each division-bearing occurrence may have a boundary rule:</p>
+<p><span class="math display">\[
+\beta
+:
+V
+\longrightarrow
+\{
+\mathrm{reset},
+\mathrm{continuous}
+\}.
+\]</span></p>
+<p>If:</p>
+<p><span class="math display">\[
+N=\frac{L}{D}=\frac{p}{q}
+\]</span></p>
+<p>in lowest terms, a continuous division realigns with its parent after:</p>
+<p><span class="math display">\[
+\boxed{
+qL=pD.
+}
+\]</span></p>
+<p>Therefore:</p>
+<p><span class="math display">\[
+N\in\mathbb{N}
+\quad\Rightarrow\quad
+\text{closure within one parent occurrence},
+\]</span></p>
+<p><span class="math display">\[
+N\in\mathbb{Q}_{&gt;0}
+\quad\Rightarrow\quad
+\text{finite cross-occurrence closure},
+\]</span></p>
+<p><span class="math display">\[
+N\in
+\mathbb{R}_{&gt;0}\setminus\mathbb{Q}
+\quad\Rightarrow\quad
+\text{no exact closure}.
+\]</span></p>
+</section>
+<section id="temporal-realization" class="level5">
+<h5 class="anchored" data-anchor-id="temporal-realization">Temporal realization</h5>
+<p>The normalized value <span class="math inline">\(1\)</span> is an abstract reference duration.</p>
+<p>Let <span class="math inline">\(\tau&gt;0\)</span> specify its concrete duration. Define:</p>
+<p><span class="math display">\[
+R_\tau(L,D,P)
+=
+(\tau L,\tau D,\tau P).
+\]</span></p>
+<p>If the anchor is conventionally interpreted as a quarter-note beat, then<span class="math inline">\(\tau\)</span> is the duration of that quarter-note beat.</p>
+</section>
+<section id="formal-definition-of-the-groove-equation" class="level5">
+<h5 class="anchored" data-anchor-id="formal-definition-of-the-groove-equation">Formal definition of the Groove Equation</h5>
+<p>The normalized Groove Equation is:</p>
+<p><span class="math display">\[
+\boxed{
+\mathfrak{G}
+=
+\left(
+\mathcal{T},\,
+T_a,\,
+\Omega,\,
+\beta
+\right).
+}
+\]</span></p>
+<p>Its numerical realization is:</p>
+<p><span class="math display">\[
+\boxed{
+\operatorname{GE}_\tau(\mathfrak{G})
+=
+\left(
+R_\tau(T_v)
+\right)_{v\in V}.
+}
+\]</span></p>
+<p>Here, each <span class="math inline">\(T_v\)</span> is evaluated along its unique rooted path, with continuationacross boundaries governed by <span class="math inline">\(\beta\)</span>.</p>
+<p>Numerically identical realizations do not necessarily imply structurally identical grooves:</p>
+<p><span class="math display">\[
+\boxed{
+\operatorname{GE}_\tau(\mathfrak{G}_1)
+=
+\operatorname{GE}_\tau(\mathfrak{G}_2)
+\nRightarrow
+\mathfrak{G}_1
+=
+\mathfrak{G}_2.
+}
+\]</span></p>
+<p>Thus, the Groove Equation consists of:</p>
+<p><span class="math display">\[
+\boxed{
+\text{groove tree}
++
+\text{typed node-operation assignment}
++
+\text{boundary behavior}
++
+\text{numerical realization}.
+}
+\]</span></p>
+</section>
+<section id="example-near-the-cross" class="level5">
+<h5 class="anchored" data-anchor-id="example-near-the-cross">Example: “Near the Cross”</h5>
+<div class="center-box">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JdhUcR_MbTw?si=UzrCtMxmUPJAqqwj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+</iframe>
+</div>
+<p>Let the relevant non-anchor occurrences be:</p>
+<p><span class="math display">\[
+V_{\text{Near the Cross}}\setminus\{a\}
+=
+\{h_1,h_2,m,b,s_1\}.
+\]</span></p>
+<p>Their structural types are:</p>
+<p><span class="math display">\[
+\kappa(h_1)=\kappa(h_2)=H,
+\qquad
+\kappa(m)=M,
+\qquad
+\kappa(b)=B,
+\qquad
+\kappa(s_1)=S_1.
+\]</span></p>
+<p>Define the node-operation assignment:</p>
+<p><span class="math display">\[
+\begin{aligned}
+\Omega_{\text{Near the Cross}}(h_1)
+&amp;=
+\widetilde O_{H;4,1,0},
+\\
+\Omega_{\text{Near the Cross}}(h_2)
+&amp;=
+\widetilde O_{H;8,1,0},
+\\
+\Omega_{\text{Near the Cross}}(m)
+&amp;=
+\widetilde O_{M;3,1,2},
+\\
+\Omega_{\text{Near the Cross}}(b)
+&amp;=
+\widetilde O_{B;1,\frac13,2},
+\\
+\Omega_{\text{Near the Cross}}(s_1)
+&amp;=
+\widetilde O_{S_1;1,\frac13,2}.
+\end{aligned}
+\]</span></p>
+<p>These assignments alone do not assert that all five operations belong to onelinear word. If the groove tree declares the rooted path:</p>
+<p><span class="math display">\[
+\gamma
+=
+(a,h_1,h_2,m,b,s_1),
+\]</span></p>
+<p>then its derived operation word is:</p>
+<p><span class="math display">\[
+\boxed{
+\Omega_\gamma
+=
+\left(
+\widetilde O_{H;4,1,0},\,
+\widetilde O_{H;8,1,0},\,
+\widetilde O_{M;3,1,2},\,
+\widetilde O_{B;1,\frac13,2},\,
+\widetilde O_{S_1;1,\frac13,2}
+\right).
+}
+\]</span></p>
+<p>If <span class="math inline">\(h_1\)</span> and <span class="math inline">\(h_2\)</span> are consecutive siblings, their order is recorded by<span class="math inline">\(h_1\prec h_2\)</span> or <span class="math inline">\(h_2\prec h_1\)</span>. If they are alternatives, they areincomparable under <span class="math inline">\(\prec\)</span>. In either case, they occur on separate rooted pathsand are not multiplied together by default. The path-derived word records onlythe evaluation order of its selected path.</p>
+</section>
+</section>
+</section>
+<section id="グルーヴ九大原則一覧表" class="level3">
+<h3 class="anchored" data-anchor-id="グルーヴ九大原則一覧表">グルーヴ九大原則一覧表</h3>
+<p>音楽がグルーヴする条件を<ruby><rb>強拍が先か弱拍が先か</rb><rt>リズモクロノロジー</rt></ruby>によって分析し９つの原則としてまとめたものが<ruby><rb>グルーヴ九大原則</rb><rt>The Nine Principles of Groove</rt></ruby> です。</p>
+<p><ruby><rb>グルーヴ九大原則</rb><rt>The Nine Principles of Groove</rt></ruby>は、 <strong>九原則</strong> と <strong>二軸</strong> で構成されます。まず１軸目として、九原則のそれぞれの原則にポストセントリックとプレセントリックの二極を示す<strong>Pセンター軸</strong>が存在します。 そしてこれらに更に２軸目として『音楽』『言語学』それぞれでどう考えるかを示す <strong><ruby>音韻学的音楽分析<rt>フォノリズマトロジー</rt></ruby>軸</strong> が存在します。</p>
+<style>
+/*
+ * 9POG table color system
+ */
+
+.rdo9pog-table-scroll {
+  --rdo9pog-bg: var(--bs-body-bg, #ffffff);
+  --rdo9pog-color: var(--bs-body-color, #343a40);
+  --rdo9pog-border: var(--bs-border-color, #dee2e6);
+
+  --rdo9pog-header-bg: #f1f3f5;
+  --rdo9pog-row-header-bg: #f8f9fa;
+  --rdo9pog-caption-color: #495057;
+  --rdo9pog-group-divider: #6c757d;
+
+  color-scheme: light;
+
+  margin-block: 1.5rem;
+  border: 1px solid var(--rdo9pog-border);
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+
+  color: var(--rdo9pog-color);
+  background-color: var(--rdo9pog-bg);
+}
+
+/*
+ * Rhythmdo dark mode
+ */
+
+body.quarto-dark .rdo9pog-table-scroll {
+  --rdo9pog-bg: var(--bs-body-bg, #000000);
+  --rdo9pog-color: var(--bs-body-color, #eeeeee);
+  --rdo9pog-border: var(--bs-border-color, #1c2128);
+
+  --rdo9pog-header-bg: #11151b;
+  --rdo9pog-row-header-bg: var(--bs-card-bg, #0f1115);
+  --rdo9pog-caption-color: #c9d1d9;
+  --rdo9pog-group-divider: #8b949e;
+
+  color-scheme: dark;
+}
+
+/*
+ * Table structure
+ */
+
+.rdo9pog-table-scroll table {
+  width: max-content;
+  min-width: 100%;
+  border-collapse: collapse;
+
+  color: var(--rdo9pog-color);
+  background-color: var(--rdo9pog-bg);
+
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+
+.rdo9pog-table-scroll caption {
+  caption-side: top;
+  padding-block: 0 0.75rem;
+
+  color: var(--rdo9pog-caption-color);
+  background-color: var(--rdo9pog-bg);
+
+  font-size: 1.05rem;
+  font-weight: 700;
+  text-align: left;
+}
+
+.rdo9pog-table-scroll th,
+.rdo9pog-table-scroll td {
+  padding: 0.65rem 0.75rem;
+  border: 1px solid var(--rdo9pog-border);
+  vertical-align: top;
+}
+
+.rdo9pog-table-scroll thead th {
+  color: var(--rdo9pog-color);
+  background-color: var(--rdo9pog-header-bg);
+
+  text-align: center;
+  vertical-align: middle;
+}
+
+.rdo9pog-table-scroll tbody th {
+  color: var(--rdo9pog-color);
+  background-color: var(--rdo9pog-row-header-bg);
+
+  font-weight: 700;
+  text-align: left;
+}
+
+.rdo9pog-table-scroll tbody td {
+  color: var(--rdo9pog-color);
+  background-color: var(--rdo9pog-bg);
+}
+
+/*
+ * Double boundary between music and phonology
+ */
+
+.rdo9pog-table-scroll .music-columns {
+  border-right: 4px double var(--rdo9pog-group-divider);
+}
+
+/*
+ * Special cells
+ */
+
+.rdo9pog-table-scroll .note-column {
+  min-width: 1.5rem;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.rdo9pog-table-scroll .formula {
+  white-space: nowrap;
+}
+
+/*
+ * Notes
+ */
+
+.rdo9pog-table-notes {
+  max-width: 76rem;
+  color: var(--bs-body-color, inherit);
+  font-size: 0.94rem;
+}
+
+/*
+ * Fullscreen mode
+ */
+
+.rdo9pog-table-scroll:fullscreen {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 1rem;
+  border: 0;
+  overflow: auto;
+
+  color: var(--rdo9pog-color);
+  background-color: var(--rdo9pog-bg);
+}
+
+.rdo9pog-fullscreen-close {
+  display: none;
+}
+
+.rdo9pog-table-scroll:fullscreen .rdo9pog-fullscreen-close {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+
+  display: block;
+  margin: 0 0 0.75rem auto;
+}
+
+/*
+ * Fullscreen controls
+ */
+
+.rdo9pog-fullscreen-open,
+.rdo9pog-fullscreen-close {
+  padding: 0.35rem 0.65rem;
+  border: 1px solid var(--bs-border-color, #dee2e6);
+  border-radius: 0.25rem;
+
+  color: var(--bs-body-color, #343a40);
+  background-color: var(--bs-body-bg, #ffffff);
+
+  font: inherit;
+  cursor: pointer;
+}
+
+.rdo9pog-fullscreen-open:hover,
+.rdo9pog-fullscreen-close:hover {
+  border-color: var(--bs-body-color, #343a40);
+}
+
+
+/*
+ * Narrow outside columns
+ */
+
+.rdo9pog-table-scroll {
+  --rdo9pog-leading-width: 1.25rem;
+  --rdo9pog-note-width: 3rem;
+}
+
+.rdo9pog-table-scroll col.leading-column {
+  width: var(--rdo9pog-leading-width);
+}
+
+.rdo9pog-table-scroll col.note-column-width {
+  width: var(--rdo9pog-note-width);
+}
+
+.rdo9pog-table-scroll tr > :first-child {
+  box-sizing: border-box;
+  width: var(--rdo9pog-leading-width);
+  min-width: var(--rdo9pog-leading-width);
+  max-width: var(--rdo9pog-leading-width);
+  padding-inline: 0.15rem;
+}
+
+.rdo9pog-table-scroll tr > :last-child {
+  box-sizing: border-box;
+  width: var(--rdo9pog-note-width);
+  min-width: var(--rdo9pog-note-width);
+  max-width: var(--rdo9pog-note-width);
+  padding-inline: 0.25rem;
+  white-space: nowrap;
+}
+.rdo9pog-table-scroll th,
+.rdo9pog-table-scroll td {
+  min-width: 10rem;
+}
+
+/*
+ *
+ */
+.rdo9pog-table-scroll col.leading-column {
+  width: 5rem;
+}
+
+.rdo9pog-table-scroll col.principle-column {
+  width: 11rem;
+}
+
+.rdo9pog-table-scroll col.data-column {
+  width: 10rem;
+}
+
+.rdo9pog-table-scroll col.note-column-width {
+  width: 3rem;
+}
+
+.rdo9pog-table-scroll tr > :first-child {
+  padding-inline: 0.15rem;
+}
+
+.rdo9pog-table-scroll tr > :last-child {
+  padding-inline: 0.25rem;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.rdo9pog-table-scroll tr > :first-child {
+  padding-inline: 0.15rem;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.rdo9pog-valign {
+  vertical-align: middle !important;
+}
+</style>
+<div class="rdo9pog-table-scroll">
+<table id="tbl-9eog">
+<caption>
+グルーヴ九大原則（弱拍強拍／子音母音説）
+</caption>
+<colgroup>
+<col class="leading-column">
+</colgroup>
+<colgroup>
+<col class="principle-column">
+</colgroup>
+<colgroup span="3" class="music-columns">
+</colgroup>
+<colgroup span="3" class="phonology-columns">
+</colgroup>
+<colgroup>
+<col class="note-column-width">
+</colgroup>
+<thead>
+<tr>
+<th>
+</th>
+<th>
+<ruby>音韻学的音楽分析<rt>フォノリズマトロジー</rt></ruby>軸
+</th>
+<th colspan="3" scope="colgroup">
+音楽（リスモクロノロジー）
+</th>
+<th colspan="3" scope="colgroup">
+音韻学（フォノロジー）
+</th>
+<th scope="col" class="note-column">
+注
+</th>
+</tr>
+<tr>
+<th scope="row">
+</th>
+<th scope="row">
+Pセンター軸
+</th>
+<th>
+プレセントリック
+</th>
+<th>
+ノーセントリック
+</th>
+<th>
+ポストセントリック
+</th>
+<th>
+プレセントリック
+</th>
+<th>
+ノーセントリック
+</th>
+<th>
+ポストセントリック
+</th>
+<th class="note-column">
+※０
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row">
+</th>
+<th scope="row">
+代表的な言語/文化圏
+</th>
+<td scope="col">
+🌍️🌎️🌏️
+</td>
+<td scope="col">
+🇯🇵
+</td>
+<td scope="col">
+🇨🇳 🇮🇷
+</td>
+<td scope="col">
+🌍️🌎️🌏️
+</td>
+<td scope="col">
+🇯🇵
+</td>
+<td scope="col">
+🇨🇳 🇮🇷
+</td>
+<td scope="col">
+※１
+</td>
+</tr>
+<tr>
+<th scope="row">
+原則１
+</th>
+<th scope="row">
+リズム指数極性
+</th>
+<td>
+分裂拍 <span class="formula">(base<sup>−n</sup>)</span>
+</td>
+<td>
+孤立拍 <span class="formula">(base<sup>0</sup> = 1)</span>
+</td>
+<td>
+増殖拍 <span class="formula">(base<sup>+n</sup>)</span>
+</td>
+<td>
+音節頭／音節核-分離
+</td>
+<td>
+音節頭／音節核-融合
+</td>
+<td>
+音節頭／音節核-分離
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<th scope="row">
+原則２
+</th>
+<th scope="row">
+リズム底数
+</th>
+<td class="rdo9pog-valign">
+<span class="formula">2<sup>−n</sup>リズム</span><br><span class="formula">3<sup>−n</sup>リズム</span>
+</td>
+<td class="rdo9pog-valign">
+<span class="formula">base<sup>0</sup> = 1リズム</span>
+</td>
+<td class="rdo9pog-valign">
+<span class="formula">2<sup>+n</sup>リズム</span><br><span class="formula">3<sup>+n</sup>リズム</span>
+</td>
+<td>
+CV／CVCリズム
+</td>
+<td>
+CV無区別
+</td>
+<td>
+CV／CVCリズム
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<th scope="row">
+原則３
+</th>
+<th scope="row">
+リズム強弱拍区別
+</th>
+<td>
+分割で弱拍を区別する
+</td>
+<td>
+弱拍を区別しない
+</td>
+<td>
+反復で弱拍を区別する
+</td>
+<td>
+子音を区別する
+</td>
+<td>
+子音を区別しない
+</td>
+<td>
+子音を区別する
+</td>
+<td class="note-column">
+※２
+</td>
+</tr>
+<tr>
+<th scope="row">
+原則４
+</th>
+<th scope="row">
+リズムハーモニー重視
+</th>
+<td>
+リズム重視
+</td>
+<td>
+ハーモニー重視
+</td>
+<td>
+リズム重視
+</td>
+<td>
+子音重視（子音が長い）
+</td>
+<td>
+母音重視（母音が長い）
+</td>
+<td>
+子音重視（子音が長い）
+</td>
+<td class="note-column">
+※３
+</td>
+</tr>
+<tr>
+<th scope="row">
+原則５
+</th>
+<th scope="row">
+リズム先行拍
+</th>
+<td>
+弱拍先行
+</td>
+<td>
+拍無定義
+</td>
+<td>
+強拍先行
+</td>
+<td>
+頭子音最大化原則
+</td>
+<td>
+頭子音原則なし
+</td>
+<td>
+頭子音最小化原則
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<th scope="row">
+原則６
+</th>
+<th scope="row">
+リズム焦点
+</th>
+<td>
+尻合わせ
+</td>
+<td>
+無合わせ
+</td>
+<td>
+頭合わせ
+</td>
+<td>
+文末焦点
+</td>
+<td>
+無焦点
+</td>
+<td>
+文頭焦点
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<th scope="row">
+原則７
+</th>
+<th scope="row">
+リズム基軸
+</th>
+<td>
+弱拍基軸（尻重心）
+</td>
+<td>
+無基軸
+</td>
+<td>
+強拍基軸（頭重心）
+</td>
+<td>
+ストレス〜シラブル等時性
+</td>
+<td>
+モーラ等時性
+</td>
+<td>
+シラブル〜ストレス等時性
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<th scope="row">
+原則８
+</th>
+<th scope="row">
+リズム侵襲性
+</th>
+<td>
+呑音がある
+</td>
+<td>
+呑音がない
+</td>
+<td>
+呑音がない
+</td>
+<td>
+末子音侵襲性
+</td>
+<td>
+末子音なし
+</td>
+<td>
+末子音忌避性
+</td>
+<td class="note-column">
+※４
+</td>
+</tr>
+<tr>
+<th scope="row">
+原則９
+</th>
+<th scope="row">
+リズムストレス度
+</th>
+<td>
+可変長〜固定長拍
+</td>
+<td>
+無拍
+</td>
+<td>
+固定長〜可変長拍
+</td>
+<td>
+可変長〜固定長シラブル
+</td>
+<td>
+無拍
+</td>
+<td>
+固定長〜可変長シラブル
+</td>
+<td class="note-column">
+※５
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="rdo9pog-table-notes">
+<p>※０ Pセンターは九大原則全ての背後に存在するメタ要素。</p>
+<p>※１ 代表的な言語/文化圏 ─── Postcentricは主に中国語とクルド語など。Nocentric は記号的な意味で日本と考える。日本は完全にNocentricではなくPost/Preの間を揺れている。世界の大半の国はPrecentric。</p>
+<p>※２ リズム強弱拍区別 ─── リズム指数極性に含まれているが区別があるないを明示的に説明する為に項目が設けられている。</p>
+<p>※３ リズムハーモニー重視 ─── 重視は英語で weighted と表現される</p>
+<p>※４ リズム侵襲性 ─── 呑音とはゴーストノートを指す</p>
+<p>※５ リズムアクセント種別 ─── 1．無拍とは定期的に訪れる拍という概念自体がないことを表す。 2．<strong>固定長</strong>とはアクセントを高低・強度・音色ななど長短とは別な要素で表現することを指す。 3．<strong>可変長</strong> とは長短によって成立するストレス型アクセントを指す。 4. ポストセントリック・プレセントリック共に、０に近付くほど固定長に近づき、０から遠ざかるほど可変長になる。</p>
+</div>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const container =
+    document.querySelector(".rdo9pog-table-scroll");
+
+  if (!container?.requestFullscreen) {
+    return;
+  }
+
+  /*
+   * Prevent duplicate initialization.
+   */
+  if (container.dataset.fullscreenInitialized === "true") {
+    return;
+  }
+
+  container.dataset.fullscreenInitialized = "true";
+
+  const openButton = document.createElement("button");
+  openButton.type = "button";
+  openButton.className = "rdo9pog-fullscreen-open";
+  openButton.textContent = "全画面表示";
+
+  const closeButton = document.createElement("button");
+  closeButton.type = "button";
+  closeButton.className = "rdo9pog-fullscreen-close";
+  closeButton.textContent = "全画面表示を終了";
+
+  container.before(openButton);
+  container.prepend(closeButton);
+
+  openButton.addEventListener("click", async () => {
+    if (!document.fullscreenElement) {
+      await container.requestFullscreen();
+    }
+  });
+
+  closeButton.addEventListener("click", async () => {
+    if (document.fullscreenElement) {
+      await document.exitFullscreen();
+    }
+  });
+});
+</script>
+</section>
+<section id="グルーヴ原則１---リズム指数極性" class="level3">
+<h3 class="anchored" data-anchor-id="グルーヴ原則１---リズム指数極性">グルーヴ原則１ - リズム指数極性</h3>
+<p>リズム指数極性とは、グルーヴ方程式の各項に於いての指数の正負の区分のことをいいます。</p>
+<div id="left-equation-1">
+<style>
+#left-equation-1 mjx-container[display="true"] {
+  text-align: left !important;
+  margin-left:4rem;
+}
+</style>
+<p>マイナスの指数は分数を表します。</p>
+<p><span class="math display">\[ R = 3^{-1} = 1/3 \]</span><span class="math display">\[ R = 3^{-2} = 1/9 \]</span><span class="math display">\[ R = 3^{-3} = 1/27 \]</span></p>
+<p>ここではマイナスの指数は『拍の断ち割り』の細かさを表します。</p>
+<p>プラスの指数は積数を表します。</p>
+<p><span class="math display">\[ R = 3^{1} = 3 \]</span><span class="math display">\[ R = 3^{2} = 3 \cdot 3 = 9 \]</span><span class="math display">\[ R = 3^{3} = 3 \cdot 3 \cdot 3 = 27 \]</span></p>
+<p>ここではプラスの指数は『拍の付け足し』の多さを表します。</p>
+<p>またゼロの指数は底に関わらず１になることがわかります。</p>
+<p><span class="math display">\[ R = 2^{0} = 1 \]</span><span class="math display">\[ R = 3^{0} = 1 \]</span><span class="math display">\[ R = 5^{0} = 1 \]</span><span class="math display">\[ R = 7^{0} = 1 \]</span></p>
+<p>ここで０の指数は『泊が単独で独立して特徴を失う』状態を表しています。</p>
+<p>底はグルーヴの特徴を表しますが(後述)、指数が０に近付くに連れ結果は底に関わらず１に近付き、底の特徴を失うとここでは考えます。</p>
+</div>
+<p>ポストセントリックリズム認知偏りを持っている人は拍を付け足しとして認識する傾向があることが知られています。そしてプレセントリックリズム認識偏りを持つ人は、拍を断ち割りとして認識する傾向があることが知られています。</p>
+<p>この拍に対する認識の傾向を指数のプラスとマイナスの大きさとして数値化したものがこの<strong>リズム指数極性</strong>です。 数値がマイナスなら<strong>プレセントリック</strong>、そして数値がプラスなら<strong>ポストセントリック</strong>であると考えます。 そして数値がゼロに近付くに連れて<strong>ノーセントリック</strong> に近付くと考えます。</p>
+<p>このことを</p>
+<ul>
+<li><a href="../../../offbeat-count/schizorhythmos-and-solirhythmos/ja/"><ruby><rb>分裂拍</rb><rt>シゾリスモス</rt></ruby>と<ruby><rb>孤立拍</rb><rt>ソリリスモス</rt></ruby></a></li>
+<li><a href="../../../offbeat-count/headians-and-bottomians-of-beat-orientation/ja/"><ruby><rb>強拍が先か弱拍が先か</rb><rt>リズモクロノロジー</rt></ruby></a></li>
+</ul>
+<p>で詳しく説明します。</p>
+<section id="音韻学上の対応" class="level4">
+<h4 class="anchored" data-anchor-id="音韻学上の対応">音韻学上の対応</h4>
+<p>このリズム認識の違いは、音韻学上での音節頭(子音)と音節核(母音)の区別によって生まれると考えます。 リズム指数極性がゼロに近付くほど音節頭(子音)と音節核(母音)が不明瞭に、ゼロから離れれば離れるほど、音節頭(子音)と音節核(母音)の区別が明瞭になっていくと考えます。</p>
+</section>
+</section>
+<section id="グルーヴ原則２---リズム底数" class="level3">
+<h3 class="anchored" data-anchor-id="グルーヴ原則２---リズム底数">グルーヴ原則２ - リズム底数</h3>
+<section id="ⁿリズムとは" class="level4">
+<h4 class="anchored" data-anchor-id="ⁿリズムとは">3⁻ⁿリズムとは</h4>
+<p>アフリカや東南アジア・南米にいる強いグルーヴを持つ音楽を演奏する演奏者は、しばしばスイングやシャッフルなどの３連符系のリズムを好んで演奏したりします。彼らはまた、8ビート16ビートなどのリズムを演奏する時でも3を基準にしたポリリズムを多用したりそのリズムの上で３拍子を演奏したりします。更にそのリズムを３小節単位でまとめて段を構成したり、あるいは４小節単位で演奏する時であっても、３段構成の曲を好んだりすることもあります。 彼らはしばしばリズムのずれニュアンスを分析すると実はそのずれの距離が必ず1/3 、1/9 、 1/27 などの 3の負のべき乗の大きさに収束していることが観測されたりします。</p>
+<p>このように3に根ざしているリズムをここでは<strong>3⁻ⁿリズム</strong>と呼びます。 またこの様なリズム感覚の人が持っているリズム認知偏りのことを<strong>3⁻ⁿリズム認知バイアス</strong>と呼びます。───この <strong>3⁻ⁿリズム</strong> はアフリカや南米・東南アジア・ケルト・ゲールの人々の民族音楽を起源としており、現代ポピュラー音楽の根幹を為しています。</p>
+</section>
+<section id="ⁿリズムとは-1" class="level4">
+<h4 class="anchored" data-anchor-id="ⁿリズムとは-1">2⁻ⁿリズムとは</h4>
+<p>ヨーロッパや中国などにいるグルーヴの強くない音楽の演奏者はしばしば、８分音符を跳ねずに均等に演奏することを好みます。彼らはしばしば2拍子・4拍子・8ビート・16ビートなどの2のリズムに根ざしたリズムを演奏することを好みます。 彼らはまた、3拍子や3を基準にしたポリリズムを多様せず、しばしば3拍子を演奏する時でも2で分割したポリリズムを演奏することで4拍子に変換して演奏したりすることを好みます。</p>
+<p>彼らの演奏するリズムのずれニュアンスを分析するとしばしば1/4 、1/8 、 1/16 などの 2の負のべき乗の大きさに収束することが観測されたりします。 このようにリズム感覚が2に根ざしているリズムを <strong>2⁻ⁿリズム</strong>と呼びます。 またこの様なリズム感覚の人が持っているリズム認知偏りのことを<strong>2⁻ⁿリズム認知バイアス</strong>と呼びます。</p>
+</section>
+<section id="グルーヴ方程式との関係" class="level4">
+<h4 class="anchored" data-anchor-id="グルーヴ方程式との関係">グルーヴ方程式との関係</h4>
+<div id="left-equation-1">
+<style>
+#left-equation-1 mjx-container[display="true"] {
+  text-align: left !important;
+  margin-left:4rem;
+}
+</style>
+<p>先に挙げた<strong>グルーヴ方程式</strong> を見てみます。</p>
+<p><span id="eq-rhythmic-structure"><span class="math display">\[
+R
+=
+\prod_{i=0}^{L}\mathrm{base}_i^{n_i}
+=
+(\mathrm{base}_0^{n_0})(\mathrm{base}_1^{n_1})\cdots(\mathrm{base}_L^{n_L})
+\tag{1}\]</span></span></p>
+<p>グルーヴ方程式の各項の指数部分がリズム指数極性を表すことを見ました。</p>
+<p>このときの底が<strong>リズム底数</strong>を表します。</p>
+<p><span class="math display">\[ R = 2^{-2} = 1/4 \]</span><span class="math display">\[ R = 3^{-2} = 1/9 \]</span><span class="math display">\[ R = 5^{-2} = 1/25 \]</span><span class="math display">\[ R = 7^{-2} = 1/49 \]</span></p>
+<p>ここでは底数がそのグルーヴの特徴を表します。</p>
+</div>
+<p>ここでは、リズム底数は理論上ポストセントリック・プレセントリックの影響を受けないと考えます。</p>
+<p>一般的な傾向として、リズム底数が2の人はポストセントリックが多いという傾向があり、リズム底数が3の人はプレセントリックが多いという傾向がありますが、絶対のルールではありません。しばしば後天的に2のプレセントリック・リズムを獲得して演奏する人も多く存在します。 後天的に練習することで3のポストセントリック・リズムを獲得して演奏する人も多く存在します。 これも絶対のルールではありません。このことから、ここでは、リズム底数は、ポストセントリック・プレセントリックとの相関関係はないと考えます。</p>
+<p>但しリズム指数極性が０になるノーセントリック時には、リズム底数の内容にに関わらず必ずリズム長が１になります。このことを示す為、表上は<span>base<sup>0</sup> = 1リズム</span>と表示されています。</p>
+<p><strong>3⁻ⁿリズム</strong> とはどんな音かにつきましては、<a href="../../../offbeat-count/the-four-principles-of-groove/ja/">世界は3⁻ⁿ拍子で出来ている</a> でそれを実際に聴いてみます。</p>
+<p><strong>3⁻ⁿリズム</strong> と <strong>2⁻ⁿリズム</strong> につきましては、<a href="../../../offbeat-count/three-to-n-groove-theory/ja/">3⁻ⁿグルーヴと2⁻ⁿグルーヴ</a> で理論的な詳細を見ていきます</p>
+<p><strong>2⁻ⁿリズム</strong> とはどんな音かにつきましては、<a href="../../../tatenori-theory/ja/">何故日本人は縦乗りなのか</a> でいくつかのサンプルを用意しております。</p>
+</section>
+<section id="音韻学上の対応-1" class="level4">
+<h4 class="anchored" data-anchor-id="音韻学上の対応-1">音韻学上の対応</h4>
+<p>リズム指数極性が０に近付くほど子音母音の区別がなくなると考えます。リズム指数極性が０から遠ざかるにつれ、子音と母音の区別がはっきりしていくと考えます。</p>
+</section>
+</section>
+<section id="グルーヴ原則３---リズム強弱拍区別" class="level3">
+<h3 class="anchored" data-anchor-id="グルーヴ原則３---リズム強弱拍区別">グルーヴ原則３ - リズム強弱拍区別</h3>
+<p>リズム強弱拍区別は、その人が弱拍をどの形式で認識しているかを表します。</p>
+<ul>
+<li>増殖拍 <span class="formula">(base<sup>+n</sup>)</span>
+</li>
+<li>孤立拍 <span class="formula">(base<sup>0</sup> = 1)</span>
+</li>
+<li>分裂拍 <span class="formula">(base<sup>−n</sup>)</span>
+</li>
+</ul>
+<p>既に<strong>リズム指数極性</strong>にて既に説明した通り、ポストセントリック・プレセントリックの違いは拍に対する認識の違いとして表れます。このとき、ポストセントリックリズム認知バイアスの人が<strong>付け足し弱拍認識</strong>で演奏する弱拍を<strong>増殖拍</strong>と呼びます。 そして、プレセントリックリズム認知バイアスの人が<strong>断ち割り弱拍リズム認識</strong> で演奏する弱拍を<strong>分裂拍</strong> と呼びます。また弱拍を持たないノーセントリックリズム認知バイアスの人が演奏する拍を <strong>孤立拍</strong> と呼びます。</p>
+<p>このことを</p>
+<ul>
+<li><a href="../../../offbeat-count/schizorhythmos-and-solirhythmos/ja/"><ruby><rb>分裂拍</rb><rt>シゾリスモス</rt></ruby>と<ruby><rb>孤立拍</rb><rt>ソリリスモス</rt></ruby></a></li>
+<li><a href="../../../offbeat-count/headians-and-bottomians-of-beat-orientation/ja/"><ruby><rb>強拍が先か弱拍が先か</rb><rt>リズモクロノロジー</rt></ruby></a></li>
+</ul>
+<p>で詳しく説明します。</p>
+<section id="音韻学上の対応-2" class="level4">
+<h4 class="anchored" data-anchor-id="音韻学上の対応-2">音韻学上の対応</h4>
+<p>このリズム認識の違いは、音韻学上での音節頭(子音)と音節核(母音)の区別によって生まれると考えます。 リズム指数極性がゼロに近付くほど音節頭(子音)と音節核(母音)が不明瞭に、ゼロから離れれば離れるほど、音節頭(子音)と音節核(母音)の区別が明瞭になっていくと考えます。</p>
+</section>
+</section>
+<section id="グルーヴ原則４---リズムハーモニー重視" class="level3">
+<h3 class="anchored" data-anchor-id="グルーヴ原則４---リズムハーモニー重視">グルーヴ原則４ - リズムハーモニー重視</h3>
+<p>音楽を聴くときに人によって、リズムよりもハーモニーにより強い興味を持つ傾向がある人と、ハーモニーよりもリズムにより強い興味を持つ傾向がある人に分れます。 この傾向を <strong>リズムハーモニー重視</strong> と呼びます。</p>
+<p>日本語話者はしばしば、ハーモニー理論や作曲理論に強い興味を示して理論を駆使して音楽を作りますが、この時ハーモニー構造に大きな複雑性があるのに、リズム構造全く持たない曲を作る傾向がある場合があります。 また逆に、南米や南アフリカのDJシーンでは、全く何のハーモニー構造を持たないリズムだけが音楽の主題になっている音楽がたくさん流行しています。</p>
+<p>この様に音楽の中で<strong>ハーモニー</strong>を重視する傾向を持った人と<strong>リズム</strong>を重視する傾向を持った人との二派にわかれます。この傾向を<strong>リズムハーモニー重視</strong> と呼びます。</p>
+<section id="音韻学上の対応-3" class="level4">
+<h4 class="anchored" data-anchor-id="音韻学上の対応-3">音韻学上の対応</h4>
+<p>ここでは、子音よりも母音の方が重視されるモーラ拍リズム言語の独自の影響ではないかと考えます。リズム指数極性が０に近づき、リズム認知バイアスがノーセントリックに近付くに連れ、母音を重視する傾向が強くなり、リズム指数極性が０から遠ざかれば遠ざかるほど、子音を重視する傾向が強くなるとここでは考えます。</p>
+</section>
+</section>
+<section id="グルーヴ原則５---リズム先行拍" class="level3">
+<h3 class="anchored" data-anchor-id="グルーヴ原則５---リズム先行拍">グルーヴ原則５ - リズム先行拍</h3>
 <p>音符が導音などの形となって２つの組となって表れた時、その組みが常に弱拍からはじまることを<strong>弱拍先行</strong>と呼びます。</p>
 <p>音符が導音などの形となって２つの組となって表れた時、その組みが常に強拍からはじまることを<strong>強拍先行</strong>と呼びます。</p>
 <p>或いは、音符が２つの組みとならず単独で表れた時も <strong>強拍先行</strong> と呼びます。</p>
@@ -641,63 +2659,174 @@ ul.task-list li input[type="checkbox"] {
 <p>強拍先行と弱拍先行は、グルーヴの本質に関わっています。立体的に響くグルーヴの本質はリズムの多次元性にあります。弱拍が先行するリズムでは異なる音価が高さという新しい軸としての役割を持つため多次元構造を持ちます。しかし強拍が先行するリズムでは、全てのリズムが重なり合ってしまうため異なる音価が新しい軸を生み出さず、結果としてリズムが多次元構造を持ちません。多次元構造をもたないリズムは平面的な印象のリズムになります。</p>
 <p>このリズムの多次元性に関しましては、<a href="../../../offbeat-count/multi-layered-weak-beat-precedence/ja/">多層弱拍基軸律動</a>で詳細を見ていきます。</p>
 <p>そして何故 <strong>強拍先行</strong>と<strong>弱拍先行</strong> が起こるのかに関しましては、<a href="../../../offbeat-count/multi-layered-weak-beat-precedence/ja/">多層弱拍基軸律動</a>で詳細を見ていきます。</p>
+<section id="音韻学上の対応-4" class="level4">
+<h4 class="anchored" data-anchor-id="音韻学上の対応-4">音韻学上の対応</h4>
+<section id="と強拍先行" class="level5">
+<h5 class="anchored" data-anchor-id="と強拍先行"><ruby><rb>頭子音最小化原則</rb><rt>MiOP = Minimum Onset Principle</rt></ruby> と強拍先行</h5>
+<p><strong><ruby><rb>頭子音最小化原則</rb><rt>MiOP = Minimum Onset Principle</rt></ruby></strong>とは、末子音や多重子音を一つの頭子音群にまとめず、それぞれを独立したモーラとして後方へ配置する傾向を指します。</p>
+<p>リズム指数極性が減少しリズム認知バイアスがマイナスの方向に大きくなるに連れ <strong><ruby><rb>頭子音最小化原則</rb><rt>MiOP = Minimum Onset Principle</rt></ruby></strong> 傾向が強くなるとここでは考えます。</p>
+<p>ここではこの <strong><ruby><rb>頭子音最小化原則</rb><rt>MiOP = Minimum Onset Principle</rt></ruby></strong> が 先に強拍へ後続要素を追加する <strong>強拍先行</strong> に対応すると考えます。</p>
 </section>
-<section id="頭合わせと尻合わせ" class="level3">
-<h3 class="anchored" data-anchor-id="頭合わせと尻合わせ">頭合わせと尻合わせ</h3>
-<p>メロディーが必ず小節内の特定の拍数目（≒1拍目）から始まり、はっきりした終わりがないリズム構成を<strong>頭合わせ</strong>といいます。</p>
-<p>メロディーが特にはっきりした特定の位置がなく不定期に始まり、必ず小節内の特定の拍数目（≒1拍目）ではっきりと終わるリズム構成を<strong>尻合わせ</strong>といいます。</p>
+<section id="と弱拍先行" class="level5">
+<h5 class="anchored" data-anchor-id="と弱拍先行"><ruby><rb>頭子音最大化原則</rb><rt>MOP = Maximum Onset Principle</rt></ruby> と弱拍先行</h5>
+<p>これに対して<strong><ruby><rb>頭子音最大化原則</rb><rt>MOP = Maximum Onset Principle</rt></ruby></strong>とは、その言語の音節構造が許す範囲で、音節間の子音を次の音節の頭子音としてまとめる原則です。</p>
+<p>リズム指数極性が増加しリズム認知バイアスがプラス方向に大きくなるに連れ <strong><ruby><rb>頭子音最大化原則</rb><rt>MOP = Maximum Onset Principle</rt></ruby></strong> 傾向が強くなるとここでは考えます。</p>
+<p>頭子音が音節核に先行するため、本書では、弱拍が次の強拍を予告する<strong>弱拍先行</strong>に対応すると考えます。</p>
+</section>
+</section>
+</section>
+<section id="グルーヴ原則６---リズム焦点" class="level3">
+<h3 class="anchored" data-anchor-id="グルーヴ原則６---リズム焦点">グルーヴ原則６ - リズム焦点</h3>
+<p>メロディーの開始地点を必ず小節内の特定の泊（≒1拍目）(=Pセンター)に置き、後ろに続く様にメロディーか構成する、はっきりとした終わりがないリズム構成を<strong>頭合わせ</strong>といいます。</p>
+<p>メロディーが特にはっきりした特定位置を持たず不定期に始まり、必ず小節内の特定の拍数目（≒1拍目）(=Pセンター)ではっきりと終わるリズム構成を<strong>尻合わせ</strong>といいます。</p>
 <p>日本人は尻合わせ構成のリズムを耳にすると、それが理解できず混乱するという特徴があります。このことを縦乗りと呼びます。 日本人が何故縦乗りになるのかに関しましては、<a href="../../../tatenori-theory/ja/">何故日本人は縦乗りなのか</a> で詳細を見ていきます。</p>
 <p><strong>頭合わせ</strong>と<strong>尻合わせ</strong> とは何か。そして何故 <strong>頭合わせ</strong>と<strong>尻合わせ</strong>が起こるのかに関しましては、<a href="../../../offbeat-count/multi-layered-weak-beat-precedence/ja/">多層弱拍基軸律動</a>で詳細を見ていきます。</p>
+<section id="音韻学上の対応-5" class="level4">
+<h4 class="anchored" data-anchor-id="音韻学上の対応-5">音韻学上の対応</h4>
+<p>ここでは、音楽上の「リズム焦点」を言語学上の<strong>文末焦点</strong>に関係があると考えます。</p>
 </section>
-<section id="強拍基軸と弱拍基軸" class="level3">
-<h3 class="anchored" data-anchor-id="強拍基軸と弱拍基軸">強拍基軸と弱拍基軸</h3>
+<section id="と" class="level4">
+<h4 class="anchored" data-anchor-id="と">文頭焦点 と 文末焦点</h4>
+<p><strong>文末焦点</strong>とは、文章の最後にその文章の要点を言う英語話者の習慣のことです。英語圏では、わかりやすい英文を作るとき、最も大切な情報を最後に置くことを基礎とするように習います。</p>
+<p>一方で<strong>文頭焦点</strong>とはこのオフビートカウント理論の独自用語で、英語の文末焦点に対して、日本語話者がしばしば最も大切な情報を最初に置く習慣のことです。</p>
+</section>
+</section>
+<section id="グルーヴ原則７---リズム基軸" class="level3">
+<h3 class="anchored" data-anchor-id="グルーヴ原則７---リズム基軸">グルーヴ原則７ - リズム基軸</h3>
 <p>スイングやシャッフルを演奏しようとした時に、<strong>強拍の位置が常に固定</strong>となり、毎回同じ位置に表れ、弱拍の位置を強拍からの相対距離として測りながら移動することでスイング・シャッフルのニュアンスを表現しようとする時、これを<strong>強拍基軸</strong>と呼びます。</p>
-<p>強拍基軸は、一瞥すると当然と考えられるかも知れません。しかし実際の海外の演奏者は逆の認識を持ってリズムを演奏しています。</p>
+<p>強拍基軸は、リズム認知バイアスのひとつです。 強拍が先に来ることに何ら特別な事はないだろう、あるいは「これが普通だ」と感じられる方もいらっしゃるかも知れません。</p>
+<p>しかし、このリズム認知バイアスを世界的に見ると、実はこのリズム認知バイアスを持っている人はとても少なく非常に珍しいリズム認知バイアスだということがわかります。海外の演奏者は、しばしば全く真逆のリズム認知バイアスを持っています。</p>
 <p>スイングやシャッフルを演奏しようとした時に、<strong>弱拍の位置が常に固定</strong>となり、毎回同じ位置に表れ、強拍の位置を弱拍からの相対距離として測りながら移動することでスイング・シャッフルのニュアンスを表現しようとする時、これを<strong>弱拍基軸</strong>と呼びます。</p>
-<p>強拍基軸リズム認識を持っている人が、弱拍基軸を見た時にそれを異端として排除したり、社会的な制裁を加えたりすることを、<strong>弱拍天動説</strong> と呼びます。</p>
-<p>リズムを客観的に捉え弱拍基軸のリズム認識を理解した上で合理的に受け入れることを<strong>強拍地動説</strong>と呼びます。</p>
+<p>弱拍基軸もリズム認知バイアスのひとつです。</p>
+<p>強拍基軸リズム認知バイアスを持っている人が、弱拍先行リズム認知バイアスをに基づいた音符のタイミングニュアンスを見ると、不規則に動き回る様に観察され、その規則性の理解に失敗するという現象が起こります。この現象を <strong>弱拍天動説</strong> と呼びます。</p>
+<p>弱拍基軸リズム認知バイアスを持っている人が、弱拍先行リズム認知バイアスをに基づいた音符のタイミングニュアンスを見ると、弱拍位置が固定で自分が認識している強拍の位置自体が動き回っているのだと理解出来ます。 これはあたかも地動説を理解した人が不規則に動き回る様に見える惑星の動きを「実は動いているのは地球なのだ」と考えることで全てが規則的に動いていることを理解するプロセスと似ています。</p>
+<p>弱拍基軸のリズム認知で弱拍<strong>強拍地動説</strong>と呼びます。</p>
 <p><strong>強拍基軸</strong> と <strong>弱拍基軸</strong> に関しては、<a href="../../../offbeat-count/weak-beat-as-sun-strong-beat-as-earth/ja/">弱拍天動説と強拍地動説</a> で詳細を見ていきます。</p>
+<section id="音韻学上の対応-6" class="level4">
+<h4 class="anchored" data-anchor-id="音韻学上の対応-6">音韻学上の対応</h4>
+<p>ここでは、音楽の弱拍に対する感覚は、言語の子音の位置に対する感覚と近いと考えます。</p>
 </section>
-<section id="ⁿリズムと3ⁿリズム" class="level3">
-<h3 class="anchored" data-anchor-id="ⁿリズムと3ⁿリズム">2⁻ⁿリズムと3⁻ⁿリズム</h3>
-<p>スイングやシャッフルなどの３連符系のリズムを演奏する時だけでなく、8ビート16ビートなどのリズムを演奏する時も含めて、3拍子や3を基準にしたポリリズムを多用したり、リズムのずれニュアンスが必ず1/3 、1/9 、 1/27 などの 3の負のべき乗の大きさに収束するなど、リズム感覚が3に根ざしている人のリズムを <strong>3⁻ⁿリズム</strong>と呼びます。</p>
-<p>───この <strong>3⁻ⁿリズム</strong> がアフリカのリズムやケルト・ゲール等々の欧米のフォークソングの本質に存在します。</p>
-<p>スイングやシャッフルなどの３連符系のリズムを演奏する時だけでなく、8ビート16ビートなどのリズムを演奏する時も含めて、常に2のリズムに根ざし、3拍子や3を基準にしたポリリズムを多様せず、リズムのずれニュアンスが必ず1/4 、1/8 、 1/16 などの 2の負のべき乗の大きさに収束するなど、リズム感覚が2に根ざしている人のリズムを <strong>2⁻ⁿリズム</strong>と呼びます。</p>
-<p>───この <strong>2⁻ⁿリズム</strong> は日本のゲームミュージックやアニメソング等々日本のあらゆる西洋音楽の影響を受けた音楽全ての本質に存在します。</p>
-<p><strong>3⁻ⁿリズム</strong> とはどんな音かにつきましては、<a href="../../../offbeat-count/the-four-principles-of-groove/ja/">世界は3⁻ⁿ拍子で出来ている</a> でそれを実際に聴いてみます。</p>
-<p><strong>3⁻ⁿリズム</strong> と <strong>2⁻ⁿリズム</strong> につきましては、<a href="../../../offbeat-count/three-to-n-groove-theory/ja/">3⁻ⁿグルーヴと2⁻ⁿグルーヴ</a> で理論的な詳細を見ていきます</p>
-<p><strong>2⁻ⁿリズム</strong> とはどんな音かにつきましては、<a href="../../../tatenori-theory/ja/">何故日本人は縦乗りなのか</a> でいくつかのサンプルを用意しております。</p>
+<section id="と-1" class="level4">
+<h4 class="anchored" data-anchor-id="と-1">モーラ等時性 と 音節核等時性</h4>
+<p>シラブル拍リズム及びストレス拍リズムでは、子音と母音を明確に区別し、必ず子音が母音に先行すると考えます。母音だけが等間隔に並んでおり、子音がどんなに長くても、子音が複数連なっていても、それは等間隔に並んだ母音の間に敷き詰められていく…そう考える傾向があります。つまり母音だけが等時性を持つと考えます。</p>
+<p>一方モーラ拍リズムは、子音と母音を区別しません。子音は必ずしも母音に先行せず、子音がある時は子音が等時性を持ち、子音がない場合だけ母音が等時性を持ちます。</p>
+<p>ここでは頭子音に続く音節核に Pセンター があると考えることを <strong>音節核等時性</strong> 呼びます。この考え方を音楽へ当てはめると、先行する弱拍を基準として強拍の位置を調整する<strong>弱拍基軸</strong>になると仮定します。</p>
+<p>一方で<strong>モーラ拍等時性</strong>では、モーラ音節が時間を数える基本単位となります。 それぞれのモーラの開始位置が時間認識の基準となります。モーラ内に最初に表れる音素は子音の時もあり、母音の時もあります。 シラブルの様に子音が音節の前方に飛び出すことはありません。 ここでは、この音声解釈方法を、音楽上の強拍の位置を固定して弱拍を調整する<strong>強拍基軸</strong> と関連があると考えます。</p>
 </section>
-<section id="と" class="level3">
-<h3 class="anchored" data-anchor-id="と"><ruby><rb>頭子音最小化原則</rb><rt>MiOP = Minimum Onset Principle</rt></ruby> と <ruby><rb>頭子音最大化原則</rb><rt>MOP = Maximum Onset Principle</rt></ruby></h3>
-<p><strong>頭子音最小化原則</strong>とは、末子音や多重子音を一つの頭子音群にまとめず、それぞれを独立したモーラとして後方へ配置する傾向を指します。これはモーラ拍リズムに見られる特徴であり、本書では、先に知覚された強拍へ後続要素を追加する<strong>強拍先行</strong>に対応すると考えます。</p>
-<p>これに対して<strong>頭子音最大化原則</strong>とは、その言語の音節構造が許す範囲で、音節間の子音を次の音節の頭子音としてまとめる原則です。頭子音が音節核に先行するため、本書では、弱拍が次の強拍を予告する<strong>弱拍先行</strong>に対応すると考えます。</p>
 </section>
-<section id="と-1" class="level3">
-<h3 class="anchored" data-anchor-id="と-1">文頭焦点 と 文末焦点</h3>
-<p>ここでいう<strong>文頭焦点</strong>と<strong>文末焦点</strong>は、文法上の情報焦点ではなく、発話を時間的にまとめる時に、始点と終点のどちらを基準とするかを表す本書独自の用語です。</p>
-<p><strong>文頭焦点</strong>では、発話の始点を確定した後、その後方へ要素を順次追加します。この時間認識を音楽へ投影したものが、開始位置を揃えて終わりを固定しない<strong>頭合わせ</strong>です。</p>
-<p><strong>文末焦点</strong>では、これから到達する発話の終点を予期し、そこへ向かって先行要素を配置します。この時間認識を音楽へ投影したものが、開始位置よりも終了位置を揃える<strong>尻合わせ</strong>です。</p>
+<section id="グルーヴ原則８---リズム侵襲性" class="level3">
+<h3 class="anchored" data-anchor-id="グルーヴ原則８---リズム侵襲性">グルーヴ原則８ - リズム侵襲性</h3>
+<p>ジャズやブルース、東南アジア各地の民族音楽、ヨーロッパの民族音楽などでは、そこに8分音符がなく4分音符しかないときであっても、そこに仮想の8分音符弱拍があるかのように音符を認識しており、その仮想の弱拍がある地点ではっきり音符を止めたり、あるいは<strong>ゴースト・ノート（呑音=のむおと）</strong> を演奏したりします。</p>
+<p>このことを『そこに弱拍がないのに、8分音符が侵襲している』という様に表現します。そのとき、しばしば『音符が侵襲的(intrusive)だ』と表現したりします。</p>
+<p>この侵襲的な弱拍は、リズム指数が増えるほど侵襲的弱拍が増え、ゼロに近付くほど少なくなり、ゼロ以下ではなくなるとここでは考えます。</p>
+<section id="音韻学上の対応-7" class="level4">
+<h4 class="anchored" data-anchor-id="音韻学上の対応-7">音韻学上の対応</h4>
+<p>この侵襲的な8分音符弱拍は、音韻学上の侵襲的末子音に対応するとここでは考えます。</p>
 </section>
-<section id="と-2" class="level3">
-<h3 class="anchored" data-anchor-id="と-2">モーラ等時性 と 音節核等時性</h3>
-<p>ここでいう<strong>等時性</strong>は、全ての音が物理的に完全に同じ長さになることではなく、一定の発音単位が知覚上の時間基準として反復する傾向を指します。</p>
-<p><strong>モーラ等時性</strong>では、モーラが時間を数える基本単位となり、それぞれのモーラの開始位置が時間認識の基準となります。本書では、この認識を、強拍の位置を固定して弱拍を調整する<strong>強拍基軸</strong>に対応させます。</p>
-<p><strong>音節核等時性</strong>では、頭子音に続く音節核またはPセンターの位置を予測しながら発音を構成します。本書では、この予測を音楽へ投影すると、先行する弱拍を基準として強拍の位置を調整する<strong>弱拍基軸</strong>になると仮定します。</p>
+<section id="と-2" class="level4">
+<h4 class="anchored" data-anchor-id="と-2"><ruby><rb>音韻学</rb><rt>フォノロジー</rt></ruby> 末子音忌避性 と 末子音侵襲性</h4>
+<p><strong>末子音忌避性</strong>とは、音節末に子音を置かないように厳格に制限し、母音を挿入したり独立したモーラへの分割したりすることによって、末子音が生じることを避ける傾向です。</p>
+<p>これに対して<strong>末子音侵襲性</strong>とは、音節核の後に末子音がない時でも、そこに末子音を挿入する性質を指します。この侵襲的に生じた末子音は、しばしば頭子音最大化原則によって、音節の境界を越えて次の音節の頭子音として発音されます。</p>
+<!-- 本書では、末子音を独立単位へ分解する認識を**2⁻ⁿリズム**に、音節境界を越えて前後の単位を結び付ける認識を**3⁻ⁿリズム**に対応させます。この対応は本書の理論的仮説であり、後の節で具体例を用いて検討します。-->
 </section>
-<section id="と-3" class="level3">
-<h3 class="anchored" data-anchor-id="と-3">末子音忌避性 と 末子音侵襲性</h3>
-<p><strong>末子音忌避性</strong>とは、音節末に置ける子音を強く制限し、母音の挿入や独立したモーラへの分割によって末子音を避ける傾向です。</p>
-<p>これに対して<strong>末子音侵襲性</strong>とは、音節核の後に末子音を保持し、その末子音が次の音節との境界を越えて発音とリズムの構成に影響する性質を指す、本書独自の用語です。</p>
-<p>本書では、末子音を独立単位へ分解する認識を<strong>2⁻ⁿリズム</strong>に、音節境界を越えて前後の単位を結び付ける認識を<strong>3⁻ⁿリズム</strong>に対応させます。この対応は本書の理論的仮説であり、後の節で具体例を用いて検討します。</p>
+</section>
+<section id="グルーヴ原則９---リズムストレス度" class="level3">
+<h3 class="anchored" data-anchor-id="グルーヴ原則９---リズムストレス度">グルーヴ原則９ - リズムストレス度</h3>
+<p><strong>固定長</strong> とはアクセントを高低・強度・音色ななど長短とは別な要素で表現することを指します。</p>
+<p><strong>可変長</strong> とは長短によって成立するストレス型アクセントを指します。</p>
+<p><strong>無拍</strong>とは定期的に訪れる拍という概念自体がないことを表す。</p>
+<p>ポストセントリック・プレセントリック共に、リズム指数極性が０に近付くほど固定長に近づき、０から遠ざかるほど可変長になります。</p>
+<section id="音韻学上の対応-8" class="level4">
+<h4 class="anchored" data-anchor-id="音韻学上の対応-8">音韻学上の対応</h4>
+<p>ポストセントリック・プレセントリック共に、リズム指数極性が０に近付くほどストレス拍の長短変化が現象し、０から遠ざかるほど増加します。</p>
+<!--
+### グルーヴ４
+
+グルーヴには四つの対立要素があります。
+
+1. A **強拍先行**   と B **弱拍先行**
+2. A **頭合わせ**   と B **尻合わせ**
+3. A **強拍基軸**   と B **弱拍基軸**
+4. A **2⁻ⁿリズム** と B **3⁻ⁿリズム**
+
+これをグルーヴ九大要素Four Axes of Grooveと呼びます。
+
+そしてこれらはそれぞれ音韻学上での以下の要素と対応しています。
+
+1. A: **頭子音最小化原則** と B: **頭子音最大化原則**
+2. A: **文頭焦点**         と B: **文末焦点**
+3. A: **モーラ等時性**     と B: **音節核等時性**
+4. A: **末子音忌避性**     と B: **末子音侵襲性**
+
+更に、これらの背後に **Pセンター(p-center)** という隠れた概念が存在します。これをPセンターを軸に整理することが出来ます。
+
+左側Aの
+
+1. **強拍先行**       **頭子音最小化原則**
+2. **頭合わせ**       **文頭焦点**
+3. **強拍基軸**       **モーラ等時性**
+4. **2⁻ⁿリズム**     **末子音忌避性**
+
+を **ポストセントリックPostcentric** 又は **縦乗り**と呼びます。
+
+縦乗りは、グルーヴと全く正反対の性質を持っています。 縦乗りはグルーヴとは真逆の静寂・安定感・固定・硬質・静止などの情景を表します。 この性質を 反グルーヴAnti-Groove と呼びます。
+
+右側Bの
+
+1.  **弱拍先行**      **頭子音最大化原則**
+2.  **尻合わせ**      **文末焦点**
+3.  **弱拍基軸**      **音節核等時性**
+4.  **3⁻ⁿリズム**    **末子音侵襲性**
+
+を**プレセントリックPrecentric** 又は **横乗り** と呼びます。
+
+横乗りは、躍動感・不安定感・柔軟性・動的などの情景を表します。この性質を グルーヴGroove と呼びます。
+
+
+### 横乗りの四条件Four Conditions of Groove
+
+音楽にグルーヴを感じる時、
+
+- **弱拍先行**
+- **尻合わせ**
+- **弱拍基軸**
+- **3⁻ⁿリズム**
+
+の４つの条件の全て又は一部を満たしているという法則があります。
+
+これを横乗りの四条件Four Conditions of Grooveと呼びます。
+
+つまり如何にして、弱拍先行、尻合わせ、弱拍基軸、3⁻ⁿリズムの４つを体得するかがグルーヴを身につける為の焦点となります。
+
+### 縦乗りの四条件Four Conditions of Anti-Groove
+
+これらの日本的リズムはしばしば
+
+- **強拍先行**
+- **頭合わせ**
+- **強拍基軸**
+- **2⁻ⁿリズム**
+
+の全てまたは一部を満たしているという法則があります。
+
+これを縦乗りの四条件Four Conditions of Anti-Groove と呼びます。
+
+-->
+</section>
+</section>
+<section id="縦乗り横乗りの条件" class="level3">
+<h3 class="anchored" data-anchor-id="縦乗り横乗りの条件">縦乗り横乗りの条件</h3>
+<p>何故日本人は縦乗りなのか、その理由に関しましては<a href="../../../offbeat-count/tatenori-theory/ja/">何故日本人は縦乗りなのか</a>で詳細を見ていきます。</p>
+<p>ではどのようにしたら縦乗りを克服することが出来るのでしょうか。それがこの文章の目的でもあります。縦乗りを克服する長い道のり=<strong><ruby>リズム道<rt>Rhythmdo</rt></ruby></strong> について今後長い時間を掛けて見つけ出して行きます。</p>
 <p><strong>目次</strong></p>
 <ul>
 <li>オフビートカウント理論
 <ul>
 <li><a href="../../../offbeat-count/benefits-of-offbeat-count-theory/ja/">はじめに</a></li>
-<li><a href="../../../offbeat-count/the-four-principles-of-groove/ja/"><ruby><rb>グルーヴ四原則</rb><rt>Four Principles of Groove</rt></ruby>とは</a></li>
+<li><a href="../../../offbeat-count/the-four-principles-of-groove/ja/"><ruby><rb>グルーヴ九大原則</rb><rt>The Nine Principles of Groove</rt></ruby>とは</a></li>
 <li><a href="../../../offbeat-count/tatenori-theory/ja/">何故日本人は縦乗りなのか</a></li>
-<li><a href="../../../offbeat-count/headians-and-bottomians-of-beat-orientation/ja/"><ruby><rb>強拍が先か弱拍が先か</rb><rt>リズモクロニック・アナリシス</rt></ruby></a></li>
+<li><a href="../../../offbeat-count/何故日本人には縦乗りではない人もいるのか/ja/">何故日本人には縦乗りではない人もいるのか</a></li>
+<li><a href="../../../offbeat-count/headians-and-bottomians-of-beat-orientation/ja/"><ruby><rb>強拍が先か弱拍が先か</rb><rt>リズモクロノロジー</rt></ruby></a></li>
 <li><a href="../../../offbeat-count/phonorhythmatological-theory/ja/"><ruby>音韻学的音楽分析<rt>フォノリズマトロジー</rt></ruby></a></li>
 <li><a href="../../../offbeat-count/letter-to-native-mora-timed-speakers/ja/"><ruby>日本人<rt>モーラ拍リズム言語話者</rt></ruby>への手紙</a></li>
 <li><a href="../../../offbeat-count/schizorhythmos-and-solirhythmos/ja/"><ruby><rb>分裂拍</rb><rt>シゾリスモス</rt></ruby>と<ruby><rb>孤立拍</rb><rt>ソリリスモス</rt></ruby></a></li>
