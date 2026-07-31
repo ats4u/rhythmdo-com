@@ -177,9 +177,32 @@ Pセンターよりも後ろに情報の中心があると感じる傾向をポ�
 これは**モーラ拍リズム**と深い関連があることが知られています。しかしその因果関係ははっきりと解明された訳ではありません。 モーラ拍リズムを持つ言語は、アフリカのバントゥ語などいくつか知られています。しかし純粋なモーラ拍リズムの言語は日本語しか存在しないとも言われています。
 
 
+#### {{<meta var.RHYTHMOCHRONOLOGY.ja>}} とは
+
+{{<meta var.RHYTHMOCHRONOLOGY.ja>}}...とは文字通り、リズムの構造を『弱拍が先に来ている』と認識しているか、あるいは『強拍が先に来ている』と認識しているかを基準にして分析することです。 音符は一般的に、四分音符八分音符など複数の音価が含まれています。つまり、これらのそれぞれの音価に対して多層的に『弱拍が先か』『強拍が先か』を分析していくことが可能です。 この分析手法を {{<meta var.RHYTHMOCHRONOLOGY.ja>}} と呼びます。
+
+{{<meta var.RHYTHMOCHRONOLOGY.ja>}} は、{{<meta var.P_CENTER.ja>}}を基本に置いた上で、 {{<meta var.RHYTHMDO_PURPOSE.ja>}}を考察するための大切なツールとなります。
+
+詳細に関しましては [{{<meta var.RHYTHMOCHRONOLOGY.ja>}}](/offbeat-count/headians-and-bottomians-of-beat-orientation/ja/) で説明致します。
+
+
+#### {{<meta var.PHONORHYTHMATOLOGY.ja>}} とは
+
+{{<meta var.PHONORHYTHMATOLOGY.ja>}} とは『音楽のリズムは、その人が母国語とする言語のリズムの影響を受ける』という仮説を元にして、音楽のリズムを言語の{{<meta var.PHONOLOGY.ja>}}を使って分析することを指します。
+
+何故音楽のリズムと言語のリズムは関係するのかを考察し、具体的に言語リズムの原則と、音楽リズムの原則を比較することでその背後にあるより大きな原則を探ります。
+
+{{<meta var.RHYTHMOCHRONOLOGY.ja>}} と {{<meta var.PHONOLOGY2.ja>}} を結びつけて観察する手法、それが {{<meta var.PHONORHYTHMATOLOGY.ja>}} です。
+
+詳細に関しましては[{{<meta var.PHONORHYTHMATOLOGY.ja>}}](/offbeat-count/phonorhythmatological-theory/ja/)で詳細を見ていきます。
+
+
+
 #### {{<meta var.GROOVE_EQUATIONS.ja>}}
 
-グルーヴ方程式について説明します。 グルーヴの音情報のクラスタに対するPセンターの位置とグルーヴの階層とその分解能を数式によって表す事により、グルーヴをモデル化し分析を行います。 その為の基礎となるグルーヴ方程式の形式的な定義は次の通りです。
+グルーヴ方程式とは、グルーヴを分析する為に、Pセンターと{{<meta var.MLWBOR.ja>}}を２つを軸にモデル化したものです。 リズム上の拍に対するPセンターの位置とグルーヴの階層及び解像度数を数式によって表す事により、分析の基礎となるモデルを定義します。
+
+グルーヴ方程式の形式的な定義は次の通りです。
 
 
 ##### 数量的なグルーヴ原則の表現法
@@ -812,11 +835,11 @@ $$
 
 #### Groove Equation
 
-グルーヴ方程式の英語での形式的な定義は次の通りです。
+The formal definition of the Groove Equation is as follows.
 
 ##### Quantitative Representation of a Groove Principle
 
-A quantitative representation of a groove element is:
+A Groove Principle is quantitatively represented by:
 
 $$
 T=(L,D,P)
@@ -868,11 +891,9 @@ be the collection of structural types, where:
 - $S_i$ represents subdivision level $i$.
 - $\mathrm{MD}_i$ represents microdivision level $i$.
 
-Repeated occurrences of the same structural type receive identifiers such as:
-
-$$
-H^{(1)},H^{(2)},\ldots
-$$
+Structural types and structural occurrences are distinct. A symbol such as $H$
+denotes a type; actual occurrences are represented by nodes of the groove tree.
+For example, two nodes $h_1$ and $h_2$ may both have the structural type $H$.
 
 A microdivision is defined as follows:
 
@@ -916,7 +937,7 @@ c=
 &
 \chi=\mathrm{postcentric},
 \\[4pt]
-c\in\mathbb{R}_{\geq 0},
+c\in\mathbb{R}_{>0},
 &
 \chi=\mathrm{precentric}.
 \end{cases}
@@ -978,9 +999,12 @@ N'
 \frac{\lambda}{\delta}N.
 $$
 
+When no ambiguity can result, write $O(T)$ for
+$\operatorname{Act}(O,T)$.
+
 ##### Abbreviated typed operation
 
-Centricity may be inferred from $c$ by defining:
+Centricity may be inferred uniquely from $c$ by defining:
 
 $$
 \chi(c)=
@@ -1005,6 +1029,9 @@ O_{K;\lambda,\delta,\chi(c),c}.
 }
 $$
 
+Let $\widetilde{\mathcal O}$ denote the collection of all abbreviated typed
+operations.
+
 For example:
 
 $$
@@ -1025,145 +1052,200 @@ $$
 \widetilde O_{\text{structural type};\text{numerical parameters}}.
 $$
 
+##### Groove structure
+
+Let:
+
+$$
+\mathcal{T}
+=
+(V,E,a,\prec,\kappa)
+$$
+
+be a finite rooted and ordered groove tree, where:
+
+- $V$ is the collection of structural occurrences.
+- $E$ is the collection of parent--child structural relations.
+- $a$ is the anchor occurrence and root.
+- $\prec$ records temporal or structural order among comparable occurrences.
+- $\kappa:V\to\mathcal K$ assigns one structural type to each occurrence.
+
+Thus, repeated occurrences retain separate identities while sharing a type. For
+example:
+
+$$
+h_1\neq h_2,
+\qquad
+\kappa(h_1)=\kappa(h_2)=H.
+$$
+
+Each non-anchor occurrence is assigned exactly one abbreviated typed operation:
+
+$$
+\Omega
+:
+V\setminus\{a\}
+\longrightarrow
+\widetilde{\mathcal O},
+$$
+
+$$
+\boxed{
+\Omega(v)
+=
+\widetilde O_{\kappa(v);\lambda_v,\delta_v,c_v}.
+}
+$$
+
+The normalized anchor state is normally:
+
+$$
+T_a=(1,1,0).
+$$
+
+The value $1$ is a conventional reference duration; it does not require the
+anchor to be a quarter note.
+
 ##### Predefined operation order
 
-Define an operation schema:
+Operation order is derived from a selected rooted path in the groove tree. Let:
 
 $$
-\Sigma
+\gamma
 =
-(K_1,K_2,\ldots,K_n).
+(v_0=a,v_1,\ldots,v_k),
 $$
 
-The operation-order relation is:
+where $(v_{i-1},v_i)\in E$ for every $i=1,\ldots,k$.
+
+The structural schema of the path is:
 
 $$
-K_i
+\boxed{
+\Sigma_\gamma
+=
+(\kappa(v_1),\ldots,\kappa(v_k)).
+}
+$$
+
+Its operation order is inherited from the path:
+
+$$
+\Omega(v_i)
 \prec_{\mathrm{op}}
-K_j
+\Omega(v_j)
 \quad\Longleftrightarrow\quad
 i<j.
 $$
 
-Thus, operations are written and applied from left to right.
-
-A default coarse-to-fine schema is:
-
-$$
-\Sigma_{\mathrm{default}}
-=
-(
-H_h,\ldots,H_1,\,
-M,\,
-B,\,
-S_1,\ldots,S_n,\,
-\mathrm{MD}_1,\ldots,\mathrm{MD}_m
-).
-$$
-
-A specific groove may define a different schema when repeated, consecutive, or alternative structural elements must be represented.
+Thus, operations are written and applied from left to right. There is no
+universal coarse-to-fine word independent of the groove tree.
 
 ##### Typed operation word
 
-For the schema:
-
-$$
-\Sigma=(K_1,\ldots,K_n),
-$$
-
-a typed operation word is:
+A typed operation word is derived from the canonical node assignment along the
+selected path:
 
 $$
 \boxed{
-\Omega_\Sigma
+\Omega_\gamma
 =
 \left(
-\widetilde O_{K_1;\lambda_1,\delta_1,c_1},
+\Omega(v_1),
 \ldots,
-\widetilde O_{K_n;\lambda_n,\delta_n,c_n}
+\Omega(v_k)
 \right).
 }
 $$
 
 The leftmost operation is applied first.
 
-Starting with $T_0$, define:
+Starting with $T_{v_0}=T_a$, define:
 
 $$
-T_i
+T_{v_i}
 =
 \operatorname{Act}
 \left(
-\widetilde O_{K_i;\lambda_i,\delta_i,c_i},
-T_{i-1}
+\Omega(v_i),
+T_{v_{i-1}}
 \right).
 $$
 
 The evaluation of the complete operation word is:
 
 $$
-\operatorname{Eval}(\Omega_\Sigma,T_0)
+\operatorname{Eval}(\Omega_\gamma,T_a)
 =
-T_n.
+T_{v_k}.
 $$
 
 Using standard function composition:
 
 $$
-\operatorname{Eval}(\Omega_\Sigma,T_0)
+\operatorname{Eval}(\Omega_\gamma,T_a)
 =
-\widetilde O_n
+\Omega(v_k)
 \circ\cdots\circ
-\widetilde O_2
+\Omega(v_2)
 \circ
-\widetilde O_1(T_0).
+\Omega(v_1)(T_a).
 $$
 
 The same order can be shown with arrows:
 
 $$
-T_0
-\xrightarrow{\widetilde O_1}
-T_1
-\xrightarrow{\widetilde O_2}
-T_2
-\xrightarrow{\widetilde O_3}
-\cdots
-\xrightarrow{\widetilde O_n}
-T_n.
+T_a
+\xrightarrow{\Omega(v_1)}
+T_{v_1}
+\xrightarrow{\Omega(v_2)}
+T_{v_2}
+\longrightarrow\cdots\longrightarrow
+T_{v_k}.
 $$
+
+Occurrences on different paths are not silently combined into one operation
+word. Each selected path determines its own schema and operation word.
 
 ##### Closed-form evaluation
 
-For:
+For a selected path $\gamma$, write:
 
 $$
-T_0=(L_0,D_0,P_0),
+T_a=(L_0,D_0,P_0)
 $$
 
-the final state is:
+and:
 
 $$
-L_n
+\Omega(v_i)
+=
+\widetilde O_{\kappa(v_i);\lambda_i,\delta_i,c_i}.
+$$
+
+The final path state is:
+
+$$
+L_k
 =
 L_0
-\prod_{i=1}^{n}\lambda_i,
+\prod_{i=1}^{k}\lambda_i,
 $$
 
 $$
-D_n
+D_k
 =
 D_0
-\prod_{i=1}^{n}\delta_i,
+\prod_{i=1}^{k}\delta_i,
 $$
 
 $$
-P_n
+P_k
 =
 P_0
 +
 D_0
-\sum_{i=1}^{n}
+\sum_{i=1}^{k}
 \left(
 c_i
 \prod_{j=1}^{i}\delta_j
@@ -1173,43 +1255,43 @@ $$
 Consequently:
 
 $$
-r_n
+r_k
 =
 r_0
-\prod_{i=1}^{n}
+\prod_{i=1}^{k}
 \frac{\delta_i}{\lambda_i},
 $$
 
 $$
-N_n
+N_k
 =
 N_0
-\prod_{i=1}^{n}
+\prod_{i=1}^{k}
 \frac{\lambda_i}{\delta_i}.
 $$
 
 ##### Commutativity
 
-The $L,D$ projection is commutative:
+For any state $T$, the $L,D$ projection is commutative:
 
 $$
 \pi_{L,D}
 \left(
-O_2\circ O_1
+(O_2\circ O_1)(T)
 \right)
 =
 \pi_{L,D}
 \left(
-O_1\circ O_2
+(O_1\circ O_2)(T)
 \right).
 $$
 
 The complete transformation is not necessarily commutative because P-center displacement depends on the current division duration:
 
 $$
-O_2\circ O_1
+(O_2\circ O_1)(T)
 \neq
-O_1\circ O_2
+(O_1\circ O_2)(T)
 $$
 
 in general.
@@ -1222,70 +1304,9 @@ $$
 
 Even when operations commute numerically, their structural order remains part of the groove description.
 
-##### Groove structure
-
-Let:
-
-$$
-\mathcal{T}
-=
-(V,E,a,\prec)
-$$
-
-be a finite rooted and ordered groove tree, where:
-
-- $V$ is the collection of temporal elements.
-- $E$ is the collection of structural relations.
-- $a$ is the anchor element.
-- $\prec$ records temporal and structural ordering.
-
-Each non-anchor node $v$ is assigned a typed operation:
-
-$$
-\Omega
-=
-\left(
-\widetilde O_v
-\right)_{v\in V\setminus\{a\}}.
-$$
-
-Because the structural type is included in each typed operation, it can be recovered from the operation:
-
-$$
-\operatorname{kind}(v)
-=
-K(\widetilde O_v).
-$$
-
-The normalized anchor state is normally:
-
-$$
-T_a=(1,1,0).
-$$
-
-For a path:
-
-$$
-\operatorname{path}(a,v)
-=
-(v_0=a,v_1,\ldots,v_k=v),
-$$
-
-the state of $v$ is:
-
-$$
-T_v
-=
-\widetilde O_{v_k}
-\circ\cdots\circ
-\widetilde O_{v_2}
-\circ
-\widetilde O_{v_1}(T_a).
-$$
-
 ##### Boundary behavior
 
-Each division-bearing element may have a boundary rule:
+Each division-bearing occurrence may have a boundary rule:
 
 $$
 \beta
@@ -1317,13 +1338,13 @@ Therefore:
 $$
 N\in\mathbb{N}
 \quad\Rightarrow\quad
-\text{closure within one parent element},
+\text{closure within one parent occurrence},
 $$
 
 $$
 N\in\mathbb{Q}_{>0}
 \quad\Rightarrow\quad
-\text{finite cross-element closure},
+\text{finite cross-occurrence closure},
 $$
 
 $$
@@ -1337,15 +1358,16 @@ $$
 
 The normalized value $1$ is an abstract reference duration.
 
-Let $q>0$ specify its concrete duration. Define:
+Let $\tau>0$ specify its concrete duration. Define:
 
 $$
-R_q(L,D,P)
+R_\tau(L,D,P)
 =
-(qL,qD,qP).
+(\tau L,\tau D,\tau P).
 $$
 
-If the anchor is a quarter-note beat, then $q$ is the duration of that quarter-note beat.
+If the anchor is conventionally interpreted as a quarter-note beat, then
+$\tau$ is the duration of that quarter-note beat.
 
 ##### Formal definition of the Groove Equation
 
@@ -1368,21 +1390,24 @@ Its numerical realization is:
 
 $$
 \boxed{
-\operatorname{GE}_q(\mathfrak{G})
+\operatorname{GE}_\tau(\mathfrak{G})
 =
 \left(
-R_q(T_v)
+R_\tau(T_v)
 \right)_{v\in V}.
 }
 $$
+
+Here, each $T_v$ is evaluated along its unique rooted path, with continuation
+across boundaries governed by $\beta$.
 
 Numerically identical realizations do not necessarily imply structurally identical grooves:
 
 $$
 \boxed{
-\operatorname{GE}_q(\mathfrak{G}_1)
+\operatorname{GE}_\tau(\mathfrak{G}_1)
 =
-\operatorname{GE}_q(\mathfrak{G}_2)
+\operatorname{GE}_\tau(\mathfrak{G}_2)
 \nRightarrow
 \mathfrak{G}_1
 =
@@ -1396,7 +1421,7 @@ $$
 \boxed{
 \text{groove tree}
 +
-\text{typed operation word}
+\text{typed node-operation assignment}
 +
 \text{boundary behavior}
 +
@@ -1406,25 +1431,70 @@ $$
 
 ##### Example: “Near the Cross”
 
-Define the schema:
+Let the relevant non-anchor occurrences be:
 
 $$
-\Sigma_{\text{Near the Cross}}
+V_{\text{Near the Cross}}\setminus\{a\}
 =
-\left(
-H^{(1)},H^{(2)},M,B,S_1
-\right).
+\{h_1,h_2,m,b,s_1\}.
 $$
 
-The typed operation word is:
+Their structural types are:
+
+$$
+\kappa(h_1)=\kappa(h_2)=H,
+\qquad
+\kappa(m)=M,
+\qquad
+\kappa(b)=B,
+\qquad
+\kappa(s_1)=S_1.
+$$
+
+Define the node-operation assignment:
+
+$$
+\begin{aligned}
+\Omega_{\text{Near the Cross}}(h_1)
+&=
+\widetilde O_{H;4,1,0},
+\\
+\Omega_{\text{Near the Cross}}(h_2)
+&=
+\widetilde O_{H;8,1,0},
+\\
+\Omega_{\text{Near the Cross}}(m)
+&=
+\widetilde O_{M;3,1,2},
+\\
+\Omega_{\text{Near the Cross}}(b)
+&=
+\widetilde O_{B;1,\frac13,2},
+\\
+\Omega_{\text{Near the Cross}}(s_1)
+&=
+\widetilde O_{S_1;1,\frac13,2}.
+\end{aligned}
+$$
+
+These assignments alone do not assert that all five operations belong to one
+linear word. If the groove tree declares the rooted path:
+
+$$
+\gamma
+=
+(a,h_1,h_2,m,b,s_1),
+$$
+
+then its derived operation word is:
 
 $$
 \boxed{
-\Omega_{\text{Near the Cross}}
+\Omega_\gamma
 =
 \left(
-\widetilde O_{H^{(1)};4,1,0},\,
-\widetilde O_{H^{(2)};8,1,0},\,
+\widetilde O_{H;4,1,0},\,
+\widetilde O_{H;8,1,0},\,
 \widetilde O_{M;3,1,2},\,
 \widetilde O_{B;1,\frac13,2},\,
 \widetilde O_{S_1;1,\frac13,2}
@@ -1432,34 +1502,18 @@ $$
 }
 $$
 
-For the Moses Tyson Jr. performance, the operation word may be labeled:
+If $h_1$ and $h_2$ are consecutive siblings, their order is recorded by
+$h_1\prec h_2$ or $h_2\prec h_1$. If they are alternatives, they are
+incomparable under $\prec$. In either case, they occur on separate rooted paths
+and are not multiplied together by default. The path-derived word records only
+the evaluation order of its selected path.
+
+For the Moses Tyson Jr. performance, the assignment may be labeled:
 
 $$
 \Omega_{\text{Near the Cross}}^{\text{Moses Tyson Jr.}}.
 $$
 
-The operation word specifies the predefined evaluation order. The groove tree $\mathcal{T}$ separately specifies whether the two hypermeasures are nested, consecutive, or located on different branches.
-
-
-
-#### {{<meta var.RHYTHMOCHRONOLOGY.ja>}} とは
-
-{{<meta var.RHYTHMOCHRONOLOGY.ja>}}...とは文字通り、リズムの構造を『弱拍が先に来ている』と認識しているか、あるいは『強拍が先に来ている』と認識しているかを基準にして分析することです。 音符には四分音符八分音符など複数の音価が含まれています。つまり、これらのそれぞれの音価に対して多層的に『弱拍が先か』『強拍が先か』を分析していくことが可能です。 この分析手法を {{<meta var.RHYTHMOCHRONOLOGY.ja>}} と呼びます。
-
-{{<meta var.RHYTHMOCHRONOLOGY.ja>}} は、{{<meta var.P_CENTER.ja>}}と並んで、{{<meta var.RHYTHMDO_PURPOSE.ja>}}を考察するための大切なツールとなります。
-
-詳細に関しましては [{{<meta var.RHYTHMOCHRONOLOGY.ja>}}](/offbeat-count/headians-and-bottomians-of-beat-orientation/ja/) で説明致します。
-
-
-#### {{<meta var.PHONORHYTHMATOLOGY.ja>}} とは
-
-{{<meta var.PHONORHYTHMATOLOGY.ja>}} とは『音楽のリズムは、その人が母国語とする言語のリズムの影響を受ける』という仮説を元にして、音楽のリズムを言語の{{<meta var.PHONOLOGY.ja>}}を使って分析することを指します。
-
-何故音楽のリズムと言語のリズムは関係するのかを考察し、具体的に言語リズムの原則と、音楽リズムの原則を比較することでその背後にあるより大きな原則を探ります。
-
-{{<meta var.RHYTHMOCHRONOLOGY.ja>}} と {{<meta var.PHONOLOGY2.ja>}} を結びつけて観察する手法、それが {{<meta var.PHONORHYTHMATOLOGY.ja>}} です。
-
-詳細に関しましては[{{<meta var.PHONORHYTHMATOLOGY.ja>}}](/offbeat-count/phonorhythmatological-theory/ja/)で詳細を見ていきます。
 
 
 ### グルーヴ九大原則一覧表
