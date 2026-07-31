@@ -166,6 +166,22 @@ var:
   # MMOP: "<ruby>韻律的頭音節最大化原則<rt>MMOP = Maximum Metric Onset Principle</rt></ruby>"
   # MiMOP: "<ruby>韻律的頭音節最小化原則<rt>MiMOP = Minimum Metric Onset Principle</rt></ruby>"
 
+  P_CENTER:
+    ja: "Pセンター"
+    en: "P-center"
+  RHYTHMIC_COGNITIVE_BIAS:
+    ja: "リズム認知バイアス"
+    en: "Rhythmic Cognitive Bias"
+  RHYTHMOCHRONOLOGY:
+    ja: "<ruby><rb>強拍が先か弱拍が先か</rb><rt>リズモクロノロジー</rt></ruby>"
+    en: "Rhythmochronology"
+  # === Multi-Layered Weak-Beat Precedence ===
+  PHONOLOGY:
+    ja: "<ruby><rb>音韻学</rb><rt>フォノロジー</rt></ruby>"
+    en: "Phonology"
+  PHONOLOGY2:
+    ja: "<ruby><rb>子音が先か末子音が先か</rb><rt>フォノロジー</rt></ruby>"
+    en: "Phonology"
   # === Multi-Layered Weak-Beat Precedence ===
   MLWBOR:
     ja: "<ruby><rb>多層弱拍基軸律動</rb><rt>Multi-Layered Weak-Beat-Oriented Rhythm</rt></ruby>"
@@ -251,11 +267,14 @@ var:
   3TONGH:
     ja: "3⁻ⁿグルーヴ仮説"
     en: "3⁻ⁿ Groove Hypothesis"
+  GROOVE_EQUATIONS:
+    ja: "グルーヴ方程式"
+    en: "The Groove Equations"
   PRINCIPLES_OF_GROOVE:
-    ja: "<ruby><rb>グルーヴ四原則</rb><rt>Four Principles of Groove</rt></ruby>"
-    en: "Four Principles of Groove"
+    ja: "<ruby><rb>グルーヴ九大原則</rb><rt>The Nine Principles of Groove</rt></ruby>"
+    en: "The Nine Principles of Groove"
   AXES_OF_GROOVE:
-    ja: "<ruby><rb>グルーヴ四要素</rb><rt>Four Axes of Groove</rt></ruby>"
+    ja: "<ruby><rb>グルーヴ九大要素</rb><rt>Four Axes of Groove</rt></ruby>"
     en: "Four Axes of Groove"
   FRONT_FOCUS:
     ja: "文頭焦点"
@@ -372,6 +391,9 @@ var:
   PHONORHYTHMATOLOGY:
     ja: "<ruby>音韻学的音楽分析<rt>フォノリズマトロジー</rt></ruby>"
     en: "Phonorhythmatology"
+  RHYTHMDO_PURPOSE:
+    ja: "何故人によってリズム感の違いが生まれるのかを分析し、そしてどのようにしたらこのリズム認識を切り替えることが出来るのか"
+    en: "analyzing why people differ in their sense of rhythm and how we can switch between different ways of perceiving rhythm"
   MiOP:
     ja:  "<ruby><rb>頭子音最小化原則</rb><rt>MiOP = Minimum Onset Principle</rt></ruby>"
     en:  "Minimum Onset Principle (MiOP)"
