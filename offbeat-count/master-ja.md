@@ -200,141 +200,90 @@ Pセンターよりも後ろに情報の中心があると感じる傾向をポ�
 
 #### {{<meta var.GROOVE_EQUATIONS.ja>}}
 
-グルーヴ方程式とは、グルーヴを分析する為に、Pセンターと{{<meta var.MLWBOR.ja>}}を２つを軸にモデル化したものです。 リズム上の拍に対するPセンターの位置とグルーヴの階層及び解像度数を数式によって表す事により、分析の基礎となるモデルを定義します。
+{{<meta var.GROOVE_EQUATIONS.ja>}}は、複数のリズム層にわたるリズム尺度、{{<meta var.DIVISION.ja>}}の持続時間、および{{<meta var.P_CENTER.ja>}}の変位を数量的に記述する。
 
-グルーヴ方程式の形式的な定義は次の通りです。
+##### {{<meta var.QUANTITATIVE_REPRESENTATION_OF_A_GROOVE_PRINCIPLE.ja>}}
 
-
-##### 数量的なグルーヴ原則の表現法
-
-グルーヴ原則を次のように数量的に表現する：
-
-$$
-T=(L,D,P)
-\in
-\mathbb{R}_{>0}
-\times
-\mathbb{R}_{>0}
-\times
-\mathbb{R},
-$$
-
-ここで：
-
-- $L$ は全体の持続時間である。
-- $D$ は1分割の定量的な持続時間である。
-- $P$ はPセンターのオフセットである。
-
-相対的な分割サイズと分割数は、次の派生特性として得られる：
-
-$$
-r(T)=\frac{D}{L},
-\qquad
-N(T)=\frac{L}{D}=\frac{1}{r(T)}.
-$$
-
-$r$ と $N$ のいずれも、定量値 $D$ を置き換えるものではない。
-
-
-##### 構造型
-
-次のようにおく：
-
-$$
-\mathcal{K}
-=
-\{
-H,\,
-M,\,
-B,\,
-S_1,\ldots,S_n,\,
-\mathrm{MD}_1,\ldots,\mathrm{MD}_m
-\}
-$$
-
-これは構造型の集合であり、それぞれ次を表す：
-
-- $H$ は大小節を表す。
-- $M$ は小節を表す。
-- $B$ は拍を表す。
-- $S_i$ は細分レベル $i$ を表す。
-- $\mathrm{MD}_i$ は微分割レベル $i$ を表す。
-
-構造型と構造上の出現要素は区別される。$H$ のような記号は型を表し、
-実際の出現要素はグルーヴ木のノードとして表現される。たとえば、2つの
-ノード $h_1$ と $h_2$ が同じ構造型 $H$ を持つ場合がある。
-
-::: {.callout-note title="微分割の定義"}
-微分割とは、適用される記譜体系において、その時間的位置を通常の音価で表現できない、形式的に指定された分割である。
-
-マイクロディヴィジョンはグルーヴ階層に属する。外部的なタイミング補正ではない。
-:::
-
-##### 型付き演算
-
-完全な型付き演算を次のように定義する：
-
-$$
-O_{K;\lambda,\delta,\chi,c},
-$$
-
-ここで：
-
-$$
-K\in\mathcal{K},
-\qquad
-\lambda>0,
-\qquad
-\delta>0,
-$$
-
-$$
-\chi
-\in
-\{
-\mathrm{precentric},
-\mathrm{postcentric}
-\},
-$$
-
-また：
-
-$$
-c=
-\begin{cases}
-0,
-&
-\chi=\mathrm{postcentric},
-\\[4pt]
-c\in\mathbb{R}_{>0},
-&
-\chi=\mathrm{precentric}.
-\end{cases}
-$$
-
-各パラメータの意味は次のとおりである：
-
-- $K$ は構造型のラベルである。
-- $\lambda$ は $L$ のスケーリング比である。
-- $\delta$ は $D$ のスケーリング比である。
-- $\chi$ は中心性の型である。
-- $c$ は、新しい分割を単位として測定したPセンターの変位である。
-
-型付き演算の数値的作用は次のとおりである：
+グルーヴ原則は、次の状態ベクトルによって数量的に表現される：
 
 $$
 \boxed{
-\operatorname{Act}
-\left(
-O_{K;\lambda,\delta,\chi,c},
-(L,D,P)
-\right)
+\mathbf{x}
 =
-\left(
-\lambda L,\,
-\delta D,\,
-P+c\delta D
-\right).
+(L,D,P)^T
+=
+\begin{pmatrix}
+L\\
+D\\
+P
+\end{pmatrix},
+}
+$$
+
+ここで：
+
+- $L\in\mathbb{R}_{>0}$ は全体の持続時間である。
+- $D\in\mathbb{R}_{>0}$ は1つの{{<meta var.DIVISION.ja>}}の持続時間である。
+- $P\in\mathbb{R}$ は{{<meta var.P_CENTER.ja>}}のオフセットである。
+
+相対的な{{<meta var.DIVISION.ja>}}の大きさと{{<meta var.DIVISION.ja>}}数は、次の派生量である：
+
+$$
+r(\mathbf{x})
+=
+\frac{D}{L},
+\qquad
+N(\mathbf{x})
+=
+\frac{L}{D}
+=
+\frac{1}{r(\mathbf{x})}.
+$$
+
+$r$ と $N$ のいずれも、数量的な持続時間 $D$ を置き換えるものではない。
+
+##### 変換行列
+
+数量変換は3つのパラメータを持つ：
+
+$$
+\lambda>0,
+\qquad
+\delta>0,
+\qquad
+c\in\mathbb{R}_{\geq 0}.
+$$
+
+
+入力パラメータの三つ組 $(\lambda,\delta,c)$ において、$\lambda$ は現在のグルーヴ状態の全体の持続時間と既存の{{<meta var.P_CENTER.ja>}}オフセットを拡大・縮小する。$\lambda$ が正の整数である場合、それは反復回数として解釈できる。パラメータ $\delta$ は1つの {{<meta var.DIVISION.ja>}} の持続時間を拡大・縮小する。たとえば、$\delta=\frac12$ は {{<meta var.DIVISION.ja>}} の持続時間を半分にする。パラメータ $c$ は、更新後の{{<meta var.DIVISION.ja>}}の持続時間 $D'=\delta D$ を単位として、オンセットが{{<meta var.P_CENTER.ja>}}よりどれだけ先行するかを指定する。
+
+その行列は次のとおりである：
+
+$$
+\boxed{
+A_{\lambda,\delta,c}
+=
+\begin{pmatrix}
+\lambda & 0 & 0\\
+0 & \delta & 0\\
+0 & c\delta & \lambda
+\end{pmatrix}.
+}
+$$
+
+これは状態ベクトルに直接作用する：
+
+$$
+\boxed{
+\mathbf{x}'
+=
+A_{\lambda,\delta,c}\mathbf{x}
+=
+\begin{pmatrix}
+\lambda L\\
+\delta D\\
+\lambda P+c\delta D
+\end{pmatrix}.
 }
 $$
 
@@ -342,292 +291,244 @@ $$
 
 $$
 L'=\lambda L,
-$$
-
-$$
+\qquad
 D'=\delta D,
+\qquad
+P'=\lambda P+cD'.
 $$
 
-$$
-P'=P+cD'.
-$$
+各パラメータの意味は次のとおりである：
 
-構造ラベル $K$ は数値計算を変化させない。これは、演算がグルーヴ階層内のどこに属するかを記録する。
+- $\lambda$ は全体の持続時間と、既存の{{<meta var.P_CENTER.ja>}}オフセットを拡大・縮小する。
+- $\delta$ は{{<meta var.DIVISION.ja>}}の持続時間を拡大・縮小する。
+- $c$ は、更新後の{{<meta var.DIVISION.ja>}}を単位として、新たな{{<meta var.P_CENTER.ja>}}変位を測る。
 
-派生特性は次のように変換される：
+中心性は $c$ から導出される分類である：
 
 $$
-r'
+\chi(c)
 =
-\frac{\delta}{\lambda}r,
-$$
-
-$$
-N'
-=
-\frac{\lambda}{\delta}N.
-$$
-
-曖昧さが生じない場合、$\operatorname{Act}(O,T)$ を $O(T)$ と表記する。
-
-##### 省略形の型付き演算
-
-中心性は、次の定義によって $c$ から一意に推定できる：
-
-$$
-\chi(c)=
 \begin{cases}
-\mathrm{postcentric},
-&
-c=0,
-\\[4pt]
-\mathrm{precentric},
-&
-c>0.
+\mathrm{postcentric}, & c=0,\\[4pt]
+\mathrm{precentric}, & c>0.
 \end{cases}
 $$
 
-省略形の型付き演算を次のように定義する：
+正規化された初期状態は次のとおりである：
 
 $$
 \boxed{
-\widetilde O_{K;\lambda,\delta,c}
+\mathbf{x}_0
 =
-O_{K;\lambda,\delta,\chi(c),c}.
+(1,1,0)^T.
 }
 $$
 
-省略形の型付き演算全体の集合を $\widetilde{\mathcal O}$ とする。
-
-たとえば：
+::: {.callout-note title="単一変換の確認"}
 
 $$
-\widetilde O_{H;4,1,0}
-$$
-
-は後中心型のハイパーメジャー演算であり、次の演算：
-
-$$
-\widetilde O_{M;3,1,2}
-$$
-
-は、新しい分割2つ分の変位を持つ前中心型の小節演算である。
-
-セミコロンは、構造ラベルと数値パラメータを分離する：
-
-$$
-\widetilde O_{\text{構造型};\text{数値パラメータ}}.
-$$
-
-##### グルーヴ構造
-
-次のようにおく：
-
-$$
-\mathcal{T}
+A_{2,1,0}\mathbf{x}_0
 =
-(V,E,a,\prec,\kappa)
-$$
-
-これは有限で、根を持ち、順序付けられたグルーヴ木である。ここで：
-
-- $V$ は構造上の出現要素の集合である。
-- $E$ は親子関係にある構造関係の集合である。
-- $a$ はアンカーとなる出現要素であり、根である。
-- $\prec$ は比較可能な出現要素間の時間的または構造的順序を記録する。
-- $\kappa:V\to\mathcal K$ は各出現要素に1つの構造型を割り当てる。
-
-したがって、同じ型を共有する複数の出現要素は、互いに異なる同一性を
-保持する。たとえば：
-
-$$
-h_1\neq h_2,
+(2,1,0)^T,
 \qquad
-\kappa(h_1)=\kappa(h_2)=H.
+A_{1,\frac12,0}\mathbf{x}_0
+=
+\left(1,\frac12,0\right)^T,
 $$
 
-アンカー以外の各出現要素には、省略形の型付き演算を1つだけ割り当てる：
+$$
+A_{2,1,1}\mathbf{x}_0
+=
+(2,1,1)^T,
+\qquad
+A_{1,\frac12,1}\mathbf{x}_0
+=
+\left(1,\frac12,\frac12\right)^T.
+$$
+
+:::
+
+##### 位置を表す桁としてのリズム層
+
+多層グルーヴは、次の添字を持つリズム上の位置によって表される：
 
 $$
-\Omega
-:
-V\setminus\{a\}
-\longrightarrow
-\widetilde{\mathcal O},
+i=0,1,\ldots,k.
 $$
+
+この添字は位置を表す。これは、数における数字の桁位置と同じ働きをする。
+10進数では、一の位、十の位、百の位、千の位などの名称は位置を記述するものであり、
+個別の数学的対象を新たに作るものではない。同様に、
+{{<meta var.HYPERMEASURE.ja>}}、小節、拍、{{<meta var.SUBDIVISION.ja>}}、
+{{<meta var.MICRODIVISION.ja>}}といった名称はリズム上の位置を記述するが、
+数量計算には関与しない。
+
+同じラベルを複数の位置で使用してもよい。同じ変換行列が複数回現れてもよい。
+どちらにも、出現ごとの一意な識別子は必要ない。
+
+各位置 $i\geq1$ に対して、次のようにおく：
+
+$$
+A_i
+=
+A_{\lambda_i,\delta_i,c_i}.
+$$
+
+位置 $i$ における状態は次のとおりである：
 
 $$
 \boxed{
-\Omega(v)
+\mathbf{x}_i
 =
-\widetilde O_{\kappa(v);\lambda_v,\delta_v,c_v}.
+A_i\mathbf{x}_{i-1}.
 }
 $$
 
-正規化されたアンカー状態は通常、次のとおりである：
+同値な表現は次のとおりである：
 
 $$
-T_a=(1,1,0).
-$$
-
-値 $1$ は慣習的な基準持続時間であり、アンカーが四分音符であることを
-必須とはしない。
-
-##### 事前定義された演算順序
-
-演算順序は、グルーヴ木から選択された根付き経路によって決まる。次の
-ようにおく：
-
-$$
-\gamma
+\mathbf{x}_i
 =
-(v_0=a,v_1,\ldots,v_k),
+A_iA_{i-1}\cdots A_1\mathbf{x}_0.
 $$
 
-ここで、すべての $i=1,\ldots,k$ について $(v_{i-1},v_i)\in E$ である。
-
-この経路の構造スキーマは次のとおりである：
+完全な数量記述は、すべての層を保持する：
 
 $$
 \boxed{
-\Sigma_\gamma
+\mathbf{X}_{\mathfrak G}
 =
-(\kappa(v_1),\ldots,\kappa(v_k)).
+\begin{bmatrix}
+\mathbf{x}_0&
+\mathbf{x}_1&
+\cdots&
+\mathbf{x}_k
+\end{bmatrix}.
 }
 $$
 
-演算順序はこの経路から継承される：
+したがって、最終状態をグルーヴ全体と同一視しない。最終状態は、多層的な実現を構成する1つの列である。
 
-$$
-\Omega(v_i)
-\prec_{\mathrm{op}}
-\Omega(v_j)
-\quad\Longleftrightarrow\quad
-i<j.
-$$
+{{<meta var.MICRODIVISION.ja>}}とは、適用される記譜体系において、
+その時間的位置を通常の音価で表現できないリズム上の位置である。
+これは同じ数量体系内の位置であり、外部から加えられるタイミング補正ではない。
 
-したがって、演算は左から右へ記述され、適用される。グルーヴ木から
-独立した普遍的な「粗い階層から細かい階層へ」の演算列は存在しない。
+##### グルーヴ方程式の形式的定義
 
-##### 型付き演算列
-
-型付き演算列は、選択された経路上の正準的なノード割り当てから導出される：
+正規化された{{<meta var.GROOVE_EQUATIONS.ja>}}は次のとおりである：
 
 $$
 \boxed{
-\Omega_\gamma
+\mathfrak G
 =
 \left(
-\Omega(v_1),
-\ldots,
-\Omega(v_k)
+\mathbf{x}_0;
+A_1,\ldots,A_k
 \right).
 }
 $$
 
-最も左にある演算が最初に適用される。
-
-$T_{v_0}=T_a$ から開始し、次のように定義する：
+その正規化された数量的実現は次のとおりである：
 
 $$
-T_{v_i}
+\boxed{
+\operatorname{GE}(\mathfrak G)
 =
-\operatorname{Act}
-\left(
-\Omega(v_i),
-T_{v_{i-1}}
-\right).
-$$
-
-演算列全体の評価は次のとおりである：
-
-$$
-\operatorname{Eval}(\Omega_\gamma,T_a)
+\mathbf{X}_{\mathfrak G}
 =
-T_{v_k}.
+\begin{bmatrix}
+\mathbf{x}_0&
+A_1\mathbf{x}_0&
+\cdots&
+A_k\cdots A_1\mathbf{x}_0
+\end{bmatrix}.
+}
 $$
 
-標準的な関数合成を使用すると：
+任意の位置名を列とともに表示してもよいが、それらは $\mathfrak G$ のパラメータではない。
+
+##### 導出結果
+
+###### 行列合成と閉形式評価
+
+2つの変換について、$A_1$ を先に、$A_2$ を後に適用すると次のようになる：
 
 $$
-\operatorname{Eval}(\Omega_\gamma,T_a)
+A_2A_1
 =
-\Omega(v_k)
-\circ\cdots\circ
-\Omega(v_2)
-\circ
-\Omega(v_1)(T_a).
+A_{\lambda_2\lambda_1,\,
+\delta_2\delta_1,\,
+c_2+\frac{\lambda_2}{\delta_2}c_1}.
 $$
 
-同じ順序を矢印で示すと次のようになる：
+$k$ 個の変換に対して、次のように定義する：
 
 $$
-T_a
-\xrightarrow{\Omega(v_1)}
-T_{v_1}
-\xrightarrow{\Omega(v_2)}
-T_{v_2}
-\longrightarrow\cdots\longrightarrow
-T_{v_k}.
-$$
-
-異なる経路上の出現要素が、暗黙のうちに1つの演算列へ結合されることは
-ない。選択された各経路が、それぞれのスキーマと演算列を決定する。
-
-##### 閉形式による評価
-
-選択された経路 $\gamma$ に対して、次のようにおく：
-
-$$
-T_a=(L_0,D_0,P_0)
+\Lambda_k
+=
+\prod_{i=1}^{k}\lambda_i,
+\qquad
+\Delta_k
+=
+\prod_{i=1}^{k}\delta_i,
 $$
 
 また：
 
 $$
-\Omega(v_i)
+Q_k
 =
-\widetilde O_{\kappa(v_i);\lambda_i,\delta_i,c_i}.
-$$
-
-経路の最終状態は次のとおりである：
-
-$$
-L_k
-=
-L_0
-\prod_{i=1}^{k}\lambda_i,
-$$
-
-$$
-D_k
-=
-D_0
-\prod_{i=1}^{k}\delta_i,
-$$
-
-$$
-P_k
-=
-P_0
-+
-D_0
 \sum_{i=1}^{k}
 \left(
 c_i
 \prod_{j=1}^{i}\delta_j
+\prod_{j=i+1}^{k}\lambda_j
 \right).
 $$
 
-したがって：
+このとき：
+
+$$
+\boxed{
+A_k\cdots A_1
+=
+\begin{pmatrix}
+\Lambda_k & 0 & 0\\
+0 & \Delta_k & 0\\
+0 & Q_k & \Lambda_k
+\end{pmatrix}.
+}
+$$
+
+任意の初期状態 $\mathbf{x}_0=(L_0,D_0,P_0)^T$ に対して：
+
+$$
+\boxed{
+\mathbf{x}_k
+=
+\begin{pmatrix}
+\Lambda_kL_0\\
+\Delta_kD_0\\
+\Lambda_kP_0+Q_kD_0
+\end{pmatrix}.
+}
+$$
+
+###### 導出されたリズム尺度
+
+位置 $k$ における{{<meta var.DIVISION.ja>}}の相対的な大きさは次のとおりである：
 
 $$
 r_k
 =
+\frac{D_k}{L_k}
+=
 r_0
 \prod_{i=1}^{k}
-\frac{\delta_i}{\lambda_i},
+\frac{\delta_i}{\lambda_i}.
 $$
+
+{{<meta var.DIVISION.ja>}}数は次のとおりである：
 
 $$
 N_k
@@ -637,383 +538,289 @@ N_0
 \frac{\lambda_i}{\delta_i}.
 $$
 
-##### 可換性
-
-任意の状態 $T$ に対して、$L,D$ への射影は可換である：
+リズム上の各位置について、そのスカラー尺度係数を次のように定義する：
 
 $$
-\pi_{L,D}
-\left(
-(O_2\circ O_1)(T)
-\right)
+\mathrm{base}_i^{n_i}
 =
-\pi_{L,D}
-\left(
-(O_1\circ O_2)(T)
-\right).
+\frac{\delta_i}{\lambda_i}.
 $$
 
-完全な変換は必ずしも可換ではない。Pセンターの変位が、その時点の分割持続時間に依存するためである：
+このとき：
 
 $$
-(O_2\circ O_1)(T)
-\neq
-(O_1\circ O_2)(T)
+\boxed{
+r_k
+=
+r_0
+\prod_{i=1}^{k}
+\mathrm{base}_i^{n_i}.
+}
 $$
 
-これは一般に成立する。
+正規化された初期状態では $r_0=1$ であるため、従来のスカラー形式は次のようになる：
 
-純粋な後中心型のスケーリング演算は、次の条件により可換である：
+$$
+\boxed{
+R
+=
+\prod_{i=1}^{k}
+\mathrm{base}_i^{n_i}.
+}
+$$
+
+このスカラー積は、相対的なリズム尺度を記録する。
+{{<meta var.P_CENTER.ja>}}の変位は記録せず、その情報は行列による実現に保持される。
+
+###### 可換性
+
+$L,D$ 成分は、それぞれの尺度係数が積によって結合されるため可換である。
+完全な変換が可換となるための必要十分条件は次のとおりである：
+
+$$
+\boxed{
+c_1\delta_1(\lambda_2-\delta_2)
+=
+c_2\delta_2(\lambda_1-\delta_1).
+}
+$$
+
+一般には可換ではない。{{<meta var.P_CENTER.ja>}}成分が、
+既存の{{<meta var.P_CENTER.ja>}}オフセットと現在の{{<meta var.DIVISION.ja>}}持続時間の
+両方に依存するためである。
+
+純粋な{{<meta var.POSTCENTRIC.ja>}}変換は、次の条件により可換である：
 
 $$
 c_1=c_2=0.
 $$
 
-演算が数値的に可換である場合でも、その構造的順序はグルーヴ記述の一部として保持される。
+###### 層の閉包と時間的実現
 
-##### 境界での振る舞い
-
-分割を持つ各出現要素には、次の境界規則を設定できる：
+層の状態 $\mathbf{x}_i=(L_i,D_i,P_i)^T$ に対して、次を仮定する：
 
 $$
-\beta
-:
-V
-\longrightarrow
-\{
-\mathrm{reset},
-\mathrm{continuous}
-\}.
+N_i
+=
+\frac{L_i}{D_i}
+=
+\frac{p}{q}
 $$
 
-次の式が既約分数で表されている場合：
-
-$$
-N=\frac{L}{D}=\frac{p}{q},
-$$
-
-連続する分割は、次の条件で親要素と再び整列する：
+ここで、$\frac{p}{q}$ は既約分数である。その{{<meta var.DIVISION.ja>}}は、
+次の条件で全体の持続時間と再び整列する：
 
 $$
 \boxed{
-qL=pD.
+qL_i=pD_i.
 }
 $$
 
 したがって：
 
 $$
-N\in\mathbb{N}
+N_i\in\mathbb{N}
 \quad\Rightarrow\quad
-\text{単一の親出現要素内で閉じる},
+\text{1つの全体持続時間内で閉じる},
 $$
 
 $$
-N\in\mathbb{Q}_{>0}
+N_i\in\mathbb{Q}_{>0}
 \quad\Rightarrow\quad
-\text{複数の出現要素にまたがって有限回で閉じる},
+\text{複数の持続時間をまたいで有限回で閉じる},
 $$
 
 $$
-N\in
+N_i\in
 \mathbb{R}_{>0}\setminus\mathbb{Q}
 \quad\Rightarrow\quad
 \text{厳密には閉じない}.
 $$
 
-##### 時間的実現
-
 正規化された値 $1$ は、抽象的な基準持続時間である。
-
-$\tau>0$ を、その具体的な持続時間として指定する。次のように定義する：
-
-$$
-R_\tau(L,D,P)
-=
-(\tau L,\tau D,\tau P).
-$$
-
-アンカーを慣習的に四分音符の拍として解釈する場合、$\tau$ はその四分音符の
-拍の持続時間である。
-
-##### グルーヴ方程式の形式的定義
-
-正規化されたグルーヴ方程式は次のとおりである：
+$\tau>0$ に対する具体的な時間的実現は次のとおりである：
 
 $$
 \boxed{
-\mathfrak{G}
+\operatorname{GE}_{\tau}(\mathfrak G)
 =
-\left(
-\mathcal{T},\,
-T_a,\,
-\Omega,\,
-\beta
-\right).
+\tau\mathbf{X}_{\mathfrak G}.
 }
 $$
 
-その数値的実現は次のとおりである：
+正規化されたアンカーを四分音符の拍として解釈する場合、
+$\tau$ はその拍の具体的な持続時間である。
 
-$$
-\boxed{
-\operatorname{GE}_\tau(\mathfrak{G})
-=
-\left(
-R_\tau(T_v)
-\right)_{v\in V}.
-}
-$$
-
-ここで、各 $T_v$ はそのノードに至る一意な根付き経路に沿って評価され、
-境界を越える継続方法は $\beta$ によって決定される。
-
-数値的に同一の実現であっても、構造的に同一のグルーヴであるとは限らない：
-
-$$
-\boxed{
-\operatorname{GE}_\tau(\mathfrak{G}_1)
-=
-\operatorname{GE}_\tau(\mathfrak{G}_2)
-\nRightarrow
-\mathfrak{G}_1
-=
-\mathfrak{G}_2.
-}
-$$
-
-したがって、グルーヴ方程式は次の要素から構成される：
-
-$$
-\boxed{
-\text{グルーヴ木}
-+
-\text{型付きノード演算の割り当て}
-+
-\text{境界での振る舞い}
-+
-\text{数値的実現}.
-}
-$$
-
-##### 例：Near the Cross
+##### 例：「Near the Cross」
 
 <div class="center-box"><iframe width="560" height="315" src="https://www.youtube.com/embed/JdhUcR_MbTw?si=UzrCtMxmUPJAqqwj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
-関連するアンカー以外の出現要素を次のようにおく：
+正規化された初期状態を使用する：
 
 $$
-V_{\text{Near the Cross}}\setminus\{a\}
+\mathbf{x}_0
 =
-\{h_1,h_2,m,b,s_1\}.
+(1,1,0)^T.
 $$
 
-それぞれの構造型は次のとおりである：
+任意の位置名のラベルは次のとおりである：
 
 $$
-\kappa(h_1)=\kappa(h_2)=H,
-\qquad
-\kappa(m)=M,
-\qquad
-\kappa(b)=B,
-\qquad
-\kappa(s_1)=S_1.
+(H,H,M,B,S_1).
 $$
 
-ノード演算の割り当てを次のように定義する：
+これらは列ラベルにすぎない。繰り返される $H$ は、個別のノード同一性を導入しない。
+
+5つの変換行列は次のとおりである：
 
 $$
-\begin{aligned}
-\Omega_{\text{Near the Cross}}(h_1)
-&=
-\widetilde O_{H;4,1,0},
-\\
-\Omega_{\text{Near the Cross}}(h_2)
-&=
-\widetilde O_{H;8,1,0},
-\\
-\Omega_{\text{Near the Cross}}(m)
-&=
-\widetilde O_{M;3,1,2},
-\\
-\Omega_{\text{Near the Cross}}(b)
-&=
-\widetilde O_{B;1,\frac13,2},
-\\
-\Omega_{\text{Near the Cross}}(s_1)
-&=
-\widetilde O_{S_1;1,\frac13,2}.
-\end{aligned}
+\left(
+A_{4,1,0},\,
+A_{8,1,0},\,
+A_{3,1,2},\,
+A_{1,\frac13,2},\,
+A_{1,\frac13,2}
+\right).
 $$
 
-これらの割り当てだけでは、5つすべての演算が1つの線形な演算列に属する
-とは限らない。グルーヴ木が次の根付き経路を定める場合：
+同じ行列が最後の2つの位置に現れるが、2つ目の数学的な型や同一性を必要としない。
+
+逐次評価すると次のようになる：
 
 $$
-\gamma
+\mathbf{x}_1
 =
-(a,h_1,h_2,m,b,s_1),
+(4,1,0)^T,
 $$
 
-この経路から次の演算列が導出される：
+$$
+\mathbf{x}_2
+=
+(32,1,0)^T,
+$$
+
+$$
+\mathbf{x}_3
+=
+(96,1,2)^T,
+$$
+
+$$
+\mathbf{x}_4
+=
+\left(96,\frac13,\frac83\right)^T,
+$$
+
+$$
+\mathbf{x}_5
+=
+\left(96,\frac19,\frac{26}{9}\right)^T.
+$$
+
+したがって、完全な数量的実現は次のとおりである：
 
 $$
 \boxed{
-\Omega_\gamma
+\mathbf{X}_{\text{Near the Cross}}
 =
-\left(
-\widetilde O_{H;4,1,0},\,
-\widetilde O_{H;8,1,0},\,
-\widetilde O_{M;3,1,2},\,
-\widetilde O_{B;1,\frac13,2},\,
-\widetilde O_{S_1;1,\frac13,2}
-\right).
+\begin{pmatrix}
+1 & 4 & 32 & 96 & 96 & 96\\
+1 & 1 & 1 & 1 & \frac13 & \frac19\\
+0 & 0 & 0 & 2 & \frac83 & \frac{26}{9}
+\end{pmatrix}.
 }
 $$
-
-$h_1$ と $h_2$ が連続する兄弟ノードである場合、その順序は
-$h_1\prec h_2$ または $h_2\prec h_1$ として記録される。両者が代替関係に
-ある場合、$\prec$ の下では比較不能である。いずれの場合も、両者は別々の
-根付き経路上にあり、暗黙のうちに積として結合されることはない。経路から
-導出された演算列は、選択された経路の評価順序だけを記録する。
-
 
 
 #### Groove Equation
 
 グルーヴ方程式の英語での形式的な定義は次の通りです。
 
-The formal definition of the Groove Equation is as follows.
+The Groove Equation gives a quantitative description of rhythmic scale,
+division duration, and P-center displacement across multiple rhythmic layers.
 
-##### Quantitative Representation of a Groove Principle
+##### {{<meta var.QUANTITATIVE_REPRESENTATION_OF_A_GROOVE_PRINCIPLE.en>}}
 
-A Groove Principle is quantitatively represented by:
-
-$$
-T=(L,D,P)
-\in
-\mathbb{R}_{>0}
-\times
-\mathbb{R}_{>0}
-\times
-\mathbb{R},
-$$
-
-where:
-
-- $L$ is the total duration.
-- $D$ is the quantitative duration of one division.
-- $P$ is the P-center offset.
-
-The relative division size and number of divisions are derived properties:
-
-$$
-r(T)=\frac{D}{L},
-\qquad
-N(T)=\frac{L}{D}=\frac{1}{r(T)}.
-$$
-
-Neither $r$ nor $N$ replaces the quantitative value $D$.
-
-##### Structural types
-
-Let:
-
-$$
-\mathcal{K}
-=
-\{
-H,\,
-M,\,
-B,\,
-S_1,\ldots,S_n,\,
-\mathrm{MD}_1,\ldots,\mathrm{MD}_m
-\}
-$$
-
-be the collection of structural types, where:
-
-- $H$ represents a hypermeasure.
-- $M$ represents a measure.
-- $B$ represents a beat.
-- $S_i$ represents subdivision level $i$.
-- $\mathrm{MD}_i$ represents microdivision level $i$.
-
-Structural types and structural occurrences are distinct. A symbol such as $H$
-denotes a type; actual occurrences are represented by nodes of the groove tree.
-For example, two nodes $h_1$ and $h_2$ may both have the structural type $H$.
-
-A microdivision is defined as follows:
-
-> A microdivision is a formally specified division whose temporal positions cannot be expressed as ordinary note values in the applicable notation system.
-
-A microdivision belongs to the groove hierarchy. It is not an external timing correction.
-
-##### Typed operation
-
-A complete typed operation is:
-
-$$
-O_{K;\lambda,\delta,\chi,c},
-$$
-
-where:
-
-$$
-K\in\mathcal{K},
-\qquad
-\lambda>0,
-\qquad
-\delta>0,
-$$
-
-$$
-\chi
-\in
-\{
-\mathrm{precentric},
-\mathrm{postcentric}
-\},
-$$
-
-and:
-
-$$
-c=
-\begin{cases}
-0,
-&
-\chi=\mathrm{postcentric},
-\\[4pt]
-c\in\mathbb{R}_{>0},
-&
-\chi=\mathrm{precentric}.
-\end{cases}
-$$
-
-The parameters have the following meanings:
-
-- $K$ is the structural type label.
-- $\lambda$ is the scaling ratio of $L$.
-- $\delta$ is the scaling ratio of $D$.
-- $\chi$ is the centricity type.
-- $c$ is the P-center displacement measured in new divisions.
-
-The numerical action of the typed operation is:
+A Groove Principle is quantitatively represented by the following state vector:
 
 $$
 \boxed{
-\operatorname{Act}
-\left(
-O_{K;\lambda,\delta,\chi,c},
-(L,D,P)
-\right)
+\mathbf{x}
 =
-\left(
-\lambda L,\,
-\delta D,\,
-P+c\delta D
-\right).
+(L,D,P)^T
+=
+\begin{pmatrix}
+L\\
+D\\
+P
+\end{pmatrix},
+}
+$$
+
+where:
+
+- $L\in\mathbb{R}_{>0}$ is the total duration.
+- $D\in\mathbb{R}_{>0}$ is the duration of one division.
+- $P\in\mathbb{R}$ is the P-center offset.
+
+The relative division size and the number of divisions are derived quantities:
+
+$$
+r(\mathbf{x})
+=
+\frac{D}{L},
+\qquad
+N(\mathbf{x})
+=
+\frac{L}{D}
+=
+\frac{1}{r(\mathbf{x})}.
+$$
+
+Neither $r$ nor $N$ replaces the quantitative duration $D$.
+
+##### Transformation Matrix
+
+A quantitative transformation has three parameters:
+
+$$
+\lambda>0,
+\qquad
+\delta>0,
+\qquad
+c\in\mathbb{R}_{\geq 0}.
+$$
+
+In the input parameter triple $(\lambda,\delta,c)$, $\lambda$ scales the total duration of the current groove state and its existing P-center offset. When $\lambda$ is a positive integer, it can be interpreted as the number of repetitions. The parameter $\delta$ scales the duration of one division; for example, $\delta=\frac12$ halves the division duration. The parameter $c$ specifies how far the onset precedes the P-center, measured in units of the updated division duration $D'=\delta D$.
+
+
+Its matrix is:
+
+$$
+\boxed{
+A_{\lambda,\delta,c}
+=
+\begin{pmatrix}
+\lambda & 0 & 0\\
+0 & \delta & 0\\
+0 & c\delta & \lambda
+\end{pmatrix}.
+}
+$$
+
+It acts directly on the state vector:
+
+$$
+\boxed{
+\mathbf{x}'
+=
+A_{\lambda,\delta,c}\mathbf{x}
+=
+\begin{pmatrix}
+\lambda L\\
+\delta D\\
+\lambda P+c\delta D
+\end{pmatrix}.
 }
 $$
 
@@ -1021,294 +828,247 @@ Therefore:
 
 $$
 L'=\lambda L,
-$$
-
-$$
+\qquad
 D'=\delta D,
+\qquad
+P'=\lambda P+cD'.
 $$
 
-$$
-P'=P+cD'.
-$$
+The parameters mean:
 
-The structural label $K$ does not change the numerical calculation. It records where the operation belongs in the groove hierarchy.
+- $\lambda$ scales the total duration and the existing P-center offset.
+- $\delta$ scales the division duration.
+- $c$ measures the new P-center displacement in updated divisions.
 
-The derived properties transform as:
+Centricity is a classification derived from $c$:
 
 $$
-r'
+\chi(c)
 =
-\frac{\delta}{\lambda}r,
-$$
-
-$$
-N'
-=
-\frac{\lambda}{\delta}N.
-$$
-
-When no ambiguity can result, write $O(T)$ for
-$\operatorname{Act}(O,T)$.
-
-##### Abbreviated typed operation
-
-Centricity may be inferred uniquely from $c$ by defining:
-
-$$
-\chi(c)=
 \begin{cases}
-\mathrm{postcentric},
-&
-c=0,
-\\[4pt]
-\mathrm{precentric},
-&
-c>0.
+\mathrm{postcentric}, & c=0,\\[4pt]
+\mathrm{precentric}, & c>0.
 \end{cases}
 $$
 
-The abbreviated typed operation is:
+The normalized initial state is:
 
 $$
 \boxed{
-\widetilde O_{K;\lambda,\delta,c}
+\mathbf{x}_0
 =
-O_{K;\lambda,\delta,\chi(c),c}.
+(1,1,0)^T.
 }
 $$
 
-Let $\widetilde{\mathcal O}$ denote the collection of all abbreviated typed
-operations.
-
-For example:
+::: {.callout-note title="Single-operation checks"}
 
 $$
-\widetilde O_{H;4,1,0}
-$$
-
-is a postcentric hypermeasure operation, while:
-
-$$
-\widetilde O_{M;3,1,2}
-$$
-
-is a precentric measure operation with a displacement of two new divisions.
-
-The semicolon separates the structural label from the numerical parameters:
-
-$$
-\widetilde O_{\text{structural type};\text{numerical parameters}}.
-$$
-
-##### Groove structure
-
-Let:
-
-$$
-\mathcal{T}
+A_{2,1,0}\mathbf{x}_0
 =
-(V,E,a,\prec,\kappa)
-$$
-
-be a finite rooted and ordered groove tree, where:
-
-- $V$ is the collection of structural occurrences.
-- $E$ is the collection of parent--child structural relations.
-- $a$ is the anchor occurrence and root.
-- $\prec$ records temporal or structural order among comparable occurrences.
-- $\kappa:V\to\mathcal K$ assigns one structural type to each occurrence.
-
-Thus, repeated occurrences retain separate identities while sharing a type. For
-example:
-
-$$
-h_1\neq h_2,
+(2,1,0)^T,
 \qquad
-\kappa(h_1)=\kappa(h_2)=H.
+A_{1,\frac12,0}\mathbf{x}_0
+=
+\left(1,\frac12,0\right)^T,
 $$
 
-Each non-anchor occurrence is assigned exactly one abbreviated typed operation:
+$$
+A_{2,1,1}\mathbf{x}_0
+=
+(2,1,1)^T,
+\qquad
+A_{1,\frac12,1}\mathbf{x}_0
+=
+\left(1,\frac12,\frac12\right)^T.
+$$
+
+:::
+
+##### Rhythmic Layers as Positional Places
+
+A multi-layer groove is represented by rhythmic places indexed by:
 
 $$
-\Omega
-:
-V\setminus\{a\}
-\longrightarrow
-\widetilde{\mathcal O},
+i=0,1,\ldots,k.
 $$
+
+The index is positional. It functions like the position of a digit in a
+numeral. In a decimal numeral, names such as ones, tens, hundreds, and
+thousands describe places; they do not create separate mathematical objects.
+Likewise, names such as hypermeasure, measure, beat, subdivision, and
+microdivision describe rhythmic places but do not participate in the
+quantitative calculation.
+
+The same label may be used at more than one place. The same transformation
+matrix may also occur more than once. Neither requires a unique occurrence
+identifier.
+
+For each place $i\geq1$, let:
+
+$$
+A_i
+=
+A_{\lambda_i,\delta_i,c_i}.
+$$
+
+The state at place $i$ is:
 
 $$
 \boxed{
-\Omega(v)
+\mathbf{x}_i
 =
-\widetilde O_{\kappa(v);\lambda_v,\delta_v,c_v}.
+A_i\mathbf{x}_{i-1}.
 }
 $$
 
-The normalized anchor state is normally:
+Equivalently:
 
 $$
-T_a=(1,1,0).
-$$
-
-The value $1$ is a conventional reference duration; it does not require the
-anchor to be a quarter note.
-
-##### Predefined operation order
-
-Operation order is derived from a selected rooted path in the groove tree. Let:
-
-$$
-\gamma
+\mathbf{x}_i
 =
-(v_0=a,v_1,\ldots,v_k),
+A_iA_{i-1}\cdots A_1\mathbf{x}_0.
 $$
 
-where $(v_{i-1},v_i)\in E$ for every $i=1,\ldots,k$.
-
-The structural schema of the path is:
+The complete quantitative description retains every layer:
 
 $$
 \boxed{
-\Sigma_\gamma
+\mathbf{X}_{\mathfrak G}
 =
-(\kappa(v_1),\ldots,\kappa(v_k)).
+\begin{bmatrix}
+\mathbf{x}_0&
+\mathbf{x}_1&
+\cdots&
+\mathbf{x}_k
+\end{bmatrix}.
 }
 $$
 
-Its operation order is inherited from the path:
+Thus, the final state is not identified with the complete groove. It is one
+column of the multi-layer realization.
 
-$$
-\Omega(v_i)
-\prec_{\mathrm{op}}
-\Omega(v_j)
-\quad\Longleftrightarrow\quad
-i<j.
-$$
+A microdivision is a rhythmic place whose temporal positions cannot be
+expressed as ordinary note values in the applicable notation system. It is a
+place in the same quantitative system, not an external timing correction.
 
-Thus, operations are written and applied from left to right. There is no
-universal coarse-to-fine word independent of the groove tree.
+##### Formal Definition of the Groove Equation
 
-##### Typed operation word
-
-A typed operation word is derived from the canonical node assignment along the
-selected path:
+A normalized Groove Equation is:
 
 $$
 \boxed{
-\Omega_\gamma
+\mathfrak G
 =
 \left(
-\Omega(v_1),
-\ldots,
-\Omega(v_k)
+\mathbf{x}_0;
+A_1,\ldots,A_k
 \right).
 }
 $$
 
-The leftmost operation is applied first.
-
-Starting with $T_{v_0}=T_a$, define:
+Its normalized quantitative realization is:
 
 $$
-T_{v_i}
+\boxed{
+\operatorname{GE}(\mathfrak G)
 =
-\operatorname{Act}
-\left(
-\Omega(v_i),
-T_{v_{i-1}}
-\right).
-$$
-
-The evaluation of the complete operation word is:
-
-$$
-\operatorname{Eval}(\Omega_\gamma,T_a)
+\mathbf{X}_{\mathfrak G}
 =
-T_{v_k}.
+\begin{bmatrix}
+\mathbf{x}_0&
+A_1\mathbf{x}_0&
+\cdots&
+A_k\cdots A_1\mathbf{x}_0
+\end{bmatrix}.
+}
 $$
 
-Using standard function composition:
+Optional place names may be displayed with the columns, but they are not
+parameters of $\mathfrak G$.
+
+##### Derived Results
+
+###### Matrix Composition and Closed-Form Evaluation
+
+For two transformations, applying $A_1$ first and $A_2$ second gives:
 
 $$
-\operatorname{Eval}(\Omega_\gamma,T_a)
+A_2A_1
 =
-\Omega(v_k)
-\circ\cdots\circ
-\Omega(v_2)
-\circ
-\Omega(v_1)(T_a).
+A_{\lambda_2\lambda_1,\,
+\delta_2\delta_1,\,
+c_2+\frac{\lambda_2}{\delta_2}c_1}.
 $$
 
-The same order can be shown with arrows:
+For $k$ transformations, define:
 
 $$
-T_a
-\xrightarrow{\Omega(v_1)}
-T_{v_1}
-\xrightarrow{\Omega(v_2)}
-T_{v_2}
-\longrightarrow\cdots\longrightarrow
-T_{v_k}.
-$$
-
-Occurrences on different paths are not silently combined into one operation
-word. Each selected path determines its own schema and operation word.
-
-##### Closed-form evaluation
-
-For a selected path $\gamma$, write:
-
-$$
-T_a=(L_0,D_0,P_0)
+\Lambda_k
+=
+\prod_{i=1}^{k}\lambda_i,
+\qquad
+\Delta_k
+=
+\prod_{i=1}^{k}\delta_i,
 $$
 
 and:
 
 $$
-\Omega(v_i)
+Q_k
 =
-\widetilde O_{\kappa(v_i);\lambda_i,\delta_i,c_i}.
-$$
-
-The final path state is:
-
-$$
-L_k
-=
-L_0
-\prod_{i=1}^{k}\lambda_i,
-$$
-
-$$
-D_k
-=
-D_0
-\prod_{i=1}^{k}\delta_i,
-$$
-
-$$
-P_k
-=
-P_0
-+
-D_0
 \sum_{i=1}^{k}
 \left(
 c_i
 \prod_{j=1}^{i}\delta_j
+\prod_{j=i+1}^{k}\lambda_j
 \right).
 $$
 
-Consequently:
+Then:
+
+$$
+\boxed{
+A_k\cdots A_1
+=
+\begin{pmatrix}
+\Lambda_k & 0 & 0\\
+0 & \Delta_k & 0\\
+0 & Q_k & \Lambda_k
+\end{pmatrix}.
+}
+$$
+
+For an arbitrary initial state $\mathbf{x}_0=(L_0,D_0,P_0)^T$:
+
+$$
+\boxed{
+\mathbf{x}_k
+=
+\begin{pmatrix}
+\Lambda_kL_0\\
+\Delta_kD_0\\
+\Lambda_kP_0+Q_kD_0
+\end{pmatrix}.
+}
+$$
+
+###### Derived Rhythmic Scale
+
+The relative division size at place $k$ is:
 
 $$
 r_k
 =
+\frac{D_k}{L_k}
+=
 r_0
 \prod_{i=1}^{k}
-\frac{\delta_i}{\lambda_i},
+\frac{\delta_i}{\lambda_i}.
 $$
+
+The number of divisions is:
 
 $$
 N_k
@@ -1318,246 +1078,198 @@ N_0
 \frac{\lambda_i}{\delta_i}.
 $$
 
-##### Commutativity
-
-For any state $T$, the $L,D$ projection is commutative:
+For each rhythmic place, define its scalar scale factor by:
 
 $$
-\pi_{L,D}
-\left(
-(O_2\circ O_1)(T)
-\right)
+\mathrm{base}_i^{n_i}
 =
-\pi_{L,D}
-\left(
-(O_1\circ O_2)(T)
-\right).
+\frac{\delta_i}{\lambda_i}.
 $$
 
-The complete transformation is not necessarily commutative because P-center displacement depends on the current division duration:
+Then:
 
 $$
-(O_2\circ O_1)(T)
-\neq
-(O_1\circ O_2)(T)
+\boxed{
+r_k
+=
+r_0
+\prod_{i=1}^{k}
+\mathrm{base}_i^{n_i}.
+}
 $$
 
-in general.
+Under the normalized initial state, $r_0=1$, so the earlier scalar form becomes:
 
-Pure postcentric scaling operations commute because:
+$$
+\boxed{
+R
+=
+\prod_{i=1}^{k}
+\mathrm{base}_i^{n_i}.
+}
+$$
+
+This scalar product records relative rhythmic scale. It does not record
+P-center displacement; that information remains in the matrix realization.
+
+###### Commutativity
+
+The $L,D$ components commute because their scale factors multiply. The
+complete transformations commute exactly when:
+
+$$
+\boxed{
+c_1\delta_1(\lambda_2-\delta_2)
+=
+c_2\delta_2(\lambda_1-\delta_1).
+}
+$$
+
+They do not commute in general because the P-center component depends on both
+the existing P-center offset and the current division duration.
+
+Pure postcentric transformations commute because:
 
 $$
 c_1=c_2=0.
 $$
 
-Even when operations commute numerically, their structural order remains part of the groove description.
+###### Layer Closure and Temporal Realization
 
-##### Boundary behavior
-
-Each division-bearing occurrence may have a boundary rule:
+For a layer state $\mathbf{x}_i=(L_i,D_i,P_i)^T$, suppose:
 
 $$
-\beta
-:
-V
-\longrightarrow
-\{
-\mathrm{reset},
-\mathrm{continuous}
-\}.
+N_i
+=
+\frac{L_i}{D_i}
+=
+\frac{p}{q}
 $$
 
-If:
-
-$$
-N=\frac{L}{D}=\frac{p}{q}
-$$
-
-in lowest terms, a continuous division realigns with its parent after:
+in lowest terms. Its division realigns with the total duration when:
 
 $$
 \boxed{
-qL=pD.
+qL_i=pD_i.
 }
 $$
 
 Therefore:
 
 $$
-N\in\mathbb{N}
+N_i\in\mathbb{N}
 \quad\Rightarrow\quad
-\text{closure within one parent occurrence},
+\text{closure within one total duration},
 $$
 
 $$
-N\in\mathbb{Q}_{>0}
+N_i\in\mathbb{Q}_{>0}
 \quad\Rightarrow\quad
-\text{finite cross-occurrence closure},
+\text{finite cross-duration closure},
 $$
 
 $$
-N\in
+N_i\in
 \mathbb{R}_{>0}\setminus\mathbb{Q}
 \quad\Rightarrow\quad
 \text{no exact closure}.
 $$
 
-##### Temporal realization
-
-The normalized value $1$ is an abstract reference duration.
-
-Let $\tau>0$ specify its concrete duration. Define:
-
-$$
-R_\tau(L,D,P)
-=
-(\tau L,\tau D,\tau P).
-$$
-
-If the anchor is conventionally interpreted as a quarter-note beat, then
-$\tau$ is the duration of that quarter-note beat.
-
-##### Formal definition of the Groove Equation
-
-The normalized Groove Equation is:
+The normalized value $1$ is an abstract reference duration. For $\tau>0$, the
+concrete temporal realization is:
 
 $$
 \boxed{
-\mathfrak{G}
+\operatorname{GE}_{\tau}(\mathfrak G)
 =
-\left(
-\mathcal{T},\,
-T_a,\,
-\Omega,\,
-\beta
-\right).
+\tau\mathbf{X}_{\mathfrak G}.
 }
 $$
 
-Its numerical realization is:
-
-$$
-\boxed{
-\operatorname{GE}_\tau(\mathfrak{G})
-=
-\left(
-R_\tau(T_v)
-\right)_{v\in V}.
-}
-$$
-
-Here, each $T_v$ is evaluated along its unique rooted path, with continuation
-across boundaries governed by $\beta$.
-
-Numerically identical realizations do not necessarily imply structurally identical grooves:
-
-$$
-\boxed{
-\operatorname{GE}_\tau(\mathfrak{G}_1)
-=
-\operatorname{GE}_\tau(\mathfrak{G}_2)
-\nRightarrow
-\mathfrak{G}_1
-=
-\mathfrak{G}_2.
-}
-$$
-
-Thus, the Groove Equation consists of:
-
-$$
-\boxed{
-\text{groove tree}
-+
-\text{typed node-operation assignment}
-+
-\text{boundary behavior}
-+
-\text{numerical realization}.
-}
-$$
+If the normalized anchor is interpreted as a quarter-note beat, then $\tau$ is
+the concrete duration of that beat.
 
 ##### Example: “Near the Cross”
 
 <div class="center-box"><iframe width="560" height="315" src="https://www.youtube.com/embed/JdhUcR_MbTw?si=UzrCtMxmUPJAqqwj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
-Let the relevant non-anchor occurrences be:
+Use the normalized initial state:
 
 $$
-V_{\text{Near the Cross}}\setminus\{a\}
+\mathbf{x}_0
 =
-\{h_1,h_2,m,b,s_1\}.
+(1,1,0)^T.
 $$
 
-Their structural types are:
+The optional place-name labels are:
 
 $$
-\kappa(h_1)=\kappa(h_2)=H,
-\qquad
-\kappa(m)=M,
-\qquad
-\kappa(b)=B,
-\qquad
-\kappa(s_1)=S_1.
+(H,H,M,B,S_1).
 $$
 
-Define the node-operation assignment:
+They are column labels only. The repeated $H$ does not introduce separate node
+identities.
+
+The five transformation matrices are:
 
 $$
-\begin{aligned}
-\Omega_{\text{Near the Cross}}(h_1)
-&=
-\widetilde O_{H;4,1,0},
-\\
-\Omega_{\text{Near the Cross}}(h_2)
-&=
-\widetilde O_{H;8,1,0},
-\\
-\Omega_{\text{Near the Cross}}(m)
-&=
-\widetilde O_{M;3,1,2},
-\\
-\Omega_{\text{Near the Cross}}(b)
-&=
-\widetilde O_{B;1,\frac13,2},
-\\
-\Omega_{\text{Near the Cross}}(s_1)
-&=
-\widetilde O_{S_1;1,\frac13,2}.
-\end{aligned}
+\left(
+A_{4,1,0},\,
+A_{8,1,0},\,
+A_{3,1,2},\,
+A_{1,\frac13,2},\,
+A_{1,\frac13,2}
+\right).
 $$
 
-These assignments alone do not assert that all five operations belong to one
-linear word. If the groove tree declares the rooted path:
+The same matrix appears at the last two places without requiring a second
+mathematical type or identity.
+
+Successive evaluation gives:
 
 $$
-\gamma
+\mathbf{x}_1
 =
-(a,h_1,h_2,m,b,s_1),
+(4,1,0)^T,
 $$
 
-then its derived operation word is:
+$$
+\mathbf{x}_2
+=
+(32,1,0)^T,
+$$
+
+$$
+\mathbf{x}_3
+=
+(96,1,2)^T,
+$$
+
+$$
+\mathbf{x}_4
+=
+\left(96,\frac13,\frac83\right)^T,
+$$
+
+$$
+\mathbf{x}_5
+=
+\left(96,\frac19,\frac{26}{9}\right)^T.
+$$
+
+Therefore, the complete quantitative realization is:
 
 $$
 \boxed{
-\Omega_\gamma
+\mathbf{X}_{\text{Near the Cross}}
 =
-\left(
-\widetilde O_{H;4,1,0},\,
-\widetilde O_{H;8,1,0},\,
-\widetilde O_{M;3,1,2},\,
-\widetilde O_{B;1,\frac13,2},\,
-\widetilde O_{S_1;1,\frac13,2}
-\right).
+\begin{pmatrix}
+1 & 4 & 32 & 96 & 96 & 96\\
+1 & 1 & 1 & 1 & \frac13 & \frac19\\
+0 & 0 & 0 & 2 & \frac83 & \frac{26}{9}
+\end{pmatrix}.
 }
 $$
-
-If $h_1$ and $h_2$ are consecutive siblings, their order is recorded by
-$h_1\prec h_2$ or $h_2\prec h_1$. If they are alternatives, they are
-incomparable under $\prec$. In either case, they occur on separate rooted paths
-and are not multiplied together by default. The path-derived word records only
-the evaluation order of its selected path.
-
 
 ### グルーヴ九大原則一覧表
 
@@ -2900,303 +2612,6 @@ music</span>
 
 しかし、こうしたギャップを少しでも埋めるための方法として、オフビートカウント練習が考案されました。もしも『本格的』な英語リズムを身につけたい、あるいはジャズやクラシック、R&Bをより本格的に演奏したいと願うのであれば、縦乗りと横乗りの違いを理解し、適切な練習を通じてその差を意識的に補う必要があるでしょう。
 
-
-## 何故日本人には縦乗りではない人もいるのか
-
-関西のジャズシーンは、インチキ中華料理と同じだ。そのことを関西の人でも判るように説明してみようと思う。
-
-### 羊頭狗肉
-
-2009年に初めてベルリンに行ったとき、タイ料理屋がいっぱいあることに気付いた。それで私はその時すでに5年くらいタイ放浪したあとで、タイ語が話せるようになっていたので、勇んでタイ料理屋に入って話しかけた。そうしたら店主はタイ語が話せない人だった。要するに中国人だった。料理は全くタイ料理ではなかったし、タイで見たことがない料理ばかりだった。
-
-店主の中国人に「てめーこれのどこがタイ料理なんだよ！明らかに中華だろ！」と文句を言おうと思ったけど、料理は明らかに中華料理としては美味かったので、黙って食べて帰ってきた。味は決して悪くなかった。 その後もその料理屋には何度か行った。
-
-ベルリンには日本料理屋もたくさんあったが、どれもこれも中国人がやってる店で、明らかに日本料理ではない料理を出していた。
-
-### 中華料理屋の店名の決め方
-
-以前ビエンチャンに『昆明飯店』という中華料理屋があった。 大変に美味い麻婆豆腐を出す店でご飯食べ放題で、私は大好きだった。ビエンチャンに行った時は必ず寄っていた店だった。
-
-当時私は既に昆明に何度か行ったことがあったのだけど、出している料理は明らかに昆明のダイルー料理・昆明名物米線とは違う。明らかに超美味い本格四川麻婆豆腐屋だった。 何度も通って店主となかよくなった後で店主に「何で昆明飯店という名前にしたの？」と訊いてみた。そうしたら意外な答えが返ってきた。
-
-ビエンチャンには四川人がほとんどいない。だけどビエンチャンには昆明人が働きに来ていることが多い。だから『四川料理屋』と書くとみんな店に入ってくれないので『昆明飯店』という名前にしたのだ、という。  …なるほど！と思った。
-
-### コミュニケーションのチャンネル
-
-タイ料理屋と書いてある店に入るとき、私はタイというコミュニケーションのチャンネルで店に入っていく。 しかしそれがタイ料理ではなく中華料理だったとしたら、どうだろうか。次々に提供される偽のタイ料理。明らかにタイ料理ではないメニュー。タイ語が全く通じない店主。「お前は一体タイの何なんだ。」 その体験は、はっきり言ってしまえば、完全に不愉快の領域に入る。
-
-しかしそこで機転を利かせ『中華料理』というコミュニケーション・チャンネルに切り替えたとしたらどうか。XO醤が効いているなかなか美味い野菜炒めだった。中華料理として見るとそれは水準以上であり、 それは、そこまで悪い体験ではなくなる。
-
-そこでコミュニケーション上で期待するチャンネルがあり、実際に行われているチャンネルがあり、それらが一致していない時に不愉快な体験が生まれる。だがそこでチャンネルを切り替えてしまえば、それは素晴らしい体験にかわる。それは実はさほど大きな問題ではない ─── チャンネルの切り替えさえ出来るならば。
-
-だけどもし私が、本物のタイ人といっしょにいたら、どうだろうか。彼はタイ人だから私のようにコミュニケーション・チャンネルを、タイから中華ヘと機敏に切り替えられないかも知れない。そうしたら彼は、不愉快な体験から逃れられない。
-
- ─── それは実際に2009年のベルリンで私にも起こっていた。 私は日本人だ。ベルリン中に、中華料理を日本食と言って売りつけている中国人が大勢いた。私個人としては、タイ料理に対する客観性がまだあるので、タイ料理を中華料理だと思って食べることも出来る。だけど自分にとって日本食はとても馴染みがある。だから中華料理を日本食だと偽って出されると、精神的にかなり苦しい状態に落ちる。
-
-### コミュニケーション・チャンネルと不気味の谷
-
-エセ日本食料理屋とはいえ、ここはかなり変わった中華料理屋なのだ…と思ってしまえば、それはさほど大きな問題ではなくなる。これもまた事実だった。 日本食に日本食であることを一切期待しない ─── これが実現できれば、違和感は消え、素晴らしい体験に変わる。
-
-だが提供されるエセ日本食が、本物に近付けば近付くほど、違和感が強くなるのも事実だった。完全に違ってしまえば諦めもつく。だがある程度のクオリティがあると、それが日本食を彷彿させる要素が増える。すると日本食を期待しないことが非常に難しくなる。
-
-また自分自身が日本人であることも大きく関係する。自分が(ネイティブと呼ばれるほどに）その文化に深くコミットしていればいるほど、そこから離れることが難しくなる。自分自身が日本人だからこそ、日本というものを客観視することが難しくなる。
-
-自分が食べているエセ日本料理に、日本を彷彿する要素が増えれば増えるほど、自分自身を日本人のコミュニケーション・チャンネルに引き戻すトリガーが増える。 私が必死に『日本料理』から『中華料理』というコミュニケーション・チャンネルに切り替えようとしているのに、その料理の日本と似て非なる味付けが、私を嘲笑うかのように、私を日本人のコミュニケーション・チャンネルに引きずり戻すのである。
-
-コミュニケーション・チャンネルが日本人に戻ってしまうと、「何故出汁がかつおだしじゃなくて鶏ガラなんだ」とか「何故だいこんが入ってないんだ」とか「寿司のメシを固く握りすぎだ！」というような、日本人として普通に期待すべき品質がそこにないことに対して発生する不快感が暴走する。
-
-似ていれば似ているほど不快感が強まるという現象がそこにある。完全に同じであれば不快感は全くなくなるのだが、似ているのに完全に同じではないと、本物にある良さを感じたいのに感じられないという不快感が強まる。楽しみたいのに楽しめないストレスが、不快感として強く感じられるようになる。
-
-これは
-
-[森政弘](https://ja.wikipedia.org/wiki/森政弘)
-
- 氏の
-
-[不気味の谷](https://ja.wikipedia.org/wiki/不気味の谷現象)
-
- と同じ現象ではないかと私は考えている。
-
-### 縦乗りジャズと不気味の谷
-
-私はジャズが好きで、自分でもジャズを演奏するし、日常的にジャズを聴いている。文学的な要素が強くそこに歴史に結びついた奥深さがある。それを追求して深く知ることに、喜びを見出しているのである。
-
-そういう私にとって、日本人が演奏する縦乗りジャズは、拷問以外の何者でもない。踊りたいのに踊れない。楽しみたいのに楽しめない生殺しのような日本人の演奏するジャズのリズムは、端的に地獄である。
-
- ─── だが、これは中華料理を日本食と称して提供する中華料理屋と同じ違和感と考えたらどうか。
-
-もしそうだとしたらつまり、もしもこれを仮に『演歌を聴いている』と自分のコミュニケーション・チャンネルを切り替えて聴くことができたら違和感は払拭される筈だった─── 実際にやってみると、このアイデアはうまくいくことがわかった。インチキジャズも、演歌として聴いてみればとても良い音楽だった。それはベルリンのエセ・タイ料理を出す中華料理屋にて、「今私はタイ料理を食べているのではなく、中華料理を食べているのだ」と頭を切り替えてしまえば、エセタイ料理であろうが無関係に、美味しく食べられることと全く同じ原理がそこに働いている。
-
-ところがここにもうひとつの問題があった。演歌的縦乗りジャズはしばしば『本格的な』『本物の』『東京の』という形容詞がつくことだ。
-
-エセ日本食を食べているときに、コミュニケーション・チャンネルを切り替えることで、中華料理を食べていると思い込もうとしているのに、そこに『本格的日本料理』『本物の日本料理』『東京の日本料理』と枕詞が置かれていることは、頭の中の切り替えをひどく妨害する。 ─── これと同じことが演歌的縦乗りインチキ・ジャズにも起こるのである。
-
-ここにひとつの**縦乗りジャズの傲慢**が指摘できる。
-
-### 関西の語彙領域的侵略
-
-演歌的縦乗りジャズと、普通のジャズが棲み分けており、お互いの領域を尊重している限り『中華的日本料理』のようにお互いの領分を侵略せずに棲み分けることが可能だ。 ─── 問題はその中華的日本料理が「これが本物なのだ」と宣言したときに始まる。
-
-本物ではないジャズを演奏しつつ本物を名乗る ─── 本物を名乗らなければ問題とならないのに、『ジャズ』という語彙領域の棲み分けを守らず、傲慢にも『我々は本物だ』と宣言してしまうことを、ここでは**語彙領域の侵略**と呼んでみたいと思う。
-
-私は、演歌的縦乗りジャズを演奏しつつ「本格ジャズ」を名乗る人の大半が関西人であることを観察している。これにはっきりした数字で表せる具体的な根拠はない。しかし私は江戸っ子でもあり、関西人とのはっきりした文化的な区別を感じながら生活しているが、同時に私の祖父が関西人で、家柄としては西日本の商人の生まれだった。なので私は生来、関西人と関東人の区別に非常に敏感だということがある。 ─── そんな私の体感上で、演歌的縦乗りジャズを演奏しつつ本格ジャズを名乗る人の大半は関西人である。
-
-私が執筆したリズム批判を読んだある関西の方から「東京は東京の音楽、大阪は大阪の音楽で別々にやったらええやないすか。」という申し出があった。私はその申し出に賛成だ。だが問題の本質は、大阪ジャズのコミュニティの人々がしばしば「本物」「本格」「東京」という前置詞を自分たちの音楽の名前に冠したがることだ。
-
-明らかに本物ではない関西的縦乗り演歌ジャズを演奏しつつ「本格ジャズ」を名乗るということは**語彙領域の侵略**であり、関西人がいう「関西と関東は別々でええやないすか」という棲み分けのルールを逸脱している。
-
-関西式縦乗りジャズを『これはこれ、ではダメなんですか？』とうそぶく関西人でも判る例えで表現するなら、関西人の縦乗り演歌ジャズは、関東人が喋るエセ関西弁とまったくおなじといえる。
-
-関東人が自分で自分を「エセ関西弁だ」とカテゴライズしているなら、問題は何もない。だがここで関東人が「ワシの関西弁は本物や！」と言い放った時に本当の問題が始まる。
-
-「だから何なんや！」そういう人もいるかも知れない。しかしこんな場面を想像してみて欲しい。
-
-関東人が真顔で「関西弁が間違っててスマンヤデー」と言い放ち、次いで「いやー！もう僕、完全に関西人になっちゃったなー！ え？別に多少間違っててもいいじゃないですか。これはこれ、ではダメなんですか？」…と関西人に言い放ったら、どうだろうか。
-
-私の知る限り、関西人はほぼ全員例外なく激怒する。
-
-何故そこで関西人が激怒するのか。それは関西弁という関西人のアイデンティティに関わる重要な**語彙領域**を関東人のアイデンティティが侵略したからだ。
-
-全く同じ事が関西式縦乗りジャズにも言える。枕詞として「東京」「本物志向」といった前置詞がついていなければ、そこまで問題とはならなかった筈の音楽に「東京」「本物」と言ってしまったことに問題の本質がある。
-
-「本物」という名を冠しながらアイデンティティの侵略とならないようなクオリティを実現する為には、特別なデリカシーと配慮が要求される。
-
-### コミュニケーション・チャンネルとリズム
-
-関西ジャズは演歌や音頭のリズムと同じ構造を持っている。これは関東・東北の人が演奏するジャズと互換性がない。 この２つのリズムの原理には**Pセンターの位置の違い**という根源的な違いがあることから、物理的に同時に演奏することが出来ない。
-
-関西のリズムが、雅楽などの中国大陸の音楽に起源を持っていることに対し、関東・東北の音楽は、より日本現地人のリズムに近付いていく。日本国内であっても、北上すればするほど、そのリズムは、よりアイヌ・カムチャツカ・イヌイット・イテルメン・イヴェンキ・ ネイティブアメリカンの人々の所謂**『海外の横乗りリズム』**に近付いていく。関西のリズムの起源をたどると、それが中国の古い伝統音楽から受け継がれており、古くなればなるほど**『中国の縦乗りリズム』**に近付いていくのと同じだ。
-
-これはそれぞれ別々なコミュニケーション・チャンネルを持っていると言える。 関西ジャズを関西ジャズ（演歌）というコミュニケーション・チャンネルで接すれば、それは素晴らしい演歌として楽しむことができる。エセ関西弁も、関東のコメディというコミュニケーション・チャンネルで接すれば、素晴らしいコメディとして楽しむことが出来る。
-
-ここで関西ジャズのクオリティが上がり「本物」に近付いた時、それは「演歌」なのか「ジャズ」なのか、その境界線が曖昧になる。あるいはエセ関西弁のクオリティが上がり「ほんもの」に近付いた時、それは「関東式エセ関西弁」なのか「本物の関西弁」なのか、その境界線が曖昧になる。
-
-ここで初めて、コミュニケーション・チャンネルを切り替えることでは解決できない問題がそこに立ち現れる。 ─── ここで始めて、関西と関東のリズムの違いの本質がどこにあるのかその境界線を、限界地点まで徹底的に探る必要が生じる。
-
-以下で、そのリズムの境界線がどこにあるのかを探ってみよう。
-
-### 関西人のリズム盲点が持つメカニズム
-
-関西人のリズムはおかしい。私がそういうと「何故そんな他者の気持ちを踏みにじる様なことを言うのだ」と大勢の人々から責め立てられる。だが関西人ジャズが放つ違和感の強烈さは、筆舌に尽くしがたい。
-
-根拠なく批判するのか！と責められ、何故この問題が起こるのかを分析し始めたが、この問題の背後に横たわる原理は決して簡単ではなかった ─── 私はこの関西人が演奏するジャズが持っている強烈な違和感を定量化して言語化する為に、私の人生の大半を費やした。
-
-何故関西人は、自分の縦乗りに気付かないのか。それは私の分析によると、日本語の標準化が関西から始まったことによる。
-
-### 関東弁は方言である
-
-日本語の方言の研究で有名な
-
-[金田一春彦](https://www2.nhk.or.jp/archives/articles/?id=D0009072376_00000)
-
- によると、日本語は日本土着の現地語を中国の発音で標準化したものが始まりだという。こうして関西から広まった日本語が、後に関東に遷都し、関東方言が標準語として取り決められた。つまり現代の日本語の標準語は、歴史的に見ると方言なのだ。
-
-1. 京都時代の日本語標準化(794)
-2. 江戸時代の日本語標準化(1603)
-3. 明治時代の日本語標準化(1868)
-4. 戦後の日本語標準化(1945)
-
-京都時代の日本語(関西弁)は1000年近く使われてきたのに、実は東京時代の日本語(関東弁)は使われ始めて400年程度しか経っていない。つまり関西弁の方が文法や発音の正規化が進んでおり、関東弁の方が正規化されずに残った発音要素が多いということが予想出来る。
-
-このことを民謡のリズムから見ることもできる。
-
-[小泉文夫](https://www.ongakunotomo.co.jp/catalog/detail.php?id=133120)
-
-によると日本の民謡は大きく分けて２種類あるという。私はこれに、私のリズム解釈を加えて３つに分類した形式を使っている
-
-* 追分形式 ( 刈干切歌や江差追分などの無拍子)
-* 八木節形式 (強いバックビートが強調される)
-* 雨だれ形式  (お経・音頭・演歌）
-
-追分形式は所謂日本の「縦乗り頭合わせリズム」とは程遠いリズムの形式を持っている。また八木節形式も同様に「縦乗り頭合わせリズム」とは程遠い、**拍の長さが伸縮するバックビートを持ち**、分割拍子・ポリリズムを持っており、これも「縦乗り頭合わせリズム」とは程遠いリズム形式を持っている。
-
-一方、日本の縦乗り頭合わせリズムは、**拍の長さが伸縮するバックビートを持たず**、拍の長さが均一という特徴があり、雨だれ式と極めて近いリズム形式を持っている。
-
-以下で説明する仮説は、飽くまでも私の体感に基づく推論でしかなく客観性がない。しかし日本全体の文脈を遠目で眺めてみると、私には次のような構図が見えてくるように感ぜられる。
-
-追分形式や八木節形式を地元の民謡文化として持っている地域の人は関東・東北・九州に多い。このリズム形式を持つ人は、雨だれ形式の音楽をはっきり見分けて区別して敬遠する。
-
-一方雨だれ形式の音楽を地元の民謡として持つ地域は主に関西であり、雨だれ形式の人は、追分形式や八木節形式のリズムとの違いをはっきり理解できず、見分けて区別することが出来ない。
-
-何故関西人（雨だれ）は東北弁・関東弁（追分形式・八木節形式）を区別できないのか。これは関西弁のほうが先に標準語として制定されたからではないかと私は推察している。
-
-この仮説を検証する為には、日本語のモーラ拍リズムについて、もうすこし深い理解が必要だ。
-
-### 日本人リズム問題の正体はモーラ拍リズムとその浸透度の違いにある
-
-日本語の発音の地域差とリズムの地域差を考える時に重要となる概念は、**モーラ拍リズム**とその**浸透度**だ。まずモーラ拍リズムとは何なのかを見てみる。
-
-日本人が演奏するジャズのリズムの違和感は、基本的に日本語が持っている「モーラ拍リズム」という発音上のメカニズムが影響している。日本語は文字数（モーラ数）を意味として解釈するため、単語を正しく解釈する為には、全ての音節が同じ長さで統一されている必要がある。
-
-例えば「兄は安易です」という文章があったとする。これを正しく聴き取る為には「あにわあんい」と6文字あることを認識しなければいけない。だが、外国の人々は音節が等間隔であるというルールに馴染みを持っていないので、この「あにわあんい」という文章を正しく発音することがとても難しい。
-
-これは日本語という言語に対する客観性を持たない日本人には理解が難しい。
-
-兄と安易はローマ字で書くと実は全く同じ音節型を持っていることがわかる。
-
-* あに(A,NI)
-* あんい(A,N,I) 
-
-どちらも A N I なのだ。違いは字数(モーラ数)の違いだけだ。
-
-これを外国の人が発音すると十中八九「アニワアニデス！」になってしまう。A,NI(2モーラ) と A,N,I (3モーラ)の区別がつかず、どちらも2モーラのA,NIになってしまう。何故こういうことが起こるかというと、海外の言語の大半は音節（拍）の長さが様々な要因によって変化する**ストレス拍**というルールを持っているからだ。「ワターシワァ？エイゴォウォー？ハナーシマスゥ」の様な話し方をするのは正にこの拍の長さが伸縮する**ストレス拍**がここにあるからだ。
-
-音節の長さが変化してしまうと、モーラ数を数えることができなくなる。２拍のアニなのか、３拍のアンイなのかが区別出来なくなる。
-
-そして海外の言語には、大抵日本語とは全く真逆の「頭子音最大化原則」という発音ルールがある。海外の言語はしばしば、全ての末子音を次の音節の頭子音としてまとめて発音するというルールがある。この暗黙のルールのことを「頭子音最大化原則(リンキング)」という。
-
-このルールが発動すると、アニとアンイは両方とも２拍になってしまい、違いがなくなってしまう。
-
-この様なモーラ数の変化による単語の混同が起こらないよう、確実にモーラ数を維持する為には、この頭子音最大化原則の真逆のルール＝『頭子音最小化原則』を守る必要がある。頭子音最小化とは、全ての二重子音・末子音・リンキングを、可能な限りモーラ単位で分解して整理することによって、モーラ数の混同を防ぐ為のメカニズムのことだ。
-
-### 頭子音最大化原則とジャズ
-
-ジャズは弱起とシンコペーション自体が素材になっている音楽だ。この音楽のリズムは英語の頭子音最大化原則と非常に関係が深い。ジャズは英語の俳句と言って良い文化で「言語のリズム自体を素材として使って言語上のリズム遊びを行いながら踊る」という前提がある。
-
-* 長いピックアップ
-* 強い弱拍先行
-* 長さが変化するバックビート
-
-これらは全て**拍の長さが伸縮するストレス拍リズム**の語法に基づいている。
-
-だが日本人がジャズを演奏すると、無意識の内にこのジャズのリズムをモーラ拍リズムで整理しながら演奏しようとする。全ての弱起と全てのシンコペーションを等間隔に揃え、不明な点が一切ないように整理して演奏しようとする。
-
-* ピックアップを排除
-* 強拍先行を維持
-* 等間隔で整理されたバックビート（ポケットに落ちない２・４拍）
-
-これらは全て**拍の長さが伸縮しないモーラ拍リズム**の語法に基づいている。
-
-本来ジャズには、様々なリズム上の不明な点を残した状態で、その不明な点を聴く人が能動的に予想することを楽しむという趣旨がある。全てのリズム上の不明点を整理して明らかにすることは、所謂「ネタバレ」と同じ行為であり、趣旨に反する。
-
-これが日本人が演奏するジャズにおけるリズムの問題の正体だ。
-
-だがこの問題は全ての日本人に等しく起こる訳ではない。日本国内でもジャズのリズムを認識出来る人と出来ない人の分布のばらつきある。日本人は必ずしもピックアップを演奏しないわけではない。
-
-地域によってピックアップを好んで演奏する地域があったり、弱拍先行が強い音楽を演奏する地域があったりする。何故地域によって音楽の縦乗り度が高い地域と低い地域に偏りが見られるのだろうか。
-
-それは日本語の**モーラ拍リズムの浸透度**が地域によって異なるためだ。
-
-### 母音の無声化
-
-**モーラ拍リズムの浸透度**を理解する為のキーワードは、**母音の無声化**だ。母音の無声化を見ることで、モーラ拍リズムの浸透度の違いを観察出来る。
-
-日本語、特に関東方言では、関西方言のように必ずしもモーラ拍リズム化による標準化が浸透していない。何故ならば、日本語の標準化が京都から始まったからだ。だから京都から遠ざかれば遠ざかるほど、歴史的標準の発音**『モーラ拍リズム』**から遠ざかる。
-
-モーラ拍リズムは、モーラ音節のなかで「子音＋母音」という組み合わせを守るというルールでモーラを作る。だが関東方言では、このモーラ拍リズムのルールが完全でなく、いくつかの例外がある。そのひとつが母音の無声化だ。
-
-* 肩（kta)
-* 〜です(dess)
-* 〜でした(de sh ta)
-
-関東方言ではこのようにしばしば末尾のモーラの母音を発音せずに末子音のように発音する。
-
-日本語は、英語やフランス語などのシラブル拍リズム・ストレス拍リズムの言語と比較して、母音がより長く、子音がより短い傾向がある。だけど関東方言では、母音の無声化があるなどの理由によって、近畿方言よりも子音が長く母音が短いという傾向がある。
-
-この様にモーラ拍リズムの浸透度には、方言による地域の偏りが存在する。
-
-これが音楽のリズムに影響を与えているのではないか、と私は考えている。この様な、日本語の中での方言の発音の違いが、八木節形式・追分形式・雨だれ形式という民謡の形式の違いとなって表れるのではないか。
-
-─── 以上の説は、飽くまでも仮説だが、この仮説は日本の各地域のリズム感の違いを説明しやすくする。
-
-### リズム感の非対称性
-
-私がぶつかる問題で最も頭を悩ませる問題は、関東人はしばしば関西人のリズム偏りを認識できるのに、関西人は関東人のリズム偏りを認識出来ないことだ。この現象を私は**リズム感の非対称性**と呼んでいる。
-
-関東人は関西人のリズムに違いを認知しているのだが、関西人からは何も違いがないという様に認知されている。 私はしばしば、この認知の非対称性のことを『日本人の見えない犬のウンコ現象』と呼んでいる。
-
-ここに犬のウンコがあると仮定する。明らかにそこに存在する犬のウンコは、明らかに異様な臭気を発しており、臭く、明らかにそこに存在している。そして、それを摘み上げる。そして彼の鼻先に突き出す。臭い。汚い。「ほら！犬のウンコだぞ！」しかし彼のリアクションはこうだ。「どこに犬のウンコなんかあるんですか？」 まったくそこに犬のウンコがあることが認知できない。
-
-摘み上げたウンコを鼻先になじりつける。「ほら！臭いだろ！」 しかし彼はいう。「貴方は一体何を言ってるんですか？」 私は終いに、そのウンコを彼の口の中に放り込んでしまう。彼はそれでも気付かない「モグモグ！ ゴクン！ で、犬のウンコなんかどこにあるんですか？」
-
-彼はそこにウンコがあることが見えないだけでなく、存在自体を認知できない。それを実際に「たべる」という物理的行為を通じて、その存在を体験しているのにも関わらず、ウンコが認知上存在しない為に、その体験自体を認知できない。
-
-彼には、それを認識するための概念と、それを解釈する為のコミュニケーション・チャンネルがない。だからそこに存在することを認識すること自体が出来ない。
-
-何故こういうことが起こるのか。
-
-それは恐らくだが、歴史的に見ると関西弁のほうが標準語だからだ。 関東弁には標準化されずに残った発音要素が豊富に含まれている。だが、関西弁には同じ発音要素がない。それは標準化によって失われたのか、あるいは最初からなかったのかは不明だ。だが少なくとも、その時に対象となっている関東弁が持っている発音要素を関西弁は持っていない ─── その一例が、関東弁の**母音の無声化**ではないか。
-
-関西人がその発音の違いを理解する為には、関西人は最初から持っていなかったその発音要素の解釈技術を１から作り直す必要がある。だから認識出来ないのではないか。
-
-### 関西人のジャズがダメダメな理由
-
-関西弁は、全日本の方言のなかでモーラ拍リズムによる正規化が最も長く行われており、モーラ拍リズムが最も深く浸透している。関西弁ではモーラ拍リズムのルールが厳密だ。しかし関東弁は京都時代の標準化が完全に行われていない。つまりモーラ拍リズムによる正規化が関西弁ほど完全ではない。関東弁は、モーラ拍リズムが関西弁ほど深く浸透していない。だから関東弁は、関西弁が持たないリズム要素を多く残している。
-
-これは耳が痛い事かも知れない。だがこれは、関西から全国区にメッセージを届ける為には通り抜ける必要がある大きな壁のひとつでもある。
-
-何故なら関西人が、関西で関西人同士でジャズを演奏していても、この関西人が持たないリズム要素の欠落に気付かないからだ。関西人はなかなか東京に来ない。東京まで来ても東京止まりでしかない。そこから更に北上し群馬・栃木・福島・秋田・岩手・青森・・・と移動することはほぼ絶対にない。北関東・東北・北海道は、関東以上に京都時代の標準化の浸透度が低い。関東以上に多様なリズム形を多く素のままの形で残している。だが関西人は、このことに気付かない。
-
-だから関西人は、関東人が関東で東北人と日常的にぶつかりあうなかで気付くリズム差にも気付かない。リズム上で考えると、関西人はリズム的無菌状態といえる。リズムの多様さが残る関東・東北・北海道の多様なリズムとぶつかった経験がまったくない関西人は、関西地元の狭い雨だれ式リズムが如何に素晴らしさの説明に終止し、延々と関西外の文化に視点が向かない。
-
-ミュージシャンとして、それでいいのだろうか。
-
-関西のミュージシャンに訊きたい。何故ミュージシャンを目指したのだろうか。世界に羽ばたき、世界中の人々とコミュニケーションを取れる世界中の人と一緒にいる輝かしいミュージシャンを目指していたのではなかったか。世界中を平和にしたかったのではないのか。世界を救いたいと思っていたのではないのか。
-
-この状態でどうやったら関西外の人々に伝わる音楽が出来るだろう。関西人のジャズは関西人にしか通じない。ましてや関西人以外と一緒に演奏することですらできない。
-
-### 関西外の人とコミュニケーションを取るために
-
-「何かリズムがあわへんねん！」
-
-私は関西人から幾度となくこの言葉を聞いた。それで私なりに、どうやったら関西の人々が関西外のリズムを身につけることができるのか、一体関西と関東のリズムの違いの本質はどこにあるのか、私なりに分析してみた。
-
-関西リズムから関東リズムへの移行を理論的にみると、**拍の長さが固定**長の**モーラ拍リズム**の概念から脱して、**拍の長さが可変長**の**ストレス拍リズム**の概念へと移行することを意味している。
-
-関西人のリズム認識とそれ以外のリズム認識は、Pセンター(Perceptual Center=認知中央=認知科学の用語)という概念によって説明することができる。関西人のリズム認識をポストセントリック(頭合わせ)、そして関東人のリズム認識は、よりプレセントリック(尻合わせ)に近いと説明することが出来る。
-
-このリズム認識をプレセントリックに切り替える為の練習方法として私は、オフビートカウント法を考案した。これは音楽を8分音符１つ早く数えるという方法を使って、自分のPセンターの位置を移動する実践トレーニング法のひとつだ。 私はオフビートカウントを実際に色々な方々と一緒に練習を行ってみた。結果、一定の効果は認められた。
-
-このオフビートカウント法は、非常に複雑であり、学習と習得には相当な忍耐力と根気を必要とする。そこでこのオフビートカウントの練習方法全体を、道として体系化した。それがこの**リズム道**だ。
-
-**続く**
-
-- (ドラフトv1 2026/07/29 07:53:21)
-- (ドラフトv2 2026/07/29 15:58:59)
-- (ドラフトv3 2026/07/29 16:51:38)
-- (ドラフトv4 2026/07/29 18:06:51)
-- (ドラフトv5 2026/07/29 19:14:53)
-- (ドラフトv6 2026/07/30 14:56:07)
 
 ## {{<meta var.RHYTHMOCHRONOLOGY.ja>}} <!-- {#headians-and-bottomians-of-beat-orientation} -->
 強拍弱拍の順序に対する認識は、その人が母国語とする言語が持つリズムによって大きな違いが生まれます。
