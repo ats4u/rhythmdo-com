@@ -200,764 +200,51 @@ Pセンターよりも後ろに情報の中心があると感じる傾向をポ�
 
 #### {{<meta var.GROOVE_EQUATIONS.ja>}}
 
-グルーヴ方程式とは、グルーヴを分析する為に、Pセンターと{{<meta var.MLWBOR.ja>}}を２つを軸にモデル化したものです。 リズム上の拍に対するPセンターの位置とグルーヴの階層及び解像度数を数式によって表す事により、分析の基礎となるモデルを定義します。
+{{<meta var.GROOVE_EQUATIONS.ja>}}は、複数のリズム層にわたるリズム尺度、{{<meta var.DIVISION.ja>}}の持続時間、および{{<meta var.P_CENTER.ja>}}の変位を数量的に記述する。
 
-グルーヴ方程式の形式的な定義は次の通りです。
+##### {{<meta var.QUANTITATIVE_REPRESENTATION_OF_A_GROOVE_PRINCIPLE.ja>}}
 
-
-##### 数量的なグルーヴ原則の表現法
-
-グルーヴ原則を次のように数量的に表現する：
+グルーヴ原則は、次の状態ベクトルによって数量的に表現される：
 
 $$
-T=(L,D,P)
-\in
-\mathbb{R}_{>0}
-\times
-\mathbb{R}_{>0}
-\times
-\mathbb{R},
+\boxed{
+\mathbf{x}
+=
+(L,D,P)^T
+=
+\begin{pmatrix}
+L\\
+D\\
+P
+\end{pmatrix},
+}
 $$
 
 ここで：
 
-- $L$ は全体の持続時間である。
-- $D$ はディヴィジョンの単位時間である。
-- $P$ はPセンターのオフセット距離である。
+- $L\in\mathbb{R}_{>0}$ は全体の持続時間である。
+- $D\in\mathbb{R}_{>0}$ は1つの{{<meta var.DIVISION.ja>}}の持続時間である。
+- $P\in\mathbb{R}$ は{{<meta var.P_CENTER.ja>}}のオフセットである。
 
-相対的な分割サイズと分割数は、次の派生式として得られる：
+相対的な{{<meta var.DIVISION.ja>}}の大きさと{{<meta var.DIVISION.ja>}}数は、次の派生量である：
 
 $$
-r(T)=\frac{D}{L},
+r(\mathbf{x})
+=
+\frac{D}{L},
 \qquad
-N(T)=\frac{L}{D}=\frac{1}{r(T)}.
-$$
-
-$r$ と $N$ のいずれも、定量値 $D$ を置き換えるものではない。
-
-
-##### 構造型
-
-次のようにおく：
-
-$$
-\mathcal{K}
+N(\mathbf{x})
 =
-\{
-H,\,
-M,\,
-B,\,
-S_1,\ldots,S_n,\,
-\mathrm{MD}_1,\ldots,\mathrm{MD}_m
-\}
-$$
-
-これは構造型の集合であり、それぞれ次を表す：
-
-- $H$ は大小節を表す。
-- $M$ は小節を表す。
-- $B$ は拍を表す。
-- $S_i$ は細分レベル $i$ を表す。
-- $\mathrm{MD}_i$ は微分割レベル $i$ を表す。
-
-構造型と構造上の出現要素は区別される。$H$ のような記号は型を表し、
-実際の出現要素はグルーヴ木のノードとして表現される。たとえば、2つの
-ノード $h_1$ と $h_2$ が同じ構造型 $H$ を持つ場合がある。
-
-::: {.callout-note title="微分割の定義"}
-微分割とは、適用される記譜体系において、その時間的位置を通常の音価で表現できない、形式的に指定された分割である。
-
-マイクロディヴィジョンはグルーヴ階層に属する。外部的なタイミング補正ではない。
-:::
-
-##### 型付き演算
-
-完全な型付き演算を次のように定義する：
-
-$$
-O_{K;\lambda,\delta,\chi,c},
-$$
-
-ここで：
-
-$$
-K\in\mathcal{K},
-\qquad
-\lambda>0,
-\qquad
-\delta>0,
-$$
-
-$$
-\chi
-\in
-\{
-\mathrm{precentric},
-\mathrm{postcentric}
-\},
-$$
-
-また：
-
-$$
-c=
-\begin{cases}
-0,
-&
-\chi=\mathrm{postcentric},
-\\[4pt]
-c\in\mathbb{R}_{>0},
-&
-\chi=\mathrm{precentric}.
-\end{cases}
-$$
-
-各パラメータの意味は次のとおりである：
-
-- $K$ は構造型のラベルである。
-- $\lambda$ は $L$ のスケーリング比である。
-- $\delta$ は $D$ のスケーリング比である。
-- $\chi$ は中心性の型である。
-- $c$ は、新しい分割を単位として測定したPセンターの変位である。
-
-型付き演算の数値的作用は次のとおりである：
-
-$$
-\boxed{
-\operatorname{Act}
-\left(
-O_{K;\lambda,\delta,\chi,c},
-(L,D,P)
-\right)
+\frac{L}{D}
 =
-\left(
-\lambda L,\,
-\delta D,\,
-P+c\delta D
-\right).
-}
+\frac{1}{r(\mathbf{x})}.
 $$
 
-したがって：
+$r$ と $N$ のいずれも、数量的な持続時間 $D$ を置き換えるものではない。
 
-$$
-L'=\lambda L,
-$$
-
-$$
-D'=\delta D,
-$$
-
-$$
-P'=P+cD'.
-$$
-
-構造ラベル $K$ は数値計算を変化させない。これは、演算がグルーヴ階層内のどこに属するかを記録する。
-
-派生特性は次のように変換される：
-
-$$
-r'
-=
-\frac{\delta}{\lambda}r,
-$$
-
-$$
-N'
-=
-\frac{\lambda}{\delta}N.
-$$
-
-曖昧さが生じない場合、$\operatorname{Act}(O,T)$ を $O(T)$ と表記する。
-
-##### 省略形の型付き演算
-
-中心性は、次の定義によって $c$ から一意に推定できる：
-
-$$
-\chi(c)=
-\begin{cases}
-\mathrm{postcentric},
-&
-c=0,
-\\[4pt]
-\mathrm{precentric},
-&
-c>0.
-\end{cases}
-$$
-
-省略形の型付き演算を次のように定義する：
-
-$$
-\boxed{
-\widetilde O_{K;\lambda,\delta,c}
-=
-O_{K;\lambda,\delta,\chi(c),c}.
-}
-$$
-
-省略形の型付き演算全体の集合を $\widetilde{\mathcal O}$ とする。
-
-たとえば：
-
-$$
-\widetilde O_{H;4,1,0}
-$$
-
-は後中心型のハイパーメジャー演算であり、次の演算：
-
-$$
-\widetilde O_{M;3,1,2}
-$$
-
-は、新しい分割2つ分の変位を持つ前中心型の小節演算である。
-
-セミコロンは、構造ラベルと数値パラメータを分離する：
-
-$$
-\widetilde O_{\text{構造型};\text{数値パラメータ}}.
-$$
-
-##### グルーヴ構造
-
-次のようにおく：
-
-$$
-\mathcal{T}
-=
-(V,E,a,\prec,\kappa)
-$$
-
-これは有限で、根を持ち、順序付けられたグルーヴ木である。ここで：
-
-- $V$ は構造上の出現要素の集合である。
-- $E$ は親子関係にある構造関係の集合である。
-- $a$ はアンカーとなる出現要素であり、根である。
-- $\prec$ は比較可能な出現要素間の時間的または構造的順序を記録する。
-- $\kappa:V\to\mathcal K$ は各出現要素に1つの構造型を割り当てる。
-
-したがって、同じ型を共有する複数の出現要素は、互いに異なる同一性を
-保持する。たとえば：
-
-$$
-h_1\neq h_2,
-\qquad
-\kappa(h_1)=\kappa(h_2)=H.
-$$
-
-アンカー以外の各出現要素には、省略形の型付き演算を1つだけ割り当てる：
-
-$$
-\Omega
-:
-V\setminus\{a\}
-\longrightarrow
-\widetilde{\mathcal O},
-$$
-
-$$
-\boxed{
-\Omega(v)
-=
-\widetilde O_{\kappa(v);\lambda_v,\delta_v,c_v}.
-}
-$$
-
-正規化されたアンカー状態は通常、次のとおりである：
-
-$$
-T_a=(1,1,0).
-$$
-
-値 $1$ は慣習的な基準持続時間であり、アンカーが四分音符であることを
-必須とはしない。
-
-##### 事前定義された演算順序
-
-演算順序は、グルーヴ木から選択された根付き経路によって決まる。次の
-ようにおく：
-
-$$
-\gamma
-=
-(v_0=a,v_1,\ldots,v_k),
-$$
-
-ここで、すべての $i=1,\ldots,k$ について $(v_{i-1},v_i)\in E$ である。
-
-この経路の構造スキーマは次のとおりである：
-
-$$
-\boxed{
-\Sigma_\gamma
-=
-(\kappa(v_1),\ldots,\kappa(v_k)).
-}
-$$
-
-演算順序はこの経路から継承される：
-
-$$
-\Omega(v_i)
-\prec_{\mathrm{op}}
-\Omega(v_j)
-\quad\Longleftrightarrow\quad
-i<j.
-$$
-
-したがって、演算は左から右へ記述され、適用される。グルーヴ木から
-独立した普遍的な「粗い階層から細かい階層へ」の演算列は存在しない。
-
-##### 型付き演算列
-
-型付き演算列は、選択された経路上の正準的なノード割り当てから導出される：
-
-$$
-\boxed{
-\Omega_\gamma
-=
-\left(
-\Omega(v_1),
-\ldots,
-\Omega(v_k)
-\right).
-}
-$$
-
-最も左にある演算が最初に適用される。
-
-$T_{v_0}=T_a$ から開始し、次のように定義する：
-
-$$
-T_{v_i}
-=
-\operatorname{Act}
-\left(
-\Omega(v_i),
-T_{v_{i-1}}
-\right).
-$$
-
-演算列全体の評価は次のとおりである：
-
-$$
-\operatorname{Eval}(\Omega_\gamma,T_a)
-=
-T_{v_k}.
-$$
-
-標準的な関数合成を使用すると：
-
-$$
-\operatorname{Eval}(\Omega_\gamma,T_a)
-=
-\Omega(v_k)
-\circ\cdots\circ
-\Omega(v_2)
-\circ
-\Omega(v_1)(T_a).
-$$
-
-同じ順序を矢印で示すと次のようになる：
-
-$$
-T_a
-\xrightarrow{\Omega(v_1)}
-T_{v_1}
-\xrightarrow{\Omega(v_2)}
-T_{v_2}
-\longrightarrow\cdots\longrightarrow
-T_{v_k}.
-$$
-
-異なる経路上の出現要素が、暗黙のうちに1つの演算列へ結合されることは
-ない。選択された各経路が、それぞれのスキーマと演算列を決定する。
-
-##### 閉形式による評価
-
-選択された経路 $\gamma$ に対して、次のようにおく：
-
-$$
-T_a=(L_0,D_0,P_0)
-$$
-
-また：
-
-$$
-\Omega(v_i)
-=
-\widetilde O_{\kappa(v_i);\lambda_i,\delta_i,c_i}.
-$$
-
-経路の最終状態は次のとおりである：
-
-$$
-L_k
-=
-L_0
-\prod_{i=1}^{k}\lambda_i,
-$$
-
-$$
-D_k
-=
-D_0
-\prod_{i=1}^{k}\delta_i,
-$$
-
-$$
-P_k
-=
-P_0
-+
-D_0
-\sum_{i=1}^{k}
-\left(
-c_i
-\prod_{j=1}^{i}\delta_j
-\right).
-$$
-
-したがって：
-
-$$
-r_k
-=
-r_0
-\prod_{i=1}^{k}
-\frac{\delta_i}{\lambda_i},
-$$
-
-$$
-N_k
-=
-N_0
-\prod_{i=1}^{k}
-\frac{\lambda_i}{\delta_i}.
-$$
-
-##### 可換性
-
-任意の状態 $T$ に対して、$L,D$ への射影は可換である：
-
-$$
-\pi_{L,D}
-\left(
-(O_2\circ O_1)(T)
-\right)
-=
-\pi_{L,D}
-\left(
-(O_1\circ O_2)(T)
-\right).
-$$
-
-完全な変換は必ずしも可換ではない。Pセンターの変位が、その時点の分割持続時間に依存するためである：
-
-$$
-(O_2\circ O_1)(T)
-\neq
-(O_1\circ O_2)(T)
-$$
-
-これは一般に成立する。
-
-純粋な後中心型のスケーリング演算は、次の条件により可換である：
-
-$$
-c_1=c_2=0.
-$$
-
-演算が数値的に可換である場合でも、その構造的順序はグルーヴ記述の一部として保持される。
-
-##### 境界での振る舞い
-
-分割を持つ各出現要素には、次の境界規則を設定できる：
-
-$$
-\beta
-:
-V
-\longrightarrow
-\{
-\mathrm{reset},
-\mathrm{continuous}
-\}.
-$$
-
-次の式が既約分数で表されている場合：
-
-$$
-N=\frac{L}{D}=\frac{p}{q},
-$$
-
-連続する分割は、次の条件で親要素と再び整列する：
-
-$$
-\boxed{
-qL=pD.
-}
-$$
-
-したがって：
-
-$$
-N\in\mathbb{N}
-\quad\Rightarrow\quad
-\text{単一の親出現要素内で閉じる},
-$$
-
-$$
-N\in\mathbb{Q}_{>0}
-\quad\Rightarrow\quad
-\text{複数の出現要素にまたがって有限回で閉じる},
-$$
-
-$$
-N\in
-\mathbb{R}_{>0}\setminus\mathbb{Q}
-\quad\Rightarrow\quad
-\text{厳密には閉じない}.
-$$
-
-##### 時間的実現
-
-正規化された値 $1$ は、抽象的な基準持続時間である。
-
-$\tau>0$ を、その具体的な持続時間として指定する。次のように定義する：
-
-$$
-R_\tau(L,D,P)
-=
-(\tau L,\tau D,\tau P).
-$$
-
-アンカーを慣習的に四分音符の拍として解釈する場合、$\tau$ はその四分音符の
-拍の持続時間である。
-
-##### グルーヴ方程式の形式的定義
-
-正規化されたグルーヴ方程式は次のとおりである：
-
-$$
-\boxed{
-\mathfrak{G}
-=
-\left(
-\mathcal{T},\,
-T_a,\,
-\Omega,\,
-\beta
-\right).
-}
-$$
-
-その数値的実現は次のとおりである：
-
-$$
-\boxed{
-\operatorname{GE}_\tau(\mathfrak{G})
-=
-\left(
-R_\tau(T_v)
-\right)_{v\in V}.
-}
-$$
-
-ここで、各 $T_v$ はそのノードに至る一意な根付き経路に沿って評価され、
-境界を越える継続方法は $\beta$ によって決定される。
-
-数値的に同一の実現であっても、構造的に同一のグルーヴであるとは限らない：
-
-$$
-\boxed{
-\operatorname{GE}_\tau(\mathfrak{G}_1)
-=
-\operatorname{GE}_\tau(\mathfrak{G}_2)
-\nRightarrow
-\mathfrak{G}_1
-=
-\mathfrak{G}_2.
-}
-$$
-
-したがって、グルーヴ方程式は次の要素から構成される：
-
-$$
-\boxed{
-\text{グルーヴ木}
-+
-\text{型付きノード演算の割り当て}
-+
-\text{境界での振る舞い}
-+
-\text{数値的実現}.
-}
-$$
-
-##### 例：Near the Cross
-
-<div class="center-box"><iframe width="560" height="315" src="https://www.youtube.com/embed/JdhUcR_MbTw?si=UzrCtMxmUPJAqqwj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-
-関連するアンカー以外の出現要素を次のようにおく：
-
-$$
-V_{\text{Near the Cross}}\setminus\{a\}
-=
-\{h_1,h_2,m,b,s_1\}.
-$$
-
-それぞれの構造型は次のとおりである：
-
-$$
-\kappa(h_1)=\kappa(h_2)=H,
-\qquad
-\kappa(m)=M,
-\qquad
-\kappa(b)=B,
-\qquad
-\kappa(s_1)=S_1.
-$$
-
-ノード演算の割り当てを次のように定義する：
-
-$$
-\begin{aligned}
-\Omega_{\text{Near the Cross}}(h_1)
-&=
-\widetilde O_{H;4,1,0},
-\\
-\Omega_{\text{Near the Cross}}(h_2)
-&=
-\widetilde O_{H;8,1,0},
-\\
-\Omega_{\text{Near the Cross}}(m)
-&=
-\widetilde O_{M;3,1,2},
-\\
-\Omega_{\text{Near the Cross}}(b)
-&=
-\widetilde O_{B;1,\frac13,2},
-\\
-\Omega_{\text{Near the Cross}}(s_1)
-&=
-\widetilde O_{S_1;1,\frac13,2}.
-\end{aligned}
-$$
-
-これらの割り当てだけでは、5つすべての演算が1つの線形な演算列に属する
-とは限らない。グルーヴ木が次の根付き経路を定める場合：
-
-$$
-\gamma
-=
-(a,h_1,h_2,m,b,s_1),
-$$
-
-この経路から次の演算列が導出される：
-
-$$
-\boxed{
-\Omega_\gamma
-=
-\left(
-\widetilde O_{H;4,1,0},\,
-\widetilde O_{H;8,1,0},\,
-\widetilde O_{M;3,1,2},\,
-\widetilde O_{B;1,\frac13,2},\,
-\widetilde O_{S_1;1,\frac13,2}
-\right).
-}
-$$
-
-$h_1$ と $h_2$ が連続する兄弟ノードである場合、その順序は
-$h_1\prec h_2$ または $h_2\prec h_1$ として記録される。両者が代替関係に
-ある場合、$\prec$ の下では比較不能である。いずれの場合も、両者は別々の
-根付き経路上にあり、暗黙のうちに積として結合されることはない。経路から
-導出された演算列は、選択された経路の評価順序だけを記録する。
-
-
-
-#### Groove Equation
-
-グルーヴ方程式の英語での形式的な定義は次の通りです。
-
-The formal definition of the Groove Equation is as follows.
-
-##### Quantitative Representation of a Groove Principle
-
-A Groove Principle is quantitatively represented by:
-
-$$
-T=(L,D,P)
-\in
-\mathbb{R}_{>0}
-\times
-\mathbb{R}_{>0}
-\times
-\mathbb{R},
-$$
-
-where:
-
-- $L$ is the total duration.
-- $D$ is the quantitative duration of one division.
-- $P$ is the P-center offset.
-
-The relative division size and number of divisions are derived properties:
-
-$$
-r(T)=\frac{D}{L},
-\qquad
-N(T)=\frac{L}{D}=\frac{1}{r(T)}.
-$$
-
-Neither $r$ nor $N$ replaces the quantitative value $D$.
-
-##### Structural types
-
-Let:
-
-$$
-\mathcal{K}
-=
-\{
-H,\,
-M,\,
-B,\,
-S_1,\ldots,S_n,\,
-\mathrm{MD}_1,\ldots,\mathrm{MD}_m
-\}
-$$
-
-be the collection of structural types, where:
-
-- $H$ represents a hypermeasure.
-- $M$ represents a measure.
-- $B$ represents a beat.
-- $S_i$ represents subdivision level $i$.
-- $\mathrm{MD}_i$ represents microdivision level $i$.
-
-Structural types and structural occurrences are distinct. A symbol such as $H$
-denotes a type; actual occurrences are represented by nodes of the groove tree.
-For example, two nodes $h_1$ and $h_2$ may both have the structural type $H$.
-
-A microdivision is defined as follows:
-
-> A microdivision is a formally specified division whose temporal positions cannot be expressed as ordinary note values in the applicable notation system.
-
-A microdivision belongs to the groove hierarchy. It is not an external timing correction.
-
-##### Three-parameter operation
-
-A numerical operation has exactly three parameters:
-
-$$
-O_{\lambda,\delta,c},
-$$
+##### 変換行列
 
-where:
+数量変換は3つのパラメータを持つ：
 
 $$
 \lambda>0,
@@ -967,27 +254,567 @@ $$
 c\in\mathbb{R}_{\geq 0}.
 $$
 
-The parameters have the following meanings:
-
-- $\lambda$ is the scaling ratio of $L$ and of the existing P-center offset.
-- $\delta$ is the scaling ratio of $D$.
-- $c$ is the new P-center displacement measured in new divisions.
-
-The numerical action of the operation is:
+その行列は次のとおりである：
 
 $$
 \boxed{
-\operatorname{Act}
-\left(
-O_{\lambda,\delta,c},
-(L,D,P)
-\right)
+A_{\lambda,\delta,c}
+=
+\begin{pmatrix}
+\lambda & 0 & 0\\
+0 & \delta & 0\\
+0 & c\delta & \lambda
+\end{pmatrix}.
+}
+$$
+
+これは状態ベクトルに直接作用する：
+
+$$
+\boxed{
+\mathbf{x}'
+=
+A_{\lambda,\delta,c}\mathbf{x}
+=
+\begin{pmatrix}
+\lambda L\\
+\delta D\\
+\lambda P+c\delta D
+\end{pmatrix}.
+}
+$$
+
+したがって：
+
+$$
+L'=\lambda L,
+\qquad
+D'=\delta D,
+\qquad
+P'=\lambda P+cD'.
+$$
+
+各パラメータの意味は次のとおりである：
+
+- $\lambda$ は全体の持続時間と、既存の{{<meta var.P_CENTER.ja>}}オフセットを拡大・縮小する。
+- $\delta$ は{{<meta var.DIVISION.ja>}}の持続時間を拡大・縮小する。
+- $c$ は、更新後の{{<meta var.DIVISION.ja>}}を単位として、新たな{{<meta var.P_CENTER.ja>}}変位を測る。
+
+中心性は $c$ から導出される分類である：
+
+$$
+\chi(c)
+=
+\begin{cases}
+\mathrm{postcentric}, & c=0,\\[4pt]
+\mathrm{precentric}, & c>0.
+\end{cases}
+$$
+
+正規化された初期状態は次のとおりである：
+
+$$
+\boxed{
+\mathbf{x}_0
+=
+(1,1,0)^T.
+}
+$$
+
+::: {.callout-note title="単一変換の確認"}
+
+$$
+A_{2,1,0}\mathbf{x}_0
+=
+(2,1,0)^T,
+\qquad
+A_{1,\frac12,0}\mathbf{x}_0
+=
+\left(1,\frac12,0\right)^T,
+$$
+
+$$
+A_{2,1,1}\mathbf{x}_0
+=
+(2,1,1)^T,
+\qquad
+A_{1,\frac12,1}\mathbf{x}_0
+=
+\left(1,\frac12,\frac12\right)^T.
+$$
+
+:::
+
+##### 位置を表す桁としてのリズム層
+
+多層グルーヴは、次の添字を持つリズム上の位置によって表される：
+
+$$
+i=0,1,\ldots,k.
+$$
+
+この添字は位置を表す。これは、数における数字の桁位置と同じ働きをする。
+10進数では、一の位、十の位、百の位、千の位などの名称は位置を記述するものであり、
+個別の数学的対象を新たに作るものではない。同様に、
+{{<meta var.HYPERMEASURE.ja>}}、小節、拍、{{<meta var.SUBDIVISION.ja>}}、
+{{<meta var.MICRODIVISION.ja>}}といった名称はリズム上の位置を記述するが、
+数量計算には関与しない。
+
+同じラベルを複数の位置で使用してもよい。同じ変換行列が複数回現れてもよい。
+どちらにも、出現ごとの一意な識別子は必要ない。
+
+各位置 $i\geq1$ に対して、次のようにおく：
+
+$$
+A_i
+=
+A_{\lambda_i,\delta_i,c_i}.
+$$
+
+位置 $i$ における状態は次のとおりである：
+
+$$
+\boxed{
+\mathbf{x}_i
+=
+A_i\mathbf{x}_{i-1}.
+}
+$$
+
+同値な表現は次のとおりである：
+
+$$
+\mathbf{x}_i
+=
+A_iA_{i-1}\cdots A_1\mathbf{x}_0.
+$$
+
+完全な数量記述は、すべての層を保持する：
+
+$$
+\boxed{
+\mathbf{X}_{\mathfrak G}
+=
+\begin{bmatrix}
+\mathbf{x}_0&
+\mathbf{x}_1&
+\cdots&
+\mathbf{x}_k
+\end{bmatrix}.
+}
+$$
+
+したがって、最終状態をグルーヴ全体と同一視しない。最終状態は、多層的な実現を構成する1つの列である。
+
+{{<meta var.MICRODIVISION.ja>}}とは、適用される記譜体系において、
+その時間的位置を通常の音価で表現できないリズム上の位置である。
+これは同じ数量体系内の位置であり、外部から加えられるタイミング補正ではない。
+
+##### グルーヴ方程式の形式的定義
+
+正規化された{{<meta var.GROOVE_EQUATIONS.ja>}}は次のとおりである：
+
+$$
+\boxed{
+\mathfrak G
 =
 \left(
-\lambda L,\,
-\delta D,\,
-\lambda P+c\delta D
+\mathbf{x}_0;
+A_1,\ldots,A_k
 \right).
+}
+$$
+
+その正規化された数量的実現は次のとおりである：
+
+$$
+\boxed{
+\operatorname{GE}(\mathfrak G)
+=
+\mathbf{X}_{\mathfrak G}
+=
+\begin{bmatrix}
+\mathbf{x}_0&
+A_1\mathbf{x}_0&
+\cdots&
+A_k\cdots A_1\mathbf{x}_0
+\end{bmatrix}.
+}
+$$
+
+任意の位置名を列とともに表示してもよいが、それらは $\mathfrak G$ のパラメータではない。
+
+##### 導出結果
+
+###### 行列合成と閉形式評価
+
+2つの変換について、$A_1$ を先に、$A_2$ を後に適用すると次のようになる：
+
+$$
+A_2A_1
+=
+A_{\lambda_2\lambda_1,\,
+\delta_2\delta_1,\,
+c_2+\frac{\lambda_2}{\delta_2}c_1}.
+$$
+
+$k$ 個の変換に対して、次のように定義する：
+
+$$
+\Lambda_k
+=
+\prod_{i=1}^{k}\lambda_i,
+\qquad
+\Delta_k
+=
+\prod_{i=1}^{k}\delta_i,
+$$
+
+また：
+
+$$
+Q_k
+=
+\sum_{i=1}^{k}
+\left(
+c_i
+\prod_{j=1}^{i}\delta_j
+\prod_{j=i+1}^{k}\lambda_j
+\right).
+$$
+
+このとき：
+
+$$
+\boxed{
+A_k\cdots A_1
+=
+\begin{pmatrix}
+\Lambda_k & 0 & 0\\
+0 & \Delta_k & 0\\
+0 & Q_k & \Lambda_k
+\end{pmatrix}.
+}
+$$
+
+任意の初期状態 $\mathbf{x}_0=(L_0,D_0,P_0)^T$ に対して：
+
+$$
+\boxed{
+\mathbf{x}_k
+=
+\begin{pmatrix}
+\Lambda_kL_0\\
+\Delta_kD_0\\
+\Lambda_kP_0+Q_kD_0
+\end{pmatrix}.
+}
+$$
+
+###### 導出されたリズム尺度
+
+位置 $k$ における{{<meta var.DIVISION.ja>}}の相対的な大きさは次のとおりである：
+
+$$
+r_k
+=
+\frac{D_k}{L_k}
+=
+r_0
+\prod_{i=1}^{k}
+\frac{\delta_i}{\lambda_i}.
+$$
+
+{{<meta var.DIVISION.ja>}}数は次のとおりである：
+
+$$
+N_k
+=
+N_0
+\prod_{i=1}^{k}
+\frac{\lambda_i}{\delta_i}.
+$$
+
+リズム上の各位置について、そのスカラー尺度係数を次のように定義する：
+
+$$
+\mathrm{base}_i^{n_i}
+=
+\frac{\delta_i}{\lambda_i}.
+$$
+
+このとき：
+
+$$
+\boxed{
+r_k
+=
+r_0
+\prod_{i=1}^{k}
+\mathrm{base}_i^{n_i}.
+}
+$$
+
+正規化された初期状態では $r_0=1$ であるため、従来のスカラー形式は次のようになる：
+
+$$
+\boxed{
+R
+=
+\prod_{i=1}^{k}
+\mathrm{base}_i^{n_i}.
+}
+$$
+
+このスカラー積は、相対的なリズム尺度を記録する。
+{{<meta var.P_CENTER.ja>}}の変位は記録せず、その情報は行列による実現に保持される。
+
+###### 可換性
+
+$L,D$ 成分は、それぞれの尺度係数が積によって結合されるため可換である。
+完全な変換が可換となるための必要十分条件は次のとおりである：
+
+$$
+\boxed{
+c_1\delta_1(\lambda_2-\delta_2)
+=
+c_2\delta_2(\lambda_1-\delta_1).
+}
+$$
+
+一般には可換ではない。{{<meta var.P_CENTER.ja>}}成分が、
+既存の{{<meta var.P_CENTER.ja>}}オフセットと現在の{{<meta var.DIVISION.ja>}}持続時間の
+両方に依存するためである。
+
+純粋な{{<meta var.POSTCENTRIC.ja>}}変換は、次の条件により可換である：
+
+$$
+c_1=c_2=0.
+$$
+
+###### 層の閉包と時間的実現
+
+層の状態 $\mathbf{x}_i=(L_i,D_i,P_i)^T$ に対して、次を仮定する：
+
+$$
+N_i
+=
+\frac{L_i}{D_i}
+=
+\frac{p}{q}
+$$
+
+ここで、$\frac{p}{q}$ は既約分数である。その{{<meta var.DIVISION.ja>}}は、
+次の条件で全体の持続時間と再び整列する：
+
+$$
+\boxed{
+qL_i=pD_i.
+}
+$$
+
+したがって：
+
+$$
+N_i\in\mathbb{N}
+\quad\Rightarrow\quad
+\text{1つの全体持続時間内で閉じる},
+$$
+
+$$
+N_i\in\mathbb{Q}_{>0}
+\quad\Rightarrow\quad
+\text{複数の持続時間をまたいで有限回で閉じる},
+$$
+
+$$
+N_i\in
+\mathbb{R}_{>0}\setminus\mathbb{Q}
+\quad\Rightarrow\quad
+\text{厳密には閉じない}.
+$$
+
+正規化された値 $1$ は、抽象的な基準持続時間である。
+$\tau>0$ に対する具体的な時間的実現は次のとおりである：
+
+$$
+\boxed{
+\operatorname{GE}_{\tau}(\mathfrak G)
+=
+\tau\mathbf{X}_{\mathfrak G}.
+}
+$$
+
+正規化されたアンカーを四分音符の拍として解釈する場合、
+$\tau$ はその拍の具体的な持続時間である。
+
+##### 例：「Near the Cross」
+
+<div class="center-box"><iframe width="560" height="315" src="https://www.youtube.com/embed/JdhUcR_MbTw?si=UzrCtMxmUPJAqqwj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
+正規化された初期状態を使用する：
+
+$$
+\mathbf{x}_0
+=
+(1,1,0)^T.
+$$
+
+任意の位置名のラベルは次のとおりである：
+
+$$
+(H,H,M,B,S_1).
+$$
+
+これらは列ラベルにすぎない。繰り返される $H$ は、個別のノード同一性を導入しない。
+
+5つの変換行列は次のとおりである：
+
+$$
+\left(
+A_{4,1,0},\,
+A_{8,1,0},\,
+A_{3,1,2},\,
+A_{1,\frac13,2},\,
+A_{1,\frac13,2}
+\right).
+$$
+
+同じ行列が最後の2つの位置に現れるが、2つ目の数学的な型や同一性を必要としない。
+
+逐次評価すると次のようになる：
+
+$$
+\mathbf{x}_1
+=
+(4,1,0)^T,
+$$
+
+$$
+\mathbf{x}_2
+=
+(32,1,0)^T,
+$$
+
+$$
+\mathbf{x}_3
+=
+(96,1,2)^T,
+$$
+
+$$
+\mathbf{x}_4
+=
+\left(96,\frac13,\frac83\right)^T,
+$$
+
+$$
+\mathbf{x}_5
+=
+\left(96,\frac19,\frac{26}{9}\right)^T.
+$$
+
+したがって、完全な数量的実現は次のとおりである：
+
+$$
+\boxed{
+\mathbf{X}_{\text{Near the Cross}}
+=
+\begin{pmatrix}
+1 & 4 & 32 & 96 & 96 & 96\\
+1 & 1 & 1 & 1 & \frac13 & \frac19\\
+0 & 0 & 0 & 2 & \frac83 & \frac{26}{9}
+\end{pmatrix}.
+}
+$$
+
+
+#### Groove Equation
+
+グルーヴ方程式の英語での形式的な定義は次の通りです。
+
+The Groove Equation gives a quantitative description of rhythmic scale,
+division duration, and P-center displacement across multiple rhythmic layers.
+
+##### {{<meta var.QUANTITATIVE_REPRESENTATION_OF_A_GROOVE_PRINCIPLE.en>}}
+
+A Groove Principle is quantitatively represented by the following state vector:
+
+$$
+\boxed{
+\mathbf{x}
+=
+(L,D,P)^T
+=
+\begin{pmatrix}
+L\\
+D\\
+P
+\end{pmatrix},
+}
+$$
+
+where:
+
+- $L\in\mathbb{R}_{>0}$ is the total duration.
+- $D\in\mathbb{R}_{>0}$ is the duration of one division.
+- $P\in\mathbb{R}$ is the P-center offset.
+
+The relative division size and the number of divisions are derived quantities:
+
+$$
+r(\mathbf{x})
+=
+\frac{D}{L},
+\qquad
+N(\mathbf{x})
+=
+\frac{L}{D}
+=
+\frac{1}{r(\mathbf{x})}.
+$$
+
+Neither $r$ nor $N$ replaces the quantitative duration $D$.
+
+##### Transformation Matrix
+
+A quantitative transformation has three parameters:
+
+$$
+\lambda>0,
+\qquad
+\delta>0,
+\qquad
+c\in\mathbb{R}_{\geq 0}.
+$$
+
+Its matrix is:
+
+$$
+\boxed{
+A_{\lambda,\delta,c}
+=
+\begin{pmatrix}
+\lambda & 0 & 0\\
+0 & \delta & 0\\
+0 & c\delta & \lambda
+\end{pmatrix}.
+}
+$$
+
+It acts directly on the state vector:
+
+$$
+\boxed{
+\mathbf{x}'
+=
+A_{\lambda,\delta,c}\mathbf{x}
+=
+\begin{pmatrix}
+\lambda L\\
+\delta D\\
+\lambda P+c\delta D
+\end{pmatrix}.
 }
 $$
 
@@ -995,170 +822,180 @@ Therefore:
 
 $$
 L'=\lambda L,
-$$
-
-$$
+\qquad
 D'=\delta D,
-$$
-
-$$
+\qquad
 P'=\lambda P+cD'.
 $$
 
-Thus, the existing P-center offset is first scaled by $\lambda$, while the new
-displacement is calculated from the updated division duration $D'$. The
-structural type does not form a fourth numerical parameter; it is recorded
-separately by the groove tree.
+The parameters mean:
 
-The derived properties transform as:
-
-$$
-r'
-=
-\frac{\delta}{\lambda}r,
-$$
-
-$$
-N'
-=
-\frac{\lambda}{\delta}N.
-$$
-
-When no ambiguity can result, write $O(T)$ for
-$\operatorname{Act}(O,T)$.
-
-Let $\mathcal O$ denote the collection of all three-parameter operations.
+- $\lambda$ scales the total duration and the existing P-center offset.
+- $\delta$ scales the division duration.
+- $c$ measures the new P-center displacement in updated divisions.
 
 Centricity is a classification derived from $c$:
 
 $$
-\chi(c)=
+\chi(c)
+=
 \begin{cases}
-\mathrm{postcentric},
-&
-c=0,
-\\[4pt]
-\mathrm{precentric},
-&
-c>0.
+\mathrm{postcentric}, & c=0,\\[4pt]
+\mathrm{precentric}, & c>0.
 \end{cases}
 $$
 
-For example, $O_{4,1,0}$ is postcentric, while $O_{3,1,2}$ is
-precentric with a displacement of two new divisions.
-
-The normalized initial state used below is:
-
-$$
-T_0=(1,1,0).
-$$
-
-##### Matrix representation and composition
-
-Represent a state as the column vector:
-
-$$
-\mathbf{t}(T)
-=
-\begin{pmatrix}
-L
-\\
-D
-\\
-P
-\end{pmatrix}.
-$$
-
-The matrix of $O_{\lambda,\delta,c}$ is:
+The normalized initial state is:
 
 $$
 \boxed{
-A_{\lambda,\delta,c}
+\mathbf{x}_0
 =
-\begin{pmatrix}
-\lambda & 0 & 0
-\\
-0 & \delta & 0
-\\
-0 & c\delta & \lambda
-\end{pmatrix}.
+(1,1,0)^T.
 }
 $$
 
-Therefore, the component-wise action is the matrix operation:
+::: {.callout-note title="Single-operation checks"}
 
 $$
-\boxed{
-\mathbf{t}
-\left(
-O_{\lambda,\delta,c}(T)
-\right)
+A_{2,1,0}\mathbf{x}_0
 =
-A_{\lambda,\delta,c}\mathbf{t}(T)
-=
-\begin{pmatrix}
-\lambda L
-\\
-\delta D
-\\
-c\delta D+\lambda P
-\end{pmatrix}.
-}
-$$
-
-The first row scales $L$, the second row scales $D$, and the third row
-scales the existing P-center offset by $\lambda$ and adds $c$ updated
-divisions. The off-diagonal entry $c\delta$ is what transfers the current
-division duration into the new P-center displacement.
-
-Matrix multiplication fixes operation order unambiguously. Let:
-
-$$
-O_i=O_{\lambda_i,\delta_i,c_i},
+(2,1,0)^T,
 \qquad
-A_i=A_{\lambda_i,\delta_i,c_i}.
-$$
-
-Applying $O_1$ first and $O_2$ second gives:
-
-$$
-\mathbf{t}
-\left(
-(O_2\circ O_1)(T)
-\right)
+A_{1,\frac12,0}\mathbf{x}_0
 =
-A_2A_1\mathbf{t}(T).
+\left(1,\frac12,0\right)^T,
 $$
 
-Direct multiplication gives:
-
 $$
-A_2A_1
+A_{2,1,1}\mathbf{x}_0
 =
-\begin{pmatrix}
-\lambda_2\lambda_1 & 0 & 0
-\\
-0 & \delta_2\delta_1 & 0
-\\
-0 &
-\lambda_2c_1\delta_1+c_2\delta_2\delta_1
-& \lambda_2\lambda_1
-\end{pmatrix}.
+(2,1,1)^T,
+\qquad
+A_{1,\frac12,1}\mathbf{x}_0
+=
+\left(1,\frac12,\frac12\right)^T.
 $$
 
-Thus, the composition is itself a three-parameter operation:
+:::
+
+##### Rhythmic Layers as Positional Places
+
+A multi-layer groove is represented by rhythmic places indexed by:
+
+$$
+i=0,1,\ldots,k.
+$$
+
+The index is positional. It functions like the position of a digit in a
+numeral. In a decimal numeral, names such as ones, tens, hundreds, and
+thousands describe places; they do not create separate mathematical objects.
+Likewise, names such as hypermeasure, measure, beat, subdivision, and
+microdivision describe rhythmic places but do not participate in the
+quantitative calculation.
+
+The same label may be used at more than one place. The same transformation
+matrix may also occur more than once. Neither requires a unique occurrence
+identifier.
+
+For each place $i\geq1$, let:
+
+$$
+A_i
+=
+A_{\lambda_i,\delta_i,c_i}.
+$$
+
+The state at place $i$ is:
 
 $$
 \boxed{
+\mathbf{x}_i
+=
+A_i\mathbf{x}_{i-1}.
+}
+$$
+
+Equivalently:
+
+$$
+\mathbf{x}_i
+=
+A_iA_{i-1}\cdots A_1\mathbf{x}_0.
+$$
+
+The complete quantitative description retains every layer:
+
+$$
+\boxed{
+\mathbf{X}_{\mathfrak G}
+=
+\begin{bmatrix}
+\mathbf{x}_0&
+\mathbf{x}_1&
+\cdots&
+\mathbf{x}_k
+\end{bmatrix}.
+}
+$$
+
+Thus, the final state is not identified with the complete groove. It is one
+column of the multi-layer realization.
+
+A microdivision is a rhythmic place whose temporal positions cannot be
+expressed as ordinary note values in the applicable notation system. It is a
+place in the same quantitative system, not an external timing correction.
+
+##### Formal Definition of the Groove Equation
+
+A normalized Groove Equation is:
+
+$$
+\boxed{
+\mathfrak G
+=
+\left(
+\mathbf{x}_0;
+A_1,\ldots,A_k
+\right).
+}
+$$
+
+Its normalized quantitative realization is:
+
+$$
+\boxed{
+\operatorname{GE}(\mathfrak G)
+=
+\mathbf{X}_{\mathfrak G}
+=
+\begin{bmatrix}
+\mathbf{x}_0&
+A_1\mathbf{x}_0&
+\cdots&
+A_k\cdots A_1\mathbf{x}_0
+\end{bmatrix}.
+}
+$$
+
+Optional place names may be displayed with the columns, but they are not
+parameters of $\mathfrak G$.
+
+##### Derived Results
+
+###### Matrix Composition and Closed-Form Evaluation
+
+For two transformations, applying $A_1$ first and $A_2$ second gives:
+
+$$
 A_2A_1
 =
 A_{\lambda_2\lambda_1,\,
 \delta_2\delta_1,\,
 c_2+\frac{\lambda_2}{\delta_2}c_1}.
-}
 $$
 
-For an operation word of length $k$, define:
+For $k$ transformations, define:
 
 $$
 \Lambda_k
@@ -1183,393 +1020,96 @@ c_i
 \right).
 $$
 
-Then the complete matrix product is:
+Then:
 
 $$
 \boxed{
-A_k\cdots A_2A_1
+A_k\cdots A_1
 =
 \begin{pmatrix}
-\Lambda_k & 0 & 0
-\\
-0 & \Delta_k & 0
-\\
+\Lambda_k & 0 & 0\\
+0 & \Delta_k & 0\\
 0 & Q_k & \Lambda_k
 \end{pmatrix}.
 }
 $$
 
-The two repeated-operation findings follow directly from matrix powers:
-
-$$
-A_{1,\frac12,1}^{2}
-=
-\begin{pmatrix}
-1 & 0 & 0
-\\
-0 & \frac14 & 0
-\\
-0 & \frac34 & 1
-\end{pmatrix},
-\qquad
-A_{1,\frac12,1}^{2}\mathbf{t}(T_0)
-=
-\begin{pmatrix}
-1
-\\
-\frac14
-\\
-\frac34
-\end{pmatrix},
-$$
-
-and:
-
-$$
-A_{2,1,1}^{2}
-=
-\begin{pmatrix}
-4 & 0 & 0
-\\
-0 & 1 & 0
-\\
-0 & 3 & 4
-\end{pmatrix},
-\qquad
-A_{2,1,1}^{2}\mathbf{t}(T_0)
-=
-\begin{pmatrix}
-4
-\\
-1
-\\
-3
-\end{pmatrix}.
-$$
-
-The case with current division duration $D=\frac12$ is likewise:
-
-$$
-A_{1,\frac13,1}
-\begin{pmatrix}
-L
-\\
-\frac12
-\\
-P
-\end{pmatrix}
-=
-\begin{pmatrix}
-1 & 0 & 0
-\\
-0 & \frac13 & 0
-\\
-0 & \frac13 & 1
-\end{pmatrix}
-\begin{pmatrix}
-L
-\\
-\frac12
-\\
-P
-\end{pmatrix}
-=
-\begin{pmatrix}
-L
-\\
-\frac16
-\\
-P+\frac16
-\end{pmatrix}.
-$$
-
-##### Single-operation checks from the normalized initial state
-
-The four single-operation checks are:
-
-$$
-O_{2,1,0}(T_0)=(2,1,0),
-$$
-
-$$
-O_{1,\frac12,0}(T_0)
-=
-\left(1,\frac12,0\right),
-$$
-
-$$
-O_{2,1,1}(T_0)=(2,1,1),
-$$
-
-$$
-O_{1,\frac12,1}(T_0)
-=
-\left(1,\frac12,\frac12\right).
-$$
-
-##### Groove structure
-
-Let:
-
-$$
-\mathcal{T}
-=
-(V,E,a,\prec,\kappa)
-$$
-
-be a finite rooted and ordered groove tree, where:
-
-- $V$ is the collection of structural occurrences.
-- $E$ is the collection of parent--child structural relations.
-- $a$ is the anchor occurrence and root.
-- $\prec$ records temporal or structural order among comparable occurrences.
-- $\kappa:V\to\mathcal K$ assigns one structural type to each occurrence.
-
-Thus, repeated occurrences retain separate identities while sharing a type. For
-example:
-
-$$
-h_1\neq h_2,
-\qquad
-\kappa(h_1)=\kappa(h_2)=H.
-$$
-
-Each non-anchor occurrence is assigned exactly one three-parameter operation:
-
-$$
-\Omega
-:
-V\setminus\{a\}
-\longrightarrow
-\mathcal O,
-$$
+For an arbitrary initial state $\mathbf{x}_0=(L_0,D_0,P_0)^T$:
 
 $$
 \boxed{
-\Omega(v)
-=
-O_{\lambda_v,\delta_v,c_v}.
-}
-$$
-
-The structural type of $v$ remains available from $\kappa(v)$ and is not
-duplicated in $\Omega(v)$.
-
-The normalized anchor state is normally:
-
-$$
-T_a=T_0.
-$$
-
-The unit durations in $T_0$ are conventional references; they do not require
-the anchor to be a quarter note.
-
-##### Predefined operation order
-
-Operation order is derived from a selected rooted path in the groove tree. Let:
-
-$$
-\gamma
-=
-(v_0=a,v_1,\ldots,v_k),
-$$
-
-where $(v_{i-1},v_i)\in E$ for every $i=1,\ldots,k$.
-
-The structural schema of the path is:
-
-$$
-\boxed{
-\Sigma_\gamma
-=
-(\kappa(v_1),\ldots,\kappa(v_k)).
-}
-$$
-
-Its operation order is inherited from the path:
-
-$$
-\Omega(v_i)
-\prec_{\mathrm{op}}
-\Omega(v_j)
-\quad\Longleftrightarrow\quad
-i<j.
-$$
-
-Thus, operations are written and applied from left to right. There is no
-universal coarse-to-fine word independent of the groove tree.
-
-##### Operation word
-
-An operation word is derived from the canonical node assignment along the
-selected path:
-
-$$
-\boxed{
-\Omega_\gamma
-=
-\left(
-\Omega(v_1),
-\ldots,
-\Omega(v_k)
-\right).
-}
-$$
-
-The leftmost operation is applied first.
-
-Starting with $T_{v_0}=T_a$, define:
-
-$$
-T_{v_i}
-=
-\operatorname{Act}
-\left(
-\Omega(v_i),
-T_{v_{i-1}}
-\right).
-$$
-
-The evaluation of the complete operation word is:
-
-$$
-\operatorname{Eval}(\Omega_\gamma,T_a)
-=
-T_{v_k}.
-$$
-
-Using standard function composition:
-
-$$
-\operatorname{Eval}(\Omega_\gamma,T_a)
-=
-\Omega(v_k)
-\circ\cdots\circ
-\Omega(v_2)
-\circ
-\Omega(v_1)(T_a).
-$$
-
-The same order can be shown with arrows:
-
-$$
-T_a
-\xrightarrow{\Omega(v_1)}
-T_{v_1}
-\xrightarrow{\Omega(v_2)}
-T_{v_2}
-\longrightarrow\cdots\longrightarrow
-T_{v_k}.
-$$
-
-Occurrences on different paths are not silently combined into one operation
-word. Each selected path determines its own schema and operation word.
-
-##### Closed-form evaluation
-
-For a selected path $\gamma$, write:
-
-$$
-T_a=(L_0,D_0,P_0)
-$$
-
-and:
-
-$$
-\Omega(v_i)
-=
-O_{\lambda_i,\delta_i,c_i}.
-$$
-
-The general matrix product gives:
-
-$$
-\mathbf{t}(T_{v_k})
-=
-A_k\cdots A_2A_1\mathbf{t}(T_a)
+\mathbf{x}_k
 =
 \begin{pmatrix}
-\Lambda_kL_0
-\\
-\Delta_kD_0
-\\
-Q_kD_0+\Lambda_kP_0
+\Lambda_kL_0\\
+\Delta_kD_0\\
+\Lambda_kP_0+Q_kD_0
 \end{pmatrix}.
+}
 $$
 
-Therefore:
+###### Derived Rhythmic Scale
 
-$$
-L_k
-=
-\Lambda_kL_0,
-$$
-
-$$
-D_k
-=
-\Delta_kD_0,
-$$
-
-$$
-P_k
-=
-\Lambda_kP_0+Q_kD_0.
-$$
-
-Consequently:
+The relative division size at place $k$ is:
 
 $$
 r_k
 =
-\frac{\Delta_k}{\Lambda_k}r_0,
+\frac{D_k}{L_k}
+=
+r_0
+\prod_{i=1}^{k}
+\frac{\delta_i}{\lambda_i}.
 $$
+
+The number of divisions is:
 
 $$
 N_k
 =
-\frac{\Lambda_k}{\Delta_k}N_0.
+N_0
+\prod_{i=1}^{k}
+\frac{\lambda_i}{\delta_i}.
 $$
 
-##### Commutativity
-
-For any state $T$, the $L,D$ projection is commutative:
+For each rhythmic place, define its scalar scale factor by:
 
 $$
-\pi_{L,D}
-\left(
-(O_2\circ O_1)(T)
-\right)
+\mathrm{base}_i^{n_i}
 =
-\pi_{L,D}
-\left(
-(O_1\circ O_2)(T)
-\right).
+\frac{\delta_i}{\lambda_i}.
 $$
 
-The diagonal entries of $A_2A_1$ and $A_1A_2$ are identical. By the
-composition law:
+Then:
 
 $$
-A_2A_1
+\boxed{
+r_k
 =
-A_{\lambda_2\lambda_1,\,
-\delta_2\delta_1,\,
-c_2+\frac{\lambda_2}{\delta_2}c_1},
+r_0
+\prod_{i=1}^{k}
+\mathrm{base}_i^{n_i}.
+}
 $$
 
-while:
+Under the normalized initial state, $r_0=1$, so the earlier scalar form becomes:
 
 $$
-A_1A_2
+\boxed{
+R
 =
-A_{\lambda_1\lambda_2,\,
-\delta_1\delta_2,\,
-c_1+\frac{\lambda_1}{\delta_1}c_2}.
+\prod_{i=1}^{k}
+\mathrm{base}_i^{n_i}.
+}
 $$
 
-Because $\delta_1\delta_2>0$, the complete transformations commute exactly
-when their third composition parameters are equal. Equivalently:
+This scalar product records relative rhythmic scale. It does not record
+P-center displacement; that information remains in the matrix realization.
+
+###### Commutativity
+
+The $L,D$ components commute because their scale factors multiply. The
+complete transformations commute exactly when:
 
 $$
 \boxed{
@@ -1579,232 +1119,151 @@ c_2\delta_2(\lambda_1-\delta_1).
 }
 $$
 
-They do not commute in general because both the scaling of the existing
-P-center offset and the displacement based on the current division duration
-depend on operation order:
+They do not commute in general because the P-center component depends on both
+the existing P-center offset and the current division duration.
 
-$$
-(O_2\circ O_1)(T)
-\neq
-(O_1\circ O_2)(T)
-$$
-
-in general.
-
-Pure postcentric scaling operations commute because:
+Pure postcentric transformations commute because:
 
 $$
 c_1=c_2=0.
 $$
 
-Even when operations commute numerically, their structural order remains part of the groove description.
+###### Layer Closure and Temporal Realization
 
-##### Boundary behavior
-
-Each division-bearing occurrence may have a boundary rule:
+For a layer state $\mathbf{x}_i=(L_i,D_i,P_i)^T$, suppose:
 
 $$
-\beta
-:
-V
-\longrightarrow
-\{
-\mathrm{reset},
-\mathrm{continuous}
-\}.
+N_i
+=
+\frac{L_i}{D_i}
+=
+\frac{p}{q}
 $$
 
-If:
-
-$$
-N=\frac{L}{D}=\frac{p}{q}
-$$
-
-in lowest terms, a continuous division realigns with its parent after:
+in lowest terms. Its division realigns with the total duration when:
 
 $$
 \boxed{
-qL=pD.
+qL_i=pD_i.
 }
 $$
 
 Therefore:
 
 $$
-N\in\mathbb{N}
+N_i\in\mathbb{N}
 \quad\Rightarrow\quad
-\text{closure within one parent occurrence},
+\text{closure within one total duration},
 $$
 
 $$
-N\in\mathbb{Q}_{>0}
+N_i\in\mathbb{Q}_{>0}
 \quad\Rightarrow\quad
-\text{finite cross-occurrence closure},
+\text{finite cross-duration closure},
 $$
 
 $$
-N\in
+N_i\in
 \mathbb{R}_{>0}\setminus\mathbb{Q}
 \quad\Rightarrow\quad
 \text{no exact closure}.
 $$
 
-##### Temporal realization
-
-The normalized value $1$ is an abstract reference duration.
-
-Let $\tau>0$ specify its concrete duration. Define:
-
-$$
-R_\tau(L,D,P)
-=
-(\tau L,\tau D,\tau P).
-$$
-
-If the anchor is conventionally interpreted as a quarter-note beat, then
-$\tau$ is the duration of that quarter-note beat.
-
-##### Formal definition of the Groove Equation
-
-The normalized Groove Equation is:
+The normalized value $1$ is an abstract reference duration. For $\tau>0$, the
+concrete temporal realization is:
 
 $$
 \boxed{
-\mathfrak{G}
+\operatorname{GE}_{\tau}(\mathfrak G)
 =
-\left(
-\mathcal{T},\,
-T_a,\,
-\Omega,\,
-\beta
-\right).
+\tau\mathbf{X}_{\mathfrak G}.
 }
 $$
 
-Its numerical realization is:
-
-$$
-\boxed{
-\operatorname{GE}_\tau(\mathfrak{G})
-=
-\left(
-R_\tau(T_v)
-\right)_{v\in V}.
-}
-$$
-
-Here, each $T_v$ is evaluated along its unique rooted path, with continuation
-across boundaries governed by $\beta$.
-
-Numerically identical realizations do not necessarily imply structurally identical grooves:
-
-$$
-\boxed{
-\operatorname{GE}_\tau(\mathfrak{G}_1)
-=
-\operatorname{GE}_\tau(\mathfrak{G}_2)
-\nRightarrow
-\mathfrak{G}_1
-=
-\mathfrak{G}_2.
-}
-$$
-
-Thus, the Groove Equation consists of:
-
-$$
-\boxed{
-\text{groove tree}
-+
-\text{three-parameter node-operation assignment}
-+
-\text{boundary behavior}
-+
-\text{numerical realization}.
-}
-$$
+If the normalized anchor is interpreted as a quarter-note beat, then $\tau$ is
+the concrete duration of that beat.
 
 ##### Example: “Near the Cross”
 
 <div class="center-box"><iframe width="560" height="315" src="https://www.youtube.com/embed/JdhUcR_MbTw?si=UzrCtMxmUPJAqqwj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
-Let the relevant non-anchor occurrences be:
+Use the normalized initial state:
 
 $$
-V_{\text{Near the Cross}}\setminus\{a\}
+\mathbf{x}_0
 =
-\{h_1,h_2,m,b,s_1\}.
+(1,1,0)^T.
 $$
 
-Their structural types are:
+The optional place-name labels are:
 
 $$
-\kappa(h_1)=\kappa(h_2)=H,
-\qquad
-\kappa(m)=M,
-\qquad
-\kappa(b)=B,
-\qquad
-\kappa(s_1)=S_1.
+(H,H,M,B,S_1).
 $$
 
-Define the node-operation assignment:
+They are column labels only. The repeated $H$ does not introduce separate node
+identities.
+
+The five transformation matrices are:
 
 $$
-\begin{aligned}
-\Omega_{\text{Near the Cross}}(h_1)
-&=
-O_{4,1,0},
-\\
-\Omega_{\text{Near the Cross}}(h_2)
-&=
-O_{8,1,0},
-\\
-\Omega_{\text{Near the Cross}}(m)
-&=
-O_{3,1,2},
-\\
-\Omega_{\text{Near the Cross}}(b)
-&=
-O_{1,\frac13,2},
-\\
-\Omega_{\text{Near the Cross}}(s_1)
-&=
-O_{1,\frac13,2}.
-\end{aligned}
+\left(
+A_{4,1,0},\,
+A_{8,1,0},\,
+A_{3,1,2},\,
+A_{1,\frac13,2},\,
+A_{1,\frac13,2}
+\right).
 $$
 
-These assignments alone do not assert that all five operations belong to one
-linear word. If the groove tree declares the rooted path:
+The same matrix appears at the last two places without requiring a second
+mathematical type or identity.
+
+Successive evaluation gives:
 
 $$
-\gamma
+\mathbf{x}_1
 =
-(a,h_1,h_2,m,b,s_1),
+(4,1,0)^T,
 $$
 
-then its derived operation word is:
+$$
+\mathbf{x}_2
+=
+(32,1,0)^T,
+$$
+
+$$
+\mathbf{x}_3
+=
+(96,1,2)^T,
+$$
+
+$$
+\mathbf{x}_4
+=
+\left(96,\frac13,\frac83\right)^T,
+$$
+
+$$
+\mathbf{x}_5
+=
+\left(96,\frac19,\frac{26}{9}\right)^T.
+$$
+
+Therefore, the complete quantitative realization is:
 
 $$
 \boxed{
-\Omega_\gamma
+\mathbf{X}_{\text{Near the Cross}}
 =
-\left(
-O_{4,1,0},\,
-O_{8,1,0},\,
-O_{3,1,2},\,
-O_{1,\frac13,2},\,
-O_{1,\frac13,2}
-\right).
+\begin{pmatrix}
+1 & 4 & 32 & 96 & 96 & 96\\
+1 & 1 & 1 & 1 & \frac13 & \frac19\\
+0 & 0 & 0 & 2 & \frac83 & \frac{26}{9}
+\end{pmatrix}.
 }
 $$
-
-If $h_1$ and $h_2$ are consecutive siblings, their order is recorded by
-$h_1\prec h_2$ or $h_2\prec h_1$. If they are alternatives, they are
-incomparable under $\prec$. In either case, they occur on separate rooted paths
-and are not multiplied together by default. The path-derived word records only
-the evaluation order of its selected path.
-
 
 ### グルーヴ九大原則一覧表
 

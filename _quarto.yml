@@ -269,7 +269,10 @@ var:
     en: "3⁻ⁿ Groove Hypothesis"
   GROOVE_EQUATIONS:
     ja: "グルーヴ方程式"
-    en: "The Groove Equations"
+    en: "The Groove Equation"
+  QUANTITATIVE_REPRESENTATION_OF_A_GROOVE_PRINCIPLE:
+    ja: "数量的なグルーヴ原則の表現法"
+    en: "Quantitative Representation of a Groove Principle"
   PRINCIPLES_OF_GROOVE:
     ja: "<ruby><rb>グルーヴ九大原則</rb><rt>The Nine Principles of Groove</rt></ruby>"
     en: "The Nine Principles of Groove"
