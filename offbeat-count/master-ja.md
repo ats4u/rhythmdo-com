@@ -222,10 +222,10 @@ $$
 ここで：
 
 - $L$ は全体の持続時間である。
-- $D$ は1分割の定量的な持続時間である。
-- $P$ はPセンターのオフセットである。
+- $D$ はディヴィジョンの単位時間である。
+- $P$ はPセンターのオフセット距離である。
 
-相対的な分割サイズと分割数は、次の派生特性として得られる：
+相対的な分割サイズと分割数は、次の派生式として得られる：
 
 $$
 r(T)=\frac{D}{L},
@@ -949,70 +949,44 @@ A microdivision is defined as follows:
 
 A microdivision belongs to the groove hierarchy. It is not an external timing correction.
 
-##### Typed operation
+##### Three-parameter operation
 
-A complete typed operation is:
+A numerical operation has exactly three parameters:
 
 $$
-O_{K;\lambda,\delta,\chi,c},
+O_{\lambda,\delta,c},
 $$
 
 where:
 
 $$
-K\in\mathcal{K},
-\qquad
 \lambda>0,
 \qquad
 \delta>0,
-$$
-
-$$
-\chi
-\in
-\{
-\mathrm{precentric},
-\mathrm{postcentric}
-\},
-$$
-
-and:
-
-$$
-c=
-\begin{cases}
-0,
-&
-\chi=\mathrm{postcentric},
-\\[4pt]
-c\in\mathbb{R}_{>0},
-&
-\chi=\mathrm{precentric}.
-\end{cases}
+\qquad
+c\in\mathbb{R}_{\geq 0}.
 $$
 
 The parameters have the following meanings:
 
-- $K$ is the structural type label.
-- $\lambda$ is the scaling ratio of $L$.
+- $\lambda$ is the scaling ratio of $L$ and of the existing P-center offset.
 - $\delta$ is the scaling ratio of $D$.
-- $\chi$ is the centricity type.
-- $c$ is the P-center displacement measured in new divisions.
+- $c$ is the new P-center displacement measured in new divisions.
 
-The numerical action of the typed operation is:
+The numerical action of the operation is:
 
 $$
 \boxed{
 \operatorname{Act}
 \left(
-O_{K;\lambda,\delta,\chi,c},
+O_{\lambda,\delta,c},
 (L,D,P)
 \right)
 =
 \left(
 \lambda L,\,
 \delta D,\,
-P+c\delta D
+\lambda P+c\delta D
 \right).
 }
 $$
@@ -1028,10 +1002,13 @@ D'=\delta D,
 $$
 
 $$
-P'=P+cD'.
+P'=\lambda P+cD'.
 $$
 
-The structural label $K$ does not change the numerical calculation. It records where the operation belongs in the groove hierarchy.
+Thus, the existing P-center offset is first scaled by $\lambda$, while the new
+displacement is calculated from the updated division duration $D'$. The
+structural type does not form a fourth numerical parameter; it is recorded
+separately by the groove tree.
 
 The derived properties transform as:
 
@@ -1050,9 +1027,9 @@ $$
 When no ambiguity can result, write $O(T)$ for
 $\operatorname{Act}(O,T)$.
 
-##### Abbreviated typed operation
+Let $\mathcal O$ denote the collection of all three-parameter operations.
 
-Centricity may be inferred uniquely from $c$ by defining:
+Centricity is a classification derived from $c$:
 
 $$
 \chi(c)=
@@ -1067,37 +1044,267 @@ c>0.
 \end{cases}
 $$
 
-The abbreviated typed operation is:
+For example, $O_{4,1,0}$ is postcentric, while $O_{3,1,2}$ is
+precentric with a displacement of two new divisions.
+
+The normalized initial state used below is:
+
+$$
+T_0=(1,1,0).
+$$
+
+##### Matrix representation and composition
+
+Represent a state as the column vector:
+
+$$
+\mathbf{t}(T)
+=
+\begin{pmatrix}
+L
+\\
+D
+\\
+P
+\end{pmatrix}.
+$$
+
+The matrix of $O_{\lambda,\delta,c}$ is:
 
 $$
 \boxed{
-\widetilde O_{K;\lambda,\delta,c}
+A_{\lambda,\delta,c}
 =
-O_{K;\lambda,\delta,\chi(c),c}.
+\begin{pmatrix}
+\lambda & 0 & 0
+\\
+0 & \delta & 0
+\\
+0 & c\delta & \lambda
+\end{pmatrix}.
 }
 $$
 
-Let $\widetilde{\mathcal O}$ denote the collection of all abbreviated typed
-operations.
-
-For example:
+Therefore, the component-wise action is the matrix operation:
 
 $$
-\widetilde O_{H;4,1,0}
+\boxed{
+\mathbf{t}
+\left(
+O_{\lambda,\delta,c}(T)
+\right)
+=
+A_{\lambda,\delta,c}\mathbf{t}(T)
+=
+\begin{pmatrix}
+\lambda L
+\\
+\delta D
+\\
+c\delta D+\lambda P
+\end{pmatrix}.
+}
 $$
 
-is a postcentric hypermeasure operation, while:
+The first row scales $L$, the second row scales $D$, and the third row
+scales the existing P-center offset by $\lambda$ and adds $c$ updated
+divisions. The off-diagonal entry $c\delta$ is what transfers the current
+division duration into the new P-center displacement.
+
+Matrix multiplication fixes operation order unambiguously. Let:
 
 $$
-\widetilde O_{M;3,1,2}
+O_i=O_{\lambda_i,\delta_i,c_i},
+\qquad
+A_i=A_{\lambda_i,\delta_i,c_i}.
 $$
 
-is a precentric measure operation with a displacement of two new divisions.
-
-The semicolon separates the structural label from the numerical parameters:
+Applying $O_1$ first and $O_2$ second gives:
 
 $$
-\widetilde O_{\text{structural type};\text{numerical parameters}}.
+\mathbf{t}
+\left(
+(O_2\circ O_1)(T)
+\right)
+=
+A_2A_1\mathbf{t}(T).
+$$
+
+Direct multiplication gives:
+
+$$
+A_2A_1
+=
+\begin{pmatrix}
+\lambda_2\lambda_1 & 0 & 0
+\\
+0 & \delta_2\delta_1 & 0
+\\
+0 &
+\lambda_2c_1\delta_1+c_2\delta_2\delta_1
+& \lambda_2\lambda_1
+\end{pmatrix}.
+$$
+
+Thus, the composition is itself a three-parameter operation:
+
+$$
+\boxed{
+A_2A_1
+=
+A_{\lambda_2\lambda_1,\,
+\delta_2\delta_1,\,
+c_2+\frac{\lambda_2}{\delta_2}c_1}.
+}
+$$
+
+For an operation word of length $k$, define:
+
+$$
+\Lambda_k
+=
+\prod_{i=1}^{k}\lambda_i,
+\qquad
+\Delta_k
+=
+\prod_{i=1}^{k}\delta_i,
+$$
+
+and:
+
+$$
+Q_k
+=
+\sum_{i=1}^{k}
+\left(
+c_i
+\prod_{j=1}^{i}\delta_j
+\prod_{j=i+1}^{k}\lambda_j
+\right).
+$$
+
+Then the complete matrix product is:
+
+$$
+\boxed{
+A_k\cdots A_2A_1
+=
+\begin{pmatrix}
+\Lambda_k & 0 & 0
+\\
+0 & \Delta_k & 0
+\\
+0 & Q_k & \Lambda_k
+\end{pmatrix}.
+}
+$$
+
+The two repeated-operation findings follow directly from matrix powers:
+
+$$
+A_{1,\frac12,1}^{2}
+=
+\begin{pmatrix}
+1 & 0 & 0
+\\
+0 & \frac14 & 0
+\\
+0 & \frac34 & 1
+\end{pmatrix},
+\qquad
+A_{1,\frac12,1}^{2}\mathbf{t}(T_0)
+=
+\begin{pmatrix}
+1
+\\
+\frac14
+\\
+\frac34
+\end{pmatrix},
+$$
+
+and:
+
+$$
+A_{2,1,1}^{2}
+=
+\begin{pmatrix}
+4 & 0 & 0
+\\
+0 & 1 & 0
+\\
+0 & 3 & 4
+\end{pmatrix},
+\qquad
+A_{2,1,1}^{2}\mathbf{t}(T_0)
+=
+\begin{pmatrix}
+4
+\\
+1
+\\
+3
+\end{pmatrix}.
+$$
+
+The case with current division duration $D=\frac12$ is likewise:
+
+$$
+A_{1,\frac13,1}
+\begin{pmatrix}
+L
+\\
+\frac12
+\\
+P
+\end{pmatrix}
+=
+\begin{pmatrix}
+1 & 0 & 0
+\\
+0 & \frac13 & 0
+\\
+0 & \frac13 & 1
+\end{pmatrix}
+\begin{pmatrix}
+L
+\\
+\frac12
+\\
+P
+\end{pmatrix}
+=
+\begin{pmatrix}
+L
+\\
+\frac16
+\\
+P+\frac16
+\end{pmatrix}.
+$$
+
+##### Single-operation checks from the normalized initial state
+
+The four single-operation checks are:
+
+$$
+O_{2,1,0}(T_0)=(2,1,0),
+$$
+
+$$
+O_{1,\frac12,0}(T_0)
+=
+\left(1,\frac12,0\right),
+$$
+
+$$
+O_{2,1,1}(T_0)=(2,1,1),
+$$
+
+$$
+O_{1,\frac12,1}(T_0)
+=
+\left(1,\frac12,\frac12\right).
 $$
 
 ##### Groove structure
@@ -1127,32 +1334,35 @@ h_1\neq h_2,
 \kappa(h_1)=\kappa(h_2)=H.
 $$
 
-Each non-anchor occurrence is assigned exactly one abbreviated typed operation:
+Each non-anchor occurrence is assigned exactly one three-parameter operation:
 
 $$
 \Omega
 :
 V\setminus\{a\}
 \longrightarrow
-\widetilde{\mathcal O},
+\mathcal O,
 $$
 
 $$
 \boxed{
 \Omega(v)
 =
-\widetilde O_{\kappa(v);\lambda_v,\delta_v,c_v}.
+O_{\lambda_v,\delta_v,c_v}.
 }
 $$
+
+The structural type of $v$ remains available from $\kappa(v)$ and is not
+duplicated in $\Omega(v)$.
 
 The normalized anchor state is normally:
 
 $$
-T_a=(1,1,0).
+T_a=T_0.
 $$
 
-The value $1$ is a conventional reference duration; it does not require the
-anchor to be a quarter note.
+The unit durations in $T_0$ are conventional references; they do not require
+the anchor to be a quarter note.
 
 ##### Predefined operation order
 
@@ -1189,9 +1399,9 @@ $$
 Thus, operations are written and applied from left to right. There is no
 universal coarse-to-fine word independent of the groove tree.
 
-##### Typed operation word
+##### Operation word
 
-A typed operation word is derived from the canonical node assignment along the
+An operation word is derived from the canonical node assignment along the
 selected path:
 
 $$
@@ -1268,36 +1478,43 @@ and:
 $$
 \Omega(v_i)
 =
-\widetilde O_{\kappa(v_i);\lambda_i,\delta_i,c_i}.
+O_{\lambda_i,\delta_i,c_i}.
 $$
 
-The final path state is:
+The general matrix product gives:
+
+$$
+\mathbf{t}(T_{v_k})
+=
+A_k\cdots A_2A_1\mathbf{t}(T_a)
+=
+\begin{pmatrix}
+\Lambda_kL_0
+\\
+\Delta_kD_0
+\\
+Q_kD_0+\Lambda_kP_0
+\end{pmatrix}.
+$$
+
+Therefore:
 
 $$
 L_k
 =
-L_0
-\prod_{i=1}^{k}\lambda_i,
+\Lambda_kL_0,
 $$
 
 $$
 D_k
 =
-D_0
-\prod_{i=1}^{k}\delta_i,
+\Delta_kD_0,
 $$
 
 $$
 P_k
 =
-P_0
-+
-D_0
-\sum_{i=1}^{k}
-\left(
-c_i
-\prod_{j=1}^{i}\delta_j
-\right).
+\Lambda_kP_0+Q_kD_0.
 $$
 
 Consequently:
@@ -1305,17 +1522,13 @@ Consequently:
 $$
 r_k
 =
-r_0
-\prod_{i=1}^{k}
-\frac{\delta_i}{\lambda_i},
+\frac{\Delta_k}{\Lambda_k}r_0,
 $$
 
 $$
 N_k
 =
-N_0
-\prod_{i=1}^{k}
-\frac{\lambda_i}{\delta_i}.
+\frac{\Lambda_k}{\Delta_k}N_0.
 $$
 
 ##### Commutativity
@@ -1334,7 +1547,41 @@ $$
 \right).
 $$
 
-The complete transformation is not necessarily commutative because P-center displacement depends on the current division duration:
+The diagonal entries of $A_2A_1$ and $A_1A_2$ are identical. By the
+composition law:
+
+$$
+A_2A_1
+=
+A_{\lambda_2\lambda_1,\,
+\delta_2\delta_1,\,
+c_2+\frac{\lambda_2}{\delta_2}c_1},
+$$
+
+while:
+
+$$
+A_1A_2
+=
+A_{\lambda_1\lambda_2,\,
+\delta_1\delta_2,\,
+c_1+\frac{\lambda_1}{\delta_1}c_2}.
+$$
+
+Because $\delta_1\delta_2>0$, the complete transformations commute exactly
+when their third composition parameters are equal. Equivalently:
+
+$$
+\boxed{
+c_1\delta_1(\lambda_2-\delta_2)
+=
+c_2\delta_2(\lambda_1-\delta_1).
+}
+$$
+
+They do not commute in general because both the scaling of the existing
+P-center offset and the displacement based on the current division duration
+depend on operation order:
 
 $$
 (O_2\circ O_1)(T)
@@ -1469,7 +1716,7 @@ $$
 \boxed{
 \text{groove tree}
 +
-\text{typed node-operation assignment}
+\text{three-parameter node-operation assignment}
 +
 \text{boundary behavior}
 +
@@ -1507,23 +1754,23 @@ $$
 \begin{aligned}
 \Omega_{\text{Near the Cross}}(h_1)
 &=
-\widetilde O_{H;4,1,0},
+O_{4,1,0},
 \\
 \Omega_{\text{Near the Cross}}(h_2)
 &=
-\widetilde O_{H;8,1,0},
+O_{8,1,0},
 \\
 \Omega_{\text{Near the Cross}}(m)
 &=
-\widetilde O_{M;3,1,2},
+O_{3,1,2},
 \\
 \Omega_{\text{Near the Cross}}(b)
 &=
-\widetilde O_{B;1,\frac13,2},
+O_{1,\frac13,2},
 \\
 \Omega_{\text{Near the Cross}}(s_1)
 &=
-\widetilde O_{S_1;1,\frac13,2}.
+O_{1,\frac13,2}.
 \end{aligned}
 $$
 
@@ -1543,11 +1790,11 @@ $$
 \Omega_\gamma
 =
 \left(
-\widetilde O_{H;4,1,0},\,
-\widetilde O_{H;8,1,0},\,
-\widetilde O_{M;3,1,2},\,
-\widetilde O_{B;1,\frac13,2},\,
-\widetilde O_{S_1;1,\frac13,2}
+O_{4,1,0},\,
+O_{8,1,0},\,
+O_{3,1,2},\,
+O_{1,\frac13,2},\,
+O_{1,\frac13,2}
 \right).
 }
 $$

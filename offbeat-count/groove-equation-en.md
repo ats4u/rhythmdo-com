@@ -164,13 +164,243 @@ $$
 For example, $O_{4,1,0}$ is postcentric, while $O_{3,1,2}$ is
 precentric with a displacement of two new divisions.
 
-##### Checks from the normalized initial state
-
-Let:
+The normalized initial state used below is:
 
 $$
 T_0=(1,1,0).
 $$
+
+##### Matrix representation and composition
+
+Represent a state as the column vector:
+
+$$
+\mathbf{t}(T)
+=
+\begin{pmatrix}
+L
+\\
+D
+\\
+P
+\end{pmatrix}.
+$$
+
+The matrix of $O_{\lambda,\delta,c}$ is:
+
+$$
+\boxed{
+A_{\lambda,\delta,c}
+=
+\begin{pmatrix}
+\lambda & 0 & 0
+\\
+0 & \delta & 0
+\\
+0 & c\delta & \lambda
+\end{pmatrix}.
+}
+$$
+
+Therefore, the component-wise action is the matrix operation:
+
+$$
+\boxed{
+\mathbf{t}
+\left(
+O_{\lambda,\delta,c}(T)
+\right)
+=
+A_{\lambda,\delta,c}\mathbf{t}(T)
+=
+\begin{pmatrix}
+\lambda L
+\\
+\delta D
+\\
+c\delta D+\lambda P
+\end{pmatrix}.
+}
+$$
+
+The first row scales $L$, the second row scales $D$, and the third row
+scales the existing P-center offset by $\lambda$ and adds $c$ updated
+divisions. The off-diagonal entry $c\delta$ is what transfers the current
+division duration into the new P-center displacement.
+
+Matrix multiplication fixes operation order unambiguously. Let:
+
+$$
+O_i=O_{\lambda_i,\delta_i,c_i},
+\qquad
+A_i=A_{\lambda_i,\delta_i,c_i}.
+$$
+
+Applying $O_1$ first and $O_2$ second gives:
+
+$$
+\mathbf{t}
+\left(
+(O_2\circ O_1)(T)
+\right)
+=
+A_2A_1\mathbf{t}(T).
+$$
+
+Direct multiplication gives:
+
+$$
+A_2A_1
+=
+\begin{pmatrix}
+\lambda_2\lambda_1 & 0 & 0
+\\
+0 & \delta_2\delta_1 & 0
+\\
+0 &
+\lambda_2c_1\delta_1+c_2\delta_2\delta_1
+& \lambda_2\lambda_1
+\end{pmatrix}.
+$$
+
+Thus, the composition is itself a three-parameter operation:
+
+$$
+\boxed{
+A_2A_1
+=
+A_{\lambda_2\lambda_1,\,
+\delta_2\delta_1,\,
+c_2+\frac{\lambda_2}{\delta_2}c_1}.
+}
+$$
+
+For an operation word of length $k$, define:
+
+$$
+\Lambda_k
+=
+\prod_{i=1}^{k}\lambda_i,
+\qquad
+\Delta_k
+=
+\prod_{i=1}^{k}\delta_i,
+$$
+
+and:
+
+$$
+Q_k
+=
+\sum_{i=1}^{k}
+\left(
+c_i
+\prod_{j=1}^{i}\delta_j
+\prod_{j=i+1}^{k}\lambda_j
+\right).
+$$
+
+Then the complete matrix product is:
+
+$$
+\boxed{
+A_k\cdots A_2A_1
+=
+\begin{pmatrix}
+\Lambda_k & 0 & 0
+\\
+0 & \Delta_k & 0
+\\
+0 & Q_k & \Lambda_k
+\end{pmatrix}.
+}
+$$
+
+The two repeated-operation findings follow directly from matrix powers:
+
+$$
+A_{1,\frac12,1}^{2}
+=
+\begin{pmatrix}
+1 & 0 & 0
+\\
+0 & \frac14 & 0
+\\
+0 & \frac34 & 1
+\end{pmatrix},
+\qquad
+A_{1,\frac12,1}^{2}\mathbf{t}(T_0)
+=
+\begin{pmatrix}
+1
+\\
+\frac14
+\\
+\frac34
+\end{pmatrix},
+$$
+
+and:
+
+$$
+A_{2,1,1}^{2}
+=
+\begin{pmatrix}
+4 & 0 & 0
+\\
+0 & 1 & 0
+\\
+0 & 3 & 4
+\end{pmatrix},
+\qquad
+A_{2,1,1}^{2}\mathbf{t}(T_0)
+=
+\begin{pmatrix}
+4
+\\
+1
+\\
+3
+\end{pmatrix}.
+$$
+
+The case with current division duration $D=\frac12$ is likewise:
+
+$$
+A_{1,\frac13,1}
+\begin{pmatrix}
+L
+\\
+\frac12
+\\
+P
+\end{pmatrix}
+=
+\begin{pmatrix}
+1 & 0 & 0
+\\
+0 & \frac13 & 0
+\\
+0 & \frac13 & 1
+\end{pmatrix}
+\begin{pmatrix}
+L
+\\
+\frac12
+\\
+P
+\end{pmatrix}
+=
+\begin{pmatrix}
+L
+\\
+\frac16
+\\
+P+\frac16
+\end{pmatrix}.
+$$
+
+##### Single-operation checks from the normalized initial state
 
 The four single-operation checks are:
 
@@ -192,39 +422,6 @@ $$
 O_{1,\frac12,1}(T_0)
 =
 \left(1,\frac12,\frac12\right).
-$$
-
-Applying $O_{1,\frac12,1}$ twice gives:
-
-$$
-(1,1,0)
-\xrightarrow{O_{1,\frac12,1}}
-\left(1,\frac12,\frac12\right)
-\xrightarrow{O_{1,\frac12,1}}
-\left(1,\frac14,\frac34\right).
-$$
-
-Applying $O_{2,1,1}$ twice gives:
-
-$$
-(1,1,0)
-\xrightarrow{O_{2,1,1}}
-(2,1,1)
-\xrightarrow{O_{2,1,1}}
-(4,1,3).
-$$
-
-Finally, if the current division duration is $D=\frac12$, then applying
-$O_{1,\frac13,1}$ first updates the division duration to:
-
-$$
-D'=\frac13\cdot\frac12=\frac16,
-$$
-
-and then updates the P-center offset to:
-
-$$
-P'=P+D'=P+\frac16.
 $$
 
 ##### Groove structure
@@ -401,35 +598,40 @@ $$
 O_{\lambda_i,\delta_i,c_i}.
 $$
 
-The final path state is:
+The general matrix product gives:
+
+$$
+\mathbf{t}(T_{v_k})
+=
+A_k\cdots A_2A_1\mathbf{t}(T_a)
+=
+\begin{pmatrix}
+\Lambda_kL_0
+\\
+\Delta_kD_0
+\\
+Q_kD_0+\Lambda_kP_0
+\end{pmatrix}.
+$$
+
+Therefore:
 
 $$
 L_k
 =
-L_0
-\prod_{i=1}^{k}\lambda_i,
+\Lambda_kL_0,
 $$
 
 $$
 D_k
 =
-D_0
-\prod_{i=1}^{k}\delta_i,
+\Delta_kD_0,
 $$
 
 $$
 P_k
 =
-P_0
-\prod_{i=1}^{k}\lambda_i
-+
-D_0
-\sum_{i=1}^{k}
-\left(
-c_i
-\prod_{j=1}^{i}\delta_j
-\prod_{j=i+1}^{k}\lambda_j
-\right).
+\Lambda_kP_0+Q_kD_0.
 $$
 
 Consequently:
@@ -437,17 +639,13 @@ Consequently:
 $$
 r_k
 =
-r_0
-\prod_{i=1}^{k}
-\frac{\delta_i}{\lambda_i},
+\frac{\Delta_k}{\Lambda_k}r_0,
 $$
 
 $$
 N_k
 =
-N_0
-\prod_{i=1}^{k}
-\frac{\lambda_i}{\delta_i}.
+\frac{\Lambda_k}{\Delta_k}N_0.
 $$
 
 ##### Commutativity
@@ -466,47 +664,29 @@ $$
 \right).
 $$
 
-Let:
+The diagonal entries of $A_2A_1$ and $A_1A_2$ are identical. By the
+composition law:
 
 $$
-O_i=O_{\lambda_i,\delta_i,c_i}.
-$$
-
-The P-center components of the two possible orders are:
-
-$$
-\pi_P
-\left(
-(O_2\circ O_1)(T)
-\right)
+A_2A_1
 =
-\lambda_2\lambda_1P
-+
-\left(
-\lambda_2c_1\delta_1
-+
-c_2\delta_2\delta_1
-\right)D,
+A_{\lambda_2\lambda_1,\,
+\delta_2\delta_1,\,
+c_2+\frac{\lambda_2}{\delta_2}c_1},
 $$
 
-and:
+while:
 
 $$
-\pi_P
-\left(
-(O_1\circ O_2)(T)
-\right)
+A_1A_2
 =
-\lambda_1\lambda_2P
-+
-\left(
-\lambda_1c_2\delta_2
-+
-c_1\delta_1\delta_2
-\right)D.
+A_{\lambda_1\lambda_2,\,
+\delta_1\delta_2,\,
+c_1+\frac{\lambda_1}{\delta_1}c_2}.
 $$
 
-Therefore, the complete transformations commute exactly when:
+Because $\delta_1\delta_2>0$, the complete transformations commute exactly
+when their third composition parameters are equal. Equivalently:
 
 $$
 \boxed{

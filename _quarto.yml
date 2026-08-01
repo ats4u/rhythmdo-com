@@ -312,6 +312,9 @@ var:
   GROOVE:
     ja: "<ruby><rb>グルーヴ</rb><rt>Groove</rt></ruby>"
     en: "Groove"
+  HYPERMEASURE:
+    ja: "大小節"
+    en: "hypermeasure"
   TATENORI_ONEWAY:
     ja: "縦乗りの一方向性"
     en: "Tatenori Unidirectionality"
