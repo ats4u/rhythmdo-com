@@ -254,6 +254,9 @@ $$
 c\in\mathbb{R}_{\geq 0}.
 $$
 
+
+In the input parameter triple $(\lambda,\delta,c)$, $\lambda$ scales the total duration of the current groove state and its existing P-center offset. When $\lambda$ is a positive integer, it can be interpreted as the number of repetitions. The parameter $\delta$ scales the duration of one division; for example, $\delta=\frac12$ halves the division duration. The parameter $c$ specifies how far the onset precedes the P-center, measured in units of the updated division duration $D'=\delta D$.
+
 その行列は次のとおりである：
 
 $$
@@ -787,6 +790,9 @@ $$
 \qquad
 c\in\mathbb{R}_{\geq 0}.
 $$
+
+In the input parameter triple $(\lambda,\delta,c)$, $\lambda$ scales the total duration of the current groove state and its existing P-center offset. When $\lambda$ is a positive integer, it can be interpreted as the number of repetitions. The parameter $\delta$ scales the duration of one division; for example, $\delta=\frac12$ halves the division duration. The parameter $c$ specifies how far the onset precedes the P-center, measured in units of the updated division duration $D'=\delta D$.
+
 
 Its matrix is:
 
