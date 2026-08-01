@@ -255,7 +255,7 @@ c\in\mathbb{R}_{\geq 0}.
 $$
 
 
-In the input parameter triple $(\lambda,\delta,c)$, $\lambda$ scales the total duration of the current groove state and its existing P-center offset. When $\lambda$ is a positive integer, it can be interpreted as the number of repetitions. The parameter $\delta$ scales the duration of one division; for example, $\delta=\frac12$ halves the division duration. The parameter $c$ specifies how far the onset precedes the P-center, measured in units of the updated division duration $D'=\delta D$.
+入力パラメータの三つ組 $(\lambda,\delta,c)$ において、$\lambda$ は現在のグルーヴ状態の全体の持続時間と既存の{{<meta var.P_CENTER.ja>}}オフセットを拡大・縮小する。$\lambda$ が正の整数である場合、それは反復回数として解釈できる。パラメータ $\delta$ は1つの {{<meta var.DIVISION.ja>}} の持続時間を拡大・縮小する。たとえば、$\delta=\frac12$ は {{<meta var.DIVISION.ja>}} の持続時間を半分にする。パラメータ $c$ は、更新後の{{<meta var.DIVISION.ja>}}の持続時間 $D'=\delta D$ を単位として、オンセットが{{<meta var.P_CENTER.ja>}}よりどれだけ先行するかを指定する。
 
 その行列は次のとおりである：
 
