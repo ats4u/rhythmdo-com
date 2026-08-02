@@ -738,9 +738,11 @@ $$
 
 {{<meta var.GROOVE_EQUATIONS.en>}} defines a quantitative model of a groove’s multilayered rhythmic structure in terms of pattern length, {{<meta var.DIVISION.en>}} duration, and {{<meta var.P_CENTER.en>}} displacement, and expresses this model as an equation. Its definition is as follows.
 
-##### {{<meta var.QUANTITATIVE_REPRESENTATION_OF_A_GROOVE_PRINCIPLE.en>}}
+##### Groove Resolution Vector
 
-A Groove Principle is quantitatively represented by the following state vector:
+The quantitative formalism for a Groove Principle consists of a groove state
+vector and a layer matrix. The state vector describes the groove at one
+rhythmic resolution:
 
 $$
 \boxed{
@@ -778,22 +780,31 @@ $$
 
 Neither $r$ nor $N$ replaces the quantitative duration $D$.
 
-##### Transformation Matrix
+The vector $\mathbf{x}$ is therefore a resolution-specific groove state. It is
+not, by itself, the complete quantitative representation of a groove.
 
-A quantitative transformation has three parameters:
+##### Groove Layer Matrix
+
+One layer of a multilayered groove is quantitatively represented by a layer
+matrix with three parameters:
 
 $$
-\lambda\geq1,
+\lambda\in\mathbb{N}_{\geq 1},
 \qquad
-\delta\geq1,
+\delta\in\mathbb{Q}_{\leq 1},
 \qquad
-c\in\mathbb{R}_{\geq 0}.
+c\in\mathbb{N}_{\geq 0}.
 $$
 
-In the input parameter triple $(\lambda,\delta,c)$, $\lambda$ scales the total duration of the current groove state and its existing P-center offset. When $\lambda$ is a positive integer, it can be interpreted as the number of repetitions. The parameter $\delta$ scales the duration of one division; for example, $\delta=\frac12$ halves the division duration. The parameter $c$ specifies how far the onset precedes the P-center, measured in units of the updated division duration $D'=\delta D$.
+In the layer-parameter triple $(\lambda,\delta,c)$, $\lambda$ scales the total
+duration of the current groove state and its existing P-center offset. When
+$\lambda$ is a positive integer, it can be interpreted as the number of
+repetitions. The parameter $\delta$ scales the duration of one division; for
+example, $\delta=\frac12$ halves the division duration. The parameter $c$
+specifies how far the onset precedes the P-center, measured in units of the
+updated division duration $D'=\delta D$.
 
-
-Its matrix is:
+The layer matrix is:
 
 $$
 \boxed{
@@ -807,7 +818,8 @@ A_{\lambda,\delta,c}
 }
 $$
 
-It acts directly on the state vector:
+Applying the layer matrix to the groove state at one rhythmic resolution
+produces the state at the next resolution:
 
 $$
 \boxed{
@@ -833,7 +845,7 @@ D'=\delta D,
 P'=\lambda P+cD'.
 $$
 
-The parameters mean:
+Each parameter specifies an aspect of the layer:
 
 - $\lambda$ scales the total duration and the existing P-center offset.
 - $\delta$ scales the division duration.
@@ -846,11 +858,12 @@ $$
 =
 \begin{cases}
 \mathrm{postcentric}, & c=0,\\[4pt]
+\mathrm{nocentric}, & c=0,\\[4pt]
 \mathrm{precentric}, & c>0.
 \end{cases}
 $$
 
-The normalized initial state is:
+The normalized reference state is:
 
 $$
 \boxed{
@@ -860,7 +873,7 @@ $$
 }
 $$
 
-::: {.callout-note title="Single-operation checks"}
+::: {.callout-note title="Single-layer checks"}
 
 $$
 A_{2,1,0}\mathbf{x}_0
@@ -884,26 +897,16 @@ $$
 
 :::
 
-##### Rhythmic Layers as Positional Places
+##### Layer And Resolution Sequence
 
-A multi-layer groove is represented by rhythmic places indexed by:
+A multilayered groove contains ordered layers indexed by:
 
 $$
-i=0,1,\ldots,k.
+i=1,\ldots,k.
 $$
 
-The index is positional. It functions like the position of a digit in a
-numeral. In a decimal numeral, names such as ones, tens, hundreds, and
-thousands describe places; they do not create separate mathematical objects.
-Likewise, names such as hypermeasure, measure, beat, subdivision, and
-microdivision describe rhythmic places but do not participate in the
-quantitative calculation.
-
-The same label may be used at more than one place. The same transformation
-matrix may also occur more than once. Neither requires a unique occurrence
-identifier.
-
-For each place $i\geq1$, let:
+The corresponding resolution states are indexed by $i=0,1,\ldots,k$, where
+$\mathbf{x}_0$ is the reference state. For each layer $i\geq1$, let:
 
 $$
 A_i
@@ -911,7 +914,7 @@ A_i
 A_{\lambda_i,\delta_i,c_i}.
 $$
 
-The state at place $i$ is:
+Applying layer $A_i$ produces the next resolution-specific state:
 
 $$
 \boxed{
@@ -929,31 +932,14 @@ $$
 A_iA_{i-1}\cdots A_1\mathbf{x}_0.
 $$
 
-The complete quantitative description retains every layer:
+No individual resolution-specific state, including the final state
+$\mathbf{x}_k$, is the complete groove. The complete groove retains the
+reference state and every layer in their applied order.
 
-$$
-\boxed{
-\mathbf{X}_{\mathfrak G}
-=
-\begin{bmatrix}
-\mathbf{x}_0&
-\mathbf{x}_1&
-\cdots&
-\mathbf{x}_k
-\end{bmatrix}.
-}
-$$
+##### {{<meta var.QUANTITATIVE_REPRESENTATION_OF_GROOVE.en>}}
+Formal Definition of the Groove Equation
 
-Thus, the final state is not identified with the complete groove. It is one
-column of the multi-layer realization.
-
-A microdivision is a rhythmic place whose temporal positions cannot be
-expressed as ordinary note values in the applicable notation system. It is a
-place in the same quantitative system, not an external timing correction.
-
-##### Formal Definition of the Groove Equation
-
-A normalized Groove Equation is:
+A normalized Groove Equation---the quantitative representation of a groove---is:
 
 $$
 \boxed{
@@ -966,7 +952,10 @@ A_1,\ldots,A_k
 }
 $$
 
-Its normalized quantitative realization is:
+Here, $\mathbf{x}_0$ is the normalized reference state, and each $A_i$ is one
+layer of the multilayered groove. Its normalized quantitative realization
+contains the reference state and the resolution-specific state produced by
+every layer:
 
 $$
 \boxed{
@@ -983,14 +972,14 @@ A_k\cdots A_1\mathbf{x}_0
 }
 $$
 
-Optional place names may be displayed with the columns, but they are not
-parameters of $\mathfrak G$.
+Thus, $\mathfrak G$ is the groove's structural definition, whereas
+$\operatorname{GE}(\mathfrak G)$ is its complete quantitative realization.
 
 ##### Derived Results
 
 ###### Matrix Composition and Closed-Form Evaluation
 
-For two transformations, applying $A_1$ first and $A_2$ second gives:
+For two layers, applying $A_1$ first and $A_2$ second gives:
 
 $$
 A_2A_1
@@ -1000,7 +989,7 @@ A_{\lambda_2\lambda_1,\,
 c_2+\frac{\lambda_2}{\delta_2}c_1}.
 $$
 
-For $k$ transformations, define:
+For $k$ layers, define:
 
 $$
 \Lambda_k
@@ -1055,7 +1044,7 @@ $$
 
 ###### Derived Rhythmic Scale
 
-The relative division size at place $k$ is:
+The relative division size after layer $k$ is:
 
 $$
 r_k
@@ -1077,7 +1066,7 @@ N_0
 \frac{\lambda_i}{\delta_i}.
 $$
 
-For each rhythmic place, define its scalar scale factor by:
+For each layer, define its scalar scale factor by:
 
 $$
 \mathrm{base}_i^{n_i}
@@ -1114,7 +1103,7 @@ P-center displacement; that information remains in the matrix realization.
 ###### Commutativity
 
 The $L,D$ components commute because their scale factors multiply. The
-complete transformations commute exactly when:
+complete layer matrices commute exactly when:
 
 $$
 \boxed{
@@ -1124,10 +1113,11 @@ c_2\delta_2(\lambda_1-\delta_1).
 }
 $$
 
-They do not commute in general because the P-center component depends on both
-the existing P-center offset and the current division duration.
+The layer matrices do not commute in general because the P-center component
+depends on both the existing P-center offset and the current division
+duration.
 
-Pure postcentric transformations commute because:
+Pure postcentric layer matrices commute because:
 
 $$
 c_1=c_2=0.
@@ -1135,7 +1125,7 @@ $$
 
 ###### Layer Closure and Temporal Realization
 
-For a layer state $\mathbf{x}_i=(L_i,D_i,P_i)^T$, suppose:
+For a resolution-specific state $\mathbf{x}_i=(L_i,D_i,P_i)^T$, suppose:
 
 $$
 N_i
@@ -1192,7 +1182,7 @@ the concrete duration of that beat.
 
 <div class="center-box"><iframe width="560" height="315" src="https://www.youtube.com/embed/JdhUcR_MbTw?si=UzrCtMxmUPJAqqwj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
-Use the normalized initial state:
+Use the normalized reference state:
 
 $$
 \mathbf{x}_0
@@ -1200,16 +1190,7 @@ $$
 (1,1,0)^T.
 $$
 
-The optional place-name labels are:
-
-$$
-(H,H,M,B,S_1).
-$$
-
-They are column labels only. The repeated $H$ does not introduce separate node
-identities.
-
-The five transformation matrices are:
+The groove has five ordered layer matrices:
 
 $$
 \left(
@@ -1221,10 +1202,7 @@ A_{1,\frac13,2}
 \right).
 $$
 
-The same matrix appears at the last two places without requiring a second
-mathematical type or identity.
-
-Successive evaluation gives:
+Applying the layers successively gives:
 
 $$
 \mathbf{x}_1
