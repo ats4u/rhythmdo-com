@@ -200,11 +200,11 @@ Pセンターよりも後ろに情報の中心があると感じる傾向をポ�
 
 #### {{<meta var.GROOVE_EQUATIONS.ja>}}
 
-{{<meta var.GROOVE_EQUATIONS.ja>}}は、複数のリズム層にわたるリズム尺度、{{<meta var.DIVISION.ja>}}の持続時間、および{{<meta var.P_CENTER.ja>}}の変位を数量的に記述する。
+{{<meta var.GROOVE_EQUATIONS.ja>}}は、パターンの長さ、{{<meta var.DIVISION.ja>}}の持続時間、及び{{<meta var.P_CENTER.ja>}}の変位を用いて、グルーヴの多階層的なリズム構造を定量化するモデルを定義し、このモデルを方程式として表す。その定義は次のとおりである。
 
-##### {{<meta var.QUANTITATIVE_REPRESENTATION_OF_A_GROOVE_PRINCIPLE.ja>}}
+##### グルーヴ解像度ベクトル
 
-グルーヴ原則は、次の状態ベクトルによって数量的に表現される：
+一つのリズム解像度におけるグルーヴは、次の状態ベクトルによって定量的に記述される：
 
 $$
 \boxed{
@@ -240,24 +240,25 @@ N(\mathbf{x})
 \frac{1}{r(\mathbf{x})}.
 $$
 
-$r$ と $N$ のいずれも、数量的な持続時間 $D$ を置き換えるものではない。
+$r$ と $N$ のいずれも、定量的な持続時間 $D$ を置き換えるものではない。
 
-##### 変換行列
+したがって、ベクトル $\mathbf{x}$ は解像度ごとのグルーヴ状態である。それはグルーヴ原則を表すものではなく、それ自体がグルーヴの完全な定量表現でもない。
 
-数量変換は3つのパラメータを持つ：
+##### グルーヴ階層行列
+
+各グルーヴ原則は、多階層グルーヴの一つの階層を大まかに特徴づける。そのような階層は、三つのパラメータを持つ階層行列によって定量的に表現される：
 
 $$
-\lambda>0,
+\lambda\in\mathbb{N}_{\geq 1},
 \qquad
-\delta>0,
+\delta\in\mathbb{Q}\cap(0,1],
 \qquad
-c\in\mathbb{R}_{\geq 0}.
+c\in\mathbb{N}_{\geq 0}.
 $$
 
+階層パラメータの三つ組 $(\lambda,\delta,c)$ において、$\lambda$ は現在のグルーヴ状態の全体の持続時間と、既存の{{<meta var.P_CENTER.ja>}}オフセットを拡大・縮小する。正の整数である $\lambda$ は、反復回数として解釈できる。パラメータ $\delta$ は一つの{{<meta var.DIVISION.ja>}}の持続時間を拡大・縮小する。たとえば、$\delta=\frac12$ は{{<meta var.DIVISION.ja>}}の持続時間を半分にする。パラメータ $c$ は、オンセットが{{<meta var.P_CENTER.ja>}}より先行する距離を、更新後の{{<meta var.DIVISION.ja>}}の非負整数個分として指定する。この測定には $D'=\delta D$ を用いる。
 
-入力パラメータの三つ組 $(\lambda,\delta,c)$ において、$\lambda$ は現在のグルーヴ状態の全体の持続時間と既存の{{<meta var.P_CENTER.ja>}}オフセットを拡大・縮小する。$\lambda$ が正の整数である場合、それは反復回数として解釈できる。パラメータ $\delta$ は1つの {{<meta var.DIVISION.ja>}} の持続時間を拡大・縮小する。たとえば、$\delta=\frac12$ は {{<meta var.DIVISION.ja>}} の持続時間を半分にする。パラメータ $c$ は、更新後の{{<meta var.DIVISION.ja>}}の持続時間 $D'=\delta D$ を単位として、オンセットが{{<meta var.P_CENTER.ja>}}よりどれだけ先行するかを指定する。
-
-その行列は次のとおりである：
+階層行列は次のとおりである：
 
 $$
 \boxed{
@@ -271,7 +272,7 @@ A_{\lambda,\delta,c}
 }
 $$
 
-これは状態ベクトルに直接作用する：
+階層行列を、一つのリズム解像度におけるグルーヴ状態に適用すると、次の解像度における状態が生成される：
 
 $$
 \boxed{
@@ -297,24 +298,27 @@ D'=\delta D,
 P'=\lambda P+cD'.
 $$
 
-各パラメータの意味は次のとおりである：
+各パラメータは階層の一側面を規定する：
 
 - $\lambda$ は全体の持続時間と、既存の{{<meta var.P_CENTER.ja>}}オフセットを拡大・縮小する。
 - $\delta$ は{{<meta var.DIVISION.ja>}}の持続時間を拡大・縮小する。
 - $c$ は、更新後の{{<meta var.DIVISION.ja>}}を単位として、新たな{{<meta var.P_CENTER.ja>}}変位を測る。
 
-中心性は $c$ から導出される分類である：
+中心性は、階層パラメータの三つ組全体から導出される分類である：
 
 $$
-\chi(c)
+\chi(\lambda,\delta,c)
 =
 \begin{cases}
-\mathrm{postcentric}, & c=0,\\[4pt]
+\mathrm{nocentric},
+&(\lambda,\delta,c)=(1,1,0),\\[4pt]
+\mathrm{postcentric},
+&c=0\text{ and }(\lambda,\delta)\ne(1,1),\\[4pt]
 \mathrm{precentric}, & c>0.
 \end{cases}
 $$
 
-正規化された初期状態は次のとおりである：
+正規化された基準状態は次のとおりである：
 
 $$
 \boxed{
@@ -324,7 +328,13 @@ $$
 }
 $$
 
-::: {.callout-note title="単一変換の確認"}
+::: {.callout-note title="単一階層の確認"}
+
+$$
+A_{1,1,0}\mathbf{x}_0
+=
+\mathbf{x}_0.
+$$
 
 $$
 A_{2,1,0}\mathbf{x}_0
@@ -348,25 +358,15 @@ $$
 
 :::
 
-##### 位置を表す桁としてのリズム層
+##### 階層と解像度の系列
 
-多層グルーヴは、次の添字を持つリズム上の位置によって表される：
+多階層グルーヴは、次の添字が付いた順序付きの階層を含む：
 
 $$
-i=0,1,\ldots,k.
+i=1,\ldots,k.
 $$
 
-この添字は位置を表す。これは、数における数字の桁位置と同じ働きをする。
-10進数では、一の位、十の位、百の位、千の位などの名称は位置を記述するものであり、
-個別の数学的対象を新たに作るものではない。同様に、
-{{<meta var.HYPERMEASURE.ja>}}、小節、拍、{{<meta var.SUBDIVISION.ja>}}、
-{{<meta var.MICRODIVISION.ja>}}といった名称はリズム上の位置を記述するが、
-数量計算には関与しない。
-
-同じラベルを複数の位置で使用してもよい。同じ変換行列が複数回現れてもよい。
-どちらにも、出現ごとの一意な識別子は必要ない。
-
-各位置 $i\geq1$ に対して、次のようにおく：
+対応する解像度状態には $i=0,1,\ldots,k$ の添字が付き、$\mathbf{x}_0$ は基準状態である。各階層 $i\geq1$ について、次のようにおく：
 
 $$
 A_i
@@ -374,7 +374,7 @@ A_i
 A_{\lambda_i,\delta_i,c_i}.
 $$
 
-位置 $i$ における状態は次のとおりである：
+階層 $A_i$ を適用すると、次の解像度ごとの状態が生成される：
 
 $$
 \boxed{
@@ -384,7 +384,7 @@ A_i\mathbf{x}_{i-1}.
 }
 $$
 
-同値な表現は次のとおりである：
+同じことを次のようにも表せる：
 
 $$
 \mathbf{x}_i
@@ -392,30 +392,12 @@ $$
 A_iA_{i-1}\cdots A_1\mathbf{x}_0.
 $$
 
-完全な数量記述は、すべての層を保持する：
+最終状態 $\mathbf{x}_k$ を含め、個々の解像度ごとの状態はいずれも完全なグルーヴではない。完全なグルーヴは、基準状態と、適用順に並べられたすべての階層を保持する。
 
-$$
-\boxed{
-\mathbf{X}_{\mathfrak G}
-=
-\begin{bmatrix}
-\mathbf{x}_0&
-\mathbf{x}_1&
-\cdots&
-\mathbf{x}_k
-\end{bmatrix}.
-}
-$$
+##### {{<meta var.QUANTITATIVE_REPRESENTATION_OF_GROOVE.ja>}}
+グルーヴ方程式の形式的定義
 
-したがって、最終状態をグルーヴ全体と同一視しない。最終状態は、多層的な実現を構成する1つの列である。
-
-{{<meta var.MICRODIVISION.ja>}}とは、適用される記譜体系において、
-その時間的位置を通常の音価で表現できないリズム上の位置である。
-これは同じ数量体系内の位置であり、外部から加えられるタイミング補正ではない。
-
-##### グルーヴ方程式の形式的定義
-
-正規化された{{<meta var.GROOVE_EQUATIONS.ja>}}は次のとおりである：
+正規化されたグルーヴ方程式――グルーヴの定量表現――は、次のとおりである：
 
 $$
 \boxed{
@@ -428,7 +410,7 @@ A_1,\ldots,A_k
 }
 $$
 
-その正規化された数量的実現は次のとおりである：
+ここで、$\mathbf{x}_0$ は正規化された基準状態であり、各 $A_i$ は多階層グルーヴの一つの階層である。その正規化された定量的実現は、基準状態と、各階層によって生成される解像度ごとの状態を含む：
 
 $$
 \boxed{
@@ -445,13 +427,13 @@ A_k\cdots A_1\mathbf{x}_0
 }
 $$
 
-任意の位置名を列とともに表示してもよいが、それらは $\mathfrak G$ のパラメータではない。
+したがって、$\mathfrak G$ はグルーヴの構造的定義であり、$\operatorname{GE}(\mathfrak G)$ はその完全な定量的実現である。
 
 ##### 導出結果
 
 ###### 行列合成と閉形式評価
 
-2つの変換について、$A_1$ を先に、$A_2$ を後に適用すると次のようになる：
+二つの階層について、$A_1$ を先に、$A_2$ を後に適用すると次のようになる：
 
 $$
 A_2A_1
@@ -461,7 +443,17 @@ A_{\lambda_2\lambda_1,\,
 c_2+\frac{\lambda_2}{\delta_2}c_1}.
 $$
 
-$k$ 個の変換に対して、次のように定義する：
+この合成演算子の実効第三パラメータは次のとおりである：
+
+$$
+c_{2\circ1}^{\mathrm{eff}}
+=
+c_2+\frac{\lambda_2}{\delta_2}c_1.
+$$
+
+個々の階層では $c_i\in\mathbb{N}_{\geq0}$ でなければならないが、実効パラメータ $c_{2\circ1}^{\mathrm{eff}}$ は非負整数とは限らない。その場合でも、この積は妥当な合成演算子であるが、個別階層のパラメータ領域のもとで許容される単一階層ではない。
+
+$k$ 個の階層に対して、次のように定義する：
 
 $$
 \Lambda_k
@@ -516,7 +508,7 @@ $$
 
 ###### 導出されたリズム尺度
 
-位置 $k$ における{{<meta var.DIVISION.ja>}}の相対的な大きさは次のとおりである：
+階層 $k$ の適用後における{{<meta var.DIVISION.ja>}}の相対的な大きさは次のとおりである：
 
 $$
 r_k
@@ -538,7 +530,7 @@ N_0
 \frac{\lambda_i}{\delta_i}.
 $$
 
-リズム上の各位置について、そのスカラー尺度係数を次のように定義する：
+各階層について、そのスカラー尺度係数を次のように定義する：
 
 $$
 \mathrm{base}_i^{n_i}
@@ -574,8 +566,7 @@ $$
 
 ###### 可換性
 
-$L,D$ 成分は、それぞれの尺度係数が積によって結合されるため可換である。
-完全な変換が可換となるための必要十分条件は次のとおりである：
+$L,D$ 成分は、それぞれの尺度係数が乗算されるため可換である。完全な階層行列が可換となるための必要十分条件は次のとおりである：
 
 $$
 \boxed{
@@ -585,19 +576,19 @@ c_2\delta_2(\lambda_1-\delta_1).
 }
 $$
 
-一般には可換ではない。{{<meta var.P_CENTER.ja>}}成分が、
-既存の{{<meta var.P_CENTER.ja>}}オフセットと現在の{{<meta var.DIVISION.ja>}}持続時間の
-両方に依存するためである。
+一般に、階層行列は可換ではない。{{<meta var.P_CENTER.ja>}}成分が、既存の{{<meta var.P_CENTER.ja>}}オフセットと現在の{{<meta var.DIVISION.ja>}}持続時間の両方に依存するためである。
 
-純粋な{{<meta var.POSTCENTRIC.ja>}}変換は、次の条件により可換である：
+新たに加わる{{<meta var.P_CENTER.ja>}}変位がゼロである任意の二つの階層行列は、次の条件のもとで可換である：
 
 $$
 c_1=c_2=0.
 $$
 
-###### 層の閉包と時間的実現
+このクラスには、{{<meta var.POSTCENTRIC.ja>}}階層と、ノーセントリックな単位階層が含まれる。
 
-層の状態 $\mathbf{x}_i=(L_i,D_i,P_i)^T$ に対して、次を仮定する：
+###### 階層の閉包と時間的実現
+
+解像度ごとの状態 $\mathbf{x}_i=(L_i,D_i,P_i)^T$ について、次を仮定する：
 
 $$
 N_i
@@ -655,7 +646,7 @@ $\tau$ はその拍の具体的な持続時間である。
 
 <div class="center-box"><iframe width="560" height="315" src="https://www.youtube.com/embed/JdhUcR_MbTw?si=UzrCtMxmUPJAqqwj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
-正規化された初期状態を使用する：
+正規化された基準状態を使用する：
 
 $$
 \mathbf{x}_0
@@ -663,15 +654,7 @@ $$
 (1,1,0)^T.
 $$
 
-任意の位置名のラベルは次のとおりである：
-
-$$
-(H,H,M,B,S_1).
-$$
-
-これらは列ラベルにすぎない。繰り返される $H$ は、個別のノード同一性を導入しない。
-
-5つの変換行列は次のとおりである：
+このグルーヴには、順序付けられた五つの階層行列がある：
 
 $$
 \left(
@@ -683,9 +666,7 @@ A_{1,\frac13,2}
 \right).
 $$
 
-同じ行列が最後の2つの位置に現れるが、2つ目の数学的な型や同一性を必要としない。
-
-逐次評価すると次のようになる：
+階層を順次適用すると次のようになる：
 
 $$
 \mathbf{x}_1
@@ -717,7 +698,7 @@ $$
 \left(96,\frac19,\frac{26}{9}\right)^T.
 $$
 
-したがって、完全な数量的実現は次のとおりである：
+したがって、完全な定量的実現は次のとおりである：
 
 $$
 \boxed{
@@ -736,12 +717,12 @@ $$
 
 グルーヴ方程式の英語での形式的な定義は次の通りです。
 
-The Groove Equation gives a quantitative description of rhythmic scale,
-division duration, and P-center displacement across multiple rhythmic layers.
+{{<meta var.GROOVE_EQUATIONS.en>}} defines a quantitative model of a groove’s multilayered rhythmic structure in terms of pattern length, {{<meta var.DIVISION.en>}} duration, and {{<meta var.P_CENTER.en>}} displacement, and expresses this model as an equation. Its definition is as follows.
 
-##### {{<meta var.QUANTITATIVE_REPRESENTATION_OF_A_GROOVE_PRINCIPLE.en>}}
+##### Groove Resolution Vector
 
-A Groove Principle is quantitatively represented by the following state vector:
+A groove at one rhythmic resolution is quantitatively described by the
+following state vector:
 
 $$
 \boxed{
@@ -779,22 +760,33 @@ $$
 
 Neither $r$ nor $N$ replaces the quantitative duration $D$.
 
-##### Transformation Matrix
+The vector $\mathbf{x}$ is therefore a resolution-specific groove state. It
+does not represent a Groove Principle and is not, by itself, the complete
+quantitative representation of a groove.
 
-A quantitative transformation has three parameters:
+##### Groove Layer Matrix
+
+Each Groove Principle broadly characterizes a layer of a multilayered groove.
+Such a layer is quantitatively represented by a layer matrix with three
+parameters:
 
 $$
-\lambda>0,
+\lambda\in\mathbb{N}_{\geq 1},
 \qquad
-\delta>0,
+\delta\in\mathbb{Q}\cap(0,1],
 \qquad
-c\in\mathbb{R}_{\geq 0}.
+c\in\mathbb{N}_{\geq 0}.
 $$
 
-In the input parameter triple $(\lambda,\delta,c)$, $\lambda$ scales the total duration of the current groove state and its existing P-center offset. When $\lambda$ is a positive integer, it can be interpreted as the number of repetitions. The parameter $\delta$ scales the duration of one division; for example, $\delta=\frac12$ halves the division duration. The parameter $c$ specifies how far the onset precedes the P-center, measured in units of the updated division duration $D'=\delta D$.
+In the layer-parameter triple $(\lambda,\delta,c)$, $\lambda$ scales the total
+duration of the current groove state and its existing P-center offset. As a
+positive integer, $\lambda$ can be interpreted as the number of repetitions.
+The parameter $\delta$ scales the duration of one division; for example,
+$\delta=\frac12$ halves the division duration. The parameter $c$ specifies the
+nonnegative integer number of updated divisions by which the onset precedes
+the P-center, measured using $D'=\delta D$.
 
-
-Its matrix is:
+The layer matrix is:
 
 $$
 \boxed{
@@ -808,7 +800,8 @@ A_{\lambda,\delta,c}
 }
 $$
 
-It acts directly on the state vector:
+Applying the layer matrix to the groove state at one rhythmic resolution
+produces the state at the next resolution:
 
 $$
 \boxed{
@@ -834,24 +827,28 @@ D'=\delta D,
 P'=\lambda P+cD'.
 $$
 
-The parameters mean:
+Each parameter specifies an aspect of the layer:
 
 - $\lambda$ scales the total duration and the existing P-center offset.
 - $\delta$ scales the division duration.
 - $c$ measures the new P-center displacement in updated divisions.
 
-Centricity is a classification derived from $c$:
+Centricity is a classification derived from the complete layer-parameter
+triple:
 
 $$
-\chi(c)
+\chi(\lambda,\delta,c)
 =
 \begin{cases}
-\mathrm{postcentric}, & c=0,\\[4pt]
+\mathrm{nocentric},
+&(\lambda,\delta,c)=(1,1,0),\\[4pt]
+\mathrm{postcentric},
+&c=0\text{ and }(\lambda,\delta)\ne(1,1),\\[4pt]
 \mathrm{precentric}, & c>0.
 \end{cases}
 $$
 
-The normalized initial state is:
+The normalized reference state is:
 
 $$
 \boxed{
@@ -861,7 +858,13 @@ $$
 }
 $$
 
-::: {.callout-note title="Single-operation checks"}
+::: {.callout-note title="Single-layer checks"}
+
+$$
+A_{1,1,0}\mathbf{x}_0
+=
+\mathbf{x}_0.
+$$
 
 $$
 A_{2,1,0}\mathbf{x}_0
@@ -885,26 +888,16 @@ $$
 
 :::
 
-##### Rhythmic Layers as Positional Places
+##### Layer And Resolution Sequence
 
-A multi-layer groove is represented by rhythmic places indexed by:
+A multilayered groove contains ordered layers indexed by:
 
 $$
-i=0,1,\ldots,k.
+i=1,\ldots,k.
 $$
 
-The index is positional. It functions like the position of a digit in a
-numeral. In a decimal numeral, names such as ones, tens, hundreds, and
-thousands describe places; they do not create separate mathematical objects.
-Likewise, names such as hypermeasure, measure, beat, subdivision, and
-microdivision describe rhythmic places but do not participate in the
-quantitative calculation.
-
-The same label may be used at more than one place. The same transformation
-matrix may also occur more than once. Neither requires a unique occurrence
-identifier.
-
-For each place $i\geq1$, let:
+The corresponding resolution states are indexed by $i=0,1,\ldots,k$, where
+$\mathbf{x}_0$ is the reference state. For each layer $i\geq1$, let:
 
 $$
 A_i
@@ -912,7 +905,7 @@ A_i
 A_{\lambda_i,\delta_i,c_i}.
 $$
 
-The state at place $i$ is:
+Applying layer $A_i$ produces the next resolution-specific state:
 
 $$
 \boxed{
@@ -930,31 +923,14 @@ $$
 A_iA_{i-1}\cdots A_1\mathbf{x}_0.
 $$
 
-The complete quantitative description retains every layer:
+No individual resolution-specific state, including the final state
+$\mathbf{x}_k$, is the complete groove. The complete groove retains the
+reference state and every layer in their applied order.
 
-$$
-\boxed{
-\mathbf{X}_{\mathfrak G}
-=
-\begin{bmatrix}
-\mathbf{x}_0&
-\mathbf{x}_1&
-\cdots&
-\mathbf{x}_k
-\end{bmatrix}.
-}
-$$
+##### {{<meta var.QUANTITATIVE_REPRESENTATION_OF_GROOVE.en>}}
+Formal Definition of the Groove Equation
 
-Thus, the final state is not identified with the complete groove. It is one
-column of the multi-layer realization.
-
-A microdivision is a rhythmic place whose temporal positions cannot be
-expressed as ordinary note values in the applicable notation system. It is a
-place in the same quantitative system, not an external timing correction.
-
-##### Formal Definition of the Groove Equation
-
-A normalized Groove Equation is:
+A normalized Groove Equation---the quantitative representation of a groove---is:
 
 $$
 \boxed{
@@ -967,7 +943,10 @@ A_1,\ldots,A_k
 }
 $$
 
-Its normalized quantitative realization is:
+Here, $\mathbf{x}_0$ is the normalized reference state, and each $A_i$ is one
+layer of the multilayered groove. Its normalized quantitative realization
+contains the reference state and the resolution-specific state produced by
+every layer:
 
 $$
 \boxed{
@@ -984,14 +963,14 @@ A_k\cdots A_1\mathbf{x}_0
 }
 $$
 
-Optional place names may be displayed with the columns, but they are not
-parameters of $\mathfrak G$.
+Thus, $\mathfrak G$ is the groove's structural definition, whereas
+$\operatorname{GE}(\mathfrak G)$ is its complete quantitative realization.
 
 ##### Derived Results
 
 ###### Matrix Composition and Closed-Form Evaluation
 
-For two transformations, applying $A_1$ first and $A_2$ second gives:
+For two layers, applying $A_1$ first and $A_2$ second gives:
 
 $$
 A_2A_1
@@ -1001,7 +980,20 @@ A_{\lambda_2\lambda_1,\,
 c_2+\frac{\lambda_2}{\delta_2}c_1}.
 $$
 
-For $k$ transformations, define:
+The effective third parameter of this composite operator is:
+
+$$
+c_{2\circ1}^{\mathrm{eff}}
+=
+c_2+\frac{\lambda_2}{\delta_2}c_1.
+$$
+
+Although each individual layer requires $c_i\in\mathbb{N}_{\geq0}$, the
+effective parameter $c_{2\circ1}^{\mathrm{eff}}$ need not be a natural number.
+In that case, the product remains a valid composite operator but is not an
+admissible single layer under the individual-layer parameter domain.
+
+For $k$ layers, define:
 
 $$
 \Lambda_k
@@ -1056,7 +1048,7 @@ $$
 
 ###### Derived Rhythmic Scale
 
-The relative division size at place $k$ is:
+The relative division size after layer $k$ is:
 
 $$
 r_k
@@ -1078,7 +1070,7 @@ N_0
 \frac{\lambda_i}{\delta_i}.
 $$
 
-For each rhythmic place, define its scalar scale factor by:
+For each layer, define its scalar scale factor by:
 
 $$
 \mathrm{base}_i^{n_i}
@@ -1115,7 +1107,7 @@ P-center displacement; that information remains in the matrix realization.
 ###### Commutativity
 
 The $L,D$ components commute because their scale factors multiply. The
-complete transformations commute exactly when:
+complete layer matrices commute exactly when:
 
 $$
 \boxed{
@@ -1125,18 +1117,21 @@ c_2\delta_2(\lambda_1-\delta_1).
 }
 $$
 
-They do not commute in general because the P-center component depends on both
-the existing P-center offset and the current division duration.
+The layer matrices do not commute in general because the P-center component
+depends on both the existing P-center offset and the current division
+duration.
 
-Pure postcentric transformations commute because:
+Any two layer matrices with zero added P-center displacement commute when:
 
 $$
 c_1=c_2=0.
 $$
 
+This class includes postcentric layers and the nocentric identity layer.
+
 ###### Layer Closure and Temporal Realization
 
-For a layer state $\mathbf{x}_i=(L_i,D_i,P_i)^T$, suppose:
+For a resolution-specific state $\mathbf{x}_i=(L_i,D_i,P_i)^T$, suppose:
 
 $$
 N_i
@@ -1193,7 +1188,7 @@ the concrete duration of that beat.
 
 <div class="center-box"><iframe width="560" height="315" src="https://www.youtube.com/embed/JdhUcR_MbTw?si=UzrCtMxmUPJAqqwj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
-Use the normalized initial state:
+Use the normalized reference state:
 
 $$
 \mathbf{x}_0
@@ -1201,16 +1196,7 @@ $$
 (1,1,0)^T.
 $$
 
-The optional place-name labels are:
-
-$$
-(H,H,M,B,S_1).
-$$
-
-They are column labels only. The repeated $H$ does not introduce separate node
-identities.
-
-The five transformation matrices are:
+The groove has five ordered layer matrices:
 
 $$
 \left(
@@ -1222,10 +1208,7 @@ A_{1,\frac13,2}
 \right).
 $$
 
-The same matrix appears at the last two places without requiring a second
-mathematical type or identity.
-
-Successive evaluation gives:
+Applying the layers successively gives:
 
 $$
 \mathbf{x}_1
@@ -1595,9 +1578,9 @@ body.quarto-dark .rdo9pog-table-scroll {
 <tr>
   <th scope="row">原則１</th>
   <th scope="row">リズム指数極性</th>
-  <td>分裂拍 <span class="formula">(base<sup>−n</sup>)</span></td>
-  <td>孤立拍 <span class="formula">(base<sup>0</sup> = 1)</span></td>
-  <td>増殖拍 <span class="formula">(base<sup>+n</sup>)</span></td>
+  <td>分裂拍 <span class="formula">($\delta\in\mathbb N_{>1}$)</span></td>
+  <td>孤立拍 <span class="formula">($\lambda{=1}, \delta{=1}$)</span></td>
+  <td>増殖拍 <span class="formula">($\lambda\in\mathbb N_{>1}$)</span></td>
   <td>音節頭／音節核-分離</td>
   <td>音節頭／音節核-融合</td>
   <td>音節頭／音節核-分離</td>
