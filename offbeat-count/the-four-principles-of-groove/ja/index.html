@@ -90,8 +90,8 @@ ul.task-list li input[type="checkbox"] {
     enable_page_level_ads: true
   });
 </script>
-<meta name="mdate" content="2026-08-01T19:22:16Z">
-<meta property="article:modified_time" content="2026-08-01T19:22:16Z">
+<meta name="mdate" content="2026-08-02T12:33:28Z">
+<meta property="article:modified_time" content="2026-08-02T12:33:28Z">
 <meta name="cdate" content="2025-06-08">
 <meta property="article:published_time" content="2025-06-08">
 
@@ -571,25 +571,25 @@ window.Quarto = {
   <li><a href="#とは-2" id="toc-とは-2" class="nav-link" data-scroll-target="#とは-2"><ruby>音韻学的音楽分析<rt>フォノリズマトロジー</rt></ruby> とは</a></li>
   <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1">グルーヴ方程式</a>
   <ul>
-  <li><a href="#section-2" id="toc-section-2" class="nav-link" data-scroll-target="#section-2">数量的なグルーヴ原則の表現法</a></li>
-  <li><a href="#変換行列" id="toc-変換行列" class="nav-link" data-scroll-target="#変換行列">変換行列</a></li>
-  <li><a href="#位置を表す桁としてのリズム層" id="toc-位置を表す桁としてのリズム層" class="nav-link" data-scroll-target="#位置を表す桁としてのリズム層">位置を表す桁としてのリズム層</a></li>
-  <li><a href="#グルーヴ方程式の形式的定義" id="toc-グルーヴ方程式の形式的定義" class="nav-link" data-scroll-target="#グルーヴ方程式の形式的定義">グルーヴ方程式の形式的定義</a></li>
+  <li><a href="#グルーヴ解像度ベクトル" id="toc-グルーヴ解像度ベクトル" class="nav-link" data-scroll-target="#グルーヴ解像度ベクトル">グルーヴ解像度ベクトル</a></li>
+  <li><a href="#グルーヴ階層行列" id="toc-グルーヴ階層行列" class="nav-link" data-scroll-target="#グルーヴ階層行列">グルーヴ階層行列</a></li>
+  <li><a href="#階層と解像度の系列" id="toc-階層と解像度の系列" class="nav-link" data-scroll-target="#階層と解像度の系列">階層と解像度の系列</a></li>
+  <li><a href="#section-2" id="toc-section-2" class="nav-link" data-scroll-target="#section-2">定量化されたグルーヴ原則</a></li>
   <li><a href="#導出結果" id="toc-導出結果" class="nav-link" data-scroll-target="#導出結果">導出結果</a>
   <ul>
   <li><a href="#行列合成と閉形式評価" id="toc-行列合成と閉形式評価" class="nav-link" data-scroll-target="#行列合成と閉形式評価">行列合成と閉形式評価</a></li>
   <li><a href="#導出されたリズム尺度" id="toc-導出されたリズム尺度" class="nav-link" data-scroll-target="#導出されたリズム尺度">導出されたリズム尺度</a></li>
   <li><a href="#可換性" id="toc-可換性" class="nav-link" data-scroll-target="#可換性">可換性</a></li>
-  <li><a href="#層の閉包と時間的実現" id="toc-層の閉包と時間的実現" class="nav-link" data-scroll-target="#層の閉包と時間的実現">層の閉包と時間的実現</a></li>
+  <li><a href="#階層の閉包と時間的実現" id="toc-階層の閉包と時間的実現" class="nav-link" data-scroll-target="#階層の閉包と時間的実現">階層の閉包と時間的実現</a></li>
   </ul></li>
   <li><a href="#例near-the-cross" id="toc-例near-the-cross" class="nav-link" data-scroll-target="#例near-the-cross">例：「Near the Cross」</a></li>
   </ul></li>
   <li><a href="#groove-equation" id="toc-groove-equation" class="nav-link" data-scroll-target="#groove-equation">Groove Equation</a>
   <ul>
+  <li><a href="#groove-resolution-vector" id="toc-groove-resolution-vector" class="nav-link" data-scroll-target="#groove-resolution-vector">Groove Resolution Vector</a></li>
+  <li><a href="#groove-layer-matrix" id="toc-groove-layer-matrix" class="nav-link" data-scroll-target="#groove-layer-matrix">Groove Layer Matrix</a></li>
+  <li><a href="#layer-and-resolution-sequence" id="toc-layer-and-resolution-sequence" class="nav-link" data-scroll-target="#layer-and-resolution-sequence">Layer And Resolution Sequence</a></li>
   <li><a href="#section-3" id="toc-section-3" class="nav-link" data-scroll-target="#section-3">Quantitative Representation of a Groove Principle</a></li>
-  <li><a href="#transformation-matrix" id="toc-transformation-matrix" class="nav-link" data-scroll-target="#transformation-matrix">Transformation Matrix</a></li>
-  <li><a href="#rhythmic-layers-as-positional-places" id="toc-rhythmic-layers-as-positional-places" class="nav-link" data-scroll-target="#rhythmic-layers-as-positional-places">Rhythmic Layers as Positional Places</a></li>
-  <li><a href="#formal-definition-of-the-groove-equation" id="toc-formal-definition-of-the-groove-equation" class="nav-link" data-scroll-target="#formal-definition-of-the-groove-equation">Formal Definition of the Groove Equation</a></li>
   <li><a href="#derived-results" id="toc-derived-results" class="nav-link" data-scroll-target="#derived-results">Derived Results</a>
   <ul>
   <li><a href="#matrix-composition-and-closed-form-evaluation" id="toc-matrix-composition-and-closed-form-evaluation" class="nav-link" data-scroll-target="#matrix-composition-and-closed-form-evaluation">Matrix Composition and Closed-Form Evaluation</a></li>
@@ -740,10 +740,10 @@ window.Quarto = {
 </section>
 <section id="section-1" class="level4">
 <h4 class="anchored" data-anchor-id="section-1">グルーヴ方程式</h4>
-<p>グルーヴ方程式は、複数のリズム層にわたるリズム尺度、ディヴィジョンの持続時間、およびPセンターの変位を数量的に記述する。</p>
-<section id="section-2" class="level5">
-<h5 class="anchored" data-anchor-id="section-2">数量的なグルーヴ原則の表現法</h5>
-<p>グルーヴ原則は、次の状態ベクトルによって数量的に表現される：</p>
+<p>グルーヴ方程式は、パターンの長さ、ディヴィジョンの持続時間、及びPセンターの変位を用いて、グルーヴの多階層的なリズム構造を定量化するモデルを定義し、このモデルを方程式として表す。その定義は次のとおりである。</p>
+<section id="グルーヴ解像度ベクトル" class="level5">
+<h5 class="anchored" data-anchor-id="グルーヴ解像度ベクトル">グルーヴ解像度ベクトル</h5>
+<p>一つのリズム解像度におけるグルーヴは、次の状態ベクトルによって定量的に記述される：</p>
 <p><span class="math display">\[
 \boxed{
 \mathbf{x}
@@ -775,20 +775,21 @@ N(\mathbf{x})
 =
 \frac{1}{r(\mathbf{x})}.
 \]</span></p>
-<p><span class="math inline">\(r\)</span> と <span class="math inline">\(N\)</span> のいずれも、数量的な持続時間 <span class="math inline">\(D\)</span> を置き換えるものではない。</p>
+<p><span class="math inline">\(r\)</span> と <span class="math inline">\(N\)</span> のいずれも、定量的な持続時間 <span class="math inline">\(D\)</span> を置き換えるものではない。</p>
+<p>したがって、ベクトル <span class="math inline">\(\mathbf{x}\)</span> は解像度ごとのグルーヴ状態である。それはグルーヴ原則を表すものではなく、それ自体がグルーヴの完全な定量表現でもない。</p>
 </section>
-<section id="変換行列" class="level5">
-<h5 class="anchored" data-anchor-id="変換行列">変換行列</h5>
-<p>数量変換は3つのパラメータを持つ：</p>
+<section id="グルーヴ階層行列" class="level5">
+<h5 class="anchored" data-anchor-id="グルーヴ階層行列">グルーヴ階層行列</h5>
+<p>各グルーヴ原則は、多階層グルーヴの一つの階層を大まかに特徴づける。そのような階層は、三つのパラメータを持つ階層行列によって定量的に表現される：</p>
 <p><span class="math display">\[
-\lambda&gt;0,
+\lambda\in\mathbb{N}_{\geq 1},
 \qquad
-\delta&gt;0,
+\delta\in\mathbb{Q}\cap(0,1],
 \qquad
-c\in\mathbb{R}_{\geq 0}.
+c\in\mathbb{N}_{\geq 0}.
 \]</span></p>
-<p>入力パラメータの三つ組 <span class="math inline">\((\lambda,\delta,c)\)</span> において、<span class="math inline">\(\lambda\)</span> は現在のグルーヴ状態の全体の持続時間と既存のPセンターオフセットを拡大・縮小する。<span class="math inline">\(\lambda\)</span> が正の整数である場合、それは反復回数として解釈できる。パラメータ <span class="math inline">\(\delta\)</span> は1つの ディヴィジョン の持続時間を拡大・縮小する。たとえば、<span class="math inline">\(\delta=\frac12\)</span> は ディヴィジョン の持続時間を半分にする。パラメータ <span class="math inline">\(c\)</span> は、更新後のディヴィジョンの持続時間 <span class="math inline">\(D'=\delta D\)</span> を単位として、オンセットがPセンターよりどれだけ先行するかを指定する。</p>
-<p>その行列は次のとおりである：</p>
+<p>階層パラメータの三つ組 <span class="math inline">\((\lambda,\delta,c)\)</span> において、<span class="math inline">\(\lambda\)</span> は現在のグルーヴ状態の全体の持続時間と、既存のPセンターオフセットを拡大・縮小する。正の整数である <span class="math inline">\(\lambda\)</span> は、反復回数として解釈できる。パラメータ <span class="math inline">\(\delta\)</span> は一つの<strong>?meta:は{{&lt;meta</strong>の持続時間を半分にする。パラメータ <span class="math inline">\(c\)</span> は、オンセットがPセンターより先行する距離を、更新後のディヴィジョンの非負整数個分として指定する。この測定には <span class="math inline">\(D'=\delta D\)</span> を用いる。</p>
+<p>階層行列は次のとおりである：</p>
 <p><span class="math display">\[
 \boxed{
 A_{\lambda,\delta,c}
@@ -800,7 +801,7 @@ A_{\lambda,\delta,c}
 \end{pmatrix}.
 }
 \]</span></p>
-<p>これは状態ベクトルに直接作用する：</p>
+<p>階層行列を、一つのリズム解像度におけるグルーヴ状態に適用すると、次の解像度における状態が生成される：</p>
 <p><span class="math display">\[
 \boxed{
 \mathbf{x}'
@@ -822,22 +823,25 @@ D'=\delta D,
 \qquad
 P'=\lambda P+cD'.
 \]</span></p>
-<p>各パラメータの意味は次のとおりである：</p>
+<p>各パラメータは階層の一側面を規定する：</p>
 <ul>
 <li><span class="math inline">\(\lambda\)</span> は全体の持続時間と、既存のPセンターオフセットを拡大・縮小する。</li>
 <li><span class="math inline">\(\delta\)</span> はディヴィジョンの持続時間を拡大・縮小する。</li>
 <li><span class="math inline">\(c\)</span> は、更新後のディヴィジョンを単位として、新たなPセンター変位を測る。</li>
 </ul>
-<p>中心性は <span class="math inline">\(c\)</span> から導出される分類である：</p>
+<p>中心性は、階層パラメータの三つ組全体から導出される分類である：</p>
 <p><span class="math display">\[
-\chi(c)
+\chi(\lambda,\delta,c)
 =
 \begin{cases}
-\mathrm{postcentric}, &amp; c=0,\\[4pt]
+\mathrm{nocentric},
+&amp;(\lambda,\delta,c)=(1,1,0),\\[4pt]
+\mathrm{postcentric},
+&amp;c=0\text{ and }(\lambda,\delta)\ne(1,1),\\[4pt]
 \mathrm{precentric}, &amp; c&gt;0.
 \end{cases}
 \]</span></p>
-<p>正規化された初期状態は次のとおりである：</p>
+<p>正規化された基準状態は次のとおりである：</p>
 <p><span class="math display">\[
 \boxed{
 \mathbf{x}_0
@@ -845,16 +849,21 @@ P'=\lambda P+cD'.
 (1,1,0)^T.
 }
 \]</span></p>
-<div class="callout callout-style-default callout-note callout-titled" title="単一変換の確認">
+<div class="callout callout-style-default callout-note callout-titled" title="単一階層の確認">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-単一変換の確認
+単一階層の確認
 </div>
 </div>
 <div class="callout-body-container callout-body">
+<p><span class="math display">\[
+A_{1,1,0}\mathbf{x}_0
+=
+\mathbf{x}_0.
+\]</span></p>
 <p><span class="math display">\[
 A_{2,1,0}\mathbf{x}_0
 =
@@ -876,21 +885,19 @@ A_{1,\frac12,1}\mathbf{x}_0
 </div>
 </div>
 </section>
-<section id="位置を表す桁としてのリズム層" class="level5">
-<h5 class="anchored" data-anchor-id="位置を表す桁としてのリズム層">位置を表す桁としてのリズム層</h5>
-<p>多層グルーヴは、次の添字を持つリズム上の位置によって表される：</p>
+<section id="階層と解像度の系列" class="level5">
+<h5 class="anchored" data-anchor-id="階層と解像度の系列">階層と解像度の系列</h5>
+<p>多階層グルーヴは、次の添字が付いた順序付きの階層を含む：</p>
 <p><span class="math display">\[
-i=0,1,\ldots,k.
+i=1,\ldots,k.
 \]</span></p>
-<p>この添字は位置を表す。これは、数における数字の桁位置と同じ働きをする。10進数では、一の位、十の位、百の位、千の位などの名称は位置を記述するものであり、個別の数学的対象を新たに作るものではない。同様に、大小節、小節、拍、サブディヴィジョン、マイクロディヴィジョンといった名称はリズム上の位置を記述するが、数量計算には関与しない。</p>
-<p>同じラベルを複数の位置で使用してもよい。同じ変換行列が複数回現れてもよい。どちらにも、出現ごとの一意な識別子は必要ない。</p>
-<p>各位置 <span class="math inline">\(i\geq1\)</span> に対して、次のようにおく：</p>
+<p>対応する解像度状態には <span class="math inline">\(i=0,1,\ldots,k\)</span> の添字が付き、<span class="math inline">\(\mathbf{x}_0\)</span> は基準状態である。各階層 <span class="math inline">\(i\geq1\)</span> について、次のようにおく：</p>
 <p><span class="math display">\[
 A_i
 =
 A_{\lambda_i,\delta_i,c_i}.
 \]</span></p>
-<p>位置 <span class="math inline">\(i\)</span> における状態は次のとおりである：</p>
+<p>階層 <span class="math inline">\(A_i\)</span> を適用すると、次の解像度ごとの状態が生成される：</p>
 <p><span class="math display">\[
 \boxed{
 \mathbf{x}_i
@@ -898,31 +905,18 @@ A_{\lambda_i,\delta_i,c_i}.
 A_i\mathbf{x}_{i-1}.
 }
 \]</span></p>
-<p>同値な表現は次のとおりである：</p>
+<p>同じことを次のようにも表せる：</p>
 <p><span class="math display">\[
 \mathbf{x}_i
 =
 A_iA_{i-1}\cdots A_1\mathbf{x}_0.
 \]</span></p>
-<p>完全な数量記述は、すべての層を保持する：</p>
-<p><span class="math display">\[
-\boxed{
-\mathbf{X}_{\mathfrak G}
-=
-\begin{bmatrix}
-\mathbf{x}_0&amp;
-\mathbf{x}_1&amp;
-\cdots&amp;
-\mathbf{x}_k
-\end{bmatrix}.
-}
-\]</span></p>
-<p>したがって、最終状態をグルーヴ全体と同一視しない。最終状態は、多層的な実現を構成する1つの列である。</p>
-<p>マイクロディヴィジョンとは、適用される記譜体系において、その時間的位置を通常の音価で表現できないリズム上の位置である。これは同じ数量体系内の位置であり、外部から加えられるタイミング補正ではない。</p>
+<p>最終状態 <span class="math inline">\(\mathbf{x}_k\)</span> を含め、個々の解像度ごとの状態はいずれも完全なグルーヴではない。完全なグルーヴは、基準状態と、適用順に並べられたすべての階層を保持する。</p>
 </section>
-<section id="グルーヴ方程式の形式的定義" class="level5">
-<h5 class="anchored" data-anchor-id="グルーヴ方程式の形式的定義">グルーヴ方程式の形式的定義</h5>
-<p>正規化されたグルーヴ方程式は次のとおりである：</p>
+<section id="section-2" class="level5">
+<h5 class="anchored" data-anchor-id="section-2">定量化されたグルーヴ原則</h5>
+<p>グルーヴ方程式の形式的定義</p>
+<p>正規化されたグルーヴ方程式――グルーヴの定量表現――は、次のとおりである：</p>
 <p><span class="math display">\[
 \boxed{
 \mathfrak G
@@ -933,7 +927,7 @@ A_1,\ldots,A_k
 \right).
 }
 \]</span></p>
-<p>その正規化された数量的実現は次のとおりである：</p>
+<p>ここで、<span class="math inline">\(\mathbf{x}_0\)</span> は正規化された基準状態であり、各 <span class="math inline">\(A_i\)</span> は多階層グルーヴの一つの階層である。その正規化された定量的実現は、基準状態と、各階層によって生成される解像度ごとの状態を含む：</p>
 <p><span class="math display">\[
 \boxed{
 \operatorname{GE}(\mathfrak G)
@@ -948,13 +942,13 @@ A_k\cdots A_1\mathbf{x}_0
 \end{bmatrix}.
 }
 \]</span></p>
-<p>任意の位置名を列とともに表示してもよいが、それらは <span class="math inline">\(\mathfrak G\)</span> のパラメータではない。</p>
+<p>したがって、<span class="math inline">\(\mathfrak G\)</span> はグルーヴの構造的定義であり、<span class="math inline">\(\operatorname{GE}(\mathfrak G)\)</span> はその完全な定量的実現である。</p>
 </section>
 <section id="導出結果" class="level5">
 <h5 class="anchored" data-anchor-id="導出結果">導出結果</h5>
 <section id="行列合成と閉形式評価" class="level6">
 <h6 class="anchored" data-anchor-id="行列合成と閉形式評価">行列合成と閉形式評価</h6>
-<p>2つの変換について、<span class="math inline">\(A_1\)</span> を先に、<span class="math inline">\(A_2\)</span> を後に適用すると次のようになる：</p>
+<p>二つの階層について、<span class="math inline">\(A_1\)</span> を先に、<span class="math inline">\(A_2\)</span> を後に適用すると次のようになる：</p>
 <p><span class="math display">\[
 A_2A_1
 =
@@ -962,7 +956,14 @@ A_{\lambda_2\lambda_1,\,
 \delta_2\delta_1,\,
 c_2+\frac{\lambda_2}{\delta_2}c_1}.
 \]</span></p>
-<p><span class="math inline">\(k\)</span> 個の変換に対して、次のように定義する：</p>
+<p>この合成演算子の実効第三パラメータは次のとおりである：</p>
+<p><span class="math display">\[
+c_{2\circ1}^{\mathrm{eff}}
+=
+c_2+\frac{\lambda_2}{\delta_2}c_1.
+\]</span></p>
+<p>個々の階層では <span class="math inline">\(c_i\in\mathbb{N}_{\geq0}\)</span> でなければならないが、実効パラメータ <span class="math inline">\(c_{2\circ1}^{\mathrm{eff}}\)</span> は非負整数とは限らない。その場合でも、この積は妥当な合成演算子であるが、個別階層のパラメータ領域のもとで許容される単一階層ではない。</p>
+<p><span class="math inline">\(k\)</span> 個の階層に対して、次のように定義する：</p>
 <p><span class="math display">\[
 \Lambda_k
 =
@@ -1010,7 +1011,7 @@ A_k\cdots A_1
 </section>
 <section id="導出されたリズム尺度" class="level6">
 <h6 class="anchored" data-anchor-id="導出されたリズム尺度">導出されたリズム尺度</h6>
-<p>位置 <span class="math inline">\(k\)</span> におけるディヴィジョンの相対的な大きさは次のとおりである：</p>
+<p>階層 <span class="math inline">\(k\)</span> の適用後におけるディヴィジョンの相対的な大きさは次のとおりである：</p>
 <p><span class="math display">\[
 r_k
 =
@@ -1028,7 +1029,7 @@ N_0
 \prod_{i=1}^{k}
 \frac{\lambda_i}{\delta_i}.
 \]</span></p>
-<p>リズム上の各位置について、そのスカラー尺度係数を次のように定義する：</p>
+<p>各階層について、そのスカラー尺度係数を次のように定義する：</p>
 <p><span class="math display">\[
 \mathrm{base}_i^{n_i}
 =
@@ -1057,7 +1058,7 @@ R
 </section>
 <section id="可換性" class="level6">
 <h6 class="anchored" data-anchor-id="可換性">可換性</h6>
-<p><span class="math inline">\(L,D\)</span> 成分は、それぞれの尺度係数が積によって結合されるため可換である。完全な変換が可換となるための必要十分条件は次のとおりである：</p>
+<p><span class="math inline">\(L,D\)</span> 成分は、それぞれの尺度係数が乗算されるため可換である。完全な階層行列が可換となるための必要十分条件は次のとおりである：</p>
 <p><span class="math display">\[
 \boxed{
 c_1\delta_1(\lambda_2-\delta_2)
@@ -1065,15 +1066,16 @@ c_1\delta_1(\lambda_2-\delta_2)
 c_2\delta_2(\lambda_1-\delta_1).
 }
 \]</span></p>
-<p>一般には可換ではない。Pセンター成分が、既存のPセンターオフセットと現在のディヴィジョン持続時間の両方に依存するためである。</p>
-<p>純粋な<ruby><rb>ポストセントリック</rb><rt>Postcentric</rt></ruby>変換は、次の条件により可換である：</p>
+<p>一般に、階層行列は可換ではない。Pセンター成分が、既存のPセンターオフセットと現在のディヴィジョン持続時間の両方に依存するためである。</p>
+<p>新たに加わるPセンター変位がゼロである任意の二つの階層行列は、次の条件のもとで可換である：</p>
 <p><span class="math display">\[
 c_1=c_2=0.
 \]</span></p>
+<p>このクラスには、<ruby><rb>ポストセントリック</rb><rt>Postcentric</rt></ruby>階層と、ノーセントリックな単位階層が含まれる。</p>
 </section>
-<section id="層の閉包と時間的実現" class="level6">
-<h6 class="anchored" data-anchor-id="層の閉包と時間的実現">層の閉包と時間的実現</h6>
-<p>層の状態 <span class="math inline">\(\mathbf{x}_i=(L_i,D_i,P_i)^T\)</span> に対して、次を仮定する：</p>
+<section id="階層の閉包と時間的実現" class="level6">
+<h6 class="anchored" data-anchor-id="階層の閉包と時間的実現">階層の閉包と時間的実現</h6>
+<p>解像度ごとの状態 <span class="math inline">\(\mathbf{x}_i=(L_i,D_i,P_i)^T\)</span> について、次を仮定する：</p>
 <p><span class="math display">\[
 N_i
 =
@@ -1121,18 +1123,13 @@ N_i\in
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JdhUcR_MbTw?si=UzrCtMxmUPJAqqwj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
 </iframe>
 </div>
-<p>正規化された初期状態を使用する：</p>
+<p>正規化された基準状態を使用する：</p>
 <p><span class="math display">\[
 \mathbf{x}_0
 =
 (1,1,0)^T.
 \]</span></p>
-<p>任意の位置名のラベルは次のとおりである：</p>
-<p><span class="math display">\[
-(H,H,M,B,S_1).
-\]</span></p>
-<p>これらは列ラベルにすぎない。繰り返される <span class="math inline">\(H\)</span> は、個別のノード同一性を導入しない。</p>
-<p>5つの変換行列は次のとおりである：</p>
+<p>このグルーヴには、順序付けられた五つの階層行列がある：</p>
 <p><span class="math display">\[
 \left(
 A_{4,1,0},\,
@@ -1142,8 +1139,7 @@ A_{1,\frac13,2},\,
 A_{1,\frac13,2}
 \right).
 \]</span></p>
-<p>同じ行列が最後の2つの位置に現れるが、2つ目の数学的な型や同一性を必要としない。</p>
-<p>逐次評価すると次のようになる：</p>
+<p>階層を順次適用すると次のようになる：</p>
 <p><span class="math display">\[
 \mathbf{x}_1
 =
@@ -1169,7 +1165,7 @@ A_{1,\frac13,2}
 =
 \left(96,\frac19,\frac{26}{9}\right)^T.
 \]</span></p>
-<p>したがって、完全な数量的実現は次のとおりである：</p>
+<p>したがって、完全な定量的実現は次のとおりである：</p>
 <p><span class="math display">\[
 \boxed{
 \mathbf{X}_{\text{Near the Cross}}
@@ -1186,10 +1182,10 @@ A_{1,\frac13,2}
 <section id="groove-equation" class="level4">
 <h4 class="anchored" data-anchor-id="groove-equation">Groove Equation</h4>
 <p>グルーヴ方程式の英語での形式的な定義は次の通りです。</p>
-<p>The Groove Equation gives a quantitative description of rhythmic scale,division duration, and P-center displacement across multiple rhythmic layers.</p>
-<section id="section-3" class="level5">
-<h5 class="anchored" data-anchor-id="section-3">Quantitative Representation of a Groove Principle</h5>
-<p>A Groove Principle is quantitatively represented by the following state vector:</p>
+<p>The Groove Equation defines a quantitative model of a groove’s multilayered rhythmic structure in terms of pattern length, Division duration, and P-center displacement, and expresses this model as an equation. Its definition is as follows.</p>
+<section id="groove-resolution-vector" class="level5">
+<h5 class="anchored" data-anchor-id="groove-resolution-vector">Groove Resolution Vector</h5>
+<p>A groove at one rhythmic resolution is quantitatively described by thefollowing state vector:</p>
 <p><span class="math display">\[
 \boxed{
 \mathbf{x}
@@ -1222,19 +1218,20 @@ N(\mathbf{x})
 \frac{1}{r(\mathbf{x})}.
 \]</span></p>
 <p>Neither <span class="math inline">\(r\)</span> nor <span class="math inline">\(N\)</span> replaces the quantitative duration <span class="math inline">\(D\)</span>.</p>
+<p>The vector <span class="math inline">\(\mathbf{x}\)</span> is therefore a resolution-specific groove state. Itdoes not represent a Groove Principle and is not, by itself, the completequantitative representation of a groove.</p>
 </section>
-<section id="transformation-matrix" class="level5">
-<h5 class="anchored" data-anchor-id="transformation-matrix">Transformation Matrix</h5>
-<p>A quantitative transformation has three parameters:</p>
+<section id="groove-layer-matrix" class="level5">
+<h5 class="anchored" data-anchor-id="groove-layer-matrix">Groove Layer Matrix</h5>
+<p>Each Groove Principle broadly characterizes a layer of a multilayered groove.Such a layer is quantitatively represented by a layer matrix with threeparameters:</p>
 <p><span class="math display">\[
-\lambda&gt;0,
+\lambda\in\mathbb{N}_{\geq 1},
 \qquad
-\delta&gt;0,
+\delta\in\mathbb{Q}\cap(0,1],
 \qquad
-c\in\mathbb{R}_{\geq 0}.
+c\in\mathbb{N}_{\geq 0}.
 \]</span></p>
-<p>In the input parameter triple <span class="math inline">\((\lambda,\delta,c)\)</span>, <span class="math inline">\(\lambda\)</span> scales the total duration of the current groove state and its existing P-center offset. When <span class="math inline">\(\lambda\)</span> is a positive integer, it can be interpreted as the number of repetitions. The parameter <span class="math inline">\(\delta\)</span> scales the duration of one division; for example, <span class="math inline">\(\delta=\frac12\)</span> halves the division duration. The parameter <span class="math inline">\(c\)</span> specifies how far the onset precedes the P-center, measured in units of the updated division duration <span class="math inline">\(D'=\delta D\)</span>.</p>
-<p>Its matrix is:</p>
+<p>In the layer-parameter triple <span class="math inline">\((\lambda,\delta,c)\)</span>, <span class="math inline">\(\lambda\)</span> scales the totalduration of the current groove state and its existing P-center offset. As apositive integer, <span class="math inline">\(\lambda\)</span> can be interpreted as the number of repetitions.The parameter <span class="math inline">\(\delta\)</span> scales the duration of one division; for example,<span class="math inline">\(\delta=\frac12\)</span> halves the division duration. The parameter <span class="math inline">\(c\)</span> specifies thenonnegative integer number of updated divisions by which the onset precedesthe P-center, measured using <span class="math inline">\(D'=\delta D\)</span>.</p>
+<p>The layer matrix is:</p>
 <p><span class="math display">\[
 \boxed{
 A_{\lambda,\delta,c}
@@ -1246,7 +1243,7 @@ A_{\lambda,\delta,c}
 \end{pmatrix}.
 }
 \]</span></p>
-<p>It acts directly on the state vector:</p>
+<p>Applying the layer matrix to the groove state at one rhythmic resolutionproduces the state at the next resolution:</p>
 <p><span class="math display">\[
 \boxed{
 \mathbf{x}'
@@ -1268,22 +1265,25 @@ D'=\delta D,
 \qquad
 P'=\lambda P+cD'.
 \]</span></p>
-<p>The parameters mean:</p>
+<p>Each parameter specifies an aspect of the layer:</p>
 <ul>
 <li><span class="math inline">\(\lambda\)</span> scales the total duration and the existing P-center offset.</li>
 <li><span class="math inline">\(\delta\)</span> scales the division duration.</li>
 <li><span class="math inline">\(c\)</span> measures the new P-center displacement in updated divisions.</li>
 </ul>
-<p>Centricity is a classification derived from <span class="math inline">\(c\)</span>:</p>
+<p>Centricity is a classification derived from the complete layer-parametertriple:</p>
 <p><span class="math display">\[
-\chi(c)
+\chi(\lambda,\delta,c)
 =
 \begin{cases}
-\mathrm{postcentric}, &amp; c=0,\\[4pt]
+\mathrm{nocentric},
+&amp;(\lambda,\delta,c)=(1,1,0),\\[4pt]
+\mathrm{postcentric},
+&amp;c=0\text{ and }(\lambda,\delta)\ne(1,1),\\[4pt]
 \mathrm{precentric}, &amp; c&gt;0.
 \end{cases}
 \]</span></p>
-<p>The normalized initial state is:</p>
+<p>The normalized reference state is:</p>
 <p><span class="math display">\[
 \boxed{
 \mathbf{x}_0
@@ -1291,16 +1291,21 @@ P'=\lambda P+cD'.
 (1,1,0)^T.
 }
 \]</span></p>
-<div class="callout callout-style-default callout-note callout-titled" title="Single-operation checks">
+<div class="callout callout-style-default callout-note callout-titled" title="Single-layer checks">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Single-operation checks
+Single-layer checks
 </div>
 </div>
 <div class="callout-body-container callout-body">
+<p><span class="math display">\[
+A_{1,1,0}\mathbf{x}_0
+=
+\mathbf{x}_0.
+\]</span></p>
 <p><span class="math display">\[
 A_{2,1,0}\mathbf{x}_0
 =
@@ -1322,21 +1327,19 @@ A_{1,\frac12,1}\mathbf{x}_0
 </div>
 </div>
 </section>
-<section id="rhythmic-layers-as-positional-places" class="level5">
-<h5 class="anchored" data-anchor-id="rhythmic-layers-as-positional-places">Rhythmic Layers as Positional Places</h5>
-<p>A multi-layer groove is represented by rhythmic places indexed by:</p>
+<section id="layer-and-resolution-sequence" class="level5">
+<h5 class="anchored" data-anchor-id="layer-and-resolution-sequence">Layer And Resolution Sequence</h5>
+<p>A multilayered groove contains ordered layers indexed by:</p>
 <p><span class="math display">\[
-i=0,1,\ldots,k.
+i=1,\ldots,k.
 \]</span></p>
-<p>The index is positional. It functions like the position of a digit in anumeral. In a decimal numeral, names such as ones, tens, hundreds, andthousands describe places; they do not create separate mathematical objects.Likewise, names such as hypermeasure, measure, beat, subdivision, andmicrodivision describe rhythmic places but do not participate in thequantitative calculation.</p>
-<p>The same label may be used at more than one place. The same transformationmatrix may also occur more than once. Neither requires a unique occurrenceidentifier.</p>
-<p>For each place <span class="math inline">\(i\geq1\)</span>, let:</p>
+<p>The corresponding resolution states are indexed by <span class="math inline">\(i=0,1,\ldots,k\)</span>, where<span class="math inline">\(\mathbf{x}_0\)</span> is the reference state. For each layer <span class="math inline">\(i\geq1\)</span>, let:</p>
 <p><span class="math display">\[
 A_i
 =
 A_{\lambda_i,\delta_i,c_i}.
 \]</span></p>
-<p>The state at place <span class="math inline">\(i\)</span> is:</p>
+<p>Applying layer <span class="math inline">\(A_i\)</span> produces the next resolution-specific state:</p>
 <p><span class="math display">\[
 \boxed{
 \mathbf{x}_i
@@ -1350,25 +1353,12 @@ A_i\mathbf{x}_{i-1}.
 =
 A_iA_{i-1}\cdots A_1\mathbf{x}_0.
 \]</span></p>
-<p>The complete quantitative description retains every layer:</p>
-<p><span class="math display">\[
-\boxed{
-\mathbf{X}_{\mathfrak G}
-=
-\begin{bmatrix}
-\mathbf{x}_0&amp;
-\mathbf{x}_1&amp;
-\cdots&amp;
-\mathbf{x}_k
-\end{bmatrix}.
-}
-\]</span></p>
-<p>Thus, the final state is not identified with the complete groove. It is onecolumn of the multi-layer realization.</p>
-<p>A microdivision is a rhythmic place whose temporal positions cannot beexpressed as ordinary note values in the applicable notation system. It is aplace in the same quantitative system, not an external timing correction.</p>
+<p>No individual resolution-specific state, including the final state<span class="math inline">\(\mathbf{x}_k\)</span>, is the complete groove. The complete groove retains thereference state and every layer in their applied order.</p>
 </section>
-<section id="formal-definition-of-the-groove-equation" class="level5">
-<h5 class="anchored" data-anchor-id="formal-definition-of-the-groove-equation">Formal Definition of the Groove Equation</h5>
-<p>A normalized Groove Equation is:</p>
+<section id="section-3" class="level5">
+<h5 class="anchored" data-anchor-id="section-3">Quantitative Representation of a Groove Principle</h5>
+<p>Formal Definition of the Groove Equation</p>
+<p>A normalized Groove Equation—the quantitative representation of a groove—is:</p>
 <p><span class="math display">\[
 \boxed{
 \mathfrak G
@@ -1379,7 +1369,7 @@ A_1,\ldots,A_k
 \right).
 }
 \]</span></p>
-<p>Its normalized quantitative realization is:</p>
+<p>Here, <span class="math inline">\(\mathbf{x}_0\)</span> is the normalized reference state, and each <span class="math inline">\(A_i\)</span> is onelayer of the multilayered groove. Its normalized quantitative realizationcontains the reference state and the resolution-specific state produced byevery layer:</p>
 <p><span class="math display">\[
 \boxed{
 \operatorname{GE}(\mathfrak G)
@@ -1394,13 +1384,13 @@ A_k\cdots A_1\mathbf{x}_0
 \end{bmatrix}.
 }
 \]</span></p>
-<p>Optional place names may be displayed with the columns, but they are notparameters of <span class="math inline">\(\mathfrak G\)</span>.</p>
+<p>Thus, <span class="math inline">\(\mathfrak G\)</span> is the groove’s structural definition, whereas<span class="math inline">\(\operatorname{GE}(\mathfrak G)\)</span> is its complete quantitative realization.</p>
 </section>
 <section id="derived-results" class="level5">
 <h5 class="anchored" data-anchor-id="derived-results">Derived Results</h5>
 <section id="matrix-composition-and-closed-form-evaluation" class="level6">
 <h6 class="anchored" data-anchor-id="matrix-composition-and-closed-form-evaluation">Matrix Composition and Closed-Form Evaluation</h6>
-<p>For two transformations, applying <span class="math inline">\(A_1\)</span> first and <span class="math inline">\(A_2\)</span> second gives:</p>
+<p>For two layers, applying <span class="math inline">\(A_1\)</span> first and <span class="math inline">\(A_2\)</span> second gives:</p>
 <p><span class="math display">\[
 A_2A_1
 =
@@ -1408,7 +1398,14 @@ A_{\lambda_2\lambda_1,\,
 \delta_2\delta_1,\,
 c_2+\frac{\lambda_2}{\delta_2}c_1}.
 \]</span></p>
-<p>For <span class="math inline">\(k\)</span> transformations, define:</p>
+<p>The effective third parameter of this composite operator is:</p>
+<p><span class="math display">\[
+c_{2\circ1}^{\mathrm{eff}}
+=
+c_2+\frac{\lambda_2}{\delta_2}c_1.
+\]</span></p>
+<p>Although each individual layer requires <span class="math inline">\(c_i\in\mathbb{N}_{\geq0}\)</span>, theeffective parameter <span class="math inline">\(c_{2\circ1}^{\mathrm{eff}}\)</span> need not be a natural number.In that case, the product remains a valid composite operator but is not anadmissible single layer under the individual-layer parameter domain.</p>
+<p>For <span class="math inline">\(k\)</span> layers, define:</p>
 <p><span class="math display">\[
 \Lambda_k
 =
@@ -1456,7 +1453,7 @@ A_k\cdots A_1
 </section>
 <section id="derived-rhythmic-scale" class="level6">
 <h6 class="anchored" data-anchor-id="derived-rhythmic-scale">Derived Rhythmic Scale</h6>
-<p>The relative division size at place <span class="math inline">\(k\)</span> is:</p>
+<p>The relative division size after layer <span class="math inline">\(k\)</span> is:</p>
 <p><span class="math display">\[
 r_k
 =
@@ -1474,7 +1471,7 @@ N_0
 \prod_{i=1}^{k}
 \frac{\lambda_i}{\delta_i}.
 \]</span></p>
-<p>For each rhythmic place, define its scalar scale factor by:</p>
+<p>For each layer, define its scalar scale factor by:</p>
 <p><span class="math display">\[
 \mathrm{base}_i^{n_i}
 =
@@ -1503,7 +1500,7 @@ R
 </section>
 <section id="commutativity" class="level6">
 <h6 class="anchored" data-anchor-id="commutativity">Commutativity</h6>
-<p>The <span class="math inline">\(L,D\)</span> components commute because their scale factors multiply. Thecomplete transformations commute exactly when:</p>
+<p>The <span class="math inline">\(L,D\)</span> components commute because their scale factors multiply. Thecomplete layer matrices commute exactly when:</p>
 <p><span class="math display">\[
 \boxed{
 c_1\delta_1(\lambda_2-\delta_2)
@@ -1511,15 +1508,16 @@ c_1\delta_1(\lambda_2-\delta_2)
 c_2\delta_2(\lambda_1-\delta_1).
 }
 \]</span></p>
-<p>They do not commute in general because the P-center component depends on boththe existing P-center offset and the current division duration.</p>
-<p>Pure postcentric transformations commute because:</p>
+<p>The layer matrices do not commute in general because the P-center componentdepends on both the existing P-center offset and the current divisionduration.</p>
+<p>Any two layer matrices with zero added P-center displacement commute when:</p>
 <p><span class="math display">\[
 c_1=c_2=0.
 \]</span></p>
+<p>This class includes postcentric layers and the nocentric identity layer.</p>
 </section>
 <section id="layer-closure-and-temporal-realization" class="level6">
 <h6 class="anchored" data-anchor-id="layer-closure-and-temporal-realization">Layer Closure and Temporal Realization</h6>
-<p>For a layer state <span class="math inline">\(\mathbf{x}_i=(L_i,D_i,P_i)^T\)</span>, suppose:</p>
+<p>For a resolution-specific state <span class="math inline">\(\mathbf{x}_i=(L_i,D_i,P_i)^T\)</span>, suppose:</p>
 <p><span class="math display">\[
 N_i
 =
@@ -1567,18 +1565,13 @@ N_i\in
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JdhUcR_MbTw?si=UzrCtMxmUPJAqqwj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
 </iframe>
 </div>
-<p>Use the normalized initial state:</p>
+<p>Use the normalized reference state:</p>
 <p><span class="math display">\[
 \mathbf{x}_0
 =
 (1,1,0)^T.
 \]</span></p>
-<p>The optional place-name labels are:</p>
-<p><span class="math display">\[
-(H,H,M,B,S_1).
-\]</span></p>
-<p>They are column labels only. The repeated <span class="math inline">\(H\)</span> does not introduce separate nodeidentities.</p>
-<p>The five transformation matrices are:</p>
+<p>The groove has five ordered layer matrices:</p>
 <p><span class="math display">\[
 \left(
 A_{4,1,0},\,
@@ -1588,8 +1581,7 @@ A_{1,\frac13,2},\,
 A_{1,\frac13,2}
 \right).
 \]</span></p>
-<p>The same matrix appears at the last two places without requiring a secondmathematical type or identity.</p>
-<p>Successive evaluation gives:</p>
+<p>Applying the layers successively gives:</p>
 <p><span class="math display">\[
 \mathbf{x}_1
 =
@@ -1996,13 +1988,13 @@ Pセンター軸
 リズム指数極性
 </th>
 <td>
-分裂拍 <span class="formula">(base<sup>−n</sup>)</span>
+分裂拍 <span class="formula">(<span class="math inline">\(\delta\in\mathbb N_{&gt;1}\)</span>)</span>
 </td>
 <td>
-孤立拍 <span class="formula">(base<sup>0</sup> = 1)</span>
+孤立拍 <span class="formula">(<span class="math inline">\(\lambda{=1}, \delta{=1}\)</span>)</span>
 </td>
 <td>
-増殖拍 <span class="formula">(base<sup>+n</sup>)</span>
+増殖拍 <span class="formula">(<span class="math inline">\(\lambda\in\mathbb N_{&gt;1}\)</span>)</span>
 </td>
 <td>
 音節頭／音節核-分離
