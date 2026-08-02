@@ -740,9 +740,8 @@ $$
 
 ##### Groove Resolution Vector
 
-The quantitative formalism for a Groove Principle consists of a groove state
-vector and a layer matrix. The state vector describes the groove at one
-rhythmic resolution:
+A groove at one rhythmic resolution is quantitatively described by the
+following state vector:
 
 $$
 \boxed{
@@ -780,29 +779,31 @@ $$
 
 Neither $r$ nor $N$ replaces the quantitative duration $D$.
 
-The vector $\mathbf{x}$ is therefore a resolution-specific groove state. It is
-not, by itself, the complete quantitative representation of a groove.
+The vector $\mathbf{x}$ is therefore a resolution-specific groove state. It
+does not represent a Groove Principle and is not, by itself, the complete
+quantitative representation of a groove.
 
 ##### Groove Layer Matrix
 
-One layer of a multilayered groove is quantitatively represented by a layer
-matrix with three parameters:
+Each Groove Principle broadly characterizes a layer of a multilayered groove.
+Such a layer is quantitatively represented by a layer matrix with three
+parameters:
 
 $$
 \lambda\in\mathbb{N}_{\geq 1},
 \qquad
-\delta\in\mathbb{Q}_{\leq 1},
+\delta\in\mathbb{Q}\cap(0,1],
 \qquad
 c\in\mathbb{N}_{\geq 0}.
 $$
 
 In the layer-parameter triple $(\lambda,\delta,c)$, $\lambda$ scales the total
-duration of the current groove state and its existing P-center offset. When
-$\lambda$ is a positive integer, it can be interpreted as the number of
-repetitions. The parameter $\delta$ scales the duration of one division; for
-example, $\delta=\frac12$ halves the division duration. The parameter $c$
-specifies how far the onset precedes the P-center, measured in units of the
-updated division duration $D'=\delta D$.
+duration of the current groove state and its existing P-center offset. As a
+positive integer, $\lambda$ can be interpreted as the number of repetitions.
+The parameter $\delta$ scales the duration of one division; for example,
+$\delta=\frac12$ halves the division duration. The parameter $c$ specifies the
+nonnegative integer number of updated divisions by which the onset precedes
+the P-center, measured using $D'=\delta D$.
 
 The layer matrix is:
 
@@ -851,14 +852,17 @@ Each parameter specifies an aspect of the layer:
 - $\delta$ scales the division duration.
 - $c$ measures the new P-center displacement in updated divisions.
 
-Centricity is a classification derived from $c$:
+Centricity is a classification derived from the complete layer-parameter
+triple:
 
 $$
-\chi(c)
+\chi(\lambda,\delta,c)
 =
 \begin{cases}
-\mathrm{postcentric}, & c=0,\\[4pt]
-\mathrm{nocentric}, & c=0,\\[4pt]
+\mathrm{nocentric},
+&(\lambda,\delta,c)=(1,1,0),\\[4pt]
+\mathrm{postcentric},
+&c=0\text{ and }(\lambda,\delta)\ne(1,1),\\[4pt]
 \mathrm{precentric}, & c>0.
 \end{cases}
 $$
@@ -874,6 +878,12 @@ $$
 $$
 
 ::: {.callout-note title="Single-layer checks"}
+
+$$
+A_{1,1,0}\mathbf{x}_0
+=
+\mathbf{x}_0.
+$$
 
 $$
 A_{2,1,0}\mathbf{x}_0
@@ -988,6 +998,19 @@ A_{\lambda_2\lambda_1,\,
 \delta_2\delta_1,\,
 c_2+\frac{\lambda_2}{\delta_2}c_1}.
 $$
+
+The effective third parameter of this composite operator is:
+
+$$
+c_{2\circ1}^{\mathrm{eff}}
+=
+c_2+\frac{\lambda_2}{\delta_2}c_1.
+$$
+
+Although each individual layer requires $c_i\in\mathbb{N}_{\geq0}$, the
+effective parameter $c_{2\circ1}^{\mathrm{eff}}$ need not be a natural number.
+In that case, the product remains a valid composite operator but is not an
+admissible single layer under the individual-layer parameter domain.
 
 For $k$ layers, define:
 
@@ -1117,11 +1140,13 @@ The layer matrices do not commute in general because the P-center component
 depends on both the existing P-center offset and the current division
 duration.
 
-Pure postcentric layer matrices commute because:
+Any two layer matrices with zero added P-center displacement commute when:
 
 $$
 c_1=c_2=0.
 $$
+
+This class includes postcentric layers and the nocentric identity layer.
 
 ###### Layer Closure and Temporal Realization
 
