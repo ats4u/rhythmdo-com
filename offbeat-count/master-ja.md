@@ -200,7 +200,7 @@ Pセンターよりも後ろに情報の中心があると感じる傾向をポ�
 
 #### {{<meta var.GROOVE_EQUATIONS.ja>}}
 
-{{<meta var.GROOVE_EQUATIONS.ja>}}は、複数のリズム層にわたるリズム尺度、{{<meta var.DIVISION.ja>}}の持続時間、および{{<meta var.P_CENTER.ja>}}の変位を数量的に記述する。
+{{<meta var.GROOVE_EQUATIONS.ja>}}とは、グルーヴの多層的なリズム構造を、パターンの長さ、{{<meta var.DIVISION.ja>}}の持続時間、及び{{<meta var.P_CENTER.ja>}}のずれ距離を定量的に表現するモデルを定義し、それを方程式として表したものです。 {{<meta var.GROOVE_EQUATIONS.ja>}} の定義は以下の通りです。
 
 ##### {{<meta var.QUANTITATIVE_REPRESENTATION_OF_A_GROOVE_PRINCIPLE.ja>}}
 
@@ -736,8 +736,7 @@ $$
 
 グルーヴ方程式の英語での形式的な定義は次の通りです。
 
-The Groove Equation gives a quantitative description of rhythmic scale,
-division duration, and P-center displacement across multiple rhythmic layers.
+{{<meta var.GROOVE_EQUATIONS.en>}} defines a quantitative model of a groove’s multilayered rhythmic structure in terms of pattern length, {{<meta var.DIVISION.en>}} duration, and {{<meta var.P_CENTER.en>}} displacement, and expresses this model as an equation. Its definition is as follows.
 
 ##### {{<meta var.QUANTITATIVE_REPRESENTATION_OF_A_GROOVE_PRINCIPLE.en>}}
 
@@ -784,9 +783,9 @@ Neither $r$ nor $N$ replaces the quantitative duration $D$.
 A quantitative transformation has three parameters:
 
 $$
-\lambda>0,
+\lambda\geq1,
 \qquad
-\delta>0,
+\delta\geq1,
 \qquad
 c\in\mathbb{R}_{\geq 0}.
 $$
@@ -1595,9 +1594,9 @@ body.quarto-dark .rdo9pog-table-scroll {
 <tr>
   <th scope="row">原則１</th>
   <th scope="row">リズム指数極性</th>
-  <td>分裂拍 <span class="formula">(base<sup>−n</sup>)</span></td>
-  <td>孤立拍 <span class="formula">(base<sup>0</sup> = 1)</span></td>
-  <td>増殖拍 <span class="formula">(base<sup>+n</sup>)</span></td>
+  <td>分裂拍 <span class="formula">($\delta\in\mathbb N_{>1}$)</span></td>
+  <td>孤立拍 <span class="formula">($\lambda{=1}, \delta{=1}$)</span></td>
+  <td>増殖拍 <span class="formula">($\lambda\in\mathbb N_{>1}$)</span></td>
   <td>音節頭／音節核-分離</td>
   <td>音節頭／音節核-融合</td>
   <td>音節頭／音節核-分離</td>
