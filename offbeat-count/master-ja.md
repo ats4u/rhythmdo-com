@@ -256,7 +256,7 @@ $$
 c\in\mathbb{N}_{\geq 0}.
 $$
 
-階層パラメータの三つ組 $(\lambda,\delta,c)$ において、$\lambda$ は現在のグルーヴ状態の全体の持続時間と、既存の{{<meta var.P_CENTER.ja>}}オフセットを拡大・縮小する。正の整数である $\lambda$ は、反復回数として解釈できる。パラメータ $\delta$ は一つの{{<meta var.DIVISION.ja>}}の持続時間を拡大・縮小する。たとえば、$\delta=\frac12$ は{{<meta var.DIVISION.ja>}}の持続時間を半分にする。パラメータ $c$ は、オンセットが{{<meta var.P_CENTER.ja>}}より先行する距離を、更新後の{{<meta var.DIVISION.ja>}}の非負整数個分として指定する。この測定には $D'=\delta D$ を用いる。
+階層パラメータの三つ組 $(\lambda,\delta,c)$ において、$\lambda$ は現在のグルーヴ状態の全体の持続時間と、既存の {{<meta var.P_CENTER.ja>}} オフセットを拡大・縮小する。正の整数である $\lambda$ は、反復回数として解釈できる。パラメータ $\delta$ は一つの {{<meta var.DIVISION.ja>}} の持続時間を拡大・縮小する。たとえば、$\delta=\frac12$ は {{<meta var.DIVISION.ja>}} の持続時間を半分にする。パラメータ $c$ は、オンセットが {{<meta var.P_CENTER.ja>}} より先行する距離を、更新後の {{<meta var.DIVISION.ja>}} の非負整数個分として指定する。この測定には $D'=\delta D$ を用いる。
 
 階層行列は次のとおりである：
 
